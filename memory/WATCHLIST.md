@@ -4,28 +4,25 @@
 {
   "candidates": [
     {
-      "bear_case": "Momentum reversal if S&P 500 shifts to value rotation or downturn; underperformance vs broad indices; rebalancing risks March/September; elevated P/E 30.57 vulnerable to sentiment shifts[1][3].",
-      "catalyst": "Recent trading at $128.30\u2013$131.83 with +1.23% close-to-close gain, daily high $131.50, and intraday range showing continuation of uptrend from 52-week low $78.25[1][2][6].",
+      "bear_case": "Momentum reversal if S&P 500 shifts to value rotation or downturn; underperformance vs broad indices; rebalancing risks March/September; elevated P/E 30.57 vulnerable to sentiment shifts.[1][3]",
+      "catalyst": "Recent trading at $128.30\u2013$131.83 with +1.23% close-to-close gain, daily high $131.50, and intraday range showing continuation of uptrend from 52-week low $78.25.[1][2][6]",
       "confidence": 0.78,
       "horizon_days": 5,
-      "momentum_case": "52-week gain ~39.75% (low $91.93 to high $132.29), recent volume 1.95M vs avg 2.68M, strong relative strength in large blend, YTD +10.72-11.03%[1][6][7].",
-      "quality_case": "Diversified ~102 S&P 500 holdings weighted by market cap and momentum score, $12.53B AUM, inception 2015, P/E 30.57, 1.0% yield; rebalanced March/September for risk-adjusted selection providing large-cap quality margin of safety[1][3].",
+      "momentum_case": "52-week gain ~39.75% (low $78.25 to high $124.56), recent volume 1.95M vs avg 2.68M, strong relative strength in large blend, YTD +10.72\u201311.03%.[1][6]",
+      "quality_case": "Diversified ~102 S&P 500 holdings weighted by market cap and momentum score, $12.53B AUM, inception 2015, P/E 30.57, 1.0% yield; rebalanced March/September for risk-adjusted selection providing large-cap quality margin of safety.[1][3]",
       "source_urls": [
         "https://robinhood.com/stocks/SPMO",
         "https://www.kraken.com/stocks/spmo",
         "https://www.heygotrade.com/en/us-stock/spmo/",
-        "https://www.morningstar.com/etfs/arcx/spmo/performance",
-        "https://digital.fidelity.com/prgw/digital/research/quote/dashboard/summary?symbol=SPMO",
-        "https://www.barchart.com/etfs-funds/quotes/SPMO/performance",
-        "https://www.investing.com/etfs/powershares-sp-500-momentum-portfo-historical-data"
+        "https://www.barchart.com/etfs-funds/quotes/SPMO/performance"
       ],
       "stop_loss_percent": 6.0,
       "symbol": "SPMO",
       "target_allocation_percent": 8.0,
-      "thesis": "Invesco S&P 500 Momentum ETF tracks ~100 S&P 500 stocks with highest volatility-adjusted momentum scores, blending quality large-cap businesses with proven short-term momentum for swing trades[1][3]."
+      "thesis": "Invesco S&P 500 Momentum ETF tracks ~100 S&P 500 stocks with highest volatility-adjusted momentum scores, blending quality large-cap businesses with proven short-term momentum for swing trades.[1][3]"
     }
   ],
-  "summary": "SPMO sustains momentum at $128-$132 with recent +1.23% close-to-close gain, daily high $131.50, and 52-week performance up ~39.75%, backed by S&P 500 momentum factor amid broad market strength[1][2][6][7]."
+  "summary": "SPMO maintains strong momentum at $128\u2013$132 with recent +1.23% close-to-close gain and 52-week performance up ~39.75%, supported by S&P 500 momentum factor selection amid broad market strength. Current price action ($131.71 as of latest data) supports continuation of established swing trade thesis with defined 6% stop."
 }
 -->
 
@@ -68,6 +65,12 @@
 | SPMO | 0.78 | 8.0% | 6.0% | Recent trading at $128.30–$131.83 with +1.23% close-to-close gain, daily high $131.50, and intraday range showing continuation of uptrend from 52-week low $78.2 |
 
 ## Latest Candidates - 2026-04-29 07:50:05 Eastern Daylight Time
+
+| Symbol | Confidence | Allocation | Stop | Catalyst |
+|---|---:|---:|---:|---|
+| SPMO | 0.78 | 8.0% | 6.0% | Recent trading at $128.30–$131.83 with +1.23% close-to-close gain, daily high $131.50, and intraday range showing continuation of uptrend from 52-week low $78.2 |
+
+## Latest Candidates - 2026-04-29 08:43:12 Eastern Daylight Time
 
 | Symbol | Confidence | Allocation | Stop | Catalyst |
 |---|---:|---:|---:|---|
