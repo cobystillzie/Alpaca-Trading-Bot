@@ -1,5 +1,9 @@
 from __future__ import annotations
 
+from contextlib import contextmanager
+from datetime import datetime, timedelta
+import os
+
 from .alpaca import AlpacaClient
 from .config import Settings, load_settings
 from .git_scribe import commit_and_push_memory
@@ -21,6 +25,32 @@ def _settings() -> Settings:
     settings = load_settings()
     ensure_memory_files(settings.root)
     return settings
+
+
+@contextmanager
+def _daily_runtime_lock(root, name: str, stale_minutes: int = 90):
+    runtime_dir = root / "runtime"
+    runtime_dir.mkdir(parents=True, exist_ok=True)
+    lock_path = runtime_dir / f"{name}-{datetime.now().strftime('%Y-%m-%d')}.lock"
+    acquired = False
+    try:
+        if lock_path.exists():
+            updated_at = datetime.fromtimestamp(lock_path.stat().st_mtime)
+            if datetime.now() - updated_at < timedelta(minutes=stale_minutes):
+                yield False
+                return
+            lock_path.unlink(missing_ok=True)
+
+        fd = os.open(str(lock_path), os.O_CREAT | os.O_EXCL | os.O_WRONLY)
+        acquired = True
+        with os.fdopen(fd, "w", encoding="utf-8") as handle:
+            handle.write(datetime.now().isoformat())
+        yield True
+    except FileExistsError:
+        yield False
+    finally:
+        if acquired:
+            lock_path.unlink(missing_ok=True)
 
 
 def setup_check() -> int:
@@ -121,6 +151,14 @@ def _alpaca_or_log(settings: Settings, title: str) -> AlpacaClient | None:
 
 def run_market_open() -> int:
     settings = _settings()
+    with _daily_runtime_lock(settings.root, "market-open") as lock_acquired:
+        if not lock_acquired:
+            print("Market-open execution is already running; skipped duplicate launch.")
+            return 0
+        return _run_market_open_impl(settings)
+
+
+def _run_market_open_impl(settings: Settings) -> int:
     client = _alpaca_or_log(settings, "Market Open Execution")
     if client is None:
         print(commit_and_push_memory(settings, "market open setup rejection"))
@@ -143,6 +181,16 @@ def run_market_open() -> int:
     account = client.account()
     positions = client.positions()
     trade_count = today_trade_count(settings.root)
+    if trade_count > 0:
+        append_section(
+            settings.root / "memory" / "REJECTED-TRADES.md",
+            "Market Open Execution Skipped",
+            "A market-open order is already logged for today. No backup order was placed.",
+        )
+        send_message(settings, "Market-open execution skipped because an order is already logged for today.")
+        print(commit_and_push_memory(settings, "market open duplicate skip"))
+        print("Market-open already handled today.")
+        return 0
 
     for candidate in candidates:
         result = evaluate_candidate_for_order(
