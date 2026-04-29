@@ -4,4 +4,12 @@
 Market shows strength in S&P 500 ETFs like SPY and IVV with high liquidity for short-term trades, while top performers include RSHO and CSD amid reshoring and spin-off themes in Q1 2026.
 
 Candidates found: 3
+## Premarket Plan - 2026-04-28 23:44:25 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- SPY: score=100, approved=False, allocation=10.0%, stop=5.0%
+  rejects: Candidate references banned v1 instruments or leverage.
+- CSD: score=95, approved=True, allocation=8.0%, stop=7.0%
+- RSHO: score=95, approved=True, allocation=7.0%, stop=8.0%
 
