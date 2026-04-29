@@ -66,7 +66,7 @@ def update_watchlist(root: Path, summary: str, candidates: list[TradeCandidate])
     if "<!-- latest-candidates-json" in body:
         body = re.sub(
             r"<!-- latest-candidates-json\s*.*?\s*-->",
-            replacement,
+            lambda _: replacement,
             body,
             flags=re.S,
         )
@@ -115,4 +115,3 @@ def today_trade_count(root: Path) -> int:
         return 0
     today = datetime.now().strftime("%Y-%m-%d")
     return sum(1 for line in path.read_text(encoding="utf-8").splitlines() if today in line and "ORDER:" in line)
-
