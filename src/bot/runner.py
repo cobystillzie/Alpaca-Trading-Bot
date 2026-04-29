@@ -31,6 +31,27 @@ def setup_check() -> int:
         for issue in issues:
             print(f"- {issue}")
         return 1
+    try:
+        account = AlpacaClient(settings).account()
+        print(f"Alpaca paper account OK. Portfolio value: {account.get('portfolio_value', 'unknown')}")
+    except Exception as exc:  # noqa: BLE001 - setup check should show user-facing failures.
+        print(f"Alpaca check failed: {exc}")
+        return 1
+    try:
+        response = run_sonar_research(
+            settings,
+            'Return this exact JSON: {"summary":"setup check ok","candidates":[]}',
+        )
+        print("Perplexity check OK." if "setup check" in response.lower() else "Perplexity responded.")
+    except Exception as exc:  # noqa: BLE001
+        print(f"Perplexity check failed: {exc}")
+        return 1
+    try:
+        sent = send_message(settings, "Alpaca trading bot setup-check passed.")
+        print("Telegram check OK." if sent else "Telegram skipped.")
+    except Exception as exc:  # noqa: BLE001
+        print(f"Telegram check failed: {exc}")
+        return 1
     print("Setup looks complete.")
     print("Alpaca mode: paper")
     print("Perplexity key: present")
@@ -245,4 +266,3 @@ def _portfolio_body(account: dict, positions: list[dict]) -> str:
             f"- {pos.get('symbol')}: qty={pos.get('qty')}, market_value={pos.get('market_value')}, unrealized_pl={pos.get('unrealized_pl')}"
         )
     return "\n".join(lines)
-
