@@ -65,7 +65,7 @@
       "thesis": "Microsoft's AI/cloud dominance provides stable, high-quality base for reliable swing trades on pullbacks."
     }
   ],
-  "summary": "AI/semiconductor momentum persists with NVDA, ASML, LRCX, and MSFT topping swing trade lists amid strong trends and institutional flows; SPMO holds steady in portfolio as S&P strength continues."
+  "summary": "AI/semiconductor momentum leaders NVDA, ASML, LRCX, and MSFT remain top-ranked for swing trades amid strong institutional flows and bullish technicals; SPMO position profitable but portfolio favors diversification into high-conviction single names[1]."
 }
 -->
 
@@ -146,6 +146,15 @@
 | MSFT | 0.72 | 8.0% | 7.0% | Top-ranked swing stock with predictable trends from AI/cloud catalysts like Copilot expansions. |
 
 ## Latest Candidates - 2026-04-29 16:17:33 Eastern Daylight Time
+
+| Symbol | Confidence | Allocation | Stop | Catalyst |
+|---|---:|---:|---:|---|
+| NVDA | 0.80 | 8.0% | 7.0% | Ranked #1 best swing trading stock for 2026 with strong trends, high volatility, and clean pullbacks driven by AI/semiconductor institutional flows. |
+| ASML | 0.76 | 8.0% | 7.0% | MACD Golden Cross with aligned MAs (Close >5D>10D>20D) signaling entry amid ongoing AI chip demand. |
+| LRCX | 0.74 | 8.0% | 7.0% | AI demand catalyst with MACD Golden Cross and stacked MAs (Close >5D>10D>20D) for swing continuation. |
+| MSFT | 0.72 | 8.0% | 7.0% | Top-ranked swing stock with predictable trends from AI/cloud catalysts like Copilot expansions. |
+
+## Latest Candidates - 2026-04-29 16:47:59 Eastern Daylight Time
 
 | Symbol | Confidence | Allocation | Stop | Catalyst |
 |---|---:|---:|---:|---|
