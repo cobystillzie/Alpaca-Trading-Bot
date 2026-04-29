@@ -4,22 +4,25 @@
 {
   "candidates": [
     {
-      "bear_case": "Momentum reversal in broader S&P 500 downturn or shift to value rotation could underperform broad indices.",
-      "catalyst": "Recent 14.57% 1-month return as of April 24, 2026, driven by strong risk-adjusted performance selection amid market uptrends[2].",
-      "confidence": 0.75,
+      "bear_case": "Momentum reversal in broader S&P 500 downturn or shift to value rotation could underperform broad indices[2].",
+      "catalyst": "Recent 17.81% 1-month return from 110.31 to 132.29 (03/27/26 to 04/27/26) and YTD +10.72-11.03% performance amid ongoing S&P 500 strength[1][2][5].",
+      "confidence": 0.78,
       "horizon_days": 5,
-      "momentum_case": "11% 3-month and 10.54% YTD returns indicate robust relative strength and trend continuation[2].",
-      "quality_case": "Focuses on S&P 500 constituents with high momentum scores, providing diversified exposure to quality businesses with $15.96B AUM and established track record since 2015[2].",
+      "momentum_case": "YTD +10.72-11.03%, 1-year +40.38%, 3-month strong trend from 107.24 low, 5-year +133.99% total return indicate robust relative strength and trend continuation[1][2][5].",
+      "quality_case": "Focuses on S&P 500 constituents with high momentum scores, providing diversified exposure to quality businesses with $15.94B AUM and established track record since 2015[6].",
       "source_urls": [
-        "https://www.etfcentral.com/fund/SPMO"
+        "https://www.marketbeat.com/stocks/NYSEARCA/SPMO/chart/",
+        "https://www.barchart.com/etfs-funds/quotes/SPMO",
+        "https://totalrealreturns.com/n/SPMO,MAIN",
+        "https://www.invesco.com/us/en/financial-products/etfs/invesco-sp-500-momentum-etf.html"
       ],
       "stop_loss_percent": 6.0,
       "symbol": "SPMO",
       "target_allocation_percent": 8.0,
-      "thesis": "Invesco S&P 500 Momentum ETF tracks the 100 highest risk-adjusted momentum stocks from the S&P 500, blending quality large-cap businesses with proven momentum for short-term swing trades."
+      "thesis": "Invesco S&P 500 Momentum ETF tracks the 100 highest risk-adjusted momentum stocks from the S&P 500, blending quality large-cap businesses with proven momentum for short-term swing trades[6]."
     }
   ],
-  "summary": "Momentum ETFs like SPMO show strong recent performance with 14.57% 1M return as of April 24, 2026, amid ongoing strength in S&P 500 trackers and thematic plays like spin-offs and reshoring."
+  "summary": "SPMO continues strong momentum with YTD return of +10.72-11.03% and 1-month gain of +17.81% as of late April 2026, supported by robust S&P 500 momentum factor performance amid market uptrends[1][2][5]."
 }
 -->
 
@@ -36,4 +39,10 @@
 | Symbol | Confidence | Allocation | Stop | Catalyst |
 |---|---:|---:|---:|---|
 | SPMO | 0.75 | 8.0% | 6.0% | Recent 14.57% 1-month return as of April 24, 2026, driven by strong risk-adjusted performance selection amid market uptrends[2]. |
+
+## Latest Candidates - 2026-04-29 00:15:15 Eastern Daylight Time
+
+| Symbol | Confidence | Allocation | Stop | Catalyst |
+|---|---:|---:|---:|---|
+| SPMO | 0.78 | 8.0% | 6.0% | Recent 17.81% 1-month return from 110.31 to 132.29 (03/27/26 to 04/27/26) and YTD +10.72-11.03% performance amid ongoing S&P 500 strength[1][2][5]. |
 
