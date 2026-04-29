@@ -52,4 +52,9 @@ Candidates found: 1
 SPMO sustains momentum at $128-$132 with recent +1.23% close-to-close gain, daily high $131.50, and 52-week performance up ~39.75%, backed by S&P 500 momentum factor amid broad market strength[1][2][6][7].
 
 Candidates found: 1
+## Premarket Plan - 2026-04-29 08:16:08 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- SPMO: score=100, approved=True, allocation=8.0%, stop=6.0%
 
