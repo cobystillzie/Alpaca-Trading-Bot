@@ -25,7 +25,7 @@
       "thesis": "Invesco S&P 500 Momentum ETF tracks ~100 S&P 500 stocks with highest volatility-adjusted momentum scores, blending quality large-cap businesses with proven short-term momentum for swing trades[1][3]."
     }
   ],
-  "summary": "SPMO continues strong momentum trading at $128-$132 with recent +1.23% close-to-close gain and 52-week performance up ~39.75%, supported by S&P 500 momentum factor amid broad market strength[1][2][6][7]."
+  "summary": "SPMO sustains momentum at $128-$132 with recent +1.23% close-to-close gain, daily high $131.50, and 52-week performance up ~39.75%, backed by S&P 500 momentum factor amid broad market strength[1][2][6][7]."
 }
 -->
 
@@ -62,6 +62,12 @@
 | SPMO | 0.78 | 8.0% | 6.0% | Recent trading at $128.30–$131.83 with +1.23% close-to-close gain and intraday highs near $131.50, continuing uptrend from 52-week low of $78.25.[1][4][6] |
 
 ## Latest Candidates - 2026-04-29 06:42:01 Eastern Daylight Time
+
+| Symbol | Confidence | Allocation | Stop | Catalyst |
+|---|---:|---:|---:|---|
+| SPMO | 0.78 | 8.0% | 6.0% | Recent trading at $128.30–$131.83 with +1.23% close-to-close gain, daily high $131.50, and intraday range showing continuation of uptrend from 52-week low $78.2 |
+
+## Latest Candidates - 2026-04-29 07:50:05 Eastern Daylight Time
 
 | Symbol | Confidence | Allocation | Stop | Catalyst |
 |---|---:|---:|---:|---|
