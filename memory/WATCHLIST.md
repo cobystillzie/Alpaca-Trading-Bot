@@ -4,25 +4,26 @@
 {
   "candidates": [
     {
-      "bear_case": "Momentum reversal in broader S&P 500 downturn or shift to value rotation could underperform broad indices[2].",
-      "catalyst": "Recent 17.81% 1-month return from 110.31 to 132.29 (03/27/26 to 04/27/26) and YTD +10.72-11.03% performance amid ongoing S&P 500 strength[1][2][5].",
+      "bear_case": "Momentum reversal if S&P 500 shifts to value rotation or broader downturn, potential underperformance vs broad indices, or rebalancing risks in March/September[3].",
+      "catalyst": "Recent trading at $128.30-$131.83 with +1.23% close-to-close gain and intraday highs near $131.50, continuing uptrend from 52-week low of $78.25[1][2][6][7].",
       "confidence": 0.78,
       "horizon_days": 5,
-      "momentum_case": "YTD +10.72-11.03%, 1-year +40.38%, 3-month strong trend from 107.24 low, 5-year +133.99% total return indicate robust relative strength and trend continuation[1][2][5].",
-      "quality_case": "Focuses on S&P 500 constituents with high momentum scores, providing diversified exposure to quality businesses with $15.94B AUM and established track record since 2015[6].",
+      "momentum_case": "52-week gain of +39.75% from $91.93 low to $131.84 high, recent daily volume 1.95M vs average 2.68M, strong relative strength in large blend sector[1][2][7].",
+      "quality_case": "Diversified across ~102 S&P 500 holdings weighted by market cap and momentum, $12.53B AUM, established since 2015 with P/E 30.57 providing margin of safety through large-cap quality[1][3].",
       "source_urls": [
-        "https://www.marketbeat.com/stocks/NYSEARCA/SPMO/chart/",
-        "https://www.barchart.com/etfs-funds/quotes/SPMO",
-        "https://totalrealreturns.com/n/SPMO,MAIN",
-        "https://www.invesco.com/us/en/financial-products/etfs/invesco-sp-500-momentum-etf.html"
+        "https://robinhood.com/stocks/SPMO",
+        "https://www.kraken.com/stocks/spmo",
+        "https://www.heygotrade.com/en/us-stock/spmo/",
+        "https://www.barchart.com/etfs-funds/quotes/SPMO/performance",
+        "https://www.investing.com/etfs/powershares-sp-500-momentum-portfo-historical-data"
       ],
       "stop_loss_percent": 6.0,
       "symbol": "SPMO",
       "target_allocation_percent": 8.0,
-      "thesis": "Invesco S&P 500 Momentum ETF tracks the 100 highest risk-adjusted momentum stocks from the S&P 500, blending quality large-cap businesses with proven momentum for short-term swing trades[6]."
+      "thesis": "Invesco S&P 500 Momentum ETF tracks ~100 S&P 500 stocks with highest volatility-adjusted momentum scores, blending quality large-cap businesses with proven short-term momentum for swing trades[1][3]."
     }
   ],
-  "summary": "SPMO continues strong momentum with YTD return of +10.72-11.03% and 1-month gain of +17.81% as of late April 2026, supported by robust S&P 500 momentum factor performance amid market uptrends[1][2][5]."
+  "summary": "SPMO maintains strong momentum trading around $128-132 with recent daily gains of +1.23% and 52-week performance up 39.75%, supported by its focus on high momentum S&P 500 stocks amid ongoing market strength[1][2][6][7]."
 }
 -->
 
@@ -45,4 +46,10 @@
 | Symbol | Confidence | Allocation | Stop | Catalyst |
 |---|---:|---:|---:|---|
 | SPMO | 0.78 | 8.0% | 6.0% | Recent 17.81% 1-month return from 110.31 to 132.29 (03/27/26 to 04/27/26) and YTD +10.72-11.03% performance amid ongoing S&P 500 strength[1][2][5]. |
+
+## Latest Candidates - 2026-04-29 00:40:11 Eastern Daylight Time
+
+| Symbol | Confidence | Allocation | Stop | Catalyst |
+|---|---:|---:|---:|---|
+| SPMO | 0.78 | 8.0% | 6.0% | Recent trading at $128.30-$131.83 with +1.23% close-to-close gain and intraday highs near $131.50, continuing uptrend from 52-week low of $78.25[1][2][6][7]. |
 
