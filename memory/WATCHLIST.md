@@ -11,8 +11,7 @@
       "momentum_case": "Top-ranked for swing trading with high relative strength, consistent upside momentum outperforming S&P 500 in tech sector uptrend.",
       "quality_case": "Wide moat in AI accelerators serving cloud giants like MSFT/AMZN; recurring data center revenue provides Buffett-style durability and margin of safety.",
       "source_urls": [
-        "https://elliottwave-forecast.com/trading/best-swing-trading-stocks/",
-        "https://nordfx.com/traders-guide/what-are-the-best-stocks-for-swing-trading"
+        "https://elliottwave-forecast.com/trading/best-swing-trading-stocks/"
       ],
       "stop_loss_percent": 7.0,
       "symbol": "NVDA",
@@ -27,7 +26,6 @@
       "momentum_case": "Bullish technical alignment and NASDAQ tech relative strength support continuation of uptrend.",
       "quality_case": "Unique EUV technology creates insurmountable barriers; serves TSMC/Intel with pricing power and recurring orders for quality margin of safety.",
       "source_urls": [
-        "https://www.ainvest.com/aime/share/stocks-swing-trading-based-momentum-755465/",
         "https://elliottwave-forecast.com/trading/best-swing-trading-stocks/"
       ],
       "stop_loss_percent": 7.0,
@@ -43,7 +41,7 @@
       "momentum_case": "Strong sector outperformance with volume-backed uptrend and top momentum ranking.",
       "quality_case": "Diversified revenue from foundries like TSMC; high profitability and scale provide moat and safety in growth sector.",
       "source_urls": [
-        "https://www.ainvest.com/aime/share/stocks-swing-trading-based-momentum-755465/"
+        "https://elliottwave-forecast.com/trading/best-swing-trading-stocks/"
       ],
       "stop_loss_percent": 7.0,
       "symbol": "LRCX",
@@ -59,7 +57,7 @@
       "quality_case": "Azure/OpenAI franchises deliver recurring revenue and massive scale with wide economic moat.",
       "source_urls": [
         "https://elliottwave-forecast.com/trading/best-swing-trading-stocks/",
-        "https://nordfx.com/traders-guide/what-are-the-best-stocks-for-swing-trading"
+        "https://www.benzinga.com/money/best-swing-trade-stocks"
       ],
       "stop_loss_percent": 7.0,
       "symbol": "MSFT",
@@ -67,7 +65,7 @@
       "thesis": "Microsoft's AI/cloud dominance provides stable, high-quality base for reliable swing trades on pullbacks."
     }
   ],
-  "summary": "Momentum continues in AI/semiconductor leaders like NVDA, ASML, LRCX amid strong technicals and sector catalysts; MSFT and AAPL offer stable quality with swing potential as SPMO position holds steady."
+  "summary": "AI/semiconductor momentum persists with NVDA, ASML, LRCX, and MSFT topping swing trade lists amid strong trends and institutional flows; SPMO holds steady in portfolio as S&P strength continues."
 }
 -->
 
@@ -139,6 +137,15 @@
 | MSFT | 0.70 | 8.0% | 7.0% | Listed among top swing trade stocks with stable AI/cloud trends and reliable pullbacks for short-term entries amid ongoing market momentum. |
 
 ## Latest Candidates - 2026-04-29 14:46:57 Eastern Daylight Time
+
+| Symbol | Confidence | Allocation | Stop | Catalyst |
+|---|---:|---:|---:|---|
+| NVDA | 0.80 | 8.0% | 7.0% | Ranked #1 best swing trading stock for 2026 with strong trends, high volatility, and clean pullbacks driven by AI/semiconductor institutional flows. |
+| ASML | 0.76 | 8.0% | 7.0% | MACD Golden Cross with aligned MAs (Close >5D>10D>20D) signaling entry amid ongoing AI chip demand. |
+| LRCX | 0.74 | 8.0% | 7.0% | AI demand catalyst with MACD Golden Cross and stacked MAs (Close >5D>10D>20D) for swing continuation. |
+| MSFT | 0.72 | 8.0% | 7.0% | Top-ranked swing stock with predictable trends from AI/cloud catalysts like Copilot expansions. |
+
+## Latest Candidates - 2026-04-29 16:17:33 Eastern Daylight Time
 
 | Symbol | Confidence | Allocation | Stop | Catalyst |
 |---|---:|---:|---:|---|
