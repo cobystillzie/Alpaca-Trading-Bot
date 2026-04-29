@@ -4,6 +4,24 @@
 {
   "candidates": [
     {
+      "bear_case": "Momentum reversal if S&P shifts to value rotation or downturn; rebalancing risks; elevated P/E vulnerable to sentiment shifts.",
+      "catalyst": "Recent trading at $128\u2013$132 with +1.23% close-to-close gain, daily high $131.50, continuing uptrend from 52-week low $78.25 amid S&P strength.",
+      "confidence": 0.78,
+      "horizon_days": 5,
+      "momentum_case": "52-week gain ~39.75%, YTD +10.72\u201311.03%, recent 1M +17.81%, volume 1.95M vs avg 2.68M showing sustained relative strength.",
+      "quality_case": "Diversified ~102 S&P 500 holdings weighted by market cap and momentum score, $12.53B AUM, P/E 30.57, rebalanced March/September for risk-adjusted large-cap quality margin of safety.",
+      "source_urls": [
+        "https://robinhood.com/stocks/SPMO",
+        "https://www.kraken.com/stocks/spmo",
+        "https://www.heygotrade.com/en/us-stock/spmo/",
+        "https://www.barchart.com/etfs-funds/quotes/SPMO/performance"
+      ],
+      "stop_loss_percent": 6.0,
+      "symbol": "SPMO",
+      "target_allocation_percent": 8.0,
+      "thesis": "Invesco S&P 500 Momentum ETF tracks ~100 highest risk-adjusted momentum S&P 500 stocks, blending diversified large-cap quality with short-term momentum for swing trades."
+    },
+    {
       "bear_case": "Semiconductor cycle downturn, export restrictions to China, or broader tech rotation to value could trigger reversal; high valuation vulnerable to sentiment shifts.",
       "catalyst": "Bullish technicals with Closing Price > 5-Day MA, 5-Day > 10-Day, 10-Day > 20-Day, and MACD Golden Cross signaling entry for swing trades amid AI chip demand.",
       "confidence": 0.75,
@@ -11,7 +29,8 @@
       "momentum_case": "Strong relative strength in NASDAQ tech with aligned moving averages and MACD crossover indicating continuation of uptrend; high liquidity supports swing execution.",
       "quality_case": "Dominant monopoly in EUV lithography technology creates wide moat and pricing power; serves blue-chip clients like TSMC/Intel with recurring revenue and high barriers to entry providing margin of safety.",
       "source_urls": [
-        "https://www.ainvest.com/aime/share/stocks-swing-trading-based-momentum-755465/"
+        "https://www.ainvest.com/aime/share/stocks-swing-trading-based-momentum-755465/",
+        "https://elliottwave-forecast.com/trading/best-swing-trading-stocks/"
       ],
       "stop_loss_percent": 7.0,
       "symbol": "ASML",
@@ -34,25 +53,23 @@
       "thesis": "Lam Research is a leading semiconductor equipment provider for etch/deposition, combining quality in AI infrastructure with momentum for defined-risk swings."
     },
     {
-      "bear_case": "Momentum reversal if S&P shifts to value rotation or downturn; rebalancing risks; elevated P/E vulnerable to sentiment shifts.",
-      "catalyst": "Recent trading at $128\u2013$132 with +1.23% close-to-close gain, daily high $131.50, continuing uptrend from 52-week low $78.25 amid S&P strength.",
-      "confidence": 0.78,
+      "bear_case": "Broader tech rotation to value, antitrust scrutiny, or slowdown in AI hype could pressure shares; high valuation sensitive to rate changes.",
+      "catalyst": "Listed among top swing trade stocks with stable AI/cloud trends and reliable pullbacks for short-term entries amid ongoing market momentum.",
+      "confidence": 0.7,
       "horizon_days": 5,
-      "momentum_case": "52-week gain ~39.75%, YTD +10.72\u201311.03%, recent 1M +17.81%, volume 1.95M vs avg 2.68M showing sustained relative strength.",
-      "quality_case": "Diversified ~102 S&P 500 holdings weighted by market cap and momentum score, $12.53B AUM, P/E 30.57, rebalanced March/September for risk-adjusted large-cap quality margin of safety.",
+      "momentum_case": "Strong momentum in tech sector with stable trends noted for swing trading; high volume (208M vs avg 37M) supports execution.",
+      "quality_case": "Dominant cloud (Azure) and AI (Copilot/OpenAI) franchises provide wide moat, recurring revenue, and massive scale with Buffett-style durability.",
       "source_urls": [
-        "https://robinhood.com/stocks/SPMO",
-        "https://www.kraken.com/stocks/spmo",
-        "https://www.heygotrade.com/en/us-stock/spmo/",
-        "https://www.barchart.com/etfs-funds/quotes/SPMO/performance"
+        "https://elliottwave-forecast.com/trading/best-swing-trading-stocks/",
+        "https://www.benzinga.com/money/best-swing-trade-stocks"
       ],
-      "stop_loss_percent": 6.0,
-      "symbol": "SPMO",
+      "stop_loss_percent": 7.0,
+      "symbol": "MSFT",
       "target_allocation_percent": 8.0,
-      "thesis": "Invesco S&P 500 Momentum ETF tracks ~100 highest risk-adjusted momentum S&P 500 stocks, blending diversified large-cap quality with short-term momentum for swing trades."
+      "thesis": "Microsoft is a high-quality tech leader in AI and cloud computing, offering stable trends with reliable pullbacks ideal for momentum-based swing trades."
     }
   ],
-  "summary": "Momentum continues in S&P 500 trackers like SPMO amid broad market strength, with new US semiconductor leaders ASML and LRCX showing AI-driven catalysts and bullish technicals suitable for 1-10 day swings."
+  "summary": "Momentum persists in S&P 500 trackers like SPMO amid broad market strength, with semiconductor leaders ASML and LRCX showing AI-driven catalysts and bullish technicals; MSFT highlighted for stable AI/cloud trends suitable for swings."
 }
 -->
 
@@ -113,4 +130,13 @@
 | ASML | 0.75 | 8.0% | 7.0% | Bullish technicals with Closing Price > 5-Day MA, 5-Day > 10-Day, 10-Day > 20-Day, and MACD Golden Cross signaling entry for swing trades amid AI chip demand. |
 | LRCX | 0.72 | 8.0% | 7.0% | AI-driven semiconductor demand with bullish technicals: Closing Price > 5-Day MA, 5-Day > 10-Day, 10-Day > 20-Day, and MACD Golden Cross for momentum continuati |
 | SPMO | 0.78 | 8.0% | 6.0% | Recent trading at $128–$132 with +1.23% close-to-close gain, daily high $131.50, continuing uptrend from 52-week low $78.25 amid S&P strength. |
+
+## Latest Candidates - 2026-04-29 12:46:48 Eastern Daylight Time
+
+| Symbol | Confidence | Allocation | Stop | Catalyst |
+|---|---:|---:|---:|---|
+| SPMO | 0.78 | 8.0% | 6.0% | Recent trading at $128–$132 with +1.23% close-to-close gain, daily high $131.50, continuing uptrend from 52-week low $78.25 amid S&P strength. |
+| ASML | 0.75 | 8.0% | 7.0% | Bullish technicals with Closing Price > 5-Day MA, 5-Day > 10-Day, 10-Day > 20-Day, and MACD Golden Cross signaling entry for swing trades amid AI chip demand. |
+| LRCX | 0.72 | 8.0% | 7.0% | AI-driven semiconductor demand with bullish technicals: Closing Price > 5-Day MA, 5-Day > 10-Day, 10-Day > 20-Day, and MACD Golden Cross for momentum continuati |
+| MSFT | 0.70 | 8.0% | 7.0% | Listed among top swing trade stocks with stable AI/cloud trends and reliable pullbacks for short-term entries amid ongoing market momentum. |
 
