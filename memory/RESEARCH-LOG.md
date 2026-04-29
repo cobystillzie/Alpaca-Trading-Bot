@@ -12,4 +12,9 @@ Premarket plan built from latest watchlist.
   rejects: Candidate references banned v1 instruments or leverage.
 - CSD: score=95, approved=True, allocation=8.0%, stop=7.0%
 - RSHO: score=95, approved=True, allocation=7.0%, stop=8.0%
+## Two-Hour Research Agent - 2026-04-28 23:57:48 Eastern Daylight Time
+
+Momentum ETFs like SPMO show strong recent performance with 14.57% 1M return as of April 24, 2026, amid ongoing strength in S&P 500 trackers and thematic plays like spin-offs and reshoring.
+
+Candidates found: 1
 

@@ -4,53 +4,22 @@
 {
   "candidates": [
     {
-      "bear_case": "Broad market exposure means vulnerability to overall downturns or macroeconomic shocks without specific company catalysts.",
-      "catalyst": "High daily volume of 87 million shares and average 1.23% daily movement enable capturing short-term volatility in broad market swings[3].",
-      "confidence": 0.78,
+      "bear_case": "Momentum reversal in broader S&P 500 downturn or shift to value rotation could underperform broad indices.",
+      "catalyst": "Recent 14.57% 1-month return as of April 24, 2026, driven by strong risk-adjusted performance selection amid market uptrends[2].",
+      "confidence": 0.75,
       "horizon_days": 5,
-      "momentum_case": "Consistent high liquidity and daily price movement indicate strong relative strength for momentum plays[1][3].",
-      "quality_case": "Low expense ratios, tight bid-ask spreads, and broad industry diversification reduce individual stock risk, aligning with Buffett-style quality and margin of safety[1].",
+      "momentum_case": "11% 3-month and 10.54% YTD returns indicate robust relative strength and trend continuation[2].",
+      "quality_case": "Focuses on S&P 500 constituents with high momentum scores, providing diversified exposure to quality businesses with $15.96B AUM and established track record since 2015[2].",
       "source_urls": [
-        "https://www.theknowledgeacademy.com/blog/day-trading-etfs/",
-        "https://tradethatswing.com/best-etfs-for-day-trading-updated-regularly/"
+        "https://www.etfcentral.com/fund/SPMO"
       ],
-      "stop_loss_percent": 5.0,
-      "symbol": "SPY",
-      "target_allocation_percent": 10.0,
-      "thesis": "SPY tracks the S&P 500, providing diversified exposure to 500 large U.S. companies, blending quality businesses with market momentum for 1-10 day swing trades."
-    },
-    {
-      "bear_case": "Mid-cap spin-offs may face execution risks post-separation or sector-specific slowdowns.",
-      "catalyst": "Ranked #2 top-performing ETF in February 2026 with 9.04% monthly return, driven by spin-off momentum[2].",
-      "confidence": 0.72,
-      "horizon_days": 7,
-      "momentum_case": "Outperformed category average (3.31% vs 9.04% in Feb) with sustained yearly gains indicating relative strength[2].",
-      "quality_case": "Passively managed mid-cap blend fund with 48.88% 1-year return (2nd percentile), focusing on undervalued spin-offs with strong parent company pedigrees.",
-      "source_urls": [
-        "https://www.morningstar.com/funds/top-performing-stock-etfs"
-      ],
-      "stop_loss_percent": 7.0,
-      "symbol": "CSD",
+      "stop_loss_percent": 6.0,
+      "symbol": "SPMO",
       "target_allocation_percent": 8.0,
-      "thesis": "Invesco S&P Spin-Off ETF targets recent corporate spin-offs, capturing value unlocking in quality businesses during restructuring."
-    },
-    {
-      "bear_case": "Dependent on sustained policy support; vulnerable to global trade easing or cost pressures.",
-      "catalyst": "Top-ranked ETF for February 2026 amid reshoring momentum from supply chain shifts[2].",
-      "confidence": 0.68,
-      "horizon_days": 8,
-      "momentum_case": "Led Q1 2026 performers, signaling strong trend and volume in reshoring theme[2].",
-      "quality_case": "Mid-cap blend focus on reshoring beneficiaries offers durable moats from domestic production advantages.",
-      "source_urls": [
-        "https://www.morningstar.com/funds/top-performing-stock-etfs"
-      ],
-      "stop_loss_percent": 8.0,
-      "symbol": "RSHO",
-      "target_allocation_percent": 7.0,
-      "thesis": "Tema American Reshoring ETF captures U.S. manufacturing return trend, blending quality industrial firms with policy-tailwinds."
+      "thesis": "Invesco S&P 500 Momentum ETF tracks the 100 highest risk-adjusted momentum stocks from the S&P 500, blending quality large-cap businesses with proven momentum for short-term swing trades."
     }
   ],
-  "summary": "Market shows strength in S&P 500 ETFs like SPY and IVV with high liquidity for short-term trades, while top performers include RSHO and CSD amid reshoring and spin-off themes in Q1 2026."
+  "summary": "Momentum ETFs like SPMO show strong recent performance with 14.57% 1M return as of April 24, 2026, amid ongoing strength in S&P 500 trackers and thematic plays like spin-offs and reshoring."
 }
 -->
 
@@ -61,4 +30,10 @@
 | SPY | 0.78 | 10.0% | 5.0% | High daily volume of 87 million shares and average 1.23% daily movement enable capturing short-term volatility in broad market swings[3]. |
 | CSD | 0.72 | 8.0% | 7.0% | Ranked #2 top-performing ETF in February 2026 with 9.04% monthly return, driven by spin-off momentum[2]. |
 | RSHO | 0.68 | 7.0% | 8.0% | Top-ranked ETF for February 2026 amid reshoring momentum from supply chain shifts[2]. |
+
+## Latest Candidates - 2026-04-28 23:57:48 Eastern Daylight Time
+
+| Symbol | Confidence | Allocation | Stop | Catalyst |
+|---|---:|---:|---:|---|
+| SPMO | 0.75 | 8.0% | 6.0% | Recent 14.57% 1-month return as of April 24, 2026, driven by strong risk-adjusted performance selection amid market uptrends[2]. |
 
