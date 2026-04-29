@@ -17,4 +17,9 @@ Premarket plan built from latest watchlist.
 Momentum ETFs like SPMO show strong recent performance with 14.57% 1M return as of April 24, 2026, amid ongoing strength in S&P 500 trackers and thematic plays like spin-offs and reshoring.
 
 Candidates found: 1
+## Premarket Plan - 2026-04-28 23:58:00 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- SPMO: score=100, approved=True, allocation=8.0%, stop=6.0%
 
