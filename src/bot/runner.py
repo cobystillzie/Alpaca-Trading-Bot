@@ -150,6 +150,7 @@ def run_market_open() -> int:
             account,
             positions,
             today_order_count=trade_count,
+            managed_capital_usd=settings.managed_capital_usd,
         )
         if not result.approved:
             append_section(

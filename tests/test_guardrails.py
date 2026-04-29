@@ -24,9 +24,10 @@ def test_guardrails_approve_safe_candidate():
         {"portfolio_value": "100000", "buying_power": "50000", "cash": "50000"},
         [],
         today_order_count=0,
+        managed_capital_usd=10000,
     )
     assert result.approved
-    assert result.order_notional == 8000
+    assert result.order_notional == 800
 
 
 def test_guardrails_preserve_cash_reserve():
@@ -35,7 +36,19 @@ def test_guardrails_preserve_cash_reserve():
         {"portfolio_value": "100000", "buying_power": "5000", "cash": "5000"},
         [],
         today_order_count=0,
+        managed_capital_usd=10000,
+    )
+    assert result.approved
+    assert result.order_notional == 800
+
+
+def test_guardrails_preserve_managed_capital_cash_reserve():
+    result = evaluate_candidate_for_order(
+        safe_candidate(),
+        {"portfolio_value": "100000", "buying_power": "50000", "cash": "50000"},
+        [{"symbol": "SPY", "market_value": "8950"}],
+        today_order_count=0,
+        managed_capital_usd=10000,
     )
     assert not result.approved
     assert any("cash reserve" in reason for reason in result.reasons)
-

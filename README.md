@@ -8,6 +8,8 @@ This repo is a Codex-native paper-trading system built around a quality + cataly
 - tight feedback loops inspired by YC-style weekly iteration
 
 The first version is paper trading only. Live trading is intentionally blocked by default.
+Alpaca may show a $100,000 paper account, but the bot self-limits managed capital
+to $10,000 by default via `MANAGED_CAPITAL_USD`.
 
 ## Core Commands
 
@@ -34,4 +36,3 @@ The code refuses live trading unless code is deliberately changed later. Version
 - markdown-only auto commits/pushes
 
 Read [SETUP.md](SETUP.md) before running scheduled automations.
-

@@ -14,6 +14,7 @@ def test_env_file_loading(tmp_path):
                 "TELEGRAM_CHAT_ID=123",
                 "AUTO_GIT_PUSH=true",
                 "LIVE_TRADING_ENABLED=false",
+                "MANAGED_CAPITAL_USD=10000",
             ]
         ),
         encoding="utf-8",
@@ -24,4 +25,4 @@ def test_env_file_loading(tmp_path):
     assert settings.perplexity_configured
     assert settings.telegram_configured
     assert settings.auto_git_push
-
+    assert settings.managed_capital_usd == 10000

@@ -30,6 +30,13 @@ def _bool(value: str) -> bool:
     return value.strip().lower() in {"1", "true", "yes", "on"}
 
 
+def _float(value: str, default: float) -> float:
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        return default
+
+
 def _is_placeholder(value: str) -> bool:
     return not value or value.startswith("PASTE_")
 
@@ -46,6 +53,7 @@ class Settings:
     telegram_chat_id: str
     auto_git_push: bool
     live_trading_enabled: bool
+    managed_capital_usd: float
 
     @property
     def is_paper(self) -> bool:
@@ -83,6 +91,8 @@ class Settings:
             issues.append("Missing Perplexity API key.")
         if not self.telegram_configured:
             issues.append("Missing Telegram bot token or chat id.")
+        if self.managed_capital_usd <= 0:
+            issues.append("MANAGED_CAPITAL_USD must be greater than 0.")
         return issues
 
 
@@ -102,5 +112,5 @@ def load_settings(root: Path | None = None) -> Settings:
         telegram_chat_id=_env("TELEGRAM_CHAT_ID", file_values),
         auto_git_push=_bool(_env("AUTO_GIT_PUSH", file_values, "false")),
         live_trading_enabled=_bool(_env("LIVE_TRADING_ENABLED", file_values, "false")),
+        managed_capital_usd=_float(_env("MANAGED_CAPITAL_USD", file_values, "10000"), 10000),
     )
-

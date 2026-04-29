@@ -17,6 +17,7 @@ def evaluate_candidate_for_order(
     positions: list[dict],
     *,
     today_order_count: int,
+    managed_capital_usd: float | None = None,
 ) -> GuardrailResult:
     reasons: list[str] = []
     warnings: list[str] = []
@@ -39,25 +40,34 @@ def evaluate_candidate_for_order(
         reasons.append("Portfolio value is unavailable or zero.")
         return GuardrailResult(False, reasons, warnings)
 
-    requested_notional = portfolio_value * (candidate.target_allocation_percent / 100)
-    max_notional = portfolio_value * (MAX_SINGLE_STOCK_ALLOCATION / 100)
+    capital_base = min(portfolio_value, managed_capital_usd or portfolio_value)
+    if capital_base <= 0:
+        reasons.append("Managed capital must be greater than zero.")
+        return GuardrailResult(False, reasons, warnings)
+
+    requested_notional = capital_base * (candidate.target_allocation_percent / 100)
+    max_notional = capital_base * (MAX_SINGLE_STOCK_ALLOCATION / 100)
     requested_notional = min(requested_notional, max_notional)
 
     current_symbol_value = 0.0
+    total_position_value = 0.0
     for pos in positions:
+        total_position_value += max(0.0, as_float(pos.get("market_value")))
         if str(pos.get("symbol", "")).upper() == candidate.symbol:
             current_symbol_value += as_float(pos.get("market_value"))
 
     post_symbol_allocation = (
-        (current_symbol_value + requested_notional) / portfolio_value * 100
+        (current_symbol_value + requested_notional) / capital_base * 100
     )
     if post_symbol_allocation > MAX_SINGLE_STOCK_ALLOCATION:
         reasons.append("Single-stock allocation would exceed 15%.")
 
-    min_cash_after = portfolio_value * (MIN_CASH_RESERVE / 100)
-    affordable_notional = max(0.0, min(buying_power, cash - min_cash_after))
+    max_deployed = capital_base * (1 - MIN_CASH_RESERVE / 100)
+    remaining_deployable = max(0.0, max_deployed - total_position_value)
+    affordable_notional = max(0.0, min(buying_power, cash, remaining_deployable))
     order_notional = min(requested_notional, affordable_notional)
-    if order_notional < 25:
+    minimum_meaningful_order = max(25.0, requested_notional * 0.25)
+    if order_notional < minimum_meaningful_order:
         reasons.append("Order would violate minimum cash reserve or is too small.")
 
     if order_notional < requested_notional:
@@ -69,4 +79,3 @@ def evaluate_candidate_for_order(
         warnings=warnings,
         order_notional=round(order_notional, 2),
     )
-

@@ -33,6 +33,7 @@ TELEGRAM_CHAT_ID=PASTE_YOUR_TELEGRAM_CHAT_ID_HERE
 
 AUTO_GIT_PUSH=true
 LIVE_TRADING_ENABLED=false
+MANAGED_CAPITAL_USD=10000
 ```
 
 Replace each `PASTE_..._HERE` value with the real value. Save Notepad.
@@ -48,6 +49,9 @@ Never commit `.env.local`. It is ignored by Git.
 5. Copy the paper API secret into `ALPACA_SECRET_KEY`.
 
 Do not use live Alpaca keys for version one.
+
+Alpaca paper accounts can show $100,000 by default. This bot self-limits sizing with
+`MANAGED_CAPITAL_USD=10000`, so it behaves like it only manages $10,000.
 
 ## 4. Get Perplexity Key
 
@@ -123,4 +127,3 @@ After that, runtime auto-push will only add/commit/push markdown memory files.
 - Alpaca Algo Trader Plus: optional $99/month, not needed at first.
 - Codex automations: use existing Codex/ChatGPT plan first.
 - OpenAI API direct usage: avoid unless needed.
-

@@ -47,3 +47,39 @@ def test_score_rejects_options_language():
     assert not result.approved
     assert any("banned" in reason for reason in result.rejects)
 
+
+def test_score_allows_margin_of_safety_language():
+    candidate = TradeCandidate(
+        symbol="SPY",
+        thesis="SPY gives broad diversified exposure for a short paper swing trade.",
+        catalyst="Market breadth and index liquidity support a defined paper setup this week.",
+        quality_case="Broad diversification and margin of safety reduce single-company blowup risk.",
+        momentum_case="Trend and liquidity remain constructive versus other index ETFs.",
+        bear_case="Broad market weakness can quickly invalidate the thesis.",
+        confidence=0.78,
+        horizon_days=5,
+        target_allocation_percent=10,
+        stop_loss_percent=5,
+        source_urls=["https://example.com"],
+    )
+    result = score_candidate(candidate)
+    assert result.approved
+
+
+def test_score_rejects_buying_on_margin_language():
+    candidate = TradeCandidate(
+        symbol="SPY",
+        thesis="SPY gives broad diversified exposure for a short paper swing trade.",
+        catalyst="Market breadth and index liquidity support a defined paper setup this week.",
+        quality_case="The setup only works by buying on margin with leverage.",
+        momentum_case="Trend and liquidity remain constructive versus other index ETFs.",
+        bear_case="Broad market weakness can quickly invalidate the thesis.",
+        confidence=0.78,
+        horizon_days=5,
+        target_allocation_percent=10,
+        stop_loss_percent=5,
+        source_urls=["https://example.com"],
+    )
+    result = score_candidate(candidate)
+    assert not result.approved
+    assert any("banned" in reason for reason in result.rejects)
