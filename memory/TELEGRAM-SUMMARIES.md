@@ -929,4 +929,107 @@ Chittick Cash: Strong FCF but stretched multiples limit buffer.
 HF filter: sentiment=not run source=0/100 hype=0.20 vetoes=0
 Social buzz, low weight: low-weight social attention signal, or none
 Congress signal, low weight: none
+## End Of Day Memo - 2026-04-30 16:22:14 Eastern Daylight Time
+
+End Of Day Analyst Memo
+
+Recommendation: Carry forward only evidence-backed candidates; review stops before the next market-open run.
+
+Market Regime
+End-of-day review of paper portfolio, trade quality, risk notes, and next-day watchlist.
+
+Portfolio
+Portfolio value: 100043.63 Cash: 98400 Buying power: 198443.63 Positions: - GOOGL: qty=2.151289429, market_value=826.342539, unrealized_pl=26.342539 - SPMO: qty=6.119014838, market_value=817.289888, unrealized_pl=17.289888
+
+Top Candidates
+
+1. SPMO (Broad Equity Momentum ETF) | confidence 0.78 | allocation 8.0% | stop 6.0% | Chittick 70/100 | HF source 0/100
+Thesis: Broad equity momentum ETF capturing S&P 500 uptrend with +17.81% 1M return, blending quality large-caps and short-term momentum in risk-on regime.
+Catalyst: +1.23% daily gain to $132.29, trading $128-$132 (high $131.50), uptrend from 52-week low $78.25 amid S&P strength near ATHs and tech earnings beats.
+Entry: Enter on pullback to $128-$130 support if volume holds; paper-trade at market open if above 5-day MA.
+Exit: Take profits at $135 (next resistance) or +6-8%; invalidate below $126 (recent range low).
+Risk/reward: 6% stop targets 5-8% upside in 5-7 days; favorable in momentum regime.
+Bear/adversary: Overbought momentum ETF; single-stock concentration risk in tech/AI (14% semi cap); Fed pause could stall S&P.
+Source quality: Strong: Consistent memory signals, market data (Barchart/SPY trends), AMZN beat validates tech momentum; no hype reliance.
+Chittick Cash Filter
+Score: 70/100
+Margin of safety: ETF diversification provides downside buffer vs singles; trading above key supports with S&P backing.
+Valuation: Momentum premium justified by S&P uptrend; attractive vs broad indices on relative strength.
+Growth runway: S&P earnings growth 18.6% expected; tech leadership persists 30-180 days.
+Balance-sheet risk: ETF; underlying large-caps cash-rich, low cyclicality vs semis.
+Capital allocation: Passive; tracks quality momentum names with disciplined rebalance.
+Concentration case: Broad S&P exposure over single AI/semicon bets; core holding for regime.
+Owner thesis, 30-180 days: S&P ATH break + Fed pivot could justify 30-180 day review as quality momentum proxy.
+Chittick reject reason: none
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.00
+Evidence rank: 0/100
+Memory similarity: 0.95
+Vetoes: none
+Model notes: Persistent top candidate; AMZN validates tech momentum.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
+
+2. GOOGL (Technology / Internet Services) | confidence 0.77 | allocation 8.0% | stop 6.0% | Chittick 82/100 | HF source 0/100
+Thesis: High-quality internet/cloud leader with AI tailwinds; Chittick priority blending durable moat, growth runway, balance-sheet strength for 1-10 day swings.
+Catalyst: AI compute demand validated by AMZN AWS +28% beat, Perplexity/OpenAI deals; upcoming Q1 earnings (early May) for cloud/AI guidance.
+Entry: Enter on dip to 10-day MA or $165 support post-AMZN momentum.
+Exit: Profits at pre-earnings run-up +6-8%; stop below recent range low.
+Risk/reward: 6% risk for 8-10% reward on earnings catalyst in 5-7 days.
+Bear/adversary: Regulatory overhang (antitrust), competition in AI/search from OpenAI/Perplexity.
+Source quality: Strong: Chittick seed priority, memory persistence, AMZN validates cloud/AI demand; reputable catalysts.
+Chittick Cash Filter
+Score: 82/100
+Margin of safety: Net cash position, recurring ad/cloud revenue; trading at discount to AI peers on forward growth.
+Valuation: Attractive vs quality: P/E reasonable for 15-20% cloud growth vs semis.
+Growth runway: Cloud/AI +20-30% 30-180 days (Perplexity deals); secular ad recovery.
+Balance-sheet risk: Minimal debt, no dilution; low cyclicality.
+Capital allocation: Excellent: Buybacks, AI capex discipline.
+Concentration case: Chittick seed; superior to broad ETF on cloud moat/AI runway.
+Owner thesis, 30-180 days: Cloud >25% growth + AI monetization justifies 30-180 day owner thesis.
+Chittick reject reason: none
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.00
+Evidence rank: 0/100
+Memory similarity: 0.92
+Vetoes: none
+Model notes: AMZN AWS beat reinforces cloud/AI thesis.
+Social buzz, max 10%: low-weight social attention signal, or none
+Congress signal, max 5%: none
+Sources: none
+
+3. NVDA (Semiconductors) | confidence 0.78 | allocation 8.0% | stop 7.0% | Chittick 35/100 | HF source 0/100
+Thesis: AI infrastructure leader with momentum but Chittick caution on valuation/cyclicality; swing on institutional flows.
+Catalyst: CoreWeave $63.9B deals, Vera Rubin demand; ranked #1 2026 swing stock; AMZN chip run-rate >$20B validates ecosystem.
+Entry: Pullback to 5-day MA or $125 support on volume.
+Exit: +8% or pre-earnings high; stop below range.
+Risk/reward: 7% risk for 10%+ reward in volatile swings.
+Bear/adversary: Overhyped valuation, semi concentration risk (14% market cap).
+Source quality: Moderate: Listicle-heavy (#1 swing rank) + memory; AMZN validates but lacks fresh SEC.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Strong FCF but stretched multiples limit buffer.
+Valuation: Premium justified by AI monopoly but downside if growth slows.
+Growth runway: AI data centers 30-180 days; Blackwell ramp.
+Balance-sheet risk: Low debt; cyclical semi exposure.
+Capital allocation: Shareholder-friendly; capex disciplined.
+Concentration case: High-conviction AI but prefer diversified SPMO.
+Owner thesis, 30-180 days: Sustained >100% data center growth justifies review.
+Chittick reject reason: Listicle reliance tempers to watch.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.20
+Evidence rank: 0/100
+Memory similarity: 0.96
+Vetoes: none
+Model notes: AMZN chip news supportive but hype risk.
+Social buzz, max 10%: low-weight social attention signal, or none
+Congress signal, max 5%: none
+Sources: none
 

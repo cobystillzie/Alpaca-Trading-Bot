@@ -49,4 +49,13 @@ Buying power: 198424.91
 Positions:
 - GOOGL: qty=2.151289429, market_value=811.124102, unrealized_pl=11.124102
 - SPMO: qty=6.119014838, market_value=813.828973, unrealized_pl=13.828973
+## End Of Day Summary - 2026-04-30 16:22:14 Eastern Daylight Time
+
+Portfolio value: 100043.63
+Cash: 98400
+Buying power: 198443.63
+
+Positions:
+- GOOGL: qty=2.151289429, market_value=826.342539, unrealized_pl=26.342539
+- SPMO: qty=6.119014838, market_value=817.289888, unrealized_pl=17.289888
 
