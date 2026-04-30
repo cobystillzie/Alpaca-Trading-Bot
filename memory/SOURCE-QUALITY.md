@@ -1023,4 +1023,139 @@ SEC/company quality check:
   "quality_notes": "Watchlist shows durable AI demand (GOOGL Cloud +63% YoY, NVDA CoreWeave/Vera Rubin, ETN options vol on AI power). SPMO momentum strong (+17.81% 1M). No revenue quality/dilution flags in memory. WSC  quality: Recurring lease revenue (fleet lives 20-30yrs, >50% residuals); diversified 15 end-markets; VAPS upsell. Lacks durable demand evidence vs AI peers.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-04-30 19:36:22 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No unusual discussion or social buzz detected around liquid US stocks or ETFs, including candidates like SPMO, NVDA, GOOGL, and ETN. Existing memory shows standard catalysts without flagged hype or pump language.",
+  "social_buzz": "Weak; no public web or social-attention coverage of unusual activity.",
+  "attention_anomalies": "None identified. No suspected hype, pump language, or unsupported claims.",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No recent congressional disclosures for liquid US stocks/ETFs matching current candidates (GOOGL, NVDA, SPMO, ETN). Relevant trades: Rep. Dingell purchased PTA (up to $15K on 04/21)[2]; Rep. Cisneros traded AME (purchase 01/09, sale 02/10 up to $15K each)[1]; Sen. Mullin purchased ELV (up to $50K on 12/29)[4]; multiple PH trades (net sales)[3][5].",
+  "congressional_signal": "None for candidates; low-weight signals on PTA (recent buy), AME/PH/ELV (mixed/net sales).",
+  "tickers": ["PTA", "AME", "PH", "ELV"],
+  "source_urls": [
+    "https://www.quiverquant.com/news/AMETEK+($AME)+Releases+Q1+2026+Earnings",
+    "https://www.quiverquant.com/news/PTA+Stock+(PTA)+Opinions+on+Congressional+Trade+Disclosure",
+    "https://www.quiverquant.com/news/PARKER-HANNIFIN+($PH)+Releases+Q3+2026+Earnings",
+    "https://www.quiverquant.com/news/Lobbying+Update:+$1,720,000+of+ELEVANCE+HEALTH+INC.+lobbying+was+just+disclosed"
+  ]
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": "Search results contain SEC filings for WillScot Holdings (WSC), Durable Capital hedge funds, Metsera (MTSR), and Moleculin Biotech (MBRX). No filings for GOOGL, INTC, USAR, or GT are present. Analysis limited to available companies.",
+  "filing_risks": {
+    "WSC": {
+      "balance_sheet_risks": [
+        "Large accelerated filer status indicates material scale but also regulatory scrutiny exposure[1]",
+        "Aggregate market value ~$4.9B as of June 30, 2025; 180.9M shares outstanding creates dilution tracking requirement[1]"
+      ],
+      "revenue_quality_risks": [
+        "Lease fleet profitability dependent on 20+ year asset lives with >50% residual values—sensitive to market downturns, obsolescence, and remanufacturing costs[1]",
+        "Portable storage containers have 30-year lives but require continuous maintenance (rust removal, repainting, floor replacement) creating operational drag[1]",
+        "Modular space units face building code changes that could impair remarketing ability—explicitly flagged as forward-looking risk[1]"
+      ],
+      "concentration_risks": [
+        "260 branch network across US, Canada, Mexico but concentrated in modular/portable storage verticals with limited product diversification[1]",
+        "15 distinct end markets served but no revenue breakdown provided—concentration by customer or geography unknown[1]"
+      ],
+      "capital_allocation_risks": [
+        "Hybrid in-house/outsourced logistics infrastructure creates operational complexity and potential cost inflation[1]",
+        "Network Optimization Plan mentioned as key execution risk but details not disclosed in 10-K excerpt[1]"
+      ],
+      "litigation_risks": [
+        "No specific litigation disclosed in excerpt, but activist shareholder actions flagged as material risk factor[1]"
+      ],
+      "valuation_risks": [
+        "Market cap $4.9B on lease fleet model with long asset lives—valuation sensitive to discount rate assumptions and residual value realization[1]"
+      ]
+    },
+    "MTSR": {
+      "revenue_quality_risks": [
+        "Pre-revenue biotech: MET-224o oral GLP-1 RA in IND-enabling stage; MET-002 Phase 1 formulation optimization just initiated in Canada[5]",
+        "Preclinical data only—canine bioavailability 5.8% vs. Rybelsus 0.4%, but human translation uncertain; no clinical efficacy data in humans[5]",
+        "Formulation optimization trial expected to release preliminary results late 2025, but timeline slippage risk high for early-stage programs[5]"
+      ],
+      "dilution_risks": [
+        "D&D License Agreement (March 2024): $10M upfront + up to $26-52M per milestone + up to $112.5-225M sales milestones + tiered royalties (low-single to mid-teen %)[5]",
+        "Triple G License Agreement with D&D also in place, creating multiple royalty obligations and potential equity dilution from future financing[5]",
+        "No balance sheet data provided; pre-revenue status implies cash burn and future dilution inevitable[5]"
+      ],
+      "capital_allocation_risks": [
+        "Heavy reliance on D&D partnership for oral delivery platform (MOMENTUM); loss of partnership or IP dispute could halt program[5]",
+        "IND-enabling activities underway for MET-224o and MET-034i but no funding source disclosed—likely requires capital raise[5]"
+      ],
+      "concentration_risks": [
+        "Pipeline concentrated in GLP-1/GIP/glucagon agonist combinations; limited diversification outside obesity/weight loss indication[5]",
+        "D&D partnership creates single-point-of-failure risk for oral formulation technology[5]"
+      ],
+      "litigation_risks": [
+        "No litigation disclosed, but IP licensing complexity with D&D creates potential dispute risk[5]"
+      ]
+    },
+    "MBRX": {
+      "revenue_quality_risks": [
+        "Pre-revenue biotech: Annamycin (MB-106 AML trial) in Phase 1B/2; 20 subjects enrolled, 39% composite complete response (CRc) rate in all evaluable subjects (n=18)[7]",
+        "2nd-line AML subgroup (n=10) shows 60% CRc but small sample size; durability data minimal (one CR relapsed at 4.5 months)[7]",
+        "Cardiotoxicity assessment ongoing; independent expert reviewed only 4 subjects' data from 63 total Annamycin-dosed subjects—incomplete safety profile[7]",
+        "MB-107 STS lung metastases trial: median PFS 2.3 months, median OS 11.3 months in Phase 1B (n=15); Phase 2 OS data still developing[7]"
+      ],
+      "dilution_risks": [
+        "No balance sheet data provided; pre-revenue status with ongoing clinical trials implies significant cash burn and future dilution[7]",
+        "WP1066 portfolio (glioblastoma, pancreatic cancer) in preclinical/early IND-enabling stage—long development timeline increases financing risk[7]"
+      ],
+      "capital_allocation_risks": [
+        "Externally funded trials (e.g., Rutkowski trial in Poland, $1.5M grant) reduce internal burn but create dependency on third-party funding[7]",
+        "WP1066 IV formulation development ongoing since 2021; IND-enabling preclinical testing now underway—slow progress suggests execution risk[7]"
+      ],
+      "concentration_risks": [
+        "Pipeline concentrated in oncology (Annamycin for AML/STS, WP1066 for glioblastoma/pancreatic); limited indication diversity[7]",
+        "Annamycin development focused on 2nd-line AML and STS lung mets—narrow addressable markets[7]"
+      ],
+      "litigation_risks": [
+        "No litigation disclosed, but cardiotoxicity monitoring and adverse event reporting create regulatory/liability exposure[7]"
+      ]
+    },
+    "Durable_Capital_Funds": {
+      "concentration_risks": [
+        "Durable Capital Offshore Fund: $3.93B total amount sold, 184 investors (as of Dec 2025); Onshore Fund: $7.98B sold, 510 investors (as of Oct 2025)[2][3]",
+        "Hedge fund structure (non-40 Act) with accredited-only investors; minimum investment $100K offshore, $0 onshore[2][3]",
+        "No asset allocation or position concentration data disclosed in Form D/A filings[2][3]"
+      ],
+      "capital_allocation_risks": [
+        "Incentive allocations and management fees disclosed but not quantified in Form D/A[2][3]",
+        "Indefinite offering duration with no cap on total assets—potential for uncontrolled AUM growth[2][3]"
+      ],
+      "valuation_risks": [
+        "Hedge fund valuations opaque; Form D/A does not disclose NAV, performance, or holdings[2][3]"
+      ]
+    }
+  },
+  "quality_notes": {
+    "WSC": "Mature modular/portable storage operator with 80+ year history, 260 branches, and diversified end markets. Asset-heavy model with long-lived fleet (20-30 year lives, >50% residuals) provides stability but limits upside. Regulatory compliance strong (large accelerated filer, filed all required reports). Key risks: building code changes, activist shareholders, logistics cost inflation, and residual value realization.",
+    "MTSR": "Early-stage biotech with promising oral GLP-1 RA platform (MET-224o) but no human efficacy data. Preclinical canine bioavailability superior to Rybelsus, but human translation uncertain. Heavy D&D partnership dependency creates IP and financial risk. Timeline to Phase 1/2 late 2025 is aggressive. Significant dilution risk from milestone/royalty obligations.",
+    "MBRX": "Early-stage oncology biotech with two programs: Annamycin (AML/STS) in Phase 1B/2 with modest efficacy signals (39-60% CRc in small cohorts) and incomplete safety data; WP1066 (glioblastoma) in preclinical/IND-enabling with slow formulation progress since 2021. Cardiotoxicity monitoring incomplete. High execution risk and long development timeline.",
+    "Durable_Capital": "Hedge funds with substantial AUM ($3.93B offshore, $7.98B onshore) but opaque holdings and performance. Form D/A filings provide no asset allocation, concentration, or performance data. Accredited-only structure limits transparency. No direct equity risk visible from filings alone."
+  },
+  "source_urls": [
+    "SEC EDGAR: WillScot Holdings Corp (WSC) 10-K filed 2026-02-19 for FY 2025",
+    "SEC EDGAR: Durable Capital Offshore Fund Ltd. Form D/A filed 2025-12-19",
+    "SEC EDGAR: Durable Capital Onshore Fund LP Form D/A filed 2025-10-22",
+    "SEC EDGAR: Metsera Inc. (MTSR) S-1/A filed 2025-01-27",
+    "SEC EDGAR: Moleculin Biotech Inc. (MBRX) 10-K filed 2024-03-22 for FY 2023"
+  ]
+}
+```
+
+**Note:** No SEC filings for GOOGL, INTC, USAR, or GT were present in search results. Analysis covers only companies with available 10-K/S-1/Form D filings. Watchlist names require separate SEC filing review for balance-sheet, concentration, litigation, dilution, revenue quality, capital allocation, and valuation risks.
 

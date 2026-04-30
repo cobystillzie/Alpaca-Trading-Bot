@@ -476,4 +476,29 @@
     "https://www.mufgresearch.com/rates/april-2026-fed-rates-call-update/"
   ]
 }
+## Market Regime Research - 2026-04-30 19:36:22 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equity markets exhibit a mixed but resilient tone with strong Q1 earnings beats (80%+ beat rate, +16% YoY growth) driving a 10% S&P 500 April surge and Nasdaq strength, countered by elevated volatility (VIX ~18-29), Fed hawkish hold at 3.5-3.75% with no cuts priced in amid inflation/oil risks from Middle East tensions, and YTD declines across major indices (-4.6% S&P). Tech leads rotation amid AI tailwinds.",
+  "market_regime": "Risk-on with caution: Broad rebound from March lows (+12% in April), S&P near 7136 (flat daily, +10% monthly), Nasdaq +0.6% on tech earnings, but YTD negative (-4.6% S&P, -7% Nasdaq) and flat close reflects Fed/geopolitical drag.",
+  "sector_rotation": "Technology and growth resilient (Nasdaq +0.6%, strong earnings from AMZN/GOOGL; semis broadening); Energy leads YTD (+38%) and monthly (+10%); Defensives/value (Utilities, Staples) positive YTD; Broad weakness in Q1 for Tech/Comm Svcs/Discretionary (-4-6% monthly).",
+  "risk_flags": [
+    "Elevated VIX (18.8-29) signaling volatility from Iran conflict/oil spikes.",
+    "Fed hawkish: Rates steady 3.5-3.75%, divided vote, cuts ruled out for 2026.",
+    "Geopolitical: Middle East war driving energy inflation, potential rate hikes.",
+    "Guidance gap: Cyclicals cautious despite beats; YTD index declines."
+  ],
+  "source_urls": [
+    "https://www.iconomi.com/blog/monthly-market-wrap-april-2026",
+    "https://www.stephens.com/perspectives/fed-funds-update-april-29-2026",
+    "https://www.hwmfa.org/post/staying-grounded-market-volatility-2026",
+    "https://www.sc.com/en/uploads/sites/66/content/docs/wm-weekly-market-view-the-earnings-bedrock-30-april-2026.pdf",
+    "https://fintech.tv/sp-500-surges-10-in-april-big-tech-earnings-fed-decision-in-focus/",
+    "https://finance-commerce.com/2026/04/fed-rate-cuts-doubt-warsh-oil-inflation/",
+    "https://www.home.saxo/content/articles/macro/market-quick-take---30-april-2026-30042026",
+    "https://www.zacks.com/commentary/2912548/stock-market-strength-reflects-earnings-power"
+  ]
+}
+```
 

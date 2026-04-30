@@ -1347,4 +1347,34 @@ Chittick Cash: Recurring revenue, balance sheet strength.
 HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-04-30 19:36:22 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities near all-time highs with strong Q1 2026 earnings beats driving momentum, particularly in Tech/AI (GOOGL Cloud +63% YoY, AMZN AWS beats); S&P 500 +10% April amid resilient corporate growth offsetting Fed hold and geopolitical risks.
+Candidates: 3
+
+1. GOOGL (Technology / Internet Services / Cloud) | confidence 0.82 | allocation 8.0% | stop 6.0% | Chittick 82/100
+Recommendation: execute-if-guards-pass
+Catalyst: Q1 2026 earnings beat: $109.9B revenue (+22% YoY), Cloud $20B (+63% YoY first time), EPS $5.11 (+82% YoY); Perplexity/OpenAI compute deals confirm AI demand.
+Chittick Cash: 32.8% margins and strong FCF buffer downside; trading below historical multiples post-beat.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. NVDA (Semiconductors / AI Infrastructure) | confidence 0.80 | allocation 8.0% | stop 7.0% | Chittick 75/100
+Recommendation: watch
+Catalyst: CoreWeave $63.9B deals, Vera Rubin ramp; AMZN $20B+ chip run-rate; ranked #1 2026 swing stock.
+Chittick Cash: AI backlog buffers; high margins.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. SPMO (Broad Equity Momentum ETF / S&P 500) | confidence 0.78 | allocation 8.0% | stop 6.0% | Chittick 70/100
+Recommendation: watch
+Catalyst: +17.81% 1M return to $132.29, +1.23% daily amid S&P ATHs/tech beats.
+Chittick Cash: Diversification; momentum filter.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Social buzz, low weight: none
+Congress signal, low weight: none
 
