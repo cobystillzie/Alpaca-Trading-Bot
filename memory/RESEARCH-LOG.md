@@ -158,4 +158,13 @@ Candidates found: 3
 Markets maintain cautious risk-on tone with AI/tech/semiconductor resilience (NVDA, GOOGL, SPMO) offsetting oil/geopolitical pressures; latest scans highlight SPMO momentum (+17.81% 1M), NVDA #1 swing rank, GOOGL AI tailwinds, no new HUMA catalysts shift watch status.
 
 Candidates found: 3
+## Premarket Plan - 2026-04-30 08:35:39 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- SPMO: score=74, base=90, chittick=35, approved=True, allocation=8.0%, stop=6.0%
+- NVDA: score=86, base=90, chittick=75, approved=False, allocation=8.0%, stop=7.0%
+  rejects: Low-weight social/congress signal needs at least two stronger sources.
+- GOOGL: score=88, base=90, chittick=82, approved=False, allocation=8.0%, stop=6.0%
+  rejects: Low-weight social/congress signal needs at least two stronger sources.
 
