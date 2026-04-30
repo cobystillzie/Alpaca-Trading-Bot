@@ -226,4 +226,45 @@ SEC/company quality check:
   ]
 }
 ```
+## Source And Signal Research - 2026-04-30 07:29:49 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No unusual discussion or hype detected around liquid US stocks/ETFs. Coverage remains routine on candidates like SPMO, NVDA, ASML amid standard technical/AI catalysts. Social buzz weak and aligned with existing memory.",
+  "social_buzz": "Weak; no spikes in mentions or sentiment shifts for SPMO/NVDA/ASML/LRCX/MSFT.",
+  "attention_anomalies": "None flagged. No pump language, unsupported claims, or hype risks observed.",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+{
+  "summary": "No recent congressional disclosures for new trades in liquid US stocks or ETFs identified in available sources. SMCI shows prior trades (1 purchase, 2 sales up to $15,000 each by Sen. John Boozman and Rep. Gilbert Ray Cisneros Jr. in late 2025), treated as low-weight delayed context. VRT shows balanced prior trades (3 buys, 3 sales up to $45,000 by Rep. Lisa C. McClain in Oct 2025).[1][5]",
+  "congressional_signal": "SMCI: 1 purchase (Sen. Boozman, up to $15k on 12/11/25), 2 sales (Sen. Boozman up to $15k on 12/31/25; Rep. Cisneros up to $15k on 11/12/25). VRT: 3 purchases and 3 sales (Rep. McClain, up to $15k buy 10/30/25, sales up to $30k 10/30-10/31/25). No trades reported in April 2026.[1][5]",
+  "tickers": ["SMCI", "VRT"],
+  "source_urls": [
+    "https://www.quiverquant.com/news/Super+Micro+Computer+Stock+(SMCI)+Opinions+on+AI+Server+Portfolio+Expansion",
+    "https://www.quiverquant.com/news/Fund+Update:+New+$10.7M+$VRT+stock+position+opened+by+OREGON+PUBLIC+EMPLOYEES+RETIREMENT+FUND"
+  ]
+}
+
+SEC/company quality check:
+{
+  "summary": "Current watchlist features semiconductor/AI leaders (NVDA, ASML, LRCX, NXPI, GOOGL) and ETFs (SPMO) with high confidence (0.70-0.80) driven by technical momentum and AI demand; biotech (ANIX, TNXP, LLY) with clinical catalysts; ARLO on earnings beats. No direct SEC filings for watchlist names; available WSC 10-K shows stable modular space leasing business with long asset lives (20-30+ years) but risks from economic cycles, debt, competition.",
+  "filing_risks": [
+    "**WSC (WillScot Holdings, not on watchlist):** Balance-sheet risks from substantial indebtedness, covenant restrictions limiting flexibility; concentration in leasing (modular/portable storage) vulnerable to economic downturns, end-market demand fluctuations; litigation/operational risks from legal proceedings, cybersecurity, labor disruptions; capital allocation risks in acquisitions/integration, fleet maintenance; revenue quality tied to cyclical construction/energy sectors; no material dilution or valuation notes in 10-K.",
+    "**GOOGL (Chittick priority):** No recent SEC filings in results; memory notes AI tailwinds but monitor historical concentration in search/advertising, regulatory litigation risks (antitrust).",
+    "**No filings for NVDA/ASML/LRCX/SPMO/LLY/ARLO/NXPI/ANIX/TNXP:** Lacking 10-K/10-Q data; infer durable AI/semiconductor demand but unverified balance-sheet/debt, revenue concentration (e.g., NVDA GPU reliance), dilution risks.",
+    "**Biotechs (ANIX/TNXP):** Early-stage (Phase 2); high clinical/regulatory risks, potential dilution from funding needs; no filings provided.",
+    "**General:** Durable Capital hedge funds  show large AUM ($3.9-8B) but no position disclosures; Metsera S-1  unrelated biotech pipeline."
+  ],
+  "quality_notes": [
+    "**Durable demand evidence:** SPMO (broad momentum ETF) up 17.81% monthly amid S&P strength; NVDA/ASML/LRCX/NXPI AI/semiconductor catalysts with technical golden crosses; GOOGL AI deals (Perplexity/OpenAI); LLY GLP-1 guidance; ARLO earnings beats (Q4 rev +4%, Q1 guide > est). No filing confirmation of moat/revenue quality.",
+    "**Chittick priorities (GOOGL/GOOG, INTC, USAR, GT):** GOOGL on list (conf 0.75, Chittick 82) with AI compute demand; INTC/USAR/GT absent from recent candidates/memory.",
+    "**Risks to quality:** Watchlist heavy semiconductors (NVDA 0.80, ASML 0.76, LRCX 0.74, NXPI 0.72) - cyclical, valuation stretch unverified sans filings; SPMO repeated (rejected prior for allocation >15%); biotechs low conf (0.48-0.68), Phase 2 risks; no balance-sheet leverage/debt metrics.",
+    "**SPMO:** Consistent uptrend from $78.25 low, +1.23% daily, but ETF lacks underlying filings; rejected trades signal position sizing discipline."
+  ],
+  "source_urls": []
+}
 

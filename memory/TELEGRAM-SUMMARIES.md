@@ -390,4 +390,31 @@ Catalyst: AI tailwinds (Perplexity/OpenAI deals highlight compute demand); upcom
 Chittick Cash: Net cash position; diversified revenue.
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-04-30 07:29:49 Eastern Daylight Time
+
+Research Update
+
+Market tone: Markets in risk-off consolidation with VIX at 18.74, Fed rates steady at 3.50-3.75%, S&P testing 7,121 support amid pre-earnings caution for Big Tech; SPMO shows resilient momentum uptrend (+17.81% 1-month to $132.29) despite prior rejections for allocation limits, NVDA/GOOGL hold watch status on AI catalysts.
+Candidates: 3
+
+1. SPMO (Broad Equity Momentum ETF) | confidence 0.78 | allocation 8.0% | stop 6.0% | Chittick 35/100
+Recommendation: watch
+Catalyst: Recent +17.81% 1-month return (03/27-04/27/26 to $132.29), +1.23% daily gains trading $128-$132 with highs at $131.50, continuing uptrend from 52-week low $78.25 amid S&P strength.
+Chittick Cash: Diversified across top S&P momentum names reduces single-stock risk; low 0.65% yield but stable ETF structure.
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. GOOGL (Technology / Internet Services) | confidence 0.75 | allocation 8.0% | stop 6.0% | Chittick 82/100
+Recommendation: watch
+Catalyst: AI tailwinds from compute demand (Perplexity/OpenAI deals); upcoming earnings.
+Chittick Cash: Net cash position; diversified revenue.
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. NVDA (Semiconductors) | confidence 0.80 | allocation 8.0% | stop 7.0% | Chittick 75/100
+Recommendation: watch
+Catalyst: Ranked #1 swing trading stock for 2026; resilient amid CoreWeave $63.9B deals.
+Chittick Cash: AI demand buffer but high valuation limits.
+Social buzz, low weight: none
+Congress signal, low weight: none
 

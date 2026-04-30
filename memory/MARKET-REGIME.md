@@ -232,4 +232,27 @@
   ]
 }
 ```
+## Market Regime Research - 2026-04-30 07:29:49 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equity markets exhibit **risk-off conditions** amid Fed's hawkish hold at 3.50-3.75%, rising VIX to 18.74 (+5.10%), S&P 500 testing support at 7,121 (-0.24%), and pre-earnings caution for Big Tech. Dollar Index surges to 98.871 (+0.28%) on higher-for-longer rates, with oil shock and geopolitical tensions adding pressure.",
+  "market_regime": "Risk-off / Cautious Consolidation",
+  "sector_rotation": "Shift from AI/Semiconductors (NVDA, ASML, LRCX under pressure from OpenAI growth concerns) toward defensive Biotech/Pharma (ANIX, TNXP, LLY) and Broad Momentum (SPMO); watch Smart Home (ARLO) and Auto-Industrial semis (NXPI) for resilience.",
+  "risk_flags": [
+    "Fed hawkish tone: No rate cuts endorsed, rates steady at 3.50-3.75% amid sticky inflation and oil >$100[1][3][4]",
+    "VIX spike to 18.74 (+5.10%), S&P 500 at 7,121 testing support[5]",
+    "Dollar strength DXY 98.871 (+0.28%) pressuring equities[2]",
+    "Geopolitical: US-Iran tensions, Strait of Hormuz risks elevating oil[1][3]",
+    "Tech earnings risk: Alphabet, Microsoft, Amazon, Meta reports today; AI growth doubts weighing Nasdaq[1]"
+  ],
+  "source_urls": [
+    "https://www.moomoo.com/news/post/69121976/powell-s-every-move-may-carry-a-hawkish-tone",
+    "https://www.sahi.com/news/dollar-index-surges-0-28-to-98-871-as-fed-rate-stance-triggers-euro-decline-dollar-index",
+    "https://www.mitrade.com/au/insights/share/share-trading/us-stock-market-outlook-2026",
+    "https://www.mexc.com/news/1063597",
+    "https://www.moomoo.com/stock/.VIX-US?chain_id=Name1K9-3FXPhg.1kv4e8g"
+  ]
+}
+```
 
