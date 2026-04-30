@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from typing import Any
+
 from .config import Settings
 from .http_client import request_json
 
@@ -7,23 +9,65 @@ from .http_client import request_json
 PERPLEXITY_URL = "https://api.perplexity.ai/chat/completions"
 
 
-def run_sonar_research(settings: Settings, prompt: str) -> str:
+def build_sonar_payload(
+    settings: Settings,
+    prompt: str,
+    *,
+    system_content: str | None = None,
+    search_mode: str | None = None,
+    search_domain_filter: list[str] | None = None,
+    search_context_size: str | None = None,
+    model: str | None = None,
+) -> dict[str, Any]:
+    payload: dict[str, Any] = {
+        "model": model or settings.perplexity_model,
+        "messages": [
+            {
+                "role": "system",
+                "content": system_content
+                or "You are a cautious paper-trading research analyst. Return only valid JSON.",
+            },
+            {"role": "user", "content": prompt},
+        ],
+        "temperature": 0.2,
+        "web_search_options": {
+            "search_context_size": search_context_size
+            or settings.perplexity_search_context
+        },
+    }
+    if settings.perplexity_recency:
+        payload["search_recency_filter"] = settings.perplexity_recency
+    if search_mode:
+        payload["search_mode"] = search_mode
+    if search_domain_filter:
+        payload["search_domain_filter"] = search_domain_filter[:20]
+    return payload
+
+
+def run_sonar_research(
+    settings: Settings,
+    prompt: str,
+    *,
+    system_content: str | None = None,
+    search_mode: str | None = None,
+    search_domain_filter: list[str] | None = None,
+    search_context_size: str | None = None,
+    model: str | None = None,
+) -> str:
     if not settings.perplexity_configured:
         return (
             '{"summary":"Perplexity API key is missing. No live research was run.",'
             '"candidates":[]}'
         )
-    payload = {
-        "model": "sonar",
-        "messages": [
-            {
-                "role": "system",
-                "content": "You are a cautious paper-trading research analyst. Return only valid JSON.",
-            },
-            {"role": "user", "content": prompt},
-        ],
-        "temperature": 0.2,
-    }
+    payload = build_sonar_payload(
+        settings,
+        prompt,
+        system_content=system_content,
+        search_mode=search_mode,
+        search_domain_filter=search_domain_filter,
+        search_context_size=search_context_size,
+        model=model,
+    )
     data = request_json(
         "POST",
         PERPLEXITY_URL,
@@ -35,4 +79,3 @@ def run_sonar_research(settings: Settings, prompt: str) -> str:
         return data["choices"][0]["message"]["content"]
     except (KeyError, IndexError, TypeError):
         return '{"summary":"Perplexity returned an unexpected response shape.","candidates":[]}'
-

@@ -17,8 +17,26 @@ from .memory import (
     update_watchlist,
 )
 from .perplexity import run_sonar_research
-from .strategy import extract_candidates, research_prompt, score_candidate
-from .telegram import send_message
+from .strategy import (
+    congressional_prompt,
+    extract_candidates,
+    market_regime_prompt,
+    research_prompt,
+    score_candidate,
+    sec_quality_prompt,
+    social_buzz_prompt,
+)
+from .telegram import format_analyst_memo, format_research_update, send_message
+
+
+SOCIAL_BUZZ_DOMAINS = ["reddit.com", "stocktwits.com", "x.com", "finance.yahoo.com"]
+CONGRESSIONAL_DOMAINS = [
+    "capitoltrades.com",
+    "disclosures-clerk.house.gov",
+    "efdsearch.senate.gov",
+    "quiverquant.com",
+    "unusualwhales.com",
+]
 
 
 def _settings() -> Settings:
@@ -90,23 +108,73 @@ def setup_check() -> int:
     return 0
 
 
+def _research_passes(settings: Settings, memory_bundle: str) -> dict[str, str]:
+    context: dict[str, str] = {}
+    context["market_regime"] = run_sonar_research(
+        settings,
+        market_regime_prompt(memory_bundle),
+        system_content="Return valid JSON. Analyze market regime for a cautious paper-trading workflow.",
+    )
+    context["social_buzz"] = run_sonar_research(
+        settings,
+        social_buzz_prompt(memory_bundle),
+        system_content="Return valid JSON. Social buzz is weak context only, never a trade reason.",
+        search_domain_filter=SOCIAL_BUZZ_DOMAINS,
+    )
+    context["congressional_disclosures"] = run_sonar_research(
+        settings,
+        congressional_prompt(memory_bundle),
+        system_content="Return valid JSON. Congressional disclosures are delayed, low-weight context only.",
+        search_domain_filter=CONGRESSIONAL_DOMAINS,
+    )
+    context["sec_quality"] = run_sonar_research(
+        settings,
+        sec_quality_prompt(memory_bundle),
+        system_content="Return valid JSON. Use SEC/company filing evidence for risk and quality checks.",
+        search_mode="sec",
+    )
+    return context
+
+
 def run_research() -> int:
     settings = _settings()
-    prompt = research_prompt(read_memory_bundle(settings.root))
+    memory_bundle = read_memory_bundle(settings.root, max_chars=30000)
+    research_context = _research_passes(settings, memory_bundle)
+    prompt = research_prompt(
+        memory_bundle,
+        settings=settings,
+        research_context=research_context,
+    )
     response = run_sonar_research(settings, prompt)
     summary, candidates = extract_candidates(response)
     if not summary:
         summary = "Research completed, but no summary was returned."
     update_watchlist(settings.root, summary, candidates)
     append_section(
+        settings.root / "memory" / "MARKET-REGIME.md",
+        "Market Regime Research",
+        research_context.get("market_regime", ""),
+    )
+    append_section(
+        settings.root / "memory" / "SOURCE-QUALITY.md",
+        "Source And Signal Research",
+        (
+            "Social buzz, max 10% influence:\n"
+            + research_context.get("social_buzz", "")
+            + "\n\nCongressional disclosures, max 5% influence:\n"
+            + research_context.get("congressional_disclosures", "")
+            + "\n\nSEC/company quality check:\n"
+            + research_context.get("sec_quality", "")
+        ),
+    )
+    append_section(
         settings.root / "memory" / "RESEARCH-LOG.md",
         "Two-Hour Research Agent",
         f"{summary}\n\nCandidates found: {len(candidates)}",
     )
-    send_message(
-        settings,
-        f"Research agent complete.\nCandidates: {len(candidates)}\n{summary[:1200]}",
-    )
+    telegram_text = format_research_update(summary, candidates)
+    append_section(settings.root / "memory" / "TELEGRAM-SUMMARIES.md", "Research Update", telegram_text)
+    send_message(settings, telegram_text)
     print(commit_and_push_memory(settings, "research update"))
     print(f"Research complete. Candidates: {len(candidates)}")
     return 0
@@ -115,6 +183,7 @@ def run_research() -> int:
 def run_premarket() -> int:
     settings = _settings()
     candidates = load_latest_candidates(settings.root)
+    rejected: list[str] = []
     lines = ["Premarket plan built from latest watchlist.", ""]
     if not candidates:
         lines.append("No candidates available. Run research first.")
@@ -126,12 +195,22 @@ def run_premarket() -> int:
         )
         if score.rejects:
             lines.append(f"  rejects: {'; '.join(score.rejects)}")
+            rejected.append(f"{candidate.symbol}: {'; '.join(score.rejects)}")
     append_section(
         settings.root / "memory" / "RESEARCH-LOG.md",
         "Premarket Plan",
         "\n".join(lines),
     )
-    send_message(settings, "Premarket plan complete.\n" + "\n".join(lines[:10]))
+    summary = candidates[0].market_regime if candidates else "No current market regime from watchlist."
+    memo = format_analyst_memo(
+        "Premarket Analyst Memo",
+        summary=summary or "Premarket plan built from latest research and watchlist.",
+        candidates=candidates,
+        action="Execute only if guardrails pass; otherwise hold cash and wait for cleaner evidence.",
+        rejected=rejected,
+    )
+    append_section(settings.root / "memory" / "TELEGRAM-SUMMARIES.md", "Premarket Memo", memo)
+    send_message(settings, memo)
     print(commit_and_push_memory(settings, "premarket plan"))
     print("Premarket complete.")
     return 0
@@ -175,6 +254,14 @@ def _run_market_open_impl(settings: Settings) -> int:
             "Market Open Execution",
             "No candidates available. No order was placed.",
         )
+        send_message(
+            settings,
+            format_analyst_memo(
+                "Market Open Execution Memo",
+                summary="No candidates available. No order was placed.",
+                action="Skip execution and preserve cash.",
+            ),
+        )
         print(commit_and_push_memory(settings, "market open no candidates"))
         return 0
 
@@ -192,6 +279,7 @@ def _run_market_open_impl(settings: Settings) -> int:
         print("Market-open already handled today.")
         return 0
 
+    rejected: list[str] = []
     for candidate in candidates:
         result = evaluate_candidate_for_order(
             candidate,
@@ -206,6 +294,7 @@ def _run_market_open_impl(settings: Settings) -> int:
                 f"Rejected {candidate.symbol}",
                 "\n".join(result.reasons),
             )
+            rejected.append(f"{candidate.symbol}: {'; '.join(result.reasons)}")
             continue
 
         asset = client.asset(candidate.symbol)
@@ -215,6 +304,7 @@ def _run_market_open_impl(settings: Settings) -> int:
                 f"Rejected {candidate.symbol}",
                 "Alpaca asset is not tradable as a supported stock/ETF.",
             )
+            rejected.append(f"{candidate.symbol}: Alpaca asset is not tradable as a supported stock/ETF.")
             continue
 
         order = client.place_market_notional_order(candidate.symbol, result.order_notional)
@@ -234,13 +324,30 @@ def _run_market_open_impl(settings: Settings) -> int:
         )
         send_message(
             settings,
-            f"Paper order placed: {candidate.symbol}\nNotional: ${result.order_notional:.2f}\nOrder: {order.get('id', 'unknown')}",
+            format_analyst_memo(
+                "Market Open Execution Memo",
+                summary=candidate.market_regime or "Market-open order placed after guardrail approval.",
+                candidates=[candidate],
+                portfolio=_portfolio_body(account, positions),
+                action=f"Paper order placed: {candidate.symbol}, notional ${result.order_notional:.2f}, order {order.get('id', 'unknown')}.",
+                rejected=rejected,
+            ),
         )
         print(commit_and_push_memory(settings, f"paper order {candidate.symbol}"))
         print(f"Paper order placed for {candidate.symbol}.")
         return 0
 
-    send_message(settings, "Market-open execution found no approved paper trades.")
+    send_message(
+        settings,
+        format_analyst_memo(
+            "Market Open Execution Memo",
+            summary="Market-open execution found no approved paper trades.",
+            candidates=candidates,
+            portfolio=_portfolio_body(account, positions),
+            action="Skip execution; preserve cash until evidence and guardrails improve.",
+            rejected=rejected,
+        ),
+    )
     print(commit_and_push_memory(settings, "market open rejections"))
     print("No approved trades.")
     return 0
@@ -256,7 +363,16 @@ def run_midday() -> int:
     positions = client.positions()
     body = _portfolio_body(account, positions)
     append_section(settings.root / "memory" / "PORTFOLIO-SNAPSHOT.md", "Midday Risk Scan", body)
-    send_message(settings, "Midday risk scan complete.\n" + body[:1200])
+    candidates = load_latest_candidates(settings.root)
+    memo = format_analyst_memo(
+        "Midday Risk Memo",
+        summary="Review current paper positions, thesis drift, concentration, stop discipline, and cash reserve.",
+        candidates=candidates,
+        portfolio=body,
+        action="Hold only positions whose thesis still matches the research; do not add unless guardrails pass.",
+    )
+    append_section(settings.root / "memory" / "TELEGRAM-SUMMARIES.md", "Midday Memo", memo)
+    send_message(settings, memo)
     print(commit_and_push_memory(settings, "midday risk scan"))
     print("Midday complete.")
     return 0
@@ -272,7 +388,16 @@ def run_close() -> int:
     positions = client.positions()
     body = _portfolio_body(account, positions)
     append_section(settings.root / "memory" / "PORTFOLIO-SNAPSHOT.md", "End Of Day Summary", body)
-    send_message(settings, "End-of-day summary complete.\n" + body[:1200])
+    candidates = load_latest_candidates(settings.root)
+    memo = format_analyst_memo(
+        "End Of Day Analyst Memo",
+        summary="End-of-day review of paper portfolio, trade quality, risk notes, and next-day watchlist.",
+        candidates=candidates,
+        portfolio=body,
+        action="Carry forward only evidence-backed candidates; review stops before the next market-open run.",
+    )
+    append_section(settings.root / "memory" / "TELEGRAM-SUMMARIES.md", "End Of Day Memo", memo)
+    send_message(settings, memo)
     print(commit_and_push_memory(settings, "end of day summary"))
     print("Close complete.")
     return 0
@@ -294,7 +419,14 @@ def run_weekly_review() -> int:
         "Weekly Strategy Proposals",
         review,
     )
-    send_message(settings, "Weekly review complete.\n" + review[:1200])
+    memo = format_analyst_memo(
+        "Weekly Strategy Review Memo",
+        summary=review,
+        candidates=load_latest_candidates(settings.root),
+        action="Use weekly review as proposals only; do not auto-edit executable trading code.",
+    )
+    append_section(settings.root / "memory" / "TELEGRAM-SUMMARIES.md", "Weekly Memo", memo)
+    send_message(settings, memo)
     print(commit_and_push_memory(settings, "weekly strategy review"))
     print("Weekly review complete.")
     return 0

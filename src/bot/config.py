@@ -37,6 +37,15 @@ def _float(value: str, default: float) -> float:
         return default
 
 
+def _bounded_float(value: str, default: float, low: float, high: float) -> float:
+    parsed = _float(value, default)
+    if parsed < low:
+        return low
+    if parsed > high:
+        return high
+    return parsed
+
+
 def _is_placeholder(value: str) -> bool:
     return not value or value.startswith("PASTE_")
 
@@ -54,6 +63,12 @@ class Settings:
     auto_git_push: bool
     live_trading_enabled: bool
     managed_capital_usd: float
+    perplexity_model: str
+    perplexity_search_context: str
+    perplexity_recency: str
+    telegram_detail_level: str
+    social_buzz_weight: float
+    congressional_signal_weight: float
 
     @property
     def is_paper(self) -> bool:
@@ -93,6 +108,12 @@ class Settings:
             issues.append("Missing Telegram bot token or chat id.")
         if self.managed_capital_usd <= 0:
             issues.append("MANAGED_CAPITAL_USD must be greater than 0.")
+        if self.perplexity_search_context not in {"low", "medium", "high"}:
+            issues.append("PERPLEXITY_SEARCH_CONTEXT must be low, medium, or high.")
+        if self.social_buzz_weight > 0.10:
+            issues.append("SOCIAL_BUZZ_WEIGHT must be 0.10 or lower.")
+        if self.congressional_signal_weight > 0.05:
+            issues.append("CONGRESSIONAL_SIGNAL_WEIGHT must be 0.05 or lower.")
         return issues
 
 
@@ -113,4 +134,18 @@ def load_settings(root: Path | None = None) -> Settings:
         auto_git_push=_bool(_env("AUTO_GIT_PUSH", file_values, "false")),
         live_trading_enabled=_bool(_env("LIVE_TRADING_ENABLED", file_values, "false")),
         managed_capital_usd=_float(_env("MANAGED_CAPITAL_USD", file_values, "10000"), 10000),
+        perplexity_model=_env("PERPLEXITY_MODEL", file_values, "sonar-pro"),
+        perplexity_search_context=_env(
+            "PERPLEXITY_SEARCH_CONTEXT", file_values, "high"
+        ).lower(),
+        perplexity_recency=_env("PERPLEXITY_RECENCY", file_values, "day").lower(),
+        telegram_detail_level=_env(
+            "TELEGRAM_DETAIL_LEVEL", file_values, "checkpoint_full"
+        ).lower(),
+        social_buzz_weight=_bounded_float(
+            _env("SOCIAL_BUZZ_WEIGHT", file_values, "0.10"), 0.10, 0.0, 0.10
+        ),
+        congressional_signal_weight=_bounded_float(
+            _env("CONGRESSIONAL_SIGNAL_WEIGHT", file_values, "0.05"), 0.05, 0.0, 0.05
+        ),
     )

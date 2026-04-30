@@ -6,6 +6,7 @@ This repo is a Codex-native paper-trading system built around a quality + cataly
 - scheduled catalyst and momentum scans inspired by Nate Herk's trading-bot workflow
 - portfolio-aware review inspired by Samin's advisor-style workflow
 - tight feedback loops inspired by YC-style weekly iteration
+- low-weight social buzz and congressional disclosure signals for context only
 
 The first version is paper trading only. Live trading is intentionally blocked by default.
 Alpaca may show a $100,000 paper account, but the bot self-limits managed capital
@@ -33,6 +34,9 @@ The code refuses live trading unless code is deliberately changed later. Version
 - no crypto
 - no margin
 - no short selling
+- social buzz cannot exceed 10% influence
+- congressional disclosure signals cannot exceed 5% influence
+- neither social nor congressional signals can approve trades by themselves
 - markdown-only auto commits/pushes
 
 Read [SETUP.md](SETUP.md) before running scheduled automations.

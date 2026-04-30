@@ -34,6 +34,13 @@ TELEGRAM_CHAT_ID=PASTE_YOUR_TELEGRAM_CHAT_ID_HERE
 AUTO_GIT_PUSH=true
 LIVE_TRADING_ENABLED=false
 MANAGED_CAPITAL_USD=10000
+
+PERPLEXITY_MODEL=sonar-pro
+PERPLEXITY_SEARCH_CONTEXT=high
+PERPLEXITY_RECENCY=day
+TELEGRAM_DETAIL_LEVEL=checkpoint_full
+SOCIAL_BUZZ_WEIGHT=0.10
+CONGRESSIONAL_SIGNAL_WEIGHT=0.05
 ```
 
 Replace each `PASTE_..._HERE` value with the real value. Save Notepad.
@@ -124,6 +131,7 @@ After that, runtime auto-push will only add/commit/push markdown memory files.
 - Telegram bot DM: $0.
 - GitHub Free repo: $0.
 - Perplexity Sonar: roughly $1-$10/month for light/medium daily use; every-2-hour weekday research may be closer to $5-$20/month depending on context size.
+- The upgraded maximum-depth research uses `sonar-pro` and high context, so costs can run higher than the original estimate if every scheduled run stays active.
 - Alpaca Algo Trader Plus: optional $99/month, not needed at first.
 - Codex automations: use existing Codex/ChatGPT plan first.
 - OpenAI API direct usage: avoid unless needed.

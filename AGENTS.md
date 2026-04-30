@@ -18,4 +18,7 @@ This repo is a paper-trading automation system. The safety rules are part of the
 - Send Telegram summaries when configured.
 - Log every proposed trade, rejected trade, paper order, and strategy proposal.
 - Keep version-one trading limited to stocks and ETFs.
-
+- Treat social buzz as low-weight attention context only, capped at 10% influence.
+- Treat congressional disclosures as delayed, low-weight catalyst context only, capped at 5% influence.
+- Never approve a trade because of social buzz or congressional activity alone.
+- Prefer official/company, SEC, ETF sponsor, earnings, reputable financial news, and market data sources.

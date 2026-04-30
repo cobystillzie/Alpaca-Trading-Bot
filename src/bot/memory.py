@@ -13,6 +13,9 @@ MEMORY_TEMPLATES: dict[str, str] = {
     "RESEARCH-LOG.md": "# Research Log\n\n",
     "TRADE-LOG.md": "# Trade Log\n\n",
     "PORTFOLIO-SNAPSHOT.md": "# Portfolio Snapshot\n\n",
+    "MARKET-REGIME.md": "# Market Regime\n\n",
+    "SOURCE-QUALITY.md": "# Source Quality And Signals\n\nSocial buzz and congressional disclosures are low-weight context only.\n\n",
+    "TELEGRAM-SUMMARIES.md": "# Telegram Summaries\n\n",
     "LESSONS-LEARNED.md": "# Lessons Learned\n\n",
     "STRATEGY-PROPOSALS.md": "# Strategy Proposals\n\n",
     "WATCHLIST.md": "# Watchlist\n\n<!-- latest-candidates-json\n{\"summary\":\"\",\"candidates\":[]}\n-->\n",
@@ -74,13 +77,15 @@ def update_watchlist(root: Path, summary: str, candidates: list[TradeCandidate])
         body = body.rstrip() + "\n\n" + replacement + "\n"
     table = "\n\n## Latest Candidates - " + now_stamp() + "\n\n"
     if candidates:
-        table += "| Symbol | Confidence | Allocation | Stop | Catalyst |\n"
-        table += "|---|---:|---:|---:|---|\n"
+        table += "| Symbol | Sector | Confidence | Allocation | Stop | Recommendation | Catalyst |\n"
+        table += "|---|---|---:|---:|---:|---|---|\n"
         for candidate in candidates:
             table += (
-                f"| {candidate.symbol} | {candidate.confidence:.2f} | "
+                f"| {candidate.symbol} | {candidate.sector.replace('|', '/')[:80]} | "
+                f"{candidate.confidence:.2f} | "
                 f"{candidate.target_allocation_percent:.1f}% | "
                 f"{candidate.stop_loss_percent:.1f}% | "
+                f"{candidate.recommendation.replace('|', '/')[:120]} | "
                 f"{candidate.catalyst.replace('|', '/')[:160]} |\n"
             )
     else:
