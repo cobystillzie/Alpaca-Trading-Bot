@@ -1173,4 +1173,140 @@ Chittick Cash: Robust balance sheet, FCF growth.
 HF filter: sentiment=bullish source=1/100 hype=0.15 vetoes=0
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Premarket Memo - 2026-04-30 17:33:45 Eastern Daylight Time
+
+Premarket Analyst Memo
+
+Recommendation: Execute only if guardrails pass; otherwise hold cash and wait for cleaner evidence.
+
+Market Regime
+Risk-on Tech leadership amplifies; vulnerable to Fed tightening or AI narrative fade.
+
+Top Candidates
+
+1. GOOGL (Technology / Internet Services / Cloud) | confidence 0.82 | allocation 8.0% | stop 6.0% | Chittick 82/100 | HF source 1/100
+Thesis: Premier quality business with AI/cloud tailwinds, dominant search moat, and accelerating Cloud growth validating multi-year runway; fits 1-10 day swing on post-earnings momentum.
+Catalyst: Q1 2026 earnings: $109.9B revenue (+22% YoY), Cloud $20B (+63% YoY first time), EPS $5.11 (+82% YoY); Perplexity/OpenAI compute deals confirm demand.
+Entry: Paper buy on pullback to 5-day MA or $345-348 zone post-earnings digestion if volume supports.
+Exit: Take profits at +8-12% or prior highs ~$360; invalidate below 10-day MA or -6%.
+Risk/reward: 6% risk for 10-15% reward on earnings momentum continuation.
+Bear/adversary: Cloud margins may compress from CapEx (question on sustainability at $20B run-rate).
+Source quality: Strong: Direct earnings data from TIKR, corroborated by memory catalysts; no hype-only reliance.
+Chittick Cash Filter
+Score: 82/100
+Margin of safety: Fortress balance sheet (~$100B+ cash), durable ad moat provides downside protection vs. premium valuation.
+Valuation: Attractive post-pullback if Cloud growth sustains 50%+ margins; forward multiples justified by 20%+ revenue CAGR.
+Growth runway: Cloud to $100B+ annualized; AI integrations (Gemini) drive search/YouTube; 30-180 day ad recovery.
+Balance-sheet risk: Minimal debt, no dilution; low cyclicality in core search.
+Capital allocation: Disciplined buybacks, accretive acquisitions; Cloud capex disciplined.
+Concentration case: Superior to broad ETF on AI moat and earnings power.
+Owner thesis, 30-180 days: Cloud scaling to 30%+ market share with AI leadership justifies 30-180 day review.
+Chittick reject reason: none
+Hugging Face Filter
+Sentiment: bullish (0.85), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.10
+Evidence rank: 1/100
+Memory similarity: 0.95
+Vetoes: none
+Model notes: Earnings confirm memory catalysts; elevates from watch.
+Social buzz, max 10%: Medium bullish on Cloud/AI beats and partnerships.
+Congress signal, max 5%: none
+Sources: https://www.tikr.com/blog/alphabet-stock-hits-109-9b-in-q1-revenue-as-cloud-tops-20b-for-first-time
+
+2. SPMO (Broad Equity Momentum ETF) | confidence 0.78 | allocation 8.0% | stop 6.0% | Chittick 35/100 | HF source 1/100
+Thesis: Momentum ETF capturing S&P strength; quality filter on high-ROE leaders aligns with blended strategy.
+Catalyst: +17.81% 1M return to $132.29, +1.23% daily gains amid S&P ATHs and Tech beats.
+Entry: Paper buy above $131.50 on volume if S&P holds ATHs.
+Exit: Profits at +10% or $145; stop below $128 support.
+Risk/reward: 6% risk for 10% reward in momentum continuation.
+Bear/adversary: Allocation limits hit repeatedly; not concentrated quality.
+Source quality: Strong market data from memory; ETF structure transparent.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Diversified holdings provide buffer vs. single-stock.
+Valuation: Momentum premium; attractive in uptrend.
+Growth runway: Tied to S&P earnings cycle; 30-180 day if rotation broadens.
+Balance-sheet risk: Low as ETF; underlying cyclicality.
+Capital allocation: Passive; quality-weighted.
+Concentration case: Broad alternative to stocks; lower conviction.
+Owner thesis, 30-180 days: Sustained S&P leadership beyond Q2 earnings.
+Chittick reject reason: Prior allocation rejections.
+Hugging Face Filter
+Sentiment: bullish (0.75), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.15
+Evidence rank: 1/100
+Memory similarity: 0.98
+Vetoes: none
+Model notes: Persistent but watch due to rejections.
+Social buzz, max 10%: Medium-high on S&P ATHs.
+Congress signal, max 5%: none
+Sources: none
+
+3. NVDA (Semiconductors / AI Infrastructure) | confidence 0.78 | allocation 8.0% | stop 7.0% | Chittick 75/100 | HF source 1/100
+Thesis: AI infrastructure leader with durable demand; swing on institutional flows.
+Catalyst: CoreWeave $63.9B deals, Vera Rubin demand; ranked #1 2026 swing stock.
+Entry: Paper buy on dip to 5D MA if volume spikes.
+Exit: Profits +10-12%; stop -7%.
+Risk/reward: 7% risk for 12% reward.
+Bear/adversary: Hype on unsourced '#1' ranking; competition.
+Source quality: Memory technicals strong; catalysts repeated but unsourced.
+Chittick Cash Filter
+Score: 75/100
+Margin of safety: Cash-rich; GPU scarcity buffer.
+Valuation: Premium but growth justifies.
+Growth runway: Data center expansion; 30-180 day AI capex.
+Balance-sheet risk: Low debt; inventory cyclical.
+Capital allocation: R&D reinvestment.
+Concentration case: Leads semis over peers.
+Owner thesis, 30-180 days: Sustained AI monopoly.
+Chittick reject reason: none
+Hugging Face Filter
+Sentiment: bullish (0.80), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.20
+Evidence rank: 1/100
+Memory similarity: 0.97
+Vetoes: none
+Model notes: Strong but hype flagged.
+Social buzz, max 10%: High on AI deals.
+Congress signal, max 5%: none
+Sources: none
+
+4. ETN (Industrials / Power Management) | confidence 0.70 | allocation 8.0% | stop 8.0% | Chittick 72/100 | HF source 1/100
+Thesis: Quality industrial with AI data center exposure; options signal short-term momentum.
+Catalyst: Unusual bullish options volume (40,955 calls, +648% avg) on AI power/cooling demand.
+Entry: Paper buy on options follow-through above recent highs.
+Exit: Profits +10%; stop -8%.
+Risk/reward: 8% risk for 12% reward on catalyst.
+Bear/adversary: Options hype without earnings confirmation.
+Source quality: Direct options data strong; AI tie-in credible.
+Chittick Cash Filter
+Score: 72/100
+Margin of safety: Robust balance sheet, FCF growth.
+Valuation: Premium but megatrend-backed.
+Growth runway: AI data centers, electrification; 30-180 day buildout.
+Balance-sheet risk: Moderate cyclicality.
+Capital allocation: Consistent dividends.
+Concentration case: Diversified vs. pure AI plays.
+Owner thesis, 30-180 days: Electrification secular trend.
+Chittick reject reason: none
+Hugging Face Filter
+Sentiment: bullish (0.70), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.15
+Evidence rank: 1/100
+Memory similarity: 0.20
+Vetoes: none
+Model notes: New from options anomaly; quality fits.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.kavout.com/market-lens/what-s-driving-the-unusual-bullish-options-activity-in-eaton-etn
+
+Rejected / Watchouts
+- GOOGL: Low-weight social/congress signal needs at least two stronger sources.; HF memory filter flags similarity to prior rejected patterns.
+- SPMO: Low-weight social/congress signal needs at least two stronger sources.; HF memory filter flags similarity to prior rejected patterns.
+- NVDA: Low-weight social/congress signal needs at least two stronger sources.; HF memory filter flags similarity to prior rejected patterns.
+- ETN: Candidate references banned v1 instruments or leverage.
 

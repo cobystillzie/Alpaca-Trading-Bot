@@ -210,4 +210,16 @@ Candidates found: 3
 US equities maintain risk-on momentum with S&P 500 near ATHs amid Tech earnings beats; Alphabet (GOOGL) reports blockbuster Q1 2026 ($109.9B revenue +22% YoY, Cloud $20B +63% YoY); Eaton (ETN) sees unusual bullish options surge tied to AI data center demand.
 
 Candidates found: 4
+## Premarket Plan - 2026-04-30 17:33:45 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- GOOGL: score=90, base=100, chittick=82, approved=False, allocation=8.0%, stop=6.0%
+  rejects: Low-weight social/congress signal needs at least two stronger sources.; HF memory filter flags similarity to prior rejected patterns.
+- SPMO: score=69, base=90, chittick=35, approved=False, allocation=8.0%, stop=6.0%
+  rejects: Low-weight social/congress signal needs at least two stronger sources.; HF memory filter flags similarity to prior rejected patterns.
+- NVDA: score=81, base=90, chittick=75, approved=False, allocation=8.0%, stop=7.0%
+  rejects: Low-weight social/congress signal needs at least two stronger sources.; HF memory filter flags similarity to prior rejected patterns.
+- ETN: score=83, base=95, chittick=72, approved=False, allocation=8.0%, stop=8.0%
+  rejects: Candidate references banned v1 instruments or leverage.
 
