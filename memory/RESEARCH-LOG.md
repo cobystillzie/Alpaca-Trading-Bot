@@ -128,4 +128,14 @@ Premarket plan built from latest watchlist.
   rejects: Confidence below 0.60.; Horizon must be 1-10 trading days.; Target allocation must be between 1% and 15%.
 - LLY: score=77, base=95, chittick=35, approved=False, allocation=10.0%, stop=6.0%
   rejects: Horizon must be 1-10 trading days.
+## Premarket Plan - 2026-04-29 22:59:18 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- ANIX: score=74, base=90, chittick=35, approved=False, allocation=0.0%, stop=8.0%
+  rejects: Confidence below 0.60.; Horizon must be 1-10 trading days.; Target allocation must be between 1% and 15%.
+- TNXP: score=74, base=90, chittick=35, approved=False, allocation=0.0%, stop=8.0%
+  rejects: Confidence below 0.60.; Horizon must be 1-10 trading days.; Target allocation must be between 1% and 15%.
+- LLY: score=89, base=95, chittick=76, approved=False, allocation=10.0%, stop=6.0%
+  rejects: Horizon must be 1-10 trading days.
 
