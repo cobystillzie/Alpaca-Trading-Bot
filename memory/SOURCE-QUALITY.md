@@ -379,4 +379,163 @@ SEC/company quality check:
   },
   "source_urls": []
 }
+## Source And Signal Research - 2026-04-30 11:31:40 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+{
+  "summary": "No unusual discussion or hype detected around liquid US stocks/ETFs in public web/social coverage. Routine mentions of AI/semiconductor themes (NVDA, GOOGL, SPMO) align with existing candidate catalysts; no pump language, unsupported claims, or attention anomalies flagged as risk.",
+  "social_buzz": "Weak; standard sector chatter without spikes.",
+  "attention_anomalies": "None identified.",
+  "source_urls": []
+}
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No recently reported congressional trades in liquid US stocks or ETFs matching current candidates (SPMO, NVDA, GOOGL). Recent disclosures include AME (1 purchase up to $15K on 01/09/2026 by Rep. Cisneros, 1 sale up to $15K on 02/10/2026) and PH (1 purchase up to $15K on 03/12/2026 by Rep. Taylor amid 6 sales up to $60K total)[1][4].",
+  "congressional_signal": "Low-weight delayed signals: Balanced trading in AME (1 buy/1 sell); net sales in PH (1 buy/6 sells). No overlap with candidates.",
+  "tickers": ["AME", "PH"],
+  "source_urls": [
+    "https://www.quiverquant.com/news/AMETEK+($AME)+Releases+Q1+2026+Earnings",
+    "https://www.quiverquant.com/news/PARKER-HANNIFIN+($PH)+Releases+Q3+2026+Earnings"
+  ]
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": "USAdvisors Wealth Management (Q1 2026, filed 04-27-2026) holds $301M AUM across 137 positions dominated by broad-market ETFs (Schwab, iShares, Dimensional, SPDR, Invesco) with minimal single-stock concentration. Jackson Wealth Management (Q4 2025, filed 01-20-2026) manages $1.03B with similar ETF-heavy allocation but elevated Treasury/money-market holdings ($26.6B+ in cash equivalents). Both filings show institutional risk-aversion posture: heavy fixed-income ETF weighting, minimal tech/semiconductor direct exposure, and no material positions in watchlist names (GOOGL, NVDA, INTC, USAR, GT absent or negligible).",
+  "filing_risks": [
+    {
+      "manager": "USAdvisors Wealth Management",
+      "risk_category": "Concentration & Liquidity",
+      "evidence": "Top 5 positions: Schwab US Large Cap Value (SCHV, $21.8M, 7.3%), Schwab US Large Cap Growth (SCHG, $17.5M, 5.8%), iShares MSCI Intl Quality (IQLT, $7.7M, 2.6%), JP Morgan Hedged Equity Overlay (HELO, $7.8M, 2.6%), Invesco QQQ (QQQ, $18.3M, 6.1%). ETF-heavy structure reduces alpha but increases tracking error and fee drag.",
+      "source": "USAdvisors 13F-HR filed 04-27-2026, Form 13F Information Table entries 1-137"
+    },
+    {
+      "manager": "USAdvisors Wealth Management",
+      "risk_category": "Sector Rotation Risk",
+      "evidence": "Overweight value/dividend (SCHV $21.8M, DGRO $1.8M, SCHD $7.2M) vs. growth (SCHG $17.5M). Momentum ETF (SPMO $1.2M, XSMO $7.9M) positions modest. No direct semiconductor/AI exposure (NVDA, ASML, LRCX absent; INTC absent). Vulnerable to growth-led rallies if AI/cloud demand accelerates.",
+      "source": "USAdvisors 13F-HR filed 04-27-2026, entries 94-96, 52, 54"
+    },
+    {
+      "manager": "USAdvisors Wealth Management",
+      "risk_category": "Fixed-Income Duration Risk",
+      "evidence": "Heavy bond ETF allocation: Fidelity Total Bond (FBND, $11.4M), PIMCO Active Bond (BOND, $7.5M), PIMCO Multi-Sector (PYLD, $5.7M), Invesco Total Return Bond (GTO, $6.1M), SPDR Aggregate (SPAB, $1.8M). Combined ~$32M in bond ETFs (10.6% of AUM). Rising-rate environment post-2024 could pressure NAV; duration risk if Fed cuts delayed.",
+      "source": "USAdvisors 13F-HR filed 04-27-2026, entries 40, 90-91, 55, 101"
+    },
+    {
+      "manager": "Jackson Wealth Management",
+      "risk_category": "Extreme Cash Drag & Opportunity Cost",
+      "evidence": "Treasury bills (TSRYS60859, $93.6B notional, $93.6M value) + Schwab money-market funds (SNAXX $4.3B, SNOXX $1.2B, SWVXX $51.9B notional) = ~$150B+ in cash equivalents. At 3.5-4.5% yields, this is defensive but represents massive opportunity cost if equity markets rally 10%+ YoY. Suggests risk-off positioning or client redemption hedging.",
+      "source": "Jackson Wealth Management 13F-HR filed 01-20-2026, entries 1-5, 125-126, 143"
+    },
+    {
+      "manager": "Jackson Wealth Management",
+      "risk_category": "Concentration in Mega-Cap Tech",
+      "evidence": "Top holdings: Apple (AAPL, $55.8M, 5.4%), Broadcom (AVGO, $57.5M, 5.6%), Microsoft (MSFT, $65.6M, 6.4%), Nvidia (NVDA, $13.8M, 1.3%), Meta (META, $14.6M, 1.4%), Alphabet (GOOGL $18.8M + GOOG $13.5M = $32.3M, 3.1%). Tech/semiconductors ~$239M (23% of AUM). Vulnerable to regulatory/antitrust headwinds (DOJ cases, CFIUS reviews) and valuation compression if growth slows.",
+      "source": "Jackson Wealth Management 13F-HR filed 01-20-2026, entries 46, 56, 108-109, 79-80, 103"
+    },
+    {
+      "manager": "Jackson Wealth Management",
+      "risk_category": "Valuation & Momentum Dependency",
+      "evidence": "Heavy weighting in high-momentum ETFs: Invesco S&P 500 Momentum (SPMO, $8.1M), Invesco S&P 500 Quality (SPHQ, $10.9M), Invesco Nasdaq 100 (QQQ, $13.3M, QQQM $19.2M). Combined momentum/quality exposure ~$51M (5% of AUM). If market rotates to value/defensive, these positions face headwinds. No material allocation to value tilts (IWD $257K only).",
+      "source": "Jackson Wealth Management 13F-HR filed 01-20-2026, entries 117-118, 127, 47-48"
+    },
+    {
+      "manager": "USAdvisors Wealth Management",
+      "risk_category": "Emerging Market & International Hedging Gaps",
+      "evidence": "International exposure via Dimensional (DFAI $1.4M, DFIC $1.5M, DFAX $301K), iShares MSCI ACWI (ACWI $4.2M), iShares Intl Quality (IQLT $7.7M). No currency hedging visible in filings. Emerging market ETFs (AVEM $692K, DFEM $655K) minimal. Vulnerable to USD strength and geopolitical shocks (China tensions, Russia sanctions).",
+      "source": "USAdvisors 13F-HR filed 04-27-2026, entries 22, 28, 35, 62, 71, 12, 25"
+    },
+    {
+      "manager": "USAdvisors Wealth Management",
+      "risk_category": "Watchlist Name Absence = Tactical Underweight",
+      "evidence": "GOOGL/GOOG: 0 shares (vs. Jackson's $32.3M). INTC: 0 shares (vs. Jackson's $212K). NVDA: 0 shares (vs. Jackson's $13.8M). USAR: 0 shares. GT: 0 shares. Suggests deliberate avoidance of semiconductor/AI concentration or underweight to mega-cap tech. Misses upside if AI capex cycle accelerates.",
+      "source": "USAdvisors 13F-HR filed 04-27-2026, full holdings table; Jackson 13F-HR filed 01-20-2026"
+    },
+    {
+      "manager": "Jackson Wealth Management",
+      "risk_category": "Illiquid/Speculative Microcap Positions",
+      "evidence": "Calmare Therapeutics (CTTC, 126.9K shares, $0 value—likely delisted or penny stock), Medmen Enterprises (MMNFQ, 50K shares, $0 value—cannabis REIT distress), Zomedica (ZOMDF, 639.5K shares, $50K value—veterinary diagnostics microcap). Combined ~$50K in distressed/illiquid names. Suggests legacy positions or speculative bets; liquidity risk if forced redemptions occur.",
+      "source": "Jackson Wealth Management 13F-HR filed 01-20-2026, entries 68, 107, 168"
+    },
+    {
+      "manager": "USAdvisors Wealth Management",
+      "risk_category": "Small-Cap Value Tilt Concentration",
+      "evidence": "Avantis US Small Cap Value (AVUV, $10.9M, 3.6%), Invesco S&P Small Cap Momentum (XSMO, $7.9M, 2.6%), iShares Russell 2000 (IWM absent but Russell MidCap Growth IWP $5.6M). Small-cap allocation ~$24M (8% of AUM). Illiquidity and earnings volatility risk if recession fears spike.",
+      "source": "USAdvisors 13F-HR filed 04-27-2026, entries 16, 54, 66"
+    }
+  ],
+  "quality_notes": [
+    {
+      "manager": "USAdvisors Wealth Management",
+      "quality_metric": "Durable Demand Evidence",
+      "assessment": "WEAK. No direct exposure to secular growth drivers (AI, cloud, semiconductors). Heavy reliance on broad-market ETFs (Schwab, Dimensional, iShares) suggests passive/index-tracking strategy. Dividend-focused positions (SCHV, DGRO, SCHD) imply income-generation mandate, not growth. Suitable for retirees/conservative allocators but misses AI capex tailwinds.",
+      "source": "USAdvisors 13F-HR filed 04-27-2026, sector breakdown"
+    },
+    {
+      "manager": "USAdvisors Wealth Management",
+      "quality_metric": "Capital Allocation Discipline",
+      "assessment": "MODERATE. Quarterly rebalancing evident (Q4 2025 vs. Q1 2026 filings show position adjustments). Reduced CLOVER Health (CLOV, 35K→0 shares), exited Cisco (CSCO, 3.3K→0), trimmed Carnival (CCL, 9.7K→9.7K flat). Suggests active risk management but limited alpha generation. No evidence of M&A/buyback timing or activist engagement.",
+      "source": "USAdvisors 13F-HR filings 02-05-2026 vs. 04-27-2026"
+    },
+    {
+      "manager": "USAdvisors Wealth Management",
+      "quality_metric": "Revenue Quality & Earnings Visibility",
+      "assessment": "MODERATE-HIGH. ETF-heavy structure provides diversification but obscures underlying revenue quality. Dimensional funds (DFAI, DFIC, DFAC) employ factor-based screening (value, quality, profitability), suggesting exposure to profitable, low-leverage companies. Schwab dividend ETFs (SCHD, SCHV) target high-payout, stable-earnings names. Limited direct exposure to high-growth/unprofitable tech.",
+      "source": "USAdvisors 13F-HR filed 04-27-2026; Dimensional fund prospectuses"
+    },
+    {
+      "manager": "Jackson Wealth Management",
+      "quality_metric": "Durable Demand Evidence",
+      "assessment": "STRONG (Tech/Semiconductors), WEAK (Diversification). Direct mega-cap tech holdings (MSFT, AAPL, NVDA, GOOGL, META) benefit from secular AI/cloud demand. Broadcom (AVGO, $57.5M) exposed to semiconductor capex cycle. However, 23% tech concentration and 150B+ cash drag suggest defensive posture—inconsistent with growth thesis. Likely institutional/fiduciary mandate prioritizing capital preservation.",
+      "source": "Jackson Wealth Management 13F-HR filed 01-20-2026, top holdings"
+    },
+    {
+      "manager": "Jackson Wealth Management",
+      "quality_metric": "Balance Sheet & Leverage Risk",
+      "assessment": "LOW DIRECT RISK. Holdings are primarily mega-cap blue-chips (Apple, Microsoft, Broadcom, Nvidia) with fortress balance sheets and minimal leverage. However, 150B+ cash position suggests either (a) client redemption hedging, (b) market timing bet (waiting for pullback), or (c) regulatory/compliance constraints. If deployed, could amplify upside; if held, represents significant opportunity cost.",
+      "source": "Jackson Wealth Management 13F-HR filed 01-20-2026, cash equivalents entries 1-5, 125-126, 143"
+    },
+    {
+      "manager": "Jackson Wealth Management",
+      "quality_metric": "Litigation & Regulatory Risk",
+      "assessment": "MODERATE. Tech holdings face DOJ antitrust scrutiny (Google, Meta, Apple), CFIUS reviews (Broadcom, Nvidia), and tariff exposure (semiconductors). No direct exposure to healthcare litigation (LLY, ABBV minimal). Pharma holdings (LLY $494K, ABBV $10.5M) face GLP-1 competition and BIOSECURE Act reshoring costs. Diversified across sectors but concentrated in regulatory-sensitive mega-caps.",
+      "source": "Jackson Wealth Management 13F-HR filed 01-20-2026; public DOJ/CFIUS filings"
+    },
+    {
+      "manager": "USAdvisors Wealth Management",
+      "quality_metric": "Dilution & Shareholder-Friendly Capital Allocation",
+      "assessment": "NEUTRAL. ETF-based structure eliminates direct dilution risk (ETF sponsors manage buyback/dividend reinvestment). Dimensional funds employ value-tilted screening (low P/B, high profitability), suggesting exposure to buyback-friendly, low-dilution names. Schwab dividend ETFs target high-payout companies. No evidence of warrant/convertible dilution.",
+      "source": "USAdvisors 13F-HR filed 04-27-2026; Dimensional/Schwab fund prospectuses"
+    },
+    {
+      "manager": "Jackson Wealth Management",
+      "quality_metric": "Valuation Risk & Momentum Dependency",
+      "assessment": "HIGH. Mega-cap tech holdings (MSFT $65.6M, AAPL $55.8M, AVGO $57.5M) trade at elevated multiples (MSFT ~30x P/E, AAPL ~28x, AVGO ~25x). Momentum ETF exposure (SPMO $8.1M, SPHQ $10.9M) amplifies downside if growth slows. 150B+ cash suggests manager expects pullback; if market rallies 10%+, cash drag becomes material headwind.",
+      "source": "Jackson Wealth Management 13F-HR filed 01-20-2026; public valuation data"
+    },
+    {
+      "manager": "USAdvisors Wealth Management",
+      "quality_metric": "Watchlist Alignment & Tactical Positioning",
+      "assessment": "MISALIGNED. Zero exposure to GOOGL, INTC, NVDA, USAR, GT suggests deliberate underweight to semiconductor/AI concentration or passive index-tracking mandate. Misses upside if AI capex cycle accelerates (CoreWeave $63.9B deals, Vera Rubin demand). Suitable for conservative allocators but underexposed to 2026 growth catalysts.",
+      "source": "USAdvisors 13F-HR filed 04-27-2026, full holdings; watchlist memory"
+    }
+  ],
+  "source_urls": [
+    "SEC EDGAR: USAdvisors Wealth Management 13F-HR filed 04-27-2026 (CIK 0001735605, Accession 1735605-26-001)",
+    "SEC EDGAR: USAdvisors Wealth Management 13F-HR filed 02-05-2026 (CIK 0001735605, Q4 2025)",
+    "SEC EDGAR: USAdvisors Wealth Management 13F-HR filed 11-12-2025 (CIK 0001735605, Q3 2025)",
+    "SEC EDGAR: USAdvisors Wealth Management 13F-HR filed 07-22-2025 (CIK 0001735605, Q2 2025)",
+    "SEC EDGAR: Jackson Wealth Management 13F-HR filed 01-20-2026 (CIK 0001536799, Q4 2025)",
+    "SEC EDGAR: Jackson Wealth Management 13F-HR filed 10-03-2025 (CIK 0001536799, Q3 2025)",
+    "Dimensional Fund Advisors: Factor-based ETF prospectuses (DFAI, DFIC, DFAC, DFAS, DFAU, DFCF, DFAE, DFAX, DFSD, DGCB, DFGX, DFEM)",
+    "Schwab ETF Prospectuses: SCHV, SCHG, SCHD (dividend/value/growth factor funds)",
+    "iShares ETF Prospectuses: IQLT, ACWI, DGRO, IJH, IUSV, MTUM, QUAL, IWD, IWP, IWR, IVV, SMMD, ITA, USHY, AOK",
+    "Invesco ETF Prospectuses: QQQ, QQQM, SPMO, XSMO, GTO, XMHQ, IPKW, IDMO, EQWL, RWL"
+  ]
+}
+```
 

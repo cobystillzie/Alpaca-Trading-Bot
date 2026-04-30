@@ -326,4 +326,30 @@
   ]
 }
 ```
+## Market Regime Research - 2026-04-30 11:31:40 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equity markets exhibit a bullish tone in late April 2026, driven by strong Big Tech earnings and AI catalysts, with S&P 500 up ~9-10% MTD amid new highs, though mixed closes and Fed hawkish dissents introduce caution for paper-trading.[1][3]",
+  "market_regime": "Risk-on with momentum in megacaps and tech; resilient uptrend (S&P +9.3-10% Apr MTD, Nasdaq +14.52%), but defensive tone emerging from inflation/Fed pause and oil rise; suitable for cautious momentum swings in AI/semiconductors.[1][3][10]",
+  "sector_rotation": "Technology dominant (+18.19% Apr MTD, led by AI/cloud: NVDA, MSFT, GOOGL, ASML); Broad momentum (SPMO) strong; Energy weak (-4.28%); Equal-weight S&P lags cap-weight by ~5pp, signaling narrow megacap leadership.[1][4]",
+  "risk_flags": [
+    "Fed holds rates at 3.5-3.75% with 4 dissents (most since 1992), shifting from easing bias amid rising inflation (headline 3.3%, core 2.6%) and Iran/oil risks.[2][4][5]",
+    "Consumer sentiment down to 49.7, inflation expectations at 4.7%; potential growth slowdown from supply shocks.[1][5]",
+    "Mixed indices on Apr 29 (S&P -0.04%, Nasdaq +0.04%); volatility from Mag7 capex guidance and geopolitical tensions.[4][7]",
+    "Narrow breadth: Megacaps drive gains, cyclicals cautious on guidance.[3]"
+  ],
+  "source_urls": [
+    "https://exante.eu/press/market-updates/3011-is-it-time-for-investors-to-think-about-the-chokepoint-premium/",
+    "https://www.americancentury.com/insights/fed-watch/fed-meeting-april-2026-interest-rates/",
+    "https://fintech.tv/sp-500-surges-10-in-april-big-tech-earnings-fed-decision-in-focus/",
+    "https://www.thestreet.com/latest-news/stock-market-today-apr-29-2026-update",
+    "https://www.mufgresearch.com/rates/april-2026-fed-rates-call-update/",
+    "https://www.goldmansachs.com/insights/articles/us-stocks-forecast-to-rise-in-2026",
+    "https://www.mncsekuritas.id/risetdetail/mncs-fixed-income-report-april-30-2026",
+    "https://www.foxbusiness.com/economy/federal-reserve-interest-rate-decision-april-29-2026",
+    "https://www.axonmarkets.com/blog/daily-market-update-30-april-2026"
+  ]
+}
+```
 
