@@ -118,4 +118,14 @@ Premarket plan built from latest watchlist.
 Pharmaceutical sector shows structural supply-chain reshoring tailwinds (CDMO capex $24.86B in 2025, 74% US-bound) and clinical-stage innovation catalysts (Anixa breast cancer vaccine Phase 1 74% immune response, Tonix Lyme disease TNX-4800 Phase 2 initiation H1 2027). Broad market regime remains cautious post-Fed hold with elevated volatility; semiconductor/AI names under pressure on OpenAI growth doubts. Pharma offers defensive quality with real catalysts but limited 1-10 day swing trade setups; prefer watch posture pending earnings/clinical readouts.
 
 Candidates found: 3
+## Premarket Plan - 2026-04-29 22:55:05 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- ANIX: score=74, base=90, chittick=35, approved=False, allocation=0.0%, stop=8.0%
+  rejects: Confidence below 0.60.; Horizon must be 1-10 trading days.; Target allocation must be between 1% and 15%.
+- TNXP: score=74, base=90, chittick=35, approved=False, allocation=0.0%, stop=8.0%
+  rejects: Confidence below 0.60.; Horizon must be 1-10 trading days.; Target allocation must be between 1% and 15%.
+- LLY: score=77, base=95, chittick=35, approved=False, allocation=10.0%, stop=6.0%
+  rejects: Horizon must be 1-10 trading days.
 
