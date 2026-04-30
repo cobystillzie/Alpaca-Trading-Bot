@@ -60,4 +60,22 @@ Source quality: none
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: https://elliottwave-forecast.com/trading/best-swing-trading-stocks/, https://www.benzinga.com/money/best-swing-trade-stocks
+## Research Update - 2026-04-29 22:07:00 Eastern Daylight Time
+
+Research Update
+
+Market tone: Markets cautious ahead of Fed decision and mega-cap tech earnings with elevated volatility risks from hawkish Fed pivot, geopolitical oil shocks, and perfection pricing in AI/semiconductor names; watchlist momentum intact but single-stock concentration limits apply.
+Candidates: 2
+
+1. NVDA (Semiconductors) | confidence 0.75 | allocation 8.0% | stop 7.0%
+Recommendation: watch
+Catalyst: Ranked #1 best swing trading stock for 2026 with strong trends, high volatility, and clean pullbacks driven by AI/semiconductor institutional flows.
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. SPMO (Broad Equity Momentum ETF) | confidence 0.76 | allocation 8.0% | stop 6.0%
+Recommendation: watch
+Catalyst: Recent +17.81% 1-month return to $132.29 with +1.23% daily gains and uptrend from $78.25 low amid S&P strength.
+Social buzz, low weight: none
+Congress signal, low weight: none
 

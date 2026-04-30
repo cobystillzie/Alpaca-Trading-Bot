@@ -4,12 +4,26 @@
 {
   "candidates": [
     {
+      "adversary_case": "OpenAI misses signal AI monetization risks; Fed hawkishness caps high-beta semis.",
       "bear_case": "AI hype slowdown, competition from AMD/ARM, or chip cycle downturn could trigger sharp volatility reversal.",
       "catalyst": "Ranked #1 best swing trading stock for 2026 with strong trends, high volatility, and clean pullbacks driven by AI/semiconductor institutional flows.",
-      "confidence": 0.8,
+      "confidence": 0.75,
+      "congressional_signal": "none",
+      "entry_plan": "Enter on pullback to 5-day MA with Close >5D>10D>20D and MACD Golden Cross confirmation; defined risk below recent swing low.",
+      "exit_plan": "Take profits at +10-15% or prior resistance; invalidate below 7% stop or MA breakdown.",
       "horizon_days": 7,
+      "market_regime": "Risk-off Fed/geopolitical flags heighten volatility; favor tight stops amid potential tech rotation.",
       "momentum_case": "Top-ranked for swing trading with high relative strength, consistent upside momentum outperforming S&P 500 in tech sector uptrend.",
       "quality_case": "Wide moat in AI accelerators serving cloud giants like MSFT/AMZN; recurring data center revenue provides Buffett-style durability and margin of safety.",
+      "recommendation": "watch",
+      "risk_reward": "1:2+ with 7% stop targeting 14-20% upside on momentum continuation.",
+      "sector": "Semiconductors",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "none",
+      "source_quality": "Moderate from swing trade rankings; lacks fresh SEC/earnings data but aligns with institutional AI flows.",
       "source_urls": [
         "https://elliottwave-forecast.com/trading/best-swing-trading-stocks/"
       ],
@@ -19,53 +33,36 @@
       "thesis": "NVIDIA dominates AI chip market with unmatched GPU leadership, blending exceptional business quality and high volatility ideal for short-term momentum swings."
     },
     {
-      "bear_case": "Geopolitical export curbs to China or semi cycle peak could pressure high valuations.",
-      "catalyst": "MACD Golden Cross with aligned MAs (Close >5D>10D>20D) signaling entry amid ongoing AI chip demand.",
+      "adversary_case": "Prior allocation rejections signal overconcentration; Fed pivot hits momentum factor hardest.",
+      "bear_case": "Broad market correction from Fed hawkishness or tech earnings misses could trigger 10-15% drawdown.",
+      "catalyst": "Recent +17.81% 1-month return to $132.29 with +1.23% daily gains and uptrend from $78.25 low amid S&P strength.",
       "confidence": 0.76,
-      "horizon_days": 7,
-      "momentum_case": "Bullish technical alignment and NASDAQ tech relative strength support continuation of uptrend.",
-      "quality_case": "Unique EUV technology creates insurmountable barriers; serves TSMC/Intel with pricing power and recurring orders for quality margin of safety.",
-      "source_urls": [
-        "https://elliottwave-forecast.com/trading/best-swing-trading-stocks/"
-      ],
-      "stop_loss_percent": 7.0,
-      "symbol": "ASML",
-      "target_allocation_percent": 8.0,
-      "thesis": "ASML Holding leads in EUV lithography essential for advanced chips, combining monopoly moat with AI-driven momentum for defined-risk swings."
-    },
-    {
-      "bear_case": "Inventory glut or demand slowdown in semis could lead to sector pullback.",
-      "catalyst": "AI demand catalyst with MACD Golden Cross and stacked MAs (Close >5D>10D>20D) for swing continuation.",
-      "confidence": 0.74,
-      "horizon_days": 7,
-      "momentum_case": "Strong sector outperformance with volume-backed uptrend and top momentum ranking.",
-      "quality_case": "Diversified revenue from foundries like TSMC; high profitability and scale provide moat and safety in growth sector.",
-      "source_urls": [
-        "https://elliottwave-forecast.com/trading/best-swing-trading-stocks/"
-      ],
-      "stop_loss_percent": 7.0,
-      "symbol": "LRCX",
-      "target_allocation_percent": 8.0,
-      "thesis": "Lam Research excels in semiconductor etch/deposition for AI chips, offering quality equipment leadership with momentum setups."
-    },
-    {
-      "bear_case": "Antitrust risks or tech rotation to value could cap upside.",
-      "catalyst": "Top-ranked swing stock with predictable trends from AI/cloud catalysts like Copilot expansions.",
-      "confidence": 0.72,
+      "congressional_signal": "none",
+      "entry_plan": "Enter near $128-130 support with volume confirmation; avoid if allocation exceeds 15%.",
+      "exit_plan": "Profits at $140 resistance or +10%; stop at 6% below entry or 20-day MA break.",
       "horizon_days": 5,
-      "momentum_case": "Consistent tech sector strength with high liquidity/volume enabling efficient swings.",
-      "quality_case": "Azure/OpenAI franchises deliver recurring revenue and massive scale with wide economic moat.",
+      "market_regime": "Risk-off pressures test momentum; tighter stops needed vs. single stocks.",
+      "momentum_case": "Strong volume-backed uptrend with daily highs $131.50 and relative S&P outperformance.",
+      "quality_case": "Tracks high-momentum S&P 500 constituents with momentum factor discipline; diversified vs. single names.",
+      "recommendation": "watch",
+      "risk_reward": "1:2 with 6% stop to 12% target on continuation.",
+      "sector": "Broad Equity Momentum ETF",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "none",
+      "source_quality": "Strong market data but prior rejections on concentration; ETF sponsor transparency.",
       "source_urls": [
-        "https://elliottwave-forecast.com/trading/best-swing-trading-stocks/",
-        "https://www.benzinga.com/money/best-swing-trade-stocks"
+        "https://elliottwave-forecast.com/trading/best-swing-trading-stocks/"
       ],
-      "stop_loss_percent": 7.0,
-      "symbol": "MSFT",
+      "stop_loss_percent": 6.0,
+      "symbol": "SPMO",
       "target_allocation_percent": 8.0,
-      "thesis": "Microsoft's AI/cloud dominance provides stable, high-quality base for reliable swing trades on pullbacks."
+      "thesis": "S&P 500 Momentum ETF captures broad quality momentum with risk-adjusted outperformance, ideal for regime-agnostic swings."
     }
   ],
-  "summary": "AI/semiconductor momentum leaders NVDA, ASML, LRCX, and MSFT remain top-ranked for swing trades amid strong institutional flows and bullish technicals; SPMO position profitable but portfolio favors diversification into high-conviction single names[1]."
+  "summary": "Markets cautious ahead of Fed decision and mega-cap tech earnings with elevated volatility risks from hawkish Fed pivot, geopolitical oil shocks, and perfection pricing in AI/semiconductor names; watchlist momentum intact but single-stock concentration limits apply."
 }
 -->
 
@@ -162,4 +159,11 @@
 | ASML | 0.76 | 8.0% | 7.0% | MACD Golden Cross with aligned MAs (Close >5D>10D>20D) signaling entry amid ongoing AI chip demand. |
 | LRCX | 0.74 | 8.0% | 7.0% | AI demand catalyst with MACD Golden Cross and stacked MAs (Close >5D>10D>20D) for swing continuation. |
 | MSFT | 0.72 | 8.0% | 7.0% | Top-ranked swing stock with predictable trends from AI/cloud catalysts like Copilot expansions. |
+
+## Latest Candidates - 2026-04-29 22:07:00 Eastern Daylight Time
+
+| Symbol | Sector | Confidence | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---:|---:|---:|---|---|
+| NVDA | Semiconductors | 0.75 | 8.0% | 7.0% | watch | Ranked #1 best swing trading stock for 2026 with strong trends, high volatility, and clean pullbacks driven by AI/semiconductor institutional flows. |
+| SPMO | Broad Equity Momentum ETF | 0.76 | 8.0% | 6.0% | watch | Recent +17.81% 1-month return to $132.29 with +1.23% daily gains and uptrend from $78.25 low amid S&P strength. |
 
