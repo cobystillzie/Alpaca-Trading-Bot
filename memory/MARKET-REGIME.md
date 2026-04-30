@@ -209,4 +209,27 @@
   ]
 }
 ```
+## Market Regime Research - 2026-04-30 05:28:17 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equity markets exhibit **risk-off tone** post-Fed decision with S&P 500 down -0.24% testing 7,119 support, VIX spiking +5.10% to 18.74 (highest in nearly a month), and hawkish Fed hold strengthening USD amid AI stock weakness and tech earnings anticipation[1][3].",
+  "market_regime": "Risk-off consolidation; hawkish Fed hold (rates steady at 3.50%-3.75%), USD index +0.28% to 98.871 pressuring equities, elevated volatility signaling caution despite recent +17.81% 1-month S&P strength[1][2][3][4].",
+  "sector_rotation": "Semiconductors/AI under pressure (NVDA, Broadcom, Micron declines on OpenAI growth concerns); momentum (SPMO) and broad tech swing candidates on watch but facing dollar strength headwinds; biotech/pharma stable[1][3].",
+  "risk_flags": [
+    "VIX spike to 18.74 (+5.10%) indicates heightened fear[3]",
+    "Hawkish Fed rhetoric risks further USD strength and equity pressure[1][2][4]",
+    "Tech megacap earnings (MSFT, AMZN, GOOG, META) today amplify event risk[1]",
+    "Geopolitical energy shock (Brent ~$111/bbl, Strait of Hormuz tensions) fuels inflation[1]",
+    "S&P testing key 7,119 support amid Nasdaq's largest drop in ~1 month[1][3]"
+  ],
+  "source_urls": [
+    "https://www.moomoo.com/news/post/69121976/powell-s-every-move-may-carry-a-hawkish-tone",
+    "https://www.sahi.com/news/dollar-index-surges-0-28-to-98-871-as-fed-rate-stance-triggers-euro-decline-dollar-index",
+    "https://www.moomoo.com/stock/.VIX-US?chain_id=Name1K9-3FXPhg.1kv4e8g",
+    "https://www.investing.com/analysis/powells-final-act-rates-on-hold-as-fed-chair-prepares-to-exit-200679353",
+    "https://www.mexc.com/news/1063597"
+  ]
+}
+```
 

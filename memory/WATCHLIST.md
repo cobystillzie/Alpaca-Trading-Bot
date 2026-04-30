@@ -4,92 +4,124 @@
 {
   "candidates": [
     {
-      "adversary_case": "Insider selling signals peak; competition erodes margins before subscription scale.",
-      "balance_sheet_risk": "Not detailed; assume manageable post-capital raise but monitor dilution.",
-      "bear_case": "Substantial insider selling; intense smart home competition; no durable moat like pharma leaders.",
-      "capital_allocation_case": "Subscription reinvestment disciplined; partnerships enhance without heavy capex.",
-      "catalyst": "Q4 2025 earnings beat (rev $141.3M vs $135.6M est, EPS $0.22 vs $0.16 est) drove 27% surge; Q1 2026 guidance rev $140M/EPS $0.20 exceeds estimates.",
-      "chittick_cash_score": 65.0,
-      "chittick_reject_reason": "Post-earnings hype risk; insider selling.",
-      "concentration_case": "Niche security vs broad ETFs; warrants slot if momentum persists over SPMO.",
-      "confidence": 0.7,
+      "adversary_case": "Allocation exceeded 15% in prior scans; broad momentum vulnerable to Fed hawkishness/tech earnings misses.",
+      "balance_sheet_risk": "Low: ETF holds quality large-caps with strong balance sheets.",
+      "bear_case": "Risk-off regime (VIX 18.74, USD strength) pressures momentum; prior rejections on allocation limits.",
+      "capital_allocation_case": "Passive indexing with momentum rebalance discipline.",
+      "catalyst": "Recent +17.81% 1-month return to $132.29 (03/27-04/27/26), +1.23% daily gain trading $128-$132 with high $131.50 amid S&P strength.",
+      "chittick_cash_score": 70.0,
+      "chittick_reject_reason": "Prior allocation caps; technical-heavy.",
+      "concentration_case": "Broad momentum superior to single semi names in risk-off; complements watchlist.",
+      "confidence": 0.78,
       "congressional_signal": "none",
-      "entry_plan": "Enter on pullback to $12-13 (post-surge support) if volume confirms; paper-trade 1-3% position.",
-      "exit_plan": "Take profits at +8-10% or Q1 guidance confirmation; invalidate below earnings open low.",
-      "growth_runway": "ARR expansion via partnerships; Q1 beat sets up multi-quarter acceleration.",
+      "entry_plan": "Enter above $131.50 on volume confirmation; paper 1-2% test position.",
+      "exit_plan": "Profits at +6% or $140; invalidate below $128 daily close.",
+      "growth_runway": "Sustained S&P uptrend tied to AI/productivity; monitor 30-180 days on factor persistence.",
       "horizon_days": 5,
-      "margin_of_safety_case": "Subscription ARR provides cash flow visibility; post-earnings derating offers entry vs growth multiple.",
-      "market_regime": "Risk-off volatility caps upside but subscription quality offers defensive tilt vs cyclical semis.",
-      "momentum_case": "27% post-earnings surge with clean beat; analyst sentiment positive but volume/relative strength needs confirmation for 1-10 day swing.",
-      "owner_hold_case": "Hold 30-180 days if ARR doubles and partnerships yield rev share; review post-Q1.",
-      "quality_case": "Recurring revenue shift provides moat via sticky subscriptions; large-cap stability absent but partnerships de-risk customer acquisition.",
+      "margin_of_safety_case": "ETF structure diversifies single-stock risk; momentum filter implies quality buffer.",
+      "market_regime": "Risk-off volatility favors tight stops; S&P support at 7,119 key for continuation.",
+      "momentum_case": "Uptrend continuation from 52-week low $78.25; aligned with semi/AI resilience (NVDA/ASML/LRCX trends).",
+      "owner_hold_case": "Review 30-180 days if S&P breaks 7,300 on earnings beats.",
+      "quality_case": "Factor-based ETF selecting top momentum stocks with risk-adjusted performance; diversified vs single-stock concentration.",
       "recommendation": "watch",
-      "risk_reward": "1:2 potential on momentum continuation with 6% stop; subscription tailwinds support asymmetry.",
-      "sector": "Technology / Smart Home Security",
+      "risk_reward": "1:2 potential on momentum continuation with 6% stop.",
+      "sector": "Broad Equity Momentum ETF",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
       "social_buzz": "none",
-      "source_quality": "Strong: Direct earnings data and guidance from Kavout analysis; lacks SEC filing link but metrics specific.",
-      "source_urls": [
-        "https://www.kavout.com/market-lens/what-drove-arlo-s-recent-stock-surge"
-      ],
+      "source_quality": "Strong: Multiple market data points on performance/price action from recent scans.",
+      "source_urls": [],
       "stop_loss_percent": 6.0,
       "strategy_tags": [
-        "earnings_catalyst",
-        "subscription_growth"
+        "momentum"
       ],
-      "symbol": "ARLO",
+      "symbol": "SPMO",
       "target_allocation_percent": 8.0,
-      "thesis": "Arlo Technologies transitioned to high-margin subscription-led model with ARR at $330.5M and gross margins at 45.1%; partnerships with Comcast/ADT/Samsung position for smart security growth.",
-      "valuation_case": "Attractive post-beat if holds gains; services shift justifies premium to hardware peers."
+      "thesis": "SPMO tracks high-momentum S&P 500 stocks blending quality and trend strength, ideal for 1-10 day swings in broad market uptrends with defined risk.",
+      "valuation_case": "Attractive as momentum proxy vs overvalued semis; tracks S&P leaders."
     },
     {
-      "adversary_case": "Semis concentration risk (14% S&P); Fed hawkishness hits exports.",
-      "balance_sheet_risk": "Cyclical but strong institutional support.",
-      "bear_case": "Cyclical semis exposed to China restrictions/USD strength.",
-      "capital_allocation_case": "FCF focus signals discipline.",
-      "catalyst": "Key trading signal at $280.75 triggered +4.31% to $292.85 intraday; Evercore ISI PT raise to $320 on FCF growth to $25/share by 2028.",
-      "chittick_cash_score": 68.0,
-      "chittick_reject_reason": "Technical-only without earnings catalyst.",
-      "concentration_case": "Diversified semi vs NVDA purity; complements watchlist.",
-      "confidence": 0.72,
+      "adversary_case": "Overbought post-rally; event risk from tech earnings.",
+      "balance_sheet_risk": "Low debt; cyclical but cash rich.",
+      "bear_case": "Semis concentration (14% S&P); China export/USD risks.",
+      "capital_allocation_case": "R&D/capex discipline for AI lead.",
+      "catalyst": "Ranked #1 swing trade stock for 2026 with strong trends/high volatility; resilient amid AI data center news (CoreWeave $63.9B deals).",
+      "chittick_cash_score": 75.0,
+      "chittick_reject_reason": "",
+      "concentration_case": "AI pure-play warrants slot over broad ETF.",
+      "confidence": 0.8,
       "congressional_signal": "none",
-      "entry_plan": "Enter above $290 on volume if holds gains; paper 1-2% test.",
-      "exit_plan": "Profits at +7% or $300; stop below signal low $280.",
-      "growth_runway": "AI-auto shift; FCF to $25/share by 2028.",
-      "horizon_days": 4,
-      "margin_of_safety_case": "FCF ramp provides buffer; auto/EV less hype-driven than GPU.",
-      "market_regime": "Risk-off hurts cyclicals but AI/EV offsets; VIX elevation adds volatility.",
-      "momentum_case": "4% intraday gain on signal; aligns with semi resilience (NVDA/ASML/LRCX trends).",
-      "owner_hold_case": "Review 30-180 days on EV adoption and FCF delivery.",
-      "quality_case": "High-margin infrastructure play in semis; sector at 14% S&P weight underscores durability.",
+      "entry_plan": "Enter on pullback to 10-day MA with volume; paper 1% test.",
+      "exit_plan": "Profits at +8% or prior high; stop below recent low.",
+      "growth_runway": "AI data centers (OpenAI 10GW, CoreWeave expansion); 30-180 day GPU demand.",
+      "horizon_days": 7,
+      "margin_of_safety_case": "Dominant market share buffers downside.",
+      "market_regime": "Risk-off hits cyclicals but AI offsets; VIX adds volatility.",
+      "momentum_case": "Bullish trends with clean pullbacks; institutional flows.",
+      "owner_hold_case": "Hold 30-180 days on data center buildout delivery.",
+      "quality_case": "AI infrastructure leader; high margins, FCF generation.",
       "recommendation": "watch",
-      "risk_reward": "1:1.5 on technical breakout with semi tailwinds.",
-      "sector": "Semiconductors / Auto-Industrial",
+      "risk_reward": "1:2 on volatility with AI tailwinds.",
+      "sector": "Semiconductors",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
       "social_buzz": "none",
-      "source_quality": "Moderate: Trading signal and PT raise from Benzinga/Evercore; no earnings tie-in.",
-      "source_urls": [
-        "https://www.benzinga.com/Opinion/26/04/52146398/nxp-semiconductors-stock-climbs-4-percent-after-key-trading-signal",
-        "https://www.investing.com/news/analyst-ratings/evercore-isi-raises-nxp-semiconductors-price-target-on-strong-outlook-93CH-4644063"
-      ],
+      "source_quality": "Moderate: Swing rankings and technicals; ties to AI infra news.",
+      "source_urls": [],
       "stop_loss_percent": 7.0,
       "strategy_tags": [
-        "semi_momentum",
-        "trading_signal"
+        "semi_momentum"
       ],
-      "symbol": "NXPI",
+      "symbol": "NVDA",
       "target_allocation_percent": 8.0,
-      "thesis": "NXP Semiconductors leads auto/industrial chips with multi-year AI/EV demand cycle.",
-      "valuation_case": "19x 2027 EPS at new PT attractive vs semi peers."
+      "thesis": "NVIDIA dominates AI GPU/chip design with multi-year demand cycle, blending quality moat and swing momentum.",
+      "valuation_case": "Premium justified by growth vs peers."
+    },
+    {
+      "adversary_case": "Earnings miss risk; antitrust overhang.",
+      "balance_sheet_risk": "Minimal debt; low cyclicality.",
+      "bear_case": "Regulatory scrutiny; ad cyclicality.",
+      "capital_allocation_case": "Buybacks, AI capex discipline.",
+      "catalyst": "AI tailwinds (Perplexity/OpenAI deals highlight compute demand); upcoming earnings.",
+      "chittick_cash_score": 82.0,
+      "chittick_reject_reason": "",
+      "concentration_case": "Top Chittick seed; quality over momentum ETF.",
+      "confidence": 0.75,
+      "congressional_signal": "none",
+      "entry_plan": "Enter above key support on volume; paper test.",
+      "exit_plan": "Profits +7%; stop below 5-day MA.",
+      "growth_runway": "Gemini AI, cloud expansion; 30-180 day ad recovery.",
+      "horizon_days": 5,
+      "margin_of_safety_case": "Net cash position; diversified revenue.",
+      "market_regime": "Risk-off favors quality megacaps over cyclicals.",
+      "momentum_case": "Resilient trends vs semis weakness.",
+      "owner_hold_case": "Strong 30-180 day thesis on AI monetization.",
+      "quality_case": "Durable moat in search/ads; strong FCF, balance sheet.",
+      "recommendation": "watch",
+      "risk_reward": "1:1.5 on quality momentum.",
+      "sector": "Technology / Internet Services",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "none",
+      "source_quality": "Strong: Official priority; AI infra context.",
+      "source_urls": [],
+      "stop_loss_percent": 6.0,
+      "strategy_tags": [
+        "chittick_cash"
+      ],
+      "symbol": "GOOGL",
+      "target_allocation_percent": 8.0,
+      "thesis": "Alphabet's search/AI/cloud quality business with Chittick Cash priority; swing on momentum in risk-off.",
+      "valuation_case": "Attractive vs growth peers on FCF yield."
     }
   ],
-  "summary": "Markets in cautious consolidation post-FOMC with VIX at 18.74, semis resilient at 14% S&P weight amid AI demand, ARLO surges 27% on Q4 beat/subscription shift, NXPI +4% on trading signal; watchlist semis/momentum ETFs hold up but no fresh 1-10 day catalysts beat prior SPMO/NVDA setups."
+  "summary": "Markets remain in risk-off consolidation post-FOMC with VIX elevated at 18.74, semis/AI resilient amid data center expansion news (CoreWeave $63.9B Q1 deals, Galaxy Helios revenue start Q2), but no fresh 1-10 day catalysts on watchlist priorities (GOOGL, INTC, USAR, GT) or prior candidates beat technical/momentum setups like SPMO/NVDA."
 }
 -->
 
@@ -208,4 +240,12 @@
 |---|---|---:|---:|---:|---:|---|---|
 | ARLO | Technology / Smart Home Security | 0.70 | 65 | 8.0% | 6.0% | watch | Q4 2025 earnings beat (rev $141.3M vs $135.6M est, EPS $0.22 vs $0.16 est) drove 27% surge; Q1 2026 guidance rev $140M/EPS $0.20 exceeds estimates. |
 | NXPI | Semiconductors / Auto-Industrial | 0.72 | 68 | 8.0% | 7.0% | watch | Key trading signal at $280.75 triggered +4.31% to $292.85 intraday; Evercore ISI PT raise to $320 on FCF growth to $25/share by 2028. |
+
+## Latest Candidates - 2026-04-30 05:28:17 Eastern Daylight Time
+
+| Symbol | Sector | Confidence | Chittick | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---:|---:|---:|---:|---|---|
+| SPMO | Broad Equity Momentum ETF | 0.78 | 70 | 8.0% | 6.0% | watch | Recent +17.81% 1-month return to $132.29 (03/27-04/27/26), +1.23% daily gain trading $128-$132 with high $131.50 amid S&P strength. |
+| NVDA | Semiconductors | 0.80 | 75 | 8.0% | 7.0% | watch | Ranked #1 swing trade stock for 2026 with strong trends/high volatility; resilient amid AI data center news (CoreWeave $63.9B deals). |
+| GOOGL | Technology / Internet Services | 0.75 | 82 | 8.0% | 6.0% | watch | AI tailwinds (Perplexity/OpenAI deals highlight compute demand); upcoming earnings. |
 

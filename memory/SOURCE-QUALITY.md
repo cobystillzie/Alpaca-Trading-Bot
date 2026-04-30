@@ -147,4 +147,83 @@ SEC/company quality check:
   ],
   "source_urls": []
 }
+## Source And Signal Research - 2026-04-30 05:28:17 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No unusual discussion or hype detected around liquid US stocks/ETFs such as SPMO, NVDA, ASML, LRCX, MSFT, or others in recent candidates. Coverage remains focused on standard technicals, AI/semiconductor demand, and earnings catalysts without pump language or unsupported claims.",
+  "social_buzz": "Weak; routine mentions of AI chip stocks (NVDA, ASML, LRCX) and momentum ETFs (SPMO) in trading contexts, no spikes in volume or sentiment.",
+  "attention_anomalies": "None flagged. No suspected hype, pump schemes, or viral unsupported claims observed across public web/social platforms.",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+{"summary":"No recent congressional disclosures of trades in liquid US stocks or ETFs identified in available sources; only historical trades in SMCI (1 purchase, 2 sales in past 6 months by Sen. Boozman and Rep. Cisneros) and VRT (3 purchases, 3 sales in past 6 months).","congressional_signal":"Low-weight, delayed context: SMCI traded 3 times (net sales) and VRT 6 times (balanced) by Congress members in past 6 months; no new reports.","tickers":["SMCI","VRT"],"source_urls":["https://www.quiverquant.com/news/Super+Micro+Computer+Stock+(SMCI)+Opinions+on+AI+Server+Portfolio+Expansion","https://www.quiverquant.com/news/Fund+Update:+New+$10.7M+$VRT+stock+position+opened+by+OREGON+PUBLIC+EMPLOYEES+RETIREMENT+FUND"]}
+
+SEC/company quality check:
+```json
+{
+  "summary": "Analysis of 7 SEC filings (Humacyte HUMA, WillScot WSC, Regal Rexnord RRX, Durable Capital LP, Clearside CLSD, Galaxy Digital GLXY, Metsera MTSR) reveals mixed quality across biotech, industrial, and fintech segments. Key findings: Humacyte shows strong clinical durability (ATEV vascular conduit FDA-approved Dec 2024, 87.1% patency, 0.9% infection rate vs 8.4% synthetic benchmark); WillScot demonstrates resilient modular/storage leasing with 260+ branches and 50%+ residual values; Regal Rexnord faces substantial post-Altra integration debt ($5.1B acquisition 2023) and tariff/supply chain headwinds; Clearside in financial distress (going-concern doubt, strategic review, workforce reduction); Galaxy Digital positioned in nascent crypto/AI infrastructure with regulatory complexity; Metsera early-stage oral GLP-1 developer with platform risk. Watchlist names (NVDA, ASML, LRCX, MSFT, LLY, ARLO, NXPI) not directly covered in filings provided.",
+  "filing_risks": {
+    "HUMA": [
+      "Regulatory concentration: Single FDA indication (extremity vascular trauma) limits revenue diversification; hemodialysis access indication (V006/V007 trials) still in Phase 3 with mixed efficacy vs ePTFE (failed primary endpoint at 24 months, though superior infection profile)[1]",
+      "Clinical trial execution: V012 (women-focused hemodialysis) enrollment ongoing; interim analysis expected April 2026; delays could impact commercialization timeline[1]",
+      "Reimbursement uncertainty: Budget Impact Model (March 2025, Journal of Medical Economics) projects cost-savings but actual payer adoption unproven; Symvess pricing not disclosed[1]",
+      "Manufacturing scale: LUNA200 manufacturing system transition (V011 bridging study completed); capacity constraints could limit market penetration[1]"
+    ],
+    "WSC": [
+      "Leverage and capital intensity: Hybrid in-house/outsourced logistics model requires sustained capex; fleet maintenance and residual value assumptions (50%+ residuals) vulnerable to economic downturn[2]",
+      "Customer concentration: Serves 15 distinct end markets but no single customer >10% revenue; however, construction/industrial cyclicality poses demand risk[2]",
+      "Supply chain and tariff exposure: Modular units made of steel/aluminum; tariff increases (mentioned in forward-looking statements) directly impact COGS[2]",
+      "Integration and M&A execution: Recent UK Storage Solutions divestiture (Jan 2023); Network Optimization Plan execution critical to margin expansion[2]"
+    ],
+    "RRX": [
+      "Substantial indebtedness post-Altra: $5.1B acquisition (March 2023) created material debt burden; company explicitly cites 'substantial indebtedness' as risk factor and states inability to achieve deleveraging timeline could impair operations[3]",
+      "Synergy realization risk: Altra integration and Rexnord PMC merger (2021) synergies not yet fully realized; Industrial Systems divestiture (April 2024, $444M) signals portfolio optimization but creates execution risk[3]",
+      "Customer concentration: No single customer >10% but dependence on OEM relationships and distributor channel (40% of sales) creates cyclical exposure[3]",
+      "Tariff and trade policy: Explicit risk disclosure on tariffs from Canada, Mexico, China, India; rare earth mineral export restrictions from China pose supply chain risk[3]",
+      "Goodwill impairment: Post-Altra, company faces material goodwill on balance sheet; market downturn or integration failure could trigger write-downs[3]"
+    ],
+    "CLSD": [
+      "Going-concern doubt: Company explicitly states 'substantial doubt regarding ability to continue as a going concern' as of June 30, 2025; accumulated deficit $368M[5]",
+      "Strategic review and workforce reduction: July 2025 announcement to explore strategic alternatives (sale, license, merger, bankruptcy); all employees terminated and transitioned to consulting roles; estimated $2.6M severance charges Q3 2025[5]",
+      "Nasdaq delisting risk: Stock below $1.00 bid price from Dec 18, 2024–Feb 4, 2025; received delisting notice; reverse stock split (1-for-5 to 1-for-15) proposed to regain compliance[5]",
+      "Revenue concentration: XIPERE (triamcinolone) commercialization rights licensed to Bausch + Lomb (US/Canada) and Arctic Vision (Asia Pacific); company receives milestone and royalty payments but has no direct commercial control[5]",
+      "Clinical pipeline pause: All internal R&D programs paused pending strategic review; CLS-AX (Phase 2b wet AMD candidate) development timeline uncertain[5]"
+    ],
+    "GLXY": [
+      "Nascent business lines and regulatory uncertainty: Digital assets and AI/HPC data center segments unproven; subject to >50 federal/state/foreign regulators; crypto regulatory classification risk (security vs commodity) could materially impair asset values[6]",
+      "Key-man risk: Founder-controlled structure (53.9% voting power post-offering); company explicitly cites 'material and unpredictable key man risk'[6]",
+      "Helios data center execution: 800 MW approved capacity with 1.7 GW under load study; CoreWeave lease (393 MW committed) represents concentration; long-term lease model (10–15 years) unproven at scale[6]",
+      "Competitive intensity: Operates against 'unregulated or less regulated companies' with greater resources; brand and regulatory compliance differentiation unproven[6]",
+      "Limited operating history: Business lines described as 'nascent, unproven' with material legal, regulatory, operational, reputational, and tax risks[6]"
+    ],
+    "MTSR": [
+      "Preclinical-stage risk: MET-224o (lead oral GLP-1 RA) Phase 1/2 initiation planned late 2025; no human efficacy data; reliance on canine/pig PK models and in vitro signaling studies[7]",
+      "Platform technology dependence: HALO lipidation and MOMENTUM oral delivery platforms unvalidated in humans; bioavailability claims (5.8% vs Rybelsus 0.4% in canines) may not translate to human efficacy[7]",
+      "D&D licensing obligations: A&R Agreement requires commercialization of 3 product categories with $10M upfront + up to $26–$52M per product in milestones + $112.5–$225M in sales milestones + tiered royalties (low-single to mid-teen %); failure to meet diligence triggers termination[7]",
+      "Capital requirements: Early-stage biotech with no revenue; IND-enabling studies and Phase 1/2 trials require substantial funding; dilution risk from future financing[7]",
+      "Competitive landscape: Oral GLP-1 market dominated by Novo Nordisk (Rybelsus) and injectable competitors (semaglutide, tirzepatide); MET-224o differentiation (fully biased, ultra-long-acting) unproven vs established agents[7]"
+    ]
+  },
+  "quality_notes": {
+    "HUMA": "Positive: FDA approval (Dec 2024) de-risks regulatory pathway; V005/V017 combined data (87.1% primary patency, 0.9% infection rate) demonstrates clinical superiority vs synthetic grafts (78.9% patency, 8.4% infection); Budget Impact Model supports cost-savings narrative. Negative: Hemodialysis indication (larger TAM) failed V006 primary efficacy endpoint; V007 shows ATEV superior to AVF in females/obese/diabetic subgroup but not overall population; reimbursement and manufacturing scale unproven.",
+    "WSC": "Positive: Diversified end-market exposure (15 segments); 260+ branch network and hybrid logistics model create competitive moat; 50%+ residual values on modular units and storage containers support asset durability; VAPS (value-added products) drive margin expansion. Negative: Cyclical exposure to construction/industrial demand; tariff sensitivity on steel/aluminum inputs; capex intensity and working capital management critical.",
+    "RRX": "Positive: Broad product portfolio (motors, power transmission, automation) with secular tailwinds (AI, aerospace, data center); 80/20 initiatives and RBS continuous improvement framework support margin expansion; strong free cash flow generation. Negative: $5.1B Altra debt burden materially constrains financial flexibility; synergy realization timeline uncertain; tariff/trade policy headwinds; goodwill impairment risk post-integration.",
+    "CLSD": "Negative: Going-concern doubt, strategic review, and workforce reduction signal existential risk; accumulated deficit $368M; Nasdaq delisting threat; XIPERE commercialization controlled by partners (Bausch, Arctic Vision); internal R&D pipeline paused. Positive: XIPERE FDA approval (Oct 2021) validates SCS platform; CLS-AX Phase 2b (ODYSSEY) achieved primary/secondary endpoints in wet AMD; external partnerships (Bausch, Arctic Vision, BioCryst, REGENXBIO, Aura) provide optionality.",
+    "GLXY": "Positive: Diversified revenue model (trading spreads, lending, M&A fees, staking, venture); $7B AUM across 1,381 trading counterparties and 1,200+ asset management clients; Helios campus (800 MW approved, 1.7 GW under study) positions for AI/HPC infrastructure demand; 7+ years crypto market experience. Negative: Nascent business lines unproven; >50 regulators create compliance burden; founder control (53.9% voting) concentrates governance risk; crypto regulatory classification uncertainty; CoreWeave lease concentration.",
+    "MTSR": "Negative: Preclinical-stage with no human efficacy data; platform technologies (HALO, MOMENTUM) unvalidated in humans; D&D licensing obligations impose strict diligence requirements and milestone/royalty burdens; capital requirements high; competitive landscape dominated by established oral/injectable GLP-1 agents. Positive: Differentiated approach (fully biased, ultra-long-acting oral) addresses scalability/tolerability gaps vs Rybelsus; preclinical PK/PD data (canine/pig models) support durability and bioavailability claims; Phase 1/2 initiation planned late 2025 could validate platform."
+  },
+  "source_urls": [
+    "Humacyte 10-K (2026-03-27): HUMA vascular trauma and hemodialysis access clinical data, FDA approval, V005/V006/V007 trial results, Budget Impact Model",
+    "WillScot 10-K (2026-02-19): WSC modular space and portable storage business model, branch network, residual values, tariff exposure, end-market diversification",
+    "Regal Rexnord 10-K (2026-02-20): RRX Altra acquisition debt, synergy realization, customer concentration, tariff/trade policy risks, goodwill impairment",
+    "Clearside Biomedical 10-Q (2025-08-08): CLSD going-concern doubt, strategic review, workforce reduction, XIPERE licensing, CLS-AX Phase 2b results, Nasdaq delisting risk",
+    "Galaxy Digital S-1 (2025-05-27): GLXY digital assets and AI/HPC data center business model, regulatory framework, Helios campus, CoreWeave lease, founder control",
+    "Metsera S-1/A (2025-01-27): MTSR MET-224o oral GLP-1 RA development, HALO/MOMENTUM platforms, D&D licensing obligations, preclinical PK/PD data, Phase 1/2 timeline"
+  ]
+}
+```
 
