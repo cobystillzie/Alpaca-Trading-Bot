@@ -105,4 +105,46 @@ SEC/company quality check:
   "quality_notes": "SPMO: Durable momentum (17.81% 1-mo return) but quality undermined by single-stock concentration limits (prior rejections); underlying semis (NVDA/ASML/LRCX) show AI demand durability but balance-sheet strain from capex. No Chittick priority tickers (GOOGL/INTC/USAR/GT) in watchlist/memory. HUMA shows long-term patency/infection data supporting vascular trauma durability but hemodialysis patency misses raise revenue quality doubts. WSC/RRX filings indicate stable industrial demand but cyclical exposure.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-04-30 03:27:22 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+{
+  "summary": "No unusual discussion, hype, or pump language detected around liquid US stocks or ETFs in recent public web/social coverage. Attention remains steady on established momentum plays like SPMO, NVDA, ASML, LRCX, and MSFT, with biotech watches (ANIX, TNXP, LLY) showing routine clinical/patent updates. No suspected unsupported claims or anomalies flagged as risk.",
+  "social_buzz": "Weak; standard mentions of AI/semiconductor momentum (NVDA, ASML, LRCX) and ETF uptrends (SPMO) without viral spikes or coordinated hype.",
+  "attention_anomalies": "None identified. Coverage aligns with ongoing market trends; no sudden surges or pump signals in liquid names.",
+  "source_urls": []
+}
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No recent congressional disclosures of trades in liquid US stocks or ETFs identified in available sources.",
+  "congressional_signal": "Low activity: SMCI traded 3 times in past 6 months (1 purchase by Sen. John Boozman up to $15K on 12/11/25, 1 sale by same up to $15K on 12/31/25, 1 sale by Rep. Gilbert Ray Cisneros Jr. up to $15K on 11/12/25); VRT traded 6 times (3 buys, 3 sells). Disclosures delayed and low-weight context only.[1][4]",
+  "tickers": ["SMCI", "VRT"],
+  "source_urls": [
+    "https://www.quiverquant.com/news/Super+Micro+Computer+Stock+(SMCI)+Opinions+on+AI+Server+Portfolio+Expansion",
+    "https://www.quiverquant.com/news/Fund+Update:+New+$10.7M+$VRT+stock+position+opened+by+OREGON+PUBLIC+EMPLOYEES+RETIREMENT+FUND"
+  ]
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "Watchlist dominated by semiconductor/AI leaders (NVDA, ASML, LRCX, MSFT, SPMO) with technical momentum and sector catalysts; biotech adds (ANIX, TNXP, LLY) show clinical progress but high execution risk. No GOOGL/GOOG, INTC, USAR, GT exposure. SPMO repeatedly rejected for concentration limits.",
+  "filing_risks": [
+    "HUMA (10-K ): Clinical mixed results - V006 Phase 3 failed primary patency endpoint vs ePTFE (67% vs 74% at 24mo); higher thrombosis (23% vs 16%); ongoing Phase 3 V012/V007 with topline risks; litigation/product liability exposure in trauma/dialysis; revenue concentration on Symvess pre-commercial scale.",
+    "WSC (10-K ): High debt/capital access risk; customer concentration/credit risk; tariff/trade policy exposure; activist shareholder pressure; integration risks from acquisitions; cybersecurity/labor disruptions; covenant restrictions limit flexibility.",
+    "RRX (10-K ): Substantial post-Altra debt ($5.1B acquisition); integration synergies uncertain; customer concentration; tariff/commodity price volatility; litigation (product liability/asbestos); goodwill impairment risk; supply chain/geopolitical risks (China tariffs).",
+    "CLSD (10-Q ): Going concern warning - cash insufficient for 12mo; exploring sale/merger/bankruptcy; workforce reduction ($2.6M severance); Nasdaq delisting risk (bid < $1); royalty rights sold (revenue quality diluted); high R&D burn.",
+    "Watchlist (NVDA/ASML/LRCX/MSFT inferred): High valuation multiples; AI hype concentration risk; capex dilution potential; China export restrictions."
+  ],
+  "quality_notes": [
+    "SPMO: Strong momentum (17%+ 1mo returns) but broad S&P exposure lacks durable moat; repeated rejections signal portfolio concentration limits.",
+    "Semis (NVDA/ASML/LRCX): Durable AI/chip demand but cyclical; NVDA #1 swing rank shows volatility; no balance sheet concerns from filings.",
+    "LLY: Pharma quality with GLP-1 revenue durability; BIOSECURE/tariff re-shoring catalyst; Q1 earnings near-term.",
+    "Biotechs (ANIX/TNXP): Phase 2 initiations/patents positive but early-stage revenue quality zero; high clinical failure risk.",
+    "No filing evidence of dilution/capital misallocation in watchlist core; semis show strong institutional flows."
+  ],
+  "source_urls": []
+}
 

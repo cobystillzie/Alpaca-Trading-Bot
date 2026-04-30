@@ -343,4 +343,24 @@ Rejected / Watchouts
 - ANIX: Confidence below 0.60.; Horizon must be 1-10 trading days.; Target allocation must be between 1% and 15%.
 - TNXP: Confidence below 0.60.; Horizon must be 1-10 trading days.; Target allocation must be between 1% and 15%.
 - LLY: Horizon must be 1-10 trading days.
+## Research Update - 2026-04-30 03:27:22 Eastern Daylight Time
+
+Research Update
+
+Market tone: Markets in cautious consolidation post-FOMC with VIX at 18.74, semis resilient at 14% S&P weight amid AI demand, ARLO surges 27% on Q4 beat/subscription shift, NXPI +4% on trading signal; watchlist semis/momentum ETFs hold up but no fresh 1-10 day catalysts beat prior SPMO/NVDA setups.
+Candidates: 2
+
+1. ARLO (Technology / Smart Home Security) | confidence 0.70 | allocation 8.0% | stop 6.0% | Chittick 35/100
+Recommendation: watch
+Catalyst: Q4 2025 earnings beat (rev $141.3M vs $135.6M est, EPS $0.22 vs $0.16 est) drove 27% surge; Q1 2026 guidance rev $140M/EPS $0.20 exceeds estimates.
+Chittick Cash: Subscription ARR provides cash flow visibility; post-earnings derating offers entry vs growth multiple.
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. NXPI (Semiconductors / Auto-Industrial) | confidence 0.72 | allocation 8.0% | stop 7.0% | Chittick 35/100
+Recommendation: watch
+Catalyst: Key trading signal at $280.75 triggered +4.31% to $292.85 intraday; Evercore ISI PT raise to $320 on FCF growth to $25/share by 2028.
+Chittick Cash: FCF ramp provides buffer; auto/EV less hype-driven than GPU.
+Social buzz, low weight: none
+Congress signal, low weight: none
 

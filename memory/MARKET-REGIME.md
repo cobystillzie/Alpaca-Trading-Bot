@@ -183,4 +183,30 @@
     "https://markets.jpmorgan.com/research-and-insights"
   ]
 }
+## Market Regime Research - 2026-04-30 03:27:22 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equity markets are in a cautious, mixed tone post-FOMC on April 29, 2026, with indices slipping (S&P 500 -0.04% to 7,135, Dow -0.6% to 48,861, Nasdaq +0.04%), elevated VIX at 18.74 (+5.10%), hawkish Fed signals strengthening USD, surging oil prices from Iran conflict pressuring sentiment, and mixed earnings ahead of Big Tech reports.[1][2][3][6][10]",
+  "market_regime": "Cautious consolidation with heightened volatility; indices testing supports amid Fed uncertainty and geopolitical risks, sideways pre-FOMC action shifting to mild downside post-decision.[2][3][6][10]",
+  "sector_rotation": "Semiconductors resilient and mean-reverting higher amid AI momentum (e.g., NVDA, ASML, LRCX candidates); broad momentum (SPMO) holding uptrend; consumer spending resilient (Visa +8-10%, Starbucks +4.6%) but misses punished sharply; potential overweight IT/pharma exports, underweight financials/oil refining due to strong USD.[2][3][6]",
+  "risk_flags": [
+    "Fed held rates at 3.50-3.75% with divided 8-4 vote (most since 1992), hawkish Powell tone expected, USD index +0.28% to 98.871 pressuring equities.[1][3][4][7][9]",
+    "VIX spiked +5.10% to 18.74, highest recent reading, signaling rising fear.[10]",
+    "Oil surge (Brent +4.9% to $109.51 near wartime highs) from Iran war, inflation risks, supply shocks.[2][3][5]",
+    "Consumer confidence edged up slightly to 92.8 but expectations pessimistic, higher recession odds, elevated inflation views.[5]",
+    "Big Tech (MSFT, GOOG, AMZN, META) earnings today/tomorrow critical for AI profitability validation.[1][6]"
+  ],
+  "source_urls": [
+    "https://www.moomoo.com/news/post/69121976/powell-s-every-move-may-carry-a-hawkish-tone",
+    "https://timesofindia.indiatimes.com/business/international-business/us-stock-market-today-april-29-2026-dow-sp-500-slip-ahead-of-fed-decision-oil-surge-from-iran-war-weighs-on-sentiment/articleshow/130610340.cms",
+    "https://www.kiplinger.com/investing/stocks/markets-are-mixed-amid-fed-uncertainty-stock-market-today",
+    "https://www.sahi.com/news/dollar-index-surges-0-28-to-98-871-as-fed-rate-stance-triggers-euro-decline-dollar-index",
+    "https://romeceo.com/news/2026/04/us-consumer-confidence-edged-again-april/",
+    "https://www.marketpulse.com/markets/pre-fomc-level-djia-nasdaq-sp500-april-2026/",
+    "https://www.investing.com/analysis/powells-final-act-rates-on-hold-as-fed-chair-prepares-to-exit-200679353",
+    "https://www.moomoo.com/stock/.VIX-US?chain_id=Name1K9-3FXPhg.1kv4e8g"
+  ]
+}
+```
 
