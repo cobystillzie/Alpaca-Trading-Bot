@@ -23,4 +23,12 @@ Buying power: 199204.41
 
 Positions:
 - SPMO: qty=6.119014838, market_value=804.40875, unrealized_pl=4.40875
+## End Of Day Summary - 2026-04-29 21:59:50 Eastern Daylight Time
+
+Portfolio value: 100001.65
+Cash: 99200
+Buying power: 199201.65
+
+Positions:
+- SPMO: qty=6.119014838, market_value=801.652134, unrealized_pl=1.652134
 
