@@ -116,4 +116,42 @@ Sources: https://elliottwave-forecast.com/trading/best-swing-trading-stocks/
 Rejected / Watchouts
 - NVDA: Low-weight social/congress signal needs at least two stronger sources.; Candidate relies only on weak/listicle-style sources.
 - SPMO: Low-weight social/congress signal needs at least two stronger sources.; Candidate relies only on weak/listicle-style sources.
+## Premarket Memo - 2026-04-29 22:15:58 Eastern Daylight Time
+
+Premarket Analyst Memo
+
+Recommendation: Execute only if guardrails pass; otherwise hold cash and wait for cleaner evidence.
+
+Market Regime
+Risk-off Fed/geopolitical flags heighten volatility; favor tight stops amid potential tech rotation.
+
+Top Candidates
+
+1. NVDA (Semiconductors) | confidence 0.75 | allocation 8.0% | stop 7.0%
+Thesis: NVIDIA dominates AI chip market with unmatched GPU leadership, blending exceptional business quality and high volatility ideal for short-term momentum swings.
+Catalyst: Ranked #1 best swing trading stock for 2026 with strong trends, high volatility, and clean pullbacks driven by AI/semiconductor institutional flows.
+Entry: Enter on pullback to 5-day MA with Close >5D>10D>20D and MACD Golden Cross confirmation; defined risk below recent swing low.
+Exit: Take profits at +10-15% or prior resistance; invalidate below 7% stop or MA breakdown.
+Risk/reward: 1:2+ with 7% stop targeting 14-20% upside on momentum continuation.
+Bear/adversary: OpenAI misses signal AI monetization risks; Fed hawkishness caps high-beta semis.
+Source quality: Moderate from swing trade rankings; lacks fresh SEC/earnings data but aligns with institutional AI flows.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://elliottwave-forecast.com/trading/best-swing-trading-stocks/
+
+2. SPMO (Broad Equity Momentum ETF) | confidence 0.76 | allocation 8.0% | stop 6.0%
+Thesis: S&P 500 Momentum ETF captures broad quality momentum with risk-adjusted outperformance, ideal for regime-agnostic swings.
+Catalyst: Recent +17.81% 1-month return to $132.29 with +1.23% daily gains and uptrend from $78.25 low amid S&P strength.
+Entry: Enter near $128-130 support with volume confirmation; avoid if allocation exceeds 15%.
+Exit: Profits at $140 resistance or +10%; stop at 6% below entry or 20-day MA break.
+Risk/reward: 1:2 with 6% stop to 12% target on continuation.
+Bear/adversary: Prior allocation rejections signal overconcentration; Fed pivot hits momentum factor hardest.
+Source quality: Strong market data but prior rejections on concentration; ETF sponsor transparency.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://elliottwave-forecast.com/trading/best-swing-trading-stocks/
+
+Rejected / Watchouts
+- NVDA: Candidate relies only on weak/listicle-style sources.
+- SPMO: Candidate relies only on weak/listicle-style sources.
 

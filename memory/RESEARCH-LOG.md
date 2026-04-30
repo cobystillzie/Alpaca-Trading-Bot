@@ -105,4 +105,12 @@ Premarket plan built from latest watchlist.
   rejects: Low-weight social/congress signal needs at least two stronger sources.; Candidate relies only on weak/listicle-style sources.
 - SPMO: score=100, approved=False, allocation=8.0%, stop=6.0%
   rejects: Low-weight social/congress signal needs at least two stronger sources.; Candidate relies only on weak/listicle-style sources.
+## Premarket Plan - 2026-04-29 22:15:58 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- NVDA: score=100, approved=False, allocation=8.0%, stop=7.0%
+  rejects: Candidate relies only on weak/listicle-style sources.
+- SPMO: score=100, approved=False, allocation=8.0%, stop=6.0%
+  rejects: Candidate relies only on weak/listicle-style sources.
 
