@@ -301,4 +301,29 @@
   ]
 }
 ```
+## Market Regime Research - 2026-04-30 10:50:52 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equity markets exhibit **cautious risk-on tone** with S&P 500 up ~10% in April amid strong earnings (80%+ beats), but pressured by Fed's hawkish hold (rates at 3.5-3.75%, 4 dissents), rising inflation (headline 3.3%, core 2.6%), Iran/geopolitical oil spikes, and elevated VIX ~18.8. Tech/AI resilient (Nasdaq +0.6%), broad indices flat/mixed post-FOMC.",
+  "market_regime": "Cautious Bull (trend intact but consolidating); S&P 500 at 7,135.95 (-0.1%), broke upward trend but above 7,100 support; Nasdaq testing 27k ATHs; Dow -0.6% off 48,860 MA; Goldman Sachs forecasts 6% rise to 7,600 Y/E on 12% EPS growth/AI capex[1][5][7].",
+  "sector_rotation": "Tech/AI/Semiconductors leading (Nasdaq +0.6%, NVDA/GOOGL/SPMO candidates); Momentum/Broad Equity (SPMO +17.81% 1M); Cyclicals cautious on guidance gap; Biotech/Pharma emerging (LLY/ANIX/TNXP); Europe slipping on Iran risks[1][5].",
+  "risk_flags": [
+    "Fed hawkish tilt: 4 dissents (most since 1992), easing bias questioned, yields spiking (2Y to 3.937%)[2][5][12]",
+    "Inflation rising: Headline 3.3% (oil/Iran), core 2.6% >2% target[2][6]",
+    "Geopolitics: Iran war driving oil to 4-year highs, global demand destruction risk[4][5][9]",
+    "Volatility elevated: VIX ~18.8 (event-driven), 6M VIX implied high; Dow/Nasdaq/S&P key supports at risk (48k/26.1k/7k)[3][5]",
+    "Earnings guidance gap: Cyclicals cautious despite beats[1]"
+  ],
+  "source_urls": [
+    "https://fintech.tv/sp-500-surges-10-in-april-big-tech-earnings-fed-decision-in-focus/",
+    "https://www.americancentury.com/insights/fed-watch/fed-meeting-april-2026-interest-rates/",
+    "https://www.marketpulse.com/markets/pre-fomc-level-djia-nasdaq-sp500-april-2026/",
+    "https://www.home.saxo/content/articles/macro/market-quick-take---30-april-2026-30042026",
+    "https://www.foxbusiness.com/economy/federal-reserve-interest-rate-decision-april-29-2026",
+    "https://www.goldmansachs.com/insights/articles/us-stocks-forecast-to-rise-in-2026",
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm"
+  ]
+}
+```
 

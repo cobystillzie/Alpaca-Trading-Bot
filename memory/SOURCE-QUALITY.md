@@ -345,4 +345,38 @@ SEC/company quality check:
   },
   "source_urls": []
 }
+## Source And Signal Research - 2026-04-30 10:50:52 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+{
+  "summary": "No unusual discussion or hype detected around liquid US stocks/ETFs in public web/social coverage. Recent candidates like NVDA, SPMO, GOOGL show routine mentions tied to AI catalysts and momentum, but no pump language, unsupported claims, or attention anomalies flagged as risk.",
+  "social_buzz": "Weak; standard coverage on AI/semiconductor trends (NVDA, GOOGL) and ETF momentum (SPMO) without elevated hype.",
+  "attention_anomalies": "None identified. No suspected pumps or viral unsupported claims.",
+  "source_urls": []
+}
+
+Congressional disclosures, max 5% influence:
+{"summary":"No recently reported congressional stock/ETF trades found in public disclosures; search results show only Q1 2026 FEC fundraising disclosures (e.g., Doris Matsui $597.3K, Scott Fitzgerald $323.5K) and press releases on legislation, with no mentions of trades in liquid US stocks or ETFs.[5][6][7][9]","congressional_signal":"None - disclosures are limited to fundraising totals filed mid-April 2026, delayed by up to 45 days per regulations, providing low-weight context only.","tickers":[],"source_urls":[]}
+
+SEC/company quality check:
+{
+  "summary": "Current watchlist features strong AI/semiconductor momentum leaders (NVDA, ASML, LRCX) with high confidence (0.74-0.80), alongside GOOGL (0.75) showing AI tailwinds from compute deals and upcoming earnings. SPMO ETF (0.78) provides broad momentum exposure amid S&P strength. Biotech names (ANIX, TNXP, LLY) and others (ARLO, NXPI) offer diversification but lower confidence (0.48-0.70). No direct SEC filings for watchlist tickers in results; available filings for HUMA (positive Symvess data but mixed trial outcomes), WSC (modular space leader), RRX (industrial motion control post-divestiture) highlight clinical/operational risks not applicable to list.",
+  "filing_risks": {
+    "HUMA (not on watchlist)": "Mixed Phase 3 patency results (V006 failed primary endpoint vs ePTFE at 24 months, HR 1.284; V007 superior usability vs AVF in high-risk subgroups); litigation/product liability exposure in trauma/hemodialysis; concentration in clinical/regulatory milestones; ongoing V012 enrollment.",
+    "WSC (not on watchlist)": "High debt/capital access risks; customer concentration/credit risk; integration risks from acquisitions; tariff/trade policy exposure; cybersecurity/labor disruptions; activist shareholder pressure.",
+    "RRX (not on watchlist)": "Substantial post-Altra debt ($5.1B acquisition); integration synergies uncertain; supplier disruptions/tariffs; customer concentration; litigation (product liability/asbestos); goodwill impairment risk; M&A execution.",
+    "Watchlist (GOOGL special attention)": "No direct filings; memory notes AI tailwinds but monitor balance-sheet/debt from capex, revenue concentration in search/cloud, regulatory/litigation (antitrust), potential dilution from stock comp.",
+    "General watchlist risks (inferred)": "Biotechs (ANIX/TNXP/LLY): Clinical/regulatory concentration, cash burn, dilution; semis (NVDA/ASML/LRCX/NXPI): Cyclical demand, capex intensity, tariff/supply chain; SPMO: ETF tracking error/market volatility."
+  },
+  "quality_notes": {
+    "NVDA/ASML/LRCX (semis)": "Durable AI/chip demand evidenced by institutional flows, MACD golden crosses, stacked MAs; #1 swing rank supports quality momentum; resilient to pullbacks[Memory].",
+    "GOOGL": "High Chittick score (82); AI compute tailwinds (Perplexity/OpenAI deals); upcoming earnings guidance; durable cloud/search revenue despite regulatory overhang[Memory].",
+    "SPMO": "+17.81% 1M return, uptrend from lows; broad S&P momentum reduces single-stock risk; consistent across updates[Memory].",
+    "LLY": "GLP-1 revenue quality, BIOSECURE/tariff re-shoring catalysts; high Chittick (76); durable pharma demand[Memory].",
+    "Biotechs (ANIX/TNXP)": "Phase 2/1 catalysts but low confidence (0.48-0.52); IP/regulatory progress; high clinical risk, revenue quality unproven[Memory].",
+    "ARLO/NXPI": "Earnings beats/guidance, FCF growth; solid Chittick (65-68); durable security/auto-industrial demand[Memory].",
+    "Overall": "Watchlist skewed to high-conviction AI/tech (durable secular demand); limited balance-sheet/dilution visibility without filings; no major red flags in memory."
+  },
+  "source_urls": []
+}
 

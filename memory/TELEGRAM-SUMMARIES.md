@@ -630,4 +630,31 @@ Sources: none
 
 Rejected / Watchouts
 - NVDA: Low-weight social/congress signal needs at least two stronger sources.
+## Research Update - 2026-04-30 10:50:52 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities in cautious risk-on consolidation with S&P 500 near 7,135 amid strong April gains (+10%), resilient AI/semiconductor momentum (NVDA/GOOGL/SPMO), but Fed hawkishness, rising inflation (3.3%), and geopolitics capping upside.
+Candidates: 3
+
+1. SPMO (Broad Equity Momentum ETF) | confidence 0.78 | allocation 8.0% | stop 6.0% | Chittick 35/100
+Recommendation: watch
+Catalyst: +17.81% 1-month return to $132.29 (03/27-04/27/26), +1.23% daily gains trading $128-$132, highs $131.50 from 52-week low $78.25 amid S&P uptrends.
+Chittick Cash: ETF diversification buffers downside vs singles; uptrend from $78 lows provides ~5% cushion to recent supports.
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. NVDA (Semiconductors) | confidence 0.80 | allocation 8.0% | stop 7.0% | Chittick 75/100
+Recommendation: watch
+Catalyst: Ranked #1 2026 swing stock; resilient on CoreWeave $63.9B deals, Vera Rubin demand, institutional AI flows.
+Chittick Cash: AI demand durability vs cyclical peers; cash-rich balance supports capex.
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. GOOGL (Technology / Internet Services) | confidence 0.75 | allocation 8.0% | stop 6.0% | Chittick 82/100
+Recommendation: watch
+Catalyst: AI compute demand (Perplexity/OpenAI deals); upcoming Q1 earnings guidance.
+Chittick Cash: Strong balance sheet, cash generation buffers regulatory downside.
+Social buzz, low weight: none
+Congress signal, low weight: none
 

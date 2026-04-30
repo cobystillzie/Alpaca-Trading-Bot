@@ -4,112 +4,34 @@
 {
   "candidates": [
     {
-      "adversary_case": "Over-allocation risk in Mag7 concentration; better semi diversification via SPMO.",
-      "balance_sheet_risk": "Net cash position; minimal debt/dilution/cyclicality.",
-      "bear_case": "Regulatory scrutiny (antitrust), AI capex competition, earnings miss on cloud growth deceleration.",
-      "capital_allocation_case": "Disciplined buybacks, AI capex reinvestment, prudent M&A.",
-      "catalyst": "AI compute tailwinds from Perplexity/OpenAI deals signaling demand; upcoming Q1 earnings for cloud/AI guidance.",
-      "chittick_cash_score": 82.0,
-      "chittick_reject_reason": "",
-      "concentration_case": "Top Chittick seed deserves focused attention over broad ETFs given moat/execution.",
-      "confidence": 0.75,
-      "congressional_signal": "none",
-      "entry_plan": "Enter on pullback to 5-day MA or intraday dip above $160 with volume confirmation.",
-      "exit_plan": "Take profits at +8-12% or pre-earnings; invalidate below 10-day MA or -6%.",
-      "growth_runway": "AI monetization (Gemini), cloud share gains, YouTube/enterprise expansion over 30-180 days.",
-      "horizon_days": 5,
-      "margin_of_safety_case": "Trading below historical multiples vs AI growth; cash hoard buffers downside.",
-      "market_regime": "Risk-on AI leadership supports; vulnerable to broad tech pullback if VIX spikes.",
-      "momentum_case": "Resilient uptrend amid AI sector strength; relative outperformance vs broader tech.",
-      "owner_hold_case": "Sustained AI leadership and cloud acceleration justifying 30-180 day review as core holding.",
-      "quality_case": "Buffett/Munger-style compounder with wide moat in search/AI/cloud; high ROIC, recurring revenue, strong FCF generation.",
-      "recommendation": "watch",
-      "risk_reward": "3:1 potential (8% stop vs 20-25% upside to recent highs) on catalyst continuation.",
-      "sector": "Technology / Internet Services",
-      "signal_weights": {
-        "congressional_signal": 0.0,
-        "social_buzz": 0.0
-      },
-      "social_buzz": "none",
-      "source_quality": "Strong: Reputable momentum scans, company AI deals, Chittick framework; no hype reliance.",
-      "source_urls": [],
-      "stop_loss_percent": 6.0,
-      "strategy_tags": [
-        "chittick_cash"
-      ],
-      "symbol": "GOOGL",
-      "target_allocation_percent": 8.0,
-      "thesis": "Chittick Cash seed priority: High-quality AI/internet leader blending durable moat, growth runway, and short-term swing catalysts in risk-on regime.",
-      "valuation_case": "Attractive vs quality growth peers on FCF yield and AI runway."
-    },
-    {
-      "adversary_case": "Extreme valuation and volatility; competition from custom chips.",
-      "balance_sheet_risk": "Low debt, share dilution minimal, cyclical semi exposure.",
-      "bear_case": "Supply chain hiccups, AI hype fade, valuation compression on growth slowdown.",
-      "capital_allocation_case": "FCF-focused returns, R&D reinvestment excellence.",
-      "catalyst": "Ranked #1 swing stock 2026; resilient on CoreWeave $63.9B AI data center deals.",
-      "chittick_cash_score": 75.0,
-      "chittick_reject_reason": "",
-      "concentration_case": "AI pure-play edge over diversified semis like INTC.",
-      "confidence": 0.8,
-      "congressional_signal": "none",
-      "entry_plan": "Buy dip to 5-day MA above $120 with MACD confirmation.",
-      "exit_plan": "Profits at +10% or resistance; stop below recent swing low (-7%).",
-      "growth_runway": "Data center dominance, Blackwell ramp, enterprise AI over 30-180 days.",
-      "horizon_days": 7,
-      "margin_of_safety_case": "Premium valuation buffered by AI monopoly pricing power.",
-      "market_regime": "Risk-on AI demand thrives; semi cyclicality amplifies VIX sensitivity.",
-      "momentum_case": "Strong trends, high volatility, clean pullbacks with institutional flows.",
-      "owner_hold_case": "Uninterrupted AI GPU leadership for multi-year compounding.",
-      "quality_case": "Dominant GPU moat in AI training/inference; high margins, FCF machine.",
-      "recommendation": "watch",
-      "risk_reward": "3:1 (7% risk for 20%+ upside on momentum continuation).",
-      "sector": "Semiconductors",
-      "signal_weights": {
-        "congressional_signal": 0.0,
-        "social_buzz": 0.05
-      },
-      "social_buzz": "low-weight momentum chatter",
-      "source_quality": "Strong: Technical scans, institutional news; avoids hype.",
-      "source_urls": [],
-      "stop_loss_percent": 7.0,
-      "strategy_tags": [
-        "chittick_cash"
-      ],
-      "symbol": "NVDA",
-      "target_allocation_percent": 8.0,
-      "thesis": "AI semiconductor leader with #1 swing rank, blending quality momentum and catalysts for 1-10 day trades.",
-      "valuation_case": "Rich but justified by 100%+ growth; monitor vs semis."
-    },
-    {
-      "adversary_case": "Portfolio concentration breach history; passive beta lag.",
-      "balance_sheet_risk": "Minimal as ETF; underlying quality bias.",
-      "bear_case": "Momentum reversal in risk-off; prior rejections on concentration.",
-      "capital_allocation_case": "N/A - systematic rebalance.",
-      "catalyst": "+17.81% 1M return to $132.29, +1.23% daily gains, uptrend from $78.25 low amid S&P strength.",
+      "adversary_case": "Allocation caps hit prior (15% single-ETF limit); over-reliance on broad momentum ignores sector rotation risks.",
+      "balance_sheet_risk": "Minimal: ETF structure, no debt/dilution; tracks quality S&P constituents.",
+      "bear_case": "Broad market reversal if Fed tightens further or geopolitics spike VIX >20; ETF tracking error in downturns.",
+      "capital_allocation_case": "Passive indexing with momentum tilt; sponsor discipline via rules-based rebalance.",
+      "catalyst": "+17.81% 1-month return to $132.29 (03/27-04/27/26), +1.23% daily gains trading $128-$132, highs $131.50 from 52-week low $78.25 amid S&P uptrends.",
       "chittick_cash_score": 70.0,
-      "chittick_reject_reason": "Prior concentration flags noted but not binding here.",
-      "concentration_case": "Broad exposure complements singles like NVDA.",
+      "chittick_reject_reason": "Prior allocation exceeded 15%; monitor for fresh entry.",
+      "concentration_case": "Broad exposure over single AI/semicon names; complements watchlist leaders.",
       "confidence": 0.78,
       "congressional_signal": "none",
-      "entry_plan": "Enter above $130 on volume if holds intraday high.",
-      "exit_plan": "Take +8-10% profits; stop below $128 support (-6%).",
-      "growth_runway": "S&P earnings growth participation over 30-180 days.",
+      "entry_plan": "Enter on pullback to $128-130 support if volume holds, targeting intraday continuation.",
+      "exit_plan": "Take profits at $135-137 (next resistance); invalidate below $126 (recent low breach).",
+      "growth_runway": "S&P EPS growth 12% projected; AI/momentum persistence into H2 2026.",
       "horizon_days": 5,
-      "margin_of_safety_case": "Diversification and momentum discipline limit downside.",
-      "market_regime": "Risk-on tailwind; vulnerable to broad pullback.",
-      "momentum_case": "Stacked MAs, volume surge, continued outperformance.",
-      "owner_hold_case": "Persistent bull market momentum for tactical hold review.",
-      "quality_case": "Rules-based momentum filter selects high-quality S&P names; diversified vs singles.",
+      "margin_of_safety_case": "ETF diversification buffers downside vs singles; uptrend from $78 lows provides ~5% cushion to recent supports.",
+      "market_regime": "Benefits from cautious bull consolidation; S&P support holds AI/momentum leadership.",
+      "momentum_case": "Strong relative strength with stacked uptrend, volume-aligned gains, lion-share volatility capture for short swings.",
+      "owner_hold_case": "Sustained S&P/AI bull to 7,600 Y/E; review post-earnings season for 30-180 day momentum.",
+      "quality_case": "Tracks high-momentum S&P stocks with risk-adjusted selection; reduces concentration vs singles; prior #2 Feb performer (9.04% monthly).",
       "recommendation": "watch",
-      "risk_reward": "2.5:1 (6% risk for 15% upside to momentum extension).",
+      "risk_reward": "6% stop targets 5-8% upside in 5-7 days; 1:1+ R/R on momentum continuation.",
       "sector": "Broad Equity Momentum ETF",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
       "social_buzz": "none",
-      "source_quality": "Strong: ETF data, price action; memory of prior scans.",
+      "source_quality": "Strong: Consistent memory updates, market data, ETF performance rankings; no hype reliance.",
       "source_urls": [],
       "stop_loss_percent": 6.0,
       "strategy_tags": [
@@ -117,11 +39,92 @@
       ],
       "symbol": "SPMO",
       "target_allocation_percent": 8.0,
-      "thesis": "Broad momentum ETF capturing S&P quality uptrend with low single-name risk for swing trades.",
-      "valuation_case": "Fair vs S&P on momentum-adjusted basis."
+      "thesis": "Broad equity momentum ETF capturing S&P 500 strength with quality/momentum blend, low single-stock risk, consistent uptrend signals 1-10 day swings.",
+      "valuation_case": "Momentum premium justifies premium to S&P; attractive vs single-stock volatility."
+    },
+    {
+      "adversary_case": "Capex intensity, competition from custom chips; over-allocation in AI cluster.",
+      "balance_sheet_risk": "Low debt, high cash; cyclical semis exposure moderated by AI secular trend.",
+      "bear_case": "Cyclical chip demand slowdown, tariff/supply risks, valuation stretch if AI hype cools.",
+      "capital_allocation_case": "R&D/capex discipline fueling dominance; buybacks/share count control.",
+      "catalyst": "Ranked #1 2026 swing stock; resilient on CoreWeave $63.9B deals, Vera Rubin demand, institutional AI flows.",
+      "chittick_cash_score": 75.0,
+      "chittick_reject_reason": "",
+      "concentration_case": "AI pure-play leader warrants slot over broad semis ETF.",
+      "confidence": 0.8,
+      "congressional_signal": "none",
+      "entry_plan": "Enter on dip to 5-day MA support with volume confirmation.",
+      "exit_plan": "Profits at prior highs/10% gain; stop below recent swing low.",
+      "growth_runway": "AI data centers, Rubin platform; multi-year GPU supercycle.",
+      "horizon_days": 7,
+      "margin_of_safety_case": "AI demand durability vs cyclical peers; cash-rich balance supports capex.",
+      "market_regime": "AI/semicon leadership resilient in cautious bull; benefits from Nasdaq ATH tests.",
+      "momentum_case": "Strong trends/high volatility, clean pullbacks; MACD/MA alignment in semis.",
+      "owner_hold_case": "AI infrastructure buildout justifies 30-180 day review on earnings beats.",
+      "quality_case": "Dominant GPU market share, data-center shift creates moat; top AI hardware bellwether.",
+      "recommendation": "watch",
+      "risk_reward": "7% stop eyes 10-15% upside on AI continuation; favorable volatility capture.",
+      "sector": "Semiconductors",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "none",
+      "source_quality": "Strong: Rankings, institutional deals, sector momentum; SEC-aligned no red flags.",
+      "source_urls": [
+        "https://que.com/top-3-ai-stocks-to-buy-now-for-high-returns/",
+        "https://www.insidermonkey.com/blog/nvidia-nvda-top-10-best-long-term-tech-stock-to-buy-1750598/?amp=1"
+      ],
+      "stop_loss_percent": 7.0,
+      "strategy_tags": [
+        "chittick_cash"
+      ],
+      "symbol": "NVDA",
+      "target_allocation_percent": 8.0,
+      "thesis": "AI GPU leader with durable moat, #1 swing stock blending quality demand and volatility for 1-10 day trades.",
+      "valuation_case": "Premium for growth/moat; forward EPS justifies if AI capex sustains."
+    },
+    {
+      "adversary_case": "Revenue concentration risks, capex dilution from AI race.",
+      "balance_sheet_risk": "Minimal debt; capex heavy but FCF supports.",
+      "bear_case": "Antitrust regulatory overhang, ad revenue cyclicality.",
+      "capital_allocation_case": "Owner-oriented buybacks, disciplined AI investments.",
+      "catalyst": "AI compute demand (Perplexity/OpenAI deals); upcoming Q1 earnings guidance.",
+      "chittick_cash_score": 82.0,
+      "chittick_reject_reason": "",
+      "concentration_case": "Seed priority over broad tech; unique AI/search combo.",
+      "confidence": 0.75,
+      "congressional_signal": "none",
+      "entry_plan": "Pre-earnings dip entry above key MA support.",
+      "exit_plan": "Post-earnings beat to targets; stop on guidance miss.",
+      "growth_runway": "AI integrations, cloud expansion; 30-180 day ad/cloud beats.",
+      "horizon_days": 5,
+      "margin_of_safety_case": "Strong balance sheet, cash generation buffers regulatory downside.",
+      "market_regime": "Tech/AI outperformance supports; Nasdaq strength aids.",
+      "momentum_case": "AI tailwinds amid tech resilience; consistent watchlist presence.",
+      "owner_hold_case": "Cloud/AI dominance for multi-quarter compounding.",
+      "quality_case": "Durable search/cloud moat, high margin of safety; seed watchlist priority.",
+      "recommendation": "watch",
+      "risk_reward": "6% stop for 8-12% upside on cloud/AI beats.",
+      "sector": "Technology / Internet Services",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "none",
+      "source_quality": "Strong: Company catalysts, memory consistency; preferred GOOGL over GOOG.",
+      "source_urls": [],
+      "stop_loss_percent": 6.0,
+      "strategy_tags": [
+        "chittick_cash"
+      ],
+      "symbol": "GOOGL",
+      "target_allocation_percent": 8.0,
+      "thesis": "High-quality internet/AI giant with Chittick priority; cloud/AI tailwinds for short swings.",
+      "valuation_case": "Attractive vs growth peers on cloud/AI runway."
     }
   ],
-  "summary": "Markets hold risk-on resilience with S&P near 7,100 highs despite oil at $100-101/bbl and VIX ~18.6; AI/semicon momentum (NVDA #1 swing rank, ASML/LRCX MACD crosses) and SPMO +17.81% 1M lead; GOOGL AI tailwinds/Chittick priority persist amid pending Big Tech earnings; no new SEC filings or hype shifts watch status."
+  "summary": "US equities in cautious risk-on consolidation with S&P 500 near 7,135 amid strong April gains (+10%), resilient AI/semiconductor momentum (NVDA/GOOGL/SPMO), but Fed hawkishness, rising inflation (3.3%), and geopolitics capping upside."
 }
 -->
 
@@ -272,4 +275,12 @@
 | GOOGL | Technology / Internet Services | 0.75 | 82 | 8.0% | 6.0% | watch | AI compute tailwinds from Perplexity/OpenAI deals signaling demand; upcoming Q1 earnings for cloud/AI guidance. |
 | NVDA | Semiconductors | 0.80 | 75 | 8.0% | 7.0% | watch | Ranked #1 swing stock 2026; resilient on CoreWeave $63.9B AI data center deals. |
 | SPMO | Broad Equity Momentum ETF | 0.78 | 70 | 8.0% | 6.0% | watch | +17.81% 1M return to $132.29, +1.23% daily gains, uptrend from $78.25 low amid S&P strength. |
+
+## Latest Candidates - 2026-04-30 10:50:52 Eastern Daylight Time
+
+| Symbol | Sector | Confidence | Chittick | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---:|---:|---:|---:|---|---|
+| SPMO | Broad Equity Momentum ETF | 0.78 | 70 | 8.0% | 6.0% | watch | +17.81% 1-month return to $132.29 (03/27-04/27/26), +1.23% daily gains trading $128-$132, highs $131.50 from 52-week low $78.25 amid S&P uptrends. |
+| NVDA | Semiconductors | 0.80 | 75 | 8.0% | 7.0% | watch | Ranked #1 2026 swing stock; resilient on CoreWeave $63.9B deals, Vera Rubin demand, institutional AI flows. |
+| GOOGL | Technology / Internet Services | 0.75 | 82 | 8.0% | 6.0% | watch | AI compute demand (Perplexity/OpenAI deals); upcoming Q1 earnings guidance. |
 
