@@ -455,4 +455,25 @@
   ]
 }
 ```
+## Market Regime Research - 2026-04-30 17:34:35 Eastern Daylight Time
+
+{
+  "summary": "US equity markets exhibit resilient bullish tone driven by strong tech earnings beats and AI momentum, with S&P 500 and Nasdaq at or near all-time highs (S&P +9.3% MTD April), despite elevated VIX (29), sticky inflation (headline 3.3%, core 2.6%), Fed rate hold at 3.5-3.75%, and geopolitical oil risks near $100/bbl.[1][2][3][4]",
+  "market_regime": "Risk-on with caution: Broad index uptrends (S&P 500 +9.3% MTD, Nasdaq +14.5% MTD, near ATHs), tech-led (IT +18.2% MTD), resilient labor (unemployment 4.3%, payrolls +178k), but mixed signals from hawkish Fed (no cuts imminent, dissents), high VIX (29), oil shock, and equally-weighted S&P lag (+4.4% vs cap-weighted).[1][2][3][5]",
+  "sector_rotation": "Heavy tech dominance (S&P IT +18.2% MTD, megacaps/AI leaders like NVDA/GOOGL/SPMO catalysts), broad momentum (Russell 2000 +8.9%, SPMO +17.8% 1M), energy weak (-4.3% MTD); rotation toward industrials/power (ETN options surge on AI demand) amid data center buildout.[1][memory]",
+  "risk_flags": [
+    "Elevated VIX at 29 (+2.4%), signaling volatility worries.[3]",
+    "Fed on hold (3.5-3.75%), hawkish dissents, cuts delayed to H2 2026 amid sticky inflation (headline 3.3%) and oil ~$100.[2][5]",
+    "Geopolitical: US-Iran tensions, Strait of Hormuz risk pushing energy inflation.[4][5]",
+    "Earnings priced high (2026 growth 18.6% expected), vulnerable to misses outside tech.[4][9]",
+    "Dollar strength (DXY up), commodity pressure.[3]"
+  ],
+  "source_urls": [
+    "https://exante.eu/press/market-updates/3011-is-it-time-for-investors-to-think-about-the-chokepoint-premium/",
+    "https://www.americancentury.com/insights/fed-watch/fed-meeting-april-2026-interest-rates/",
+    "https://www.iconomi.com/blog/monthly-market-wrap-april-2026",
+    "https://www.mitrade.com/au/insights/share/share-trading/us-stock-market-outlook-2026",
+    "https://www.mufgresearch.com/rates/april-2026-fed-rates-call-update/"
+  ]
+}
 

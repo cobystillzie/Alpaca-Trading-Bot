@@ -1309,4 +1309,42 @@ Rejected / Watchouts
 - SPMO: Low-weight social/congress signal needs at least two stronger sources.; HF memory filter flags similarity to prior rejected patterns.
 - NVDA: Low-weight social/congress signal needs at least two stronger sources.; HF memory filter flags similarity to prior rejected patterns.
 - ETN: Candidate references banned v1 instruments or leverage.
+## Research Update - 2026-04-30 17:34:35 Eastern Daylight Time
+
+Research Update
+
+Market tone: US markets maintain risk-on momentum amid tech/AI resilience (S&P near ATHs, Nasdaq strength), with data center REITs like EQIX showing mixed Q1 results (record AI bookings but AFFO miss) and steady watchlist catalysts (GOOGL earnings beat, NVDA AI deals, SPMO uptrend); no major new swings from earnings.
+Candidates: 4
+
+1. GOOGL (Technology / Internet Services / Cloud) | confidence 0.82 | allocation 8.0% | stop 6.0% | Chittick 82/100 | HF source 0/100
+Recommendation: execute-if-guards-pass
+Catalyst: Q1 2026 earnings beat: $109.9B revenue (+22% YoY), Cloud $20B (+63% YoY first time), EPS $5.11 (+82% YoY); Perplexity/OpenAI compute deals confirm demand[memory].
+Chittick Cash: Cloud acceleration de-risks growth; net cash position buffers downturns.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. NVDA (Semiconductors / AI Infrastructure) | confidence 0.80 | allocation 8.0% | stop 7.0% | Chittick 75/100 | HF source 0/100
+Recommendation: watch
+Catalyst: CoreWeave $63.9B deals, Vera Rubin ramp; ranked #1 2026 swing stock; ecosystem validation from AMZN $20B+ chip run-rate[memory].
+Chittick Cash: Cash-rich, minimal debt; demand backlog protects.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Social buzz, low weight: low-weight social attention signal, or none
+Congress signal, low weight: none
+
+3. SPMO (Broad Equity Momentum ETF) | confidence 0.78 | allocation 8.0% | stop 6.0% | Chittick 70/100 | HF source 0/100
+Recommendation: watch
+Catalyst: +17.81% 1M return to $132.29, +1.23% daily gains, uptrend from $78.25 low amid S&P ATHs/tech beats[memory].
+Chittick Cash: Diversified holdings limit drawdowns.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+4. ETN (Industrials / Power Management) | confidence 0.70 | allocation 8.0% | stop 8.0% | Chittick 72/100 | HF source 0/100
+Recommendation: watch
+Catalyst: Unusual bullish options volume (40,955 calls, +648% avg) on AI data center power demand[memory].
+Chittick Cash: Recurring revenue, balance sheet strength.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Social buzz, low weight: none
+Congress signal, low weight: none
 

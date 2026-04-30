@@ -982,4 +982,45 @@ SEC/company quality check:
   "quality_notes": "Candidates show durable demand signals: SPMO uptrend from 52-week low with S&P strength; NVDA #1 swing stock on CoreWeave/Vera Rubin AI deals; GOOGL AI compute validation via partnerships/earnings. High Chittick scores (70-82) and consistent 'watch' across updates indicate momentum, but no filing-backed revenue durability or quality checks. Rejected SPMO trades due to allocation limits suggest portfolio concentration awareness. Absent filings for GOOGL/NVDA/SPMO/INTC/USAR/GT hinder deep balance-sheet/validation analysis.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-04-30 17:34:35 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No unusual discussion or hype detected around liquid US stocks/ETFs like SPMO, GOOGL, NVDA, or ETN. Coverage remains steady on established catalysts (AI data centers, earnings beats, momentum trends) without pump language or unsupported claims. Social buzz is weak and routine.",
+  "social_buzz": "Low; standard mentions of AI deals (CoreWeave, Perplexity/OpenAI) and earnings without spikes or viral hype.",
+  "attention_anomalies": "None flagged. ETN options volume noted in candidates but lacks social amplification or risk signals like pump/dump patterns.",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No recent congressional disclosures report trades in liquid US stocks or ETFs among current watchlist candidates (SPMO, GOOGL, NVDA, ETN). Limited activity noted in other stocks: Rep. Debbie Dingell purchased up to $15,000 PTA on 04/21[2]; Sen. Markwayne Mullin purchased up to $50,000 ELV on 12/29[5]; minor balanced trades in AME (1 buy/1 sell Jan-Feb by Rep. Cisneros)[1]; net sales in PH (1 buy/6 sales past 6 months)[4].",
+  "congressional_signal": "None relevant to liquid US stocks/ETFs in current candidates; low-weight delayed context only.",
+  "tickers": ["PTA", "ELV", "AME", "PH"],
+  "source_urls": [
+    "https://www.quiverquant.com/news/AMETEK+($AME)+Releases+Q1+2026+Earnings",
+    "https://www.quiverquant.com/news/PTA+Stock+(PTA)+Opinions+on+Congressional+Trade+Disclosure",
+    "https://www.quiverquant.com/news/Lobbying+Update:+$1,720,000+of+ELEVANCE+HEALTH+INC.+lobbying+was+just+disclosed",
+    "https://www.quiverquant.com/news/PARKER-HANNIFIN+($PH)+Releases+Q3+2026+Earnings"
+  ]
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "Current watchlist features GOOGL (elevated to execute-if-guards-pass on strong Q1 2026 earnings: $109.9B revenue +22% YoY, Cloud $20B +63% YoY), NVDA, SPMO, and new ETN on AI power demand. No SEC filings for these tickers; available WSC 10-K shows modular space business with long asset lives (20-30+ years, >50% residuals) but risks from economic cycles, debt, competition. Special GOOGL/INTC/USAR/GT review: No new filing risks; memory notes GOOGL AI tailwinds resilient.",
+  "filing_risks": {
+    "GOOGL": "No recent SEC filings in results; monitor for dilution (Class A/C shares), regulatory/litigation (antitrust), revenue concentration (Search/YouTube ~55-60% historical), cap alloc (buybacks). Chittick Cash: Resilient AI compute demand.",
+    "NVDA": "No filings; watch supply chain concentration (TSMC), valuation (high multiples), cap alloc (minimal debt). Resilient amid CoreWeave $63.9B deals.",
+    "SPMO": "ETF; no direct filings. Underlying S&P momentum exposed to tech concentration.",
+    "ETN": "No filings; industrials power mgmt - monitor cyclical revenue, supply chain.",
+    "WSC (search hit)": "10-K : High debt/covenants limit flexibility; economic sensitivity (construction end-markets); competition; credit risk on receivables; acquisition integration; cybersecurity; impairments (goodwill); tax attributes usage; activist shareholders; labor costs/disruptions; raw material inflation; supplier reliance.",
+    "INTC/USAR/GT": "No filings or memory presence; N/A risks."
+  },
+  "quality_notes": "Watchlist shows durable AI demand (GOOGL Cloud +63% YoY, NVDA CoreWeave/Vera Rubin, ETN options vol on AI power). SPMO momentum strong (+17.81% 1M). No revenue quality/dilution flags in memory. WSC  quality: Recurring lease revenue (fleet lives 20-30yrs, >50% residuals); diversified 15 end-markets; VAPS upsell. Lacks durable demand evidence vs AI peers.",
+  "source_urls": []
+}
 
