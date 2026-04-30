@@ -405,4 +405,28 @@
   ]
 }
 ```
+## Market Regime Research - 2026-04-30 15:36:08 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equity markets exhibit cautious resilience amid geopolitical tensions (Iran conflict driving oil spikes), Fed rate hold at 3.5-3.75% with hawkish dissents, and mixed Big Tech earnings. S&P 500 up 4.17% YTD, recently crossing 7,100 (near ATH), but choppy with elevated volatility risks; AI/tech momentum persists while energy surges.",
+  "market_regime": "Risk-on with caution: Broad momentum (SPMO +17.81% 1M), tech/AI leadership (NVDA/GOOGL watches), S&P strength near ATHs, but 'wall of worry' from oil shock/inflation; small-caps recovering (+60% from lows), yet Fed pause and geopolitics cap upside.[1][2][3]",
+  "sector_rotation": "Tech/AI/semiconductors dominant (NVDA #1 swing, GOOGL cloud +63% growth, MSFT/AMZN beats); energy surging (USO highs since 2015 on oil/gas spikes); broader participation with small-caps rising; momentum ETFs like SPMO thriving amid S&P uptrend.[1][3][9]",
+  "risk_flags": [
+    "Fed on hold (3.5-3.75%, 8-4/11-1 split, hawkish dissents; cuts unlikely until Sep/Dec 2026 or 2027; odds slashed to 3-44%).[2][4][5][8]",
+    "Geopolitical/oil shock (Iran war, Strait of Hormuz risks, oil >$100 potential; inflation to 3.5-3.8% PCE).[1][2][3][5]",
+    "Earnings pressure (18.6% growth expected but priced-in; Big Tech test with META weakness, high CAPEX).[1][3]",
+    "Volatility/choppiness (SPY stalling at resistance ~71250, semi concentration at 14% market cap).[3]",
+    "Tariffs/inflation sticky (15% import duties, supply shocks).[1]"
+  ],
+  "source_urls": [
+    "https://www.mitrade.com/au/insights/share/share-trading/us-stock-market-outlook-2026",
+    "https://www.mufgresearch.com/rates/april-2026-fed-rates-call-update/",
+    "https://www.youtube.com/watch?v=3KmYfQj0ZuQ",
+    "https://www.thestreet.com/latest-news/stock-market-today-apr-29-2026-update",
+    "https://www.foxbusiness.com/economy/federal-reserve-interest-rate-decision-april-29-2026",
+    "https://www.morningstar.com/economy/powell-closes-out-term-fed-chair-odds-rate-cut-2026-vanish"
+  ]
+}
+```
 

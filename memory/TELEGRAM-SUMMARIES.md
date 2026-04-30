@@ -899,4 +899,34 @@ Chittick Cash: Broad diversification (500 companies) reduces single-stock risk. 
 HF filter: sentiment=neutral_to_bullish source=1/100 hype=0.12 vetoes=0
 Social buzz, low weight: Low-to-moderate bullish tone on S&P strength; baseline for broad market. Recent +17.81% performance may attract retail; monitor for pump language. No viral anomalies detected.
 Congress signal, low weight: None detected for SPMO.
+## Research Update - 2026-04-30 15:36:08 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities show risk-on momentum with S&P near ATHs, tech/AI strength (AMZN Q1 beat: +17% sales to $181.5B, AWS +28%), SPMO +17.81% 1M; Fed hold, oil/geopolitics cap upside. Watchlist SPMO/NVDA/GOOGL persist on momentum/AI catalysts amid Amazon validation.
+Candidates: 3
+
+1. SPMO (Broad Equity Momentum ETF) | confidence 0.78 | allocation 8.0% | stop 6.0% | Chittick 70/100 | HF source 0/100
+Recommendation: watch
+Catalyst: +1.23% daily gain to $132.29, trading $128-$132 (high $131.50), uptrend from 52-week low $78.25 amid S&P strength near ATHs and tech earnings beats.
+Chittick Cash: ETF diversification provides downside buffer vs singles; trading above key supports with S&P backing.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. GOOGL (Technology / Internet Services) | confidence 0.77 | allocation 8.0% | stop 6.0% | Chittick 82/100 | HF source 0/100
+Recommendation: watch
+Catalyst: AI compute demand validated by AMZN AWS +28% beat, Perplexity/OpenAI deals; upcoming Q1 earnings (early May) for cloud/AI guidance.
+Chittick Cash: Net cash position, recurring ad/cloud revenue; trading at discount to AI peers on forward growth.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Social buzz, low weight: low-weight social attention signal, or none
+Congress signal, low weight: none
+
+3. NVDA (Semiconductors) | confidence 0.78 | allocation 8.0% | stop 7.0% | Chittick 35/100 | HF source 0/100
+Recommendation: watch
+Catalyst: CoreWeave $63.9B deals, Vera Rubin demand; ranked #1 2026 swing stock; AMZN chip run-rate >$20B validates ecosystem.
+Chittick Cash: Strong FCF but stretched multiples limit buffer.
+HF filter: sentiment=not run source=0/100 hype=0.20 vetoes=0
+Social buzz, low weight: low-weight social attention signal, or none
+Congress signal, low weight: none
 

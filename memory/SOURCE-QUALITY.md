@@ -826,4 +826,40 @@ SEC/company quality check:
   ]
 }
 ```
+## Source And Signal Research - 2026-04-30 15:36:08 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No unusual discussion or hype detected around liquid US stocks/ETFs. Routine mentions of NVDA, GOOGL, and SPMO in candidate lists align with standard market updates on AI demand, earnings anticipation, and S&P momentum; no pump language, unsupported claims, or attention anomalies flagged.",
+  "social_buzz": "Weak; limited to expected coverage of top candidates (NVDA AI deals, GOOGL earnings, SPMO momentum) without spikes or coordinated promotion.",
+  "attention_anomalies": "None identified. No evidence of suspected hype, pump schemes, or viral unsupported claims across public web/social platforms.",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+{"summary":"No recent congressional trades reported for current watchlist candidates (SPMO, NVDA, GOOGL). Relevant disclosures include: Rep. Gilbert Ray Cisneros Jr. traded AME (1 purchase up to $15K on 01/09/26, 1 sale up to $15K on 02/10/26); Rep. Debbie Dingell purchased PTA up to $15K on 04/21/26; multiple trades in PH (net sales).","congressional_signal":"low-weight; delayed disclosures on AME (balanced buy/sell Jan-Feb), PTA (recent buy Apr 21), PH (net sales); none overlap with watchlist SPMO/NVDA/GOOGL.","tickers":"AME,PTA,PH","source_urls":["https://www.quiverquant.com/news/AMETEK+($AME)+Releases+Q1+2026+Earnings","https://www.quiverquant.com/news/PTA+Stock+(PTA)+Opinions+on+Congressional+Trade+Disclosure","https://www.quiverquant.com/news/PARKER-HANNIFIN+($PH)+Releases+Q3+2026+Earnings"]}
+
+SEC/company quality check:
+{
+  "summary": "Current watchlist features SPMO (momentum ETF with strong 1M returns amid S&P strength), NVDA (top swing trade on AI data center deals), and GOOGL (AI compute tailwinds from Perplexity/OpenAI, upcoming earnings). No direct SEC filings for these; available filings for HUMA (positive trauma data but mixed HD access), WSC (modular space leader), RRX (industrial powertrain). Special attention to GOOGL: durable AI/cloud demand evident but no specific filing risks identified here.",
+  "filing_risks": {
+    "SPMO": "ETF; no company filing. Broad market exposure risks not detailed in provided SEC data.",
+    "NVDA": "No direct filing. AI/semiconductor concentration risks implied but unassessed via SEC.",
+    "GOOGL": "No direct filing in results. Chittick focus: watch for balance-sheet strength (cash-rich), low dilution risk, but antitrust/litigation concentration in search/AI; revenue quality tied to ad/cloud (durable demand from AI tailwinds). Valuation stretched on high multiples.",
+    "HUMA": "Balance-sheet: clinical-stage biotech with ongoing HD trials (V006 missed patency endpoint vs ePTFE at 24mo); litigation risk low; dilution via funding needs; revenue quality pre-commercial (Symvess approved trauma 2024); capital allocation to HD expansion despite mixed Phase 3.",
+    "WSC": "Large accelerated filer; debt/capital access risks from substantial indebtedness; concentration in modular leasing; trade/tariff risks; no specific litigation/dilution noted.",
+    "RRX": "Substantial indebtedness post-Altra acquisition; integration risks; commodity/tariff exposure; customer concentration; goodwill impairment risk."
+  },
+  "quality_notes": {
+    "SPMO": "Durable demand from S&P momentum; quality ETF tracking high-momentum large-caps (tech-heavy).",
+    "NVDA": "Strong AI infrastructure demand (CoreWeave/Vera Rubin); durable secular tailwinds but cyclical semi exposure.",
+    "GOOGL": "High-quality large-cap; durable cloud/AI revenue growth (Perplexity/OpenAI deals); Chittick high confidence (82).",
+    "HUMA": "Durable trauma demand (Symvess: 92.9% infection-free, superior to synthetics); HD mixed (superior usability vs AVF in subgroups but patency challenges).",
+    "WSC": "Durable leasing model (20+ yr asset lives, 50%+ residuals); quality branch network/turnkey solutions.",
+    "RRX": "Durable aftermarket (~40% sales via distributors); quality powertrain solutions but integration/debt overhang."
+  },
+  "source_urls": []
+}
 
