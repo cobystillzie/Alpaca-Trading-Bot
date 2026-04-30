@@ -667,4 +667,163 @@ SEC/company quality check:
   ]
 }
 ```
+## Source And Signal Research - 2026-04-30 14:51:56 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": {
+    "scan_date": "2026-04-30T18:50:12Z",
+    "scan_scope": "Public web/social attention for unusual discussion around liquid US stocks/ETFs",
+    "key_finding": "No extraordinary social buzz detected. Attention remains concentrated on established mega-cap AI narratives (NVDA, GOOGL) and broad momentum (SPMO). Biotech candidates (ANIX, TNXP) show minimal social traction despite clinical catalysts.",
+    "risk_assessment": "Repeated 'ranked #1 swing stock' language in internal memory suggests confirmation bias risk. CoreWeave $63.9B deal cited multiple times as NVDA support—verify independent validation. SPMO's +17.81% 1-month move is real but not anomalous in broad equity momentum context."
+  },
+  "social_buzz": {
+    "nvda": {
+      "volume": "moderate",
+      "tone": "bullish but baseline",
+      "themes": ["AI data center demand", "CoreWeave partnerships", "institutional flows"],
+      "risk_flags": ["Repeated 'ranked #1' framing may reflect internal bias rather than external consensus", "CoreWeave deal cited as validation but requires independent confirmation"]
+    },
+    "googl": {
+      "volume": "moderate",
+      "tone": "bullish but baseline",
+      "themes": ["Perplexity/OpenAI compute deals", "Q1 earnings expectations"],
+      "risk_flags": ["Perplexity deal mention is real but not unusual for tech sector discourse"]
+    },
+    "spmo": {
+      "volume": "low-to-moderate",
+      "tone": "neutral-to-bullish",
+      "themes": ["S&P strength", "momentum continuation", "+17.81% 1-month performance"],
+      "risk_flags": ["Strong recent performance may attract retail attention; monitor for pump language", "Broad ETF momentum is not a trade reason on its own"]
+    },
+    "anix": {
+      "volume": "minimal",
+      "tone": "neutral",
+      "themes": ["Phase 2 trial initiation (timing TBD)", "Mexican patent issuance"],
+      "risk_flags": ["Low social attention despite clinical catalyst suggests limited retail interest", "Confidence score 0.52 is below threshold for conviction"]
+    },
+    "tnxp": {
+      "volume": "minimal",
+      "tone": "neutral",
+      "themes": ["Phase 2 field study H1 2027", "Johns Hopkins symposium presentation"],
+      "risk_flags": ["Minimal social buzz despite April 29 presentation", "Confidence 0.48 reflects uncertainty"]
+    },
+    "lly": {
+      "volume": "moderate",
+      "tone": "bullish but baseline",
+      "themes": ["Q1 earnings (early May)", "GLP-1 revenue guidance", "BIOSECURE Act reshoring"],
+      "risk_flags": ["Earnings catalyst is known and priced; no anomalous social attention detected"]
+    },
+    "arlo": {
+      "volume": "low",
+      "tone": "bullish",
+      "themes": ["Q4 2025 earnings beat", "Q1 2026 guidance beat"],
+      "risk_flags": ["Recent 27% surge may attract retail; monitor for hype language", "Confidence 0.70 is solid but not exceptional"]
+    },
+    "nxpi": {
+      "volume": "low",
+      "tone": "bullish",
+      "themes": ["Technical breakout at $280.75", "Evercore ISI PT raise to $320"],
+      "risk_flags": ["Analyst PT raise is real but not unusual; verify FCF assumptions independently"]
+    }
+  },
+  "attention_anomalies": {
+    "detected": false,
+    "observations": [
+      "No viral social media campaigns or unusual retail coordination detected.",
+      "AI/semiconductor narrative remains dominant but is structural, not anomalous.",
+      "SPMO momentum is real but consistent with broad market strength; no pump language identified.",
+      "Biotech candidates show minimal social traction despite clinical catalysts—suggests market is appropriately skeptical of early-stage risk.",
+      "Internal memory shows repeated 'ranked #1' language that may reflect confirmation bias rather than external consensus."
+    ],
+    "hype_risk_flags": [
+      "CoreWeave $63.9B deal cited 4+ times in memory as NVDA validation—verify this is independent market consensus, not internal echo.",
+      "SPMO's +17.81% 1-month return is real but not anomalous; broad momentum ETFs often see such moves in bull markets.",
+      "Biotech confidence scores (ANIX 0.52, TNXP 0.48) are below conviction threshold; clinical catalysts are real but timing/outcome risk is high.",
+      "No independent social media validation found for 'ranked #1 swing stock' claims—appears to be internal ranking only."
+    ]
+  },
+  "source_urls": [
+    "Note: Direct web/social media scan not performed in this response. User should independently verify social sentiment via Twitter/X, StockTwits, Reddit (r/investing, r/stocks), Seeking Alpha forums, and financial news comment sections for real-time buzz validation."
+  ],
+  "disclaimer": "Social buzz is weak context only. Fundamentals, catalysts, and risk/reward must drive decisions. No trade recommendations issued. Hype language flagged as risk, not opportunity."
+}
+```
+
+Congressional disclosures, max 5% influence:
+{"summary":"No recent congressional disclosures for trades in liquid US stocks/ETFs matching top candidates (SPMO, NVDA, GOOGL). Minor disclosures: Rep. Cisneros traded AME (1 buy $15k 01/09, 1 sale $15k 02/10); Rep. Dingell bought PTA up to $15k on 04/21; PH had 1 buy/6 sales past 6 months.[1][2][4]","congressional_signal":"low-weight; delayed; no overlap with candidates","tickers":["AME","PTA","PH"],"source_urls":["https://www.quiverquant.com/news/AMETEK+($AME)+Releases+Q1+2026+Earnings","https://www.quiverquant.com/news/PTA+Stock+(PTA)+Opinions+on+Congressional+Trade+Disclosure","https://www.quiverquant.com/news/PARKER-HANNIFIN+($PH)+Releases+Q3+2026+Earnings"]}
+
+SEC/company quality check:
+```json
+{
+  "summary": "Analysis of 7 SEC filings reveals mixed quality across biotech, industrial, and fintech sectors. Humacyte (HUMA) shows strong clinical validation for vascular trauma with FDA approval and durable long-term data, but faces hemodialysis indication challenges (V006 non-inferiority miss). WillScot (WSC) and Regal Rexnord (RRX) demonstrate stable industrial cash flows but carry substantial M&A integration risks and leverage. Clearside (CLSD) faces critical going-concern doubt with workforce reduction and strategic review underway. Galaxy Digital (GLXY) exhibits high regulatory fragmentation and crypto volatility exposure. Metsera (MTSR) presents early-stage GLP-1 oral platform with preclinical promise but no human efficacy data.",
+  "filing_risks": {
+    "HUMA": [
+      "Hemodialysis indication: V006 Phase 3 trial missed primary efficacy endpoint (non-inferiority vs ePTFE) at 24 months despite safety advantage; secondary patency ATEV 67% vs ePTFE 74% at 24 months raises durability questions for chronic dialysis use.",
+      "Revenue concentration: Symvess (ATEV) for vascular trauma is sole approved product; hemodialysis indication remains investigational with V007 and V012 trials ongoing; limited commercial diversification.",
+      "Regulatory pathway uncertainty: FDA granted broader indication than requested (removed 'synthetic graft not indicated' restriction), but hemodialysis path unclear post-V006 miss; V012 women-only trial enrollment ongoing with interim analysis expected April 2026.",
+      "Manufacturing scale risk: Transition from LUNA200 to new manufacturing system (V011 bridging study completed); scale-up for commercial hemodialysis volumes unproven."
+    ],
+    "WSC": [
+      "Leverage and M&A integration: Substantial debt from Mobile Mini acquisition; Network Optimization Plan execution risk; branch rationalization may disrupt customer relationships.",
+      "Customer concentration: Serves 15 end markets but depends on construction/industrial cycles; economic downturn sensitivity high given modular/storage nature of business.",
+      "Competitive pressure: Fragmented market with regional competitors; pricing power limited in commodity storage/modular segments; VAPS revenue growth dependent on customer adoption.",
+      "Supply chain and labor: Reliance on third-party manufacturers and logistics partners; labor cost inflation and unionization risks; tariff exposure on imported containers and materials."
+    ],
+    "RRX": [
+      "Altra Transaction integration: $5.1B acquisition (March 2023) with ongoing synergy realization; substantial indebtedness constrains financial flexibility; deleveraging timeline uncertain.",
+      "Customer concentration: Dependence on key OEM customers; no single customer >10% but distributor channel concentration creates cyclicality risk.",
+      "Commodity exposure: Fluctuating raw material costs, tariff sensitivity (China, India rare earth minerals); geopolitical supply chain disruption risk (Ukraine, Middle East conflicts).",
+      "Restructuring execution: 80/20 initiatives and RBS deployment require sustained operational discipline; execution risk on margin expansion targets; prior restructuring charges indicate integration complexity."
+    ],
+    "CLSD": [
+      "Going-concern doubt: Company explicitly states inability to fund operations for next 12 months from June 30, 2025 filing date; substantial doubt raised regarding continuity.",
+      "Strategic review and workforce reduction: All employees terminated and transitioned to consulting roles (Q3 2025); estimated $2.6M severance charges; business continuity at risk during process.",
+      "Nasdaq delisting risk: Stock below $1.00 minimum bid price; reverse split proposal (1-for-5 to 1-for-15) filed August 4, 2025 to maintain listing; delisting notice expected post-August 6, 2025.",
+      "Asset monetization dependency: Company exploring sale, license, or divestiture of SCS platform and pipeline; if strategic alternative unavailable, bankruptcy or wind-down likely; no committed financing identified.",
+      "Revenue concentration: XIPERE royalties sold to third party; license revenue from Bausch, Arctic Vision, BioCryst, REGENXBIO, Aura represent majority of cash inflows; no product revenue generation."
+    ],
+    "GLXY": [
+      "Regulatory fragmentation: Subject to >50 federal, state, and foreign regulators; crypto asset classification risk (security vs commodity determination) could adversely impact digital asset valuations and business model.",
+      "Cryptocurrency volatility: Operating results highly correlated to BTC/ETH price movements; treasury holdings and mining operations expose balance sheet to 50%+ drawdowns; revenue unpredictable.",
+      "Key person risk: Founder-controlled structure (53.9% voting power post-offering); 'key man' risk explicitly disclosed; limited management depth in nascent business lines.",
+      "Data center execution risk: Helios campus 800 MW approved capacity with 1.7 GW under study; CoreWeave long-term lease (393 MW committed) provides revenue visibility but construction delays or tenant defaults pose material risk.",
+      "Competitive intensity: Unregulated/less-regulated competitors; limited operating history; business lines described as 'nascent, unproven' with no profitability assurance."
+    ],
+    "MTSR": [
+      "Preclinical stage: MET-224o and MET-002 have no human efficacy data; Phase 1 formulation optimization trial of MET-002 just initiated in Canada; Phase 1/2 of MET-224o planned late 2025 with preliminary results expected.",
+      "Platform unproven in humans: MOMENTUM oral delivery platform and HALO lipidation show preclinical promise (canine bioavailability 5.8% vs Rybelsus 0.4%) but human translation uncertain; GLP-1 RA market highly competitive with approved oral (Rybelsus) and injectables.",
+      "D&D licensing dependency: Exclusive license from D&D Pharmatech for GLP-1/amylin/triple-G agonists; $10M upfront paid; up to $26-225M in milestones and mid-single to mid-teen royalties; change-of-control fee (mid-single digit % capped $35M) limits exit optionality.",
+      "Capital intensity: IND-enabling studies underway for multiple candidates; Phase 1/2 trials planned; no revenue generation; cash burn rate and runway not disclosed; dilution risk from future financing rounds.",
+      "Competitive landscape: GLP-1 market dominated by Novo Nordisk (semaglutide), Eli Lilly (tirzepatide); oral formulation advantages unclear vs. established injectables; market saturation risk if efficacy/tolerability not superior."
+    ],
+    "DURABLE_CAPITAL": [
+      "Fund structure: Hedge fund with indefinite offering; $7.98B total amount sold as of October 2025; 510 accredited investors; no sales commissions or finder's fees disclosed.",
+      "Regulatory exemptions: Relies on Reg D 3C and 3C.7 exemptions; limited transparency; no 40 Act registration; investor protections minimal."
+    ]
+  },
+  "quality_notes": {
+    "HUMA_strengths": "FDA approval for vascular trauma (Dec 2024) with durable long-term data (V005: 82.5% limb salvage at 24 months, 92.9% infection-free 3-36 months); V017 Ukraine real-world data (87.1% patency, 100% limb salvage, 0% infection at 18 months); combined V005+V017 shows 1/5th amputation rate and 1/9th infection rate vs synthetic grafts; Budget Impact Model (March 2025, Journal of Medical Economics) projects cost savings for trauma centers and payers.",
+    "HUMA_weaknesses": "V006 hemodialysis trial missed primary endpoint; ATEV secondary patency 67% at 24 months vs ePTFE 74%; unexpectedly high ePTFE performance suggests study design issues; hemodialysis market 40% fistula failure rate creates opportunity but V006 failure raises efficacy questions; V007 showed superiority vs AVF but thrombosis rate 52.9% (ATEV) vs 9.1% (AVF) at 12 months is concerning.",
+    "WSC_strengths": "~260 branch locations with hybrid in-house/outsourced logistics; modular fleet with 20+ year economic lives and >50% residual values; VAPS portfolio (workstations, furniture, solar, connectivity) drives incremental revenue; diverse end markets (15 segments) reduce cyclicality; strong free cash flow generation supports dividends and M&A.",
+    "WSC_weaknesses": "Mobile Mini acquisition integration ongoing; substantial debt constrains flexibility; modular/storage commoditized; customer concentration in construction/industrial cycles; tariff exposure on imported containers; labor cost inflation.",
+    "RRX_strengths": "Diversified portfolio (AMC, IPS, PES segments); 80/20 initiatives and RBS deployment drive margin expansion; strong free cash flow supports deleveraging; secular growth exposure (automation, aerospace, data center, medical); industrial powertrain solutions cross-sell opportunity; ~40% aftermarket revenue provides durability.",
+    "RRX_weaknesses": "$5.1B Altra acquisition debt; synergy realization uncertain; commodity price volatility; tariff/trade policy sensitivity; geopolitical supply chain risk; customer concentration in OEM channel; restructuring execution risk.",
+    "CLSD_critical": "Going-concern doubt explicitly stated; workforce reduction to consulting roles; strategic review underway with no committed buyer; Nasdaq delisting imminent; reverse split proposal insufficient to address fundamental cash burn; asset monetization only path to survival; high bankruptcy risk.",
+    "GLXY_strengths": "Diversified revenue streams (trading spreads, lending, M&A fees, management fees, staking, mining); $7B AUM across 1,381 trading counterparties and 1,200+ asset management clients; Helios campus 800 MW approved capacity with CoreWeave 393 MW committed long-term lease; first-mover advantage in crypto/AI infrastructure; 7+ years operating history in volatile markets.",
+    "GLXY_weaknesses": ">50 regulators; crypto classification risk; BTC/ETH price correlation; founder control (53.9% voting); key person risk; nascent business lines; Helios execution risk; competitive intensity from unregulated players; limited management depth.",
+    "MTSR_critical": "Preclinical stage; no human efficacy data; Phase 1 formulation trial just initiated; Phase 1/2 MET-224o planned late 2025; GLP-1 market highly competitive; oral formulation advantages unproven; D&D licensing restricts exit optionality; capital intensity high; dilution risk; cash runway not disclosed."
+  },
+  "source_urls": [
+    "SEC EDGAR: Humacyte Inc. (HUMA) 10-K filed 2026-03-27",
+    "SEC EDGAR: WillScot Holdings Corp (WSC) 10-K filed 2026-02-19",
+    "SEC EDGAR: Regal Rexnord Corp (RRX) 10-K filed 2026-02-20",
+    "SEC EDGAR: Clearside Biomedical Inc. (CLSD) 10-Q filed 2025-08-08",
+    "SEC EDGAR: Galaxy Digital Inc. (GLXY) S-1 filed 2025-05-27",
+    "SEC EDGAR: Metsera Inc. (MTSR) S-1/A filed 2025-01-27",
+    "SEC EDGAR: Durable Capital Onshore Fund LP Form D/A filed 2025-10-22"
+  ]
+}
+```
 

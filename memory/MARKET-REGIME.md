@@ -378,4 +378,31 @@
   ]
 }
 ```
+## Market Regime Research - 2026-04-30 14:51:56 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equity markets exhibit resilient bullish tone driven by strong Big Tech earnings and S&P 500's ~10% April surge, but tempered by Fed's hawkish pause at 3.5-3.75%, elevated VIX at 29, rising inflation from Iran conflict/oil, and choppy SPY near highs amid semiconductor concentration risks[1][2][3][4].",
+  "market_regime": "Risk-on with caution: Tech-led rally (Nasdaq +0.58%, S&P +10% Apr) amid strong earnings (GOOGL 63% cloud growth, AMZN beat), but elevated volatility (VIX 29 +2.44%), Fed hold/no-cut bias (44% cut odds), and inflation headwinds signal defensive stance for paper-trading[1][3][4][11].",
+  "sector_rotation": "Technology/Semiconductors dominant (34% S&P weight, NVDA/GOOGL leaders, broadening to industrial chips); Energy/Basic Materials minor gains (3.6%/2% S&P share from Iran/oil); Software lagging (CRM/IBM/SNOW AI concerns); Health care valuations attractive with improving earnings[4][9].",
+  "risk_flags": [
+    "Elevated VIX (29.02) signals volatility caution[1]",
+    "Fed hawkish: Rates steady 3.5-3.75%, inflation 'elevated' (PCE ~3.5-3.8%), cut odds slashed to 44-3%[2][3][11]",
+    "Geopolitical: Iran conflict driving oil/inflation, potential growth drag[2][5]",
+    "Semiconductor concentration at 14% market (2x Dot-Com peak), bubble risk[3]",
+    "Choppy SPY near ATHs (0.69% away), resistance at 71250, targets 700-703[3]",
+    "Upcoming GDP/PCE data, more Mag7 earnings as catalysts[3][4]"
+  ],
+  "source_urls": [
+    "https://www.iconomi.com/blog/monthly-market-wrap-april-2026",
+    "https://www.americancentury.com/insights/fed-watch/fed-meeting-april-2026-interest-rates/",
+    "https://www.youtube.com/watch?v=3KmYfQj0ZuQ",
+    "https://fintech.tv/sp-500-surges-10-in-april-big-tech-earnings-fed-decision-in-focus/",
+    "https://naahq.org/news/interest-rates-april-2026",
+    "https://www.foxbusiness.com/economy/federal-reserve-interest-rate-decision-april-29-2026",
+    "https://www.fidelity.com/learning-center/trading-investing/finding-opportunities-market-volatility",
+    "https://www.morningstar.com/economy/powell-closes-out-term-fed-chair-odds-rate-cut-2026-vanish"
+  ]
+}
+```
 
