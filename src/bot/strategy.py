@@ -43,6 +43,21 @@ def _signal_weight(candidate: TradeCandidate, key: str) -> float:
     return float(candidate.signal_weights.get(key, 0) or 0)
 
 
+def _has_signal_text(text: str) -> bool:
+    clean = " ".join(str(text or "").lower().split())
+    if not clean:
+        return False
+    return clean not in {
+        "none",
+        "n/a",
+        "na",
+        "no",
+        "no signal",
+        "no decisive signal",
+        "no decisive disclosure signal",
+    }
+
+
 def research_prompt(
     memory_bundle: str,
     *,
@@ -210,10 +225,11 @@ def score_candidate(candidate: TradeCandidate) -> ScoreResult:
         rejects.append("Social buzz weight exceeds the 10% maximum.")
     if _signal_weight(candidate, "congressional_signal") > 0.05:
         rejects.append("Congressional signal weight exceeds the 5% maximum.")
-    has_low_weight_signal = bool(
-        candidate.social_buzz
-        or candidate.congressional_signal
-        or candidate.signal_weights
+    has_low_weight_signal = (
+        _signal_weight(candidate, "social_buzz") > 0
+        or _signal_weight(candidate, "congressional_signal") > 0
+        or _has_signal_text(candidate.social_buzz)
+        or _has_signal_text(candidate.congressional_signal)
     )
     if has_low_weight_signal and len(candidate.source_urls) < 2:
         rejects.append("Low-weight social/congress signal needs at least two stronger sources.")
