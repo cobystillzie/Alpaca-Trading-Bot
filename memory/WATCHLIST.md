@@ -4,34 +4,34 @@
 {
   "candidates": [
     {
-      "adversary_case": "Allocation limits already rejected twice; pure momentum vulnerable to broad selloff without quality moat like GOOGL.",
-      "balance_sheet_risk": "ETF structure minimizes debt/dilution; underlying S&P firms generally strong but cyclical exposure.",
-      "bear_case": "Prior rejections for exceeding 15% allocation; momentum reversal risk in deepening risk-off; no underlying company filings for balance sheet verification.",
-      "capital_allocation_case": "Semi-annual rebalance enforces discipline; Invesco sponsor track record.",
-      "catalyst": "Recent +17.81% 1-month return (03/27-04/27/26 to $132.29), +1.23% daily gains trading $128-$132 with highs at $131.50, continuing uptrend from 52-week low $78.25 amid S&P strength.",
+      "adversary_case": "Allocation limits hit previously; over-reliance on momentum in cautious regime.",
+      "balance_sheet_risk": "Minimal; ETF structure avoids debt/dilution.",
+      "bear_case": "Broad market reversal on Fed tightening, oil shock escalation, or risk-off rotation out of momentum.",
+      "capital_allocation_case": "Passive indexing with momentum rebalance discipline.",
+      "catalyst": "Recent +17.81% 1-month return to $132.29, +1.23% daily gains trading $128-$132 with highs at $131.50, continuing uptrend from 52-week low $78.25 amid S&P strength.",
       "chittick_cash_score": 70.0,
-      "chittick_reject_reason": "Prior allocation exceeds 15%; re-evaluate if trimmed.",
-      "concentration_case": "Broad ETF alternative to single stocks like NVDA; complements GOOGL watch.",
+      "chittick_reject_reason": "Prior allocation rejections",
+      "concentration_case": "Diversified alternative to single semis; captures broad quality momentum.",
       "confidence": 0.78,
       "congressional_signal": "none",
-      "entry_plan": "Enter on pullback to $128 support with volume confirmation above 5-day MA; paper test 8% allocation if under 15% total.",
-      "exit_plan": "Take profits at +7-10% or $140; invalidate below $125 (recent low) or 6% stop.",
-      "growth_runway": "Adapts to S&P momentum shifts; 30-180 day potential from ongoing market rotation to quality growth.",
-      "horizon_days": 5,
-      "margin_of_safety_case": "Diversified across top S&P momentum names reduces single-stock risk; low 0.65% yield but stable ETF structure.",
-      "market_regime": "Risk-off favors broad momentum ETFs like SPMO over single-stock semis amid VIX elevation and S&P support test.",
-      "momentum_case": "Outperforms S&P 500 benchmarks like SPY/QQQ over 10 years (~18% avg annual); recent close-to-close gains and intraday highs signal continuation.",
-      "owner_hold_case": "Monitor for sustained outperformance over S&P in 30-180 days via momentum rotation.",
-      "quality_case": "Tracks top 100 S&P 500 momentum stocks rebalanced semi-annually for adaptability; 0.65-0.77% dividend yield adds minor income stability; net assets ~$13-16B indicate liquidity.",
+      "entry_plan": "Enter on pullback to $128-129 support or breakout above $132; paper-trade at market open if volume confirms.",
+      "exit_plan": "Take profits at $135-137 (next resistance); invalidate below $126 (recent low).",
+      "growth_runway": "S&P earnings growth 18.6%; persistent tech leadership over 30-180 days.",
+      "horizon_days": 7,
+      "margin_of_safety_case": "ETF diversification buffers downside; momentum factor historically resilient in uptrends.",
+      "market_regime": "Benefits from cautious risk-on S&P strength; vulnerable to volatility spikes.",
+      "momentum_case": "Strong uptrend, high daily volume/movement for volatility capture; aligned with broad market resilience.",
+      "owner_hold_case": "Sustained S&P uptrend and factor outperformance over 30-180 days.",
+      "quality_case": "S&P 500 momentum factor selection ensures quality businesses with risk-adjusted outperformance; low single-name concentration.",
       "recommendation": "watch",
-      "risk_reward": "1:1.5+ with defined 6% stop targeting 9% upside on momentum continuation.",
+      "risk_reward": "1:2+ on momentum continuation with tight 6% stop.",
       "sector": "Broad Equity Momentum ETF",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
       "social_buzz": "none",
-      "source_quality": "Strong market data and performance history from recent scans; ETF structure verified via dividend/asset reports; lacks direct SEC filings but consistent technicals.",
+      "source_quality": "Reputable ETF performance data, technical scans; consistent across multiple updates, no hype.",
       "source_urls": [],
       "stop_loss_percent": 6.0,
       "strategy_tags": [
@@ -39,77 +39,38 @@
       ],
       "symbol": "SPMO",
       "target_allocation_percent": 8.0,
-      "thesis": "Invesco S&P 500 Momentum ETF blends quality momentum stocks with strong recent performance in risk-off environment; aligns with strategy's momentum blend and Chittick Cash lens via adaptive rebalancing.",
-      "valuation_case": "Attractive relative to QQQ/SPY on momentum-adjusted returns; no P/E given but historical outperformance justifies."
+      "thesis": "Broad equity momentum ETF blending quality large-caps with strong relative strength, ideal for 1-10 day swings on S&P uptrends.",
+      "valuation_case": "Attractive vs single-stock premiums; tracks quality momentum at reasonable multiples."
     },
     {
-      "adversary_case": "AI capex overhang without near-term monetization proof.",
-      "balance_sheet_risk": "Minimal debt; low cyclicality.",
-      "bear_case": "Regulatory scrutiny; ad cyclicality.",
-      "capital_allocation_case": "Buybacks, AI capex discipline.",
-      "catalyst": "AI tailwinds from compute demand (Perplexity/OpenAI deals); upcoming earnings.",
-      "chittick_cash_score": 82.0,
-      "chittick_reject_reason": "",
-      "concentration_case": "Top Chittick seed; quality over momentum ETF.",
-      "confidence": 0.75,
-      "congressional_signal": "none",
-      "entry_plan": "Enter above key support on volume; paper test.",
-      "exit_plan": "Profits +7%; stop below 5-day MA.",
-      "growth_runway": "Gemini AI, cloud expansion; 30-180 day ad recovery.",
-      "horizon_days": 5,
-      "margin_of_safety_case": "Net cash position; diversified revenue.",
-      "market_regime": "Risk-off favors quality megacaps over cyclicals.",
-      "momentum_case": "Resilient trends versus semis weakness.",
-      "owner_hold_case": "Strong 30-180 day thesis on AI monetization.",
-      "quality_case": "Durable moat in search/ads; strong FCF, balance sheet; net cash position.",
-      "recommendation": "watch",
-      "risk_reward": "1:1.5 on quality momentum.",
-      "sector": "Technology / Internet Services",
-      "signal_weights": {
-        "congressional_signal": 0.0,
-        "social_buzz": 0.0
-      },
-      "social_buzz": "none",
-      "source_quality": "Strong: Official Chittick priority; AI infra context from memory.",
-      "source_urls": [],
-      "stop_loss_percent": 6.0,
-      "strategy_tags": [
-        "chittick_cash"
-      ],
-      "symbol": "GOOGL",
-      "target_allocation_percent": 8.0,
-      "thesis": "Alphabet's durable search/AI/cloud quality business with Chittick Cash seed priority; resilient swing in risk-off via momentum.",
-      "valuation_case": "Attractive vs growth peers on FCF yield."
-    },
-    {
-      "adversary_case": "Cyclical semis vulnerable in VIX spike.",
-      "balance_sheet_risk": "Manageable debt; GPU concentration.",
-      "bear_case": "Valuation stretch; AI hype fade or supply chain risks.",
-      "capital_allocation_case": "Capex for production scale.",
-      "catalyst": "Ranked #1 swing trading stock for 2026; resilient amid CoreWeave $63.9B deals.",
+      "adversary_case": "High valuation, prior watch without execution trigger.",
+      "balance_sheet_risk": "Low debt; cyclical semis exposure.",
+      "bear_case": "Semiconductor cyclicality, valuation compression, or AI hype fade.",
+      "capital_allocation_case": "Strong FCF reinvestment in AI capex.",
+      "catalyst": "Ranked #1 best swing trading stock for 2026 with strong trends, high volatility, clean pullbacks; resilient amid AI data center news (CoreWeave $63.9B deals).",
       "chittick_cash_score": 75.0,
       "chittick_reject_reason": "",
-      "concentration_case": "High-conviction AI leader over broad ETF.",
+      "concentration_case": "Top AI pick over broad semis ETF.",
       "confidence": 0.8,
       "congressional_signal": "none",
-      "entry_plan": "Enter on MACD confirmation above recent highs; paper 8%.",
-      "exit_plan": "Profits +8%; stop 7% below entry.",
-      "growth_runway": "AI data center expansion; 30-180 day chip demand.",
+      "entry_plan": "Enter on pullback to 10-day MA or volume spike confirmation.",
+      "exit_plan": "Profits at prior highs; stop below recent swing low.",
+      "growth_runway": "Sustained AI dominance and data center expansion over 30-180 days.",
       "horizon_days": 7,
       "margin_of_safety_case": "AI demand buffer but high valuation limits.",
-      "market_regime": "Risk-off pressures semis but AI resilience supports.",
-      "momentum_case": "Strong trends, high volatility, clean pullbacks.",
+      "market_regime": "AI resilience supports in cautious risk-on; semis pressured by volatility.",
+      "momentum_case": "Strong trends, high volatility, clean pullbacks; top-ranked for swings.",
       "owner_hold_case": "Sustained AI dominance over 30-180 days.",
-      "quality_case": "Dominant GPU moat for AI; institutional flows.",
+      "quality_case": "Dominant GPU moat for AI; institutional flows and data center demand.",
       "recommendation": "watch",
-      "risk_reward": "1:1.4 on volatility capture.",
+      "risk_reward": "1:1.5+ on volatility capture with defined risk.",
       "sector": "Semiconductors",
       "signal_weights": {
         "congressional_signal": 0.0,
-        "social_buzz": 0.0
+        "social_buzz": 0.05
       },
-      "social_buzz": "none",
-      "source_quality": "Reputable rankings and technicals; no new SEC but consistent scans.",
+      "social_buzz": "Routine AI mentions, no spikes",
+      "source_quality": "Reputable rankings, technicals, AI news; consistent scans.",
       "source_urls": [],
       "stop_loss_percent": 7.0,
       "strategy_tags": [
@@ -117,11 +78,50 @@
       ],
       "symbol": "NVDA",
       "target_allocation_percent": 8.0,
-      "thesis": "Leading AI/semiconductor with strong swing trade momentum; quality catalyst in data center demand.",
-      "valuation_case": "Premium but justified by growth; monitor FCF."
+      "thesis": "Leading AI/semiconductor with #1 swing trade ranking, blending quality moat, catalysts, and volatility for short swings.",
+      "valuation_case": "Premium justified by growth; monitor FCF."
+    },
+    {
+      "adversary_case": "Regulatory overhang, high valuation.",
+      "balance_sheet_risk": "Minimal debt, low cyclicality.",
+      "bear_case": "Antitrust risks, ad revenue slowdown.",
+      "capital_allocation_case": "Buybacks, disciplined AI capex.",
+      "catalyst": "AI tailwinds from compute demand (Perplexity/OpenAI deals); upcoming earnings.",
+      "chittick_cash_score": 82.0,
+      "chittick_reject_reason": "",
+      "concentration_case": "Chittick seed with superior quality to broad tech.",
+      "confidence": 0.75,
+      "congressional_signal": "none",
+      "entry_plan": "Dip buy near support pre-earnings if momentum holds.",
+      "exit_plan": "Post-earnings gap up take-profit; stop below key MA.",
+      "growth_runway": "AI monetization, cloud expansion over 30-180 days.",
+      "horizon_days": 5,
+      "margin_of_safety_case": "Fortress balance sheet, recurring revenue.",
+      "market_regime": "Tech/AI strength offsets broad caution.",
+      "momentum_case": "Stable trends amid tech resilience.",
+      "owner_hold_case": "AI leadership and ad/cloud growth over 30-180 days.",
+      "quality_case": "Diversified revenue, strong balance sheet, AI integration across services.",
+      "recommendation": "watch",
+      "risk_reward": "1:2 on catalyst resolution.",
+      "sector": "Technology / Internet Services",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.05
+      },
+      "social_buzz": "Routine earnings/AI mentions",
+      "source_quality": "Company catalysts, reputable scans; Chittick seed.",
+      "source_urls": [],
+      "stop_loss_percent": 6.0,
+      "strategy_tags": [
+        "chittick_cash"
+      ],
+      "symbol": "GOOGL",
+      "target_allocation_percent": 8.0,
+      "thesis": "High-quality internet/AI leader with Chittick priority, clear catalysts for swings.",
+      "valuation_case": "Attractive vs growth peers."
     }
   ],
-  "summary": "Markets in risk-off consolidation with VIX at 18.74, Fed rates steady at 3.50-3.75%, S&P testing 7,121 support amid pre-earnings caution for Big Tech; SPMO shows resilient momentum uptrend (+17.81% 1-month to $132.29) despite prior rejections for allocation limits, NVDA/GOOGL hold watch status on AI catalysts."
+  "summary": "Markets maintain cautious risk-on tone with AI/tech/semiconductor resilience (NVDA, GOOGL, SPMO) offsetting oil/geopolitical pressures; latest scans highlight SPMO momentum (+17.81% 1M), NVDA #1 swing rank, GOOGL AI tailwinds, no new HUMA catalysts shift watch status."
 }
 -->
 
@@ -256,4 +256,12 @@
 | SPMO | Broad Equity Momentum ETF | 0.78 | 70 | 8.0% | 6.0% | watch | Recent +17.81% 1-month return (03/27-04/27/26 to $132.29), +1.23% daily gains trading $128-$132 with highs at $131.50, continuing uptrend from 52-week low $78.2 |
 | GOOGL | Technology / Internet Services | 0.75 | 82 | 8.0% | 6.0% | watch | AI tailwinds from compute demand (Perplexity/OpenAI deals); upcoming earnings. |
 | NVDA | Semiconductors | 0.80 | 75 | 8.0% | 7.0% | watch | Ranked #1 swing trading stock for 2026; resilient amid CoreWeave $63.9B deals. |
+
+## Latest Candidates - 2026-04-30 07:50:40 Eastern Daylight Time
+
+| Symbol | Sector | Confidence | Chittick | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---:|---:|---:|---:|---|---|
+| SPMO | Broad Equity Momentum ETF | 0.78 | 70 | 8.0% | 6.0% | watch | Recent +17.81% 1-month return to $132.29, +1.23% daily gains trading $128-$132 with highs at $131.50, continuing uptrend from 52-week low $78.25 amid S&P streng |
+| NVDA | Semiconductors | 0.80 | 75 | 8.0% | 7.0% | watch | Ranked #1 best swing trading stock for 2026 with strong trends, high volatility, clean pullbacks; resilient amid AI data center news (CoreWeave $63.9B deals). |
+| GOOGL | Technology / Internet Services | 0.75 | 82 | 8.0% | 6.0% | watch | AI tailwinds from compute demand (Perplexity/OpenAI deals); upcoming earnings. |
 

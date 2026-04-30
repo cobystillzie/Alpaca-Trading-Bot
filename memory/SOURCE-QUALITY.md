@@ -267,4 +267,46 @@ SEC/company quality check:
   ],
   "source_urls": []
 }
+## Source And Signal Research - 2026-04-30 07:50:40 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No unusual discussion or hype detected around liquid US stocks/ETFs. Coverage remains routine on candidates like NVDA, SPMO, ASML, LRCX, MSFT, GOOGL with standard AI/semiconductor/momentum narratives. No pump language or unsupported claims flagged.",
+  "social_buzz": "Weak. Routine mentions of NVDA (AI deals), SPMO (momentum ETF), GOOGL (earnings/AI) on X/StockTwits/Reddit. No spikes or coordinated pumps.",
+  "attention_anomalies": "None. No sudden volume surges, unusual keyword trends, or hype cycles in public web/social scans for liquid names.",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No new recently reported congressional trades in liquid US stocks or ETFs identified in the latest scan. Disclosures are delayed and low-weight context.",
+  "congressional_signal": "SMCI: Senator John Boozman traded 2 times (1 purchase up to $15K on 12/11/2025, 1 sale up to $15K on 12/31/2025); Rep. Gilbert Ray Cisneros Jr. sold up to $15K on 11/12/2025 (past 6 months, 1 buy/2 sells total). VRT: Rep. Lisa C. McClain traded 3 times (1 purchase up to $15K on 10/30/2025, 2 sales up to $30K on 10/31 & 10/30/2025) (past 6 months, 3 buys/3 sells total). No trades today or in latest candidates[1][6].",
+  "tickers": ["SMCI", "VRT"],
+  "source_urls": ["https://www.quiverquant.com/news/Super+Micro+Computer+Stock+(SMCI)+Opinions+on+AI+Server+Portfolio+Expansion", "https://www.quiverquant.com/news/Fund+Update:+New+$10.7M+$VRT+stock+position+opened+by+OREGON+PUBLIC+EMPLOYEES+RETIREMENT+FUND"]
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "Current watchlist features semiconductor/AI leaders (NVDA, ASML, LRCX, GOOGL) and ETF SPMO with technical momentum; biotech names (ANIX, TNXP, LLY) and others (ARLO, NXPI) show catalysts but limited SEC filing evidence. No direct filings for watchlist tickers; available filings (HUMA 10-K) highlight clinical successes in vascular trauma/HD but Phase 3 patency misses vs benchmarks, ongoing trials.",
+  "filing_risks": [
+    "HUMA (Humacyte 10-K): Phase 3 V006 trial missed secondary patency endpoint at 24 months (67% ATEV vs 74% ePTFE); higher thrombosis (23.2%) and vascular stenosis (19.2%) SAEs; reliance on clinical trial success for revenue, with BLA for HD access pending.",
+    "No filings for NVDA/ASML/LRCX/GOOGL/INTC/USAR/GT/SPMO; special Chittick attention warranted for GOOGL (AI tailwinds but high valuation risk), INTC (absent from list but noted).",
+    "WSC/RRX filings note general risks: substantial debt (RRX post-Altra), integration challenges, commodity fluctuations, litigation exposure; no specific balance-sheet dilution or concentration flags.",
+    "CLSD 10-Q: Strategic review risks bankruptcy/wind-down; Nasdaq delisting threat; workforce reduction ($2.6M charges); high dilution potential (25M+ warrants/options)."
+  ],
+  "quality_notes": [
+    "SPMO ETF: Durable momentum from S&P strength, low single-name concentration risk[Memory].",
+    "NVDA/ASML/LRCX: AI/semiconductor demand durable but cyclical; high valuations, no recent filings confirm balance-sheet strength[Memory].",
+    "GOOGL: High Chittick score (82); AI compute tailwinds (Perplexity/OpenAI); revenue quality from diversified services, but antitrust litigation risk[Memory].",
+    "LLY: GLP-1 durable demand (mfg capacity); BIOSECURE/tariff re-shoring positive[Memory].",
+    "ARLO/NXPI: Earnings beats/guidance strong; FCF growth noted[Memory].",
+    "Biotechs (ANIX/TNXP): Early-stage (Phase 2 init H2 2026+); IP positive but revenue quality pre-commercial, high clinical/dilution risk[Memory].",
+    "HUMA: Strong trauma data (92.9% infection-free, 87% patency); HD trials mixed (superior usability vs AVF in subgroups but patency decline); capital allocation tied to trials."
+  ],
+  "source_urls": []
+}
 

@@ -417,4 +417,31 @@ Catalyst: Ranked #1 swing trading stock for 2026; resilient amid CoreWeave $63.9
 Chittick Cash: AI demand buffer but high valuation limits.
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-04-30 07:50:40 Eastern Daylight Time
+
+Research Update
+
+Market tone: Markets maintain cautious risk-on tone with AI/tech/semiconductor resilience (NVDA, GOOGL, SPMO) offsetting oil/geopolitical pressures; latest scans highlight SPMO momentum (+17.81% 1M), NVDA #1 swing rank, GOOGL AI tailwinds, no new HUMA catalysts shift watch status.
+Candidates: 3
+
+1. SPMO (Broad Equity Momentum ETF) | confidence 0.78 | allocation 8.0% | stop 6.0% | Chittick 35/100
+Recommendation: watch
+Catalyst: Recent +17.81% 1-month return to $132.29, +1.23% daily gains trading $128-$132 with highs at $131.50, continuing uptrend from 52-week low $78.25 amid S&P strength.
+Chittick Cash: ETF diversification buffers downside; momentum factor historically resilient in uptrends.
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. NVDA (Semiconductors) | confidence 0.80 | allocation 8.0% | stop 7.0% | Chittick 75/100
+Recommendation: watch
+Catalyst: Ranked #1 best swing trading stock for 2026 with strong trends, high volatility, clean pullbacks; resilient amid AI data center news (CoreWeave $63.9B deals).
+Chittick Cash: AI demand buffer but high valuation limits.
+Social buzz, low weight: Routine AI mentions, no spikes
+Congress signal, low weight: none
+
+3. GOOGL (Technology / Internet Services) | confidence 0.75 | allocation 8.0% | stop 6.0% | Chittick 82/100
+Recommendation: watch
+Catalyst: AI tailwinds from compute demand (Perplexity/OpenAI deals); upcoming earnings.
+Chittick Cash: Fortress balance sheet, recurring revenue.
+Social buzz, low weight: Routine earnings/AI mentions
+Congress signal, low weight: none
 

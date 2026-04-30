@@ -255,4 +255,28 @@
   ]
 }
 ```
+## Market Regime Research - 2026-04-30 07:50:40 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equity markets exhibit a mixed and cautious tone with resilient AI/tech momentum offsetting geopolitical risks from US-Iran tensions, surging oil prices, and Fed policy stability. S&P 500 shows modest declines but tech strength persists; volatility elevated amid uncertainty.",
+  "market_regime": "Cautious Risk-On with Elevated Volatility: Tactically bullish on resilient macro data and earnings growth, but pressured by oil surge, trade tensions, and Fed hold. S&P 500 near 7,100 after recovery from 10% drawdown; mixed futures action.",
+  "sector_rotation": "Persistent strength in AI/Tech/Semiconductors (NVDA, ASML, LRCX, MSFT, GOOGL) driving momentum; Broad momentum (SPMO) resilient. Consumer cyclicals and financials undervalued post-Q1 declines; energy/gold as hedges amid oil shock.",
+  "risk_flags": [
+    "Geopolitical: US-Iran conflict, Strait of Hormuz risks, oil >$100 potential",
+    "Fed/Rates: On hold at 3.75%, USD firm tone limits further cuts; inflation moderation but oil pressure",
+    "Volatility: Elevated from crude surge, mixed index performance, VIX futures active",
+    "Earnings: Priced for 18.6% growth; mega-cap tech reports critical",
+    "Trade Policy: 15% import duties, midterm election uncertainty"
+  ],
+  "source_urls": [
+    "https://www.mexc.com/news/1063597",
+    "https://www.mitrade.com/au/insights/share/share-trading/us-stock-market-outlook-2026",
+    "https://markets.jpmorgan.com/research-and-insights/market-insights",
+    "https://www.barchart.com/futures/quotes/VI*0",
+    "https://news.futunn.com/en/post/72296037/us-stock-market-preview-the-three-major-index-futures-are?futusource=news_newspage_recommend",
+    "https://www.briefing.com/stock-market-update/archive"
+  ]
+}
+```
 
