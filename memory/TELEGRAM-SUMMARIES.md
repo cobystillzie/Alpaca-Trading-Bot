@@ -154,4 +154,31 @@ Sources: https://elliottwave-forecast.com/trading/best-swing-trading-stocks/
 Rejected / Watchouts
 - NVDA: Candidate relies only on weak/listicle-style sources.
 - SPMO: Candidate relies only on weak/listicle-style sources.
+## Research Update - 2026-04-29 22:50:46 Eastern Daylight Time
+
+Research Update
+
+Market tone: Pharmaceutical sector shows structural supply-chain reshoring tailwinds (CDMO capex $24.86B in 2025, 74% US-bound) and clinical-stage innovation catalysts (Anixa breast cancer vaccine Phase 1 74% immune response, Tonix Lyme disease TNX-4800 Phase 2 initiation H1 2027). Broad market regime remains cautious post-Fed hold with elevated volatility; semiconductor/AI names under pressure on OpenAI growth doubts. Pharma offers defensive quality with real catalysts but limited 1-10 day swing trade setups; prefer watch posture pending earnings/clinical readouts.
+Candidates: 3
+
+1. ANIX (Biotechnology / Oncology Immunotherapy) | confidence 0.52 | allocation 0.0% | stop 8.0% | Chittick 35/100
+Recommendation: watch
+Catalyst: Phase 2 clinical trial initiation (timing TBD, likely H2 2026–H1 2027); Mexican patent issuance (No. 432748) extends IP estate and signals IP confidence. Potential for positive Phase 2 interim data to drive re-rating in 12–24 months.
+Chittick Cash: Phase 1 validation (74% immune response, all endpoints met) provides clinical de-risking vs. pre-clinical biotech. Mexican patent into 2040s offers IP durability. However, small-cap biotech inherently high-risk; valua...
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. TNXP (Biotechnology / Infectious Disease Prevention) | confidence 0.48 | allocation 0.0% | stop 8.0% | Chittick 35/100
+Recommendation: watch
+Catalyst: Phase 2 field study initiation H1 2027 (pending FDA agreement); Phase 1 data presentation at Johns Hopkins symposium (April 29, 2026) signals regulatory progress. Potential for FDA breakthrough designation or accelerated pathway if Phase...
+Chittick Cash: Phase 1 completion and Phase 2 planning provide clinical de-risking vs. pre-clinical biotech. However, small-cap biotech inherently high-risk; monoclonal antibody manufacturing complexity adds execution risk. Margin o...
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. LLY (Pharmaceuticals / Large-Cap Quality) | confidence 0.68 | allocation 10.0% | stop 6.0% | Chittick 35/100
+Recommendation: watch
+Catalyst: Q1 2026 earnings (likely early May 2026) with GLP-1 revenue guidance and manufacturing capacity updates. BIOSECURE Act and tariff overlay forcing CDMO re-shoring; LLY positioned to benefit from US capacity premiums (Western CDMOs trading...
+Chittick Cash: Large-cap pharma with durable moat (insulin, GLP-1) and strong balance sheet provides margin of safety vs. biotech. Pharma reshoring tailwinds support margin durability and US manufacturing premiums. However, GLP-1 co...
+Social buzz, low weight: none
+Congress signal, low weight: none
 

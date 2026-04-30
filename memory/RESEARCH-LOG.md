@@ -113,4 +113,9 @@ Premarket plan built from latest watchlist.
   rejects: Candidate relies only on weak/listicle-style sources.
 - SPMO: score=100, approved=False, allocation=8.0%, stop=6.0%
   rejects: Candidate relies only on weak/listicle-style sources.
+## Two-Hour Research Agent - 2026-04-29 22:50:46 Eastern Daylight Time
+
+Pharmaceutical sector shows structural supply-chain reshoring tailwinds (CDMO capex $24.86B in 2025, 74% US-bound) and clinical-stage innovation catalysts (Anixa breast cancer vaccine Phase 1 74% immune response, Tonix Lyme disease TNX-4800 Phase 2 initiation H1 2027). Broad market regime remains cautious post-Fed hold with elevated volatility; semiconductor/AI names under pressure on OpenAI growth doubts. Pharma offers defensive quality with real catalysts but limited 1-10 day swing trade setups; prefer watch posture pending earnings/clinical readouts.
+
+Candidates found: 3
 

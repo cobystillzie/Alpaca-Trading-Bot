@@ -162,4 +162,25 @@
   ]
 }
 ```
+## Market Regime Research - 2026-04-29 22:50:46 Eastern Daylight Time
+
+{
+  "summary": "US equity markets exhibit **cautious tone** post-Fed rate hold at 3.50%-3.75%, with mixed index performance, elevated volatility from AI doubts and oil surges, upcoming mega-cap tech earnings, and rotation pressures in semiconductors amid risk-off signals.[1][2][3]",
+  "market_regime": "Cautious consolidation; indices mixed (S&P down -0.36% to -0.49%, Nasdaq -1.01%) after Fed decision, uptrend intact in momentum names like SPMO/NVDA but AI jitters and crude oil inflation fears cap upside.[1][3]",
+  "sector_rotation": "Semiconductors/AI under pressure (NVDA -1.59%, ASML -3.34%, AMD -3.41%) on OpenAI growth shortfalls and payoff concerns; broad momentum (SPMO) and select defensives (KO +3%) holding; watch tech earnings for rotation pivot.[3]",
+  "risk_flags": [
+    "Elevated implied volatility: Fed day ~77bps, earnings day ~1.15%.[1]",
+    "AI investment doubts hitting infra stocks (NVDA, ORCL, AMD).[3]",
+    "Surging crude oil spurring inflation fears.[3]",
+    "Heavy mega-cap earnings week (MSFT, AAPL, META, AMZN) with perfection pricing risks.[3]",
+    "VIX futures at 19.50 low but recent -26% monthly drop signals volatility rebound potential.[3]"
+  ],
+  "source_urls": [
+    "https://www.investing.com/analysis/this-is-how-youd-be-trading-the-fed-if-you-sat-on-goldmans-desk-200679330",
+    "https://www.investing.com/analysis/powells-final-act-rates-on-hold-as-fed-chair-prepares-to-exit-200679353",
+    "https://www.barchart.com/futures/quotes/VI*0",
+    "https://news.futunn.com/en/post/72296037/us-stock-market-preview-the-three-major-index-futures-are?futusource=news_newspage_recommend",
+    "https://markets.jpmorgan.com/research-and-insights"
+  ]
+}
 
