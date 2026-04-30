@@ -97,4 +97,12 @@ Candidates found: 4
 Markets cautious ahead of Fed decision and mega-cap tech earnings with elevated volatility risks from hawkish Fed pivot, geopolitical oil shocks, and perfection pricing in AI/semiconductor names; watchlist momentum intact but single-stock concentration limits apply.
 
 Candidates found: 2
+## Premarket Plan - 2026-04-29 22:10:56 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- NVDA: score=100, approved=False, allocation=8.0%, stop=7.0%
+  rejects: Low-weight social/congress signal needs at least two stronger sources.; Candidate relies only on weak/listicle-style sources.
+- SPMO: score=100, approved=False, allocation=8.0%, stop=6.0%
+  rejects: Low-weight social/congress signal needs at least two stronger sources.; Candidate relies only on weak/listicle-style sources.
 
