@@ -172,4 +172,12 @@ Premarket plan built from latest watchlist.
 Markets hold risk-on resilience with S&P near 7,100 highs despite oil at $100-101/bbl and VIX ~18.6; AI/semicon momentum (NVDA #1 swing rank, ASML/LRCX MACD crosses) and SPMO +17.81% 1M lead; GOOGL AI tailwinds/Chittick priority persist amid pending Big Tech earnings; no new SEC filings or hype shifts watch status.
 
 Candidates found: 3
+## Premarket Plan - 2026-04-30 09:48:38 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- GOOGL: score=88, base=90, chittick=82, approved=True, allocation=8.0%, stop=6.0%
+- NVDA: score=86, base=90, chittick=75, approved=False, allocation=8.0%, stop=7.0%
+  rejects: Low-weight social/congress signal needs at least two stronger sources.
+- SPMO: score=74, base=90, chittick=35, approved=True, allocation=8.0%, stop=6.0%
 
