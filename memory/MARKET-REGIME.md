@@ -279,4 +279,26 @@
   ]
 }
 ```
+## Market Regime Research - 2026-04-30 09:29:15 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equity markets exhibit resilient bullish tone with S&P 500 recovering to new highs near 7,100 despite geopolitical tensions (US-Iran conflict), oil at $100-101/bbl, and Fed holding rates at 3.75%. AI/semiconductor momentum (NVDA, ASML, LRCX) and broad momentum (SPMO) dominate candidates; Q1 earnings strong so far but Big Tech reports pending. Volatility elevated (VIX ~18.6) amid risks, favoring cautious paper-trading with tight stops.",
+  "market_regime": "Risk-on with caution: Bullish index trend (S&P up ~17% YTD post-recovery), Fed on hold limiting cuts due to sticky inflation/oil shock, VIX at 18.6 (elevated but not extreme), strong earnings tone early Q1, momentum continuation in AI/tech.",
+  "sector_rotation": "Heavy concentration in AI/semiconductors (NVDA #1, ASML, LRCX, NXPI) and broad momentum (SPMO); emerging biotech/pharma (ANIX, TNXP, LLY), tech services (GOOGL, MSFT), smart home (ARLO). Rotation from 2025 tariff lows toward AI infrastructure and quality growth amid smaller-cap participation.",
+  "risk_flags": [
+    "Geopolitical: US-Iran conflict risking Strait of Hormuz oil disruptions ($100-101/bbl).",
+    "Policy: Fed at 3.75% on hold; no further cuts likely due to inflation/oil pressures.",
+    "Valuation/Concentration: Mag 7 ~55% of returns; high expectations for 18.6% earnings growth.",
+    "Volatility: VIX +4.26% to 18.59 (Apr 29); tariff/midterm election uncertainty.",
+    "Bear risk: 14-20% peak-trough decline if risks compound (RBC)."
+  ],
+  "source_urls": [
+    "https://www.mitrade.com/au/insights/share/share-trading/us-stock-market-outlook-2026",
+    "https://www.mexc.com/news/1063597",
+    "https://www.moomoo.com/stock/.VIX-US?chain_id=Name1K9-3FXPhg.1kv4e8g",
+    "https://uk.investing.com/analysis/sp-500-resilience-persists-even-as-underlying-momentum-fades-200624298"
+  ]
+}
+```
 

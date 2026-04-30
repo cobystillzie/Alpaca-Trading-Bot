@@ -524,4 +524,31 @@ Sources: none
 Rejected / Watchouts
 - NVDA: Low-weight social/congress signal needs at least two stronger sources.
 - GOOGL: Low-weight social/congress signal needs at least two stronger sources.
+## Research Update - 2026-04-30 09:29:15 Eastern Daylight Time
+
+Research Update
+
+Market tone: Markets hold risk-on resilience with S&P near 7,100 highs despite oil at $100-101/bbl and VIX ~18.6; AI/semicon momentum (NVDA #1 swing rank, ASML/LRCX MACD crosses) and SPMO +17.81% 1M lead; GOOGL AI tailwinds/Chittick priority persist amid pending Big Tech earnings; no new SEC filings or hype shifts watch status.
+Candidates: 3
+
+1. GOOGL (Technology / Internet Services) | confidence 0.75 | allocation 8.0% | stop 6.0% | Chittick 82/100
+Recommendation: watch
+Catalyst: AI compute tailwinds from Perplexity/OpenAI deals signaling demand; upcoming Q1 earnings for cloud/AI guidance.
+Chittick Cash: Trading below historical multiples vs AI growth; cash hoard buffers downside.
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. NVDA (Semiconductors) | confidence 0.80 | allocation 8.0% | stop 7.0% | Chittick 75/100
+Recommendation: watch
+Catalyst: Ranked #1 swing stock 2026; resilient on CoreWeave $63.9B AI data center deals.
+Chittick Cash: Premium valuation buffered by AI monopoly pricing power.
+Social buzz, low weight: low-weight momentum chatter
+Congress signal, low weight: none
+
+3. SPMO (Broad Equity Momentum ETF) | confidence 0.78 | allocation 8.0% | stop 6.0% | Chittick 35/100
+Recommendation: watch
+Catalyst: +17.81% 1M return to $132.29, +1.23% daily gains, uptrend from $78.25 low amid S&P strength.
+Chittick Cash: Diversification and momentum discipline limit downside.
+Social buzz, low weight: none
+Congress signal, low weight: none
 

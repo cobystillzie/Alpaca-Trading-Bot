@@ -309,4 +309,40 @@ SEC/company quality check:
   ],
   "source_urls": []
 }
+## Source And Signal Research - 2026-04-30 09:29:15 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No unusual discussion or hype detected around liquid US stocks/ETFs in public web/social coverage. Routine mentions of candidates like NVDA, SPMO, GOOGL in technical/AI contexts, but no pump language, anomalies, or unsupported claims flagged as risk.",
+  "social_buzz": "Weak; standard momentum chatter on SPMO/NVDA without spikes.",
+  "attention_anomalies": "None identified.",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+{"summary":"No recent congressional disclosures for trades in liquid US stocks/ETFs overlapping with candidates (SPMO, NVDA, ASML, LRCX, MSFT, GOOGL, ARLO, NXPI, LLY, ANIX, TNXP). Relevant disclosures include AME (1 purchase up to $15K on 01/09/2026 by Rep. Cisneros, 1 sale up to $15K on 02/10/2026)[1], PH (1 purchase up to $15K on 03/12/2026 by Rep. Taylor, 6 sales totaling up to $90K in Jan-Mar 2026)[3], VRT (6 trades in past 6 months, details unspecified)[4], SMCI (1 purchase, 2 sales in past 6 months)[5].","congressional_signal":"Low-weight delayed signals: Net neutral on AME (1 buy/1 sell), net selling on PH (1 buy/6 sells); no buys in candidates.","tickers":["AME","PH","VRT","SMCI"],"source_urls":["https://www.quiverquant.com/news/AMETEK+($AME)+Releases+Q1+2026+Earnings","https://www.quiverquant.com/news/PARKER-HANNIFIN+($PH)+Releases+Q3+2026+Earnings","https://www.quiverquant.com/news/Fund+Update:+New+$10.7M+$VRT+stock+position+opened+by+OREGON+PUBLIC+EMPLOYEES+RETIREMENT+FUND","https://www.quiverquant.com/news/Super+Micro+Computer+Stock+(SMCI)+Opinions+on+AI+Server+Portfolio+Expansion"]}
+
+SEC/company quality check:
+{
+  "summary": "Current watchlist features repeated high-confidence momentum plays in semiconductors (NVDA 0.80, ASML 0.76, LRCX 0.74) and ETFs (SPMO 0.78) driven by AI demand and S&P strength; GOOGL (0.75) highlighted for AI tailwinds and earnings. No SEC filings for watchlist tickers in results; available filings for HUMA (biotech with strong clinical data but Phase 3 patency misses), WSC (modular space leasing), RRX (industrial motion control post-divestiture), CLSD (biotech exploring alternatives amid going concern doubts).",
+  "filing_risks": {
+    "HUMA": "Phase 3 V006 trial missed secondary patency endpoint vs ePTFE at 24 months (67% vs 74%); higher thrombosis (23.2%) and pseudoaneurysm (5.6%) SAEs; reliance on clinical trials for BLA in dialysis access; ongoing V007/V012 trials with topline risks.",
+    "WSC": "High debt from acquisitions; credit risk in leasing; tariff/trade policy exposure; activist shareholder actions; cybersecurity/labor disruptions; covenant restrictions limiting flexibility.",
+    "RRX": "Substantial indebtedness post-Altra acquisition; integration risks; commodity price/tariff fluctuations; key supplier dependence; litigation/product liability; goodwill impairment risk; CEO transition.",
+    "CLSD": "Going concern doubt; exploring strategic alternatives including bankruptcy/wind-down; workforce reduction ($2.6M charges); Nasdaq delisting risk; paused internal R&D; sold royalty rights.",
+    "watchlist (GOOGL/NVDA/etc.)": "No direct SEC filings; memory notes prior SPMO rejections due to concentration exceeding 15%."
+  },
+  "quality_notes": {
+    "SPMO": "Broad momentum ETF with durable S&P uptrend (+17.81% 1M); low single-name concentration risk[existing memory].",
+    "NVDA/ASML/LRCX": "AI/semiconductor demand durable but cyclical; high volatility noted; institutional flows supportive[existing memory].",
+    "GOOGL": "AI compute tailwinds (Perplexity/OpenAI); Chittick score 82; earnings catalyst; watch concentration vs INTC/USAR/GT[existing memory].",
+    "HUMA": "Strong trauma data (Symvess FDA-approved, low infection/amputation vs synthetics); dialysis access promising in subgroups (women/obese/diabetic) but V006 patency miss; budget model shows cost savings.",
+    "WSC": "Diversified leasing (modular/storage); long asset lives (20-30yrs, 50%+ residuals); VAPS revenue growth; Network Optimization Plan execution.",
+    "RRX": "Secular growth in automation/aerospace/data centers; 80/20 initiatives/RBS for margins; strong FCF for de-leveraging/M&A.",
+    "CLSD": "SCS platform innovative (XIPERE approved); partnerships (Bausch/Arctic/BioCryst); but cash runway insufficient, strategic review."
+  },
+  "source_urls": []
+}
 
