@@ -1135,4 +1135,42 @@ Model notes: AMZN chip news supportive but hype risk.
 Social buzz, max 10%: low-weight social attention signal, or none
 Congress signal, max 5%: none
 Sources: none
+## Research Update - 2026-04-30 17:11:04 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities maintain risk-on momentum with S&P 500 near ATHs amid Tech earnings beats; Alphabet (GOOGL) reports blockbuster Q1 2026 ($109.9B revenue +22% YoY, Cloud $20B +63% YoY); Eaton (ETN) sees unusual bullish options surge tied to AI data center demand.
+Candidates: 4
+
+1. GOOGL (Technology / Internet Services / Cloud) | confidence 0.82 | allocation 8.0% | stop 6.0% | Chittick 82/100 | HF source 1/100
+Recommendation: execute-if-guards-pass
+Catalyst: Q1 2026 earnings: $109.9B revenue (+22% YoY), Cloud $20B (+63% YoY first time), EPS $5.11 (+82% YoY); Perplexity/OpenAI compute deals confirm demand.
+Chittick Cash: Fortress balance sheet (~$100B+ cash), durable ad moat provides downside protection vs. premium valuation.
+HF filter: sentiment=bullish source=1/100 hype=0.10 vetoes=0
+Social buzz, low weight: Medium bullish on Cloud/AI beats and partnerships.
+Congress signal, low weight: none
+
+2. SPMO (Broad Equity Momentum ETF) | confidence 0.78 | allocation 8.0% | stop 6.0% | Chittick 35/100 | HF source 1/100
+Recommendation: watch
+Catalyst: +17.81% 1M return to $132.29, +1.23% daily gains amid S&P ATHs and Tech beats.
+Chittick Cash: Diversified holdings provide buffer vs. single-stock.
+HF filter: sentiment=bullish source=1/100 hype=0.15 vetoes=0
+Social buzz, low weight: Medium-high on S&P ATHs.
+Congress signal, low weight: none
+
+3. NVDA (Semiconductors / AI Infrastructure) | confidence 0.78 | allocation 8.0% | stop 7.0% | Chittick 75/100 | HF source 1/100
+Recommendation: watch
+Catalyst: CoreWeave $63.9B deals, Vera Rubin demand; ranked #1 2026 swing stock.
+Chittick Cash: Cash-rich; GPU scarcity buffer.
+HF filter: sentiment=bullish source=1/100 hype=0.20 vetoes=0
+Social buzz, low weight: High on AI deals.
+Congress signal, low weight: none
+
+4. ETN (Industrials / Power Management) | confidence 0.70 | allocation 8.0% | stop 8.0% | Chittick 72/100 | HF source 1/100
+Recommendation: watch
+Catalyst: Unusual bullish options volume (40,955 calls, +648% avg) on AI power/cooling demand.
+Chittick Cash: Robust balance sheet, FCF growth.
+HF filter: sentiment=bullish source=1/100 hype=0.15 vetoes=0
+Social buzz, low weight: none
+Congress signal, low weight: none
 

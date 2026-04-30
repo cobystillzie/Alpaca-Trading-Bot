@@ -429,4 +429,30 @@
   ]
 }
 ```
+## Market Regime Research - 2026-04-30 17:11:04 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equity markets exhibit **risk-on** tone with S&P 500 and Nasdaq at all-time highs in April 2026 (+9.3% and +14.5% MTD), driven by robust Q1 earnings beats (77%+ of S&P 500 reporters exceeding EPS/revenue estimates, +22-24% YoY growth) led by Tech (+18% MTD). Fed holds rates at 3.5-3.75% amid sticky inflation (headline 3.3%, core 2.6%) and oil shocks from Iran conflict, with dissent signaling delayed cuts. VIX whipsaws ~17-19, indicating moderate uncertainty.",
+  "market_regime": "Bullish momentum with broad participation (Russell 2000 +8.9% MTD, equal-weight S&P +4.4%); resilient despite macro headwinds (Iran war, high oil ~$100/bbl). SPMO/NVDA/GOOGL candidates confirm Tech/momentum leadership amid S&P strength near ATHs[1][5][14].",
+  "sector_rotation": "Tech dominant (+18.2% MTD, +7.3% YTD) on AI/earnings (NVDA, GOOGL catalysts); Energy lags (-4.3% MTD); broader revisions positive in Tech/Financials/Basic Materials post-Iran war. Momentum (SPMO) and semis/internet services lead candidates[1][4][8].",
+  "risk_flags": [
+    "Fed on hold longer (3 dissents, cuts delayed to Sep/Dec 2026 or later; Powell notes oil shock unpeaked)[2][6]",
+    "Sticky inflation (headline 3.3% Mar, core 2.6%; oil $100+ pressures)[2][5]",
+    "Geopolitical (Iran conflict, Strait of Hormuz risk; global demand destruction threat)[1][5][6]",
+    "VIX elevated/whipsaw (17-19 range, 8% daily swing on uncertainty)[3]",
+    "Concentration risk (cap-weight S&P outperforms equal-weight by 4.9%; Tech-heavy)[1]"
+  ],
+  "source_urls": [
+    "https://exante.eu/press/market-updates/3011-is-it-time-for-investors-to-think-about-the-chokepoint-premium/",
+    "https://www.americancentury.com/insights/fed-watch/fed-meeting-april-2026-interest-rates/",
+    "https://247wallst.com/investing/2026/04/30/vix-in-whipsaw-on-sticky-inflation-fed-dissent-and-lofty-ai-capex/",
+    "https://www.sc.com/en/uploads/sites/66/content/docs/wm-weekly-market-view-the-earnings-bedrock-30-april-2026.pdf",
+    "https://www.mitrade.com/au/insights/share/share-trading/us-stock-market-outlook-2026",
+    "https://www.mufgresearch.com/rates/april-2026-fed-rates-call-update/",
+    "https://www.zacks.com/stock/news/2911757/zacks-earnings-trends-highlights-ge-healthcare-honeywell-and-southwest-airlines",
+    "https://www.zacks.com/commentary/2912548/stock-market-strength-reflects-earnings-power"
+  ]
+}
+```
 

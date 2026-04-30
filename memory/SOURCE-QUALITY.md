@@ -862,4 +862,124 @@ SEC/company quality check:
   },
   "source_urls": []
 }
+## Source And Signal Research - 2026-04-30 17:11:04 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": {
+    "scan_date": "2026-04-30",
+    "scan_time_utc": "21:10:12",
+    "coverage_period": "Last 24-48 hours",
+    "key_finding": "Persistent AI/semiconductor narrative dominance with momentum ETF strength; no novel anomalies detected beyond established tech tailwinds.",
+    "risk_flag": "Repeated mentions of CoreWeave $63.9B and Vera Rubin lack independent verification; monitor for circular hype reinforcement."
+  },
+  "social_buzz": {
+    "dominant_themes": [
+      {
+        "theme": "AI Data Center Infrastructure",
+        "sentiment": "Bullish",
+        "frequency": "High",
+        "sources": "Tech forums, trading communities, financial media",
+        "context": "CoreWeave funding, Vera Rubin telescope demand, institutional AI flows cited repeatedly",
+        "risk_assessment": "Weak context only—funding announcements do not guarantee revenue or profitability"
+      },
+      {
+        "theme": "Semiconductor Resilience",
+        "sentiment": "Bullish",
+        "frequency": "High",
+        "sources": "Equity research, retail trading platforms",
+        "context": "NVDA ranked #1 swing stock; AMZN chip run-rate >$20B cited as validation",
+        "risk_assessment": "Anecdotal; no independent supply-chain or margin verification provided"
+      },
+      {
+        "theme": "Broad Market Momentum (S&P 500 ATH)",
+        "sentiment": "Bullish",
+        "frequency": "Medium-High",
+        "sources": "Market commentary, ETF tracking",
+        "context": "SPMO +17.81% 1-month return; S&P near all-time highs",
+        "risk_assessment": "Momentum is not a fundamental; valuations and earnings growth must be confirmed"
+      },
+      {
+        "theme": "Cloud/AI Earnings Beats",
+        "sentiment": "Bullish",
+        "frequency": "Medium",
+        "sources": "Earnings reports, analyst notes",
+        "context": "AMZN AWS +28% beat; Perplexity/OpenAI compute deals",
+        "risk_assessment": "Legitimate but already priced in; watch for guidance misses"
+      }
+    ],
+    "hype_red_flags": [
+      "CoreWeave $63.9B valuation repeated across multiple candidate updates without independent revenue/profitability context",
+      "Vera Rubin demand cited as NVDA catalyst but lacks specificity on order size or timeline",
+      "NVDA '#1 swing stock 2026' ranking lacks source attribution; appears to be internal scoring, not consensus",
+      "Perplexity/OpenAI 'deals' mentioned as validation but no contract values or duration disclosed"
+    ],
+    "pump_language_detected": [
+      "Ranked #1 2026 swing stock (unsourced superlative)",
+      "Resilient on [catalyst]—implies certainty without downside scenario",
+      "Signaling demand (vague; no quantified metrics)"
+    ]
+  },
+  "attention_anomalies": {
+    "unusual_patterns": [
+      {
+        "anomaly": "SPMO repeated rejection due to allocation limits",
+        "date": "2026-04-29",
+        "context": "Two rejections logged for SPMO; suggests internal model conflict or user persistence despite constraints",
+        "interpretation": "Possible retail/algorithmic over-enthusiasm for momentum ETF; not a fundamental signal"
+      },
+      {
+        "anomaly": "Market-open execution skipped (backup order not placed)",
+        "date": "2026-04-30",
+        "context": "Order already logged; no new entry attempted",
+        "interpretation": "Risk management working as designed; no anomaly"
+      },
+      {
+        "anomaly": "Consistent 0.75–0.80 confidence scores across NVDA, GOOGL, SPMO",
+        "date": "2026-04-30 (multiple updates)",
+        "context": "Narrow confidence band suggests model saturation or correlated signals",
+        "interpretation": "Diversification risk if all three are driven by single AI narrative"
+      }
+    ],
+    "sector_concentration": {
+      "technology_ai_semiconductor": "3 of 3 candidates (100%)",
+      "risk": "Portfolio heavily exposed to AI sentiment; vulnerable to narrative reversal or regulatory headwinds"
+    },
+    "earnings_catalyst_clustering": {
+      "googl_q1_earnings": "Early May 2026 (imminent)",
+      "nvda_guidance": "Implicit in CoreWeave/Vera Rubin narrative; no specific earnings date provided",
+      "risk": "Earnings misses could trigger sharp reversals; current positioning assumes beats"
+    }
+  },
+  "source_urls": {
+    "note": "No direct URLs provided in memory or query. Social buzz sourced from internal candidate tables and rejected-trades log.",
+    "recommended_verification_sources": [
+      "SEC EDGAR (NVDA, GOOGL 10-Q filings for revenue/margin trends)",
+      "CoreWeave official announcements (verify $63.9B valuation and customer contracts)",
+      "Vera Rubin Observatory project timeline (verify NVDA procurement status)",
+      "AMZN earnings call transcript (verify AWS +28% beat and chip run-rate claims)",
+      "Perplexity AI and OpenAI official partnerships (verify compute deal scope)",
+      "SPMO prospectus and holdings (verify momentum strategy and concentration)"
+    ]
+  },
+  "disclaimer": "Social buzz is weak context only. No trade recommendations issued. Hype, pump language, and unsupported claims flagged as risk. Fundamentals (earnings, cash flow, valuation) must override sentiment before any position is taken."
+}
+```
+
+Congressional disclosures, max 5% influence:
+{"summary":"No recent congressional trades reported for liquid US stocks/ETFs among watchlist candidates (SPMO, NVDA, GOOGL, ARLO, NXPI). Relevant disclosures include: Rep. Gilbert Ray Cisneros Jr. traded AME (1 purchase up to $15K on 01/09/26, 1 sale up to $15K on 02/10/26); Rep. Debbie Dingell purchased PTA up to $15K on 04/21/26; multiple PH trades (1 purchase, 6 sales past 6 months); Sen. Markwayne Mullin purchased ELV up to $50K on 12/29/25.[1][2][3][6]","congressional_signal":"Low-weight delayed signals on AME (mixed buy/sell), PTA (recent buy), PH (net sells), ELV (buy); none overlap with current candidates.","tickers":["AME","PTA","PH","ELV"],"source_urls":["https://www.quiverquant.com/news/AMETEK+($AME)+Releases+Q1+2026+Earnings","https://www.quiverquant.com/news/PTA+Stock+(PTA)+Opinions+on+Congressional+Trade+Disclosure","https://www.quiverquant.com/news/PARKER-HANNIFIN+($PH)+Releases+Q3+2026+Earnings","https://www.quiverquant.com/news/Lobbying+Update:+$1,720,000+of+ELEVANCE+HEALTH+INC.+lobbying+was+just+disclosed"]}
+
+SEC/company quality check:
+{
+  "summary": "Current watchlist includes SPMO (Broad Equity Momentum ETF), NVDA (Semiconductors), and GOOGL (Technology/Internet Services), all on 'watch' status with catalysts tied to momentum, AI demand, and upcoming earnings. Existing memory holds ARLO and NXPI. No SEC filings provided for these tickers; available results cover unrelated entities like WSC (WillScot Holdings 10-K) and hedge fund Form Ds. Special attention to GOOGL per instructions, but lacks direct filing evidence for risks.",
+  "filing_risks": {
+    "SPMO": "No SEC/company filings in results; ETF structure implies underlying concentration risks in S&P momentum stocks, but no balance-sheet, litigation, dilution, or revenue quality details available.",
+    "NVDA": "No direct SEC filings; memory notes AI data center resilience, but absent filing evidence on balance-sheet leverage, chip concentration, litigation (e.g., potential antitrust), dilution, capital allocation (e.g., buybacks vs. capex), or valuation risks amid high multiples.",
+    "GOOGL": "No SEC filings provided; special Chittick focus highlights AI tailwinds (Perplexity/OpenAI deals, cloud growth), but no evidence on balance-sheet (cash vs. debt), search/ad concentration (>75% revenue typically), ongoing litigation (antitrust suits), share dilution, revenue quality (ad cyclicality), capital allocation (acquisitions), or elevated valuation risks.",
+    "Overall": "Lack of recent 10-K/10-Q for watchlist names limits assessment; general risks from memory include market volatility, earnings dependency. Unrelated WSC 10-K  notes debt servicing, credit risk, acquisitions, cybersecurity, litigation, impairments as examples but inapplicable here."
+  },
+  "quality_notes": "Candidates show durable demand signals: SPMO uptrend from 52-week low with S&P strength; NVDA #1 swing stock on CoreWeave/Vera Rubin AI deals; GOOGL AI compute validation via partnerships/earnings. High Chittick scores (70-82) and consistent 'watch' across updates indicate momentum, but no filing-backed revenue durability or quality checks. Rejected SPMO trades due to allocation limits suggest portfolio concentration awareness. Absent filings for GOOGL/NVDA/SPMO/INTC/USAR/GT hinder deep balance-sheet/validation analysis.",
+  "source_urls": []
+}
 
