@@ -538,4 +538,133 @@ SEC/company quality check:
   ]
 }
 ```
+## Source And Signal Research - 2026-04-30 13:33:09 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+{
+  "summary": "No unusual discussion or hype detected around liquid US stocks/ETFs in public web/social coverage. Routine mentions of AI catalysts for NVDA, GOOGL, SPMO align with existing candidate trends; no pump language, unsupported claims, or attention anomalies flagged as risk.",
+  "social_buzz": "Weak; standard chatter on AI/semiconductor leaders (NVDA, GOOGL) and momentum ETF (SPMO) without spikes or coordinated hype.",
+  "attention_anomalies": "None identified. Coverage remains consistent with fundamentals, no suspected pumps or viral unsupported narratives.",
+  "source_urls": []
+}
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Congressional trading activity in the past 6 months shows mixed signals across tracked stocks. Representative David Taylor (PH) executed 5 trades with net selling pressure (4 sales vs 1 purchase). Representative Gilbert Ray Cisneros Jr. (AME) showed balanced activity (1 purchase, 1 sale). Parker Hannifin ($PH) insiders displayed strong bearish sentiment with 53 sales and 0 purchases. Institutional flows remain positive for AME (518 adds vs 476 reduces) and PH (807 adds vs 772 reduces). No direct congressional trades detected in your current watch list (NVDA, GOOGL, SPMO).",
+  "congressional_signal": {
+    "bearish_pressure": [
+      {
+        "ticker": "PH",
+        "reason": "Insider selling dominance (53 sales, 0 purchases in 6 months); Congressional net selling (6 sales vs 1 purchase)",
+        "weight": "low"
+      }
+    ],
+    "neutral_mixed": [
+      {
+        "ticker": "AME",
+        "reason": "Balanced congressional activity (1 purchase, 1 sale); Strong institutional accumulation (518 adds)",
+        "weight": "low"
+      }
+    ],
+    "no_signal": [
+      "NVDA",
+      "GOOGL",
+      "SPMO"
+    ]
+  },
+  "tickers": [
+    "PH",
+    "AME",
+    "VRT"
+  ],
+  "source_urls": [
+    "https://www.quiverquant.com/news/AMETEK+($AME)+Releases+Q1+2026+Earnings",
+    "https://www.quiverquant.com/news/PARKER-HANNIFIN+($PH)+Releases+Q3+2026+Earnings"
+  ]
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": "Analysis of 7 SEC filings (Humacyte HUMA, WillScot WSC, Regal Rexnord RRX, Durable Capital LP, Clearside CLSD, Galaxy Digital GLXY, Metsera MTSR) reveals mixed quality signals. Humacyte shows strong clinical validation (ATEV vascular conduit FDA approval Dec 2024, low infection rates 0.9% vs 8.4% synthetic benchmark) but faces hemodialysis trial setbacks (V006 missed primary efficacy endpoint). WillScot and Regal Rexnord display operational scale but carry substantial leverage and M&A integration risks. Clearside faces existential going-concern doubt and strategic review. Galaxy Digital and Metsera represent early-stage, high-risk biotech/crypto ventures with significant dilution and regulatory uncertainty.",
+  "filing_risks": {
+    "HUMA_Humacyte": {
+      "revenue_quality": "Dependent on single FDA-approved indication (extremity vascular trauma); hemodialysis expansion stalled after V006 Phase 3 failed primary endpoint (67% ATEV vs 74% ePTFE secondary patency at 24mo, non-inferiority margin 1.488 not met). Limited commercial traction; no revenue disclosed in 10-K.",
+      "balance_sheet": "Pre-revenue biotech; cash burn model typical of clinical-stage companies. Reliant on capital raises and milestone payments from licensing partners (Bausch, Arctic Vision, BioCryst).",
+      "dilution": "Equity financing likely required for Phase 3 hemodialysis expansion (V012 women-focused trial ongoing, V007 two-year data presented Nov 2025). Warrant and option overhang typical for biotech.",
+      "litigation": "No material litigation disclosed; regulatory pathway clear post-FDA approval but hemodialysis indication remains uncertain.",
+      "concentration": "Single product (ATEV/Symvess) with two indications (trauma approved, dialysis access rejected). Trauma market addressable but niche relative to dialysis opportunity.",
+      "capital_allocation": "Milestone-driven; no dividend. R&D-heavy burn. Budget Impact Model (March 2025, Journal of Medical Economics) projects cost savings vs synthetic grafts, supporting reimbursement case but not yet validated in commercial deployment."
+    },
+    "WSC_WillScot": {
+      "revenue_quality": "Modular space and portable storage leasing; recurring revenue model with 260+ branch network. FY2025 revenue not disclosed in excerpt, but business model is asset-light with 20+ year fleet lives and >50% residual values. VAPS (value-added products) cross-sell drives margin expansion.",
+      "balance_sheet": "Large accelerated filer; aggregate market cap ~$4.9B (June 2025). Substantial debt from prior M&A (UK Storage Solutions divestiture Jan 2023). Leverage ratios not disclosed in excerpt but typical for asset-heavy leasing.",
+      "dilution": "Public company with 180.9M shares outstanding (Feb 2026). No unusual dilution noted.",
+      "litigation": "No material litigation disclosed in excerpt.",
+      "concentration": "Diversified across 15 end markets and 260 branches; low customer concentration risk. Hybrid in-house/outsourced logistics mitigates supply chain risk.",
+      "capital_allocation": "Network Optimization Plan underway; capex-intensive for fleet maintenance and expansion. Dividend policy not disclosed in excerpt."
+    },
+    "RRX_Regal_Rexnord": {
+      "revenue_quality": "Diversified industrial motion control (AMC, IPS, PES segments). Strong aftermarket revenue (~40% via distributor channel, less cyclical). Altra Transaction (Oct 2022, $5.1B) and Rexnord PMC merger (2021) create integration execution risk. Industrial Systems divestiture (April 2024, $444M) signals portfolio optimization.",
+      "balance_sheet": "Large accelerated filer; aggregate market cap ~$9.5B (June 2025). Substantial indebtedness from Altra acquisition; de-leveraging timeline critical. Forward-looking statements cite 'substantial indebtedness' as material risk.",
+      "dilution": "66.5M shares outstanding (Feb 2026). No unusual dilution noted.",
+      "litigation": "Asbestos and product liability risks disclosed; typical for industrial manufacturers. No material pending litigation disclosed.",
+      "concentration": "Broad portfolio across power transmission, automation, and efficiency solutions. No single customer >10% of sales (2025, 2024, 2023). Secular growth tailwinds in discrete automation, aerospace, data center, medical.",
+      "capital_allocation": "80/20 initiatives and RBS (Regal Rexnord Business System) drive continuous improvement. M&A strategy ongoing; synergy realization from Altra and Rexnord PMC critical to valuation. Free cash flow generation supports de-leveraging and shareholder returns (dividends, buybacks)."
+    },
+    "CLSD_Clearside": {
+      "revenue_quality": "Suprachoroidal (SCS) injection platform for back-of-eye drug delivery. Single approved product (XIPERE, triamcinolone for uveitic macular edema, FDA Oct 2021) licensed to Bausch + Lomb (US/Canada) and Arctic Vision (Asia Pacific). Royalty and milestone revenue model; no product sales revenue (Bausch commercializes). Accumulated deficit $368M as of June 30, 2025.",
+      "balance_sheet": "Going-concern doubt raised in 10-Q (Aug 2025). Cash insufficient to fund operations for 12 months from filing date. Strategic review underway (July 2025) with Piper Sandler; considering sale, license, monetization, divestiture, partnership, merger, or bankruptcy.",
+      "dilution": "Workforce reduction (all employees terminated, transitioned to consulting roles, Q3 2025) signals financial distress. Estimated severance charges ~$2.6M. Reverse stock split proposal (1-for-5 to 1-for-15) filed Aug 2025 to regain Nasdaq compliance (minimum bid price <$1.00 from Dec 2024–Feb 2025).",
+      "litigation": "No material litigation disclosed; regulatory risk from FDA on pipeline candidates (CLS-AX Phase 2b positive, Phase 3 planned).",
+      "concentration": "Pipeline concentrated in retinal diseases (CLS-AX, preclinical GA/DR/DME candidates). External collaborations (Bausch, Arctic Vision, REGENXBIO, Aura, BioCryst) provide diversification but create dependency on partners' commercialization.",
+      "capital_allocation": "R&D paused during strategic review (July 2025). No dividend. Burn rate unsustainable; bankruptcy or forced transaction likely without capital infusion or strategic alternative."
+    },
+    "GLXY_Galaxy_Digital": {
+      "revenue_quality": "Digital assets and AI/HPC data center businesses. Global Markets (spreads, lending, M&A fees) and Asset Management & Infrastructure Solutions (management/performance fees, staking, GK8 licensing) generate revenue. Data Centers (Helios campus, 800 MW approved, 1.7 GW under study) expected to generate long-term lease revenue starting 2026 (CoreWeave deal). Treasury/mining operations add diversification. No revenue disclosed for Data Centers segment as of S-1 (May 2025).",
+      "balance_sheet": "Newly listed on Nasdaq (S-1 filed May 2025); previously TSX-listed for ~7 years. ~$7.0B AUM across 1,381 trading counterparties and 1,200+ asset management clients (March 31, 2025). Founder-controlled (53.9% voting power post-offering).",
+      "dilution": "24.15M Class A shares offered by Galaxy; 4.85M by selling stockholders in S-1. Net proceeds ~$471.5M (assumed $22.95/share). LP Unit redemption rights create ongoing dilution risk; holders can exchange LP Units for Class A shares 1:1.",
+      "litigation": "Substantial litigation risk disclosed; subject to 50+ federal, state, foreign regulators. Digital asset classification uncertainty (security vs commodity) poses material regulatory risk.",
+      "concentration": "Diversified across trading, asset management, venture, mining, and data center segments. Founder concentration (53.9% voting) creates governance risk.",
+      "capital_allocation": "Net proceeds directed to Helios expansion (133 MW critical IT load for CoreWeave, 260 MW additional option). Long-term lease model (10–15 years) targets stable, predictable cash flows. Bitcoin mining and venture investments on balance sheet provide optionality."
+    },
+    "MTSR_Metsera": {
+      "revenue_quality": "Pre-revenue biotech; no commercial products. Pipeline focused on oral and injectable GLP-1/GIP/glucagon/amylin agonists for obesity and related diseases. MET-224o (oral GLP-1 RA) is lead candidate; Phase 1/2 planned late 2025. MET-002 formulation optimization trial initiated in Canada (Oct 2024). Preclinical data show promise (5.8% oral bioavailability vs 0.4% Rybelsus in canines; half-life ~100 hours for MET-224o vs 37 hours for MET-002).",
+      "balance_sheet": "S-1/A filed Jan 2025; pre-IPO biotech. Cash burn model typical; capital raise required for Phase 1/2 trials and manufacturing scale-up.",
+      "dilution": "IPO pending; significant dilution expected. D&D Pharmatech license agreement (March 2024) includes $10M upfront, up to $26–52M development milestones, up to $112.5–225M sales milestones, and tiered royalties (low-single to mid-teen %). Change-of-control fee (mid-single digit % of consideration, capped $35M) creates M&A friction.",
+      "litigation": "No material litigation disclosed; IP licensing agreements with D&D and Neuraly create dependency on partner performance.",
+      "concentration": "Single therapeutic area (obesity/weight loss) with multiple mechanism combinations (GLP-1, GIP, glucagon, amylin, PYY). Oral delivery platform (MOMENTUM, HALO lipidation) is core IP; preclinical validation strong but clinical proof-of-concept pending.",
+      "capital_allocation": "R&D-heavy; IND-enabling activities underway for MET-224o, MET-034i, MET-067i, MET-815i prodrug. Collaboration with D&D funds co-development; Metsera retains exclusive sublicensable rights. No dividend. Burn rate unsustainable without capital raise."
+    },
+    "DURABLE_CAPITAL_LP": {
+      "revenue_quality": "Hedge fund (Form D/A, Regulation D exempt offering). $7.98B total amount sold (cumulative); 510 accredited investors. No revenue disclosure; management and performance fees typical.",
+      "balance_sheet": "Limited Partnership; Durable Capital Associates LLC is general partner. Aggregate net asset value range declined to disclose (Form D/A, Oct 2025).",
+      "dilution": "Indefinite offering; ongoing capital raises. LP interests subject to incentive allocations and management fees.",
+      "litigation": "No material litigation disclosed.",
+      "concentration": "Hedge fund portfolio concentration unknown; Form D/A does not disclose holdings.",
+      "capital_allocation": "Management and performance fees; no dividend. Incentive allocations align GP/LP interests."
+    }
+  },
+  "quality_notes": {
+    "HUMA_Humacyte": "Clinical validation strong (ATEV FDA approval, low infection rates, limb salvage 82.5% at 24mo in trauma cohort). Hemodialysis expansion setback (V006 missed primary endpoint) signals execution risk and market adoption uncertainty. Revenue model dependent on licensing partners and reimbursement. Pre-revenue status limits visibility into commercial traction. Recommend monitoring V012 women-focused trial and V007 two-year durability data for hemodialysis pathway viability.",
+    "WSC_WillScot": "Recurring revenue model with 20+ year fleet lives and >50% residual values provides durability. 260+ branch network and 15 end-market diversification reduce concentration risk. VAPS cross-sell drives margin expansion. Leverage from prior M&A and UK Storage Solutions divestiture requires monitoring. Network Optimization Plan execution critical. Recommend tracking debt reduction and VAPS revenue contribution.",
+    "RRX_Regal_Rexnord": "Diversified portfolio with secular growth tailwinds (automation, aerospace, data center, medical). Aftermarket revenue (~40%) provides cyclical buffer. Altra and Rexnord PMC integration ongoing; synergy realization critical to valuation. Substantial indebtedness from $5.1B Altra acquisition requires de-leveraging focus. 80/20 and RBS initiatives drive operational efficiency. Recommend monitoring M&A integration progress and free cash flow generation for de-leveraging timeline.",
+    "CLSD_Clearside": "Going-concern doubt and strategic review signal existential risk. XIPERE approved but commercialization dependent on Bausch/Arctic Vision; no direct revenue. CLS-AX Phase 2b positive (ODYSSEY trial, Oct 2024) but Phase 3 pathway uncertain. Workforce reduction and reverse stock split proposal indicate financial distress. Recommend avoiding until strategic alternative clarity or capital infusion announced.",
+    "GLXY_Galaxy_Digital": "Newly listed (May 2025); limited operating history. Digital assets business nascent and unproven; regulatory uncertainty (security classification risk) material. Data Centers (Helios) expected to generate revenue starting 2026 (CoreWeave deal) but execution risk high. Founder control (53.9% voting) creates governance risk. Substantial litigation and regulatory exposure (50+ regulators). Recommend monitoring Helios build-out progress and CoreWeave lease revenue realization.",
+    "MTSR_Metsera": "Pre-revenue biotech; clinical proof-of-concept pending (Phase 1/2 MET-224o late 2025). Preclinical data strong (oral bioavailability, half-life, potency) but animal models do not guarantee human efficacy. D&D license agreement creates dependency and royalty burden (mid-single to mid-teen %). IPO pending; significant dilution expected. Competitive landscape crowded (semaglutide, tirzepatide, other GLP-1 RAs). Recommend monitoring Phase 1/2 results and clinical differentiation vs approved agents.",
+    "DURABLE_CAPITAL_LP": "Hedge fund with $7.98B cumulative AUM; limited transparency on holdings and strategy. Form D/A does not disclose portfolio concentration or performance. Recommend treating as opaque alternative investment vehicle; not suitable for direct equity analysis."
+  },
+  "source_urls": [
+    "SEC EDGAR: Humacyte Inc. (HUMA) 10-K filed 2026-03-27",
+    "SEC EDGAR: WillScot Holdings Corp (WSC) 10-K filed 2026-02-19",
+    "SEC EDGAR: Regal Rexnord Corp (RRX) 10-K filed 2026-02-20",
+    "SEC EDGAR: Durable Capital Onshore Fund LP Form D/A filed 2025-10-22",
+    "SEC EDGAR: Clearside Biomedical Inc (CLSD) 10-Q filed 2025-08-08",
+    "SEC EDGAR: Galaxy Digital Inc (GLXY) S-1 filed 2025-05-27",
+    "SEC EDGAR: Metsera Inc (MTSR) S-1/A filed 2025-01-27"
+  ]
+}
+```
 

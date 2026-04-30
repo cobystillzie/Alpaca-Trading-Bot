@@ -352,4 +352,30 @@
   ]
 }
 ```
+## Market Regime Research - 2026-04-30 13:33:09 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equity markets exhibit **risk-on momentum** with S&P 500 and Nasdaq at all-time highs (+9.3% and +14.52% MTD April), driven by tech megacaps and positive EPS expectations amid AI catalysts, despite Fed rate hold, rising inflation (headline 3.3%), and geopolitical tensions. Q1 GDP rebounded to 2.0% but compositionally weak; mixed Mag7 earnings post-April 29 add short-term volatility.[1][2][3][7][9]",
+  "market_regime": "Bullish trend with **narrow leadership** (tech-heavy, equal-weight S&P +4.36% vs cap-weight +9.3%); Fed pause at 3.5-3.75% signals no near-term cuts amid inflation risks and 4 FOMC dissents; VIX implied low but oil/geopolitics elevate volatility; overall **cautious risk-on** for paper-trading.[1][2][4][5][8][11]",
+  "sector_rotation": "**Technology dominant** (+18.19% MTD, led by semis/AI: NVDA, ASML, GOOGL, NXPI); Momentum ETFs like SPMO +17.81% 1M; Energy underperforms (-4.28% MTD); Biotech/pharma (LLY, ANIX, TNXP) on catalysts but lower confidence; small-caps (Russell 2000 +8.86%) lagging megacaps.[1][4]",
+  "risk_flags": [
+    "Fed divided (4 dissents since 1992), easing bias questioned; rates potentially higher for longer.[2][4][5][8]",
+    "Inflation rising (headline 3.3%, core 2.6%, exp 4.7%); oil surge from Iran tensions.[2][3][7]",
+    "Consumer sentiment drop to 49.7; GDP rebound mechanical (gov't shutdown reversal).[1][7]",
+    "Mixed Mag7 earnings (MSFT/AMZN beats, META user miss); capex guidance key for AI.[3][9]",
+    "Narrow breadth: Tech concentration risks if rotation fails.[1]"
+  ],
+  "source_urls": [
+    "https://exante.eu/press/market-updates/3011-is-it-time-for-investors-to-think-about-the-chokepoint-premium/",
+    "https://www.americancentury.com/insights/fed-watch/fed-meeting-april-2026-interest-rates/",
+    "https://www.youtube.com/watch?v=01BefTpOFEs",
+    "https://www.thestreet.com/latest-news/stock-market-today-apr-29-2026-update",
+    "https://www.mufgresearch.com/rates/april-2026-fed-rates-call-update/",
+    "https://www.foxbusiness.com/economy/federal-reserve-interest-rate-decision-april-29-2026",
+    "https://www.heygotrade.com/en/news/us-q1-2026-gdp-advance-estimate-rebound/",
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm"
+  ]
+}
+```
 
