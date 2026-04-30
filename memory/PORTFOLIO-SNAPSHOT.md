@@ -40,4 +40,13 @@ Buying power: 198424.31
 Positions:
 - GOOGL: qty=2.151289429, market_value=811.251244, unrealized_pl=11.251244
 - SPMO: qty=6.119014838, market_value=813.186477, unrealized_pl=13.186477
+## Midday Risk Scan - 2026-04-30 12:40:02 Eastern Daylight Time
+
+Portfolio value: 100024.91
+Cash: 98400
+Buying power: 198424.91
+
+Positions:
+- GOOGL: qty=2.151289429, market_value=811.124102, unrealized_pl=11.124102
+- SPMO: qty=6.119014838, market_value=813.828973, unrealized_pl=13.828973
 

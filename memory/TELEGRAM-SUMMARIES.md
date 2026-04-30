@@ -763,4 +763,83 @@ Chittick reject reason: none
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: none
+## Midday Memo - 2026-04-30 12:40:02 Eastern Daylight Time
+
+Midday Risk Memo
+
+Recommendation: Hold only positions whose thesis still matches the research; do not add unless guardrails pass.
+
+Market Regime
+Review current paper positions, thesis drift, concentration, stop discipline, and cash reserve.
+
+Portfolio
+Portfolio value: 100024.91 Cash: 98400 Buying power: 198424.91 Positions: - GOOGL: qty=2.151289429, market_value=811.124102, unrealized_pl=11.124102 - SPMO: qty=6.119014838, market_value=813.828973, unrealized_pl=13.828973
+
+Top Candidates
+
+1. SPMO (Broad Equity Momentum ETF) | confidence 0.78 | allocation 8.0% | stop 6.0% | Chittick 70/100
+Thesis: Broad equity momentum ETF blending quality megacaps with strong relative strength in risk-on regime, aligning with strategy's momentum and Chittick Cash quality lens.
+Catalyst: +17.81% 1-month return to $132.29 (03/27-04/27/26), +1.23% daily gains trading $128-$132 with highs $131.50, continuing uptrend from 52-week low $78.25 amid S&P strength.
+Entry: Enter on pullback to $128-129 support if volume holds; paper-trade at market open if above $130.
+Exit: Take profits at $135-137 (next resistance); invalidate below $125 (recent low).
+Risk/reward: 3:1 potential (6% risk to $125 vs 8-10% upside to $137) with defined support.
+Bear/adversary: Momentum dependency amplifies downside in risk-off shift; opportunity cost vs concentrated GOOGL.
+Source quality: Strong from repeated candidate tables, market regime data, and SEC 13F analysis; no hype reliance.
+Chittick Cash Filter
+Score: 70/100
+Margin of safety: ETF structure diversifies single-stock risk; downside to 52-week low $78 provides buffer, but elevated tech multiples limit margin.
+Valuation: Attractive momentum premium vs broad market; tech holdings at 25-30x P/E reasonable for AI growth.
+Growth runway: AI capex cycle and S&P leadership through 2026; longer-term factor rotation favors quality momentum.
+Balance-sheet risk: Low; underlying mega-caps have strong cash positions, minimal debt.
+Capital allocation: ETF sponsor reinvests dividends/buybacks; underlying firms show discipline.
+Concentration case: Deserves slot over broad S&P for momentum factor edge in narrow rally.
+Owner thesis, 30-180 days: Sustained AI/semiconductor leadership and S&P uptrend could justify 30-180 day review if Chittick score >80.
+Chittick reject reason: none
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
+
+2. GOOGL (Technology / Internet Services) | confidence 0.75 | allocation 8.0% | stop 6.0% | Chittick 82/100
+Thesis: High-quality internet services leader with AI tailwinds, fitting Chittick Cash seed watchlist and quality discipline for short-term swings.
+Catalyst: AI compute demand from Perplexity/OpenAI deals signaling cloud growth; upcoming Q1 earnings guidance.
+Entry: Enter on dip to 5-day MA support; paper-trade if holds above recent highs.
+Exit: Profits at pre-earnings run-up target; stop below key support.
+Risk/reward: Risk 6% to support for 10-12% upside on earnings beat.
+Bear/adversary: Regulatory overhang outweighs catalysts if DOJ cases escalate.
+Source quality: Strong from candidate tables and market regime; official AI deal context.
+Chittick Cash Filter
+Score: 82/100
+Margin of safety: Fortress balance sheet and moat provide downside protection; trading below historical multiples.
+Valuation: Attractive vs quality peers given AI growth inflection.
+Growth runway: Cloud/AI expansion through 2027+; search dominance endures.
+Balance-sheet risk: Low debt, high cash; minimal cyclicality.
+Capital allocation: Exemplary buybacks and AI reinvestment.
+Concentration case: Seed watchlist priority over broad ETFs for owner-like thesis.
+Owner thesis, 30-180 days: Cloud AI market share gains and 20%+ FCF growth justify 30-180 day hold review.
+Chittick reject reason: none
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
+
+3. NVDA (Semiconductors) | confidence 0.80 | allocation 8.0% | stop 7.0% | Chittick 75/100
+Thesis: Semiconductor leader with AI dominance, blending quality, catalyst, and momentum for swing trades.
+Catalyst: Ranked #1 2026 swing stock; resilient on CoreWeave $63.9B AI data center deals and Vera Rubin demand.
+Entry: Buy pullback to 10-day MA; paper-execute on volume confirmation.
+Exit: Target next resistance; stop below recent lows.
+Risk/reward: 7% risk for 12-15% reward on momentum continuation.
+Bear/adversary: Competition from custom chips erodes pricing power.
+Source quality: High from consistent candidate rankings and AI news context.
+Chittick Cash Filter
+Score: 75/100
+Margin of safety: Growth justifies premium; cash-rich balance sheet.
+Valuation: Elevated but supported by 100%+ growth runway.
+Growth runway: AI data center capex boom through 2028.
+Balance-sheet risk: Low debt; inventory cyclicality moderate.
+Capital allocation: Aggressive buybacks and R&D focus.
+Concentration case: AI pure-play edge over diversified semis.
+Owner thesis, 30-180 days: Sustained GPU demand leadership for 30-180+ days.
+Chittick reject reason: none
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
 
