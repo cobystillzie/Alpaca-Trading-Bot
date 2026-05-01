@@ -1437,4 +1437,34 @@ Chittick Cash: Diversified 100 holdings; momentum filter.
 HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-01 04:11:31 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equity markets maintain risk-on momentum with S&P 500 and Nasdaq near ATHs, fueled by AI/cloud earnings beats (GOOGL Cloud +63% YoY) and hyperscaler $725B 2026 CapEx pledges, despite Fed rate hold and inflation risks.
+Candidates: 3
+
+1. GOOGL (Technology / Internet Services / Cloud) | confidence 0.82 | allocation 8.0% | stop 6.0% | Chittick 82/100
+Recommendation: execute-if-guards-pass
+Catalyst: Q1 2026 earnings beat: $109.9B revenue (+22% YoY), Cloud $20B (+63% YoY first time), EPS $5.11 (+82% YoY); Perplexity/OpenAI deals validate demand.
+Chittick Cash: Trading at 25x forward EPS with 20%+ growth; strong cash position buffers downside.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. NVDA (Semiconductors / AI Infrastructure) | confidence 0.80 | allocation 8.0% | stop 7.0% | Chittick 75/100
+Recommendation: watch
+Catalyst: Hyperscalers $725B 2026 CapEx pledge; CoreWeave $63.9B deals, Vera Rubin ramp, B300 servers $1M China pricing.
+Chittick Cash: Dominant market share provides buffer; cash-rich balance sheet.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. SPMO (Broad Equity Momentum ETF / S&P 500) | confidence 0.78 | allocation 8.0% | stop 6.0% | Chittick 70/100
+Recommendation: watch
+Catalyst: +17.81% 1M return to $132.29; S&P ATHs, tech earnings beats.
+Chittick Cash: Diversified holdings reduce single-stock risk; low expense ratio.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Social buzz, low weight: none
+Congress signal, low weight: none
 

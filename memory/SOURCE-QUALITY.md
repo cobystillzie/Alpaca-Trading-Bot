@@ -1254,4 +1254,33 @@ SEC/company quality check:
   ]
 }
 ```
+## Source And Signal Research - 2026-05-01 04:11:31 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No unusual discussion or social buzz detected around liquid US stocks or ETFs, including candidates like SPMO, GOOGL, NVDA, and ETN. Existing catalysts (e.g., GOOGL earnings beat, NVDA CapEx pledges) show steady attention without hype or pump language.",
+  "social_buzz": "Weak; no evidence of surging mentions, viral threads, or coordinated promotion on public web/social platforms.",
+  "attention_anomalies": "None identified. No flagged hype, pump language, or unsupported claims in coverage.",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No recent congressional disclosures found for liquid US stocks or ETFs among current candidates (GOOGL, NVDA, SPMO, ETN). Relevant trades include Rep. Gilbert R. Cisneros Jr. (1 purchase up to $15K and 1 sale up to $15K of $AME on 01/09 and 02/10), Rep. Debbie Dingell (1 purchase up to $15K of $PTA on 04/21), and multiple sales in $PH (net 1 buy/6 sells over 6 months). These are low-weight, delayed signals for non-candidate tickers.",
+  "congressional_signal": "None for GOOGL, NVDA, SPMO, ETN. Minor activity in $AME (mixed), $PTA (buy), $PH (net sells). Low relevance to candidates.",
+  "tickers": ["AME", "PTA", "PH"],
+  "source_urls": []
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "Watchlist candidates (GOOGL, NVDA, SPMO) show strong momentum from AI/cloud demand, hyperscaler CapEx pledges ($725B in 2026), and recent earnings beats (GOOGL Q1: $109.9B rev +22% YoY, Cloud $20B +63%). No direct SEC filings for these tickers in results; WSC 10-K highlights modular space leasing business with long asset lives (20-30 yrs, >50% residual value) but unrelated to watchlist. Special attention to GOOGL: durable AI compute demand validated by Perplexity/OpenAI deals and cloud growth.",
+  "filing_risks": "No recent SEC/company filings available for GOOGL, NVDA, or SPMO in search results to assess balance-sheet, concentration, litigation, dilution, revenue quality, capital allocation, or valuation risks. WSC 10-K (filed 2026-02-19) discloses risks including economic conditions, credit risk, debt servicing, substantial indebtedness covenants limiting flexibility, goodwill/intangible impairments, tax attributes utilization, raw material/labor cost increases, tariffs, cybersecurity, and activist shareholders. Durable Capital hedge funds (Form D/A) show large AUM ($3.9B offshore, $7.9B onshore) but no direct watchlist exposure noted.",
+  "quality_notes": "GOOGL revenue quality strong: Cloud +63% YoY first-time $20B milestone indicates durable AI-driven demand; Perplexity/OpenAI deals validate ecosystem. NVDA ecosystem validated by hyperscaler $725B CapEx, CoreWeave $63.9B, AMZN $20B+ chip run-rate. SPMO momentum solid (+17.81% 1M) tracking S&P ATHs/tech beats, but ETF lacks granular revenue quality. No dilution/litigation flags in memory or results for watchlist. Chittick scores high (GOOGL 82, NVDA 75-80, SPMO 70-78) with consistent 'watch' or 'execute-if-guards-pass' recommendations.",
+  "source_urls": []
+}
 

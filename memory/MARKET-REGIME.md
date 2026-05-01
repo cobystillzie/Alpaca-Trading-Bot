@@ -602,4 +602,24 @@
   ]
 }
 ```
+## Market Regime Research - 2026-05-01 04:11:31 Eastern Daylight Time
+
+{
+  "summary": "US equity markets exhibit strong bullish tone with S&P 500 and Nasdaq at all-time highs, driven by robust Q1 tech earnings beats (e.g., GOOGL +22% revenue, Cloud +63%) and AI momentum, despite persistent inflation, Fed rate hold at 3.5-3.75%, and geopolitical energy risks.",
+  "market_regime": "Risk-on, momentum-driven uptrend in broad indices (S&P 500 +9.30% MTD April, Nasdaq +14.52%) and megacaps, supported by AI capex pledges ($725B hyperscalers 2026) and positive EPS revisions; equal-weight S&P lags cap-weighted by ~5%, indicating concentration risk.[1][3]",
+  "sector_rotation": "Technology dominant (+18.19% MTD, led by GOOGL, NVDA, AMZN on AI/cloud beats); Energy weak (-4.28% MTD amid oil volatility); Industrials emerging (ETN options flow on AI power demand); broadening to momentum (SPMO +17.81% 1M).[1][3]",
+  "risk_flags": [
+    "Fed holds rates steady (3.5-3.75%), markets pricing no 2026 cuts or potential hikes due to inflation surge (CPI +3.3% YoY March, expectations 4.7%).[2][5]",
+    "Geopolitical tensions (Iran war, energy shocks) driving inflation persistence and yield curve flattening (2s-10s at 46.9bps).[1][6]",
+    "Consumer sentiment decline (U. Michigan 49.7, -6.6% MoM) and market concentration in megacaps.[1]",
+    "Volatility from energy prices and Fed leadership transition (Powell era ends).[5][8]"
+  ],
+  "source_urls": [
+    "https://exante.eu/press/market-updates/3011-is-it-time-for-investors-to-think-about-the-chokepoint-premium/",
+    "https://rankiapro.com/en/news/fed-holds-rates-steady-april-2026/",
+    "https://www.sc.com/en/uploads/sites/66/content/docs/wm-weekly-market-view-the-earnings-bedrock-30-april-2026.pdf",
+    "https://finance-commerce.com/2026/04/fed-rate-cuts-doubt-warsh-oil-inflation/",
+    "https://www.cmegroup.com/videos/2026/04/30/energy-volatility-and-central-bank-pauses-define-the-week-ahead-.html"
+  ]
+}
 
