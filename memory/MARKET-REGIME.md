@@ -559,4 +559,47 @@
   ]
 }
 ```
+## Market Regime Research - 2026-05-01 02:10:53 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equity markets closed April 2026 in a risk-on regime with the S&P 500 up 10.4%, Nasdaq up 15.3%, and the Nasdaq 100 posting a new all-time high. Strong mega-cap tech earnings (Amazon, Google, Microsoft) drove breadth expansion, though elevated volatility (VIX 29.02) and a stronger US Dollar Index signal caution. The Federal Reserve maintained a hawkish stance on inflation with rates expected to remain elevated, creating a push-pull dynamic between growth asset strength and underlying risk-off headwinds. For paper-trading workflows, this represents a cautious risk-on environment suitable for momentum-following strategies with tight risk management.",
+  "market_regime": {
+    "index_trend": "Risk-on with caution",
+    "nasdaq_100_status": "New ATH, +0.58% daily, above rising 21-day moving average, short-term extended at 3.02x ATR from 21-ema",
+    "sp500_status": "Up 10.4% in April, near all-time highs, breadth expanding",
+    "breadth_regime": "Expanding above rising 10-day moving average; McClellan Summation Index hooked back up above neutral (+0.35σ runway); breadth oscillator neutral",
+    "volatility_regime": "Elevated caution: VIX at 29.02 (+2.44%), indicating investor worry about future volatility despite price strength",
+    "fed_policy": "Hawkish on inflation; interest rates expected to remain elevated longer than previously anticipated; no rate cuts priced until late 2026",
+    "dollar_strength": "US Dollar Index strengthened slightly, creating headwinds for commodities (gold -0.74%) and digital assets",
+    "credit_spreads": "Risk-on signal: downside reversal following rejection of declining 21-day moving average structure",
+    "internals_assessment": "Clean risk-on picture across price, breadth, internals, and liquid leaders; no red flags reported"
+  },
+  "sector_rotation": {
+    "leadership": "Technology and semiconductors leading; mega-cap earnings beats driving confidence",
+    "mega_cap_tech": "Amazon +1.29%, strong AWS earnings (+28% beat validates cloud/AI demand); Google Q1 beat ($109.9B revenue +22% YoY, Cloud $20B +63% YoY); Microsoft, NVIDIA hitting new highs",
+    "semiconductor_strength": "Broad rally beyond AI leaders to industrial and analog chipmakers; NVIDIA resilient on CoreWeave $63.9B AI data center deals and Vera Rubin demand; B300 server prices surge to $1M in China on supply constraints",
+    "ai_infrastructure": "Data center buildout accelerating; hyperscalers pledging $725B CapEx in 2026 (up from $650B prior quarter); institutional AI flows supporting ecosystem",
+    "cyclical_caution": "Cyclical companies delivering solid earnings but remaining cautious on future guidance; 'guidance gap' emerging between results and forward outlooks",
+    "digital_assets": "Bitcoin and Ethereum consolidating with minor pullbacks; stronger dollar and elevated rates creating headwinds despite long-term halving narrative support",
+    "momentum_etf_strength": "SPMO (S&P 500 Momentum ETF) +17.81% 1-month return to $132.29, trading near 52-week highs ($131.50), continuing uptrend from $78.25 low"
+  },
+  "risk_flags": {
+    "volatility_disconnect": "VIX elevated at 29.02 despite Nasdaq strength and new ATHs; investors preparing for potential volatility despite price momentum",
+    "short_term_extension": "Nasdaq 100 short-term extended at 3.02x ATR from 21-ema; market vulnerable to pullback after strong run",
+    "guidance_gap": "Cyclical companies cautious on forward guidance despite beating current earnings; potential headwind for sustained rally",
+    "rate_headwinds": "Elevated interest rates making higher-yielding bonds more attractive than growth assets; direct negative impact on risk appetite",
+    "dollar_strength": "Stronger USD pressuring commodities and digital assets; potential headwind for multinational earnings",
+    "regulatory_uncertainty": "European Parliament Committee proposed new AML directives for crypto; while supportive long-term, near-term compliance uncertainty remains",
+    "inter_asset_correlation": "Monitor correlation breakdown between equities and digital assets; could signal leadership shift",
+    "positioning_risk": "Open heat above 10%, closed delta still growing at 7%; market positioning extended after strong April rally"
+  ],
+  "source_urls": [
+    "https://www.iconomi.com/blog/monthly-market-wrap-april-2026",
+    "https://primetrading.substack.com/p/the-prime-report-430",
+    "https://fintech.tv/sp-500-surges-10-in-april-big-tech-earnings-fed-decision-in-focus/",
+    "https://intellectia.ai/news/stock/data-centers-drive-ai-infrastructure-revolution"
+  ]
+}
+```
 

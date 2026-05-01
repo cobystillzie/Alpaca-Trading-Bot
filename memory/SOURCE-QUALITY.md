@@ -1173,4 +1173,85 @@ SEC/company quality check:
   "quality_notes": "SPMO: Broad ETF with momentum (+17.81% 1M), low concentration risk, durable S&P uptrend[all candidate tables]. GOOGL: High-quality revenue growth (Q1 $109.9B +22% YoY, Cloud $20B +63%), AI tailwinds validated; watch revenue concentration in cloud/search[latest candidates]. NVDA: #1 swing stock ranking, ecosystem validation (AMZN $20B+ chips), capital allocation strong on deals; monitor supply chain/valuation[latest candidates]. No balance-sheet/litigation/dilution red flags in memory.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-01 02:10:53 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No unusual discussion, hype, or pump language detected around liquid US stocks/ETFs including SPMO, NVDA, GOOGL, or ETN based on available memory and lack of search results.",
+  "social_buzz": "Weak; no evidence of heightened social attention or viral discussions.",
+  "attention_anomalies": "None identified. Mentions of catalysts (e.g., GOOGL earnings beat, NVDA CapEx pledges) appear fundamental-driven without unsupported claims or risk flags.",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+{"summary":"No recent congressional trades reported for liquid US stocks/ETFs matching existing candidates (NVDA, GOOGL, SPMO, ETN). Minor disclosures include: Rep. Debbie Dingell purchased up to $15,000 PTA on 04/21/2026 (1 purchase, illiquid small-cap); AME with 1 purchase/1 sale; PH with 1 purchase/6 sales in past 6 months.[1][2][4]","congressional_signal":"low-weight; single small PTA purchase by Rep. Dingell (04/21); net sales in PH/AME/JLL; no overlap with candidates.","tickers":[],"source_urls":["https://www.quiverquant.com/news/PTA+Stock+(PTA)+Opinions+on+Congressional+Trade+Disclosure","https://www.quiverquant.com/news/AMETEK+($AME)+Releases+Q1+2026+Earnings","https://www.quiverquant.com/news/PARKER-HANNIFIN+($PH)+Releases+Q3+2026+Earnings","https://www.quiverquant.com/news/JLL+falls+6%25+as+investors+weigh+strong+Q1+results+against+unchanged+outlook+and+heavy+cash+outflow"]}
+
+SEC/company quality check:
+```json
+{
+  "summary": "Analysis of 7 SEC filings (Humacyte HUMA, WillScot WSC, Regal Rexnord RRX, Durable Capital hedge fund, Clearside Biomedical CLSD, Galaxy Digital GLXY, Metsera MTSR) reveals mixed quality across biotech, industrials, and digital assets. HUMA shows durable vascular trauma franchise with FDA approval and cost-saving economics. WSC and RRX demonstrate stable industrial/modular businesses with scale advantages. CLSD faces existential going-concern risk and strategic review. GLXY presents high-growth AI/crypto exposure with regulatory uncertainty. MTSR offers early-stage obesity pipeline with platform optionality. None directly address GOOGL/INTC/USAR/GT watchlist.",
+  "filing_risks": {
+    "HUMA": [
+      "Revenue concentration: Single approved indication (extremity vascular trauma) with limited commercial scale; V006 hemodialysis trial missed primary efficacy endpoint vs. ePTFE at 24 months despite infection advantage",
+      "Clinical durability: Long-term data (36 months) shows infection-free rate 92.9% but limb salvage declined from 87.3% (12mo) to 82.5% (24mo); V007 thrombosis rate 52.9% vs. 9.1% AVF comparator signals safety trade-off",
+      "Regulatory pathway: Hemodialysis indication still pending; V012 women-focused trial ongoing with interim analysis expected April 2026; no guarantee of approval or market adoption",
+      "Reimbursement risk: Budget impact model (March 2025) projects cost savings but assumes adoption; actual payer coverage and pricing power unproven"
+    ],
+    "WSC": [
+      "Cyclical exposure: Modular/portable storage tied to construction, industrial, and event cycles; economic downturn could compress utilization and pricing",
+      "Integration execution: Completed UK Storage Solutions divestiture (Jan 2023); must demonstrate organic growth and VAPS monetization to justify valuation",
+      "Competitive intensity: Fragmented market with low barriers to entry; pricing pressure from regional competitors and customer consolidation",
+      "Capital allocation: Large accelerated filer status suggests debt leverage; must balance deleveraging with shareholder returns and CapEx for fleet refresh"
+    ],
+    "RRX": [
+      "Altra integration risk: $5.1B acquisition (March 2023) still integrating; synergy realization dependent on execution; substantial indebtedness limits financial flexibility",
+      "Industrial Systems divestiture: Sold motors/generators business (April 2024) for $444M; loss of scale in legacy segment; must prove IPS/AMC/PES segments can drive growth",
+      "Commodity/tariff exposure: Raw material costs, tariffs on China/India imports, and trade policy uncertainty create margin pressure; 80/20 initiatives may not offset macro headwinds",
+      "Customer concentration: No single customer >10% but OEM relationships critical; loss of key customer or order adjustments could materially impact revenue"
+    ],
+    "CLSD": [
+      "Going-concern doubt: Accumulated deficit $368M; net losses $12.7M (6mo 2025); cash insufficient for 12-month operations; substantial doubt raised in 10-Q",
+      "Strategic review: Announced July 2025 exploration of sale, license, or divestiture; all employees transitioned to consulting roles; $2.6M severance charges expected Q3 2025",
+      "Nasdaq delisting risk: Minimum bid price requirement violated (Feb 2025); reverse stock split (1-for-5 to 1-for-15) proposed to regain compliance; delisting appeal pending",
+      "Pipeline concentration: XIPERE commercialization rights sold to Bausch/Arctic Vision; CLS-AX Phase 3 readiness dependent on formulation optimization trial results (late 2025 expected)"
+    ],
+    "GLXY": [
+      "Regulatory fragmentation: Subject to >50 federal/state/foreign regulators; digital asset classification risk (security vs. commodity) could adversely impact asset valuations and business model",
+      "Crypto volatility: Operating results highly correlated to BTC/ETH price movements; no revenue from Data Centers segment yet; CoreWeave lease-up timeline uncertain",
+      "Key person risk: Founder controls 53.9% voting power post-IPO; concentration of decision-making and succession risk",
+      "AI/HPC execution: Helios campus 393 MW committed capacity (CoreWeave) but 1.7 GW under load study; long-term lease model assumes 10-15 year customer retention unproven"
+    ],
+    "MTSR": [
+      "Preclinical stage: MET-224o Phase 1/2 initiation expected late 2025; no human efficacy data; oral GLP-1 RA market crowded (Rybelsus, semaglutide, tirzepatide)",
+      "D&D licensing dependency: $10M upfront + up to $112.5M-$225M milestones + tiered royalties (low-single to mid-teen %); D&D retains ROFR on injectable amylin/GLP-1 molecules",
+      "Capital intensity: Early-stage biotech with limited cash runway; will require significant financing for Phase 2/3 trials; dilution risk high",
+      "Competitive landscape: GLP-1/GIP/glucagon combinations already in late-stage development (Eli Lilly, Novo Nordisk); MTSR's differentiation (oral bioavailability, bias) unproven in humans"
+    ],
+    "Durable_Capital_Hedge_Fund": [
+      "Limited transparency: Form D/A filing shows $7.98B total amount sold but aggregate net asset value 'Decline to Disclose'; 510 accredited investors only",
+      "Regulatory exemption reliance: Relies on Reg D 3C exemptions; subject to SEC oversight but limited public disclosure; hedge fund structure limits investor protections"
+    ]
+  },
+  "quality_notes": {
+    "HUMA": "Durable franchise: FDA-approved vascular trauma indication with 87.1% primary patency and 0.9% infection rate vs. 8.4% synthetic graft benchmark (30-day). Long-term data (36mo) shows structural integrity and low infection (92.9% infection-free 3-36mo). Budget impact model projects cost savings for trauma centers and payers. However, hemodialysis indication missed primary efficacy endpoint; V007 thrombosis rate (52.9%) and declining limb salvage (87.3%→82.5%) raise durability questions. Revenue model unproven; commercial scale limited.",
+    "WSC": "Stable cash-generative business: ~260 branch network, 15 end-market diversification, VAPS monetization strategy. Modular units have 20+ year economic lives with >50% residual values; strong fleet management capabilities. However, cyclical exposure, competitive intensity, and integration execution risks limit upside. Large accelerated filer status suggests leverage; deleveraging priority may constrain shareholder returns.",
+    "RRX": "Scale and portfolio breadth: $5.1B Altra acquisition adds factory automation/power transmission; 80/20 initiatives and RBS continuous improvement framework. Three-segment structure (AMC, IPS, PES) provides diversification. However, Altra integration still ongoing; Industrial Systems divestiture reduces legacy scale; tariff/commodity exposure and customer concentration create margin pressure. Substantial indebtedness limits M&A optionality.",
+    "CLSD": "Platform optionality: SCS Microinjector technology licensed to Bausch (XIPERE), Arctic Vision, BioCryst, REGENXBIO, Aura. XIPERE approved (Oct 2021); Health Canada approval (July 2025). CLS-AX Phase 2b (ODYSSEY) achieved primary/secondary endpoints; Phase 3 alignment with FDA. However, going-concern doubt, strategic review, and Nasdaq delisting risk are existential. Employee transition to consulting roles signals distress. Pipeline dependent on partner execution.",
+    "GLXY": "Diversified digital asset platform: 1,381 trading counterparties, 1,200+ asset management clients, $7B AUM (March 2025). Global Markets (spreads, lending, M&A fees) + Asset Management (management/performance fees) + Data Centers (Helios 393 MW committed, 1.7 GW under study). Bitcoin mining and venture investing provide balance-sheet diversification. However, regulatory fragmentation, crypto volatility, founder control (53.9%), and AI/HPC execution risk (CoreWeave lease-up timeline) create uncertainty. No Data Centers revenue yet.",
+    "MTSR": "Platform differentiation: HALO lipidation (extended half-life), MOMENTUM oral delivery (bioavailability >5x Rybelsus in canines), fully biased GLP-1 RA (minimal β-arrestin recruitment). MET-224o preclinical data shows 100-hour half-life (vs. 37-hour MET-002), comparable body weight loss to MET-097i in DIO mice. D&D collaboration provides IP/know-how access. However, early-stage (Phase 1/2 initiation late 2025), capital-intensive, crowded competitive landscape, and D&D licensing dependency (tiered royalties, ROFR) limit near-term value creation.",
+    "Watchlist_Gap": "No direct evidence on GOOGL/INTC/USAR/GT in provided filings. GOOGL Q1 2026 earnings ($109.9B +22% YoY, Cloud $20B +63%) validate AI compute demand but no SEC filing detail provided. INTC, USAR, GT absent from search results; recommend separate SEC filing review for balance-sheet, litigation, and capital allocation risks."
+  },
+  "source_urls": [
+    "SEC EDGAR: Humacyte Inc. (HUMA) 10-K filed 2026-03-27",
+    "SEC EDGAR: WillScot Holdings Corp (WSC) 10-K filed 2026-02-19",
+    "SEC EDGAR: Regal Rexnord Corp (RRX) 10-K filed 2026-02-20",
+    "SEC EDGAR: Durable Capital Onshore Fund LP Form D/A filed 2025-10-22",
+    "SEC EDGAR: Clearside Biomedical Inc (CLSD) 10-Q filed 2025-08-08",
+    "SEC EDGAR: Galaxy Digital Inc (GLXY) S-1 filed 2025-05-27",
+    "SEC EDGAR: Metsera Inc (MTSR) S-1/A filed 2025-01-27"
+  ]
+}
+```
 
