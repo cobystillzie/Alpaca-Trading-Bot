@@ -1467,4 +1467,34 @@ Chittick Cash: Diversified holdings reduce single-stock risk; low expense ratio.
 HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-01 06:12:54 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities remain in strong risk-on regime with S&P 500 near all-time highs, driven by AI/tech momentum. GOOGL Q1 earnings beat (Cloud +63% YoY to $20B), hyperscaler $725B 2026 CapEx pledge, and NVDA ecosystem validation (CoreWeave, Vera Rubin) sustain candidate momentum amid no fresh search data.
+Candidates: 3
+
+1. GOOGL (Technology / Internet Services / Cloud) | confidence 0.82 | allocation 8.0% | stop 6.0% | Chittick 82/100
+Recommendation: execute-if-guards-pass
+Catalyst: Q1 2026 earnings beat: $109.9B revenue (+22% YoY), Cloud $20B (+63% YoY first time exceeding $20B milestone), EPS $5.11 (+82% YoY); Perplexity/OpenAI compute deals validate AI demand.
+Chittick Cash: Trading at 25x forward FCF with 20%+ revenue growth and pristine balance sheet; limited downside vs quality.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. NVDA (Semiconductors / AI Infrastructure) | confidence 0.80 | allocation 8.0% | stop 7.0% | Chittick 75/100
+Recommendation: watch
+Catalyst: Hyperscalers $725B 2026 CapEx pledge (up from $650B); CoreWeave $63.9B deals; Vera Rubin ramp; B300 servers $1M China pricing on supply constraints.
+Chittick Cash: Premium valuation justified by 100%+ growth; limited downside given ecosystem moat.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. SPMO (Broad Equity Momentum ETF / S&P 500) | confidence 0.78 | allocation 8.0% | stop 6.0% | Chittick 70/100
+Recommendation: watch
+Catalyst: +17.81% 1-month return to $132.29; +1.23% daily gains trading $128-$132 range with $131.50 highs; uptrend from $78.25 52-week low amid S&P ATHs.
+Chittick Cash: Diversified holdings reduce single-stock blowup risk; momentum discipline.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Social buzz, low weight: none
+Congress signal, low weight: none
 

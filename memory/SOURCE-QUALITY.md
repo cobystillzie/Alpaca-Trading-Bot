@@ -1283,4 +1283,123 @@ SEC/company quality check:
   "quality_notes": "GOOGL revenue quality strong: Cloud +63% YoY first-time $20B milestone indicates durable AI-driven demand; Perplexity/OpenAI deals validate ecosystem. NVDA ecosystem validated by hyperscaler $725B CapEx, CoreWeave $63.9B, AMZN $20B+ chip run-rate. SPMO momentum solid (+17.81% 1M) tracking S&P ATHs/tech beats, but ETF lacks granular revenue quality. No dilution/litigation flags in memory or results for watchlist. Chittick scores high (GOOGL 82, NVDA 75-80, SPMO 70-78) with consistent 'watch' or 'execute-if-guards-pass' recommendations.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-01 06:12:54 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No unusual discussion or social attention detected around liquid US stocks or ETFs, including candidates NVDA, GOOGL, SPMO, and ETN. Existing memory and candidate catalysts show standard AI/cloud momentum narratives without flagged hype, pump language, or unsupported claims.",
+  "social_buzz": "Weak; no evidence of heightened social media volume, viral threads, or coordinated promotion on platforms like X/Twitter, Reddit, or StockTwits for monitored symbols.",
+  "attention_anomalies": "None identified. Options activity in ETN noted in candidates but lacks social amplification or risk flags like pump language. Treat as weak context only.",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No recent congressional disclosures found for liquid US stocks/ETFs. Search results unavailable.",
+  "congressional_signal": "None detected; disclosures treated as low-weight, delayed context only.",
+  "tickers": [],
+  "source_urls": []
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": "Analysis of 7 SEC 10-K filings (DRCT, INUV, FATE, TMRC, NEOV, WS, ICCT) reveals material business-quality risks across small-cap and emerging-growth segments. Key findings: severe liquidity stress (DRCT going-concern doubt, $0.7M cash; INUV $2.8M cash, $5.1M working-capital deficit), high customer concentration (INUV 64.2% + 19.3% from two customers; DRCT 90% retention but prior major customer pause), revenue volatility from single-event disruptions (DRCT May 2024 customer pause cascading through 2025), and dilution risks from equity raises. No direct overlap with GOOGL/INTC/USAR/GT watchlist; however, NVDA ecosystem validation evident in hyperscaler CapEx pledges ($725B 2026) supports semiconductor demand thesis independent of these filings.",
+  "filing_risks": {
+    "DRCT (Direct Digital Holdings)": {
+      "going_concern": "Substantial doubt raised; $0.7M cash, $27.7M accumulated deficit, credit facility matures Dec 3, 2026 with $450K minimum cash covenant. Reorganization executed July 1, 2024 post-customer pause.",
+      "revenue_quality": "2025 revenue $34.7M (-44% YoY from $62.3M 2024); gross profit $10.4M (-40% YoY). Single sell-side customer pause (May 2024) on defamatory allegations caused 78% revenue decline 2024–2025; customer reconnected May 22, 2024 but volumes not recovered. Misinformation campaign claim unverified.",
+      "concentration": "~174K buy-side buyers but ~195 buy-side clients; 90% retention masks prior major disruption. Sell-side revenue recovery incomplete 12+ months post-reconnection.",
+      "dilution_capital": "Seeking additional financing (debt/equity); no assurances given. If equity raised, shareholder dilution likely.",
+      "litigation": "Defamatory article/blog post allegations; company claims coordinated misinformation but no resolution disclosed."
+    },
+    "INUV (Inuvo Inc.)": {
+      "going_concern": "Not explicitly flagged but $2.8M cash, $5.1M working-capital deficit, recurring operating losses ($5.1M 2025 vs. $5.8M 2024) indicate stress.",
+      "revenue_quality": "2025 revenue $X (2.9% growth vs. 2024); gross margin declined 10.1% to 74.5%. Operating loss $5.1M. Accumulated deficit $178.3M.",
+      "concentration": "Two customers = 83.5% of 2025 revenue (64.2% + 19.3%); 2024 was 82% (75% + 7%). Extreme concentration; loss of either customer material.",
+      "dilution_capital": "History of equity offerings and debt facilities to fund recurring losses. Credit facility dependent on receivables.",
+      "technology_risk": "Reliance on proprietary IntentKey LLM; 18 issued + 3 pending patents but business not dependent on single patent per disclosure."
+    },
+    "FATE (Fate Therapeutics)": {
+      "going_concern": "Not flagged; clinical-stage biotech with $113M market cap (June 2025). Smaller reporting company.",
+      "revenue_quality": "Pre-revenue; clinical-stage. No product commercialization; significant losses anticipated.",
+      "capital_intensity": "Substantial additional funding required for clinical trials; dilution risk from equity raises.",
+      "regulatory_risk": "Novel iPSC/CAR-T platform; FDA approval uncertain. Regulatory disagreements on trial design, data interpretation, or comparability could delay/halt development.",
+      "manufacturing": "Limited clinical-scale manufacturing experience; no commercial-scale experience. Third-party supplier dependencies.",
+      "dilution": "Multiple equity raises anticipated; current shareholders face material dilution."
+    },
+    "TMRC (Texas Mineral Resources)": {
+      "going_concern": "Substantial doubt raised; history of losses, immediate need for additional financing. Exploration-stage company.",
+      "revenue_quality": "No revenue; exploration-stage. Round Top Project (18.715% membership interest in RTMD) in exploration phase; no proven/probable reserves established.",
+      "capital_intensity": "Requires funding for cash calls to maintain membership interest; failure to fund triggers dilution. Membership interest could fall below 15%, eliminating unanimous approval rights.",
+      "dilution": "Significant dilution risk if unable to fund cash calls; membership interest in RTMD could be materially diluted.",
+      "operational_risk": "Mining inherently dangerous; permitting/licensing uncertain (New Mexico Steeple Rock venture non-binding LOI only). No history of metal production from Round Top.",
+      "commodity_exposure": "Rare earth element prices subject to market forces beyond control; macroeconomic headwinds (inflation, tariffs, supply chain)."
+    },
+    "NEOV (NeoVolta Inc.)": {
+      "going_concern": "Not flagged; emerging growth company, smaller reporting company.",
+      "revenue_quality": "Early-stage ESS manufacturer; sales commenced July 2019. Limited operating history; start-up risks.",
+      "manufacturing": "Transitioned to in-house production June 2023; limited commercial-scale experience. Reliance on contract partners for NVPlus, NV7600, C&I products.",
+      "supply_chain": "Sourcing from US/Asia; tariff/FEOC compliance risks. Buffer stocks maintained but supply disruption risk remains.",
+      "competition": "Competes with Tesla, LG Chem, Sonnen, Enphase, SunPower, SMA—all with greater resources, scale, brand recognition.",
+      "capital_intensity": "Requires funding for product development, manufacturing expansion, market entry (C&I segment). Federal ITC phase-out (sunset Dec 31, 2025) reduces incentive tailwinds.",
+      "market_risk": "Residential retrofit market ~3M homes without storage; new residential adoption 15–20% (2024) vs. 6% (2020). Financing models critical post-ITC sunset."
+    },
+    "WS (Worthington Steel)": {
+      "going_concern": "Not flagged; large accelerated filer, $1.5B market cap (Nov 2024).",
+      "revenue_quality": "Cyclical steel processing; commodity-exposed. Pricing driven by market factors, raw-material costs, transportation, economic conditions.",
+      "concentration": "Top 3 customers = 33% of fiscal 2025 net sales; material concentration.",
+      "capital_intensity": "Separation from Worthington Enterprises (Dec 1, 2023) as standalone; integration risks, debt refinancing needs.",
+      "operational_risk": "28 manufacturing facilities (US, Canada, China, India, Germany, Mexico); Sitem acquisition (June 3, 2025, post-FY end) adds Italy, France, Slovakia, Switzerland exposure. Integration execution risk.",
+      "tariff_trade": "Exposed to tariffs, trade restrictions, US trade policy changes (Trump administration tariffs mentioned).",
+      "margin_pressure": "Competitive pricing pressure, import competition, substitute materials; margin sustainability uncertain in downturn."
+    },
+    "ICCT (iCoreConnect Inc.)": {
+      "going_concern": "Not flagged; emerging growth company, smaller reporting company.",
+      "revenue_quality": "SaaS/healthcare IT platform; recurring revenue model. Limited operating history post-merger (Aug 25, 2023).",
+      "concentration": "No single customer >10% of revenue; however, one customer = 26% of accounts receivable (Dec 31, 2024) vs. 25% (Dec 31, 2023). Collections risk.",
+      "capital_intensity": "Requires funding for product development, sales expansion, acquisitions. History of acquisitions (2024, 2023) suggests ongoing M&A strategy.",
+      "dilution": "Emerging growth company; equity raises likely for growth/acquisitions.",
+      "intellectual_property": "No patents or trademarks; relies on trade secrets, NDAs, contractual rights. IP protection weaker than patent-backed competitors.",
+      "regulatory": "HIPAA compliance required; regulatory changes could increase compliance costs.",
+      "competition": "Highly competitive healthcare IT market; no single dominant competitor across full product range but multiple point-solution competitors."
+    }
+  },
+  "quality_notes": {
+    "balance_sheet_stress": "DRCT (going-concern doubt, $0.7M cash, Dec 2026 debt maturity), INUV ($2.8M cash, $5.1M working-capital deficit), TMRC (exploration-stage, immediate financing need) show acute liquidity pressure. FATE, NEOV, ICCT pre-revenue or early-stage; capital-intensive.",
+    "revenue_concentration": "INUV (83.5% from 2 customers) and DRCT (prior major customer pause, incomplete recovery) present single-event disruption risk. WS (33% from top 3 customers) more diversified but still material.",
+    "going_concern_flags": "DRCT and TMRC explicitly disclose substantial doubt. INUV and NEOV not flagged but cash positions and burn rates warrant monitoring.",
+    "dilution_trajectory": "All 7 companies face equity-raise dilution: DRCT (seeking financing post-reorganization), INUV (recurring losses, credit facility dependent on receivables), FATE (clinical-stage, multiple raises anticipated), TMRC (cash calls to maintain membership interest), NEOV (product development/market expansion), WS (post-separation debt refinancing), ICCT (M&A strategy).",
+    "litigation_reputational": "DRCT defamatory article/misinformation campaign claim unresolved; customer reconnection incomplete recovery suggests reputational/trust damage.",
+    "capital_allocation": "DRCT reorganization (July 2024) post-crisis; TMRC exploration-stage with no revenue; FATE clinical-stage with no commercialization path; NEOV manufacturing transition (June 2023) to in-house; WS Sitem acquisition (June 2025, post-FY) integration risk; ICCT M&A-driven growth.",
+    "valuation_risk": "DRCT ($0.7M cash, $27.7M accumulated deficit, Dec 2026 debt maturity) near distress; INUV ($2.8M cash, $5.1M working-capital deficit, $178.3M accumulated deficit) near distress; TMRC (exploration-stage, no reserves) speculative; FATE (pre-revenue, clinical-stage) speculative; NEOV (early-stage ESS, ITC phase-out headwind) speculative; WS (cyclical, tariff-exposed) commodity-linked; ICCT (early-stage SaaS, no patents) growth-dependent."
+  },
+  "source_urls": [
+    "SEC EDGAR: Direct Digital Holdings 10-K (2026-03-31, CIK 1880613)",
+    "SEC EDGAR: Inuvo Inc. 10-K (2026-03-05, CIK 829323)",
+    "SEC EDGAR: Fate Therapeutics 10-K (2026-02-26, CIK 1434316)",
+    "SEC EDGAR: Texas Mineral Resources 10-K (2025-11-28, CIK 1445942)",
+    "SEC EDGAR: NeoVolta Inc. 10-K (2025-09-29, CIK 1748137)",
+    "SEC EDGAR: Worthington Steel 10-K (2025-07-29, CIK 1968487)",
+    "SEC EDGAR: iCoreConnect Inc. 10-K (2025-05-30, CIK 1906133)"
+  ]
+}
+```
+
+---
+
+### **Key Observations for Watchlist Context**
+
+**NVDA Ecosystem Validation (Independent of Filings):**
+Hyperscaler CapEx pledge of $725B for 2026 (up from $650B prior quarter) and B300 server pricing surge to $1M in China validate semiconductor demand thesis. This supports NVDA watch recommendation independent of the 7 small-cap filings analyzed.
+
+**GOOGL Cloud Momentum (Independent of Filings):**
+Q1 2026 earnings beat ($109.9B revenue +22% YoY, Cloud $20B +63% YoY first time, EPS $5.11 +82% YoY) and Perplexity/OpenAI compute deals confirm AI demand. Supports execute-if-guards-pass recommendation.
+
+**No Direct Overlap with GOOGL/INTC/USAR/GT:**
+None of the 7 filings analyzed (DRCT, INUV, FATE, TMRC, NEOV, WS, ICCT) are GOOGL, INTC, USAR, or GT. Analysis focuses on business-quality risks in small-cap/emerging-growth segments as requested.
 

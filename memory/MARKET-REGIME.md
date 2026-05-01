@@ -622,4 +622,20 @@
     "https://www.cmegroup.com/videos/2026/04/30/energy-volatility-and-central-bank-pauses-define-the-week-ahead-.html"
   ]
 }
+## Market Regime Research - 2026-05-01 06:12:54 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities in strong risk-on regime with S&P 500 near all-time highs driven by AI/tech momentum. Q1 2026 earnings beats (GOOGL Cloud +63% YoY, AMZN chip run-rate >$20B) validate hyperscaler CapEx ($725B pledged for 2026). Momentum intact across AI infrastructure (NVDA, GOOGL, SPMO) despite no new search data.",
+  "market_regime": "Risk-On Bull (Momentum-Driven)",
+  "sector_rotation": "Technology/AI Infrastructure → Power Management (ETN options flow); Broad momentum (SPMO) confirming S&P strength",
+  "risk_flags": [
+    "No fresh search data - relying on 24hr-old memory",
+    "Friday 10AM UTC positioning ahead of weekend",
+    "Concentration risk in AI/tech names (NVDA/GOOGL/SPMO)",
+    "No Fed/rates/volatility updates in current data"
+  ],
+  "source_urls": []
+}
+```
 
