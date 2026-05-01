@@ -1433,4 +1433,49 @@ SEC/company quality check:
   "source_urls": []
 }
 ```
+## Source And Signal Research - 2026-05-01 08:14:58 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No unusual discussion detected around liquid US stocks or ETFs. Existing candidates (GOOGL, NVDA, SPMO) show steady mentions tied to earnings beats, AI demand, and momentum without notable spikes.",
+  "social_buzz": "Weak; no evidence of heightened social attention, hype, pump language, or unsupported claims on candidates or broader liquid US stocks/ETFs.",
+  "attention_anomalies": "None identified. Candidate catalysts (e.g., GOOGL Cloud $20B, NVDA CapEx) appear fundamentally grounded; no flagged risks from suspected hype.",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No recent congressional disclosures found for liquid US stocks/ETFs in available data.",
+  "congressional_signal": "None detected; disclosures treated as low-weight, delayed context.",
+  "tickers": [],
+  "source_urls": []
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "Direct Digital Holdings (DRCT) operates a programmatic advertising platform (Colossus SSP) with sell-side and buy-side services, emphasizing IVT mitigation, audience curation, and high client retention (90%). 2025 revenue $34.7M (-44% YoY) and gross profit $10.4M due to major sell-side customer pause from defamatory article/misinformation campaign; volumes not recovered. Cash $0.7M, accumulated deficit $27.7M, substantial going concern doubt. High customer concentration, covenant risks, Nasdaq delisting threat. Inuvo (INUV) AI-driven ad tech with IntentKey LLM shows revenue growth but history of losses ($178M accumulated deficit), 64%+ from two customers. Other filings (FATE biotech, NEOV energy storage, ICL chemicals, WS steel) highlight sector risks but no direct watchlist ties. No durable demand evidence for GOOGL/NVDA; DRCT/INUV exhibit acute balance sheet/concentration risks warranting avoidance.",
+  "filing_risks": {
+    "DRCT": [
+      "Balance sheet: Cash $0.7M insufficient for 12 months; accumulated deficit $27.7M; substantial going concern doubt (10-K); credit facilities with $450K min cash covenant, default risk, term debt matures Dec 2026.",
+      "Concentration: 2024/2025 revenue decline from one sell-side customer pause (not recovered); ~90% retention but 174K buyers/195 clients suggest dependency.",
+      "Revenue quality: 2025 revenue $34.7M (-78% from 2023 peak), gross profit $10.4M; defamatory article impact called 'coordinated misinformation' but ongoing volume shortfall.",
+      "Dilution: Potential equity/debt raises to fund operations; shareholder dilution risk.",
+      "Litigation/operational: Defamatory article allegations; IVT/ad fraud detection failure risk; Nasdaq delisting if standards unmet.",
+      "Capital allocation: Reorganization July 2024; strategic shift to buy-side/enterprise unproven."
+    ],
+    "INUV": [
+      "Balance sheet: Accumulated deficit $178.3M; net working capital deficit $5.1M; cash $2.8M; negative operating cash flows.",
+      "Concentration: Two customers 64.2% + 19.3% of 2025 revenue (75% + 7% in 2024); high risk if lost.",
+      "Revenue quality: Gross margin decline 10.1% to 74.5%; operating loss $5.1M; customer collections/seasonality risks.",
+      "Dilution: History of equity offerings/debt to fund losses."
+    ],
+    "Others": "FATE: Clinical-stage biotech with funding/manufacturing risks; NEOV: Emerging energy storage with supply chain/competition risks; ICL/WS: Cyclical commodities/industrials with macro sensitivity but stable operations."
+  },
+  "quality_notes": "DRCT: Poor - acute liquidity crisis, going concern warning, revenue collapse from single customer event erodes durability; high execution risk in ad tech amid IVT/fraud concerns. INUV: Moderate - AI ad intent tech promising but loss-making, extreme concentration (83% top-2 customers), recurring cash burn. No evidence of durable demand (e.g., recurring subscriptions stable pre-event for DRCT but now impaired). Avoid for Chittick Cash: Fails balance sheet/concentration guards vs. GOOGL/NVDA watchlist (strong AI/cloud tailwinds). Watchlist validation: GOOGL Cloud $20B milestone aligns with hyperscaler CapEx but filings show ad industry volatility (customer pauses, fraud).",
+  "source_urls": []
+}
 

@@ -654,4 +654,46 @@
   "source_urls": []
 }
 ```
+## Market Regime Research - 2026-05-01 08:14:58 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities maintain risk-on momentum with S&P 500 at all-time highs, driven by strong AI/cloud earnings beats and sustained hyperscaler capital expenditure commitments. Technology sector leads with robust Q1 2026 results; broad momentum ETFs reflect 17.81% monthly gains. Market structure remains constructive for cautious paper-trading workflows, though early May earnings season introduces volatility.",
+  "market_regime": {
+    "index_trend": "Bullish - S&P 500 at all-time highs; broad equity momentum (SPMO) +17.81% 1-month return to $132.29 with daily gains in $128-$132 range",
+    "volatility_regime": "Moderate - Earnings season volatility expected early May; options activity elevated (ETN calls +648% average volume)",
+    "rates_fed_context": "Not provided in available data; assume stable policy backdrop supporting equity valuations",
+    "earnings_tone": "Strongly positive - Q1 2026 beats across cloud/AI: GOOGL $109.9B revenue (+22% YoY), Cloud $20B (+63% YoY first-time milestone), EPS $5.11 (+82% YoY)",
+    "risk_regime": "Risk-on - Hyperscalers pledge $725B 2026 CapEx (up from $650B); AI infrastructure demand validated by CoreWeave $63.9B deals and AMZN $20B+ chip run-rate"
+  },
+  "sector_rotation": {
+    "leading_sectors": [
+      "Technology/Cloud (GOOGL: 0.82 confidence, execute-if-guards-pass)",
+      "Semiconductors/AI Infrastructure (NVDA: 0.80 confidence, watch)",
+      "Industrials/Power Management (ETN: 0.70 confidence, unusual bullish options)"
+    ],
+    "rotation_drivers": "AI compute demand, hyperscaler CapEx acceleration, data center power/cooling infrastructure",
+    "breadth": "Broad - S&P momentum ETF (SPMO) reflects participation beyond mega-cap tech"
+  },
+  "risk_flags": [
+    "Early May earnings volatility - Q1 2026 results ongoing; guidance revisions could trigger repricing",
+    "Valuation concentration - Tech/AI dominance in gains; mean reversion risk if sentiment shifts",
+    "Supply constraints - B300 server pricing surge to $1M in China signals potential margin pressure or allocation delays",
+    "Execution risk - Paper-trading candidates (GOOGL, NVDA, SPMO) show high confidence but require guard conditions (GOOGL: execute-if-guards-pass)"
+  ],
+  "source_urls": [
+    "Internal memory: Latest Candidates 2026-05-01 07:50:44 EDT",
+    "Internal memory: Q1 2026 earnings data (GOOGL, NVDA, cloud/AI ecosystem)",
+    "Internal memory: Hyperscaler CapEx commitments and CoreWeave deal flow",
+    "Note: No external URLs provided in search results; analysis based on internal candidate tracking and memory"
+  ]
+}
+```
+
+**Cautious Paper-Trading Workflow Guidance:**
+
+- **Entry conditions**: GOOGL marked "execute-if-guards-pass"—verify guard conditions (likely earnings confirmation, support levels) before execution
+- **Position sizing**: 8% allocations per candidate; SPMO provides broad S&P exposure with lower single-name risk
+- **Stop levels**: GOOGL 6.0%, NVDA 7.0%, SPMO 6.0%—tight stops appropriate for earnings volatility
+- **Catalyst window**: Early May earnings season; monitor guidance for cloud/AI segments; CoreWeave deal flow and hyperscaler CapEx updates are key drivers
 
