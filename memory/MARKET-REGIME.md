@@ -638,4 +638,20 @@
   "source_urls": []
 }
 ```
+## Market Regime Research - 2026-05-01 07:50:44 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities in strong bullish regime with S&P 500 near all-time highs, driven by robust Tech/AI earnings beats (GOOGL Cloud +63% YoY to $20B milestone, hyperscalers $725B 2026 CapEx pledge) and sustained momentum in AI infrastructure (NVDA, CoreWeave deals). Low volatility implied by candidate confidences >0.78 and tight stops (6-8%). Cautious paper-trading: favorable for momentum continuation but monitor for Q2 earnings rotation risks.",
+  "market_regime": "Bullish / Risk-On Momentum (S&P ATHs, Tech leadership, 1M SPMO +17.81%)",
+  "sector_rotation": "Technology/AI dominance (GOOGL Cloud, NVDA semis, hyperscaler CapEx); early Industrials rotation (ETN power mgmt options surge on AI data center demand); Broad momentum (SPMO) confirming S&P strength",
+  "risk_flags": [
+    "Concentration risk: Heavy Tech/AI exposure across top candidates (GOOGL 0.82, NVDA 0.80)",
+    "Earnings momentum dependency: Q1 beats strong but Q2 guidance critical",
+    "Fed/rates uncertainty: No cuts priced until late 2026 per memory",
+    "No volatility spike detected but Friday positioning + supply constraints (B300 servers) could trigger whipsaw"
+  ],
+  "source_urls": []
+}
+```
 

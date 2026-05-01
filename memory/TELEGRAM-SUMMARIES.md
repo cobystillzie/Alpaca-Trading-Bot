@@ -1497,4 +1497,34 @@ Chittick Cash: Diversified holdings reduce single-stock blowup risk; momentum di
 HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-01 07:50:44 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities remain in strong bullish regime with S&P 500 near ATHs, fueled by Tech/AI earnings beats (GOOGL Cloud +63% YoY to $20B), hyperscaler $725B 2026 CapEx pledges, and AI infrastructure momentum (NVDA, CoreWeave). No new search results; watchlist holds steady with low volatility and tight risk controls.
+Candidates: 3
+
+1. GOOGL (Technology / Internet Services / Cloud) | confidence 0.82 | allocation 8.0% | stop 6.0% | Chittick 82/100
+Recommendation: execute-if-guards-pass
+Catalyst: Q1 2026 earnings beat: $109.9B revenue (+22% YoY), Cloud $20B (+63% YoY milestone), EPS $5.11 (+82% YoY); Perplexity/OpenAI compute deals validate AI tailwinds.
+Chittick Cash: Fortress balance sheet, recurring ad/cloud revenue; trading below historical multiples post-beat.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. NVDA (Semiconductors / AI Infrastructure) | confidence 0.80 | allocation 8.0% | stop 7.0% | Chittick 75/100
+Recommendation: watch
+Catalyst: Hyperscalers $725B 2026 CapEx (up from $650B); CoreWeave $63.9B deals, Vera Rubin ramp, B300 server pricing surge.
+Chittick Cash: Dominant market share buffers downside; cash-rich balance sheet.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. SPMO (Broad Equity Momentum ETF / S&P 500) | confidence 0.78 | allocation 8.0% | stop 6.0% | Chittick 70/100
+Recommendation: watch
+Catalyst: +17.81% 1M return to $132.29; daily gains in $128-132 range amid S&P ATHs and Tech beats.
+Chittick Cash: Diversified holdings reduce single-name risk.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Social buzz, low weight: none
+Congress signal, low weight: none
 

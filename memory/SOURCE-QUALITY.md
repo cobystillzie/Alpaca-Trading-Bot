@@ -1402,4 +1402,35 @@ Q1 2026 earnings beat ($109.9B revenue +22% YoY, Cloud $20B +63% YoY first time,
 
 **No Direct Overlap with GOOGL/INTC/USAR/GT:**
 None of the 7 filings analyzed (DRCT, INUV, FATE, TMRC, NEOV, WS, ICCT) are GOOGL, INTC, USAR, or GT. Analysis focuses on business-quality risks in small-cap/emerging-growth segments as requested.
+## Source And Signal Research - 2026-05-01 07:50:44 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks/ETFs. No evidence of hype, pump language, or unsupported claims detected in public web/social coverage.",
+  "social_buzz": "None",
+  "attention_anomalies": "None",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No recently reported congressional trades relevant to liquid US stocks/ETFs found in public disclosure sources.",
+  "congressional_signal": "none",
+  "tickers": [],
+  "source_urls": []
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": "Current watchlist shows sustained momentum in AI/cloud leaders (GOOGL, NVDA) and broad equity (SPMO) amid strong Q1 2026 earnings beats, hyperscaler CapEx pledges, and S&P ATHs. No direct SEC filings for watchlist names in results; available filings for unrelated companies (PECO, DRCT, SES, INUV, FATE, TMRC, NEOV) reveal typical small-cap risks but no immediate red flags for monitored tickers. GOOGL shows durable cloud/AI demand validation.",
+  "filing_risks": "No SEC/company filings found for GOOGL, NVDA, SPMO, or special attention tickers (GOOGL/GOOG, INTC, USAR, GT). Available filings highlight unrelated risks: DRCT going concern doubt, customer concentration (64% from two clients), covenant breaches[2]; PECO stable REIT with strong occupancy/dividends but acquisition leverage[1]; others show losses/dilution (SES, INUV, FATE, TMRC, NEOV). No balance-sheet, litigation, dilution, or revenue quality issues evident for watchlist.",
+  "quality_notes": "GOOGL: Exceptional Q1 revenue +22% YoY, Cloud +63% to $20B milestone, EPS +82%; durable AI demand via Perplexity/OpenAI deals. NVDA: Ecosystem validation (CoreWeave $63.9B, hyperscaler $725B CapEx); no INTC/USAR/GT in memory. SPMO: Strong momentum tracking S&P ATHs/tech beats. Revenue quality appears high for tech leaders; no concentration/litigation/dilution flags from memory or filings.",
+  "source_urls": []
+}
+```
 
