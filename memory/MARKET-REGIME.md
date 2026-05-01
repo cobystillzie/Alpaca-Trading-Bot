@@ -501,4 +501,62 @@
   ]
 }
 ```
+## Market Regime Research - 2026-05-01 00:10:00 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equity markets closed April 2026 with broad strength despite significant macro headwinds. The S&P 500 reached all-time highs (+9.30% MTD), driven by robust tech earnings and megacap outperformance, while the Fed held rates steady at 3.50%-3.75% with rare internal divisions. However, elevated oil prices (~$107-$110/barrel) from Middle East tensions and sticky inflation have eliminated market expectations for rate cuts in 2026, creating a cautious backdrop for paper-trading strategies.",
+  "market_regime": {
+    "index_trend": "Risk-on with caution",
+    "s_p_500_status": "All-time highs; +9.30% MTD, +4.17% YTD as of late April; crossed 7,100 for first time[1][4]",
+    "breadth_assessment": "Divergent: Equally Weighted S&P 500 +4.36% MTD (4.94pp below benchmark), indicating concentration in megacaps[1]",
+    "nasdaq_100_performance": "+14.52% MTD; tech sector +18.19% MTD, +7.25% YTD[1]",
+    "russell_2000_performance": "+8.86% MTD; smaller-cap stocks +60% since April 2025 lows, suggesting broader participation[1][4]",
+    "fed_policy": "Held steady at 3.50%-3.75% for fourth consecutive meeting; most divided since 1992 with four dissents[2][5][8]",
+    "rate_cut_outlook": "Rate cuts now highly unlikely in 2026; Fed Funds futures pricing potential hike in H1 2027[8][10]",
+    "inflation_backdrop": "PCE running notably hotter than CPI; Fed describes inflation as 'elevated, in part reflecting recent increase in global energy prices'[5]",
+    "labor_market": "Nonfarm payrolls +178K in March (most since end-2024); job growth 'remained low' per Fed; hiring data volatile but firings remain low[1][5]",
+    "growth_assessment": "Solid but sub-trend after smoothing through noise[5]"
+  },
+  "sector_rotation": {
+    "leadership": "Technology dominates; Information Technology +18.19% MTD, +7.25% YTD[1]",
+    "tech_earnings_tone": "Q1 2026 results strong: UnitedHealth beat estimates (4/22), GE Vernova +12%, Amazon AWS +28% beat validating cloud/AI demand[4][11]",
+    "laggards": "Energy -4.28% MTD despite +31.37% YTD (oil price shock headwind)[1]",
+    "divergence_pattern": "Big Tech divided on earnings; megacaps beat but single-stock dispersion high[6]",
+    "beneficiaries_of_volatility": "Brokers, asset managers, exchanges: Billionbrains (Groww) revenue nearly doubled YoY, Angel One PAT +83.5%, CRISIL PAT +46%[3]",
+    "cross_asset_stress": "Oil volatility (OVX 75.96, +7.7%) significantly outpacing equity volatility (VIX 18.81, +5.5%), signaling energy-driven tail risk[6]"
+  },
+  "risk_flags": {
+    "geopolitical_oil_shock": "US-Iran conflict persists; Trump rejected Iran's Hormuz reopening proposal overnight (4/30); WTI crude ~$107/bbl, Brent ~$110/bbl[4][6]",
+    "energy_supply_chain": "One-fifth of world's oil passes through Strait of Hormuz; nine-week US naval blockade of Iranian ports ongoing[4]",
+    "fed_internal_divisions": "Four dissents at April meeting (most since 1992); Governor Miran favored 25bp cut; Presidents Hammack, Logan, Kashkari opposed easing bias[5][8]",
+    "valuation_risk": "S&P 500 consensus target 8,001 implies 16.9% upside from end-2025, but market priced for strong earnings (18.6% growth expected for full-year 2026)[4]",
+    "earnings_execution_risk": "Tech earnings split sharply at single-stock level; divergence between strong fundamentals and sentiment-driven declines evident in Indian markets (Nifty -4-5% FY26, India VIX peaked 28.90)[3]",
+    "foreign_capital_outflows": "India saw record monthly FII outflow of ₹1.22 lakh crore in March 2026; broader EM vulnerability to USD strength and rate expectations[3]",
+    "vix_elevation": "VIX at 17.83-18.81 end-April, but elevated relative to cross-asset stress; VIX at 29.02 in some readings, +2.44%, indicating caution[6][9]",
+    "sticky_inflation": "PCE running hotter than CPI; oil price shock adds upward pressure; limits Fed's ability to cut rates[4][5]",
+    "fiscal_support_dependency": "One Big Beautiful Bill Act delivers $150B individual tax refunds + $190B corporate tax incentives; direct spending power critical to growth narrative[4]"
+  },
+  "paper_trading_workflow_guidance": {
+    "position_sizing": "Cautious allocation recommended; tech concentration risk high (Nasdaq +14.52% MTD vs S&P +9.30%); avoid single-stock allocation >8% given divergence[1][6]",
+    "entry_conditions": "Tech earnings beats provide constructive backdrop, but wait for Fed clarity on rate path and oil stabilization before aggressive long positioning[4][6]",
+    "stop_loss_discipline": "Set stops 6-8% below entry given elevated cross-asset volatility (OVX-VIX spread 7.7pp) and geopolitical tail risk[6]",
+    "sector_rotation_signals": "Monitor energy underperformance (-4.28% MTD) vs tech strength; if oil stabilizes <$100/bbl, broader market participation likely; if oil >$110/bbl sustained, expect margin compression in non-energy sectors[1][4]",
+    "fed_watch_triggers": "Next FOMC decision critical; current market pricing zero cuts in 2026; any hawkish surprise could trigger 5-10% equity pullback[8][10]",
+    "earnings_season_focus": "Q1 2026 results strong but divergent; focus on cloud/AI revenue growth (GOOGL Cloud +63% YoY validates demand) and margin resilience amid energy cost headwinds[4][11]",
+    "volatility_regime": "VIX 17-18 masks cross-asset stress; oil volatility elevated; treat as 'calm before storm' environment; reduce leverage, increase hedges[6][9]"
+  },
+  "source_urls": [
+    "https://exante.eu/press/market-updates/3011-is-it-time-for-investors-to-think-about-the-chokepoint-premium/",
+    "https://www.logisticsmgmt.com/article/federal_reserve_holds_rates_steady_for_fourth_straight_meeting_as_inflation_risks_persist",
+    "https://www.venturasecurities.com/blog/april-2026-market-wrap-what-changed-after-q4-fy26-results/",
+    "https://www.mitrade.com/au/insights/share/share-trading/us-stock-market-outlook-2026",
+    "https://am.jpmorgan.com/ch/en/asset-management/institutional/insights/portfolio-insights/fixed-income/fixed-income-perspectives/fomc-statement-april-2026/",
+    "https://www.home.saxo/content/articles/options/options-brief---big-tech-divides-oil-surges---30-april-2026-30042026",
+    "https://finance-commerce.com/2026/04/fed-rate-cuts-doubt-warsh-oil-inflation/",
+    "https://www.iconomi.com/blog/monthly-market-wrap-april-2026",
+    "https://www.coxautoinc.com/insights/five-takeaways-from-the-feds-may-meeting-2026/"
+  ]
+}
+```
 

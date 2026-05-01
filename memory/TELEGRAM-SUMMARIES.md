@@ -1377,4 +1377,34 @@ Chittick Cash: Diversification; momentum filter.
 HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-01 00:10:00 Eastern Daylight Time
+
+Research Update
+
+Market tone: Markets cautious pre-open amid NVDA -4% pullback to ~$201 on rotation to competitor chips and OpenAI weakness reports, despite $725B hyperscaler CapEx pledges and B300 server price surge to $1M in China; VIX elevated ~18 with oil/geopolitical risks persisting.
+Candidates: 3
+
+1. NVDA (Semiconductors / AI Infrastructure) | confidence 0.78 | allocation 8.0% | stop 7.0% | Chittick 75/100 | HF source 8/100
+Recommendation: watch
+Catalyst: Hyperscalers pledge $725B CapEx in 2026 (up from $650B prior quarter); B300 server prices surge to $1M in China on supply constraints; bullish flag breakout targeting $250[1][3]
+Chittick Cash: High barriers in AI GPU but elevated valuation post-rally; strong FCF supports downside vs peers.
+HF filter: sentiment=mixed_bullish source=8/100 hype=0.20 vetoes=0
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. GOOGL (Technology / Internet Services / Cloud) | confidence 0.82 | allocation 8.0% | stop 6.0% | Chittick 82/100 | HF source 9/100
+Recommendation: watch
+Catalyst: Recent Q1 beat ($109.9B rev +22% YoY, Cloud $20B +63%); Perplexity/OpenAI compute deals[sec_quality]
+Chittick Cash: Fortress balance sheet, recurring revenue.
+HF filter: sentiment=bullish source=9/100 hype=0.00 vetoes=0
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. SPMO (Broad Equity Momentum ETF / S&P 500) | confidence 0.78 | allocation 8.0% | stop 6.0% | Chittick 70/100 | HF source 8/100
+Recommendation: watch
+Catalyst: +17.81% 1M return to $132.29; S&P near ATHs[latest candidates]
+Chittick Cash: ETF diversification.
+HF filter: sentiment=bullish source=8/100 hype=0.00 vetoes=0
+Social buzz, low weight: none
+Congress signal, low weight: none
 

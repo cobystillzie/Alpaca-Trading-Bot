@@ -1158,4 +1158,19 @@ SEC/company quality check:
 ```
 
 **Note:** No SEC filings for GOOGL, INTC, USAR, or GT were present in search results. Analysis covers only companies with available 10-K/S-1/Form D filings. Watchlist names require separate SEC filing review for balance-sheet, concentration, litigation, dilution, revenue quality, capital allocation, and valuation risks.
+## Source And Signal Research - 2026-05-01 00:10:00 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+{"summary": "No unusual discussion, hype, or pump language detected around liquid US stocks or ETFs including GOOGL, NVDA, SPMO, or ETN based on available memory and lack of search results.", "social_buzz": "Weak; no notable social attention or volume spikes in recent candidate catalysts.", "attention_anomalies": "None identified; ETN options volume noted in memory but lacks hype flags or unsupported claims.", "source_urls": []}
+
+Congressional disclosures, max 5% influence:
+{"summary":"No recent congressional disclosures report trades in liquid US stocks or ETFs such as GOOGL, NVDA, SPMO, or ETN. Minor trades noted in less liquid stocks like AME (1 buy, 1 sell by Rep. Cisneros in Jan/Feb), PTA (1 buy by Rep. Dingell on 04/21), PH (1 buy, 6 sells), and JLL (6 sells).","congressional_signal":"None relevant to existing candidates; low-weight delayed context only.","tickers":[],"source_urls":["https://www.quiverquant.com/news/AMETEK+($AME)+Releases+Q1+2026+Earnings","https://www.quiverquant.com/news/PTA+Stock+(PTA)+Opinions+on+Congressional+Trade+Disclosure","https://www.quiverquant.com/news/JLL+falls+6%25+as+investors+weigh+strong+Q1+results+against+unchanged+outlook+and+heavy+cash+outflow","https://www.quiverquant.com/news/PARKER-HANNIFIN+($PH)+Releases+Q3+2026+Earnings"]}
+
+SEC/company quality check:
+{
+  "summary": "Watchlist stocks SPMO, GOOGL, NVDA remain on 'watch' status with catalysts tied to S&P strength, Q1 2026 earnings beats (GOOGL Cloud +63% YoY), and AI infrastructure demand (NVDA CoreWeave deals). No SEC filings provided for these tickers; analysis limited to memory. GOOGL shows durable AI/cloud demand but monitor concentration in tech revenue. SPMO benefits from broad momentum. NVDA resilient on AI tailwinds.",
+  "filing_risks": "No recent SEC/company filings in results for watchlist names (SPMO, GOOGL, NVDA). General risks from unrelated filings highlight balance-sheet leverage (e.g., RRX substantial debt post-Altra acquisition), clinical/revenue concentration (HUMA dependent on ATEV trials/approvals), litigation/product risks (RRX product liability/asbestos), and dilution (CLSD exploring strategic alternatives including bankruptcy, workforce reduction). For GOOGL/NVDA: pay special attention per instructions—no filing evidence of dilution/valuation risks; memory notes strong earnings guidance.",
+  "quality_notes": "SPMO: Broad ETF with momentum (+17.81% 1M), low concentration risk, durable S&P uptrend[all candidate tables]. GOOGL: High-quality revenue growth (Q1 $109.9B +22% YoY, Cloud $20B +63%), AI tailwinds validated; watch revenue concentration in cloud/search[latest candidates]. NVDA: #1 swing stock ranking, ecosystem validation (AMZN $20B+ chips), capital allocation strong on deals; monitor supply chain/valuation[latest candidates]. No balance-sheet/litigation/dilution red flags in memory.",
+  "source_urls": []
+}
 
