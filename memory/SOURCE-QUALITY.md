@@ -1478,4 +1478,46 @@ SEC/company quality check:
   "quality_notes": "DRCT: Poor - acute liquidity crisis, going concern warning, revenue collapse from single customer event erodes durability; high execution risk in ad tech amid IVT/fraud concerns. INUV: Moderate - AI ad intent tech promising but loss-making, extreme concentration (83% top-2 customers), recurring cash burn. No evidence of durable demand (e.g., recurring subscriptions stable pre-event for DRCT but now impaired). Avoid for Chittick Cash: Fails balance sheet/concentration guards vs. GOOGL/NVDA watchlist (strong AI/cloud tailwinds). Watchlist validation: GOOGL Cloud $20B milestone aligns with hyperscaler CapEx but filings show ad industry volatility (customer pauses, fraud).",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-01 10:54:43 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No public web/social-attention search results were available to scan for unusual discussion around liquid US stocks/ETFs. The provided memory contains internal candidate tracking data (GOOGL, NVDA, SPMO) with fundamental catalysts (Q1 earnings beats, hyperscaler CapEx pledges, momentum metrics) but does not represent external social buzz or web coverage.",
+  "social_buzz": "Insufficient data—no search results provided. Cannot assess public sentiment, retail attention, or social media discussion.",
+  "attention_anomalies": [
+    "SPMO momentum ETF shows +17.81% 1-month return with consistent daily gains in $128–$132 range; repeated tracking across multiple candidate updates suggests internal monitoring of broad-market momentum rather than anomalous social attention.",
+    "NVDA and GOOGL appear consistently in candidate lists with high confidence scores (0.80, 0.82) tied to verifiable catalysts (hyperscaler CapEx, earnings beats, cloud revenue milestones) rather than hype-driven discussion.",
+    "No pump language, unsupported claims, or suspected retail hype detected in internal memory. Catalysts are grounded in earnings data and infrastructure spending commitments."
+  ],
+  "source_urls": []
+}
+```
+
+**Note:** This response is constrained by the absence of search results. To properly scan for unusual social-attention coverage, web/social media sources would need to be provided. The internal memory reflects fundamental analysis and position-tracking logic, not external market sentiment or social buzz.
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No congressional disclosure search results were provided. The existing memory contains internal trading candidate data (GOOGL, NVDA, SPMO) with technical/fundamental catalysts, but these are not congressional disclosures. Congressional filings are treated as low-weight, delayed secondary context only and require direct access to public disclosure sources (House Clerk STOCK Act filings, Senate eTrade system, or Form 4 databases) which were not included in this search.",
+  "congressional_signal": null,
+  "tickers": [],
+  "source_urls": []
+}
+```
+
+**Note:** To fulfill this request, direct queries to official congressional disclosure repositories would be required:
+- House Clerk Office (house.gov/representatives/find-your-representative)
+- Senate eTrade system (senate.gov)
+- SEC EDGAR Form 4 filings (sec.gov/cgi-bin)
+
+The internal memory provided contains algorithmic trading candidates, not congressional disclosures.
+
+SEC/company quality check:
+{
+  "summary": "Current watchlist features GOOGL (execute-if-guards-pass, Cloud/AI demand), NVDA (watch, hyperscaler CapEx), SPMO (watch, momentum ETF). No SEC filings in results for these tickers. Special attention stocks (GOOGL/GOOG, INTC, USAR, GT) absent from results. Rejected trades due to allocation limits.",
+  "filing_risks": "No SEC/company filings provided for watchlist names (GOOGL, NVDA, SPMO). Available filings for unrelated tickers (DRCT, SES, INUV, etc.) show generic risks: customer concentration (e.g., INUV 64%+ from 2 customers), going concern doubts (DRCT cash $0.7M, accumulated deficit $27.7M), ongoing losses (SES net loss $73M), but not applicable to watchlist.",
+  "quality_notes": "Watchlist shows durable AI demand: GOOGL Q1 rev $109.9B (+22% YoY), Cloud $20B (+63%[memory]); NVDA hyperscaler $725B CapEx, CoreWeave deals[memory]; SPMO +17.81% 1M return[memory]. No balance-sheet, concentration, litigation, dilution, revenue quality, capital allocation, or valuation risks evident from memory or results for these names. Rejected trades indicate portfolio concentration controls (15% single-stock limit). Revenue quality appears strong from AI catalysts.",
+  "source_urls": []
+}
 

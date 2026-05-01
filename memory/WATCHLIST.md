@@ -4,19 +4,19 @@
 {
   "candidates": [
     {
-      "adversary_case": "Cloud growth deceleration if enterprise spend slows; valuation premium erodes on macro tightening.",
-      "balance_sheet_risk": "Low - Net cash position, no dilution/ cyclicality concerns.",
-      "bear_case": "Guidance disappointment on cloud margins or AI capex efficiency; broader tech rotation if rates rise unexpectedly.",
-      "capital_allocation_case": "Excellent - Share buybacks, disciplined AI capex, Ruth Porat oversight.",
-      "catalyst": "Q1 2026 earnings beat: $109.9B revenue (+22% YoY), Cloud $20B (+63% YoY first milestone), EPS $5.11 (+82% YoY); Perplexity/OpenAI compute deals confirm AI demand.",
+      "adversary_case": "Allocation rejections signal over-concentration risk; cloud growth may slow if enterprise spending tightens.",
+      "balance_sheet_risk": "Fortress balance sheet: net cash position, minimal debt, no dilution risks.",
+      "bear_case": "Regulatory scrutiny on search dominance, cloud market share lag vs. AWS/Azure, or broader tech rotation away from megacaps.",
+      "capital_allocation_case": "Disciplined buybacks, AI CapEx reinvestment, and dividend initiation signal owner-operators.",
+      "catalyst": "Q1 2026 earnings beat: $109.9B revenue (+22% YoY), Cloud $20B (+63% YoY first milestone), EPS $5.11 (+82% YoY); Perplexity/OpenAI compute deals validate AI demand.",
       "chittick_cash_score": 82.0,
-      "chittick_reject_reason": "",
-      "concentration_case": "Preferred over broad ETF for asymmetric cloud catalyst vs SPMO beta.",
+      "chittick_reject_reason": "Prior rejections due to 15% allocation limit.",
+      "concentration_case": "Top-tier quality justifies focus over broad ETFs given catalyst edge.",
       "confidence": 0.82,
       "congressional_signal": "none",
-      "entry_plan": "Enter on pullback to $160-165 support if volume holds (post-earnings consolidation); paper-execute if above 20-day EMA with relative strength.",
-      "exit_plan": "Take profits at $175-180 (prior highs +10% from entry); invalidate below $152 (6% stop) or weak guidance reaction.",
-      "growth_runway": "AI agents/compute demand, cloud to $30B+ annualized; 30-180 day thesis on hyperscaler outsourcing.",
+      "entry_plan": "Enter on pullback to $160-165 if volume supports, post-earnings digestion; paper-trade only if allocation <15%.",
+      "exit_plan": "Take profits at $185+ (15% gain); invalidate below $155 (recent support break).",
+      "growth_runway": "Cloud/AI compute scaling to $30B+ annually; ad/search stability with Gemini model expansions.",
       "hf_evidence_rank": 0.0,
       "hf_filter_vetoes": [],
       "hf_hype_risk": 0.0,
@@ -27,20 +27,20 @@
       "hf_sentiment_score": 0.0,
       "hf_source_quality_score": 0.0,
       "horizon_days": 7,
-      "margin_of_safety_case": "Strong balance sheet, minimal debt, cash-generative; trading below historical multiples given cloud acceleration.",
-      "market_regime": "Risk-on tailwinds amplify cloud/AI beats; vulnerable to earnings volatility but supported by hyperscaler CapEx momentum.",
-      "momentum_case": "Post-earnings strength amid S&P ATHs/tech leadership; consistent watchlist presence with rising confidence to 0.82.",
-      "owner_hold_case": "Cloud surpassing $25B quarterly milestone with 30%+ margins would justify 30-180 day review as core holding.",
-      "quality_case": "Buffett/Munger-style durable moats in search/advertising (90%+ market share), cloud scaling to profitability; high retention, real growth runway in AI infrastructure.",
+      "margin_of_safety_case": "Quality moat and growth provide buffer; trading below historical multiples post-beat.",
+      "market_regime": "Risk-on AI/tech momentum supports; vulnerable if S&P pulls back from ATHs.",
+      "momentum_case": "Consistent top candidate with confidence 0.82; post-earnings strength amid S&P ATHs and tech beats.",
+      "owner_hold_case": "Sustained cloud >25% growth and AI monetization would warrant 30-180 day review as core holding.",
+      "quality_case": "Proven business model with high margins, recurring revenue from search/ads, and expanding cloud leadership; strong moat via data/AI scale.",
       "recommendation": "execute-if-guards-pass",
-      "risk_reward": "3:1 potential - 6% downside risk vs 10-15% upside to resistance on sustained momentum.",
+      "risk_reward": "3:1 potential with 6% stop vs. 15-20% upside to resistance.",
       "sector": "Technology / Internet Services / Cloud",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
       "social_buzz": "none",
-      "source_quality": "Strong - Official Q1 earnings data, consistent internal memory tracking, hyperscaler CapEx from reputable context; no hype reliance.",
+      "source_quality": "High: Earnings data and memory-tracked catalysts from official results; no thin sources or hype.",
       "source_urls": [],
       "stop_loss_percent": 6.0,
       "strategy_tags": [
@@ -48,23 +48,23 @@
       ],
       "symbol": "GOOGL",
       "target_allocation_percent": 8.0,
-      "thesis": "High-quality compounder with dominant search moat, accelerating cloud/AI growth validated by Q1 beat and compute deals; blends quality, catalyst, momentum for 1-10 day swing.",
-      "valuation_case": "Attractive vs quality - Forward P/E compression on 20%+ revenue growth, cloud inflection justifies premium."
+      "thesis": "Alphabet's dominant search moat, accelerating cloud/AI growth, and ecosystem synergies position it as a quality compounder with near-term earnings momentum.",
+      "valuation_case": "Attractive vs. cloud growth trajectory; forward P/E reasonable for 20%+ rev CAGR."
     },
     {
-      "adversary_case": "Capex cuts if ROI disappoints; China export restrictions escalate.",
-      "balance_sheet_risk": "Minimal - Strong cash, no cyclical debt overhang.",
-      "bear_case": "Supply chain delays or margin compression from pricing surges; competition from custom chips.",
-      "capital_allocation_case": "Superior - R&D reinvestment, buybacks at scale.",
-      "catalyst": "Hyperscalers $725B 2026 CapEx (up from $650B); CoreWeave $63.9B deals, Vera Rubin ramp, B300 servers $1M China pricing on constraints.",
+      "adversary_case": "Valuation stretched if AI spend plateaus; China export risks.",
+      "balance_sheet_risk": "Low debt, high cash flow; cyclical semi exposure mitigated by AI secular trend.",
+      "bear_case": "Supply chain disruptions, competition from custom chips (e.g., AMZN/Google), or CapEx cycle peak.",
+      "capital_allocation_case": "R&D focus, dividends, and measured buybacks align with growth.",
+      "catalyst": "Hyperscalers $725B 2026 CapEx pledge (up from $650B); CoreWeave $63.9B deals, Vera Rubin ramp, B300 servers $1M China pricing on constraints.",
       "chittick_cash_score": 75.0,
       "chittick_reject_reason": "",
-      "concentration_case": "Core AI exposure over semis ETF; higher conviction than peers.",
+      "concentration_case": "AI pick-and-shovel leader outperforms broad semis.",
       "confidence": 0.8,
       "congressional_signal": "none",
-      "entry_plan": "Enter on dip to $110-115 if above 10-day EMA; paper-execute on volume breakout.",
-      "exit_plan": "Profits at $125-130 (+12%); stop below $102 (7% risk) or demand slowdown.",
-      "growth_runway": "Blackwell/Vera Rubin ramps to $100B+ revenue; 30-180 days on data center saturation.",
+      "entry_plan": "Enter on dip to $110-115 with volume confirmation; respect allocation limits.",
+      "exit_plan": "Profits at $135+; stop below $105 (flag pattern invalidation).",
+      "growth_runway": "AI training/inference expansion; Blackwell platform scaling into 2027.",
       "hf_evidence_rank": 0.0,
       "hf_filter_vetoes": [],
       "hf_hype_risk": 0.0,
@@ -75,20 +75,20 @@
       "hf_sentiment_score": 0.0,
       "hf_source_quality_score": 0.0,
       "horizon_days": 5,
-      "margin_of_safety_case": "Cash rich, low debt; GPU scarcity provides pricing buffer.",
-      "market_regime": "Risk-on CapEx pledges support semis; sensitive to tech rotation.",
+      "margin_of_safety_case": "Demand >> supply provides pricing power and backlog buffer.",
+      "market_regime": "Thrives in risk-on AI hype; exposed to tech sector volatility.",
       "momentum_case": "Ranked #1 2026 swing stock; resilient uptrend validated by AMZN $20B+ chip run-rate.",
-      "owner_hold_case": "Sustained 80%+ GPU utilization across hyperscalers justifies 30-180 day hold.",
-      "quality_case": "Oligopoly pricing power in AI chips, ecosystem lock-in; high margins, owner-operator discipline.",
+      "owner_hold_case": "Continued 50%+ data center growth would justify 30-180 day thesis.",
+      "quality_case": "Oligopoly in AI accelerators; high gross margins ~75%; sticky ecosystem lock-in.",
       "recommendation": "watch",
-      "risk_reward": "2.5:1 - 7% downside vs 12-15% upside on CapEx follow-through.",
+      "risk_reward": "2.5:1 with 7% risk vs. 15-20% target.",
       "sector": "Semiconductors / AI Infrastructure",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
       "social_buzz": "none",
-      "source_quality": "Strong - Hyperscaler commitments, deal flow from memory; ecosystem validation.",
+      "source_quality": "Strong: Institutional deals and CapEx data from memory; no hype reliance.",
       "source_urls": [],
       "stop_loss_percent": 7.0,
       "strategy_tags": [
@@ -96,23 +96,23 @@
       ],
       "symbol": "NVDA",
       "target_allocation_percent": 8.0,
-      "thesis": "AI infrastructure leader with unmatched GPU moat; catalyst-rich for swings blending quality and momentum.",
-      "valuation_case": "Premium justified by 100%+ growth; watch for post-ramp normalization."
+      "thesis": "NVIDIA's GPU/AI dominance with supply-constrained demand creates multi-year runway in data centers.",
+      "valuation_case": "Premium justified by growth; watch for post-CapEx multiple contraction."
     },
     {
-      "adversary_case": "Sector rotation away from momentum.",
-      "balance_sheet_risk": "Low - ETF structure.",
-      "bear_case": "Mean reversion if tech falters; broad market pullback.",
-      "capital_allocation_case": "Passive, rules-based.",
-      "catalyst": "+17.81% 1M return to $132.29, +1.23% daily gains in $128-$132 range (high $131.50), uptrend from $78.25 low amid S&P ATHs/tech beats.",
+      "adversary_case": "Prior rejections for allocation exceedance; not a 'quality' single stock.",
+      "balance_sheet_risk": "Underlying S&P quality; low ETF-specific risks.",
+      "bear_case": "Momentum reversal if S&P rolls over; lags in mean-reversion environments.",
+      "capital_allocation_case": "Passive; tracks high-momentum quality firms.",
+      "catalyst": "+17.81% 1M return to $132.29; +1.23% daily gains in $128-132 range (high $131.50), uptrend from $78.25 low amid S&P ATHs/tech beats.",
       "chittick_cash_score": 70.0,
-      "chittick_reject_reason": "",
-      "concentration_case": "Broad alternative to stock picks.",
+      "chittick_reject_reason": "Prior rejections due to 15% allocation limit.",
+      "concentration_case": "Broad alternative to single-stock bets during strength.",
       "confidence": 0.78,
       "congressional_signal": "none",
-      "entry_plan": "Enter near $130 support on volume; paper if holds $128.",
-      "exit_plan": "Profits at $138-140 (+6-8%); stop below $124 (6%).",
-      "growth_runway": "S&P earnings growth; 30-180 days on economic expansion.",
+      "entry_plan": "Enter above $132 breakout with volume; allocation-checked.",
+      "exit_plan": "Profits at $140+; stop below $128 range low.",
+      "growth_runway": "S&P earnings growth into Q2 2026.",
       "hf_evidence_rank": 0.0,
       "hf_filter_vetoes": [],
       "hf_hype_risk": 0.0,
@@ -122,21 +122,21 @@
       "hf_sentiment_label": "",
       "hf_sentiment_score": 0.0,
       "hf_source_quality_score": 0.0,
-      "horizon_days": 5,
-      "margin_of_safety_case": "Diversified holdings reduce idiosyncratic risk.",
-      "market_regime": "Direct S&P momentum beneficiary; amplifies risk-on.",
-      "momentum_case": "Consistent uptrend, relative strength in risk-on regime.",
-      "owner_hold_case": "Persistent S&P breadth justifies longer review.",
-      "quality_case": "Tracks high-momentum S&P 500 quality firms; diversified vs single stocks.",
+      "horizon_days": 6,
+      "margin_of_safety_case": "Diversified holdings reduce single-name risk.",
+      "market_regime": "Ideal for risk-on; weakens in risk-off shifts.",
+      "momentum_case": "Strong relative strength tracking market leaders; consistent gains.",
+      "owner_hold_case": "Prolonged S&P bull market would support longer review.",
+      "quality_case": "Systematic momentum strategy on quality S&P names; low fees, diversified vs. singles.",
       "recommendation": "watch",
-      "risk_reward": "2:1 - Tight risk for broad upside.",
+      "risk_reward": "2:1 with 6% risk vs. 10-12% upside.",
       "sector": "Broad Equity Momentum ETF / S&P 500",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
       "social_buzz": "none",
-      "source_quality": "Strong - Internal price/momentum tracking.",
+      "source_quality": "High: Price action and memory data; market-verified trend.",
       "source_urls": [],
       "stop_loss_percent": 6.0,
       "strategy_tags": [
@@ -144,11 +144,11 @@
       ],
       "symbol": "SPMO",
       "target_allocation_percent": 8.0,
-      "thesis": "Broad momentum ETF capturing S&P strength; quality momentum play with lower single-name risk.",
-      "valuation_case": "Fair - Momentum premium in bull market."
+      "thesis": "Momentum ETF capturing S&P 500 uptrend leaders amid risk-on breadth.",
+      "valuation_case": "Tied to S&P momentum; attractive entry in uptrend."
     }
   ],
-  "summary": "US equities in risk-on regime with S&P 500 at all-time highs driven by AI/cloud earnings beats (GOOGL Q1: $109.9B rev +22% YoY, Cloud $20B +63%) and hyperscaler $725B 2026 CapEx pledges; momentum intact in tech/semiconductors/broad ETFs amid early May earnings season."
+  "summary": "US equity markets remain in a strong risk-on regime driven by AI/tech earnings beats (GOOGL Cloud +63% YoY to $20B milestone) and hyperscaler $725B 2026 CapEx pledges, with S&P 500 near ATHs supporting momentum leaders like SPMO (+17.81% 1M return). Portfolio allocation constraints continue rejecting executions for GOOGL/SPMO."
 }
 -->
 
@@ -413,4 +413,12 @@
 | GOOGL | Technology / Internet Services / Cloud | 0.82 | 82 | 0 | 0 | 8.0% | 6.0% | execute-if-guards-pass | Q1 2026 earnings beat: $109.9B revenue (+22% YoY), Cloud $20B (+63% YoY first milestone), EPS $5.11 (+82% YoY); Perplexity/OpenAI compute deals confirm AI deman |
 | NVDA | Semiconductors / AI Infrastructure | 0.80 | 75 | 0 | 0 | 8.0% | 7.0% | watch | Hyperscalers $725B 2026 CapEx (up from $650B); CoreWeave $63.9B deals, Vera Rubin ramp, B300 servers $1M China pricing on constraints. |
 | SPMO | Broad Equity Momentum ETF / S&P 500 | 0.78 | 70 | 0 | 0 | 8.0% | 6.0% | watch | +17.81% 1M return to $132.29, +1.23% daily gains in $128-$132 range (high $131.50), uptrend from $78.25 low amid S&P ATHs/tech beats. |
+
+## Latest Candidates - 2026-05-01 10:54:43 Eastern Daylight Time
+
+| Symbol | Sector | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---:|---:|---:|---:|---:|---:|---|---|
+| GOOGL | Technology / Internet Services / Cloud | 0.82 | 82 | 0 | 0 | 8.0% | 6.0% | execute-if-guards-pass | Q1 2026 earnings beat: $109.9B revenue (+22% YoY), Cloud $20B (+63% YoY first milestone), EPS $5.11 (+82% YoY); Perplexity/OpenAI compute deals validate AI dema |
+| NVDA | Semiconductors / AI Infrastructure | 0.80 | 75 | 0 | 0 | 8.0% | 7.0% | watch | Hyperscalers $725B 2026 CapEx pledge (up from $650B); CoreWeave $63.9B deals, Vera Rubin ramp, B300 servers $1M China pricing on constraints. |
+| SPMO | Broad Equity Momentum ETF / S&P 500 | 0.78 | 70 | 0 | 0 | 8.0% | 6.0% | watch | +17.81% 1M return to $132.29; +1.23% daily gains in $128-132 range (high $131.50), uptrend from $78.25 low amid S&P ATHs/tech beats. |
 

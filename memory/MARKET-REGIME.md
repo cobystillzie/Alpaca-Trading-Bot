@@ -696,4 +696,20 @@
 - **Position sizing**: 8% allocations per candidate; SPMO provides broad S&P exposure with lower single-name risk
 - **Stop levels**: GOOGL 6.0%, NVDA 7.0%, SPMO 6.0%—tight stops appropriate for earnings volatility
 - **Catalyst window**: Early May earnings season; monitor guidance for cloud/AI segments; CoreWeave deal flow and hyperscaler CapEx updates are key drivers
+## Market Regime Research - 2026-05-01 10:54:43 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equity markets exhibit a strong **risk-on** tone driven by AI/tech momentum, with S&P 500 at all-time highs (ATHs), robust Q1 2026 earnings beats in tech (e.g., GOOGL Cloud +63% YoY), and hyperscaler CapEx pledges rising to $725B for 2026. Momentum persists in AI infrastructure despite allocation constraints rejecting some trades.",
+  "market_regime": "Bullish momentum / Risk-on (narrowly focused on AI/tech leaders amid S&P ATHs and positive earnings tone)",
+  "sector_rotation": "Heavy concentration in **Technology** (Internet/Cloud: GOOGL; Semiconductors/AI: NVDA) and **Broad Momentum** (SPMO tracking S&P 500 uptrend); Industrials (ETN power management) on watch for AI data center demand but deprioritized in latest candidates.",
+  "risk_flags": [
+    "Portfolio concentration risk: Repeated rejections for GOOGL/SPMO due to exceeding 15% single-stock/position limits.",
+    "Narrow leadership: Reliance on 2-3 AI/tech names (GOOGL 0.82 confidence, NVDA 0.80) amid S&P ATHs; potential vulnerability to sector-specific pullback.",
+    "No volatility/earnings downside signals in candidates, but rejected trades indicate over-allocation caution for paper-trading bot.",
+    "Supply constraints noted (NVDA B300 servers $1M pricing in China) as potential upside catalyst but also execution risk."
+  ],
+  "source_urls": []
+}
+```
 
