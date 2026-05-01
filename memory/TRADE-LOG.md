@@ -19,4 +19,14 @@ Catalyst: AI compute tailwinds from Perplexity/OpenAI deals signaling demand; up
 Bear case: Regulatory scrutiny (antitrust), AI capex competition, earnings miss on cloud growth deceleration.
 Stop plan: 6.0% stop/trailing review.
 Warnings: none
+## ORDER: Paper Buy NVDA - 2026-05-01 10:53:38 Eastern Daylight Time
+
+Symbol: NVDA
+Notional: $800.00
+Order id: 26b2e8ca-4dab-41fa-ae44-4943c1b3b6e4
+Thesis: AI infrastructure leader with unmatched GPU moat; catalyst-rich for swings blending quality and momentum.
+Catalyst: Hyperscalers $725B 2026 CapEx (up from $650B); CoreWeave $63.9B deals, Vera Rubin ramp, B300 servers $1M China pricing on constraints.
+Bear case: Supply chain delays or margin compression from pricing surges; competition from custom chips.
+Stop plan: 7.0% stop/trailing review.
+Warnings: none
 
