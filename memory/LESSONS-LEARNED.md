@@ -156,6 +156,7 @@
   }
 }
 ```
+
 ## Weekly Review - 2026-05-02 00:22:28 Eastern Daylight Time
 
 ```json
@@ -192,4 +193,10 @@
   }
 }
 ```
+
+### Signal Attribution Note - 2026-05-02
+
+- Social buzz did not help this week. The review found no usable external social-attention signal; internal candidate repetition around GOOGL, NVDA, and SPMO was driven by earnings, AI capex, and price momentum, not verified social momentum.
+- Congressional disclosures did not help this week. No relevant current disclosure signal was available for the active paper-trading candidates, so the 5% congressional input stayed at zero influence.
+- Net effect: social and congressional channels added little actionable value and mostly served as guardrail checks against hype-only approvals. They should remain capped context, never trade approval drivers.
 

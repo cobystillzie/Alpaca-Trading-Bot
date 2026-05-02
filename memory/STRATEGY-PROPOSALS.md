@@ -158,6 +158,7 @@ Weekly review may propose changes here. Routine runs must not rewrite executable
   }
 }
 ```
+
 ## Weekly Strategy Proposals - 2026-05-02 00:22:28 Eastern Daylight Time
 
 ```json
@@ -194,4 +195,10 @@ Weekly review may propose changes here. Routine runs must not rewrite executable
   }
 }
 ```
+
+### Signal-Weight Proposal - 2026-05-02
+
+- Keep social buzz capped at 10% and require two stronger non-social sources before it can support any candidate. This week's review found no direct social help and no verified social anomaly.
+- Keep congressional disclosures capped at 5% and require direct disclosure evidence before adding any score. This week's review found no relevant congressional help for GOOGL, NVDA, or SPMO.
+- Add a weekly "signal contribution" line to future reviews: `social: helped/noise/none`, `congress: helped/noise/none`, and `primary drivers`. This would make it obvious when low-weight channels are merely noise checks versus actual supporting context.
 
