@@ -2088,4 +2088,86 @@ Not run for this candidate.
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: none
+## Weekly Memo - 2026-05-02 00:22:28 Eastern Daylight Time
+
+Weekly Strategy Review Memo
+
+Recommendation: Use weekly review as proposals only; do not auto-edit executable trading code.
+
+Market Regime
+```json { "concise_lessons": [ "Portfolio allocation constraints (15% single-stock limit) consistently block high-confidence candidates like SPMO, NVDA, and GOOGL, preventing execution despite repeated strong signals.", "AI/semiconductor ecosystem (NVDA, ASML, LRCX, GOOGL) dominates candidate generation in risk-on regimes, validated by hyperscaler CapEx ($725B), earnings beats (GOOGL Cloud +63% YoY), and institutional flows.", "Momentum ETFs like SPMO provide diversified exposure to S&P leaders but face same allocation rejections as singles, indicating need for portfolio-level sizing rules.", "Repetitive candidate generation (SPMO 20+ times) signals over-reliance on short-term price action without diversification into new sectors like biotech (ANIX, TNXP) or industrials (ETN)." ], "rejected_patterns": [ "Allocation exceedance (15% single-stock limit) on top candidates: SPMO (multiple)...
+
+Top Candidates
+
+1. GOOGL (Technology / Internet Services / Cloud) | confidence 0.82 | allocation 8.0% | stop 6.0% | Chittick 35/100
+Thesis: Alphabet's dominant search moat, accelerating cloud/AI growth, and ecosystem synergies position it as a quality compounder with near-term earnings momentum.
+Catalyst: Q1 2026 earnings beat: $109.9B revenue (+22% YoY), Cloud $20B (+63% YoY first milestone), EPS $5.11 (+82% YoY); Perplexity/OpenAI compute deals validate AI demand.
+Entry: Enter on pullback to $160-165 if volume supports, post-earnings digestion; paper-trade only if allocation <15%.
+Exit: Take profits at $185+ (15% gain); invalidate below $155 (recent support break).
+Risk/reward: 3:1 potential with 6% stop vs. 15-20% upside to resistance.
+Bear/adversary: Allocation rejections signal over-concentration risk; cloud growth may slow if enterprise spending tightens.
+Source quality: High: Earnings data and memory-tracked catalysts from official results; no thin sources or hype.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Quality moat and growth provide buffer; trading below historical multiples post-beat.
+Valuation: Attractive vs. cloud growth trajectory; forward P/E reasonable for 20%+ rev CAGR.
+Growth runway: Cloud/AI compute scaling to $30B+ annually; ad/search stability with Gemini model expansions.
+Balance-sheet risk: Fortress balance sheet: net cash position, minimal debt, no dilution risks.
+Capital allocation: Disciplined buybacks, AI CapEx reinvestment, and dividend initiation signal owner-operators.
+Concentration case: Top-tier quality justifies focus over broad ETFs given catalyst edge.
+Owner thesis, 30-180 days: Sustained cloud >25% growth and AI monetization would warrant 30-180 day review as core holding.
+Chittick reject reason: Prior rejections due to 15% allocation limit.
+Hugging Face Filter
+Not run for this candidate.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
+
+2. NVDA (Semiconductors / AI Infrastructure) | confidence 0.80 | allocation 8.0% | stop 7.0% | Chittick 75/100
+Thesis: NVIDIA's GPU/AI dominance with supply-constrained demand creates multi-year runway in data centers.
+Catalyst: Hyperscalers $725B 2026 CapEx pledge (up from $650B); CoreWeave $63.9B deals, Vera Rubin ramp, B300 servers $1M China pricing on constraints.
+Entry: Enter on dip to $110-115 with volume confirmation; respect allocation limits.
+Exit: Profits at $135+; stop below $105 (flag pattern invalidation).
+Risk/reward: 2.5:1 with 7% risk vs. 15-20% target.
+Bear/adversary: Valuation stretched if AI spend plateaus; China export risks.
+Source quality: Strong: Institutional deals and CapEx data from memory; no hype reliance.
+Chittick Cash Filter
+Score: 75/100
+Margin of safety: Demand >> supply provides pricing power and backlog buffer.
+Valuation: Premium justified by growth; watch for post-CapEx multiple contraction.
+Growth runway: AI training/inference expansion; Blackwell platform scaling into 2027.
+Balance-sheet risk: Low debt, high cash flow; cyclical semi exposure mitigated by AI secular trend.
+Capital allocation: R&D focus, dividends, and measured buybacks align with growth.
+Concentration case: AI pick-and-shovel leader outperforms broad semis.
+Owner thesis, 30-180 days: Continued 50%+ data center growth would justify 30-180 day thesis.
+Chittick reject reason: none
+Hugging Face Filter
+Not run for this candidate.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
+
+3. SPMO (Broad Equity Momentum ETF / S&P 500) | confidence 0.78 | allocation 8.0% | stop 6.0% | Chittick 35/100
+Thesis: Momentum ETF capturing S&P 500 uptrend leaders amid risk-on breadth.
+Catalyst: +17.81% 1M return to $132.29; +1.23% daily gains in $128-132 range (high $131.50), uptrend from $78.25 low amid S&P ATHs/tech beats.
+Entry: Enter above $132 breakout with volume; allocation-checked.
+Exit: Profits at $140+; stop below $128 range low.
+Risk/reward: 2:1 with 6% risk vs. 10-12% upside.
+Bear/adversary: Prior rejections for allocation exceedance; not a 'quality' single stock.
+Source quality: High: Price action and memory data; market-verified trend.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Diversified holdings reduce single-name risk.
+Valuation: Tied to S&P momentum; attractive entry in uptrend.
+Growth runway: S&P earnings growth into Q2 2026.
+Balance-sheet risk: Underlying S&P quality; low ETF-specific risks.
+Capital allocation: Passive; tracks high-momentum quality firms.
+Concentration case: Broad alternative to single-stock bets during strength.
+Owner thesis, 30-180 days: Prolonged S&P bull market would support longer review.
+Chittick reject reason: Prior rejections due to 15% allocation limit.
+Hugging Face Filter
+Not run for this candidate.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
 

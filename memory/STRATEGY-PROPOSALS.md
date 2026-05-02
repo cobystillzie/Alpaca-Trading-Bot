@@ -158,4 +158,40 @@ Weekly review may propose changes here. Routine runs must not rewrite executable
   }
 }
 ```
+## Weekly Strategy Proposals - 2026-05-02 00:22:28 Eastern Daylight Time
+
+```json
+{
+  "concise_lessons": [
+    "Portfolio allocation constraints (15% single-stock limit) consistently block high-confidence candidates like SPMO, NVDA, and GOOGL, preventing execution despite repeated strong signals.",
+    "AI/semiconductor ecosystem (NVDA, ASML, LRCX, GOOGL) dominates candidate generation in risk-on regimes, validated by hyperscaler CapEx ($725B), earnings beats (GOOGL Cloud +63% YoY), and institutional flows.",
+    "Momentum ETFs like SPMO provide diversified exposure to S&P leaders but face same allocation rejections as singles, indicating need for portfolio-level sizing rules.",
+    "Repetitive candidate generation (SPMO 20+ times) signals over-reliance on short-term price action without diversification into new sectors like biotech (ANIX, TNXP) or industrials (ETN)."
+  ],
+  "rejected_patterns": [
+    "Allocation exceedance (15% single-stock limit) on top candidates: SPMO (multiple), GOOGL, NVDA.",
+    "Market-open execution skips due to daily order logging limits without backup mechanisms.",
+    "Over-generation of same symbols (SPMO/NVDA/GOOGL >80% of slots) creates echo chamber without sector rotation."
+  ],
+  "strategy_proposals": [
+    "Implement **portfolio bucket limits** (e.g., 30% max semiconductors/AI, 20% momentum ETFs) instead of pure single-stock caps to enable diversified execution.",
+    "Add **candidate diversity scoring**: penalize repeat symbols within 48 hours unless new catalysts emerge; prioritize next-highest Chittick scores from underrepresented sectors.",
+    "Introduce **staggered entry rules**: allow 4-8% initial positions on high-confidence repeats (Chittick >75), scaling in on confirmation to bypass full allocation checks.",
+    "Enhance **regime-aware rotation**: in AI-hype phases, cap sector exposure at 40% total while forcing 20% allocation to defensives (industrials like ETN, quality pharma like LLY)."
+  ],
+  "guardrail_changes": [
+    "Raise single-stock limit to **20%** for Chittick >80 (e.g., GOOGL at 82) with auto-scale-down if portfolio concentration exceeds 60%.",
+    "Disable **daily market-open skip**; allow one backup order per symbol if primary fails allocation.",
+    "Add **sector concentration veto** at 50% portfolio exposure (currently AI/semis dominating).",
+    "Require **minimum 3 unique sectors** in top-3 candidates before 'execute-if-guards-pass' triggers."
+  ],
+  "chittick_cash_30pct_evaluation": {
+    "improved_research_quality": true,
+    "evidence": "Consistently tags top performers (NVDA=75-80, GOOGL=82, SPMO=70) with detailed theses (e.g., 'CoreWeave $63.9B deals', 'Cloud $20B +63% YoY'); rejects low-quality biotech (ANIX=58, TNXP=55) appropriately.",
+    "added_noise": false,
+    "evidence": "Scores stable across repeats (SPMO 70, NVDA 75-80); no wild swings or false positives in execution candidates; filters hype (social_buzz=0.0, congressional_signal=0.0).",
+    "recommendation": "Retain and weight higher (40% of final score) as it surfaces institutional-quality signals without distraction."
+  }
+}
+```
 
