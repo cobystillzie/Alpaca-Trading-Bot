@@ -1799,4 +1799,200 @@ SEC/company quality check:
 **EVOMMUNE (Early-Stage, Hepatotoxicity Signal):** EVO756 Phase 2b CSU data expected H1 2026; two subjects showed transaminase elevations >10x ULN (resolved). Hepatotoxicity signal requires resolution before Phase 3; if confirmed, program at risk. Monitor Phase 2b interim safety reviews and liver function test trends.
 
 **GSK (Lower Risk, Limited Upside):** Linerixibat orphan-drug market; approval likely but commercial potential limited (~240k PBC itch patients globally). Incremental value to large-cap portfolio; not material to overall valuation.
+## Source And Signal Research - 2026-05-04 15:10:36 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "Two major M&A narratives dominate current social attention: GameStop's $56B unsolicited bid for eBay (disclosed Saturday) and United Airlines' opportunistic positioning following Spirit Airlines' shutdown. Both stories feature speculative retail investor engagement and prominent figure commentary, but lack fundamental trade justification.",
+  "social_buzz": [
+    {
+      "ticker": "GME",
+      "narrative": "GameStop $56B eBay acquisition bid",
+      "sentiment": "bullish-speculative",
+      "volume": "high",
+      "key_claims": [
+        "Ryan Cohen positioning eBay for \"hundreds of billions\" valuation",
+        "GameStop collectibles/trading cards now 30% of sales, mirrors eBay strength",
+        "TD Bank committed $20B debt financing",
+        "Michael Burry and retail traders piling in"
+      ],
+      "risk_flags": [
+        "Unsolicited bid—hostile acquisition risk",
+        "50/50 cash-stock structure dilutive to GME shareholders",
+        "Valuation claim (\"hundreds of billions\") unsupported by fundamentals",
+        "GME stock +5% overnight on hype alone; no earnings catalyst"
+      ],
+      "source": "[2]"
+    },
+    {
+      "ticker": "EBAY",
+      "narrative": "Target of GameStop acquisition; collectibles/trading cards strategic fit",
+      "sentiment": "bullish-event-driven",
+      "volume": "high",
+      "key_claims": [
+        "eBay doubled down on trading cards through acquisitions",
+        "GameStop has accumulated 5% stake since February"
+      ],
+      "risk_flags": [
+        "Bid likely to face regulatory/shareholder resistance",
+        "EBAY +11% overnight on deal speculation, not fundamentals",
+        "No indication eBay board will engage"
+      ],
+      "source": "[2]"
+    },
+    {
+      "ticker": "UAL",
+      "narrative": "Spirit Airlines shutdown creates market opportunity; cheaper jet fuel tailwind",
+      "sentiment": "neutral-opportunistic",
+      "volume": "moderate",
+      "key_claims": [
+        "United offering discounted one-way fares to Spirit passengers for 2 weeks",
+        "Jet fuel prices declining",
+        "UAL +0.3% overnight"
+      ],
+      "risk_flags": [
+        "Minimal stock reaction (+0.3%) suggests market skeptical of material benefit",
+        "UAL down 17% YTD—structural headwinds outweigh Spirit opportunity",
+        "Fuel savings temporary; competitive capacity influx from Spirit exit may pressure pricing"
+      ],
+      "source": "[1]"
+    }
+  ],
+  "attention_anomalies": [
+    {
+      "type": "pump_language",
+      "example": "Ryan Cohen: 'eBay should be worth—and will be worth—a lot more money. I'm thinking about turning eBay into something worth hundreds of billions of dollars.'",
+      "assessment": "Unsupported valuation claim. No financial model, synergy analysis, or comparable provided. Typical founder/activist rhetoric designed to drive retail enthusiasm.",
+      "severity": "high"
+    },
+    {
+      "type": "retail_pile_in",
+      "example": "Michael Burry and retail traders piling into GME/EBAY debate",
+      "assessment": "Social buzz ≠ fundamental catalyst. Retail engagement on M&A speculation historically precedes volatility reversals, not sustained gains.",
+      "severity": "medium"
+    },
+    {
+      "type": "overnight_gap_without_catalyst",
+      "example": "GME +5%, EBAY +11% overnight on unsolicited bid announcement",
+      "assessment": "Event-driven spikes on deal rumors are common; execution risk and regulatory hurdles typically compress gains within days. No earnings, product, or operational catalyst.",
+      "severity": "medium"
+    },
+    {
+      "type": "weak_fundamental_support",
+      "example": "UAL +0.3% despite Spirit shutdown and fuel tailwinds",
+      "assessment": "Market pricing suggests Spirit opportunity immaterial relative to UAL's structural challenges (YTD -17%). Social narrative overstates benefit.",
+      "severity": "low"
+    }
+  ],
+  "source_urls": [
+    "https://stocktwits.com/news-articles/markets/equity/united-airlines-steps-in-after-spirit-shutdown-and-cheaper-jet-fuel-is-drawing-attention-for-ual-stock/cZQMkvgRe7t",
+    "https://stocktwits.com/news-articles/markets/equity/why-game-stop-s-e-bay-bid-makes-more-sense-than-what-meets-the-eye-and-it-involves-pikachu/cZQMSEgRe7A"
+  ],
+  "recommendation": "Treat all three narratives as weak context only. GME/EBAY deal hype is speculative and unsupported by synergy analysis or regulatory pathway clarity. UAL's Spirit opportunity is priced in at +0.3% and does not offset structural headwinds. No trade recommendation warranted. Monitor for fundamental catalysts (earnings, guidance, regulatory filings) before reconsidering."
+}
+```
+
+Congressional disclosures, max 5% influence:
+{"summary":"No recent congressional disclosures found for liquid US stocks/ETFs in provided data; treated as low-weight, delayed context only.","congressional_signal":"none","tickers":[],"source_urls":[]}
+
+SEC/company quality check:
+```json
+{
+  "summary": "NVIDIA (NVDA) demonstrates strong AI infrastructure demand with FY2025 revenue of $130.5B (+114% YoY) and operating income of $81.5B (+147% YoY). However, material risks include geopolitical export restrictions, inventory write-downs, customer concentration, and valuation concerns at current multiples. The company faces a $5.5B H20 charge in Q1 FY2026 due to China export licensing requirements, indicating regulatory vulnerability.",
+  "filing_risks": {
+    "geopolitical_and_regulatory": {
+      "risk": "Export licensing requirement for H20 chips to China (including Hong Kong/Macau) and D:5 countries, effective indefinitely as of April 14, 2025",
+      "evidence": "Form 8-K filed April 15, 2025: 'USG informed the Company that the license requirement will be in effect for the indefinite future.' Q1 FY2026 includes ~$5.5B charges for H20 inventory, purchase commitments, and reserves.",
+      "severity": "critical",
+      "impact": "Revenue concentration risk; potential loss of significant China market; future product roadmap uncertainty"
+    },
+    "customer_concentration": {
+      "risk": "Hyperscaler dependency for data center revenue ($115.2B, 88% of total FY2025 revenue)",
+      "evidence": "FY2025 10-K: Data Center segment $115.2B (+142% YoY). Compute & Networking $116.2B (+145% YoY) represents 89% of consolidated revenue. Memory notes indicate major customers but specific percentages not disclosed in provided filings.",
+      "severity": "high",
+      "impact": "Demand cliff risk if hyperscaler CapEx cycles contract; limited diversification"
+    },
+    "inventory_and_demand_quality": {
+      "risk": "Rapid inventory build-up amid potential demand normalization",
+      "evidence": "FY2025 10-K cash flows: Inventories increased $9.7B in 9M FY2026 (vs. $2.4B in 9M FY2025). Balance sheet shows inventories of $19.8B as of Oct 26, 2025 (vs. $10.1B Jan 26, 2025), a 96% increase in 9 months.",
+      "severity": "high",
+      "impact": "Potential inventory write-downs; margin compression if demand softens; working capital deterioration"
+    },
+    "capital_allocation_and_shareholder_dilution": {
+      "risk": "Aggressive share repurchases and stock-based compensation amid high valuation",
+      "evidence": "FY2025 10-K: $40.1B stock repurchases; $6.4B stock-based compensation expense. 9M FY2026: $36.3B repurchases, $4.8B SBC. Shares outstanding declined from 24.6B (Jan 28, 2024) to 24.3B (Oct 26, 2025), but SBC remains elevated at 3.2% of revenue.",
+      "severity": "medium",
+      "impact": "Capital deployed to buybacks at peak valuations; SBC dilution masks true earnings quality"
+    },
+    "revenue_quality_and_sustainability": {
+      "risk": "Concentration in single-generation product (Hopper) with transition risk to Blackwell",
+      "evidence": "FY2025 10-K: 'Growth was led by exceptional Data Center demand for our Hopper architecture used for large language models.' No material Blackwell revenue yet in provided filings. H20 write-down signals product-specific demand destruction.",
+      "severity": "high",
+      "impact": "Earnings cliff risk if Hopper demand normalizes before Blackwell ramps; customer hold-back pending next-gen availability"
+    },
+    "litigation_and_compliance": {
+      "risk": "No material litigation disclosed, but regulatory scrutiny on export controls and antitrust implications",
+      "evidence": "Form 8-K (April 15, 2025) indicates ongoing USG engagement. No antitrust litigation in provided filings, but industry-wide scrutiny on AI chip market concentration.",
+      "severity": "medium",
+      "impact": "Potential future export restrictions; regulatory compliance costs"
+    },
+    "balance_sheet_and_liquidity": {
+      "risk": "Strong balance sheet but rising debt and working capital needs",
+      "evidence": "Oct 26, 2025 balance sheet: Cash $11.5B, short-term debt $999M, long-term debt $7.5B (total $8.5B). Total assets $161.1B, shareholders' equity $118.9B. Debt-to-equity ratio 7.1%, manageable but rising.",
+      "severity": "low",
+      "impact": "Adequate liquidity; no near-term solvency risk"
+    },
+    "valuation_risk": {
+      "risk": "Elevated multiples on FY2025 earnings amid demand normalization signals",
+      "evidence": "FY2025 diluted EPS $2.94 (up 147% YoY). 9M FY2026 diluted EPS $3.14 (annualized ~$4.19). At current market prices, implied forward P/E multiples suggest limited margin of safety given H20 write-down and inventory risks.",
+      "severity": "high",
+      "impact": "Limited upside; significant downside if growth decelerates"
+    }
+  },
+  "quality_notes": {
+    "durable_demand_evidence": [
+      "Hyperscaler CapEx pledge of $725B for 2026 (up from $650B) supports near-term demand sustainability",
+      "CoreWeave $63.9B deals and Vera Rubin ramp indicate diversification beyond hyperscalers",
+      "Gross margin expansion to 75% (+230 bps YoY) reflects pricing power and operational leverage",
+      "Operating leverage strong: operating income +147% on revenue +114%, indicating scalability"
+    ],
+    "demand_quality_concerns": [
+      "H20 export ban eliminates significant revenue stream; $5.5B charge signals demand was not as durable as marketed",
+      "Inventory surge (96% in 9 months) suggests customers over-ordered or demand is normalizing",
+      "Graphics segment revenue only +6% YoY (vs. +145% Compute & Networking), indicating AI-specific concentration",
+      "No material Blackwell revenue yet; Hopper transition risk is real"
+    ],
+    "earnings_quality": {
+      "gaap_vs_non_gaap": "FY2025 10-K shows $6.4B SBC expense (4.9% of revenue). Non-GAAP operating income of $86.8B vs. GAAP $81.5B suggests ~6% earnings quality adjustment. Acceptable but material.",
+      "cash_conversion": "9M FY2026 operating cash flow $66.5B on net income $77.1B = 86% conversion. Strong, but inventory build ($9.7B) and receivables increase ($10.3B) indicate working capital pressure.",
+      "one_time_charges": "$5.5B H20 write-down in Q1 FY2026 is material (6.7% of FY2025 net income). Indicates management forecasting error or geopolitical surprise."
+    }
+  },
+  "source_urls": [
+    "SEC EDGAR: NVIDIA 10-K filed 2026-02-25 (FY2025 ended Jan 25, 2026)",
+    "SEC EDGAR: NVIDIA 10-Q filed 2025-11-19 (9M FY2026 ended Oct 26, 2025)",
+    "SEC EDGAR: NVIDIA 8-K filed 2025-04-15 (H20 export licensing disclosure)",
+    "SEC EDGAR: NVIDIA 8-K filed 2025-08-27 (Q2 FY2026 results)",
+    "SEC EDGAR: NVIDIA 8-K filed 2025-05-28 (Q1 FY2026 results)",
+    "SEC EDGAR: NVIDIA DEF 14A filed 2025-05-13 (FY2025 proxy, compensation and governance)"
+  ]
+}
+```
+
+---
+
+### Key Takeaways for Watchlist Management
+
+**NVDA Status: HOLD / REDUCE on Concentration Risk**
+
+1. **Geopolitical Tail Risk Materialized**: The H20 export ban is not theoretical—it cost $5.5B in Q1 FY2026 and is indefinite. This reduces addressable market and increases regulatory uncertainty.
+
+2. **Inventory Deterioration**: 96% inventory growth in 9 months is a red flag for demand normalization or customer over-ordering. Watch Q2 FY2026 guidance closely.
+
+3. **Valuation Indefensible at Current Levels**: With $5.5B charges, Hopper transition risk, and China market loss, forward multiples offer limited margin of safety.
+
+4. **Allocation Constraint Justified**: Your memory correctly flags NVDA as exceeding 15% single-stock allocation limits. The concentration risk is compounded by geopolitical and product-cycle risks.
+
+**Recommendation**: Maintain watch status; do not add. Consider trimming if allocation permits and if Q2 FY2026 guidance disappoints on China impact or inventory normalization.
 

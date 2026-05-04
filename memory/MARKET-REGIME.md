@@ -990,4 +990,24 @@
   "source_urls": ["https://themortgagereports.com/mortgage-rates-now/mortgage-rates-today-may-4-2026", "https://www.ajg.com/news-and-insights/weekly-financial-markets-update-may-4-2026/", "https://www.zacks.com/stock/news/2913658/stock-market-news-for-may-4-2026", "https://www.pennmutualam.com/market-insights-news/blogs/monday-morning-perspectives/2026-05-04-markets-remain-resilient", "https://www.nerdwallet.com/mortgages/news/mortgage-outlook-may-2026", "https://www.barchart.com/story/news/1680701/option-volatility-and-earnings-report-for-may-4-8", "https://www.stl.news/global-markets-turn-mixed-overnight-may-4-2026/", "https://www.foxbusiness.com/media/market-expert-says-potential-fed-rate-cuts-coukd-spark-one-of-the-biggest-explosions-us-economy", "https://www.thestreet.com/latest-news/stock-market-today-may-4-2026-updates", "https://247wallst.com/investing/2026/05/04/stock-market-live-may-4-2026-sp-500-spy-sinks-on-iran-uncertainty-again/"]
 }
 ```
+## Market Regime Research - 2026-05-04 15:10:36 Eastern Daylight Time
+
+{
+  "summary": "US equity markets exhibit resilient **risk-on** tone with S&P 500 and Nasdaq at record highs, driven by strong Q1 earnings beats (+27.1% EPS growth) and AI/tech momentum, despite rising Treasury yields (10Y at 4.37%, 30Y at 4.96%), oil surge above $105/bbl from geopolitical tensions, and contained volatility (VIX ~17). Cautious signals include mixed global futures, Fed policy division, and upcoming NFP data.",
+  "market_regime": "Risk-on with resilience; broad uptrend intact (S&P 500 +10% April, Nasdaq +15%; 5-week rally to ATHs), but **cautious breadth** amid oil-driven inflation risks and selective rotation.",
+  "sector_rotation": "AI/tech/semiconductors leading (e.g., GOOGL Cloud +63% YoY, hyperscaler CapEx); small-caps outperforming (Russell 2000 breadth 64-72%); energy/commodities decoupling positively (BITO +12.5% vs. oil surge); NVDA lagging peers amid rotation to AMD/MU.",
+  "risk_flags": [
+    "Geopolitical tensions (Strait of Hormuz closure, oil near 4Y high >$105/bbl risking second-round inflation)",
+    "Fed division (8-4 vote to hold 3.50-3.75%; dissent on hikes possible)",
+    "Upcoming data (NFP exp. 65-73K jobs, JOLTS, CPI May 12; softer labor could boost cuts, upside surprise risks yields)",
+    "Mixed futures (Dow -0.38%, S&P -0.09% pre-open); mortgage rates ~6.38%"
+  ],
+  "source_urls": [
+    "https://www.pennmutualam.com/market-insights-news/blogs/monday-morning-perspectives/2026-05-04-markets-remain-resilient",
+    "https://lanceroberts.substack.com/p/daily-market-trading-update-may-4",
+    "https://www.home.saxo/content/articles/macro/saxo-market-compass---4-may-2026-04052026",
+    "https://www.stl.news/global-markets-turn-mixed-overnight-may-4-2026/",
+    "https://www.ubp.com/en/news-insights/newsroom/ubp-weekly-view-markets-supported-by-earnings-despite-higher-yields-and-geopolitical-tensions"
+  ]
+}
 
