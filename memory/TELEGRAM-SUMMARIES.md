@@ -2555,4 +2555,165 @@ HF filter: sentiment=not run source=0/100 hype=0.40 vetoes=0
 Self-learning: tier=stale-watch repeat48h=0 fresh=yes bucket=sports-tech
 Social buzz, low weight: low-weight sentiment mix
 Congress signal, low weight: none
+## Midday Memo - 2026-05-04 12:31:56 Eastern Daylight Time
+
+Midday Risk Memo
+
+Recommendation: Hold only positions whose thesis still matches the research; do not add unless guardrails pass.
+
+Market Regime
+Review current paper positions, thesis drift, concentration, stop discipline, and cash reserve.
+
+Portfolio
+Portfolio value: 100029.06 Cash: 97600 Buying power: 197629.06 Positions: - GOOGL: qty=2.151289429, market_value=822.599295, unrealized_pl=22.599295 - NVDA: qty=4.00060009, market_value=785.317798, unrealized_pl=-14.682202 - SPMO: qty=6.119014838, market_value=821.232981, unrealized_pl=21.232981
+
+Top Candidates
+
+1. GOOGL (Technology / Internet Services / Cloud) | confidence 0.82 | allocation 8.0% | stop 6.0% | Chittick 35/100 | tier watch-allocation-constrained | bucket mega-cap-internet-cloud | HF source 0/100
+Thesis: Alphabet's dominant search/ad moat with accelerating Cloud/AI growth positions it as quality compounder for 1-10 day swings on earnings momentum.
+Catalyst: Q1 2026 earnings beat: $109.9B revenue (+22% YoY), Cloud $20B (+63% YoY milestone), EPS $5.11 (+82% YoY); Perplexity/OpenAI compute deals confirm AI demand.
+Entry: Enter 4-6% above recent lows on pullback to $160-165 support if volume confirms; paper-trade 8% allocation if guards pass.
+Exit: Take profits at +12-15% or prior highs; invalidate below 6% stop or loss of uptrend.
+Risk/reward: 3:1 potential (8% risk for 24% reward on catalyst extension) with defined support.
+Bear/adversary: Allocation-constrained (recent rejects); stale repeat without new filing despite quality.
+Source quality: Strong: Official earnings, SEC-aligned reports; no hype reliance.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Trades at 25x fwd FCF with 20%+ growth; $100B+ cash hoard buffers downside.
+Valuation: Attractive at 18-20x fwd EPS vs. 30%+ Cloud growth; undervalued AI exposure.
+Growth runway: AI agents/Cloud to $50B+ annualized; Search steady, YouTube upside; 15-20% CAGR 3-5yrs.
+Balance-sheet risk: Net cash $100B+; zero debt risk, low cyclicality in core ad.
+Capital allocation: Buybacks, AI reinvestment, no dilution; owner-operator discipline.
+Concentration case: Superior to SPMO on concentrated AI/Cloud purity vs. broad momentum.
+Owner thesis, 30-180 days: Cloud surpassing AWS margins, AI monopoly via TPUs/data; review if hits $30B Q Cloud.
+Chittick reject reason: Allocation limits hit recently; fresh review needed.
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 5
+Diversity bucket: mega-cap-internet-cloud
+Research tier: watch-allocation-constrained
+Allocation learning: Propose 4% tranche if full 8% blocked.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.00
+Evidence rank: 0/100
+Memory similarity: 0.90
+Vetoes: none
+Model notes: High repeat; penalize without new catalyst.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
+
+2. PLTR (Technology / Software / AI Analytics) | confidence 0.75 | allocation 5.0% | stop 8.0% | Chittick 35/100 | tier execution-ready | bucket ai-software | HF source 0/100
+Thesis: AI platform leader with govt/commercial expansion; swing on earnings beat history amid AI momentum.
+Catalyst: Q1 2026 earnings after close May 4: consensus $0.22 EPS (+450% YoY), $1.54B rev (+35% YoY); 4 straight beats avg +40% surprise; AIP bootcamps accelerating commercial.
+Entry: Post-earnings gap-up entry on beat/raise; paper 5% allocation on volume surge.
+Exit: Profits at +15% or resistance; stop below pre-earnings close.
+Risk/reward: 2.5:1 (8% risk for 20% reward on history).
+Bear/adversary: Recent rejects on source/social thinness; hype risk in AI.
+Source quality: Strong: Consensus estimates, beat history; recent analyst upgrades.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Govt backlog $1B+ provides visibility; cash positive.
+Valuation: Premium 100x but justified by 40%+ growth if AIP scales.
+Growth runway: Commercial to 50% mix; AIP enterprise adoption drives 30%+ CAGR.
+Balance-sheet risk: Low debt, $3B+ cash; no dilution.
+Capital allocation: Buybacks active; R&D disciplined.
+Concentration case: Pure AI software play diversifies from semis/cloud.
+Owner thesis, 30-180 days: AIP platform dominance, intl expansion to $5B rev.
+Chittick reject reason: Prior rejects on signals; needs beat confirmation.
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 2
+Diversity bucket: ai-software
+Research tier: execution-ready
+Allocation learning: Smaller 5% tranche post recent rejects.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.30
+Evidence rank: 0/100
+Memory similarity: 0.40
+Vetoes: none
+Model notes: Earnings imminent adds freshness.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
+
+3. ADI (Semiconductors / Analog) | confidence 0.72 | allocation 6.0% | stop 8.0% | Chittick 70/100 | tier watch | bucket semi-analog-industrial | HF source 0/100
+Thesis: Analog semis leader with AI/data center tailwinds; momentum play diversifying from NVDA.
+Catalyst: 1M +21.5% return amid semis strength; power management for AI servers.
+Entry: Dip-buy to $220 support; 6% allocation paper trade.
+Exit: Profits +10-12%; stop 8% below entry.
+Risk/reward: 2:1 with momentum support.
+Bear/adversary: Less AI-pure than NVDA; broad semis rotation risk.
+Source quality: Moderate: Momentum scans, no fresh earnings.
+Chittick Cash Filter
+Score: 70/100
+Margin of safety: 15x fwd P/E with 10%+ yield growth.
+Valuation: Reasonable vs. semis peers on industrial diversification.
+Growth runway: AI edge/power mgmt to 10-15% CAGR.
+Balance-sheet risk: Low debt, steady cash flow.
+Capital allocation: Dividends/buybacks consistent.
+Concentration case: Diversifies mega-tech with analog/industrial exposure.
+Owner thesis, 30-180 days: Autos/comm infra recovery.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: momentum
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: semi-analog-industrial
+Research tier: watch
+Allocation learning: none
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.00
+Evidence rank: 0/100
+Memory similarity: 0.00
+Vetoes: none
+Model notes: New discovery from momentum scan.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.barchart.com/story/news/1678932/1-momentum-stock-to-consider-right-now-and-2-we-turn-down
+
+4. SRAD (Technology / Sports Betting) | confidence 0.60 | allocation 4.0% | stop 10.0% | Chittick 35/100 | tier stale-watch | bucket sports-tech | HF source 0/100
+Thesis: Betting tech platform with earnings momentum; insider buying adds conviction.
+Catalyst: Recent double-digit rev/EBITDA growth; all 8 insider trades buys; 3 buy ratings.
+Entry: Post-probe dip if holds support; small 4% allocation.
+Exit: Profits on analyst PTs; tight stop.
+Risk/reward: 2:1 if allegations fade.
+Bear/adversary: Legal risks dominate; not quality-first.
+Source quality: Moderate: Earnings + analysts; legal overhang.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Limited by probe.
+Valuation: Undervalued if growth sustains.
+Growth runway: Betting tech expansion.
+Balance-sheet risk: Moderate.
+Capital allocation: Buybacks positive.
+Concentration case: Niche diversifier from AI/tech.
+Owner thesis, 30-180 days: Clear probe.
+Chittick reject reason: Legal risks.
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: sports-tech
+Research tier: stale-watch
+Allocation learning: none
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.40
+Evidence rank: 0/100
+Memory similarity: 0.00
+Vetoes: none
+Model notes: Discovery candidate.
+Social buzz, max 10%: low-weight sentiment mix
+Congress signal, max 5%: none
+Sources: https://www.quiverquant.com/news/Sportradar+Group+AG+Stock+(SRAD)+Opinions+on+Earnings+Report+and+Gambling+Allegations
 
