@@ -5,10 +5,13 @@ import argparse
 from .config import load_settings
 from .runner import (
     run_close,
+    run_hf_eval,
+    run_hf_setup,
     run_market_open,
     run_midday,
     run_premarket,
     run_research,
+    run_self_learning_finalize,
     run_weekly_review,
     setup_check,
 )
@@ -44,8 +47,14 @@ def main() -> int:
         "close",
         "weekly-review",
         "telegram-chat-id",
+        "hf-setup",
+        "hf-eval",
+        "self-learning-finalize",
     ]:
-        sub.add_parser(command)
+        parser_for_command = sub.add_parser(command)
+        if command == "hf-setup":
+            parser_for_command.add_argument("--download", action="store_true")
+            parser_for_command.add_argument("--include-large", action="store_true")
     args = parser.parse_args()
     if args.command == "setup-check":
         return setup_check()
@@ -63,9 +72,14 @@ def main() -> int:
         return run_weekly_review()
     if args.command == "telegram-chat-id":
         return telegram_chat_id()
+    if args.command == "hf-setup":
+        return run_hf_setup(download=args.download, include_large=args.include_large)
+    if args.command == "hf-eval":
+        return run_hf_eval()
+    if args.command == "self-learning-finalize":
+        return run_self_learning_finalize()
     return 2
 
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

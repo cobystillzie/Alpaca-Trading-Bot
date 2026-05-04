@@ -2,4 +2,4 @@
 
 Run `.\scripts\run-midday.ps1`.
 
-Review open positions, cash reserve, concentration, thesis drift, source-quality changes, social/congress noise, and stop plans.
+Read `memory/SELF-LEARNING-POLICY.md`. Review open positions, cash reserve, concentration, thesis drift, repeated stale candidates, allocation-blocked names, Hugging Face filter changes, source-quality changes, social/congress noise, and stop plans.

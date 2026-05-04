@@ -2,4 +2,4 @@
 
 Run `.\scripts\run-close.ps1`.
 
-Update portfolio snapshot, trade log observations, source-quality notes, social/congress signal review, and Telegram analyst recap.
+Read `memory/SELF-LEARNING-POLICY.md`. Update portfolio snapshot, trade log observations, repeated-candidate notes, allocation-constraint notes, Hugging Face filter notes, source-quality notes, social/congress signal review, and Telegram analyst recap.

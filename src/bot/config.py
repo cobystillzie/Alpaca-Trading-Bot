@@ -69,6 +69,11 @@ class Settings:
     telegram_detail_level: str
     social_buzz_weight: float
     congressional_signal_weight: float
+    hf_research_enabled: bool
+    hf_mode: str
+    hf_cache_dir: str
+    hf_allow_api_fallback: bool
+    hf_token: str
 
     @property
     def is_paper(self) -> bool:
@@ -114,6 +119,10 @@ class Settings:
             issues.append("SOCIAL_BUZZ_WEIGHT must be 0.10 or lower.")
         if self.congressional_signal_weight > 0.05:
             issues.append("CONGRESSIONAL_SIGNAL_WEIGHT must be 0.05 or lower.")
+        if self.hf_mode not in {"local", "hybrid", "api"}:
+            issues.append("HF_MODE must be local, hybrid, or api.")
+        if self.hf_mode == "api" and self.hf_allow_api_fallback and _is_placeholder(self.hf_token):
+            issues.append("HF_TOKEN is required only when HF_MODE=api with HF_ALLOW_API_FALLBACK=true.")
         return issues
 
 
@@ -148,4 +157,9 @@ def load_settings(root: Path | None = None) -> Settings:
         congressional_signal_weight=_bounded_float(
             _env("CONGRESSIONAL_SIGNAL_WEIGHT", file_values, "0.05"), 0.05, 0.0, 0.05
         ),
+        hf_research_enabled=_bool(_env("HF_RESEARCH_ENABLED", file_values, "false")),
+        hf_mode=_env("HF_MODE", file_values, "hybrid").lower(),
+        hf_cache_dir=_env("HF_CACHE_DIR", file_values, ".hf_cache"),
+        hf_allow_api_fallback=_bool(_env("HF_ALLOW_API_FALLBACK", file_values, "false")),
+        hf_token=_env("HF_TOKEN", file_values),
     )

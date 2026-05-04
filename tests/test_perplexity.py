@@ -21,6 +21,11 @@ def settings() -> Settings:
         telegram_detail_level="checkpoint_full",
         social_buzz_weight=0.10,
         congressional_signal_weight=0.05,
+        hf_research_enabled=True,
+        hf_mode="hybrid",
+        hf_cache_dir=".hf_cache",
+        hf_allow_api_fallback=False,
+        hf_token="",
     )
 
 

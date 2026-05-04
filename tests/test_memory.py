@@ -15,6 +15,12 @@ def test_update_watchlist_handles_json_unicode_escapes(tmp_path):
         target_allocation_percent=8.0,
         stop_loss_percent=10.0,
         source_urls=["https://example.com/research?note=unicode"],
+        catalyst_type="momentum",
+        fresh_catalyst=True,
+        repeat_count_48h=2,
+        diversity_bucket="broad-market-etf",
+        research_tier="execution-ready",
+        allocation_learning_note="No constraint.",
     )
 
     update_watchlist(tmp_path, "Unicode test summary \U0001f4c8", [candidate])
@@ -23,3 +29,7 @@ def test_update_watchlist_handles_json_unicode_escapes(tmp_path):
     assert len(loaded) == 1
     assert loaded[0].symbol == "SPY"
     assert "margin of safety" in loaded[0].thesis
+    assert loaded[0].fresh_catalyst
+    assert loaded[0].repeat_count_48h == 2
+    assert loaded[0].diversity_bucket == "broad-market-etf"
+    assert loaded[0].research_tier == "execution-ready"

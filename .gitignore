@@ -14,3 +14,4 @@ build/
 state/
 logs/
 runtime/
+.hf_cache/

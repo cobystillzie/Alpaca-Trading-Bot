@@ -23,6 +23,18 @@ def _signal_weights(data: Any) -> dict[str, float]:
     return weights
 
 
+def _string_list(data: Any) -> list[str]:
+    if not isinstance(data, list):
+        return []
+    return [str(item).strip() for item in data if str(item).strip()]
+
+
+def _bool(value: Any) -> bool:
+    if isinstance(value, bool):
+        return value
+    return str(value or "").strip().lower() in {"1", "true", "yes", "on"}
+
+
 @dataclass(frozen=True)
 class TradeCandidate:
     symbol: str
@@ -47,6 +59,31 @@ class TradeCandidate:
     social_buzz: str = ""
     congressional_signal: str = ""
     signal_weights: dict[str, float] = field(default_factory=dict)
+    strategy_tags: list[str] = field(default_factory=list)
+    chittick_cash_score: float = 0.0
+    margin_of_safety_case: str = ""
+    valuation_case: str = ""
+    growth_runway: str = ""
+    balance_sheet_risk: str = ""
+    capital_allocation_case: str = ""
+    concentration_case: str = ""
+    owner_hold_case: str = ""
+    chittick_reject_reason: str = ""
+    hf_sentiment_score: float = 0.0
+    hf_sentiment_label: str = ""
+    hf_sentiment_agreement: float = 0.0
+    hf_source_quality_score: float = 0.0
+    hf_hype_risk: float = 0.0
+    hf_evidence_rank: float = 0.0
+    hf_memory_similarity: float = 0.0
+    hf_filter_vetoes: list[str] = field(default_factory=list)
+    hf_model_notes: str = ""
+    catalyst_type: str = ""
+    fresh_catalyst: bool = False
+    repeat_count_48h: int = 0
+    diversity_bucket: str = ""
+    research_tier: str = ""
+    allocation_learning_note: str = ""
 
     @classmethod
     def from_dict(cls, data: dict[str, Any]) -> "TradeCandidate":
@@ -81,6 +118,31 @@ class TradeCandidate:
             social_buzz=str(data.get("social_buzz", "")).strip(),
             congressional_signal=str(data.get("congressional_signal", "")).strip(),
             signal_weights=_signal_weights(data.get("signal_weights")),
+            strategy_tags=_string_list(data.get("strategy_tags")),
+            chittick_cash_score=_float(data.get("chittick_cash_score")),
+            margin_of_safety_case=str(data.get("margin_of_safety_case", "")).strip(),
+            valuation_case=str(data.get("valuation_case", "")).strip(),
+            growth_runway=str(data.get("growth_runway", "")).strip(),
+            balance_sheet_risk=str(data.get("balance_sheet_risk", "")).strip(),
+            capital_allocation_case=str(data.get("capital_allocation_case", "")).strip(),
+            concentration_case=str(data.get("concentration_case", "")).strip(),
+            owner_hold_case=str(data.get("owner_hold_case", "")).strip(),
+            chittick_reject_reason=str(data.get("chittick_reject_reason", "")).strip(),
+            hf_sentiment_score=_float(data.get("hf_sentiment_score")),
+            hf_sentiment_label=str(data.get("hf_sentiment_label", "")).strip(),
+            hf_sentiment_agreement=_float(data.get("hf_sentiment_agreement")),
+            hf_source_quality_score=_float(data.get("hf_source_quality_score")),
+            hf_hype_risk=_float(data.get("hf_hype_risk")),
+            hf_evidence_rank=_float(data.get("hf_evidence_rank")),
+            hf_memory_similarity=_float(data.get("hf_memory_similarity")),
+            hf_filter_vetoes=_string_list(data.get("hf_filter_vetoes")),
+            hf_model_notes=str(data.get("hf_model_notes", "")).strip(),
+            catalyst_type=str(data.get("catalyst_type", "")).strip(),
+            fresh_catalyst=_bool(data.get("fresh_catalyst")),
+            repeat_count_48h=int(_float(data.get("repeat_count_48h"))),
+            diversity_bucket=str(data.get("diversity_bucket", "")).strip(),
+            research_tier=str(data.get("research_tier", "")).strip(),
+            allocation_learning_note=str(data.get("allocation_learning_note", "")).strip(),
         )
 
     def to_dict(self) -> dict[str, Any]:
@@ -107,6 +169,31 @@ class TradeCandidate:
             "social_buzz": self.social_buzz,
             "congressional_signal": self.congressional_signal,
             "signal_weights": self.signal_weights,
+            "strategy_tags": self.strategy_tags,
+            "chittick_cash_score": self.chittick_cash_score,
+            "margin_of_safety_case": self.margin_of_safety_case,
+            "valuation_case": self.valuation_case,
+            "growth_runway": self.growth_runway,
+            "balance_sheet_risk": self.balance_sheet_risk,
+            "capital_allocation_case": self.capital_allocation_case,
+            "concentration_case": self.concentration_case,
+            "owner_hold_case": self.owner_hold_case,
+            "chittick_reject_reason": self.chittick_reject_reason,
+            "hf_sentiment_score": self.hf_sentiment_score,
+            "hf_sentiment_label": self.hf_sentiment_label,
+            "hf_sentiment_agreement": self.hf_sentiment_agreement,
+            "hf_source_quality_score": self.hf_source_quality_score,
+            "hf_hype_risk": self.hf_hype_risk,
+            "hf_evidence_rank": self.hf_evidence_rank,
+            "hf_memory_similarity": self.hf_memory_similarity,
+            "hf_filter_vetoes": self.hf_filter_vetoes,
+            "hf_model_notes": self.hf_model_notes,
+            "catalyst_type": self.catalyst_type,
+            "fresh_catalyst": self.fresh_catalyst,
+            "repeat_count_48h": self.repeat_count_48h,
+            "diversity_bucket": self.diversity_bucket,
+            "research_tier": self.research_tier,
+            "allocation_learning_note": self.allocation_learning_note,
         }
 
 
@@ -115,6 +202,8 @@ class ScoreResult:
     score: int
     reasons: list[str]
     rejects: list[str]
+    base_score: int = 0
+    chittick_cash_score: int = 0
 
     @property
     def approved(self) -> bool:

@@ -41,6 +41,11 @@ PERPLEXITY_RECENCY=day
 TELEGRAM_DETAIL_LEVEL=checkpoint_full
 SOCIAL_BUZZ_WEIGHT=0.10
 CONGRESSIONAL_SIGNAL_WEIGHT=0.05
+
+HF_RESEARCH_ENABLED=true
+HF_MODE=hybrid
+HF_CACHE_DIR=.hf_cache
+HF_ALLOW_API_FALLBACK=false
 ```
 
 Replace each `PASTE_..._HERE` value with the real value. Save Notepad.
@@ -97,7 +102,29 @@ If it reports missing keys, reopen `.env.local` and fix the missing values:
 notepad .env.local
 ```
 
-## 7. Run Manual Paper Workflow
+## 7. Set Up Hugging Face Filters
+
+Paste this once:
+
+```powershell
+.\scripts\setup-huggingface.ps1
+python -m pytest
+.\scripts\run-hf-eval.ps1
+```
+
+No Hugging Face token is required for public local model/dataset checks. Add `HF_TOKEN` later only if you choose private/gated Hugging Face repos, paid HF API fallback, or HF Jobs.
+
+The Hugging Face cache lives in `.hf_cache`, and `.hf_cache` is ignored by Git.
+
+Optional later: to pre-cache public model metadata/tokenizers, run:
+
+```powershell
+.\scripts\setup-huggingface.ps1 -Download
+```
+
+Do not use `-IncludeLarge` unless you are ready for large model-weight downloads.
+
+## 8. Run Manual Paper Workflow
 
 Paste these one at a time:
 
@@ -109,7 +136,7 @@ Paste these one at a time:
 
 `run-market-open.ps1` can place Alpaca paper orders if every guardrail passes.
 
-## 8. Optional GitHub Remote Setup
+## 9. Optional GitHub Remote Setup
 
 This computer does not currently have the GitHub CLI installed. To connect this local repo to GitHub:
 
@@ -125,6 +152,14 @@ git push -u origin main
 
 After that, runtime auto-push will only add/commit/push markdown memory files.
 
+Friday weekly self-learning is the one exception. It may commit code or prompt changes only after `python -m pytest`, `python -m compileall -q src`, and Telegram change disclosure all succeed.
+
+Manual finalizer command, only for Friday self-learning changes:
+
+```powershell
+.\scripts\run-self-learning-finalize.ps1
+```
+
 ## Costs
 
 - Alpaca paper trading: $0.
@@ -132,6 +167,8 @@ After that, runtime auto-push will only add/commit/push markdown memory files.
 - GitHub Free repo: $0.
 - Perplexity Sonar: roughly $1-$10/month for light/medium daily use; every-2-hour weekday research may be closer to $5-$20/month depending on context size.
 - The upgraded maximum-depth research uses `sonar-pro` and high context, so costs can run higher than the original estimate if every scheduled run stays active.
+- Hugging Face public local downloads: $0, but they can use several GB of disk space depending on how many model weights you cache.
+- Hugging Face API/Jobs: optional later; not required for the current local/hybrid filter workflow.
 - Alpaca Algo Trader Plus: optional $99/month, not needed at first.
 - Codex automations: use existing Codex/ChatGPT plan first.
 - OpenAI API direct usage: avoid unless needed.

@@ -21,6 +21,10 @@ def test_env_file_loading(tmp_path):
                 "TELEGRAM_DETAIL_LEVEL=checkpoint_full",
                 "SOCIAL_BUZZ_WEIGHT=0.10",
                 "CONGRESSIONAL_SIGNAL_WEIGHT=0.05",
+                "HF_RESEARCH_ENABLED=true",
+                "HF_MODE=hybrid",
+                "HF_CACHE_DIR=.hf_cache",
+                "HF_ALLOW_API_FALLBACK=false",
             ]
         ),
         encoding="utf-8",
@@ -38,3 +42,7 @@ def test_env_file_loading(tmp_path):
     assert settings.telegram_detail_level == "checkpoint_full"
     assert settings.social_buzz_weight == 0.10
     assert settings.congressional_signal_weight == 0.05
+    assert settings.hf_research_enabled
+    assert settings.hf_mode == "hybrid"
+    assert settings.hf_cache_dir == ".hf_cache"
+    assert not settings.hf_allow_api_fallback
