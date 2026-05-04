@@ -2910,4 +2910,37 @@ HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
 Self-learning: tier=watch repeat48h=0 fresh=yes bucket=semi-foundry-value
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-04 13:08:16 Eastern Daylight Time
+
+Research Update
+
+Market tone: Biotech sector shows vaccine pipeline momentum with intranasal delivery market projected at 8.2% CAGR to 2035; Valneva secures €84M financing; no fresh catalysts for repeated mega-caps like GOOGL/NVDA amid stale repetition penalty and allocation constraints.
+Candidates: 3
+
+1. VALN (Biotechnology / Vaccines) | confidence 0.72 | allocation 5.0% | stop 8.0% | Chittick 68/100 | tier execution-ready | bucket biotech-vaccines
+Recommendation: watch
+Catalyst: €84m financing announced across multiple sources to shore up vaccine pipeline; aligns with intranasal market growth (8.2% CAGR) and IXCHIQ chikungunya updates.
+Chittick Cash: Financing extends runway; low debt assumed post-raise; high execution risk offset by market TAM validation.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=biotech-vaccines
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. SNY (Pharmaceuticals / Healthcare) | confidence 0.68 | allocation 6.0% | stop 7.0% | Chittick 75/100 | tier watch | bucket big-pharma-healthcare
+Recommendation: watch
+Catalyst: SEC 6-Ks highlight lunsekimig Phase 2 successes, Dupixent/Tzield approvals; intranasal market participant.
+Chittick Cash: Strong balance sheet, diversified revenue; undervalued vs. growth peers.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=big-pharma-healthcare
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. GSK (Pharmaceuticals / Vaccines) | confidence 0.65 | allocation 5.0% | stop 7.0% | Chittick 74/100 | tier watch | bucket vaccines-pharma
+Recommendation: watch
+Catalyst: IndexBox report highlights GSK as major player; thermostable powder trends align.
+Chittick Cash: Commercial product revenue provides buffer.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=vaccines-pharma
+Social buzz, low weight: none
+Congress signal, low weight: none
 

@@ -829,4 +829,154 @@
   ]
 }
 ```
+## Market Regime Research - 2026-05-04 13:08:16 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities opened Monday May 4 mixed amid renewed Iran tensions and Strait of Hormuz attacks, with tech resilience offsetting defensive positioning. S&P 500 and Nasdaq futures slightly negative, Dow futures down ~189 points. Friday closed with S&P 500 and Nasdaq at new all-time highs (+0.3% and +0.9% respectively), but momentum is decelerating as geopolitical risk re-enters. Earnings season remains robust (AI/tech leading), but volatility is rising and market breadth is narrowing. Fed holds rates at 3.50–3.75% with 'higher for longer' bias; rate-cut expectations fading. Treasury yields up 2.4 bps to 4.396%; oil surged $1.69 to $103.4/bbl. VIX at 16.99, CNN Fear & Greed at 66.1 (greed retreating). NFP data Friday expected to show sharp slowdown (60K–73K vs. 178K prior), a key catalyst for rate-cut narrative this week.",
+  "market_regime": {
+    "regime_classification": "cautious_momentum_with_geopolitical_headwinds",
+    "index_trend": {
+      "S&P_500": {
+        "level": 7230.12,
+        "status": "new_ATH_Friday_close",
+        "bias": "mixed_intraday_weakness",
+        "key_support": [7150, 7100, 7000],
+        "key_resistance": [7280],
+        "technical_note": "Broke below bull channel parallel trendline; test of lower bound (7,150) likely if Iran headlines escalate."
+      },
+      "Nasdaq": {
+        "level": 25114.44,
+        "status": "new_ATH_Friday_close",
+        "bias": "losing_upside_momentum",
+        "key_support": [27000, 26300, 25000],
+        "key_resistance": [27500],
+        "technical_note": "Crossed below bull channel; break below 27,500 may accelerate pullback to 26,300 (prior ATH)."
+      },
+      "Dow_Jones": {
+        "level": 49499.27,
+        "status": "negative_Friday",
+        "bias": "accelerating_downside",
+        "key_support": [49000, 48500, 48000],
+        "key_resistance": [49500],
+        "technical_note": "Testing 49,000–49,100 pivot zone; short-term bearish below this level."
+      }
+    },
+    "rate_environment": {
+      "fed_funds_rate": "3.50–3.75%",
+      "fed_stance": "higher_for_longer_with_dissent",
+      "dissent_detail": "Beth Hammack, Neel Kashkari, Lorie Logan dissented on easing bias inclusion; inflation and labor market uncertainty cited.",
+      "10yr_treasury_yield": 4.396,
+      "10yr_yield_change_bps": 2.4,
+      "mortgage_30yr_fixed": 6.58,
+      "mortgage_outlook": "Stable in low-to-mid 6% range unless major Iran escalation; rate cuts unlikely near-term."
+    },
+    "volatility_regime": {
+      "vix_level": 16.99,
+      "vix_change_pct": 0.59,
+      "regime": "elevated_but_controlled",
+      "implied_move_ai_stocks": "10.22–14.66%",
+      "breadth": "positive_but_narrowing",
+      "nyse_advance_decline_ratio": 1.18,
+      "nasdaq_advance_decline_ratio": 1.69,
+      "volume_note": "15.27B shares traded Friday (below 20-session avg of 17.64B); lower conviction."
+    },
+    "risk_sentiment": "risk_off_with_selective_tech_support",
+    "dollar_strength": "strengthening",
+    "oil_price": 103.4,
+    "oil_change": "+1.69",
+    "gold_price": 4584.7,
+    "gold_change": "-30.0",
+    "cnn_fear_greed_index": 66.1,
+    "cnn_fear_greed_change": -0.5
+  },
+  "sector_rotation": {
+    "leadership": "Technology and AI infrastructure remain resilient; Mag 7 easing but selective names (Micron +6%, Oracle strong, Finance resisting) showing relative strength.",
+    "earnings_tone": "Robust but mixed execution: QCOM +15.1% vs 8.7% expected, GOOGL +10.0% vs 5.6%, CAT +9.9% vs 6.7%, but META -8.6% vs 7.4%, MSFT -3.9% vs 6.7%, AMZN +1.3% vs 7.3%. AI/cloud/semiconductors outperforming; consumer discretionary and energy lagging.",
+    "week_ahead_volatility": "ARM, CoreWeave, AppLovin, and 4 other AI-linked stocks reporting Mon–Fri with 10–15% implied moves; earnings season tightening from mega-cap to mid-cap AI cohort (~$830B combined market cap).",
+    "sector_winners": [
+      "Technology (AI, Cloud, Semiconductors)",
+      "Finance (relative strength)",
+      "Discretionary (selective: SBUX +8.5%, CMG +3.0%)"
+    ],
+    "sector_losers": [
+      "Energy (XOM -1.0%, CVX -1.4% despite beats)",
+      "Healthcare (AMGN -4.8%, MRK -1.6%)",
+      "Industrials (mixed: CAT +9.9% but UPS -4.0%)"
+    ],
+    "rotation_signal": "Defensive tilt emerging; investors rotating into mega-cap tech and away from cyclicals amid geopolitical uncertainty and 'higher for longer' rate expectations."
+  },
+  "risk_flags": {
+    "geopolitical_critical": {
+      "severity": "high",
+      "trigger": "Renewed Iran tensions; UKMTO reports new attacks on merchant ships/tankers in Strait of Hormuz; Trump rejected latest Iranian draft amendment.",
+      "market_impact": "Dow accelerating downside; oil +$1.69; Treasury yields up; risk-off sentiment spreading. Further escalation could trigger 5–10% equity correction and oil spike to $110+.",
+      "monitoring": "Daily headlines; ceasefire fragility; US response timing."
+    },
+    "fed_policy_uncertainty": {
+      "severity": "medium_high",
+      "trigger": "Fed holding rates steady with dissent on easing bias; inflation elevated; labor market mixed. NFP Friday expected to show sharp slowdown (60K–73K vs 178K), which could reignite rate-cut debate.",
+      "market_impact": "Weak NFP → bullish equities, bearish USD; strong NFP → 'higher for longer' narrative, USD strength, pressure on risk assets. Mortgage rates sensitive; refinance market volatile.",
+      "monitoring": "NFP release this week; Fed speakers; inflation data."
+    },
+    "earnings_execution_risk": {
+      "severity": "medium",
+      "trigger": "AI/semiconductor cohort reporting Mon–Fri with 10–15% implied moves; mega-cap earnings beat streak may not sustain in mid-cap AI names.",
+      "market_impact": "Volatility spike; sector rotation acceleration if misses cluster.",
+      "monitoring": "ARM, CoreWeave, AppLovin earnings; guidance revisions."
+    },
+    "technical_breakdown": {
+      "severity": "medium",
+      "trigger": "S&P 500 and Nasdaq breaking below bull channel trendlines; support levels (7,150 for S&P, 27,000 for Nasdaq) at risk if Iran headlines worsen.",
+      "market_impact": "Accelerated pullback to 7,000–7,020 (S&P) or 26,300 (Nasdaq) if support breaks; momentum reversal.",
+      "monitoring": "Intraday price action; support hold/break."
+    },
+    "seasonality_headwind": {
+      "severity": "low_to_medium",
+      "trigger": "May marks start of historically weak 6-month stretch (May–Oct); S&P 500 avg +2% since 1945 in this period.",
+      "market_impact": "Structural bias toward consolidation or pullback; reduces upside conviction.",
+      "monitoring": "Monthly/quarterly trend."
+    },
+    "liquidity_and_breadth_concern": {
+      "severity": "low_to_medium",
+      "trigger": "Volume below 20-session average; breadth positive but narrowing; Mag 7 easing; concentration risk in mega-cap tech.",
+      "market_impact": "Lower conviction moves; potential for sharp reversals on low volume.",
+      "monitoring": "Daily volume; breadth indicators; sector concentration."
+    }
+  },
+  "source_urls": [
+    "https://www.marketpulse.com/markets/stock-markets-lookout-for-iran-tensions-US-stocks-update/",
+    "https://themortgagereports.com/mortgage-rates-now/mortgage-rates-today-may-4-2026",
+    "https://www.barchart.com/story/news/1680701/option-volatility-and-earnings-report-for-may-4-8",
+    "https://www.stl.news/global-markets-turn-mixed-overnight-may-4-2026/",
+    "https://www.nerdwallet.com/mortgages/news/mortgage-outlook-may-2026",
+    "https://www.benzinga.com/markets/earnings/26/05/52251701/earnings-volatility-watch-arm-coreweave-applovin-may-2026",
+    "https://naga.com/en/news-and-analysis/articles/nfp-week-geopolitics-market-volatility-may-2026",
+    "https://www.noradarealestate.com/blog/mortgage-rates-today-may-4-2026-30-year-refinance-rate-drops-by-1-basis-point/",
+    "https://www.zacks.com/stock/news/2913658/stock-market-news-for-may-4-2026",
+    "https://www.icmarkets.com/blog/ic-markets-global-europe-fundamental-forecast-04-may-2026/",
+    "https://www.newyorkfed.org/newsevents/speeches/2026/wil260504",
+    "https://www.zacks.com/stock/news/2913858/pre-markets-mixed-to-begin-new-trading-week",
+    "https://www.morningstar.com/news/dow-jones/20260504649/week-ahead-for-fx-bonds-us-jobs-data-in-focus-as-middle-east-tensions-continue"
+  ]
+}
+```
+
+---
+
+### **Cautious Paper-Trading Workflow Recommendation**
+
+**Regime Assessment for Bot Execution:**
+
+1. **Position Sizing:** Reduce single-stock allocations to 5–6% (vs. 8% in memory); increase cash buffer to 15–20% for volatility absorption.
+
+2. **Entry Discipline:** Execute only on confirmed support holds (S&P 7,150, Nasdaq 27,000) or post-NFP clarity. Avoid chasing into Iran headlines.
+
+3. **Sector Bias:** Favor mega-cap tech (GOOGL, NVDA) and AI software (PLTR) on dips; avoid energy and cyclicals until geopolitical risk recedes.
+
+4. **Stop Placement:** Tighten stops to 6–8% (vs. 8–10% in memory) given elevated volatility and technical fragility.
+
+5. **Earnings Volatility:** Monitor ARM, CoreWeave, AppLovin (Mon–Fri) for sector momentum shifts; be ready to pivot if AI cohort misses cluster.
+
+6. **NFP Trigger:** If Friday's jobs data shows <60K, prepare for rate-cut rally (bullish equities, bearish USD); if >100K, expect 'higher for longer' selloff.
 

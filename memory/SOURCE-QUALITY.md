@@ -1690,4 +1690,23 @@ SEC/company quality check:
   "quality_notes": "Watchlist shows durable demand: GOOGL Cloud +63% YoY confirms AI tailwinds; NVDA hyperscaler $725B CapEx; SPMO S&P momentum +17.81% 1M; PLTR 4 beats/+40% surprise; ADI +21.5% 1M semis; SRAD rev growth/insider buys. Repeated GOOGL candidacy (5x) signals conviction but allocation-constrained bucket. No revenue quality concerns; catalysts tied to earnings/AI. Quality durable absent filing risks.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-04 13:08:16 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+{"summary":"No unusual discussion or social attention detected around liquid US stocks/ETFs from the candidate list (GOOGL, NVDA, SPMO, PLTR, ADI, SRAD, INTC). Search coverage highlights unrelated UAL airline stock amid Spirit shutdown, with no hype, pump language, or unsupported claims flagged for candidates.","social_buzz":"Weak; isolated UAL mention due to Spirit Airlines closure and fuel prices, but irrelevant to candidates. No elevated chatter on GOOGL, NVDA, SPMO, PLTR, ADI, SRAD, or INTC.","attention_anomalies":"None identified for liquid candidates. SPMO shows steady momentum (+17.81% 1M) but no anomalous hype. PLTR pre-earnings watch lacks unusual volume.","source_urls":["https://stocktwits.com/news-articles/markets/equity/united-airlines-steps-in-after-spirit-shutdown-and-cheaper-jet-fuel-is-drawing-attention-for-ual-stock/cZQMkvgRe7t"]}
+
+Congressional disclosures, max 5% influence:
+{"summary":"No recent congressional disclosures of trades in liquid US stocks or ETFs identified in scanned sources.","congressional_signal":"None","tickers":[],"source_urls":[]}
+
+SEC/company quality check:
+{
+  "summary": "ACHV 10-K details cytisinicline NDA filed June 2025 with PDUFA June 20, 2026; potential approval delay from third-party CMO FDA inspection issues (2 observations on solid oral dose mfg); Sopharma supply dispute over third-party CMO use; Chantix market opportunity ($1.1B peak sales, re-launched Feb 2026); mid-single digit royalties to Sopharma; up to $4.8M milestones to Bristol; natural compound limits IP (20+ patents exp 2037-2042). Sanofi 6-Ks highlight lunsekimig Phase 2 successes in asthma/CRSwNP but AD failure; Dupixent/Tzield pediatric approvals in CSU/T1D. Valneva 6-Ks show IXCHIQ chikungunya vaccine label updates (elderly pause lifted), strong adolescent persistence data, Asia expansion with SII.",
+  "filing_risks": [
+    "ACHV: FDA approval delay risk beyond PDUFA 6/20/26 due to third-party CMO cGMP inspection (2 observations, remedial plan ongoing); Sopharma alleging breach over third-party manufacturers in NDA, dispute unresolved (10-K); contingent $2M Sopharma payment on FDA/EMA approval; supply chain risks from natural plant sourcing, international logistics/tariffs; heavy regulation, post-approval Phase 4 trials, pricing/reimbursement pressures (IRA negotiations, Medicaid rebates); no owned mfg, CMO reliance; IP challenges as natural compound unpatentable.",
+    "Sanofi: Forward-looking risks in 6-Ks include regulatory delays/denials, clinical/post-marketing safety issues, competition, pricing pressures (IRA, 'most favored nation'), mfg/supply disruptions, IP litigation (standard boilerplate).",
+    "Valneva: IXCHIQ SAE reports in elderly (warnings expanded), contraindicated in immunocompromised; regulatory delays for adolescent/pediatric extensions; tech transfer risks with SII; LMIC access dependencies on CEPI funding (10-K forward-looking uncertainties)."
+  ],
+  "quality_notes": "ACHV revenue pre-commercial (no durable demand evidence); high execution risk near PDUFA with mfg/inspection hurdles and supplier dispute; Chantix relaunch validates $825M US TAM but generics/OTC NRT competition; balanced disclosure of milestones/royalties. Sanofi filings routine pipeline updates, no balance sheet/litigation flags. Valneva strong persistence/safety data supports durability but SAE updates flag elderly risk; partnership expansions indicate demand. No dilution/capital allocation concerns noted; INTC memory noted but absent here.",
+  "source_urls": []
+}
 
