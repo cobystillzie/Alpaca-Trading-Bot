@@ -2943,4 +2943,19 @@ HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
 Self-learning: tier=watch repeat48h=0 fresh=yes bucket=vaccines-pharma
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-04 14:51:47 Eastern Daylight Time
+
+Research Update
+
+Market tone: UK equity markets face headwinds on Monday, May 4, 2026: FTSE 100 down amid geopolitical tensions (Iran/Strait of Hormuz oil surge to $103+), rising yields (10yr 4.39%), and broad sell-off in banking/retail. GSK (LON:GSK, GBX 1,620, -1.61%) trades near consensus price target (GBX 1,637.50) with Hold rating; recent regulatory wins (linerixibat MHRA approval, bepirovirsen FDA priority review, efimosfermin Breakthrough Therapy) offset by short-term technical weakness and analyst target cut (Bernstein GBX 2,630p from GBX 2,750p). Risk-off sentiment dominates; paper-trading strategy prioritizes 1-10 day swing trades with defined catalysts and quality discipline.
+Candidates: 1
+
+1. GSK (Pharmaceuticals / Vaccines / Healthcare) | confidence 0.65 | allocation 5.0% | stop 7.0% | Chittick 68/100 | tier watch | bucket big-pharma-vaccines | HF source 1/100
+Recommendation: watch
+Catalyst: **Regulatory catalysts (completed/near-term):** MHRA linerixibat approval (Lynavoy) for PBC itch (Phase III Glisten trial showed statistically significant improvement in Monthly Itch Score and sleep disruption vs. placebo); FDA bepirovir...
+Chittick Cash: **Valuation margin of safety:** P/E 19.59 below market average (39.72) suggests undervaluation; dividend yield 3.87% (top 25%) provides downside cushion. **Quality margin of safety:** Large-cap scale ($65.2B market ca...
+HF filter: sentiment=mixed_hold source=1/100 hype=0.15 vetoes=0
+Self-learning: tier=watch repeat48h=1 fresh=yes bucket=big-pharma-vaccines
+Social buzz, low weight: none
+Congress signal, low weight: none
 

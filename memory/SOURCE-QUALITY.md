@@ -1709,4 +1709,94 @@ SEC/company quality check:
   "quality_notes": "ACHV revenue pre-commercial (no durable demand evidence); high execution risk near PDUFA with mfg/inspection hurdles and supplier dispute; Chantix relaunch validates $825M US TAM but generics/OTC NRT competition; balanced disclosure of milestones/royalties. Sanofi filings routine pipeline updates, no balance sheet/litigation flags. Valneva strong persistence/safety data supports durability but SAE updates flag elderly risk; partnership expansions indicate demand. No dilution/capital allocation concerns noted; INTC memory noted but absent here.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-04 14:51:47 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+{"summary":"No unusual discussion identified around liquid US stocks or ETFs from the provided candidates (GOOGL, NVDA, SPMO, PLTR, ADI, SRAD, INTC, VALN, SNY, GSK). Search results highlight tangential attention on UAL (airline sector, +0.3% overnight amid Spirit shutdown and fuel prices) and GME/EBAY (retail/collectibles bid hype, GME +5%, EBAY +11% overnight), but neither matches candidate symbols nor indicates broad liquid ETF/stock anomalies.","social_buzz":"Weak retail trader buzz on StockTwits around GME's $56B eBay bid (cash/stock mix, 5% GME stake, Ryan Cohen ambitions for $hundreds of billions valuation, TD Bank $20B debt commitment); Michael Burry mentioned in debate. UAL minor positive noise from Spirit accommodations and cheap fuel. No mentions of candidates; treat as weak context only, potential hype in GME claims (unsupported scale).","attention_anomalies":"Overnight gains flagged: GME +5%, EBAY +11% (bid-related speculation), UAL +0.3% (operational tailwind). No anomalies in candidates like SPMO ($128-132 range steady) or PLTR (earnings watch). Suspected pump language in GME/eBay (e.g., 'hundreds of billions' without fundamentals backing); high risk of unsupported claims.","source_urls":["https://stocktwits.com/news-articles/markets/equity/united-airlines-steps-in-after-spirit-shutdown-and-cheaper-jet-fuel-is-drawing-attention-for-ual-stock/cZQMkvgRe7t","https://stocktwits.com/news-articles/markets/equity/why-game-stop-s-e-bay-bid-makes-more-sense-than-what-meets-the-eye-and-it-involves-pikachu/cZQMSEgRe7A"]}
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No recent congressional disclosures found for liquid US stocks/ETFs.",
+  "congressional_signal": "none",
+  "tickers": [],
+  "source_urls": []
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": "Biotech/pharma sector analysis from SEC filings (6-Ks, 10-Ks) reveals mixed clinical progress and regulatory headwinds. Sanofi (SNY) shows lunsekimig Phase 2 wins in respiratory but atopic dermatitis miss; Dupixent maintains broad approval momentum. Valneva (VALN) faces critical safety review on IXCHIQ (chikungunya) in elderly post-EMA suspension; vaccine pipeline remains early-stage. Jasper Therapeutics (JSPR) demonstrates rapid briquilimab efficacy in CSU/CIndU but single-asset concentration risk. GSK's linerixibat meets PBC itch endpoint but orphan-drug market size limited. Evommune (EVO756) shows Phase 2 CIndU promise but early-stage. Revenue quality concerns center on pipeline dependency, regulatory binary outcomes, and limited near-term commercialization.",
+  "filing_risks": {
+    "VALN": [
+      "EMA suspension of IXCHIQ in elderly (>65 years) effective May 2025; 17 serious adverse events reported including 2 deaths; exact causality undetermined but reputational/commercial damage material.",
+      "Cash position €153M (Q1 2025) with €8.1M operating cash burn; ATM equity raise $14.2M dilution (2.8% post-transaction); dependent on milestone payments from Pfizer VLA15 partnership ($143M initial, 14-22% royalties).",
+      "VLA15 (Lyme vaccine) Phase 3 VALOR trial primary data expected end-2025; binary regulatory outcome; no revenue until potential 2026+ approval.",
+      "Third-party distribution winding down to <5% by 2026-27; gross margin improvement thesis dependent on manufacturing efficiency gains (batch failures declining).",
+      "Shigella S4V2 Phase 2b efficacy data pushed from H2 2025 to H1 2026; dose-finding extension delays pilot results."
+    ],
+    "SNY": [
+      "Lunsekimig (Phase 2): AIRCULES met primary/secondary in asthma; DUET met primary in CRSwNP; but VELVET exploratory study failed primary endpoint in atopic dermatitis (EASI score), though secondary endpoints (EASI-75, vIGA-AD) showed improvement—suggests mechanism may not translate across all inflammatory skin diseases.",
+      "Dupixent CSU approval (Japan first, EU/US pending): LIBERTY-CUPID Study C confirms ~50% itch reduction vs. placebo but does not represent first-line therapy; omalizumab (Xolair) remains standard; market penetration dependent on reimbursement and physician adoption.",
+      "Dupixent bullous pemphigoid (BP) pivotal ADEPT: 5x more sustained remission vs. placebo but small population (106 patients); orphan-drug designation limits addressable market; elderly population (mean age ~70) shows higher adverse event rates (96% vs. 96% placebo, but specific AEs: peripheral edema, conjunctivitis, blurred vision).",
+      "Forward-looking statements disclose risks: regulatory approval uncertainty, competitive alternatives (Xolair, Rhapsido, KIT inhibitors), pricing pressure, and post-marketing safety monitoring.",
+      "Concentration risk: Dupixent >1M patients globally but multiple indications; revenue diversification limited; pipeline dependent on IL-4/IL-13 mechanism."
+    ],
+    "JSPR": [
+      "Single-asset company: briquilimab monoclonal antibody (c-Kit blocker) in Phase 1b/2a CSU/CIndU; no approved products; clinical-stage binary risk.",
+      "BEACON CSU study (preliminary Jan 2025 data): 100% complete responses at 240mg dose through 8 weeks but small cohort sizes (8 dosing cohorts presented); durability limited (4-8 weeks depending on dose); long-term safety profile unknown.",
+      "SPOTLIGHT CIndU study (Oct 2024): 93% clinical response (40mg/120mg cohorts) but only 6-week preliminary analysis; no SAEs reported but limited exposure.",
+      "Amgen exclusive license agreement for briquilimab; Stanford license for HSC clearing—royalty obligations and milestone payments reduce net economics.",
+      "Cash burn not disclosed in 10-K excerpt; clinical development costs rising; no revenue; dilution risk from future financing rounds.",
+      "Off-target safety: c-Kit blockade may affect hematopoiesis, mast cell development; nonclinical KO mouse studies show no adverse histopathology but human translation uncertain."
+    ],
+    "GSK": [
+      "Linerixibat (GLISTEN Phase 3 PBC itch): met primary endpoint (itch reduction over 24 weeks) but orphan-drug designation limits market size (~240k PBC patients with severe itch globally by 2030); current therapies (ursodeoxycholic acid, obeticholic acid) inadequate but not zero baseline.",
+      "Safety profile 'generally consistent' with prior studies but full data analysis ongoing; no approval yet; regulatory pathway uncertain.",
+      "PBC is rare autoimmune liver disease; patient population small; reimbursement/pricing pressure likely; commercial potential limited vs. large-market indications."
+    ],
+    "EVOMMUNE": [
+      "EVO756 (MRGPRX2 inhibitor, oral small molecule) Phase 2 CIndU: 70% improvement at 4 weeks (FricTest score); 30% complete response; but only 27 evaluable patients; limited durability data.",
+      "Phase 2b CSU trial initiated April 2025; ~160 patients planned; primary endpoint UAS7 at 12 weeks; initial data expected H1 2026—binary outcome.",
+      "Two subjects in 300mg QD cohort showed asymptomatic transaminase elevations >10x ULN at week 4 (resolved by baseline); hepatotoxicity signal requires monitoring.",
+      "Phase 2b AD trial ongoing; current protocols dose up to 150mg daily; >130 patients enrolled as of Sept 2025; early-stage, no efficacy data yet.",
+      "Pre-clinical: EVO756 human-specific; no genotoxicity; no fetal malformations in KO mice; but limited human safety database."
+    ]
+  },
+  "quality_notes": {
+    "revenue_quality": "All companies are pre-revenue or early-stage commercialization (VALN only established player with €48.6M Q1 2025 sales from IXIARO/DUKORAL/IXCHIQ). SNY/GSK are large-cap pharma with diversified portfolios; lunsekimig/linerixibat represent pipeline additions, not core revenue. JSPR/EVOMMUNE are clinical-stage with zero revenue; dependent on Phase 2/3 success and regulatory approval.",
+    "balance_sheet_concentration": "VALN: €153M cash, €8.1M Q1 burn, dependent on Pfizer milestones and equity raises. JSPR: clinical-stage, likely negative cash flow; no balance sheet detail in 10-K excerpt. EVOMMUNE: private company, no public filings. SNY/GSK: large-cap balance sheets not disclosed in excerpts but diversified revenue bases reduce single-program risk.",
+    "dilution_risk": "VALN: €14.2M ATM equity raise (2.8% dilution) in April 2025; future financing likely if cash burn accelerates. JSPR: 15.0M shares outstanding (Feb 2025); potential future dilution from clinical development funding. EVOMMUNE: private; dilution opaque.",
+    "litigation_risk": "SNY/GSK: forward-looking statements disclose IP litigation risks (Dupixent patent disputes not detailed in excerpts). JSPR: no litigation disclosed. VALN: no litigation disclosed but regulatory/safety investigations ongoing (EMA IXCHIQ review).",
+    "regulatory_binary": "VALN IXCHIQ: EMA suspension in elderly (May 2025) is material adverse event; label restriction reduces addressable market; causality investigation ongoing. SNY lunsekimig: VELVET atopic dermatitis failure suggests mechanism limitations. JSPR briquilimab: Phase 1b/2a data promising but Phase 3 required; no guarantee of approval. GSK linerixibat: orphan-drug market; approval likely but commercial potential limited. EVOMMUNE EVO756: Phase 2b CSU data expected H1 2026; hepatotoxicity signal requires resolution.",
+    "capital_allocation": "VALN: R&D €15M Q1 2025 (up from €13.1M Q1 2024) driven by Shigella collaboration; SG&A reduced to €9M (from €11.7M); cost discipline evident but offset by pipeline advancement costs. SNY: Dupixent/lunsekimig development ongoing; no specific capex disclosed in excerpts. JSPR: clinical development costs rising; no revenue to offset. GSK: linerixibat development ongoing; orphan-drug pathway may reduce Phase 3 trial size.",
+    "durable_demand_evidence": "VALN: IXCHIQ chikungunya vaccine addresses mosquito-borne disease in 110+ countries; 3.7M cases reported 2013-23 in Americas; WHO priority; but elderly restriction (May 2025) materially reduces addressable market. SNY Dupixent: >1M patients globally across multiple indications; CSU market ~300k inadequately controlled patients in US; but competitive landscape (Xolair, Rhapsido, KIT inhibitors) intensifying. JSPR briquilimab: CSU affects 5M+ patients in US/EU; CIndU affects 2M+ patients; unmet need in antihistamine-refractory population; but early-stage clinical data. GSK linerixibat: PBC itch affects ~240k patients globally by 2030; unmet need (current therapies inadequate) but small absolute market. EVOMMUNE EVO756: CSU/CIndU same addressable markets as JSPR; oral dosing advantage vs. injectables; but Phase 2b data pending.",
+    "valuation_risk": "VALN: €153M market cap (implied from cash position and burn rate); dependent on VLA15 Lyme vaccine success (Phase 3 data end-2025); if delayed/negative, significant downside. JSPR: $281M market cap (June 2024); single-asset clinical-stage company; binary outcome risk. SNY/GSK: large-cap valuations not at risk from single pipeline programs but Dupixent/linerixibat represent incremental value. EVOMMUNE: private; valuation opaque but early-stage funding rounds likely at risk if Phase 2b CSU fails or hepatotoxicity signal worsens."
+  },
+  "source_urls": [
+    "SEC EDGAR: Sanofi 6-K filed 2026-04-15 (lunsekimig Phase 2 respiratory, Dupixent CSU pediatric approval)",
+    "SEC EDGAR: Sanofi 6-K filed 2024-09-13 (Dupixent bullous pemphigoid ADEPT, CSU LIBERTY-CUPID Study C)",
+    "SEC EDGAR: Valneva 6-K filed 2025-05-07 (Q1 2025 financials, IXCHIQ EMA elderly suspension, VLA15 Lyme Phase 3 VALOR)",
+    "SEC EDGAR: Valneva 6-K filed 2024-09-18 (IXCHIQ label extension applications EMA/Health Canada)",
+    "SEC EDGAR: Jasper Therapeutics 10-K filed 2025-02-28 (briquilimab Phase 1b/2a CSU/CIndU BEACON/SPOTLIGHT, clinical-stage pipeline)",
+    "SEC EDGAR: GSK 6-K filed 2024-11-19 (linerixibat GLISTEN Phase 3 PBC itch primary endpoint)",
+    "SEC EDGAR: Evommune 424B4 filed 2025-11-06 (EVO756 Phase 1 proof-of-concept, Phase 2 CIndU/CSU/AD trials, hepatotoxicity signal)"
+  ]
+}
+```
+
+---
+
+### Key Takeaways for Watchlist Monitoring
+
+**VALN (Highest Risk):** EMA IXCHIQ elderly suspension (May 2025) is material adverse event. Label restriction reduces addressable market by ~40-50% (elderly typically 30-40% of travel vaccine population). VLA15 Lyme Phase 3 data end-2025 is binary catalyst; if delayed or negative, cash burn (€8.1M Q1) unsustainable without additional financing (dilution risk). Monitor EMA investigation outcome and VLA15 enrollment/efficacy signals.
+
+**SNY (Moderate Risk):** Lunsekimig VELVET atopic dermatitis failure suggests mechanism may not translate across all inflammatory skin diseases; limits pipeline optionality. Dupixent CSU approval pending but competitive landscape intensifying (Xolair, Rhapsido, KIT inhibitors); market share uncertain. Monitor Phase 3 PERSEPHONE/THESEUS lunsekimig respiratory trials and Dupixent CSU reimbursement/adoption rates.
+
+**JSPR (High Binary Risk):** Single-asset clinical-stage company; briquilimab Phase 1b/2a data promising but Phase 3 required. Hepatotoxicity/off-target safety profile unknown at scale. Monitor Phase 3 initiation timeline and any safety signals in ongoing BEACON/SPOTLIGHT/ETESIAN studies.
+
+**EVOMMUNE (Early-Stage, Hepatotoxicity Signal):** EVO756 Phase 2b CSU data expected H1 2026; two subjects showed transaminase elevations >10x ULN (resolved). Hepatotoxicity signal requires resolution before Phase 3; if confirmed, program at risk. Monitor Phase 2b interim safety reviews and liver function test trends.
+
+**GSK (Lower Risk, Limited Upside):** Linerixibat orphan-drug market; approval likely but commercial potential limited (~240k PBC itch patients globally). Incremental value to large-cap portfolio; not material to overall valuation.
 

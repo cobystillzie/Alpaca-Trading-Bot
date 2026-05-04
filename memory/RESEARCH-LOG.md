@@ -321,4 +321,9 @@ Candidates found: 3
 Biotech sector shows vaccine pipeline momentum with intranasal delivery market projected at 8.2% CAGR to 2035; Valneva secures €84M financing; no fresh catalysts for repeated mega-caps like GOOGL/NVDA amid stale repetition penalty and allocation constraints.
 
 Candidates found: 3
+## Two-Hour Research Agent - 2026-05-04 14:51:47 Eastern Daylight Time
+
+UK equity markets face headwinds on Monday, May 4, 2026: FTSE 100 down amid geopolitical tensions (Iran/Strait of Hormuz oil surge to $103+), rising yields (10yr 4.39%), and broad sell-off in banking/retail. GSK (LON:GSK, GBX 1,620, -1.61%) trades near consensus price target (GBX 1,637.50) with Hold rating; recent regulatory wins (linerixibat MHRA approval, bepirovirsen FDA priority review, efimosfermin Breakthrough Therapy) offset by short-term technical weakness and analyst target cut (Bernstein GBX 2,630p from GBX 2,750p). Risk-off sentiment dominates; paper-trading strategy prioritizes 1-10 day swing trades with defined catalysts and quality discipline.
+
+Candidates found: 1
 

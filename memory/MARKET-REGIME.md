@@ -979,4 +979,15 @@
 5. **Earnings Volatility:** Monitor ARM, CoreWeave, AppLovin (Mon–Fri) for sector momentum shifts; be ready to pivot if AI cohort misses cluster.
 
 6. **NFP Trigger:** If Friday's jobs data shows <60K, prepare for rate-cut rally (bullish equities, bearish USD); if >100K, expect 'higher for longer' selloff.
+## Market Regime Research - 2026-05-04 14:51:47 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equity markets exhibit resilient **risk-on** tone with S&P 500 and Nasdaq at all-time highs driven by strong tech/AI earnings (e.g., GOOGL beat, PLTR upcoming), despite rising Treasury yields (10yr 4.39%), Fed steady at 3.50-3.75% with dissent, oil surge to $103+, and Iran geopolitical tensions causing futures caution and modest intraday pullback[1][2][3][4][7][9]. SPMO momentum intact in $128-132 range amid ATHs[existing].",
+  "market_regime": "Bullish momentum with **risk-on** bias (S&P +0.3% to 7230 ATH Fri, Nasdaq +0.9% ATH, 5-week S&P streak); cautious open Mon on Iran/oil (futures -0.09% S&P, VIX 17); low vol (Fear&Greed 66 'Greed')[1][3][4][7].",
+  "sector_rotation": "Tech/AI/semiconductors leading (GOOGL Cloud +63%YoY, NVDA watch, PLTR/ADI earnings focus, Apple +3.2% beat); consumer disc strong; energy weak (XOM/CVX -1-1.4% despite beats on oil fall then surge); broad momentum via SPMO[3][6][existing].",
+  "risk_flags": ["Iran conflict escalation (oil $103+, Strait Hormuz closure, missile reports, futures down)[1][4][7][9][15]", "Fed divided (8-4 vote, 3 dissenters vs easing bias, inflation elevated)[2][4][5]", "Rising yields (10yr 4.39% +2.4bp, 30yr 4.96% +5bp wk)[1][4]", "Upcoming earnings vol (PLTR/AMD/SHOP etc., mixed prior week)[6]"],
+  "source_urls": ["https://themortgagereports.com/mortgage-rates-now/mortgage-rates-today-may-4-2026", "https://www.ajg.com/news-and-insights/weekly-financial-markets-update-may-4-2026/", "https://www.zacks.com/stock/news/2913658/stock-market-news-for-may-4-2026", "https://www.pennmutualam.com/market-insights-news/blogs/monday-morning-perspectives/2026-05-04-markets-remain-resilient", "https://www.nerdwallet.com/mortgages/news/mortgage-outlook-may-2026", "https://www.barchart.com/story/news/1680701/option-volatility-and-earnings-report-for-may-4-8", "https://www.stl.news/global-markets-turn-mixed-overnight-may-4-2026/", "https://www.foxbusiness.com/media/market-expert-says-potential-fed-rate-cuts-coukd-spark-one-of-the-biggest-explosions-us-economy", "https://www.thestreet.com/latest-news/stock-market-today-may-4-2026-updates", "https://247wallst.com/investing/2026/05/04/stock-market-live-may-4-2026-sp-500-spy-sinks-on-iran-uncertainty-again/"]
+}
+```
 
