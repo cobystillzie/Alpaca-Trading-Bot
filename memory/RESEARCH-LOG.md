@@ -291,4 +291,14 @@ Candidates found: 3
 US equities maintain bullish momentum with S&P 500 near all-time highs driven by AI/tech earnings beats and hyperscaler CapEx pledges, though stretched positioning and hawkish Fed signals warrant caution for short-term paper trades.
 
 Candidates found: 3
+## Premarket Plan - 2026-05-04 09:06:02 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- GOOGL: score=88, base=90, chittick=82, approved=False, allocation=8.0%, stop=6.0%
+  rejects: HF memory filter flags similarity to prior rejected patterns.
+- NVDA: score=86, base=90, chittick=75, approved=False, allocation=8.0%, stop=7.0%
+  rejects: HF memory filter flags similarity to prior rejected patterns.
+- SPMO: score=74, base=90, chittick=35, approved=False, allocation=8.0%, stop=6.0%
+  rejects: HF memory filter flags similarity to prior rejected patterns.
 
