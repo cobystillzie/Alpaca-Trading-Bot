@@ -1086,4 +1086,30 @@ For a cautious bot workflow on May 4, 2026:
 4. **Risk Management:** Monitor oil prices and Fed dissent signals closely. The 4-dissent FOMC vote signals policy uncertainty that could trigger sharp reversals if inflation data surprises.
 
 5. **Earnings Catalysts:** PLTR earnings after close May 4 (consensus +450% EPS YoY) and ongoing mega-cap tech results remain key drivers but are increasingly priced in.
+## Market Regime Research - 2026-05-04 19:21:09 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities extended gains to record highs (S&P 500 at 7,230) driven by strong Big Tech earnings (Alphabet +10%, Nvidia highs) and resilient economy (2% Q1 GDP, stable labor). However, tone shifting cautious: oil surging >$110/bbl (Strait of Hormuz closure, Iran tensions), persistent inflation (Core PCE 3.2%), divided Fed (8-4 vote to hold 3.5-3.75%, no cuts signaled), rising yields (10yr 4.37%, 30yr 4.96%), and mixed global futures (Dow -0.38%). VIX contained (16.99-18.81) but hedging demand persists. Narrow leadership in AI/tech amid fragile macro.",
+  "market_regime": "Risk-on with cautionary yellow flags: Bullish momentum intact but defensive positioning emerging due to energy shock and policy uncertainty. Paper-trading: Reduce new longs, tighten stops, favor hedges.",
+  "sector_rotation": "Narrow leadership: Tech/AI/semiconductors dominant (45% EPS growth, Nasdaq +15% Apr); Energy gaining from oil surge; Financials supportive; Consumer goods cautious (sell revisions); Small caps participating (Russell +12.2% Apr) but speculative. Rotating toward energy/defensives amid oil/inflation risks.",
+  "risk_flags": [
+    "High: Oil >$110 (4yr high, Strait closure, Iran blockade threat) → inflation shock",
+    "High: Fed divisions (3 dissenters, no easing bias, Warsh transition uncertainty)",
+    "Medium: Yields rising (10yr →4.37%, 30yr →4.96%) → valuation pressure",
+    "Medium: Narrow breadth, VIX hedging demand despite contained levels",
+    "Low: Upcoming jobs report (Fri), dense earnings calendar",
+    "Geopolitical: Prolonged Middle East conflict"
+  ],
+  "source_urls": [
+    "https://www.home.saxo/content/articles/macro/saxo-market-compass---4-may-2026-04052026",
+    "https://www.carystreetpartners.com/insight/weekly-market-brief-5-4-26/",
+    "https://www.pennmutualam.com/market-insights-news/blogs/monday-morning-perspectives/2026-05-04-markets-remain-resilient",
+    "https://www.interactivebrokers.com/campus/traders-insight/securities/macro/economic-update-week-of-may-4-2026/",
+    "https://www.capitalstreetfx.com/market-analysis/daily-market-analysis-morning-session-04-05-2026/",
+    "https://www.westernsouthern.com/fortwashington/insights/monthly-market-pulse-may-2026",
+    "https://www.stl.news/global-markets-turn-mixed-overnight-may-4-2026/"
+  ]
+}
+```
 

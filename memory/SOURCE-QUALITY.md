@@ -2016,4 +2016,25 @@ SEC/company quality check:
   "quality_notes": "**VALN revenue quality**: Pre-commercial biotech - financing-dependent (€84m shores pipeline); durable chikungunya demand via partnerships (CEPI/SII/Butantan), 98% 1Y seroresponse in adolescents, 3Y persistence 96%; IXCHIQ first-in-class but elderly SAE warnings limit. **SNY**: High-quality Dupixent (>1.4M patients), lunsekimig/Tzield catalysts add durable immunology demand; Regeneron collab mitigates concentration. **INTC/GOOGL**: Chittick-priority; INTC foundry pivot value but execution risks; GOOGL Cloud $20B (+63%) confirms AI durability. **Overall**: Pharma shows pipeline catalysts offsetting regulatory hurdles; tech/semicon momentum strong but allocation-constrained.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-04 19:21:09 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+{"summary":"No unusual discussion found around liquid US stocks or ETFs in the provided search results; coverage limited to UAL (United Airlines) reacting to Spirit Airlines shutdown with capped fares, amid YTD stock decline of over 17%. No mentions of candidates like PLTR (earnings after close), ADI, INTC, GSK.","social_buzz":"Weak; single article on StockTwits highlights UAL attention from Spirit shutdown and cheaper jet fuel, but no hype, pump language, or broad social traction evident.","attention_anomalies":"None detected; UAL coverage tied to timely news event (Spirit shutdown) without suspected hype or unsupported claims. No anomalies in candidates.","source_urls":["https://stocktwits.com/news-articles/markets/equity/united-airlines-steps-in-after-spirit-shutdown-and-cheaper-jet-fuel-is-drawing-attention-for-ual-stock/cZQMkvgRe7t"]}
+
+Congressional disclosures, max 5% influence:
+{"summary":"No recent congressional disclosures reported for liquid US stocks or ETFs in candidates (GOOGL, PLTR, ADI, SRAD, INTC, VALN, SNY, GSK). Single report found: Rep. Jefferson Shreve (R) traded VICR (Vicor Corp, power electronics semi, market cap ~$1.2B, not highly liquid) - Purchase $15K-$50K on Mar 5 2025, Sale $15K-$50K on Mar 31 2025[1].","congressional_signal":"VICR: Rep. Jefferson Shreve (House/R) Purchase $15,001-$50,000 (Mar 5, 2025); Sale $15,001-$50,000 (Mar 31, 2025). Low-weight, delayed; VICR not liquid/large-cap.","tickers":["VICR"],"source_urls":["https://www.quiverquant.com/stock/vicr/"]}
+
+SEC/company quality check:
+{
+  "summary": "Current watchlist features PLTR (execution-ready, Q1 2026 earnings catalyst post-May 4 close with strong beat history), ADI (semi-analog for AI power management), INTC (semi-foundry with US incentives; special Chittick attention), GSK (regulatory catalysts like linerixibat Phase III success). Recent additions VALN (biotech-vaccines with €84m financing) and SNY (big-pharma with lunsekimig Phase 2 successes, Dupixent approvals). Durable demand evident in AI/software (PLTR), semis (ADI/INTC), and pharma catalysts; no GOOGL/USAR/GT in latest lists.",
+  "filing_risks": {
+    "VALN": "EMA suspended IXCHIQ use in over-65s due to 17 SAEs (incl. 2 deaths) in elderly with comorbidities; ongoing review with maintained recs for 12-64yo. Q1 2025: €153M cash (down from €168M), net loss €9.2M, winding down third-party sales, ongoing financing needs (recent €14.2M ATM). Pipeline risks: Lyme Phase 3 data end-2025, Shigella delays to H1 2026.",
+    "SNY": "Forward-looking risks in 6-K: R&D uncertainties, regulatory delays/approvals, clinical data/post-marketing issues, competition, IP/litigation, economic volatility, drug pricing pressures. Lunsekimig well-tolerated but VELVET Phase 2b missed primary in atopic dermatitis; Dupixent safety consistent but conjunctivitis/injection reactions noted.",
+    "GSK": "Phase III linerixibat met itch endpoint in PBC pruritus; safety consistent with prior studies. General biopharma risks implied (regulatory, competition) but no specific balance-sheet/litigation/dilution flagged in provided filings.",
+    "INTC": "No new SEC filings; memory notes foundry updates/US incentives but staleness penalty, monitoring guidance. Chittick special attention: historical semi risks like capex concentration, foundry losses.",
+    "PLTR/ADI": "No direct SEC filings; PLTR revenue quality tied to AIP bootcamps/gov contracts (potential concentration); ADI strong semis momentum but sector cyclicality."
+  },
+  "quality_notes": "PLTR: High confidence (0.75), 4 straight EPS beats (+40% avg), rev +35% YoY consensus; durable AI analytics demand. ADI: +21.5% 1M return, AI server power mgmt. INTC: Foundry pivot/US incentives support durable semi demand but execution risks. VALN: €84m financing shores pipeline (IXCHIQ/chikungunya updates, Lyme/Shigella); Q1 sales growth (IXIARO +66%) but SAE suspension/ongoing losses dilute quality. SNY: Strong pipeline (lunsekimig Phase 2 hits in asthma/CRSwNP, Dupixent CSU/kids approvals) signals durable pharma demand. GSK: Phase III success reinforces vaccines/pharma quality. No major revenue quality/dilution issues; concentration in clinical catalysts.",
+  "source_urls": []
+}
 
