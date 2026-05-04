@@ -1560,4 +1560,96 @@ SEC/company quality check:
   "quality_notes": "Watchlist shows durable AI/cloud demand (GOOGL Cloud +63% YoY, NVDA hyperscaler CapEx). SPMO momentum strong (+17.81% 1M). No revenue quality issues in memory. PECO quality cash flows emphasized; TXT cash used in ops ($117M), inventories rising. Special attention: GOOGL strong earnings beat.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-04 09:07:11 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "SpaceX IPO anticipation driving potential massive ETF inflows ($8-12B Nasdaq-100, $10-15B FTSE Russell, $15-25B Vanguard/CRSP) post-Day 15 under new Nasdaq rules; RIG up 61% YTD ahead of Q1 earnings (exp. 14% rev growth) but avg PT $5.91 implies 13.5% downside; Crypto stocks CRCL (+5.5%), COIN (+4.1%), HOOD (+3.4%), MSTR gaining on BTC rally to $80.5K peak tied to Trump 'Project Freedom' announcement.",
+  "social_buzz": "Weak; no evidence of unusual social discussion volumes on liquid US stocks/ETFs. Coverage limited to news articles on StockTwits.",
+  "attention_anomalies": "SpaceX IPO (pre-IPO, not liquid stock) flagged for hype risk: massive projected passive inflows ($33-52B total) with tight float could cause volatility, but unproven until listing; RIG earnings momentum (61% YTD) vs bearish avg PT signals potential reversal risk; BTC-linked stocks (CRCL/COIN/MSTR/HOOD) show intraday pop on policy news, monitor for pump language.",
+  "source_urls": [
+    "https://stocktwits.com/news-articles/markets/equity/spacex-ipo-etf-demand-vanguard-qqq-tesla-influencer/cZQMjCvRe7r",
+    "https://stocktwits.com/news-articles/markets/equity/rig-stock-is-up-over-60-this-year-can-earnings-keep-the-rally-alive/cZQM1ubRe7p",
+    "https://stocktwits.com/news-articles/markets/cryptocurrency/crcl-coin-mstr-stocks-gain-amid-bitcoin-rally-to-over-80000/cZQMFFyRe7C"
+  ]
+}
+```
+
+Congressional disclosures, max 5% influence:
+{"summary":"No recent congressional disclosures of trades in liquid US stocks or ETFs identified in available sources. Disclosures mentioned are low-weight and delayed.","congressional_signal":"None relevant to liquid US stocks/ETFs. Sparse mentions: ADBE (5 trades: 3 buys, 2 sells past 6mo)[1]; VRTX (1 sale by Rep. David Taylor up to $15k on 01/29)[3].","tickers":[],"source_urls":["https://www.quiverquant.com/news/Fund+Update:+New+$166.5M+$ADBE+stock+position+opened+by+AMF+Tjanstepension+AB","https://www.quiverquant.com/news/166968+VERTEX+PHARMACEUTICALS+(VRTX)+shares+added+to+AMF+Tjanstepension+AB+portfolio"]}
+
+SEC/company quality check:
+```json
+{
+  "summary": "Analysis of 7 micro-cap and small-cap companies from SEC filings (10-K forms filed 2025–2026). All exhibit severe financial distress, going-concern doubts, high customer concentration, and material revenue deterioration. None qualify as durable-demand holdings. GOOGL/NVDA/SPMO watchlist candidates remain outside this filing set.",
+  "filing_risks": {
+    "DRCT (Direct Digital Holdings)": {
+      "going_concern": "Substantial doubt disclosed; $0.7M cash, $27.7M accumulated deficit as of Dec 31, 2025[1]. Term credit facility matures Dec 3, 2026[1].",
+      "revenue_quality": "Revenue collapsed 44% YoY ($62.3M in 2024 to $34.7M in 2025) following May 2024 customer pause due to defamatory article/misinformation campaign[1]. Sell-side volumes have not recovered to pre-pause levels[1].",
+      "concentration": "Single sell-side customer pause in Q2 2024 caused material revenue loss; recovery incomplete as of filing date[1].",
+      "capital_structure": "Credit facilities impose minimum $450K unrestricted cash covenant; default risk material if covenants breached[1].",
+      "dilution_risk": "Potential equity issuance to raise capital may dilute existing shareholders; no assurance financing available on acceptable terms[1]."
+    },
+    "INUV (Inuvo, Inc.)": {
+      "going_concern": "Not explicitly stated but implied by $2.8M cash, $5.1M net working capital deficit, and $178.3M accumulated deficit as of Dec 31, 2025[2]. Operating losses recurring ($5.1M loss in 2025 vs. $5.8M in 2024)[2].",
+      "revenue_quality": "Revenue growth only 2.9% YoY in 2025; gross profit margin declined 10.1% to 74.5%[2]. Negative cash flows from operations[2].",
+      "concentration": "Two customers represent 64.2% and 19.3% of 2025 revenues (83.5% combined)[2]. In 2024, same two customers were 75.0% and 7.0% (82.0% combined)[2]. Loss of either material customer would cause significant revenue decline[2].",
+      "capital_structure": "Credit facility dependent on receivables; negative operating cash flows introduce interruption risk[2].",
+      "dilution_risk": "Historically funded through equity offerings and debt facilities; accumulated deficit of $178.3M signals ongoing dilution pressure[2]."
+    },
+    "TMRC (Texas Mineral Resources)": {
+      "going_concern": "Substantial doubt disclosed; history of losses and immediate need for additional financing[3]. Exploration-stage company with no proven mineral reserves[3].",
+      "revenue_quality": "No revenue; exploration-stage company. Round Top Project has not established probable or proven mineral reserves as of filing date[3].",
+      "concentration": "Membership interest in Round Top (18.715%) subject to dilution if unable to fund cash calls[3]. Risks of dilution 'which could be significant' if cash calls not funded[3].",
+      "capital_structure": "Requires additional capital to fund cash call obligations and develop Round Top Project[3]. Failure to fund results in membership interest dilution[3].",
+      "dilution_risk": "Explicit risk: membership interest will be diluted if unable to fund proportionate costs; could lose value entirely if exploration unsuccessful[3]."
+    },
+    "NEOV (NeoVolta, Inc.)": {
+      "going_concern": "Not explicitly stated but emerging growth company with limited operating history (sales commenced July 2019)[4]. 17 full-time employees as of June 30, 2025[4].",
+      "revenue_quality": "Early-stage manufacturer; product portfolio recently expanded (NV16, C&I 250kW/430kWh announced post-fiscal year end)[4]. Revenue trajectory not disclosed in filing excerpt but company emphasizes market expansion strategy[4].",
+      "concentration": "No single customer >10% of revenue disclosed; however, company is early-stage with limited customer base[4].",
+      "capital_structure": "Transitioned to in-house manufacturing in June 2023; secured larger Poway facility in Feb 2025[4]. Supply chain risks from tariffs and component shortages; actively increasing domestic content for FEOC compliance[4].",
+      "dilution_risk": "Emerging growth company; potential for future equity issuance to fund R&D and manufacturing expansion[4]."
+    },
+    "ICCT (iCoreConnect Inc.)": {
+      "going_concern": "Not explicitly stated; however, company is post-merger (Aug 25, 2023) with limited operating history[5]. Sold MSP/MSaaS assets on Oct 1, 2024[5].",
+      "revenue_quality": "SaaS subscription model with annual recurring revenue; no single customer >10% of revenue for 2024 and 2023[5]. Customer concentration reduced by acquisitions and organic growth[5].",
+      "concentration": "Accounts receivable concentration: one customer 26% of AR as of Dec 31, 2024 (vs. 25% in 2023)[5]. Not revenue-concentrated but AR concentration warrants monitoring[5].",
+      "capital_structure": "72 employees (68 full-time) as of Dec 31, 2024[5]. No patents or trademarks owned; relies on trade secrets and NDAs[5].",
+      "dilution_risk": "Emerging growth company; potential for future equity issuance to fund acquisitions or growth[5]."
+    },
+    "CRMZ (CreditRiskMonitor.com, Inc.)": {
+      "going_concern": "Not explicitly stated; SaaS subscription model with upfront annual payments provides revenue visibility[6].",
+      "revenue_quality": "SaaS subscription products represent >99% of 2024 and 2023 revenues[6]. No single subscriber >1% of revenue; diversified subscriber base includes ~40% of Fortune 1000[6].",
+      "concentration": "No material customer concentration; well-diversified across nearly 40% of Fortune 1000 and >1,000 other large corporations[6].",
+      "capital_structure": "Stable SaaS model; contractual agreements with data suppliers (NRSROs, London Stock Exchange Group)[6].",
+      "dilution_risk": "Lower risk due to established SaaS model and diversified revenue base; however, market cap only ~$9.9M as of June 30, 2024[6]."
+    },
+    "EXOD (Exodus Movement, Inc.)": {
+      "going_concern": "Not explicitly stated in excerpt; however, regulatory uncertainty and compliance costs pose material risks[7].",
+      "revenue_quality": "Revenue model: subscription fees from API Providers (U.S. volume-based; international transaction-based)[7]. Dependent on third-party exchange integrations and user adoption[7].",
+      "concentration": "No single customer concentration disclosed; however, revenue dependent on API Provider relationships and digital asset market conditions[7].",
+      "capital_structure": "Holdings of digital assets expose company to exchange, security, valuation, and liquidity risks[7]. Revenue may decline if Bitcoin, Tether, Ether, USDC prices deteriorate[7].",
+      "dilution_risk": "Potential for equity issuance to fund growth; regulatory uncertainty may limit capital access[7]."
+    }
+  },
+  "quality_notes": {
+    "durable_demand_evidence": "None of the 7 companies exhibit durable-demand characteristics. DRCT and INUV show acute revenue deterioration and customer concentration. TMRC is exploration-stage with no revenue. NEOV is early-stage with unproven market traction. ICCT is post-merger with limited history. CRMZ is stable but micro-cap ($9.9M). EXOD faces regulatory headwinds and digital-asset volatility.",
+    "balance_sheet_quality": "DRCT: $0.7M cash, $27.7M accumulated deficit, going-concern doubt[1]. INUV: $2.8M cash, $5.1M working capital deficit, $178.3M accumulated deficit[2]. TMRC: exploration-stage, no revenue[3]. NEOV: 17 employees, in-house manufacturing transition[4]. ICCT: post-merger, limited history[5]. CRMZ: stable but micro-cap[6]. EXOD: digital-asset holdings expose to volatility[7].",
+    "litigation_risk": "DRCT: defamatory article/misinformation campaign triggered customer pause; no active litigation disclosed but reputational damage material[1]. EXOD: FCA Warning List placement (Nov 2023, removed Apr 2024) signals regulatory scrutiny[7]. Others: no material litigation disclosed in excerpts.",
+    "capital_allocation": "DRCT: focused on cost management post-reorganization (July 1, 2024); seeking additional financing[1]. INUV: investing in AI technology development; dependent on receivables-based credit facility[2]. TMRC: funding Round Top exploration; dilution risk if cash calls not met[3]. NEOV: manufacturing transition and product expansion; supply chain optimization[4]. ICCT: acquisitions and organic growth; sold MSP assets[5]. CRMZ: stable SaaS reinvestment[6]. EXOD: regulatory compliance investment; digital-asset holdings[7].",
+    "valuation_risk": "All 7 companies trade at micro-cap or small-cap valuations with limited liquidity. DRCT and INUV face going-concern doubt, implying near-zero equity value in distress scenarios. TMRC exploration-stage valuation entirely dependent on Round Top success (unproven). NEOV early-stage with unproven market adoption. ICCT post-merger with limited track record. CRMZ and EXOD more stable but illiquid."
+  },
+  "source_urls": [
+    "SEC EDGAR: Direct Digital Holdings 10-K (filed 2026-03-31, fiscal year ended 2025-12-31)",
+    "SEC EDGAR: Inuvo, Inc. 10-K (filed 2026-03-05, fiscal year ended 2025-12-31)",
+    "SEC EDGAR: Texas Mineral Resources Corp. 10-K (filed 2025-11-28, fiscal year ended 2025-08-31)",
+    "SEC EDGAR: NeoVolta, Inc. 10-K (filed 2025-09-29, fiscal year ended 2025-06-30)",
+    "SEC EDGAR: iCoreConnect Inc. 10-K (filed 2025-05-30, fiscal year ended 2024-12-31)",
+    "SEC EDGAR: CreditRiskMonitor.com, Inc. 10-K (filed 2025-03-20, fiscal year ended 2024-12-31)",
+    "SEC EDGAR: Exodus Movement, Inc. 10-K (filed 2025-03-06, fiscal year ended 2024-12-31)"
+  ]
+}
+```
 

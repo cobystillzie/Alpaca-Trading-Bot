@@ -2335,4 +2335,42 @@ Rejected / Watchouts
 - GOOGL: HF memory filter flags similarity to prior rejected patterns.
 - NVDA: HF memory filter flags similarity to prior rejected patterns.
 - SPMO: HF memory filter flags similarity to prior rejected patterns.
+## Research Update - 2026-05-04 09:07:11 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equity markets remain in risk-on mode with S&P 500 near ATHs driven by tech/AI leadership (GOOGL Cloud beat, NVDA catalysts); Palantir PLTR earnings due after close May 4 adds sector catalyst amid +450% YoY EPS growth expectations and commercial AI momentum.
+Candidates: 4
+
+1. GOOGL (Technology / Internet Services / Cloud) | confidence 0.82 | allocation 8.0% | stop 6.0% | Chittick 82/100
+Recommendation: execute-if-guards-pass
+Catalyst: Q1 2026 earnings beat: $109.9B revenue (+22% YoY), Cloud $20B (+63% YoY first milestone), EPS $5.11 (+82% YoY); Perplexity/OpenAI compute deals confirm AI demand.
+Chittick Cash: Trading below historical multiples post-beat; $100B+ cash hoard buffers downside.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. NVDA (Semiconductors / AI Infrastructure) | confidence 0.80 | allocation 8.0% | stop 7.0% | Chittick 75/100
+Recommendation: watch
+Catalyst: Hyperscalers $725B 2026 CapEx pledge (up from $650B); CoreWeave $63.9B deals, Vera Rubin ramp, B300 servers $1M China pricing on supply constraints.
+Chittick Cash: Demand >> supply; inventory low.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. SPMO (Broad Equity Momentum ETF / S&P 500) | confidence 0.78 | allocation 8.0% | stop 6.0% | Chittick 35/100
+Recommendation: watch
+Catalyst: +17.81% 1M return to $132.29; +1.23% daily gains in $128-132 range (high $131.50), uptrend from $78.25 low amid S&P ATHs/tech beats.
+Chittick Cash: Diversified holdings buffer single-name risk.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+4. PLTR (Technology / Software / AI Analytics) | confidence 0.72 | allocation 5.0% | stop 8.0% | Chittick 74/100 | HF source 0/100
+Recommendation: watch
+Catalyst: Q1 2026 earnings after close May 4: consensus $0.22 EPS (+450% YoY), $1.54B rev; 4 straight beats avg +40% surprise; AIP bootcamps driving commercial growth.
+Chittick Cash: Recent pullback from highs; profitability inflection.
+HF filter: sentiment=not run source=0/100 hype=0.30 vetoes=0
+Social buzz, low weight: low-weight AI hype context
+Congress signal, low weight: none
 
