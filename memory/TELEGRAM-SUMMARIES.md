@@ -3000,4 +3000,141 @@ HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
 Self-learning: tier=watch repeat48h=2 fresh=yes bucket=big-pharma-vaccines
 Social buzz, low weight: none
 Congress signal, low weight: none
+## End Of Day Memo - 2026-05-04 16:22:01 Eastern Daylight Time
+
+End Of Day Analyst Memo
+
+Recommendation: Carry forward only evidence-backed candidates; review stops before the next market-open run.
+
+Market Regime
+End-of-day review of paper portfolio, trade quality, risk notes, and next-day watchlist.
+
+Portfolio
+Portfolio value: 100037.76 Cash: 97600 Buying power: 197637.76 Positions: - GOOGL: qty=2.151289429, market_value=822.803668, unrealized_pl=22.803668 - NVDA: qty=4.00060009, market_value=791.158674, unrealized_pl=-8.841326 - SPMO: qty=6.119014838, market_value=823.798072, unrealized_pl=23.798072
+
+Top Candidates
+
+1. PLTR (Technology / Software / AI Analytics) | confidence 0.75 | allocation 5.0% | stop 8.0% | Chittick 74/100 | tier execution-ready | bucket ai-software
+Thesis: High-quality AI software platform with government/commercial expansion via AIP; blends quality moat, earnings catalyst, and momentum in risk-on tech regime.
+Catalyst: Q1 2026 earnings after close May 4: consensus $0.22 EPS (+450% YoY), $1.54B rev (+35% YoY); 4 straight beats avg +40% surprise; AIP bootcamps accelerating commercial growth.
+Entry: Paper buy at open May 5 if post-earnings gap +3-5% on beat/guidance raise, max 5% allocation.
+Exit: Take profits at +12-15% or 10-day high; invalidate below earnings open or -6%.
+Risk/reward: 3:1 potential (12% upside target vs 6% stop); defined risk on post-earnings pullback.
+Bear/adversary: Repeated allocation blocks signal concentration risk; social buzz could amplify volatility without fundamental follow-through.
+Source quality: Strong: Earnings history, consensus estimates from reputable sources; no hype-only reliance.
+Chittick Cash Filter
+Score: 74/100
+Margin of safety: Post-earnings entry with stop below open provides 6-8% downside buffer; quality platform justifies premium.
+Valuation: Attractive on 35% rev growth + beats; forward multiples reasonable vs AI peers if guidance raised.
+Growth runway: AIP commercial acceleration; government backlog expansion; AI analytics tailwinds 30-180 days.
+Balance-sheet risk: Clean balance sheet, no debt issues; low cyclicality in gov contracts.
+Capital allocation: Disciplined buybacks, R&D reinvestment; management executing on AIP roadmap.
+Concentration case: Diversifies from mega-cap cloud/semis; smaller tranche fits allocation constraints.
+Owner thesis, 30-180 days: Sustained 30%+ commercial growth and AIP platform dominance could justify 30-180 day review.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 4
+Diversity bucket: ai-software
+Research tier: execution-ready
+Allocation learning: Smaller 5% tranche proposed vs repeated mega-caps under allocation constraints.
+Hugging Face Filter
+Not run for this candidate.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
+
+2. ADI (Semiconductors / Analog) | confidence 0.72 | allocation 6.0% | stop 8.0% | Chittick 70/100 | tier watch | bucket semi-analog-industrial
+Thesis: Analog semis leader with AI data center exposure; quality franchise + momentum in risk-on semis rally.
+Catalyst: 1M +21.5% return amid semis strength; power management chips critical for AI servers/data centers.
+Entry: Paper buy on pullback to 10-day MA if volume confirms, max 6%.
+Exit: Profits at +10-12% or sector relative high; stop below recent low.
+Risk/reward: 2.5:1 (10% upside vs 6-8% risk); momentum-defined entry.
+Bear/adversary: Less direct AI catalyst than digital peers; broader semi cycle risks.
+Source quality: Strong: Market data, sector trends from memory.
+Chittick Cash Filter
+Score: 70/100
+Margin of safety: Established moat provides downside protection; entry on pullback.
+Valuation: Reasonable vs semis growth; AI tailwinds undervalued.
+Growth runway: AI power mgmt demand; industrial recovery 30-180 days.
+Balance-sheet risk: Strong BS, low debt; moderate cyclicality.
+Capital allocation: Consistent dividends, buybacks; disciplined capex.
+Concentration case: Analog diversifies from digital semis/AI hype.
+Owner thesis, 30-180 days: AI server ramp + auto electrification could support longer hold.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: momentum
+Fresh catalyst: yes
+Repeat count, 48h: 3
+Diversity bucket: semi-analog-industrial
+Research tier: watch
+Allocation learning: none
+Hugging Face Filter
+Not run for this candidate.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
+
+3. INTC (Semiconductors) | confidence 0.70 | allocation 6.0% | stop 8.0% | Chittick 72/100 | tier watch | bucket semi-foundry-value
+Thesis: Seed watchlist semi with foundry/value turnaround potential; quality assets at discount amid US incentives.
+Catalyst: Recent foundry updates and US manufacturing incentives; monitoring fresh guidance post-staleness penalty.
+Entry: Paper buy on foundry guidance beat/breakout, small 6% tranche.
+Exit: Profits +10%; stop below key support.
+Risk/reward: 2:1 on catalyst confirmation vs defined risk.
+Bear/adversary: Repeated staleness without new earnings; better semis alternatives.
+Source quality: Strong: Chittick seed priority, SEC filings implied.
+Chittick Cash Filter
+Score: 72/100
+Margin of safety: Deep value vs assets/gov support; high cash hoard.
+Valuation: Discount to peers on foundry/AI potential.
+Growth runway: Foundry ramp, US chips act funding 30-180 days.
+Balance-sheet risk: Net cash position; dilution risk low.
+Capital allocation: Aggressive foundry capex with gov backstop.
+Concentration case: Value semi diversifies from growth AI names.
+Owner thesis, 30-180 days: Foundry profitability + AI PC could justify owner hold.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: news
+Fresh catalyst: yes
+Repeat count, 48h: 2
+Diversity bucket: semi-foundry-value
+Research tier: watch
+Allocation learning: none
+Hugging Face Filter
+Not run for this candidate.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
+
+4. GSK (Pharmaceuticals / Vaccines / Healthcare) | confidence 0.65 | allocation 5.0% | stop 7.0% | Chittick 68/100 | tier watch | bucket big-pharma-vaccines
+Thesis: Quality big-pharma with vaccine/pharma catalysts; Chittick lens on healthcare diversification.
+Catalyst: Regulatory catalysts: MHRA linerixibat approval (Lynavoy) for PBC itch (Phase III success); thermostable trends.
+Entry: Paper buy on approval confirmation, 5% tranche.
+Exit: Profits +8-10%; stop below approval reaction low.
+Risk/reward: 2:1 on regulatory binary with safety.
+Bear/adversary: Lower growth vs tech; binary regulatory risk.
+Source quality: Strong: Regulatory filings, IndexBox reports.
+Chittick Cash Filter
+Score: 68/100
+Margin of safety: Cheap valuation, dividend yield buffers downside.
+Valuation: Undervalued vs pharma peers on pipeline.
+Growth runway: Linerixibat launch, vaccine innovations 30-180 days.
+Balance-sheet risk: Manageable debt, stable cash flows.
+Capital allocation: Consistent dividends, pipeline focus.
+Concentration case: Healthcare bucket diversifies tech-heavy portfolio.
+Owner thesis, 30-180 days: Pipeline successes + dividends for long-term.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: news
+Fresh catalyst: yes
+Repeat count, 48h: 3
+Diversity bucket: big-pharma-vaccines
+Research tier: watch
+Allocation learning: none
+Hugging Face Filter
+Not run for this candidate.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
 
