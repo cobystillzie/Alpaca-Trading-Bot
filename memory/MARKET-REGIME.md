@@ -783,4 +783,29 @@
   ]
 }
 ```
+## Market Regime Research - 2026-05-04 11:08:05 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equity markets exhibit **cautious risk-off tone** amid record highs from strong Tech/AI earnings (e.g., GOOGL beat), but face headwinds from surging oil (> $105/bbl), Fed hawkishness (rates steady at 3.50-3.75%, cut odds low at 4.5% June), geopolitical tensions (Middle East/Iran), and narrowing breadth. SPMO/S&P at ATHs with momentum intact, but futures slip and volatility signals (VIX ~17) suggest rotation to defensives.",
+  "market_regime": "Cautious Bull with Risk-Off Tilt: S&P 500/SPMO at ATHs (+9.8% April, +17.81% 1M SPMO), Tech-led (GOOGL/NVDA/PLTR catalysts), overbought (9th day in upper Bollinger), momentum falling/MACD weakening; futures lower (Dow -0.38%, S&P -0.09%), dips likely, defensive shift amid oil shock/inflation.",
+  "sector_rotation": "Tech/AI Infrastructure Strong (GOOGL Cloud +63% YoY, NVDA hyperscaler CapEx $725B, PLTR AIP growth); potential rotation to defensives (Financials XLF, Staples XLP gaining 'golden light'); Energy in focus (oil surge); Semis outperform Asia (KOSPI). Narrow breadth at dotcom levels.",
+  "risk_flags": [
+    "Oil shock (Brent >$110, WTI ~$105) driving inflation, delaying Fed cuts beyond Sept (4.5% June odds)",
+    "Geopolitics: Middle East/Iran tensions, US-Iran talks, vessel security risks",
+    "Fed hawkish: Rates 3.50-3.75%, QT ongoing, r* at 3.1%, no cuts signaled",
+    "Earnings volatility: PLTR/AMD/DIS/Uber this week, high expectations (PLTR $143 premium)",
+    "Overbought Tech/AI: Narrow breadth, VIX~17 low but rising, profit-taking risks",
+    "NFP Friday: Consensus +49k jobs/4.3% UE, miss (<30k) could trigger 3-5% Nasdaq pullback"
+  ],
+  "source_urls": [
+    "https://www.stl.news/global-markets-turn-mixed-overnight-may-4-2026/",
+    "https://cryptobriefing.com/federal-reserve-shifts-focus-to-potential-rate-hikes-amid-inflation-concerns/",
+    "https://www.icmarkets.com/blog/ic-markets-global-europe-fundamental-forecast-04-may-2026/",
+    "https://www.youtube.com/watch?v=GzaG7twzKLg",
+    "https://www.heygotrade.com/en/news/weekly-economic-outlook-2026-05-04/",
+    "https://www.fullyinformed.com/stock-market-outlook-for-mon-may-4-2026-dips-likely-with-possible-lower-close/"
+  ]
+}
+```
 

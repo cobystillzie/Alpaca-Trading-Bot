@@ -1652,4 +1652,27 @@ SEC/company quality check:
   ]
 }
 ```
+## Source And Signal Research - 2026-05-04 11:08:05 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+{"summary":"No unusual discussion or social attention detected around liquid US stocks/ETFs GOOGL, NVDA, SPMO, or PLTR. Search coverage focuses on crypto-linked stocks (CRCL, COIN, MSTR, HOOD) amid Bitcoin rally and potential SpaceX IPO ETF demand (Vanguard, QQQ), unrelated to candidates.[1][2]","social_buzz":"Weak; limited to crypto rally hype (Bitcoin >$80K, 'Project Freedom') and SpaceX IPO speculation. No mentions of candidates. Flag minor pump language in crypto context as risk, but irrelevant here.[1][2]","attention_anomalies":"None for candidates. Anomalies in crypto equities (CRCL +5.5%, COIN +4.1%) and SpaceX ETF inflows ($10-25B potential), treated as weak context only.[1][2]","source_urls":["https://stocktwits.com/news-articles/markets/cryptocurrency/crcl-coin-mstr-stocks-gain-amid-bitcoin-rally-to-over-80000/cZQMFFyRe7C","https://stocktwits.com/news-articles/markets/equity/spacex-ipo-etf-demand-vanguard-qqq-tesla-influencer/cZQMjCvRe7r"]}
+
+Congressional disclosures, max 5% influence:
+{"summary":"No recently reported congressional trades relevant to liquid US stocks/ETFs (GOOGL, NVDA, SPMO, PLTR) identified in public disclosure sources. Search results highlight a corporate tender offer by DSX for GNK (shipping sector, $23.50/share, 31% premium) with institutional hedge fund activity but no congressional signals.","congressional_signal":"none","tickers":[],"source_urls":[]}
+
+SEC/company quality check:
+{
+  "summary": "ACHV 10-K details cytisinicline NDA filed June 2025 with PDUFA June 20, 2026; potential approval delay from third-party CMO FDA inspection issues (2 observations on solid oral dose mfg); Sopharma supply dispute over third-party CMO use; Chantix market opportunity post-recall/relaunch ($1.1B peak sales); Sanofi 6-Ks highlight unrelated immunology/respiratory approvals (lunsekimig, Dupixent CSU pediatric, Tzield T1D); Valneva 6-Ks on chikungunya vaccine IXCHIQ label updates, adolescent persistence data, Asia licensing with SII. No GOOGL/INTC/USAR/GT mentions.",
+  "filing_risks": [
+    "Regulatory: ACHV NDA third-party CMO FDA cGMP inspection yielded 2 observations; potential approval delay past PDUFA June 20, 2026",
+    "Supply chain: ACHV Sopharma alleges breach over third-party CMOs in NDA; dispute unresolved despite proposed steps",
+    "Manufacturing: ACHV relies on Sopharma (extraction concerns) + third-party CMOs; NDA excludes Sopharma pending FDA inspection; partnered Adare for US redundancy/tariff mitigation",
+    "IP/Concentration: ACHV cytisinicline naturally occurring/unpatentable; relies on Sopharma exclusive supply to 2037 + licenses; $2M Sopharma contingent liability on FDA/EMA approval; Bristol milestones up to $4.8M",
+    "Commercial: ACHV pre-revenue; Chantix relaunch as cash-pay under TrumpRx; NRTs less effective but OTC dominant; pricing/reimbursement risks under IRA/Medicaid/340B",
+    "Litigation/Contract: Sopharma supply dispute; standard termination risks on breach/insolvency",
+    "Valneva: IXCHIQ SAE reports in elderly post-Reunion campaign; FDA/EMA lifted elderly pause but expanded warnings/contraindications"
+  ],
+  "quality_notes": "ACHV shows durable demand potential in $1.1B Chantix void (75% US sales) with cytisinicline superior efficacy vs NRTs per Cochrane; NDA imminent but execution risks high (supply dispute, CMO inspection); no revenue yet, milestone liabilities signal dilution risk on approval; Valneva/Sanofi filings confirmatory of pipeline progress but no direct watchlist ties; filings emphasize regulatory hurdles, supply dependency.",
+  "source_urls": []
+}
 

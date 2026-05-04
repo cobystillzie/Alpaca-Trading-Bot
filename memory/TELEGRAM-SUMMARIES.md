@@ -2513,4 +2513,46 @@ Model notes: New catalyst from search; aligns with AI theme but pre-earnings wat
 Social buzz, max 10%: low-weight AI hype context
 Congress signal, max 5%: none
 Sources: https://www.barchart.com/story/news/1674639/palantir-s-commercial-momentum-meets-a-valuation-that-still-assumes-near-perfection
+## Research Update - 2026-05-04 11:08:05 Eastern Daylight Time
+
+Research Update
+
+Market tone: US markets show cautious risk-off tilt amid S&P ATHs and tech momentum, but pressured by oil surge (> $105/bbl), Fed hawkishness, geopolitics, and narrowing breadth; futures lower with defensive rotation signals as PLTR earnings loom after close.
+Candidates: 4
+
+1. GOOGL (Technology / Internet Services / Cloud) | confidence 0.82 | allocation 8.0% | stop 6.0% | Chittick 35/100 | tier watch-allocation-constrained | bucket mega-cap-internet-cloud | HF source 0/100
+Recommendation: execute-if-guards-pass
+Catalyst: Q1 2026 earnings beat: $109.9B revenue (+22% YoY), Cloud $20B (+63% YoY milestone), EPS $5.11 (+82% YoY); Perplexity/OpenAI compute deals confirm AI demand.
+Chittick Cash: Trades at 25x fwd FCF with 20%+ growth; $100B+ cash hoard buffers downside.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch-allocation-constrained repeat48h=5 fresh=yes bucket=mega-cap-internet-cloud
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. PLTR (Technology / Software / AI Analytics) | confidence 0.75 | allocation 5.0% | stop 8.0% | Chittick 35/100 | tier execution-ready | bucket ai-software | HF source 0/100
+Recommendation: watch
+Catalyst: Q1 2026 earnings after close May 4: consensus $0.22 EPS (+450% YoY), $1.54B rev (+35% YoY); 4 straight beats avg +40% surprise; AIP bootcamps accelerating commercial.
+Chittick Cash: Govt backlog $1B+ provides visibility; cash positive.
+HF filter: sentiment=not run source=0/100 hype=0.30 vetoes=0
+Self-learning: tier=execution-ready repeat48h=1 fresh=yes bucket=ai-software
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. ADI (Semiconductors / Analog) | confidence 0.72 | allocation 6.0% | stop 8.0% | Chittick 70/100 | tier watch | bucket semi-analog-industrial | HF source 0/100
+Recommendation: watch
+Catalyst: 1M +21.5% return amid semis strength; power management for AI servers.
+Chittick Cash: 15x fwd P/E with 10%+ yield growth.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=semi-analog-industrial
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+4. SRAD (Technology / Sports Betting) | confidence 0.60 | allocation 4.0% | stop 10.0% | Chittick 35/100 | tier stale-watch | bucket sports-tech | HF source 0/100
+Recommendation: watch
+Catalyst: Recent double-digit rev/EBITDA growth; all 8 insider trades buys; 3 buy ratings.
+Chittick Cash: Limited by probe.
+HF filter: sentiment=not run source=0/100 hype=0.40 vetoes=0
+Self-learning: tier=stale-watch repeat48h=0 fresh=yes bucket=sports-tech
+Social buzz, low weight: low-weight sentiment mix
+Congress signal, low weight: none
 
