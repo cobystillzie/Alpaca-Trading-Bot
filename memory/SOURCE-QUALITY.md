@@ -1520,4 +1520,24 @@ SEC/company quality check:
   "quality_notes": "Watchlist shows durable AI demand: GOOGL Q1 rev $109.9B (+22% YoY), Cloud $20B (+63%[memory]); NVDA hyperscaler $725B CapEx, CoreWeave deals[memory]; SPMO +17.81% 1M return[memory]. No balance-sheet, concentration, litigation, dilution, revenue quality, capital allocation, or valuation risks evident from memory or results for these names. Rejected trades indicate portfolio concentration controls (15% single-stock limit). Revenue quality appears strong from AI catalysts.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-03 22:23:54 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+{"summary":"No unusual discussion or social attention detected around liquid US stocks/ETFs like GOOGL, NVDA, or SPMO in recent public web/social coverage. Available search results focus solely on unrelated geopolitical news: US $8.6B arms sales to Middle East allies (Israel, Qatar, Kuwait, UAE) expedited by emergency powers, and an Iranian oil tanker evading US blockade with $220M cargo to Asia-Pacific[1].","social_buzz":"Weak to none; no mentions of candidate stocks/ETFs. Coverage limited to arms deals and Iran oil evasion, lacking any equity market tie-ins or hype.","attention_anomalies":"None identified for liquid US stocks/ETFs. Geopolitical event (arms sales/blockade evasion) shows minor attention but no linkage to stocks, no pump language, or unsupported claims flagged.","source_urls":["https://stocktwits.com/news-articles/markets/equity/us-approves-arms-sales-as-analyst-calls-trump-s-iran-blockade-a-delusional-silver-bullet/cZQALy1Re7B"]}
+
+Congressional disclosures, max 5% influence:
+{"summary":"No recently reported congressional trades in liquid US stocks or ETFs identified in public disclosure sources.","congressional_signal":"None","tickers":[],"source_urls":[]}
+
+SEC/company quality check:
+{
+  "summary": "Current watchlist candidates GOOGL, NVDA, and SPMO show strong AI-driven momentum with recent Q1 2026 earnings beats for GOOGL (Cloud +63% YoY) and hyperscaler CapEx pledges, but no direct SEC filings provided for these names. Special attention to GOOGL reveals durable AI demand via Perplexity/OpenAI deals; NVDA benefits from supply constraints. Search results cover unrelated microcaps (DRCT, INUV, etc.) with severe risks including going concern doubts, customer concentration >80%, revenue declines, and litigation—not applicable to watchlist.",
+  "filing_risks": {
+    "GOOGL": "No direct SEC filing in results; memory notes Q1 2026 beat ($109.9B rev +22% YoY, Cloud $20B +63%) validates AI demand, but rejected trade due to >15% allocation concentration risk. Potential dilution/valuation risks from tech sector CapEx intensity unassessed without balance sheet data.",
+    "NVDA": "No SEC filing; hyperscaler $725B CapEx and CoreWeave deals indicate durable demand, but China B300 pricing/supply risks highlight concentration/geopolitical exposure. Watch allocation cap at 8% mitigates single-stock risk.",
+    "SPMO": "ETF with broad S&P momentum (+17.81% 1M); rejected trades due to >15% allocation. No filing risks, but underlying tech concentration amplifies sector volatility.",
+    "General Watchlist": "No filings for INTC/USAR/GT; memory ETN shows AI power demand but lacks balance sheet/litigation data. Rejected trades signal portfolio concentration risks exceeding 15%."
+  },
+  "quality_notes": "No SEC filings for core watchlist (GOOGL/NVDA/SPMO); catalysts rely on memory/press (e.g., Cloud milestone, CapEx up from $650B). Unrelated filings [1-7] reveal poor quality: DRCT going concern/accum deficit $27.7M/revenue drop 78% YoY from customer pause; INUV 83.5% revenue concentration/accum deficit $178M; PUBM litigation vs Google. Durable demand evidence limited to memory (Perplexity deals, hyperscaler pledges); revenue quality unverified without audits. Capital allocation strong via 8% caps/stops.",
+  "source_urls": []
+}
 

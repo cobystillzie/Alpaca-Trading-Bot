@@ -712,4 +712,28 @@
   "source_urls": []
 }
 ```
+## Market Regime Research - 2026-05-03 22:23:54 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equity markets exhibit a bullish tone with S&P 500 hitting new highs, strong earnings beats (81% EPS, 72% revenue), and leadership from tech/AI alongside broadening participation in energy, staples, real estate, small/mid caps. However, overbought conditions (RSI 75), low stock correlations signaling stock-picking environment, Fed caution on inflation/war risks, and steady high mortgage rates (6.2%) introduce caution for paper-trading.",
+  "market_regime": "Risk-on with broadening participation but overbought; bullish trend intact (S&P new highs, price above key MAs) yet extreme RSI 75 signals potential pullback risk; low correlations (S&P 1M realized 6%) favor stock selection over broad beta.",
+  "sector_rotation": "Tech/AI infrastructure leading (GOOGL Cloud +63% YoY, NVDA hyperscaler CapEx); broadening to energy/staples/real estate (week's leaders); small/micro caps joining large caps at highs; mid caps resilient (-79bps); shift from narrow tech to defensive/value rotation amid overbought signals.",
+  "risk_flags": [
+    "S&P 500 14-day RSI 75.108 (extreme overbought)",
+    "Fed warns no rate cuts in 2026 due to Iran war/inflation risks",
+    "Mortgage rates steady at 6.20% 30yr (Q2 consensus 6.30%)",
+    "S&P 1M realized correlation at 6% (stock-picker's market, dispersions rising)",
+    "Risk appetite divergence with price action past 2 weeks",
+    "Upcoming NFP (exp 62k jobs), JOLTS/ISM may moderate hiring outlook"
+  ],
+  "source_urls": [
+    "https://thrasheranalytics.substack.com/p/updated-models-and-spotlight-charts-8b2",
+    "https://pepperstone.com/en/analysis/navigating-markets/trading-the-week-ahead-key-risks-data-and-market-levels-to-watch/",
+    "https://www.ainvest.com/news/technical-trader-guide-sided-tail-risk-500-retests-highs-2605/",
+    "https://cryptobriefing.com/iran-war-threatens-inflation-fed-warns-of-no-rate-cuts-in-2026/",
+    "https://www.noradarealestate.com/blog/todays-mortgage-rates-may-3-2026-update/"
+  ]
+}
+```
 
