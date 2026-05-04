@@ -1010,4 +1010,80 @@
     "https://www.ubp.com/en/news-insights/newsroom/ubp-weekly-view-markets-supported-by-earnings-despite-higher-yields-and-geopolitical-tensions"
   ]
 }
+## Market Regime Research - 2026-05-04 17:13:54 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities remain in a risk-on regime supported by strong earnings momentum, particularly in technology and AI-related sectors. However, underlying conditions show signs of caution: the S&P 500 has posted five consecutive weekly gains but faces headwinds from elevated oil prices (Brent above $110/bbl), persistent inflation expectations, and a highly divided Federal Reserve. Volatility remains contained (VIX 16.99–18.81) but is beginning to reappear in overnight futures trading. The market is pricing in zero rate moves for the remainder of 2026, creating uncertainty around the Fed's next policy direction.",
+  "market_regime": {
+    "index_trend": "Risk-on with narrowing leadership",
+    "index_performance": "S&P 500 +0.9% last week, +10.5% in April (best month since Nov 2020); reached 7,230 by May 1; Nasdaq +1.1% last week, +15% in April[1][2][7]",
+    "current_level": "S&P 500 Futures 7,203 (+0.30%) as of 07:00 GMT May 4[3]",
+    "trend_characterization": "Five consecutive weekly gains (longest streak since 2024)[1]; however, overnight global trading shows caution with Dow futures -189 pts (-0.38%), suggesting hesitant sentiment heading into US session[5]",
+    "breadth_concern": "Leadership concentrated in Magnificent 7 and technology; analyst conviction no longer broad[11]; earnings strength from mega-cap tech (+27.1% Q1 EPS growth vs +15.1% one week prior) masks narrower participation[7]"
+  },
+  "rates_and_fed": {
+    "fed_funds_rate": "3.50%–3.75% (unchanged)[1][7][8]",
+    "fed_decision_tone": "Highly divided: 8-to-4 vote, most divided FOMC decision since 1992[1]; three regional Fed presidents (Minneapolis, Cleveland, Dallas) dissented, arguing next move could be hike or cut; Governor Miran argued for 25-bp cut[7]",
+    "market_pricing": "Zero rate moves priced in for remainder of 2026[7]; trader probability tables show rate hikes reappearing for late 2026[10]",
+    "treasury_yields": "30-year yield 4.96% (+5 bps for week, largest one-week increase since March 13)[1]; 10-year yield 4.37%[1]; yields driven by oil spike and inflation repricing[7]",
+    "policy_uncertainty": "Diverging internal Fed views alongside persistent inflation leave near-term policy path uncertain[8]"
+  },
+  "volatility": {
+    "vix_range": "16.99–18.81 (controlled, not stressed)[2]",
+    "volatility_trend": "MOVE index fell from 115 to 72 by month-end April, improving technical conditions[9]; however, volatility signals beginning to reappear in overnight trading[5]",
+    "options_positioning": "Early-week defensive positioning shifted toward selective accumulation in energy, metals, and individual earnings names[2]; protection still embedded in options flow[2]"
+  },
+  "earnings_tone": {
+    "overall_assessment": "Strong and resilient, offsetting macro headwinds[7]",
+    "megacap_tech_results": "Five of Magnificent 7 (Alphabet, Amazon, Apple, Meta, Microsoft) beat Q1 expectations with accelerating revenue growth; Alphabet +10% on cloud strength ($20B revenue, +63% YoY)[2][7]; Meta -8.6% on capex concerns despite earnings beat[2]",
+    "capex_trajectory": "Hyperscalers revised capex up to $725B for 2026 (from $650B); Meta's $25B investment-grade bond issuance signals continued elevated capex needs[1][7]",
+    "eps_growth": "S&P 500 Q1 EPS growth now +27.1% (vs +15.1% one week prior, +13.1% end of March); full-year 2026 earnings expected +11%[6][7]",
+    "household_spending": "Visa and Mastercard results reinforce view that household spending holding up despite inflation and higher gasoline prices[1]"
+  },
+  "sector_rotation": {
+    "leadership": "Technology +17.5% in April; Magnificent 7 +14.9%[7]",
+    "dominant_themes": "AI and semiconductors show strong momentum; Nvidia reached record high (April 27)[2]",
+    "headwinds": "Energy sector benefiting from oil spike but creating broader inflation concerns; selective accumulation in energy and metals noted in options flow[2]",
+    "breadth_issue": "Leadership narrow and concentrated; analyst conviction no longer broad across market[11]",
+    "fixed_income": "Corporate spreads rallied in April; IG new issue market very active with hyperscaler issuance well oversubscribed; May expected to see $190B in new issuance (seasonally heavy)[9]"
+  },
+  "risk_flags": {
+    "geopolitical": "Strait of Hormuz closure ongoing; fragile ceasefire efforts being tested; oil prices surged above key levels (Brent $110+, WTI $105)[1][5]",
+    "inflation_persistence": "Rates markets pricing in second-round inflation effects from energy price moves; persistent inflation leaves policy path uncertain[1][8]",
+    "valuation_concern": "S&P 500 climbed faster than earnings growth pace; multiple expansion may be reaching limits[6]",
+    "fed_uncertainty": "Most divided FOMC since 1992 creates policy ambiguity; zero rate moves priced in but late-2026 hikes reappearing in trader tables[7][10]",
+    "energy_prices": "Oil acting as dominant macro driver; crude near four-year highs creating defensive environment[2][5]",
+    "overnight_caution": "Global markets shifted toward caution overnight; US futures lower despite strong Asia; European weakness; investors increasingly selective rather than broad exposure[5]",
+    "earnings_concentration": "Earnings strength heavily dependent on mega-cap tech; Q1 EPS growth +27.1% driven by narrow group; full-year guidance uncertainty remains[7]",
+    "credit_issuance": "Large-scale hyperscaler bond issuance ($25B Meta deal) signals elevated capex needs; next wave of supply possible this week, testing credit market absorption[1]"
+  },
+  "source_urls": [
+    "https://www.pennmutualam.com/market-insights-news/blogs/monday-morning-perspectives/2026-05-04-markets-remain-resilient",
+    "https://www.home.saxo/content/articles/macro/saxo-market-compass---4-may-2026-04052026",
+    "https://www.capitalstreetfx.com/market-analysis/daily-market-analysis-morning-session-04-05-2026/",
+    "https://www.stl.news/global-markets-turn-mixed-overnight-may-4-2026/",
+    "https://www.ubp.com/en/news-insights/newsroom/ubp-weekly-view-markets-supported-by-earnings-despite-higher-yields-and-geopolitical-tensions",
+    "https://aamcompany.com/insights/fixed-income/aams-april-fixed-income-recap-2/",
+    "https://carystreetpartners.com/insight/weekly-market-brief-5-4-26",
+    "https://247wallst.com/investing/2026/05/04/the-fed-could-crush-trumps-bull-market-heres-the-warning-wall-street-is-missing/",
+    "https://proshare.co/articles/stock-recommendation-for-the-week-of-may-4-2026",
+    "https://www.piguetgalland.ch/en/news/r%C3%A9sultats-records-aux-%C3%A9tats-unis-europe-sous-pression"
+  ]
+}
+```
+
+**Cautious Paper-Trading Workflow Recommendation:**
+
+For a cautious bot workflow on May 4, 2026:
+
+1. **Position Sizing:** Maintain tight allocation limits given narrow leadership and elevated geopolitical/inflation risks. Your existing rejection of single-stock allocations exceeding 15% is prudent.
+
+2. **Entry Discipline:** Wait for pullbacks in tech/AI names rather than chasing into strength. Overnight futures weakness (-0.38% Dow) suggests intraday volatility likely.
+
+3. **Sector Exposure:** Technology remains supported by earnings but faces valuation risk. Consider hedging with energy or defensive positions given oil's macro dominance.
+
+4. **Risk Management:** Monitor oil prices and Fed dissent signals closely. The 4-dissent FOMC vote signals policy uncertainty that could trigger sharp reversals if inflation data surprises.
+
+5. **Earnings Catalysts:** PLTR earnings after close May 4 (consensus +450% EPS YoY) and ongoing mega-cap tech results remain key drivers but are increasingly priced in.
 

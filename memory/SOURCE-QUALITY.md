@@ -1995,4 +1995,25 @@ SEC/company quality check:
 4. **Allocation Constraint Justified**: Your memory correctly flags NVDA as exceeding 15% single-stock allocation limits. The concentration risk is compounded by geopolitical and product-cycle risks.
 
 **Recommendation**: Maintain watch status; do not add. Consider trimming if allocation permits and if Q2 FY2026 guidance disappoints on China impact or inventory normalization.
+## Source And Signal Research - 2026-05-04 17:13:54 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+{"summary":"No unusual discussion, hype, pump language, or unsupported claims detected around liquid US stocks/ETFs from listed candidates (GOOGL, NVDA, SPMO, PLTR, ADI, SRAD, INTC, VALN, SNY, GSK). Social buzz is weak context only with no flagged risks.","social_buzz":"Weak; no significant public web/social-attention coverage of unusual activity.","attention_anomalies":"None identified; candidates show standard watch/execution-ready status without hype indicators.","source_urls":[]}
+
+Congressional disclosures, max 5% influence:
+{"summary":"No recent congressional disclosures of trades in liquid US stocks or ETFs identified in available sources. Search results primarily highlight institutional 13F filings (e.g., new positions in $ADBE, $AJG, $AVGO) and mention past congressional trading activity in $AJG (1 buy, 6 sells over 6 months) and $AVGO (6 buys, 6 sells), but no new reports.","congressional_signal":"Low-weight, delayed context: Past 6-month congressional trades noted for $AJG (net sales) and $AVGO (balanced); no fresh disclosures.","tickers":[],"source_urls":[]}
+
+SEC/company quality check:
+{
+  "summary": "Current watchlist features strong AI/tech momentum in GOOGL (execute-if-guards-pass on Q1 2026 Cloud beat), PLTR/ADI/INTC (watch semis/AI), with pharma/biotech rotation to VALN (execution-ready on €84m financing/IXCHIQ), SNY/GSK (watch on approvals/lunsekimig/Tzield). SPMO ETF uptrend amid S&P ATHs. No durable demand conflicts; Chittick focus GOOGL/INTC show execution/watch status.",
+  "filing_risks": {
+    "VALN": "**Supply chain/litigation risks**: Sopharma disputes third-party CMO use in NDA as contract breach; FDA cGMP observations at third-party manufacturer may delay PDUFA June 20, 2026; milestone liabilities up to $4.8M Bristol/$2M Sopharma on approval; raw material sourcing from natural/toxic plants with supply disruptions possible. **Regulatory/pricing**: IRA drug price negotiation risks post-2026; heavy reliance on FDA/EMA approvals; contraindicated in immunocompromised.",
+    "SNY": "**Pipeline/execution risks**: Forward-looking clinical/regulatory uncertainties in lunsekimig Phase 2 (met endpoints in asthma/CRSwNP but failed AD primary); Dupixent/Tzield pediatric expansions approved but post-marketing safety monitoring required; IRA pricing pressures, competition, IP litigation risks noted.",
+    "GSK": "No direct SEC filings in results; watch regulatory catalysts (MHRA linerixibat approval) but pipeline execution risks inferred from sector.",
+    "INTC": "No new filings; prior staleness penalty noted - monitor foundry/US incentives for balance-sheet strain in semis foundry shift.",
+    "GOOGL": "No filings; allocation-constrained (15% cap hit), but durable AI/Cloud demand from earnings beat."
+  },
+  "quality_notes": "**VALN revenue quality**: Pre-commercial biotech - financing-dependent (€84m shores pipeline); durable chikungunya demand via partnerships (CEPI/SII/Butantan), 98% 1Y seroresponse in adolescents, 3Y persistence 96%; IXCHIQ first-in-class but elderly SAE warnings limit. **SNY**: High-quality Dupixent (>1.4M patients), lunsekimig/Tzield catalysts add durable immunology demand; Regeneron collab mitigates concentration. **INTC/GOOGL**: Chittick-priority; INTC foundry pivot value but execution risks; GOOGL Cloud $20B (+63%) confirms AI durability. **Overall**: Pharma shows pipeline catalysts offsetting regulatory hurdles; tech/semicon momentum strong but allocation-constrained.",
+  "source_urls": []
+}
 
