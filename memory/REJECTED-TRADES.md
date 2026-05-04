@@ -22,6 +22,17 @@ Single-stock allocation would exceed 15%.
 
 Single-stock allocation would exceed 15%.
 ## Rejected SPMO - 2026-05-04 09:47:01 Eastern Daylight Time
+## Rejected PLTR - 2026-05-04 10:02:31 Eastern Daylight Time
+
+Candidate references banned v1 instruments or leverage.
+Low-weight social/congress signal needs at least two stronger sources.
+## Rejected GOOGL - 2026-05-04 10:02:31 Eastern Daylight Time
+
+Single-stock allocation would exceed 15%.
+## Rejected NVDA - 2026-05-04 10:02:31 Eastern Daylight Time
+
+Single-stock allocation would exceed 15%.
+## Rejected SPMO - 2026-05-04 10:02:31 Eastern Daylight Time
 
 
 
