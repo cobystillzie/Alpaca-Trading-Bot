@@ -736,4 +736,29 @@
   ]
 }
 ```
+## Market Regime Research - 2026-05-04 00:24:43 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities exhibit strong bullish momentum with S&P 500 at all-time highs (12th record in 2026, 5-week winning streak), driven by robust earnings beats (11.5% above estimates, Q1 EPS growth revised to 27.8% YoY) and AI/tech leadership, though stretched positioning and rising rate expectations signal caution for paper-trading.",
+  "market_regime": "Bullish trend with overstretched momentum; S&P 500 up 0.5-1.1% last week (Apr 27-May 1), RSI ~71, above key MAs; risk of pullback as hedge funds de-grossed (long-short leverage -4.6pp), CTAs long $32B S&P with limited upside fuel[1].",
+  "sector_rotation": "Tech/AI dominant (QQQ +1.5% to $674, Nasdaq 100 leading); hedge funds net sold 9/11 sectors; increasing stock-picking dispersion (S&P 1M realized correlation at 6%); SPMO momentum ETF +17.81% 1M confirms broad equity strength biased to leaders[1][7].",
+  "risk_flags": [
+    "Hawkish Fed: Funds curve +10bp higher over 18mo, June cut odds 6.7%, no cuts likely in 2026 amid inflation/Iran war risks[1][2][5].",
+    "Geopolitical: Iran tensions threaten inflation/oil spikes, yet markets resilient[2][8].",
+    "Positioning stretched: Hedge funds cut risk broadly, CTAs maxed support[1].",
+    "Rates rising: 30yr mortgage refi to 6.62% (+10bp WoW), higher-for-longer[5].",
+    "Volatility watch: Earnings momentum strong but new catalysts could trigger dispersion[3][9]"
+  ],
+  "source_urls": [
+    "https://atranicapital.substack.com/p/week-18-market-update-for-april-27",
+    "https://cryptobriefing.com/iran-war-threatens-inflation-fed-warns-of-no-rate-cuts-in-2026/",
+    "https://www.youtube.com/watch?v=0_fl9zw3wlQ",
+    "https://www.moomoo.com/community/feed/this-week-s-outlook-strategy-ai-driven-market-trends-will-116514004533254",
+    "https://www.noradarealestate.com/blog/mortgage-rates-today-may-3-2026-30-year-refinance-rate-rises-by-10-basis-points/",
+    "https://pepperstone.com/en/analysis/navigating-markets/trading-the-week-ahead-key-risks-data-and-market-levels-to-watch/",
+    "https://www.stonex.com/en/insights/reconciling-record-stock-market-highs-to-tangible-us-iran-war-costs/"
+  ]
+}
+```
 

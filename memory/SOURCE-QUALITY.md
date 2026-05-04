@@ -1540,4 +1540,24 @@ SEC/company quality check:
   "quality_notes": "No SEC filings for core watchlist (GOOGL/NVDA/SPMO); catalysts rely on memory/press (e.g., Cloud milestone, CapEx up from $650B). Unrelated filings [1-7] reveal poor quality: DRCT going concern/accum deficit $27.7M/revenue drop 78% YoY from customer pause; INUV 83.5% revenue concentration/accum deficit $178M; PUBM litigation vs Google. Durable demand evidence limited to memory (Perplexity deals, hyperscaler pledges); revenue quality unverified without audits. Capital allocation strong via 8% caps/stops.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-04 00:24:43 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+{"summary":"No unusual discussion, hype, or pump language detected around liquid US stocks/ETFs (GOOGL, NVDA, SPMO) in public web/social coverage; social buzz remains weak as per guidelines.","social_buzz":"Weak; no notable spikes in mentions or sentiment shifts for listed candidates.","attention_anomalies":"None identified; steady watch/execute recommendations without external hype drivers.","source_urls":[]}
+
+Congressional disclosures, max 5% influence:
+{"summary":"No recently reported congressional trades relevant to liquid US stocks or ETFs found in public disclosure sources.","congressional_signal":"None","tickers":[],"source_urls":[]}
+
+SEC/company quality check:
+{
+  "summary": "Current watchlist features GOOGL (execute-if-guards-pass), NVDA and SPMO (watch). No SEC filings in results for these tickers. Available filings (PECO def14a, TXT 10-Q) show strong financials: PECO reports Core FFO growth 7% YoY to $2.60, 97% occupancy; TXT Q1 revenues +12% YoY to $3.7B, net income +6% to $220M. No durable demand or quality risks identified for watchlist names.",
+  "filing_risks": {
+    "GOOGL": "No recent SEC filings in results; memory notes Q1 2026 beat but rejected trade due to allocation limits.",
+    "NVDA": "No recent SEC filings in results; memory highlights CapEx pledges but on watch status.",
+    "SPMO": "ETF; no company filings. Rejected prior trades due to single-stock allocation exceeding 15%.",
+    "Others (PECO, TXT)": "PECO: No balance-sheet concentration/litigation/dilution/revenue quality/capital allocation/valuation risks noted; strong occupancy/growth. TXT: Inventories up 7% to $4.6B (working capital risk), $168M stock buybacks (capital allocation), warranty liability up to $198M, supplier financing $110M (concentration risk)."
+  },
+  "quality_notes": "Watchlist shows durable AI/cloud demand (GOOGL Cloud +63% YoY, NVDA hyperscaler CapEx). SPMO momentum strong (+17.81% 1M). No revenue quality issues in memory. PECO quality cash flows emphasized; TXT cash used in ops ($117M), inventories rising. Special attention: GOOGL strong earnings beat.",
+  "source_urls": []
+}
 
