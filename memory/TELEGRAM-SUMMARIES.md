@@ -2373,4 +2373,144 @@ Chittick Cash: Recent pullback from highs; profitability inflection.
 HF filter: sentiment=not run source=0/100 hype=0.30 vetoes=0
 Social buzz, low weight: low-weight AI hype context
 Congress signal, low weight: none
+## Weekly Memo - 2026-05-04 09:49:54 Eastern Daylight Time
+
+Weekly Strategy Review Memo
+
+Recommendation: Self-learning policy updated. Friday automation may apply safe code/prompt edits only after tests pass and Telegram disclosure succeeds.
+
+Market Regime
+{"lessons":["SPMO dominates outputs with near-identical repetitive catalysts across 20+ timestamps, indicating stalled momentum scanning without fresh signals.","NVDA, GOOGL, ASML, LRCX, MSFT recur heavily in semiconductors/tech/AI, comprising 70%+ of candidates and triggering repeated 15% allocation blocks.","Portfolio lacks diversity: 90%+ candidates in tech/semiconductors/broad momentum; minimal exposure to biotech (ANIX/TNXP), industrials (ETN), or others despite occasional appearances.","Daily research outputs are formulaic, recycling price ranges ($128-$132 for SPMO), MA crossovers, and AI buzz without evolving theses or new sectors.","Chittick Cash scores (55-82) appear consistently but show no correlation to execution success; high scores on blocked repeats like NVDA/GOOGL suggest over-reliance.","Hugging Face filters (HF Source/Vetoes) mostly 0-1 with no vetoes observed, addi...
+
+Top Candidates
+
+1. GOOGL (Technology / Internet Services / Cloud) | confidence 0.82 | allocation 8.0% | stop 6.0% | Chittick 82/100 | tier watch-allocation-constrained | bucket mega-cap-internet-cloud
+Thesis: Alphabet's cloud/AI acceleration positions it as quality compounder with durable moat; recent earnings beat validates multi-year runway in AI infrastructure.
+Catalyst: Q1 2026 earnings beat: $109.9B revenue (+22% YoY), Cloud $20B (+63% YoY first milestone), EPS $5.11 (+82% YoY); Perplexity/OpenAI compute deals confirm AI demand.
+Entry: Enter on pullback to $165-170 if volume supports; paper-trade 8% allocation if under 15% portfolio cap.
+Exit: Take profits at +10-15% or $190; invalidate below $160 (earnings reaction low).
+Risk/reward: 3:1 potential; 6% stop vs 15% target on catalyst confirmation.
+Bear/adversary: Capex intensity erodes margins if AI monetization lags; prior rejection on allocation.
+Source quality: High: Earnings data, memory-validated catalysts from official reports; no hype reliance.
+Chittick Cash Filter
+Score: 82/100
+Margin of safety: Trading below historical multiples post-beat; $100B+ cash hoard buffers downside.
+Valuation: Attractive vs AI growth; Cloud acceleration justifies premium to peers.
+Growth runway: AI agents, cloud to $100B+ annualized; Gemini model expansion over 30-180 days.
+Balance-sheet risk: Net cash position; minimal debt, low cyclicality.
+Capital allocation: Buybacks, AI reinvestment; owner-operator discipline.
+Concentration case: Superior to broad ETFs on Cloud/AI purity vs SPMO momentum.
+Owner thesis, 30-180 days: Cloud surpassing $20B milestone signals 30-180 day compounding; review if Q2 guidance raises run-rate.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 3
+Diversity bucket: mega-cap-internet-cloud
+Research tier: watch-allocation-constrained
+Allocation learning: Prior allocation or concentration rejection: research must propose a smaller safe tranche or a different-sector alternative.
+Hugging Face Filter
+Not run for this candidate.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
+
+2. NVDA (Semiconductors / AI Infrastructure) | confidence 0.80 | allocation 8.0% | stop 7.0% | Chittick 75/100 | tier watch-allocation-constrained | bucket semiconductors-ai
+Thesis: AI GPU monopoly with ecosystem lock-in; quality leader in semiconductors.
+Catalyst: Hyperscalers $725B 2026 CapEx pledge (up from $650B); CoreWeave $63.9B deals, Vera Rubin ramp, B300 servers $1M China pricing on supply constraints.
+Entry: Enter on dip to $130 support; 8% allocation.
+Exit: Profits at +12% or $150; stop below $125.
+Risk/reward: 3:1; 7% risk for 20%+ upside on CapEx flow-through.
+Bear/adversary: Competition from custom chips (AMZN/GOOGL); peak CapEx fears.
+Source quality: High: Market data, hyperscaler commitments; memory-confirmed.
+Chittick Cash Filter
+Score: 75/100
+Margin of safety: Demand >> supply; inventory low.
+Valuation: Premium justified by monopoly pricing power.
+Growth runway: Vera Rubin/B200 ramp drives 100%+ YoY; Blackwell scaling 30-180 days.
+Balance-sheet risk: Net cash; no debt.
+Capital allocation: R&D focus, dividends initiated.
+Concentration case: AI pure-play beats SPMO breadth.
+Owner thesis, 30-180 days: CapEx sustained >$700B justifies 30-180 day hold if margins hold.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: momentum
+Fresh catalyst: yes
+Repeat count, 48h: 3
+Diversity bucket: semiconductors-ai
+Research tier: watch-allocation-constrained
+Allocation learning: Prior allocation or concentration rejection: research must propose a smaller safe tranche or a different-sector alternative.
+Hugging Face Filter
+Not run for this candidate.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
+
+3. SPMO (Broad Equity Momentum ETF / S&P 500) | confidence 0.78 | allocation 8.0% | stop 6.0% | Chittick 35/100 | tier stale-watch | bucket broad-market-etf
+Thesis: Momentum ETF capturing broad equity uptrend; quality filter via S&P 500 high-momentum screen.
+Catalyst: +17.81% 1M return to $132.29; +1.23% daily gains in $128-132 range (high $131.50), uptrend from $78.25 low amid S&P ATHs/tech beats.
+Entry: Enter above $132 breakout; 8% if cap allows.
+Exit: Profits +10% or $145; stop below $128.
+Risk/reward: 2.5:1; 6% risk for 15% target.
+Bear/adversary: Overbought; prior rejections exceed 15% single allocation.
+Source quality: High: Price data, market regime alignment.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Diversified holdings buffer single-name risk.
+Valuation: Fair for momentum leadership.
+Growth runway: S&P drift higher sustains 30-180 day performance.
+Balance-sheet risk: ETF structure: low.
+Capital allocation: Rules-based rebalance.
+Concentration case: Broad alternative to GOOGL/NVDA concentration.
+Owner thesis, 30-180 days: Momentum persistence in bull market warrants 30-180 day review.
+Chittick reject reason: Prior allocation rejections.
+Self-Learning Filter
+Catalyst type: momentum
+Fresh catalyst: no
+Repeat count, 48h: 3
+Diversity bucket: broad-market-etf
+Research tier: stale-watch
+Allocation learning: Prior allocation or concentration rejection: research must propose a smaller safe tranche or a different-sector alternative.
+Hugging Face Filter
+Not run for this candidate.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
+
+4. PLTR (Technology / Software / AI Analytics) | confidence 0.72 | allocation 5.0% | stop 8.0% | Chittick 74/100 | tier watch-allocation-constrained | bucket other | HF source 0/100
+Thesis: AI data analytics platform with govt/commercial moats; accelerating profitability.
+Catalyst: Q1 2026 earnings after close May 4: consensus $0.22 EPS (+450% YoY), $1.54B rev; 4 straight beats avg +40% surprise; AIP bootcamps driving commercial growth.
+Entry: Post-earnings if beat + guidance raise, enter $140-145; 5% allocation.
+Exit: Profits +15% or $165; stop below $132 (options implied low).
+Risk/reward: 2:1; 8% risk for 16% target on historical beats.
+Bear/adversary: Earnings miss triggers 12-24% drop; overvalued if commercial slows.
+Source quality: High: Analyst consensus, historical earnings data; listicle-free.
+Chittick Cash Filter
+Score: 74/100
+Margin of safety: Recent pullback from highs; profitability inflection.
+Valuation: Stretched but 35% upside to avg PT if beat sustains.
+Growth runway: Commercial AIP triple-digit growth; govt AI adoption 30-180 days.
+Balance-sheet risk: Profitable; scaling leverage.
+Capital allocation: Margin expansion via software scale.
+Concentration case: AI pure-play complements NVDA/GOOGL.
+Owner thesis, 30-180 days: Sustained beats + AIP deals justify 30-180 day review.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: other
+Research tier: watch-allocation-constrained
+Allocation learning: Prior allocation or concentration rejection: research must propose a smaller safe tranche or a different-sector alternative.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.30
+Evidence rank: 0/100
+Memory similarity: 0.00
+Vetoes: none
+Model notes: New catalyst from search; aligns with AI theme but pre-earnings watch.
+Social buzz, max 10%: low-weight AI hype context
+Congress signal, max 5%: none
+Sources: https://www.barchart.com/story/news/1674639/palantir-s-commercial-momentum-meets-a-valuation-that-still-assumes-near-perfection
 
