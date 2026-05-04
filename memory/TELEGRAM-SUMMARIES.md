@@ -2877,4 +2877,37 @@ Model notes: Discovery candidate.
 Social buzz, max 10%: low-weight sentiment mix
 Congress signal, max 5%: none
 Sources: https://www.quiverquant.com/news/Sportradar+Group+AG+Stock+(SRAD)+Opinions+on+Earnings+Report+and+Gambling+Allegations
+## Research Update - 2026-05-04 12:51:10 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equity markets remain risk-off cautious with futures lower amid oil surge to $105-110/bbl from Iran tensions, Fed rates steady at 3.50-3.75%, and NFP anticipation; tech/AI holds leadership but selective rotation favors quality over broad momentum.
+Candidates: 3
+
+1. PLTR (Technology / Software / AI Analytics) | confidence 0.75 | allocation 5.0% | stop 8.0% | Chittick 74/100 | tier execution-ready | bucket ai-software
+Recommendation: watch
+Catalyst: Q1 2026 earnings after close May 4: consensus $0.22 EPS (+450% YoY), $1.54B rev (+35% YoY); 4 straight beats avg +40% surprise; AIP bootcamps driving growth.
+Chittick Cash: Recurring contracts and govt backlog buffer downside; trading below 10x sales on growth trajectory.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=2 fresh=yes bucket=ai-software
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. ADI (Semiconductors / Analog) | confidence 0.72 | allocation 6.0% | stop 8.0% | Chittick 70/100 | tier watch | bucket semi-analog-industrial
+Recommendation: watch
+Catalyst: 1M +21.5% return amid semis strength; power management chips critical for AI data centers.
+Chittick Cash: Strong balance sheet, dividend history; undervalued vs digital semis peers.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=1 fresh=yes bucket=semi-analog-industrial
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. INTC (Semiconductors) | confidence 0.70 | allocation 6.0% | stop 8.0% | Chittick 72/100 | tier watch | bucket semi-foundry-value
+Recommendation: watch
+Catalyst: Recent foundry updates and US manufacturing incentives; monitoring for fresh guidance post-repeated staleness penalty.
+Chittick Cash: Deep value vs book; US fab investments as downside protection.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=semi-foundry-value
+Social buzz, low weight: none
+Congress signal, low weight: none
 

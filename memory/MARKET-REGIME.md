@@ -808,4 +808,25 @@
   ]
 }
 ```
+## Market Regime Research - 2026-05-04 12:51:10 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equity markets exhibit a **cautious tone** with futures modestly lower amid mixed global signals, surging oil prices from Middle East tensions (Iran conflict), and anticipation for key data like NFP. S&P/Nasdaq at recent ATHs driven by tech/AI earnings beats (GOOGL, NVDA), but volatility signals emerging and Fed holding rates steady at 3.50-3.75% due to inflation/oil shocks[1][7].",
+  "market_regime": "Risk-off cautious with defensive rotation; broad indices near ATHs (SPMO +17.81% 1M) but futures down (Dow -0.38%, S&P -0.09%) signaling hesitation. Geopolitical risks (oil >$105-110/bbl, Hormuz tensions) outweighing tech momentum[1][6][7][8].",
+  "sector_rotation": "Tech/AI leadership intact (GOOGL Cloud +63% YoY, NVDA CapEx, PLTR earnings watch) but energy in focus with oil surge; semis/analog (ADI +21.5% 1M) strong. Shift to selective exposure vs broad beta amid rising defensives[1][7].",
+  "risk_flags": [
+    "Geopolitical: Iran conflict driving oil to $105-110/bbl, gas price records, Hormuz risks[1][6][7][8]",
+    "Fed: Rates steady 3.50-3.75%, no 2026 cuts before Sep due to inflation/oil[7]",
+    "Volatility: Futures caution, VIX signals reappearing, NFP/JOLTS week ahead (60-73K jobs exp)[1][4]",
+    "Macro: USD firm (DXY 98.16), gold pullback, mixed Asia/Europe[1][7]"
+  ],
+  "source_urls": [
+    "https://www.stl.news/global-markets-turn-mixed-overnight-may-4-2026/",
+    "https://www.icmarkets.com/blog/ic-markets-global-europe-fundamental-forecast-04-may-2026/",
+    "https://www.naga.com/en/news-and-analysis/articles/nfp-week-geopolitics-market-volatility-may-2026",
+    "https://www.youtube.com/watch?v=0_fl9zw3wlQ"
+  ]
+}
+```
 

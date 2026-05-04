@@ -1675,4 +1675,19 @@ SEC/company quality check:
   "quality_notes": "ACHV shows durable demand potential in $1.1B Chantix void (75% US sales) with cytisinicline superior efficacy vs NRTs per Cochrane; NDA imminent but execution risks high (supply dispute, CMO inspection); no revenue yet, milestone liabilities signal dilution risk on approval; Valneva/Sanofi filings confirmatory of pipeline progress but no direct watchlist ties; filings emphasize regulatory hurdles, supply dependency.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-04 12:51:10 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+{"summary":"No unusual discussion or social attention detected around liquid US stocks/ETFs from candidates (GOOGL, NVDA, SPMO, PLTR, ADI, SRAD). Single mention of UAL (United Airlines) due to Spirit Airlines shutdown and cheaper jet fuel, but UAL not a candidate and YTD down 17% with no hype indicators.","social_buzz":"Weak; isolated UAL coverage on customer support post-Spirit shutdown and falling fuel costs. No buzz on candidates. No pump language or unsupported claims flagged.","attention_anomalies":"None identified for candidates. UAL anomaly: abrupt Spirit closure driving minor attention to United's response, but stock underperforming YTD.","source_urls":["https://stocktwits.com/news-articles/markets/equity/united-airlines-steps-in-after-spirit-shutdown-and-cheaper-jet-fuel-is-drawing-attention-for-ual-stock/cZQMkvgRe7t"]}
+
+Congressional disclosures, max 5% influence:
+{"summary":"No recent congressional disclosures found for liquid US stocks/ETFs in provided data; treated as low-weight, delayed context only.","congressional_signal":"none","tickers":[],"source_urls":[]}
+
+SEC/company quality check:
+{
+  "summary": "Current watchlist features GOOGL (execute-if-guards-pass, high confidence 0.82 on Q1 2026 earnings beat and AI cloud demand), NVDA (watch, 0.80 on hyperscaler CapEx), SPMO (watch, 0.78 on S&P momentum), PLTR (watch, 0.75 on Q1 earnings), ADI (watch, 0.72 on semis strength), SRAD (watch, 0.60 on growth/insiders). No new SEC filings directly reference these tickers. Special attention stocks: GOOGL shows durable AI demand via Cloud/Perplexity deals; no balance sheet/litigation/dilution risks evident in memory. Rejected trades due to allocation limits (e.g., GOOGL/NVDA/SPMO exceed 15%).",
+  "filing_risks": "No SEC/company filings in results for GOOGL, NVDA, SPMO, PLTR, ADI, or SRAD. Unrelated filings highlight: Sanofi (SNY) forward-looking R&D risks, regulatory delays, clinical uncertainties, IP litigation, economic volatility ; Valneva (VALN) vaccine safety SAEs in elderly, regulatory suspensions ; Jasper Therapeutics (JSPR) clinical-stage biotech risks including trial failures, funding needs . No balance-sheet concentration, dilution, revenue quality, capital allocation, or valuation risks identified for watchlist names.",
+  "quality_notes": "Watchlist shows durable demand: GOOGL Cloud +63% YoY confirms AI tailwinds; NVDA hyperscaler $725B CapEx; SPMO S&P momentum +17.81% 1M; PLTR 4 beats/+40% surprise; ADI +21.5% 1M semis; SRAD rev growth/insider buys. Repeated GOOGL candidacy (5x) signals conviction but allocation-constrained bucket. No revenue quality concerns; catalysts tied to earnings/AI. Quality durable absent filing risks.",
+  "source_urls": []
+}
 
