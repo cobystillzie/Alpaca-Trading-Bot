@@ -33,6 +33,24 @@ Single-stock allocation would exceed 15%.
 
 Single-stock allocation would exceed 15%.
 ## Rejected SPMO - 2026-05-04 10:02:31 Eastern Daylight Time
+## Rejected INTC - 2026-05-05 09:59:10 Eastern Daylight Time
 
+HF memory filter flags similarity to prior rejected patterns.
+## Rejected ADI - 2026-05-05 09:59:10 Eastern Daylight Time
 
+repeat_staleness
+HF source/hype filter rejects source-thin hype.
+HF memory filter flags similarity to prior rejected patterns.
+## Rejected GSK - 2026-05-05 09:59:10 Eastern Daylight Time
+
+repeat_staleness
+HF source/hype filter rejects source-thin hype.
+HF memory filter flags similarity to prior rejected patterns.
+## Rejected PLTR - 2026-05-05 09:59:10 Eastern Daylight Time
+
+Candidate references banned v1 instruments or leverage.
+Low-weight social/congress signal needs at least two stronger sources.
+repeat_staleness
+HF source/hype filter rejects source-thin hype.
+HF memory filter flags similarity to prior rejected patterns.
 
