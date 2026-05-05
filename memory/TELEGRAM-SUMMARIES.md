@@ -3976,4 +3976,46 @@ Model notes: none
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: none
+## Research Update - 2026-05-05 17:25:18 Eastern Daylight Time
+
+Research Update
+
+Market tone: Fraport AG (FRA: FRA) released ESG Factbook 2025 today, highlighting Scope 1&2 GHG emissions down 31-35% YoY to ~82-109k t CO2e, 100% renewable electricity in key subs, EU Taxonomy-aligned revenues €145mn (6% of total), and ACA-certified airports; aligns with 1.5°C trajectory targeting 105k t by 2028. No direct US-listed ADR identified; FRA trades OTC (FPRUY) with low liquidity.
+Candidates: 4
+
+1. INTC (Semiconductors) | confidence 0.70 | allocation 6.0% | stop 8.0% | Chittick 35/100 | tier stale-watch | bucket semi-foundry-value | HF source 0/100 | HF veto
+Recommendation: watch
+Catalyst: No new today; monitoring post-staleness for Q1 2026 earnings guidance refresh (late April) and CHIPS Act progress amid semi strength.
+Chittick Cash: Gov subsidies + cash reserves buffer downside; trading below historical multiples.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=1
+Self-learning: tier=stale-watch repeat48h=11 fresh=yes bucket=semi-foundry-value
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. PEG (Utilities) | confidence 0.65 | allocation 4.0% | stop 7.0% | Chittick 70/100 | tier watch | bucket utilities-defensive
+Recommendation: watch
+Catalyst: Recent Q1 2026 earnings beat; low-weight congressional attention as volume signal.
+Chittick Cash: Dividend yield + regulated assets provide floor.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=3 fresh=yes bucket=utilities-defensive
+Social buzz, low weight: none
+Congress signal, low weight: low-weight mixed trades
+
+3. VALN (Biotechnology / Vaccines) | confidence 0.68 | allocation 5.0% | stop 8.0% | Chittick 68/100 | tier watch | bucket biotech-vaccines
+Recommendation: watch
+Catalyst: €84m financing to advance IXCHIQ chikungunya and intranasal vaccines; 8.2% CAGR market tailwind.
+Chittick Cash: Financing provides buffer; undervalued pipeline.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=4 fresh=yes bucket=biotech-vaccines
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+4. FPRUY (Industrials / Airports) | confidence 0.55 | allocation 0.0% | stop 10.0% | Chittick 35/100 | tier watch | bucket industrials-airports | HF source 8/100 | HF veto
+Recommendation: avoid
+Catalyst: ESG Factbook 2025 released May 5: Scope 1&2 emissions -31-35% YoY, €145mn taxonomy-aligned rev (6%), 2030 net-zero path.
+Chittick Cash: Stable assets but ADR discount/liquidity gap.
+HF filter: sentiment=not run source=8/100 hype=0.10 vetoes=1
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=industrials-airports
+Social buzz, low weight: none
+Congress signal, low weight: none
 

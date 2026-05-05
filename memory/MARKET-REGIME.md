@@ -1314,4 +1314,27 @@ For a cautious bot workflow on May 4, 2026:
     "https://verdence.com/insight/no-april-showers-for-equity-investors/"
   ]
 }
+## Market Regime Research - 2026-05-05 17:25:18 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities rally to record highs led by Nasdaq and tech/semiconductors amid strong earnings and AI momentum, shrugging off Middle East tensions and retreating oil prices. Trump-Xi summit provides temporary safety. Inflation risks from oil and hawkish Fed tone raise rate hike odds, but risk appetite strong with ETF inflows near records.",
+  "market_regime": "risk_on_bullish",
+  "sector_rotation": "tech_ai_semiconductors > broad_equities > fixed_income",
+  "risk_flags": [
+    "geopolitical_tensions_middle_east",
+    "fed_rate_hike_inflation_oil",
+    "rising_yields_bond_market",
+    "elevated_volatility_potential"
+  ],
+  "source_urls": [
+    "https://www.marketpulse.com/markets/tech-explodes-djia-nasdaq-us-stocks-outlook/",
+    "https://www.businessinsider.com/fed-rate-hike-interest-rates-inflation-outlook-economy-iran-war-2026-5",
+    "https://www.youtube.com/watch?v=UzxS5ylehPI",
+    "https://www.davy.ie/market-and-insights/insights/investing-insights/2026/major-central-banks-on-hold-for-now.html",
+    "https://www.interactivebrokers.com/campus/traders-insight/securities/macro/rate-hikes-back-on-the-table/",
+    "https://verdence.com/insight/no-april-showers-for-equity-investors/"
+  ]
+}
+```
 

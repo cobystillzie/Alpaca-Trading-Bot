@@ -2616,4 +2616,47 @@ SEC/company quality check:
   "quality_notes": "High-quality primary SEC Form D/A data with full edgarSubmission XML details (CIKs, addresses, related persons, offering amounts, exemptions, signatures). Consistent across [1-4], amendments update sales progress. [5,7] FIVE 2023-V1 10-Ks are standard ABS shelf filings (omitted MD&A/risks, servicer attestations).  NOVAGOLD Donlin Gold S-K 1300 TRS unrelated mining geology. No material risks/valuation concerns for watchlist (INTC etc.); VC funds not public cos.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-05 17:25:18 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks or ETFs. No notable social buzz or attention anomalies detected across monitored candidates (e.g., PLTR post-earnings, INTC semis, VALN biotech financing, PEG utilities).",
+  "social_buzz": "Weak/none. No pump language, hype, or unsupported claims flagged in coverage.",
+  "attention_anomalies": "None identified. Coverage remains routine for listed catalysts.",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "WLFC Q1 2026 earnings beat: EPS $4.03 vs $3.08 est, rev $194M vs $178M est; insiders 49 sales/0 buys past 6mo, instits net sellers. HTHT Q1 results May 15, analysts buy ratings PT $60-62, instits net buyers. SCLX subsidiary ACEA Pharma acquired by Phoenix for $1B shares (Scilex ~82% stake post-close Q2), insiders 3 sales/0 buys, instits net sellers. EPOW adds AI power team, minor inst flows. No congressional trades reported.",
+  "congressional_signal": "none",
+  "tickers": ["WLFC", "HTHT", "SCLX", "EPOW"],
+  "source_urls": [
+    "https://www.quiverquant.com/news/WILLIS+LEASE+FINANCE+($WLFC)+Releases+Q1+2026+Earnings",
+    "https://www.quiverquant.com/news/H+World+Group+Limited+Schedules+Release+of+Q1+2026+Financial+Results+and+Conference+Call",
+    "https://www.quiverquant.com/news/Scilex+Holding+Company+Announces+Acquisition+Agreement+Between+ACEA+Therapeutics+and+Phoenix+Asia+Holdings",
+    "https://www.quiverquant.com/news/E-Power+Inc.+Onboards+Veteran+Team+to+Enhance+AI+Power+Supply+Solutions+and+Accelerate+Market+Delivery",
+    "https://www.quiverquant.com/insiders/"
+  ]
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "Humacyte (HUMA) 10-K details Symvess (ATEV) FDA approval Dec 2024 for extremity arterial trauma with strong V005/V017 trial data (87% 30-day secondary patency vs 79% synthetic grafts, 0.9% infection vs 8.4%, 4.5% amputation vs 24%). Long-term durability to 36 months, Ukraine wartime success. Hemodialysis access trials mixed: V007 superior usability vs AVF (81% vs 66% at 6mo), targets women/obese/diabetics; V006 missed patency but lower infections. ~445 HD implants, 1k+ patient-years, low infections <1%/yr. Budget model shows cost savings. Pipeline expansion risks.",
+  "filing_risks": [
+    "Clinical mixed results: V006 Phase 3 missed secondary patency endpoint vs ePTFE at 24mo (67% vs 74%, HR 1.284>1.488 noninferiority), due to unexpectedly high ePTFE patency and worse ATEV patient comorbidities.",
+    "High adverse events in HD trials: V006 thrombosis 23%, stenosis 19%, pseudoaneurysm 6%; V007 thrombosis 53% (94% treated). Trauma: 1 rupture in V017 from shrapnel.",
+    "Commercial/revenue concentration: Symvess single approved product; HD BLA pending V012 interim Apr 2026. Ukraine V017 real-world n=16 small.",
+    "Capital allocation: 445 HD implants, ongoing Phase 3 (V012 n=113/150 women); manufacturing scale-up risks for bioengineered vessels.",
+    "Dilution/balance sheet: Not explicit, but clinical-stage biotech implies cash burn; budget model assumes adoption but no 2025 financials shown.",
+    "Litigation/regulatory: None noted; FDA broader indication than requested.",
+    "Valuation: Cost-saving model vs synthetics, but HD patency durability unproven long-term vs AVF."
+  ],
+  "quality_notes": "Durable demand evidence: Trauma Symvess 1/9th infection, 1/5th amputation vs synthetics; 92.9% infection-free 3-36mo, 82.5% limb salvage at 24mo. HD: V007 superior in high-risk (women/obese/diabetic) 85.7% 6mo patency vs 52% AVF; 2yr duration 14.8 vs 9.1mo. Low rejection (0 across trials), self-healing post-cannulation. Revenue quality: Off-label synthetics high complications create replacement need. Watch for V012 interim, HD BLA. INTC-adjacent semi risks absent.",
+  "source_urls": ["https://www.sec.gov/Archives/edgar/data/1818382/000181838226000015/huma-20251231.htm"]
+}
 

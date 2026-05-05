@@ -376,4 +376,9 @@ Candidates found: 3
 US equities near records with tech/AI/semicon strength persisting post-PLTR/ADI earnings, but risk-on momentum cooling into late session amid oil/inflation pressures, Fed hike odds, and geopolitical risks; low equity inflows signal caution.
 
 Candidates found: 3
+## Two-Hour Research Agent - 2026-05-05 17:25:18 Eastern Daylight Time
+
+Fraport AG (FRA: FRA) released ESG Factbook 2025 today, highlighting Scope 1&2 GHG emissions down 31-35% YoY to ~82-109k t CO2e, 100% renewable electricity in key subs, EU Taxonomy-aligned revenues €145mn (6% of total), and ACA-certified airports; aligns with 1.5°C trajectory targeting 105k t by 2028. No direct US-listed ADR identified; FRA trades OTC (FPRUY) with low liquidity.
+
+Candidates found: 4
 
