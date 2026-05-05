@@ -1137,4 +1137,27 @@ For a cautious bot workflow on May 4, 2026:
   ]
 }
 ```
+## Market Regime Research - 2026-05-05 07:51:16 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities at record highs driven by AI/tech earnings resilience despite hawkish Fed, rising inflation (Core PCE 3.2% YoY), surging oil ($105 WTI), and Middle East tensions. Narrow leadership in tech/AI with some rotation to energy/value; VIX contained (16-18); rate hike odds rising to 10%+ for 2026.",
+  "market_regime": "risk_on_with_caution",
+  "sector_rotation": "Tech/AI dominant (Nasdaq +15% Apr, Alphabet +10%); energy gaining on oil surge; cyclicals (industrials/materials) weak; value outperforming growth recently; defensives underperforming.",
+  "risk_flags": [
+    "Hawkish Fed (rates steady 3.50-3.75%, hike odds up, internal dissent)",
+    "Inflation reaccelerating (Core PCE 3.2% YoY, 5yr breakeven 2.69%)",
+    "Geopolitical (Middle East/Strait of Hormuz tensions driving oil)",
+    "Narrow breadth (tech-led, equal-weight lagging cap-weight)",
+    "Upcoming catalysts (May CPI, jobs report) may spike vol"
+  ],
+  "source_urls": [
+    "https://verdence.com/insight/no-april-showers-for-equity-investors/",
+    "https://www.ajg.com/news-and-insights/weekly-financial-markets-update-may-4-2026/",
+    "https://www.home.saxo/content/articles/macro/saxo-market-compass---4-may-2026-04052026",
+    "https://schwabnetwork.com/articles/closing-bell-nasdaq-resilient-as-tech-outperforms-broad-market-retreat",
+    "https://www.businessinsider.com/fed-rate-hike-interest-rates-inflation-outlook-economy-iran-war-2026-5"
+  ]
+}
+```
 

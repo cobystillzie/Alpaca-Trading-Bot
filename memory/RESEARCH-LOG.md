@@ -346,4 +346,9 @@ Candidates found: 4
 US equities near record highs on Q1 earnings strength (80-84% beat rates, 15-16% YoY growth) despite Fed steady at 3.50-3.75%, inflation at 3.3%, and Middle East tensions; S&P futures lower on oil risks but bull market intact with AI/semicon momentum.
 
 Candidates found: 4
+## Two-Hour Research Agent - 2026-05-05 07:51:16 Eastern Daylight Time
+
+US equities hold near record highs amid AI/tech resilience and narrow breadth, with PLTR earnings due after close today providing key catalyst; semis and pharma watchlist candidates show momentum but repeat staleness penalties apply.
+
+Candidates found: 4
 

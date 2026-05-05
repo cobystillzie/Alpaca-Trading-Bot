@@ -3400,4 +3400,46 @@ HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
 Self-learning: tier=watch repeat48h=5 fresh=yes bucket=big-pharma-vaccines
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-05 07:51:16 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities hold near record highs amid AI/tech resilience and narrow breadth, with PLTR earnings due after close today providing key catalyst; semis and pharma watchlist candidates show momentum but repeat staleness penalties apply.
+Candidates: 4
+
+1. PLTR (Technology / Software / AI Analytics) | confidence 0.75 | allocation 5.0% | stop 8.0% | Chittick 35/100 | tier execution-ready | bucket ai-software | HF source 0/100 | HF veto
+Recommendation: watch
+Catalyst: Q1 2026 earnings after close May 4: consensus $0.22 EPS (+450% YoY), $1.54B rev (+35% YoY); 4 straight beats avg +40% surprise; AIP bootcamps accelerating commercial growth.
+Chittick Cash: Beat history provides buffer; stop below support de-risks.
+HF filter: sentiment=not run source=0/100 hype=0.30 vetoes=1
+Self-learning: tier=execution-ready repeat48h=7 fresh=yes bucket=ai-software
+Social buzz, low weight: Low-weight: Stocktwits bearish sentiment despite beats history.
+Congress signal, low weight: Low-weight: 9 trades past 6 months (5 buys/4 sells).
+
+2. ADI (Semiconductors / Analog) | confidence 0.72 | allocation 6.0% | stop 8.0% | Chittick 35/100 | tier watch | bucket semi-analog-industrial | HF source 0/100 | HF veto
+Recommendation: watch
+Catalyst: 1M +21.5% return amid semis strength; power management chips critical for AI servers/data centers.
+Chittick Cash: Sector leadership provides buffer.
+HF filter: sentiment=not run source=0/100 hype=0.20 vetoes=1
+Self-learning: tier=watch repeat48h=6 fresh=yes bucket=semi-analog-industrial
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. INTC (Semiconductors) | confidence 0.70 | allocation 6.0% | stop 8.0% | Chittick 72/100 | tier watch | bucket semi-foundry-value | HF source 0/100
+Recommendation: watch
+Catalyst: Recent foundry updates and US manufacturing incentives; monitoring fresh guidance post-staleness.
+Chittick Cash: US incentives provide floor.
+HF filter: sentiment=not run source=0/100 hype=0.10 vetoes=0
+Self-learning: tier=watch repeat48h=5 fresh=yes bucket=semi-foundry-value
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+4. GSK (Pharmaceuticals / Vaccines / Healthcare) | confidence 0.65 | allocation 5.0% | stop 7.0% | Chittick 35/100 | tier watch | bucket big-pharma-vaccines | HF source 0/100 | HF veto
+Recommendation: watch
+Catalyst: MHRA linerixibat (Lynavoy) approval for PBC itch on Phase III Glisten success; thermostable trends.
+Chittick Cash: Diversified portfolio, dividends.
+HF filter: sentiment=not run source=0/100 hype=0.10 vetoes=1
+Self-learning: tier=watch repeat48h=6 fresh=yes bucket=big-pharma-vaccines
+Social buzz, low weight: none
+Congress signal, low weight: none
 

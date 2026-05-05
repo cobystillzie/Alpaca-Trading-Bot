@@ -2066,4 +2066,112 @@ SEC/company quality check:
   },
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-05 07:51:16 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "Six stocks showed unusual social/media attention on May 4–5, 2026, driven by regulatory clarity, earnings beats, shareholder shifts, and clinical trial data. CRCL led with 16% gains on CLARITY Act compromise; SHOP gained 2% overnight on Cathie Wood buying ahead of Q1 earnings; RIVN rose 1% after Volkswagen became top shareholder; CABA jumped 30% on positive Phase data; NOW rose 1.2% on 2030 revenue guidance; prediction market ETFs delayed by SEC. No trade recommendations issued. Social buzz is weak context only.",
+  "social_buzz": [
+    {
+      "symbol": "CRCL",
+      "move": "+16% (one-month high)",
+      "driver": "CLARITY Act compromise passed major legislative hurdle Friday; allows cashback rewards but bans stablecoin interest. Retail sentiment improved to 'bullish' from 'bearish'; chatter rose to 'high' from 'normal'.",
+      "risk_flags": "Legislative risk remains; Senate Banking Committee markup scheduled week of May 11. Sentiment swing is rapid; social buzz alone does not validate fundamentals."
+    },
+    {
+      "symbol": "SHOP",
+      "move": "+2% overnight (ahead of Q1 earnings Tuesday)",
+      "driver": "Cathie Wood's ARK Invest added 72,322 shares (~$9.2M) across ARKK, ARKF, ARKW. Stock down 20% YTD; buying may signal contrarian conviction or rebalancing.",
+      "risk_flags": "Institutional buying is not a trade signal. SHOP remains under pressure from AI concerns. Earnings Tuesday will be key test."
+    },
+    {
+      "symbol": "RIVN",
+      "move": "+1% overnight (after -3% Monday close at $14.51)",
+      "driver": "Volkswagen overtook Amazon as top shareholder (16% vs. 12%); first ownership change since 2021 IPO. Amazon still supplies $468M of $908M Q1 automotive revenue (52%).",
+      "risk_flags": "Ownership dilution is structural, not a catalyst. Amazon's operational role unchanged. Stock up only 5% over past year despite VW investment."
+    },
+    {
+      "symbol": "CABA",
+      "move": "+30% (best day since October 2025)",
+      "driver": "Positive early Phase data on rese-cel therapy for pemphigus vulgaris (4 patients, no preconditioning chemotherapy). Eli Lilly participated in $150M underwritten offering at $2.90/share.",
+      "risk_flags": "Early-stage biotech with n=4 data. Stock up 200% over 12 months—significant run already priced in. Clinical risk remains high; offering dilution is material."
+    },
+    {
+      "symbol": "NOW",
+      "move": "+1.2% overnight",
+      "driver": "ServiceNow targets $30–$32B subscription revenue by 2030 (vs. $15.7B FY2026); exceeds Bloomberg consensus of $26.3B. Aims for 'Rule of 60+' (revenue growth + FCF margin = 60%).",
+      "risk_flags": "Stocktwits sentiment is 'bearish' despite overnight gain. Long-term guidance is aspirational; near-term execution risk from AI disruption concerns in enterprise software."
+    },
+    {
+      "symbol": "Prediction Market ETFs (Roundhill, Bitwise, GraniteShares)",
+      "move": "Launch delayed; set for this week but SEC intervened",
+      "driver": "SEC requested additional product mechanics and risk disclosure information. Delay likely temporary per Reuters sources. ETFs track binary event contracts on CFTC-regulated exchanges (Kalshi).",
+      "risk_flags": "Regulatory uncertainty. Derivatives-based structure and event-contract mechanics may face ongoing scrutiny. No launch date confirmed."
+    }
+  ],
+  "attention_anomalies": [
+    {
+      "category": "Regulatory Catalyst (Crypto)",
+      "observation": "CRCL's 16% rally on CLARITY Act compromise is legitimate legislative progress, but social sentiment swung from 'bearish' to 'bullish' in one day. Markup scheduled May 11 introduces re-risk.",
+      "severity": "Medium",
+      "note": "Not hype; real catalyst. But sentiment volatility suggests retail crowding."
+    },
+    {
+      "category": "Institutional Buying Signal (Equities)",
+      "observation": "Cathie Wood's $9.2M SHOP purchase is notable but does not override 20% YTD decline or AI headwinds. Buying ahead of earnings may be tactical rebalancing, not conviction.",
+      "severity": "Low",
+      "note": "Avoid treating institutional moves as trade signals without fundamental validation."
+    },
+    {
+      "category": "Early-Stage Biotech Hype (CABA)",
+      "observation": "30% rally on n=4 Phase data is speculative. Stock already up 200% YTD. Eli Lilly participation lends credibility but does not de-risk clinical trial failure.",
+      "severity": "High",
+      "note": "Suspected hype. Early data + massive YTD run + offering dilution = elevated risk."
+    },
+    {
+      "category": "Ownership Shift (RIVN)",
+      "observation": "Volkswagen becoming top shareholder is structural news, not a performance catalyst. Amazon's 52% revenue contribution unchanged. +1% move is muted; market pricing in limited upside.",
+      "severity": "Low",
+      "note": "Not hype. Ownership change is real but operationally neutral."
+    },
+    {
+      "category": "Long-Term Guidance (NOW)",
+      "observation": "ServiceNow's 2030 targets are ambitious but 4+ years out. Stocktwits sentiment remains 'bearish' despite overnight gain, suggesting skepticism on near-term execution.",
+      "severity": "Low",
+      "note": "Guidance is credible but not a near-term trade driver. AI disruption risk to enterprise software remains."
+    },
+    {
+      "category": "Regulatory Delay (Prediction Market ETFs)",
+      "observation": "SEC delay is precautionary, not a rejection. Derivatives-based structure and event-contract mechanics are novel; additional scrutiny is warranted.",
+      "severity": "Medium",
+      "note": "Not hype. Regulatory uncertainty is real; launch timing unclear."
+    }
+  ],
+  "source_urls": [
+    "https://stocktwits.com/news-articles/markets/equity/why-is-crcl-stock-rallying-calrity/cZQMUhfReJ1",
+    "https://stocktwits.com/news-articles/markets/equity/now-stock-rises-overnight-management-targets-doubling-software-revenue-to-32-b-by-2030/cZQwVijReBP",
+    "https://stocktwits.com/news-articles/markets/equity/shop-stock-gains-overnight-cathie-wood-ark-invest-loads-up-shopify-earnings/cZQwFsUReBE",
+    "https://stocktwits.com/news-articles/markets/cryptocurrency/prediction-market-etfs-put-on-hold-by-sec-over-structure-concerns/cZQMUmcReJS",
+    "https://stocktwits.com/news-articles/markets/equity/rivn-stock-pops-volkswagen-top-shareholder-amazon-ipo-2021/cZQwqFSReBB",
+    "https://stocktwits.com/news-articles/markets/equity/caba-stock-on-track-for-best-day-in-6-months-after-positive-early-study-results/cZQMzgoReJj"
+  ]
+}
+```
+
+Congressional disclosures, max 5% influence:
+{"summary":"No recent congressional trades reported in liquid US stocks/ETFs from public disclosure sources. Search results highlight PLTR congressional trading activity (9 trades in past 6 months, 5 buys/4 sells) and minor mentions for FDS, RH, AJG, but no new disclosures.","congressional_signal":"Low-weight, delayed context only: PLTR noted for 9 congressional trades (5 purchases, 4 sales) over past 6 months[9]; FDS (2 buys/3 sales, up to $45k sales by Sen. Capito)[4]; RH (2 purchases up to $100k by Rep. Salazar)[6]; AJG (1 buy/6 sales)[8]. No fresh reports today.","tickers":["PLTR","FDS","RH","AJG"],"source_urls":["https://www.quiverquant.com/news/PALANTIR+($PLTR)+Releases+Q1+2026+Earnings","https://www.quiverquant.com/news/Fund+Update:+New+$62.4M+$FDS+stock+position+opened+by+EQUITY+INVESTMENT+CORP","https://www.quiverquant.com/news/RH+($RH)+Chairman+and+CEO+2025+Pay+Revealed","https://www.quiverquant.com/news/Fund+Update:+New+$134.8M+$AJG+stock+position+opened+by+COOKE+&+BIELER+LP"]}
+
+SEC/company quality check:
+{
+  "summary": "Watchlist candidates PLTR, ADI, INTC, and GSK show positive catalysts but limited SEC filing evidence for durable demand. VALN and SNY have recent regulatory successes (e.g., €84m financing, Phase 2/approvals for lunsekimig/Dupixent/Tzield) indicating pipeline momentum in vaccines/pharma, though pre-revenue biotech risks persist. INTC noted for US manufacturing incentives but requires fresh guidance.",
+  "filing_risks": {
+    "VALN": "Supply chain concentration on Sopharma (disputed third-party manufacturer engagement, FDA inspection concerns); milestone obligations up to $4.8M (Bristol) + $2M (Sopharma); regulatory delays (PDUFA June 2026, third-party cGMP observations); no owned manufacturing; IP challenges (natural compound not patentable); serious AEs in elderly.",
+    "SNY": "Pipeline uncertainties (lunsekimig Phase 2 success but Phase 3 ongoing, VELVET exploratory failure); regulatory/competition risks; pricing pressures (IRA negotiations, rebates); forward-looking risks in R&D, manufacturing, IP litigation.",
+    "INTC": "Staleness penalty noted; foundry updates/US incentives mentioned but no specific balance-sheet/litigation/dilution details in results; monitor fresh guidance.",
+    "GSK/PLTR/ADI": "No direct SEC filings; general sector risks (semi concentration, AI revenue quality) apply but unverified."
+  },
+  "quality_notes": "VALN: Execution-ready tier but high biotech risks (no revenue, supply disputes, elderly SAE profile); durable demand from chikungunya outbreaks/LMIC access partnerships. SNY: Watch tier, strong big-pharma quality with multiple approvals (Dupixent/Tzield expansions), revenue from established products. INTC: Semi-foundry value, US incentives support but staleness flagged. PLTR/ADI: High confidence/repeat but PLTR rejected previously (leverage/banned signals); revenue quality tied to earnings beats/AI. No evident dilution/concentration/litigation for most; capital allocation unassessed.",
+  "source_urls": []
+}
 
