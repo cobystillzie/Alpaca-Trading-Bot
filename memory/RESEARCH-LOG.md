@@ -381,4 +381,9 @@ Candidates found: 3
 Fraport AG (FRA: FRA) released ESG Factbook 2025 today, highlighting Scope 1&2 GHG emissions down 31-35% YoY to ~82-109k t CO2e, 100% renewable electricity in key subs, EU Taxonomy-aligned revenues €145mn (6% of total), and ACA-certified airports; aligns with 1.5°C trajectory targeting 105k t by 2028. No direct US-listed ADR identified; FRA trades OTC (FPRUY) with low liquidity.
 
 Candidates found: 4
+## Two-Hour Research Agent - 2026-05-05 19:56:19 Eastern Daylight Time
+
+US equities mixed amid record highs but oil surge ($100-120/bbl), hawkish Fed (no cuts), rising yields (10y ~3.37%), and slowing inflows; tech resilient but rotation risks grow. COIN Q1 results show strong growth (rev +46% YoY to $7.67B, net +106% to $3.22B) but rejected due to crypto exposure conflicting with no-crypto policy.
+
+Candidates found: 3
 

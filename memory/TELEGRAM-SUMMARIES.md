@@ -4018,4 +4018,37 @@ HF filter: sentiment=not run source=8/100 hype=0.10 vetoes=1
 Self-learning: tier=watch repeat48h=0 fresh=yes bucket=industrials-airports
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-05 19:56:19 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities mixed amid record highs but oil surge ($100-120/bbl), hawkish Fed (no cuts), rising yields (10y ~3.37%), and slowing inflows; tech resilient but rotation risks grow. COIN Q1 results show strong growth (rev +46% YoY to $7.67B, net +106% to $3.22B) but rejected due to crypto exposure conflicting with no-crypto policy.
+Candidates: 3
+
+1. INTC (Semiconductors) | confidence 0.70 | allocation 6.0% | stop 8.0% | Chittick 35/100 | tier stale-watch | bucket semi-foundry-value | HF source 0/100 | HF veto
+Recommendation: watch
+Catalyst: Recent foundry updates and CHIPS Act incentives; monitoring Q1 2026 earnings guidance refresh post-staleness.
+Chittick Cash: CHIPS funding buffers capex; undervalued vs. peers on forward EV/EBITDA.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=1
+Self-learning: tier=stale-watch repeat48h=12 fresh=yes bucket=semi-foundry-value
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. PEG (Utilities) | confidence 0.65 | allocation 4.0% | stop 7.0% | Chittick 70/100 | tier watch | bucket utilities-defensive
+Recommendation: watch
+Catalyst: Q1 2026 earnings beat; low-weight congressional attention as volume signal.
+Chittick Cash: Regulated assets and dividends provide floor.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=4 fresh=yes bucket=utilities-defensive
+Social buzz, low weight: none
+Congress signal, low weight: low-weight mixed trades under $15K as attention only
+
+3. COIN (Financials / Crypto Exchange) | confidence 0.45 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier stale-watch | bucket crypto-exchange | HF source 2/100 | HF veto
+Recommendation: avoid
+Catalyst: Q1 results: revenue $7.67B (+46% YoY), net $3.22B (+106% YoY); trading/payments expansion.
+Chittick Cash: Minimal due to crypto cyclicality.
+HF filter: sentiment=not run source=2/100 hype=0.80 vetoes=2
+Self-learning: tier=stale-watch repeat48h=1 fresh=yes bucket=crypto-exchange
+Social buzz, low weight: none
+Congress signal, low weight: none
 

@@ -1337,4 +1337,28 @@ For a cautious bot workflow on May 4, 2026:
   ]
 }
 ```
+## Market Regime Research - 2026-05-05 19:56:19 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities at record highs (S&P 500 >7200, Nasdaq >25000) driven by strong Q1 earnings (15.1% YoY growth, tech beats), but facing headwinds from oil surge ($100-120/bbl due to Iran tensions/US blockade), hawkish Fed (4 dissents, rates 3.50-3.75%, no cuts), rising yields (10y ~3.37% advantage over S&P div yield), and slowing equity inflows (6-week low). Mixed risk tone: tech-led resilience vs. volatility/rotation risks.",
+  "market_regime": "bullish-trending_with_caution",
+  "sector_rotation": "tech_inflows_($1.43B)_vs_healthcare_outflows_($1.06B);_energy_inflationary_pressures;_utilities_defensive_watch",
+  "risk_flags": [
+    "oil_price_surge_($120/bbl)_inflation_risk",
+    "Fed_dissents_(4,_most_since_1992)_higher-for-longer_rates",
+    "rising_yields_(10y_3.37%_>_S&P_div_yield)",
+    "equity_inflows_6-week_low_($911M)",
+    "geopolitical_tensions_(Iran_blockade,_Middle_East)",
+    "VIX_18.3_(elevated_but_<20)"
+  ],
+  "source_urls": [
+    "https://economictimes.com/markets/us-stocks/news/us-stock-market-us-equity-fund-inflows-hit-six-week-low-amid-oil-price-surge-and-rate-uncertainty/articleshow/130815691.cms",
+    "https://www.crestwoodadvisors.com/may-2026-economic-and-market-update/",
+    "https://www.marketpulse.com/markets/tech-explodes-djia-nasdaq-us-stocks-outlook/",
+    "https://www.aviancecapitalpartners.com/blog/weekly-update-record-highs-meet-rising-yields",
+    "https://verdence.com/insight/no-april-showers-for-equity-investors/"
+  ]
+}
+```
 

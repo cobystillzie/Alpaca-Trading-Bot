@@ -2659,4 +2659,247 @@ SEC/company quality check:
   "quality_notes": "Durable demand evidence: Trauma Symvess 1/9th infection, 1/5th amputation vs synthetics; 92.9% infection-free 3-36mo, 82.5% limb salvage at 24mo. HD: V007 superior in high-risk (women/obese/diabetic) 85.7% 6mo patency vs 52% AVF; 2yr duration 14.8 vs 9.1mo. Low rejection (0 across trials), self-healing post-cannulation. Revenue quality: Off-label synthetics high complications create replacement need. Watch for V012 interim, HD BLA. INTC-adjacent semi risks absent.",
   "source_urls": ["https://www.sec.gov/Archives/edgar/data/1818382/000181838226000015/huma-20251231.htm"]
 }
+## Source And Signal Research - 2026-05-05 19:56:19 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks or ETFs. No notable social buzz or attention anomalies detected across public web or social coverage.",
+  "social_buzz": "weak",
+  "attention_anomalies": "none",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No recent congressional trades reported for liquid US stocks/ETFs in scanned sources. ONCY has no Congress Trading data. WLFC, MU, AMAT, HTHT show no specific congressional mentions. PEG noted in prior memory with low-weight mixed trades under $15K each as attention signal only.",
+  "congressional_signal": "none",
+  "tickers": [],
+  "source_urls": [
+    "https://www.quiverquant.com/stock/ONCY/institutions/",
+    "https://www.quiverquant.com/stock/MU/",
+    "https://www.quiverquant.com/stock/AMAT/",
+    "https://www.quiverquant.com/news/WILLIS+LEASE+FINANCE+($WLFC)+Releases+Q1+2026+Earnings",
+    "https://www.quiverquant.com/news/H+World+Group+Limited+Schedules+Release+of+Q1+2026+Financial+Results+and+Conference+Call"
+  ]
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": {
+    "filing_date": "2026-03-23",
+    "company": "Phillips Edison & Company, Inc.",
+    "ticker": "PECO",
+    "sector": "Real Estate Investment Trust (REIT) - Grocery-Anchored Retail",
+    "document_type": "DEF 14A Proxy Statement",
+    "key_metrics": {
+      "portfolio_size": "324 shopping centers, 36.7M sq ft, 31 states",
+      "2025_core_ffo_per_share": "$2.60 (+7.0% YoY)",
+      "same_center_noi_growth": "3.8%",
+      "portfolio_occupancy": ">97%",
+      "acquisitions_2025": "~$400M gross assets"
+    }
+  },
+  "filing_risks": {
+    "balance_sheet_risks": [
+      {
+        "risk": "Leverage and refinancing exposure",
+        "evidence": "REIT structure requires debt financing; no specific debt-to-EBITDA disclosed in proxy, but $400M acquisition activity signals active capital deployment",
+        "severity": "medium",
+        "note": "Typical REIT leverage 4-6x; proxy does not disclose current ratio or debt maturity schedule"
+      },
+      {
+        "risk": "Interest rate sensitivity",
+        "evidence": "REITs are highly sensitive to rate changes; no hedging strategy disclosed in proxy statement",
+        "severity": "medium",
+        "note": "Rising rates post-2024 could pressure FFO growth and dividend sustainability"
+      }
+    ],
+    "revenue_concentration_risks": [
+      {
+        "risk": "Anchor tenant dependency",
+        "evidence": "Portfolio anchored by Kroger, Publix, Albertsons, Ahold Delhaize; proxy states 'top grocery anchors' but does not quantify % of NOI from top 5 anchors",
+        "severity": "medium",
+        "note": "Grocery consolidation (Kroger-Albertsons merger uncertainty) could impact tenant stability"
+      },
+      {
+        "risk": "Retail sector cyclicality",
+        "evidence": "Neighborhood shopping centers exposed to consumer spending cycles; proxy emphasizes 'necessity-based goods' but does not quantify discretionary vs. essential tenant mix",
+        "severity": "medium",
+        "note": "Economic downturn could reduce foot traffic and rent collection"
+      }
+    ],
+    "operational_risks": [
+      {
+        "risk": "Occupancy sustainability",
+        "evidence": "Portfolio occupancy >97% is strong, but proxy does not disclose leasing spreads by property type or geographic concentration",
+        "severity": "low",
+        "note": "Record-high inline occupancy and 'robust new and renewal rent spreads' suggest healthy leasing, but no forward guidance on occupancy targets"
+      },
+      {
+        "risk": "Capital allocation discipline",
+        "evidence": "Proxy emphasizes 'disciplined capital allocation' and $400M acquisitions in 2025, but does not disclose acquisition cap rate, hold period assumptions, or disposition activity",
+        "severity": "medium",
+        "note": "Acquisition quality and timing risk not transparent; no disclosure of underperforming asset sales"
+      }
+    ],
+    "governance_and_dilution_risks": [
+      {
+        "risk": "Equity dilution from dividend reinvestment",
+        "evidence": "REIT structure requires regular dividend distributions; proxy does not disclose DRIP participation rate or share count growth",
+        "severity": "low",
+        "note": "Standard REIT risk; proxy emphasizes 'solid dividend yield with room to grow' but no specific payout ratio disclosed"
+      },
+      {
+        "risk": "Board independence and compensation",
+        "evidence": "Proxy shows 7 of 10 directors are independent; CEO Jeff Edison is founder/stockholder with potential conflicts; no specific related-party transaction disclosures in proxy excerpt",
+        "severity": "low",
+        "note": "Strong governance structure with annual director elections and independent committees"
+      }
+    ],
+    "litigation_and_regulatory_risks": [
+      {
+        "risk": "No material litigation disclosed",
+        "evidence": "Proxy does not reference pending litigation or regulatory investigations",
+        "severity": "low",
+        "note": "Standard real estate operational risks (environmental, ADA compliance) not explicitly addressed in proxy"
+      }
+    ],
+    "valuation_and_market_risks": [
+      {
+        "risk": "REIT valuation multiple compression",
+        "evidence": "Proxy emphasizes 'quality cash flows' and 'downside protection' but does not disclose current P/FFO multiple or peer comparison",
+        "severity": "medium",
+        "note": "Rising rates and retail sector concerns could compress REIT multiples; no guidance on 2026 FFO provided"
+      },
+      {
+        "risk": "E-commerce and omnichannel disruption",
+        "evidence": "Proxy acknowledges 'omni-channel strategies' and 'last-mile fulfillment' but does not quantify tenant e-commerce exposure or impact on foot traffic",
+        "severity": "medium",
+        "note": "Grocery-anchored centers are more resilient than traditional retail, but changing consumer behavior poses long-term risk"
+      }
+    ]
+  },
+  "quality_notes": {
+    "durable_demand_evidence": [
+      {
+        "indicator": "Grocery-anchored portfolio resilience",
+        "evidence": "Proxy emphasizes 'necessity-based goods and services' and 'consistent traffic and repeat visitation'; 97%+ occupancy supports demand durability",
+        "confidence": "high",
+        "note": "Grocery retail is defensive; less exposed to discretionary spending cycles than traditional retail"
+      },
+      {
+        "indicator": "Strong leasing fundamentals",
+        "evidence": "Proxy reports 'record-high inline occupancy' and 'robust new and renewal rent spreads'; suggests healthy tenant demand and pricing power",
+        "confidence": "high",
+        "note": "Positive leasing spreads indicate rent growth potential; no specific spread percentages disclosed"
+      },
+      {
+        "indicator": "FFO growth and dividend sustainability",
+        "evidence": "Core FFO per share $2.60 (+7.0% YoY); proxy emphasizes 'solid dividend yield with room to grow'",
+        "confidence": "medium",
+        "note": "7% FFO growth is modest; no forward guidance provided; dividend sustainability depends on continued NOI growth"
+      }
+    ],
+    "red_flags": [
+      {
+        "flag": "No forward guidance",
+        "evidence": "Proxy does not provide 2026 FFO or occupancy guidance; relies on historical performance and qualitative statements",
+        "severity": "medium",
+        "note": "Lack of forward guidance limits ability to assess growth trajectory and management confidence"
+      },
+      {
+        "flag": "Acquisition integration risk",
+        "evidence": "Proxy mentions $400M acquisitions in 2025 but does not disclose acquisition cap rates, hold period assumptions, or integration progress",
+        "severity": "medium",
+        "note": "Acquisition quality and timing risk not transparent; no disclosure of underperforming assets or disposition activity"
+      },
+      {
+        "flag": "Tenant concentration not disclosed",
+        "evidence": "Proxy lists top anchors (Kroger, Publix, Albertsons, Ahold Delhaize) but does not quantify % of NOI or rent from top 5 or top 10 tenants",
+        "severity": "medium",
+        "note": "Typical REIT disclosure would include top tenant concentration; absence suggests potential concentration risk"
+      },
+      {
+        "flag": "Geographic concentration not quantified",
+        "evidence": "Proxy states portfolio spans 31 states but does not disclose % of NOI by state or region",
+        "severity": "low",
+        "note": "31-state presence suggests diversification, but no specific geographic risk metrics provided"
+      }
+    ],
+    "capital_allocation_quality": [
+      {
+        "metric": "Acquisition strategy",
+        "assessment": "Proxy emphasizes 'disciplined acquisitions that enhance portfolio quality' and $400M deployment in 2025; no specific cap rate or hold period targets disclosed",
+        "confidence": "medium",
+        "note": "Acquisition discipline appears sound, but lack of transparency on returns limits assessment"
+      },
+      {
+        "metric": "Dividend policy",
+        "assessment": "Proxy emphasizes 'solid dividend yield with room to grow'; no specific payout ratio or dividend growth guidance provided",
+        "confidence": "medium",
+        "note": "REIT dividend sustainability depends on FFO growth; 7% FFO growth supports modest dividend growth"
+      },
+      {
+        "metric": "Balance sheet management",
+        "assessment": "Proxy emphasizes 'attractive leverage profile and financial flexibility' but does not disclose debt-to-EBITDA, interest coverage, or debt maturity schedule",
+        "confidence": "low",
+        "note": "Lack of specific balance sheet metrics limits assessment of financial flexibility"
+      }
+    ],
+    "management_quality": [
+      {
+        "indicator": "Leadership continuity",
+        "evidence": "Jeff Edison (founder, CEO) and Les Chao (Lead Independent Director) provide stability; proxy emphasizes 'cycle-tested leadership team'",
+        "confidence": "medium",
+        "note": "Founder-led REIT with long operating history; succession planning not disclosed"
+      },
+      {
+        "indicator": "Operational platform",
+        "evidence": "Proxy emphasizes 'fully integrated operating platform' as competitive advantage; no specific metrics on cost structure or efficiency",
+        "confidence": "medium",
+        "note": "Operating platform strength not quantified; no disclosure of G&A as % of revenue"
+      }
+    ]
+  },
+  "quality_assessment": {
+    "overall_rating": "HOLD / WATCH",
+    "rationale": "PECO is a well-positioned grocery-anchored REIT with strong occupancy (97%+), solid FFO growth (+7% YoY), and defensive business model. However, the proxy lacks forward guidance, specific tenant/geographic concentration metrics, and detailed capital allocation transparency. Valuation risk exists if REIT multiples compress due to rising rates or retail sector concerns. Suitable for income-focused investors with long-term horizon; not suitable for growth-oriented portfolios.",
+    "key_catalysts": [
+      "Q1 2026 earnings (expected late April/early May 2026): FFO guidance and occupancy trends",
+      "Acquisition announcements: Cap rates and portfolio quality metrics",
+      "Dividend policy updates: Payout ratio and growth guidance",
+      "Tenant news: Kroger-Albertsons merger resolution and impact on anchor stability",
+      "Interest rate environment: Fed policy and REIT multiple implications"
+    ],
+    "watchlist_recommendation": "MONITOR for Q1 2026 earnings and forward guidance; assess FFO growth sustainability and dividend safety. Avoid if REIT multiples compress significantly or if tenant concentration risk emerges."
+  },
+  "source_urls": [
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1476204&type=DEF14A&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/Archives/edgar/container/1476204/000147620426000009/peco-20260323.htm",
+    "https://www.phillipsedison.com/investors/governance"
+  ]
+}
+```
+
+---
+
+### **SUPPLEMENTAL ANALYSIS: PECO vs. Watchlist Context**
+
+**Chittick Cash Watchlist Alignment:**
+- **PECO is NOT on current watchlist** (INTC, PEG, VALN, FPRUY are active monitors)
+- **Sector overlap with PEG (Utilities):** Both are defensive, dividend-focused, low-growth; PEG has lower volatility and regulatory clarity
+- **PECO lacks the fresh catalyst momentum** of VALN (€84M financing) or INTC (CHIPS Act/foundry updates)
+
+**Risk Summary for Allocation Decision:**
+1. **Concentration Risk:** No tenant/geographic breakdown; typical REIT red flag
+2. **Valuation Risk:** No forward guidance; REIT multiples vulnerable to rate shocks
+3. **Quality:** Defensive business model (grocery-anchored) is durable; 97%+ occupancy is strong
+4. **Dividend Safety:** 7% FFO growth supports modest dividend growth; no payout ratio disclosed
+
+**Recommendation:** **AVOID for new allocation.** PECO is a quality REIT but lacks the transparency and forward catalysts needed for Chittick Cash execution-ready tier. Monitor for Q1 2026 earnings and forward guidance before reconsidering.
 
