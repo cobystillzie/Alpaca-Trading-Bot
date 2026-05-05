@@ -1160,4 +1160,27 @@ For a cautious bot workflow on May 4, 2026:
   ]
 }
 ```
+## Market Regime Research - 2026-05-05 09:20:01 Eastern Daylight Time
+
+{
+  "summary": "US equity markets exhibit mixed tone with resilience in tech/AI amid record highs, strong earnings beating expectations by 21%, and solid GDP growth at 2%, but pressured by elevated inflation, no Fed rate cuts until potentially 2027, rising oil prices to $105-$112/bbl due to Mideast tensions, and recent S&P 500 five-week losing streak; risk-off rotation from cyclicals to tech.",
+  "market_regime": "Cautious risk-off with tech/AI defensive leadership; neutral equities per BlackRock amid volatility, higher yields (10Y at 4.43%), and inflation risks skewing toward Fed hikes (10% probability); S&P 500 near highs but pacing worst month in a year.",
+  "sector_rotation": "Rotation to tech/AI (Nasdaq +15.3% best month since 2020, XLK resilient); weakness in industrials/materials/cyclicals due to oil shock; energy benefiting; semis/AI software highlighted in candidates (PLTR, ADI, INTC).",
+  "risk_flags": [
+    "Inflation elevated (Core PCE 3.2% YoY, 5Y breakeven 2.69%), oil at $105-112/bbl from Mideast/Strait of Hormuz tensions.",
+    "Fed on hold at 3.50-3.75% (3rd straight), no cuts until 2027 per Barclays, hike odds rising to 10%.",
+    "S&P 500 five straight weekly losses first since 2022, higher volatility/dispersion.",
+    "Geopolitical uncertainty, Fed leadership transition to Kevin Warsh."
+  ],
+  "source_urls": [
+    "https://cryptobriefing.com/barclays-predicts-no-fed-rate-cuts-until-2027-amid-inflation-oil-price-concerns/",
+    "https://www.davy.ie/market-and-insights/insights/investing-insights/2026/major-central-banks-on-hold-for-now.html",
+    "https://www.ajg.com/news-and-insights/weekly-financial-markets-update-may-4-2026/",
+    "https://www.blackrock.com/us/individual/insights/blackrock-investment-institute/weekly-commentary",
+    "https://www.piguetgalland.ch/en/news/r%C3%A9sultats-records-aux-%C3%A9tats-unis-europe-sous-pression",
+    "https://verdence.com/insight/no-april-showers-for-equity-investors/",
+    "https://www.businessinsider.com/fed-rate-hike-interest-rates-inflation-outlook-economy-iran-war-2026-5",
+    "https://schwabnetwork.com/articles/closing-bell-nasdaq-resilient-as-tech-outperforms-broad-market-retreat"
+  ]
+}
 

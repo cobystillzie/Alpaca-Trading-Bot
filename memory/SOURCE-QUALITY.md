@@ -2174,4 +2174,31 @@ SEC/company quality check:
   "quality_notes": "VALN: Execution-ready tier but high biotech risks (no revenue, supply disputes, elderly SAE profile); durable demand from chikungunya outbreaks/LMIC access partnerships. SNY: Watch tier, strong big-pharma quality with multiple approvals (Dupixent/Tzield expansions), revenue from established products. INTC: Semi-foundry value, US incentives support but staleness flagged. PLTR/ADI: High confidence/repeat but PLTR rejected previously (leverage/banned signals); revenue quality tied to earnings beats/AI. No evident dilution/concentration/litigation for most; capital allocation unassessed.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-05 09:20:01 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No unusual discussion or social attention detected around liquid US stocks or ETFs. Existing memory shows consistent monitoring of PLTR, ADI, INTC, and GSK with no new hype or anomalies flagged.",
+  "social_buzz": "Weak; no evidence of heightened social buzz, pump language, or unsupported claims on liquid US stocks/ETFs.",
+  "attention_anomalies": "None identified. Candidates like PLTR (pre-earnings watch) show steady repeat monitoring without irregular spikes.",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+{"summary":"No recent congressional disclosures for trades in liquid US stocks or ETFs identified in search results. Rep. Salazar bought Corning (GLW) stock 12 days before a Meta deal announcement[5], noted as low-weight delayed context. PLTR shows 9 congressional trades (5 buys, 4 sells) in past 6 months[7]. Other mentions (AJG, HD, OCSL, BTU) are historical over 6 months.","congressional_signal":"Low-weight: GLW purchase by Rep. Salazar (timing noted pre-Meta deal)[5]; PLTR net positive congressional trades (5 buys vs 4 sells past 6mo)[7]. No fresh liquid US stock/ETF disclosures.","tickers":["GLW","PLTR"],"source_urls":["https://www.quiverquant.com/news/Rep.+Salazar+Bought+Corning+Stock+12+Days+Before+Meta's+$6B+Deal","https://www.quiverquant.com/news/PALANTIR+($PLTR)+Releases+Q1+2026+Earnings"]}
+
+SEC/company quality check:
+{
+  "summary": "Current Chittick Cash watchlist features PLTR (AI software, execution-ready tier, Q1 2026 earnings catalyst), ADI (semi-analog, strong recent returns), INTC (semi-foundry-value, US incentives), and GSK (big-pharma-vaccines, linerixibat Phase III success for PBC itch). No SEC filings directly for PLTR/ADI; INTC special attention noted with foundry monitoring. GSK filings confirm positive linerixibat GLISTEN Phase III results (primary endpoint met for PBC pruritus) and thermostable trends; Sanofi filings highlight Dupixent CSU approvals/expansions but no direct GSK risks. Durable demand evident in semis/AI and pharma catalysts; HF vetoes emerging (1 for PLTR/ADI/GSK).",
+  "filing_risks": {
+    "PLTR": "No recent SEC filings in results; rejected trades due to banned instruments/leverage and low-weight signals. Monitor allocation exceeding 15% per rejected logs.",
+    "ADI": "No recent SEC filings; HF veto increased to 1. Concentration risk in AI server power chips amid semis strength.",
+    "INTC": "No recent SEC filings; special Chittick attention. Foundry updates/US incentives positive but staleness penalty noted; monitor fresh guidance. Potential balance-sheet strain from manufacturing investments; historical dilution/capital allocation risks in semis.",
+    "GSK": "Positive Phase III linerixibat (Lynavoy) GLISTEN results for PBC itch (statistically significant pruritus reduction). No balance-sheet, concentration, litigation, dilution, or revenue quality risks in filings. Regulatory catalysts support durable demand; thermostable trends noted. HF veto=1."
+  },
+  "quality_notes": "PLTR shows execution-ready tier with repeated presence (7x), high confidence (0.75), but HF veto=1 and earnings risk post-May 4 close. ADI quality from 1M +21.5% return, critical AI exposure. INTC value play with incentives but needs guidance refresh. GSK durable pharma demand from MHRA approval pathway (Phase III success); revenue quality strong on regulatory catalysts, low confidence (0.65) reflects big-pharma-vaccines bucket risks. No major litigation/valuation flags; semis face concentration in AI. Rejected trades highlight allocation discipline.",
+  "source_urls": []
+}
 
