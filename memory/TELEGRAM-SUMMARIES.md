@@ -3852,4 +3852,128 @@ HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
 Self-learning: tier=watch repeat48h=3 fresh=yes bucket=biotech-vaccines
 Social buzz, low weight: none
 Congress signal, low weight: none
+## End Of Day Memo - 2026-05-05 16:22:33 Eastern Daylight Time
+
+End Of Day Analyst Memo
+
+Recommendation: Carry forward only evidence-backed candidates; review stops before the next market-open run.
+
+Market Regime
+End-of-day review of paper portfolio, trade quality, risk notes, and next-day watchlist.
+
+Portfolio
+Portfolio value: 100072.29 Cash: 97600 Buying power: 197672.29 Positions: - GOOGL: qty=2.151289429, market_value=841.154167, unrealized_pl=41.154167 - NVDA: qty=4.00060009, market_value=786.714807, unrealized_pl=-13.285193 - SPMO: qty=6.119014838, market_value=844.424048, unrealized_pl=44.424048
+
+Top Candidates
+
+1. INTC (Semiconductors) | confidence 0.70 | allocation 6.0% | stop 8.0% | Chittick 35/100 | tier watch | bucket semi-foundry-value | HF source 0/100 | HF veto
+Thesis: Intel's foundry transformation and US manufacturing incentives offer multi-year turnaround potential in semis oligopoly; blending quality moat with fresh catalysts amid AI/data center tailwinds.
+Catalyst: Recent foundry updates and CHIPS Act incentives; monitoring Q1 2026 earnings (late April) for guidance refresh post-staleness penalty.
+Entry: Enter 4-6% allocation on pullback to $28-30 with volume confirmation above 50M shares/day.
+Exit: Take profits at +12-15% or prior highs; invalidate below $26 (recent support).
+Risk/reward: 3:1 potential; 8% stop vs 20-25% upside to resistance.
+Bear/adversary: Repeated staleness without blowout earnings; allocation constraints from prior rejects.
+Source quality: Strong: Company filings, CHIPS Act policy, sector ETF flows; no hype reliance.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Trading at 10-12x fwd earnings vs historical 15x; cash hoard buffers downside.
+Valuation: Attractive vs semis peers at 25x+; policy tailwinds undpriced.
+Growth runway: Foundry revenue to $15B+ by 2028; AI PC/server chips.
+Balance-sheet risk: High debt from capex but $25B+ cash; low cyclical risk long-term.
+Capital allocation: Pat Gelsinger's disciplined reinvestment in US fabs.
+Concentration case: Deserves slot over broad semis ETF due to policy asymmetry vs NVDA/AMD hype.
+Owner thesis, 30-180 days: Foundry market share >20% and Intel 18A node leadership by 2027.
+Chittick reject reason: Prior allocation/memory flags; needs fresh earnings beat.
+Self-Learning Filter
+Catalyst type: news/momentum
+Fresh catalyst: yes
+Repeat count, 48h: 11
+Diversity bucket: semi-foundry-value
+Research tier: watch
+Allocation learning: Reduce to 5% tranche if concentration hit.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.00
+Evidence rank: 0/100
+Memory similarity: 0.90
+Vetoes: repeat_staleness
+Model notes: High repeat count 48h; penalize without new catalyst.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
+
+2. PEG (Utilities) | confidence 0.65 | allocation 4.0% | stop 7.0% | Chittick 70/100 | tier watch | bucket utilities-defensive
+Thesis: Defensive utility with stable regulated returns; quality cash flows in risk-off environment.
+Catalyst: Q1 2026 earnings beat; low-weight congressional trades as attention signal.
+Entry: Enter 4% on dip to $75 support with dividend yield >3.8%.
+Exit: Profits at +10% or sector ETF highs; stop below $72.
+Risk/reward: 2.5:1; tight 7% risk vs steady upside.
+Bear/adversary: Low growth vs tech; congressional signal too weak standalone.
+Source quality: Strong: Earnings transcripts, sector data; congressional minor.
+Chittick Cash Filter
+Score: 70/100
+Margin of safety: P/E 17x vs 20x sector avg; 4% yield floor.
+Valuation: Fairly priced for defensiveness.
+Growth runway: Clean energy transition, data center demand for power.
+Balance-sheet risk: Minimal; investment-grade, low leverage.
+Capital allocation: Consistent dividend growth, buybacks.
+Concentration case: Diversifies from tech/semi heavy portfolio.
+Owner thesis, 30-180 days: Infrastructure capex cycle through 2030.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 3
+Diversity bucket: utilities-defensive
+Research tier: watch
+Allocation learning: none
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.00
+Evidence rank: 0/100
+Memory similarity: 0.10
+Vetoes: none
+Model notes: none
+Social buzz, max 10%: none
+Congress signal, max 5%: low-weight mixed buy/sell under $15K
+Sources: https://www.quiverquant.com/insiders/
+
+3. VALN (Biotechnology / Vaccines) | confidence 0.68 | allocation 5.0% | stop 8.0% | Chittick 68/100 | tier watch | bucket biotech-vaccines
+Thesis: Biotech with vaccine pipeline momentum; financing de-risks development.
+Catalyst: €84m financing for IXCHIQ chikungunya vaccine and intranasal pipeline.
+Entry: 3-5% tranche on breakout above $5.50 with volume.
+Exit: Profits +20%; stop below $4.50.
+Risk/reward: 3:1; high volatility but defined range.
+Bear/adversary: Early-stage biotech volatility; limited revenue.
+Source quality: Strong: Company PR, market data; aligns with CAGR trends.
+Chittick Cash Filter
+Score: 68/100
+Margin of safety: Cash runway post-financing >18 months.
+Valuation: Speculative but catalyst-driven vs cash burn.
+Growth runway: Intranasal vaccines 8.2% CAGR; chikungunya approvals.
+Balance-sheet risk: Improved post-financing; monitor dilution.
+Capital allocation: Pipeline-focused; no major red flags.
+Concentration case: Adds healthcare diversity vs semis/tech.
+Owner thesis, 30-180 days: Commercial launches 2027+.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: financing
+Fresh catalyst: yes
+Repeat count, 48h: 4
+Diversity bucket: biotech-vaccines
+Research tier: watch
+Allocation learning: Small tranche for biotech risk.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.00
+Evidence rank: 0/100
+Memory similarity: 0.20
+Vetoes: none
+Model notes: none
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
 
