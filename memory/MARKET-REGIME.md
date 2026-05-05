@@ -1268,4 +1268,29 @@ For a cautious bot workflow on May 4, 2026:
   ]
 }
 ```
+## Market Regime Research - 2026-05-05 13:23:24 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities near record highs driven by exceptional Q1 earnings beats (6% median surprise, best since 2022) and AI/tech momentum, despite elevated inflation (Core PCE 3.2% YoY), oil >$100-112/bbl, hawkish Fed (rates 3.50-3.75% on hold, cuts unlikely), and Mideast tensions (Strait of Hormuz/US-Iran). S&P 500 ~7,238 in rising channel but valuations stretched at 20.9x fwd P/E. Recent session rotation from cyclicals to tech defensives amid volatility.",
+  "market_regime": "Risk-on with defensive tilt: Earnings overpower macro risks; momentum constructive but 'Sell in May' seasonality + key resistance at 7,369 warrants caution for paper-trading.",
+  "sector_rotation": "Tech/AI/semiconductors leading (Nasdaq +15.3% Apr, XLK resilient); Energy gaining on oil spike; Cyclicals (Industrials/Materials) weak; Value outperforming Growth recently; Japan/EM AI beneficiaries.",
+  "risk_flags": [
+    "High oil prices ($100-112/bbl) fueling inflation, potential Fed hikes 2027",
+    "Geopolitical escalation (US-Iran, Strait of Hormuz closure risks)",
+    "Fading rate cut expectations, yields rising (30Y >5%, 10Y 4.43%)",
+    "Stretched valuations (S&P 20.9x vs 19.9x 5yr avg)",
+    "Seasonal 'Sell in May' caution despite historical summer gains",
+    "Recent 5-week S&P losing streak signals volatility pickup"
+  ],
+  "source_urls": [
+    "https://www.davy.ie/market-and-insights/insights/investing-insights/2026/major-central-banks-on-hold-for-now.html",
+    "https://www.atfx.com/en/analysis/trading-strategies/sell-in-may-or-stay-us-equity-market-outlook-may-2026",
+    "https://verdence.com/insight/no-april-showers-for-equity-investors/",
+    "https://www.morningstar.com/news/marketwatch/2026050521/this-is-why-stocks-keep-rallying-according-to-morgan-stanley",
+    "https://www.blackrock.com/corporate/insights/blackrock-investment-institute/publications/weekly-commentary",
+    "https://schwabnetwork.com/articles/closing-bell-nasdaq-resilient-as-tech-outperforms-broad-market-retreat"
+  ]
+}
+```
 

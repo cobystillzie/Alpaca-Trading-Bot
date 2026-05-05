@@ -2292,4 +2292,293 @@ SEC/company quality check:
   "quality_notes": "Watchlist shows increasing Repeat counts (PLTR:9, INTC:7) indicating staleness risks; HF Vetoes rising (PLTR/ADI/GSK:1); VALN fresh (Repeat:1, Confidence:0.72) with durable intranasal vaccine demand (8.2% CAGR). INTC focus: foundry execution key amid semis strength. No durable-demand dilution/litigation from filings; MNDY NDR 110-112% supports quality revenue. Rejected trades highlight allocation caps (15% single-stock).",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-05 13:23:24 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results returned. Unable to scan public web/social-attention coverage for unusual discussion around liquid US stocks/ETFs. Query execution returned empty dataset.",
+  "social_buzz": {
+    "status": "no_data",
+    "note": "Insufficient coverage data to assess social sentiment or hype signals. Weak context only—would not inform trade decisions regardless."
+  },
+  "attention_anomalies": {
+    "status": "no_data",
+    "flagged_risks": [
+      "PLTR: Repeat rejection due to low-weight social/congress signal + banned v1 instrument references. Staleness increasing (repeat count: 9). Confidence declining (0.75 → 0.70). Post-earnings reaction monitoring ongoing but insufficient independent sources.",
+      "ADI, GSK: Repeat staleness + HF memory filter flags prior rejection patterns. Source-thin hype detected in prior cycles.",
+      "INTC: HF memory filter similarity to rejected patterns. Staleness increasing (repeat count: 8).",
+      "VALN: New entry (repeat count: 2). €84m financing catalyst noted, but intranasal market CAGR (8.2%) is macro context, not fundamental trade justification. Monitor for pump language.",
+      "PEG: Congressional trades under $15K each—insufficient signal weight for allocation decision."
+    ]
+  },
+  "source_urls": [],
+  "recommendation": "No actionable intelligence available. Rely on fundamental catalysts (earnings, regulatory approvals, manufacturing updates) documented in candidate tables. Reject any trade recommendation based solely on social buzz or weak congressional activity. Current watch list (VALN, INTC, PEG) requires independent verification of catalysts before execution."
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Congressional disclosure scan identified mixed trading activity in Q1 2026. Senator Markwayne Mullin sold up to $50,000 of CSX stock (11/10/2025). Public Service Enterprise Group (PEG) showed 3 congressional trades over 6 months (1 purchase, 2 sales). No material single-legislator positions detected. Disclosures are delayed and low-weight context only.",
+  "congressional_signal": {
+    "weight": "low",
+    "rationale": "Delayed filings, small trade sizes (<$50K), mixed directional signals. Insufficient for independent trade thesis.",
+    "trades_detected": [
+      {
+        "legislator": "Senator Markwayne Mullin",
+        "ticker": "CSX",
+        "action": "sale",
+        "amount": "up to $50,000",
+        "date": "2025-11-10"
+      },
+      {
+        "ticker": "PEG",
+        "action": "mixed (1 buy, 2 sells)",
+        "count": 3,
+        "period": "6 months",
+        "note": "Individual trade sizes not disclosed; likely routine"
+      }
+    ]
+  },
+  "tickers": [
+    "CSX",
+    "PEG"
+  ],
+  "source_urls": [
+    "https://www.quiverquant.com/news/PUBLIC+SERVICE+ENTRP+GRP+($PEG)+Releases+Q1+2026+Earnings",
+    "https://www.quiverquant.com/news/CSX+Corp.+Launches+Resource+to+Support+Stakeholders+in+Union+Pacific+and+Norfolk+Southern+Merger+Review+Process"
+  ]
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": {
+    "filing_analysis_date": "2026-05-05",
+    "companies_analyzed": 7,
+    "high_risk_flags": 3,
+    "quality_concerns": 5,
+    "durable_demand_signals": 2
+  },
+  "filing_risks": {
+    "HUMA_Humacyte": {
+      "risk_level": "MODERATE",
+      "key_risks": [
+        "Single-indication FDA approval (Dec 2024) limited to extremity vascular trauma when autologous vein not feasible—narrow addressable market vs. hemodialysis expansion hopes",
+        "V006 hemodialysis trial FAILED primary efficacy endpoint: ATEV secondary patency 67% at 24mo vs ePTFE 74% (p=0.05, non-inferiority not met). Unexpectedly high ePTFE performance undermines core value proposition",
+        "V007 hemodialysis trial shows ATEV thrombosis rate 52.9% vs AVF 9.1% (p<0.05)—major safety signal in target population despite infection advantage",
+        "Manufacturing scale risk: LUNA200 system bridging study (V011) only 30 patients; commercial manufacturing capacity unproven for volume ramp",
+        "Reimbursement uncertainty: Budget Impact Model (March 2025, Journal of Medical Economics) projects cost-savings but based on internal data + expert opinion, not payer contracts",
+        "Clinical rejection rate: Zero reported, but only ~445 total hemodialysis patients across all trials as of Dec 2025—limited real-world durability evidence"
+      ],
+      "revenue_quality": "WEAK",
+      "evidence": "Trauma indication approved but market size ~15K-20K annual procedures in US. Hemodialysis expansion (1.2M US patients) blocked by V006 failure. Royalty stream from Bausch (XIPERE) sold off per Note 5 of 10-K. No commercial revenue reported yet."
+    },
+    "WSC_WillScot": {
+      "risk_level": "MODERATE-HIGH",
+      "key_risks": [
+        "Leverage concentration: $4.9B market cap (June 2025) with substantial debt from prior M&A; 10-K references 'substantial indebtedness' and 'covenants that limit operating and financial flexibility'",
+        "Customer concentration: 15 end-markets served but 'certain portions of sales to key OEM customers' noted; no single customer >10% but distributor channel dependency creates cyclicality",
+        "Supply chain fragility: Hybrid in-house/outsourced logistics model; 10-K flags 'reliance on third-party manufacturers and suppliers' and 'significant increases in costs and restrictions on availability of raw materials and labor'",
+        "Tariff/trade policy exposure: Explicit risk factor on tariffs, trade restrictions, and 'broader economic measures'—modular/storage business sensitive to construction cycles and import costs",
+        "Real estate/residual value risk: Modular units have 20+ year lives with 50%+ residual values; prolonged downturn could impair fleet valuations and trigger write-downs",
+        "Network Optimization Plan execution risk: 10-K mentions 'ability to implement Network Optimization Plan' as material risk; no detail on timeline or capex"
+      ],
+      "revenue_quality": "MODERATE",
+      "evidence": "~260 branch locations across US/Canada/Mexico. Lease fleet + VAPS model generates recurring revenue but tied to construction/industrial activity. Q1 2026 earnings not yet filed (10-K dated 2026-02-19 for FY2025). No revenue breakdown by end-market in excerpt."
+    },
+    "RRX_RegalRexnord": {
+      "risk_level": "HIGH",
+      "key_risks": [
+        "Acquisition integration risk: Altra Transaction (Oct 2022, $5.1B) and Rexnord PMC merger (2021) still generating 'synergies' per 10-K; CEO transition announced—execution risk on leadership change",
+        "Substantial indebtedness: 10-K explicitly flags 'Company's substantial indebtedness as a result of the Altra Transaction and the effects of such indebtedness on the Company's financial flexibility' and 'ability to achieve its objectives on reducing its indebtedness on the desired timeline or at all'",
+        "Goodwill impairment risk: Altra acquisition at peak valuation (2022); 10-K warns of 'effects on earnings of any significant impairment of goodwill'",
+        "Customer concentration: 'Dependence on significant customers and distributors'; no single customer >10% but OEM relationships critical",
+        "Supply chain/tariff exposure: Explicit risks on 'fluctuations in commodity prices and raw material costs' and 'imposition of tariffs or trade restrictions'; global manufacturing footprint adds FX risk",
+        "Industrial Systems divestiture (April 2024, $444M): Suggests portfolio rationalization; may indicate underperformance or strategic pivot away from legacy motors business"
+      ],
+      "revenue_quality": "MODERATE",
+      "evidence": "Three segments: AMC, IPS, PES. Industrial Systems divestiture removed 'substantial majority' of that segment. 10-K emphasizes 80/20 initiatives and RBS continuous improvement but no FY2025 revenue breakdown in excerpt. Altra synergies 'continuing to generate' but timing/magnitude unclear."
+    },
+    "CLSD_Clearside": {
+      "risk_level": "CRITICAL",
+      "key_risks": [
+        "GOING CONCERN DOUBT: 10-Q (Aug 2025) states 'we do not believe we will be able to fund our operations for the next 12 months from the date of this filing. These factors raise substantial doubt regarding our ability to continue as a going concern.'",
+        "Strategic alternatives process: July 2025 announcement to explore sale, license, divestiture, or merger; retained Piper Sandler investment bank. If no alternative found, 'may be forced to file for bankruptcy or wind down operations'",
+        "Workforce reduction: All employees terminated and transitioned to consulting roles; estimated $2.6M severance charges Q3 2025. Operational continuity at risk",
+        "Nasdaq delisting risk: Stock below $1.00 bid price; received delisting notice Feb 2025; filed reverse split proposal (1-for-5 to 1-for-15) to regain compliance",
+        "Accumulated deficit: $368M as of June 30, 2025. Net losses $12.7M H1 2025 vs $19.4M H1 2024 (improved but still burning cash)",
+        "Pipeline stalled: CLS-AX (Phase 3 ready for wet AMD) development paused pending strategic review. XIPERE royalties sold off (Note 5). No near-term revenue catalysts"
+      ],
+      "revenue_quality": "VERY WEAK",
+      "evidence": "Primarily upfront/milestone payments from licensing (Bausch, Arctic Vision, BioCryst, REGENXBIO, Aura). XIPERE commercialization rights licensed to Bausch (US/Canada) and Arctic Vision (Asia-Pacific). Royalty stream sold. No product revenue. Company in survival mode."
+    },
+    "GLXY_GalaxyDigital": {
+      "risk_level": "HIGH",
+      "key_risks": [
+        "Nascent, unproven business lines: S-1 states 'Our business lines are nascent, unproven and subject to material legal, regulatory, operational, reputational, tax and other risks in every jurisdiction and are not assured to be profitable'",
+        "Regulatory uncertainty: Regulated by 50+ federal, state, and foreign regulators; digital asset classification risk ('determination that a digital asset is a security') could adversely impact entire business model",
+        "Founder control: Founder owns ~53.9% voting power post-offering; 'key man risk' explicitly flagged; interests may diverge from public shareholders",
+        "Data Centers business unproven: Helios campus 800 MW approved, 1.7 GW under study; CoreWeave lease starting 2026 but no revenue yet. Long-lead infrastructure capex with execution risk",
+        "Cryptocurrency volatility: Operating results 'significantly fluctuate due to highly volatile nature of cryptocurrency'; treasury holdings and mining operations exposed to price swings",
+        "Competitive intensity: 'Compete against unregulated or less regulated companies and companies with greater financial and other resources'",
+        "Cybersecurity/custody risk: 'Failure to safeguard and manage our and our customers' funds and digital assets could adversely impact our business'"
+      ],
+      "revenue_quality": "MODERATE-LOW",
+      "evidence": "Digital Assets segment: spreads on client trades, net interest from lending, M&A fees. Asset Management & Infrastructure: management/performance fees, staking fees, GK8 licensing. Data Centers: no revenue yet; expects long-term leases starting 2026. Treasury/mining: diversified but volatile. $7.0B AUM as of March 31, 2025; 1,381 trading counterparties, 1,200+ asset management clients."
+    },
+    "MTSR_Metsera": {
+      "risk_level": "HIGH",
+      "key_risks": [
+        "Pre-clinical/early-stage: MET-224o (lead oral GLP-1 RA) Phase 1/2 planned late 2025; MET-002 formulation optimization trial just initiated in Canada. No human efficacy data yet",
+        "Competitive landscape: Semaglutide (Ozempic/Wegovy), tirzepatide (Zepbound/Mounjaro) already approved and scaled; oral GLP-1 market crowded (Rybelsus 0.4% bioavailability baseline). Metsera claims 5.8% bioavailability for MET-002 but preclinical only",
+        "Manufacturing/scalability unproven: MOMENTUM platform and HALO lipidation novel; no GMP manufacturing data. Oral peptide delivery historically difficult; Rybelsus required fasting/water restrictions",
+        "D&D licensing dependency: A&R Agreement (March 2024) with D&D Pharmatech grants exclusive license for GLP-1/amylin agonists. Metsera obligated to pay up to $26-52M development milestones + $112.5-225M sales milestones + tiered royalties (low-single to mid-teen %). Change-of-control fee capped at $35M post-Phase 2",
+        "Capital intensity: Multiple Phase 1/2 trials planned (MET-002, MET-224o, MET-034i, MET-067i, MET-PYYi); no revenue; S-1/A does not disclose cash position or runway",
+        "Patent/IP risk: Reliant on D&D patent portfolio; 'earliest anticipated expiration of A&R Agreement is November 2045' but subject to patent challenges and generic competition post-exclusivity"
+      ],
+      "revenue_quality": "ZERO",
+      "evidence": "No approved products, no revenue. S-1/A filed Jan 27, 2025 (amended); IPO status unclear. Pipeline: MET-224o (oral GLP-1 RA, Phase 1/2 planned), MET-002 (prototype, Phase 1 ongoing in Canada), MET-034i (monthly GIP RA, IND-enabling), MET-067i (glucagon analog, preclinical), MET-PYYi (PYY analog, preclinical). All preclinical or early Phase 1."
+    },
+    "DURABLE_CAPITAL_ONSHORE_FUND": {
+      "risk_level": "NOT_APPLICABLE",
+      "key_risks": [
+        "Fund structure: Limited Partnership (Durable Capital Onshore Fund LP) with Durable Capital Associates LLC as general partner. Henry Ellenbogen listed as Executive Officer",
+        "Hedge fund exemption: Form D/A (Regulation D exempt offering); no 40-Act registration. Accredited investors only (510 investors as of Oct 22, 2025)",
+        "Asset base: $7.98B total amount sold (cumulative); aggregate net asset value range 'Decline to Disclose'",
+        "No public disclosure: Confidential offering documents; no SEC filings beyond Form D/A. Performance, holdings, fees opaque to public"
+      ],
+      "revenue_quality": "N/A",
+      "evidence": "Form D/A amendment filed Oct 22, 2025. Indefinite offering; no sales commissions or finders' fees. Interests subject to incentive allocations and management fees per confidential offering documents."
+    }
+  },
+  "quality_notes": {
+    "durable_demand_signals": [
+      {
+        "company": "HUMA",
+        "signal": "Vascular trauma market: extremity arterial injuries ~15K-20K annual US procedures; high unmet need when autologous vein unavailable. V005 trial (51 civilian patients) + V017 trial (16 Ukrainian wartime patients) show 87.1% combined primary patency at 30 days vs 78.9% synthetic graft benchmark. Zero amputations/deaths attributed to ATEV in V005 long-term follow-up (36 months). Limb salvage 82.5% at 24 months despite severely injured cohort.",
+        "durability": "MODERATE",
+        "caveat": "Narrow indication; hemodialysis expansion blocked by V006 failure. Reimbursement unproven."
+      },
+      {
+        "company": "WSC",
+        "signal": "Modular space + portable storage: recurring lease revenue model; 20+ year asset lives with 50%+ residual values. ~260 branch network across US/Canada/Mexico provides scale and logistics moat. VAPS (value-added products) cross-sell opportunity. Serves 15 end-markets (construction, education, healthcare, retail, etc.) reducing single-sector dependency.",
+        "durability": "MODERATE-HIGH",
+        "caveat": "Cyclical to construction/industrial activity; tariff/supply chain risks; leverage from prior M&A."
+      }
+    ],
+    "balance_sheet_risks": [
+      {
+        "company": "RRX",
+        "issue": "Substantial indebtedness post-Altra ($5.1B, Oct 2022). 10-K explicitly warns on 'financial flexibility' and 'ability to achieve objectives on reducing indebtedness on desired timeline.' CEO transition adds execution risk. Goodwill impairment risk if Altra synergies miss.",
+        "severity": "HIGH"
+      },
+      {
+        "company": "GLXY",
+        "issue": "Data Centers capex-intensive (Helios 800 MW approved, 1.7 GW under study); CoreWeave lease starting 2026 but no revenue yet. Long-lead infrastructure with execution risk. Founder controls 53.9% voting power; potential conflict of interest on capital allocation.",
+        "severity": "MODERATE-HIGH"
+      },
+      {
+        "company": "CLSD",
+        "issue": "Going concern doubt (10-Q Aug 2025). Accumulated deficit $368M. Burning $12.7M H1 2025. No clear path to profitability. Strategic alternatives process ongoing; bankruptcy risk if no buyer found.",
+        "severity": "CRITICAL"
+      }
+    ],
+    "concentration_risks": [
+      {
+        "company": "HUMA",
+        "issue": "Single FDA indication (extremity vascular trauma). Hemodialysis expansion (1.2M US patients) blocked by V006 trial failure. Royalty stream from XIPERE (Bausch) sold off. No commercial revenue yet; entirely dependent on trauma market adoption.",
+        "severity": "HIGH"
+      },
+      {
+        "company": "MTSR",
+        "issue": "Entirely dependent on D&D Pharmatech licensing agreement (A&R Agreement, March 2024). Obligated to pay up to $26-225M in milestones + tiered royalties (low-single to mid-teen %). Change-of-control fee $35M cap. No independent IP; all GLP-1/amylin agonists licensed from D&D.",
+        "severity": "HIGH"
+      }
+    ],
+    "litigation_risks": [
+      {
+        "company": "RRX",
+        "issue": "10-K flags 'product liability, asbestos and other litigation, or claims by end users, government agencies or others that products or customers' applications failed to perform as anticipated.' Regal Rexnord has long history; Altra acquisition adds legacy liabilities.",
+        "severity": "MODERATE"
+      },
+      {
+        "company": "GLXY",
+        "issue": "S-1 states 'We or our subsidiaries and affiliates are and may continue to be subject to substantial litigation, including individual and class action lawsuits, and regulatory risks.' Crypto regulatory environment uncertain; SEC enforcement risk on digital asset classification.",
+        "severity": "MODERATE-HIGH"
+      }
+    ],
+    "dilution_risks": [
+      {
+        "company": "MTSR",
+        "issue": "Pre-revenue biotech; S-1/A does not disclose cash position or runway. Multiple Phase 1/2 trials planned; likely to require additional capital raises. Existing shareholders face dilution from future equity offerings.",
+        "severity": "HIGH"
+      },
+      {
+        "company": "CLSD",
+        "issue": "Reverse split proposal (1-for-5 to 1-for-15) filed Aug 2025 to regain Nasdaq compliance. Reverse splits often precede dilutive financing or bankruptcy. Warrant liabilities (Level 3 fair value) add overhang.",
+        "severity": "CRITICAL"
+      }
+    ],
+    "capital_allocation_risks": [
+      {
+        "company": "GLXY",
+        "issue": "Founder controls 53.9% voting power; potential for self-dealing on capex allocation to Helios data center. S-1 notes 'interests may be different from those of stockholders.' Treasury holdings (bitcoin, digital assets) and mining operations expose balance sheet to crypto volatility.",
+        "severity": "MODERATE-HIGH"
+      },
+      {
+        "company": "RRX",
+        "issue": "Altra acquisition ($5.1B, Oct 2022) at peak valuation; Industrial Systems divestiture (April 2024, $444M) suggests portfolio rationalization. 80/20 initiatives and RBS continuous improvement cited but no clear ROI metrics disclosed.",
+        "severity": "MODERATE"
+      }
+    ],
+    "valuation_risks": [
+      {
+        "company": "HUMA",
+        "issue": "Single-indication FDA approval (Dec 2024) with narrow addressable market (~15K-20K annual US trauma procedures). Hemodialysis expansion hopes dashed by V006 failure. No commercial revenue yet; valuation entirely speculative on trauma market penetration.",
+        "severity": "HIGH"
+      },
+      {
+        "company": "MTSR",
+        "issue": "Pre-clinical/early-stage; MET-224o Phase 1/2 planned late 2025. Competitive landscape crowded (semaglutide, tirzepatide already scaled). Oral GLP-1 bioavailability claims (5.8% vs Rybelsus 0.4%) preclinical only. No human efficacy data. Valuation entirely speculative.",
+        "severity": "HIGH"
+      },
+      {
+        "company": "CLSD",
+        "issue": "Going concern doubt; accumulated deficit $368M; strategic alternatives process ongoing. Stock below $1.00 bid price; Nasdaq delisting risk. Valuation near zero pending outcome of strategic review.",
+        "severity": "CRITICAL"
+      }
+    ]
+  },
+  "source_urls": [
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001818382&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001647088&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000082811&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001539029&type=10-Q&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001859392&type=S-1&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002040807&type=S-1&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001792270&type=D&dateb=&owner=exclude&count=100"
+  ]
+}
+```
+
+---
+
+## Key Takeaways for Watchlist:
+
+1. **HUMA (Humacyte)**: FDA approval Dec 2024 for extremity trauma is narrow win; hemodialysis expansion (V006 trial) **failed primary endpoint**. Thrombosis rate 52.9% vs AVF 9.1% is major red flag. Watch for trauma market adoption but do not overweight.
+
+2. **WSC (WillScot)**: Moderate quality; recurring lease revenue + VAPS model durable, but leverage from prior M&A and tariff/supply-chain exposure warrant caution. Cyclical to construction.
+
+3. **RRX (Regal Rexnord)**: High leverage post-Altra ($5.1B, 2022); CEO transition adds risk. Goodwill impairment risk if synergies miss. Industrial Systems divestiture signals portfolio rationalization.
+
+4. **CLSD (Clearside)**: **CRITICAL RISK**—going concern doubt, $368M accumulated deficit, Nasdaq delisting risk, strategic alternatives process. Bankruptcy risk if no buyer found.
+
+5. **GLXY (Galaxy Digital)**: Founder control (53.9% voting), unproven Data Centers business (Helios capex-intensive, CoreWeave lease 2026 but no revenue yet), crypto volatility exposure. Regulatory uncertainty on digital asset classification.
+
+6. **MTSR (Metsera)**: Pre-clinical; MET-224o Phase 1/2 late 2025. Competitive landscape crowded. Entirely dependent on D&D Pharmatech licensing; obligated to pay $26-225M milestones + royalties. No human efficacy data yet.
+
+7. **DURABLE CAPITAL ONSHORE FUND**: Hedge fund; no public disclosure; accredited investors only. Not suitable for public watchlist analysis.
 

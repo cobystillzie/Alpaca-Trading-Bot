@@ -3662,4 +3662,37 @@ Not run for this candidate.
 Social buzz, max 10%: none
 Congress signal, max 5%: low-weight: 1 purchase, 2 sales ≤$15K
 Sources: none
+## Research Update - 2026-05-05 13:23:24 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities in risk-on mode with tech/AI leadership amid Q1 earnings strength, but crypto exchange Coinbase (COIN) shows robust Q1 growth (revenue +46% YoY to $7.67B, net income +106% to $3.22B) in a non-strategy asset class; semis and pharma dominate watchlist with increasing repeat staleness penalties. No fresh catalysts in search data.
+Candidates: 3
+
+1. COIN (Financials / Crypto Exchange) | confidence 0.45 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier stale-watch | bucket crypto-exchange | HF source 2/100 | HF veto
+Recommendation: avoid
+Catalyst: Q1 results: revenue $7.67B (+46% YoY), net income $3.22B (+106% YoY); trading/payments expansion.
+Chittick Cash: Growth impressive but crypto balance sheet volatility offers no downside protection.
+HF filter: sentiment=not run source=2/100 hype=0.70 vetoes=2
+Self-learning: tier=stale-watch repeat48h=0 fresh=yes bucket=crypto-exchange
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. INTC (Semiconductors) | confidence 0.70 | allocation 6.0% | stop 8.0% | Chittick 72/100 | tier watch | bucket semi-foundry-value | HF source 7/100
+Recommendation: watch
+Catalyst: Recent foundry updates and US manufacturing incentives; await fresh guidance.
+Chittick Cash: Govt subsidies buffer downside; undervalued vs peers.
+HF filter: sentiment=not run source=7/100 hype=0.20 vetoes=0
+Self-learning: tier=watch repeat48h=9 fresh=yes bucket=semi-foundry-value
+Social buzz, low weight: low-weight social attention signal, or none
+Congress signal, low weight: none
+
+3. PEG (Utilities) | confidence 0.65 | allocation 4.0% | stop 7.0% | Chittick 70/100 | tier watch | bucket utilities-defensive | HF source 6/100
+Recommendation: watch
+Catalyst: Recent Q1 2026 earnings; low-weight congressional mixed trades.
+Chittick Cash: Regulated asset base, low debt multiples.
+HF filter: sentiment=not run source=6/100 hype=0.10 vetoes=0
+Self-learning: tier=watch repeat48h=1 fresh=yes bucket=utilities-defensive
+Social buzz, low weight: none
+Congress signal, low weight: mixed (1 buy, 2 sells) under $15K; low-weight
 

@@ -366,4 +366,9 @@ Candidates found: 3
 Markets remain risk-on near records amid AI/tech resilience and semis strength, but PLTR/ADI/INTC/GSK show high repeat counts (7-9) triggering staleness penalties without fresh catalysts post-PLTR earnings; VALN stays fresh with financing and vaccine tailwinds. Broad discovery emphasizes underrepresented sectors like biotech (VALN), semis value (INTC), and adds energy/utilities alternative (PEG) from congressional signals for diversity.
 
 Candidates found: 3
+## Two-Hour Research Agent - 2026-05-05 13:23:24 Eastern Daylight Time
+
+US equities in risk-on mode with tech/AI leadership amid Q1 earnings strength, but crypto exchange Coinbase (COIN) shows robust Q1 growth (revenue +46% YoY to $7.67B, net income +106% to $3.22B) in a non-strategy asset class; semis and pharma dominate watchlist with increasing repeat staleness penalties. No fresh catalysts in search data.
+
+Candidates found: 3
 
