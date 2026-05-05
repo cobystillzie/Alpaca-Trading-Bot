@@ -2229,4 +2229,67 @@ SEC/company quality check:
   "quality_notes": "Watchlist shows durable demand signals: PLTR 8x repeat, 0.70-0.75 conf, 74 Chittick, earnings catalyst (4 beats +40% avg); ADI/INTC semi strength (AI servers/incentives), 1M +21.5% return; GSK Phase III success. However, increasing HF Vetoes (1 each latest), repeat_staleness rejections indicate hype/source fatigue. Revenue quality strong in MNDY (27% YoY growth to $1.23B, 110% NDR, profitable), but concentration (work mgmt majority), cap alloc risks (no dividends, repurchases uncertain), dilution/IP/tax litigation exposure high. No balance-sheet specifics; INTC foundry capex heavy implied. Chittick Cash focus: INTC steady watch.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-05 11:22:45 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No unusual discussion detected around liquid US stocks or ETFs. Existing memory shows routine monitoring of PLTR (post-earnings), INTC, VALN, with prior rejections due to allocation limits, staleness, and hype filters; no new hype or pump language flagged.",
+  "social_buzz": "Weak; no significant social attention anomalies on tracked symbols (PLTR, INTC, VALN) or liquid ETFs. Routine earnings chatter on PLTR lacks volume for hype classification.",
+  "attention_anomalies": "None identified. HF vetoes minor (1 per symbol) on stale candidates; rejections cite repeat_staleness and source-thin hype, treated as risk but not anomalous.",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Congressional trading activity in the search results is minimal and low-signal. Three members of Congress traded PEG stock (1 purchase, 2 sales, each ≤$15K); one senator sold CSX stock ($50K); one representative purchased AAPL ($1-15K). No concentrated congressional positioning detected. Disclosures are delayed Q1 2026 filings with low predictive weight for liquid US equities.",
+  "congressional_signal": {
+    "activity_level": "sparse",
+    "trades_identified": 5,
+    "sectors": ["Utilities (PEG)", "Transportation (CSX)", "Technology (AAPL)"],
+    "signal_strength": "low",
+    "note": "All trades are individual, small-cap relative to portfolio size, and lack coordinated positioning. Treat as secondary context only."
+  },
+  "tickers": [
+    {
+      "symbol": "PEG",
+      "trades": 3,
+      "activity": "2 sales (Rep. Julia Letlow $15K 02/17, Rep. Julie Johnson $15K 12/09), 1 purchase (Rep. Jared Moskowitz $15K 12/02)",
+      "weight": "low"
+    },
+    {
+      "symbol": "CSX",
+      "trades": 1,
+      "activity": "1 sale (Senator Markwayne Mullin $50K 11/10)",
+      "weight": "low"
+    },
+    {
+      "symbol": "AAPL",
+      "trades": 1,
+      "activity": "1 purchase (Rep. Julia Letlow $1-15K 02/02)",
+      "weight": "low"
+    }
+  ],
+  "source_urls": [
+    "https://www.quiverquant.com/news/PUBLIC+SERVICE+ENTRP+GRP+($PEG)+Releases+Q1+2026+Earnings",
+    "https://www.quiverquant.com/news/CSX+Corp.+Launches+Resource+to+Support+Stakeholders+in+Union+Pacific+and+Norfolk+Southern+Merger+Review+Process",
+    "https://www.quiverquant.com/stock/AAPL/"
+  ]
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "Current watchlist includes PLTR (stale-watch, post-earnings), INTC (watch, foundry updates), and new VALN (execution-ready, €84m financing for vaccine pipeline). Recent rejections for PLTR, INTC, ADI, GSK due to staleness, HF filters, and prior patterns. No direct SEC filings for watchlist names in results; V1 VC III LPs show Reg D fundraising ($9.8M raised of $30M target) with management fees noted. MNDY 20-F highlights revenue growth to $1.23B (+27% YoY), profitability, but risks in AI, forex (25% NIS expenses), IP, taxes.",
+  "filing_risks": {
+    "PLTR": "No recent SEC filings in results; prior rejections cite banned instruments/leverage and low-weight signals.",
+    "INTC": "No recent SEC filings; special Chittick attention warranted - monitor balance-sheet (foundry capex), US incentives, guidance freshness; prior rejection on HF memory similarity.",
+    "VALN": "No SEC filings in results; €84m financing raises dilution risk for minority stakeholders.",
+    "General": "V1 VC III LPs (CIK 2056023/2059128) Reg D/A shows $9.8M raised, management fees to GP, concentration in VC fund structure; MNDY risks: forex (NIS appreciation 12.5%), deferred tax realization, PFIC potential, IP enforcement, open-source/AI vulnerabilities, litigation. No litigation, revenue quality, or valuation specifics for watchlist."
+  },
+  "quality_notes": "Watchlist shows increasing Repeat counts (PLTR:9, INTC:7) indicating staleness risks; HF Vetoes rising (PLTR/ADI/GSK:1); VALN fresh (Repeat:1, Confidence:0.72) with durable intranasal vaccine demand (8.2% CAGR). INTC focus: foundry execution key amid semis strength. No durable-demand dilution/litigation from filings; MNDY NDR 110-112% supports quality revenue. Rejected trades highlight allocation caps (15% single-stock).",
+  "source_urls": []
+}
 

@@ -1245,4 +1245,27 @@ For a cautious bot workflow on May 4, 2026:
   ]
 }
 ```
+## Market Regime Research - 2026-05-05 11:22:45 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equity markets exhibit resilient bullish tone near record highs driven by strong AI/tech earnings, despite headwinds from surging oil prices, elevated inflation (Core PCE 3.2% YoY), hawkish Fed stance (rates at 3.50-3.75%, wait-and-see), and rising yields (10Y at 4.43%). Equity fund inflows hit 6-week low ($911M), signaling caution, but tech sectors lead with Nasdaq +15.3% in April. VIX low at 16.99 indicates controlled volatility. Q1 GDP +2.0%. Overall risk-on with macro sensitivities.",
+  "market_regime": "Risk-on resilient (bullish index trend near records: S&P 500 ~7230, Nasdaq records), but cautious due to macro risks (oil surge to $112/bbl, inflation fears); low vol (VIX 16.99), strong earnings offsetting hawkish Fed/rates pressure.",
+  "sector_rotation": "Heavy into **tech/AI** (tech funds +$1.43B inflows 4th week, Nasdaq best monthly gain since 2020 at +15.3%, Big Tech like Alphabet +10%, AI spend boosting semis/Japan/EM); energy surging on oil; value outperforming growth in Russell 1000; outflows from healthcare (-$1.06B); rotation from defensives to cyclicals/AI beneficiaries.",
+  "risk_flags": [
+    "Rising oil ($112/bbl) fueling inflation (Core PCE 3.2% YoY, CPI 2.6%), potential Fed rate hikes",
+    "Hawkish Fed tone, yields up (10Y 4.43%), equity inflows at 6-week low ($911M)",
+    "Geopolitical/Mideast tensions, capex concerns (e.g., Meta -8.6%)",
+    "Upcoming consumer earnings/jobs data critical for demand validation"
+  ],
+  "source_urls": [
+    "https://economictimes.com/markets/us-stocks/news/us-stock-market-us-equity-fund-inflows-hit-six-week-low-amid-oil-price-surge-and-rate-uncertainty/articleshow/130815691.cms",
+    "https://fred.stlouisfed.org/series/VIXCLS",
+    "https://www.davy.ie/market-and-insights/insights/investing-insights/2026/major-central-banks-on-hold-for-now.html",
+    "https://www.blackrock.com/us/individual/insights/blackrock-investment-institute/weekly-commentary",
+    "https://verdence.com/insight/no-april-showers-for-equity-investors/",
+    "https://www.home.saxo/content/articles/macro/saxo-market-compass---4-may-2026-04052026"
+  ]
+}
+```
 

@@ -3517,4 +3517,37 @@ HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
 Self-learning: tier=execution-ready repeat48h=1 fresh=yes bucket=biotech-vaccines
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-05 11:22:45 Eastern Daylight Time
+
+Research Update
+
+Market tone: Markets remain risk-on near records amid AI/tech resilience and semis strength, but PLTR/ADI/INTC/GSK show high repeat counts (7-9) triggering staleness penalties without fresh catalysts post-PLTR earnings; VALN stays fresh with financing and vaccine tailwinds. Broad discovery emphasizes underrepresented sectors like biotech (VALN), semis value (INTC), and adds energy/utilities alternative (PEG) from congressional signals for diversity.
+Candidates: 3
+
+1. VALN (Biotechnology / Vaccines) | confidence 0.72 | allocation 5.0% | stop 8.0% | Chittick 68/100 | tier execution-ready | bucket biotech-vaccines
+Recommendation: watch
+Catalyst: €84m financing announced to advance vaccine pipeline including IXCHIQ chikungunya updates; aligns with intranasal market 8.2% CAGR.
+Chittick Cash: Financing provides cash buffer; undervalued vs. intranasal market growth.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=2 fresh=yes bucket=biotech-vaccines
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. INTC (Semiconductors) | confidence 0.70 | allocation 6.0% | stop 8.0% | Chittick 35/100 | tier watch | bucket semi-foundry-value | HF source 0/100 | HF veto
+Recommendation: watch
+Catalyst: Recent foundry updates and US manufacturing incentives; monitor post-staleness guidance.
+Chittick Cash: US incentives buffer downside; trading below historical multiples.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=1
+Self-learning: tier=watch repeat48h=8 fresh=yes bucket=semi-foundry-value
+Social buzz, low weight: low-weight routine chatter
+Congress signal, low weight: none
+
+3. PEG (Utilities) | confidence 0.65 | allocation 4.0% | stop 7.0% | Chittick 70/100 | tier watch | bucket utilities-defensive
+Recommendation: watch
+Catalyst: Recent Q1 2026 earnings; congressional trades (mixed buy/sell under $15K each).
+Chittick Cash: Regulated assets and dividends provide floor.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=utilities-defensive
+Social buzz, low weight: none
+Congress signal, low weight: low-weight: 1 purchase, 2 sales ≤$15K
 
