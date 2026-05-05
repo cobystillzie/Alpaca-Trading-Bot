@@ -3695,4 +3695,128 @@ HF filter: sentiment=not run source=6/100 hype=0.10 vetoes=0
 Self-learning: tier=watch repeat48h=1 fresh=yes bucket=utilities-defensive
 Social buzz, low weight: none
 Congress signal, low weight: mixed (1 buy, 2 sells) under $15K; low-weight
+## Midday Memo - 2026-05-05 13:24:51 Eastern Daylight Time
+
+Midday Risk Memo
+
+Recommendation: Hold only positions whose thesis still matches the research; do not add unless guardrails pass.
+
+Market Regime
+Review current paper positions, thesis drift, concentration, stop discipline, and cash reserve.
+
+Portfolio
+Portfolio value: 100062.73 Cash: 97600 Buying power: 197662.73 Positions: - GOOGL: qty=2.151289429, market_value=827.999032, unrealized_pl=27.999032 - NVDA: qty=4.00060009, market_value=789.20158, unrealized_pl=-10.79842 - SPMO: qty=6.119014838, market_value=845.52547, unrealized_pl=45.52547
+
+Top Candidates
+
+1. COIN (Financials / Crypto Exchange) | confidence 0.45 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier stale-watch | bucket crypto-exchange | HF source 2/100 | HF veto
+Thesis: Leading US crypto exchange with strong network effects, but outside strategy (no crypto, spot-only, no margin); impressive growth metrics warrant watch only.
+Catalyst: Q1 results: revenue $7.67B (+46% YoY), net income $3.22B (+106% YoY); trading/payments expansion.
+Entry: No paper-trade entry; monitor for stock/ETF proxies if catalysts align.
+Exit: N/A; watch for strategy-compliant alternatives.
+Risk/reward: High reward potential in bull crypto cycle, but banned by policy; undefined risk.
+Bear/adversary: Explicit strategy ban on crypto; hype risk in volatile sector without fresh US-listed stock catalyst.
+Source quality: Weak; single non-English aggregator site with partial financials, no SEC/earnings primary sources.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Growth impressive but crypto balance sheet volatility offers no downside protection.
+Valuation: No pricing data; growth attractive but speculative versus quality peers.
+Growth runway: Crypto adoption/payments expansion; 30-180 day trading volume dependent.
+Balance-sheet risk: Crypto holdings expose to price swings; no debt details.
+Capital allocation: Founder-led; trading/payments focus disciplined but speculative.
+Concentration case: Does not deserve attention over diversified ETFs or semis/pharma watchlist.
+Owner thesis, 30-180 days: Crypto supercycle with regulatory clarity; review if strategy evolves.
+Chittick reject reason: Crypto banned; source-thin non-primary data.
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: crypto-exchange
+Research tier: stale-watch
+Allocation learning: Banned asset class; propose semis/pharma alternatives.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 2/100
+Hype risk: 0.70
+Evidence rank: 1/100
+Memory similarity: 0.00
+Vetoes: crypto_ban; source_thin
+Model notes: Single foreign aggregator; penalize for non-official financials.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://aktien.guide/aktien/Coinbase-Global-Inc-US19260Q1076
+
+2. INTC (Semiconductors) | confidence 0.70 | allocation 6.0% | stop 8.0% | Chittick 72/100 | tier watch | bucket semi-foundry-value | HF source 7/100
+Thesis: Semiconductor foundry with US incentives; quality turnaround play blending Chittick Cash priorities despite repeat monitoring.
+Catalyst: Recent foundry updates and US manufacturing incentives; await fresh guidance.
+Entry: Enter on breakout above recent highs post-guidance; 5% tranche.
+Exit: Take profits at +12%; invalidate below 50-day MA.
+Risk/reward: Defined risk via stop; 2:1+ potential on catalyst hit.
+Bear/adversary: High repeat count (8); prior HF rejection patterns.
+Source quality: Established watchlist catalysts; memory-verified.
+Chittick Cash Filter
+Score: 72/100
+Margin of safety: Govt subsidies buffer downside; undervalued vs peers.
+Valuation: Attractive vs semi growth peers on fwd multiples.
+Growth runway: Foundry ramp, AI/PC recovery 30-180 days.
+Balance-sheet risk: Manageable debt; cyclical semis exposure.
+Capital allocation: Capex to US foundry disciplined.
+Concentration case: Diversifies from AI software/pharma buckets.
+Owner thesis, 30-180 days: Foundry market share gains justify 30-180 day review.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: news
+Fresh catalyst: yes
+Repeat count, 48h: 10
+Diversity bucket: semi-foundry-value
+Research tier: watch
+Allocation learning: Prior rejection on HF similarity; smaller tranche proposed.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 7/100
+Hype risk: 0.20
+Evidence rank: 6/100
+Memory similarity: 0.70
+Vetoes: none
+Model notes: Repeat penalized but fresh semi context.
+Social buzz, max 10%: low-weight social attention signal, or none
+Congress signal, max 5%: none
+Sources: none
+
+3. PEG (Utilities) | confidence 0.65 | allocation 4.0% | stop 7.0% | Chittick 70/100 | tier watch | bucket utilities-defensive | HF source 6/100
+Thesis: Defensive utility with earnings stability; adds sector diversity to tech-heavy watchlist.
+Catalyst: Recent Q1 2026 earnings; low-weight congressional mixed trades.
+Entry: Dip buy post-earnings digestion; 4% tranche on volume confirmation.
+Exit: Profits at +10%; stop below earnings low.
+Risk/reward: Low volatility, 1.5:1 reward in defensive regime.
+Bear/adversary: Congressional signal too weak/low-volume for primary driver.
+Source quality: Earnings primary; congressional weak secondary.
+Chittick Cash Filter
+Score: 70/100
+Margin of safety: Regulated asset base, low debt multiples.
+Valuation: Fair yield vs peers; defensive premium.
+Growth runway: Stable regulated growth 30-180 days.
+Balance-sheet risk: Low; minimal cyclicality.
+Capital allocation: Consistent dividends, capex discipline.
+Concentration case: Diversifies from semis/biotech; underrepresented utilities.
+Owner thesis, 30-180 days: Yield + growth for 30-180 day stability.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 2
+Diversity bucket: utilities-defensive
+Research tier: watch
+Allocation learning: none
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 6/100
+Hype risk: 0.10
+Evidence rank: 5/100
+Memory similarity: 0.00
+Vetoes: none
+Model notes: New diversity bucket.
+Social buzz, max 10%: none
+Congress signal, max 5%: mixed (1 buy, 2 sells) under $15K; low-weight
+Sources: https://www.quiverquant.com/news/PUBLIC+SERVICE+ENTRP+GRP+($PEG)+Releases+Q1+2026+Earnings
 
