@@ -2201,4 +2201,32 @@ SEC/company quality check:
   "quality_notes": "PLTR shows execution-ready tier with repeated presence (7x), high confidence (0.75), but HF veto=1 and earnings risk post-May 4 close. ADI quality from 1M +21.5% return, critical AI exposure. INTC value play with incentives but needs guidance refresh. GSK durable pharma demand from MHRA approval pathway (Phase III success); revenue quality strong on regulatory catalysts, low confidence (0.65) reflects big-pharma-vaccines bucket risks. No major litigation/valuation flags; semis face concentration in AI. Rejected trades highlight allocation discipline.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-05 10:51:12 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No unusual discussion or social attention detected around liquid US stocks or ETFs, including candidates PLTR, ADI, INTC, GSK. Social buzz is weak across all monitored symbols.",
+  "social_buzz": "Weak; no significant public web or social coverage identified for any liquid US stocks/ETFs.",
+  "attention_anomalies": "None flagged. No suspected hype, pump language, or unsupported claims observed.",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+{"summary":"No recently reported congressional trades relevant to liquid US stocks or ETFs identified in public disclosure sources as of May 05, 2026.","congressional_signal":"None","tickers":[],"source_urls":[]}
+
+SEC/company quality check:
+{
+  "summary": "Current watchlist shows PLTR (execution-ready, AI software, Q1 2026 earnings post-May 4 with strong consensus/beat history), ADI (semi-analog, recent semis strength/AI power chips), INTC (semi-foundry, foundry updates/US incentives), GSK (pharma-vaccines, linerixibat approval pathway). Recent rejections due to repeat_staleness, HF filters, allocation limits, banned instruments. No direct SEC filings for these tickers in results; V1 VC III LP (venture fund, $30M Reg D raise, $9.8M sold) and MNDY 20-F highlight general risks like rapid growth strain, AI/regulatory/IP exposure, tax/PFIC uncertainty, forex volatility.",
+  "filing_risks": {
+    "PLTR": "No direct SEC filings in results; rejected May 5 due to repeat_staleness, banned v1 instruments/leverage, low-weight signals, HF patterns [memory].",
+    "ADI": "No direct SEC filings; rejected May 5 on repeat_staleness, source-thin hype, HF patterns [memory]. Allocation reduced to 4% in latest.",
+    "INTC": "No direct SEC filings; special Chittick attention noted. Rejected May 5 on HF memory similarity to prior patterns [memory]. Monitoring foundry/guidance staleness.",
+    "GSK": "No direct SEC filings; rejected May 5 on repeat_staleness, source-thin hype, HF patterns [memory]. Allocation reduced to 4%.",
+    "General": "MNDY 20-F (Mar 2026) flags balance-sheet/ops risks: rapid growth strain, op ex increase threatening profitability, forex (25% NIS expenses), revenue concentration (majority from work mgmt), quarterly fluctuations, AI/ML issues, deferred tax realization dependent on sustained profits, IP enforcement costs, open-source vulnerabilities, PFIC risk, Pillar Two global min tax (Israel QDMTT 15% from 2026), sales tax nexus expansion . V1 VC III LP Reg D/A (Apr 2026): new 2025 VC fund raising $30M, $9.8M sold to 26 accredited LPs, mgmt fees to GP, concentration in unproven VC bets . TLSI/DVAX insider policies highlight trading controls but no business risks ."
+  },
+  "quality_notes": "Watchlist shows durable demand signals: PLTR 8x repeat, 0.70-0.75 conf, 74 Chittick, earnings catalyst (4 beats +40% avg); ADI/INTC semi strength (AI servers/incentives), 1M +21.5% return; GSK Phase III success. However, increasing HF Vetoes (1 each latest), repeat_staleness rejections indicate hype/source fatigue. Revenue quality strong in MNDY (27% YoY growth to $1.23B, 110% NDR, profitable), but concentration (work mgmt majority), cap alloc risks (no dividends, repurchases uncertain), dilution/IP/tax litigation exposure high. No balance-sheet specifics; INTC foundry capex heavy implied. Chittick Cash focus: INTC steady watch.",
+  "source_urls": []
+}
 

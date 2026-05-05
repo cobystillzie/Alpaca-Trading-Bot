@@ -3484,4 +3484,37 @@ HF filter: sentiment=not run source=0/100 hype=1.00 vetoes=1
 Self-learning: tier=watch repeat48h=7 fresh=yes bucket=big-pharma-vaccines
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-05 10:51:12 Eastern Daylight Time
+
+Research Update
+
+Market tone: Markets in risk-on mode post-PLTR earnings, semis resilient amid AI demand, but repeat staleness and HF vetoes on watchlist trigger diversification mandate; no fresh catalysts in search results.
+Candidates: 3
+
+1. PLTR (Technology / Software / AI Analytics) | confidence 0.70 | allocation 5.0% | stop 8.0% | Chittick 35/100 | tier stale-watch | bucket ai-software | HF source 0/100 | HF veto
+Recommendation: watch
+Catalyst: Q1 2026 earnings released after May 4 close: consensus $0.22 EPS (+450% YoY), $1.54B rev (+35% YoY); 4 straight beats avg +40% surprise.
+Chittick Cash: Beat history buffers downside; cash position supports growth without dilution.
+HF filter: sentiment=not run source=0/100 hype=1.00 vetoes=1
+Self-learning: tier=stale-watch repeat48h=9 fresh=yes bucket=ai-software
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. INTC (Semiconductors) | confidence 0.70 | allocation 6.0% | stop 8.0% | Chittick 35/100 | tier watch | bucket semi-foundry-value | HF source 0/100 | HF veto
+Recommendation: watch
+Catalyst: Foundry updates and US manufacturing incentives; monitoring fresh guidance post-staleness.
+Chittick Cash: US incentives provide floor; undervalued vs semis peers.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=1
+Self-learning: tier=watch repeat48h=7 fresh=yes bucket=semi-foundry-value
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. VALN (Biotechnology / Vaccines) | confidence 0.72 | allocation 5.0% | stop 8.0% | Chittick 68/100 | tier execution-ready | bucket biotech-vaccines | HF source 0/100
+Recommendation: watch
+Catalyst: €84m financing to advance vaccine pipeline; intranasal market growth (8.2% CAGR), IXCHIQ chikungunya updates.
+Chittick Cash: Financing provides runway; undervalued pipeline.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=1 fresh=yes bucket=biotech-vaccines
+Social buzz, low weight: none
+Congress signal, low weight: none
 

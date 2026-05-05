@@ -1183,4 +1183,66 @@ For a cautious bot workflow on May 4, 2026:
     "https://schwabnetwork.com/articles/closing-bell-nasdaq-resilient-as-tech-outperforms-broad-market-retreat"
   ]
 }
+## Market Regime Research - 2026-05-05 10:51:12 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities remain in a risk-on regime supported by exceptional earnings beats (84% of S&P 500 companies beating estimates with 20.7% aggregate surprise)[4], but face mounting headwinds from elevated inflation, hawkish Fed signals, and geopolitical tensions. The Nasdaq 100 posted +11% in April with strong momentum, though overbought conditions and rising rate-hike odds create fragility. A cautious paper-trading workflow should monitor earnings quality, inflation data, and Fed policy divergence closely.",
+  "market_regime": {
+    "primary_regime": "Risk-On with Caution",
+    "index_trend": "Bullish but overbought; S&P 500 and Nasdaq at record highs[1], Nasdaq +15.3% in April (best since 2020)[1]. However, S&P 500 fell five consecutive weeks for first time since 2022[3], signaling recent weakness despite headline strength.",
+    "momentum_quality": "Strong but deteriorating; Nasdaq 100 daily RSI overbought (>70) since April 15 with no bearish divergence yet[4], but lack of exhaustion signals suggests upside potential unless key support breaks.",
+    "key_support_levels": "Nasdaq 100: 26,980 (medium-term pivot); above 27,994 targets 28,508 and 28,986/29,360 (Fibonacci cluster)[4]",
+    "fed_policy_stance": "Hawkish hold; Fed maintained rates at 3.50%-3.75% in April[8] but signaled inflation concerns[7]. Probability of rate hike by year-end jumped to 10% post-Powell presser[5], up from 0% prior. One FOMC dissent favored 25bp cut[8]. Market now pricing higher odds of hike vs. cuts[5].",
+    "inflation_signal": "Elevated and rising; Core PCE YoY at 3.2%, Core CPI at 2.6%[1]. 5-year breakeven inflation rate climbed to 2.69%, highest since 2023[5]. Oil prices surged (Brent to $112/barrel)[3], threatening further inflation pass-through.",
+    "volatility_regime": "Elevated; Bank of America Q1 trading revenue surged 13% to $6.4B amid high volatility from Fed policy shifts, AI valuation fears, and Middle East tensions[12]. Mixed signals and rising volatility noted heading into May[9].",
+    "earnings_backdrop": "Exceptional but potentially unsustainable; 84% beat rate (highest since Q2 2021), 20.7% aggregate surprise vs. 5-10 year average of 7%[4]. Citigroup Earnings Revision Index at 0.24 (highest since Dec 5, 2025)[4]. However, earnings quality concerns emerging as market focuses on hype over fundamentals[6]."
+  },
+  "sector_rotation": {
+    "dominant_theme": "Technology and AI-driven sectors lead; Nasdaq outperformed equal-weight S&P 500 by most since 2023[1].",
+    "winners": [
+      "Technology/Software: Strong AI spend driving Nasdaq +15.3% in April[1]; PLTR, INTC, ADI benefiting from AI infrastructure buildout[existing memory]",
+      "Semiconductors: 1M +21.5% return; power management chips critical for AI servers/data centers[existing memory]",
+      "Japan and Emerging Markets: MSCI Japan and MSCI EM posted best one-month gains since Nov 2022, benefiting from AI-related spending[1]"
+    ],
+    "losers": [
+      "Gold: Lost luster as risk-on sentiment dominates[1]",
+      "Long-duration Treasuries: 30-year underperformed 3-month T-bill by 114 bps due to Fed hold and rate-hike odds[1]"
+    ],
+    "fixed_income_tone": "Risk-favored; Bloomberg Aggregate Index rose for third time this year led by EM debt and high-yield bonds; HY spreads at two-month low (268 bps)[1]. However, IG corporate bond fund inflows slowed to $9.8B (smallest since April 2025)[10].",
+    "rotation_risk": "Potential reversal if inflation accelerates or Fed signals imminent hikes; currently investors shrugging off inflation fears to chase earnings[7]."
+  },
+  "risk_flags": {
+    "critical": [
+      "Inflation persistence: Core PCE at 3.2% and rising; 5-year breakeven at 2.69% (2023 high)[5]. Oil at $112/barrel threatens further pass-through[3].",
+      "Fed policy uncertainty: Rare four-way dissent on FOMC[8]; market now pricing 10% probability of rate hike by year-end vs. 0% one week prior[5]. Economists expect hike in 1H27[5].",
+      "Valuation fragility: Nasdaq 100 overbought with no exhaustion signals yet; S&P 500 fell five consecutive weeks despite record highs[3]. Earnings beats may be unsustainable at current pace.",
+      "Geopolitical escalation: US-Iran tensions and Middle East conflict unresolved; Strait of Hormuz tensions creating mixed market mode[9][15]. Elevated oil prices and geopolitical risk premia[6]."
+    ],
+    "elevated": [
+      "Earnings quality concerns: Market focusing on hype over fundamentals; 20.7% aggregate surprise significantly above historical average suggests potential for disappointment[4][6].",
+      "Volatility ahead: Mixed signals on economic data (jobs, factory orders); rising correlation between stocks and bonds[14] suggests macro uncertainty.",
+      "Consumer confidence divergence: Conference Board confidence rose unexpectedly in April[1], but retail sales mixed; tax refunds supporting discretionary spend may be temporary[1].",
+      "Duration risk: Long-term Treasuries underperforming; if Fed hikes, duration losses could accelerate[1]."
+    ],
+    "monitor": [
+      "Labor market resilience: 178K jobs added in March (most since Dec 2024), unemployment at 4.3%[1]. If labor market weakens, Fed may pivot to cuts; if strong, supports hike narrative.",
+      "Corporate earnings revisions: Citigroup Earnings Revision Index at 0.24 (highest since Dec 5, 2025)[4]. Watch for reversals if macro data disappoints.",
+      "Fed communication: Powell's final presser sparked rate-hike odds jump[5]; incoming Fed leadership may signal different tone."
+    ]
+  },
+  "source_urls": [
+    "https://verdence.com/insight/no-april-showers-for-equity-investors/",
+    "https://www.foxbusiness.com/media/market-expert-says-potential-fed-rate-cuts-coukd-spark-one-of-the-biggest-explosions-us-economy",
+    "https://www.blackrock.com/us/individual/insights/blackrock-investment-institute/weekly-commentary",
+    "https://www.oanda.com/sg-en/trade-tap-blog/analysis/technical/20260505-risk-on-may-2026-nasdaq100-china-a50-audusd--outlook/",
+    "https://www.businessinsider.com/fed-rate-hike-interest-rates-inflation-outlook-economy-iran-war-2026-5",
+    "https://www.davy.ie/market-and-insights/insights/investing-insights/2026/major-central-banks-on-hold-for-now.html",
+    "https://nam.org/fed-holds-rates-amid-rare-four-way-dissent-and-powells-final-presser-36332/?stream=news-insights",
+    "https://www.ainvest.com/news/bank-america-volatility-profit-surge-exposes-fragile-short-bond-setup-2605/",
+    "https://www.aamcompany.com/insights/fixed-income/aams-april-fixed-income-recap-2/",
+    "https://harris.uchicago.edu/news-events/news/why-stocks-and-bonds-are-moving-together-again"
+  ]
+}
+```
 
