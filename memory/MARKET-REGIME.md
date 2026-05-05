@@ -1293,4 +1293,25 @@ For a cautious bot workflow on May 4, 2026:
   ]
 }
 ```
+## Market Regime Research - 2026-05-05 15:24:05 Eastern Daylight Time
+
+{
+  "summary": "US equities resilient near record highs (S&P 500, Nasdaq) driven by strong tech/AI earnings and semis momentum, despite cooling fund inflows, surging oil prices, elevated inflation expectations (5Y breakeven 2.72%), and rising odds of Fed rate hikes in 2026 (25%+ probability). Geopolitical tensions (Iran war, Middle East) add caution, boosting bonds and defensive flows, but risk-on tone persists in tech/crypto.",
+  "market_regime": "Risk-on with caution: Bullish index trend (Nasdaq leading, Dow/S&P recovering), hawkish Fed/no-cut bias, high IV in options (e.g., AMD 108%), positive earnings tone (tech beats), mild risk-off in flows/bonds.",
+  "sector_rotation": "Tech/semiconductors/AI strong (inflows $1.43B, Nasdaq momentum, AI/chip leaders like AMD/PLTR); healthcare outflows ($1.06B); bonds/utilities gaining (risk aversion); crypto rebounding (BTC $80k).",
+  "risk_flags": [
+    "Oil surge/inflation risks (Core PCE 3.2% YoY)",
+    "Fed hike odds rising (10-25% near-term, 1H27 baseline)",
+    "Geopolitical (Iran war, Middle East tensions)",
+    "Equity inflows at 6-week low ($911M)",
+    "High options IV signaling event/earnings volatility"
+  ],
+  "source_urls": [
+    "https://economictimes.com/markets/us-stocks/news/us-stock-market-us-equity-fund-inflows-hit-six-week-low-amid-oil-price-surge-and-rate-uncertainty/articleshow/130815691.cms",
+    "https://www.businessinsider.com/fed-rate-hike-interest-rates-inflation-outlook-economy-iran-war-2026-5",
+    "https://www.marketpulse.com/markets/tech-explodes-djia-nasdaq-us-stocks-outlook/",
+    "https://www.benzinga.com/markets/economic-data/26/05/52284316/wall-street-inflation-fears-4-year-high-stocks-all-time-records",
+    "https://verdence.com/insight/no-april-showers-for-equity-investors/"
+  ]
+}
 

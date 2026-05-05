@@ -3819,4 +3819,37 @@ Model notes: New diversity bucket.
 Social buzz, max 10%: none
 Congress signal, max 5%: mixed (1 buy, 2 sells) under $15K; low-weight
 Sources: https://www.quiverquant.com/news/PUBLIC+SERVICE+ENTRP+GRP+($PEG)+Releases+Q1+2026+Earnings
+## Research Update - 2026-05-05 15:24:05 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities near records with tech/AI/semicon strength persisting post-PLTR/ADI earnings, but risk-on momentum cooling into late session amid oil/inflation pressures, Fed hike odds, and geopolitical risks; low equity inflows signal caution.
+Candidates: 3
+
+1. INTC (Semiconductors) | confidence 0.70 | allocation 6.0% | stop 8.0% | Chittick 35/100 | tier watch | bucket semi-foundry-value | HF source 0/100 | HF veto
+Recommendation: watch
+Catalyst: Recent foundry updates and CHIPS Act incentives; monitoring Q1 2026 earnings (late April) for guidance refresh post-staleness penalty.
+Chittick Cash: Trading at 10-12x fwd earnings vs historical 15x; cash hoard buffers downside.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=1
+Self-learning: tier=watch repeat48h=10 fresh=yes bucket=semi-foundry-value
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. PEG (Utilities) | confidence 0.65 | allocation 4.0% | stop 7.0% | Chittick 70/100 | tier watch | bucket utilities-defensive
+Recommendation: watch
+Catalyst: Q1 2026 earnings beat; low-weight congressional trades as attention signal.
+Chittick Cash: P/E 17x vs 20x sector avg; 4% yield floor.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=2 fresh=yes bucket=utilities-defensive
+Social buzz, low weight: none
+Congress signal, low weight: low-weight mixed buy/sell under $15K
+
+3. VALN (Biotechnology / Vaccines) | confidence 0.68 | allocation 5.0% | stop 8.0% | Chittick 68/100 | tier watch | bucket biotech-vaccines
+Recommendation: watch
+Catalyst: €84m financing for IXCHIQ chikungunya vaccine and intranasal pipeline.
+Chittick Cash: Cash runway post-financing >18 months.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=3 fresh=yes bucket=biotech-vaccines
+Social buzz, low weight: none
+Congress signal, low weight: none
 

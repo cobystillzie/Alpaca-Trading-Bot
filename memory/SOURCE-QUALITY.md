@@ -2581,4 +2581,39 @@ SEC/company quality check:
 6. **MTSR (Metsera)**: Pre-clinical; MET-224o Phase 1/2 late 2025. Competitive landscape crowded. Entirely dependent on D&D Pharmatech licensing; obligated to pay $26-225M milestones + royalties. No human efficacy data yet.
 
 7. **DURABLE CAPITAL ONSHORE FUND**: Hedge fund; no public disclosure; accredited investors only. Not suitable for public watchlist analysis.
+## Source And Signal Research - 2026-05-05 15:24:05 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks or ETFs. No notable social buzz or attention anomalies detected across monitored candidates (PLTR, INTC, ADI, GSK, VALN, PEG, COIN).",
+  "social_buzz": "weak",
+  "attention_anomalies": "none",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "WLFC Q1 2026 earnings beat ($4.03 vs $3.08 est); HTHT Q1 results May 15; DXYZ +11.3% on speculative demand; SCLX subsidiary ACEA Therapeutics acquisition by Phoenix Asia ($1B shares, SCLX to own 82% post-close Q2 2026). No congressional trades reported.",
+  "congressional_signal": "none",
+  "tickers": ["WLFC", "HTHT", "DXYZ", "SCLX", "PHOE"],
+  "source_urls": [
+    "https://www.quiverquant.com/news/WILLIS+LEASE+FINANCE+($WLFC)+Releases+Q1+2026+Earnings",
+    "https://www.quiverquant.com/news/H+World+Group+Limited+Schedules+Release+of+Q1+2026+Financial+Results+and+Conference+Call",
+    "https://www.quiverquant.com/news/Destiny+Tech100+(DXYZ)+jumps+11.3%25+as+speculative+demand+for+private-tech+exposure+widens+its+premium+to+NAV",
+    "https://www.quiverquant.com/news/Scilex+Holding+Company+Announces+Acquisition+Agreement+Between+ACEA+Therapeutics+and+Phoenix+Asia+Holdings",
+    "https://www.quiverquant.com/insiders/"
+  ]
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "SEC Form D filings for V1 VC III, LP (CIK 2056023) and V1 VC III-A, LP (CIK 2059128), Delaware LPs formed 2025, Boulder CO-based venture capital funds managed by Brett Jackson and Benny Joseph via V1 VC III GP, LLC and v1 vc, LLC. Initial filings Apr 2025 at 2101 Pearl St (pre-sales), amended Apr 2026 at 625 Alpine Ave showing $30M total offering, $9.795M sold to 26 accredited investors, $20.205M remaining, first sales Apr 3 2025, Reg D 506(b)/3(c)(1)/(7) exempt, no commissions/fees/non-accredited, management fees noted. Unrelated mortgage trusts (FIVE 2023-V1) and Donlin Gold technical report (NOVAGOLD). No PLTR/INTC/ADI/GSK/GOOGL/USAR/GT mentions.",
+  "filing_risks": "V1 VC funds: New 2025 entities with limited operating history (within 5 years), revenue 'Decline to Disclose', $0 gross proceeds used (management fees to GP/designee create alignment risk), concentration in VC investments (pooled fund, no portfolio disclosure), address change 2101 Pearl to 625 Alpine may signal ops shift. No balance-sheet/litigation/dilution/revenue quality issues disclosed (LP structure). Irrelevant FIVE 2023-V1 10-Ks highlight CMBS servicer compliance but no entity risks. No durable-demand evidence for watchlist names.",
+  "quality_notes": "High-quality primary SEC Form D/A data with full edgarSubmission XML details (CIKs, addresses, related persons, offering amounts, exemptions, signatures). Consistent across [1-4], amendments update sales progress. [5,7] FIVE 2023-V1 10-Ks are standard ABS shelf filings (omitted MD&A/risks, servicer attestations).  NOVAGOLD Donlin Gold S-K 1300 TRS unrelated mining geology. No material risks/valuation concerns for watchlist (INTC etc.); VC funds not public cos.",
+  "source_urls": []
+}
 
