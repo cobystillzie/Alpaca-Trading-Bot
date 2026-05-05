@@ -3550,4 +3550,116 @@ HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
 Self-learning: tier=watch repeat48h=0 fresh=yes bucket=utilities-defensive
 Social buzz, low weight: none
 Congress signal, low weight: low-weight: 1 purchase, 2 sales ≤$15K
+## Midday Memo - 2026-05-05 12:32:47 Eastern Daylight Time
+
+Midday Risk Memo
+
+Recommendation: Hold only positions whose thesis still matches the research; do not add unless guardrails pass.
+
+Market Regime
+Review current paper positions, thesis drift, concentration, stop discipline, and cash reserve.
+
+Portfolio
+Portfolio value: 100068.89 Cash: 97600 Buying power: 197668.89 Positions: - GOOGL: qty=2.151289429, market_value=833.495576, unrealized_pl=33.495576 - NVDA: qty=4.00060009, market_value=791.278292, unrealized_pl=-8.721708 - SPMO: qty=6.119014838, market_value=844.118097, unrealized_pl=44.118097
+
+Top Candidates
+
+1. VALN (Biotechnology / Vaccines) | confidence 0.72 | allocation 5.0% | stop 8.0% | Chittick 68/100 | tier execution-ready | bucket biotech-vaccines
+Thesis: Valneva advances differentiated intranasal vaccines in high-growth chikungunya/influenza markets with recent €84m financing bolstering pipeline execution.
+Catalyst: €84m financing announced to advance vaccine pipeline including IXCHIQ chikungunya updates; aligns with intranasal market 8.2% CAGR.
+Entry: Enter at market open if volume confirms above average; target 5% allocation.
+Exit: Take profits at +15-20%; invalidate below recent low or negative pipeline news.
+Risk/reward: Defined 1:2+ risk/reward with stop at -8% and upside from financing de-risking.
+Bear/adversary: Financing dilution erodes shareholder value without near-term revenue.
+Source quality: Multiple sources confirm financing; durable market growth data; no hype reliance.
+Chittick Cash Filter
+Score: 68/100
+Margin of safety: Financing provides cash buffer; undervalued vs. intranasal market growth.
+Valuation: Attractive post-financing with pipeline milestones ahead.
+Growth runway: Intranasal vaccines 8.2% CAGR; chikungunya/flu expansions over 30-180 days.
+Balance-sheet risk: Improved post-financing; monitor dilution and burn.
+Capital allocation: Financing directed to high-conviction pipeline.
+Concentration case: Deserves slot over broad ETFs due to fresh catalyst in underrepresented biotech.
+Owner thesis, 30-180 days: Pipeline approvals and commercial launches justify 30-180 day review.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: financing
+Fresh catalyst: yes
+Repeat count, 48h: 3
+Diversity bucket: biotech-vaccines
+Research tier: execution-ready
+Allocation learning: none
+Hugging Face Filter
+Not run for this candidate.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
+
+2. INTC (Semiconductors) | confidence 0.70 | allocation 6.0% | stop 8.0% | Chittick 35/100 | tier watch | bucket semi-foundry-value | HF source 0/100 | HF veto
+Thesis: Intel's foundry pivot and US incentives offer value in semis resurgence despite prior staleness.
+Catalyst: Recent foundry updates and US manufacturing incentives; monitor post-staleness guidance.
+Entry: Enter on fresh guidance breakout above 50-day MA; 6% tranche.
+Exit: Profits at +12%; stop below key support or negative foundry news.
+Risk/reward: 1:1.5 with defined support levels and incentive tailwinds.
+Bear/adversary: HF memory flags prior rejections; no fresh beat to justify entry.
+Source quality: Official updates/incentives; penalized for repeat without new earnings.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: US incentives buffer downside; trading below historical multiples.
+Valuation: Deep value vs. semis peers on forward foundry ramp.
+Growth runway: Foundry market share gains and AI PC over 30-180 days.
+Balance-sheet risk: High foundry capex; debt manageable with incentives.
+Capital allocation: Aggressive US fab reinvestment aligns with owner operator.
+Concentration case: Seed priority over broad semis ETF given incentives.
+Owner thesis, 30-180 days: Foundry profitability inflection post-30-180 days.
+Chittick reject reason: Prior HF memory rejection on similarity.
+Self-Learning Filter
+Catalyst type: news
+Fresh catalyst: yes
+Repeat count, 48h: 9
+Diversity bucket: semi-foundry-value
+Research tier: watch
+Allocation learning: Prior rejections on allocation; propose smaller tranche.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.00
+Evidence rank: 0/100
+Memory similarity: 0.70
+Vetoes: repeat_staleness
+Model notes: High repeat penalizes without new catalyst.
+Social buzz, max 10%: low-weight routine chatter
+Congress signal, max 5%: none
+Sources: none
+
+3. PEG (Utilities) | confidence 0.65 | allocation 4.0% | stop 7.0% | Chittick 70/100 | tier watch | bucket utilities-defensive
+Thesis: Public Service Enterprise provides defensive utility quality with congressional attention in risk-on regime.
+Catalyst: Recent Q1 2026 earnings; congressional trades (mixed buy/sell under $15K each).
+Entry: Enter on dip to 50-day MA; small 4% tranche for diversity.
+Exit: Profits +10%; stop -7% or adverse rate news.
+Risk/reward: 1:2 conservative with dividend yield buffer.
+Bear/adversary: Mixed congressional trades dilute signal; rate sensitivity.
+Source quality: Earnings and congressional disclosures; weak signal but diversifies from tech/semis.
+Chittick Cash Filter
+Score: 70/100
+Margin of safety: Regulated assets and dividends provide floor.
+Valuation: Attractive yield vs. rising 10Y Treasury.
+Growth runway: Clean energy transition over 30-180 days.
+Balance-sheet risk: Low debt cyclicality; regulated stability.
+Capital allocation: Consistent dividends and capex discipline.
+Concentration case: Underrepresented utilities alternative to repeated semis/AI.
+Owner thesis, 30-180 days: Dividend growth and rate peak review 30-180 days.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: utilities-defensive
+Research tier: watch
+Allocation learning: New diversity bucket to balance tech/heavy repeats.
+Hugging Face Filter
+Not run for this candidate.
+Social buzz, max 10%: none
+Congress signal, max 5%: low-weight: 1 purchase, 2 sales ≤$15K
+Sources: none
 

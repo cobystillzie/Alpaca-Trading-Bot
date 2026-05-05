@@ -137,4 +137,14 @@ Positions:
 - GOOGL: qty=2.151289429, market_value=823.04031, unrealized_pl=23.04031
 - NVDA: qty=4.00060009, market_value=792.236035, unrealized_pl=-7.763965
 - SPMO: qty=6.119014838, market_value=823.798072, unrealized_pl=23.798072
+## Midday Risk Scan - 2026-05-05 12:32:47 Eastern Daylight Time
+
+Portfolio value: 100068.89
+Cash: 97600
+Buying power: 197668.89
+
+Positions:
+- GOOGL: qty=2.151289429, market_value=833.495576, unrealized_pl=33.495576
+- NVDA: qty=4.00060009, market_value=791.278292, unrealized_pl=-8.721708
+- SPMO: qty=6.119014838, market_value=844.118097, unrealized_pl=44.118097
 
