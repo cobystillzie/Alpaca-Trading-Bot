@@ -2037,4 +2037,33 @@ SEC/company quality check:
   "quality_notes": "PLTR: High confidence (0.75), 4 straight EPS beats (+40% avg), rev +35% YoY consensus; durable AI analytics demand. ADI: +21.5% 1M return, AI server power mgmt. INTC: Foundry pivot/US incentives support durable semi demand but execution risks. VALN: €84m financing shores pipeline (IXCHIQ/chikungunya updates, Lyme/Shigella); Q1 sales growth (IXIARO +66%) but SAE suspension/ongoing losses dilute quality. SNY: Strong pipeline (lunsekimig Phase 2 hits in asthma/CRSwNP, Dupixent CSU/kids approvals) signals durable pharma demand. GSK: Phase III success reinforces vaccines/pharma quality. No major revenue quality/dilution issues; concentration in clinical catalysts.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-04 21:18:17 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+{"summary":"No unusual discussion or social attention detected around liquid US stocks or ETFs, including candidates like PLTR, ADI, INTC, GSK from recent scans; social buzz remains weak with no hype, pump language, or unsupported claims flagged.","social_buzz":"Weak; no significant public web or social coverage of unusual activity.","attention_anomalies":"None identified; repeated candidate appearances driven by fundamentals (e.g., PLTR earnings, ADI semis strength) rather than hype.","source_urls":[]}
+
+Congressional disclosures, max 5% influence:
+{"summary":"No recent congressional trades reported for liquid US stocks/ETFs in provided disclosures. Rep. Salazar purchased Corning (GLW) stock 12 days before Meta's $6B deal announcement[5]. Other mentions include congressional trading in FDS (2 buys, 3 sells) and AJG (1 buy, 6 sells) over past 6 months, but no specific recent disclosures[7][8].","congressional_signal":"low-weight; delayed GLW purchase by Rep. Salazar (pre-$6B Meta deal); historical trading in FDS/AJG without fresh buys.","tickers":["GLW","FDS","AJG"],"source_urls":["https://www.quiverquant.com/news/Rep.+Salazar+Bought+Corning+Stock+12+Days+Before+Meta's+$6B+Deal","https://www.quiverquant.com/news/Fund+Update:+New+$62.4M+$FDS+stock+position+opened+by+EQUITY+INVESTMENT+CORP","https://www.quiverquant.com/news/Fund+Update:+New+$134.8M+$AJG+stock+position+opened+by+COOKE+&+BIELER+LP"]}
+
+SEC/company quality check:
+{
+  "summary": "Watchlist candidates PLTR, ADI, INTC, GSK, VALN, and SNY show positive clinical catalysts but carry notable business-quality risks. PLTR exhibits strong earnings momentum in AI software. Semis (ADI, INTC) benefit from AI demand but face foundry execution and manufacturing risks. Pharma names (GSK, VALN, SNY) advance pipelines in vaccines/PBC/CSU but contend with regulatory safety concerns, dilution, and pipeline dependency.",
+  "filing_risks": {
+    "PLTR": "No recent SEC filings in results; repeated candidate (5x) with earnings catalyst but prior rejections due to banned instruments/low signals.",
+    "ADI": "No specific filings; semis strength noted but concentration in AI power chips exposes to sector cyclicality.",
+    "INTC": "No specific filings; foundry updates/US incentives positive but repeated staleness penalty signals execution risks in semi-foundry-value bucket. Pay special attention per Chittick: monitor balance-sheet strain from capex-heavy foundry buildout.",
+    "GSK": "Phase III linerixibat success in PBC itch (GLISTEN trial met primary endpoint); MHRA approval catalyst. Risks: pipeline-dependent revenue; general biopharma regulatory/competition risks.",
+    "VALN": "Q1 2025 revenues €49.2M (+50% YoY) driven by IXIARO/IXCHIQ; €84M financing. Risks: €153M cash (down from €168M); ongoing dilution via ATM ($14.2M ADS sale); IXCHIQ EMA suspension >65yo due to 17 SAEs/2 deaths in elderly; third-party sales wind-down; operating loss €6M.",
+    "SNY": "Lunsekimig Phase 2 successes in asthma/CRSwNP; Dupixent EU approval CSU children 2-11yo. Risks: forward-looking warnings on R&D uncertainties, regulatory delays, competition, IP litigation; concentration in Dupixent (type 2 inflammation)."
+  },
+  "quality_notes": {
+    "PLTR": "Durable AI demand via AIP bootcamps; 4 straight beats (+40% surprise); execution-ready tier.",
+    "ADI": "Power management critical for AI servers; 1M +21.5% amid semis strength; high Chittick score (70).",
+    "INTC": "US manufacturing incentives/foundry progress; value play but staleness noted.",
+    "GSK": "Regulatory catalysts (linerixibat Phase III success, thermostable trends); repeat candidate with improving confidence.",
+    "VALN": "IXCHIQ launch + chikungunya outbreak supply; Lyme (VLA15 Ph3 w/Pfizer), Shigella Ph2; gross margin 62.7% ex-IXCHIQ. Safety concerns limit elderly use but adolescent persistence data positive.",
+    "SNY": "Dupixent expansions (CSU children, lunsekimig respiratory); big-pharma scale/healthcare bucket."
+  },
+  "source_urls": []
+}
 
