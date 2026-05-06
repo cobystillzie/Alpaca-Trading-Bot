@@ -4695,4 +4695,147 @@ HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
 Self-learning: tier=watch repeat48h=9 fresh=yes bucket=utilities-defensive
 Social buzz, low weight: low-weight congressional attention as volume signal
 Congress signal, low weight: low-weight congressional trades as attention signal
+## Midday Memo - 2026-05-06 14:17:50 Eastern Daylight Time
+
+Midday Risk Memo
+
+Recommendation: Hold only positions whose thesis still matches the research; do not add unless guardrails pass.
+
+Market Regime
+Review current paper positions, thesis drift, concentration, stop discipline, and cash reserve.
+
+Portfolio
+Portfolio value: 100139.52 Cash: 96800 Buying power: 196939.52 Positions: - GOOGL: qty=2.151289429, market_value=852.986259, unrealized_pl=52.986259 - NVDA: qty=4.00060009, market_value=825.523829, unrealized_pl=25.523829 - SCHD: qty=25.2286345, market_value=800.247241, unrealized_pl=0.247241 - SPMO: qty=6.119014838, market_value=860.761817, unrealized_pl=60.761817
+
+Top Candidates
+
+1. SCHD (Large Value ETF) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 78/100 | tier execution-ready | bucket dividend-etf-defensive
+Thesis: High-quality dividend ETF blending Buffett-style quality (consistent dividend payers) with value discipline; ideal for 1-10 day swing amid narrow breadth and value rotation.
+Catalyst: Morningstar Gold-rated top high-dividend ETF for 2026 passive income lists; fresh sector rotation context post-tech rally.
+Entry: Enter at open if above 5-day MA with volume > avg; target 8% allocation.
+Exit: Take profits at +6-8%; invalidate below 5-day low or -8% stop.
+Risk/reward: Defined 1:1 risk/reward with 8% stop vs 8% target; favorable in rotation.
+Bear/adversary: Tech rally persists, sidelining value; yield trap if rates rise further.
+Source quality: Strong: Morningstar ratings, official ETF data over hype.
+Chittick Cash Filter
+Score: 78/100
+Margin of safety: Quality dividend payers provide downside buffer via 3.29% yield and low volatility.
+Valuation: Attractive vs growth at 20.9x P/E; high yield in stretched market.
+Growth runway: Stable dividend growth from quality firms; 30-180 day defensiveness.
+Balance-sheet risk: Low: Index screens for financial strength, minimal debt/cyclicality.
+Capital allocation: Disciplined dividend policy signals owner-operators.
+Concentration case: Broad 100 holdings diversify over single stocks like INTC.
+Owner thesis, 30-180 days: Core holding for income in higher-for-longer rate world; review post-Fed.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: news
+Fresh catalyst: yes
+Repeat count, 48h: 3
+Diversity bucket: dividend-etf-defensive
+Research tier: execution-ready
+Allocation learning: none
+Hugging Face Filter
+Not run for this candidate.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.morningstar.com/etfs/arcx/schd/quote
+
+2. VYM (Large Value ETF) | confidence 0.78 | allocation 6.0% | stop 8.0% | Chittick 75/100 | tier execution-ready | bucket high-yield-etf
+Thesis: High-yield value ETF complementing SCHD; quality large-caps with dividend focus for rotation trade.
+Catalyst: Morningstar top high-dividend ETF list for 2026; value emergence post-tech concentration.
+Entry: Enter on pullback to 10-day MA if volume supports; 6% allocation.
+Exit: Profits at +7%; stop -8% or trend break.
+Risk/reward: 1:1+ with tight risk control.
+Bear/adversary: Overlaps SCHD; tech outperforms.
+Source quality: Strong: Morningstar, ETF factsheets.
+Chittick Cash Filter
+Score: 75/100
+Margin of safety: Yield cushion and quality screens.
+Valuation: Compelling yield vs overvalued growth.
+Growth runway: Dividend aristocrats-like stability.
+Balance-sheet risk: Screened low.
+Capital allocation: Proven payers.
+Concentration case: Diversified alternative to stocks.
+Owner thesis, 30-180 days: Long-term income generator.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: news
+Fresh catalyst: yes
+Repeat count, 48h: 3
+Diversity bucket: high-yield-etf
+Research tier: execution-ready
+Allocation learning: none
+Hugging Face Filter
+Not run for this candidate.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.morningstar.com/etfs/arcx/vym/quote
+
+3. INTC (Semiconductors) | confidence 0.60 | allocation 6.0% | stop 8.0% | Chittick 35/100 | tier stale-watch | bucket semi-foundry-value | HF source 0/100 | HF veto
+Thesis: Quality semi foundry with CHIPS Act tailwinds; monitor for fresh catalyst amid sector strength.
+Catalyst: Ongoing foundry updates/CHIPS Act; semis momentum post-Q1 earnings.
+Entry: Watch for breakout above recent high; small tranche if fresh news.
+Exit: Profits +10%; stop -8%.
+Risk/reward: Asymmetric if catalyst hits; defined risk.
+Bear/adversary: Stale without Q1 guidance refresh; allocation constrained.
+Source quality: Moderate: Official updates but repeat penalty.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: CHIPS funding buffers downside.
+Valuation: Depressed vs historical; turnaround potential.
+Growth runway: Foundry/AI chips 30-180 days.
+Balance-sheet risk: High capex but govt support.
+Capital allocation: Aggressive foundry reinvestment.
+Concentration case: Prioritize over broad semis ETF.
+Owner thesis, 30-180 days: Foundry leadership post-CHIPS.
+Chittick reject reason: Staleness penalty; repeat 18x.
+Self-Learning Filter
+Catalyst type: general
+Fresh catalyst: yes
+Repeat count, 48h: 19
+Diversity bucket: semi-foundry-value
+Research tier: stale-watch
+Allocation learning: Prior rejections on allocation; suggest 3-4% tranche.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.00
+Evidence rank: 0/100
+Memory similarity: 0.80
+Vetoes: repeat_staleness
+Model notes: High memory similarity to prior watches.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
+
+4. PEG (Utilities) | confidence 0.65 | allocation 4.0% | stop 7.0% | Chittick 70/100 | tier watch | bucket utilities-defensive
+Thesis: Defensive utility with earnings beat; quality for rotation.
+Catalyst: Q1 2026 earnings beat.
+Entry: Dip buy near support.
+Exit: +7% or -7%.
+Risk/reward: Stable profile.
+Bear/adversary: Repeat watch; low growth.
+Source quality: Strong: Earnings data.
+Chittick Cash Filter
+Score: 70/100
+Margin of safety: Regulated stability.
+Valuation: Fair yield.
+Growth runway: Infrastructure spend.
+Balance-sheet risk: Moderate debt typical.
+Capital allocation: Consistent dividends.
+Concentration case: Defensive diversifier.
+Owner thesis, 30-180 days: Income stability.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 10
+Diversity bucket: utilities-defensive
+Research tier: watch
+Allocation learning: none
+Hugging Face Filter
+Not run for this candidate.
+Social buzz, max 10%: low-weight congressional attention as volume signal
+Congress signal, max 5%: low-weight congressional trades as attention signal
+Sources: none
 
