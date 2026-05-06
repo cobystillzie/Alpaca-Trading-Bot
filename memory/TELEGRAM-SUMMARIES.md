@@ -4051,4 +4051,46 @@ HF filter: sentiment=not run source=2/100 hype=0.80 vetoes=2
 Self-learning: tier=stale-watch repeat48h=1 fresh=yes bucket=crypto-exchange
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-06 00:56:08 Eastern Daylight Time
+
+Research Update
+
+Market tone: May 2026 monthly gainers led by JLHL +73% (Industrials), GBTG +58% (Consumer Cyclical), CABA/IMDX/REPL +21-30% (Healthcare). Momentum favors Industrials (+17% avg), Consumer Cyclical/Utilities. Narrow leadership persists post-April growth rally; semis/tech strength continues but healthcare/biotech shows fresh short-term surge.
+Candidates: 4
+
+1. JLHL (Industrials) | confidence 0.68 | allocation 5.0% | stop 8.0% | Chittick 35/100 | tier watch | bucket industrials-momentum
+Recommendation: watch
+Catalyst: Top-ranked monthly gainer +72.84% as of May 5 close per StockTitan data; sustained price strength from first to last trading day of month.
+Chittick Cash: Momentum ranking not valuation-based; small-cap limits downside protection vs quality moat.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=industrials-momentum
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. GBTG (Consumer Cyclical) | confidence 0.65 | allocation 4.0% | stop 8.0% | Chittick 35/100 | tier watch | bucket consumer-cyclical-momentum
+Recommendation: watch
+Catalyst: #2 ranked +57.5% May gain; $4.89B market cap with price $9.34 as of May 5.
+Chittick Cash: Momentum-driven; mid-cap offers some liquidity buffer.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=consumer-cyclical-momentum
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. CABA (Healthcare) | confidence 0.64 | allocation 4.0% | stop 8.0% | Chittick 35/100 | tier watch | bucket healthcare-biotech-momentum
+Recommendation: watch
+Catalyst: #3 ranked +30.27% May performance; $426M mcap, $3.83 price.
+Chittick Cash: Momentum trade; small-cap biotech limited protection.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=healthcare-biotech-momentum
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+4. INTC (Semiconductors) | confidence 0.60 | allocation 6.0% | stop 8.0% | Chittick 35/100 | tier stale-watch | bucket semi-foundry-value | HF source 0/100 | HF veto
+Recommendation: watch
+Catalyst: Ongoing foundry updates/CHIPS Act; May momentum in semis context.
+Chittick Cash: US incentives buffer.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=1
+Self-learning: tier=stale-watch repeat48h=13 fresh=yes bucket=semi-foundry-value
+Social buzz, low weight: none
+Congress signal, low weight: none
 

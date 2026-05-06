@@ -1361,4 +1361,28 @@ For a cautious bot workflow on May 4, 2026:
   ]
 }
 ```
+## Market Regime Research - 2026-05-06 00:56:08 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities in resilient bull phase near all-time highs despite headwinds. Strong Q1 earnings (6% median surprise, record 13.4% margins, +18% FY growth forecast) driving S&P 500 +10% April rally. Fed steady at 3.50-3.75%, inflation spike to 3.3% MoM kills rate cut hopes (<5% June odds). Oil volatility, Iran war, geopolitical risks trigger risk-off rotations with narrow breadth (avg S&P stock -4.5% vs index). Tech/semis lead, energy/defensives lag.",
+  "market_regime": "Resilient Bull with Caution Flags - Earnings-supported uptrend intact but narrow leadership and macro risks cap upside",
+  "sector_rotation": "Growth/Tech Reversal: Semis +40%, Tech +17%, Growth +12% (April leaders). Value +3%, Energy -5% (laggards). Narrow rally - 10/11 S&P sectors underperformed index. AI/mega-caps dominate.",
+  "risk_flags": [
+    "Inflation surge 3.3% MoM (largest since 2021), core 2.6%",
+    "Fed no-cut regime (3.50-3.75%), <5% June cut odds",
+    "Oil shock +7% WTI, Iran war/geopolitical volatility",
+    "Weakening breadth (avg S&P stock -4.5% vs +10% index)",
+    "Rising bond volatility, yield curve repricing higher",
+    "Risk-off signals: stocks slip early May on oil/rates"
+  ],
+  "source_urls": [
+    "https://www.morningstar.com/news/marketwatch/2026050521/this-is-why-stocks-keep-rallying-according-to-morgan-stanley",
+    "https://rscapital.com/2026/05/05/spring-surge-april-showers-watered-a-bullish-market/",
+    "https://get.ycharts.com/resources/blog/monthly-market-wrap/",
+    "https://www.morningstar.com.au/markets/us-stock-market-outlook-where-find-value-after-aprils-rally",
+    "https://www.tegfcu.com/mortgage/fed-holds-rates-steady-what-it-means-for-you/"
+  ]
+}
+```
 

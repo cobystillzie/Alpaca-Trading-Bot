@@ -2902,4 +2902,89 @@ SEC/company quality check:
 4. **Dividend Safety:** 7% FFO growth supports modest dividend growth; no payout ratio disclosed
 
 **Recommendation:** **AVOID for new allocation.** PECO is a quality REIT but lacks the transparency and forward catalysts needed for Chittick Cash execution-ready tier. Monitor for Q1 2026 earnings and forward guidance before reconsidering.
+## Source And Signal Research - 2026-05-06 00:56:08 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "Pre-market futures higher (Dow +0.25%, S&P +0.26%, Nasdaq +0.53%) on Trump 'Great Progress' Iran deal comments pausing Project Freedom escorts in Strait of Hormuz; AI/semiconductor strength from AMD (+14% AH on Q1 beat/DC rev surge, Q2 guide >exp), SMCI (+18% on Q3 rev 2x YoY AI demand), MU (+11%, mkt cap >$700B); IBRX attention on Anktiva expansion claims amid FDA scrutiny; oil -1% on de-escalation.",
+  "social_buzz": "Weak context only; AMD/SMCI/MU highlighted as trending on strong earnings/AI tailwinds, IBRX on founder promo - no evidence of unusual pump/hype volume.",
+  "attention_anomalies": "Earnings-driven spikes in liquid semis (AMD/SMCI/MU) align with Nasdaq strength; IBRX promo language ('unstoppable') flags potential hype risk amid FDA issues - monitor for unsupported claims.",
+  "source_urls": ["https://stocktwits.com/news-articles/markets/equity/dow-sp500-nasdaq-futures-climb-as-trump-touts-great-progress-in-iran/cZQyo20ReaG"]
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Search results contain limited congressional disclosure signals relevant to liquid US stocks/ETFs. Most actionable items are corporate earnings announcements, regulatory policy changes, and bill introductions without direct equity trade disclosures. Representative W. Gregory Steube shows historical STOCK Act filings (SNV sale March 2024, IONQ purchase March 2026), but no new trades in current disclosure window. Representative Chris Deluzio disclosed Q1 2026 fundraising ($578.3K) but no equity trades. Congressional activity focuses on prediction market regulation, climate disclosure rule rescission, and various legislative proposals—none directly tied to specific stock positions.",
+  "congressional_signal": {
+    "weight": "low",
+    "rationale": "Delayed disclosure data (Q1 FEC filings from April 15, 2026 reference period). No recent insider purchases detected in search results. Steube's prior trades (SNV, IONQ) are historical reference only. Mace and Deluzio disclosures relate to fundraising/settlements, not equity holdings. Regulatory signals (climate rule rescission, prediction market oversight) are policy-level, not position-specific.",
+    "relevant_trades": [
+      {
+        "representative": "W. Gregory Steube",
+        "ticker": "IONQ",
+        "date": "2026-03-18",
+        "type": "purchase",
+        "amount": "up to $15K",
+        "performance_since": "+41.29%",
+        "source": "STOCK Act filing"
+      },
+      {
+        "representative": "W. Gregory Steube",
+        "ticker": "SNV",
+        "date": "2024-03-28",
+        "type": "sale",
+        "amount": "up to $50K",
+        "performance_since": "+24.94%",
+        "source": "STOCK Act filing"
+      }
+    ]
+  },
+  "tickers": [
+    "IONQ",
+    "SNV",
+    "HTHT",
+    "WLFC",
+    "SCLX",
+    "EPOW"
+  ],
+  "source_urls": [
+    "https://www.quiverquant.com/news/H+World+Group+Limited+Schedules+Release+of+Q1+2026+Financial+Results+and+Conference+Call",
+    "https://www.quiverquant.com/news/Press+Release:+Rep.+Gabe+Vasquez+Advances+Bipartisan+Effort+to+Regulate+Prediction+Markets+and+Address+Corruption+Issues",
+    "https://www.quiverquant.com/news/Scilex+Holding+Company+Announces+Acquisition+Agreement+Between+ACEA+Therapeutics+and+Phoenix+Asia+Holdings",
+    "https://www.quiverquant.com/news/WILLIS+LEASE+FINANCE+($WLFC)+Releases+Q1+2026+Earnings",
+    "https://www.quiverquant.com/news/SEC+Moves+to+Scrap+Biden-Era+Climate+Disclosure+Rules+as+White+House+Review+Begins",
+    "https://www.quiverquant.com/news/New+Bill:+Representative+W.+Gregory+Steube+introduces+H.R.+8471:+Preventing+Risky+Importation+of+Monkeys+to+Avoid+Toxic+Exposures+Act",
+    "https://www.quiverquant.com/news/Press+Release:+Congressman+Chris+Deluzio+and+Colleagues+Introduce+Legislation+to+Prohibit+Funding+for+Military+Action+Against+Iran"
+  ]
+}
+```
+
+**Key Notes:**
+- **No actionable congressional buy signals** detected in current disclosure window.
+- **Insider activity**: HTHT (1 sale, 0 purchases), WLFC (49 sales, 0 purchases) show net selling pressure.
+- **Institutional flows**: HTHT +140 adds / -90 reduces; SCLX +23 adds / -30 reduces; WLFC +47 adds / -74 reduces.
+- **Regulatory headwind**: SEC climate disclosure rule rescission may reduce ESG-focused equity demand.
+- **Recommendation**: Treat congressional signals as secondary, delayed context only. Prioritize earnings catalysts (HTHT May 15, WLFC Q1 released) and M&A developments (SCLX/ACEA Pharma $1B deal closing Q2 2026).
+
+SEC/company quality check:
+{
+  "summary": "WillScot Holdings Corp (WSC) 10-K for FY 2025 filed 2026-02-19 details a leading provider of turnkey modular space and portable storage solutions across US, Canada, Mexico with ~260 branches. Diverse fleet includes modular offices, classrooms, blast-resistant modules, clearspan structures, storage containers, climate-controlled units, enhanced by VAPS (workstations, power, security). Strong asset economics: modular units >20yr life, 50%+ residual; storage 30yr life. Revenue from leasing (core), sales, delivery/installation services. Risks include economic sensitivity, competition, credit/collection, cybersecurity, M&A integration, debt covenants. Large accelerated filer, $4.9B non-affiliate equity value at 6/30/25, 180.8M shares outstanding. Durable demand from 15 end-markets; sold UK storage in 2023.",
+  "filing_risks": [
+    "Economic conditions and end-market demand fluctuations (Item 1A)",
+    "Credit risk, accounts receivable collection, rental equipment recovery challenges",
+    "Debt service, substantial indebtedness, restrictive covenants limiting flexibility",
+    "Cybersecurity threats and IT system failures",
+    "M&A integration risks for new operations",
+    "Labor costs/disruptions, raw material/labor availability/cost increases",
+    "Regulatory: antitrust, climate disclosures, privacy, building codes impacting remarketing",
+    "Customer concentration/competitive environment changes",
+    "Impairment of goodwill/intangibles, NOL utilization/tax changes",
+    "Capital access, interest rate/commodity fluctuations, trade/tariff policies"
+  ],
+  "quality_notes": "High-quality revenue from recurring leasing with durable assets (20-30yr lives, 50%+ residuals); hybrid logistics differentiates service revenue. Balance sheet risks from debt load/covenants; no specific litigation/dilution highlighted. Capital allocation via fleet maintenance/capex centralized for quality/consistency. No overt red flags on revenue quality/concentration; broad 15 end-markets reduce single-customer risk. Watchlist-relevant: INTC semi-foundry aligns with modular space demand for manufacturing expansion (e.g., CHIPS Act facilities).",
+  "source_urls": []
+}
 
