@@ -420,4 +420,13 @@ Premarket plan built from latest watchlist.
 - PEG: score=80, base=85, chittick=70, approved=False, allocation=4.0%, stop=7.0%
   rejects: Low-weight social/congress signal needs at least two stronger sources.
 - JLHL: score=67, base=85, chittick=35, approved=False, allocation=5.0%, stop=8.0%
+## Premarket Plan - 2026-05-06 08:25:01 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- INTC: score=67, base=85, chittick=35, approved=False, allocation=6.0%, stop=8.0%
+  rejects: repeat_staleness; HF memory filter flags similarity to prior rejected patterns.
+- PEG: score=80, base=85, chittick=70, approved=False, allocation=4.0%, stop=7.0%
+  rejects: Low-weight social/congress signal needs at least two stronger sources.
+- JLHL: score=67, base=85, chittick=35, approved=False, allocation=5.0%, stop=8.0%
 
