@@ -4838,4 +4838,37 @@ Not run for this candidate.
 Social buzz, max 10%: low-weight congressional attention as volume signal
 Congress signal, max 5%: low-weight congressional trades as attention signal
 Sources: none
+## Research Update - 2026-05-06 15:03:59 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities near ATHs (S&P ~7340) on concentrated tech/semi leadership amid narrow breadth; value/dividend ETFs like SCHD/VYM gaining traction in sector rotation context post-Q1 earnings strength. No fresh search catalysts; relying on memory for execution-ready SCHD, alternatives VYM/PEG amid risk-on caution.
+Candidates: 3
+
+1. SCHD (Large Value ETF) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 78/100 | tier execution-ready | bucket dividend-etf-defensive
+Recommendation: execute-if-guards-pass
+Catalyst: Morningstar Gold-rated top high-dividend ETF for 2026 passive income lists; fresh sector rotation to value post-tech rally narrowness.
+Chittick Cash: Quality screens + dividend history provide downside buffer; trades at discount to fair value in growth regime.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=3 fresh=yes bucket=dividend-etf-defensive
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. VYM (Large Value ETF) | confidence 0.78 | allocation 6.0% | stop 8.0% | Chittick 75/100 | tier execution-ready | bucket high-yield-etf
+Recommendation: watch
+Catalyst: Morningstar top high-dividend ETF list for 2026; value emergence post-tech concentration.
+Chittick Cash: Yield buffer + quality tilt.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=3 fresh=yes bucket=high-yield-etf
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. PEG (Utilities) | confidence 0.65 | allocation 4.0% | stop 7.0% | Chittick 70/100 | tier watch | bucket utilities-defensive
+Recommendation: watch
+Catalyst: Q1 2026 earnings beat (late April); low-weight congressional volume signal.
+Chittick Cash: Regulated assets buffer downside.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=10 fresh=yes bucket=utilities-defensive
+Social buzz, low weight: none
+Congress signal, low weight: low-weight volume signal
 

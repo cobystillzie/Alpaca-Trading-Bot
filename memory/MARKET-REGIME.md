@@ -1817,4 +1817,28 @@ For a cautious bot workflow on May 4, 2026:
   ]
 }
 ```
+## Market Regime Research - 2026-05-06 15:03:59 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities at all-time highs (S&P 500 ~7340) after April's +10% surge driven by strong Q1 earnings (19% YoY growth, record margins), ceasefire hopes, and tech/semiconductor leadership. Narrow breadth with average S&P stock -4.5% vs index. Hawkish Fed (rates 3.5-3.75%, 4 dissents), persistent inflation (CPI 3.3%, oil ~$120), and Iran tensions cap upside. VIX subdued post-Q1 spike but volatility risks elevated. Cautious risk-on amid resilient economy/jobs data.",
+  "market_regime": "Narrow Bull with Caution Flags - Recent ATHs on concentrated tech/AI rally but lacking broad participation; vulnerable to sentiment shift. Earnings supportive but valuations stretched (21x fwd). Upcoming jobs report pivotal for Fed path.",
+  "sector_rotation": "Growth > Value reversal (Growth +8% outperformance in April after Q1 value lead). Tech/Semiconductors dominant (+40% semis streak, AMD lift). Energy lagging despite oil rise. Narrow leadership in mega-caps/AI; defensive/value ETFs gaining attention amid concentration risks.",
+  "risk_flags": [
+    "Narrow rally breadth leaves index exposed to tech/AI sentiment shift",
+    "Hawkish Fed: 4 dissents, no cuts expected (zero in 2026 base case), inflation >3%",
+    "Geopolitical: Iran conflict/oil volatility ($120 Brent, +7% WTI weekly)",
+    "Upcoming jobs report could shift rate expectations",
+    "High valuations require flawless earnings delivery",
+    "Subdued volume/participation despite price highs"
+  ],
+  "source_urls": [
+    "https://rscapital.com/2026/05/05/spring-surge-april-showers-watered-a-bullish-market/",
+    "https://www.crestwoodadvisors.com/may-2026-economic-and-market-update/",
+    "https://www.chase.com/personal/investments/learning-and-insights/article/vix-index-and-portfolio-management-during-market-volatility",
+    "https://finance-commerce.com/2026/05/us-jobs-report-fed-rate-outlook-inflation/",
+    "https://www.gurufocus.com/economic_indicators/63/sp-500-index"
+  ]
+}
+```
 

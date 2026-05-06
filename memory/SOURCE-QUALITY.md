@@ -3569,4 +3569,85 @@ SEC/company quality check:
   "quality_notes": "DRCT: Weak durable demand evidence - revenue collapse post-customer pause signals fragility despite 90% retention claim; high execution risk on recovery/raising capital amid going concern. INUV: Moderate AI/IP moat (18 patents, IntentKey), but extreme concentration (83% 2 clients) undermines quality; loss-making with neg. WC questions sustainability. Both microcaps with balance sheet stress, dilution risks; no litigation noted. Avoid watchlist addition - inferior to INTC/PEG durability.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-06 15:03:59 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results returned. Unable to scan public web/social-attention coverage for unusual discussion around liquid US stocks/ETFs at this time.",
+  "social_buzz": {
+    "status": "no_data",
+    "note": "Search returned empty. Social buzz context remains unavailable and should not be used as trade signal."
+  },
+  "attention_anomalies": {
+    "status": "no_data",
+    "note": "Insufficient coverage data to flag suspected hype, pump language, or unsupported claims."
+  },
+  "source_urls": [],
+  "recommendation": "Rely on existing memory candidates (SCHD, VYM, INTC, PEG) which are grounded in fundamental catalysts (Morningstar ratings, earnings beats, sector momentum, CHIPS Act progress). Do not trade on absent social signals. Retry search with refined query parameters if real-time coverage is required."
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Plains All American Pipeline ($PAA) updates on Canadian NGL divestiture to Keyera Corp, targeting May 2026 close despite Competition Bureau challenge; positions PAA as pure-play crude oil midstream. Mixed institutional activity with net adds; analyst targets $20-25. No congressional trades reported in scans.",
+  "congressional_signal": "None detected in recent disclosures for liquid US stocks/ETFs.",
+  "tickers": ["PAA"],
+  "source_urls": [
+    "https://www.quiverquant.com/news/Plains+All+American+Pipeline+Provides+Update+on+Canadian+NGL+Divestiture+to+Keyera+Corp",
+    "https://www.quiverquant.com/stock/QGEN/"
+  ]
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "DRCT (Direct Digital Holdings) shows sharp revenue/gross profit declines in 2024-2025 due to major sell-side customer pause from defamatory allegations/misinformation campaign; going concern doubt with $0.7M cash vs $27.7M accumulated deficit; high buy-side client retention (90%) but revenue concentration risks; IVT/fraud mitigation and SSP strengths noted. INUV (Inuvo) has AI-driven ad tech with patents but history of losses ($178M deficit), 83.5% revenue from 2 customers, negative working capital (-$5.1M); stable employee count ~72. BRID (Bridgford Foods) stable food processor with customer concentration (Wal-Mart 33.5%, Dollar General 14.2% of sales); no major red flags but inflation pressures. Others (CLBZ, NEOV, WS, ICCT) show startup risks, customer concentration, limited history.",
+  "filing_risks": {
+    "DRCT": [
+      "Going concern doubt: $0.7M cash insufficient for 12 months, $27.7M accumulated deficit, needs funding post-customer pause/misinformation impact",
+      "High revenue concentration: 2024-2025 declines from one sell-side customer pause; buy-side 195 clients but 90% retention vulnerable",
+      "Credit facilities covenants: min $450K cash, default risk limits operations/financing",
+      "Delisting risk from Nasdaq non-compliance",
+      "Fraud/IVT detection failure, platform outages, cookie restrictions, data privacy risks",
+      "Customer payment disputes, high concentration exposes to client risks"
+    ],
+    "INUV": [
+      "History of losses: $178.3M accumulated deficit, negative cash flows, $5.1M working capital deficit, $2.8M cash",
+      "Extreme customer concentration: 2 customers = 83.5% 2025 revenue (64.2% + 19.3%)",
+      "Seasonality, ad supplier dependence, fraud from publishers, NYSE listing risk",
+      "Dilution from RSUs/warrants vesting"
+    ],
+    "BRID": [
+      "Customer concentration: Wal-Mart 33.5% FY2025 sales, Dollar General 14.2%; AR 8.2%/28.8%",
+      "Food industry risks: contamination, recalls, consumer preferences, inflation/discretionary spending cuts",
+      "Commodity/labor cost volatility (pork/beef/flour), supply chain constraints"
+    ],
+    "CLBZ": [
+      "Related party revenue: 65% FY2025 from related parties (common control properties)",
+      "Early-stage: community-based prop mgmt platform, AI under dev, JV minimal ops, phasing out EB-5",
+      "Joint ventures: 40% stakes in 5 NV entities with limited activity",
+      "Dilution: Series B Preferred issuance ($700K raised), common stock to JVs"
+    ],
+    "NEOV": [
+      "Startup risks: sales since 2019, competition from Tesla/LG/Sonnen, supply chain/tariffs/FEOC compliance",
+      "Regulatory: evolving ESS standards (UL/CSIP/Rule21), ITC phaseout 2025",
+      "Manufacturing shift to in-house, component shortages"
+    ],
+    "WS": [
+      "Steel cyclicality: commodity prices/supply, automotive end-market (top consumer), customer concentration (top3=33%)",
+      "Supply chain: raw steel availability, tariffs/trade wars, inflation/interest rates",
+      "International ops: currency/political risks (Canada/China/India/Mexico)"
+    ],
+    "ICCT": [
+      "Limited history post-merger 2023, SaaS healthcare focus, no patents/trademarks",
+      "AR concentration: 26%/25% single customer 2024/2023",
+      "Competition in EHR/prescription/claims, HIPAA compliance risks",
+      "Sold MSP assets Oct 2024"
+    ]
+  },
+  "quality_notes": "DRCT revenue quality poor: 2025 rev $34.7M vs $157.1M 2023, gross profit $10.4M vs $37.6M; durable demand weak from customer pause, but 90% retention/174K sell-side buyers signals platform stickiness if resolved. INUV revenue quality lumpy/high concentration, durable ad demand via AI/patents (18 issued) but losses/cash burn. BRID stable revenue mix (75% snacks), private label shift amid inflation supports durability but concentration risk. No durable demand for CLBZ/NEOV (early-stage), WS cyclical steel. No GOOGL/GOOG, INTC, USAR, GT present. Capital allocation: DRCT reorganization/cost cuts; INUV acquisitions; others neutral.",
+  "source_urls": []
+}
 
