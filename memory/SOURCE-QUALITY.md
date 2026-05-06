@@ -3517,4 +3517,56 @@ SEC/company quality check:
   ]
 }
 ```
+## Source And Signal Research - 2026-05-06 13:02:30 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks or ETFs. No notable social or attention anomalies detected.",
+  "social_buzz": "None",
+  "attention_anomalies": "None",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Scilex Holding ($SCLX) announces $1B acquisition of ACEA Pharma by Phoenix Asia Holdings ($PHOE), with post-deal Nasdaq listing and Scilex retaining ~82% stake; Plains All American ($PAA, $PAGP) Canadian NGL divestiture to Keyera on track for May 2026 close despite regulatory challenge; Navigator Holdings ($NVGS) declares $0.07 dividend and $6.3M buyback; E-Power ($EPOW) adds institutional interest; QIAGEN ($QGEN) data page.",
+  "congressional_signal": "No recently reported congressional trades identified in disclosures for liquid US stocks/ETFs from provided sources.",
+  "tickers": ["SCLX", "PHOE", "PAA", "PAGP", "NVGS", "EPOW", "QGEN"],
+  "source_urls": [
+    "https://www.quiverquant.com/news/Scilex+Holding+Company+Announces+Acquisition+Agreement+Between+ACEA+Therapeutics+and+Phoenix+Asia+Holdings",
+    "https://www.quiverquant.com/news/Plains+All+American+Pipeline+Provides+Update+on+Canadian+NGL+Divestiture+to+Keyera+Corp",
+    "https://www.quiverquant.com/news/Navigator+Holdings+Ltd.+Declares+$0.07+Cash+Dividend+and+Announces+Revised+Capital+Return+Policy",
+    "https://www.quiverquant.com/news/E-Power+Inc.+Onboards+Veteran+Team+to+Enhance+AI+Power+Supply+Solutions+and+Accelerate+Market+Delivery",
+    "https://www.quiverquant.com/stock/QGEN/"
+  ]
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "Direct Digital Holdings (DRCT) operates a programmatic advertising platform (Colossus SSP) with sell-side and buy-side services, emphasizing IVT mitigation, audience curation, and high client retention (90%). 2025 revenue $34.7M (down sharply from $157.1M in 2023 due to major sell-side customer pause from defamatory article), gross profit $10.4M, cash $0.7M, accumulated deficit $27.7M. Substantial going concern doubt; credit covenants ($450k min cash); high dilution risk from capital needs. Inuvo (INUV) offers AI-driven ad tech (IntentKey) with strong IP (18 patents); revenue growth but history of losses ($178M accum. deficit), 83.5% customer concentration (2 clients). Both ad-tech firms show revenue volatility, concentration risks, weak balance sheets vs. durable demand peers.",
+  "filing_risks": {
+    "DRCT": [
+      "Going concern doubt: cash $0.7M insufficient for 12 months; accum. deficit $27.7M; reliant on cost cuts, volume recovery, new funding (10-K).",
+      "Revenue concentration: 2024-2025 declines from one sell-side customer pause (defamatory article); volumes not recovered (10-K).",
+      "Balance sheet: credit facilities covenants (min $450k cash); term debt matures Dec 2026; potential default/acceleration (10-K).",
+      "Dilution/capital: needs additional debt/equity; new securities may dilute shareholders (10-K).",
+      "Revenue quality: 2025 revenue/gross profit down 44%/40% YoY; seasonal ad fluctuations (10-K).",
+      "Operational: IVT/fraud detection failure risk; platform issues; cookie restrictions (10-K).",
+      "Delisting risk: Nasdaq compliance failure (10-K)."
+    ],
+    "INUV": [
+      "Customer concentration: 2 customers 83.5% of 2025 revenue (64.2% +19.3%); loss could materially harm (10-K).",
+      "Loss history: $178M accum. deficit; $5.1M op loss 2025; neg. working capital $5.1M, cash $2.8M (10-K).",
+      "Revenue quality: reliant on Yahoo/Google (multi-year contracts); ad supplier dependence; seasonality (10-K).",
+      "Dilution: restricted stock units/warrants; NYSE American listing standards risk (10-K).",
+      "Competition: fragmented ad-tech vs. Google/Meta/Amazon dominance (10-K)."
+    ]
+  },
+  "quality_notes": "DRCT: Weak durable demand evidence - revenue collapse post-customer pause signals fragility despite 90% retention claim; high execution risk on recovery/raising capital amid going concern. INUV: Moderate AI/IP moat (18 patents, IntentKey), but extreme concentration (83% 2 clients) undermines quality; loss-making with neg. WC questions sustainability. Both microcaps with balance sheet stress, dilution risks; no litigation noted. Avoid watchlist addition - inferior to INTC/PEG durability.",
+  "source_urls": []
+}
 

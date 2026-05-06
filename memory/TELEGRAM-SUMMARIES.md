@@ -4653,4 +4653,46 @@ Model notes: Memory flags high repeat.
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: memory:latest
+## Research Update - 2026-05-06 13:02:30 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities near all-time highs amid AI/tech leadership and Q1 earnings strength, but Fed hawkishness (higher-for-longer), rising yields (10yr 4.43%), and narrow breadth raise caution; value/dividend ETFs gaining traction in sector rotation.
+Candidates: 4
+
+1. SCHD (Large Value ETF) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 78/100 | tier execution-ready | bucket dividend-etf-defensive
+Recommendation: execute-if-guards-pass
+Catalyst: Morningstar Gold-rated top high-dividend ETF for 2026 passive income lists; fresh sector rotation context post-tech rally.
+Chittick Cash: Quality dividend payers provide downside buffer via 3.29% yield and low volatility.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=2 fresh=yes bucket=dividend-etf-defensive
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. VYM (Large Value ETF) | confidence 0.78 | allocation 6.0% | stop 8.0% | Chittick 75/100 | tier execution-ready | bucket high-yield-etf
+Recommendation: watch
+Catalyst: Morningstar top high-dividend ETF list for 2026; value emergence post-tech concentration.
+Chittick Cash: Yield cushion and quality screens.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=2 fresh=yes bucket=high-yield-etf
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. INTC (Semiconductors) | confidence 0.60 | allocation 6.0% | stop 8.0% | Chittick 35/100 | tier stale-watch | bucket semi-foundry-value | HF source 0/100 | HF veto
+Recommendation: watch
+Catalyst: Ongoing foundry updates/CHIPS Act; semis momentum post-Q1 earnings.
+Chittick Cash: CHIPS funding buffers downside.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=1
+Self-learning: tier=stale-watch repeat48h=18 fresh=yes bucket=semi-foundry-value
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+4. PEG (Utilities) | confidence 0.65 | allocation 4.0% | stop 7.0% | Chittick 70/100 | tier watch | bucket utilities-defensive
+Recommendation: watch
+Catalyst: Q1 2026 earnings beat.
+Chittick Cash: Regulated stability.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=9 fresh=yes bucket=utilities-defensive
+Social buzz, low weight: low-weight congressional attention as volume signal
+Congress signal, low weight: low-weight congressional trades as attention signal
 

@@ -1794,4 +1794,27 @@ For a cautious bot workflow on May 4, 2026:
   ]
 }
 ```
+## Market Regime Research - 2026-05-06 13:02:30 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities at all-time highs (S&P 500 7209, Nasdaq record) driven by strong Q1 earnings (+15-19% YoY, record 13.4% margins), AI/tech leadership, and peace hopes easing oil from $120+ peaks. Fed holds at 3.50-3.75% with 4 dissents (most since 1992), signaling hawkish 'higher-for-longer' amid resilient jobs (178k Mar add) and Iran war inflation risks. Yields up (10yr 4.43%), valuations stretched (P/E 20.9-21x), narrow breadth vulnerable to volatility.",
+  "market_regime": "risk-on_bullish_with_caution",
+  "sector_rotation": "tech/AI dominant (Samsung $1T, comms +18%, growth +12%), value/energy lagging (value +3%, energy -5%), defensive appeal emerging amid concentration risks",
+  "risk_flags": [
+    "Geopolitical: Iran war/oil volatility ($100-120/bbl), Strait of Hormuz tensions",
+    "Fed hawkish: 4 FOMC dissents, no cuts expected, yields rising",
+    "Valuation stretch: S&P P/E 20.9x > 5yr avg, narrow leadership",
+    "Upcoming jobs data: Test of labor resilience vs softening signals",
+    "Concentration: AI/mega-cap driven, vulnerable to sentiment shift"
+  ],
+  "source_urls": [
+    "https://virginiabusiness.com/us-job-market-resilience-narrows-fed-rate-cut-window/",
+    "https://www.dailysabah.com/business/economy/oil-eases-stocks-rally-on-peace-hopes-samsung-hits-1t-cap",
+    "https://www.crestwoodadvisors.com/may-2026-economic-and-market-update/",
+    "https://www.morningstar.com/markets/us-stock-market-outlook-where-find-value-after-aprils-rally",
+    "https://www.rscapital.com/2026/05/05/spring-surge-april-showers-watered-a-bullish-market/"
+  ]
+}
+```
 
