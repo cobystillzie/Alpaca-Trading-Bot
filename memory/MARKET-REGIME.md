@@ -1385,4 +1385,29 @@ For a cautious bot workflow on May 4, 2026:
   ]
 }
 ```
+## Market Regime Research - 2026-05-06 02:56:30 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities exhibit a resilient but narrow rally near S&P 500 all-time highs, driven by AI mega-caps, strong earnings, buybacks, and sidelined cash, despite elevated oil prices from Iran Strait of Hormuz tensions, rising Treasury yields, and persistent inflation. Labor market robustness and Fed hawkishness limit rate cut expectations, creating a 'wall of worry' with mixed breadth and rotation risks.",
+  "market_regime": "Bullish but narrow (AI-led), climbing wall of worry; short-term risk-off rotations amid volatility spikes",
+  "sector_rotation": "Aggressive rotation into AI/tech (Amazon, Apple, MSFT strong; Nvidia/Meta mixed); financials/consumer discretionary weak; utilities/defensives stable in memory",
+  "risk_flags": [
+    "Geopolitical oil shock (WTI >$100, Strait blockade)",
+    "Rising rates/yields (10yr fair value 4.30%, hikes back on table)",
+    "Narrow breadth, weakening participation",
+    "Inflation persistence, Fed steady/hawkish (Warsh transition)",
+    "Consumer weakness risks from high oil",
+    "AI capex sustainability questions"
+  ],
+  "source_urls": [
+    "https://www.youtube.com/watch?v=Ytz0tXbNXmA",
+    "https://economictimes.com/markets/us-stocks/news/us-stock-market-jobs-data-to-test-feds-rate-outlook-amid-resilient-economy-and-inflation-risks/articleshow/130843994.cms",
+    "https://www.youtube.com/watch?v=GvLKcmQfYR4",
+    "https://www.interactivebrokers.com/campus/traders-insight/securities/macro/rate-hikes-back-on-the-table/",
+    "https://www.youtube.com/watch?v=UzxS5ylehPI",
+    "https://www.etftrends.com/etf-strategist-content-hub/fixed-income-looks-attractive-again/"
+  ]
+}
+```
 

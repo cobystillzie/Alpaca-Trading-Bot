@@ -2987,4 +2987,73 @@ SEC/company quality check:
   "quality_notes": "High-quality revenue from recurring leasing with durable assets (20-30yr lives, 50%+ residuals); hybrid logistics differentiates service revenue. Balance sheet risks from debt load/covenants; no specific litigation/dilution highlighted. Capital allocation via fleet maintenance/capex centralized for quality/consistency. No overt red flags on revenue quality/concentration; broad 15 end-markets reduce single-customer risk. Watchlist-relevant: INTC semi-foundry aligns with modular space demand for manufacturing expansion (e.g., CHIPS Act facilities).",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-06 02:56:30 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks or ETFs. No notable social buzz or attention anomalies detected.",
+  "social_buzz": "None",
+  "attention_anomalies": "None",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Scan of recent Quiver Quant results reveals limited new congressional trading activity in liquid US stocks/ETFs. Primary signal is Ro Khanna (D) purchase of QGEN ($1K-$15K), a small-cap biotech. Other mentions include historical Steube trades (IONQ/SNV) and prior PEG context; all low-weight delayed disclosures. No high-conviction, recent, material signals identified.",
+  "congressional_signal": "weak - Ro Khanna purchase QGEN ($1,001-$15,000); low-weight delayed disclosure",
+  "tickers": ["QGEN"],
+  "source_urls": ["https://www.quiverquant.com/stock/QGEN/"]
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "SES AI (SES) 10-K (filed 2026-03-04) reveals pre-revenue battery tech firm with $73M 2025 net loss, $372M accumulated deficit, heavy R&D burn, and cash runway of 12+ months but future funding needs. Durable demand uncertain in emerging UAM/EV markets; execution risks dominate. DRCT shows revenue collapse to $35M (from $157M peak), going concern doubt, customer pause. INUV stable but loss-making with 83% customer concentration. Others (FATE biotech losses, NEOV small cap, WS steel processor) exhibit high burn, concentration, or cyclical risks. No strong durable-demand evidence; all flagged for balance sheet dilution, concentration, capex risks.",
+  "filing_risks": {
+    "SES": [
+      "Ongoing losses: $73M 2025 net loss, $372M accumulated deficit; profitability projections based on unproven assumptions (UAM/EV demand, AI infra costs)",
+      "Capital needs: Cash sufficient 12 months but requires future equity/debt; dilution risk explicit",
+      "Customer/supply concentration: No long-term supply deals; reliant on OEM trials, Hisun JV unproven",
+      "Execution: UZ Energy integration risks, NDAA compliance capex, battery defects/recalls, manufacturing scale-up failures",
+      "Market: Emerging UAM/drone demand uncertain; Li-ion cost reductions erode edge",
+      "Balance sheet: High capex for facilities/Molecular Universe; tariff/geopolitical supply risks"
+    ],
+    "DRCT": [
+      "Going concern doubt: $0.7M cash, $28M deficit; customer pause caused 2024-25 revenue plunge ($35M vs $157M prior)",
+      "Concentration: Sell-side customer pause; credit covenants ($450k min cash)",
+      "Dilution: Needs equity/debt; Nasdaq delisting risk",
+      "Revenue quality: IVT/fraud risks, cookie deprecation, seasonal ad fluctuations",
+      "Cap alloc: Reorg plan post-misinfo campaign; acquisition integration risks"
+    ],
+    "INUV": [
+      "Losses: $5.1M op loss 2025, $178M deficit; negative working capital -$5.1M",
+      "Concentration: Two customers 83% revenue (64%+19%)",
+      "Revenue quality: Ad supplier dependent; seasonality H2 stronger",
+      "Cap alloc: Fixed labor in software dev; acquisition pursuit risks"
+    ],
+    "FATE": [
+      "Biotech burn: Significant losses, funding needs for iPSC pipeline",
+      "Execution: Clinical delays, manufacturing scale-up, competition",
+      "Dilution: Additional funding likely dilutive"
+    ],
+    "NEOV": [
+      "Early stage: Sales since 2019; in-house mfg transition risks",
+      "Supply: Asia/US sourcing, FEOC compliance for incentives",
+      "Competition: Tesla/LG etc.; policy phase-outs post-2025 ITC"
+    ],
+    "WS": [
+      "Cyclical: Steel pricing/volumes; top 3 customers 33% sales",
+      "Supply chain: Raw material fluctuations, tariffs"
+    ],
+    "ICCT": [
+      "Post-merger: Limited history; customer conc. in AR (26%)",
+      "No IP patents; SaaS competition"
+    ]
+  },
+  "quality_notes": "No durable-demand evidence; all show loss-making ops, high customer conc. (SES/DRCT/INUV 80%+), dilution risks from cap raises (SES/DRCT/FATE), revenue quality issues (ad fraud seasonality in DRCT/INUV, unproven markets SES), capex heavy (SES mfg/AI, NEOV facilities). Balance sheets strained (DRCT going concern, INUV neg WC). No litigation noted. INTC memory alignment: semi risks but no direct filing here. Avoid watchlist adds.",
+  "source_urls": []
+}
 

@@ -4093,4 +4093,37 @@ HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=1
 Self-learning: tier=stale-watch repeat48h=13 fresh=yes bucket=semi-foundry-value
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-06 02:56:30 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities near S&P 500 all-time highs with AI-led narrow rally amid resilient earnings and buybacks, but face headwinds from oil shocks, rising yields, inflation persistence, and mixed breadth. Coinbase (COIN) reports blowout Q1 with $7.67B revenue (+46% YoY) and $3.22B net income (+106% YoY), though strategy bans direct crypto exposure.
+Candidates: 3
+
+1. COIN (Financials / Crypto Exchange) | confidence 0.45 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier stale-watch | bucket crypto-exchange | HF source 6/100 | HF veto
+Recommendation: avoid
+Catalyst: Q1 2026 results: revenue $7.672B (+46% YoY), net income $3.217B (+106% YoY); trading/payments expansion highlighted.
+Chittick Cash: Strong profitability inflection but crypto beta erodes safety; balance sheet unmentioned.
+HF filter: sentiment=not run source=6/100 hype=0.70 vetoes=2
+Self-learning: tier=stale-watch repeat48h=2 fresh=yes bucket=crypto-exchange
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. INTC (Semiconductors) | confidence 0.60 | allocation 6.0% | stop 8.0% | Chittick 35/100 | tier stale-watch | bucket semi-foundry-value | HF source 7/100 | HF veto
+Recommendation: watch
+Catalyst: Recent foundry updates and CHIPS Act progress; monitor Q1 guidance refresh.
+Chittick Cash: CHIPS funding downside protection.
+HF filter: sentiment=not run source=7/100 hype=0.30 vetoes=1
+Self-learning: tier=stale-watch repeat48h=14 fresh=yes bucket=semi-foundry-value
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. PEG (Utilities) | confidence 0.65 | allocation 4.0% | stop 7.0% | Chittick 70/100 | tier watch | bucket utilities-defensive | HF source 7/100
+Recommendation: watch
+Catalyst: Recent Q1 2026 earnings beat.
+Chittick Cash: Regulated assets.
+HF filter: sentiment=not run source=7/100 hype=0.10 vetoes=0
+Self-learning: tier=watch repeat48h=5 fresh=yes bucket=utilities-defensive
+Social buzz, low weight: none
+Congress signal, low weight: low-weight mixed prior trades
 

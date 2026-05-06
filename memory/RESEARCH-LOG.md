@@ -391,4 +391,9 @@ Candidates found: 3
 May 2026 monthly gainers led by JLHL +73% (Industrials), GBTG +58% (Consumer Cyclical), CABA/IMDX/REPL +21-30% (Healthcare). Momentum favors Industrials (+17% avg), Consumer Cyclical/Utilities. Narrow leadership persists post-April growth rally; semis/tech strength continues but healthcare/biotech shows fresh short-term surge.
 
 Candidates found: 4
+## Two-Hour Research Agent - 2026-05-06 02:56:30 Eastern Daylight Time
+
+US equities near S&P 500 all-time highs with AI-led narrow rally amid resilient earnings and buybacks, but face headwinds from oil shocks, rising yields, inflation persistence, and mixed breadth. Coinbase (COIN) reports blowout Q1 with $7.67B revenue (+46% YoY) and $3.22B net income (+106% YoY), though strategy bans direct crypto exposure.
+
+Candidates found: 3
 
