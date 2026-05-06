@@ -29,4 +29,14 @@ Catalyst: Hyperscalers $725B 2026 CapEx (up from $650B); CoreWeave $63.9B deals,
 Bear case: Supply chain delays or margin compression from pricing surges; competition from custom chips.
 Stop plan: 7.0% stop/trailing review.
 Warnings: none
+## ORDER: Paper Buy SCHD - 2026-05-06 09:46:52 Eastern Daylight Time
+
+Symbol: SCHD
+Notional: $800.00
+Order id: b5778a42-dda3-4eae-9f1a-97819ebd0390
+Thesis: Tracks Dow Jones U.S. Dividend 100 Index of 100 high-quality US dividend growers with 10+ years consistent payments; blends quality, income, and defensive stability for 1-10 day swings on momentum.
+Catalyst: Morningstar Gold-rated top high-dividend ETF list for 2026 passive income; highest US-focused yield at 3.29%; fresh sector rotation context amid narrow breadth.
+Bear case: Rate hike odds or hawkish Fed could pressure yields; underperforms pure growth in strong bull runs.
+Stop plan: 8.0% stop/trailing review.
+Warnings: none
 
