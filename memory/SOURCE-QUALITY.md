@@ -3201,4 +3201,66 @@ SEC/company quality check:
   "quality_notes": "DRCT exhibits highest business-quality risks: acute going concern, revenue collapse from single-customer dependency/misinfo event, tight debt covenants, low cash burn risk without funding. INUV chronic losses/concentration. BRID stable food but retail concentration/inflation. CLBZ related-party heavy, developmental. NEOV/WS/ICCT lower risks but cyclical/early-stage. No durable demand signals (e.g., recurring rev growth, moat evidence); DRCT/INUV watchlist avoids due to balance-sheet fragility, concentration, revenue discontinuity vs memory names (INTC/PEG/VALN stronger earnings/policy tailwinds). Chittick: pay GOOGL/GOOG/INTC/USAR/GT attention - none match here.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-06 07:51:52 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results returned. Unable to scan public web/social-attention coverage for unusual discussion around liquid US stocks/ETFs at this time.",
+  "social_buzz": {
+    "status": "no_data",
+    "note": "Search returned empty. Social buzz treated as weak context only and never a trade reason per protocol."
+  },
+  "attention_anomalies": {
+    "status": "no_data",
+    "note": "Insufficient data to flag suspected hype, pump language, or unsupported claims."
+  },
+  "source_urls": [],
+  "recommendation": "Defer social-attention scan. Rely on existing memory candidates (INTC, PEG, JLHL watch-tier; COIN avoid-tier) and fundamental catalysts. Monitor for next search cycle.",
+  "risk_flags": [
+    "Recent momentum candidates (JLHL +72.84%, GBTG +57.5%, CABA +30.27% May gains) lack fundamental catalyst support—price strength alone is insufficient basis for allocation.",
+    "COIN remains avoid-tier despite strong Q1 results (+46% revenue YoY, +106% net income YoY) due to HF veto count (2) and low confidence (0.45).",
+    "INTC stale-watch tier with declining confidence (0.60) and HF veto (1); foundry/CHIPS Act catalysts require fresh guidance to justify upgrade."
+  ]
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Congressional disclosure scan (May 2026) reveals minimal direct equity trading signals. Rep. W. Gregory Steube shows historical STOCK Act filings ($525K parsed trades, including March 2026 IONQ purchase +41.29% since trade date). Rep. Ro Khanna disclosed QGEN purchase ($1,001–$15,000 range, low-weight). No material new congressional trades detected for liquid US stocks/ETFs in current reporting window. Regulatory context: SEC moving to rescind Biden-era climate disclosure rules (OMB review stage, May 4 filing); prediction market regulation advancing (Rep. Vasquez bipartisan effort); quantum encryption and emergency fund accountability bills advancing (Rep. Subramanyam). Low-weight, delayed disclosure environment.",
+  "congressional_signal": {
+    "weight": "low",
+    "rationale": "Congressional disclosures are delayed (STOCK Act filings typically 30–45 days post-trade) and sparse for liquid equities. No material new trades detected in current scan. Historical trades (Steube IONQ March 2026, Khanna QGEN) are secondary context only. Regulatory/legislative signals (climate disclosure rescission, prediction market oversight, quantum/emergency fund bills) are policy-level, not direct equity catalysts.",
+    "recommendation": "Treat as secondary, low-confidence context. Do not base allocation decisions on congressional trades alone."
+  },
+  "tickers": [
+    "IONQ",
+    "QGEN",
+    "ONCY"
+  ],
+  "source_urls": [
+    "https://www.quiverquant.com/stock/ONCY/institutions/",
+    "https://www.quiverquant.com/stock/QGEN/",
+    "https://www.quiverquant.com/news/Press+Release:+Rep.+Gabe+Vasquez+Advances+Bipartisan+Effort+to+Regulate+Prediction+Markets+and+Address+Corruption+Issues",
+    "https://www.quiverquant.com/news/Press+Release:+Suhas+Subramanyam+and+Andy+Biggs+Advance+Bipartisan+Bills+to+House+Floor",
+    "https://www.quiverquant.com/news/New+Bill:+Representative+W.+Gregory+Steube+introduces+H.R.+8471:+Preventing+Risky+Importation+of+Monkeys+to+Avoid+Toxic+Exposures+Act",
+    "https://www.quiverquant.com/news/SEC+Moves+to+Scrap+Biden-Era+Climate+Disclosure+Rules+as+White+House+Review+Begins"
+  ]
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": "ACHV 10-K details cytisinicline NDA (PDUFA June 20, 2026) as potential first new smoking cessation Rx in 20yrs vs Chantix ($1.1B peak sales); Sopharma supply dispute (disputed breach via 3rd-party CMOs); FDA cGMP issues at 3rd-party mfr; low-single-digit royalties; $2M contingent Sopharma payment; up to $4.8M Bristol milestones. Sanofi 6-Ks highlight lunsekimig Ph2 success (asthma/CRSwNP), Dupixent CSU approvals (EU/US kids 2-11yrs), Tzield T1D label expansion (kids <8yrs). Valneva 6-Ks: IXCHIQ elderly pause lifted (SAEs in frail elderly), 98% 1yr adolescent seroresponse, SII Asia license for LMICs.",
+  "filing_risks": [
+    "ACHV: Sopharma supply dispute/alleged breach (NDA uses 3rd-party CMOs; resolution proposed); FDA cGMP observations at 3rd-party mfr (potential PDUFA delay >Jun20); $2M contingent liability (FDA/EMA approval); up to $4.8M Bristol milestones; mid-single-digit Sopharma royalties; no owned mfg (Sopharma/3rd-party concentration); natural API supply chain risks; Chantix generic/TrumpRx relaunch competition; IRA pricing pressures.",
+    "SNY: Standard biopharma risks (regulatory delays, competition, pricing reforms/IRA, mfg/supply issues); Dupixent/Tzield expansion unproven in new peds pop'ns.",
+    "VALN: IXCHIQ SAE history in elderly/comorbid (PI warnings/contraindications); reg reviews for adolescents/kids; tech transfer/approval delays w/SII; LMIC access dependent on CEPI funding/partners."
+  ],
+  "quality_notes": "ACHV revenue quality pre-commercial (no durable demand yet); heavy milestone/royalty obligations signal capex burn risk; mfg concentration (Sopharma dispute + 3rd-party FDA issues) threatens launch; Chantix market validated but generics erode moat. VALN IXCHIQ persistence data strong (96-98% SRR to 3yrs) supports durable demand in endemic/LMICs; SII partnership de-risks Asia access. SNY pipeline wins (Dupixent/Tzield) reinforce immunology leadership but not directly competitive to ACHV/VALN.",
+  "source_urls": []
+}
+```
 

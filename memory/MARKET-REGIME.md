@@ -1454,4 +1454,180 @@ For a cautious bot workflow on May 4, 2026:
   ]
 }
 ```
+## Market Regime Research - 2026-05-06 07:51:52 Eastern Daylight Time
+
+```json
+{
+  "summary": {
+    "date_analyzed": "2026-05-06",
+    "market_state": "Risk-on with narrow breadth; strong earnings offsetting geopolitical/energy uncertainty",
+    "key_finding": "April 2026 delivered S&P 500 +10.3% (best month since Nov 2020), driven by AI/tech concentration. Q1 earnings beat expectations with record margins (13.4%), but valuation buffer is thin at 21x forward P/E. Fed holding rates steady; inflation elevated; oil volatility persists."
+  },
+  "market_regime": {
+    "index_trend": "Bullish short-term; caution warranted on breadth",
+    "sp500_april_return": "+10.3%",
+    "sp500_ytd_context": "Strong rebound from Q1 lows; valuation at 0.95 price-to-fair-value (5% discount)",
+    "breadth_assessment": "NARROW — average S&P 500 stock underperformed index by -4.5%; concentration in mega-cap tech (GOOGL +18%, semis +40% on 17-day streak)",
+    "fed_policy": "Holding rates steady (third consecutive meeting); rate cuts unlikely near-term; one cut expected late 2026 conditional on labor softening",
+    "inflation_backdrop": "Elevated above Fed target; energy shock (oil +7% week-over-week) complicating policy outlook; two-way risks dividing Fed messaging",
+    "volatility_regime": "Falling (credit spreads tightened sharply); institutional equity futures positioning at highest since late 2024; risk appetite surged in April",
+    "regime_classification": "RISK-ON with CAUTION flags — earnings-driven rally masking narrow participation; geopolitical uncertainty and energy volatility present tail risks"
+  },
+  "sector_rotation": {
+    "april_2026_leadership": [
+      {
+        "sector": "Technology",
+        "return": "+17%",
+        "driver": "AI capex cycle; Alphabet GOOGL +18% led Communications sector"
+      },
+      {
+        "sector": "Semiconductors",
+        "return": "+40%",
+        "driver": "17-day winning streak; AI infrastructure demand"
+      },
+      {
+        "sector": "Communications",
+        "return": "+18%",
+        "driver": "Alphabet dominance"
+      },
+      {
+        "sector": "Growth stocks (broad)",
+        "return": "+12%",
+        "driver": "Reversal of Q1 value rotation"
+      }
+    ],
+    "april_2026_laggards": [
+      {
+        "sector": "Energy",
+        "return": "-5% to -3%",
+        "driver": "Oil price volatility; WTI finished week +7% but sector remains pressured"
+      },
+      {
+        "sector": "Healthcare",
+        "return": "Slight loss",
+        "driver": "Weak earnings season; JNJ single greatest detractor; policy risk weighing on valuations"
+      },
+      {
+        "sector": "Value stocks",
+        "return": "+3%",
+        "driver": "Significant underperformance vs. growth (+8% outperformance)"
+      }
+    ],
+    "rotation_narrative": "Q1 value/defensive rotation reversed sharply in April. Growth and tech reasserted dominance. Emerging markets showing acceleration in earnings growth with attractive valuations; direct AI capex exposure at lower multiples than US.",
+    "sector_positioning_recommendation": "Overweight technology (AI capex visibility); neutral US equities overall; positive emerging markets; cautious on healthcare (temporary weakness, recovery potential); utilities benefiting from data-center power demand"
+  },
+  "earnings_tone": {
+    "q1_2026_status": "~57-80% of S&P 500 reported as of late April",
+    "eps_growth": "+19.6% YoY (projected); sixth consecutive quarter of double-digit growth",
+    "beat_rate": "Above five-year average; size of beats well above average",
+    "profit_margins": "13.4% (highest on record); net income margins highest in ~15 years",
+    "guidance": "Largely maintained with upgrades to technology and AI capex; management teams reiterated guidance despite volatile headlines",
+    "analyst_revisions": "Upward revisions outpacing negative revisions; +18% earnings growth forecast over next 12 months",
+    "earnings_quality": "Strong; driven by technology, financials, materials sectors; AI capex cycle providing unusual revenue/margin visibility",
+    "risk_to_earnings": "Energy shock delayed impact on demand; geopolitical uncertainty; valuation buffer thin — market dependent on continued earnings delivery, not multiple expansion"
+  },
+  "risk_flags": {
+    "critical": [
+      {
+        "flag": "Valuation Concentration Risk",
+        "detail": "21x forward P/E leaves limited room for disappointment; earnings growth is primary path to upside, not multiple expansion. Narrow breadth (mega-cap tech driving 80%+ of gains) increases drawdown risk if sentiment shifts.",
+        "implication_for_paper_trading": "Avoid overweighting mega-cap tech; diversify across sectors and market caps; set tight stops on concentrated positions"
+      },
+      {
+        "flag": "Energy/Geopolitical Shock",
+        "detail": "Oil volatility (WTI +7% week-over-week); West Texas Intermediate finished May 5 elevated. Geopolitical environment described as 'volatile'; energy shock could delay demand recovery and pressure margins.",
+        "implication_for_paper_trading": "Monitor energy sector closely; avoid long-only energy exposure without hedges; consider defensive positioning if oil spikes above $80/bbl"
+      },
+      {
+        "flag": "Fed Policy Uncertainty",
+        "detail": "Two-way risks dividing Fed outlook. Inflation elevated; rate cuts unlikely near-term. Mortgage rates may remain elevated; housing supply improving but cautiously. Conflicting signals from Fed messaging.",
+        "implication_for_paper_trading": "Assume rates stay higher for longer; avoid duration risk; monitor Fed speakers for policy shifts; consider rate-sensitive sectors (utilities, REITs) as hedges"
+      }
+    ],
+    "moderate": [
+      {
+        "flag": "Healthcare Sector Weakness",
+        "detail": "Q1 earnings weak; policy risk weighing on valuations. Temporary weakness expected; recovery potential as policy risk abates and new products become visible.",
+        "implication_for_paper_trading": "Avoid healthcare until earnings stabilize; watch for policy clarity signals"
+      },
+      {
+        "flag": "Emerging Market Exposure",
+        "detail": "Faster earnings growth and attractive valuations vs. US, but geopolitical uncertainty and energy shock could impact EM currencies and commodity-linked economies.",
+        "implication_for_paper_trading": "Overweight EM for long-term positioning; use smaller position sizes; monitor currency hedging"
+      },
+      {
+        "flag": "Breadth Deterioration",
+        "detail": "Average S&P 500 stock underperformed index by -4.5%; only 2 of 10 sectors posted gains in April. Concentration risk high.",
+        "implication_for_paper_trading": "Avoid chasing mega-cap winners; seek value in underperforming sectors with earnings upside; diversify holdings"
+      }
+    ],
+    "low": [
+      {
+        "flag": "Individual Stock Volatility",
+        "detail": "GTHP (medical device) trading at $0.20 with -14.89% daily move; legal issues and governance risks. Micro-cap volatility elevated.",
+        "implication_for_paper_trading": "Avoid micro-cap/penny stocks in paper-trading workflow; focus on liquid, large-cap names with strong fundamentals"
+      }
+    ]
+  },
+  "cautious_paper_trading_workflow_recommendations": {
+    "position_sizing": "Max 5-6% per position; avoid concentration in mega-cap tech; diversify across sectors",
+    "entry_strategy": "Wait for pullbacks in overbought tech; favor value/emerging markets; use earnings calendar for setup timing",
+    "stop_loss_discipline": "Set stops at 6-8% for growth positions; 4-7% for defensive/value; tighter stops (3-4%) for energy/volatile sectors",
+    "sector_allocation": [
+      {
+        "sector": "Technology/AI",
+        "allocation": "20-25%",
+        "rationale": "Highest conviction; capex visibility strong; but watch for valuation reversion"
+      },
+      {
+        "sector": "Utilities/Defensive",
+        "allocation": "15-20%",
+        "rationale": "Data-center power demand tailwind; hedge against rate volatility"
+      },
+      {
+        "sector": "Emerging Markets",
+        "allocation": "15-20%",
+        "rationale": "Faster earnings growth; AI capex exposure at lower multiples; diversification"
+      },
+      {
+        "sector": "Healthcare",
+        "allocation": "5-10%",
+        "rationale": "Underweight until earnings stabilize; selective on policy-resistant names"
+      },
+      {
+        "sector": "Energy",
+        "allocation": "0-5%",
+        "rationale": "Avoid long-only; use only as tactical hedge or short-term trade"
+      },
+      {
+        "sector": "Value/Industrials",
+        "allocation": "15-20%",
+        "rationale": "Lagged in April; potential mean reversion; earnings quality improving"
+      }
+    ],
+    "risk_management": "Monitor Fed speakers daily; set alerts for oil prices >$80/bbl; track breadth indicators (advance/decline line); reduce exposure if S&P 500 average stock underperformance exceeds -5%",
+    "earnings_calendar_integration": "Q1 2026 earnings season ~80% complete; Q2 guidance will be critical; watch for margin pressure signals; monitor AI capex commentary from mega-cap tech",
+    "volatility_hedging": "Consider small VIX call positions (1-2% of portfolio) if positioning becomes too concentrated; credit spreads tightened (bullish signal) but could reverse quickly on geopolitical escalation"
+  },
+  "source_urls": [
+    "https://www.tegfcu.com/mortgage/fed-holds-rates-steady-what-it-means-for-you/",
+    "https://www.morningstar.com/markets/us-stock-market-outlook-where-find-value-after-aprils-rally",
+    "https://www.etftrends.com/active-etf-content-hub/beat-volatility-power-active-etfs/",
+    "https://rscapital.com/2026/05/05/spring-surge-april-showers-watered-a-bullish-market/",
+    "https://think.ing.com/articles/watch-how-two-way-risks-are-dividing-the-feds-policy-outlook/",
+    "https://www.lombardodier.com/insights/2026/may/ai-powered-earnings.html",
+    "https://www.southstatebank.com/wealth/on-point-market-commentary/market-volatility-unwelcome-oil-price-shock-and-why-staying-invested-matters"
+  ]
+}
+```
+
+---
+
+### **Key Takeaway for Paper-Trading Bot:**
+
+**Market Regime: RISK-ON with CAUTION**
+
+- **Bullish drivers:** Strong Q1 earnings (+19.6% YoY), record margins (13.4%), AI capex cycle, Fed holding rates steady
+- **Bearish risks:** Narrow breadth (mega-cap tech concentration), elevated valuations (21x P/E), energy volatility, geopolitical uncertainty, two-way Fed policy risks
+- **Action:** Diversify across sectors; avoid chasing mega-cap winners; use tight stops; overweight emerging markets and utilities as hedges; monitor Fed speakers and oil prices daily
 
