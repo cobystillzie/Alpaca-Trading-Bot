@@ -4225,4 +4225,129 @@ HF filter: sentiment=not run source=0/100 hype=0.50 vetoes=0
 Self-learning: tier=watch repeat48h=3 fresh=yes bucket=industrials-momentum
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Premarket Memo - 2026-05-06 08:18:12 Eastern Daylight Time
+
+Premarket Analyst Memo
+
+Recommendation: Execute only if guardrails pass; otherwise hold cash and wait for cleaner evidence.
+
+Market Regime
+Risk-on semis tailwind supports; risk-off would hit cyclicals harder but CHIPS Act provides floor.
+
+Top Candidates
+
+1. INTC (Semiconductors) | confidence 0.60 | allocation 6.0% | stop 8.0% | Chittick 35/100 | tier stale-watch | bucket semi-foundry-value | HF source 0/100 | HF veto
+Thesis: Intel offers turnaround potential as quality semi foundry play with US incentives; blend of value discipline and sector momentum.
+Catalyst: Ongoing foundry updates and CHIPS Act progress; semis sector strength post-Q1 2026 earnings (late April); monitor for guidance refresh.
+Entry: Enter on pullback to 50-day MA or sector dip; paper-trade 6% allocation if volume confirms.
+Exit: Take profits at +15-20% or prior highs; invalidate below recent lows or negative guidance.
+Risk/reward: 8% stop targets 15-25% upside on catalyst hit; 2:1+ RR with defined risk.
+Bear/adversary: High repeat count (16+); no fresh Q2 guidance; foundry losses persist.
+Source quality: Memory tables + market regime context; official CHIPS Act/earnings; no fresh search but established catalysts.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Trading below historical multiples with US gov't backstop; downside protected by asset value.
+Valuation: Attractive vs. semi peers on FCF yield post-subsidies; undervalued turnaround.
+Growth runway: Foundry services + AI chip demand; 30-180 day US manufacturing ramp.
+Balance-sheet risk: Manageable debt with CHIPS funding; cyclical semi exposure.
+Capital allocation: Aggressive foundry capex justified by subsidies; owner-operator discipline.
+Concentration case: Deserves slot vs. broad semis ETF due to unique US foundry moat.
+Owner thesis, 30-180 days: Foundry market share gains + AI/data center chip wins over 30-180 days.
+Chittick reject reason: Staleness penalty on repeats; await fresh guidance.
+Self-Learning Filter
+Catalyst type: news/structural
+Fresh catalyst: yes
+Repeat count, 48h: 18
+Diversity bucket: semi-foundry-value
+Research tier: stale-watch
+Allocation learning: Prior rejections on allocation; propose 6% tranche.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.00
+Evidence rank: 0/100
+Memory similarity: 0.90
+Vetoes: repeat_staleness
+Model notes: High memory similarity to prior watches; penalize repeats without new catalysts.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
+
+2. PEG (Utilities) | confidence 0.65 | allocation 4.0% | stop 7.0% | Chittick 70/100 | tier watch | bucket utilities-defensive
+Thesis: Defensive utility with earnings beat and data-center power demand tailwind; quality cash generator in risk-on regime.
+Catalyst: Q1 2026 earnings beat (late April); low-weight congressional attention as volume signal.
+Entry: Enter on dip to support; 4% paper allocation with tight risk.
+Exit: Profits at +12% or sector breakout; stop below earnings lows.
+Risk/reward: 7% stop for 12-18% upside; favorable in defensive setup.
+Bear/adversary: Repeat watch (7+); congressional signal too weak standalone.
+Source quality: Earnings confirmed in memory; reputable financial context.
+Chittick Cash Filter
+Score: 70/100
+Margin of safety: Regulated asset base + dividends provide floor.
+Valuation: Fair yield vs. peers; attractive on stable growth.
+Growth runway: Data-center electrification; 30-180 day demand surge.
+Balance-sheet risk: Low debt relative to assets; non-cyclical.
+Capital allocation: Consistent dividends + capex discipline.
+Concentration case: Defensive diversifier vs. tech-heavy portfolio.
+Owner thesis, 30-180 days: Sustained power demand growth over 30-180 days.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 9
+Diversity bucket: utilities-defensive
+Research tier: watch
+Allocation learning: none
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.00
+Evidence rank: 0/100
+Memory similarity: 0.70
+Vetoes: none
+Model notes: none
+Social buzz, max 10%: none
+Congress signal, max 5%: low-weight mixed trades
+Sources: none
+
+3. JLHL (Industrials) | confidence 0.68 | allocation 5.0% | stop 8.0% | Chittick 35/100 | tier watch | bucket industrials-momentum | HF source 0/100
+Thesis: Momentum industrial with extreme May gain; test for quality continuation with defined risk.
+Catalyst: +72.84% May gainer per StockTitan (May 5 close); sustained first-to-last trading day strength.
+Entry: Enter on continuation above May highs; small 5% tranche only.
+Exit: Trail stops on strength; invalidate on <5% pullback or volume dry-up.
+Risk/reward: 8% stop for 15-25% upside if breakout holds; high volatility.
+Bear/adversary: No fundamental backing; pure price action risks reversal.
+Source quality: StockTitan data in memory; momentum-only, lacks depth.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Limited; pure momentum play.
+Valuation: Unknown; post-rally likely extended.
+Growth runway: Unknown; monitor for earnings/news.
+Balance-sheet risk: Unknown small-cap risks.
+Capital allocation: N/A
+Concentration case: Diversifies from semis/utilities; momentum bucket.
+Owner thesis, 30-180 days: Emergence of quality business thesis over 30 days.
+Chittick reject reason: Low Chittick score; momentum-only.
+Self-Learning Filter
+Catalyst type: momentum
+Fresh catalyst: yes
+Repeat count, 48h: 4
+Diversity bucket: industrials-momentum
+Research tier: watch
+Allocation learning: Small tranche for momentum diversification.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.50
+Evidence rank: 2/100
+Memory similarity: 0.20
+Vetoes: none
+Model notes: Fresh momentum; low evidence rank.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
+
+Rejected / Watchouts
+- INTC: repeat_staleness; HF memory filter flags similarity to prior rejected patterns.
+- PEG: Low-weight social/congress signal needs at least two stronger sources.
 
