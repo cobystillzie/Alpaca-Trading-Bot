@@ -4977,4 +4977,110 @@ Not run for this candidate.
 Social buzz, max 10%: none
 Congress signal, max 5%: low-weight volume signal
 Sources: https://investors.pseg.com
+## End Of Day Memo - 2026-05-06 16:30:01 Eastern Daylight Time
+
+End Of Day Analyst Memo
+
+Recommendation: Carry forward only evidence-backed candidates; review stops before the next market-open run.
+
+Market Regime
+End-of-day review of paper portfolio, trade quality, risk notes, and next-day watchlist.
+
+Portfolio
+Portfolio value: 100155.85 Cash: 96800 Buying power: 196955.85 Positions: - GOOGL: qty=2.151289429, market_value=856.944631, unrealized_pl=56.944631 - NVDA: qty=4.00060009, market_value=832.604891, unrealized_pl=32.604891 - SCHD: qty=25.2286345, market_value=799.056449, unrealized_pl=-0.943551 - SPMO: qty=6.119014838, market_value=867.247973, unrealized_pl=67.247973
+
+Top Candidates
+
+1. SCHD (Large Value ETF) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 78/100 | tier execution-ready | bucket dividend-etf-defensive
+Thesis: High-quality dividend aristocrats ETF blending Buffett-quality moats with momentum from value rotation amid tech concentration risks; fits 1-10 day swing on sector shift catalyst.
+Catalyst: Morningstar Gold-rated top high-dividend ETF for 2026 passive income lists; fresh sector rotation to value post-tech rally narrowness.
+Entry: Enter at open or on dip to $28.50 if volume confirms; paper-trade 8% allocation.
+Exit: Take profits at +10-15% or $31.50; invalidate below $27.00 (recent support).
+Risk/reward: 8% stop vs 12-15% target = 1.5-2:1 RR; defined risk on ETF structure.
+Bear/adversary: Tech momentum persists, delaying value rotation; SCHD lags in pure risk-on.
+Source quality: Strong: Morningstar ratings/official ETF data; no hype reliance.
+Chittick Cash Filter
+Score: 78/100
+Margin of safety: Quality screens + dividend history provide downside buffer; trades at discount to fair value in growth regime.
+Valuation: Attractive 3.29% yield vs peers; P/E ~15x fwd earnings for holdings, undervalued vs S&P 21x.
+Growth runway: Stable dividend growth from quality firms; benefits from rate normalization.
+Balance-sheet risk: Low: Holdings screened for strength; no leverage/debt issues.
+Capital allocation: Disciplined index rebalance favors consistent dividend growers.
+Concentration case: Diversified 100 holdings reduces single-stock risk vs mega-caps.
+Owner thesis, 30-180 days: Core defensive holding for 30-180 days if value rotation confirms amid narrow breadth.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: news/structural
+Fresh catalyst: yes
+Repeat count, 48h: 4
+Diversity bucket: dividend-etf-defensive
+Research tier: execution-ready
+Allocation learning: none
+Hugging Face Filter
+Not run for this candidate.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.morningstar.com/etfs/arcx/schd/quote
+
+2. VYM (Large Value ETF) | confidence 0.78 | allocation 6.0% | stop 8.0% | Chittick 75/100 | tier execution-ready | bucket high-yield-etf
+Thesis: Higher-yield value ETF complement to SCHD; quality dividend payers with momentum from 2026 passive income lists.
+Catalyst: Morningstar top high-dividend ETF list for 2026; value emergence post-tech concentration.
+Entry: Enter on pullback to $125; paper-trade 6% allocation.
+Exit: Profits at +10% or $137; stop below $122.
+Risk/reward: 8% stop vs 10% target = 1.25:1 RR.
+Bear/adversary: Overlaps SCHD; less 'quality' screen than SCHD.
+Source quality: Strong: Morningstar/official data.
+Chittick Cash Filter
+Score: 75/100
+Margin of safety: Yield buffer + quality tilt.
+Valuation: 3%+ yield at P/E ~16x; attractive vs market.
+Growth runway: Dividend growth from large caps.
+Balance-sheet risk: Low across holdings.
+Capital allocation: Index favors yield discipline.
+Concentration case: Broad diversification.
+Owner thesis, 30-180 days: Value core if rotation sustains 30+ days.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: news
+Fresh catalyst: yes
+Repeat count, 48h: 4
+Diversity bucket: high-yield-etf
+Research tier: execution-ready
+Allocation learning: none
+Hugging Face Filter
+Not run for this candidate.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.morningstar.com/etfs/arcx/vym/quote
+
+3. PEG (Utilities) | confidence 0.65 | allocation 4.0% | stop 7.0% | Chittick 70/100 | tier watch | bucket utilities-defensive
+Thesis: Quality utility with earnings beat; defensive quality in narrow bull, Chittick Cash fit.
+Catalyst: Q1 2026 earnings beat (late April); low-weight congressional volume signal.
+Entry: Enter near $80 on confirmation.
+Exit: Profits +8-12%; stop -7%.
+Risk/reward: 7% stop vs 10% target = 1.4:1.
+Bear/adversary: Repeated without new catalyst; sector yield lags ETFs.
+Source quality: Strong: Earnings/official filings.
+Chittick Cash Filter
+Score: 70/100
+Margin of safety: Regulated assets buffer downside.
+Valuation: Fair yield vs peers.
+Growth runway: Infrastructure spend tailwinds.
+Balance-sheet risk: Moderate debt typical for utilities.
+Capital allocation: Consistent dividends.
+Concentration case: Sector pure-play vs broad ETFs.
+Owner thesis, 30-180 days: Defensive anchor 30-180 days if rates stabilize.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 11
+Diversity bucket: utilities-defensive
+Research tier: watch
+Allocation learning: none
+Hugging Face Filter
+Not run for this candidate.
+Social buzz, max 10%: none
+Congress signal, max 5%: low-weight volume signal
+Sources: https://investors.pseg.com
 
