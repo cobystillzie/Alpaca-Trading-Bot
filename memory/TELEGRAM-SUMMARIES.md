@@ -4508,4 +4508,37 @@ HF filter: sentiment=not run source=0/100 hype=0.30 vetoes=0
 Self-learning: tier=watch repeat48h=0 fresh=yes bucket=india-financials-momentum
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-06 11:03:58 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities in bullish melt-up with narrow breadth; tech/semis lead amid Q1 earnings strength, but rotation to value/dividend ETFs gaining traction. No actionable stock catalysts in search results; sports commentary on BAL Orioles highlights rotation depth risks but no direct equity tie. ICRA robotics conference noted but no market impact.
+Candidates: 3
+
+1. SCHD (dividend-value-etf) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 78/100 | tier execution-ready | bucket dividend-etf-defensive
+Recommendation: execute-if-guards-pass
+Catalyst: Morningstar Gold-rated top high-dividend ETF for 2026 passive income lists; fresh sector rotation to value amid tech concentration risks.
+Chittick Cash: Diversified holdings in quality dividend payers trade at discount to growth; downside buffered by yield.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=1 fresh=yes bucket=dividend-etf-defensive
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. VYM (high-yield-value-etf) | confidence 0.78 | allocation 6.0% | stop 8.0% | Chittick 75/100 | tier execution-ready | bucket high-yield-etf
+Recommendation: watch
+Catalyst: Morningstar top high-dividend ETF list for 2026; aligns with value emergence.
+Chittick Cash: Yield buffer + quality screens.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=1 fresh=yes bucket=high-yield-etf
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. INTC (semiconductors) | confidence 0.60 | allocation 6.0% | stop 8.0% | Chittick 35/100 | tier stale-watch | bucket semi-foundry-value | HF source 0/100 | HF veto
+Recommendation: watch
+Catalyst: Ongoing CHIPS Act progress and foundry updates; sector momentum lift.
+Chittick Cash: Gov't funding buffers capex.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=1
+Self-learning: tier=stale-watch repeat48h=18 fresh=no bucket=semi-foundry-value
+Social buzz, low weight: none
+Congress signal, low weight: none
 

@@ -3421,4 +3421,100 @@ SEC/company quality check:
 - **NovaGold (NG)**: Mining exploration company with Donlin Gold project in pre-development stage; high capex and permitting risk.
 
 **None of these entities are suitable for the Chittick Cash watchlist** (which focuses on liquid, profitable, dividend-paying or high-growth equities). These are specialized investment vehicles (VC fund, mortgage trust, mining exploration) with illiquidity, concentration, and execution risk.
+## Source And Signal Research - 2026-05-06 11:03:58 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks/ETFs. No notable social or attention anomalies detected.",
+  "social_buzz": "None",
+  "attention_anomalies": "None",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Search results contain three corporate announcements (Scilex/ACEA acquisition, Navigator Holdings dividend/buyback, E-Power team expansion) and one stock data page (QGEN). No congressional disclosures or legislative trades detected in provided sources. Navigator Holdings (NVGS) shows institutional hedge fund activity (Q4 2025 / Q1 2026) with mixed positioning; Encompass Capital reduced 55.8%, Acadian added 68.4%. Scilex (SCLX) acquisition of ACEA Pharma by Phoenix Asia Holdings valued at $1B, expected close Q2 2026. E-Power (EPOW) onboarded veteran team; minimal institutional interest (5 adds, 2 reduces Q4 2025). QGEN page is data-only, no news trigger.",
+  "congressional_signal": {
+    "status": "no_disclosures_detected",
+    "weight": "low",
+    "note": "Search results reference congressional trading tracking capability but contain no actual congressional disclosure filings, delayed trades, or legislative activity relevant to provided tickers. Congressional data sources not populated in results."
+  },
+  "tickers": [
+    "SCLX",
+    "NVGS",
+    "EPOW",
+    "QGEN"
+  ],
+  "source_urls": [
+    "https://www.quiverquant.com/news/Scilex+Holding+Company+Announces+Acquisition+Agreement+Between+ACEA+Therapeutics+and+Phoenix+Asia+Holdings",
+    "https://www.quiverquant.com/news/Navigator+Holdings+Ltd.+Declares+$0.07+Cash+Dividend+and+Announces+Revised+Capital+Return+Policy",
+    "https://www.quiverquant.com/news/E-Power+Inc.+Onboards+Veteran+Team+to+Enhance+AI+Power+Supply+Solutions+and+Accelerate+Market+Delivery",
+    "https://www.quiverquant.com/stock/QGEN/"
+  ]
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": "DRCT (Direct Digital Holdings) shows sharp revenue/gross profit declines (2025: $34.7M/$10.4M vs 2023: $157.1M/$37.6M) due to major sell-side customer pause from defamatory article/misinformation campaign; going concern doubt with $0.7M cash, $27.7M accumulated deficit, covenant-restricted debt; high risks from customer concentration, IVT/ad fraud, Nasdaq delisting threat. INUV stable SaaS ad tech with AI focus, customer concentration (64%+19% revenues), history of losses ($178M deficit), working capital deficit. NEOV early-stage ESS manufacturer with limited scale (17 employees), growth strategy unproven. WS established steel processor with diversified revenue/customer base, strong market position. ICCT healthcare SaaS post-merger with revenue growth via acquisitions, AR concentration. CRMZ niche credit risk SaaS with stable recurring revenue, low concentration. Durable demand in WS (steel processing), CRMZ (credit monitoring); higher risks in DRCT/INUV concentration/liquidity, NEOV execution.",
+  "filing_risks": {
+    "DRCT": [
+      "Going concern substantial doubt: $0.7M cash insufficient for 12 months, $27.7M accumulated deficit, needs funding/reorg success",
+      "Revenue/gross profit collapse 2024-25 from key sell-side customer pause (defamatory article), volumes not recovered",
+      "High customer concentration risks, payment disputes, credit facility covenants ($450k min cash), default risk",
+      "Nasdaq delisting threat if listing standards fail, operational risks (IVT/fraud detection failure), platform failures",
+      "Dilution risk from equity/debt raises, high client retention claimed (90%) but contradicted by revenue drop"
+    ],
+    "INUV": [
+      "Customer concentration: 2 customers 83.5% 2025 revenue (64.2%+19.3%), loss would materially harm",
+      "History of losses: $178.3M accumulated deficit, $5.1M 2025 operating loss, $5.1M working capital deficit, $2.8M cash",
+      "Revenue quality/seasonality risks, dependence on Yahoo/Google/ad suppliers, fraud/click fabrication exposure",
+      "NYSE American listing standards risk, dilution from RSUs/warrants, acquisition integration risks"
+    ],
+    "NEOV": [
+      "Early-stage risks: sales since 2019 only, 17 employees, fragmented installer market dependence",
+      "Supply chain/FEOC compliance, manufacturing scale-up (recent in-house shift), competition from Tesla/Enphase",
+      "Regulatory/certification risks (UL/CSIP/Rule 21), ITC phase-out 2025, financing model unproven",
+      "Customer/installer concentration potential in small installer focus, limited operating history"
+    ],
+    "WS": [
+      "Cyclical steel industry, commodity pricing/volatility, customer concentration (top 3 =33% sales)",
+      "Supply chain/raw material constraints, tariff/trade war exposure, inventory impairment risks",
+      "Labor shortages, facility disruptions, international ops risks (China/India/Mexico), competition pressure",
+      "Balance sheet strong but debt/capital deployment in downcycle sensitive"
+    ],
+    "ICCT": [
+      "Post-merger integration risks, limited history, AR concentration (26%/25% single customer)",
+      "Competition in HIPAA SaaS, regulatory/privacy risks, no patents (trade secrets only)",
+      "Revenue growth acquisition-dependent, potential dilution, healthcare billing/claims disputes"
+    ],
+    "CRMZ": [
+      "SaaS subscription concentration (99% revenue), competition from D&B/Experian, bankruptcy rate dependence",
+      "Data supplier contract risks, trade contributor program data quality, low revenue growth historically",
+      "OTC trading, small cap liquidity/valuation risks"
+    ]
+  },
+  "quality_notes": {
+    "DRCT": "Weak - revenue quality destroyed by customer pause, going concern + covenant risks dominate; no durable demand evident amid ad tech fraud/IVT exposure",
+    "INUV": "Moderate - stable SaaS recurring but concentration/losses erode quality; AI intent tech differentiated but customer-dependent",
+    "NEOV": "Speculative - growth narrative unproven, small scale, execution risks high despite policy tailwinds",
+    "WS": "Strong - established processor, diversified end-markets, automotive exposure but scale/cash flow durable; cyclical but resilient",
+    "ICCT": "Moderate - SaaS recurring with healthcare stickiness, acquisition-driven growth quality uncertain",
+    "CRMZ": "Stable - niche recurring SaaS, low concentration, bankruptcy normalization tailwind; conservative model",
+    "INTC_note": "Per memory: foundry/CHIPS progress watch but filing-unrelated; monitor dilution/capital allocation in semis context"
+  },
+  "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/1880613/000141057826000123/drct-20251231x10k.htm",
+    "https://www.sec.gov/Archives/edgar/data/829323/000141057826000098/inuv-20251231x10k.htm",
+    "https://www.sec.gov/Archives/edgar/data/1748137/000141057825000456/neov-20250630x10k.htm",
+    "https://www.sec.gov/Archives/edgar/data/1968487/000141057825000380/ws-20250531x10k.htm",
+    "https://www.sec.gov/Archives/edgar/data/1906133/000141057825000290/icct-20241231x10k.htm",
+    "https://www.sec.gov/Archives/edgar/data/315958/000141057825000174/crmz-20241231x10k.htm"
+  ]
+}
+```
 

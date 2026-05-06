@@ -1771,4 +1771,27 @@ For a cautious bot workflow on May 4, 2026:
 5. **Earnings**: Strong (+19.6% YoY) but priced in; limited upside if growth disappoints.
 6. **Breadth**: Deteriorating; only 4 mega-cap names driving index; rotation risk high.
 7. **Action**: Reduce size, tighten stops, avoid chasing momentum, wait for breadth confirmation.
+## Market Regime Research - 2026-05-06 11:03:58 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities in strong bullish 'melt-up' phase with S&P 500/Nasdaq at all-time highs after April's 10%+ surge. Tech/AI/semiconductors leading amid ceasefire relief, Trump-Xi summit optimism, and robust Q1 earnings (21% growth forecast). Narrow breadth persists despite rotation signals to value/industrials.",
+  "market_regime": "bullish_meltup",
+  "sector_rotation": "tech_ai_semis_lead__value_industrials_emerging",
+  "risk_flags": [
+    "narrow_breadth_concentration",
+    "hawkish_fed_risk",
+    "oil_geopolitical_tensions",
+    "inflation_reacceleration",
+    "elevated_valuations_mixed"
+  ],
+  "source_urls": [
+    "https://www.marketpulse.com/markets/tech-explodes-djia-nasdaq-us-stocks-outlook/",
+    "https://www.morningstar.com/markets/us-stock-market-outlook-where-find-value-after-aprils-rally",
+    "https://www.investing.com/analysis/markets-rally-as-ceasefire-holds-while-bond-market-keeps-score-200679755",
+    "https://www.benzinga.com/markets/equities/26/05/52312914/stock-market-today-sp-500-dow-futures-advance-as-trump-pauses-project-freedom-super-micro-computer-amd-intel-in-focus",
+    "https://rscapital.com/2026/05/05/spring-surge-april-showers-watered-a-bullish-market/"
+  ]
+}
+```
 

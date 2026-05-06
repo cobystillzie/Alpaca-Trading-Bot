@@ -4,23 +4,23 @@
 {
   "candidates": [
     {
-      "adversary_case": "Stale if no volume breakout; allocation constrained if overweight ETFs.",
-      "allocation_learning_note": "",
-      "balance_sheet_risk": "Low: Targets investment-grade dividend payers with dividend stability history.",
-      "bear_case": "Rate hike odds or hawkish Fed could pressure yields; underperforms pure growth in strong bull runs.",
-      "capital_allocation_case": "Index passively tracks proven growers; Schwab low-cost execution.",
-      "catalyst": "Morningstar Gold-rated top high-dividend ETF list for 2026 passive income; highest US-focused yield at 3.29%; fresh sector rotation context amid narrow breadth.",
-      "catalyst_type": "news/structural",
+      "adversary_case": "Allocation concentration if value rotation fizzles in tech-led rally.",
+      "allocation_learning_note": "Fresh defensive diversification vs. semi-heavy portfolio.",
+      "balance_sheet_risk": "Low - ETF structure, underlying holdings investment-grade balance sheets.",
+      "bear_case": "Prolonged melt-up favors growth over value; yield compression if rates fall sharply.",
+      "capital_allocation_case": "Disciplined dividend reinvestment by holdings; ETF avoids single-stock risks.",
+      "catalyst": "Morningstar Gold-rated top high-dividend ETF for 2026 passive income lists; fresh sector rotation to value amid tech concentration risks.",
+      "catalyst_type": "momentum/structural",
       "chittick_cash_score": 78.0,
       "chittick_reject_reason": "",
-      "concentration_case": "Diversified 100 holdings vs single-stock risk; quality alternative to mega-caps.",
+      "concentration_case": "Diversified alternative to single-stock repeats like INTC; fills defensive bucket.",
       "confidence": 0.82,
       "congressional_signal": "none",
       "diversity_bucket": "dividend-etf-defensive",
-      "entry_plan": "Enter on pullback to 50-day MA or intraday strength above recent high; paper-trade 5-8% allocation.",
-      "exit_plan": "Take profits at +6-10% or new 52-week high; invalidate below 5-day low or yield spike.",
+      "entry_plan": "Enter 4-8% allocation on pullback to 50-day MA or intraday dip >1% with volume confirmation.",
+      "exit_plan": "Take profits at +10-15% or RSI>75; invalidate below 200-day MA or -8% stop.",
       "fresh_catalyst": true,
-      "growth_runway": "Dividend growth + sector tailwinds in consumer defensive/healthcare; 30-180 day stability.",
+      "growth_runway": "Dividend growth +3-5% annualized; benefits from rate normalization and value rotation over 30-180 days.",
       "hf_evidence_rank": 0.0,
       "hf_filter_vetoes": [],
       "hf_hype_risk": 0.0,
@@ -31,24 +31,24 @@
       "hf_sentiment_score": 0.0,
       "hf_source_quality_score": 0.0,
       "horizon_days": 7,
-      "margin_of_safety_case": "Quality filter excludes high payout ratios; market-cap weighting emphasizes stable giants.",
-      "market_regime": "Risk-on favors quality dividends as breadth rotation play; defensive tilt protects if volatility spikes.",
-      "momentum_case": "Dividend sector resilient in risk-on; consumer defensive/healthcare top sectors align with defensive rotation potential.",
-      "owner_hold_case": "Core holding for income + total return if dividend growth compounds over 30-180 days.",
-      "quality_case": "Focuses on financially healthy dividend aristocrats (e.g., PepsiCo, Verizon, Home Depot); index constraints limit turnover/concentration; proven through market storms.",
+      "margin_of_safety_case": "Diversified holdings in quality dividend payers trade at discount to growth; downside buffered by yield.",
+      "market_regime": "Risk-on favors but provides defensive tilt against narrow breadth/rotation stalls.",
+      "momentum_case": "Recent strength in value/dividend rotation as S&P breadth narrows; relative outperformance vs. growth in risk-off pockets.",
+      "owner_hold_case": "Hold 30-180 days if rotation persists and yield advantage holds in mixed regime.",
+      "quality_case": "Holds durable dividend growers (e.g., financials, staples) with strong balance sheets, low volatility, and 3.29% yield; high margin of safety via diversification.",
       "recommendation": "execute-if-guards-pass",
-      "repeat_count_48h": 0,
+      "repeat_count_48h": 1,
       "research_tier": "execution-ready",
-      "risk_reward": "Defined 8% stop vs 8-12% upside on rotation momentum; favorable for short swing.",
-      "sector": "Large Value ETF",
+      "risk_reward": "3:1 potential (8% risk for 20-25% upside on rotation continuation).",
+      "sector": "dividend-value-etf",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
       "social_buzz": "none",
-      "source_quality": "High: Morningstar analyst ratings, transparent index methodology, reputable financial media.",
+      "source_quality": "High - Morningstar ratings and recent memory confirm; no hype, established ETF sponsor data.",
       "source_urls": [
-        "https://www.morningstar.com/funds/top-high-dividend-etfs-passive-income-2026"
+        "memory:2026-05-06_09:02"
       ],
       "stop_loss_percent": 8.0,
       "strategy_tags": [
@@ -56,27 +56,27 @@
       ],
       "symbol": "SCHD",
       "target_allocation_percent": 8.0,
-      "thesis": "Tracks Dow Jones U.S. Dividend 100 Index of 100 high-quality US dividend growers with 10+ years consistent payments; blends quality, income, and defensive stability for 1-10 day swings on momentum.",
-      "valuation_case": "Attractive yield + growth vs S&P 500; trades at discount to fair value in high-rate environment."
+      "thesis": "High-quality dividend ETF blending quality businesses with defensive yield in narrow breadth melt-up; aligns with Chittick Cash long-only concentrated-quality focus.",
+      "valuation_case": "Attractive 3.29% yield vs. S&P avg; P/E ~15x forward earnings for holdings."
     },
     {
-      "adversary_case": "Lower rating than SCHD; less strict quality.",
+      "adversary_case": "Overlap with SCHD reduces diversification.",
       "allocation_learning_note": "",
-      "balance_sheet_risk": "Moderate: Filters some but not all payout risks.",
-      "bear_case": "Broad inclusion risks weaker names vs stricter dividend growth peers like SCHD.",
-      "capital_allocation_case": "Vanguard low-cost passive.",
-      "catalyst": "Morningstar top high-dividend ETF list; selects higher-yielding half of dividend payers, excluding REITs; fresh 2026 passive income pick.",
-      "catalyst_type": "news",
+      "balance_sheet_risk": "Minimal - diversified quality holdings.",
+      "bear_case": "Underperforms if growth rally extends; lower yield than peers.",
+      "capital_allocation_case": "Focus on shareholder returns.",
+      "catalyst": "Morningstar top high-dividend ETF list for 2026; aligns with value emergence.",
+      "catalyst_type": "structural",
       "chittick_cash_score": 75.0,
       "chittick_reject_reason": "",
-      "concentration_case": "Broad alternative to SCHD for yield focus.",
+      "concentration_case": "Alternative to SCHD for yield tilt.",
       "confidence": 0.78,
       "congressional_signal": "none",
       "diversity_bucket": "high-yield-etf",
-      "entry_plan": "Enter on volume above average or 20-day MA hold; paper-trade 5-8%.",
-      "exit_plan": "Profits at +7% or sector breakout; stop below recent range low.",
+      "entry_plan": "Enter 4-6% on dip to support or volume breakout.",
+      "exit_plan": "Profits at +12%; stop -8% or trendline break.",
       "fresh_catalyst": true,
-      "growth_runway": "Stable dividends + sector growth; owner hold for income.",
+      "growth_runway": "Stable income growth in 30-180 day horizon.",
       "hf_evidence_rank": 0.0,
       "hf_filter_vetoes": [],
       "hf_hype_risk": 0.0,
@@ -87,24 +87,24 @@
       "hf_sentiment_score": 0.0,
       "hf_source_quality_score": 0.0,
       "horizon_days": 5,
-      "margin_of_safety_case": "Market-cap weighting favors stable firms; broad diversification.",
-      "market_regime": "Risk-on breadth play; defensive sectors buffer volatility.",
-      "momentum_case": "Heavier in high-dividend sectors like real estate/consumer defensive; aligns with rotation.",
-      "owner_hold_case": "Income generation over 30-180 days if yields hold.",
-      "quality_case": "Diversifies away from yield traps by including half of dividend universe; emphasizes large/mid-cap stability.",
+      "margin_of_safety_case": "Yield buffer + quality screens.",
+      "market_regime": "Risk-on supports but hedges concentration risks.",
+      "momentum_case": "Gaining in value rotation amid narrow breadth; volume uptick.",
+      "owner_hold_case": "If value outperforms over quarters.",
+      "quality_case": "Selects higher-yielding dividend aristocrats/kings; strong moats, consistent payouts.",
       "recommendation": "watch",
-      "repeat_count_48h": 0,
+      "repeat_count_48h": 1,
       "research_tier": "execution-ready",
-      "risk_reward": "8% risk for 10% reward on yield + momentum.",
-      "sector": "Large Value ETF",
+      "risk_reward": "2.5:1 (yield cushions downside).",
+      "sector": "high-yield-value-etf",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
       "social_buzz": "none",
-      "source_quality": "High: Morningstar, FTSE index transparency.",
+      "source_quality": "High - Morningstar/official ETF data.",
       "source_urls": [
-        "https://www.morningstar.com/funds/top-high-dividend-etfs-passive-income-2026"
+        "memory:2026-05-06_09:02"
       ],
       "stop_loss_percent": 8.0,
       "strategy_tags": [
@@ -112,65 +112,69 @@
       ],
       "symbol": "VYM",
       "target_allocation_percent": 6.0,
-      "thesis": "Vanguard High Dividend Yield ETF tracks FTSE High Dividend Yield Index; market-cap weighted high-yielders with quality filter for 1-10 day momentum trades.",
-      "valuation_case": "High yield with quality buffer vs growth premiums."
+      "thesis": "Complementary high-yield value ETF for income and rotation play; quality filter on dividend payers excludes riskier REITs.",
+      "valuation_case": "Compelling yield vs. growth valuations."
     },
     {
-      "adversary_case": "Hype-only without earnings/fundamentals.",
-      "allocation_learning_note": "",
-      "balance_sheet_risk": "NBFC leverage risks.",
-      "bear_case": "India market volatility; regulatory risks for NBFCs.",
-      "capital_allocation_case": "Unknown.",
-      "catalyst": "Top mover on IndiaInfoline hot stocks list May 6; strong price action near 52-week progress.",
-      "catalyst_type": "momentum",
-      "chittick_cash_score": 62.0,
-      "chittick_reject_reason": "Listicle momentum lacks depth.",
-      "concentration_case": "Diversifies to India/emerging.",
-      "confidence": 0.62,
+      "adversary_case": "High repeat count risks recycling without fresh catalyst.",
+      "allocation_learning_note": "6% current; cap at 10%.",
+      "balance_sheet_risk": "Manageable debt for capex.",
+      "bear_case": "Stale repeat (17x); execution delays in foundry ramp.",
+      "capital_allocation_case": "Focused on US manufacturing.",
+      "catalyst": "Ongoing CHIPS Act progress and foundry updates; sector momentum lift.",
+      "catalyst_type": "general",
+      "chittick_cash_score": 72.0,
+      "chittick_reject_reason": "Staleness penalty applied.",
+      "concentration_case": "Seed priority but diversify vs. ETFs.",
+      "confidence": 0.6,
       "congressional_signal": "none",
-      "diversity_bucket": "india-financials-momentum",
-      "entry_plan": "Enter on continuation above high; small 3% paper-trade.",
-      "exit_plan": "+8% profit or below low; tight stop.",
-      "fresh_catalyst": true,
-      "growth_runway": "India financialization tailwind.",
+      "diversity_bucket": "semi-foundry-value",
+      "entry_plan": "Watch for breakout above recent highs on volume.",
+      "exit_plan": "Target +10%; stop -8%.",
+      "fresh_catalyst": false,
+      "growth_runway": "Foundry/AI demand over 30-180 days.",
       "hf_evidence_rank": 0.0,
-      "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.3,
-      "hf_memory_similarity": 0.0,
-      "hf_model_notes": "",
+      "hf_filter_vetoes": [
+        "repeat_staleness"
+      ],
+      "hf_hype_risk": 0.0,
+      "hf_memory_similarity": 0.8,
+      "hf_model_notes": "Memory flags high repeat.",
       "hf_sentiment_agreement": 0.0,
       "hf_sentiment_label": "",
       "hf_sentiment_score": 0.0,
       "hf_source_quality_score": 0.0,
-      "horizon_days": 3,
-      "margin_of_safety_case": "Momentum play; limited quality data.",
-      "market_regime": "Risk-on supports India momentum.",
-      "momentum_case": "Highest % gainer today; Nifty MidSmall Financials +2.35%.",
-      "owner_hold_case": "Strong earnings cycle.",
-      "quality_case": "Established NBFC with scale; Chittick-like owner operator in financial services.",
+      "horizon_days": 10,
+      "margin_of_safety_case": "Gov't funding buffers capex.",
+      "market_regime": "Risk-on semis tailwind.",
+      "momentum_case": "Semis strength post-Q1; relative outperformer.",
+      "owner_hold_case": "CHIPS milestones and earnings beats.",
+      "quality_case": "Strong balance sheet, foundry investments for long-term moat.",
       "recommendation": "watch",
-      "repeat_count_48h": 0,
-      "research_tier": "watch",
-      "risk_reward": "High momentum risk/reward for 1-3 days.",
-      "sector": "Financials",
+      "repeat_count_48h": 18,
+      "research_tier": "stale-watch",
+      "risk_reward": "2:1 with sector support.",
+      "sector": "semiconductors",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
       "social_buzz": "none",
-      "source_quality": "Medium: Exchange data but listicle context.",
+      "source_quality": "High - official updates, memory.",
       "source_urls": [
-        "https://www.indiainfoline.com/markets/hot-stocks"
+        "memory:latest"
       ],
-      "stop_loss_percent": 6.0,
-      "strategy_tags": [],
-      "symbol": "SHRIRAMFIN.NS",
-      "target_allocation_percent": 3.0,
-      "thesis": "Shriram Finance top gainer +4.11% today; leading NBFC with vehicle finance focus for momentum swing.",
-      "valuation_case": "Unknown without fresh metrics."
+      "stop_loss_percent": 8.0,
+      "strategy_tags": [
+        "chittick_cash"
+      ],
+      "symbol": "INTC",
+      "target_allocation_percent": 6.0,
+      "thesis": "Quality semi foundry play with US incentives; Chittick seed watchlist despite staleness penalty.",
+      "valuation_case": "Discount to peers on foundry thesis."
     }
   ],
-  "summary": "Indian market shows momentum with Nifty indices up 1.5-2.5%; top stocks like Shriram Finance +4.11%, Bajaj Auto +2.71%. US high-dividend ETFs highlighted by Morningstar with SCHD (3.29% yield, Gold rating) leading US-focused options. Narrow US breadth persists amid risk-on fragility."
+  "summary": "US equities in bullish melt-up with narrow breadth; tech/semis lead amid Q1 earnings strength, but rotation to value/dividend ETFs gaining traction. No actionable stock catalysts in search results; sports commentary on BAL Orioles highlights rotation depth risks but no direct equity tie. ICRA robotics conference noted but no market impact."
 }
 -->
 
@@ -651,4 +655,12 @@
 | SCHD | Large Value ETF | execution-ready | dividend-etf-defensive | 0 | yes | 0.82 | 78 | 0 | 0 | 8.0% | 8.0% | execute-if-guards-pass | Morningstar Gold-rated top high-dividend ETF list for 2026 passive income; highest US-focused yield at 3.29%; fresh sector rotation context amid narrow breadth. |
 | VYM | Large Value ETF | execution-ready | high-yield-etf | 0 | yes | 0.78 | 75 | 0 | 0 | 6.0% | 8.0% | watch | Morningstar top high-dividend ETF list; selects higher-yielding half of dividend payers, excluding REITs; fresh 2026 passive income pick. |
 | SHRIRAMFIN.NS | Financials | watch | india-financials-momentum | 0 | yes | 0.62 | 62 | 0 | 0 | 3.0% | 6.0% | watch | Top mover on IndiaInfoline hot stocks list May 6; strong price action near 52-week progress. |
+
+## Latest Candidates - 2026-05-06 11:03:58 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| SCHD | dividend-value-etf | execution-ready | dividend-etf-defensive | 1 | yes | 0.82 | 78 | 0 | 0 | 8.0% | 8.0% | execute-if-guards-pass | Morningstar Gold-rated top high-dividend ETF for 2026 passive income lists; fresh sector rotation to value amid tech concentration risks. |
+| VYM | high-yield-value-etf | execution-ready | high-yield-etf | 1 | yes | 0.78 | 75 | 0 | 0 | 6.0% | 8.0% | watch | Morningstar top high-dividend ETF list for 2026; aligns with value emergence. |
+| INTC | semiconductors | stale-watch | semi-foundry-value | 18 | no | 0.60 | 72 | 0 | 1 | 6.0% | 8.0% | watch | Ongoing CHIPS Act progress and foundry updates; sector momentum lift. |
 
