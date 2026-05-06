@@ -4126,4 +4126,37 @@ HF filter: sentiment=not run source=7/100 hype=0.10 vetoes=0
 Self-learning: tier=watch repeat48h=5 fresh=yes bucket=utilities-defensive
 Social buzz, low weight: none
 Congress signal, low weight: low-weight mixed prior trades
+## Research Update - 2026-05-06 04:57:07 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities holding near record highs amid narrow AI/tech leadership and resilient earnings, but caution persists with elevated oil prices, bond yields >5% on 30yr Treasury, persistent inflation, and Fed hike risks. Mixed breadth and rotation signals suggest fragility; no fresh search catalysts today, relying on memory momentum names with staleness penalties.
+Candidates: 3
+
+1. INTC (Semiconductors) | confidence 0.60 | allocation 6.0% | stop 8.0% | Chittick 35/100 | tier stale-watch | bucket semi-foundry-value | HF source 0/100 | HF veto
+Recommendation: watch
+Catalyst: Ongoing foundry updates and CHIPS Act progress; semis sector strength providing momentum lift post-Q1 2026 earnings (late April).
+Chittick Cash: US gov incentives buffer downside; trading below historical multiples.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=1
+Self-learning: tier=stale-watch repeat48h=15 fresh=yes bucket=semi-foundry-value
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. PEG (Utilities) | confidence 0.65 | allocation 4.0% | stop 7.0% | Chittick 70/100 | tier watch | bucket utilities-defensive
+Recommendation: watch
+Catalyst: Q1 2026 earnings beat; low-weight congressional attention as volume signal.
+Chittick Cash: Regulated assets + dividends provide floor.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=6 fresh=yes bucket=utilities-defensive
+Social buzz, low weight: none
+Congress signal, low weight: low-weight mixed trades
+
+3. JLHL (Industrials) | confidence 0.68 | allocation 5.0% | stop 8.0% | Chittick 35/100 | tier watch | bucket industrials-momentum | HF source 0/100
+Recommendation: watch
+Catalyst: Top-ranked +72.84% May gainer per StockTitan as of May 5 close; sustained strength.
+Chittick Cash: Momentum-defined; limited quality buffer.
+HF filter: sentiment=not run source=0/100 hype=0.30 vetoes=0
+Self-learning: tier=watch repeat48h=1 fresh=yes bucket=industrials-momentum
+Social buzz, low weight: none
+Congress signal, low weight: none
 

@@ -1410,4 +1410,27 @@ For a cautious bot workflow on May 4, 2026:
   ]
 }
 ```
+## Market Regime Research - 2026-05-06 04:57:07 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities near record highs with rapid recovery from recent selloff, driven by AI momentum, resilient earnings, buybacks, and sidelined cash. However, rally appears narrow (AI/tech-led), masking risks from elevated oil, rising bond yields (>5% on 30yr Treasury), persistent inflation, and Fed uncertainty. Mixed breadth, rotation signals, and 'risk-off' rotations amid geopolitical tensions. Earnings tone positive but high valuations demand perfection; VIX mildly elevated (~17-19). Cautious paper-trading: favor defensives/utilities, monitor AI leaders selectively.",
+  "market_regime": "Narrow bull with caution flags - uptrend intact (S&P near ATHs, bullish breadth/momentum/seasonality), but fragile foundation reliant on AI/affluent consumers/asset prices. Risk-off rotations emerging.",
+  "sector_rotation": "Aggressive rotation: AI/tech (Nvidia/PLTR/AMD strong), Amazon/Apple/MSFT bounces; laggards in Meta, financials, consumer discretionary. Narrow leadership; software valuations stretched (e.g., PLTR ~80-90x cash flow).",
+  "risk_flags": [
+    "Oil spike/geopolitical (Iran war) fueling inflation, no Fed cuts (8% prob 2026, >50% hike odds by Apr 2027)",
+    "Bond yields >5% (30yr Treasury) signaling higher-for-longer rates",
+    "Narrow breadth, high valuations, VIX spikes to 19",
+    "Fed uncertainty/choppy new chair transition",
+    "Consumer weakness if oil persists, AI capex sustainability questions"
+  ],
+  "source_urls": [
+    "https://www.youtube.com/watch?v=Ytz0tXbNXmA",
+    "https://www.businessinsider.com/bond-yields-30-year-treasury-inflation-stock-market-outlook-2026-5",
+    "https://www.youtube.com/watch?v=GvLKcmQfYR4",
+    "https://www.tegfcu.com/mortgage/fed-holds-rates-steady-what-it-means-for-you/",
+    "https://economictimes.com/markets/us-stocks/news/us-stock-market-bond-markets-signal-rising-odds-of-fed-rate-hike-before-cuts/articleshow/130844727.cms"
+  ]
+}
+```
 

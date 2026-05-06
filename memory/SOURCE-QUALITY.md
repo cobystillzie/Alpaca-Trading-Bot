@@ -3056,4 +3056,71 @@ SEC/company quality check:
   "quality_notes": "No durable-demand evidence; all show loss-making ops, high customer conc. (SES/DRCT/INUV 80%+), dilution risks from cap raises (SES/DRCT/FATE), revenue quality issues (ad fraud seasonality in DRCT/INUV, unproven markets SES), capex heavy (SES mfg/AI, NEOV facilities). Balance sheets strained (DRCT going concern, INUV neg WC). No litigation noted. INTC memory alignment: semi risks but no direct filing here. Avoid watchlist adds.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-06 04:57:07 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks or ETFs. No notable social or web attention anomalies detected.",
+  "social_buzz": "Weak/none",
+  "attention_anomalies": [],
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Search results contain no recent congressional trades in liquid US stocks/ETFs as of May 6, 2026. ONCY shows zero congressional trading activity. QGEN shows one low-weight trade (Ro Khanna, D-House, purchase $1,001–$15,000, date not specified). COIN referenced in regulatory context (prediction markets, not equity trades). No fresh congressional equity disclosures detected in results.",
+  "congressional_signal": {
+    "weight": "low",
+    "rationale": "Congressional disclosure data is delayed and sparse in results. Single QGEN trade lacks date specificity and transaction size is minimal. No pattern or corroboration across multiple members or sectors. Prediction market regulation (Vasquez, Subramanyam) is policy-focused, not equity-driven.",
+    "caveat": "Treat as secondary attention signal only; do not use as primary catalyst."
+  },
+  "tickers": [
+    {
+      "symbol": "QGEN",
+      "trade_type": "Purchase",
+      "member": "Ro Khanna",
+      "chamber": "House",
+      "party": "D",
+      "amount_range": "$1,001–$15,000",
+      "date": "unspecified",
+      "source_confidence": "very_low"
+    }
+  ],
+  "source_urls": [
+    "https://www.quiverquant.com/stock/ONCY/institutions/",
+    "https://www.quiverquant.com/stock/QGEN/",
+    "https://www.quiverquant.com/stock/COIN/"
+  ],
+  "note": "No actionable congressional equity signal detected. Results primarily contain regulatory/policy news (climate disclosure rescission, prediction market bills, sexual harassment settlements) and corporate earnings/M&A announcements. Existing memory candidates (INTC, PEG, COIN, VALN, JLHL, GBTG, CABA) remain unchanged pending fresh congressional disclosure data."
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "Direct Digital Holdings (DRCT) operates a programmatic advertising platform (Colossus SSP) with sell-side and buy-side services, reporting sharp revenue declines in 2024-2025 due to a major customer pause from defamatory allegations; substantial going concern doubt with $0.7M cash vs. $27.7M accumulated deficit; Inuvo (INUV) provides AI-driven ad tech with IntentKey, strong IP (18 patents), but high customer concentration (83.5% from two clients) and operating losses; other filings (FATE biotech, BRID foods, NEOV energy storage, WS steel) show sector-specific risks but no durable demand signals for watchlist. DRCT exhibits acute balance-sheet distress, revenue concentration, and dilution risks; INUV has revenue quality issues.",
+  "filing_risks": {
+    "DRCT": [
+      "Balance-sheet: $0.7M cash, $27.7M accumulated deficit, substantial going concern doubt; insufficient cash for 12 months without funding.",
+      "Concentration: 2024-2025 revenue/gross profit collapse from one sell-side customer pause (defamatory article); sell-side volumes not recovered.",
+      "Dilution: Potential equity/debt raises to fund operations, with senior rights/preferences.",
+      "Revenue quality: 2025 revenue $34.7M (-44% YoY), gross profit $10.4M (-40% YoY); credit facilities with $450K min cash covenant, default risk.",
+      "Capital allocation: Reorganization July 2024, strategic shift to buy-side unproven; Nasdaq delisting risk.",
+      "Litigation: Defamatory article/misinformation campaign impacted major customer.",
+      "Valuation: High client retention (90%) but underlying model questioned amid declines."
+    ],
+    "INUV": [
+      "Concentration: Two customers 64.2% + 19.3% of 2025 revenue (83.5% total); 2024 was 75% + 7%.",
+      "Revenue quality: Revenues +2.9% YoY but gross margin -10.1% to 74.5%; operating loss $5.1M; net working capital deficit $5.1M.",
+      "Balance-sheet: $2.8M cash, accumulated deficit $178.3M; negative operating cash flows.",
+      "Dilution: Restricted stock units/warrants; history of equity/debt funding losses.",
+      "Capital allocation: Dependence on Yahoo/Google (multi-year contracts); acquisition strategy risks."
+    ],
+    "Others": "FATE: Clinical-stage biotech with funding/manufacturing risks; BRID: Customer concentration (Wal-Mart 33.5%, Dollar General 14.2%), inflation/commodity risks; NEOV: Early-stage ESS with supply chain/competition risks; WS: Cyclical steel with commodity/competition risks. No litigation/dilution flags."
+  },
+  "quality_notes": "DRCT: Poor - going concern, revenue collapse, customer dependency undermine durability; INUV: Moderate - AI/IP strengths but extreme concentration erodes revenue quality; no durable demand evidence (e.g., recurring contracts stable, backlog growth) for watchlist adds; INTC memory note: No INTC filing here, but prior watch status holds on foundry/CHIPS; avoid GOOGL/GOOG per Chittick (not present).",
+  "source_urls": []
+}
 
