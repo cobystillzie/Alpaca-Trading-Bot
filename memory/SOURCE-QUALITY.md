@@ -3819,4 +3819,237 @@ SEC/company quality check:
   ]
 }
 ```
+## Source And Signal Research - 2026-05-06 19:07:49 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks or ETFs. No evidence of hype, pump language, or unsupported claims detected.",
+  "social_buzz": "None",
+  "attention_anomalies": "None",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Search results contain two unrelated corporate disclosures: (1) QIAGEN N.V. (QGEN) stock data page showing historical congressional trading by Representatives Ro Khanna, Peter Welch, Alan S. Lowenthal, and Donna E. Shalala from 2017–2022 (all trades in $1K–$50K range, no recent activity); (2) Navigator Holdings Ltd. (NVGS) Q1 2026 earnings announcement with dividend declaration and asset sale plan. No fresh congressional disclosures detected in search results. Congressional data on QGEN is stale (oldest: Feb 2017, most recent: Jan 2022) and below reporting threshold for current signal weight.",
+  "congressional_signal": {
+    "weight": "low",
+    "status": "stale",
+    "detail": "QGEN: Historical trades by four House Democrats (2017–2022) in small tranches; no recent filings. NVGS: No congressional trading disclosed. Both sources lack current-quarter disclosure relevance per STOCK Act delayed reporting norms. Insufficient for trade catalyst.",
+    "recommendation": "Monitor for fresh Q2 2026 disclosures (typically filed 30–45 days post-quarter-end); current data does not meet two-source threshold for actionable signal."
+  },
+  "tickers": [
+    "QGEN",
+    "NVGS"
+  ],
+  "source_urls": [
+    "https://www.quiverquant.com/stock/QGEN/",
+    "https://www.quiverquant.com/news/Navigator+Holdings+Ltd.+Declares+$0.07+Cash+Dividend+and+Announces+Revised+Capital+Return+Policy"
+  ]
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": "Seven 10-K filings analyzed (SES AI, Direct Digital Holdings, Inuvo, NeoVolta, Worthington Steel, iCoreConnect, CreditRiskMonitor). All exhibit material operational, financial, or market-risk headwinds. SES AI and Direct Digital face going-concern doubts; Inuvo and Worthington show revenue concentration; NeoVolta and iCoreConnect are early-stage with limited scale; CreditRiskMonitor operates in fragmented, low-TAM niche. None qualify as durable-demand or execution-ready candidates.",
+  "filing_risks": {
+    "SES_AI_Corp_SES": {
+      "ticker": "SES",
+      "cik": "1819142",
+      "filing_date": "2026-03-04",
+      "critical_risks": [
+        "Accumulated deficit $371.9M (Dec 2025); net losses $73.0M (2025), $100.2M (2024); no profitable operations since inception.",
+        "Going-concern risk: expects continued losses 'for the foreseeable future'; profitability projections based on unvalidated internal assumptions.",
+        "Capital intensity: requires 'substantial additional capital' for R&D, manufacturing scale, and Molecular Universe development; no assurance financing available on acceptable terms.",
+        "UZ Energy integration (Sept 2025 acquisition): material impairment risk if integration fails; diverts senior management attention.",
+        "UAM market unproven: no market standard battery technology; uncertain adoption; testing/certification results unknown.",
+        "Customer concentration: business does not 'substantially depend on any one customer' but relies on OEM trial-to-order conversion; sampling basis sales create execution risk.",
+        "Supply chain: limited long-term supplier agreements; volume demand currently limited; Hisun JV (Nov 2025) for electrolyte manufacturing not yet operational (H2 2026 target).",
+        "Product liability: high energy density lithium batteries pose fire/safety risks; dendrite formation in Li-Metal anodes; no assurance defects detected pre-sale.",
+        "Warranty exposure: reserves based on historical analysis; no assurance future claims consistent with past.",
+        "Key personnel dependency: business depends on senior executives and skilled workforce; retention risk."
+      ],
+      "balance_sheet_quality": "POOR – Accumulated deficit $371.9M; negative cash flow from operations; cash on hand and marketable securities stated as sufficient for 12 months only; no clear path to profitability.",
+      "revenue_quality": "POOR – Pre-revenue or minimal revenue; business model relies on future OEM adoption and commercialization of novel materials; no recurring revenue base.",
+      "concentration_risk": "MODERATE – No single customer >10% but OEM relationships critical; trial-to-order conversion uncertain.",
+      "dilution_risk": "HIGH – Expects to raise capital through equity offerings; current shareholders face dilution.",
+      "litigation_risk": "MODERATE – Product liability exposure inherent in high-energy-density battery manufacturing; potential recalls.",
+      "valuation_risk": "EXTREME – Pre-commercial stage; accumulated losses exceed $370M; valuation dependent on unproven commercialization timelines."
+    },
+    "Direct_Digital_Holdings_DRCT": {
+      "ticker": "DRCT",
+      "cik": "1880613",
+      "filing_date": "2026-03-31",
+      "critical_risks": [
+        "Going-concern doubt: substantial doubt about ability to continue as going concern; cash $0.7M (Dec 31, 2025); accumulated deficit $27.7M.",
+        "Revenue collapse: 2024 revenue $62.3M (down from $157.1M in 2023); 2025 revenue $34.7M (down 44% YoY). Gross profit 2025 $10.4M (down 40% from 2024 $17.4M).",
+        "Customer pause impact: May 2024 sell-side customer pause due to defamatory article/blog (alleged coordinated misinformation); customer reconnected May 22, 2024 but volumes not recovered to pre-pause levels; ongoing impact through 2025.",
+        "Debt covenants: credit facilities contain affirmative/negative covenants including minimum unrestricted cash $450K; default risk if covenants breached.",
+        "Term credit facility maturity: existing facility matures Dec 3, 2026; renewal uncertain given business status.",
+        "High customer concentration: two customers represent 64.2% and 19.3% of 2025 revenue (83.5% combined); loss of major customer would materially harm business.",
+        "Operational challenges: reorganization plan executed July 1, 2024; cost management critical to survival.",
+        "Financing uncertainty: no assurance additional capital available on acceptable terms; equity dilution or debt at higher rates likely if capital raised.",
+        "Reputational damage: defamatory article/blog incident created negative publicity; brand recovery uncertain."
+      ],
+      "balance_sheet_quality": "CRITICAL – Cash $0.7M insufficient for 12 months; accumulated deficit $27.7M; substantial doubt about going concern.",
+      "revenue_quality": "POOR – Collapsed 78% from 2023 peak; dependent on two customers (83.5% of revenue); recovery trajectory uncertain.",
+      "concentration_risk": "EXTREME – Two customers = 83.5% of revenue; loss of either would be catastrophic.",
+      "dilution_risk": "HIGH – Likely to issue equity or convertible debt to survive; existing shareholders face severe dilution.",
+      "litigation_risk": "MODERATE – Defamatory article/blog incident; potential claims or reputational litigation.",
+      "valuation_risk": "EXTREME – Going-concern doubt; revenue collapse; minimal cash; survival dependent on capital raise and customer recovery."
+    },
+    "Inuvo_Inc_INUV": {
+      "ticker": "INUV",
+      "cik": "829323",
+      "filing_date": "2026-03-05",
+      "critical_risks": [
+        "Revenue concentration: two customers = 64.2% and 19.3% of 2025 revenue (83.5% combined); 2024 same two customers = 75.0% and 7.0% (82.0% combined).",
+        "Customer dependency: loss of material customers would significantly harm business; historically able to replace lost clients but no assurance.",
+        "Operating losses: operating loss $5.1M (2025) vs. $5.8M (2024); gross profit margin declined 10.1% to 74.5% (2025).",
+        "Negative working capital: net working capital deficit $5.1M (Dec 31, 2025); cash $2.8M.",
+        "Accumulated deficit: $178.3M through Dec 31, 2025; recurring losses and cash outflows from operations.",
+        "Liquidity risk: negative cash flows from operations; dependent on equity offerings and debt facilities for funding.",
+        "Fixed cost structure: investment in internally developed software consists primarily of fixed labor costs; limited flexibility.",
+        "Revenue growth modest: 2.9% growth 2025 vs. 2024; insufficient to offset margin compression.",
+        "Competitive pressure: highly competitive industry; competitors have greater resources; no guarantee of maintaining competitive positioning."
+      ],
+      "balance_sheet_quality": "POOR – Accumulated deficit $178.3M; negative working capital $5.1M; cash $2.8M; dependent on debt facility.",
+      "revenue_quality": "POOR – 83.5% concentrated in two customers; modest 2.9% growth; margin compression.",
+      "concentration_risk": "EXTREME – Two customers = 83.5% of revenue; material customer loss would be catastrophic.",
+      "dilution_risk": "HIGH – History of funding through equity offerings; likely to continue.",
+      "litigation_risk": "LOW – No material litigation disclosed.",
+      "valuation_risk": "HIGH – Accumulated losses $178.3M; negative working capital; revenue concentration; modest growth."
+    },
+    "NeoVolta_Inc_NEOV": {
+      "ticker": "NEOV",
+      "cik": "1748137",
+      "filing_date": "2025-09-29",
+      "critical_risks": [
+        "Early-stage company: founded 2018; sales commenced July 2019; limited operating history; inherent startup risks.",
+        "Capital requirements: energy storage systems (ESS) manufacturing is capital-intensive; requires ongoing investment in R&D, manufacturing, and product development.",
+        "Market adoption uncertainty: residential retrofit and new installation markets growing but adoption rates uncertain; battery adoption in new solar projects estimated 15-20% nationally (vs. 6% in 2020).",
+        "Competition: faces established competitors (Tesla, LG Chem, Sonnen, Enphase, SunPower, SMA America) with greater financial resources, manufacturing capacity, brand recognition, and distribution.",
+        "Product liability: high-energy-density lithium batteries pose fire/safety risks; UL 9540/9540A certification required; thermal runaway risk (though LiFePO4 chemistry mitigates).",
+        "Regulatory environment: complex, evolving federal/state/local regulatory framework; California and Hawaii leading regulatory changes; compliance requires ongoing investment.",
+        "Manufacturing transition: shifted from contract manufacturing to in-house production (2023); operational execution risk; quality control dependency.",
+        "Supply chain: sources critical components from US and Asia; tariff/supply disruption risks; FEOC compliance requirements emerging.",
+        "Financing dependency: federal incentives (ITC) phasing down post-2025; adoption increasingly dependent on third-party financing; company developing financing partnerships.",
+        "Limited scale: 17 full-time employees (June 30, 2025); reliance on outside consultants and contractors.",
+        "New product launches: C&I BESS (250 kW/430 kWh) and NV16 inverter announced post-fiscal year; commercialization execution risk."
+      ],
+      "balance_sheet_quality": "WEAK – Early-stage company; limited financial history; capital-intensive business model.",
+      "revenue_quality": "DEVELOPING – Growing market (residential retrofit, new installations, C&I); adoption rates improving but uncertain.",
+      "concentration_risk": "MODERATE – Distributed across installer and distributor channels; no single customer >10% disclosed.",
+      "dilution_risk": "MODERATE – Likely to require additional capital for manufacturing scale and product development.",
+      "litigation_risk": "MODERATE – Product liability exposure inherent in ESS manufacturing.",
+      "valuation_risk": "MODERATE-HIGH – Early-stage; capital-intensive; execution risk on new product launches and market adoption."
+    },
+    "Worthington_Steel_Inc_WS": {
+      "ticker": "WS",
+      "cik": "1968487",
+      "filing_date": "2025-07-29",
+      "critical_risks": [
+        "Cyclical industry: steel processing highly cyclical; dependent on automotive, construction, machinery end markets; economic downturns materially impact demand.",
+        "Commodity pricing: processed steel products priced competitively based on market factors; raw material cost volatility impacts margins.",
+        "Customer concentration: top three customers = 33.0% of fiscal 2025 net sales; loss of major customer would materially harm business.",
+        "Automotive dependency: automotive is largest end market and largest consumer of flat-rolled steel; EV transition creates both opportunity and risk.",
+        "Competition: fragmented, highly competitive industry; competition primarily on price, quality, delivery; many competitors including other independent processors.",
+        "Supply chain: dependent on primary steel producers; tariff/trade policy risk; international operations expose to currency, political, economic risks.",
+        "Recent acquisition: Sitem Group acquisition (52% stake, June 3, 2025, post-fiscal year end); integration risk; synergy realization uncertain.",
+        "Tariff exposure: subject to tariffs on imports; trade policy changes could materially impact costs and competitiveness.",
+        "Labor costs: manufacturing labor-intensive; wage inflation, labor shortage risks.",
+        "Capital intensity: manufacturing facilities require significant capital investment; depreciation and maintenance costs material."
+      ],
+      "balance_sheet_quality": "MODERATE – Large accelerated filer; established company; but cyclical industry exposure.",
+      "revenue_quality": "MODERATE – Diversified end markets but automotive-dependent; cyclical; commodity-driven pricing.",
+      "concentration_risk": "MODERATE – Top three customers = 33.0% of sales; material but not extreme.",
+      "dilution_risk": "LOW – Established public company; not dependent on equity raises.",
+      "litigation_risk": "LOW – No material litigation disclosed.",
+      "valuation_risk": "MODERATE – Cyclical industry; commodity pricing; acquisition integration risk; tariff exposure."
+    },
+    "iCoreConnect_Inc_ICCT": {
+      "ticker": "ICCT",
+      "cik": "1906133",
+      "filing_date": "2025-05-30",
+      "critical_risks": [
+        "Limited operating history: business combination completed Aug 25, 2023; limited post-combination operating history.",
+        "Asset sale: Oct 1, 2024 sale of Managed IT Services (MSP/MSaaS) assets; reduced revenue base.",
+        "SaaS subscription model: dependent on customer retention and expansion; churn risk material.",
+        "Healthcare regulatory compliance: HIPAA compliance required; regulatory changes could increase costs or limit business.",
+        "Competition: highly competitive SaaS market; competitors include established healthcare IT vendors; differentiation challenging.",
+        "Customer concentration: no single customer >10% of revenue (2024, 2023); but customer base concentration risk in healthcare practices.",
+        "Intellectual property: no patents or trademarks owned; reliance on trade secrets and NDAs; IP protection limited.",
+        "Integration risk: business combination integration ongoing; synergy realization uncertain.",
+        "Scaling challenges: 72 employees (Dec 31, 2024); limited scale; growth dependent on hiring and customer acquisition.",
+        "Financing: emerging growth company; limited access to capital markets; growth dependent on operational cash flow or debt/equity raises."
+      ],
+      "balance_sheet_quality": "WEAK – Limited operating history post-combination; asset sale (Oct 2024) reduced revenue base.",
+      "revenue_quality": "DEVELOPING – SaaS subscription model; recurring revenue but customer concentration in healthcare practices.",
+      "concentration_risk": "MODERATE – No single customer >10% but healthcare practice customer base concentrated.",
+      "dilution_risk": "MODERATE – Emerging growth company; likely to require capital for growth.",
+      "litigation_risk": "LOW – No material litigation disclosed.",
+      "valuation_risk": "MODERATE-HIGH – Limited operating history; asset sale impact; SaaS scaling execution risk."
+    },
+    "CreditRiskMonitor_com_Inc_CRMZ": {
+      "ticker": "CRMZ",
+      "cik": "315958",
+      "filing_date": "2025-03-20",
+      "critical_risks": [
+        "Niche market: operates in commercial credit risk analytics; TAM estimated at <1% of Dun & Bradstreet Finance & Risk vertical (~$1.4B); highly fragmented market.",
+        "Competitor dominance: Dun & Bradstreet (Finance & Risk vertical) ~$1.4B revenue; Experian, Equifax also compete; CreditRiskMonitor.com <1% of TAM.",
+        "Subscriber concentration: no single subscriber >1% of revenue; but subscriber base concentrated among Fortune 1000 and large corporations.",
+        "Cyclical demand: demand for credit risk analytics cyclical; dependent on corporate bankruptcy rates; artificially low rates 2005-2017 suppressed demand.",
+        "Interest rate sensitivity: higher interest rates expected to normalize bankruptcy rates; but timing uncertain.",
+        "Data dependency: reliant on third-party data suppliers (NRSROs, London Stock Exchange Group); contractual agreements required.",
+        "Trade Contributor Program: annualized trade credit transaction data ~$3 trillion; but confidentiality and data quality risks.",
+        "Product concentration: SaaS subscription products >99% of revenue; limited diversification.",
+        "Pricing power: subscription-based model; limited pricing power in competitive market.",
+        "Scale limitations: small company; limited resources for R&D and market expansion."
+      ],
+      "balance_sheet_quality": "WEAK – Small company; limited scale; niche market.",
+      "revenue_quality": "POOR – <1% of TAM; niche market; cyclical demand; dependent on bankruptcy normalization.",
+      "concentration_risk": "MODERATE – No single subscriber >1% but subscriber base concentrated among Fortune 1000.",
+      "dilution_risk": "LOW – Established company; not dependent on equity raises.",
+      "litigation_risk": "LOW – No material litigation disclosed.",
+      "valuation_risk": "HIGH – Niche market; <1% of TAM; cyclical demand; limited scale; dependent on bankruptcy normalization."
+    }
+  },
+  "quality_notes": {
+    "durable_demand_evidence": "ABSENT across all seven filings. SES AI and Direct Digital face going-concern doubts. Inuvo and Worthington show extreme customer concentration (83.5% and 33% respectively). NeoVolta is early-stage with unproven market adoption. iCoreConnect has limited post-combination history and asset sale headwinds. CreditRiskMonitor operates in niche market with <1% TAM penetration. None exhibit durable, recurring, diversified revenue streams.",
+    "balance_sheet_red_flags": "SES AI: $371.9M accumulated deficit, no profitable operations. Direct Digital: $27.7M accumulated deficit, $0.7M cash, going-concern doubt. Inuvo: $178.3M accumulated deficit, $5.1M negative working capital. NeoVolta: early-stage, capital-intensive. Worthington: cyclical industry, commodity pricing. iCoreConnect: post-combination integration, asset sale. CreditRiskMonitor: niche market, limited scale.",
+    "revenue_concentration_critical": "Inuvo: 83.5% from two customers (64.2% + 19.3%). Direct Digital: 83.5% from two customers (64.2% + 19.3%). Worthington: 33% from top three customers. All others show material customer/subscriber concentration or early-stage revenue base.",
+    "capital_allocation_concerns": "SES AI: $73M-$100M annual losses; requires 'substantial additional capital' with no assurance of acceptable terms. Direct Digital: $0.7M cash, going-concern doubt, likely to issue dilutive equity. Inuvo: negative working capital, dependent on debt facility. NeoVolta: capital-intensive manufacturing, ongoing R&D needs. Worthington: cyclical capex requirements. iCoreConnect: limited scale, growth-dependent on capital. CreditRiskMonitor: niche market, limited growth capital.",
+    "litigation_and_regulatory_risks": "SES AI: product liability (high-energy-density batteries, dendrite formation, fire risk); warranty exposure. Direct Digital: reputational damage from defamatory article/blog; potential litigation. NeoVolta: product liability (ESS fire/safety); regulatory compliance (UL 9540/9540A, CSIP, Rule 21); FEOC compliance emerging. iCoreConnect: HIPAA compliance; healthcare regulatory changes. Worthington: tariff/trade policy exposure; environmental regulations. CreditRiskMonitor: data privacy/security risks.",
+    "valuation_risk_summary": "SES AI: EXTREME – pre-commercial, $371.9M accumulated deficit, unproven commercialization. Direct Digital: EXTREME – going-concern doubt, revenue collapse, $0.7M cash. Inuvo: HIGH – $178.3M accumulated deficit, 83.5% customer concentration, modest growth. NeoVolta: MODERATE-HIGH – early-stage, capital-intensive, execution risk. Worthington: MODERATE – cyclical, commodity-driven, acquisition integration. iCoreConnect: MODERATE-HIGH – limited history, asset sale, SaaS scaling. CreditRiskMonitor: HIGH – niche market, <1% TAM, cyclical demand."
+  },
+  "source_urls": [
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1819142&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1880613&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=829323&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1748137&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1968487&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1906133&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=315958&type=10-K&dateb=&owner=exclude&count=100"
+  ]
+}
+```
+
+---
+
+### **Key Takeaway for Watchlist:**
+
+**None of these seven filings support execution-ready or watch-tier candidates.** All exhibit material operational, financial, or market-risk headwinds:
+
+- **SES AI, Direct Digital:** Going-concern doubts; accumulated deficits; minimal cash.
+- **Inuvo, Direct Digital:** Extreme customer concentration (83.5% from two customers).
+- **NeoVolta:** Early-stage; capital-intensive; unproven market adoption.
+- **Worthington:** Cyclical; commodity-driven; acquisition integration risk.
+- **iCoreConnect:** Limited post-combination history; asset sale headwinds.
+- **CreditRiskMonitor:** Niche market; <1% TAM; cyclical demand.
+
+**Current watchlist (SCHD, VYM, PEG, INTC) remains appropriate.** No new candidates from this batch qualify.
 

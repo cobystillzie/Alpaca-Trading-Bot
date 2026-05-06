@@ -2038,4 +2038,31 @@ For a cautious bot workflow on May 4, 2026:
 4. **Sector Rotation**: Value/dividend ETFs emerging as execution-ready; industrials gaining on AI infrastructure spending; energy volatile.
 5. **Critical Risk**: Geopolitical tail (Strait of Hormuz), valuation at historical highs, low trading volume, and fragile ceasefire.
 6. **Action**: Favor broad diversification; execute value/dividend rotations; maintain tight stops; monitor Friday jobs report and Fed speakers.
+## Market Regime Research - 2026-05-06 19:07:49 Eastern Daylight Time
+
+{
+  "summary": "US equities at record highs with S&P 500 and Nasdaq rallying on strong tech/chip earnings (AMD +17%, Super Micro +17%), falling oil prices due to Iran peace/ceasefire hopes, and robust ADP jobs (109k vs 84k exp). VIX ~17 signals low vol, but narrow tech-led breadth noted. Fed hawkish (no June cut, 94% chance steady), yields easing (10yr 4.36%), earnings beat rate 84%. Small/midcaps outperforming slightly, value rotation emerging.",
+  "market_regime": "bullish_risk_on",
+  "sector_rotation": "tech_semis_lead_broadening_to_smallcaps_value",
+  "risk_flags": [
+    "Upcoming NFP Friday could shift Fed outlook",
+    "Geopolitical Iran tensions volatile (oil drop but risks persist)",
+    "Hawkish Fed/inflation risks (Musalem: inflation >2% target)",
+    "Narrow tech concentration despite broadening",
+    "High oil vol vs low VIX disconnect"
+  ],
+  "source_urls": [
+    "https://www.fxempire.com/forecasts/article/sp500-and-nasdaq-100-tech-stocks-rally-as-amd-lifts-us-indices-1596200",
+    "https://themortgagereports.com/mortgage-rates-now/mortgage-rates-today-may-6-2026",
+    "https://articles.stockcharts.com/article/nasdaq-sp500-hit-record-highs-chip-stocks-surge/",
+    "https://www.cboe.com/us/equities/market_share/",
+    "https://www.benzinga.com/markets/equities/26/05/52312914/stock-market-today-sp-500-dow-futures-advance-as-trump-pauses-project-freedom-super-micro-computer-amd-intel-in-focus",
+    "https://economictimes.com/markets/us-stocks/news/us-stock-market-jobs-data-to-test-feds-rate-outlook-amid-resilient-economy-and-inflation-risks/articleshow/130843994.cms",
+    "https://www.barchart.com/story/news/1745025/s-p-500-and-nasdaq-100-at-record-highs-on-tech-earnings-and-us-iran-peace-hopes",
+    "https://www.nyse.com/index",
+    "https://www.investing.com/analysis/markets-rally-as-ceasefire-holds-while-bond-market-keeps-score-200679755",
+    "https://www.storebrandam.com/news-insights/themes/asset-allocation/market-outlook-for-may-2026-rally-amid-uncertainty/",
+    "https://www.investing.com/analysis/sp-500-gains-mask-volatility-disconnect-across-markets-200679747"
+  ]
+}
 

@@ -5116,4 +5116,46 @@ HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
 Self-learning: tier=watch repeat48h=11 fresh=yes bucket=utilities-defensive
 Social buzz, low weight: none
 Congress signal, low weight: low-weight volume signal
+## Research Update - 2026-05-06 19:07:49 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities near record highs with tech/semis leading (AMD +17%, SMCI +17%), small/midcaps and value broadening amid falling oil and strong ADP jobs. VIX ~17 low vol, Fed hawkish (no June cut), earnings beats 84%. Narrow breadth persists but value/defensive rotation emerging late session. No fresh catalysts in search; memory watchlist holds.
+Candidates: 4
+
+1. SCHD (Large Value Dividend ETF) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 78/100 | tier execution-ready | bucket dividend-etf-defensive
+Recommendation: execute-if-guards-pass
+Catalyst: Morningstar Gold-rated top high-dividend ETF for 2026 passive income lists; sector rotation to value post-tech rally narrowness (repeat 4x but fresh context).
+Chittick Cash: Diversified 100 holdings; high dividend quality buffer vs downside.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=5 fresh=yes bucket=dividend-etf-defensive
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. VYM (Large Value Dividend ETF) | confidence 0.78 | allocation 6.0% | stop 8.0% | Chittick 75/100 | tier execution-ready | bucket high-yield-etf
+Recommendation: watch
+Catalyst: Morningstar top high-dividend ETF list for 2026; value emergence post-tech concentration (repeat 4x).
+Chittick Cash: Broad holdings; yield cushion.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=5 fresh=yes bucket=high-yield-etf
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. PEG (Utilities) | confidence 0.65 | allocation 4.0% | stop 7.0% | Chittick 70/100 | tier watch | bucket utilities-defensive
+Recommendation: watch
+Catalyst: Q1 2026 earnings beat (late April); low-weight congressional volume signal (repeat 11x).
+Chittick Cash: Regulated assets; dividend cover 2x+.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=12 fresh=yes bucket=utilities-defensive
+Social buzz, low weight: none
+Congress signal, low weight: low-weight volume signal
+
+4. INTC (Semiconductors) | confidence 0.60 | allocation 3.0% | stop 8.0% | Chittick 35/100 | tier stale-watch | bucket semi-foundry-value | HF source 0/100 | HF veto
+Recommendation: watch
+Catalyst: Ongoing CHIPS Act/foundry updates; semis momentum (repeat 18x, no new guidance).
+Chittick Cash: CHIPS funding buffer.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=1
+Self-learning: tier=stale-watch repeat48h=18 fresh=yes bucket=semi-foundry-value
+Social buzz, low weight: none
+Congress signal, low weight: none
 

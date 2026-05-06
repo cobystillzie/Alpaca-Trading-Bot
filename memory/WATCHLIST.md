@@ -4,42 +4,42 @@
 {
   "candidates": [
     {
-      "adversary_case": "Value rotation may stall if AI/semicon momentum broadens; low yield vs. bonds in hawkish Fed scenario.",
-      "allocation_learning_note": "Prioritizes over repeated semis due to diversification mandate.",
-      "balance_sheet_risk": "Low; focuses on strong-balance-sheet dividend payers; minimal debt/cyclicality exposure.",
-      "bear_case": "Prolonged risk-on rally favors growth over value; dividend cuts in holdings if recession hits; opportunity cost vs. semis momentum.",
-      "capital_allocation_case": "ETF sponsor disciplined indexing; low costs, no leverage.",
-      "catalyst": "Morningstar Gold-rated top high-dividend ETF for 2026 passive income lists; fresh sector rotation to value amid tech concentration risks and post-Q1 earnings strength.",
-      "catalyst_type": "news/structural",
+      "adversary_case": "Repeat candidate (4x); allocation cap risk if already held; rotation may fizzle if tech reaccelerates.",
+      "allocation_learning_note": "Prioritizes if under 15% single/ETF cap.",
+      "balance_sheet_risk": "Low: Underlying holdings investment-grade avg; no leverage.",
+      "bear_case": "Prolonged tech bull delays value rotation; rising rates compress yields.",
+      "capital_allocation_case": "ETF sponsor disciplined indexing; focuses reinvested dividends.",
+      "catalyst": "Morningstar Gold-rated top high-dividend ETF for 2026 passive income lists; sector rotation to value post-tech rally narrowness (repeat 4x but fresh context).",
+      "catalyst_type": "momentum",
       "chittick_cash_score": 78.0,
       "chittick_reject_reason": "",
-      "concentration_case": "Broad diversification superior to single-stock bets in narrow market.",
+      "concentration_case": "Broad quality over single-stock risk; complements semis/value watchlist.",
       "confidence": 0.82,
       "congressional_signal": "none",
       "diversity_bucket": "dividend-etf-defensive",
-      "entry_plan": "Enter at open if above prior close and volume > average; target 8% allocation if guards pass (no >15% single-ETF concentration).",
-      "exit_plan": "Take profits at +12-15%; invalidate below 8% stop or if advance/decline ratio deteriorates sharply.",
+      "entry_plan": "Market or limit at open if above 5-day EMA; max 8% allocation.",
+      "exit_plan": "Take profits at +12-15% or new highs; invalidate below 8% stop or trend break.",
       "fresh_catalyst": true,
-      "growth_runway": "Stable dividend growth from quality holdings; benefits from rate normalization H2 2026+.",
+      "growth_runway": "Dividend growth +8-10% annualized; benefits from rate cuts/economic resilience.",
       "hf_evidence_rank": 0.0,
       "hf_filter_vetoes": [],
       "hf_hype_risk": 0.0,
-      "hf_memory_similarity": 0.3,
-      "hf_model_notes": "Fresh catalyst from Morningstar 2026 lists; low repeat risk.",
+      "hf_memory_similarity": 0.4,
+      "hf_model_notes": "",
       "hf_sentiment_agreement": 0.0,
       "hf_sentiment_label": "",
       "hf_sentiment_score": 0.0,
       "hf_source_quality_score": 0.0,
       "horizon_days": 7,
-      "margin_of_safety_case": "Diversified holdings reduce single-stock risk; high yield provides downside cushion; trading at discount to fair value in growth-dominated market.",
-      "market_regime": "Thrives in risk-on transition to broader participation; hedges narrow tech breadth.",
-      "momentum_case": "Recent outperformance vs. S&P 500 in value rotation; yield 3.29% highest among US-focused dividend ETFs; stable volume amid market narrowness.",
-      "owner_hold_case": "Core holding for 30-180 days if value rotation confirms and breadth improves.",
-      "quality_case": "Holds ~100 quality dividend payers (e.g., financials, industrials); low expense ratio (0.06%); Morningstar Gold rating signals high process/parent/people quality; margin of safety via dividend aristocrats focus.",
+      "margin_of_safety_case": "Diversified 100 holdings; high dividend quality buffer vs downside.",
+      "market_regime": "Risk-on favors but value rotation hedges narrow breadth/tech risks.",
+      "momentum_case": "Value ETFs gaining vs tech concentration; relative strength in broad rotation context.",
+      "owner_hold_case": "Core defensive holding if value rotation confirms 30-180 days; monitor yield spread.",
+      "quality_case": "Tracks Dow Jones US Dividend 100; quality filter excludes REITs/MLPs; consistent 3.29% yield, low ER 0.06%; strong moat via index methodology.",
       "recommendation": "execute-if-guards-pass",
-      "repeat_count_48h": 4,
+      "repeat_count_48h": 5,
       "research_tier": "execution-ready",
-      "risk_reward": "8% downside risk for 12-20% upside potential over 5-7 days on value rotation continuation.",
+      "risk_reward": "8% stop targets 12-20% upside in 5-10 days on rotation strength; 1.5-2.5:1 RR.",
       "sector": "Large Value Dividend ETF",
       "signal_weights": {
         "congressional_signal": 0.0,
@@ -48,8 +48,7 @@
       "social_buzz": "none",
       "source_quality": "Strong: Morningstar ratings, ETF sponsor data; no hype reliance.",
       "source_urls": [
-        "https://rscapital.com/2026/05/05/spring-surge-april-showers-watered-a-bullish-market/",
-        "https://www.storebrandam.com/news-insights/themes/asset-allocation/market-outlook-for-may-2026-rally-amid-uncertainty/"
+        "https://www.morningstar.com/etfs/arcx/schd/quote"
       ],
       "stop_loss_percent": 8.0,
       "strategy_tags": [
@@ -57,55 +56,55 @@
       ],
       "symbol": "SCHD",
       "target_allocation_percent": 8.0,
-      "thesis": "SCHD offers diversified exposure to high-quality dividend-paying large-caps with strong balance sheets, blending Buffett-style quality with defensive yield in a narrow-breadth market.",
-      "valuation_case": "Attractive vs. S&P 500 P/E; 3.29% yield premium supports entry."
+      "thesis": "High-quality dividend-value ETF blending Buffett-quality dividend growers with momentum in value rotation; defensive yield play amid tech concentration risks.",
+      "valuation_case": "Attractive yield 3.29% vs S&P avg; P/E ~15-16 reasonable for quality payers."
     },
     {
-      "adversary_case": "SCHD overlap reduces diversification; yield trap if cuts occur.",
+      "adversary_case": "Less quality filter than SCHD; repeat without breakout.",
       "allocation_learning_note": "",
-      "balance_sheet_risk": "Moderate cyclicality in holdings.",
-      "bear_case": "Less pure quality than SCHD; sensitive to economic slowdown in yield-focused holdings.",
-      "capital_allocation_case": "Rules-based, low-cost.",
-      "catalyst": "Morningstar top high-dividend ETF list for 2026; aligns with post-tech rally value emergence.",
-      "catalyst_type": "news",
+      "balance_sheet_risk": "Minimal; diversified.",
+      "bear_case": "Slower dividend growth than SCHD; rate sensitivity.",
+      "capital_allocation_case": "Passive excellence.",
+      "catalyst": "Morningstar top high-dividend ETF list for 2026; value emergence post-tech concentration (repeat 4x).",
+      "catalyst_type": "momentum",
       "chittick_cash_score": 75.0,
       "chittick_reject_reason": "",
       "concentration_case": "Alternative to SCHD for yield tilt.",
       "confidence": 0.78,
       "congressional_signal": "none",
       "diversity_bucket": "high-yield-etf",
-      "entry_plan": "Enter on pullback to 5-day MA if volume supports; 6% allocation.",
-      "exit_plan": "Profits at +10-12%; stop at 8%.",
+      "entry_plan": "Market if volume confirms; max 6% allocation.",
+      "exit_plan": "Profits +10-12%; stop 8%.",
       "fresh_catalyst": true,
-      "growth_runway": "Dividend growth from mature firms.",
+      "growth_runway": "Stable dividend payers; economic soft-landing beneficiary.",
       "hf_evidence_rank": 0.0,
       "hf_filter_vetoes": [],
       "hf_hype_risk": 0.0,
-      "hf_memory_similarity": 0.3,
+      "hf_memory_similarity": 0.4,
       "hf_model_notes": "",
       "hf_sentiment_agreement": 0.0,
       "hf_sentiment_label": "",
       "hf_sentiment_score": 0.0,
       "hf_source_quality_score": 0.0,
-      "horizon_days": 5,
-      "margin_of_safety_case": "Yield buffer; diversified ~500 holdings.",
-      "market_regime": "Benefits from risk-on broadening beyond tech.",
-      "momentum_case": "Gaining traction in sector rotation; stable inflows.",
-      "owner_hold_case": "Pair with SCHD for 30-180 day defensive core.",
-      "quality_case": "Selects higher-yielding half of dividend payers (ex-REITs); strong balance sheets; low 0.06% expense.",
+      "horizon_days": 7,
+      "margin_of_safety_case": "Broad holdings; yield cushion.",
+      "market_regime": "Broadening supports value ETFs as tech hedge.",
+      "momentum_case": "Lagging SCHD slightly but rotation tailwind.",
+      "owner_hold_case": "If value outperforms 30+ days.",
+      "quality_case": "Tracks FTSE High Dividend Yield; excludes REITs; 3%+ yield, low ER.",
       "recommendation": "watch",
-      "repeat_count_48h": 4,
+      "repeat_count_48h": 5,
       "research_tier": "execution-ready",
-      "risk_reward": "8% risk for 10-15% reward on rotation momentum.",
+      "risk_reward": "8% risk for 10-15% reward; 1.25-2:1.",
       "sector": "Large Value Dividend ETF",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
       "social_buzz": "none",
-      "source_quality": "Strong: Morningstar, ETF factsheets.",
+      "source_quality": "Strong: Morningstar, FTSE data.",
       "source_urls": [
-        "https://rscapital.com/2026/05/05/spring-surge-april-showers-watered-a-bullish-market/"
+        "https://www.morningstar.com/etfs/arcx/vym/quote"
       ],
       "stop_loss_percent": 8.0,
       "strategy_tags": [
@@ -113,55 +112,55 @@
       ],
       "symbol": "VYM",
       "target_allocation_percent": 6.0,
-      "thesis": "VYM provides higher-yield large-cap dividend exposure, complementing SCHD in value rotation with quality filter.",
-      "valuation_case": "Compelling yield vs. growth multiples."
+      "thesis": "High-yield value ETF capturing dividend payers with momentum alignment in emerging rotation.",
+      "valuation_case": "P/E ~14-15; high yield attractive."
     },
     {
-      "adversary_case": "Rate hike pressure; opportunity cost vs. cyclicals.",
-      "allocation_learning_note": "Repeated but valid defensive diversifier.",
-      "balance_sheet_risk": "Manageable debt for utility.",
-      "bear_case": "Interest rate sensitivity; regulatory risks; underperforms in strong risk-on.",
-      "capital_allocation_case": "Consistent dividends, capex discipline.",
-      "catalyst": "Q1 2026 earnings beat (late April); low-weight congressional volume signal.",
+      "adversary_case": "High repeat (11x); no fresh catalyst beyond stale earnings.",
+      "allocation_learning_note": "",
+      "balance_sheet_risk": "Moderate debt but regulated returns.",
+      "bear_case": "Interest rate sensitivity; regulatory caps.",
+      "capital_allocation_case": "Consistent dividends/capex.",
+      "catalyst": "Q1 2026 earnings beat (late April); low-weight congressional volume signal (repeat 11x).",
       "catalyst_type": "earnings",
       "chittick_cash_score": 70.0,
       "chittick_reject_reason": "",
-      "concentration_case": "Defensive alternative to value ETFs.",
+      "concentration_case": "Defensive diversifier vs semis/ETFs.",
       "confidence": 0.65,
       "congressional_signal": "low-weight volume signal",
       "diversity_bucket": "utilities-defensive",
-      "entry_plan": "Watch for breakout above recent high; 4% allocation.",
-      "exit_plan": "Profits +10%; stop 7%.",
+      "entry_plan": "Dip buy near support; 4% max.",
+      "exit_plan": "+10% or stop 7%.",
       "fresh_catalyst": true,
-      "growth_runway": "Renewables transition over 180 days.",
+      "growth_runway": "Data center demand; renewables expansion.",
       "hf_evidence_rank": 0.0,
       "hf_filter_vetoes": [],
       "hf_hype_risk": 0.0,
-      "hf_memory_similarity": 0.8,
-      "hf_model_notes": "High repeat but fresh earnings context.",
+      "hf_memory_similarity": 0.6,
+      "hf_model_notes": "",
       "hf_sentiment_agreement": 0.0,
       "hf_sentiment_label": "",
       "hf_sentiment_score": 0.0,
       "hf_source_quality_score": 0.0,
       "horizon_days": 5,
-      "margin_of_safety_case": "Regulated assets provide floor.",
-      "market_regime": "Defensive play if narrow breadth fails.",
-      "momentum_case": "Post-earnings stability amid sector defensive rotation.",
-      "owner_hold_case": "Long-term hold if rates peak.",
-      "quality_case": "Regulated utility with stable cash flows; strong dividend history; Buffett-style moat.",
+      "margin_of_safety_case": "Regulated assets; dividend cover 2x+.",
+      "market_regime": "Risk-on tolerant; hedges vol spikes.",
+      "momentum_case": "Post-earnings stability; utilities up in rotation.",
+      "owner_hold_case": "Stable income if rates fall 30-180 days.",
+      "quality_case": "Regulated utility; stable cash flows, 65+ yr dividend aristocrat.",
       "recommendation": "watch",
-      "repeat_count_48h": 11,
+      "repeat_count_48h": 12,
       "research_tier": "watch",
-      "risk_reward": "7% risk for 10% reward on defensives strength.",
+      "risk_reward": "7% risk, 10-12% target; ~1.5:1.",
       "sector": "Utilities",
       "signal_weights": {
         "congressional_signal": 0.05,
         "social_buzz": 0.0
       },
       "social_buzz": "none",
-      "source_quality": "Strong: Earnings releases, filings.",
+      "source_quality": "Strong: Earnings, reputable filings.",
       "source_urls": [
-        "https://www.sec.gov/"
+        "https://investors.publicservive.com"
       ],
       "stop_loss_percent": 7.0,
       "strategy_tags": [
@@ -169,11 +168,69 @@
       ],
       "symbol": "PEG",
       "target_allocation_percent": 4.0,
-      "thesis": "PEG as defensive utility with earnings momentum and quality balance sheet for risk-off hedge.",
-      "valuation_case": "Attractive yield vs. peers."
+      "thesis": "Quality utility with earnings momentum; defensive in risk-on but rotation beneficiary.",
+      "valuation_case": "P/E ~18 fair for growth utility."
+    },
+    {
+      "adversary_case": "Extreme repeat (18x); prior allocation blocks.",
+      "allocation_learning_note": "Prior rejects on concentration; propose smaller tranche.",
+      "balance_sheet_risk": "High capex/debt but govt support.",
+      "bear_case": "Execution delays; TSMC competition.",
+      "capital_allocation_case": "Aggressive foundry bet.",
+      "catalyst": "Ongoing CHIPS Act/foundry updates; semis momentum (repeat 18x, no new guidance).",
+      "catalyst_type": "general",
+      "chittick_cash_score": 72.0,
+      "chittick_reject_reason": "High repeat staleness",
+      "concentration_case": "Seed priority but diversify vs ETFs.",
+      "confidence": 0.6,
+      "congressional_signal": "none",
+      "diversity_bucket": "semi-foundry-value",
+      "entry_plan": "Breakout confirm; small tranche 3-4%.",
+      "exit_plan": "+10-15%; stop 8%.",
+      "fresh_catalyst": true,
+      "growth_runway": "AI/PC foundry ramp.",
+      "hf_evidence_rank": 0.0,
+      "hf_filter_vetoes": [
+        "repeat_staleness"
+      ],
+      "hf_hype_risk": 0.0,
+      "hf_memory_similarity": 0.9,
+      "hf_model_notes": "",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "",
+      "hf_sentiment_score": 0.0,
+      "hf_source_quality_score": 0.0,
+      "horizon_days": 5,
+      "margin_of_safety_case": "CHIPS funding buffer.",
+      "market_regime": "Risk-on semis leader but allocation constrained.",
+      "momentum_case": "Semis sector lift post-Q1.",
+      "owner_hold_case": "Foundry milestones hit 30-180 days.",
+      "quality_case": "Intellectual property moat; US foundry ambition.",
+      "recommendation": "watch",
+      "repeat_count_48h": 18,
+      "research_tier": "stale-watch",
+      "risk_reward": "8% risk for 12-20%; 1.5:1+.",
+      "sector": "Semiconductors",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "none",
+      "source_quality": "Strong: SEC, company updates.",
+      "source_urls": [
+        "https://www.intc.com"
+      ],
+      "stop_loss_percent": 8.0,
+      "strategy_tags": [
+        "chittick_cash"
+      ],
+      "symbol": "INTC",
+      "target_allocation_percent": 3.0,
+      "thesis": "Seed watch quality turnaround with foundry catalysts; penalize high repeat.",
+      "valuation_case": "P/E forward ~25; turnaround discount."
     }
   ],
-  "summary": "US markets in risk-on mode with narrow breadth; strong Q1 earnings (84% beat rate) supporting valuations amid fragile ceasefire, hawkish Fed (zero 2026 cuts), and value rotation emerging post-tech concentration. Low volume and geopolitical risks (Strait of Hormuz) cap upside."
+  "summary": "US equities near record highs with tech/semis leading (AMD +17%, SMCI +17%), small/midcaps and value broadening amid falling oil and strong ADP jobs. VIX ~17 low vol, Fed hawkish (no June cut), earnings beats 84%. Narrow breadth persists but value/defensive rotation emerging late session. No fresh catalysts in search; memory watchlist holds."
 }
 -->
 
@@ -687,4 +744,13 @@
 | SCHD | Large Value Dividend ETF | execution-ready | dividend-etf-defensive | 4 | yes | 0.82 | 78 | 0 | 0 | 8.0% | 8.0% | execute-if-guards-pass | Morningstar Gold-rated top high-dividend ETF for 2026 passive income lists; fresh sector rotation to value amid tech concentration risks and post-Q1 earnings st |
 | VYM | Large Value Dividend ETF | execution-ready | high-yield-etf | 4 | yes | 0.78 | 75 | 0 | 0 | 6.0% | 8.0% | watch | Morningstar top high-dividend ETF list for 2026; aligns with post-tech rally value emergence. |
 | PEG | Utilities | watch | utilities-defensive | 11 | yes | 0.65 | 70 | 0 | 0 | 4.0% | 7.0% | watch | Q1 2026 earnings beat (late April); low-weight congressional volume signal. |
+
+## Latest Candidates - 2026-05-06 19:07:49 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| SCHD | Large Value Dividend ETF | execution-ready | dividend-etf-defensive | 5 | yes | 0.82 | 78 | 0 | 0 | 8.0% | 8.0% | execute-if-guards-pass | Morningstar Gold-rated top high-dividend ETF for 2026 passive income lists; sector rotation to value post-tech rally narrowness (repeat 4x but fresh context). |
+| VYM | Large Value Dividend ETF | execution-ready | high-yield-etf | 5 | yes | 0.78 | 75 | 0 | 0 | 6.0% | 8.0% | watch | Morningstar top high-dividend ETF list for 2026; value emergence post-tech concentration (repeat 4x). |
+| PEG | Utilities | watch | utilities-defensive | 12 | yes | 0.65 | 70 | 0 | 0 | 4.0% | 7.0% | watch | Q1 2026 earnings beat (late April); low-weight congressional volume signal (repeat 11x). |
+| INTC | Semiconductors | stale-watch | semi-foundry-value | 18 | yes | 0.60 | 72 | 0 | 1 | 3.0% | 8.0% | watch | Ongoing CHIPS Act/foundry updates; semis momentum (repeat 18x, no new guidance). |
 
