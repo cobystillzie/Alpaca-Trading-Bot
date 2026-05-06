@@ -3650,4 +3650,173 @@ SEC/company quality check:
   "quality_notes": "DRCT revenue quality poor: 2025 rev $34.7M vs $157.1M 2023, gross profit $10.4M vs $37.6M; durable demand weak from customer pause, but 90% retention/174K sell-side buyers signals platform stickiness if resolved. INUV revenue quality lumpy/high concentration, durable ad demand via AI/patents (18 issued) but losses/cash burn. BRID stable revenue mix (75% snacks), private label shift amid inflation supports durability but concentration risk. No durable demand for CLBZ/NEOV (early-stage), WS cyclical steel. No GOOGL/GOOG, INTC, USAR, GT present. Capital allocation: DRCT reorganization/cost cuts; INUV acquisitions; others neutral.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-06 17:04:47 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks or ETFs. No evidence of hype, pump language, or unsupported claims detected.",
+  "social_buzz": "none",
+  "attention_anomalies": "none",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "QGEN (QIAGEN N.V.) shows historical congressional trading activity, primarily sales and small purchases ($1k-$15k range) by Democrats Ro Khanna, Peter Welch, Alan Lowenthal, and Donna Shalala between 2017-2022. No recent trades reported. Company active in biotech patents for nucleic acid isolation/processing but lacks current insider trading, lobbying, government contracts, or revenue breakdown data. Unrelated NVGS news on dividends and asset sales.",
+  "congressional_signal": "stale low-volume; last trades 2022 (e.g., Khanna sale Jan 2022), delayed disclosures with no 2026 activity",
+  "tickers": ["QGEN", "NVGS"],
+  "source_urls": [
+    "https://www.quiverquant.com/stock/QGEN/",
+    "https://www.quiverquant.com/news/Navigator+Holdings+Ltd.+Declares+$0.07+Cash+Dividend+and+Announces+Revised+Capital+Return+Policy"
+  ]
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": "Six microcap and small-cap companies across digital advertising, healthcare SaaS, energy storage, steel processing, and fintech sectors. All exhibit material going-concern risks, customer concentration, revenue volatility, or regulatory uncertainty. None qualify as durable-demand holdings for passive allocation.",
+  "filing_risks": [
+    {
+      "ticker": "DRCT",
+      "company": "Direct Digital Holdings, Inc.",
+      "sector": "Digital Advertising / Programmatic",
+      "critical_risks": [
+        "**Going Concern**: Substantial doubt disclosed. Cash $0.7M, accumulated deficit $27.7M. Dependent on major customer reconnection post-May 2024 defamation incident.",
+        "**Customer Concentration**: Single sell-side customer pause in Q2 2024 caused 78% revenue decline (2024: $62.3M vs 2023: $157.1M). Volumes not yet recovered to pre-pause levels.",
+        "**Debt Covenants**: Credit facility matures Dec 3, 2026. Minimum unrestricted cash requirement $450K. Default risk if market deteriorates.",
+        "**Reputational/Litigation**: Defamatory article/blog post triggered customer pause. Company claims 'coordinated misinformation campaign' but reputational damage persists.",
+        "**Revenue Quality**: 2025 revenue $34.7M (down 44% YoY). Gross profit $10.4M (down 40% YoY). Operating leverage negative."
+      ],
+      "balance_sheet_quality": "Weak. Minimal cash, high accumulated deficit, dependent on debt renewal.",
+      "revenue_concentration": "Extreme. Single customer pause caused 78% revenue collapse. Buy-side: 195 clients (diversified). Sell-side: 174K buyers but concentrated in few major publishers.",
+      "capital_allocation": "Defensive. Reorganization executed July 2024. Focus on cost management, not growth investment.",
+      "valuation_risk": "Speculative. Stock likely distressed. No earnings visibility until customer volumes recover.",
+      "recommendation": "AVOID. Going-concern risk + customer concentration + debt maturity + reputational damage = high bankruptcy probability within 12 months."
+    },
+    {
+      "ticker": "INUV",
+      "company": "Inuvo, Inc.",
+      "sector": "AI-Driven Advertising Technology",
+      "critical_risks": [
+        "**Customer Concentration**: Two customers = 83.5% of 2025 revenue (64.2% + 19.3%). Loss of either would be catastrophic.",
+        "**Revenue Volatility**: 2025 revenue $43.9M (+2.9% YoY). Gross margin declined 10.1% to 74.5%. Operating loss $5.1M (vs $5.8M loss in 2024).",
+        "**Accumulated Deficit**: $178.3M through Dec 31, 2025. Recurring losses funded via equity offerings and debt.",
+        "**Working Capital**: Net working capital deficit $5.1M. Cash $2.8M. Negative operating cash flow.",
+        "**Dependence on Advertising Suppliers**: Revenue dependent on factors outside company control (advertiser budgets, ad availability, pricing).",
+        "**Seasonality**: Q2-Q3 strongest; Q1 weakest. Cash flow lumpy."
+      ],
+      "balance_sheet_quality": "Poor. Negative working capital, minimal cash, massive accumulated deficit.",
+      "revenue_concentration": "Extreme. Two customers = 83.5% of revenue. 2024: same two customers = 82% of revenue.",
+      "capital_allocation": "Defensive. Focus on profitability path, not growth.",
+      "valuation_risk": "High. Equity dilution likely if additional capital needed. Stock vulnerable to customer loss announcement.",
+      "recommendation": "AVOID. Extreme customer concentration + negative working capital + accumulated deficit + advertising-market cyclicality = high distress risk."
+    },
+    {
+      "ticker": "NEOV",
+      "company": "NeoVolta, Inc.",
+      "sector": "Energy Storage Systems (ESS)",
+      "critical_risks": [
+        "**Early-Stage / Startup Risk**: Founded 2018. Sales commenced July 2019. Limited operating history. Emerging growth company.",
+        "**Manufacturing Transition**: Transitioned from contract manufacturing to in-house production June 2023. Operational risk.",
+        "**Capital Intensity**: Manufacturing facility in Poway, CA. Requires ongoing capex for production scaling.",
+        "**Competitive Pressure**: Competes with Tesla, LG Chem, Sonnen, Enphase, SunPower, SMA America. Larger competitors have greater resources, brand, distribution.",
+        "**Regulatory Dependency**: Products subject to evolving state/federal safety and interconnection standards (UL 9540/9540A, Rule 21, etc.). Compliance costs ongoing.",
+        "**Federal Incentive Phase-Out**: ITC scheduled to sunset Dec 31, 2025. Adoption expected to shift to third-party ownership/leasing models. Financing partnerships critical.",
+        "**Product Development Risk**: Recently announced C&I BESS (250 kW / 430 kWh) and NV16 inverter. New product ramp execution risk.",
+        "**Market Adoption**: Residential retrofit market large but fragmented. Installer-dependent distribution model.",
+        "**Intellectual Property**: 3 issued patents. Not significantly dependent on any single patent."
+      ],
+      "balance_sheet_quality": "Emerging. Small company (17 FT employees as of June 30, 2025). Limited financial disclosure in 10-K summary.",
+      "revenue_concentration": "Not disclosed in excerpt, but installer-dependent sales model suggests customer concentration risk.",
+      "capital_allocation": "Growth-focused. Investing in product development (C&I, NV16), sales channel expansion, financing partnerships.",
+      "valuation_risk": "High. Early-stage company with limited profitability history. Dependent on market adoption and financing partnerships.",
+      "recommendation": "AVOID for conservative portfolios. High execution risk, regulatory dependency, competitive pressure from well-capitalized incumbents. Suitable only for growth/venture investors."
+    },
+    {
+      "ticker": "WS",
+      "company": "Worthington Steel, Inc.",
+      "sector": "Steel Processing / Industrials",
+      "critical_risks": [
+        "**Cyclical Industry**: Steel processing highly cyclical. Dependent on automotive, construction, machinery demand.",
+        "**Commodity Price Volatility**: Raw material costs (steel coils) volatile. Pricing power limited in competitive market.",
+        "**Customer Concentration**: Top 3 customers = 33% of FY2025 sales. Automotive is largest end market.",
+        "**Automotive Industry Transition**: EV adoption creates uncertainty for traditional steel demand. Tailor-welded products for EVs emerging but unproven.",
+        "**Separation Risk**: Spun off from Worthington Enterprises Dec 1, 2023. Standalone company with limited financial independence history.",
+        "**Acquisition Integration**: Acquired 52% stake in Sitem Group (Italy-based) June 3, 2025 (post-fiscal year end). Integration risk.",
+        "**Tariff/Trade Risk**: Exposed to tariffs, trade restrictions, import competition. Forward-looking statements cite tariff risk extensively.",
+        "**Facility Consolidation**: 28 manufacturing facilities globally. Consolidation/closure risk if demand softens.",
+        "**Labor/Supply Chain**: Exposed to labor shortages, supply chain disruptions, freight cost volatility."
+      ],
+      "balance_sheet_quality": "Moderate. Large accelerated filer (NYSE: WS). Established company with diversified operations. Sitem acquisition adds European exposure.",
+      "revenue_concentration": "Moderate. Top 3 customers = 33% of sales. Automotive = largest end market but diversified across other segments.",
+      "capital_allocation": "Balanced. Capex for facility optimization, M&A (Sitem), working capital management.",
+      "valuation_risk": "Moderate. Cyclical business. Valuation dependent on steel prices, automotive demand, EV transition success.",
+      "recommendation": "WATCH (not AVOID). Established company with moderate risks. Cyclical exposure and automotive concentration warrant caution. Suitable for value investors with cyclical tolerance, not passive income seekers."
+    },
+    {
+      "ticker": "ICCT",
+      "company": "iCoreConnect Inc.",
+      "sector": "Healthcare SaaS / Cloud Software",
+      "critical_risks": [
+        "**Limited Operating History**: Business combination completed Aug 25, 2023. Limited standalone operating history as public company.",
+        "**Emerging Growth Company**: Non-accelerated filer, smaller reporting company. Limited financial disclosure requirements.",
+        "**Managed IT Services Divestiture**: Sold MSP/MSaaS assets Oct 1, 2024. Refocusing on healthcare SaaS (iCoreRx, iCoreVerify, iCoreHuddle, etc.).",
+        "**Customer Concentration**: No single customer >10% of revenue (2024, 2023). But accounts receivable concentration: 26% from one customer (Dec 31, 2024), 25% (Dec 31, 2023).",
+        "**HIPAA Compliance**: All products HIPAA-compliant. Regulatory risk if compliance lapses.",
+        "**Competitive Landscape**: Highly competitive. Competitors offer similar products in niche markets. No single competitor across full product range.",
+        "**Intellectual Property**: No patents or trademarks owned. Relies on trade secrets, NDAs, contractual rights.",
+        "**Acquisition Strategy**: Growth via acquisitions. Integration risk, dilution risk.",
+        "**Employee Retention**: 72 employees (Dec 31, 2024). Key personnel retention critical for SaaS business."
+      ],
+      "balance_sheet_quality": "Weak. Emerging growth company with limited financial disclosure. Accounts receivable concentration risk.",
+      "revenue_concentration": "Moderate. No single customer >10% of revenue, but AR concentration (26%) suggests large customer payment timing risk.",
+      "capital_allocation": "Growth-focused. Acquisitions, product development, sales expansion.",
+      "valuation_risk": "High. Early-stage public company, limited operating history, acquisition-dependent growth model.",
+      "recommendation": "AVOID for conservative portfolios. Emerging growth company with limited disclosure, acquisition-dependent growth, AR concentration risk. Suitable only for growth/venture investors."
+    },
+    {
+      "ticker": "CRMZ",
+      "company": "CreditRiskMonitor.com, Inc.",
+      "sector": "Financial Risk Analytics / SaaS",
+      "critical_risks": [
+        "**Market Size**: Estimated <1% of Total Addressable Market (TAM). Dun & Bradstreet Finance & Risk vertical = $1.375B (2024). CRMZ = ~$15M estimated revenue.",
+        "**Competitive Disadvantage**: Dun & Bradstreet, Experian, Equifax dominate. CRMZ is niche player.",
+        "**Bankruptcy Cycle Dependency**: FRISK® score accuracy (96% for public companies) dependent on bankruptcy rates. Low bankruptcy environment (2005-2017) damaged demand. Company expects 'mean reversion' but uncertain timing.",
+        "**Customer Concentration**: No single subscriber >1% of revenue (2024, 2023). Diversified subscriber base (~40% of Fortune 1000).",
+        "**Data Supplier Dependency**: Contractual agreements with NRSROs (Moody's, S&P, Fitch) to redistribute ratings. Relationship risk.",
+        "**Trade Contributor Program**: $3T annualized trade credit transaction data. Dependent on continued participation by corporate AR departments.",
+        "**Regulatory Risk**: Financial risk analytics subject to evolving regulations. SEC oversight of credit ratings, bankruptcy prediction models.",
+        "**Product Concentration**: SaaS subscription products >99% of revenue. Limited diversification.",
+        "**Small Company Risk**: Smaller reporting company. Limited financial resources vs. competitors."
+      ],
+      "balance_sheet_quality": "Weak. Smaller reporting company. Limited financial disclosure. Dependent on subscription renewals.",
+      "revenue_concentration": "Low. No single subscriber >1% of revenue. Diversified across ~40% of Fortune 1000.",
+      "capital_allocation": "Defensive. Focus on product development, data partnerships, subscriber retention.",
+      "valuation_risk": "Moderate-High. Niche player in large market. Dependent on bankruptcy cycle normalization. Valuation multiple likely compressed vs. larger competitors.",
+      "recommendation": "WATCH (not AVOID). Niche player with low customer concentration but small TAM penetration. Dependent on bankruptcy cycle normalization. Suitable for value investors with contrarian thesis on credit risk demand, not passive income seekers."
+    }
+  ],
+  "quality_notes": [
+    "**DRCT**: Going-concern risk + customer concentration + debt maturity = bankruptcy probability. Avoid.",
+    "**INUV**: Extreme customer concentration (83.5% from 2 customers) + negative working capital + accumulated deficit. Avoid.",
+    "**NEOV**: Early-stage ESS manufacturer. Competitive pressure from Tesla, LG, Enphase. Regulatory dependency. Execution risk on new products. Growth-stage risk.",
+    "**WS**: Established steel processor. Cyclical exposure, automotive concentration (largest end market), tariff/trade risk. Moderate risk for value investors.",
+    "**ICCT**: Emerging growth company, limited operating history, acquisition-dependent growth, AR concentration. High risk.",
+    "**CRMZ**: Niche financial risk analytics player. <1% TAM penetration. Dependent on bankruptcy cycle normalization. Valuation compressed vs. competitors.",
+    "**None of these companies qualify as durable-demand holdings for passive allocation.** All exhibit material business, financial, or regulatory risks unsuitable for conservative portfolios."
+  ],
+  "source_urls": [
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001880613&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000829323&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001748137&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001968487&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001906133&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000315958&type=10-K&dateb=&owner=exclude&count=100"
+  ]
+}
+```
 

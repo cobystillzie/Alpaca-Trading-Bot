@@ -1841,4 +1841,201 @@ For a cautious bot workflow on May 4, 2026:
   ]
 }
 ```
+## Market Regime Research - 2026-05-06 17:04:47 Eastern Daylight Time
+
+```json
+{
+  "summary": {
+    "date_analyzed": "2026-05-06",
+    "overall_tone": "Risk-on with caution flags",
+    "key_narrative": "April's strong rebound (+10% S&P 500, best month since Nov 2020) driven by ceasefire relief and record earnings, but narrow breadth and elevated valuations create vulnerability. May opens with record highs but concentration risk in mega-cap tech and semiconductors. Fed hawkish stance and persistent inflation limit near-term rate-cut expectations.",
+    "confidence_level": "Moderate-High (data-driven, but geopolitical/policy tail risks remain)"
+  },
+  "market_regime": {
+    "index_trend": {
+      "s_p_500": {
+        "level": 7342.79,
+        "status": "All-time high",
+        "april_performance": "+10.0%",
+        "breadth_assessment": "Narrow—concentrated in semiconductors (+40% on 17-day streak) and mega-cap growth; average stock underperformed index by -4.5%"
+      },
+      "nasdaq": {
+        "level": "Record high",
+        "april_performance": "+15.0%",
+        "driver": "Tech and semiconductor leadership"
+      },
+      "russell_2000": {
+        "level": "Record high",
+        "april_performance": "+10.0%",
+        "note": "Small-cap participation improved but lagged large-cap"
+      }
+    },
+    "volatility_regime": {
+      "vix_level": "~17",
+      "assessment": "Low-to-moderate; complacency risk given narrow breadth",
+      "volume_concern": "Tuesday (May 6) S&P 500 volume 35.9M shares—lowest since day after Thanksgiving; suggests weak conviction"
+    },
+    "fed_policy_stance": {
+      "current_rates": "Unchanged (held steady)",
+      "rate_cut_probability_june": "5.9% (94.1% probability of no change per CME FedWatch)",
+      "rate_hike_probability": "Slightly higher than cuts per Jeremy Siegel commentary",
+      "fed_tone": "Hawkish; new Fed Chair Warsh inherits complicated environment with zero rate cuts expected for 2026",
+      "inflation_constraint": "Remains above 2% target; oil shock introduces new inflation risk",
+      "policy_independence_risk": "Under scrutiny; administration prefers lower rates but Fed maintaining independence"
+    },
+    "rates_environment": {
+      "10_year_treasury_yield": "4.36% (eased from 4.414% last week)",
+      "2_year_treasury_yield": "3.89%",
+      "30_year_mortgage_rate": "6.30% (Freddie Mac weekly avg, up 0.07% from prior week)",
+      "rate_direction": "Sticky; unlikely to decline without clear Fed pivot or labor market weakness",
+      "bond_market_signal": "Credit spreads tightened sharply in April; volatility fell; but recent repricing reflects hawkish central bank expectations"
+    },
+    "risk_appetite": {
+      "current_state": "Risk-on, but fragile",
+      "indicators": [
+        "Equity futures positioning at highest since late 2024",
+        "Credit spreads tightened; VIX ~17",
+        "CNN Fear & Greed Index: 67.3 (Greed territory)",
+        "Institutional positioning elevated"
+      ],
+      "caveat": "Some investor sentiment measures remain subdued; not all investors convinced of rally sustainability"
+    }
+  },
+  "sector_rotation": {
+    "april_leadership": {
+      "winners": [
+        "Technology (+15% Nasdaq)",
+        "Semiconductors (+40% on 17-day streak)",
+        "Growth stocks (outpaced Value by +8%)"
+      ],
+      "laggards": [
+        "Energy (lagged most)",
+        "Defensive sectors",
+        "Value (underperformed growth)"
+      ]
+    },
+    "may_emerging_signals": {
+      "value_emergence": "Dividend ETFs (SCHD, VYM) flagged as execution-ready; utilities (PEG) showing Q1 earnings beat; suggests potential rotation away from pure growth concentration",
+      "industrials_momentum": "JLHL +72.84% May gainer; AI infrastructure spending boosting industrials and broadening participation",
+      "semiconductors": "Sustained strength post-Q1 earnings; CHIPS Act progress ongoing; foundry updates monitored",
+      "energy_volatility": "Oil prices volatile; WTI +7% last week; Strait of Hormuz disruption risk persists despite ceasefire; elevated oil constrains consumer spending and inflation outlook"
+    },
+    "breadth_concern": "Sustained rallies require broad participation; current concentration in mega-cap tech leaves index vulnerable if AI/growth sentiment shifts"
+  },
+  "earnings_tone": {
+    "q1_2026_season_status": "Strong start; ~67% of S&P 500 companies reported by May 6",
+    "beat_rate": "84% posting EPS above estimates (well above 5- and 10-year averages); highest since early 2021 if trend holds",
+    "profit_margins": "Record 13.4% (highest on record)",
+    "guidance": "Benign; generally positive",
+    "forward_earnings_growth": "+18% expected over next 12 months",
+    "revisions_trend": "Upward revisions outpacing negative revisions",
+    "valuation_implication": "Earnings growth is primary path to further upside; rising bar means market needs continued delivery to sustain current valuations (21x forward P/E, up from 19.7x end-Q1)"
+  },
+  "risk_flags": {
+    "critical": [
+      {
+        "flag": "Narrow breadth concentration",
+        "severity": "High",
+        "detail": "Rally concentrated in semiconductors and mega-cap stocks; average stock underperformed by -4.5%; vulnerability if sentiment shifts"
+      },
+      {
+        "flag": "Valuation at historical highs",
+        "severity": "High",
+        "detail": "Forward P/E at 21x; some sources cite most overvalued level in history; dependent on continued earnings delivery"
+      },
+      {
+        "flag": "Geopolitical tail risk",
+        "severity": "High",
+        "detail": "Strait of Hormuz remains effectively closed; ceasefire fragile; oil prices elevated ($95–103 range); single negative headline could reverse sentiment quickly"
+      },
+      {
+        "flag": "Fed policy uncertainty",
+        "severity": "Medium-High",
+        "detail": "New Fed Chair Warsh's communication style unknown; independence under scrutiny; zero rate cuts expected 2026; next move slightly more likely up than down"
+      }
+    ],
+    "moderate": [
+      {
+        "flag": "Inflation persistence",
+        "severity": "Medium",
+        "detail": "Above 2% target; oil shock introduces new inflation risk; constrains Fed flexibility"
+      },
+      {
+        "flag": "Low trading volume",
+        "severity": "Medium",
+        "detail": "Tuesday volume 35.9M shares (lowest since post-Thanksgiving); suggests weak conviction in rally; vulnerable to sudden reversals"
+      },
+      {
+        "flag": "Earnings bar rising",
+        "severity": "Medium",
+        "detail": "Record margins and beats set high expectations; any disappointment could trigger sharp repricing"
+      },
+      {
+        "flag": "Bond market repricing",
+        "severity": "Medium",
+        "detail": "Rates market has shifted hawkish; 10-year yield sticky at 4.36%; mortgage rates unlikely to decline without Fed pivot"
+      }
+    ],
+    "watch_list": [
+      {
+        "item": "Friday May 10 jobs report",
+        "impact": "Critical for Fed rate expectations; soft labor market could revive rate-cut narrative; strong report reinforces hold stance"
+      },
+      {
+        "item": "Fed speakers (Alberto Musalem, Austan Goolsbee) May 6",
+        "impact": "Any shift in tone on rate path could trigger repricing"
+      },
+      {
+        "item": "Xi-Trump summit (May, date TBD)",
+        "impact": "Could address Iran, trade, geopolitical tensions; outcome affects risk appetite"
+      },
+      {
+        "item": "Oil price stability",
+        "impact": "Elevated prices support energy sector but weigh on consumer spending and inflation expectations"
+      }
+    ]
+  },
+  "paper_trading_implications": {
+    "regime_classification": "Risk-on with narrow breadth; transition phase",
+    "recommended_posture": "Cautious long bias; favor broad diversification and value rotation over concentrated growth",
+    "execution_readiness": [
+      "SCHD (dividend-value ETF): Execute-if-guards-pass; aligns with value emergence and narrow-breadth risk mitigation",
+      "VYM (high-yield ETF): Watch; similar rationale to SCHD",
+      "Utilities (PEG): Watch; defensive positioning amid geopolitical/inflation uncertainty",
+      "Semiconductors (INTC): Watch; sector momentum strong but valuation elevated; monitor guidance"
+    ],
+    "risk_management": "Maintain stop-losses at 6–8% per candidate; avoid single-stock concentration >15%; monitor breadth indicators (advance/decline ratio, equal-weight vs. cap-weight performance); reduce exposure if VIX spikes or volume deteriorates further",
+    "scenario_planning": {
+      "bull_case": "Earnings continue to beat; AI infrastructure spending broadens participation; geopolitical tensions ease; Fed eventually cuts in H2 2026",
+      "bear_case": "Earnings disappoint; ceasefire breaks; oil shock reignites inflation; Fed holds rates higher for longer; narrow breadth reverses into correction",
+      "base_case": "Sideways consolidation with elevated volatility; earnings support valuations but geopolitical/policy uncertainty limits upside; value rotation gradual"
+    }
+  },
+  "source_urls": [
+    "https://rscapital.com/2026/05/05/spring-surge-april-showers-watered-a-bullish-market/",
+    "https://themortgagereports.com/mortgage-rates-now/mortgage-rates-today-may-6-2026",
+    "https://articles.stockcharts.com/article/nasdaq-sp500-hit-record-highs-chip-stocks-surge/",
+    "https://www.benzinga.com/markets/equities/26/05/52312914/stock-market-today-sp-500-dow-futures-advance-as-trump-pauses-project-freedom-super-micro-computer-amd-intel-in-focus",
+    "https://economictimes.com/markets/us-stocks/news/us-stock-market-jobs-data-to-test-feds-rate-outlook-amid-resilient-economy-and-inflation-risks/articleshow/130843994.cms",
+    "https://www.gurufocus.com/economic_indicators/63/sp-500-index",
+    "https://www.investing.com/analysis/markets-rally-as-ceasefire-holds-while-bond-market-keeps-score-200679755",
+    "https://www.storebrandam.com/news-insights/themes/asset-allocation/market-outlook-for-may-2026-rally-amid-uncertainty/",
+    "https://www.chase.com/personal/investments/learning-and-insights/article/april-2026-sp-500-delivers-best-month-in-five-years",
+    "https://www.investing.com/analysis/sp-500-gains-mask-volatility-disconnect-across-markets-200679747",
+    "https://www.tradingview.com/news/zacks:b2da4c947094b:0-are-markets-sleepwalking-into-recession-etfs-for-portfolio-resilience/",
+    "https://home.treasury.gov/news/press-releases/sb0490"
+  ]
+}
+```
+
+---
+
+### **Key Takeaways for Paper-Trading Workflow:**
+
+1. **Market Regime**: Risk-on but fragile; narrow breadth concentration in mega-cap tech/semis creates vulnerability.
+2. **Fed Stance**: Hawkish; zero rate cuts expected 2026; next move slightly more likely up than down.
+3. **Earnings**: Strong Q1 season (84% beat rate, record margins) supports valuations but raises bar for future delivery.
+4. **Sector Rotation**: Value/dividend ETFs emerging as execution-ready; industrials gaining on AI infrastructure spending; energy volatile.
+5. **Critical Risk**: Geopolitical tail (Strait of Hormuz), valuation at historical highs, low trading volume, and fragile ceasefire.
+6. **Action**: Favor broad diversification; execute value/dividend rotations; maintain tight stops; monitor Friday jobs report and Fed speakers.
 

@@ -5083,4 +5083,37 @@ Not run for this candidate.
 Social buzz, max 10%: none
 Congress signal, max 5%: low-weight volume signal
 Sources: https://investors.pseg.com
+## Research Update - 2026-05-06 17:04:47 Eastern Daylight Time
+
+Research Update
+
+Market tone: US markets in risk-on mode with narrow breadth; strong Q1 earnings (84% beat rate) supporting valuations amid fragile ceasefire, hawkish Fed (zero 2026 cuts), and value rotation emerging post-tech concentration. Low volume and geopolitical risks (Strait of Hormuz) cap upside.
+Candidates: 3
+
+1. SCHD (Large Value Dividend ETF) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 78/100 | tier execution-ready | bucket dividend-etf-defensive | HF source 0/100
+Recommendation: execute-if-guards-pass
+Catalyst: Morningstar Gold-rated top high-dividend ETF for 2026 passive income lists; fresh sector rotation to value amid tech concentration risks and post-Q1 earnings strength.
+Chittick Cash: Diversified holdings reduce single-stock risk; high yield provides downside cushion; trading at discount to fair value in growth-dominated market.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=4 fresh=yes bucket=dividend-etf-defensive
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. VYM (Large Value Dividend ETF) | confidence 0.78 | allocation 6.0% | stop 8.0% | Chittick 75/100 | tier execution-ready | bucket high-yield-etf
+Recommendation: watch
+Catalyst: Morningstar top high-dividend ETF list for 2026; aligns with post-tech rally value emergence.
+Chittick Cash: Yield buffer; diversified ~500 holdings.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=4 fresh=yes bucket=high-yield-etf
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. PEG (Utilities) | confidence 0.65 | allocation 4.0% | stop 7.0% | Chittick 70/100 | tier watch | bucket utilities-defensive | HF source 0/100
+Recommendation: watch
+Catalyst: Q1 2026 earnings beat (late April); low-weight congressional volume signal.
+Chittick Cash: Regulated assets provide floor.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=11 fresh=yes bucket=utilities-defensive
+Social buzz, low weight: none
+Congress signal, low weight: low-weight volume signal
 
