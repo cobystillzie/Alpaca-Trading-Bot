@@ -3263,4 +3263,162 @@ SEC/company quality check:
   "source_urls": []
 }
 ```
+## Source And Signal Research - 2026-05-06 09:02:26 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks/ETFs. Social buzz is weak context only, never a trade reason.",
+  "social_buzz": "None detected",
+  "attention_anomalies": "None detected",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No recently reported congressional trades in liquid US stocks/ETFs identified in disclosures. ONCY checked: no Congress trading data. Steube past trades (e.g., IONQ Mar 2026) not recent. PEG has low-weight prior volume signal only.",
+  "congressional_signal": "none",
+  "tickers": [],
+  "source_urls": [
+    "https://www.quiverquant.com/stock/ONCY/institutions/",
+    "https://www.quiverquant.com/insiders/"
+  ]
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": "Search results contain SEC filings for V1 VC III LP (venture capital fund, Form D/A amendments filed 2026-04-15), FIVE 2023-V1 Mortgage Trust (RMBS 10-K filings for FY 2024–2025), and NovaGold Resources Inc. (NG, mining technical report on Donlin Gold project). No direct evidence of watchlist names (INTC, GOOGL, USAR, GT) in these filings. V1 VC III represents early-stage venture capital with $30M target offering, $9.795M raised as of April 2026, 26 accredited investors, zero sales commissions. FIVE 2023-V1 is a securitized mortgage trust with diversified commercial real estate loan pool (office, hospitality, mixed-use) and multiple servicers. NovaGold's Donlin Gold project shows advanced exploration stage with 2025 drilling activity (47 core holes, 18,056 m) supporting future mining studies.",
+  "filing_risks": [
+    {
+      "entity": "V1 VC III, LP",
+      "cik": "2056023",
+      "risk_category": "Concentration & Liquidity",
+      "evidence": "Limited Partnership structure with single General Partner (V1 VC III GP, LLC) and management company (v1 vc, LLC). Both entities at same Boulder, CO address. No diversification of GP/management oversight. Fund is only 1 year old (incorporated 2025). $20.205M remaining to raise out of $30M target; only 26 investors to date suggests limited LP base and potential concentration risk.",
+      "severity": "HIGH"
+    },
+    {
+      "entity": "V1 VC III, LP",
+      "cik": "2056023",
+      "risk_category": "Capital Allocation & Fee Structure",
+      "evidence": "Form D/A clarification states 'The Issuers' General Partner (or its designee) is entitled to a management fee payable by the Issuer.' No explicit fee percentage disclosed in filing. Zero sales commissions and finder's fees reported, but management fee structure opaque. Typical VC funds charge 2–2.5% annually; lack of transparency raises governance concern.",
+      "severity": "MEDIUM"
+    },
+    {
+      "entity": "V1 VC III, LP",
+      "cik": "2056023",
+      "risk_category": "Regulatory & Exemption Reliance",
+      "evidence": "Fund relies on Regulation D exemptions (06b, 3C, 3C.1, 3C.7) for unregistered offering. No 40 Act registration. Accredited-investor-only structure (hasNonAccreditedInvestors = false) limits secondary market liquidity and exit optionality for LPs. Early-stage fund with no track record; prior fund performance unavailable.",
+      "severity": "MEDIUM"
+    },
+    {
+      "entity": "FIVE 2023-V1 Mortgage Trust",
+      "cik": "1961629",
+      "risk_category": "Concentration & Loan Diversification",
+      "evidence": "Top 5 loans represent 28.3% of asset pool: Brandywine Strategic Office (9.8%), Sentinel Square II (8.4%), 575 Broadway (4.9%), Gilardian NYC Portfolio (3.6%), Centers of High Point (2.6%). Office exposure (Brandywine, 575 Broadway) totals ~14.7% in commercial real estate sector facing post-pandemic headwinds. Multiple loans are part of pari passu combinations with non-trust assets, complicating recovery hierarchy.",
+      "severity": "HIGH"
+    },
+    {
+      "entity": "FIVE 2023-V1 Mortgage Trust",
+      "cik": "1961629",
+      "risk_category": "Servicer & Operational Risk",
+      "evidence": "Multiple servicers across different pooling agreements: Midland Loan Services (PNC), Wells Fargo (Essex Crossing, Metroplex prior to March 1, 2025; replaced by Trimont LLC), KeyBank, Rialto Capital, CWCapital, Argentic Services, 3650 REIT Loan Servicing. Fragmented servicing structure increases operational complexity and potential for servicing failures. Custodian (Computershare) and operating advisors (Pentalpha Surveillance) add layers of third-party dependency.",
+      "severity": "HIGH"
+    },
+    {
+      "entity": "FIVE 2023-V1 Mortgage Trust",
+      "cik": "1961629",
+      "risk_category": "Asset Quality & Loan Performance",
+      "evidence": "10-K filings omit detailed financial statements and MD&A (marked 'Omitted'). No disclosure of delinquency rates, loss severity, or loan-level performance metrics in provided excerpts. Pari passu loan structures mean trust holds only partial interest in combined loans; non-trust portions may be securitized elsewhere (BBCMS 2022-C17, Benchmark 2022-B37, BANK5 2023-5YR1, Benchmark 2023-V2, MSWF 2023-1), creating cross-collateralization and contagion risk.",
+      "severity": "HIGH"
+    },
+    {
+      "entity": "FIVE 2023-V1 Mortgage Trust",
+      "cik": "1961629",
+      "risk_category": "Interest Rate & Refinancing Risk",
+      "evidence": "Trust is non-accelerated filer and smaller reporting company. No disclosure of weighted average coupon, duration, or refinancing schedule in provided sections. Commercial real estate loans originated in 2023 vintage face refinancing risk as rates remain elevated; office sector particularly vulnerable to cap rate compression and tenant demand uncertainty.",
+      "severity": "MEDIUM"
+    },
+    {
+      "entity": "NovaGold Resources Inc.",
+      "ticker": "NG",
+      "cik": "1173420",
+      "risk_category": "Project Development & Permitting",
+      "evidence": "Donlin Gold project remains in advanced exploration/pre-development stage. 2025 drilling (47 core holes, 18,056 m) and 2024 metallurgical testwork support 'future mining studies.' No production timeline disclosed. Alaska permitting environment complex; dam safety certificates and environmental reviews ongoing. Project has been in development for 15+ years with no production start date announced.",
+      "severity": "HIGH"
+    },
+    {
+      "entity": "NovaGold Resources Inc.",
+      "ticker": "NG",
+      "cik": "1173420",
+      "risk_category": "Geological & Metallurgical Uncertainty",
+      "evidence": "Mineral Resource and Mineral Reserve estimates based on drilling data through 2025. Deposit geology complex: multiple mineralized zones (ACMA, Lewis, Dome, etc.) with variable vein density, grade continuity, and host rock lithology. Metallurgical testwork ongoing for flotation optimization and cyanide leach potential. Sub-microscopic gold in arsenopyrite and pyrite introduces processing complexity and recovery uncertainty.",
+      "severity": "MEDIUM"
+    },
+    {
+      "entity": "NovaGold Resources Inc.",
+      "ticker": "NG",
+      "cik": "1173420",
+      "risk_category": "Capital Requirements & Financing Risk",
+      "evidence": "Large-scale open-pit mine development requires multi-billion-dollar capex. No financing commitment disclosed in technical report. Donlin Gold LLC is subsidiary; parent company (NovaGold) must secure project financing. Commodity price exposure: gold prices volatile; project economics sensitive to gold price assumptions in feasibility study (not provided in excerpts).",
+      "severity": "HIGH"
+    }
+  ],
+  "quality_notes": [
+    {
+      "entity": "V1 VC III, LP",
+      "note": "Early-stage venture fund with limited track record. Only 1 year old; no prior fund performance or exit data available. Management team (Brett Jackson, Benny Joseph as Managing Directors) lacks disclosed background or prior fund experience in filing. Accredited-investor-only structure appropriate for VC but limits LP base and secondary liquidity.",
+      "data_quality": "MEDIUM"
+    },
+    {
+      "entity": "V1 VC III, LP",
+      "note": "Form D/A amendment filed April 15, 2026 updates offering status: $9.795M raised of $30M target (32.65% committed). Slow fundraising pace (only 26 investors in 12+ months) may signal limited LP interest or market headwinds. No portfolio company disclosures; cannot assess investment quality or diversification.",
+      "data_quality": "LOW"
+    },
+    {
+      "entity": "FIVE 2023-V1 Mortgage Trust",
+      "note": "10-K filings are largely boilerplate for RMBS trusts; most substantive sections (MD&A, financial statements, risk factors) are omitted per Regulation AB. Trust is non-accelerated filer and smaller reporting company, reducing disclosure obligations. Servicer compliance statements and attestation reports referenced but not fully reproduced in excerpts.",
+      "data_quality": "MEDIUM"
+    },
+    {
+      "entity": "FIVE 2023-V1 Mortgage Trust",
+      "note": "Loan-level data available in Exhibit Index and pooling/servicing agreements (incorporated by reference). Top 5 loans represent 28.3% of pool; no single obligor exceeds 10% per Item 1112(b). Diversification across office, hospitality, mixed-use, and industrial properties provides some sector spread, but office concentration (14.7%) is material risk in current environment.",
+      "data_quality": "MEDIUM"
+    },
+    {
+      "entity": "NovaGold Resources Inc.",
+      "note": "Technical report (Exhibit 96.1 to 10-K) is comprehensive S-K 1300 compliant document with detailed geology, mineralization, and deposit descriptions. Drilling history from 2007–2025 shows sustained exploration investment. However, no feasibility study, economic analysis, or production timeline disclosed in provided excerpts.",
+      "data_quality": "MEDIUM"
+    },
+    {
+      "entity": "NovaGold Resources Inc.",
+      "note": "Donlin Gold project geology is well-documented: porphyry-epithermal system with multiple mineralized zones, complex vein networks, and variable host rock lithology. Mineral Resource and Reserve estimates updated through 2025 drilling. Metallurgical testwork ongoing but results not fully disclosed. Project remains pre-development; no production decision announced.",
+      "data_quality": "MEDIUM"
+    }
+  ],
+  "source_urls": [
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002056023&type=D&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002059128&type=D&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001961629&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1173420&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/Archives/edgar/container/2056023/000205602326000001/0002056023-26-000001-index.htm",
+    "https://www.sec.gov/Archives/edgar/container/1961629/000196162926000001/dma23fiv_10k-2025.htm",
+    "https://www.sec.gov/Archives/edgar/container/1173420/000117342026000003/ng-20251231x10k.htm"
+  ]
+}
+```
+
+---
+
+### Key Observations for Watchlist Context:
+
+**No direct evidence of INTC, GOOGL, USAR, or GT in these filings.** The search results are dominated by:
+- **V1 VC III LP**: Early-stage venture fund with concentration risk (single GP, 26 LPs, $20.2M still to raise).
+- **FIVE 2023-V1 Mortgage Trust**: RMBS with office exposure (14.7%) and fragmented servicer network; pari passu loan structures complicate recovery.
+- **NovaGold (NG)**: Mining exploration company with Donlin Gold project in pre-development stage; high capex and permitting risk.
+
+**None of these entities are suitable for the Chittick Cash watchlist** (which focuses on liquid, profitable, dividend-paying or high-growth equities). These are specialized investment vehicles (VC fund, mortgage trust, mining exploration) with illiquidity, concentration, and execution risk.
 

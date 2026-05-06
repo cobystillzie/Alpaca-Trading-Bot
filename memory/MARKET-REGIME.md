@@ -1630,4 +1630,145 @@ For a cautious bot workflow on May 4, 2026:
 - **Bullish drivers:** Strong Q1 earnings (+19.6% YoY), record margins (13.4%), AI capex cycle, Fed holding rates steady
 - **Bearish risks:** Narrow breadth (mega-cap tech concentration), elevated valuations (21x P/E), energy volatility, geopolitical uncertainty, two-way Fed policy risks
 - **Action:** Diversify across sectors; avoid chasing mega-cap winners; use tight stops; overweight emerging markets and utilities as hedges; monitor Fed speakers and oil prices daily
+## Market Regime Research - 2026-05-06 09:02:26 Eastern Daylight Time
+
+```json
+{
+  "summary": {
+    "date_analyzed": "2026-05-06",
+    "overall_tone": "Risk-on with caution flags",
+    "key_narrative": "April rally driven by ceasefire relief and strong earnings; May faces headwinds from persistent inflation, elevated oil prices, and Fed hawkishness. Market at all-time highs but breadth narrow and concentrated in mega-cap tech/AI. Geopolitical risks remain unresolved.",
+    "confidence_level": "moderate"
+  },
+  "market_regime": {
+    "index_trend": {
+      "s_and_p_500": "All-time high (7,209 close); +10% April gain (best month since Nov 2020); currently consolidating",
+      "nasdaq": "All-time high; +17% tech sector April; concentrated in semiconductors (+40% on 17-day streak)",
+      "russell_2000": "All-time high; lagging mega-cap leadership",
+      "breadth": "Narrow—average S&P 500 stock underperformed index by -4.5%; only 4 mega-cap names (GOOGL, AMZN, NVDA, MSFT) driving gains"
+    },
+    "fed_and_rates": {
+      "current_policy": "Held at 3.50%–3.75%; 8-to-4 vote (most dissents since Oct 1992)",
+      "rate_cut_odds": "8% probability of any 2026 rate cut (down from 20% one month ago)",
+      "rate_hike_odds": "29–35% probability of 25bp hike by April 2027; >50% probability by April 2027 per derivatives",
+      "june_meeting_outlook": "94.1% probability of hold; next move 'slightly more likely to be up than down' per Jeremy Siegel",
+      "policy_bias": "Shifting toward neutral; easing bias likely removed at upcoming meetings"
+    },
+    "treasury_yields": {
+      "10_year": "4.37%",
+      "2_year": "3.89%",
+      "30_year": "5.0%+ (first time above key psychological threshold since summer 2025)",
+      "yield_driver": "Inflation expectations and 'higher rates for longer' pricing"
+    },
+    "volatility": {
+      "vix_proxy": "Fell sharply in April; credit spreads tightened; institutional equity futures positioning at highest since late 2024",
+      "current_state": "Low but fragile; dependent on geopolitical headlines and oil prices",
+      "risk": "Volatility likely to spike on NFP (Friday) or oil/Iran developments"
+    }
+  },
+  "sector_rotation": {
+    "april_winners": [
+      "Technology: +17% (semiconductors +40%, NVDA/AVGO/AMD led)",
+      "Communications: +18% (GOOGL driven)",
+      "Consumer Cyclical: +10% (AMZN driven; ex-AMZN moribund)",
+      "Industrials: Benefiting from AI infrastructure spend"
+    ],
+    "april_losers": [
+      "Energy: -3% to -5% (oil subsided mid-month; WTI +7% week-end but volatile)",
+      "Healthcare: Slight loss (JNJ weakness widespread)"
+    ],
+    "rotation_narrative": "Growth +12% vs Value +3% in April (reversal of Q1 rotation). AI and mega-cap tech dominate. Breadth deteriorating.",
+    "forward_outlook": "Narrow leadership unsustainable; expect rotation back to value/defensive if rates stay higher or oil spikes"
+  },
+  "earnings_and_valuation": {
+    "q1_2026_earnings": {
+      "reported": "~57% of S&P 500 companies reported",
+      "growth_rate": "+19.6% YoY operating earnings",
+      "margin_quality": "Record profit margins",
+      "guidance": "Generally benign; strong results offset commodity cost concerns"
+    },
+    "valuation_metrics": {
+      "p_e_multiple": "21x forward (up from 19.7x end-Q1); below pre-conflict levels",
+      "multiple_expansion_vs_earnings": "Significant rebound tied to rising earnings estimates, not pure multiple expansion",
+      "morningstar_fair_value": "S&P 500 trading at 5% discount to composite fair value (0.95 price/FV); growth and value both at 7% discount"
+    },
+    "valuation_risk": "Valuations compressed; limited margin of safety if earnings growth slows or rates stay elevated"
+  },
+  "risk_flags": {
+    "inflation_risks": {
+      "severity": "High",
+      "details": "March CPI 3.3% YoY (up from 2.4% Feb); headline CPI +0.9% MoM. Oil prices volatile ($120 Brent, WTI +7% week-end). Iran blockade indefinite. Energy expected to remain inflationary pressure through 2026.",
+      "market_implication": "Fed unlikely to cut; risk of hold-then-hike cycle. Bond market pricing 'higher rates for longer.'"
+    },
+    "geopolitical_risks": {
+      "severity": "High",
+      "details": "Iran conflict unresolved; ceasefire holds but conditions on ground do not support quick resolution. Trump-Xi summit next week (temporary safety bid). Naval blockade extended indefinitely.",
+      "market_implication": "April rally embedded assumption of quick resolution; if conflict escalates, oil spikes and equities sell off. Expect continued gyrations."
+    },
+    "fed_dissent_risk": {
+      "severity": "Moderate-High",
+      "details": "4 FOMC dissents (most since 1992) signal internal disagreement. Hawkish members pushing for hold or hike; dovish members isolated.",
+      "market_implication": "Fed credibility on 'patient' hold weakened. Market may reprice if dissents increase or inflation data surprises."
+    },
+    "breadth_deterioration": {
+      "severity": "Moderate",
+      "details": "Average S&P 500 stock underperformed by -4.5%; only 4 mega-cap names driving index. Russell 2000 lagging. Concentration risk at extremes.",
+      "market_implication": "Narrow rally vulnerable to profit-taking or rotation. Correction risk if mega-cap tech stumbles."
+    },
+    "valuation_compression": {
+      "severity": "Moderate",
+      "details": "P/E at 21x; limited discount to fair value (5%). Earnings growth priced in; limited upside if growth disappoints.",
+      "market_implication": "Risk/reward skewed to downside if earnings growth slows or rates stay higher."
+    },
+    "labor_market_watch": {
+      "severity": "Moderate",
+      "details": "NFP report Friday is critical. Market pricing robust labor market; any weakness could revive rate-cut narrative, but high bar for Fed to cut.",
+      "market_implication": "NFP miss could trigger volatility; NFP beat likely priced in already."
+    },
+    "strong_dollar": {
+      "severity": "Low-Moderate",
+      "details": "Strong USD pressures exporters and international earnings; boosts imports and travel.",
+      "market_implication": "Headwind for multinational earnings; benefit for domestic-focused companies."
+    }
+  },
+  "sector_rotation": {
+    "current_leadership": "Mega-cap tech (NVDA, GOOGL, AMZN, MSFT), semiconductors, AI infrastructure",
+    "laggards": "Energy, healthcare, small-cap value",
+    "rotation_risk": "High. Narrow breadth unsustainable; expect reversion to mean if rates stay elevated or growth slows.",
+    "defensive_positioning": "Utilities (PEG) and healthcare showing relative weakness; may offer value if rotation occurs."
+  },
+  "paper_trading_workflow_guidance": {
+    "regime_classification": "Risk-on with elevated caution flags",
+    "position_sizing": "Reduce size; narrow breadth and geopolitical risks warrant smaller positions",
+    "entry_strategy": "Wait for breadth confirmation or pullback; avoid chasing mega-cap tech at all-time highs",
+    "stop_loss_discipline": "Tighter stops (6–8%) given volatility risk from NFP, oil, and geopolitical headlines",
+    "sector_focus": "Monitor AI/semis for momentum; consider defensive rotation plays (utilities, healthcare) if breadth deteriorates",
+    "key_catalysts": "NFP Friday, Trump-Xi summit, oil prices, next FOMC dissent signals, earnings guidance refresh",
+    "avoid": "Leverage, concentrated mega-cap bets, illiquid small-cap momentum plays (JLHL, GBTG, CABA show extreme May gains—likely unsustainable)"
+  },
+  "source_urls": [
+    "https://economictimes.com/markets/us-stocks/news/us-stock-market-jobs-data-to-test-feds-rate-outlook-amid-resilient-economy-and-inflation-risks/articleshow/130843994.cms",
+    "https://rscapital.com/2026/05/05/spring-surge-april-showers-watered-a-bullish-market/",
+    "https://www.businessinsider.com/bond-yields-30-year-treasury-inflation-stock-market-outlook-2026-5",
+    "https://www.morningstar.com/markets/us-stock-market-outlook-where-find-value-after-aprils-rally",
+    "https://www.marketpulse.com/markets/tech-explodes-djia-nasdaq-us-stocks-outlook/",
+    "https://www.crestwoodadvisors.com/may-2026-economic-and-market-update/",
+    "https://www.benzinga.com/markets/equities/26/05/52312914/stock-market-today-sp-500-dow-futures-advance-as-trump-pauses-project-freedom-super-micro-computer-amd-intel-in-focus",
+    "https://economictimes.com/markets/us-stocks/news/us-stock-market-bond-markets-signal-rising-odds-of-fed-rate-hike-before-cuts/articleshow/130844727.cms",
+    "https://think.ing.com/articles/watch-how-two-way-risks-are-dividing-the-feds-policy-outlook/"
+  ]
+}
+```
+
+---
+
+### **Key Takeaways for Cautious Paper-Trading:**
+
+1. **Regime**: Risk-on but fragile. All-time highs mask narrow breadth and elevated tail risks.
+2. **Fed**: Hawkish hold likely through June; rate cuts off table; hike odds rising.
+3. **Inflation**: Persistent (3.3% CPI); oil prices volatile; energy expected to remain inflationary through 2026.
+4. **Geopolitics**: Iran conflict unresolved; ceasefire temporary; next spike could trigger sharp selloff.
+5. **Earnings**: Strong (+19.6% YoY) but priced in; limited upside if growth disappoints.
+6. **Breadth**: Deteriorating; only 4 mega-cap names driving index; rotation risk high.
+7. **Action**: Reduce size, tighten stops, avoid chasing momentum, wait for breadth confirmation.
 

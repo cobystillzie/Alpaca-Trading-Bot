@@ -4475,4 +4475,37 @@ Sources: none
 Rejected / Watchouts
 - INTC: repeat_staleness; HF memory filter flags similarity to prior rejected patterns.
 - PEG: Low-weight social/congress signal needs at least two stronger sources.
+## Research Update - 2026-05-06 09:02:26 Eastern Daylight Time
+
+Research Update
+
+Market tone: Indian market shows momentum with Nifty indices up 1.5-2.5%; top stocks like Shriram Finance +4.11%, Bajaj Auto +2.71%. US high-dividend ETFs highlighted by Morningstar with SCHD (3.29% yield, Gold rating) leading US-focused options. Narrow US breadth persists amid risk-on fragility.
+Candidates: 3
+
+1. SCHD (Large Value ETF) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 78/100 | tier execution-ready | bucket dividend-etf-defensive
+Recommendation: execute-if-guards-pass
+Catalyst: Morningstar Gold-rated top high-dividend ETF list for 2026 passive income; highest US-focused yield at 3.29%; fresh sector rotation context amid narrow breadth.
+Chittick Cash: Quality filter excludes high payout ratios; market-cap weighting emphasizes stable giants.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=dividend-etf-defensive
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. VYM (Large Value ETF) | confidence 0.78 | allocation 6.0% | stop 8.0% | Chittick 75/100 | tier execution-ready | bucket high-yield-etf
+Recommendation: watch
+Catalyst: Morningstar top high-dividend ETF list; selects higher-yielding half of dividend payers, excluding REITs; fresh 2026 passive income pick.
+Chittick Cash: Market-cap weighting favors stable firms; broad diversification.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=high-yield-etf
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. SHRIRAMFIN.NS (Financials) | confidence 0.62 | allocation 3.0% | stop 6.0% | Chittick 35/100 | tier watch | bucket india-financials-momentum
+Recommendation: watch
+Catalyst: Top mover on IndiaInfoline hot stocks list May 6; strong price action near 52-week progress.
+Chittick Cash: Momentum play; limited quality data.
+HF filter: sentiment=not run source=0/100 hype=0.30 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=india-financials-momentum
+Social buzz, low weight: none
+Congress signal, low weight: none
 
