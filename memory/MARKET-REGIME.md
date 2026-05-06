@@ -1433,4 +1433,25 @@ For a cautious bot workflow on May 4, 2026:
   ]
 }
 ```
+## Market Regime Research - 2026-05-06 06:58:01 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities showing resilient risk-on tone with S&P 500 near session highs (+~1%), Nasdaq at record levels, and broad sector strength. Easing oil prices post-Middle East de-escalation, hawkish Fed outlook (no cuts priced in 2026, hikes in 2027), and strong semis earnings (AMD/INTC) driving momentum. Yields backing off yesterday's spike but remain elevated; volatility relatively contained.",
+  "market_regime": "risk_on_momentum",
+  "sector_rotation": "semiconductors_lead_smallcaps_follow_value_outperforms_growth",
+  "risk_flags": [
+    "hawkish_fed_expectations",
+    "oil_price_volatility",
+    "geopolitical_middle_east",
+    "elevated_yields_30yr_above_5pct"
+  ],
+  "source_urls": [
+    "https://www.nyse.com/index",
+    "https://www.ubs.com/global/en/wealthmanagement/insights/chief-investment-office/house-view/daily/2026/latest-05052026.html",
+    "https://www.youtube.com/watch?v=s8vN4-Pu0N4",
+    "https://www.youtube.com/watch?v=UzxS5ylehPI"
+  ]
+}
+```
 

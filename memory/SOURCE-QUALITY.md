@@ -3123,4 +3123,82 @@ SEC/company quality check:
   "quality_notes": "DRCT: Poor - going concern, revenue collapse, customer dependency undermine durability; INUV: Moderate - AI/IP strengths but extreme concentration erodes revenue quality; no durable demand evidence (e.g., recurring contracts stable, backlog growth) for watchlist adds; INTC memory note: No INTC filing here, but prior watch status holds on foundry/CHIPS; avoid GOOGL/GOOG per Chittick (not present).",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-06 06:58:01 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks or ETFs. Existing candidates (INTC, PEG, JLHL, etc.) show no flagged social anomalies or hype in memory.",
+  "social_buzz": "Weak/none detected; treat as weak context only per policy.",
+  "attention_anomalies": "None identified from scan or memory. Momentum candidates (JLHL +72%, GBTG +57%) noted in candidates but no external social confirmation or pump language.",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No new congressional trades reported for ONCY. MU shows mixed recent activity with purchases by Fetterman, Cisneros, Wied, Fields (up to $250k-$500k range in Feb-Mar 2026) offset by multiple sales from Khanna, Evans, Boozman. Existing PEG watch reinforced as low-weight volume signal. No actionable signals for liquid US stocks/ETFs.",
+  "congressional_signal": "neutral-mixed",
+  "tickers": ["MU", "PEG"],
+  "source_urls": [
+    "https://www.quiverquant.com/stock/ONCY/institutions/",
+    "https://www.quiverquant.com/stock/MU/"
+  ]
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "DRCT (Direct Digital Holdings) shows sharp revenue/gross profit declines (2025: $34.7M/$10.4M vs 2023: $157.1M/$37.6M) due to major sell-side customer pause from defamatory article/misinformation campaign; going concern doubt with $0.7M cash, $27.7M accumulated deficit, covenant-restricted debt; 90% retention but high concentration risks; INUV stable but customer concentration (64%+19% rev); others mixed but DRCT highest risk. No durable demand; watchlist avoidance recommended.",
+  "filing_risks": {
+    "DRCT": [
+      "Going concern substantial doubt: $0.7M cash insufficient for 12 months; accumulated deficit $27.7M; depends on cost cuts, partner recovery, new funding (balance-sheet risk)",
+      "Revenue collapse: 2025 rev/gross $34.7M/$10.4M vs 2023 $157.1M/$37.6M from single sell-side customer pause (May 2024) due to 'defamatory article/coordinated misinformation'; volumes not recovered (revenue quality/concentration risk)",
+      "Debt covenants: min $450k cash; term facility matures Dec 2026; default risks acceleration/bankruptcy (capital allocation risk)",
+      "Customer concentration: one paused customer caused declines; high retention (90%) but buy-side only 195 clients (concentration risk)",
+      "Delisting risk: Nasdaq Capital Market compliance failure",
+      "Dilution: potential equity/debt raises; holding co structure depends on LLC distributions",
+      "Fraud/IVT/ad fraud risks; platform operational issues; cookie phaseout",
+      "No litigation disclosed but 'defamatory article' implies potential reputational/legal exposure"
+    ],
+    "INUV": [
+      "Customer concentration: two customers 64.2%/19.3% of 2025 rev (up from 75%/7% in 2024); loss would materially harm (concentration risk)",
+      "History of losses: $5.1M op loss 2025 (vs $5.8M 2024); $178.3M accum deficit; negative working capital -$5.1M, $2.8M cash (balance-sheet risk)",
+      "Revenue quality: gross margin down 10.1% to 74.5%; negative operating cash flows",
+      "No litigation but dependency on Yahoo/Google; ad fraud/publisher risks"
+    ],
+    "BRID": [
+      "Customer concentration: Wal-Mart 33.5% rev/8.2% AR; Dollar General 14.2% rev/28.8% AR (concentration risk)",
+      "Inflation/consumer shifts: prolonged inflation reduces discretionary spend (revenue quality risk)",
+      "Food industry risks: contamination, recalls, pathogens, regulations (HACCP/USDA); 44% unionized workforce",
+      "No going concern but cyclical sales; no major dilution/litigation"
+    ],
+    "CLBZ": [
+      "Related party revenue: 65% of 2025 rev from related parties/properties under common control (revenue quality risk)",
+      "Early-stage: limited ops, 14 employees/contractors; phasing out EB-5, scaling down non-core (execution risk)",
+      "Dilution: Series B preferred raises ($700k); JV issuances (110k shares); emerging growth co (balance-sheet risk)",
+      "No concentration/going concern but high dependence on platform dev/AI features; no litigation"
+    ],
+    "NEOV": [
+      "Early-stage: sales since 2019; 17 employees; competition from Tesla/LG/Sonnen (competition risk)",
+      "Supply chain: Asia/US sourcing, FEOC compliance needs; in-house mfg transition (operational risk)",
+      "No major balance-sheet issues; policy/incentive phaseouts post-2025 ITC sunset (regulatory risk)",
+      "Customer concentration not specified; no litigation/dilution flags"
+    ],
+    "WS": [
+      "Cyclical steel: commodity pricing/volatility; automotive 33% from top3 customers (concentration/revenue quality)",
+      "Supply chain: raw steel availability/pricing; international ops (currency/tariff risks)",
+      "No going concern; strong but macro-sensitive; recent Sitem acquisition (integration risk)",
+      "No dilution/litigation concentration extremes"
+    ],
+    "ICCT": [
+      "Post-merger SPAC: limited history; Oct 2024 sold IT assets (revenue quality shift)",
+      "Customer AR concentration: 26%/25% single customer (concentration risk)",
+      "No going concern but SaaS competition; 72 employees; no major dilution/litigation"
+    ]
+  },
+  "quality_notes": "DRCT exhibits highest business-quality risks: acute going concern, revenue collapse from single-customer dependency/misinfo event, tight debt covenants, low cash burn risk without funding. INUV chronic losses/concentration. BRID stable food but retail concentration/inflation. CLBZ related-party heavy, developmental. NEOV/WS/ICCT lower risks but cyclical/early-stage. No durable demand signals (e.g., recurring rev growth, moat evidence); DRCT/INUV watchlist avoids due to balance-sheet fragility, concentration, revenue discontinuity vs memory names (INTC/PEG/VALN stronger earnings/policy tailwinds). Chittick: pay GOOGL/GOOG/INTC/USAR/GT attention - none match here.",
+  "source_urls": []
+}
 
