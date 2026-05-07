@@ -5639,4 +5639,37 @@ Rejected / Watchouts
 - SCHD: HF memory filter flags similarity to prior rejected patterns.
 - GLRE: Candidate references banned v1 instruments or leverage.
 - VYM: HF memory filter flags similarity to prior rejected patterns.
+## Research Update - 2026-05-07 09:16:55 Eastern Daylight Time
+
+Research Update
+
+Market tone: Mixed signals with tech concentration risks amid record highs, value/dividend rotation gaining traction (SCHD/VYM repeats), fresh Q1 beats in mining (MUX), reinsurance (GLRE), biotechs (ERNA/MNKD). Small-caps and under-$10 stocks showing momentum but high risk. Risk-on persists but broadening beyond semis.
+Candidates: 3
+
+1. MUX (materials-mining) | confidence 0.82 | allocation 7.0% | stop 8.0% | Chittick 76/100 | tier execution-ready | bucket materials-mining | HF source 9/100
+Recommendation: execute-if-guards-pass
+Catalyst: Q1 2026 net income $33.4M ($0.56/sh) vs loss prior year; revenue +107% to $74M; reaffirmed 114-126k GEO guidance; San José $40-50M dividends expected; recent JV and acquisitions.
+Chittick Cash: Profitable Q1, internal funding, dividends provide buffer vs historical losses.
+HF filter: sentiment=not run source=9/100 hype=0.10 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=materials-mining
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. GLRE (financials-reinsurance) | confidence 0.75 | allocation 5.0% | stop 8.0% | Chittick 74/100 | tier watch | bucket financials-reinsurance | HF source 8/100
+Recommendation: watch
+Catalyst: Q1 2026: net income $35.8M (+21% YoY), underwriting profit $6.2M (vs -$7.8M), combined ratio 96% (from 104.6%).
+Chittick Cash: Underwriting profit swing provides buffer.
+HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=3 fresh=yes bucket=financials-reinsurance
+Social buzz, low weight: none
+Congress signal, low weight: low-weight volume proxy
+
+3. SCHD (etf-dividend-value) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 78/100 | tier execution-ready | bucket dividend-etf-defensive | HF source 9/100
+Recommendation: execute-if-guards-pass
+Catalyst: Sustained rotation post-Q1 earnings; Morningstar Gold-rated #1 for 2026 income.
+Chittick Cash: Diversified quality dividend payers.
+HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=13 fresh=yes bucket=dividend-etf-defensive
+Social buzz, low weight: none
+Congress signal, low weight: none
 

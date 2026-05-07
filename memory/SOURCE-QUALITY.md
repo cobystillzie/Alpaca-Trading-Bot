@@ -4749,4 +4749,57 @@ SEC/company quality check:
   "source_urls": []
 }
 ```
+## Source And Signal Research - 2026-05-07 09:16:55 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks/ETFs. No evidence of hype, pump language, or unsupported claims detected in public web/social coverage.",
+  "social_buzz": "None",
+  "attention_anomalies": "None",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No recent congressional disclosures identified for liquid US stocks/ETFs in current screening. Search result references Quiver Quantitative insider trading dashboard (general tracking tool) but contains no specific transaction data or congressional filing details as of May 7, 2026.",
+  "congressional_signal": {
+    "status": "no_actionable_disclosures",
+    "context": "Congressional disclosures are delayed (typically 30–45 days post-transaction) and treated as low-weight, secondary catalyst context only. Current memory shows PEG (utilities) and GLRE (reinsurance) flagged with low-weight congressional volume as attention proxy, but no fresh filings detected in this search cycle.",
+    "weight": "low"
+  },
+  "tickers": [
+    "SCHD",
+    "VYM",
+    "GLRE",
+    "WS",
+    "PEG"
+  ],
+  "source_urls": [
+    "https://www.quiverquant.com/insiders/"
+  ],
+  "note": "Execution-ready candidates (SCHD, VYM) and watch-list positions (GLRE, WS, PEG) remain driven by Q1 2026 earnings, sector rotation, and fundamental catalysts. Congressional disclosures do not override or modify current allocation guards or rejection thresholds."
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": "DRCT (Direct Digital Holdings) 10-K for FY 2025 shows severe business deterioration with revenue/gross profit collapsing from $157M/$37.6M (2023) to $62M/$17M (2024) to $35M/$10M (2025), attributed to a major sell-side customer pause after defamatory article (reconnected May 2024 but volumes not recovered). Going concern warning with $0.7M cash vs $28M accumulated deficit; credit covenants ($450k min cash); Nasdaq delisting risk. High client retention (90%) and IVT mitigation positives overshadowed by execution risks. INUV shows stable SaaS adtech with AI focus but high customer concentration (64%+19% from 2 clients). DRCT warrants watchlist caution due to balance sheet/liquidity crisis despite adtech demand signals.",
+  "filing_risks": [
+    "Going Concern: Substantial doubt with $0.7M cash insufficient for 12 months; $27.7M accumulated deficit; dependent on cost cuts, volume recovery, new funding (10-K p. Risk Factors).",
+    "Revenue Concentration/Decline: 2024-25 revenue halved YoY due to one sell-side customer pause (misinformation campaign); sell-side volumes not recovered (10-K Business).",
+    "Balance Sheet: Credit facilities with $450k min cash covenant, default risk; term debt matures Dec 2026; potential dilution from new equity/debt (10-K Note 3, Risk Factors).",
+    "Customer Concentration: INUV 64.2%+19.3% from 2 customers (2025); DRCT historically high retention but recent client pause catastrophic.",
+    "Nasdaq Delisting: Failure to meet listing standards risk (10-K Risk Factors).",
+    "Dilution/Financing: Need additional capital may dilute shareholders; no assurances on terms.",
+    "Ad Fraud/IVT Risk: Failure to detect could harm reputation (10-K Risk Factors); though mitigation via partners noted positively.",
+    "Revenue Quality: Sharp 2024-25 declines not reflective of 'underlying model' per mgmt, but execution/customer dependency evident."
+  ],
+  "quality_notes": "DRCT exhibits durable adtech demand (170B monthly impressions, 174k buyers, 90% retention, multicultural focus, managed services) but quality undermined by acute liquidity crisis, customer pause, going concern. IVT mitigation, SSP curation, cross-sell strengths suggest platform viability if funded. INUV AI/IntentKey differentiation with 18 patents, but concentration risks. No litigation noted. Capital allocation strained by debt covenants/reorg. Valuation risk high given cash burn. Balance-sheet fragility primary watchlist veto vs demand signals.",
+  "source_urls": []
+}
+```
 

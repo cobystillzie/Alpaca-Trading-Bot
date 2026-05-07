@@ -2531,4 +2531,25 @@ For a cautious bot workflow on May 4, 2026:
   ]
 }
 ```
+## Market Regime Research - 2026-05-07 09:16:55 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities in strong bullish uptrend with S&P 500 and Nasdaq at record highs driven by tech/semiconductor strength (AMD +17%, chip rally), falling oil prices on Iran deal hopes, and resilient jobs data (ADP +109k vs +84k exp). Fed holding rates at 3.50-3.75% with 95%+ odds of no June cut; hawkish stance amid oil shock. VIX ~17 signals low fear. Earnings tone positive (84% S&P beats). Mild profit-taking in futures pre-open.",
+  "market_regime": "risk_on_bullish",
+  "sector_rotation": "tech_semiconductors_lead_broadening_to_small_caps_value_dividends",
+  "risk_flags": [
+    "fed_hawkish_no_cuts_2026_57pct_polymarket",
+    "geopolitical_iran_oil_volatility",
+    "nonfarm_payrolls_friday",
+    "futures_mildly_lower_after_records"
+  ],
+  "source_urls": [
+    "https://www.fxempire.com/forecasts/article/sp500-and-nasdaq-100-tech-stocks-rally-as-amd-lifts-us-indices-1596200",
+    "https://defirate.com/prediction-markets/fed-decision-odds/",
+    "https://www.investing.com/news/stock-market-news/us-stock-futures-edge-lower-after-wall-st-hits-record-highs-on-iran-hopes-4666050",
+    "https://articles.stockcharts.com/article/nasdaq-sp500-hit-record-highs-chip-stocks-surge/"
+  ]
+}
+```
 
