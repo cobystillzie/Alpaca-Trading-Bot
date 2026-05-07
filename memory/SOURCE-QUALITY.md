@@ -4208,4 +4208,66 @@ SEC/company quality check:
   ]
 }
 ```
+## Source And Signal Research - 2026-05-07 01:08:49 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks/ETFs. No evidence of hype, pump language, or unsupported claims detected.",
+  "social_buzz": "weak",
+  "attention_anomalies": "none",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Navigator Holdings Ltd. (NVGS) Q1 2026 earnings: revenues $140.6M (-7.1% YoY), net income $35.5M (+31.2% YoY). Declared $0.07/share dividend (~$4.3M); plans $6.3M share repurchase May 8-Jun 30. Revised capital return policy to 35% of net income (from 30%). Total liquidity $291M. Signed LOI to sell 8 gas carriers + Unigas stake for ~$183M (exp. Q4 close). Fleet TCE $29,684 (-3% YoY), utilization 90.6%. Sold vessels for gains. Monitoring Pertamina legal appeal.",
+  "congressional_signal": "none",
+  "tickers": ["NVGS"],
+  "source_urls": ["https://www.quiverquant.com/news/Navigator+Holdings+Ltd.+Declares+$0.07+Cash+Dividend+and+Announces+Revised+Capital+Return+Policy"]
+}
+```
+
+SEC/company quality check:
+{
+  "summary": {
+    "DRCT": "Direct Digital Holdings operates a programmatic advertising platform (Colossus SSP) with sell-side and buy-side services. 2025 revenue $34.7M (down sharply from $157.1M in 2023 due to major customer pause from defamatory article). ~90% client retention but high concentration risks; going concern doubt with $0.7M cash, $27.7M accumulated deficit. Aggressive growth plans via sales expansion/acquisitions amid IVT/fraud risks and competition from Google/Meta.",
+    "INUV": "Inuvo provides AI-driven advertising tech (IntentKey) for audience targeting across agencies/brands and platforms. Revenue grew modestly in 2025 but gross margins declined to 74.5%; history of losses ($178M accumulated deficit), $2.8M cash, negative working capital. Extreme customer concentration (top 2 = 83.5% revenue). Strong IP (18 patents) but dependent on Yahoo/Google.",
+    "others": "FATE (biotech iPSC therapies: clinical-stage, losses, funding risks); BRID (snack foods: stable but inflation/customer concentration); NEOV (energy storage: growth via new products but early-stage risks); WS (steel processing: scale in automotive, recent acquisition)."
+  },
+  "filing_risks": {
+    "DRCT": {
+      "balance_sheet": "Going concern doubt; $0.7M cash insufficient for 12 months; $27.7M accumulated deficit; credit facility covenants ($450K min cash) risk default; debt matures Dec 2026.",
+      "concentration": "One sell-side customer paused Q2 2024 (ongoing volume impact); high client reliance despite 90% retention.",
+      "dilution": "Potential equity/debt raises to fund operations likely dilute shareholders.",
+      "revenue_quality": "2024-2025 revenue/gross profit plunge 78%/72% YoY from customer pause; 'not reflective of underlying model' per mgmt.",
+      "capital_allocation": "Reorganization July 2024; acquisitions planned but liquidity constrained.",
+      "litigation": "Defamatory article/misinformation campaign (denied by mgmt).",
+      "other": "Delisting risk (Nasdaq); IVT/fraud, platform failures, cookie deprecation, high customer concentration."
+    },
+    "INUV": {
+      "balance_sheet": "History of losses; $178M accumulated deficit; negative cash flows; $2.8M cash, $5.1M working capital deficit.",
+      "concentration": "Top 2 customers = 83.5% 2025 revenue (64%+19%); 75% from one in 2024.",
+      "revenue_quality": "Modest 2.9% growth but gross margin -10.1% to 74.5%; seasonality, collections risks.",
+      "dilution": "Equity offerings/debt historically funded ops.",
+      "capital_allocation": "Acquisitions evaluated; fixed labor costs in software dev.",
+      "other": "NYSE American listing risk; ad fraud, tech changes, key personnel dependence."
+    },
+    "WS": {
+      "balance_sheet": "Strong (large cap, post-spin scale).",
+      "concentration": "Top 3 customers 33% sales.",
+      "other": "Commodity pricing volatility, supply chain, cyclical steel/auto demand."
+    },
+    "others": "FATE (clinical failures, funding); BRID (customer conc. Walmart 33.5%, inflation); NEOV (supply chain, competition from Tesla); no major litigation/dilution flags."
+  },
+  "quality_notes": {
+    "DRCT": "Weak: Revenue collapse, going concern, customer pause dependency undermine durability; high execution risk in adtech (fraud/competition). Watch for volume recovery but balance sheet fragility high.",
+    "INUV": "Poor: Extreme concentration (83% 2 customers), loss-making, negative WC signal revenue fragility despite AI narrative; dependent on platform partners (Yahoo/Google).",
+    "WS": "High: Scale (28 facilities), diversified processing, recent acquisition; automotive durable but cyclical.",
+    "overall": "No durable demand leaders; DRCT/INUV revenue quality poor (concentration/declines); avoid per Chittick filters (INTC-like semi-adjacent but worse BS)."
+  },
+  "source_urls": []
+}
 

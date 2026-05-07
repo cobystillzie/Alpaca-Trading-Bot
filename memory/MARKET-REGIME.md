@@ -2111,4 +2111,28 @@ For a cautious bot workflow on May 4, 2026:
     "https://www.gurufocus.com/economic_indicators/63/sp-500-index"
   ]
 }
+## Market Regime Research - 2026-05-07 01:08:49 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities rallied strongly on 5/6/26 with S&P 500, Nasdaq, and Russell 2000 hitting new record highs led by tech (Nasdaq +2.0%, semis +4.5%). Oil prices fell on Iran ceasefire hopes, boosting risk sentiment. Earnings beats from AMD (+19%) and SMCI (+17%) fueled tech surge. Fed remains on hold at 3.50-3.75% with 'wait-and-see' stance amid elevated inflation (5yr breakeven 2.67%). Bond yields rising (10yr 4.34%, 2yr ~3.97%) signal market pricing persistent inflation risk vs Fed patience. Labor data solid (ADP +109k). Narrow tech leadership persists despite value/defensive candidates in memory.",
+  "market_regime": "risk_on_bullish_with_inflation_stress",
+  "sector_rotation": "tech_semis_lead_narrow_rally_value_defensives_stagnant",
+  "risk_flags": [
+    "Iran_ceasefire_uncertain_oil_above_100",
+    "Fed_vs_market_inflation_disconnect",
+    "Rising_Treasury_yields_bear_flattening",
+    "Tech_concentration_risk_narrow_breadth",
+    "Mortgage_rate_volatility_Fed_uncertainty"
+  ],
+  "source_urls": [
+    "https://neilsethi.substack.com/p/markets-update-5626",
+    "https://www.connectcre.com/stories/who-blinks-first-a-patient-fed-or-a-jittery-bond-market/",
+    "https://www.youtube.com/watch?v=Ek3cbmlV94",
+    "https://www.ccim.com/real-estate-insights/blog/capital-markets-flux-opportunity-risk-and-return-fundamentals",
+    "https://www.chase.com/personal/investments/learning-and-insights/article/april-2026-sp-500-delivers-best-month-in-five-years",
+    "https://www.youtube.com/watch?v=Lu5iMoZaEZc"
+  ]
+}
+```
 
