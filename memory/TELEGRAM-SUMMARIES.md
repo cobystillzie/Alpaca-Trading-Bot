@@ -5359,4 +5359,37 @@ HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
 Self-learning: tier=watch repeat48h=0 fresh=yes bucket=industrials-aviation
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-07 03:13:19 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities near records post-5/6 tech/semiconductor surge (S&P +1.5%, Nasdaq +2%); MNKD +41% on Q1 catalyst hype/FDA path; DRCT mixed with awards/earnings but weak fundamentals; gold/silver up on ME tensions but macro yields pressure metals; narrow breadth favors value/defensives. Pre-open futures neutral.
+Candidates: 3
+
+1. MNKD (biotech-healthcare) | confidence 0.78 | allocation 6.0% | stop 8.0% | Chittick 65/100 | tier execution-ready | bucket small-cap-biotech
+Recommendation: execute-if-guards-pass
+Catalyst: Q1 2026 results/webcast on 5/6/2026 drove +41% surge (open $3.44 to $4.29 high, close ~$4.07); Truist Buy/$6 PT, Mizuho Outperform/$8 PT citing FDA PDUFA dates/clinical readouts.
+Chittick Cash: Post-surge entry below highs offers 7% buffer; catalysts provide downside protection if hold.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=small-cap-biotech
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. DRCT (communication-services-adtech) | confidence 0.55 | allocation 3.0% | stop 10.0% | Chittick 35/100 | tier watch | bucket small-cap-adtech
+Recommendation: watch
+Catalyst: 5/6/2026 Hermes Gold/Platinum awards for Orange 142 (9,360% ROI search, 62% bookings growth, 81% revenue lift); Q1 2025 earnings context (last 5/6/2025).
+Chittick Cash: Minimal; net cash -$16/share, covenant debt.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=small-cap-adtech
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. SCHD (large-value-etf) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 78/100 | tier execution-ready | bucket dividend-etf-defensive
+Recommendation: execute-if-guards-pass
+Catalyst: Ongoing value emergence post-tech narrowness; Morningstar Gold-rated #1 for 2026 income.
+Chittick Cash: Diversified quality + yield buffer.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=10 fresh=yes bucket=dividend-etf-defensive
+Social buzz, low weight: none
+Congress signal, low weight: none
 

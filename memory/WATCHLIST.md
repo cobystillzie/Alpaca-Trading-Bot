@@ -4,23 +4,23 @@
 {
   "candidates": [
     {
-      "adversary_case": "Premium contraction may signal weakening demand or selectivity risks; unproven if cat season spikes losses.",
-      "allocation_learning_note": "New sector diversification from over-repeated dividend ETFs.",
-      "balance_sheet_risk": "Low debt noted; stable investments mitigate cyclicality.",
-      "bear_case": "Gross/net premiums declined (GPW $227.9m from $247.9m, NPW $183.5m from $219.4m) signaling pricing pressure or selectivity; reinsurance cycle risks if cat losses rise.",
-      "capital_allocation_case": "Disciplined underwriting over volume growth; Solasglas income evidences smart allocation.",
-      "catalyst": "Q1 2026 earnings: net income $35.8m (+21% YoY), underwriting profit $6.2m (vs -$7.8m loss prior), combined ratio 96.0% (from 104.6%), loss ratio 59.1% (from 72.9%)",
+      "adversary_case": "High debt/negative FCF + small-cap biotech binary risk on FDA miss; post-rip fade common.",
+      "allocation_learning_note": "",
+      "balance_sheet_risk": "Meaningful debt + negative FCF; monitor covenant headroom.",
+      "bear_case": "Debt + negative FCF; stretched valuation risks unwind on 5/6 update/FDA disappointment; sector reset PT cuts.",
+      "capital_allocation_case": "Focused on catalysts; trading-oriented vs long owner.",
+      "catalyst": "Q1 2026 results/webcast on 5/6/2026 drove +41% surge (open $3.44 to $4.29 high, close ~$4.07); Truist Buy/$6 PT, Mizuho Outperform/$8 PT citing FDA PDUFA dates/clinical readouts.",
       "catalyst_type": "earnings",
-      "chittick_cash_score": 74.0,
+      "chittick_cash_score": 65.0,
       "chittick_reject_reason": "",
-      "concentration_case": "Diversified vs single-stock tech; complements existing value/defensive ETF positions.",
-      "confidence": 0.75,
+      "concentration_case": "Fresh catalyst diversifies from value ETFs/industrials in memory.",
+      "confidence": 0.78,
       "congressional_signal": "none",
-      "diversity_bucket": "reinsurance-financials",
-      "entry_plan": "Enter on open or pullback to $12.50-$13.00 if volume confirms; paper-trade 5% allocation max given sector novelty.",
-      "exit_plan": "Take profits at +10-15% or $14.50; invalidate below $11.80 (recent support) or if combined ratio >100%.",
+      "diversity_bucket": "small-cap-biotech",
+      "entry_plan": "Enter 4-10% tranche on pullback to $3.80-3.95 (5-8% below close) with volume confirmation above $4.00.",
+      "exit_plan": "Take profits at $4.50 (10-12% gain)/$5.00 (25% stretch); invalidate below $3.60 (today's open -5%).",
       "fresh_catalyst": true,
-      "growth_runway": "Reinsurance demand from climate risks; 30-180 day thesis on continued loss ratio discipline and investment stability.",
+      "growth_runway": "FDA PDUFA/clinical readouts; respiratory therapy expansion 30-180 days.",
       "hf_evidence_rank": 0.0,
       "hf_filter_vetoes": [],
       "hf_hype_risk": 0.0,
@@ -31,108 +31,52 @@
       "hf_sentiment_score": 0.0,
       "hf_source_quality_score": 0.0,
       "horizon_days": 5,
-      "margin_of_safety_case": "Profitability despite revenue drop provides buffer; combined ratio <100% offers downside protection vs peers.",
-      "market_regime": "Neutral regime favors defensives like reinsurance over cyclical tech; rotation from narrow leadership aids financials/insurers.",
-      "momentum_case": "Earnings beat supports potential short-term momentum in reinsurance sector; relative strength vs peers amid catastrophe-light quarter.",
-      "owner_hold_case": "Sustained combined ratio <97% and premium stabilization could justify 30-180 day review as quality compounder.",
-      "quality_case": "Proven underwriting turnaround with lower loss ratio signals discipline; stable investment income $40.4m; Cayman-based with Solasglas exposure provides diversification; high margin of safety from profitability swing despite top-line contraction.",
-      "recommendation": "watch",
+      "margin_of_safety_case": "Post-surge entry below highs offers 7% buffer; catalysts provide downside protection if hold.",
+      "market_regime": "Risk-on supports small-cap catalysts but narrowing breadth caps if tech falters.",
+      "momentum_case": "Explosive +41% on 5/6 volume; grinding higher from $2.50s mid-April; classic catalyst breakout holding gains.",
+      "owner_hold_case": "FDA approvals + revenue inflection justifying 30-180 day review.",
+      "quality_case": "Strong revenue growth from small base on respiratory therapies; analyst Buy/Outperform ratings despite PT cuts signal rich catalyst path; defined risk via post-surge volatility.",
+      "recommendation": "execute-if-guards-pass",
       "repeat_count_48h": 0,
-      "research_tier": "watch",
-      "risk_reward": "Defined 8% downside risk to support vs 12-20% upside to resistance; favorable given earnings quality.",
-      "sector": "reinsurance/financials",
+      "research_tier": "execution-ready",
+      "risk_reward": "8-12% upside to PTs vs 7-10% downside risk; 1.5:1 RR on catalyst hold.",
+      "sector": "biotech-healthcare",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
       "social_buzz": "none",
-      "source_quality": "High - direct from reinsurancene.ws earnings report with specific financial metrics; reputable industry source.",
+      "source_quality": "Strong: Stockstotrade news with live pricing, analyst PTs from Truist/Mizuho; multi-source confirmation.",
       "source_urls": [
-        "https://www.reinsurancene.ws/greenlight-re-reports-underwriting-profit-in-q126-despite-lower-premiums/"
+        "https://stockstotrade.com/news/mannkind-corporation-mnkd-news-2026_05_06/"
       ],
       "stop_loss_percent": 8.0,
       "strategy_tags": [
-        "chittick_cash"
+        "catalyst-momentum"
       ],
-      "symbol": "GLRE",
-      "target_allocation_percent": 5.0,
-      "thesis": "Greenlight Re demonstrates resilient reinsurance quality with underwriting discipline, delivering profit growth and combined ratio improvement amid premium contraction - fits Chittick Cash quality filter for owner-like businesses with margin of safety.",
-      "valuation_case": "Attractive post-earnings if trades near book value; quality underwriting justifies premium to cyclical insurers."
+      "symbol": "MNKD",
+      "target_allocation_percent": 6.0,
+      "thesis": "Biotech with inhaled insulin platform showing revenue growth; classic catalyst-driven small-cap momentum play blending quality therapies and near-term triggers.",
+      "valuation_case": "Stretched short-term but analyst PTs $6-8 imply 50-100% upside vs quality catalysts."
     },
     {
-      "adversary_case": "Snippet-only; full earnings may show margin pressure or guidance cut.",
-      "allocation_learning_note": "Underrepresented consumer bucket.",
-      "balance_sheet_risk": "Moderate; past debt issues.",
-      "bear_case": "Past regulatory scrutiny and MLM perception risks; no profit details in snippet.",
-      "capital_allocation_case": "Sales focus evidences execution.",
-      "catalyst": "Q1 2026 net sales $1.3B (+7.8% YoY) announced via official Instagram.",
-      "catalyst_type": "earnings",
-      "chittick_cash_score": 68.0,
-      "chittick_reject_reason": "",
-      "concentration_case": "Consumer diversifier vs financials/industrials.",
-      "confidence": 0.65,
+      "adversary_case": "Imminent dilution/delisting; revenue quality impaired by concentration.",
+      "allocation_learning_note": "",
+      "balance_sheet_risk": "High: $13M debt, $0.7M cash, going concern.",
+      "bear_case": "Going concern doubt ($0.7M cash, $13M debt, Nasdaq risk); revenue collapse 2023-2025 from customer pause; negative margins/FCF.",
+      "capital_allocation_case": "Reorg/acquisitions risky; dilution likely.",
+      "catalyst": "5/6/2026 Hermes Gold/Platinum awards for Orange 142 (9,360% ROI search, 62% bookings growth, 81% revenue lift); Q1 2025 earnings context (last 5/6/2025).",
+      "catalyst_type": "news",
+      "chittick_cash_score": 42.0,
+      "chittick_reject_reason": "Balance sheet fragility vetoes execution.",
+      "concentration_case": "Weak alternative to SCHD/INTC; high risk vs quality.",
+      "confidence": 0.55,
       "congressional_signal": "none",
-      "diversity_bucket": "consumer-staples",
-      "entry_plan": "Enter on confirmed breakout above recent high post-announcement.",
-      "exit_plan": "Profits at +8-12%; stop below announcement-day low.",
+      "diversity_bucket": "small-cap-adtech",
+      "entry_plan": "Watch for breakout above recent highs on award volume; small 3% tranche only if $1.00+.",
+      "exit_plan": "Profits at 15-20% gain; stop below earnings low.",
       "fresh_catalyst": true,
-      "growth_runway": "Health/wellness demand; 30-180 days on membership growth.",
-      "hf_evidence_rank": 0.0,
-      "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.0,
-      "hf_memory_similarity": 0.0,
-      "hf_model_notes": "",
-      "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "",
-      "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 0.0,
-      "horizon_days": 3,
-      "margin_of_safety_case": "Growth provides buffer but regulatory history caps safety.",
-      "market_regime": "Neutral; consumer staples-like stability aids in rotation.",
-      "momentum_case": "Fresh sales beat could spark 1-5 day pop on volume.",
-      "owner_hold_case": "Sustained 5-10% sales growth and clean regulatory slate.",
-      "quality_case": "Consistent growth in challenging retail environment; direct-selling model provides margin stability.",
-      "recommendation": "watch",
-      "repeat_count_48h": 0,
-      "research_tier": "watch",
-      "risk_reward": "8% risk for 10-15% reward on momentum.",
-      "sector": "consumer-staples",
-      "signal_weights": {
-        "congressional_signal": 0.0,
-        "social_buzz": 0.05
-      },
-      "social_buzz": "low-weight Instagram post",
-      "source_quality": "Medium - official Instagram but lacks full financials; needs 10-Q confirmation.",
-      "source_urls": [
-        "https://www.instagram.com/reel/DYA52aVBkfD/"
-      ],
-      "stop_loss_percent": 8.0,
-      "strategy_tags": [
-        "chittick_cash"
-      ],
-      "symbol": "HLF",
-      "target_allocation_percent": 4.0,
-      "thesis": "Herbalife's sales growth signals network marketing resilience amid consumer health trends; quality direct-seller with global footprint.",
-      "valuation_case": "Attractive if margins hold; monitor vs peers."
-    },
-    {
-      "adversary_case": "No results yet; potential delay or weak guidance.",
-      "allocation_learning_note": "Event-driven diversifier.",
-      "balance_sheet_risk": "Capex heavy; monitor debt.",
-      "bear_case": "Early-stage execution risks; capital-intensive buildout.",
-      "capital_allocation_case": "Investor webcast signals transparency.",
-      "catalyst": "Q1 2026 results and webcast scheduled for May 14, 2026.",
-      "catalyst_type": "earnings",
-      "chittick_cash_score": 70.0,
-      "chittick_reject_reason": "",
-      "concentration_case": "Niche alternative to broad industrials.",
-      "confidence": 0.62,
-      "congressional_signal": "none",
-      "diversity_bucket": "industrials-aviation",
-      "entry_plan": "Watch pre-earnings; enter post-report if beat.",
-      "exit_plan": "Post-earnings momentum take at +10%; invalidate on miss.",
-      "fresh_catalyst": true,
-      "growth_runway": "Campus expansion; 30-180 day network build.",
+      "growth_runway": "Buy-side scale-up if sell-side recovers; unproven.",
       "hf_evidence_rank": 0.0,
       "hf_filter_vetoes": [],
       "hf_hype_risk": 0.0,
@@ -143,36 +87,92 @@
       "hf_sentiment_score": 0.0,
       "hf_source_quality_score": 0.0,
       "horizon_days": 7,
-      "margin_of_safety_case": "Pre-earnings positioning with defined event risk.",
-      "market_regime": "Neutral; industrials-adjacent benefits from rotation.",
-      "momentum_case": "Pre-earnings anticipation could build momentum.",
-      "owner_hold_case": "Campus leasing ramp post-Q1.",
-      "quality_case": "First-mover in nationwide network; aviation tailwinds from private jet demand.",
+      "margin_of_safety_case": "Minimal; net cash -$16/share, covenant debt.",
+      "market_regime": "Risk-on aids ad tech but defensives preferred on breadth caution.",
+      "momentum_case": "Awards as positive signal post-earnings; low-float potential volatility.",
+      "owner_hold_case": "Sell-side recovery + funding without dilution.",
+      "quality_case": "Buy-side retention 90%, IVT mitigation; awards validate execution but going concern/cash burn offsets.",
       "recommendation": "watch",
       "repeat_count_48h": 0,
       "research_tier": "watch",
-      "risk_reward": "High event risk limits to 8% stop.",
-      "sector": "industrials-aviation",
+      "risk_reward": "High risk (bankruptcy Z-Score -0.81) vs speculative upside; <1:1 RR.",
+      "sector": "communication-services-adtech",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
       "social_buzz": "none",
-      "source_quality": "High - official Business Wire press release.",
+      "source_quality": "Medium: Awards news strong, but SEC flags balance sheet risks; analyst transcript negative.",
       "source_urls": [
-        "https://www.stocktitan.net/news/WS/sky-harbour-to-report-its-first-quarter-2026-financial-results-and-h8zudnhp51gw.html"
+        "https://www.stocktitan.net/news/DRCT/orange-142-and-emerald-isle-realty-earn-gold-and-platinum-at-2026-62724kortokg.html",
+        "https://stockanalysis.com/stocks/drct/statistics/",
+        "https://intellectia.ai/stock/DRCT/earnings/transcript-FY2025Q4-2026-04-07"
       ],
+      "stop_loss_percent": 10.0,
+      "strategy_tags": [
+        "catalyst-momentum"
+      ],
+      "symbol": "DRCT",
+      "target_allocation_percent": 3.0,
+      "thesis": "Programmatic ad tech with recent awards/earnings; momentum from metrics but fragile balance sheet limits quality.",
+      "valuation_case": "$12M mcap undervalues platform if recover but execution risk high."
+    },
+    {
+      "adversary_case": "Repeat 9x risks staleness without breakout.",
+      "allocation_learning_note": "",
+      "balance_sheet_risk": "Low; ETF structure.",
+      "bear_case": "Prolonged risk-on delays rotation; yield chases fade.",
+      "capital_allocation_case": "Disciplined indexing.",
+      "catalyst": "Ongoing value emergence post-tech narrowness; Morningstar Gold-rated #1 for 2026 income.",
+      "catalyst_type": "momentum",
+      "chittick_cash_score": 78.0,
+      "chittick_reject_reason": "",
+      "concentration_case": "Core holding diversifies new catalysts.",
+      "confidence": 0.82,
+      "congressional_signal": "none",
+      "diversity_bucket": "dividend-etf-defensive",
+      "entry_plan": "Add on dips to 50-day SMA if volume supports.",
+      "exit_plan": "Trail stops; profits on 8-10% gain.",
+      "fresh_catalyst": true,
+      "growth_runway": "Income + value leadership.",
+      "hf_evidence_rank": 0.0,
+      "hf_filter_vetoes": [],
+      "hf_hype_risk": 0.0,
+      "hf_memory_similarity": 0.0,
+      "hf_model_notes": "",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "",
+      "hf_sentiment_score": 0.0,
+      "hf_source_quality_score": 0.0,
+      "horizon_days": 7,
+      "margin_of_safety_case": "Diversified quality + yield buffer.",
+      "market_regime": "Narrow breadth boosts defensives.",
+      "momentum_case": "Relative strength in rotation; low repeat penalty on regime fit.",
+      "owner_hold_case": "Long-term income engine.",
+      "quality_case": "High-quality holdings, strong Moat ratings; margin of safety in yield/dividends.",
+      "recommendation": "execute-if-guards-pass",
+      "repeat_count_48h": 10,
+      "research_tier": "execution-ready",
+      "risk_reward": "8% upside to targets vs 8% stop; balanced.",
+      "sector": "large-value-etf",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "none",
+      "source_quality": "High: Morningstar/official.",
+      "source_urls": [],
       "stop_loss_percent": 8.0,
       "strategy_tags": [
         "chittick_cash"
       ],
-      "symbol": "SKYH",
-      "target_allocation_percent": 3.0,
-      "thesis": "Sky Harbour's aviation infrastructure buildout offers niche growth in business jet home-basing; aligns with quality expansion thesis.",
-      "valuation_case": "Growth runway justifies premium if execution holds."
+      "symbol": "SCHD",
+      "target_allocation_percent": 8.0,
+      "thesis": "Quality dividend ETF with defensive value tilt; sustained rotation play.",
+      "valuation_case": "Attractive vs growth premiums."
     }
   ],
-  "summary": "Q1 2026 earnings season underway with mixed reports: Greenlight Re (GLRE) swings to underwriting profit despite premium decline; Herbalife (HLF) net sales +7.8% YoY; Sky Harbour (SKYH) reports May 14; BuzzFeed (BZFD) delays to May 11. Narrow tech concentration risks persist amid value rotation context."
+  "summary": "US equities near records post-5/6 tech/semiconductor surge (S&P +1.5%, Nasdaq +2%); MNKD +41% on Q1 catalyst hype/FDA path; DRCT mixed with awards/earnings but weak fundamentals; gold/silver up on ME tensions but macro yields pressure metals; narrow breadth favors value/defensives. Pre-open futures neutral."
 }
 -->
 
@@ -739,4 +739,12 @@
 | GLRE | reinsurance/financials | watch | reinsurance-financials | 0 | yes | 0.75 | 74 | 0 | 0 | 5.0% | 8.0% | watch | Q1 2026 earnings: net income $35.8m (+21% YoY), underwriting profit $6.2m (vs -$7.8m loss prior), combined ratio 96.0% (from 104.6%), loss ratio 59.1% (from 72. |
 | HLF | consumer-staples | watch | consumer-staples | 0 | yes | 0.65 | 68 | 0 | 0 | 4.0% | 8.0% | watch | Q1 2026 net sales $1.3B (+7.8% YoY) announced via official Instagram. |
 | SKYH | industrials-aviation | watch | industrials-aviation | 0 | yes | 0.62 | 70 | 0 | 0 | 3.0% | 8.0% | watch | Q1 2026 results and webcast scheduled for May 14, 2026. |
+
+## Latest Candidates - 2026-05-07 03:13:19 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| MNKD | biotech-healthcare | execution-ready | small-cap-biotech | 0 | yes | 0.78 | 65 | 0 | 0 | 6.0% | 8.0% | execute-if-guards-pass | Q1 2026 results/webcast on 5/6/2026 drove +41% surge (open $3.44 to $4.29 high, close ~$4.07); Truist Buy/$6 PT, Mizuho Outperform/$8 PT citing FDA PDUFA dates/ |
+| DRCT | communication-services-adtech | watch | small-cap-adtech | 0 | yes | 0.55 | 42 | 0 | 0 | 3.0% | 10.0% | watch | 5/6/2026 Hermes Gold/Platinum awards for Orange 142 (9,360% ROI search, 62% bookings growth, 81% revenue lift); Q1 2025 earnings context (last 5/6/2025). |
+| SCHD | large-value-etf | execution-ready | dividend-etf-defensive | 10 | yes | 0.82 | 78 | 0 | 0 | 8.0% | 8.0% | execute-if-guards-pass | Ongoing value emergence post-tech narrowness; Morningstar Gold-rated #1 for 2026 income. |
 

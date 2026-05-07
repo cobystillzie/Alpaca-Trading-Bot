@@ -2385,4 +2385,29 @@ For a cautious bot workflow on May 4, 2026:
 - **Watch:** PEG (utilities), WS (industrials), INTC (semis).
 - **Avoid:** Mega-cap single stocks (allocation guards reject >15% concentration).
 - **Rebalance trigger:** If concentration >40% or VIX >25 on geopolitical spike.
+## Market Regime Research - 2026-05-07 03:13:19 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities hit record highs on 5/6/26 driven by tech/semiconductor strength (AMD +19%, SOX +4.5%), falling oil on Iran resolution hopes, and strong ADP jobs (+109k vs +84k exp). S&P 500 +1.5% to ~7344, Nasdaq +2.0%, RUT +1.3%. Fed held rates steady amid ME uncertainty, inflation risks, and labor resilience; 10Y yield ~4.4%, mortgage rates rising. Earnings tone strongly positive in tech/AI. Futures slightly lower pre-open 5/7. Momentum overbought with weakening breadth signals.",
+  "market_regime": "bullish_trend_with_caution",
+  "sector_rotation": "tech_semiconductors_lead_but_narrow_breadth_value_defensives_emerging",
+  "risk_flags": [
+    "overbought_momentum_moneyflow_weakening",
+    "fed_hike_probability_33pct_next_year",
+    "geopolitical_iran_oil_volatility",
+    "rising_yields_mortgage_rates",
+    "futures_slightly_lower_after_records",
+    "economic_stall_speed_warnings_beneath_surface"
+  ],
+  "source_urls": [
+    "https://neilsethi.substack.com/p/markets-update-5626",
+    "https://www.fxempire.com/forecasts/article/sp500-and-nasdaq-100-tech-stocks-rally-as-amd-lifts-us-indices-1596200",
+    "https://www.tastylive.com/news-insights/arm-surges-ahead-of-earnings-as-amd-outlook-supercharges-semiconductor-stocks",
+    "https://www.youtube.com/watch?v=B26m0rg1eqM",
+    "https://www.youtube.com/watch?v=StIaEygRLYk",
+    "https://www.youtube.com/watch?v=laGbOccqteE"
+  ]
+}
+```
 

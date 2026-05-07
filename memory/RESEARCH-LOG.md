@@ -484,4 +484,9 @@ Candidates found: 4
 Q1 2026 earnings season underway with mixed reports: Greenlight Re (GLRE) swings to underwriting profit despite premium decline; Herbalife (HLF) net sales +7.8% YoY; Sky Harbour (SKYH) reports May 14; BuzzFeed (BZFD) delays to May 11. Narrow tech concentration risks persist amid value rotation context.
 
 Candidates found: 3
+## Two-Hour Research Agent - 2026-05-07 03:13:19 Eastern Daylight Time
+
+US equities near records post-5/6 tech/semiconductor surge (S&P +1.5%, Nasdaq +2%); MNKD +41% on Q1 catalyst hype/FDA path; DRCT mixed with awards/earnings but weak fundamentals; gold/silver up on ME tensions but macro yields pressure metals; narrow breadth favors value/defensives. Pre-open futures neutral.
+
+Candidates found: 3
 

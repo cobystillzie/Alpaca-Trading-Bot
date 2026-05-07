@@ -4370,4 +4370,62 @@ SEC/company quality check:
   },
   "source_urls": ["https://www.sec.gov/Archives/edgar/data/1880613/000155837026004927/drtct-20260331x10k.htm", "https://www.sec.gov/Archives/edgar/data/829323/000095017026032147/inuvo_10k.htm", "https://www.sec.gov/Archives/edgar/data/14177/000095017026004927/bridgford-20251031.htm", "https://www.sec.gov/Archives/edgar/data/2050338/000168316825000456/clbz-20250930.htm", "https://www.sec.gov/Archives/edgar/data/1748137/000168316825000456/neov-20250630.htm", "https://www.sec.gov/Archives/edgar/data/1968487/000095017025071234/ws-20250531.htm"]
 }
+## Source And Signal Research - 2026-05-07 03:13:19 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results returned. Web/social-attention scan produced zero coverage data for unusual discussion around liquid US stocks/ETFs as of 2026-05-07 07:12 UTC.",
+  "social_buzz": {
+    "status": "no_data",
+    "note": "Search returned empty. Unable to assess social sentiment, pump language, or hype signals."
+  },
+  "attention_anomalies": {
+    "status": "no_data",
+    "note": "No anomalies detected—no sources available for analysis."
+  },
+  "source_urls": [],
+  "context_from_memory": {
+    "execution_ready": [
+      "SCHD (Large Value Dividend ETF): Morningstar Gold-rated, 0.82 confidence, repeat 9x, fresh value rotation catalyst.",
+      "VYM (High-Yield Value ETF): Morningstar top 2026 list, 0.78 confidence, repeat 9x, sustained post-tech narrowness."
+    ],
+    "watch_tier": [
+      "PEG (Utilities): Q1 2026 earnings beat, 0.65 confidence, repeat 15x.",
+      "WS (Industrials): 10-K scale evidence, 0.70 confidence, repeat 3x.",
+      "GLRE (Reinsurance): Q1 2026 +21% YoY net income, combined ratio 96.0%, fresh candidate.",
+      "HLF (Consumer Staples): Q1 2026 +7.8% YoY sales, fresh candidate.",
+      "SKYH (Industrials-Aviation): Q1 results webcast May 14, 2026, fresh candidate."
+    ]
+  },
+  "recommendation": "No social/web data available to flag hype or anomalies. Rely on existing memory fundamentals: SCHD and VYM remain execution-ready on Morningstar ratings and value rotation thesis. New candidates (GLRE, HLF, SKYH) show earnings data but lack social corroboration—treat as weak context only. Do not trade on absence of buzz. Proceed with guard checks on existing allocation limits."
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Navigator Holdings Ltd. (NVGS) Q1 2026 results: revenues $140.6M (-7.1% YoY), net income $35.5M (+31.2% YoY). Declared $0.07/share dividend (~$4.3M), plans $6.3M share repurchase May 8-Jun 30 under revised policy (35% of net income vs prior 30%). Total liquidity $291M. Strategic sale of 8 gas carriers + Unigas stake for ~$183M expected Q4 2026. TCE rate down to $29,684, utilization 90.6%. Recent vessel sales generated profits. Mixed hedge fund activity.",
+  "congressional_signal": "none",
+  "tickers": ["NVGS"],
+  "source_urls": ["https://www.quiverquant.com/news/Navigator+Holdings+Ltd.+Declares+$0.07+Cash+Dividend+and+Announces+Revised+Capital+Return+Policy"]
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "Direct Digital Holdings (DRCT) operates a programmatic advertising platform (Colossus SSP) with sell-side (174k buyers, 170B monthly impressions) and buy-side (195 clients, 90% retention) operations. 2025 revenue $34.7M (down from $157.1M in 2023 due to major sell-side customer pause from defamatory article/misinformation campaign). Strong IVT mitigation, multicultural focus (45% impressions), but substantial going concern doubt with $0.7M cash, $27.7M accumulated deficit, covenant-restricted debt. High client concentration, Nasdaq delisting risk, revenue quality impaired by customer dependency.",
+  "filing_risks": [
+    "Going Concern: Substantial doubt with $0.7M cash insufficient for 12 months; accumulated deficit $27.7M; dependent on cost management, sell-side volume recovery, additional funding (no assurances); potential dilution from equity/debt raises.",
+    "Balance Sheet: Credit facilities with $450k min cash covenant, default risk; term debt matures Dec 2026; negative working capital implied.",
+    "Concentration: 2024/2025 revenue drop tied to one sell-side customer pause (not yet recovered); buy-side 195 clients but high retention masks dependency risks; payment disputes could impair cash flow.",
+    "Revenue Quality: Sharp declines 2023 ($157M) > 2024 ($62M) > 2025 ($35M); gross profit down to $10.4M; seasonal ad spend fluctuations; strategic shift to buy-side/enterprise unproven.",
+    "Dilution/Listing: Nasdaq delisting risk if standards unmet; equity raises could dilute shareholders.",
+    "Operational: IVT/ad fraud detection failure risk; platform outages; cookie/ID restrictions; high customer concentration exposes to client risks.",
+    "Capital Allocation: Reorganization July 2024; acquisitions planned but integration risks; 73 employees, no unions.",
+    "Litigation/Other: Defamatory article/misinformation campaign impacted results; internal controls weakness risk."
+  ],
+  "quality_notes": "No durable demand evidence; revenue collapsing from customer pause (believed misinformation but unresolved); going concern + covenant debt = execution risk; 90% retention positive but small buy-side scale (195 clients); IVT/tech strengths noted but unproven at scale post-disruption; watch for volume recovery/funding but high balance sheet fragility vs WS/INTC peers.",
+  "source_urls": ["https://www.sec.gov/Archives/edgar/data/1880613/000141057826000XXX/directdigital-10k_20260331.htm"]
+}
 
