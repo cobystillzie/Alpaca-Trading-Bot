@@ -515,4 +515,13 @@ Premarket plan built from latest watchlist.
 Mixed signals with tech concentration risks amid record highs, value/dividend rotation gaining traction (SCHD/VYM repeats), fresh Q1 beats in mining (MUX), reinsurance (GLRE), biotechs (ERNA/MNKD). Small-caps and under-$10 stocks showing momentum but high risk. Risk-on persists but broadening beyond semis.
 
 Candidates found: 3
+## Premarket Plan - 2026-05-07 09:31:11 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- MUX: score=88, base=100, chittick=76, approved=False, allocation=7.0%, stop=8.0%
+  rejects: Candidate references banned v1 instruments or leverage.
+- GLRE: score=80, base=90, chittick=74, approved=False, allocation=5.0%, stop=8.0%
+  rejects: Low-weight social/congress signal needs at least two stronger sources.
+- SCHD: score=78, base=90, chittick=78, approved=True, allocation=8.0%, stop=8.0%
 

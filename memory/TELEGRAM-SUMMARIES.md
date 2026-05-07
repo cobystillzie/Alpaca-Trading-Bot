@@ -5672,4 +5672,129 @@ HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=0
 Self-learning: tier=execution-ready repeat48h=13 fresh=yes bucket=dividend-etf-defensive
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Premarket Memo - 2026-05-07 09:31:11 Eastern Daylight Time
+
+Premarket Analyst Memo
+
+Recommendation: Execute only if guardrails pass; otherwise hold cash and wait for cleaner evidence.
+
+Market Regime
+Risk-on favors miners/commodities; benefits from inflation hedge rotation.
+
+Top Candidates
+
+1. MUX (materials-mining) | confidence 0.82 | allocation 7.0% | stop 8.0% | Chittick 76/100 | tier execution-ready | bucket materials-mining | HF source 9/100
+Thesis: Multi-asset gold/mining producer with strong Q1 turnaround, production growth plan, and M&A momentum for 2x output by 2030.
+Catalyst: Q1 2026 net income $33.4M ($0.56/sh) vs loss prior year; revenue +107% to $74M; reaffirmed 114-126k GEO guidance; San José $40-50M dividends expected; recent JV and acquisitions.
+Entry: Enter on pullback to $8.50-9.00 or breakout above $10 with volume.
+Exit: Take profits at $11.50 (20%+); invalidate below $8.00 (recent support).
+Risk/reward: 3:1 potential (20% upside vs 8% stop); defined post-earnings range.
+Bear/adversary: Gold price drop or project delays could erase earnings momentum.
+Source quality: Strong: Official Q1 results from StockTitan/PR; specific financials/guidance.
+Chittick Cash Filter
+Score: 76/100
+Margin of safety: Profitable Q1, internal funding, dividends provide buffer vs historical losses.
+Valuation: Attractive post-earnings at ~$9-10 with 2x production growth plan.
+Growth runway: 250-300k GEOs by 2030; Stock project H2 2026 production; Los Azules FID 2026.
+Balance-sheet risk: Self-funding key projects; improving from prior loss-making quarters.
+Capital allocation: M&A/JV for growth (New Pass, Golden Lake); dividends from San José.
+Concentration case: Fresh mining exposure diversifies from over-repeated dividend ETFs/industrials.
+Owner thesis, 30-180 days: Production doubling + dividends justify 30-180 day review if gold >$2500/oz.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: materials-mining
+Research tier: execution-ready
+Allocation learning: none
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 9/100
+Hype risk: 0.10
+Evidence rank: 8/100
+Memory similarity: 0.00
+Vetoes: none
+Model notes: Fresh Q1 catalyst, no prior repeats.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.stocktitan.net/news/MUX/mc-ewen-generates-strong-q1-results-advances-multi-asset-growth-tt2xgo3v3145.html
+
+2. GLRE (financials-reinsurance) | confidence 0.75 | allocation 5.0% | stop 8.0% | Chittick 74/100 | tier watch | bucket financials-reinsurance | HF source 8/100
+Thesis: Reinsurance with improving underwriting discipline and profitability turnaround.
+Catalyst: Q1 2026: net income $35.8M (+21% YoY), underwriting profit $6.2M (vs -$7.8M), combined ratio 96% (from 104.6%).
+Entry: Enter above $11.50 with volume confirmation.
+Exit: Profits at $13.00; stop below $10.50.
+Risk/reward: 2.5:1 (12% upside vs 8% risk).
+Bear/adversary: Rising claims or competition pressure ratios.
+Source quality: High: Earnings details from memory/latest candidates.
+Chittick Cash Filter
+Score: 74/100
+Margin of safety: Underwriting profit swing provides buffer.
+Valuation: Cheap on improving ROE post-turnaround.
+Growth runway: Continued discipline could drive EPS growth.
+Balance-sheet risk: Low; profitable operations.
+Capital allocation: Focus on profitable underwriting.
+Concentration case: Financials diversifies from mining/value ETFs.
+Owner thesis, 30-180 days: Sustained sub-100% combined ratio for 30-180 days.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 4
+Diversity bucket: financials-reinsurance
+Research tier: watch
+Allocation learning: none
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 8/100
+Hype risk: 0.00
+Evidence rank: 8/100
+Memory similarity: 0.20
+Vetoes: none
+Model notes: Repeat 2x but fresh Q1 details.
+Social buzz, max 10%: none
+Congress signal, max 5%: low-weight volume proxy
+Sources: none
+
+3. SCHD (etf-dividend-value) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 78/100 | tier execution-ready | bucket dividend-etf-defensive | HF source 9/100
+Thesis: Premier dividend ETF capturing value rotation amid tech narrowness.
+Catalyst: Sustained rotation post-Q1 earnings; Morningstar Gold-rated #1 for 2026 income.
+Entry: Add on dips to $28.00.
+Exit: Trail stops; profits above $30.
+Risk/reward: Low vol 2:1.
+Bear/adversary: Tech rebound crowds out value.
+Source quality: High: Morningstar, sector regime.
+Chittick Cash Filter
+Score: 78/100
+Margin of safety: Diversified quality dividend payers.
+Valuation: Attractive yield vs growth multiples.
+Growth runway: Stable income in rotation.
+Balance-sheet risk: Minimal ETF structure.
+Capital allocation: Passive quality focus.
+Concentration case: Core defensive; pair with sector bets.
+Owner thesis, 30-180 days: Long-term income anchor.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: momentum
+Fresh catalyst: yes
+Repeat count, 48h: 14
+Diversity bucket: dividend-etf-defensive
+Research tier: execution-ready
+Allocation learning: Core holding; cap repeats.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 9/100
+Hype risk: 0.00
+Evidence rank: 9/100
+Memory similarity: 0.80
+Vetoes: none
+Model notes: High repeat 12x but regime-sustained.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
+
+Rejected / Watchouts
+- MUX: Candidate references banned v1 instruments or leverage.
+- GLRE: Low-weight social/congress signal needs at least two stronger sources.
 
