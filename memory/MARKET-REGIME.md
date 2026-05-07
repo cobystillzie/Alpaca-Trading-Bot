@@ -2135,4 +2135,132 @@ For a cautious bot workflow on May 4, 2026:
   ]
 }
 ```
+## Market Regime Research - 2026-05-07 01:09:59 Eastern Daylight Time
+
+```json
+{
+  "summary": {
+    "date_analyzed": "2026-05-06",
+    "headline": "Risk-on momentum with tech leadership; geopolitical tailwind (Iran ceasefire) fading; Fed hawkish tilt emerging; earnings beat rate strong but breadth concerns.",
+    "key_drivers": [
+      "AMD +19% on strong data-center guidance; SOX +4.5% (8.7% two-day)",
+      "S&P 500 +1.5%, Nasdaq +2.0%, Russell 2000 +1.3% to new all-time highs",
+      "Oil down sharply ($103→$96) on Iran peace hopes; 10Y Treasury eased to 4.36%",
+      "ADP jobs +109k (April), above 84k consensus; signals labor resilience",
+      "St. Louis Fed Musalem: hawkish tone on inflation risks; 8-4 FOMC dissent on April 29 (most since Oct 1992)",
+      "Q1 earnings: 84% beat rate (well above 5/10-year avg); ex-Tech only +3% YoY (weakest in 2 years)"
+    ]
+  },
+  "market_regime": {
+    "classification": "Risk-On / Momentum-Driven with Caution Flags",
+    "index_trend": {
+      "direction": "Bullish (new all-time highs)",
+      "breadth": "Narrowing—Tech/Semis leading; equal-weight S&P (SPXEW) +0.8% vs cap-weighted +1.5% signals concentration",
+      "support_levels": [7259.06, 7225.93, 7195.28],
+      "resistance": "7344.00 (intraday high, likely to be tested higher)"
+    },
+    "volatility": {
+      "vix_level": "~17 (elevated but not crisis)",
+      "assessment": "Complacency risk; single negative headline (Iran deal collapse, inflation surprise) could trigger sharp reversal"
+    },
+    "fed_policy": {
+      "current_rate": "3.50%–3.75% (held April 29)",
+      "june_meeting_odds": "95.5% hold (Kalshi/Polymarket)",
+      "2026_cuts_odds": "57% zero cuts (Polymarket) vs Fed dot plot (1 cut expected)",
+      "tone_shift": "Hawkish; Musalem emphasizes inflation risk > employment risk; dissent at highest level since 1992",
+      "implication": "Rate-cut expectations have collapsed; bond market repricing upward"
+    },
+    "rates_environment": {
+      "10y_treasury": "4.36% (down from 4.414% week-over-week; down from 4.46% Monday)",
+      "mortgage_rates": "30Y fixed ~6.30% (Freddie Mac); range-bound low-to-mid 6%",
+      "curve_signal": "Bull steepening expected if Iran deal confirmed; currently range-bound"
+    }
+  },
+  "sector_rotation": {
+    "leadership": [
+      "Technology (Nasdaq +2.0%, NDX +2.1%)",
+      "Semiconductors (SOX +4.5%, AMD +19%, Super Micro +17%)",
+      "Industrials (emerging on value rotation)"
+    ],
+    "laggards": [
+      "Financials (rate-cut hopes fading; higher-for-longer narrative)",
+      "Utilities (defensive bid weakening; SPLV -0.46% today, -6.82% 3-month drawdown)"
+    ],
+    "rotation_signal": "Tech concentration persists despite breadth warning; value/dividend ETFs (SCHD, VYM) gaining traction as hedge against narrow rally",
+    "breadth_concern": "Ex-Tech Q1 earnings only +3% YoY (weakest 2 years); earnings beat driven by AI/semis; non-tech earnings fragile"
+  },
+  "risk_flags": {
+    "geopolitical": {
+      "iran_ceasefire": "Fragile; Trump stated final deal still 'big assumption'; market pricing best-case; downside shock probable",
+      "oil_volatility": "Dropped $7/bbl on headlines; reversal risk if deal stalls; energy inflation tail-risk remains"
+    },
+    "fed_policy": {
+      "hawkish_pivot": "Musalem's inflation-first stance + 8-4 dissent signals FOMC divided; rate-cut narrative dead for 2026",
+      "terminal_rate_risk": "If inflation sticky, Fed may hold at 3.50%–3.75% through year-end; equity multiple compression risk"
+    },
+    "earnings": {
+      "quality_deterioration": "84% beat rate masks ex-Tech weakness (+3% YoY); non-AI stocks face margin pressure from higher rates + sticky inflation",
+      "guidance_risk": "Tech earnings beat but forward guidance may disappoint if AI capex cycle slows"
+    },
+    "valuation": {
+      "concentration_risk": "S&P 500 at all-time highs driven by narrow tech/semi cohort; equal-weight index lagging signals fragility",
+      "multiple_compression": "If Fed stays higher-for-longer, 20+ P/E multiples on growth stocks vulnerable"
+    },
+    "technical": {
+      "complacency": "VIX ~17 + record highs = low hedging; single negative catalyst could trigger 3–5% correction",
+      "momentum_exhaustion": "Nasdaq best day in month; potential for mean reversion after sharp 2-day rally"
+    },
+    "macro": {
+      "inflation_sticky": "Oil still elevated; ADP +109k suggests labor market resilient (hawkish for rates); CPI due May 12 (critical test)",
+      "recession_whispers": "Some sources flag disconnect between geopolitical risk and market resilience; fragile consumer/business surveys"
+    }
+  },
+  "source_urls": [
+    "https://neilsethi.substack.com/p/markets-update-5626",
+    "https://defirate.com/prediction-markets/fed-decision-odds/",
+    "https://www.fxempire.com/forecasts/article/sp500-and-nasdaq-100-tech-stocks-rally-as-amd-lifts-us-indices-1596200",
+    "https://articles.stockcharts.com/article/nasdaq-sp500-hit-record-highs-chip-stocks-surge/",
+    "https://www.barchart.com/story/news/1745025/s-p-500-and-nasdaq-100-at-record-highs-on-tech-earnings-and-us-iran-peace-hopes",
+    "https://www.chase.com/personal/investments/learning-and-insights/article/april-2026-sp-500-delivers-best-month-in-five-years",
+    "https://www.investing.com/analysis/markets-rally-as-ceasefire-holds-while-bond-market-keeps-score-200679755",
+    "https://themortgagereports.com/mortgage-rates-now/mortgage-rates-today-may-6-2026"
+  ],
+  "paper_trading_posture": {
+    "recommendation": "CAUTIOUS / DEFENSIVE BIAS",
+    "rationale": [
+      "Momentum is real but narrow; tech concentration unsustainable",
+      "Fed hawkish pivot removes tailwind; rate-cut hopes dead",
+      "Iran deal fragile; geopolitical tail-risk high",
+      "May 12 CPI print critical; if hot, equity correction likely",
+      "Breadth deterioration (ex-Tech +3% YoY) signals underlying weakness"
+    ],
+    "suggested_positioning": [
+      "Favor dividend/value ETFs (SCHD, VYM) over growth; lower volatility, higher yield in higher-for-longer regime",
+      "Utilities (PEG) as defensive hedge; Q1 earnings beat supports",
+      "Avoid single-stock concentration in mega-cap Tech; allocation caps justified",
+      "Monitor VIX; if breaks above 20, consider tactical de-risking",
+      "Watch May 12 CPI and May 15 retail sales for regime confirmation"
+    ],
+    "execution_guards": [
+      "Execute dividend/value positions only if VIX < 20 and 10Y < 4.50%",
+      "Halt new growth exposure if S&P 500 breaks below 7195 support",
+      "Rebalance to 60/40 (equity/cash) if Iran deal collapses or CPI surprises hot"
+    ]
+  }
+}
+```
+
+---
+
+### **Analyst Notes for Paper-Trading Bot:**
+
+1. **Regime Shift Underway**: The market is transitioning from "rate-cut hopes" (March–April) to "higher-for-longer" (May onward). Fed hawkish tone + 8-4 dissent is a yellow flag.
+
+2. **Breadth Warning**: Tech/Semis rally is real, but equal-weight S&P lagging cap-weight signals concentration risk. Non-Tech earnings (+3% YoY) are fragile.
+
+3. **Geopolitical Tail Risk**: Iran ceasefire is priced in but fragile. Trump's "big assumption" comment shows deal is not locked. Oil reversal would spike inflation fears and equities.
+
+4. **May 12 CPI is Critical**: If hot, Fed stays hawkish → equity multiple compression. If cool, narrative shifts back to cuts (unlikely given Musalem tone).
+
+5. **Defensive Positioning Justified**: SCHD/VYM execution-ready; PEG watch. Avoid mega-cap Tech concentration. VIX ~17 is complacency; single shock could trigger 3–5% pullback.
 

@@ -4270,4 +4270,54 @@ SEC/company quality check:
   },
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-07 01:09:59 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks/ETFs. No evidence of hype, pump language, or unsupported claims detected.",
+  "social_buzz": "weak",
+  "attention_anomalies": "none",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Navigator Holdings Ltd. (NVGS) Q1 2026 earnings: revenues $140.6M (-7.1% YoY), net income $35.5M (+31.2% YoY). Declared $0.07/share dividend (~$4.3M); plans $6.3M share repurchase May 8-Jun 30, 2026. Revised capital return policy to 35% of net income (from 30%). Total liquidity $291M. Signed LOI to sell 8 gas carriers + Unigas stake for ~$183M (exp. Q4 close). Fleet TCE $29,684 (-3% YoY), utilization 90.6%. Sold vessels for gains; monitoring geopolitics.",
+  "congressional_signal": "None reported in scan.",
+  "tickers": ["NVGS"],
+  "source_urls": ["https://www.quiverquant.com/news/Navigator+Holdings+Ltd.+Declares+$0.07+Cash+Dividend+and+Announces+Revised+Capital+Return+Policy"]
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "DRCT (Direct Digital Holdings) shows sharp revenue/gross profit declines in 2024-2025 due to major sell-side customer pause from defamatory allegations/misinformation campaign; going concern doubt with $0.7M cash vs $27.7M accumulated deficit; high covenant risks on credit facilities; Nasdaq delisting risk. INUV (Inuvo) has stable ad-tech with AI focus but high customer concentration (64%+ from two clients), history of losses ($178M deficit), negative working capital. WS (Worthington Steel) appears operationally strong with scale but memory context flags industrials value watch. No durable demand evidence; reject due to balance sheet distress (DRCT), concentration (INUV), and repeat staleness (WS/INTC).",
+  "filing_risks": {
+    "DRCT": [
+      "Going concern substantial doubt: $0.7M cash insufficient for 12 months; accumulated deficit $27.7M; reliant on cost cuts, partner recovery, new funding (10-K).",
+      "Revenue collapse: 2025 revenue $34.7M (down from $157.1M 2023); gross profit $10.4M; single sell-side customer pause post-defamatory article (misinformation campaign) caused decline.",
+      "High concentration: One customer pause devastated sell-side; 90% retention claimed but unproven post-crisis.",
+      "Debt covenants: Minimum $450K cash; default risk on facilities maturing Dec 2026; acceleration/liquidation threat.",
+      "Nasdaq delisting risk if listing standards fail.",
+      "Dilution risk: Potential equity/debt raises senior to Class A shares.",
+      "Platform risks: IVT/fraud detection failure, cookie restrictions, operational outages."
+    ],
+    "INUV": [
+      "Customer concentration: Two customers 64.2% + 19.3% of 2025 revenue (75% + 7% in 2024); loss would materially harm.",
+      "Loss history: Operating loss $5.1M (2025); accumulated deficit $178.3M; negative working capital -$5.1M; cash $2.8M.",
+      "Revenue quality: 2.9% growth but gross margin down 10.1% to 74.5%; reliant on Yahoo/Google (multi-year contracts).",
+      "Receivables/collection risks; seasonality; ad fraud/publisher risks."
+    ],
+    "WS": [
+      "Customer concentration: Top 3 customers 33% of FY2025 net sales; automotive largest end-market.",
+      "Cyclical steel industry; commodity price volatility; supply chain constraints.",
+      "No acute balance sheet distress but macro risks (inflation, tariffs, imports)."
+    ]
+  },
+  "quality_notes": "DRCT: Poor revenue quality (customer-specific collapse, not macro); weak balance sheet (going concern, low cash); capital allocation strained (reorg July 2024, funding hunt); high dilution/execution risk. INUV: Questionable revenue quality (concentration-dependent); persistent losses/cash burn; no path to profitability evident. WS: Better quality (scale, 28 facilities, acquisitions) but cyclical industrials vulnerable to steel pricing/economic slowdown; repeat candidate (1x) with no fresh durable demand proof. No litigation noted. Reject all: DRCT/INUV balance sheet/concentration kill; WS lacks catalysts beyond value rotation.",
+  "source_urls": []
+}
 
