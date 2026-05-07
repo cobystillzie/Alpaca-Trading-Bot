@@ -479,4 +479,9 @@ Candidates found: 4
 Pre-market Thursday May 7, 2026: S&P/Nasdaq records fragile amid narrow tech leadership; value/dividend rotation intact with VIX ~17 complacency; CPI May 12 looms as key test for higher-for-longer regime.
 
 Candidates found: 4
+## Two-Hour Research Agent - 2026-05-07 01:13:55 Eastern Daylight Time
+
+Q1 2026 earnings season underway with mixed reports: Greenlight Re (GLRE) swings to underwriting profit despite premium decline; Herbalife (HLF) net sales +7.8% YoY; Sky Harbour (SKYH) reports May 14; BuzzFeed (BZFD) delays to May 11. Narrow tech concentration risks persist amid value rotation context.
+
+Candidates found: 3
 

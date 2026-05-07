@@ -4320,4 +4320,54 @@ SEC/company quality check:
   "quality_notes": "DRCT: Poor revenue quality (customer-specific collapse, not macro); weak balance sheet (going concern, low cash); capital allocation strained (reorg July 2024, funding hunt); high dilution/execution risk. INUV: Questionable revenue quality (concentration-dependent); persistent losses/cash burn; no path to profitability evident. WS: Better quality (scale, 28 facilities, acquisitions) but cyclical industrials vulnerable to steel pricing/economic slowdown; repeat candidate (1x) with no fresh durable demand proof. No litigation noted. Reject all: DRCT/INUV balance sheet/concentration kill; WS lacks catalysts beyond value rotation.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-07 01:13:55 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks/ETFs. No evidence of hype, pump language, or unsupported claims detected.",
+  "social_buzz": "weak",
+  "attention_anomalies": "none",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Navigator Holdings Ltd. (NVGS) Q1 2026 results: revenues $140.6M (-7.1% YoY), net income $35.5M (+31.2% YoY). Declared $0.07/share dividend (~$4.3M), plans $6.3M share repurchase May 8-Jun 30 under revised policy (35% of net income vs prior 30%). Total liquidity $291M. Strategic sale of 8 gas carriers + Unigas stake for ~$183M (Q4 2026 expected). Fleet TCE $29,684 (-3% YoY), utilization 90.6%. Recent vessel sales generated ~$25M profit. Mixed HF activity (82 adds, 67 reduces Q4 2025).",
+  "congressional_signal": "none",
+  "tickers": ["NVGS"],
+  "source_urls": ["https://www.quiverquant.com/news/Navigator+Holdings+Ltd.+Declares+$0.07+Cash+Dividend+and+Announces+Revised+Capital+Return+Policy"]
+}
+```
+
+SEC/company quality check:
+{
+  "summary": {
+    "DRCT": "Direct Digital Holdings operates a programmatic advertising platform (Colossus SSP) with sell-side (174k buyers, 170B monthly impressions) and buy-side (195 clients, 90% retention) focus. 2025 revenue $34.7M (down from $157.1M in 2023) due to major sell-side customer pause from defamatory article/misinformation campaign; gross profit $10.4M. Going concern doubt with $0.7M cash, $27.7M accumulated deficit. High client concentration, covenant risks, Nasdaq delisting threat. Resilient model but execution risks post-2024 disruption.",
+    "INUV": "Inuvo provides AI-driven advertising tech (IntentKey LLM) for audience intent discovery across agencies/brands and platforms. 2025 revenue up 2.9% but gross margins down 10.1% to 74.5%; operating loss $5.1M, $2.8M cash, $5.1M working capital deficit, $178.3M accumulated deficit. Extreme customer concentration (two clients 83.5% revenue). Patented IP (18 issued), key partners (Yahoo/Google). History of losses, negative cash flows.",
+    "BRID": "Bridgford Foods manufactures/distributes frozen/snack foods (75% snacks). FY2025 sales mix stable; Wal-Mart 33.5% revenue, Dollar General 14.2%. Inflation pressures, consumer shifts to private label. 44% unionized workforce (contracts expiring 2025-2028). Food safety/regulatory risks (USDA/FDA/HACCP). No major revenue decline noted but cyclical consumer spending exposure.",
+    "CLBZ": "Collab Z develops community-based property management platform (tenant 'Community Pros' for tasks). FY2025 revenue diversified (property mgmt 44%, consulting 42%); 65% related-party revenue. Early-stage (14 employees), Series B raise ($700k), 5 JVs (40% stakes, minimal ops). Phasing out EB-5; scaling platform/AI. High related-party risk, execution dependency.",
+    "NEOV": "NeoVolta designs/manufactures residential/C&I energy storage (NV14/NV24/NVPlus). FY2025 expansion (NV16 inverter, 250kW C&I BESS post-year-end). 17 employees, in-house Poway manufacturing. Competing vs Tesla/Enphase; focus on installers/distributors. Startup risks (sales since 2019), regulatory hurdles (UL/CSIP). Patents (3 issued).",
+    "WS": "Worthington Steel is a leading value-added flat-rolled steel processor (28 facilities NA/Intl), electrical laminations, tailor welded blanks. Automotive ~largest market; top 3 customers 33% sales. Recent Sitem Group acquisition (52% stake). Strong scale, JV network. Cyclical steel pricing/supply risks but established position."
+  },
+  "filing_risks": {
+    "DRCT": ["Substantial going concern doubt ($0.7M cash, $27.7M deficit; needs funding post-customer pause)", "High concentration (one sell-side customer pause caused 2024-25 revenue plunge from $157M to $35M)", "Credit covenants ($450k min cash; default risk)", "Nasdaq delisting risk", "Customer payment/dispute risks", "IVT/fraud detection failure", "Dilution from equity raises", "Defamatory article impact lingers (volumes not recovered)"],
+    "INUV": ["History of losses ($178M deficit; negative cash flows)", "Extreme concentration (2 customers 83.5% 2025 revenue; 75% from one in 2024)", "Liquidity strain ($2.8M cash, $5.1M WC deficit)", "Seasonality/holiday ad spend reliance", "Customer collection risks", "Fraudulent clicks/publishers", "NYSE listing compliance", "Dilution from RSUs/warrants"],
+    "BRID": ["Customer concentration (Wal-Mart 33.5%, Dollar General 14.2% revenue)", "Inflation/consumer shifts to private label", "Food safety/product liability (pathogens, recalls)", "Commodity volatility (pork/beef/flour; no hedging)", "Union contracts (44% workforce, expiring 2025-28)", "Supply chain/labor costs"],
+    "CLBZ": ["65% related-party revenue", "Early-stage execution (platform/AI development, JVs minimal ops)", "Dilution (Series B preferred, common issuances to JVs)", "Related-party transaction risks", "Phasing out EB-5 amid regulatory shifts", "Bonus payment discretion in dev contracts"],
+    "NEOV": ["Startup risks (limited history since 2019)", "Competition from Tesla/Enphase (scale/resources)", "Supply chain/tariffs/FEOC compliance", "Regulatory (UL/CSIP/Rule 21; evolving fire codes)", "Financing dependency (ITC phaseout 2025)", "Manufacturing scale-up risks"],
+    "WS": ["Cyclical steel pricing/supply volatility", "Customer concentration (top 3 = 33%)", "Commodity/raw material fluctuations", "Tariffs/trade wars/import competition", "Labor/supply chain disruptions", "Environmental regs/greenhouse gases"]
+  },
+  "quality_notes": {
+    "DRCT": "Revenue quality poor (sharp decline, customer pause dependency); balance sheet weak (going concern); high dilution risk; no durable demand (ad volumes not recovered). Watch but high risk.",
+    "INUV": "Revenue quality terrible (83% concentration); persistent losses/cash burn; no durable demand evidence. Avoid.",
+    "BRID": "Stable but cyclical consumer food; concentration moderate; durable staples demand but inflation-sensitive. Neutral quality.",
+    "CLBZ": "Related-party heavy (65%); pre-revenue platform scale unproven; high execution/dilution risk. Speculative.",
+    "NEOV": "Growth potential (ESS market) but startup losses/competition; IP moat emerging. Moderate quality.",
+    "WS": "Established scale (28 facilities, JVs); automotive durable but cyclical. Stronger quality vs peers; value rotation fit."
+  },
+  "source_urls": ["https://www.sec.gov/Archives/edgar/data/1880613/000155837026004927/drtct-20260331x10k.htm", "https://www.sec.gov/Archives/edgar/data/829323/000095017026032147/inuvo_10k.htm", "https://www.sec.gov/Archives/edgar/data/14177/000095017026004927/bridgford-20251031.htm", "https://www.sec.gov/Archives/edgar/data/2050338/000168316825000456/clbz-20250930.htm", "https://www.sec.gov/Archives/edgar/data/1748137/000168316825000456/neov-20250630.htm", "https://www.sec.gov/Archives/edgar/data/1968487/000095017025071234/ws-20250531.htm"]
+}
 

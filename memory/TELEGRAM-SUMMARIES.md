@@ -5326,4 +5326,37 @@ HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
 Self-learning: tier=watch repeat48h=3 fresh=yes bucket=industrials-value
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-07 01:13:55 Eastern Daylight Time
+
+Research Update
+
+Market tone: Q1 2026 earnings season underway with mixed reports: Greenlight Re (GLRE) swings to underwriting profit despite premium decline; Herbalife (HLF) net sales +7.8% YoY; Sky Harbour (SKYH) reports May 14; BuzzFeed (BZFD) delays to May 11. Narrow tech concentration risks persist amid value rotation context.
+Candidates: 3
+
+1. GLRE (reinsurance/financials) | confidence 0.75 | allocation 5.0% | stop 8.0% | Chittick 74/100 | tier watch | bucket reinsurance-financials
+Recommendation: watch
+Catalyst: Q1 2026 earnings: net income $35.8m (+21% YoY), underwriting profit $6.2m (vs -$7.8m loss prior), combined ratio 96.0% (from 104.6%), loss ratio 59.1% (from 72.9%)
+Chittick Cash: Profitability despite revenue drop provides buffer; combined ratio <100% offers downside protection vs peers.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=reinsurance-financials
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. HLF (consumer-staples) | confidence 0.65 | allocation 4.0% | stop 8.0% | Chittick 68/100 | tier watch | bucket consumer-staples
+Recommendation: watch
+Catalyst: Q1 2026 net sales $1.3B (+7.8% YoY) announced via official Instagram.
+Chittick Cash: Growth provides buffer but regulatory history caps safety.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=consumer-staples
+Social buzz, low weight: low-weight Instagram post
+Congress signal, low weight: none
+
+3. SKYH (industrials-aviation) | confidence 0.62 | allocation 3.0% | stop 8.0% | Chittick 70/100 | tier watch | bucket industrials-aviation
+Recommendation: watch
+Catalyst: Q1 2026 results and webcast scheduled for May 14, 2026.
+Chittick Cash: Pre-earnings positioning with defined event risk.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=industrials-aviation
+Social buzz, low weight: none
+Congress signal, low weight: none
 
