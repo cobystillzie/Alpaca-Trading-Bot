@@ -499,4 +499,15 @@ Candidates found: 4
 US equities in risk-on rally with S&P 500 at record 7365 (+1.5%), Nasdaq highs on AMD/tech blowouts (+17%), private payrolls beat (109k vs 84k). VIX stable 17.39; 10yr yield 4.36%. Sector broadening to banks/travel/industrials; value/defensive rotation amid tech narrowness. Futures mildly lower premarket; no fresh catalysts in search.
 
 Candidates found: 4
+## Premarket Plan - 2026-05-07 08:19:23 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- SCHD: score=90, base=100, chittick=78, approved=False, allocation=8.0%, stop=8.0%
+  rejects: HF memory filter flags similarity to prior rejected patterns.
+- GLRE: score=80, base=90, chittick=74, approved=False, allocation=5.0%, stop=8.0%
+  rejects: Candidate references banned v1 instruments or leverage.
+- WS: score=74, base=85, chittick=74, approved=True, allocation=5.0%, stop=8.0%
+- VYM: score=89, base=100, chittick=75, approved=False, allocation=6.0%, stop=8.0%
+  rejects: HF memory filter flags similarity to prior rejected patterns.
 
