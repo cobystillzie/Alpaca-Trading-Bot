@@ -4428,4 +4428,242 @@ SEC/company quality check:
   "quality_notes": "No durable demand evidence; revenue collapsing from customer pause (believed misinformation but unresolved); going concern + covenant debt = execution risk; 90% retention positive but small buy-side scale (195 clients); IVT/tech strengths noted but unproven at scale post-disruption; watch for volume recovery/funding but high balance sheet fragility vs WS/INTC peers.",
   "source_urls": ["https://www.sec.gov/Archives/edgar/data/1880613/000141057826000XXX/directdigital-10k_20260331.htm"]
 }
+## Source And Signal Research - 2026-05-07 05:15:56 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "Mixed market sentiment with broad indices slipping on Trump Iran escalation threats despite prior highs; oil up on geopolitics. Notable movers: ADMA -24% AH on slashed guidance/competition despite denying short-seller claims (risk: post-short squeeze unwind); FSLY -25% despite earnings beat/guidance raise (analyst PTs below current); EVC +74% premarket on 114% rev growth to profitability + 2026 political ad outlook.",
+  "social_buzz": "Weak; no evidence of unusual discussion or pump language on these names. Earnings-driven moves only.",
+  "attention_anomalies": [
+    "EVC: Extreme +74% premarket on blowout Q1 (rev 114% YoY, profitable) + political ad catalyst; fresh but hype risk in small-cap media.",
+    "ADMA: -24% AH on guidance cut to $530-560M from >$635M amid IG competition; denies illegal activity but 56% YTD drop flags risk.",
+    "FSLY: -25% despite Q1 beat/2026 raise; analysts bearish (avg PT 26% below close) despite 200% YTD run - classic sell-the-news."
+  ],
+  "source_urls": [
+    "https://stocktwits.com/news-articles/markets/equity/dow-sp500-nasdaq-futures-slip-as-trump-threatens-much-higher-level-of-bombing-in-iran-deal-failure/cZXGDegRefR",
+    "https://stocktwits.com/news-articles/markets/equity/adma-tumbles-on-slashed-outlook-as-short-seller-aftermath-meets-competitive-headwinds/cZQzVJiReOz",
+    "https://stocktwits.com/news-articles/markets/equity/fsly-stock-crashes-25-despite-strong-earnings-forecast-raise-retail-sees-long-term-potential/cZXGUGURefT",
+    "https://stocktwits.com/news-articles/markets/equity/why-is-evc-stock-surging-premarket-today/cZQz3fLReOG"
+  ]
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Navigator Holdings Ltd. (NVGS) Q1 2026 results: revenues $140.6M (-7.1% YoY), net income $35.5M (+31.2% YoY), dividend $0.07/share ($4.3M total), $6.3M share repurchase planned May 8-Jun 30 under revised policy (35% of net income vs prior 30%). TCE rate down to $29,684, utilization 90.6%. Total liquidity $291M. Proposed $183M sale of 8 gas carriers + Unigas stake (exp Q4 2026). Sold Navigator Pegasus for $30.5M (+$15.2M profit). Ethylene terminal throughput strong at 300k mts (all to Europe). Mixed HF activity (some large sells/adds Q4 2025).",
+  "congressional_signal": "none",
+  "tickers": ["NVGS"],
+  "source_urls": ["https://www.quiverquant.com/news/Navigator+Holdings+Ltd.+Declares+$0.07+Cash+Dividend+and+Announces+Revised+Capital+Return+Policy"]
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": {
+    "filing_batch": "7 companies across tech, industrials, healthcare, energy storage, advertising, and financial services",
+    "analysis_date": "2026-05-07",
+    "key_finding": "Multiple micro-cap and small-cap names show severe going-concern risks, customer concentration, and revenue quality deterioration. WS (Worthington Steel) presents industrials value case with scale but integration risks. DRCT shows distressed metrics despite recent awards.",
+    "watchlist_focus": "WS (industrials value), DRCT (adtech distress), BLZE (cloud storage losses), NEOV (energy storage pre-revenue), INUV (AI advertising, customer concentration)"
+  },
+  "filing_risks": {
+    "DRCT_DirectDigital": {
+      "going_concern": "CRITICAL - Substantial doubt raised. Cash $0.7M, accumulated deficit $27.7M. May 2024 customer pause (defamatory article) caused 2024-2025 revenue collapse: $157.1M (2023) → $62.3M (2024) → $34.7M (2025). Sell-side volumes not recovered to pre-pause levels.",
+      "customer_concentration": "HIGH - Single customer pause in Q2 2024 triggered 78% revenue decline over 18 months. Dependent on reconnection of major sell-side customer.",
+      "liquidity": "CRITICAL - Minimum unrestricted cash covenant $450K; company at $700K. Term credit facility matures Dec 3, 2026. No assurance additional financing available.",
+      "debt_covenants": "Operating restrictions and financial covenants impose default risk. Deteriorating cash flows may trigger covenant breach.",
+      "revenue_quality": "POOR - Organic decline masked by customer concentration. Buy-side 195 clients vs. sell-side 174K buyers suggests asymmetric dependency.",
+      "capital_allocation": "Reorganization plan executed July 1, 2024 post-crisis; cost-cutting reactive rather than strategic."
+    },
+    "SES_AI": {
+      "going_concern": "SEVERE - Net losses $73.0M (2025), $100.2M (2024). Accumulated deficit $371.9M. No profitable operations or positive cash flow since inception. Company states 'substantial additional capital' required for foreseeable future.",
+      "capital_intensity": "EXTREME - Battery development is capital-intensive. Expects to sustain 'substantial operating expenses' without revenue coverage for years.",
+      "commercialization_risk": "UNPROVEN - UAM market 'still emerging'; no market standard battery technology. Success depends on UAM adoption and testing/certification results. Li-ion cost reduction threatens margins.",
+      "supply_chain": "CRITICAL - Limited long-term supply arrangements. November 2025 Hisun joint venture for electrolyte manufacturing; supply at commercial scale not yet proven. Currency, tariffs, geopolitical risks cited.",
+      "manufacturing_scale": "HIGH - Relies on complex machinery, skilled personnel, contract manufacturers. Operational risks include equipment malfunctions, yield losses, facility delays.",
+      "acquisition_integration": "UZ Energy acquisition (Sept 2025) requires significant management attention; integration risks include personnel retention, systems consolidation.",
+      "customer_concentration": "NOT DISCLOSED - No single customer >10% but OEM dependency high; early-stage sampling basis for many customers.",
+      "valuation_risk": "Accumulated deficit $371.9M; equity dilution likely if capital raise required."
+    },
+    "INUV_Inuvo": {
+      "customer_concentration": "CRITICAL - 2 customers = 83.5% of 2025 revenue (64.2% + 19.3%). In 2024, same 2 customers = 82.0% (75.0% + 7.0%). Loss of either customer material adverse impact.",
+      "revenue_quality": "POOR - Gross profit margin declined 10.1% to 74.5% in 2025 despite 2.9% revenue growth. Operating loss $5.1M (2025) vs. $5.8M (2024).",
+      "liquidity": "WEAK - Cash $2.8M, net working capital deficit $5.1M. Accumulated deficit $178.3M. Dependent on credit facility tied to receivables.",
+      "going_concern": "IMPLICIT RISK - Recurring losses and cash outflows funded historically through equity offerings and debt. No explicit going-concern statement but metrics suggest vulnerability.",
+      "platform_dependency": "HIGH - Two platform customers (Yahoo, Google) represent majority of revenue. Relationship changes or algorithm shifts pose existential risk.",
+      "technology_risk": "IntentKey AI technology is core differentiator but faces competition from larger players (Google, Meta, Amazon) with greater resources.",
+      "dilution": "History of equity offerings to fund operations; future raises likely dilutive."
+    },
+    "NEOV_NeoVolta": {
+      "revenue_stage": "PRE-REVENUE/EARLY - Founded 2018, first installations 2019. Fiscal 2025 (ended June 30, 2025) shows early-stage operations. No revenue figures disclosed in excerpt but product-focused narrative suggests limited scale.",
+      "market_adoption": "UNPROVEN - Residential retrofit market estimated 3M+ homes without storage, but adoption dependent on policy (ITC phase-out by Dec 2025), utility rates, financing availability.",
+      "competition": "INTENSE - Competes with Tesla, LG Chem, Sonnen, Enphase, SunPower, SMA America. Competitors have greater resources, brand recognition, distribution.",
+      "manufacturing": "TRANSITION RISK - Shifted from contract manufacturing to in-house production in 2023. Poway facility expanded Feb 2025. Operational complexity and capital intensity high.",
+      "supply_chain": "MODERATE - LiFePO4 chemistry sourced from US/Asia suppliers. Multi-sourcing pursued but tariff/FEOC compliance emerging as constraint.",
+      "financing_dependency": "HIGH - Federal ITC incentives critical to adoption; scheduled to sunset Dec 31, 2025. Third-party financing models not yet proven.",
+      "product_liability": "INHERENT - High-energy-density batteries pose fire/safety risks. UL 9540A certified but product liability claims risk remains.",
+      "employees": "MINIMAL - 17 full-time employees as of June 30, 2025. Heavy reliance on consultants and contractors.",
+      "capital_requirements": "SUBSTANTIAL - C&I BESS (250 kW/430 kWh) and NV16 inverter announced post-fiscal year; commercialization requires capital investment."
+    },
+    "WS_WorthingtonSteel": {
+      "acquisition_integration": "RECENT - Sitem acquisition (52% stake, June 3, 2025, post-fiscal year end) adds 8 facilities (Italy 3, France, Slovakia, Switzerland). Integration complexity high; synergy realization uncertain.",
+      "cyclicality": "HIGH - Steel processing inherently cyclical. Automotive end-market (largest customer segment) sensitive to economic cycles, EV adoption rates, tariffs.",
+      "customer_concentration": "MODERATE - Top 3 customers = 33% of fiscal 2025 net sales. Automotive dependency creates concentration risk.",
+      "competition": "INTENSE - Fragmented industry; competition on price, quality, delivery. Imports and substitute materials pose pricing pressure.",
+      "raw_material_volatility": "HIGH - Steel coil pricing, availability, transportation costs subject to commodity cycles, tariffs, geopolitical disruption.",
+      "tariff_exposure": "SIGNIFICANT - Trade restrictions, tariffs on steel, aluminum, components cited as risk. Russia-Ukraine, Middle East conflicts impact supply chains.",
+      "capital_intensity": "MODERATE - 28 facilities (US 19, Canada 2, China, India, Germany, Mexico 4) require ongoing capex for maintenance, modernization.",
+      "leverage": "NOT DISCLOSED IN EXCERPT - Separation from Worthington Enterprises (Dec 1, 2023) may have debt implications; full balance sheet not provided.",
+      "valuation_context": "Large accelerated filer; market cap ~$1.5B (Nov 2024). Industrials value play but cyclical downturn risk material."
+    },
+    "ICCT_iCoreConnect": {
+      "going_concern": "IMPLICIT RISK - Limited operating history post-Business Combination (Aug 25, 2023). Emerging growth company status suggests early-stage profitability challenges.",
+      "revenue_concentration": "MODERATE - No single customer >10% of revenue (2024, 2023), but customer concentration risk not fully quantified. Accounts receivable concentration: 26% (2024), 25% (2023) from single customer.",
+      "customer_acquisition": "UNPROVEN - SaaS model requires sustained customer acquisition and retention. Competitive landscape includes larger healthcare IT vendors.",
+      "regulatory_risk": "MODERATE - HIPAA compliance required; healthcare regulations evolving. Privacy/data security laws cited as risk.",
+      "technology_risk": "MODERATE - No patents or trademarks owned; relies on trade secrets, NDAs, confidentiality agreements. IP protection vulnerable to breach or independent discovery.",
+      "integration_risk": "HIGH - Multiple acquisitions during 2023-2024 (NetSeer 2017, others). Integration complexity and synergy realization uncertain.",
+      "dilution": "MODERATE - Reverse stock split noted; equity structure suggests prior dilution events.",
+      "employees": "MINIMAL - 72 employees as of Dec 31, 2024. Scaling challenges likely.",
+      "market_size": "HEALTHCARE IT - Large addressable market but highly competitive (Epic, Cerner, Athenahealth, etc.)."
+    },
+    "BLZE_Backblaze": {
+      "profitability": "CHRONIC - Cumulative losses $196.0M as of Dec 31, 2024. Net losses $48.5M (2024), $59.7M (2023). 17+ years of operations without profitability.",
+      "going_concern": "IMPLICIT - Company states 'do not expect to be profitable for the foreseeable future.' Continued investment in sales, marketing, infrastructure required.",
+      "competition": "INTENSE - Competes with AWS, Google Cloud, Azure, EMC/Dell, NetApp. Competitors have greater resources, brand recognition, pricing power.",
+      "pricing_power": "LIMITED - Price increases in Q4 2023 implemented but risk of customer churn. Competitors can undercut pricing.",
+      "service_disruption_risk": "HIGH - Customers rely on platform for critical data storage. Disruptions from natural disasters, cybersecurity attacks, third-party vendor failures pose reputational/revenue risk. Third-party data center vendor bankruptcy (2022) resolved without disruption but illustrates vulnerability.",
+      "cybersecurity": "ONGOING RISK - December 2021 Log4j vulnerability required systems offline. Regular DDoS, phishing attacks encountered. Breach could cause material damage.",
+      "customer_concentration": "LOW - No single customer >10% of revenue (2024, 2023). Diversified customer base reduces concentration risk.",
+      "capital_intensity": "MODERATE - Data center infrastructure (California, Arizona, Virginia, Toronto, Amsterdam) requires ongoing capex. Follow-on offering (Nov 2024) raised $37.4M net.",
+      "valuation": "Market cap not disclosed in excerpt; IPO Nov 2021 at higher valuations; recent follow-on at $5.60/share suggests valuation pressure."
+    }
+  },
+  "quality_notes": {
+    "DRCT_DirectDigital": {
+      "red_flags": [
+        "Going-concern doubt explicit in 10-K",
+        "78% revenue decline 2023-2025 from single customer pause",
+        "Liquidity crisis: $700K cash vs. $450K covenant minimum",
+        "Debt maturity Dec 2026 with no refinancing assurance",
+        "Reorganization plan reactive, not strategic"
+      ],
+      "durable_demand": "ABSENT - Customer pause suggests platform vulnerability, not durable demand. Sell-side volumes not recovered.",
+      "balance_sheet": "DISTRESSED - Accumulated deficit $27.7M, minimal cash, covenant pressure",
+      "recommendation": "AVOID - Distressed credit risk, not equity opportunity"
+    },
+    "SES_AI": {
+      "red_flags": [
+        "Accumulated deficit $371.9M; no path to profitability disclosed",
+        "UAM market unproven; no market standard battery technology",
+        "Supply chain unproven at commercial scale (Hisun JV Nov 2025)",
+        "Extreme capital intensity; future raises likely dilutive",
+        "UZ Energy integration risk post-acquisition"
+      ],
+      "durable_demand": "SPECULATIVE - UAM adoption uncertain; Li-ion cost reduction threatens margins; OEM sampling basis suggests early stage",
+      "balance_sheet": "SEVERELY IMPAIRED - Accumulated deficit $371.9M; equity dilution imminent",
+      "recommendation": "AVOID - Pre-commercial, capital-intensive, high dilution risk"
+    },
+    "INUV_Inuvo": {
+      "red_flags": [
+        "83.5% revenue from 2 customers (2025); 82% (2024)",
+        "Gross margin declined 10.1% despite revenue growth",
+        "Accumulated deficit $178.3M",
+        "Net working capital deficit $5.1M",
+        "Dependent on Yahoo/Google platform relationships"
+      ],
+      "durable_demand": "QUESTIONABLE - Platform dependency on two customers suggests fragile demand. Margin compression indicates pricing pressure or mix deterioration.",
+      "balance_sheet": "WEAK - Deficit $178.3M, negative working capital, cash $2.8M",
+      "recommendation": "AVOID - Extreme customer concentration, margin deterioration, liquidity stress"
+    },
+    "NEOV_NeoVolta": {
+      "red_flags": [
+        "Pre-revenue/early-stage (founded 2018, installations 2019)",
+        "Market adoption dependent on policy (ITC sunset Dec 2025)",
+        "Intense competition from well-capitalized incumbents",
+        "Manufacturing transition risk (in-house since 2023)",
+        "Supply chain FEOC compliance emerging constraint",
+        "Minimal workforce (17 employees)"
+      ],
+      "durable_demand": "EMERGING - Residential retrofit market large (3M+ homes) but adoption dependent on financing, policy, utility rates. C&I segment nascent.",
+      "balance_sheet": "NOT DISCLOSED - Early-stage metrics suggest limited cash, likely capital-dependent",
+      "recommendation": "WATCH - Early-stage energy storage play; policy/financing risks material; execution risk high"
+    },
+    "WS_WorthingtonSteel": {
+      "red_flags": [
+        "Sitem acquisition (June 2025) integration complexity high",
+        "Automotive end-market cyclicality and EV adoption uncertainty",
+        "Top 3 customers = 33% of sales (moderate concentration)",
+        "Raw material volatility, tariff exposure, geopolitical risk",
+        "Fragmented, competitive industry with pricing pressure"
+      ],
+      "durable_demand": "CYCLICAL - Automotive, construction, machinery end-markets tied to economic cycles. EV adoption upside but timing uncertain.",
+      "balance_sheet": "STABLE (INFERRED) - Large accelerated filer; market cap ~$1.5B suggests adequate capitalization. Sitem acquisition may add leverage.",
+      "recommendation": "WATCH - Industrials value play with scale (28 facilities) but cyclical downturn risk and integration uncertainty material. Suitable for value rotation context but not execution-ready without balance sheet review."
+    },
+    "ICCT_iCoreConnect": {
+      "red_flags": [
+        "Limited operating history post-Business Combination (Aug 2023)",
+        "No patents or trademarks; IP protection via trade secrets only",
+        "Accounts receivable concentration: 26% (2024), 25% (2023)",
+        "Multiple acquisitions with integration risk",
+        "Minimal workforce (72 employees)",
+        "Competitive healthcare IT market"
+      ],
+      "durable_demand": "UNPROVEN - SaaS model requires sustained customer acquisition. Healthcare IT market competitive; differentiation unclear.",
+      "balance_sheet": "NOT DISCLOSED - Emerging growth company; likely capital-constrained",
+      "recommendation": "AVOID - Early-stage, IP-vulnerable, integration-heavy, competitive market"
+    },
+    "BLZE_Backblaze": {
+      "red_flags": [
+        "Cumulative losses $196.0M; 17+ years without profitability",
+        "Chronic net losses ($48.5M 2024, $59.7M 2023)",
+        "Intense competition from AWS, Google Cloud, Azure",
+        "Limited pricing power; price increases risk customer churn",
+        "Service disruption risk from natural disasters, cyber attacks, vendor failures",
+        "Ongoing cybersecurity incidents (Log4j 2021, DDoS, phishing)"
+      ],
+      "durable_demand": "COMMODITIZED - Cloud storage market highly competitive; pricing pressure intense. Customer base diversified but demand price-sensitive.",
+      "balance_sheet": "CASH-CONSTRAINED - Follow-on offering (Nov 2024) at $5.60/share suggests valuation pressure. Continued losses require capital raises.",
+      "recommendation": "AVOID - Chronic losses, commoditized market, intense competition, limited pricing power"
+    }
+  },
+  "quality_summary": {
+    "execution_ready": "NONE - No candidates from this batch meet execution-ready criteria. WS (Worthington Steel) only industrials value candidate but requires balance sheet review and Sitem integration clarity.",
+    "watch_tier": "WS (Worthington Steel) - Industrials value with scale but cyclical/integration risks. NEOV (NeoVolta) - Early-stage energy storage with policy/financing risks.",
+    "avoid_tier": "DRCT (going-concern crisis), SES (pre-commercial, $371.9M deficit), INUV (83.5% customer concentration, margin deterioration), ICCT (early-stage, IP-vulnerable), BLZE (chronic losses, commoditized market)"
+  },
+  "source_urls": [
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1880613&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1819142&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=829323&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1748137&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1968487&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1906133&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1462056&type=10-K&dateb=&owner=exclude&count=100"
+  ]
+}
+```
+
+---
+
+### **Key Takeaways for Watchlist:**
+
+1. **DRCT (Direct Digital)**: **CRITICAL DISTRESS** – Going-concern doubt, 78% revenue collapse, $700K cash vs. $450K covenant minimum, debt maturity Dec 2026. **Avoid.**
+
+2. **SES (SES AI)**: **PRE-COMMERCIAL CAPITAL SINK** – $371.9M accumulated deficit, UAM market unproven, supply chain unproven at scale, extreme dilution risk. **Avoid.**
+
+3. **INUV (Inuvo)**: **CUSTOMER CONCENTRATION CRISIS** – 83.5% revenue from 2 customers, margin compression, $178.3M deficit, negative working capital. **Avoid.**
+
+4. **NEOV (NeoVolta)**: **EARLY-STAGE POLICY DEPENDENT** – Pre-revenue, ITC sunset Dec 2025 threatens adoption, intense competition, minimal workforce. **Watch only.**
+
+5. **WS (Worthington Steel)**: **INDUSTRIALS VALUE WITH RISKS** – 28 facilities, Sitem acquisition (June 2025) integration uncertain, automotive cyclicality, tariff exposure. **Watch; requires balance sheet review before execution.**
+
+6. **ICCT (iCoreConnect)**: **EARLY-STAGE, IP-VULNERABLE** – No patents, trade-secret-only IP, 26% AR concentration, multiple acquisitions, competitive healthcare IT market. **Avoid.**
+
+7. **BLZE (Backblaze)**: **CHRONIC LOSSES, COMMODITIZED** – $196M cumulative deficit, 17+ years unprofitable, intense competition, limited pricing power. **Avoid.**
+
+**None qualify for execution-ready allocation. WS only candidate for watch-tier industrials value rotation, pending balance sheet and Sitem integration clarity.**
 

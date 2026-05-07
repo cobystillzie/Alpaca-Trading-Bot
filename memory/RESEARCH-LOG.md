@@ -489,4 +489,9 @@ Candidates found: 3
 US equities near records post-5/6 tech/semiconductor surge (S&P +1.5%, Nasdaq +2%); MNKD +41% on Q1 catalyst hype/FDA path; DRCT mixed with awards/earnings but weak fundamentals; gold/silver up on ME tensions but macro yields pressure metals; narrow breadth favors value/defensives. Pre-open futures neutral.
 
 Candidates found: 3
+## Two-Hour Research Agent - 2026-05-07 05:15:56 Eastern Daylight Time
+
+US markets mixed pre-open with Dow/S&P/Nasdaq futures slipping on Trump Iran escalation threats despite recent record highs; oil rising on geopolitics. Value/dividend rotation intact amid tech concentration risks; Q1 earnings beats supporting defensives. VIX low at ~17 but tail risks elevated ahead of May 8 jobs report.
+
+Candidates found: 4
 
