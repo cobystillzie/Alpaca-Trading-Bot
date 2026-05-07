@@ -2552,4 +2552,27 @@ For a cautious bot workflow on May 4, 2026:
   ]
 }
 ```
+## Market Regime Research - 2026-05-07 09:32:05 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities in strong bullish uptrend with S&P 500 and Nasdaq at record highs driven by tech/semiconductor strength (AMD +17%), falling oil on Iran deal hopes, and resilient jobs data (ADP +109k vs +84k exp). Fed holding rates steady at 3.50-3.75% with 95%+ odds of no June cut and 57% odds of zero cuts all 2026. VIX ~17 signals low fear. Earnings tone positive (84% S&P beats). Minor futures pullback (-0.1%) after records but supports rising (7344).",
+  "market_regime": "Risk-on bull market with record highs and low vol. Ascending supports at 7259/7226/7195 provide dip-buy levels. Cautious paper-trading: scale into strength on pullbacks to pivots, avoid chasing extended tech.",
+  "sector_rotation": "Tech/semiconductors leading (AMD, VanEck ETF +3%, Intel +3%). Broadening to small-caps (S&P 600 record). Memory chips resilient. Value/dividend ETFs (SCHD/VYM) gaining traction per memory amid tech concentration risks. Low-vol SPLV defensive but bearish bias.",
+  "risk_flags": [
+    "Fed hawkish: 8-4 hold vote, 57% no cuts 2026, Norges Bank hike to 4.25%",
+    "Geopolitical: Iran deal hopes fragile, oil drop relief but volatility risk",
+    "Upcoming: April NFP (Fri), more earnings - strong jobs could delay cuts",
+    "Futures -0.1% premarket signals mild profit-taking after records",
+    "Tech concentration: Rotation watch to value/defensives if momentum stalls"
+  ],
+  "source_urls": [
+    "https://www.fxempire.com/forecasts/article/sp500-and-nasdaq-100-tech-stocks-rally-as-amd-lifts-us-indices-1596200",
+    "https://defirate.com/prediction-markets/fed-decision-odds/",
+    "https://www.investing.com/news/stock-market-news/us-stock-futures-edge-lower-after-wall-st-hits-record-highs-on-iran-hopes-4666050",
+    "https://articles.stockcharts.com/article/nasdaq-sp500-hit-record-highs-chip-stocks-surge/",
+    "https://www.norges-bank.no/en/topics/monetary-policy/Monetary-policy-meetings/2026/may-2026/"
+  ]
+}
+```
 

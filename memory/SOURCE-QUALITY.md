@@ -4802,4 +4802,44 @@ SEC/company quality check:
   "source_urls": []
 }
 ```
+## Source And Signal Research - 2026-05-07 09:32:05 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks or ETFs. No evidence of hype, pump language, or unsupported claims detected.",
+  "social_buzz": "None",
+  "attention_anomalies": "None",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+{
+  "summary": "No recent congressional disclosures found in provided search results for liquid US stocks/ETFs. Quiver Quantitative dashboard referenced but lacks specific trade details.",
+  "congressional_signal": "none",
+  "tickers": [],
+  "source_urls": ["https://www.quiverquant.com/insiders/"]
+}
+
+SEC/company quality check:
+```json
+{
+  "summary": "DRCT (Direct Digital Holdings) operates a sell-side SSP (Colossus) and buy-side managed services in digital adtech. 2025 revenue $34.7M (-44% YoY), gross profit $10.4M (-40% YoY) due to major sell-side customer pause from defamatory article/misinformation campaign (reconnected May 2024 but volumes not recovered). Cash $0.7M, accumulated deficit $27.7M, substantial going concern doubt. High client retention (90%) but revenue concentration risk from customer pause. IVT mitigation and multicultural audience focus (45% impressions). Growth plans: sales expansion, acquisitions, CTV/DOOH. Watchlist fit: small-cap adtech with turnaround potential but execution risks high.",
+  "filing_risks": [
+    "Going Concern: Substantial doubt; cash $0.7M insufficient for 12 months without funding/cost cuts.",
+    "Revenue Concentration: 2024-2025 revenue/gross profit collapse from one sell-side customer pause (defamatory article); volumes not recovered.",
+    "Balance Sheet: Accumulated deficit $27.7M; credit facilities with $450k min cash covenant, default risk; term debt matures Dec 2026.",
+    "Dilution: Potential equity/debt raises; strategic shift to buy-side/enterprise may not deliver.",
+    "Delisting Risk: Nasdaq compliance failure possible.",
+    "Payment/AR Risks: Client non-payment/disputes could impair.",
+    "Fraud/IVT: Failure to detect ad fraud harms reputation.",
+    "Platform/Tech Risks: Operational issues, cookie deprecation.",
+    "Competition: Intense vs Google/Meta/Pubmatic/Magnite.",
+    "Acquisitions: Integration risks/divert management."
+  ],
+  "quality_notes": "Durable demand evidence weak: 90% retention, 174k sell-side buyers/195 buy-side clients, multicultural scale (76B impressions), managed services pipeline. Revenue quality poor: Sharp decline from customer concentration incident (believed 'coordinated misinformation'); not reflective of model per mgmt but raises execution/reputation risks. Capital allocation: Reorg July 2024, sales expansion/acquisitions planned amid liquidity crunch. Valuation risks elevated due to going concern/dilution. No litigation noted. Chittick: No direct GOOGL/GOOG/INTC/USAR/GT overlap but adtech competes with Google Ads Manager (sell-side). Balance/concentration dominate risks; monitor funding/customer recovery.",
+  "source_urls": []
+}
+```
 
