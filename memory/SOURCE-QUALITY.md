@@ -4985,4 +4985,439 @@ SEC/company quality check:
   "quality_notes": "No durable demand signals; all show weak balance sheets (deficits $28M-$372M, low cash), high customer concentration (SES/INUV/DRCT), dilution/funding risks, ongoing losses/cash burn. SES/DRCT/FATE/TKLS explicit going concern doubts. Revenue quality poor (pre-revenue SES, collapsed DRCT, concentrated INUV). Capital allocation risky (acquisitions like UZ/Sitem without proven integration). Avoid watchlist addition; high execution/scale risks outweigh.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-07 17:20:35 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks or ETFs. Social buzz remains weak across monitored candidates including SCHD, MUX, GLRE, and WS.",
+  "social_buzz": "weak",
+  "attention_anomalies": "none",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "NN, Inc. ($NNBR) reported strong Q1 2026 results: sales +12.1% to $118.5M, adjusted EBITDA +33% to $14.1M, raised full-year guidance. However, 27 insider sales (0 buys) in past 6 months totaling ~$3.93M. No congressional trade disclosures in results. Other news: congressional press releases on unrelated topics (FCC, pardons, mergers, legislation); Planet Labs ($PL) dilution selloff.",
+  "congressional_signal": "None identified. Disclosures are delayed/low-weight; no recent relevant trades reported for liquid US stocks/ETFs.",
+  "tickers": ["NNBR", "PL"],
+  "source_urls": [
+    "https://www.quiverquant.com/news/NN,+Inc.+Reports+Strong+Q1+Growth+in+Sales+and+Profitability,+Raises+Full-Year+2026+Guidance",
+    "https://www.quiverquant.com/news/Planet+Labs+slides+9%25+as+warrant+redemption+converts+into+new+shares,+sparking+dilution+and+technical+selling"
+  ]
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": {
+    "filing_date": "2026-03-31",
+    "companies_analyzed": 7,
+    "high_risk_count": 4,
+    "medium_risk_count": 2,
+    "low_risk_count": 1,
+    "key_themes": [
+      "Going concern doubts (DRCT, INUV)",
+      "Severe customer concentration (INUV 83.5%, DRCT historical)",
+      "Revenue collapse post-reputational event (DRCT)",
+      "Accumulated deficits and negative working capital",
+      "Reliance on related-party transactions (CLBZ 65%)",
+      "Early-stage execution risk (NEOV, CLBZ, ICCT)"
+    ]
+  },
+  "filing_risks": {
+    "DRCT": {
+      "company": "Direct Digital Holdings, Inc.",
+      "ticker": "DRCT",
+      "filing_date": "2026-03-31",
+      "critical_risks": [
+        {
+          "risk": "Going Concern Doubt",
+          "severity": "CRITICAL",
+          "evidence": "Auditors raised substantial doubt about ability to continue as going concern. Cash of $0.7M insufficient for 12 months. Accumulated deficit $27.7M.",
+          "sec_reference": "10-K Item 1A Risk Factors; MD&A Liquidity section"
+        },
+        {
+          "risk": "Reputational Event Revenue Collapse",
+          "severity": "CRITICAL",
+          "evidence": "May 2024: major sell-side customer paused connection following defamatory article/blog post (alleged coordinated misinformation). Customer reconnected May 22, 2024 but volumes have not recovered to pre-pause levels. Revenue fell from $157.1M (2023) → $62.3M (2024) → $34.7M (2025).",
+          "sec_reference": "10-K Item 1 Business; MD&A Results of Operations"
+        },
+        {
+          "risk": "Debt Covenant Default Risk",
+          "severity": "HIGH",
+          "evidence": "Credit facilities require minimum unrestricted cash of $450K at all times. Term facility matures December 3, 2026. Failure to comply could trigger acceleration of debt.",
+          "sec_reference": "10-K Item 1A Risk Factors; Note 3 Long-Term Debt"
+        },
+        {
+          "risk": "Nasdaq Delisting Risk",
+          "severity": "HIGH",
+          "evidence": "Company explicitly warns of risk of delisting if listing standards not maintained.",
+          "sec_reference": "10-K Item 1A Risk Factors"
+        }
+      ],
+      "balance_sheet_risks": {
+        "cash_position": "$0.7M (critically low)",
+        "accumulated_deficit": "$27.7M",
+        "working_capital": "Negative; insufficient for operations",
+        "debt_maturity": "December 3, 2026 (imminent)"
+      },
+      "revenue_quality": {
+        "concentration": "Historical: one customer pause caused 78% revenue decline (2023→2025)",
+        "recovery_status": "Incomplete; volumes below pre-May 2024 levels",
+        "business_model_risk": "Sell-side SSP dependent on publisher relationships; buy-side dependent on managed services"
+      },
+      "capital_allocation": {
+        "concern": "Company executed reorganization July 1, 2024 but has not stabilized revenue",
+        "dilution_risk": "May need to issue equity to raise capital; current shareholders face dilution"
+      },
+      "litigation_risk": "Defamatory article/blog post mentioned; company claims coordinated misinformation but reputational damage persists"
+    },
+    "INUV": {
+      "company": "Inuvo, Inc.",
+      "ticker": "INUV",
+      "filing_date": "2026-03-05",
+      "critical_risks": [
+        {
+          "risk": "Extreme Customer Concentration",
+          "severity": "CRITICAL",
+          "evidence": "Two customers account for 83.5% of 2025 revenue (64.2% + 19.3%). In 2024, same two customers were 82% (75% + 7%). Loss of either customer would materially harm business.",
+          "sec_reference": "10-K Item 1A Risk Factors; Business section"
+        },
+        {
+          "risk": "History of Losses & Negative Working Capital",
+          "severity": "HIGH",
+          "evidence": "Accumulated deficit $178.3M through Dec 31, 2025. Operating loss $5.1M (2025) vs $5.8M (2024). Net working capital deficit $5.1M. Gross margin declined 10.1% to 74.5%.",
+          "sec_reference": "10-K Item 1A Risk Factors; MD&A Liquidity section"
+        },
+        {
+          "risk": "Recurring Operating Losses & Cash Burn",
+          "severity": "HIGH",
+          "evidence": "Company has history of recurring losses and negative cash flows from operations. Funded through equity offerings and debt facilities. Cash position $2.8M.",
+          "sec_reference": "10-K Item 1A Risk Factors"
+        }
+      ],
+      "balance_sheet_risks": {
+        "cash_position": "$2.8M",
+        "accumulated_deficit": "$178.3M",
+        "working_capital": "Negative $5.1M",
+        "credit_facility": "Dependent on receivables; negative operating cash flows create interruption risk"
+      },
+      "revenue_quality": {
+        "concentration": "83.5% from two customers; highly vulnerable to customer loss",
+        "growth": "Revenue +2.9% (2025 vs 2024) but margin compression signals pricing pressure",
+        "platform_dependency": "Platforms business (64.2% customer) mitigates some risk but creates single-point-of-failure"
+      },
+      "capital_allocation": {
+        "concern": "Fixed labor costs in software development; limited flexibility to reduce costs",
+        "dilution_risk": "History of equity offerings to fund operations; further dilution likely"
+      }
+    },
+    "CLBZ": {
+      "company": "Collab Z Inc.",
+      "ticker": "CLBZ",
+      "filing_date": "2025-12-23",
+      "critical_risks": [
+        {
+          "risk": "Related-Party Revenue Concentration",
+          "severity": "HIGH",
+          "evidence": "65% of 2025 revenue derived from related parties (properties under common control). Transactions conducted under terms revisited periodically but lack arm's-length independence.",
+          "sec_reference": "10-K Item 1 Business; Related Party Relationships section"
+        },
+        {
+          "risk": "Early-Stage Execution Risk",
+          "severity": "HIGH",
+          "evidence": "Company pivoting from diversified revenue (EB-5 services 37%, renovation 14%, procurement 13%) to focus on property management (44% in 2025). AI features under development with 18-month phased rollout begun early 2025. Unproven platform.",
+          "sec_reference": "10-K Item 1 Business; Future Business Model section"
+        },
+        {
+          "risk": "Joint Venture Minimal Operations",
+          "severity": "MEDIUM",
+          "evidence": "Five joint ventures formed March-April 2025 with 40% ownership stakes. Company contributed technology, branding, expertise; partners provided capital. To date, joint ventures have had minimal operations.",
+          "sec_reference": "10-K Item 1 Business; Joint Ventures section"
+        },
+        {
+          "risk": "Phasing Out Revenue Streams",
+          "severity": "MEDIUM",
+          "evidence": "Company plans to phase out EB-5 Immigration Investor Services (37% of 2024 revenue) and scale down development, renovation, procurement services. Transition plan subject to ongoing review.",
+          "sec_reference": "10-K Item 1 Business; Future Business Model section"
+        }
+      ],
+      "balance_sheet_risks": {
+        "related_party_dependency": "65% of revenue from related parties; limits revenue quality assessment",
+        "capital_structure": "Series B Preferred Stock issued ($700K aggregate from 200k shares at $4/share stated value)",
+        "small_team": "14 full-time employees; execution risk on platform development"
+      },
+      "revenue_quality": {
+        "concentration": "65% related-party; 44% property management (core focus)",
+        "sustainability": "Unproven community-based model; AI features still in development",
+        "market_opportunity": "Property management industry $128.3B (IBIS World); but Collab Z is early-stage with minimal market penetration"
+      },
+      "capital_allocation": {
+        "concern": "Issuing preferred stock and common stock for joint ventures; dilution ongoing",
+        "strategic_pivot": "Shifting from diversified services to single-focus property management; execution risk high"
+      }
+    },
+    "NEOV": {
+      "company": "NeoVolta Inc.",
+      "ticker": "NEOV",
+      "filing_date": "2025-09-29",
+      "critical_risks": [
+        {
+          "risk": "Early-Stage Revenue & Profitability",
+          "severity": "HIGH",
+          "evidence": "Company founded 2018; sales commenced July 2019. Still in growth/scaling phase. Competing against Tesla, LG Chem, Enphase with significantly greater resources.",
+          "sec_reference": "10-K Item 1A Risk Factors; Item 1 Business History"
+        },
+        {
+          "risk": "Manufacturing Transition Risk",
+          "severity": "MEDIUM",
+          "evidence": "Transitioned from contract manufacturing to in-house production in 2023. Hired key personnel, assumed direct responsibility for manufacturing in Poway, CA. Secured larger facility February 2025. Execution risk on scaling.",
+          "sec_reference": "10-K Item 1 Business; Manufacturing section"
+        },
+        {
+          "risk": "Product Concentration & Market Adoption",
+          "severity": "MEDIUM",
+          "evidence": "Core products NV14/NV24 represent majority of sales. New products (NVPlus, NV7600, C&I BESS, NV16 inverter) still ramping. Market adoption dependent on installer certification and distribution channel development.",
+          "sec_reference": "10-K Item 1 Business; Products section"
+        },
+        {
+          "risk": "Regulatory & Certification Dependency",
+          "severity": "MEDIUM",
+          "evidence": "Products must meet UL 9540/9540A, California Rule 21, Hawaii interconnection standards, NFPA 70, etc. Regulatory environment remains dynamic. Compliance requires ongoing engineering investment.",
+          "sec_reference": "10-K Item 1A Risk Factors; Regulatory Environment section"
+        }
+      ],
+      "balance_sheet_risks": {
+        "small_team": "17 full-time employees as of June 30, 2025",
+        "capital_intensity": "Manufacturing facility in Poway; inventory management critical",
+        "supply_chain": "Sourcing from US and Asia; tariff/FEOC compliance risk"
+      },
+      "revenue_quality": {
+        "market_position": "Focused on independent installers and distributors underserved by larger providers",
+        "product_availability": "Competitive advantage: 2-week fulfillment vs extended backlogs from competitors",
+        "growth_drivers": "Residential retrofit (4.2M homes with solar, 3M without storage); new residential/commercial adoption rising"
+      },
+      "capital_allocation": {
+        "concern": "Expanding distribution channels, financing partnerships, product development simultaneously",
+        "dilution_risk": "May need capital raises to fund growth; warrants outstanding (NEOVW)"
+      }
+    },
+    "BRID": {
+      "company": "Bridgford Foods Corporation",
+      "ticker": "BRID",
+      "filing_date": "2026-01-28",
+      "critical_risks": [
+        {
+          "risk": "Customer Concentration",
+          "severity": "HIGH",
+          "evidence": "Walmart 33.5% of FY2025 revenue (vs 27.8% FY2024). Dollar General 14.2% of revenue. Top two customers represent ~47.7% of sales.",
+          "sec_reference": "10-K Item 1A Risk Factors; Importance of Key Customers section"
+        },
+        {
+          "risk": "Commodity & Labor Cost Inflation",
+          "severity": "HIGH",
+          "evidence": "Company experienced high inflation past few years with varying impacts. Prolonged inflation decreases consumer discretionary spending, negatively impacting results. Collective bargaining agreements expire June 2025-February 2028.",
+          "sec_reference": "10-K Item 1A Risk Factors; General Risks in Food Industry"
+        },
+        {
+          "risk": "Shift to Private Label (Margin Pressure)",
+          "severity": "MEDIUM",
+          "evidence": "FY2025: company shifted toward producing more private label products due to increased consumer demand for affordable non-branded products. Private label typically has lower margins than branded.",
+          "sec_reference": "10-K Item 1 Business; Description of Business section"
+        }
+      ],
+      "balance_sheet_risks": {
+        "customer_concentration": "Walmart 33.5%, Dollar General 14.2% of revenue",
+        "labor_agreements": "44% of 668 employees covered by collective bargaining; agreements expire through Feb 2028",
+        "commodity_exposure": "Large quantities of pork, beef, flour; subject to seasonal variation and price volatility"
+      },
+      "revenue_quality": {
+        "segment_mix": "Frozen Food 25%, Snack Food 75% of FY2025 sales",
+        "distribution": "Broadline/specialty food service distributors; retail chains; direct-store-delivery",
+        "margin_pressure": "Shift to private label reflects consumer price sensitivity; branded products have higher margins"
+      },
+      "capital_allocation": {
+        "concern": "Asset sale: sold Chicago property June 2022; no major acquisitions in past 5 years",
+        "dividend_policy": "Not disclosed; focus on operational efficiency"
+      }
+    },
+    "WS": {
+      "company": "Worthington Steel, Inc.",
+      "ticker": "WS",
+      "filing_date": "2025-07-29",
+      "critical_risks": [
+        {
+          "risk": "Cyclical Industry & Economic Sensitivity",
+          "severity": "HIGH",
+          "evidence": "Steel processing highly cyclical; dependent on automotive (largest end market), construction, machinery. Economic downturns directly impact demand and pricing.",
+          "sec_reference": "10-K Item 1A Risk Factors; Cyclical Nature of Steel Industry"
+        },
+        {
+          "risk": "Sitem Acquisition Integration",
+          "severity": "MEDIUM",
+          "evidence": "June 3, 2025 (post-fiscal year end): acquired 52% controlling stake in Italy-based Sitem S.p.A. through Tempel subsidiary. Sitem Group has operations in Italy (3), France, Slovakia, Switzerland. Integration risk on synergies and cost savings.",
+          "sec_reference": "10-K Item 1 Business; Recent Business Developments"
+        },
+        {
+          "risk": "Tariff & Trade Policy Exposure",
+          "severity": "MEDIUM",
+          "evidence": "Company exposed to tariffs on imports, trade restrictions, US withdrawal from trade agreements. Forward-looking statements cite trade war risks and border closure impacts.",
+          "sec_reference": "10-K Cautionary Note; Forward-Looking Statements section"
+        }
+      ],
+      "balance_sheet_risks": {
+        "market_cap": "$1.5B (as of Nov 29, 2024)",
+        "customer_concentration": "Top 3 customers ~33% of sales (automotive-heavy)",
+        "geographic_exposure": "28 facilities in US (19), Canada (2), China, India, Germany, Mexico (4); plus Sitem Group in Europe"
+      },
+      "revenue_quality": {
+        "end_markets": "Automotive (largest), construction, machinery, agriculture, heavy trucks",
+        "competitive_position": "One of largest independent intermediate processors of carbon flat-rolled steel in US",
+        "pricing": "Competitive; based on market factors, raw material costs, transportation, economic conditions"
+      },
+      "capital_allocation": {
+        "concern": "Sitem acquisition post-fiscal year; integration costs and synergy realization uncertain",
+        "capex": "Ongoing investment in facilities and technology; AI/ML initiatives mentioned"
+      }
+    },
+    "ICCT": {
+      "company": "iCoreConnect Inc.",
+      "ticker": "ICCT",
+      "filing_date": "2025-05-30",
+      "critical_risks": [
+        {
+          "risk": "Limited Operating History Post-Merger",
+          "severity": "HIGH",
+          "evidence": "Business Combination closed August 25, 2023 (Old iCore merged into FG Merger Corp, renamed iCoreConnect). Company has limited operating history as combined entity. Difficult to evaluate.",
+          "sec_reference": "10-K Item 1A Risk Factors; Item 1 Business; Business Combination section"
+        },
+        {
+          "risk": "Accounts Receivable Concentration",
+          "severity": "MEDIUM",
+          "evidence": "One customer represents 26% of total accounts receivable as of Dec 31, 2024 (vs 25% in 2023). No single customer >10% of revenue, but AR concentration indicates collection risk.",
+          "sec_reference": "10-K Item 1 Business; Customers section"
+        },
+        {
+          "risk": "Asset Sale (MSP/MSaaS)",
+          "severity": "MEDIUM",
+          "evidence": "October 1, 2024: company sold assets of Managed IT Services (MSP and MSaaS). Divesting business line; revenue impact and strategic rationale not fully detailed.",
+          "sec_reference": "10-K Item 1 Business; Overview section"
+        }
+      ],
+      "balance_sheet_risks": {
+        "small_team": "72 employees (68 full-time) as of Dec 31, 2024",
+        "ar_concentration": "One customer 26% of AR; collection risk",
+        "no_patents": "Company relies on trade secrets, NDAs, confidentiality agreements; no patents or trademarks owned"
+      },
+      "revenue_quality": {
+        "saas_model": "Annual recurring revenue subscriptions; 12+ products (iCoreRx, iCorePDMP, iCoreEPCS, iCoreVerify, iCoreHuddle, iCoreCodeGenius, iCoreExchange, iCoreCloud, iCorePay, iCoreSecure, iCoreClaims, iCoreIT)",
+        "market_focus": "Healthcare (dental, physician practices); HIPAA compliance critical",
+        "competitive_position": "Competes with various sources; no single competitor across full product range; each line highly competitive"
+      },
+      "capital_allocation": {
+        "concern": "Divested MSP/MSaaS business Oct 2024; strategic refocus on core SaaS offerings",
+        "dilution_risk": "Reverse stock split noted; capital structure changes post-merger"
+      }
+    }
+  },
+  "quality_notes": {
+    "durable_demand_evidence": {
+      "BRID": "Walmart/Dollar General relationships provide scale and distribution; private label shift reflects consumer demand for affordability (durable in inflationary environment)",
+      "WS": "Automotive electrification trend supports demand for electrical steel laminations; tailor-welded blanks reduce weight/cost (structural tailwind)",
+      "NEOV": "Residential retrofit market (3M homes without storage) and rising battery adoption in new solar (15-20% nationally, 60% in CA) provide durable demand drivers",
+      "ICCT": "HIPAA-compliant SaaS for healthcare providers; recurring revenue model; healthcare IT spending structural"
+    },
+    "balance_sheet_quality": {
+      "DRCT": "CRITICAL: $0.7M cash, $27.7M accumulated deficit, going concern doubt. Debt matures Dec 2026. Covenant default risk imminent.",
+      "INUV": "HIGH RISK: $2.8M cash, $178.3M accumulated deficit, negative $5.1M working capital. Operating losses recurring. Dependent on two customers for 83.5% of revenue.",
+      "CLBZ": "MEDIUM RISK: Early-stage; 65% revenue from related parties; 14 employees; AI platform unproven; joint ventures minimal operations.",
+      "NEOV": "MEDIUM RISK: 17 employees; early-stage (sales since 2019); manufacturing transition ongoing; competing against well-capitalized incumbents.",
+      "BRID": "MEDIUM RISK: Walmart 33.5% of revenue; labor agreements through Feb 2028; commodity exposure; margin pressure from private label shift.",
+      "WS": "LOWER RISK: $1.5B market cap; established player; but Sitem acquisition integration uncertain; cyclical exposure.",
+      "ICCT": "MEDIUM RISK: Limited post-merger operating history; AR concentration; divested MSP/MSaaS; no patents; relies on trade secrets."
+    },
+    "concentration_risks": {
+      "DRCT": "Historical: one customer pause caused 78% revenue collapse (2023→2025). Incomplete recovery.",
+      "INUV": "EXTREME: 83.5% from two customers (64.2% + 19.3%). Loss of either customer material harm.",
+      "BRID": "HIGH: Walmart 33.5%, Dollar General 14.2% = 47.7% from two customers.",
+      "WS": "MEDIUM: Top 3 customers ~33% of sales; automotive-heavy (cyclical).",
+      "CLBZ": "HIGH: 65% from related parties; limits revenue quality assessment.",
+      "NEOV": "LOWER: Distributed across independent installers and distributors; no single customer >10%.",
+      "ICCT": "MEDIUM: No single customer >10% of revenue, but one customer 26% of AR (collection risk)."
+    },
+    "litigation_risks": {
+      "DRCT": "Defamatory article/blog post (May 2024) alleged coordinated misinformation campaign. Reputational damage persists; customer reconnected but volumes below pre-pause levels.",
+      "BRID": "Food industry product liability and recall risks; USDA/FDA inspection and regulation; no material litigation disclosed.",
+      "WS": "Steel industry commodity/trade litigation risks; no material litigation disclosed.",
+      "NEOV": "Energy storage industry regulatory/safety litigation risks; UL 9540A thermal runaway testing; no material litigation disclosed.",
+      "ICCT": "Healthcare SaaS HIPAA compliance litigation risk; no material litigation disclosed.",
+      "INUV": "No material litigation disclosed.",
+      "CLBZ": "No material litigation disclosed."
+    },
+    "dilution_risks": {
+      "DRCT": "May need equity raise to survive; current shareholders face dilution. Going concern doubt increases dilution probability.",
+      "INUV": "History of equity offerings to fund operations; further dilution likely given negative cash flows.",
+      "CLBZ": "Series B Preferred Stock issued ($700K); common stock issued for joint ventures (60k shares at $2/share); ongoing dilution.",
+      "NEOV": "Warrants outstanding (NEOVW); may need capital raises for growth; dilution risk.",
+      "ICCT": "Reverse stock split noted; capital structure changes post-merger; dilution history.",
+      "BRID": "No material dilution disclosed; no recent equity offerings.",
+      "WS": "Large accelerated filer; no material dilution disclosed."
+    },
+    "capital_allocation_quality": {
+      "DRCT": "Reorganization July 1, 2024 has not stabilized revenue. Poor capital allocation; survival focus.",
+      "INUV": "Fixed labor costs in software; limited flexibility. Equity offerings to fund losses; poor allocation.",
+      "CLBZ": "Pivoting business model; phasing out revenue streams; joint ventures minimal operations. Execution risk high.",
+      "NEOV": "Expanding distribution, financing, product development simultaneously. Balanced approach but execution risk.",
+      "BRID": "Asset sale (Chicago property 2022); no major acquisitions; focus on operational efficiency. Conservative.",
+      "WS": "Sitem acquisition (52% stake, June 2025) post-fiscal year; integration uncertain. Disciplined capital deployment stated.",
+      "ICCT": "Divested MSP/MSaaS Oct 2024; strategic refocus on core SaaS. Reasonable allocation."
+    },
+    "valuation_risks": {
+      "DRCT": "Going concern doubt makes valuation highly speculative. Stock likely to zero if debt accelerates.",
+      "INUV": "Accumulated deficit $178.3M; negative working capital; recurring losses. Valuation dependent on customer retention (83.5% concentration).",
+      "CLBZ": "Early-stage; unproven platform; related-party revenue 65%. Valuation highly speculative.",
+      "NEOV": "Early-stage (sales since 2019); competing against Tesla, LG Chem. Valuation dependent on market adoption and manufacturing execution.",
+      "BRID": "Mature food company; private label margin pressure; Walmart/DG concentration. Valuation dependent on commodity prices and labor costs.",
+      "WS": "$1.5B market cap; established player; Sitem integration uncertain. Valuation dependent on automotive demand and steel pricing.",
+      "ICCT": "Limited post-merger operating history; SaaS recurring revenue model. Valuation dependent on customer acquisition and retention."
+    }
+  },
+  "source_urls": [
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1880613&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=829323&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=14177&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=2050338&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1748137&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1968487&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1906133&type=10-K&dateb=&owner=exclude&count=100"
+  ]
+}
+```
+
+---
+
+## **Key Takeaways for Watchlist:**
+
+### **CRITICAL (Avoid/Exit):**
+- **DRCT**: Going concern doubt, $0.7M cash, debt matures Dec 2026, reputational damage incomplete recovery. **High bankruptcy risk.**
+- **INUV**: 83.5% revenue from two customers, $178.3M accumulated deficit, negative working capital. **Extreme concentration risk.**
+
+### **HIGH RISK (Monitor Closely):**
+- **CLBZ**: 65% related-party revenue, early-stage unproven platform, 14 employees, joint ventures minimal operations.
+- **BRID**: Walmart 33.5% + DG 14.2% = 47.7% concentration; private label margin pressure; labor agreements through Feb 2028.
+
+### **MEDIUM RISK (Watch):**
+- **NEOV**: Early-stage (sales since 2019), 17 employees, manufacturing transition ongoing, competing against Tesla/LG Chem.
+- **ICCT**: Limited post-merger history, AR concentration (26% one customer), divested MSP/MSaaS, no patents.
+- **WS**: Sitem acquisition integration uncertain; cyclical exposure; but established $1.5B market cap provides buffer.
+
+### **Durable Demand Signals:**
+- **WS**: Automotive electrification (electrical steel laminations, tailor-welded blanks for weight reduction).
+- **NEOV**: Residential retrofit (3M homes without storage), rising battery adoption (15-20% nationally, 60% CA).
+- **BRID**: Walmart/DG scale; private label demand durable in inflationary environment.
+- **ICCT**: Healthcare SaaS recurring revenue; HIPAA compliance structural demand.
 

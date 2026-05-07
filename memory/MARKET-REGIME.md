@@ -2608,4 +2608,130 @@ For a cautious bot workflow on May 4, 2026:
   ]
 }
 ```
+## Market Regime Research - 2026-05-07 17:20:35 Eastern Daylight Time
+
+```json
+{
+  "summary": {
+    "index_trend": "S&P 500 at 7,365.12 (+1.46%), Nasdaq 100 +2.08% to record 25,838.94, Russell 2000 +1.47%. All-time highs across major indices. April rally +10.5% YTD +5.7%. Overnight futures show muted follow-through (S&P +0.05%, Nasdaq -0.04%), suggesting digestion rather than extension.",
+    "volatility_regime": "LOW VOL BULL confirmed. VIX 17.39 (flat +0.06% vs +1.46% equity move). 20-day realized volatility compressed to 10.2% annualized and declining. Implied vol 70% above realized—structural tailwind for premium sellers. VIX1D 11.66, VIX9D 14.76 reflect near-term event sensitivity. VIX futures contango (front-month 19.20, +1.81 vs spot) supports roll dynamics.",
+    "earnings_tone": "Q1 2026 results resilient with cautious guidance. AMD blowout beat (+13%), banks strong (+3.80% sector), aerospace/industrials outperform (MTU +10.1%, Demant +13.3%). Novo Nordisk raised 2026 profit guidance (+2.5%). Earnings growth remains 'exceptionally high' but valuations elevated (S&P 500 26x trailing, 22x forward). Broadening across regions/sectors/styles noted; no deterioration in credit spreads.",
+    "rates_and_fed": "US 10-year yield flat at 4.354%, 2-year 3.872%, 30-year 4.936%. No flight-to-quality bond bid; curve steepening on lower yields. Oil-driven rate repricing: WTI -7% to $91.21 on Iran peace deal hopes. Fed rate-cut expectations diminished; no repricing of policy path. Mortgage rates stable mid-6% range; 30-year Freddie Mac 6.3%.",
+    "geopolitical_macro": "US-Iran peace proposal (one-page, via Pakistan) moved from headline to primary macro driver. Oil fell sharply on lower Strait of Hormuz disruption risk. Markets pricing lower energy stress as earnings support. Geopolitical references in earnings spiked in April; split Congress betting rising for midterms. Uncertainty remains but de-escalation narrative dominant.",
+    "sector_rotation": "Value outperforming growth YTD (Russell 1000 Value +10.4% vs Growth +1.0% through April; April alone Growth +11.9% vs Value +8.2%). Banks, energy, aerospace, industrials leading. Tech concentration risks acknowledged; 'Magnificent 7' leadership mixed. Dividend/value ETFs (SCHD, VYM) gaining allocation weight. Small/mid-cap outperforming large-cap YTD.",
+    "risk_sentiment": "Risk-on dominant but with 'wall of worry' intact. Dip-buying behavior confirmed (0DTE skew: calls priced above puts, mild upside bias). Put/call ratios collapsing. CNN Fear & Greed Index 68.6 (greed territory). Gold +0.26% to $4,706.40 (modest safety bid). Credit spreads stabilizing, not deteriorating. Mid-day caution noted (stocks pared early gains), but close held gains.",
+    "technical_signals": "S&P 500 +7.59% above 50-day MA. Nasdaq at record. Russell 2000 at 2,886.77. Implied move into Friday expiry ~54 points (0.74%). Mixed technical signals noted; no overbought extremes yet. Valuation room remains before prior ceiling levels tested again (RBC target 7,750 vs current 7,365).",
+    "paper_trading_posture": "LOW VOL BULL regime structurally favors premium sellers and value/dividend strategies. Earnings-driven rally with geopolitical tailwind (oil lower). Caution warranted: valuations elevated, path non-linear, geopolitical tail risks remain, Fed policy uncertain. Suitable for disciplined, hedged positions; avoid concentration in mega-cap tech. Dividend/value rotation confirmed; materials/mining/reinsurance showing execution-ready signals."
+  },
+  "market_regime": {
+    "classification": "LOW VOL BULL",
+    "vix_level": 17.39,
+    "vix_trend": "flat (up 0.06% despite +1.46% equity advance)",
+    "realized_vol_20d": "10.2% annualized, declining",
+    "implied_realized_gap": "70% (options pricing 70% more movement than delivered)",
+    "vix_futures_structure": "contango (front-month 19.20 vs spot 17.39, +1.81 roll benefit)",
+    "equity_positioning": "all-time highs, dip-buying behavior, mild upside skew",
+    "structural_edge": "short-premium strategies favored; contango roll support; wide IV/RV gap",
+    "regime_confidence": "high—continuously confirmed across multiple sessions"
+  },
+  "sector_rotation": {
+    "primary_theme": "Value emergence post-tech narrowness; dividend/income rotation sustained",
+    "outperformers": [
+      "Financials (banks +3.80%, reinsurance +21% Q1 earnings YoY)",
+      "Energy (oil tailwind, Iran deal narrative)",
+      "Industrials/Aerospace (MTU +10.1%, Demant +13.3%)",
+      "Materials/Mining (MUX Q1 revenue +107%, reaffirmed guidance)",
+      "Dividend ETFs (SCHD, VYM gaining allocation)"
+    ],
+    "underperformers": [
+      "Mega-cap Tech (concentration risk acknowledged, 'Magnificent 7' mixed)",
+      "Growth (April +11.9% but YTD +1.0% vs Value +10.4%)"
+    ],
+    "ytd_performance": "Value +10.4%, Growth +1.0% through April; April reversal Growth +11.9% vs Value +8.2%",
+    "breadth": "Broadening across regions, sectors, styles confirmed; not narrow leadership",
+    "small_mid_cap": "Russell 2000 +1.47%, outperforming large-cap YTD"
+  },
+  "risk_flags": {
+    "elevated_risks": [
+      {
+        "category": "Valuation",
+        "detail": "S&P 500 26x trailing, 22x forward earnings. High multiples require sustained earnings growth; room to run but not unlimited.",
+        "severity": "medium"
+      },
+      {
+        "category": "Geopolitical",
+        "detail": "Iran peace proposal narrative dominant but fragile. Escalation could reverse oil/rate repricing quickly. Geopolitical references in earnings spiked April.",
+        "severity": "medium-high"
+      },
+      {
+        "category": "Fed Policy Uncertainty",
+        "detail": "Rate-cut expectations diminished; no clear policy path. Inflation data and Fed communication remain key drivers.",
+        "severity": "medium"
+      },
+      {
+        "category": "Tech Concentration",
+        "detail": "Magnificent 7 leadership mixed; concentration risk in mega-cap tech acknowledged by multiple sources.",
+        "severity": "medium"
+      },
+      {
+        "category": "Mid-Day Caution",
+        "detail": "Stocks pared early session gains by midday; Dow and S&P 500 turned red. Suggests profit-taking or event sensitivity.",
+        "severity": "low-medium"
+      },
+      {
+        "category": "Earnings Guidance Tone",
+        "detail": "Resilient outlooks with 'dose of caution' noted. Strong start to year may limit upside surprise potential.",
+        "severity": "low"
+      }
+    ],
+    "mitigating_factors": [
+      "Credit spreads stabilizing, not deteriorating",
+      "Earnings broadening across sectors/regions",
+      "Oil lower reducing inflation pressure",
+      "Dip-buying behavior intact (mild upside skew)",
+      "RBC target 7,750 suggests room before prior ceiling"
+    ],
+    "paper_trading_guardrails": [
+      "Avoid concentration in mega-cap tech (allocation caps enforced)",
+      "Favor dividend/value/materials on sector rotation confirmation",
+      "Monitor geopolitical headlines for Iran deal reversal risk",
+      "Use premium-selling strategies cautiously; wide IV/RV gap may compress",
+      "Set tight stops on single-stock positions; prefer ETF/diversified exposure",
+      "Watch Fed communications for policy path clarity"
+    ]
+  },
+  "source_urls": [
+    "https://www.home.saxo/content/articles/macro/market-quick-take---7-may-2026-07052026",
+    "https://www.home.saxo/content/articles/options/options-brief---amd-blowout-vol-unmoved---7-may-2026-07052026",
+    "https://www.rbccm.com/en/insights/2026/05/takeaways-from-an-avalanche-of-earnings",
+    "https://www.marinerwealthadvisors.com/insights/earnings-drive-the-rally-as-risks-linger/",
+    "https://www.stonex.com/en/insights/perspective-mid-day-commentary-for-may-7-2026-05-07/",
+    "https://trb.bank/wealth-management-blog/trb-trust-wealth-management-2026-first-quarter-review-market-update/",
+    "https://www.themortgagereports.com/mortgage-rates-now/mortgage-rates-today-may-7-2026",
+    "https://www.stonex.com/en/insights/mid-day-weather-report-5-7-2026-05-07/"
+  ]
+}
+```
+
+---
+
+### **Cautious Paper-Trading Workflow Recommendation**
+
+**Current Regime Fit:**
+- **LOW VOL BULL** regime confirmed; structural edge favors disciplined premium sellers and value/dividend rotations.
+- **Execution-ready candidates** (SCHD, MUX) align with sector rotation and earnings strength.
+- **Watch-tier candidates** (GLRE, WS) merit monitoring for guard-pass confirmation before execution.
+
+**Key Workflow Checkpoints:**
+1. **Geopolitical Reversal Risk:** Monitor Iran deal headlines hourly. Any escalation could reverse oil/rate repricing and trigger volatility spike.
+2. **Earnings Guidance Tone:** Caution embedded in guidance; avoid chasing momentum into earnings surprises.
+3. **Valuation Ceiling:** RBC 7,750 target leaves ~5% upside; position sizing should reflect limited runway.
+4. **Mid-Day Profit-Taking:** Pattern observed; consider tighter intraday stops or avoid market-open executions during high-momentum days.
+5. **Fed Policy Clarity:** Next communication critical; rate-cut expectations diminished—watch for repricing.
+
+**Allocation Strategy:**
+- Favor ETF/diversified exposure over single-stock concentration.
+- Rotate into value/dividend/materials on confirmed breadth.
+- Avoid mega-cap tech unless hedged.
+- Use stops at 8% loss threshold per memory guardrails.
 
