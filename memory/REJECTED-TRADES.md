@@ -56,4 +56,7 @@ HF memory filter flags similarity to prior rejected patterns.
 ## Market Open Execution Skipped - 2026-05-06 09:55:01 Eastern Daylight Time
 
 A market-open order is already logged for today. No backup order was placed.
+## Rejected MUX - 2026-05-07 09:47:11 Eastern Daylight Time
+
+Candidate references banned v1 instruments or leverage.
 

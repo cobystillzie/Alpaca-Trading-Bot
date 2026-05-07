@@ -39,4 +39,14 @@ Catalyst: Morningstar Gold-rated top high-dividend ETF list for 2026 passive inc
 Bear case: Rate hike odds or hawkish Fed could pressure yields; underperforms pure growth in strong bull runs.
 Stop plan: 8.0% stop/trailing review.
 Warnings: none
+## ORDER: Paper Buy GLRE - 2026-05-07 09:47:11 Eastern Daylight Time
+
+Symbol: GLRE
+Notional: $500.00
+Order id: cb534eb0-318d-4c2c-b65d-e7bfc827d94b
+Thesis: Reinsurance quality with improving underwriting; catalyst-driven swing in risk-on.
+Catalyst: Q1 2026: net income +21% YoY to $35.8M, combined ratio 96% (from 104.6%), underwriting profit $6.2M (vs -$7.8M loss).
+Bear case: Cat loss spikes; soft pricing cycle.
+Stop plan: 8.0% stop/trailing review.
+Warnings: none
 
