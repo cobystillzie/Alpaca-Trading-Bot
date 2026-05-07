@@ -5839,4 +5839,46 @@ HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
 Self-learning: tier=watch repeat48h=6 fresh=yes bucket=industrials-value
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-07 11:17:39 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities at records (S&P 500 +1.46% to 7365, Nasdaq +2.1%, Dow +1.2%) on US-Iran peace hopes (oil -7%), AI/tech strength (AMD +18.6%, Super Micro +24.5%), low VIX 17.39; value/dividend rotation sustained (SCHD/VYM) as defensive complement to tech narrowness; Q1 earnings beats in mining (MUX), reinsurance (GLRE); risk-on dip-buying bias ahead of jobs data.
+Candidates: 4
+
+1. SCHD (Large Value Dividend ETF) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 78/100 | tier execution-ready | bucket dividend-etf-defensive | HF source 9/100
+Recommendation: execute-if-guards-pass
+Catalyst: Sustained sector rotation post-Q1 tech narrowness; Morningstar Gold-rated #1 high-dividend ETF for 2026 passive income lists (repeat but fresh regime confirmation).
+Chittick Cash: Dividend aristocrats with strong cash flows; trading below historical P/E norms in value rotation.
+HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=15 fresh=yes bucket=dividend-etf-defensive
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. MUX (materials-mining) | confidence 0.82 | allocation 7.0% | stop 8.0% | Chittick 76/100 | tier execution-ready | bucket materials-mining | HF source 9/100
+Recommendation: execute-if-guards-pass
+Catalyst: Q1 2026 earnings: net income $33.4M ($0.56/sh) vs loss; revenue +107% to $74M; reaffirmed 114-126k GEO guidance; San José $40-50M dividends expected.
+Chittick Cash: Profitable turnaround, dividend inflows buffer downside.
+HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=2 fresh=yes bucket=materials-mining
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. GLRE (financials-reinsurance) | confidence 0.75 | allocation 5.0% | stop 8.0% | Chittick 74/100 | tier watch | bucket reinsurance-financials | HF source 8/100
+Recommendation: watch
+Catalyst: Q1 2026: net income +21% YoY to $35.8M, combined ratio 96% (from 104.6%), underwriting profit $6.2M (vs -$7.8M loss).
+Chittick Cash: Improving ratios provide buffer.
+HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=5 fresh=yes bucket=reinsurance-financials
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+4. WS (industrials) | confidence 0.70 | allocation 5.0% | stop 8.0% | Chittick 74/100 | tier watch | bucket industrials-value | HF source 8/100
+Recommendation: watch
+Catalyst: Recent 10-K: 28 facilities, Sitem acquisition integration; auto/construction demand.
+Chittick Cash: Asset base from facilities.
+HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=7 fresh=yes bucket=industrials-value
+Social buzz, low weight: none
+Congress signal, low weight: none
 

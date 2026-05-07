@@ -2575,4 +2575,18 @@ For a cautious bot workflow on May 4, 2026:
   ]
 }
 ```
+## Market Regime Research - 2026-05-07 11:17:39 Eastern Daylight Time
+
+{
+  "summary": "US equities extended rally to records with S&P 500 +1.46% to 7365, Nasdaq +2.1% to record, Dow +1.2%; driven by US-Iran peace hopes lowering oil (-7%), strong AI/tech earnings (AMD +18.6%, Super Micro +24.5%); VIX stable at 17.39 (low vol bull regime); yields lower (10yr 4.35%), curve steepening; positive earnings tone from Disney/Uber; risk-on with dip-buying bias.",
+  "market_regime": "LOW VOL BULL - VIX 17.39 unmoved despite records, realized vol 10.2%, contango in VIX futures, put/call ratios collapsed signaling sentiment flip to bullish, short-premium edge.",
+  "sector_rotation": "Tech/AI leadership (AMD, Super Micro, Samsung); Europe banks (+3.8%), travel/industrials strong; aligns with bot memory on value/dividend rotation (SCHD, VYM, industrials WS) as defensive complement to tech narrowness.",
+  "risk_flags": "Geopolitical (US-Iran talks not finalized, oil rebounding); near-term vol elevated (VIX1D +8.47% to 11.66, VIX9D 14.76) ahead of jobs data/earnings (Airbnb/McD today); SKEW 135 elevated (tail risk hedging); prediction markets show open uncertainty (47.5% up prob). Cautious: monitor oil stabilization, Fed wait-and-see on labor data.",
+  "source_urls": [
+    "https://www.home.saxo/content/articles/macro/market-quick-take---7-may-2026-07052026",
+    "https://www.home.saxo/content/articles/options/options-brief---amd-blowout-vol-unmoved---7-may-2026-07052026",
+    "https://kalkine.com/news/premium/us-pre-market-briefing-what-us-markets-face-on-thursday-may-7",
+    "https://www.lines.com/prediction-markets/finance/spx-opens-up-or-down-on-may-7-2026"
+  ]
+}
 

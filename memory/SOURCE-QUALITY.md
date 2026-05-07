@@ -4842,4 +4842,76 @@ SEC/company quality check:
   "source_urls": []
 }
 ```
+## Source And Signal Research - 2026-05-07 11:17:39 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks or ETFs. Social buzz remains weak across monitored candidates including SCHD, VYM, MUX, GLRE, and WS.",
+  "social_buzz": "None detected",
+  "attention_anomalies": "No anomalies flagged; no pump language, hype, or unsupported claims observed.",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Search results contain primarily congressional press releases on policy matters (FCC licensing, forest service reorganization, terrorism insurance, e-cigarette regulation) and corporate earnings reports (EZCORP +93% net income, NN Inc. insider sales only, GLRE reinsurance underwriting improvement). One insider trade detected: WT CIO David M Yates sold 15,000 shares on 05-05-2026 for $270,900 (~$18.06/share). Analyst price targets for WT range $15.50–$21.00 (median $16.50). No material congressional stock holdings or trading disclosures identified in results.",
+  "congressional_signal": {
+    "weight": "low",
+    "rationale": "Congressional disclosures in results are delayed, non-trading focused (policy advocacy, fundraising totals only). Congressman Garamendi net worth $5.0M, Goodlander $3.8M, Huffman $1.5M disclosed but no equity trades or sector concentration signals detected. No direct link to liquid US stock/ETF trading activity.",
+    "flags": []
+  },
+  "tickers": [
+    {
+      "symbol": "WT",
+      "sector": "financial-services",
+      "signal_type": "insider_sale",
+      "detail": "CIO David M Yates sold 15,000 shares on 05-05-2026 for ~$270,900; 148 institutional buyers vs 146 sellers in recent quarter; analyst median target $16.50 (range $15.50–$21.00)",
+      "confidence": 0.45,
+      "recommendation": "watch",
+      "context": "Single insider sale; mixed institutional flow; analyst divergence suggests uncertainty. Low-weight catalyst only."
+    },
+    {
+      "symbol": "EZPW",
+      "sector": "financial-services",
+      "signal_type": "earnings_beat",
+      "detail": "Q2 2026: net income +93%, significant revenue growth; 128 institutional buyers vs 119 sellers; 2 buy ratings, 0 sell ratings",
+      "confidence": 0.62,
+      "recommendation": "watch",
+      "context": "Strong earnings and analyst sentiment; institutional accumulation. No congressional disclosure link."
+    },
+    {
+      "symbol": "NNBR",
+      "sector": "industrials",
+      "signal_type": "insider_sales_concentration",
+      "detail": "27 insider trades in past 6 months: 0 purchases, 27 sales. Institutional: 28 buyers vs 26 sellers. Q1 2026 guidance raised.",
+      "confidence": 0.35,
+      "recommendation": "watch",
+      "context": "Heavy insider selling despite positive guidance and institutional support suggests insider caution. Low-weight signal."
+    }
+  ],
+  "source_urls": [
+    "https://www.quiverquant.com/news/Insider+Sale:+Chief+Information+Officer+of+$WT+Sells+15,000+Shares",
+    "https://www.quiverquant.com/news/EZCORP+Reports+Strong+Second+Quarter+Results+with+93%25+Increase+in+Net+Income+and+Significant+Revenue+Growth",
+    "https://www.quiverquant.com/news/NN,+Inc.+Reports+Strong+Q1+Growth+in+Sales+and+Profitability,+Raises+Full-Year+2026+Guidance"
+  ]
+}
+```
+
+**Note:** Congressional disclosure sources in results are delayed and policy-focused, not equity-trading focused. No actionable congressional trading signals detected. Existing memory candidates (SCHD, MUX, GLRE, WS) remain primary execution targets; no new congressional catalyst warrants override.
+
+SEC/company quality check:
+{
+  "summary": "DRCT (Direct Digital Holdings) shows sharp revenue/gross profit declines in 2024-2025 due to major sell-side customer pause from defamatory allegations/misinformation campaign; going concern doubt with $0.7M cash vs $27.7M accumulated deficit; high buy-side client retention (90%) but revenue concentration risks; IVT mitigation and SSP strengths noted but balance sheet distress evident. INUV stable SaaS adtech with AI focus, revenue concentration (top 2 customers 83.5% of 2025 revenue), history of losses ($178M deficit), working capital deficit; Bridgford Foods (BRID) stable food processor with customer concentration (Wal-Mart 33.5% sales); others less relevant. No durable demand signals for watchlist; DRCT/INUV highlight concentration, liquidity, revenue quality risks.",
+  "filing_risks": [
+    "DRCT: Going concern substantial doubt (low cash $0.7M, $27.7M deficit, customer pause impact); high revenue concentration (one sell-side customer pause caused 2024-25 declines: revenue $62.3M->34.7M, GP $17.4M->10.4M); credit covenants ($450k min cash); Nasdaq delisting risk; customer payment risks; ad fraud/IVT/platform risks; dilution from potential equity raises.",
+    "INUV: Revenue concentration (2 customers 83.5% of 2025 rev, 82% 2024); history of losses ($178M deficit), negative cash flows, $5.1M working capital deficit; customer collection/seasonality risks; dependence on Yahoo/Google; NYSE American listing risk; dilution from RSUs/warrants.",
+    "BRID: Customer concentration (Wal-Mart 33.5% FY25 sales, 14.2% Dollar General); food industry risks (contamination, consumer preferences, inflation); collective bargaining (44% employees).",
+    "Common: High concentration exposes to client losses; liquidity/capital raise risks; industry cyclicality/competition."
+  ],
+  "quality_notes": "DRCT revenue quality impaired by customer-specific event (not reflective of model per mgmt but unproven recovery); INUV revenue quality weak due to extreme concentration (83% top 2), ongoing losses despite AI IP (18 patents); BRID durable food demand but concentration risks; no litigation/dilution specifics beyond potential raises; capital allocation strained in DRCT/INUV (debt covenants, deficits); WS shows scale (28 facilities) but not primary focus; no GOOGL/INTC/USAR/GT. Watchlist lacks durable demand evidence amid distress signals.",
+  "source_urls": []
+}
 
