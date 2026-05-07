@@ -4914,4 +4914,75 @@ SEC/company quality check:
   "quality_notes": "DRCT revenue quality impaired by customer-specific event (not reflective of model per mgmt but unproven recovery); INUV revenue quality weak due to extreme concentration (83% top 2), ongoing losses despite AI IP (18 patents); BRID durable food demand but concentration risks; no litigation/dilution specifics beyond potential raises; capital allocation strained in DRCT/INUV (debt covenants, deficits); WS shows scale (28 facilities) but not primary focus; no GOOGL/INTC/USAR/GT. Watchlist lacks durable demand evidence amid distress signals.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-07 13:19:03 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks or ETFs. Social buzz remains weak across monitored candidates (SCHD, MUX, GLRE, WS, VYM). No evidence of hype, pump language, or unsupported claims detected.",
+  "social_buzz": "Weak - no unusual discussion identified",
+  "attention_anomalies": "None detected",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No recent congressional disclosures of trades in liquid US stocks or ETFs identified in search results. Congressional mentions are limited to FEC fundraising disclosures and press releases unrelated to stock trading.",
+  "congressional_signal": "none",
+  "tickers": [],
+  "source_urls": []
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "SES AI Corp (SES) 10-K (filed 2026-03-04) reveals high-risk pre-revenue battery tech developer with $73M 2025 net loss, $372M accumulated deficit, heavy R&D burn, and reliance on future funding/JVs; ongoing losses expected, uncertain UAM/EV markets, supply chain risks, integration challenges from UZ Energy acquisition. Direct Digital (DRCT) shows revenue collapse to $35M (from $157M peak), going concern doubt, customer pause from defamatory claims, high debt covenants. Inuvo (INUV) has customer concentration (64%+ from two clients), $178M deficit, negative working capital. Others (FATE, NEOV, TKLS, ICCT) exhibit biotech volatility, early-stage ops, going concern issues, limited history. No durable demand; all flagged for balance sheet weakness, dilution risks, revenue concentration.",
+  "filing_risks": {
+    "SES": [
+      "Ongoing losses: $73M net loss 2025, $372M accumulated deficit; expects continued losses, may never profit (projections based on unproven assumptions)",
+      "Capital needs: Needs substantial future funding; cash sufficient only 12 months, dilution risk from equity/debt",
+      "Customer/integration: UZ Energy acquisition risks (management distraction, key employee loss, impairments); OEM conversion challenges",
+      "Market/supply: Emerging UAM/EV markets unproven; supply chain disruptions, raw material volatility, no long-term contracts",
+      "Tech/ops: Battery defects/recalls, manufacturing scale-up risks, competition from better-resourced Li-ion players",
+      "Balance sheet: High capex for batteries/Molecular Universe; dilution from funding"
+    ],
+    "DRCT": [
+      "Going concern: $0.7M cash, $28M deficit; customer pause from 'defamatory article' caused revenue drop to $35M (from $157M), needs funding",
+      "Concentration/debt: Credit facilities with covenants ($450k min cash), default risk; high client reliance",
+      "Revenue quality: Sell-side volumes not recovered post-pause; IVT/ad fraud risks",
+      "Delisting risk: Nasdaq compliance issues",
+      "Dilution: Needs equity/debt; substantial doubt on financing"
+    ],
+    "INUV": [
+      "Concentration: Two customers 83% revenue (64%+19%)",
+      "Balance sheet: $178M deficit, $5M working capital deficit, $2.8M cash; history of losses",
+      "Revenue quality: Relies on Yahoo/Google; ad supplier dependence",
+      "Going concern implied by deficits/cash burn"
+    ],
+    "FATE": [
+      "Biotech risks: Preclinical/clinical failures, no revenue, funding needs; manufacturing scale-up, competition",
+      "Losses: Significant ongoing losses, cash burn for trials",
+      "Dilution: Needs funding for development"
+    ],
+    "NEOV": [
+      "Early-stage: Sales since 2019, in-house mfg transition risks; competition from Tesla/LG",
+      "Supply chain: Asia/US sourcing, FEOC compliance needs",
+      "Funding: Growth strategy requires capex/partners"
+    ],
+    "TKLS": [
+      "Going concern: $1M cash, $6M working capital deficit, $77M deficit, $10M 2024 loss; needs capital",
+      "Revenue: Insufficient from sales",
+      "Dilution: Warrants/convertibles (13M shares)"
+    ],
+    "ICCT": [
+      "Post-merger: Limited history, SaaS competition",
+      "Customer conc: AR 26%/25% single customer",
+      "No major red flags but healthcare SaaS regulatory risks"
+    ]
+  },
+  "quality_notes": "No durable demand signals; all show weak balance sheets (deficits $28M-$372M, low cash), high customer concentration (SES/INUV/DRCT), dilution/funding risks, ongoing losses/cash burn. SES/DRCT/FATE/TKLS explicit going concern doubts. Revenue quality poor (pre-revenue SES, collapsed DRCT, concentrated INUV). Capital allocation risky (acquisitions like UZ/Sitem without proven integration). Avoid watchlist addition; high execution/scale risks outweigh.",
+  "source_urls": []
+}
 

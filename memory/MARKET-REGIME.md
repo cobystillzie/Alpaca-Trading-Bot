@@ -2589,4 +2589,23 @@ For a cautious bot workflow on May 4, 2026:
     "https://www.lines.com/prediction-markets/finance/spx-opens-up-or-down-on-may-7-2026"
   ]
 }
+## Market Regime Research - 2026-05-07 13:19:02 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities extended rally to records (S&P 500 +1.46% to 7365, Nasdaq +2.1% record) on US-Iran peace hopes lowering oil (-7%) and easing inflation fears. Strong earnings (AMD +18.6%, SMCI +24.5%) + AI chip strength drove risk-on. VIX stable at 17.39 (low vol bull regime), yields lower (10yr 4.35%), USD weak. Upcoming NFP Friday adds event risk.",
+  "market_regime": "LOW VOL BULL - Confirmed across sessions: VIX 17.4 vs 20d RV 10.2%, records hit with vol indifference, 0DTE skew upside bias, VIX futures contango. Short-premium strategies structurally favored.",
+  "sector_rotation": "Tech/AI leadership (AMD, SMCI, Korean chips Samsung/SK Hynix); Banks (+3.8% Europe), Industrials/Travel/Aerospace (MTU +10%), Energy weak on oil drop. Broad participation, value/dividend rotation context from memory.",
+  "risk_flags": "Geopolitical (US-Iran talks 'not a deal', oil rebounding); NFP Friday (exp 62k vs prior 178k); High valuations (S&P 26x trailing); Advance-decline marginal; Labor cooling but resilient (private payrolls +109k). Short-term vols up (VIX1D +8.5%).",
+  "source_urls": [
+    "https://www.home.saxo/content/articles/macro/market-quick-take---7-may-2026-07052026",
+    "https://www.home.saxo/en-ch/content/articles/macro/market-quick-take---7-may-2026-07052026",
+    "https://kfgo.com/2026/05/06/asian-stocks-hit-record-high-dollar-wobbles-on-peace-deal-hopes/",
+    "https://www.home.saxo/content/articles/options/options-brief---amd-blowout-vol-unmoved---7-may-2026-07052026",
+    "https://www.marinerwealthadvisors.com/insights/earnings-drive-the-rally-as-risks-linger/",
+    "https://trb.bank/wealth-management-blog/trb-trust-wealth-management-2026-first-quarter-review-market-update/",
+    "https://magnusfdm.com/2026/05/07/surprise-moves-familiar-drivers-earnings-still-lead-markets/"
+  ]
+}
+```
 
