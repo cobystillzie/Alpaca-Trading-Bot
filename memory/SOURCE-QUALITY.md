@@ -4052,4 +4052,64 @@ SEC/company quality check:
 - **CreditRiskMonitor:** Niche market; <1% TAM; cyclical demand.
 
 **Current watchlist (SCHD, VYM, PEG, INTC) remains appropriate.** No new candidates from this batch qualify.
+## Source And Signal Research - 2026-05-06 21:06:31 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks or ETFs. No evidence of hype, pump language, or unsupported claims detected.",
+  "social_buzz": "None",
+  "attention_anomalies": "None",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "QGEN (QIAGEN N.V.) shows historical congressional trading activity by Democrats Ro Khanna, Peter Welch, Alan Lowenthal, and Donna Shalala, with purchases and sales in $1k-$50k range from 2017-2022; most recent in Jan 2022. No recent insider trading, lobbying, or government contracts. Biotech with extensive nucleic acid processing patents. Unrelated NVGS news on dividends and buybacks.",
+  "congressional_signal": "low-weight; stale historical trades (latest Jan 2022), mixed buy/sell, small sizes; delayed disclosures",
+  "tickers": ["QGEN", "NVGS"],
+  "source_urls": [
+    "https://www.quiverquant.com/stock/QGEN/",
+    "https://www.quiverquant.com/news/Navigator+Holdings+Ltd.+Declares+$0.07+Cash+Dividend+and+Announces+Revised+Capital+Return+Policy"
+  ]
+}
+```
+
+SEC/company quality check:
+{
+  "summary": {
+    "DRCT": "Direct Digital Holdings operates a programmatic advertising platform (Colossus SSP) with sell-side and buy-side services. 2025 revenue $34.7M (down sharply from $157.1M in 2023 due to major customer pause from defamatory article), gross profit $10.4M, cash $0.7M, accumulated deficit $27.7M. Substantial going concern doubt; 90% client retention but high concentration risk from paused sell-side customer. Aggressive growth plans via sales expansion/acquisitions amid IVT mitigation and competition from Google/Meta.",
+    "INUV": "Inuvo provides AI-driven advertising tech (IntentKey) for audience targeting across agencies/brands and platforms. Revenue up 2.9% to ~$25-30M est. (not explicit), gross margin down to 74.5%, operating loss $5.1M, cash $2.8M, working capital deficit $5.1M, accumulated deficit $178M. Heavy customer concentration (two clients 83.5% of 2025 revenue). 18 patents, partnerships with Google/Yahoo.",
+    "BRID": "Bridgford Foods manufactures frozen/snack foods (75% snacks). FY2025 sales mix stable, shifted to private label amid inflation. Customer concentration: Walmart 33.5%, Dollar General 14.2% of revenue. 668 employees (44% unionized). Steady but cyclical food industry player.",
+    "NEOV": "NeoVolta designs/manufactures residential/commercial energy storage systems (NV14/NV24 etc., LiFePO4 batteries). Emerging growth co. with in-house Poway CA production since 2023. Expanding to C&I, new products (NV16 inverter). 17 employees, fragmented installer market focus.",
+    "WS": "Worthington Steel is a large value-added steel processor (flat-rolled, electrical laminations, tailor welded). FY2025 net sales not specified but top 3 customers 33%. 28 facilities globally, automotive largest end-market. Strong balance sheet post-spin.",
+    "ICCT": "iCoreConnect offers HIPAA-compliant SaaS for healthcare (e-prescribing, insurance verification, claims etc.). Post-merger growth via acquisitions. 72 employees, no major customer concentration. Sold IT services Oct 2024."
+  },
+  "filing_risks": {
+    "DRCT": "CRITICAL: Going concern doubt (cash $0.7M insufficient 12mo), revenue/gross profit collapse 2024-25 from customer pause (defamatory article), credit covenants ($450k min cash), Nasdaq delisting risk, high customer concentration, advertising fraud/IVT exposure, platform failures, cookie phaseout, 73 employees.",
+    "INUV": "History of losses ($178M accum. deficit), customer concentration (2 clients 83.5% rev), negative cash flows/working capital deficit $5.1M, NYSE American listing risk, seasonality, supplier dependence, ad fraud/publishers, privacy regs, dilution from RSUs/warrants.",
+    "BRID": "Customer concentration (Walmart 33.5%, Dollar General 14.2%), food industry risks (contamination, consumer shifts, inflation), supply chain/raw materials volatility (pork/beef/flour), unionized workforce (44%), competition from larger firms.",
+    "NEOV": "Early-stage (sales since 2019), funding needs, regulatory hurdles (UL/CSIP certs), competition from Tesla/Enphase, supply chain/FEOC risks, third-party mfg dependence, product liability.",
+    "WS": "Cyclical steel industry, raw material volatility, customer/supplier concentration, supply chain disruptions, tariffs/trade wars, competition, intl risks, cyber/AI reliance.",
+    "ICCT": "Limited history post-merger, SaaS competition, healthcare regs (HIPAA), revenue concentration in AR (26%), execution risks on growth/acquisitions."
+  },
+  "quality_notes": {
+    "DRCT": "RED FLAGS: Going concern + revenue collapse + customer pause = high execution risk. Durable demand questionable amid ad industry headwinds (fraud, cookies). Poor capital allocation (acquisitions planned despite distress). Avoid - balance sheet distress.",
+    "INUV": "Revenue quality poor: 83% from 2 customers. History of losses/cash burn. AI ad tech promising but concentration/dilution risks high. Durable demand via Google/Yahoo ties but watchlist max.",
+    "BRID": "Stable food demand (private label shift positive inflation hedge). Concentration risks but diversified channels. Union exposure moderate. Reasonable quality for defensives.",
+    "NEOV": "Emerging ESS growth story but tiny scale (17 emp), funding dependent. Policy tailwinds (ITC) but competition intense. Speculative - revenue quality unproven.",
+    "WS": "High quality: Scale, global footprint, post-spin clean BS. Cyclical but durable industrial demand. Low relative risk.",
+    "ICCT": "SaaS healthcare niche with tailwinds. No major concentration, growth via M&A. IP light (no patents). Moderate quality."
+  },
+  "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/1880613/000155837026004927/drt-20260331x10k.htm",
+    "https://www.sec.gov/Archives/edgar/data/829323/000082932326000022/inuvo_10k.htm",
+    "https://www.sec.gov/Archives/edgar/data/14177/000001417726000006/brid-20251031.htm",
+    "https://www.sec.gov/Archives/edgar/data/1748137/000174813725000007/neov-20250630.htm",
+    "https://www.sec.gov/Archives/edgar/data/1968487/000196848725000008/ws-20250531.htm",
+    "https://www.sec.gov/Archives/edgar/data/1906133/000190613325000008/icct-20241231.htm"
+  ]
+}
 

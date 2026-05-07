@@ -2065,4 +2065,28 @@ For a cautious bot workflow on May 4, 2026:
     "https://www.investing.com/analysis/sp-500-gains-mask-volatility-disconnect-across-markets-200679747"
   ]
 }
+## Market Regime Research - 2026-05-06 21:06:31 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities at all-time highs driven by tech/AI earnings beats (AMD +16%, SMCI +17%) and US-Iran ceasefire hopes reducing oil prices (-6%). Robust labor market, persistent inflation, and Fed on hold for 2026 with higher-for-longer rates. VIX elevated earlier (20-30 range) from geopolitics but falling; low-vol strategies like SPLV gaining defensive appeal amid concentration risks (7 stocks = 34% S&P). Risk-on tone with record highs but hawkish Fed comments and volatility risks warrant caution.",
+  "market_regime": "risk-on_bullish_with_caution",
+  "sector_rotation": "tech_semis_ai_lead_value_utilities_defensive_watch",
+  "risk_flags": [
+    "fed_higher_for_longer",
+    "persistent_inflation",
+    "geopolitical_volatility",
+    "equity_concentration_risk",
+    "elevated_yields_4.35%",
+    "vix_15-20_modest_uncertainty"
+  ],
+  "source_urls": [
+    "https://economictimes.com/markets/us-stocks/news/us-stock-market-jobs-data-to-test-feds-rate-outlook-amid-resilient-economy-and-inflation-risks/articleshow/130843994.cms",
+    "https://www.chase.com/personal/investments/learning-and-insights/article/vix-index-and-portfolio-management-during-market-volatility",
+    "https://www.barchart.com/story/news/1745025/s-p-500-and-nasdaq-100-at-record-highs-on-tech-earnings-and-us-iran-peace-hopes",
+    "https://www.almfirst.com/resources/monthly-market-commentary/may-2026-market-commentary",
+    "https://www.storebrandam.com/news-insights/themes/asset-allocation/market-outlook-for-may-2026-rally-amid-uncertainty/"
+  ]
+}
+```
 
