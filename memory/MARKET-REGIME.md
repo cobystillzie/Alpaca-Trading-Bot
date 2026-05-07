@@ -2510,4 +2510,25 @@ For a cautious bot workflow on May 4, 2026:
   ]
 }
 ```
+## Market Regime Research - 2026-05-07 07:16:10 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities in strong risk-on rally driven by US-Iran peace hopes lowering oil from $103 to $96, strong private payrolls (109k vs 84k exp), and blowout tech earnings (AMD +17%). S&P 500 +1.5% to 7365 (record Nasdaq), VIX stable at 17.39 (modest uncertainty range). Fed on hold amid cooling but resilient labor market; 10yr yield eases to 4.36%; mortgage rates ~6.4%. Mild upside options skew, dip-buying bias. Pre-market futures slightly lower after records.",
+  "market_regime": "risk_on_rally",
+  "sector_rotation": "tech_semiconductors_lead_banks_travel_industrials_aerospace_broadening",
+  "risk_flags": [
+    "geopolitical headline_risk (Iran deal 'big assumption' per Trump)",
+    "VIX_shortterm_elevated (VIX1D +8.47%, event sensitivity)",
+    "Fed_wait_and_see (strong jobs reduce near-term cut odds)",
+    "futures_mildly_lower premarket"
+  ],
+  "source_urls": [
+    "https://www.home.saxo/content/articles/macro/market-quick-take---7-may-2026-07052026",
+    "https://www.fxempire.com/forecasts/article/sp500-and-nasdaq-100-tech-stocks-rally-as-amd-lifts-us-indices-1596200",
+    "https://themortgagereports.com/mortgage-rates-now/mortgage-rates-today-may-6-2026",
+    "https://www.chase.com/personal/investments/learning-and-insights/article/vix-index-and-portfolio-management-during-market-volatility"
+  ]
+}
+```
 

@@ -4666,4 +4666,87 @@ SEC/company quality check:
 7. **BLZE (Backblaze)**: **CHRONIC LOSSES, COMMODITIZED** – $196M cumulative deficit, 17+ years unprofitable, intense competition, limited pricing power. **Avoid.**
 
 **None qualify for execution-ready allocation. WS only candidate for watch-tier industrials value rotation, pending balance sheet and Sitem integration clarity.**
+## Source And Signal Research - 2026-05-07 07:16:10 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks/ETFs. No evidence of hype, pump language, or unsupported claims detected in public web/social coverage.",
+  "social_buzz": "weak",
+  "attention_anomalies": "none",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Navigator Holdings Ltd. (NVGS) Q1 2026 results: revenues $140.6M (-7.1% YoY), net income $35.5M (+31.2% YoY). Declared $0.07/share dividend (~$4.3M), plans $6.3M share repurchase May 8-Jun 30. Revised capital return policy to 35% of net income (from 30%). Total liquidity $291M. Signed LOI to sell 8 gas carriers + Unigas stake for ~$183M (exp. Q4 close). Fleet TCE $29,684 (-3%), utilization 90.6%. Sold Navigator Pegasus for $15.2M profit. Mixed institutional activity (some large sells/adds Q4 2025).",
+  "congressional_signal": "none",
+  "tickers": ["NVGS"],
+  "source_urls": ["https://www.quiverquant.com/news/Navigator+Holdings+Ltd.+Declares+$0.07+Cash+Dividend+and+Announces+Revised+Capital+Return+Policy"]
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": {
+    "DRCT": {
+      "business": "Digital adtech platform (Colossus SSP + buy-side services); 2025 revenue $34.7M (-44% YoY), gross profit $10.4M (-40% YoY) due to major sell-side customer pause from defamatory article/misinformation campaign; 90% client retention, 170B monthly impressions (45% multicultural); 73 employees.",
+      "durable_demand_evidence": "High 90% client retention; 174K sell-side buyers, 195 buy-side clients; omni-channel (OTT/CTV, DOOH, audio); managed services model; industry awards/recognition.",
+      "risk_assessment": "High watchlist risk - going concern doubt (cash $0.7M, accum deficit $27.7M), customer concentration (one client paused causing revenue plunge), credit covenants ($450K min cash), Nasdaq delisting risk, ad fraud/IVT exposure, revenue quality decline."
+    },
+    "INUV": {
+      "business": "AI-driven adtech (IntentKey LLM for intent discovery); Platforms (Yahoo/Google) + Agencies/Brands; 72 employees; 18 patents.",
+      "durable_demand_evidence": "Key relationships (Yahoo, Google); customer concentration but multi-year contracts; AI moat in agentic era/post-cookie targeting.",
+      "risk_assessment": "Moderate risk - history of losses (accum deficit $178M, net working capital deficit $5.1M), high customer concentration (2 clients 83.5% revenue), seasonality, reliance on ad suppliers."
+    },
+    "NEOV": {
+      "business": "Residential/commercial energy storage (NV14/NV24 batteries, inverters); in-house mfg Poway CA; 17 employees; expanding to C&I.",
+      "durable_demand_evidence": "Growing retrofit/new solar storage market (458MW Q1 2025); policy incentives (ITC); short lead times vs competitors.",
+      "risk_assessment": "Low-moderate risk - early-stage (sales since 2019), competition from Tesla/Enphase, regulatory changes (ITC phaseout 2025), supply chain/tariffs."
+    },
+    "WS": {
+      "business": "Value-added steel processor (28 facilities NA/Intl); automotive/construction focus; top 3 customers 33% sales.",
+      "durable_demand_evidence": "Diversified end-markets; scale (1,200 customers); toll processing flexibility; Sitem acquisition.",
+      "risk_assessment": "Low risk - established, large-cap scale; cyclical steel pricing/supply risks noted but balanced by ops flexibility."
+    }
+  },
+  "filing_risks": {
+    "DRCT": [
+      "Substantial going concern doubt (cash $0.7M insufficient 12mo, accum deficit $27.7M)",
+      "High customer concentration (sell-side pause caused 2024/25 revenue -60%)",
+      "Credit covenants risk default ($450K min cash)",
+      "Nasdaq delisting risk",
+      "Ad fraud/IVT/platform failure risks",
+      "Dilution risk from future equity/debt raises"
+    ],
+    "INUV": [
+      "Recurring losses/cash burn (accum deficit $178M, NWC deficit $5.1M)",
+      "Extreme customer concentration (2 clients 83.5% 2025 revenue)",
+      "Seasonality impacts",
+      "Supplier dependence"
+    ],
+    "NEOV": [
+      "Early-stage execution risks",
+      "ITC phaseout 2025",
+      "Supply chain/FEOC compliance",
+      "Competition from scaled players"
+    ],
+    "WS": [
+      "Customer concentration (top 3 = 33%)",
+      "Steel cyclicality/pricing volatility",
+      "Supply chain disruptions"
+    ]
+  },
+  "quality_notes": {
+    "DRCT": "Highest risk - acute liquidity crisis + customer concentration + going concern warning make unsuitable for watchlist despite retention strengths.",
+    "INUV": "AI adtech moat but unacceptable revenue concentration + chronic losses eliminate durable demand case.",
+    "NEOV": "Cleanest balance sheet of group; policy tailwinds but early-stage/competition concerns; monitor ITC changes.",
+    "WS": "Reinforces prior watchlist (already in memory); scale + diversification support quality; cyclical but resilient."
+  },
+  "source_urls": []
+}
+```
 

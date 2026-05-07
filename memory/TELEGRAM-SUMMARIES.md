@@ -5434,4 +5434,46 @@ HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
 Self-learning: tier=watch repeat48h=1 fresh=yes bucket=reinsurance-financials
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-07 07:16:10 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities in risk-on rally with S&P 500 at record 7365 (+1.5%), Nasdaq highs on AMD/tech blowouts (+17%), private payrolls beat (109k vs 84k). VIX stable 17.39; 10yr yield 4.36%. Sector broadening to banks/travel/industrials; value/defensive rotation amid tech narrowness. Futures mildly lower premarket; no fresh catalysts in search.
+Candidates: 4
+
+1. SCHD (Large Value Dividend ETF) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 78/100 | tier execution-ready | bucket dividend-etf-defensive | HF source 0/100
+Recommendation: execute-if-guards-pass
+Catalyst: Sustained sector rotation to value/dividends post-Q1 tech narrowness; Morningstar Gold-rated #1 high-dividend ETF for 2026 passive income lists.
+Chittick Cash: Diversified across 100+ quality names; low beta, high dividend cover provides downside buffer.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=12 fresh=yes bucket=dividend-etf-defensive
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. GLRE (Financials/Reinsurance) | confidence 0.75 | allocation 5.0% | stop 8.0% | Chittick 74/100 | tier watch | bucket reinsurance-financials | HF source 8/100
+Recommendation: watch
+Catalyst: Q1 2026 earnings beat: net income +21% YoY to $35.8M, combined ratio 96% (from 104.6%), underwriting profit $6.2M (vs loss).
+Chittick Cash: Conservative combined ratio improvement; strong liquidity buffer.
+HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=2 fresh=yes bucket=reinsurance-financials
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. WS (Industrials) | confidence 0.70 | allocation 5.0% | stop 8.0% | Chittick 74/100 | tier watch | bucket industrials-value | HF source 8/100
+Recommendation: watch
+Catalyst: Recent 10-K: 28 facilities, Sitem acquisition integration; auto/construction demand in risk-on.
+Chittick Cash: Operational scale buffers cyclicality; diversified end-markets.
+HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=5 fresh=yes bucket=industrials-value
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+4. VYM (High-Yield Value ETF) | confidence 0.78 | allocation 6.0% | stop 8.0% | Chittick 75/100 | tier watch-allocation-constrained | bucket high-yield-etf | HF source 0/100
+Recommendation: watch
+Catalyst: Morningstar top high-dividend ETF for 2026; value emergence post-tech.
+Chittick Cash: Yield buffer; diversified holdings.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch-allocation-constrained repeat48h=11 fresh=yes bucket=high-yield-etf
+Social buzz, low weight: none
+Congress signal, low weight: none
 
