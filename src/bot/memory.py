@@ -19,6 +19,11 @@ MEMORY_TEMPLATES: dict[str, str] = {
     "RESEARCH-LOG.md": "# Research Log\n\n",
     "TRADE-LOG.md": "# Trade Log\n\n",
     "PORTFOLIO-SNAPSHOT.md": "# Portfolio Snapshot\n\n",
+    "PERFORMANCE-LEDGER.md": (
+        "# Performance Ledger\n\n"
+        "Deterministic account and workflow analytics generated from repo memory. "
+        "This is observation-only and must not place trades or change strategy aggressiveness.\n\n"
+    ),
     "MARKET-REGIME.md": "# Market Regime\n\n",
     "SOURCE-QUALITY.md": "# Source Quality And Signals\n\nSocial buzz and congressional disclosures are low-weight context only.\n\n",
     "HUGGINGFACE-FILTERS.md": (

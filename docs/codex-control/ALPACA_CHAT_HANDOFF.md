@@ -76,6 +76,7 @@ The Alpaca automation IDs are:
 - `memory/SELF-LEARNING-POLICY.md`: active weekly learning directives.
 - `memory/WATCHLIST.md`: latest candidates and current candidate JSON.
 - `memory/REJECTED-TRADES.md`: rejected setups and reasons.
+- `memory/PERFORMANCE-LEDGER.md`: observation-only performance, drawdown, rejection, source attribution, and patience-gate reporting.
 - `memory/LESSONS-LEARNED.md`: weekly review output.
 - `memory/STRATEGY-PROPOSALS.md`: strategy ideas and self-learning proposals.
 - `memory/HUGGINGFACE-FILTERS.md`: HF filter and evaluation notes.

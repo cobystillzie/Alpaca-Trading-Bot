@@ -9,6 +9,7 @@ from .runner import (
     run_hf_setup,
     run_market_open,
     run_midday,
+    run_performance_report,
     run_premarket,
     run_research,
     run_self_learning_finalize,
@@ -45,6 +46,7 @@ def main() -> int:
         "market-open",
         "midday",
         "close",
+        "performance-report",
         "weekly-review",
         "telegram-chat-id",
         "hf-setup",
@@ -68,6 +70,8 @@ def main() -> int:
         return run_midday()
     if args.command == "close":
         return run_close()
+    if args.command == "performance-report":
+        return run_performance_report()
     if args.command == "weekly-review":
         return run_weekly_review()
     if args.command == "telegram-chat-id":

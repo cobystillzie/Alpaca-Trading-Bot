@@ -19,6 +19,11 @@ from .memory import (
     update_watchlist,
 )
 from .perplexity import run_sonar_research
+from .performance import (
+    build_performance_report,
+    format_performance_report,
+    format_performance_summary,
+)
 from .self_learning import (
     build_self_learning_policy,
     enrich_candidates_with_self_learning,
@@ -134,6 +139,32 @@ def run_hf_eval() -> int:
     print(report)
     print(commit_and_push_memory(settings, "hf eval"))
     return 0
+
+
+def run_performance_report() -> int:
+    settings = _settings()
+    report_body = _append_performance_report(settings)
+    print(report_body)
+    print(commit_and_push_memory(settings, "performance ledger"))
+    return 0
+
+
+def _append_performance_report(settings: Settings) -> str:
+    report = build_performance_report(
+        settings.root,
+        managed_capital_usd=settings.managed_capital_usd,
+    )
+    body = format_performance_report(report)
+    append_section(settings.root / "memory" / "PERFORMANCE-LEDGER.md", "Performance Review", body)
+    return body
+
+
+def _performance_summary(settings: Settings) -> str:
+    report = build_performance_report(
+        settings.root,
+        managed_capital_usd=settings.managed_capital_usd,
+    )
+    return format_performance_summary(report)
 
 
 def _research_passes(settings: Settings, memory_bundle: str) -> dict[str, str]:
@@ -414,14 +445,16 @@ def run_midday() -> int:
     positions = client.positions()
     body = _portfolio_body(account, positions)
     append_section(settings.root / "memory" / "PORTFOLIO-SNAPSHOT.md", "Midday Risk Scan", body)
+    performance_body = _append_performance_report(settings)
     candidates = enrich_candidates_with_self_learning(settings.root, load_latest_candidates(settings.root))
     memo = format_analyst_memo(
         "Midday Risk Memo",
         summary="Review current paper positions, thesis drift, concentration, stop discipline, and cash reserve.",
         candidates=candidates,
-        portfolio=body,
+        portfolio=body + "\n\n" + _performance_summary(settings),
         action="Hold only positions whose thesis still matches the research; do not add unless guardrails pass.",
     )
+    append_section(settings.root / "memory" / "TELEGRAM-SUMMARIES.md", "Performance Ledger", performance_body)
     append_section(settings.root / "memory" / "TELEGRAM-SUMMARIES.md", "Midday Memo", memo)
     send_message(settings, memo)
     print(commit_and_push_memory(settings, "midday risk scan"))
@@ -439,14 +472,16 @@ def run_close() -> int:
     positions = client.positions()
     body = _portfolio_body(account, positions)
     append_section(settings.root / "memory" / "PORTFOLIO-SNAPSHOT.md", "End Of Day Summary", body)
+    performance_body = _append_performance_report(settings)
     candidates = enrich_candidates_with_self_learning(settings.root, load_latest_candidates(settings.root))
     memo = format_analyst_memo(
         "End Of Day Analyst Memo",
         summary="End-of-day review of paper portfolio, trade quality, risk notes, and next-day watchlist.",
         candidates=candidates,
-        portfolio=body,
+        portfolio=body + "\n\n" + _performance_summary(settings),
         action="Carry forward only evidence-backed candidates; review stops before the next market-open run.",
     )
+    append_section(settings.root / "memory" / "TELEGRAM-SUMMARIES.md", "Performance Ledger", performance_body)
     append_section(settings.root / "memory" / "TELEGRAM-SUMMARIES.md", "End Of Day Memo", memo)
     send_message(settings, memo)
     print(commit_and_push_memory(settings, "end of day summary"))
@@ -456,6 +491,7 @@ def run_close() -> int:
 
 def run_weekly_review() -> int:
     settings = _settings()
+    _append_performance_report(settings)
     memory_bundle = read_memory_bundle(settings.root, max_chars=30000)
     prompt = (
         "Review this paper-trading bot memory. Produce concise lessons, rejected-patterns, "

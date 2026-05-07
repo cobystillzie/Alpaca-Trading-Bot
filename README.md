@@ -23,6 +23,7 @@ to $10,000 by default via `MANAGED_CAPITAL_USD`.
 .\scripts\run-market-open.ps1
 .\scripts\run-midday.ps1
 .\scripts\run-close.ps1
+.\scripts\run-performance-report.ps1
 .\scripts\run-weekly-review.ps1
 .\scripts\run-self-learning-finalize.ps1
 ```
@@ -43,5 +44,6 @@ The code refuses live trading unless code is deliberately changed later. Version
 - Hugging Face filters may downgrade or veto weak evidence, but cannot bypass guardrails
 - normal routines use markdown-only auto commits/pushes
 - Friday self-learning can commit code/prompt changes only after tests pass and Telegram disclosure succeeds
+- performance reporting is observation-only and must not increase strategy aggressiveness by itself
 
 Read [SETUP.md](SETUP.md) before running scheduled automations.
