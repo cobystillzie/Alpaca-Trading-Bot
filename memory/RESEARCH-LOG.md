@@ -549,4 +549,9 @@ Candidates found: 3
 Gold miners rally on strong Q1 earnings and high gold prices ($4739/oz); MUX +7.9% on $33.4M net income swing, revenue +107%, San José dividends ahead; peers FSM +6.5% on record FCF. Risk-on regime supports materials rotation amid tech concentration unwind.
 
 Candidates found: 3
+## Two-Hour Research Agent - 2026-05-07 19:21:45 Eastern Daylight Time
+
+US equities in risk-on mode with Nasdaq records on AI optimism, but rotation to value/divs/industrials evident amid tech concentration risks. Fresh catalysts: INUV Q1 call May 14, FATE insider buy, monthly gainers incl FATE +50%. No major regime shift; VIX stable.
+
+Candidates found: 3
 

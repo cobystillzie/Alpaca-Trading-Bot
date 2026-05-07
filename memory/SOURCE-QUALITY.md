@@ -5505,4 +5505,88 @@ SEC/company quality check:
     "https://www.sec.gov/Archives/edgar/data/829323/000082932326000013/inuvo-20251231.htm"
   ]
 }
+## Source And Signal Research - 2026-05-07 19:21:45 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks or ETFs. No notable social or attention anomalies detected across candidates including SCHD, MUX, GWW, FSM, GLRE, WS, or DG.",
+  "social_buzz": "None detected",
+  "attention_anomalies": "None",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "IREN stock traded by Congress: 4 trades in past 6 months (3 buys, 1 sell). Rep. Dale Strong bought up to $15K on 01/28/2026. Rep. Cleo Fields: 2 buys up to $115K (01/20, 12/09/2025), 1 sell up to $100K (12/26/2025). No other congressional trades in recent disclosures.",
+  "congressional_signal": "Mixed (net buys but recent sell); delayed disclosures, low-weight catalyst.",
+  "tickers": ["IREN"],
+  "source_urls": ["https://www.quiverquant.com/news/IREN+Limited+Expands+into+Europe+with+Acquisition+of+Ingenostrum,+S.L.+to+Enhance+AI+Data+Center+Portfolio"]
+}
+```
+
+SEC/company quality check:
+{
+  "summary": {
+    "DRCT": "Direct Digital Holdings (DRCT) operates a sell-side (Colossus SSP) and buy-side digital ad platform with 90% client retention but severe revenue decline (2025: $34.7M vs 2023: $157.1M) due to major sell-side customer pause from defamatory article/misinformation campaign; going concern doubt with $0.7M cash, $27.7M accumulated deficit; high concentration risks; Nasdaq delisting threat.",
+    "INUV": "Inuvo (INUV) provides AI-driven ad tech (IntentKey) with Platforms (64%+19% revenue concentration from 2 customers) and Agencies/Brands segments; history of losses ($178M accumulated deficit), negative working capital (-$5.1M), seasonality; strong IP (18 patents) but customer dependency.",
+    "FATE": "Fate Therapeutics (FATE) is clinical-stage biotech developing iPSC-derived cell therapies; no revenue, significant losses, funding needs; high clinical/regulatory/manufacturing risks typical of early biotech.",
+    "NEOV": "NeoVolta (NEOV) manufactures residential/commercial energy storage systems (NV14 etc.); emerging growth company with limited history (sales since 2019), small team (17 employees), competition from Tesla/Enphase; regulatory/certification dependencies.",
+    "ICCT": "iCoreConnect (ICCT) offers HIPAA-compliant SaaS for healthcare (eRx, claims, etc.); post-merger entity with limited history, no major concentration but AR concentration; emerging growth, no patents."
+  },
+  "filing_risks": {
+    "DRCT": [
+      "Going concern doubt: $0.7M cash insufficient for 12 months, accumulated deficit $27.7M, needs funding/reorg.",
+      "High concentration: One sell-side customer pause caused 2024-2025 revenue/gross profit collapse (2025 rev $34.7M vs 2023 $157M).",
+      "Credit covenants: Min $450k cash, default risk; term debt matures Dec 2026.",
+      "Nasdaq delisting risk if listing standards fail.",
+      "Dilution/Financing: May issue senior securities for capital.",
+      "Ad fraud/IVT/platform risks; cookie deprecation.",
+      "Strategic shift to buy-side unproven."
+    ],
+    "INUV": [
+      "Customer concentration: 2 customers 83.5% of 2025 revenue (64.2% +19.3%).",
+      "Loss history: $178M accumulated deficit, negative cash flows, $5.1M working capital deficit.",
+      "Seasonality: H2 stronger, Q1 weak.",
+      "Collections risk from customers.",
+      "Fraudulent clicks/publishers risk.",
+      "NYSE American listing standards risk."
+    ],
+    "FATE": [
+      "Biotech pipeline risks: Clinical failures, regulatory hurdles for novel iPSC therapies.",
+      "Funding: Substantial needs, dilution risk.",
+      "Manufacturing/supply chain complexities.",
+      "Competition, IP, personnel retention."
+    ],
+    "NEOV": [
+      "Early-stage: Sales since 2019, startup risks.",
+      "Competition: Tesla/LG/Sonnen with greater resources.",
+      "Regulatory: Evolving ESS standards (UL, CPUC).",
+      "Supply chain: Asia/US sourcing, FEOC compliance.",
+      "Financing dependency post-ITC phaseout."
+    ],
+    "ICCT": [
+      "Limited history post-merger.",
+      "AR concentration: 26%/25% single customer.",
+      "Competition in healthcare SaaS.",
+      "No patents, IP via contracts."
+    ]
+  },
+  "quality_notes": {
+    "DRCT": "Revenue quality poor: Sharp decline from customer pause, not underlying model; balance sheet critical (low cash, debt covenants); high execution risk; pay special attention per Chittick (ad tech near GOOGL competitors).",
+    "INUV": "Revenue quality concentrated/fragile (2 customers >80%); persistent losses/cash burn; durable demand in AI ad intent but customer dependency undermines.",
+    "FATE": "No revenue, pure speculative biotech; high capital burn/dilution risk.",
+    "NEOV": "Early revenue ramp in growing ESS market but small scale, financing risks post-ITC.",
+    "ICCT": "SaaS recurring revenue model but post-merger integration risks, modest scale."
+  },
+  "source_urls": [
+    " Direct Digital Holdings, Inc. 10-K (2026-03-31)",
+    " Inuvo, Inc. 10-K (2026-03-05)",
+    " Fate Therapeutics Inc. 10-K (2026-02-26)",
+    " NeoVolta Inc. 10-K (2025-09-29, FY June 2025)",
+    " iCoreConnect Inc. 10-K (2025-05-30)"
+  ]
+}
 

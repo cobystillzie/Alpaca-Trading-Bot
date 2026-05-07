@@ -6911,4 +6911,37 @@ HF filter: sentiment=not run source=8/100 hype=0.10 vetoes=0
 Self-learning: tier=watch repeat48h=0 fresh=yes bucket=materials-mining
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-07 19:21:45 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities in risk-on mode with Nasdaq records on AI optimism, but rotation to value/divs/industrials evident amid tech concentration risks. Fresh catalysts: INUV Q1 call May 14, FATE insider buy, monthly gainers incl FATE +50%. No major regime shift; VIX stable.
+Candidates: 3
+
+1. INUV (technology-adtech) | confidence 0.68 | allocation 4.0% | stop 8.0% | Chittick 35/100 | tier watch | bucket microcap-adtech | HF source 9/100
+Recommendation: watch
+Catalyst: Q1 2026 financial results conference call on May 14 at 4:15PM ET; management to discuss results ended Mar 31 and business update.
+Chittick Cash: Low price ($1.81) vs IP value but neg BS offsets; catalyst-defined entry limits downside.
+HF filter: sentiment=not run source=9/100 hype=2.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=microcap-adtech
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. FATE (healthcare-biotech) | confidence 0.65 | allocation 3.0% | stop 10.0% | Chittick 35/100 | tier watch | bucket biotech-momentum | HF source 8/100
+Recommendation: watch
+Catalyst: Officer Cindy Tahl exercised 166k options May 6 at $1.05-1.32/sh, now holds 609k shs; +49.67% monthly gainer.
+Chittick Cash: Cheap vs peak but no revenue/BS risks high.
+HF filter: sentiment=not run source=8/100 hype=3.50 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=biotech-momentum
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. SCHD (etf-dividend-value) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 78/100 | tier execution-ready | bucket dividend-etf-defensive | HF source 9/100
+Recommendation: execute-if-guards-pass
+Catalyst: Ongoing post-Q1 rotation confirmation; Morningstar Gold #1 2026 income ETF.
+Chittick Cash: Dividend buffer, quality holdings.
+HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=19 fresh=yes bucket=dividend-etf-defensive
+Social buzz, low weight: none
+Congress signal, low weight: none
 

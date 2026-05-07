@@ -2758,4 +2758,27 @@ For a cautious bot workflow on May 4, 2026:
   ]
 }
 ```
+## Market Regime Research - 2026-05-07 19:21:45 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities extended rally with S&P 500 +1.46% to 7365, Nasdaq record high on AI optimism and US-Iran peace hopes lowering oil -7%. Earnings resilient with banks/travel/industrials leading. Midday caution pared gains. VIX stable at 17.39, mild upside options skew. Yields lower, Fed wait-and-see on cooling labor data. Rotation from tech to value/banks/aerospace evident.",
+  "market_regime": "risk_on_with_caution",
+  "sector_rotation": "Broadening from tech/AI (Nasdaq +2.1%) to banks (HSBC +5%), industrials/aerospace (MTU +10.1%), travel; materials/metals higher; defensive value/dividend candidates align with rotation",
+  "risk_flags": [
+    "Geopolitical sensitivity (US-Iran deal pending, Strait of Hormuz)",
+    "Midday profit-taking (Dow/S&P red intraday)",
+    "Short-term vol up (VIX1D +8.47%) ahead of jobs data/earnings",
+    "Oil rebound risk if peace talks stall",
+    "Tech concentration vulnerability despite records"
+  ],
+  "source_urls": [
+    "https://www.home.saxo/content/articles/macro/market-quick-take---7-may-2026-07052026",
+    "https://www.rbccm.com/en/insights/2026/05/takeaways-from-an-avalanche-of-earnings",
+    "https://milfordasset.com/insights/month-in-a-minute-april-2026",
+    "https://www.stonex.com/en/insights/perspective-mid-day-commentary-for-may-7-2026-05-07/",
+    "https://www.schwab.com/learn/story/headlines-take-backseat-to-fundamentals-rally"
+  ]
+}
+```
 
