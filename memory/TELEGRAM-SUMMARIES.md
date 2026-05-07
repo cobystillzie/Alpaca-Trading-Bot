@@ -5200,4 +5200,46 @@ HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
 Self-learning: tier=watch repeat48h=0 fresh=yes bucket=industrials-value
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-06 23:08:03 Eastern Daylight Time
+
+Research Update
+
+Market tone: Pre-market quiet ahead of NFP jobs report (8:30 AM ET); S&P/Nasdaq futures flat after May 6 records amid resilient economy, tech leadership, and fragile Iran ceasefire. Low volume caution persists; value/defensive rotation context intact. No fresh catalysts in search results.
+Candidates: 4
+
+1. SCHD (dividend-value-etf) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 78/100 | tier execution-ready | bucket dividend-etf-defensive
+Recommendation: execute-if-guards-pass
+Catalyst: Morningstar Gold-rated top high-dividend ETF for 2026 passive income lists; fresh sector rotation to value post-tech concentration (repeat 6x but sustained context)
+Chittick Cash: Diversified quality payers at discount to S&P; 3.29% yield buffers downside
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=7 fresh=yes bucket=dividend-etf-defensive
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. VYM (high-yield-etf) | confidence 0.78 | allocation 6.0% | stop 8.0% | Chittick 75/100 | tier execution-ready | bucket high-yield-etf
+Recommendation: watch
+Catalyst: Morningstar top high-dividend ETF list for 2026; value emergence post-tech rally (repeat 6x)
+Chittick Cash: Broad holdings, ~3% yield cushion
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=7 fresh=yes bucket=high-yield-etf
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. WS (Industrials) | confidence 0.70 | allocation 5.0% | stop 8.0% | Chittick 74/100 | tier watch | bucket industrials-value | HF source 8/100
+Recommendation: watch
+Catalyst: Recent 10-K highlights 28 facilities, Sitem acquisition; industrials value context vs tech
+Chittick Cash: Scale moat, processing value-add over commodity
+HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=1 fresh=yes bucket=industrials-value
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+4. PEG (Utilities) | confidence 0.65 | allocation 4.0% | stop 7.0% | Chittick 35/100 | tier watch | bucket utilities-defensive
+Recommendation: watch
+Catalyst: Q1 2026 earnings beat (late April); low-weight congressional volume signal (repeat 12x)
+Chittick Cash: Regulated assets, dividend coverage
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=13 fresh=yes bucket=utilities-defensive
+Social buzz, low weight: none
+Congress signal, low weight: low-weight historical volume
 

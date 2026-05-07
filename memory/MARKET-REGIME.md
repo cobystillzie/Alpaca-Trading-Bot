@@ -2089,4 +2089,26 @@ For a cautious bot workflow on May 4, 2026:
   ]
 }
 ```
+## Market Regime Research - 2026-05-06 23:08:03 Eastern Daylight Time
+
+{
+  "summary": "US equities hit record highs (S&P 500 ~7343, Nasdaq +2.0%) on May 6 amid de-escalating Iran tensions, falling oil ($95.72 from $103), and strong tech earnings (AMD +19%, semis +4.5%). ADP jobs +109k beat expectations, signaling labor resilience. Bond yields eased (10Y ~4.36%), mortgage rates ~6.3-6.46%. VIX ~17 (bullish), Fear & Greed 67 (greed). Earnings positive, but low volume and narrow tech leadership noted. Upcoming NFP critical for Fed outlook amid 'higher for longer' rates.",
+  "market_regime": "Risk-on bull market with record highs and broad participation (large, Nasdaq, small-caps, equal-weight S&P). Tech/chip-led rally amid ceasefire relief, but low volume signals caution. Resilient economy delays Fed cuts.",
+  "sector_rotation": "Tech/semiconductors leading (SOX ATH +8.7% 2-days, AMD surge); small-caps (RUT +1.3%) and equal-weight (SPXEW +0.8%) broadening vs cap-weight (+1.5%). Defensives/low-vol (SPLV -0.46%) lagging, value/dividend ETFs eyed for rotation post-tech narrowness.",
+  "risk_flags": [
+    "Geopolitical: Iran ceasefire fragile, oil volatility could reverse rally",
+    "Fed/Rates: Robust jobs/inflation push 'higher for longer', no cuts imminent; NFP May 7 pivotal",
+    "Low volume on S&P gains masks underlying weakness",
+    "Narrow breadth/tech concentration risks pullback",
+    "VIX 17 low but negative headlines could spike volatility"
+  ],
+  "source_urls": [
+    "https://neilsethi.substack.com/p/markets-update-5626",
+    "https://themortgagereports.com/mortgage-rates-now/mortgage-rates-today-may-6-2026",
+    "https://www.tradingview.com/news/zacks:b2da4c947094b:0-are-markets-sleepwalking-into-recession-etfs-for-portfolio-resilience/",
+    "https://economictimes.com/markets/us-stocks/news/us-stock-market-jobs-data-to-test-feds-rate-outlook-amid-resilient-economy-and-inflation-risks/articleshow/130843994.cms",
+    "https://articles.stockcharts.com/article/nasdaq-sp500-hit-record-highs-chip-stocks-surge/",
+    "https://www.gurufocus.com/economic_indicators/63/sp-500-index"
+  ]
+}
 
