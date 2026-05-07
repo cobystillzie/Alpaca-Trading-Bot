@@ -2734,4 +2734,28 @@ For a cautious bot workflow on May 4, 2026:
 - Rotate into value/dividend/materials on confirmed breadth.
 - Avoid mega-cap tech unless hedged.
 - Use stops at 8% loss threshold per memory guardrails.
+## Market Regime Research - 2026-05-07 17:21:38 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities rallied sharply on US-Iran peace hopes driving oil -7% to $95-101/bbl, easing inflation fears. S&P 500 +1.5% to 7365 (largest gain since Apr 8), Nasdaq 100 +2.1% to record 25839. Midday saw profit-taking with Dow/S&P turning red. Earnings resilient (AMD +18.6%, SMCI +24.5%, DIS +7.5%). VIX stable at 17.39, mild upside options skew. Yields lower (10yr 4.35%), curve steepening. Gold $4739 (+$54). Risk-on tone with rotation to banks/travel/industrials in Europe.",
+  "market_regime": "risk_on_rally_with_caution",
+  "sector_rotation": "tech_ai_chips_lead (AMD+18.6%, SMCI+24.5%); banks (+HSBC+5%), industrials/aerospace (MTU+10.1%), travel; defensive rotation sustained (SCHD execution-ready); materials/metals higher (copper+); watch consumer staples/industrials",
+  "risk_flags": [
+    "geopolitical_hope_vulnerable (Iran response pending)",
+    "midday_profit_taking (Dow/S&P red)",
+    "earnings_caution (resilient but 2H26 EPS cuts outside mega-tech)",
+    "tech_concentration_risks",
+    "VIX_short_term_up (VIX1D+8.47%)",
+    "USD_weakening_JPY_strength (intervention watch)"
+  ],
+  "source_urls": [
+    "https://www.home.saxo/en-sg/content/articles/macro/market-quick-take---7-may-2026-07052026",
+    "https://www.stonex.com/en/insights/financial-markets-morning-commentary-2026-05-07/",
+    "https://www.rbccm.com/en/insights/2026/05/takeaways-from-an-avalanche-of-earnings",
+    "https://fortune.com/article/current-price-of-gold-05-07-2026/",
+    "https://www.stonex.com/en/insights/perspective-mid-day-commentary-for-may-7-2026-05-07/"
+  ]
+}
+```
 

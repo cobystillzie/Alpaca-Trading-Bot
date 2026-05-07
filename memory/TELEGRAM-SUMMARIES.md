@@ -6878,4 +6878,37 @@ HF filter: sentiment=not run source=9/100 hype=0.10 vetoes=0
 Self-learning: tier=execution-ready repeat48h=17 fresh=yes bucket=dividend-etf-defensive
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-07 17:21:38 Eastern Daylight Time
+
+Research Update
+
+Market tone: Gold miners rally on strong Q1 earnings and high gold prices ($4739/oz); MUX +7.9% on $33.4M net income swing, revenue +107%, San José dividends ahead; peers FSM +6.5% on record FCF. Risk-on regime supports materials rotation amid tech concentration unwind.
+Candidates: 3
+
+1. MUX (materials-mining) | confidence 0.84 | allocation 7.0% | stop 8.0% | Chittick 76/100 | tier execution-ready | bucket materials-mining | HF source 9/100
+Recommendation: execute-if-guards-pass
+Catalyst: Q1 2026 earnings: net income $33.4M ($0.56/sh) vs prior loss, revenue +107% to $74M on higher GEO sales/prices; reaffirmed 114-126k GEO guidance; Stock mine initial production H2 2026
+Chittick Cash: $56M cash + $40-50M dividends buffer debt; Copper stake $7.65/sh implied value vs $22.82 price
+HF filter: sentiment=not run source=9/100 hype=0.10 vetoes=0
+Self-learning: tier=execution-ready repeat48h=4 fresh=yes bucket=materials-mining
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. SCHD (etf-dividend-value) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 78/100 | tier execution-ready | bucket dividend-etf-defensive | HF source 9/100
+Recommendation: execute-if-guards-pass
+Catalyst: Ongoing value/dividend rotation post-Q1 earnings; Morningstar Gold #1 for 2026 income
+Chittick Cash: Quality holdings, dividend buffer
+HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=18 fresh=yes bucket=dividend-etf-defensive
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. FSM (materials-mining) | confidence 0.78 | allocation 5.0% | stop 8.0% | Chittick 74/100 | tier watch | bucket materials-mining | HF source 8/100
+Recommendation: watch
+Catalyst: Q1 2026 record $174M FCF, $111M net income, $342.5M sales, 72.9k GEOs; reserves +15% YoY
+Chittick Cash: Strong liquidity
+HF filter: sentiment=not run source=8/100 hype=0.10 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=materials-mining
+Social buzz, low weight: none
+Congress signal, low weight: none
 

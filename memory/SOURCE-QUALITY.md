@@ -5420,4 +5420,89 @@ SEC/company quality check:
 - **NEOV**: Residential retrofit (3M homes without storage), rising battery adoption (15-20% nationally, 60% CA).
 - **BRID**: Walmart/DG scale; private label demand durable in inflationary environment.
 - **ICCT**: Healthcare SaaS recurring revenue; HIPAA compliance structural demand.
+## Source And Signal Research - 2026-05-07 17:21:38 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results returned. Unable to scan public web/social-attention coverage for unusual discussion around liquid US stocks/ETFs. Analysis limited to internal memory state only.",
+  "social_buzz": {
+    "status": "no_data",
+    "note": "Search returned zero results. No social media, news, or web discussion detected for this query window."
+  },
+  "attention_anomalies": {
+    "flagged_symbols": [],
+    "hype_risk_flags": [
+      {
+        "symbol": "PLTR",
+        "risk": "Repeatedly rejected due to low-weight social/congress signal without sufficient corroborating sources. Pattern suggests weak fundamental basis relative to social noise.",
+        "recommendation": "Avoid until multi-source fundamental catalyst emerges."
+      },
+      {
+        "symbol": "NVDA, GOOGL",
+        "risk": "Allocation constraints (single-stock >15% limit) have blocked entry multiple times. May indicate portfolio concentration pressure rather than fundamental weakness, but social hype around mega-cap tech remains unverified.",
+        "recommendation": "Monitor for sector rotation confirmation via execution-ready candidates (SCHD, GWW)."
+      }
+    ],
+    "execution_ready_candidates": [
+      {
+        "symbol": "SCHD",
+        "confidence": 0.82,
+        "catalyst": "Sustained Q1 2026 sector rotation to value/dividends; Morningstar Gold #1 ranking for 2026 income; tech concentration risk mitigation.",
+        "allocation": "8.0%",
+        "note": "Repeat candidate (17 cycles). Fundamentals-driven, not hype-driven."
+      },
+      {
+        "symbol": "GWW",
+        "confidence": 0.80,
+        "catalyst": "Q1 2026 Endless Assortment +19.6% sales; tariff inflation pass-through; volume growth.",
+        "allocation": "6.0%",
+        "note": "Fresh entry. Earnings-driven, not social-driven."
+      },
+      {
+        "symbol": "MUX",
+        "confidence": 0.80,
+        "catalyst": "Q1 2026 net income $33.4M vs prior loss; revenue +107%; San José $40–50M dividends expected.",
+        "allocation": "5.0%",
+        "note": "Downgraded to watch on 2026-05-07 13:19 due to leverage/instrument concerns. Fundamentals strong but structural risk flagged."
+      }
+    ]
+  },
+  "source_urls": [],
+  "data_quality_note": "Search returned no results. JSON populated from internal memory state (candidate tracking, rejection log, execution history) dated 2026-05-07. Social buzz assessment: **WEAK CONTEXT ONLY**—no external verification available. Recommendations remain grounded in earnings, sector rotation, and allocation constraints, not social sentiment."
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "NN, Inc. ($NNBR) reported strong Q1 2026 results: sales +12.1% to $118.5M, adjusted EBITDA +33% to $14.1M, raised full-year guidance amid growth in Electric Grid, Defense, and Medical markets. However, 27 insider sales (0 buys) in past 6 months totaling ~$3.9M signal caution. No recent congressional trades in liquid US stocks/ETFs identified in disclosures.",
+  "congressional_signal": "None identified. PAYX mentioned with prior MTG purchase (Nov 2025, $15K-$50K), but delayed/low-weight. Other results focus on press releases, no fresh trade disclosures.",
+  "tickers": ["NNBR", "AMPL", "NU", "PAYX", "PL", "SCHD"],
+  "source_urls": [
+    "https://www.quiverquant.com/news/NN,+Inc.+Reports+Strong+Q1+Growth+in+Sales+and+Profitability,+Raises+Full-Year+2026+Guidance",
+    "https://www.quiverquant.com/stock/PAYX/"
+  ]
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "SES AI Corp (SES) 10-K (filed 2026-03-04) reveals high-risk pre-revenue battery developer with $73M 2025 net loss (accumulated deficit $372M), heavy R&D burn, and dependency on unproven commercialization of AI-driven Li-Metal batteries, UAM/EV markets, and Molecular Universe materials. No durable demand evidence; watchlist rejection due to profitability uncertainty, capital needs, supply chain risks, and execution hurdles. PECO def14a shows stable REIT but irrelevant. DRCT 10-K flags going-concern doubt, revenue collapse to $35M (from $157M peak), customer pause. INUV revenue concentration (84%), losses. No Chittick-priority names (GOOGL/INTC/USAR/GT) present.",
+  "filing_risks": [
+    "Balance-sheet: $372M accumulated deficit; cash sufficient 12 months but needs more capital; dilutive equity/debt likely (SES). DRCT: $0.7M cash, $28M deficit, going-concern doubt.",
+    "Concentration: SES no single customer but OEM dependency; INUV two customers 83% revenue; DRCT sell-side customer pause caused 78% revenue drop 2023-2025.",
+    "Revenue quality: SES pre-revenue, projections on unproven assumptions (UAM/EV/ESS growth); DRCT revenue $35M (down from $157M), gross profit $10M; INUV +3% revenue but -10% margins.",
+    "Capital allocation: SES high R&D/capex for uncommercialized tech; UZ Energy integration risks impairments; DRCT reorganization, funding hunt.",
+    "Dilution: SES future equity/debt raises explicit; DRCT dilution risk from financing.",
+    "Litigation: None explicit.",
+    "Valuation/execution: SES ongoing losses 'foreseeable,' may never profit; battery defects/recalls, supply disruptions, competition from Li-ion incumbents; NDAA compliance capex risks; Molecular Universe unproven scaling."
+  ],
+  "quality_notes": "SES lacks durable demand (emerging UAM/drone markets, no OEM orders scaled); execution risks dominate (integration, manufacturing scale, defects, supplier dependency); rejection for watchlist - high burn, no profitability path evident despite tech promises. DRCT/INUV show revenue volatility/concentration. No positive evidence for addition.",
+  "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/1819142/000181914226000015/ses-20251231.htm",
+    "https://www.sec.gov/Archives/edgar/data/1880613/000188061326000010/drct-20251231.htm",
+    "https://www.sec.gov/Archives/edgar/data/829323/000082932326000013/inuvo-20251231.htm"
+  ]
+}
 
