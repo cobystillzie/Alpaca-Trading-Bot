@@ -7963,4 +7963,37 @@ HF filter: sentiment=not run source=9/100 hype=0.10 vetoes=0
 Self-learning: tier=stale-watch repeat48h=0 fresh=yes bucket=factor-etf
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-08 15:48:55 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities at all-time highs (S&P 500 ~7,390, +0.73% prior session, 6th straight winning week, +13% since Mar 31). Strong April jobs (+115k vs forecast), AI/tech leadership, Q1 earnings growth 27.7%. 10yr yield 4.35%, oil $100.65 on Iran/Hormuz risks, VIX modestly rising, consumer sentiment low. Friday close with selective rotation to defensives/miners/adtech post-earnings.
+Candidates: 3
+
+1. DT (information-technology-software) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 76/100 | tier execution-ready | bucket software-observability | HF source 9/100
+Recommendation: execute-if-guards-pass
+Catalyst: Q4 FY2026 earnings beat: revenue +18.18% YoY, margins expanded to 9.55%; +8% AH +6% intraday to $40.50; analysts maintain Overweight despite minor PT trims.
+Chittick Cash: Trades below 52-wk high post-beat; cash-generative with low debt supports downside.
+HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=3 fresh=yes bucket=software-observability
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. SCHD (etf-dividend-value) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 78/100 | tier execution-ready | bucket dividend-etf-defensive | HF source 9/100
+Recommendation: execute-if-guards-pass
+Catalyst: Post-Q1 2026 earnings rotation confirmation; #1 high-dividend ETF for 2026 passive income lists.
+Chittick Cash: Diversified 100+ holdings, low beta, consistent payouts.
+HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=20 fresh=yes bucket=dividend-etf-defensive
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. SIMO (technology-semiconductors) | confidence 0.80 | allocation 7.0% | stop 8.0% | Chittick 75/100 | tier execution-ready | bucket technology-semiconductors | HF source 9/100
+Recommendation: watch
+Catalyst: +100% past month on ongoing AI/edge catalysts; WallStreetZen A Strong Buy (Sentiment/Growth/Momentum).
+Chittick Cash: Below peak valuations; strong cash position.
+HF filter: sentiment=not run source=9/100 hype=0.10 vetoes=0
+Self-learning: tier=execution-ready repeat48h=1 fresh=yes bucket=technology-semiconductors
+Social buzz, low weight: none
+Congress signal, low weight: none
 

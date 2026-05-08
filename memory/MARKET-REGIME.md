@@ -2994,4 +2994,25 @@ For a cautious bot workflow on May 4, 2026:
   ]
 }
 ```
+## Market Regime Research - 2026-05-08 15:48:55 Eastern Daylight Time
+
+{
+  "summary": "US equities at all-time highs with S&P 500 at 7,390 (+0.73%, 6th straight winning week, +13% since Mar 31). Stronger-than-expected April jobs (+115k vs forecast), AI/tech leadership (NVDA $214, Apple $294, semis +3.19%), robust Q1 earnings (27.7% blended growth). 10yr yield eases to 4.35%. Oil at $100.65 amid Iran/Hormuz tensions, consumer sentiment low, VIX rising modestly.",
+  "market_regime": "risk-on_bullish_with_caution",
+  "sector_rotation": "tech_ai_semiconductors_lead; selective rotation to defensives (dividend stocks, miners in candidates); energy elevated but resilient",
+  "risk_flags": [
+    "geopolitical: Iran conflict, Strait of Hormuz skirmishes, oil $100+",
+    "volatility: VIX indicators rising",
+    "valuation: fwd P/E 21.0x (above 5yr/10yr avg)",
+    "consumer: sentiment near 2022 lows despite strong jobs",
+    "oil shock: potential supply disruption if Hormuz closes"
+  ],
+  "source_urls": [
+    "https://www.ig.com/sg/news-and-trade-ideas/week-ahead--11-may-2026-260508",
+    "https://economictimes.com/news/international/us/us-stock-market-rally-hard-today-why-are-the-sp-500-dow-jones-and-nasdaq-nearing-record-highs-as-nvidia-and-apple-explode-higher-on-strong-us-jobs-data-and-unstoppable-ai-fueled-tech-surge/articleshow/130962974.cms",
+    "https://insight.factset.com/sp-500-earnings-season-update-may-8-2026",
+    "https://www.stonex.com/en/insights/perspective-mid-day-commentary-for-may-8-2026-05-08/",
+    "https://www.citadelsecurities.com/news-and-insights/may-toolkit/"
+  ]
+}
 

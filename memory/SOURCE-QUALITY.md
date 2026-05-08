@@ -6551,4 +6551,64 @@ SEC/company quality check:
     "https://www.sec.gov/Archives/edgar/data/829323/000141057826000123/inuv-20251231x10k.htm"
   ]
 }
+## Source And Signal Research - 2026-05-08 15:48:55 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks or ETFs. No evidence of hype, pump language, or unsupported claims detected.",
+  "social_buzz": "none",
+  "attention_anomalies": "none",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+{
+  "summary": "No recent congressional disclosures found for liquid US stocks/ETFs.",
+  "congressional_signal": "none",
+  "tickers": [],
+  "source_urls": []
+}
+
+SEC/company quality check:
+{
+  "summary": "SES AI (SES) dominates search results with extensive 10-K risk disclosures highlighting ongoing losses ($73M in 2025), $372M accumulated deficit, capital needs, integration risks from UZ Energy acquisition, emerging UAM/drone markets, supply chain vulnerabilities, manufacturing scaling challenges, competition from larger Li-ion players, product defects/fire risks, customer concentration/execution risks, and dependency on unproven AI/Molecular Universe platform. DRCT shows revenue collapse (2025: $35M vs 2023: $157M) from customer pause/misinformation, going concern doubt, high concentration. INUV has 83% customer concentration (2 clients), $178M deficit, negative cash flows. Others (NEOV, ICCT, CRMZ, OCTO) exhibit startup risks, losses, dilutions. No durable demand signals; all flagged for balance-sheet weakness, revenue quality issues, concentration.",
+  "filing_risks": {
+    "SES": [
+      "Ongoing losses: $73M net loss 2025, $372M accumulated deficit; may never achieve profitability (Item 1A)",
+      "Capital needs: Substantial additional funding required; cash sufficient only 12 months, dilution risk (Item 1A)",
+      "Customer/integration: UZ Energy acquisition integration risks, key personnel retention (Item 1A)",
+      "Market/revenue quality: Emerging UAM/EV markets unproven; no long-term supply contracts, raw material volatility (Item 1A)",
+      "Execution/manufacturing: Scaling facilities, defects/recalls, supply disruptions, OEM conversion risks (Item 1A)",
+      "Competition: Larger Li-ion incumbents with greater resources (Item 1A)"
+    ],
+    "DRCT": [
+      "Going concern doubt: $0.7M cash, $28M deficit; customer pause caused revenue drop to $35M 2025 from $157M 2023 (Item 1A)",
+      "Concentration: Sell-side customer pause impacted results; credit covenants/min cash $450k (Item 1A)",
+      "Revenue quality: Defamatory article/misinformation campaign; high client retention but volumes not recovered (Item 1A)"
+    ],
+    "INUV": [
+      "Concentration: 2 customers 83% revenue 2025 (64%+19%) vs 82% 2024 (Item 1A)",
+      "Balance sheet: $178M accumulated deficit, $5M working capital deficit, negative operating cash (Item 1A/7)",
+      "Revenue quality: Dependence on Yahoo/Google; ad supplier risks, seasonality (Item 1A)"
+    ],
+    "NEOV": [
+      "Startup risks: Sales since 2019, competition from Tesla/Enphase, supply chain/tariff exposure (Item 1A)",
+      "Manufacturing: In-house transition, component shortages (Item 1A)"
+    ],
+    "ICCT": [
+      "Limited history post-merger 2023; no patents, competition in SaaS healthcare (Item 1A)",
+      "Dilution: Recent asset sale, customer AR concentration 26% (Item 1A)"
+    ],
+    "CRMZ": [
+      "Fragmented market, dependency on data suppliers/NRSROs (Item 1)"
+    ],
+    "OCTO": [
+      "Pivot risks: Sold packaging business, Forever 8 revenue drop $68M to $40M; supplier concentration (Item 1A)"
+    ]
+  },
+  "quality_notes": "Predominantly pre-revenue/loss-making tech (SES batteries/AI, DRCT adtech, INUV adtech) with high execution risks, no durable demand evidence. Revenue quality poor: concentration (INUV 83%, DRCT customer pause), unproven markets (SES UAM/drones). Balance sheets weak across board (deficits $28M-$372M, going concern DRCT/INUV). Capital allocation dilution-heavy. No GOOGL/GOOG, INTC, USAR, GT. Avoid watchlist addition: high risk, no profitability path near-term.",
+  "source_urls": []
+}
 
