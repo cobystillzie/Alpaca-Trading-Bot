@@ -2806,4 +2806,25 @@ For a cautious bot workflow on May 4, 2026:
   ]
 }
 ```
+## Market Regime Research - 2026-05-08 01:27:43 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities extended rally on May 7 with S&P 500 +1.5% to 7365 (13-14% off March lows), Nasdaq record high on AI/chip strength, driven by US-Iran peace hopes lowering oil -7%, strong earnings (banks/travel/industrials), resilient labor data. VIX stable at 17.4 with mild upside options skew. Midday caution noted but risk-on tone prevails; valuations rising but room to 7750 target.",
+  "market_regime": "risk_on_rally",
+  "sector_rotation": "Broadening: banks (+HSBC 5%), industrials/aerospace (+MTU 10%), staples/health (Novo +2.5%), chips/AI (Korea/Asia sprint), travel leading; defensive/value rotation intact per memory (SCHD/MUX); mega-tech/AI resilient.",
+  "risk_flags": [
+    "Geopolitical: US-Iran deal hopes fragile (Strait of Hormuz), prior risk-off signals (bearish candles, VIX disconnect)",
+    "Short-term vols up (VIX1D +8.5%, VIX9D 14.8%) ahead of jobs data/earnings",
+    "Valuations climbing (14% rally), non-mega EPS cuts possible",
+    "Midday pullback to red (Dow/S&P), higher rates/USD test momentum"
+  ],
+  "source_urls": [
+    "https://www.home.saxo/en-sg/content/articles/macro/market-quick-take---7-may-2026-07052026",
+    "https://www.home.saxo/content/articles/macro/market-quick-take---7-may-2026-07052026",
+    "https://www.rbccm.com/en/insights/2026/05/takeaways-from-an-avalanche-of-earnings",
+    "https://www.stonex.com/en/insights/perspective-mid-day-commentary-for-may-7-2026-05-07/"
+  ]
+}
+```
 

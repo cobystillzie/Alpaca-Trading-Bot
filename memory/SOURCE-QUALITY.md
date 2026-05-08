@@ -5660,4 +5660,104 @@ SEC/company quality check:
   "source_urls": []
 }
 ```
+## Source And Signal Research - 2026-05-08 01:27:43 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "Opendoor Technologies (OPEN) stock continues to decline amid Q2 revenue guidance of +25% YoY but sliding sales and widening losses; retail investors maintain belief in CEO's turnaround narrative despite fundamentals.",
+  "social_buzz": "weak",
+  "attention_anomalies": "Retail optimism contrasts with deteriorating financials (suspected hype risk: unsupported turnaround claims amid sales slide/losses widening)",
+  "source_urls": ["https://stocktwits.com/news-articles/markets/equity/open-stock-can-t-stop-bleeding-yet-as-sales-slide-losses-widen-but-retail-believes-ceo-s-turnaround-case/cZX23hpReQD"]
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Congressional disclosure scan identified 11 stocks with recent member trades over past 6 months. Net activity: 23 purchases vs 11 sales across tracked instruments. Largest single trades: Rep. Cleo Fields ($115k purchases in IREN), Rep. Gilbert Ray Cisneros Jr. (multi-stock trader across TDG, TYL, SPOT). Wells Fargo institutional exit from IREN (-94.4%, $281M) signals potential headwind despite congressional buying. Low-weight, delayed disclosure context only—no trade recommendations issued.",
+  "congressional_signal": {
+    "net_activity": "23 purchases, 11 sales (6-month window)",
+    "key_traders": [
+      {
+        "name": "Rep. Cleo Fields",
+        "trades": 3,
+        "activity": "2 purchases ($115k total, 01/20, 12/09), 1 sale ($100k, 12/26)",
+        "ticker": "IREN"
+      },
+      {
+        "name": "Rep. Gilbert Ray Cisneros Jr.",
+        "trades": 11,
+        "activity": "Multi-stock: TDG (3 purchases $45k, 2 sales $30k), TYL (1 purchase $15k), SPOT (1 purchase $15k, 2 sales $30k)",
+        "tickers": ["TDG", "TYL", "SPOT"]
+      },
+      {
+        "name": "Rep. April McClain Delaney",
+        "trades": 4,
+        "activity": "ENTG (2 purchases $30k, 2 sales $30k); TDG (accumulated $19-110k)",
+        "tickers": ["ENTG", "TDG"]
+      },
+      {
+        "name": "Rep. Dale W. Strong",
+        "trades": 1,
+        "activity": "1 purchase $15k (01/28)",
+        "ticker": "IREN"
+      },
+      {
+        "name": "Rep. Julia Letlow",
+        "trades": 1,
+        "activity": "1 purchase $15k (12/08)",
+        "ticker": "WAT"
+      }
+    ],
+    "institutional_context": "Wells Fargo removed 7.4M IREN shares (-94.4%, ~$281M) Q4 2025—contradicts congressional accumulation signal; 280 institutional adds vs 211 decreases across tracked names.",
+    "analyst_consensus": {
+      "IREN": "Mixed: 2 Buy, 1 Sell; median price target $70 (range $39–$80)",
+      "TDG": "Bullish: 4 Buy, 0 Sell; UBS Buy 05/06/2026, Morgan Stanley Overweight",
+      "ENTG": "No recent analyst ratings in disclosure set"
+    },
+    "weight": "Low—delayed filings, secondary catalyst context only. Do not trade on congressional signals alone."
+  },
+  "tickers": [
+    "IREN",
+    "ENTG",
+    "TDG",
+    "AZN",
+    "COHR",
+    "TYL",
+    "SPOT",
+    "WAT"
+  ],
+  "source_urls": [
+    "https://www.quiverquant.com/news/IREN+Limited+Expands+into+Europe+with+Acquisition+of+Ingenostrum,+S.L.+to+Enhance+AI+Data+Center+Portfolio",
+    "https://www.quiverquant.com/news/Entegris+Stock+(ENTG)+Opinions+on+Congressional+Purchase+Disclosure",
+    "https://www.quiverquant.com/news/TransDigm+Group+Stock+(TDG)+Opinions+on+Congressional+Trade+Disclosure+and+Earnings+Beat",
+    "https://www.quiverquant.com/news/Fund+Update:+New+$24.6M+$AZN+stock+position+opened+by+MUTUAL+OF+AMERICA+CAPITAL+MANAGEMENT+LLC",
+    "https://www.quiverquant.com/news/Fund+Update:+New+$6.2M+$COHR+stock+position+opened+by+NEW+YORK+LIFE+INVESTMENT+MANAGEMENT+LLC",
+    "https://www.quiverquant.com/news/Fund+Update:+New+$54.9M+$TYL+stock+position+opened+by+Madison+Asset+Management,+LLC",
+    "https://www.quiverquant.com/news/Fund+Update:+New+$213.0M+$SPOT+stock+position+opened+by+CANTILLON+CAPITAL+MANAGEMENT+LLC",
+    "https://www.quiverquant.com/news/Fund+Update:+New+$11.4M+$WAT+stock+position+opened+by+Lazard+Freres+Gestion+S.A.S."
+  ],
+  "disclaimer": "Congressional disclosures are delayed (30–45 days), low-weight secondary context. Institutional exits (e.g., Wells Fargo IREN) may offset congressional accumulation signals. No trade recommendations issued. Use as supplementary due-diligence input only."
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": "Direct Digital Holdings (DRCT) operates a sell-side SSP (Colossus) and buy-side managed services in digital advertising. 2025 revenue $34.7M (-44% YoY), gross profit $10.4M (-40% YoY) due to major sell-side customer pause from defamatory article/misinformation campaign; volumes not recovered. ~90% client retention but high concentration risks. Going concern doubt with $0.7M cash, $27.7M accumulated deficit, negative working capital. Credit covenants ($450k min cash), Nasdaq delisting risk. IVT/fraud mitigation and AI curation strengths, but revenue quality impaired by customer dependency.",
+  "filing_risks": [
+    "Going concern: $0.7M cash insufficient for 12 months; accumulated deficit $27.7M; dependent on cost cuts, volume recovery, new funding (no assurances); potential dilution from equity/debt.",
+    "Customer concentration: 2024-2025 revenue drop from one sell-side customer pause (defamatory article); reconnection May 2024 but volumes below prior levels; high reliance on few clients.",
+    "Balance sheet: Negative working capital deficit; credit facility covenants (min $450k cash) risk default/acceleration; term debt matures Dec 2026, renewal uncertain amid weak financials.",
+    "Revenue quality/decline: 2025 rev/gross profit halved YoY due to customer incident; not reflective of 'underlying model' per mgmt but exposes fragility; seasonality, ad fraud, IVT risks.",
+    "Litigation/rep: Defamatory article/coordinated misinformation cited; payment disputes, ad fraud detection failure risks reputation/revenue.",
+    "Dilution/capital: Need additional financing likely dilutive; holding co structure depends on LLC distributions.",
+    "Operations: 73 employees; Nasdaq delisting risk if listing standards fail; buy-side shift unproven.",
+    "Competition: SSP peers (Pubmatic/Magnite/Google); buy-side vs Google/Meta/Amazon dominance."
+  ],
+  "quality_notes": "Weak - substantial going concern warning, revenue collapse from single customer (83%+ concentration implied), liquidity crisis ($0.7M cash vs ongoing losses), covenant/delisting risks. Durable demand questionable: ad industry cyclical/seasonal, unrecovered volumes post-2024 incident. Strengths: 90% retention, IVT controls, minority-owned status, experienced mgmt. But balance sheet/mgmt credibility impaired by 'misinformation campaign' narrative for revenue drop. Avoid - high execution/liquidity risks outweigh adtech platform.",
+  "source_urls": []
+}
+```
 

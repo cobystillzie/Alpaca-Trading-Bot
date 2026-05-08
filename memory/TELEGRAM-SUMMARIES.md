@@ -6977,4 +6977,37 @@ HF filter: sentiment=not run source=8/100 hype=0.10 vetoes=0
 Self-learning: tier=watch repeat48h=0 fresh=yes bucket=advertising-reit
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-08 01:27:43 Eastern Daylight Time
+
+Research Update
+
+Market tone: Semiconductor momentum strong with SIMO +100% monthly (A Zen Rating), SANM +70% (A Growth/Momentum); mining tailwinds from Oliver's equity top call favoring commodities/miners; gold volatility but bull market intact; risk-on broadening beyond tech amid rotation to value/mining.
+Candidates: 3
+
+1. SIMO (technology-semiconductors) | confidence 0.82 | allocation 7.0% | stop 8.0% | Chittick 75/100 | tier execution-ready | bucket technology-semiconductors | HF source 9/100
+Recommendation: execute-if-guards-pass
+Catalyst: Up over 100% past month on ongoing catalysts; top-tier A Zen Rating (Strong Buy) with strength in Sentiment/Growth/Momentum per WallStreetZen.
+Chittick Cash: Strong Zen Rating provides quality buffer; momentum defines near-term downside.
+HF filter: sentiment=not run source=9/100 hype=0.20 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=technology-semiconductors
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. SANM (technology-electronics) | confidence 0.80 | allocation 6.0% | stop 8.0% | Chittick 74/100 | tier execution-ready | bucket technology-electronics | HF source 9/100
+Recommendation: execute-if-guards-pass
+Catalyst: Quietly +70% past month; A Zen Rating (Strong Buy) powered by A Growth, strong Momentum/Sentiment/Value.
+Chittick Cash: Zen A Growth provides safety in quality business.
+HF filter: sentiment=not run source=9/100 hype=0.10 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=technology-electronics
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. GDX (materials-mining-etf) | confidence 0.78 | allocation 8.0% | stop 8.0% | Chittick 72/100 | tier watch | bucket materials-mining-etf | HF source 8/100
+Recommendation: watch
+Catalyst: Oliver: miners relative strength new highs vs bullion consolidation; silver miners leading; Canadian miners generational setup.
+Chittick Cash: Diversified ETF; undervalued vs equities.
+HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=materials-mining-etf
+Social buzz, low weight: none
+Congress signal, low weight: none
 

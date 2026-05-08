@@ -559,4 +559,9 @@ Candidates found: 3
 Mixed global cues with European indices lower (-0.02% to -0.63%), India VIX at 16.62 signaling stock-specific volatility; US fast-food (QSR) and African e-comm (JMIA under $10) earnings beats drive sector momentum amid profit booking risks and FII selling concerns.
 
 Candidates found: 3
+## Two-Hour Research Agent - 2026-05-08 01:27:43 Eastern Daylight Time
+
+Semiconductor momentum strong with SIMO +100% monthly (A Zen Rating), SANM +70% (A Growth/Momentum); mining tailwinds from Oliver's equity top call favoring commodities/miners; gold volatility but bull market intact; risk-on broadening beyond tech amid rotation to value/mining.
+
+Candidates found: 3
 
