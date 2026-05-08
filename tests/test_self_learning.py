@@ -177,6 +177,63 @@ def test_enrich_adds_note_for_overused_diversity_bucket(tmp_path):
     assert "over-concentrated in semiconductors-ai" in enriched.allocation_learning_note
 
 
+def test_enrich_caps_extreme_repeat_even_with_fresh_rotation_claim(tmp_path):
+    memory = tmp_path / "memory"
+    memory.mkdir()
+    stamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    sections = []
+    for _ in range(16):
+        sections.extend(
+            [
+                f"## Latest Candidates - {stamp} EDT",
+                "| Symbol | Sector |",
+                "|---|---|",
+                "| SCHD | Dividend ETF |",
+            ]
+        )
+    (memory / "WATCHLIST.md").write_text("\n".join(sections), encoding="utf-8")
+
+    enriched = enrich_candidates_with_self_learning(
+        tmp_path,
+        [
+            candidate(
+                "SCHD",
+                catalyst="Fresh sector rotation confirmation supports dividend ETF demand.",
+            )
+        ],
+    )[0]
+
+    assert enriched.repeat_count_48h == 16
+    assert enriched.research_tier == "watch-allocation-constrained"
+    assert "High repeat count 16" in enriched.allocation_learning_note
+
+
+def test_enrich_quarantines_high_repeat_without_hard_fresh_catalyst(tmp_path):
+    memory = tmp_path / "memory"
+    memory.mkdir()
+    stamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    sections = []
+    for _ in range(12):
+        sections.extend(
+            [
+                f"## Latest Candidates - {stamp} EDT",
+                "| Symbol | Sector |",
+                "|---|---|",
+                "| VYM | Dividend ETF |",
+            ]
+        )
+    (memory / "WATCHLIST.md").write_text("\n".join(sections), encoding="utf-8")
+
+    enriched = enrich_candidates_with_self_learning(
+        tmp_path,
+        [candidate("VYM", catalyst="Fresh sector rotation confirmation supports dividend ETF demand.")],
+    )[0]
+
+    assert enriched.repeat_count_48h == 12
+    assert enriched.research_tier == "stale-watch"
+    assert "quarantine as stale-watch" in enriched.allocation_learning_note
+
+
 def test_build_self_learning_policy_mentions_repeats_and_diversity(tmp_path):
     memory = tmp_path / "memory"
     memory.mkdir()

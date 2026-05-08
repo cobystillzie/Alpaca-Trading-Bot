@@ -329,6 +329,34 @@ def test_repeated_candidate_without_fresh_catalyst_gets_self_learning_penalty():
     assert any("fresh catalyst" in reason for reason in fresh_result.reasons)
 
 
+def test_fresh_high_repeat_candidate_gets_repeat_decay():
+    candidate = TradeCandidate(
+        symbol="SCHD",
+        thesis="SCHD has broad dividend quality exposure and liquid ETF structure.",
+        catalyst="Fresh sector rotation confirmation supports defensive dividend demand today.",
+        quality_case="ETF holdings have durable cash flows and diversified balance-sheet risk.",
+        momentum_case="Shares remain resilient versus broad growth benchmarks this week.",
+        bear_case="The setup can lag if high-beta technology leadership accelerates.",
+        confidence=0.82,
+        horizon_days=5,
+        target_allocation_percent=8,
+        stop_loss_percent=8,
+        source_urls=["https://www.schwabassetmanagement.com", "https://www.morningstar.com"],
+        chittick_cash_score=78,
+        repeat_count_48h=20,
+        fresh_catalyst=True,
+        research_tier="watch-allocation-constrained",
+        diversity_bucket="dividend-etf-defensive",
+        allocation_learning_note="High repeat count 20: cap allocation language.",
+    )
+
+    result = score_candidate(candidate)
+
+    assert result.approved
+    assert any("repeat decay" in reason for reason in result.reasons)
+    assert any("allocation constraint" in reason for reason in result.reasons)
+
+
 def test_execution_ready_repeat_without_fresh_catalyst_is_rejected():
     candidate = TradeCandidate(
         symbol="SPMO",

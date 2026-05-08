@@ -36,6 +36,8 @@ WEAK_SOURCE_HINTS = [
 BASE_STRATEGY_WEIGHT = 0.70
 CHITTICK_CASH_WEIGHT = 0.30
 CHITTICK_SEED_WATCHLIST = {"GOOGL", "GOOG", "INTC", "USAR", "GT"}
+REPEAT_DECAY_START = 5
+MAX_FRESH_REPEAT_DECAY = 10
 
 VALUE_TERMS = (
     "margin of safety",
@@ -256,6 +258,7 @@ Strategy:
 - Treat GOOG and GOOGL as equivalent Alphabet business exposure; default to GOOGL in candidate JSON unless there is a concrete reason to use GOOG.
 - Read and obey SELF-LEARNING-POLICY.md from memory when it exists.
 - Penalize stale repeated tickers when there is no fresh catalyst. Do not keep recycling GOOGL, NVDA, SPMO, or any other repeated name unless there is new earnings, filing, guidance, contract, upgrade, or confirmed breakout evidence.
+- Apply repeat decay after five appearances. Names above 12 repeats should not be execution-ready unless a hard fresh catalyst is documented; names above 15 repeats should include allocation-constrained language and fresh alternatives.
 - Build a broader discovery set. Aim for at least three diversity buckets across top candidates and include at least two alternatives from underrepresented sectors when a repeated mega-cap or broad ETF appears again.
 - If a candidate was blocked by allocation or concentration constraints, propose a smaller safe tranche or a different-sector alternative instead of repeating the same target allocation.
 - Use social buzz only as attention/volume anomaly context. Maximum influence: {social_weight:.2f}.
@@ -543,6 +546,12 @@ def score_candidate(candidate: TradeCandidate) -> ScoreResult:
             reasons.append(
                 f"Self-learning: stale repeat penalty -{stale_penalty} for {candidate.repeat_count_48h} appearances without a fresh catalyst."
             )
+    if candidate.repeat_count_48h > REPEAT_DECAY_START and candidate.fresh_catalyst:
+        repeat_decay = min(MAX_FRESH_REPEAT_DECAY, candidate.repeat_count_48h - REPEAT_DECAY_START)
+        final_score = _clamp_score(final_score - repeat_decay)
+        reasons.append(
+            f"Self-learning: repeat decay -{repeat_decay} for {candidate.repeat_count_48h} appearances despite a fresh catalyst."
+        )
     if candidate.research_tier == "stale-watch" and not candidate.fresh_catalyst:
         final_score = _clamp_score(final_score - 5)
         reasons.append("Self-learning: stale-watch tier reduces execution priority.")

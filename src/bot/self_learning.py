@@ -31,6 +31,24 @@ FRESH_CATALYST_TERMS = (
     "pre-market",
 )
 
+HARD_FRESH_CATALYST_TERMS = (
+    "earnings",
+    "guidance",
+    "sec filing",
+    "10-k",
+    "10-q",
+    "8-k",
+    "contract",
+    "announced",
+    "upgrade",
+    "fda",
+    "approval",
+    "trial",
+)
+
+HIGH_REPEAT_ALLOCATION_CONSTRAINT = 15
+STALE_REPEAT_QUARANTINE = 12
+
 UNSAFE_DIFF_PATTERNS = (
     r"LIVE_TRADING_ENABLED\s*=\s*true",
     r"ALPACA_ENV\s*=\s*live",
@@ -155,6 +173,13 @@ def has_fresh_catalyst(candidate: TradeCandidate) -> bool:
     return any(term in _candidate_text(candidate) for term in FRESH_CATALYST_TERMS)
 
 
+def has_hard_fresh_catalyst(candidate: TradeCandidate) -> bool:
+    text = _candidate_text(candidate)
+    if candidate.catalyst_type in {"earnings", "filing-quality", "structural"}:
+        return True
+    return any(term in text for term in HARD_FRESH_CATALYST_TERMS)
+
+
 def classify_catalyst_type(candidate: TradeCandidate) -> str:
     if candidate.catalyst_type:
         return candidate.catalyst_type
@@ -227,7 +252,19 @@ def enrich_candidates_with_self_learning(root: Path, candidates: list[TradeCandi
             )
             allocation_note = f"{allocation_note} {sector_note}".strip()
         tier = candidate.research_tier
-        if not tier:
+        if repeat_count >= HIGH_REPEAT_ALLOCATION_CONSTRAINT:
+            tier = "watch-allocation-constrained"
+            repeat_note = (
+                f"High repeat count {repeat_count}: cap allocation language and require fresh alternatives before execution-ready status."
+            )
+            allocation_note = f"{allocation_note} {repeat_note}".strip()
+        elif repeat_count >= STALE_REPEAT_QUARANTINE and not has_hard_fresh_catalyst(candidate):
+            tier = "stale-watch"
+            quarantine_note = (
+                f"High repeat count {repeat_count} without hard fresh catalyst evidence: quarantine as stale-watch."
+            )
+            allocation_note = f"{allocation_note} {quarantine_note}".strip()
+        elif not tier:
             if repeat_count >= 3 and not fresh:
                 tier = "stale-watch"
             elif has_allocation_constraint:
@@ -370,8 +407,9 @@ def finalize_self_learning_update(settings: Settings) -> int:
     )
     behavior_changes = [
         "Weekly review may update code/prompts/memory after reviewing failures.",
-        "Research scoring now penalizes stale repeated candidates unless a fresh catalyst exists.",
-        "Research must broaden ticker and sector discovery after repeated GOOGL/NVDA/SPMO-style loops.",
+        "Research scoring now applies repeat decay to high-repeat candidates even when a soft fresh catalyst is present.",
+        "Self-learning now downgrades extreme repeat loops such as SCHD/VYM-style rotation repeats to allocation-constrained or stale-watch status unless hard catalyst evidence exists.",
+        "Research prompts now require allocation-constrained language and fresh alternatives for names above repeat thresholds.",
     ]
     preliminary = evaluate_self_learning_finalize(
         changed_files=changed_files,
