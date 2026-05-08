@@ -2972,4 +2972,26 @@ For a cautious bot workflow on May 4, 2026:
   ]
 }
 ```
+## Market Regime Research - 2026-05-08 13:46:44 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities rallied strongly on blockbuster April jobs data (115k added vs ~60k est), pushing S&P 500 +0.73% to 7390 (6th straight winning week, near records), Nasdaq +1.12% to 26094, Dow +0.28% to 49736. AI/tech (NVDA>214, AAPL>294) led gains amid resilient economy despite $100 oil, Iran/Hormuz tensions. Yields eased to 4.35%, volatility ticked up but risk-on tone prevailed with rotation into semis/cloud.",
+  "market_regime": "bullish_momentum_with_caution",
+  "sector_rotation": "tech_ai_dominance_semis_cloud",
+  "risk_flags": [
+    "geopolitical_tensions_iran_hormuz",
+    "elevated_oil_100bbl",
+    "fed_hike_pricing_52pct",
+    "rising_volatility_indicators",
+    "delayed_rate_cuts"
+  ],
+  "source_urls": [
+    "https://economictimes.com/news/international/us/us-stock-market-rally-hard-today-why-are-the-sp-500-dow-jones-and-nasdaq-nearing-record-highs-as-nvidia-and-apple-explode-higher-on-strong-us-jobs-data-and-unstoppable-ai-fueled-tech-surge/articleshow/130962974.cms",
+    "https://www.ainvest.com/news/fed-funds-rate-futures-price-hike-odds-50-market-diverges-fed-cut-guidance-2605/",
+    "https://www.mpamag.com/us/mortgage-industry/industry-trends/aprils-blockbuster-jobs-report-dims-hopes-for-imminent-fed-rate-cuts/574588",
+    "https://www.marketpulse.com/markets/stock-markets-top-dow-jones-daily-outlook/"
+  ]
+}
+```
 

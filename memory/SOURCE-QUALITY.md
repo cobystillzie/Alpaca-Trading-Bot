@@ -6492,4 +6492,63 @@ SEC/company quality check:
   "quality_notes": "All filings highlight weak balance sheets (losses, deficits, low cash), high customer concentration (SES OEM-dependent, DRCT/INUV 1-2 clients >80% rev, BRID Wal-Mart heavy), revenue quality risks (SES pre-commercial, DRCT collapse, INUV ad-dependent), capital allocation/raise risks (SES/DRCT dilution), no litigation but product liability/fire risks elevated for SES/BRID. No durable demand; SES emerging tech unproven, DRCT declining, INUV/BRID cyclical/concentrated. Watchlist avoids: execution-intensive, no profitability path near-term.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-08 13:46:44 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks or ETFs. No evidence of hype, pump language, or unsupported claims detected in public web/social coverage.",
+  "social_buzz": "none",
+  "attention_anomalies": "none",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No recent congressional disclosures found for liquid US stocks/ETFs.",
+  "congressional_signal": "none",
+  "tickers": [],
+  "source_urls": []
+}
+```
+
+SEC/company quality check:
+{
+  "summary": {
+    "DRCT": "Direct Digital Holdings (DRCT) operates a sell-side adtech platform (Colossus SSP) with buy-side managed services; 2025 revenue $34.7M (-44% YoY) and gross profit $10.4M (-40% YoY) due to major sell-side customer pause from defamatory article/misinformation campaign (reconnected May 2024 but volumes below prior levels); ~90% client retention but high concentration risk; going concern doubt with $0.7M cash, $27.7M accumulated deficit; credit covenants ($450k min cash); Nasdaq delisting risk.",
+    "INUV": "Inuvo (INUV) provides AI-driven adtech with IntentKey for intent-based targeting; 2025 revenue +2.9% YoY but gross margins -10.1% to 74.5%, operating loss $5.1M; high customer concentration (two customers 83.5% of revenue); $2.8M cash, $5.1M working capital deficit, $178M accumulated deficit; history of losses funded by equity/debt.",
+    "others": "FATE (biotech iPSC therapies): clinical-stage, losses, funding needs; NEOV (energy storage): emerging growth, early revenue stage; ICCT (healthcare SaaS): limited history post-merger; CRMZ (credit risk SaaS): stable niche but small scale."
+  },
+  "filing_risks": {
+    "DRCT": [
+      "Going concern substantial doubt: insufficient cash for 12 months, accumulated deficit $27.7M, reliant on cost cuts, sell-side volume recovery, additional funding.",
+      "High customer concentration: 2024/2025 revenue drop from one sell-side customer pause (defamatory article); ongoing lower volumes.",
+      "Balance sheet: $0.7M cash, credit facilities with $450k min cash covenant, default risk, debt acceleration possible; term facility matures Dec 2026.",
+      "Dilution: potential equity/debt raises to fund operations.",
+      "Nasdaq delisting risk if listing standards not met.",
+      "Revenue quality: ad fraud detection failure risk, IVT mitigation claims but platform issues could harm reputation.",
+      "Litigation/defamation: 2024 customer pause from 'coordinated misinformation campaign' article."
+    ],
+    "INUV": [
+      "Customer concentration: two customers 64.2% + 19.3% of 2025 revenue (75% + 7% in 2024).",
+      "Balance sheet: $2.8M cash, $5.1M net working capital deficit, $178M accumulated deficit, negative operating cash flows.",
+      "Revenue quality/seasonality: history of losses, reliance on two key customers (Yahoo/Google), ad supplier dependence.",
+      "Dilution risk: recurring equity offerings/debt to fund losses."
+    ],
+    "common_adtech": [
+      "Ad fraud/IVT (DRCT), cookie restrictions (DRCT), competition from Google/Meta/Amazon (both), high client concentration (both)."
+    ]
+  },
+  "quality_notes": {
+    "DRCT": "Durable demand evidence weak: revenue/gross profit halved 2023-2025 from customer pause, not 'underlying business strength'; 90% retention positive but volumes not recovered; SSP scale (170B monthly impressions, 174k buyers) but execution risks high (going concern, covenants). Watch for volume normalization but capital allocation strained.",
+    "INUV": "AI intent tech moat (18 patents) with Platform channel low-risk (Yahoo/Google relationships), but revenue quality poor (concentration >80%, margin contraction); durable demand from adtech shift to intent/privacy but losses/liquidity constrain growth. Not execution-ready.",
+    "valuation_risks": "DRCT trades distressed (going concern) but dilution/Nasdaq risks; INUV small-cap with hype but concentration erodes quality."
+  },
+  "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/1880613/000141057826000164/drct-20251231x10k.htm",
+    "https://www.sec.gov/Archives/edgar/data/829323/000141057826000123/inuv-20251231x10k.htm"
+  ]
+}
 

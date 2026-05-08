@@ -7930,4 +7930,37 @@ Model notes: Diversity bucket filler.
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: none
+## Research Update - 2026-05-08 13:46:44 Eastern Daylight Time
+
+Research Update
+
+Market tone: Momentum stocks experienced one of the largest reversals in 5 years with high-beta names down sharply (Goldman basket -8%), AI/tech pullback amid stretched valuations and post-earnings lull; Ether gaining on Pectra upgrade/ETFs but crypto excluded; clean energy ETFs like ICLN highlighted for structural tailwinds (47% 2025 return); under-$10 stocks and Vitesse Energy (37x fwd P/E) noted but thin catalysts; risk-off rotation favors quality/defensives.
+Candidates: 3
+
+1. ICLN (alternatives-clean-energy-etf) | confidence 0.78 | allocation 8.0% | stop 8.0% | Chittick 72/100 | tier watch | bucket clean-energy-etf | HF source 8/100
+Recommendation: watch
+Catalyst: Energy security crisis accelerating clean energy adoption; ICLN +47% in 2025, +26% YTD Apr 2026; heavy weighting in utilities (36%), industrials (32%), tech (31%) positions for multi-year trends.
+Chittick Cash: ETF diversification across 100+ holdings reduces single-stock risk; trades at discount to growth potential vs overvalued momentum.
+HF filter: sentiment=not run source=8/100 hype=0.20 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=clean-energy-etf
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. VSTE (energy-oil-gas) | confidence 0.68 | allocation 5.0% | stop 8.0% | Chittick 70/100 | tier watch | bucket energy-cash-flow | HF source 7/100
+Recommendation: watch
+Catalyst: Highlighted as top cash-producer with strong fundamentals; trading $18.06 (37x fwd P/E) amid energy security focus.
+Chittick Cash: Cash flow coverage but fwd P/E stretched.
+HF filter: sentiment=not run source=7/100 hype=0.30 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=energy-cash-flow
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. MTUM (factor-momentum-etf) | confidence 0.55 | allocation 4.0% | stop 8.0% | Chittick 35/100 | tier stale-watch | bucket factor-etf | HF source 9/100
+Recommendation: avoid
+Catalyst: Biggest reversal in 5 years (-1.8% Thursday); Goldman high-beta basket -8%; potential mean-reversion in risk-off.
+Chittick Cash: ETF div but momentum vulnerable.
+HF filter: sentiment=not run source=9/100 hype=0.10 vetoes=0
+Self-learning: tier=stale-watch repeat48h=0 fresh=yes bucket=factor-etf
+Social buzz, low weight: none
+Congress signal, low weight: none
 
