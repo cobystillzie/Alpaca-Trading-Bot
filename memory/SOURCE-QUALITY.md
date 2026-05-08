@@ -6771,4 +6771,41 @@ SEC/company quality check:
   "quality_notes": "Durable demand questionable: Programmatic ad platform with tech edge (IVT mitigation, audience curation, omni-channel) and 90% retention, but 2025 revenue plunge from single-customer issue exposes fragility. Sell-side scale (170B monthly impressions, 174k buyers) promising if volumes recover, but going concern + covenant risks dominate. No litigation noted. Capital allocation strained by distress; valuation risk high given distress signals. Watch for volume recovery/financing, but avoid without guards.",
   "source_urls": ["https://www.sec.gov/Archives/edgar/data/1880613/000141057826000248/drct-20251231x10k.htm"]
 }
+## Source And Signal Research - 2026-05-08 19:51:40 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "SMR (NuScale Power) experiencing heavy retail bullishness despite Q1 revenue miss ($0.57M vs $13.38M YoY, -96%) and -23% YTD decline; stock down 5% overnight on licensing revenue drop, but social sentiment remains optimistic amid small modular reactor hype.",
+  "social_buzz": "weak",
+  "attention_anomalies": "Retail bullish divergence from fundamentals flagged as potential hype risk; revenue miss attributed to one-time licensing, net loss in-line, but YTD underperformance signals caution.",
+  "source_urls": ["https://stocktwits.com/news-articles/markets/equity/smr-stock-sinks-on-huge-revenue-miss-but-heres-why-retail-is-still-bullish/cZX23FqReQy"]
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No recent congressional disclosures found for liquid US stocks/ETFs.",
+  "congressional_signal": "none",
+  "tickers": [],
+  "source_urls": []
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "SES AI (SES) 10-K shows deep execution risks in pre-revenue battery tech with $73M 2025 net loss, $372M accumulated deficit, heavy capex needs, UAM/EV market uncertainty, supply chain vulnerabilities, integration risks from UZ Energy acquisition, and dilution threats; DRCT going concern with revenue collapse to $35M, customer pause, Nasdaq delisting risk; INUV revenue concentration (84%), $178M deficit; NEOV early-stage ESS with limited history; TKLS $77M deficit, working capital deficit; ICCT post-merger SaaS with customer concentration in AR; BLZE $196M deficit, competitive cloud storage. All exhibit high balance-sheet fragility, concentration risks, ongoing losses, no durable demand signals.",
+  "filing_risks": {
+    "SES": "Net losses $73M (2025), accumulated deficit $372M; needs substantial capital, may dilute; UZ Energy integration risks (cultural/personnel); emerging UAM/EV markets unproven; supply chain/raw materials volatility; manufacturing scale-up risks; customer concentration in OEM trials; product defects/recalls; warranty liabilities; key personnel dependence.",
+    "DRCT": "Going concern doubt, cash $0.7M vs $28M deficit; revenue -45% to $35M (2025) from customer pause/misinfo; credit covenants ($450k min cash), default risk; Nasdaq delisting risk; high customer concentration; payment disputes; IVT/fraud risks.",
+    "INUV": "History of losses, $178M accumulated deficit, working capital deficit $5M; 84% revenue from 2 customers (64%/19%); collections/seasonality risks; dependence on Google/Yahoo.",
+    "NEOV": "Early-stage (sales since 2019), startup risks; competition from Tesla/Enphase; regulatory/certification hurdles; supply chain/FEOC compliance; limited employees (17).",
+    "TKLS": "Going concern, $77M accumulated deficit, working capital deficit $6M, cash $1M; net loss $10M (2024); needs capital for sales/marketing.",
+    "ICCT": "Post-merger, AR concentration (26%/25%); limited history; competition in HIPAA SaaS.",
+    "BLZE": "$49M net loss (2024), $196M accumulated deficit; competitive pressures (AWS/Azure); service disruptions/cyber risks; customer acquisition costs."
+  },
+  "quality_notes": "No durable demand: SES pre-commercialization (OEM sampling stage), losses accelerating; DRCT revenue quality destroyed by single-customer dependency/event; INUV 84% concentration, declining margins; all show dilution/capital raise risks, negative cash flows, no profitability path evident; BLZE diversified but unprofitable at scale. Balance-sheet risks universal (deficits >$100M+), high capex/execution hurdles in tech/energy. Avoid: fragile, no moat/proven revenue quality.",
+  "source_urls": []
+}
 

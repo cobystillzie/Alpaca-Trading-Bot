@@ -3069,4 +3069,30 @@ For a cautious bot workflow on May 4, 2026:
   ]
 }
 ```
+## Market Regime Research - 2026-05-08 19:51:40 Eastern Daylight Time
+
+{
+  "summary": "US equities in strong risk-on rally with S&P 500 and Nasdaq at record highs after 6 straight winning weeks (+13% since late March). Stellar Q1 earnings (27.7% blended growth, highest since Q4 2021, +2.1% Q2 EPS revision up), robust jobs (+115k vs +55k exp, unemp 4.3%), Fed steady at 3.5-3.75% (divided FOMC). Tech/AI leadership amid Iran war de-escalation, oil $100+, yields dipping to 4.35%. Consumer sentiment low but market resilient.",
+  "market_regime": "Risk-on bull market with record highs and earnings momentum; resilient to geopolitical noise but elevated valuations (fwd P/E 21.0 vs 19.9 5yr avg). Cautious paper-trading: scale into dips, cap exposure amid Fed hawkishness and oil volatility.",
+  "sector_rotation": "Tech (IT, semis like NVDA/Apple, cloud/AI capex) leading with double-digit growth; Comm Svc, Materials, Consumer Disc strong; Healthcare only decliner. Growth/momentum outperforming value/dividends short-term despite SCHD watchlist presence.",
+  "risk_flags": [
+    "Geopolitical: Iran war/talks, Strait of Hormuz oil risk ($100+ Brent volatile)",
+    "Fed: Steady rates, 4 dissenters (hawks vs cutters), no 2026 cuts likely",
+    "Valuations: S&P fwd P/E 21.0 (above 5/10yr avgs)",
+    "Consumer: Sentiment near 2022 lows (gas/tariffs), inflation watch pre-CPI",
+    "Upcoming: CPI/PPI/Retail Sales, Treasury auctions, new Fed Chair Warsh"
+  ],
+  "source_urls": [
+    "https://moneyandmarkets.com/wall-street-just-did-something-it-almost-never-does/",
+    "https://www.xtb.com/int/market-analysis/news-and-research/us-open-earnings-season-and-strong-nfp-report-drive-wall-street-higher",
+    "https://www.bls.gov/news.release/archives/empsit_05082026.htm",
+    "https://www.dtnpf.com/agriculture/web/ag/news/world-policy/article/2026/05/08/us-stocks-rise-toward-records-job",
+    "https://www.trustetc.com/blog/fed-rate-holds-steady/",
+    "https://insight.factset.com/sp-500-earnings-season-update-may-8-2026",
+    "https://www.finsyn.com/weekly-market-recap-may-8-2026/",
+    "https://www.fortressmortgageadvisors.com/post/mortgage-rates-outlook-may-2026",
+    "https://www.zacks.com/stock/news/2918424/3-stocks-showing-powerful-earnings-acceleration-this-may",
+    "https://economictimes.com/news/international/us/us-stock-market-rally-hard-today-why-are-the-sp-500-dow-jones-and-nasdaq-nearing-record-highs-as-nvidia-and-apple-explode-higher-on-strong-us-jobs-data-and-unstoppable-ai-fueled-tech-surge/amp_articleshow/130962974.cms"
+  ]
+}
 

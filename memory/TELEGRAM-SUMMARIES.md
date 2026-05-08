@@ -8692,4 +8692,46 @@ HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=1
 Self-learning: tier=watch-allocation-constrained repeat48h=20 fresh=yes bucket=dividend-etf-defensive
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-08 19:51:40 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities closed strong risk-on week at record highs amid stellar Q1 earnings beats (27.7% blended growth), robust jobs data, Fed steady; late Friday sees DT/SIMO/MUX momentum persist with fresh catalysts, rotation into value/mining/observability amid tech resilience and gold strength.
+Candidates: 4
+
+1. DT (information-technology-software) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 76/100 | tier execution-ready | bucket software-observability | HF source 9/100
+Recommendation: execute-if-guards-pass
+Catalyst: Q4 FY2026 earnings beat: revenue +18.18% YoY, margins expanded to 9.55%; +8% AH +6% intraday to $40.50; analysts maintain Overweight.
+Chittick Cash: Trades below historical multiples post-beat; strong FCF supports downside.
+HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=5 fresh=yes bucket=software-observability
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. SCHD (etf-dividend-value) | confidence 0.75 | allocation 4.0% | stop 8.0% | Chittick 35/100 | tier watch-allocation-constrained | bucket dividend-etf-defensive | HF source 9/100 | HF veto
+Recommendation: watch-allocation-constrained
+Catalyst: Ongoing post-Q1 2026 earnings sector rotation confirmation; #1 high-dividend ETF for 2026 passive income.
+Chittick Cash: Dividend yield + quality holdings provide buffer.
+HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=1
+Self-learning: tier=watch-allocation-constrained repeat48h=20 fresh=yes bucket=dividend-etf-defensive
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. MUX (materials-mining) | confidence 0.78 | allocation 5.0% | stop 8.0% | Chittick 35/100 | tier watch-allocation-constrained | bucket materials-mining | HF source 9/100 | HF veto
+Recommendation: watch
+Catalyst: Q1 2026: net income $33.4M ($0.56/sh) vs loss, revenue +107% to $74M; 114-126k GEO guidance reaffirmed.
+Chittick Cash: Profitable ops, guidance intact vs gold downside.
+HF filter: sentiment=not run source=9/100 hype=0.10 vetoes=1
+Self-learning: tier=watch-allocation-constrained repeat48h=9 fresh=yes bucket=materials-mining
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+4. ICLN (alternatives-clean-energy-etf) | confidence 0.75 | allocation 6.0% | stop 8.0% | Chittick 72/100 | tier watch | bucket clean-energy-etf | HF source 8/100
+Recommendation: watch
+Catalyst: Energy security crisis accelerating adoption; +47% 2025, +26% YTD Apr 2026; utilities/tech weightings.
+Chittick Cash: Broad holdings buffer.
+HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=1 fresh=yes bucket=clean-energy-etf
+Social buzz, low weight: none
+Congress signal, low weight: none
 
