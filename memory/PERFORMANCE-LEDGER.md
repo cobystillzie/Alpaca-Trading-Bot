@@ -279,4 +279,74 @@ Patience Gate
 
 Benchmark Context
 - Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## Performance Review - 2026-05-08 12:32:19 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-05-08 12:32:19 Eastern Daylight Time
+- Portfolio value: $100,221.37
+- P/L vs $100k baseline: $221.37
+- Full paper-account return: 0.221%
+- Managed-capital return: 2.21%
+- Deployed basis: $4,500.00
+- Return on deployed basis: 4.91%
+- Latest position value: $4,721.04
+- Full-account cash reserve: 95.3%
+- Managed-capital cash reserve: 52.8%
+- Max snapshot drawdown: $16.64 from 2026-04-30 16:30:02 Eastern Daylight Time to 2026-05-04 12:40:01 Eastern Daylight Time
+
+Open Position Review
+- DT: winner, value $819.07, unrealized P/L $19.07, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 0 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: winner, value $504.21, unrealized P/L $4.21, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 1 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: winner, value $857.18, unrealized P/L $57.18, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 8 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: winner, value $862.96, unrealized P/L $62.96, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 7 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $800.00, unrealized P/L $0.00, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 2 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $877.62, unrealized P/L $77.62, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 10 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- SPMO: appeared 32 times; open position P/L $77.62.
+- NVDA: appeared 26 times; open position P/L $62.96.
+- GOOGL: appeared 23 times; open position P/L $57.18.
+- SCHD: appeared 23 times; open position P/L $0.00.
+- INTC: appeared 22 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- WS: appeared 9 times; market outcome unavailable until benchmark/candidate price history is captured.
+- ADI: appeared 8 times; market outcome unavailable until benchmark/candidate price history is captured.
+- GLRE: appeared 8 times; open position P/L $4.21.
+- GSK: appeared 8 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Single-stock allocation would exceed 15%.: 7
+  - A market-open order is already logged for today. No backup order was placed.: 4
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources.: 2
+  - repeat_staleness HF source/hype filter rejects source-thin hype. HF memory filter flags similarity to prior rejected patterns.: 2
+  - Candidate references banned v1 instruments or leverage.: 1
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources. repeat_staleness HF source/hype filter rejects source-thin hype. HF memory filter flags similarity to prior rejected patterns.: 1
+  - HF memory filter flags similarity to prior rejected patterns.: 1
+- By symbol:
+  - GOOGL: 3
+  - PLTR: 3
+  - NVDA: 2
+  - SPMO: 2
+  - ADI: 1
+  - GSK: 1
+  - INTC: 1
+  - MUX: 1
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 1
+- No source URLs are stored for latest candidates.
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold not met: 6/15 trades and 10/21 days.
+- Keep strategy aggressiveness unchanged; prefer automation, logging, and review improvements.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
 

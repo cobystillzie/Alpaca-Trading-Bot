@@ -7468,4 +7468,235 @@ HF filter: sentiment=positive source=8/100 hype=0.10 vetoes=0
 Self-learning: tier=watch repeat48h=2 fresh=yes bucket=materials-mining-etf
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Performance Ledger - 2026-05-08 12:32:19 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-05-08 12:32:19 Eastern Daylight Time
+- Portfolio value: $100,221.37
+- P/L vs $100k baseline: $221.37
+- Full paper-account return: 0.221%
+- Managed-capital return: 2.21%
+- Deployed basis: $4,500.00
+- Return on deployed basis: 4.91%
+- Latest position value: $4,721.04
+- Full-account cash reserve: 95.3%
+- Managed-capital cash reserve: 52.8%
+- Max snapshot drawdown: $16.64 from 2026-04-30 16:30:02 Eastern Daylight Time to 2026-05-04 12:40:01 Eastern Daylight Time
+
+Open Position Review
+- DT: winner, value $819.07, unrealized P/L $19.07, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 0 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: winner, value $504.21, unrealized P/L $4.21, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 1 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: winner, value $857.18, unrealized P/L $57.18, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 8 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: winner, value $862.96, unrealized P/L $62.96, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 7 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $800.00, unrealized P/L $0.00, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 2 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $877.62, unrealized P/L $77.62, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 10 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- SPMO: appeared 32 times; open position P/L $77.62.
+- NVDA: appeared 26 times; open position P/L $62.96.
+- GOOGL: appeared 23 times; open position P/L $57.18.
+- SCHD: appeared 23 times; open position P/L $0.00.
+- INTC: appeared 22 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- WS: appeared 9 times; market outcome unavailable until benchmark/candidate price history is captured.
+- ADI: appeared 8 times; market outcome unavailable until benchmark/candidate price history is captured.
+- GLRE: appeared 8 times; open position P/L $4.21.
+- GSK: appeared 8 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Single-stock allocation would exceed 15%.: 7
+  - A market-open order is already logged for today. No backup order was placed.: 4
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources.: 2
+  - repeat_staleness HF source/hype filter rejects source-thin hype. HF memory filter flags similarity to prior rejected patterns.: 2
+  - Candidate references banned v1 instruments or leverage.: 1
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources. repeat_staleness HF source/hype filter rejects source-thin hype. HF memory filter flags similarity to prior rejected patterns.: 1
+  - HF memory filter flags similarity to prior rejected patterns.: 1
+- By symbol:
+  - GOOGL: 3
+  - PLTR: 3
+  - NVDA: 2
+  - SPMO: 2
+  - ADI: 1
+  - GSK: 1
+  - INTC: 1
+  - MUX: 1
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 1
+- No source URLs are stored for latest candidates.
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold not met: 6/15 trades and 10/21 days.
+- Keep strategy aggressiveness unchanged; prefer automation, logging, and review improvements.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## Midday Memo - 2026-05-08 12:32:19 Eastern Daylight Time
+
+Midday Risk Memo
+
+Recommendation: Hold only positions whose thesis still matches the research; do not add unless guardrails pass.
+
+Market Regime
+Review current paper positions, thesis drift, concentration, stop discipline, and cash reserve.
+
+Portfolio
+Portfolio value: 100221.37 Cash: 95500 Buying power: 195721.37 Positions: - DT: qty=20.289119959, market_value=819.071773, unrealized_pl=19.071773 - GLRE: qty=28.042624789, market_value=504.206394, unrealized_pl=4.206394 - GOOGL: qty=2.151289429, market_value=857.181273, unrealized_pl=57.181273 - NVDA: qty=4.00060009, market_value=862.961444, unrealized_pl=62.961444 - SCHD: qty=25.2286345, market_value=800.002523, unrealized_pl=0.002523 - SPMO: qty=6.119014838, market_value=877.619703, unrealized_pl=77.619703 Performance: value $100,221.37, P/L vs $100k $221.37, managed return 2.21%, deployed return 4.91%, managed cash reserve 52.8%.
+
+Top Candidates
+
+1. DT (information-technology-software) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 76/100 | tier execution-ready | bucket software-observability | HF source 9/100
+Thesis: Quality observability software with resilient demand, margin expansion; recent earnings beat confirms momentum in risk-on rotation to software.
+Catalyst: Q4 FY2026 earnings beat: revenue +18.18% YoY, margins to 9.55%; +8% AH +6% intraday to $40.50; analysts maintain Overweight.
+Entry: Enter 50% at open Monday if above $40; add on pullback to $39-40.
+Exit: Take profits at +12-15% ($45-46); invalidate below $38 (earnings low).
+Risk/reward: 8% stop vs 15% target = 1.9:1; defined post-earnings breakout.
+Bear/adversary: Guide may underwhelm if IT budgets tighten; recent PT cuts.
+Source quality: Earnings release + analyst notes; high-quality primary data.
+Chittick Cash Filter
+Score: 76/100
+Margin of safety: Trades at reasonable multiple post-beat; cash-rich BS buffers downside.
+Valuation: Attractive vs software peers on growth/margin trajectory.
+Growth runway: Observability demand from cloud/AI; 20%+ rev growth potential.
+Balance-sheet risk: Low debt, positive FCF inflection.
+Capital allocation: Shareholder-friendly buybacks, R&D discipline.
+Concentration case: Clear leader in niche vs broad software ETFs.
+Owner thesis, 30-180 days: If margins >12% and rev +20% Q1, review 90-day hold on AI tailwinds.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 3
+Diversity bucket: software-observability
+Research tier: execution-ready
+Allocation learning: none
+Hugging Face Filter
+Sentiment: positive (0.82), agreement 0.00
+Source quality: 9/100
+Hype risk: 0.10
+Evidence rank: 9/100
+Memory similarity: 0.10
+Vetoes: none
+Model notes: Fresh earnings beat, low repeat.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
+
+2. SCHD (etf-dividend-value) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 78/100 | tier execution-ready | bucket dividend-etf-defensive | HF source 9/100
+Thesis: Premier dividend ETF in ongoing value rotation; quality defensives with yield + growth.
+Catalyst: Post-Q1 2026 sector rotation confirmation; Morningstar Gold #1 for 2026 income.
+Entry: Add on dip to $28 if holds; scale in 2-3% tranches.
+Exit: Trail stops at 8% below recent high; profits above $30.50.
+Risk/reward: 8% stop vs 10% upside to rotation highs; low vol 1.25:1.
+Bear/adversary: High repeat count; opportunity cost if SMIDs run harder.
+Source quality: Morningstar ratings + ETF data; top-tier.
+Chittick Cash Filter
+Score: 78/100
+Margin of safety: Diversified, 3.5% yield cushions downside.
+Valuation: Discount to fair value in rotation.
+Growth runway: Dividend aristocrats + MLPs for 5-7% total return.
+Balance-sheet risk: Minimal; ETF structure.
+Capital allocation: Rules-based quality filter.
+Concentration case: Diversified alternative to single-stock risks.
+Owner thesis, 30-180 days: Core 30-180 day position in any regime.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: momentum
+Fresh catalyst: yes
+Repeat count, 48h: 21
+Diversity bucket: dividend-etf-defensive
+Research tier: execution-ready
+Allocation learning: Core position; cap at 15%.
+Hugging Face Filter
+Sentiment: positive (0.82), agreement 0.00
+Source quality: 9/100
+Hype risk: 0.00
+Evidence rank: 9/100
+Memory similarity: 0.90
+Vetoes: none
+Model notes: High repeat but fresh rotation evidence.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
+
+3. MUX (materials-mining) | confidence 0.78 | allocation 5.0% | stop 8.0% | Chittick 35/100 | tier watch-allocation-constrained | bucket materials-mining | HF source 9/100 | HF veto
+Thesis: High-quality miner with earnings turnaround, reaffirmed GEO guidance; materials strength.
+Catalyst: Q1 2026: net income $33.4M ($0.56/sh) vs loss, revenue +107% to $74M; 114-126k GEO guidance intact.
+Entry: Small tranche 3% at $2.20+ if volume confirms.
+Exit: Profits at $2.60 (20%); stop below $1.95.
+Risk/reward: 8% stop vs 20% to guidance highs; 2.5:1.
+Bear/adversary: Allocation constrained previously; HF veto history.
+Source quality: Earnings release; reputable.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Low debt, FCF covers dividends.
+Valuation: Cheap vs GEO reserves.
+Growth runway: San José ramp + exploration.
+Balance-sheet risk: Modest debt, hedged production.
+Capital allocation: Dividend focus, no dilution.
+Concentration case: Single-asset but diversified GEOs vs GDX.
+Owner thesis, 30-180 days: If GEO >120k and gold >$2600, 90-day review.
+Chittick reject reason: Prior allocation constraint
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 8
+Diversity bucket: materials-mining
+Research tier: watch-allocation-constrained
+Allocation learning: Propose smaller tranche post-constraint.
+Hugging Face Filter
+Sentiment: positive (0.78), agreement 0.00
+Source quality: 9/100
+Hype risk: 0.20
+Evidence rank: 8/100
+Memory similarity: 0.60
+Vetoes: allocation-constrained
+Model notes: Fresh Q1 beat offsets repeat.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
+
+4. GDX (materials-mining-etf) | confidence 0.75 | allocation 8.0% | stop 8.0% | Chittick 72/100 | tier watch | bucket materials-mining-etf | HF source 8/100
+Thesis: Mining ETF capturing relative strength; diversified materials play.
+Catalyst: Miners at new highs vs bullion consolidation; silver/Canadian leadership.
+Entry: Enter on pullback to $42.
+Exit: Profits $46; stop $40.
+Risk/reward: 8% stop vs 12% target; 1.5:1.
+Bear/adversary: Commodity cycle top risks.
+Source quality: Market technicals; good.
+Chittick Cash Filter
+Score: 72/100
+Margin of safety: Diversified holdings.
+Valuation: Attractive vs physical gold.
+Growth runway: Silver/miner leverage to metals.
+Balance-sheet risk: ETF low.
+Capital allocation: Index.
+Concentration case: Broad alt to singles like MUX.
+Owner thesis, 30-180 days: If miners-gold spread widens, 60-day.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: momentum
+Fresh catalyst: yes
+Repeat count, 48h: 3
+Diversity bucket: materials-mining-etf
+Research tier: watch
+Allocation learning: none
+Hugging Face Filter
+Sentiment: positive (0.75), agreement 0.00
+Source quality: 8/100
+Hype risk: 0.10
+Evidence rank: 8/100
+Memory similarity: 0.20
+Vetoes: none
+Model notes: Diversity bucket filler.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
 
