@@ -6611,4 +6611,123 @@ SEC/company quality check:
   "quality_notes": "Predominantly pre-revenue/loss-making tech (SES batteries/AI, DRCT adtech, INUV adtech) with high execution risks, no durable demand evidence. Revenue quality poor: concentration (INUV 83%, DRCT customer pause), unproven markets (SES UAM/drones). Balance sheets weak across board (deficits $28M-$372M, going concern DRCT/INUV). Capital allocation dilution-heavy. No GOOGL/GOOG, INTC, USAR, GT. Avoid watchlist addition: high risk, no profitability path near-term.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-08 17:49:49 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results returned. Unable to scan public web/social-attention coverage for unusual discussion around liquid US stocks/ETFs. Analysis limited to existing memory candidates only.",
+  "social_buzz": {
+    "status": "no_data",
+    "note": "Search returned empty. Cannot assess social sentiment, retail chatter, or hype signals.",
+    "risk_flag": "Absence of data prevents weak-context social validation. Rely on fundamentals and HF source signals only."
+  },
+  "attention_anomalies": {
+    "candidates_with_momentum_signals": [
+      {
+        "symbol": "SIMO",
+        "sector": "technology-semiconductors",
+        "signal": "+100% past month on AI/edge catalysts",
+        "risk": "Extreme move warrants caution; WallStreetZen A Strong Buy sentiment may reflect hype. Verify fundamentals independently.",
+        "recommendation": "watch—do not chase momentum without earnings/guidance confirmation"
+      },
+      {
+        "symbol": "ICLN",
+        "sector": "alternatives-clean-energy-etf",
+        "signal": "+47% in 2025, +26% YTD Apr 2026; energy security crisis narrative",
+        "risk": "Thematic hype (energy security) can inflate valuations. Sector rotation context noted but not sufficient for trade trigger.",
+        "recommendation": "watch—monitor for mean-reversion or valuation reset"
+      },
+      {
+        "symbol": "MTUM",
+        "sector": "factor-momentum-etf",
+        "signal": "Biggest reversal in 5 years (-1.8% Thursday); Goldman high-beta basket -8%",
+        "risk": "Risk-off reversal suggests potential mean-reversion trap. Avoid chasing.",
+        "recommendation": "avoid—flagged as stale-watch"
+      }
+    ]
+  },
+  "execution_ready_candidates": [
+    {
+      "symbol": "DT",
+      "confidence": 0.82,
+      "catalyst": "Q4 FY2026 earnings beat: revenue +18.18% YoY, margins +9.55%; +8% AH +6% intraday to $40.50",
+      "status": "execute-if-guards-pass",
+      "note": "Fundamentals-driven (earnings, revenue growth, margin expansion). Analyst Overweight maintained despite PT trims."
+    },
+    {
+      "symbol": "SCHD",
+      "confidence": 0.82,
+      "catalyst": "Post-Q1 2026 sector rotation; Morningstar Gold #1 high-dividend ETF for 2026",
+      "status": "execute-if-guards-pass",
+      "note": "Defensive positioning. Sector rotation is macro context, not hype. Repeat candidate (20 cycles) suggests stable fundamentals."
+    }
+  ],
+  "watch_candidates": [
+    {
+      "symbol": "MUX",
+      "confidence": 0.78,
+      "catalyst": "Q1 2026: net income $33.4M ($0.56/sh) vs prior loss; revenue +107% to $74M; 114-126k GEO guidance intact",
+      "status": "watch-allocation-constrained",
+      "note": "Strong earnings recovery. Allocation constraint and 1 HF veto noted. Monitor for position sizing."
+    },
+    {
+      "symbol": "GDX",
+      "confidence": 0.75,
+      "catalyst": "Miners at new highs vs bullion consolidation; silver/Canadian leadership",
+      "status": "watch",
+      "note": "Sector momentum (mining ETF). Relative strength vs bullion is technical context, not fundamental trigger."
+    },
+    {
+      "symbol": "VSTE",
+      "confidence": 0.68,
+      "catalyst": "Top cash-producer; trading $18.06 (37x fwd P/E) amid energy security focus",
+      "status": "watch",
+      "note": "Valuation elevated (37x fwd P/E). Energy security narrative is thematic hype; verify cash flow fundamentals."
+    }
+  ],
+  "source_urls": [],
+  "data_quality_note": "Search returned no results. All analysis derived from existing memory (HF source signals, earnings data, analyst ratings). Social buzz assessment impossible without web/social data. Recommendations remain fundamentals-first; thematic narratives (energy security, AI, clean energy) flagged as weak context only."
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No recent congressional disclosures found for liquid US stocks/ETFs.",
+  "congressional_signal": "none",
+  "tickers": [],
+  "source_urls": []
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "Direct Digital Holdings (DRCT) operates a programmatic advertising platform (Colossus SSP) with sell-side and buy-side services, emphasizing IVT mitigation, high client retention (90%), and multicultural audiences. 2025 revenue $34.7M (down sharply from $157.1M in 2023 due to major sell-side customer pause from defamatory article), gross profit $10.4M, cash $0.7M, accumulated deficit $27.7M. Substantial going concern doubt; credit covenants ($450k min cash); high customer concentration; Nasdaq delisting risk. Inuvo (INUV) provides AI-driven advertising tech (IntentKey) with strong IP (18 patents); revenue growth but history of losses ($178M accum. deficit), 83.5% from 2 customers. Other filings (NeoVolta, iCoreConnect, etc.) show microcap risks but less relevant.",
+  "filing_risks": {
+    "DRCT": [
+      "Going concern doubt: Insufficient cash for 12 months; depends on cost cuts, sell-side recovery, new funding (accum. deficit $27.7M, cash $0.7M)",
+      "Revenue concentration: 2024-2025 revenue drop from one sell-side customer pause (defamatory article); high reliance on few clients (195 buy-side, key sell-side)",
+      "Balance sheet: Credit facilities covenants (min $450k cash); term debt matures Dec 2026; potential default/acceleration",
+      "Dilution: Additional equity/debt may dilute shareholders",
+      "Nasdaq delisting risk: Failure to meet listing standards",
+      "Revenue quality: Sharp declines 2024 ($62.3M) / 2025 ($34.7M) despite prior growth; reorganization July 2024",
+      "Operational: IVT/ad fraud, platform issues, cookie restrictions, acquisitions integration",
+      "Capital allocation: Strategic shift to buy-side/enterprise unproven"
+    ],
+    "INUV": [
+      "Customer concentration: 2 customers 83.5% revenue (64.2% + 19.3%)",
+      "Loss history: Accum. deficit $178.3M; net working capital deficit $5.1M; cash $2.8M",
+      "Revenue quality: Modest 2.9% growth but gross margins down 10.1% to 74.5%; operating loss $5.1M",
+      "Dependence: Key suppliers (Yahoo/Google); seasonality; NYSE American listing risk"
+    ],
+    "Others": [
+      "NEOV: Early-stage ESS manufacturer; competition from Tesla/Enphase; regulatory hurdles",
+      "ICCT: Limited history post-merger; no patents; healthcare SaaS competition",
+      "CRMZ: SaaS credit monitoring; fragmented market; low revenue share (1% TAM)"
+    ]
+  },
+  "quality_notes": "DRCT shows deteriorating revenue quality (halved+ in 2025), weak balance sheet (going concern, low cash), high concentration on paused customer; no durable demand evidence amid 'misinformation campaign'. INUV has IP moat (18 patents) and AI edge but extreme concentration (83% from 2 customers), persistent losses. No strong durable-demand signals; both microcaps with dilution/listing risks. Avoid watchlist addition.",
+  "source_urls": []
+}
 

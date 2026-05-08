@@ -3015,4 +3015,29 @@ For a cautious bot workflow on May 4, 2026:
     "https://www.citadelsecurities.com/news-and-insights/may-toolkit/"
   ]
 }
+## Market Regime Research - 2026-05-08 17:49:49 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities rallying hard toward record highs (S&P 500 +0.73% to 7390, Nasdaq +1.12% to 26094, Dow +0.28% to 49736) on blowout April jobs data (115k vs expected ~60k), AI/tech leadership (NVDA>214, AAPL>294), and falling Treasury yields (10yr to 4.35%). Resilience defies $100 oil, Iran/Hormuz tensions, and weak global sentiment. Narrow leadership with tech/semiconductors dominating; 6th straight S&P winning week.",
+  "market_regime": "risk_on_bullish_momentum",
+  "sector_rotation": "tech_ai_semiconductors_outperforming; narrow_rally_with_mega_caps_leading; rotation_into_quality_ai_infrastructure_over_hype",
+  "risk_flags": [
+    "geopolitical_escalation_iran_hormuz_oil_shock",
+    "elevated_oil_100_brent_potential_inflation_spillover",
+    "fed_hike_pricing_52_odds_by_2026_vs_cut_guidance",
+    "rising_volatility_indicators",
+    "diverging_consumer_sentiment_vs_labor_strength",
+    "yield_volatility_mortgage_rates_ticking_up"
+  ],
+  "source_urls": [
+    "https://economictimes.com/news/international/us/us-stock-market-rally-hard-today-why-are-the-sp-500-dow-jones-and-nasdaq-nearing-record-highs-as-nvidia-and-apple-explode-higher-on-strong-us-jobs-data-and-unstoppable-ai-fueled-tech-surge/articleshow/130962974.cms",
+    "https://www.trustetc.com/blog/fed-rate-holds-steady/",
+    "https://www.vaneck.com/us/en/blogs/moat-investing/moat-strategies-join-tech-led-april-rebound/",
+    "https://themortgagereports.com/mortgage-rates-now/mortgage-rates-today-may-8-2026",
+    "https://www.ainvest.com/news/fed-funds-rate-futures-price-hike-odds-50-market-diverges-fed-cut-guidance-2605/",
+    "https://www.housingwire.com/articles/jobs-data-stabilizes-giving-fed-hawks-more-reason-not-to-cut-rates/"
+  ]
+}
+```
 

@@ -8626,4 +8626,46 @@ Model notes: Fresh, low repeat; semi bucket diversity.
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: none
+## Research Update - 2026-05-08 17:49:49 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities closed the week strongly with S&P 500 +0.73% to 7390, Nasdaq +1.12% to 26094 amid blowout April jobs (115k vs ~60k expected), AI/tech leadership, and falling 10yr yields to 4.35%. Narrow rally led by mega-caps/semiconductors defies $100 oil and geopolitical risks. After-hours quiet; focus on earnings momentum in software/mining/adtech.
+Candidates: 4
+
+1. DT (information-technology-software) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 76/100 | tier execution-ready | bucket software-observability | HF source 9/100
+Recommendation: execute-if-guards-pass
+Catalyst: Q4 FY2026 earnings beat: revenue +18.18% YoY to est-beat, margins expanded to 9.55%; +8% AH +6% intraday to $40.50.
+Chittick Cash: Post-beat derating provides buffer; cash flow positive with margin gains vs peak valuations.
+HF filter: sentiment=positive_earnings_momentum source=9/100 hype=0.10 vetoes=0
+Self-learning: tier=execution-ready repeat48h=4 fresh=yes bucket=software-observability
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. SCHD (etf-dividend-value) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 78/100 | tier watch-allocation-constrained | bucket dividend-etf-defensive | HF source 9/100
+Recommendation: execute-if-guards-pass
+Catalyst: Post-Q1 2026 earnings sector rotation confirmation; Morningstar Gold-rated #1 high-dividend ETF for 2026 passive income.
+Chittick Cash: Discount to fair value; dividend cover buffers downside.
+HF filter: sentiment=defensive_stable source=9/100 hype=0.00 vetoes=0
+Self-learning: tier=watch-allocation-constrained repeat48h=20 fresh=yes bucket=dividend-etf-defensive
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. MUX (materials-mining) | confidence 0.78 | allocation 5.0% | stop 8.0% | Chittick 35/100 | tier watch-allocation-constrained | bucket materials-mining | HF source 9/100 | HF veto
+Recommendation: watch
+Catalyst: Q1 2026: net income $33.4M ($0.56/sh) vs loss, revenue +107% to $74M; 114-126k GEO guidance reaffirmed.
+Chittick Cash: Guidance intact post-beat; asset value covers downside.
+HF filter: sentiment=earnings_recovery source=9/100 hype=0.20 vetoes=1
+Self-learning: tier=watch-allocation-constrained repeat48h=8 fresh=yes bucket=materials-mining
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+4. SIMO (technology-semiconductors) | confidence 0.70 | allocation 5.0% | stop 8.0% | Chittick 75/100 | tier execution-ready | bucket technology-semiconductors | HF source 8/100
+Recommendation: watch
+Catalyst: +100% past month on AI/edge computing catalysts; WallStreetZen A Strong Buy.
+Chittick Cash: Post-run consolidation needed; book value buffer.
+HF filter: sentiment=momentum_strong_buy source=8/100 hype=0.40 vetoes=0
+Self-learning: tier=execution-ready repeat48h=2 fresh=yes bucket=technology-semiconductors
+Social buzz, low weight: low-weight momentum signal
+Congress signal, low weight: none
 
