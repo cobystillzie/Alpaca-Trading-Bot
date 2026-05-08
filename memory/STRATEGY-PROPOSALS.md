@@ -266,4 +266,270 @@ Weekly review may propose changes here. Routine runs must not rewrite executable
   ]
 }
 ```
+## Weekly Strategy Proposals - 2026-05-08 17:25:51 Eastern Daylight Time
+
+```json
+{
+  "analysis_date": "2026-05-08",
+  "status": "CAUTIOUS - SIGNIFICANT OPERATIONAL ISSUES DETECTED",
+  "critical_findings": {
+    "stale_ticker_concentration": {
+      "severity": "HIGH",
+      "evidence": [
+        "SCHD: 20 repeat cycles in 48 hours (2026-05-06 to 2026-05-08)",
+        "MUX: 7 repeat cycles, confidence degrading (0.82→0.78), HF veto flag appeared",
+        "GLRE: 7 repeat cycles, static catalyst text",
+        "WS: 8 repeat cycles, identical 10-K commentary",
+        "VYM: 11 repeat cycles, allocation-constrained status"
+      ],
+      "root_cause": "Memory system not pruning stale candidates; research loop recycling same tickers without new catalyst discovery",
+      "impact": "Portfolio concentration risk; diminishing research signal-to-noise ratio"
+    },
+    "allocation_blocking_pattern": {
+      "severity": "HIGH",
+      "evidence": [
+        "VYM flagged 'watch-allocation-constrained' (2026-05-07 07:16:10)",
+        "MUX flagged 'watch-allocation-constrained' (2026-05-08 10:51:27)",
+        "SCHD locked at 8.0% allocation across 20 cycles",
+        "No portfolio rebalancing or exit signals observed"
+      ],
+      "root_cause": "Allocation ceiling hit but no position-sizing strategy or trim logic triggered",
+      "impact": "Execution paralysis on high-conviction candidates; capital inefficiency"
+    },
+    "rejected_trade_analysis": {
+      "severity": "MEDIUM",
+      "pattern": "Allocation ceiling + leverage ban + social-signal weakness",
+      "rejected_count": 13,
+      "key_rejections": [
+        "SPMO: 3x rejected (allocation ceiling)",
+        "GOOGL: 3x rejected (allocation ceiling)",
+        "NVDA: 2x rejected (allocation ceiling)",
+        "PLTR: 4x rejected (banned v1 leverage + weak social signal + staleness)",
+        "INTC/ADI/GSK: Rejected for staleness + HF memory filter similarity flags"
+      ],
+      "interpretation": "System correctly blocking over-concentration but lacks dynamic rebalancing to unlock capital"
+    }
+  },
+  "filter_quality_assessment": {
+    "chittick_cash_score": {
+      "rating": "NEUTRAL_TO_WEAK",
+      "observation": "Scores range 42–78; no clear correlation with execution-ready tier or confidence",
+      "example_noise": [
+        "DRCT (adtech): Chittick 42, HF Source 0, confidence 0.55 → still execution-ready",
+        "INUV (adtech): Chittick 52, confidence 0.68 → watch tier",
+        "Inconsistent weighting suggests Chittick not primary decision driver"
+      ],
+      "verdict": "Added complexity without improving candidate ranking; consider deprecating or reweighting"
+    },
+    "hugging_face_filters": {
+      "rating": "MIXED_SIGNAL",
+      "positive": [
+        "HF Source/Veto flags caught PLTR leverage references (correct)",
+        "Memory similarity filter flagged ADI/GSK/INTC repeats (correct)"
+      ],
+      "negative": [
+        "HF Source counts (0, 7, 8, 9) lack transparency; unclear what constitutes 'source'",
+        "HF Veto column mostly 0–1; low signal frequency",
+        "MUX veto appeared late (2026-05-08) after 7 cycles; delayed detection"
+      ],
+      "verdict": "Useful for hard blocks (leverage, banned instruments) but noisy for ranking; improve source taxonomy"
+    },
+    "social_buzz_congressional_signals": {
+      "rating": "WEAK_TO_NOISE",
+      "evidence": [
+        "PEG: 15 repeats on 'low-weight congressional volume signal' alone",
+        "FATE: Officer option exercise flagged as +49.67% monthly gainer (insider activity ≠ catalyst)",
+        "DRCT: Hermes awards (9,360% ROI claim) cited but no earnings/guidance follow-up",
+        "Congressional signal on PEG never escalated despite 15 cycles"
+      ],
+      "verdict": "Social/congressional signals are low-conviction noise; require corroboration with earnings, guidance, or technical setup"
+    }
+  },
+  "sector_diversity_audit": {
+    "overweight_sectors": [
+      "Materials/Mining: MUX, GDX, FSM, OLA (4 candidates, 7–8% allocations)",
+      "Dividend/Value ETFs: SCHD, VYM (2 candidates, 14% combined allocation)",
+      "Adtech/Communication: APP, PUBM, TTD, DRCT, INUV, LAMR (6 candidates, 3–7% allocations)"
+    ],
+    "underweight_sectors": [
+      "Healthcare/Biotech: MNKD, FATE (2 candidates, 3–6% allocations)",
+      "Consumer: JMIA, QSR, DG, HLF (4 candidates, 3–7% allocations)"
+    ],
+    "concentration_risk": "Materials/mining cluster (MUX, GDX, FSM, OLA) represents 20–25% of execution-ready candidates; commodity price correlation risk",
+    "verdict": "Sector rotation thesis (value post-tech) is sound but execution is concentrated; diversify within materials and add healthcare/consumer depth"
+  },
+  "research_output_quality": {
+    "repetitive_catalyst_language": {
+      "severity": "HIGH",
+      "examples": [
+        "SCHD: 'Sustained sector rotation post-Q1 tech narrowness' (repeated verbatim 20x)",
+        "WS: '28 facilities, Sitem acquisition' (repeated 8x with no new details)",
+        "GLRE: 'Combined ratio 96% (from 104.6%)' (repeated 7x)",
+        "MUX: 'Reaffirmed 114-126k GEO guidance' (repeated 7x)"
+      ],
+      "root_cause": "Memory system not detecting duplicate catalyst text; research loop not advancing narrative",
+      "impact": "False confidence in 'fresh' candidates; analyst fatigue risk"
+    },
+    "catalyst_staleness": {
+      "observation": "Q1 2026 earnings (late April) cited as fresh through May 8; no new catalysts discovered in 48-hour window",
+      "example": "MNKD: Q1 results on 5/6 drove +41% surge; candidate appears once (2026-05-07 03:13:19) then disappears",
+      "verdict": "Research loop not capturing intraday momentum or follow-on catalysts (analyst upgrades, guidance, insider activity)"
+    },
+    "new_candidate_discovery": {
+      "count": "~15 new tickers in 48-hour window (JMIA, QSR, LAMR, SIMO, SANM, GDX, APP, PUBM, TTD, DT, ICLN, VSTE, MTUM, YOU, OLA)",
+      "quality": "Mixed; some strong (APP/PUBM earnings beats, DT observability trend), others weak (MTUM flagged 'avoid' on reversal, VSTE low conviction)",
+      "verdict": "Discovery engine working but lacks filtering discipline; too many marginal candidates dilute signal"
+    }
+  },
+  "lessons_learned": {
+    "lesson_1_memory_compaction": {
+      "title": "Implement Aggressive Candidate Pruning",
+      "detail": "SCHD at 20 repeats, MUX at 7, GLRE at 7 indicates memory system not retiring stale candidates. Implement TTL (time-to-live) or repeat-count threshold (e.g., retire after 5 cycles without new catalyst or execution).",
+      "action": "Add memory.prune_stale_candidates(max_repeats=5, catalyst_age_days=7) to research loop"
+    },
+    "lesson_2_allocation_rebalancing": {
+      "title": "Unlock Capital via Dynamic Position Sizing",
+      "detail": "VYM and MUX marked 'allocation-constrained' but no trim/exit logic triggered. Implement portfolio rebalancing: if candidate confidence drops or new higher-conviction candidate emerges, trim lower-conviction position to free allocation.",
+      "action": "Add rebalance_check(trim_threshold=0.65_confidence, free_allocation_target=5%) before execution gate"
+    },
+    "lesson_3_filter_transparency": {
+      "title": "Deprecate or Clarify Chittick Cash Score",
+      "detail": "Chittick scores (42–78) show no clear correlation with execution tier or confidence. Either reweight significantly or remove from candidate ranking.",
+      "action": "Run correlation analysis: Chittick vs. (confidence, execution_tier, post_execution_return). If r² < 0.3, deprecate."
+    },
+    "lesson_4_social_signal_validation": {
+      "title": "Require Multi-Source Corroboration for Social/Congressional Signals",
+      "detail": "PEG's 15 repeats on 'low-weight congressional volume' alone is noise. PLTR correctly rejected for weak social signal. Require: (1) earnings/guidance, (2) insider activity, OR (3) technical breakout + social signal.",
+      "action": "Add signal_weight_gate: social_signal alone max_confidence=0.50; require second source for execution-ready"
+    },
+    "lesson_5_catalyst_freshness": {
+      "title": "Enforce Catalyst Novelty Check",
+      "detail": "Identical catalyst text repeated 20x (SCHD) or 8x (WS) indicates memory not detecting duplicates. Implement semantic similarity check: if catalyst text matches prior 3 cycles, flag as 'stale' and lower confidence.",
+      "action": "Add catalyst_novelty_check(similarity_threshold=0.85) to candidate scoring"
+    },
+    "lesson_6_earnings_follow_through": {
+      "title": "Capture Post-Earnings Momentum and Analyst Response",
+      "detail": "MNKD +41% on 5/6 earnings but appears only once; YOU beat earnings but D.A. Davidson downgrade caused -6.8% despite strong results. Research loop not tracking analyst response or intraday momentum.",
+      "action": "Add post_earnings_tracking: capture analyst upgrades/downgrades and intraday price action for 5 days post-earnings"
+    }
+  },
+  "rejected_patterns_analysis": {
+    "allocation_ceiling_trap": {
+      "pattern": "SPMO, GOOGL, NVDA rejected 2–3x each for exceeding 15% single-stock allocation",
+      "root_cause": "No dynamic rebalancing; portfolio locked at ceiling",
+      "fix": "Implement trim logic: if high-conviction candidate (conf > 0.80) blocked by allocation, trim lowest-conviction position in same sector"
+    },
+    "leverage_ban_effectiveness": {
+      "pattern": "PLTR rejected 4x for 'banned v1 instruments or leverage'",
+      "assessment": "CORRECT; PLTR is known for leverage/derivatives marketing. Ban is working.",
+      "note": "However, PLTR also rejected for 'low-weight social/congress signal needs at least two stronger sources' — this is the right reason; leverage ban is secondary"
+    },
+    "hf_memory_filter_false_positives": {
+      "pattern": "INTC, ADI, GSK rejected for 'HF memory filter flags similarity to prior rejected patterns'",
+      "concern": "Unclear what 'similarity' means; risk of over-filtering good candidates",
+      "recommendation": "Log similarity scores and rejected-candidate features; audit for false positives monthly"
+    },
+    "market_open_execution_skip": {
+      "pattern": "3x skipped (2026-05-06, 2026-05-07, 2026-05-08) with message 'A market-open order is already logged for today'",
+      "interpretation": "System correctly preventing duplicate market-open orders",
+      "note": "Verify that backup orders are being placed at alternative times (e.g., 10:30 AM, 2 PM) to avoid missed execution windows"
+    }
+  },
+  "safe_code_and_prompt_changes": {
+    "change_1_memory_pruning": {
+      "type": "CODE",
+      "priority": "CRITICAL",
+      "pseudocode": "if candidate.repeat_count > 5 and (now - candidate.last_catalyst_date) > 7_days: candidate.tier = 'stale-watch'; confidence *= 0.7",
+      "rationale": "Prevent SCHD/MUX/GLRE from cycling indefinitely"
+    },
+    "change_2_catalyst_novelty": {
+      "type": "CODE",
+      "priority": "CRITICAL",
+      "pseudocode": "catalyst_similarity = semantic_similarity(current_catalyst, prior_3_catalysts); if catalyst_similarity > 0.85: confidence *= 0.8; flag 'catalyst_stale'",
+      "rationale": "Detect and penalize repeated catalyst language"
+    },
+    "change_3_allocation_rebalance": {
+      "type": "CODE",
+      "priority": "HIGH",
+      "pseudocode": "if candidate.confidence > 0.80 and candidate.allocation_blocked: trim_candidate = portfolio.min_confidence_in_sector(candidate.sector); trim_amount = 2%; rebalance(trim_candidate, trim_amount); retry_execution(candidate)",
+      "rationale": "Unlock capital for high-conviction candidates"
+    },
+    "change_4_signal_weighting": {
+      "type": "PROMPT",
+      "priority": "HIGH",
+      "current": "Social buzz and congressional signals treated as equal-weight sources",
+      "proposed": "Social/congressional signals alone max_confidence=0.50. Require corroboration: earnings beat, guidance raise, insider buy, OR technical breakout (>5% intraday move on volume spike)",
+      "rationale": "Reduce noise from low-conviction social signals (PEG 15 repeats, FATE officer options)"
+    },
+    "change_5_post_earnings_tracking": {
+      "type": "CODE",
+      "priority": "MEDIUM",
+      "pseudocode": "if candidate.catalyst_type == 'earnings': track_analyst_response(candidate, days=5); capture(price_action, upgrades, downgrades); update_confidence based on (beat_magnitude, analyst_consensus_shift)",
+      "rationale": "Capture MNKD +41% momentum and YOU downgrade-despite-beat pattern"
+    },
+    "change_6_chittick_deprecation": {
+      "type": "ANALYSIS",
+      "priority": "MEDIUM",
+      "action": "Run correlation: Chittick_score vs. (confidence, execution_tier, post_execution_return). If r² < 0.3, remove from ranking formula.",
+      "rationale": "Chittick scores (42–78) show no clear predictive power; simplify candidate scoring"
+    },
+    "change_7_hf_filter_transparency": {
+      "type": "LOGGING",
+      "priority": "MEDIUM",
+      "action": "Log HF Source definitions (what counts as 'source'?), HF Veto triggers, and memory similarity scores for rejected candidates. Audit monthly for false positives.",
+      "rationale": "Improve auditability of HF filter decisions"
+    },
+    "change_8_backup_execution_windows": {
+      "type": "CODE",
+      "priority": "LOW",
+      "action": "If market-open order already logged, place backup orders at 10:30 AM, 2 PM, and 3:30 PM (close) to ensure execution on high-conviction candidates",
+      "rationale": "Prevent missed execution windows due to duplicate-order prevention"
+    }
+  },
+  "self_learning_directives": {
+    "directive_1": "After each research cycle, compute repeat_count and catalyst_age for all candidates. Flag candidates with repeat_count > 5 as 'stale' and reduce confidence by 30%. Retire after 10 repeats unless new catalyst emerges.",
+    "directive_2": "Track post-execution returns for each candidate by (confidence_tier, sector, catalyst_type). Identify which catalyst types (earnings, guidance, insider, technical) correlate with positive returns. Reweight research loop to prioritize high-ROI catalyst types.",
+    "directive_3": "Monthly audit: compare Chittick scores, HF Source counts, and HF Veto flags against post-execution returns. Identify filters with low predictive power and deprecate or reweight.",
+    "directive_4": "Implement A/B testing: run two research loops in parallel for 30 days — one with social/congressional signals, one without. Compare Sharpe ratio, max drawdown, and win rate. Decide whether to keep or deprecate social signals.",
+    "directive_5": "Track allocation-constrained candidates. If a candidate remains allocation-constrained for >3 cycles, trigger rebalancing review: either trim lower-conviction position or reject candidate as 'permanently blocked'.",
+    "directive_6": "Capture analyst response (upgrades, downgrades, PT changes) for 5 days post-earnings. Correlate analyst consensus shift with post-execution return. Identify if analyst downgrades (e.g., YOU, TTD) are predictive of underperformance.",
+    "directive_7": "Log all rejected trades with rejection reason and timestamp. Monthly: identify rejection patterns (e.g., 'allocation ceiling' vs. 'leverage ban' vs. 'staleness'). If allocation ceiling is top rejection reason, escalate rebalancing priority."
+  },
+  "summary_and_recommendations": {
+    "overall_assessment": "Research system is generating candidates but suffering from memory bloat, allocation gridlock, and low-quality signal filtering. SCHD/MUX/GLRE cycling 7–20x without new catalysts indicates memory system not pruning stale candidates. Allocation ceiling blocking high-conviction candidates (VYM, MUX) with no rebalancing logic. Social/congressional signals are noise; require multi-source corroboration.",
+    "immediate_actions": [
+      "Implement candidate pruning: retire after 5 repeats without new catalyst or 7 days staleness",
+      "Add allocation rebalancing: trim lowest-confidence position to free capital for high-conviction candidates",
+      "Enforce catalyst novelty check: penalize repeated catalyst text by 20% confidence reduction",
+      "Require multi-source corroboration for social/congressional signals; social signal alone max_confidence=0.50"
+    ],
+    "medium_term_actions": [
+      "Deprecate or reweight Chittick Cash score (low predictive power)",
+      "Improve HF filter transparency: log source definitions, veto triggers, similarity scores",
+      "Implement post-earnings tracking: capture analyst response and intraday momentum for 5 days",
+      "Run A/B test: social/congressional signals vs. no signals; measure Sharpe ratio and win rate"
+    ],
+    "long_term_actions": [
+      "Build feedback loop: track post-execution returns by (confidence_tier, sector, catalyst_type); reweight research loop to prioritize high-ROI catalyst types",
+      "Implement dynamic position sizing: adjust allocation based on confidence and sector correlation",
+      "Audit rejection patterns monthly; identify systemic bottlenecks (allocation ceiling, leverage ban, staleness)"
+    ],
+    "risk_mitigation": "Do NOT enable margin, shorting, crypto, or live trading until memory system is fixed and allocation rebalancing is working. Current state of research quality does not justify leverage."
+  }
+}
+```
+
+---
+
+### Key Takeaways (Plain Language)
+
+1. **Stale Ticker Trap**: SCHD cycled 20 times in 48 hours with identical catalyst text. Your memory system is not retiring old candidates. Implement a 5-repeat limit or 7-day staleness threshold.
+
+2. **Allocation Gridlock**: VYM and MUX are marked "allocation-constrained" but no rebalancing logic triggered. You're leaving capital on the table. Add a trim-and-retry mechanism.
+
+3. **Filter Noise**: Chittick Cash scores don't correlate with execution tier. Social/congressional signals (PEG 15 repeats on "low-weight volume") are noise. Require earnings, guidance, or technical setup to validate.
+
+4. **Research Fatigue**: Identical catalyst language repeated 20x (SCHD), 8x (WS), 7x (GLRE) signals your research loop is not advancing. Implement semantic similarity checks to detect and penalize duplicates.
+
+5. **Safe Fixes**: Pruning, rebalancing, catalyst novelty checks, and multi-source signal validation are all low-risk code changes that improve signal quality without enabling leverage or live trading.
 

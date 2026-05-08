@@ -21,61 +21,82 @@ This policy is updated by the weekly review and must be read by research, premar
 
 ```json
 {
-  "lessons": [
-    "SCHD dominates with 20+ repeats, confirming persistent value/dividend rotation but risking opportunity cost from overexposure.",
-    "High repeat counts (SCHD 20x, VYM 11x, WS 8x, PEG 15x, MUX 7x) indicate stale memory loops prioritizing familiar tickers over fresh signals.",
-    "Sector concentration: dividend ETFs (SCHD/VYM), materials-mining (MUX/GDX/FSM), industrials (WS/GWW), financials (GLRE) lack broad diversity.",
-    "Allocation blocks prevent scaling into winners (e.g., MUX downgraded to watch-allocation-constrained after repeats).",
-    "Fresh candidates (e.g., SIMO +100% MoM, APP/PUBM adtech beats) show quality but get overshadowed by repeat staleness."
-  ],
-  "rejected_patterns": [
-    "Single-stock allocation >15% (NVDA, GOOGL, SPMO repeats).",
-    "Banned v1 instruments/leverage references (PLTR, MUX early rejection).",
-    "HF memory filter + repeat_staleness (INTC, ADI, GSK, PLTR).",
-    "Source-thin hype + low-weight social/congress signals (PLTR).",
-    "Market-open execution skips due to daily order limits."
-  ],
-  "strategy_proposals": [
-    "Implement repeat decay: reduce confidence by 0.05 per repeat beyond 5, prioritize fresh signals.",
-    "Sector caps: max 25% any sector (current: dividend ETFs ~30%+ implied).",
-    "Allocation refresh: rotate out SCHD/VYM if repeats >15, force 20% fresh allocation quarterly.",
-    "Diversity matrix: require min 5 sectors represented in top-10 candidates.",
-    "Stale ticker quarantine: 7-day cooldown for execution-ready after 10+ repeats."
-  ],
-  "self_learning_directives": [
-    "Track 'regret cost' of rejected high-conviction fresh signals vs repeat comfort trades.",
-    "Analyze HF filter efficacy: SIMO/SANM (9 HF sources, 0 vetoes) succeeded where PLTR failed.",
-    "Monitor Chittick Cash signal strength: consistent 74-78 scores but low differentiation power.",
-    "Log 'shadow portfolio' performance of top-5 fresh vs repeat-heavy candidates daily.",
-    "Self-audit: if same 4 tickers appear in 70%+ daily outputs, trigger memory compaction."
-  ],
-  "signal_evaluation": {
-    "Chittick Cash": "Consistent 74-78 scores across repeats (SCHD 78, WS 74, GLRE 74) but fails to break staleness loops - moderate signal, low actionability.",
-    "Hugging Face filters": "Strong positive: 9 sources/0 vetoes for winners (SIMO, SANM, DT); rejects hype correctly (PLTR, ADI) - high quality filter.",
-    "Social buzz": "Noise source: PLTR rejections show weak signals need corroboration - downweight unless 2+ sources.",
-    "Congressional signals": "Low-weight noise: PEG 15x repeats with 'low-weight congressional volume' - disable or require earnings confirmation."
-  },
-  "safe_code_prompt_routine_changes": [
-    {
-      "change": "Add repeat decay to candidate scoring",
-      "prompt_snippet": "Reduce confidence by 0.05 × (repeat_count - 5) for repeat > 5; prioritize fresh=True signals"
+  "analysis_date": "2026-05-08",
+  "status": "CAUTIOUS - SIGNIFICANT OPERATIONAL ISSUES DETECTED",
+  "critical_findings": {
+    "stale_ticker_concentration": {
+      "severity": "HIGH",
+      "evidence": [
+        "SCHD: 20 repeat cycles in 48 hours (2026-05-06 to 2026-05-08)",
+        "MUX: 7 repeat cycles, confidence degrading (0.82→0.78), HF veto flag appeared",
+        "GLRE: 7 repeat cycles, static catalyst text",
+        "WS: 8 repeat cycles, identical 10-K commentary",
+        "VYM: 11 repeat cycles, allocation-constrained status"
+      ],
+      "root_cause": "Memory system not pruning stale candidates; research loop recycling same tickers without new catalyst discovery",
+      "impact": "Portfolio concentration risk; diminishing research signal-to-noise ratio"
     },
-    {
-      "change": "Sector diversity enforcer",
-      "prompt_snippet": "Reject lists with <5 sectors in top-10; flag if any sector >25% implied allocation"
+    "allocation_blocking_pattern": {
+      "severity": "HIGH",
+      "evidence": [
+        "VYM flagged 'watch-allocation-constrained' (2026-05-07 07:16:10)",
+        "MUX flagged 'watch-allocation-constrained' (2026-05-08 10:51:27)",
+        "SCHD locked at 8.0% allocation across 20 cycles",
+        "No portfolio rebalancing or exit signals observed"
+      ],
+      "root_cause": "Allocation ceiling hit but no position-sizing strategy or trim logic triggered",
+      "impact": "Execution paralysis on high-conviction candidates; capital inefficiency"
     },
-    {
-      "change": "Fresh signal boost",
-      "prompt_snippet": "Fresh=True candidates get +0.10 confidence boost; execution-ready requires fresh within 72h unless regime confirmation"
-    },
-    {
-      "change": "Staleness quarantine",
-      "prompt_snippet": "Ticker with repeat>12 moves to 'stale-watch' tier; requires new catalyst + fresh=True for execution-ready"
-    },
-    {
-      "change": "Allocation rotation rule",
-      "prompt_snippet": "If repeat>15, downgrade to 'watch-allocation-constrained'; force 20% portfolio to <7-day old signals"
+    "rejected_trade_analysis": {
+      "severity": "MEDIUM",
+      "pattern": "Allocation ceiling + leverage ban + social-signal weakness",
+      "rejected_count": 13,
+      "key_rejections": [
+        "SPMO: 3x rejected (allocation ceiling)",
+        "GOOGL: 3x rejected (allocation ceiling)",
+        "NVDA: 2x rejected (allocation ceiling)",
+        "PLTR: 4x rejected (banned v1 leverage + weak social signal + staleness)",
+        "INTC/ADI/GSK: Rejected for staleness + HF memory filter similarity flags"
+      ],
+      "interpretation": "System correctly blocking over-concentration but lacks dynamic rebalancing to unlock capital"
     }
-  ]
-}
-```
+  },
+  "filter_quality_assessment": {
+    "chittick_cash_score": {
+      "rating": "NEUTRAL_TO_WEAK",
+      "observation": "Scores range 42–78; no clear correlation with execution-ready tier or confidence",
+      "example_noise": [
+        "DRCT (adtech): Chittick 42, HF Source 0, confidence 0.55 → still execution-ready",
+        "INUV (adtech): Chittick 52, confidence 0.68 → watch tier",
+        "Inconsistent weighting suggests Chittick not primary decision driver"
+      ],
+      "verdict": "Added complexity without improving candidate ranking; consider deprecating or reweighting"
+    },
+    "hugging_face_filters": {
+      "rating": "MIXED_SIGNAL",
+      "positive": [
+        "HF Source/Veto flags caught PLTR leverage references (correct)",
+        "Memory similarity filter flagged ADI/GSK/INTC repeats (correct)"
+      ],
+      "negative": [
+        "HF Source counts (0, 7, 8, 9) lack transparency; unclear what constitutes 'source'",
+        "HF Veto column mostly 0–1; low signal frequency",
+        "MUX veto appeared late (2026-05-08) after 7 cycles; delayed detection"
+      ],
+      "verdict": "Useful for hard blocks (leverage, banned instruments) but noisy for ranking; improve source taxonomy"
+    },
+    "social_buzz_congressional_signals": {
+      "rating": "WEAK_TO_NOISE",
+      "evidence": [
+        "PEG: 15 repeats on 'low-weight congressional volume signal' alone",
+        "FATE: Officer option exercise flagged as +49.67% monthly gainer (insider activity ≠ catalyst)",
+        "DRCT: Hermes awards (9,360% ROI claim) cited but no earnings/guidance follow-up",
+        "Congressional signal on PEG never escalated despite 15 cycles"
+      ],
+      "verdict": "Social/congressional signals are low-conviction noise; require corroboration with earnings, guidance, or technical setup"
+    }
+  },
+  "sector_diversity_audit": {
+    "overweight_sectors": [
+      "Materials/Mining: MUX, GDX, FSM, OLA (4 candidates, 7–8% allocations)",
+      "Dividend/Value ETFs: SCHD, V
