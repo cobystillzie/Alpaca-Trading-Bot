@@ -6026,4 +6026,250 @@ SEC/company quality check:
   "quality_notes": "Weak durable demand: Revenue/gross profit halved YoY in 2025 from customer-specific incident (not reflective of model per mgmt, but unproven recovery); 90% retention claim but buy-side only 195 clients, sell-side 174k buyers. Balance sheet distress (going concern, low cash, covenants) outweighs adtech platform strengths (IVT mitigation, data curation). High execution/competition risks in fragmented adtech vs giants (Google, Pubmatic). Watch for volume recovery but avoid due to financial fragility.",
   "source_urls": ["https://www.sec.gov/Archives/edgar/data/1880613/000141057826000XXX/directdigital-10k_20260331.htm"]
 }
+## Source And Signal Research - 2026-05-08 07:33:34 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks/ETFs. No evidence of hype, pump language, or unsupported claims detected.",
+  "social_buzz": "none",
+  "attention_anomalies": "none",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Recent congressional disclosures show mixed trading activity across multiple stocks. Notable patterns include net purchases in $TDG (8 buys vs 2 sells), $IREN (3 buys vs 1 sell), and $ENTG (recent purchases by Rep. April McClain Delaney). Other stocks like $PH and $COHR show more sales than buys. Treat as low-weight, delayed secondary context only.",
+  "congressional_signal": "moderate_buy $TDG, $IREN; neutral-mixed $PH, $ENTG, $COHR, $TMUS",
+  "tickers": ["PH", "TDG", "IREN", "ENTG", "COHR", "TMUS"],
+  "source_urls": [
+    "https://www.quiverquant.com/news/New+Analyst+Forecast:+$PH+Given+$1060+Price+Target",
+    "https://www.quiverquant.com/news/TransDigm+Group+Stock+(TDG)+Opinions+on+Congressional+Trade+Disclosure+and+Earnings+Beat",
+    "https://www.quiverquant.com/news/IREN+Limited+Expands+into+Europe+with+Acquisition+of+Ingenostrum,+S.L.+to+Enhance+AI+Data+Center+Portfolio",
+    "https://www.quiverquant.com/news/Entegris+Stock+(ENTG)+Opinions+on+Congressional+Purchase+Disclosure",
+    "https://www.quiverquant.com/news/Fund+Update:+New+$6.2M+$COHR+stock+position+opened+by+NEW+YORK+LIFE+INVESTMENT+MANAGEMENT+LLC",
+    "https://www.quiverquant.com/news/Fund+Update:+47,657+T-MOBILE+US+(TMUS)+shares+added+to+Lazard+Freres+Gestion+S.A.S.+portfolio"
+  ]
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": {
+    "filing_date": "2026-03-04",
+    "companies_analyzed": 7,
+    "high_risk_count": 5,
+    "watch_list_relevant": ["SES", "DRCT", "INUV", "FATE", "NEOV", "ICCT", "CRMZ"],
+    "key_finding": "Multiple microcap and small-cap companies show severe balance-sheet stress, customer concentration risk, and going-concern doubts. Revenue quality deteriorating across adtech and biotech segments."
+  },
+  "filing_risks": {
+    "SES_AI_Corp": {
+      "ticker": "SES",
+      "sector": "battery-technology",
+      "critical_risks": [
+        "Accumulated deficit $371.9M (up from $298.9M YoY); net losses $73.0M (2025) and $100.2M (2024)",
+        "Going concern: 'We expect to continue to incur losses for the foreseeable future'",
+        "Capital intensive: 'substantial additional capital in the future to fund our business and may be unable to meet our future capital requirements'",
+        "UZ Energy integration risk post-September 2025 acquisition; management distraction flagged",
+        "UAM market unproven: 'market is still emerging...uncertain to what extent market acceptance will grow'",
+        "Supply chain: no long-term supply arrangements; Hisun JV for electrolytes not yet producing (H2 2026 target)",
+        "Manufacturing: complex machinery, skilled labor dependency, contract manufacturer reliance",
+        "Product liability: lithium-based batteries pose fire/safety risks; dendrite formation in Li-Metal anodes"
+      ],
+      "balance_sheet_quality": "CRITICAL",
+      "revenue_quality": "PRE-COMMERCIAL",
+      "concentration_risk": "HIGH - OEM customer dependency; sampling basis for many relationships",
+      "dilution_risk": "EXTREME - continuous equity raises required; accumulated deficit $371.9M",
+      "valuation_risk": "SPECULATIVE - no profitable operations; projections 'based on internal assumptions that may prove incorrect'"
+    },
+    "Direct_Digital_Holdings_DRCT": {
+      "ticker": "DRCT",
+      "sector": "adtech-programmatic",
+      "critical_risks": [
+        "Going concern doubt: 'substantial doubt about our ability to continue as a going concern'; cash $0.7M insufficient for 12 months",
+        "Accumulated deficit $27.7M; negative working capital",
+        "Revenue collapse: 2024 $62.3M (-60% from 2023 $157.1M); 2025 $34.7M (-44% further)",
+        "Single customer pause May 2024 (defamatory article/misinformation campaign) caused 60% revenue drop; reconnected May 22 but volumes not recovered",
+        "Gross profit margin compression: 2025 $10.4M (30% margin) vs 2023 $37.6M (24% margin) - deteriorating unit economics",
+        "Credit facility covenants: minimum $450k unrestricted cash requirement; term matures Dec 3, 2026",
+        "High customer concentration: 90% retention but dependent on large sell-side customer recovery",
+        "Debt default risk: lender could force bankruptcy if covenants breached"
+      ],
+      "balance_sheet_quality": "CRITICAL",
+      "revenue_quality": "DETERIORATING",
+      "concentration_risk": "EXTREME - single customer pause caused 60% revenue collapse",
+      "dilution_risk": "HIGH - equity raises likely needed; current shareholders face dilution or loss",
+      "valuation_risk": "DISTRESSED - trading at distressed multiples; going concern doubt priced in"
+    },
+    "Inuvo_Inc_INUV": {
+      "ticker": "INUV",
+      "sector": "adtech-ai",
+      "critical_risks": [
+        "Customer concentration EXTREME: 2025 top 2 customers = 83.5% of revenue (64.2% + 19.3%); 2024 was 82% (75% + 7%)",
+        "Accumulated deficit $178.3M; net working capital deficit $5.1M",
+        "Operating loss $5.1M (2025) vs $5.8M (2024); gross margin declined 10.1% to 74.5%",
+        "Cash position weak: $2.8M; negative operating cash flows from operations",
+        "Revenue growth anemic: +2.9% YoY (2025 vs 2024); margin compression signals pricing pressure",
+        "Dependence on two customers creates binary risk: loss of either would materially harm business",
+        "Credit facility dependent on receivables; negative cash flows introduce operational interruption risk",
+        "History of losses and equity dilution funding model"
+      ],
+      "balance_sheet_quality": "WEAK",
+      "revenue_quality": "POOR",
+      "concentration_risk": "CRITICAL - 83.5% revenue from 2 customers",
+      "dilution_risk": "HIGH - recurring equity offerings to fund operations",
+      "valuation_risk": "SPECULATIVE - microcap with binary customer risk"
+    },
+    "Fate_Therapeutics_FATE": {
+      "ticker": "FATE",
+      "sector": "biotech-cell-therapy",
+      "critical_risks": [
+        "Limited operating history; no approved products; clinical-stage only",
+        "Significant losses anticipated 'for the foreseeable future'; no revenue from product sales",
+        "iPSC platform unproven at commercial scale; manufacturing experience limited to clinical scale",
+        "Regulatory approval uncertain: 'novel product candidates could fail to receive regulatory approval from FDA for many reasons'",
+        "Funding dependency: 'Development of our product candidates will require substantial additional funding'",
+        "Intellectual property risk: 'If we are unable to protect our intellectual property...other companies could develop products'",
+        "Clinical trial risks: patient recruitment, investigator availability, manufacturing supply constraints",
+        "Competitive pressure from larger biotech firms with greater resources",
+        "No sales force or commercialization experience; would require partnerships or build-out",
+        "Officer insider trading activity (Cindy Tahl exercised 166k options May 6) suggests confidence but also potential dilution"
+      ],
+      "balance_sheet_quality": "WEAK",
+      "revenue_quality": "ZERO",
+      "concentration_risk": "N/A - no revenue",
+      "dilution_risk": "EXTREME - continuous funding rounds required; clinical-stage burn rate high",
+      "valuation_risk": "HIGHLY SPECULATIVE - binary outcome on clinical trials; no cash flow visibility"
+    },
+    "NeoVolta_Inc_NEOV": {
+      "ticker": "NEOV",
+      "sector": "energy-storage-hardware",
+      "critical_risks": [
+        "Early-stage: sales commenced July 2019; 'relatively new company...some of the risks associated with start-up ventures'",
+        "Manufacturing transition risk: moved from contract manufacturing to in-house June 2023; operational complexity",
+        "Competitive pressure: Tesla, LG Chem, Sonnen, Enphase have 'significantly greater financial resources, manufacturing capacity, brand recognition'",
+        "Regulatory complexity: evolving standards (UL 9540A, Rule 21, rapid shutdown); compliance costs ongoing",
+        "Supply chain: tariff exposure; FEOC compliance requirements for federal incentive eligibility",
+        "Federal incentive phase-out: ITC scheduled to sunset Dec 31, 2025; adoption dependent on financing models",
+        "Product liability: lithium-based batteries pose fire/thermal runaway risks despite LiFePO4 chemistry",
+        "Distribution channel shift: transitioning from direct installers to regional/national distributors; execution risk",
+        "Limited employee base: 17 full-time as of June 30, 2025; key person dependency",
+        "New product launches (C&I BESS, NV16 inverter) add execution risk"
+      ],
+      "balance_sheet_quality": "WEAK",
+      "revenue_quality": "EARLY-STAGE",
+      "concentration_risk": "MODERATE - installer/distributor dependent",
+      "dilution_risk": "MODERATE - likely future capital raises needed",
+      "valuation_risk": "SPECULATIVE - early-stage hardware company; execution-dependent"
+    },
+    "iCoreConnect_Inc_ICCT": {
+      "ticker": "ICCT",
+      "sector": "healthcare-saas",
+      "critical_risks": [
+        "Limited operating history post-merger (August 2023); integration risks ongoing",
+        "Asset sale: divested Managed IT Services (MSP/MSaaS) October 1, 2024; revenue concentration shift",
+        "SaaS subscription model dependent on customer retention and expansion",
+        "No significant customers >10% revenue (2024, 2023); but accounts receivable concentration: 26% from one customer (Dec 31, 2024)",
+        "Competitive landscape: 'highly competitive' with numerous competitors offering similar products",
+        "Intellectual property: no patents or trademarks owned; relies on trade secrets and NDAs",
+        "Regulatory risk: HIPAA compliance required; potential future regulations on healthcare data/privacy",
+        "Customer acquisition and retention dependent on sales force expansion and partnerships",
+        "72 employees (Dec 31, 2024); key person dependency for product development and sales",
+        "Emerging growth company status; reduced disclosure requirements may limit investor visibility"
+      ],
+      "balance_sheet_quality": "MODERATE",
+      "revenue_quality": "RECURRING",
+      "concentration_risk": "MODERATE - 26% AR concentration; no single revenue customer >10%",
+      "dilution_risk": "MODERATE - post-merger integration ongoing",
+      "valuation_risk": "MODERATE - SaaS multiples compressed; execution-dependent on customer growth"
+    },
+    "CreditRiskMonitor_com_Inc_CRMZ": {
+      "ticker": "CRMZ",
+      "sector": "financial-data-saas",
+      "critical_risks": [
+        "Market size: estimated <1% of TAM (Dun & Bradstreet Finance & Risk vertical ~$1.4B); limited addressable market",
+        "Competitive pressure: Dun & Bradstreet dominant; Experian, Equifax also compete; fragmented market",
+        "Cyclical demand: bankruptcy prediction scores dependent on corporate distress cycles; low-rate environment (2005-2017) suppressed demand",
+        "Subscriber concentration: no single subscriber >1% revenue (2024, 2023); diversified but small base",
+        "Trade Contributor Program: $3T annualized data; dependent on continued participation and data quality",
+        "Regulatory risk: potential changes to credit reporting, data privacy, or financial disclosure rules",
+        "Technology risk: platform dependent on third-party data suppliers (NRSROs, LSE); data quality/availability critical",
+        "Pricing power: SaaS subscription model; limited pricing flexibility in competitive market",
+        "Small public company: OTC-traded; limited liquidity and analyst coverage"
+      ],
+      "balance_sheet_quality": "MODERATE",
+      "revenue_quality": "RECURRING",
+      "concentration_risk": "LOW - no single subscriber >1%",
+      "dilution_risk": "LOW - mature SaaS model",
+      "valuation_risk": "MODERATE - niche player; limited growth visibility"
+    }
+  },
+  "quality_notes": {
+    "watchlist_intersection": {
+      "INUV": "CRITICAL - 83.5% customer concentration (2 customers); anemic 2.9% revenue growth; margin compression; $5.1M working capital deficit. Matches memory flag for 'watch' status. Reject for portfolio.",
+      "FATE": "WATCH - Clinical-stage biotech; no revenue; extreme dilution risk; officer insider trading (Cindy Tahl May 6). Matches memory 'watch' status. Speculative only.",
+      "DRCT": "REJECT - Going concern doubt; $0.7M cash insufficient; single customer pause caused 60% revenue collapse; debt covenant risk. Not suitable for execution.",
+      "SES": "REJECT - $371.9M accumulated deficit; pre-commercial; UZ Energy integration risk; no long-term supply contracts. Speculative pre-revenue play.",
+      "NEOV": "WATCH - Early-stage hardware (sales since July 2019); 17 employees; manufacturing transition risk; federal incentive phase-out risk. Execution-dependent.",
+      "ICCT": "MODERATE - Post-merger integration (Aug 2023); 26% AR concentration; SaaS recurring model; no major revenue concentration. Emerging growth company.",
+      "CRMZ": "MODERATE - Niche SaaS; <1% TAM; OTC-traded; low liquidity; cyclical demand. Mature but limited growth."
+    },
+    "adtech_sector_deterioration": {
+      "observation": "DRCT, INUV, and TTD (from memory) all show revenue quality deterioration. DRCT collapsed 60% on single customer pause. INUV shows 2.9% growth with margin compression. TTD flagged as 'contrarian' at discount multiples. Sector rotation away from programmatic adtech evident.",
+      "implication": "Avoid concentration in adtech microcaps. APP and PUBM (from memory) show strength, but DRCT/INUV represent tail risk."
+    },
+    "biotech_clinical_stage_risk": {
+      "observation": "FATE is clinical-stage with no approved products, no revenue, and extreme funding dependency. Officer insider trading (Cindy Tahl) suggests confidence but also dilution ahead.",
+      "implication": "Binary outcome risk; suitable only for high-risk portfolios with long time horizons."
+    },
+    "hardware_manufacturing_risk": {
+      "observation": "SES (batteries) and NEOV (energy storage) both face manufacturing complexity, supply chain risk, and regulatory compliance costs. SES has $371.9M accumulated deficit; NEOV has 17 employees and early-stage execution risk.",
+      "implication": "Capital-intensive hardware plays require sustained funding and operational excellence. Both show pre-commercial or early-stage risk."
+    },
+    "going_concern_flags": {
+      "DRCT": "Explicit going concern doubt; $0.7M cash; debt covenant risk; single customer recovery dependent",
+      "SES": "Implicit going concern risk; $371.9M accumulated deficit; continuous funding required; pre-commercial",
+      "INUV": "Implicit going concern risk; $178.3M accumulated deficit; negative working capital; anemic growth"
+    },
+    "customer_concentration_red_flags": {
+      "INUV": "CRITICAL - 83.5% from 2 customers; binary risk",
+      "DRCT": "EXTREME - single customer pause caused 60% revenue collapse; recovery incomplete",
+      "ICCT": "MODERATE - 26% AR concentration; no single revenue customer >10%",
+      "CRMZ": "LOW - no single subscriber >1%"
+    }
+  },
+  "source_urls": [
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1819142&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1880613&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=829323&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1434316&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1748137&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1906133&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=315958&type=10-K&dateb=&owner=exclude&count=100"
+  ]
+}
+```
+
+---
+
+## **EXECUTIVE SUMMARY FOR WATCHLIST REVIEW**
+
+### **Reject from Portfolio:**
+- **DRCT** (Direct Digital): Going concern doubt; $0.7M cash; single customer recovery incomplete; debt covenant risk.
+- **SES** (SES AI): $371.9M accumulated deficit; pre-commercial; UZ Energy integration risk; no long-term supply contracts.
+- **INUV** (Inuvo): 83.5% customer concentration (2 customers); anemic 2.9% growth; $5.1M working capital deficit.
+
+### **Watch (High Risk, Speculative Only):**
+- **FATE** (Fate Therapeutics): Clinical-stage; no revenue; extreme dilution; officer insider trading signals confidence but also dilution ahead.
+- **NEOV** (NeoVolta): Early-stage hardware (17 employees); manufacturing transition risk; federal incentive phase-out risk.
+
+### **Moderate Risk (Monitor):**
+- **ICCT** (iCoreConnect): Post-merger integration ongoing; SaaS recurring model; 26% AR concentration but no major revenue concentration.
+- **CRMZ** (CreditRiskMonitor): Niche SaaS; <1% TAM; OTC-traded; cyclical demand; mature but limited growth.
+
+### **Key Sector Finding:**
+Adtech microcaps (DRCT, INUV) show severe deterioration. DRCT collapsed 60% on single customer pause. INUV shows 2.9% growth with margin compression. Avoid concentration in this segment.
 

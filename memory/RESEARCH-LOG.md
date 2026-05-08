@@ -574,4 +574,9 @@ Candidates found: 4
 Q1 2026 ad-tech earnings show strength with AppLovin (APP) revenue +59% YoY to $1.84B, EPS beat, net income double, 85% EBITDA margins on AI ad platform; PubMatic (PUBM) revenue $62.6M beat, +13% underlying growth ex-legacy, 40th straight positive EBITDA quarter, AI driving efficiency/CTV/emerging revenues +80%. APP after-hours dip on guidance despite beats; PUBM positive. Broader risks: AI cyber threats to financial stability, private credit opacity. Rotation favors quality cyclicals/miners/dividends over narrow tech.
 
 Candidates found: 3
+## Two-Hour Research Agent - 2026-05-08 07:33:34 Eastern Daylight Time
+
+Mixed adtech earnings with Trade Desk (TTD) showing Q1 revenue growth but downgrade on weak outlook; Criteo (CRTO) guides modest 2026 revenue decline; momentum stocks reversing sharply; CLEAR Secure (YOU) down on downgrade despite Q1 beat; sector rotation pressures evident amid narrowing breadth.
+
+Candidates found: 3
 

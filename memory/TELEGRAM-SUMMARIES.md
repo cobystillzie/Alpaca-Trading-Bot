@@ -7085,4 +7085,37 @@ HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
 Self-learning: tier=watch repeat48h=0 fresh=yes bucket=adtech-contrarian
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-08 07:33:34 Eastern Daylight Time
+
+Research Update
+
+Market tone: Mixed adtech earnings with Trade Desk (TTD) showing Q1 revenue growth but downgrade on weak outlook; Criteo (CRTO) guides modest 2026 revenue decline; momentum stocks reversing sharply; CLEAR Secure (YOU) down on downgrade despite Q1 beat; sector rotation pressures evident amid narrowing breadth.
+Candidates: 3
+
+1. TTD (communication-services-adtech) | confidence 0.72 | allocation 5.0% | stop 8.0% | Chittick 70/100 | tier watch | bucket adtech-quality | HF source 9/100
+Recommendation: watch
+Catalyst: Q1 2026 revenue $689M (+12% YoY), net income $40M; Oppenheimer downgrade on weak revenue outlook creates entry at 6.4x 2026 EBITDA (below sector 7.9x).
+Chittick Cash: Discount to sector EBITDA multiple provides buffer; proven profitability vs unprofitable peers.
+HF filter: sentiment=not run source=9/100 hype=0.20 vetoes=0
+Self-learning: tier=watch repeat48h=1 fresh=yes bucket=adtech-quality
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. YOU (industrials-security) | confidence 0.70 | allocation 4.0% | stop 8.0% | Chittick 72/100 | tier watch | bucket industrials-security | HF source 8/100
+Recommendation: watch
+Catalyst: Q1 beat on EPS/revenue but D.A. Davidson downgrade to $60 PT (from $65); shares -6.8% despite strong results.
+Chittick Cash: Beat provides earnings buffer; strong YTD performance limits downside.
+HF filter: sentiment=not run source=8/100 hype=0.10 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=industrials-security
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. CRTO (communication-services-adtech) | confidence 0.65 | allocation 3.0% | stop 8.0% | Chittick 68/100 | tier stale-watch | bucket adtech-value | HF source 8/100
+Recommendation: watch
+Catalyst: May 8, 2026 guidance: non-GAAP revenue ex-TAC low single-digit decline for 2026.
+Chittick Cash: Guidance-baked decline provides clarity.
+HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
+Self-learning: tier=stale-watch repeat48h=0 fresh=yes bucket=adtech-value
+Social buzz, low weight: none
+Congress signal, low weight: none
 

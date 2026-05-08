@@ -2876,4 +2876,28 @@ For a cautious bot workflow on May 4, 2026:
     "https://fred.stlouisfed.org/series/VIXCLS"
   ]
 }
+## Market Regime Research - 2026-05-08 07:33:34 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities near record highs with narrowing breadth; megacap tech/AI resilient amid broader market pullback. Geopolitical tensions (Iran) drive oil volatility (~$91-100/bbl), supporting cautious tone. Labor market resilient (low claims), mixed econ data (job cuts up, construction +). Earnings strong overall but selective beats. 10Y yield dips to 4.33%, mortgage rates stable ~6.25%. YTD Nasdaq +double digits, rotation to defensives/value noted.",
+  "market_regime": "late-cycle bull with narrowing participation; risk-on core (tech) but risk-off breadth (small caps -1.6%, semis -2.7%)",
+  "sector_rotation": "tech/AI/cybersecurity outperforming; small caps/energy/consumer/industrials lagging; hints of defensive/value rotation (SCHD momentum); semis reversing",
+  "risk_flags": [
+    "Geopolitical (Iran Strait of Hormuz) - oil volatility",
+    "Narrowing market breadth - RUT worst day since Mar",
+    "Labor mixed: cuts up (tech-led), claims low",
+    "Fed: rate cuts off table, resilient data",
+    "Earnings resilient but consumer weakness (Whirlpool -14%)"
+  ],
+  "source_urls": [
+    "https://neilsethi.substack.com/p/markets-update-5726",
+    "https://www.stl.news/u-s-stock-market-today-thursday-may-7-2026/",
+    "https://timesofindia.indiatimes.com/business/international-business/us-stock-markets-today-may-7-2026-wall-street-holds-near-record-highs-as-oil-prices-tumble-on-iran-deal-hopes/articleshow/130902113.cms",
+    "https://www.stonex.com/en-gb/insights/perspective-mid-day-commentary-for-may-7-2026-05-07/",
+    "https://themortgagereports.com/mortgage-rates-now/mortgage-rates-today-may-7-2026",
+    "https://www.rbccm.com/en/insights/2026/05/takeaways-from-an-avalanche-of-earnings"
+  ]
+}
+```
 
