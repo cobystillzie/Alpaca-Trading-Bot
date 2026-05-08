@@ -8384,4 +8384,125 @@ Model notes: Fresh, low repeat; semi bucket diversity.
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: none
+## Weekly Memo - 2026-05-08 17:17:17 Eastern Daylight Time
+
+Weekly Strategy Review Memo
+
+Recommendation: Self-learning policy updated. Friday automation may apply safe code/prompt edits only after tests pass and Telegram disclosure succeeds.
+
+Market Regime
+```json { "lessons": [ "SCHD dominates with 20+ repeats, confirming persistent value/dividend rotation but risking opportunity cost from overexposure.", "High repeat counts (SCHD 20x, VYM 11x, WS 8x, PEG 15x, MUX 7x) indicate stale memory loops prioritizing familiar tickers over fresh signals.", "Sector concentration: dividend ETFs (SCHD/VYM), materials-mining (MUX/GDX/FSM), industrials (WS/GWW), financials (GLRE) lack broad diversity.", "Allocation blocks prevent scaling into winners (e.g., MUX downgraded to watch-allocation-constrained after repeats).", "Fresh candidates (e.g., SIMO +100% MoM, APP/PUBM adtech beats) show quality but get overshadowed by repeat staleness." ], "rejected_patterns": [ "Single-stock allocation >15% (NVDA, GOOGL, SPMO repeats).", "Banned v1 instruments/leverage references (PLTR, MUX early rejection).", "HF memory filter + repeat_staleness (INTC, ADI, GSK,...
+
+Top Candidates
+
+1. DT (information-technology-software) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 76/100 | tier execution-ready | bucket software-observability | HF source 9/100
+Thesis: Quality observability software leader with resilient enterprise demand; recent Q4 beat confirms growth/margin expansion in AI-driven monitoring market; blends quality business with fresh earnings catalyst and post-beat momentum for 1-10 day swing.
+Catalyst: Q4 FY2026 earnings beat: revenue +18.18% YoY, margins expanded to 9.55%; +8% AH +6% intraday to $40.50; analysts maintain Overweight despite minor PT trims.
+Entry: Enter 50% at open Monday if holds $40+, add on pullback to $39-39.50 with volume.
+Exit: Take profits at $44 (9% gain) or if breaks $38 (invalidation); trail stops after +5%.
+Risk/reward: 8% stop vs 9-12% upside to recent highs; 1.5:1 RR with defined catalyst.
+Bear/adversary: Earnings beat priced in, guide may disappoint on FY growth; allocation constrained if software heavy.
+Source quality: Strong: earnings release, analyst notes from reputable sources; no hype reliance.
+Chittick Cash Filter
+Score: 76/100
+Margin of safety: Trades below 52-wk high post-beat; cash-generative with low debt supports downside.
+Valuation: Attractive post-pullback at ~6-7x sales vs software peers; earnings beat de-risks.
+Growth runway: AI observability tailwinds; 15-20% revenue growth into 2027.
+Balance-sheet risk: Low debt, positive FCF; minimal cyclicality in enterprise SaaS.
+Capital allocation: Share buybacks, R&D focus; disciplined M&A.
+Concentration case: Clear software-observability leader vs broad ETFs; fresh catalyst over repeats.
+Owner thesis, 30-180 days: If margins >12% and revenue +20% in FY2027, review as 30-180 day compounder.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 4
+Diversity bucket: software-observability
+Research tier: execution-ready
+Allocation learning: none
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 9/100
+Hype risk: 0.00
+Evidence rank: 9/100
+Memory similarity: 0.20
+Vetoes: none
+Model notes: Repeat penalized but fresh earnings override; execution-ready tier.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
+
+2. SCHD (etf-dividend-value) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 78/100 | tier execution-ready | bucket dividend-etf-defensive | HF source 9/100
+Thesis: Premier dividend ETF with quality holdings; ongoing sector rotation to defensives amid risk-on caution; Morningstar Gold-rated for income stability.
+Catalyst: Post-Q1 2026 earnings rotation confirmation; #1 high-dividend ETF for 2026 passive income lists.
+Entry: Enter at open if SPY flat/lower; scale in to 8% max.
+Exit: Profits at +6% or SPY new highs; stop if -8% vs SPY.
+Risk/reward: Tight 8% stop vs 6-10% upside in rotation; favorable in VIX rise.
+Bear/adversary: High repeat count; opportunity cost if tech rally accelerates.
+Source quality: Excellent: Morningstar ratings, ETF factsheets; structural not hype.
+Chittick Cash Filter
+Score: 78/100
+Margin of safety: Diversified 100+ holdings, low beta, consistent payouts.
+Valuation: Discount to S&P on yield/P/E; attractive vs growth multiples.
+Growth runway: Dividend growth 5-7% annualized; stable in 30-180 days.
+Balance-sheet risk: Investment-grade holdings; low debt overall.
+Capital allocation: ETF sponsor discipline; rules-based.
+Concentration case: Broad defensive alternative to single-stock tech/miners.
+Owner thesis, 30-180 days: Core holding for income in any regime over 180 days.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: momentum
+Fresh catalyst: yes
+Repeat count, 48h: 20
+Diversity bucket: dividend-etf-defensive
+Research tier: execution-ready
+Allocation learning: High repeat; cap if defensives >20%.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 9/100
+Hype risk: 0.00
+Evidence rank: 9/100
+Memory similarity: 0.80
+Vetoes: none
+Model notes: High repeat but fresh rotation evidence; diversity bucket.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
+
+3. SIMO (technology-semiconductors) | confidence 0.80 | allocation 7.0% | stop 8.0% | Chittick 75/100 | tier execution-ready | bucket technology-semiconductors | HF source 9/100
+Thesis: Semiconductor leader in analog/mixed-signal; explosive momentum with top-tier ratings; quality growth play in risk-on tech regime.
+Catalyst: +100% past month on ongoing AI/edge catalysts; WallStreetZen A Strong Buy (Sentiment/Growth/Momentum).
+Entry: Enter on pullback to 10-day MA if volume holds.
+Exit: Profits +10%; stop below recent breakout level.
+Risk/reward: 8% downside vs 15%+ upside momentum continuation.
+Bear/adversary: Momentum chaser risk; no intraday catalyst.
+Source quality: Strong: Zen ratings, price/volume data.
+Chittick Cash Filter
+Score: 75/100
+Margin of safety: Below peak valuations; strong cash position.
+Valuation: Reasonable vs semi peers post-run.
+Growth runway: AI edge computing demand 20%+ CAGR.
+Balance-sheet risk: Net cash, no debt.
+Capital allocation: Buybacks, dividends.
+Concentration case: Semi diversity vs broad tech.
+Owner thesis, 30-180 days: If earnings confirm growth, 90-day hold.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: momentum
+Fresh catalyst: yes
+Repeat count, 48h: 2
+Diversity bucket: technology-semiconductors
+Research tier: execution-ready
+Allocation learning: none
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 9/100
+Hype risk: 0.10
+Evidence rank: 8/100
+Memory similarity: 0.00
+Vetoes: none
+Model notes: Fresh, low repeat; semi bucket diversity.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
 

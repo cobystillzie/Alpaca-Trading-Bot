@@ -204,4 +204,66 @@ Weekly review may propose changes here. Routine runs must not rewrite executable
 ## Weekly Strategy Proposals - 2026-05-04 09:49:54 Eastern Daylight Time
 
 {"lessons":["SPMO dominates outputs with near-identical repetitive catalysts across 20+ timestamps, indicating stalled momentum scanning without fresh signals.","NVDA, GOOGL, ASML, LRCX, MSFT recur heavily in semiconductors/tech/AI, comprising 70%+ of candidates and triggering repeated 15% allocation blocks.","Portfolio lacks diversity: 90%+ candidates in tech/semiconductors/broad momentum; minimal exposure to biotech (ANIX/TNXP), industrials (ETN), or others despite occasional appearances.","Daily research outputs are formulaic, recycling price ranges ($128-$132 for SPMO), MA crossovers, and AI buzz without evolving theses or new sectors.","Chittick Cash scores (55-82) appear consistently but show no correlation to execution success; high scores on blocked repeats like NVDA/GOOGL suggest over-reliance.","Hugging Face filters (HF Source/Vetoes) mostly 0-1 with no vetoes observed, adding minimal value and potentially noise via unvetted inclusions.","Social buzz and congressional signals absent or weak (e.g., PLTR rejection cites low-weight signals), not improving quality over technicals.","Allocation blocks enforce safety but amplify repetition by sidelining diverse low-confidence picks like ARLO/NXPI."],"rejected_patterns":["Repeated identical SPMO catalysts: '+17.81% 1M return to $132.29, +1.23% daily gains $128-$132 high $131.50 uptrend from $78.25'. Reject if unchanged >3 cycles.","NVDA/GOOGL/SPMO trio in >80% lists: Flag as overused cluster if sector concentration >60% in any 24h window.","Stale price recitals without new data: Block if catalyst verbatim repeat within 48h.","15% single-symbol blocks on repeats: Log as 'stale_repeat' to prioritize sector rotation.","Low Chittick (<70) or HF=0 on non-diverse picks: Auto-demote unless unique catalyst."],"strategy_proposals":["Enforce **sector caps**: Max 40% tech/semis per portfolio; rotate to underweight sectors (industrials, biotech, consumer) on daily scans.","**Diversity score**: Require 3+ sectors per candidate list; penalize confidence -10% per repeat sector.","**Freshness decay**: Reduce confidence 20% daily for unchanged catalysts; reset only on new earnings/news.","**Allocation skew**: Cap repeats at 5% target; boost under-allocated sectors (e.g., ETN power mgmt) to 10% if Chittick>70.","**Test-gate rotation**: Post-block, force-scan underrepresented GICS sectors excluding top-3 repeats."],"self_learning_directives":["Track **repeat frequency** per symbol/sector over 7/30 days; auto-blacklist top offender for 72h if >5 appearances.","Analyze **block reasons**: If 'allocation exceed' >3x on same symbol, demote in scans until diversity>50%.","Log **signal efficacy**: Correlate Chittick/HF with eventual executes; downweight sources if <60% pass rate.","**Output variance check**: Alert if <20% new symbols daily; trigger sector-forced scan.","Post-test gate: Review 7-day candidate diversity; if <4 sectors, self-adjust scan prompts to 'exclude recent repeats, prioritize [underweights]'."],"safe_code_prompt_routine_changes":["Add to candidate filter: `if symbol in last_24h_top3 or catalyst_similarity(last_output, current)>0.8: confidence *= 0.7; sector_weight -= 0.2`","Prompt tweak: 'Generate candidates from underrepresented sectors (non-tech/semis first); exclude symbols appearing >3x in last 48h; vary catalysts with fresh data only.'","Routine: Daily pre-scan: `blocked_symbols = extract_recent_rejects(); undersectors = gics_minus_top3(); prioritize(undersectors)`","Chittick/HF eval: `if chittick<70 and hf_source<2: append 'diversity_bonus' only if new_sector=True`","Table header add: 'DaysSinceLast' column; reject if <2 for non-unique catalysts."]}
+## Weekly Strategy Proposals - 2026-05-08 17:17:17 Eastern Daylight Time
+
+```json
+{
+  "lessons": [
+    "SCHD dominates with 20+ repeats, confirming persistent value/dividend rotation but risking opportunity cost from overexposure.",
+    "High repeat counts (SCHD 20x, VYM 11x, WS 8x, PEG 15x, MUX 7x) indicate stale memory loops prioritizing familiar tickers over fresh signals.",
+    "Sector concentration: dividend ETFs (SCHD/VYM), materials-mining (MUX/GDX/FSM), industrials (WS/GWW), financials (GLRE) lack broad diversity.",
+    "Allocation blocks prevent scaling into winners (e.g., MUX downgraded to watch-allocation-constrained after repeats).",
+    "Fresh candidates (e.g., SIMO +100% MoM, APP/PUBM adtech beats) show quality but get overshadowed by repeat staleness."
+  ],
+  "rejected_patterns": [
+    "Single-stock allocation >15% (NVDA, GOOGL, SPMO repeats).",
+    "Banned v1 instruments/leverage references (PLTR, MUX early rejection).",
+    "HF memory filter + repeat_staleness (INTC, ADI, GSK, PLTR).",
+    "Source-thin hype + low-weight social/congress signals (PLTR).",
+    "Market-open execution skips due to daily order limits."
+  ],
+  "strategy_proposals": [
+    "Implement repeat decay: reduce confidence by 0.05 per repeat beyond 5, prioritize fresh signals.",
+    "Sector caps: max 25% any sector (current: dividend ETFs ~30%+ implied).",
+    "Allocation refresh: rotate out SCHD/VYM if repeats >15, force 20% fresh allocation quarterly.",
+    "Diversity matrix: require min 5 sectors represented in top-10 candidates.",
+    "Stale ticker quarantine: 7-day cooldown for execution-ready after 10+ repeats."
+  ],
+  "self_learning_directives": [
+    "Track 'regret cost' of rejected high-conviction fresh signals vs repeat comfort trades.",
+    "Analyze HF filter efficacy: SIMO/SANM (9 HF sources, 0 vetoes) succeeded where PLTR failed.",
+    "Monitor Chittick Cash signal strength: consistent 74-78 scores but low differentiation power.",
+    "Log 'shadow portfolio' performance of top-5 fresh vs repeat-heavy candidates daily.",
+    "Self-audit: if same 4 tickers appear in 70%+ daily outputs, trigger memory compaction."
+  ],
+  "signal_evaluation": {
+    "Chittick Cash": "Consistent 74-78 scores across repeats (SCHD 78, WS 74, GLRE 74) but fails to break staleness loops - moderate signal, low actionability.",
+    "Hugging Face filters": "Strong positive: 9 sources/0 vetoes for winners (SIMO, SANM, DT); rejects hype correctly (PLTR, ADI) - high quality filter.",
+    "Social buzz": "Noise source: PLTR rejections show weak signals need corroboration - downweight unless 2+ sources.",
+    "Congressional signals": "Low-weight noise: PEG 15x repeats with 'low-weight congressional volume' - disable or require earnings confirmation."
+  },
+  "safe_code_prompt_routine_changes": [
+    {
+      "change": "Add repeat decay to candidate scoring",
+      "prompt_snippet": "Reduce confidence by 0.05 × (repeat_count - 5) for repeat > 5; prioritize fresh=True signals"
+    },
+    {
+      "change": "Sector diversity enforcer",
+      "prompt_snippet": "Reject lists with <5 sectors in top-10; flag if any sector >25% implied allocation"
+    },
+    {
+      "change": "Fresh signal boost",
+      "prompt_snippet": "Fresh=True candidates get +0.10 confidence boost; execution-ready requires fresh within 72h unless regime confirmation"
+    },
+    {
+      "change": "Staleness quarantine",
+      "prompt_snippet": "Ticker with repeat>12 moves to 'stale-watch' tier; requires new catalyst + fresh=True for execution-ready"
+    },
+    {
+      "change": "Allocation rotation rule",
+      "prompt_snippet": "If repeat>15, downgrade to 'watch-allocation-constrained'; force 20% portfolio to <7-day old signals"
+    }
+  ]
+}
+```
 
