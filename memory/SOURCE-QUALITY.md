@@ -6434,4 +6434,62 @@ SEC/company quality check:
     "https://www.sec.gov/Archives/edgar/data/829323/0000950170-26-XXXXXX/INUV_10K_2026.txt"
   ]
 }
+## Source And Signal Research - 2026-05-08 11:36:10 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks or ETFs. No notable social buzz or attention anomalies detected.",
+  "social_buzz": "weak",
+  "attention_anomalies": "none",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No recent congressional disclosures found for liquid US stocks/ETFs.",
+  "congressional_signal": "none",
+  "tickers": [],
+  "source_urls": []
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "SES AI (SES) 10-K (filed 2026-03-04) dominates results with extensive risk disclosures on ongoing losses ($73M net loss 2025, $372M accum. deficit), capital needs, integration risks from UZ Energy acquisition, emerging UAM/drone markets, supply chain volatility, manufacturing scale-up, competition from larger Li-ion players, product defects/fire risks, and customer concentration dependency. DRCT shows revenue collapse (2025 rev $34.7M vs $157M 2023) from client pause/misinfo, going concern doubt, high concentration. INUV revenue concentration (2 customers 83% rev), history of losses ($178M accum. deficit). BRID customer concentration (Wal-Mart 33.5% rev). No durable demand signals; all exhibit high execution/BS risks.",
+  "filing_risks": {
+    "SES": [
+      "Ongoing losses: $73M 2025 net loss, $372M accum. deficit; may never profitable",
+      "Capital needs: substantial future funding required, dilutive if equity/debt",
+      "Customer/integration: UZ Energy integration risks, potential impairments",
+      "Concentration/supply: no long-term supply deals, raw material volatility/tariffs",
+      "Manufacturing: scale-up risks, equipment failures, personnel hiring",
+      "Product/safety: battery defects, fire risks, recalls, liability exceeds resources",
+      "Competition: larger Li-ion incumbents, emerging tech threats",
+      "Market/emerging: UAM/EV/drones unproven demand, NDAA compliance costs"
+    ],
+    "DRCT": [
+      "Going concern: $0.7M cash, $28M accum. deficit, insufficient for 12mos",
+      "Revenue quality: 2025 rev $35M (-44% YoY) from single client pause/misinfo",
+      "Concentration: credit facilities covenants, high client dependency",
+      "Dilution/BS: need financing, potential Nasdaq delisting",
+      "Operational: IVT/fraud risks, platform failures, cookie phaseout"
+    ],
+    "INUV": [
+      "Losses/liquidity: $5.1M op loss 2025, $179M accum. deficit, $5.1M working capital deficit, $2.8M cash",
+      "Concentration: 2 customers 83% rev 2025 (64%+19%)",
+      "Revenue quality: dependent on Yahoo/Google, ad supplier risks",
+      "BS risks: negative cash flows, fixed labor costs in software dev"
+    ],
+    "BRID": [
+      "Concentration: Wal-Mart 33.5% rev 2025, Dollar General 14.2%",
+      "Industry: food contamination, consumer shifts, inflation pressures",
+      "BS: inflation/labor/commodity costs, supply chain constraints"
+    ]
+  },
+  "quality_notes": "All filings highlight weak balance sheets (losses, deficits, low cash), high customer concentration (SES OEM-dependent, DRCT/INUV 1-2 clients >80% rev, BRID Wal-Mart heavy), revenue quality risks (SES pre-commercial, DRCT collapse, INUV ad-dependent), capital allocation/raise risks (SES/DRCT dilution), no litigation but product liability/fire risks elevated for SES/BRID. No durable demand; SES emerging tech unproven, DRCT declining, INUV/BRID cyclical/concentrated. Watchlist avoids: execution-intensive, no profitability path near-term.",
+  "source_urls": []
+}
 

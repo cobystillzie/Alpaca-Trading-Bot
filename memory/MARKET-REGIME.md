@@ -2948,4 +2948,28 @@ For a cautious bot workflow on May 4, 2026:
   ]
 }
 ```
+## Market Regime Research - 2026-05-08 11:36:10 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities exhibit mild risk-on tone with steady growth and low volatility (VIX 17.39). Mortgage rates stable at 6.43% 30yr amid falling 10yr Treasury (4.334%) and oil ($91.21). Mixed indexes but positive breadth; post-Q1 earnings rotation favors SMIDs, dividend payers (PFE 6.6%, SYY/WSO), and defensives. Adtech/software names show resilient beats despite downgrades.",
+  "market_regime": "risk_on_mild",
+  "sector_rotation": "SMIDs_outperform > dividend_value > materials_mining > adtech_software > industrials_security",
+  "risk_flags": [
+    "VIX_low_17.39",
+    "Treasury_yield_down_good",
+    "Oil_price_drop_supportive",
+    "Fed_new_chair_Warsh_money_printing_expectation",
+    "Mortgage_volatility_persistent",
+    "Growth_stocks_tough_day_but_steady"
+  ],
+  "source_urls": [
+    "https://themortgagereports.com/today",
+    "https://fred.stlouisfed.org/series/VIXCLS",
+    "https://global.morningstar.com/en-ca/stocks/3-dividend-stocks-may-2026",
+    "https://www.mpamag.com/us/specialty/wholesale/forget-rate-cuts-a-veteran-broker-says-new-fed-chair-warsh-will-print-money-instead/574439",
+    "https://www.moneycontrol.com/news/videos/business/markets/nifty-around-24-200-rises-1-this-week-smids-outperform-closing-bell-13913086.html"
+  ]
+}
+```
 
