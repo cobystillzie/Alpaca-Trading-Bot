@@ -7010,4 +7010,46 @@ HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
 Self-learning: tier=watch repeat48h=0 fresh=yes bucket=materials-mining-etf
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-08 03:32:24 Eastern Daylight Time
+
+Research Update
+
+Market tone: Early Friday pre-market quiet with no fresh catalysts in search results; ongoing rotation to value/dividends amid tech concentration risks and Q1 earnings strength in cyclicals/mining; market rebound intact but valuations elevated.
+Candidates: 4
+
+1. SCHD (dividend-value-etf) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 78/100 | tier execution-ready | bucket dividend-etf-defensive | HF source 9/100
+Recommendation: execute-if-guards-pass
+Catalyst: Ongoing post-Q1 2026 earnings sector rotation confirmation; Morningstar Gold-rated #1 high-dividend ETF for 2026 passive income lists.
+Chittick Cash: Dividend yield buffer + quality holdings provide downside protection vs. S&P.
+HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=20 fresh=yes bucket=dividend-etf-defensive
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. MUX (materials-mining) | confidence 0.82 | allocation 5.0% | stop 8.0% | Chittick 35/100 | tier execution-ready | bucket materials-mining | HF source 9/100 | HF veto
+Recommendation: watch
+Catalyst: Q1 2026 earnings: net income $33.4M ($0.56/sh) vs loss; revenue +107% to $74M; reaffirmed 114-126k GEO guidance; San José dividends expected.
+Chittick Cash: Production visibility + dividends buffer downside.
+HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=1
+Self-learning: tier=execution-ready repeat48h=5 fresh=yes bucket=materials-mining
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. GDX (materials-mining-etf) | confidence 0.78 | allocation 8.0% | stop 8.0% | Chittick 72/100 | tier watch | bucket materials-mining-etf | HF source 8/100
+Recommendation: watch
+Catalyst: Miners relative strength new highs vs bullion consolidation; silver leading; Canadian generational setup.
+Chittick Cash: Diversified vs. bullion.
+HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=1 fresh=yes bucket=materials-mining-etf
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+4. GLRE (financials-reinsurance) | confidence 0.75 | allocation 5.0% | stop 8.0% | Chittick 74/100 | tier watch | bucket reinsurance-financials | HF source 8/100
+Recommendation: watch
+Catalyst: Q1 2026: net income +21% YoY to $35.8M, combined ratio 96% (from 104.6%), underwriting profit $6.2M (vs -$7.8M).
+Chittick Cash: Ratio improvement buffers.
+HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=7 fresh=yes bucket=reinsurance-financials
+Social buzz, low weight: none
+Congress signal, low weight: none
 

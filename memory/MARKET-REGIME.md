@@ -2827,4 +2827,30 @@ For a cautious bot workflow on May 4, 2026:
   ]
 }
 ```
+## Market Regime Research - 2026-05-08 03:32:24 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities in bullish rebound mode post-March lows (+13-14% S&P 500), driven by strong Q1 earnings beats (9/11 sectors), AI momentum, and ceasefire hopes in Iran. Mortgage rates stabilizing ~6.3-6.5% with slight improvement on lower Treasury yields (10yr 4.334%) and oil pullback ($91). Mixed caution: rising valuations (S&P NTM P/E 25x), softening consumer sentiment, core inflation 3.2%, upcoming jobs data. Overall risk-on with rotation to cyclicals/mining.",
+  "market_regime": "bullish_rebound_risk_on",
+  "sector_rotation": "AI/tech_lead_with_cyclical_rotation_to_mining_industrials_materials; dividend_value_etfs_gaining; selective_earnings_momentum",
+  "risk_flags": [
+    "rising_valuations_SandP_25x_NTM_PE",
+    "core_inflation_3.2pct_highest_since_Nov2023",
+    "oil_volatility_91_bbl_after_95_peak",
+    "consumer_sentiment_softening_McDonalds_Whirlpool",
+    "upcoming_jobs_report_Factory_Orders_ISM_Services",
+    "geopolitical_Iran_ceasefire_uncertainty",
+    "midday_caution_stocks_pare_gains"
+  ],
+  "source_urls": [
+    "https://themortgagereports.com/mortgage-rates-now/mortgage-rates-today-may-7-2026",
+    "https://www.nerdwallet.com/mortgages/news/mortgage-rates-today-thursday-may-7-2026",
+    "https://swingandrythm.substack.com/p/the-cycle-the-yield-curve-and-sector-a6f",
+    "https://www.rbccm.com/en/insights/2026/05/takeaways-from-an-avalanche-of-earnings",
+    "https://am.lombardodier.com/insights/2026/may/markets-look-beyond-the-iran-crisis-as-ai-momentum-and-earnings-build.html",
+    "https://articles.stockcharts.com/article/the-stock-market-still-looks-bullish-but-these-economic-charts-deserve-attention/"
+  ]
+}
+```
 
