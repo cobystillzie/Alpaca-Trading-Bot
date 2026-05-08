@@ -569,4 +569,9 @@ Candidates found: 3
 Early Friday pre-market quiet with no fresh catalysts in search results; ongoing rotation to value/dividends amid tech concentration risks and Q1 earnings strength in cyclicals/mining; market rebound intact but valuations elevated.
 
 Candidates found: 4
+## Two-Hour Research Agent - 2026-05-08 05:32:09 Eastern Daylight Time
+
+Q1 2026 ad-tech earnings show strength with AppLovin (APP) revenue +59% YoY to $1.84B, EPS beat, net income double, 85% EBITDA margins on AI ad platform; PubMatic (PUBM) revenue $62.6M beat, +13% underlying growth ex-legacy, 40th straight positive EBITDA quarter, AI driving efficiency/CTV/emerging revenues +80%. APP after-hours dip on guidance despite beats; PUBM positive. Broader risks: AI cyber threats to financial stability, private credit opacity. Rotation favors quality cyclicals/miners/dividends over narrow tech.
+
+Candidates found: 3
 

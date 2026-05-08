@@ -5982,4 +5982,48 @@ SEC/company quality check:
 | **FSLR** | Solar | **MODERATE** | **ACCEPTABLE** | Established, profitable, durable demand, tariff/supply risks manageable |
 | **BRID** | Food | **LOW-MODERATE** | **ACCEPTABLE** | Stable, profitable, Walmart concentration manageable, defensive |
 | **ABNB** | Travel | **MODERATE** | **ACCEPTABLE** | Established, profitable, regulatory risks priced in, durable demand |
+## Source And Signal Research - 2026-05-08 05:32:09 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks or ETFs. No notable social or attention anomalies detected.",
+  "social_buzz": "None",
+  "attention_anomalies": "None",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Recent congressional trading disclosures show net buying interest in $IREN (3 buys vs 1 sell), $TDG (8 buys vs 2 sells), $ENTG (2 buys vs 2 sales), $WAT (2 buys vs 2 sales), $PANW (5 buys vs 2 sales). Low-weight delayed signals amid institutional shifts and analyst coverage.",
+  "congressional_signal": "Moderate net positive: $IREN (Rep. Strong buy $15k 1/28, Rep. Fields 2 buys up to $115k), $TDG (Rep. Delaney buy $19-110k), $ENTG (Rep. Delaney 2 buys up to $30k), $PANW (Rep. Moskowitz active), $WAT (Rep. Letlow buy $15k).",
+  "tickers": ["IREN", "TDG", "ENTG", "WAT", "PANW"],
+  "source_urls": [
+    "https://www.quiverquant.com/news/IREN+Limited+Expands+into+Europe+with+Acquisition+of+Ingenostrum,+S.L.+to+Enhance+AI+Data+Center+Portfolio",
+    "https://www.quiverquant.com/news/TransDigm+Group+Stock+(TDG)+Opinions+on+Congressional+Trade+Disclosure+and+Earnings+Beat",
+    "https://www.quiverquant.com/news/Entegris+Stock+(ENTG)+Opinions+on+Congressional+Purchase+Disclosure",
+    "https://www.quiverquant.com/news/Fund+Update:+New+$11.4M+$WAT+stock+position+opened+by+Lazard+Freres+Gestion+S.A.S.",
+    "https://www.quiverquant.com/news/Fund+Update:+New+$84.4M+$PANW+stock+position+opened+by+TimesSquare+Capital+Management,+LLC"
+  ]
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "Direct Digital Holdings (DRCT) operates a programmatic advertising platform (Colossus SSP) with sell-side and buy-side services, emphasizing IVT mitigation, high client retention (90%), and multicultural audiences. 2025 revenue $34.7M (down sharply from $157.1M in 2023 due to major sell-side customer pause from defamatory article/misinformation campaign), gross profit $10.4M, cash $0.7M, accumulated deficit $27.7M. Going concern doubt, credit covenants ($450k min cash), Nasdaq delisting risk, high customer concentration, revenue quality issues from customer pause.",
+  "filing_risks": [
+    "Going concern substantial doubt: Insufficient cash for 12 months, accumulated deficit $27.7M, reliant on cost cuts, partner recovery, additional funding (debt/equity dilution risk).",
+    "Revenue concentration/quality: 2024-2025 revenue/gross profit plunge from one sell-side customer pause (Q2 2024, reconnected May 22 but volumes below prior levels); high reliance on few clients.",
+    "Balance sheet: Cash $0.7M, credit facilities with min $450k cash covenant, term debt matures Dec 2026, default risk could accelerate repayment/force liquidation.",
+    "Dilution: Need additional financing likely via equity/debt, senior rights/dilution to shareholders.",
+    "Nasdaq delisting risk: Failure to meet listing standards.",
+    "Operational: IVT/ad fraud detection failure risk, platform issues, cookie/tracking restrictions, high customer concentration exposes to client risks/payment disputes.",
+    "Capital allocation: Reorganization July 2024, strategic shift to buy-side/enterprise may not succeed; acquisitions/integration risks.",
+    "Litigation/rep: Defamatory article/coordinated misinformation campaign caused customer pause/revenue drop."
+  ],
+  "quality_notes": "Weak durable demand: Revenue/gross profit halved YoY in 2025 from customer-specific incident (not reflective of model per mgmt, but unproven recovery); 90% retention claim but buy-side only 195 clients, sell-side 174k buyers. Balance sheet distress (going concern, low cash, covenants) outweighs adtech platform strengths (IVT mitigation, data curation). High execution/competition risks in fragmented adtech vs giants (Google, Pubmatic). Watch for volume recovery but avoid due to financial fragility.",
+  "source_urls": ["https://www.sec.gov/Archives/edgar/data/1880613/000141057826000XXX/directdigital-10k_20260331.htm"]
+}
 

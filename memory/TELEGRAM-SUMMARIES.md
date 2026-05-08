@@ -7052,4 +7052,37 @@ HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
 Self-learning: tier=watch repeat48h=7 fresh=yes bucket=reinsurance-financials
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-08 05:32:09 Eastern Daylight Time
+
+Research Update
+
+Market tone: Q1 2026 ad-tech earnings show strength with AppLovin (APP) revenue +59% YoY to $1.84B, EPS beat, net income double, 85% EBITDA margins on AI ad platform; PubMatic (PUBM) revenue $62.6M beat, +13% underlying growth ex-legacy, 40th straight positive EBITDA quarter, AI driving efficiency/CTV/emerging revenues +80%. APP after-hours dip on guidance despite beats; PUBM positive. Broader risks: AI cyber threats to financial stability, private credit opacity. Rotation favors quality cyclicals/miners/dividends over narrow tech.
+Candidates: 3
+
+1. APP (communication-services-adtech) | confidence 0.82 | allocation 7.0% | stop 8.0% | Chittick 76/100 | tier execution-ready | bucket adtech-growth
+Recommendation: execute-if-guards-pass
+Catalyst: Q1 2026 earnings beat: revenue +59% YoY to $1.84B (beat est), EPS $3.56 (vs $3.44 est), net income $1.21B (2x YoY), Adj EBITDA +66% to $1.56B (85% margins); Axon AI platform driving momentum despite after-hours pullback on guidance.
+Chittick Cash: Record cash flow/profitability cushions vs elevated multiples; quality AI moat limits downside.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=adtech-growth
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. PUBM (communication-services-adtech) | confidence 0.80 | allocation 6.0% | stop 8.0% | Chittick 78/100 | tier execution-ready | bucket adtech-quality
+Recommendation: execute-if-guards-pass
+Catalyst: Q1 2026 earnings beat: revenue $62.6M (vs $59M est), underlying +13% YoY ex-legacy DSP, 40th straight positive Adj EBITDA; CTV +13-18%, emerging/AI revenues +80% (14% total), impressions +26%, cost/million impressions -20%.
+Chittick Cash: No debt, positive EBITDA streak, cash generation provide buffer.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=adtech-quality
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. TTD (communication-services-adtech) | confidence 0.65 | allocation 4.0% | stop 8.0% | Chittick 35/100 | tier watch | bucket adtech-contrarian
+Recommendation: watch
+Catalyst: Oppenheimer downgrade on weak revenue outlook but trades at discount 6.4x 2026 EBITDA (vs sector 7.9x); peers APP/PUBM beats highlight rotation opportunity.
+Chittick Cash: Discount valuation but revenue risk.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=adtech-contrarian
+Social buzz, low weight: none
+Congress signal, low weight: none
 

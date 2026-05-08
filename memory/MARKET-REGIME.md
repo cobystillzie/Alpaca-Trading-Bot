@@ -2853,4 +2853,27 @@ For a cautious bot workflow on May 4, 2026:
   ]
 }
 ```
+## Market Regime Research - 2026-05-08 05:32:09 Eastern Daylight Time
+
+{
+  "summary": "US equities exhibit bullish momentum post-Q1 earnings with S&P 500 up 13-14% from March lows, valuations elevated but not peaked (S&P NTM P/E ~25x vs 28x high), strong 84% EPS beat rate led by Tech/AI, Comm Services, Consumer Discretionary. Cautious tone emerging amid geopolitics (Iran tensions), sticky inflation (core PCE 3.2%), high oil (~$91), no near-term Fed cuts (95% no June cut). VIX low at 17.39 signals complacency. Sector leaders: Energy integrateds, Staples, AI semis, Financials. Midday caution on May 7 with indices turning red.",
+  "market_regime": "Bullish trend with climbing wall of worry; risk-on overall but cautious consolidation; low volatility supports upside to S&P 7750 target, non-linear path expected due to volatility sources (elections, EPS cuts ex-Tech).",
+  "sector_rotation": "Overweight: Energy (XLE integrated majors), Consumer Staples (XLP, COST/WMT), AI Semis/Tech (XLK/SMH, AMD/NVDA), Large-Cap Financials (XLF, JPM), GLP-1 Health (LLY/NVO). Laggards: Energy E&Ps, broad Healthcare. Focus beat-and-raise names over sector beta.",
+  "risk_flags": [
+    "Geopolitical escalation (Iran war, Strait of Hormuz oil risks)",
+    "Sticky inflation (core 3.2%, PCE 3.5%) delaying Fed cuts",
+    "Elevated valuations vulnerable to profit-taking (semis/AI)",
+    "Midterm elections, 2H26 EPS cuts ex-mega Tech",
+    "Consumer sentiment softening despite strong jobs (claims 189k low)",
+    "Oil volatility ($91, down from $95 but upper 70s supportive)"
+  ],
+  "source_urls": [
+    "https://www.rbccm.com/en/insights/2026/05/takeaways-from-an-avalanche-of-earnings",
+    "https://www.heygotrade.com/en/blog/Q2-2026-Sector-Outlook-5-US-Sectors-Q1-Earnings-Beats/",
+    "https://www.stonex.com/en/insights/perspective-mid-day-commentary-for-may-7-2026-05-07/",
+    "https://www.zacks.com/stock/news/2916984/3-balanced-mutual-funds-to-tackle-volatile-markets-in-2026",
+    "https://articles.stockcharts.com/article/the-stock-market-still-looks-bullish-but-these-economic-charts-deserve-attention/",
+    "https://fred.stlouisfed.org/series/VIXCLS"
+  ]
+}
 
