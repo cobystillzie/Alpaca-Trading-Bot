@@ -2781,4 +2781,29 @@ For a cautious bot workflow on May 4, 2026:
   ]
 }
 ```
+## Market Regime Research - 2026-05-07 23:25:42 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities in constructive rebound phase post-March lows (+14% S&P 500), supported by resilient Q1 earnings and AI momentum, but with rising valuations, persistent inflation (PCE 3.5%), sticky rates (10Y 4.33%, mortgages ~6.4%), and intraday caution. Oil pullback to $91 aids inflation relief hopes; geopolitics (Iran/ME) referenced more but markets looking beyond. Sector rotation evident from chips/tech leadership amid value/dividend interest.",
+  "market_regime": "risk_on_with_caution",
+  "sector_rotation": "chips/tech leading rebound (AI earnings), energy declining, value/dividends gaining traction post-Q1 narrowness; midday rotation to caution pared gains",
+  "risk_flags": [
+    "elevated valuations (S&P NTM P/E >25x, not yet topped but climbing)",
+    "persistent inflation (headline PCE 3.5%, core 3.2%) delaying Fed cuts (95% no-June cut)",
+    "geopolitical spikes (Iran/ME tensions, company mentions up)",
+    "intraday volatility (early gains pared to red in Dow/S&P)",
+    "non-linear path to targets acknowledged"
+  ],
+  "source_urls": [
+    "https://www.rbccm.com/en/insights/2026/05/takeaways-from-an-avalanche-of-earnings",
+    "https://www.youtube.com/watch?v=xF0N1HPdonQ",
+    "https://www.blackrock.com/us/financial-professionals/insights/equity-market-outlook",
+    "https://www.stonex.com/en/insights/perspective-mid-day-commentary-for-may-7-2026-05-07/",
+    "https://www.zacks.com/stock/news/2916984/3-balanced-mutual-funds-to-tackle-volatile-markets-in-2026",
+    "https://am.lombardodier.com/insights/2026/may/markets-look-beyond-the-iran-crisis-as-ai-momentum-and-earnings-build.html",
+    "https://themortgagereports.com/mortgage-rates-now/mortgage-rates-today-may-7-2026"
+  ]
+}
+```
 

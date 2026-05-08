@@ -554,4 +554,9 @@ Candidates found: 3
 US equities in risk-on mode with Nasdaq records on AI optimism, but rotation to value/divs/industrials evident amid tech concentration risks. Fresh catalysts: INUV Q1 call May 14, FATE insider buy, monthly gainers incl FATE +50%. No major regime shift; VIX stable.
 
 Candidates found: 3
+## Two-Hour Research Agent - 2026-05-07 23:25:42 Eastern Daylight Time
+
+Mixed global cues with European indices lower (-0.02% to -0.63%), India VIX at 16.62 signaling stock-specific volatility; US fast-food (QSR) and African e-comm (JMIA under $10) earnings beats drive sector momentum amid profit booking risks and FII selling concerns.
+
+Candidates found: 3
 

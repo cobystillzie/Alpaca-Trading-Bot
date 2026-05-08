@@ -5589,4 +5589,75 @@ SEC/company quality check:
     " iCoreConnect Inc. 10-K (2025-05-30)"
   ]
 }
+## Source And Signal Research - 2026-05-07 23:25:42 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks/ETFs. No evidence of hype, pump language, or unsupported claims detected.",
+  "social_buzz": "None",
+  "attention_anomalies": "None",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "IREN Limited ($IREN) shows congressional trading interest with 4 trades in past 6 months: 3 purchases (Rep. Dale Strong up to $15K on 01/28; Rep. Cleo Fields 2 purchases up to $115K on 01/20 & 12/09) and 1 sale (Fields up to $100K on 12/26). Positive analyst coverage with median PT $70 (range $39-80). Institutional accumulation (280 adds vs 211 reduces). Company expanding into Europe via Ingenostrum acquisition for AI data centers. Other results cover unrelated bills, funding, and investigations with no additional trade signals.",
+  "congressional_signal": "Moderate buy signal on $IREN: 3 purchases vs 1 sale by Reps. Strong and Fields (net positive up to ~$30K). Disclosures delayed/low-weight.",
+  "tickers": ["IREN"],
+  "source_urls": ["https://www.quiverquant.com/news/IREN+Limited+Expands+into+Europe+with+Acquisition+of+Ingenostrum,+S.L.+to+Enhance+AI+Data+Center+Portfolio"]
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": "DRCT (Direct Digital Holdings) 10-K shows severe financial distress with going concern warning, plunging revenue/gross profit (2025: $34.7M/$10.4M vs 2023: $157.1M/$37.6M), customer pause from defamatory article, 90% retention but high concentration risks, Nasdaq delisting threat, covenant breaches. INUV (Inuvo) stable microcap adtech with AI focus, 2.9% revenue growth but gross margin decline to 74.5%, heavy customer concentration (64%+19%), history of losses ($178M accum deficit), working capital deficit. FATE biotech high-risk clinical stage with no revenue, heavy losses, funding needs. NEOV energy storage growth but early-stage with competition risks. ICCT SaaS healthcare post-merger with limited history. CRMZ niche credit monitoring stable but small. No durable demand; all carry balance sheet/liquidity risks.",
+  "filing_risks": {
+    "DRCT": [
+      "Going concern doubt: $0.7M cash, $27.7M accum deficit, insufficient for 12 months; customer pause caused 2024-25 revenue drop",
+      "High customer concentration: one sell-side customer pause crushed revenue",
+      "Credit covenants: min $450k cash, default risk, debt due Dec 2026",
+      "Nasdaq delisting risk if listing standards fail",
+      "Dilution/Financing: need capital raises likely dilutive",
+      "Revenue quality: 2025 revenue -44% YoY from prior peak, IVT/ad fraud risks",
+      "Operational: platform issues, cookie phaseout, ad fraud detection failure",
+      "Litigation/Rep: defamatory article/misinfo campaign impact lingers"
+    ],
+    "INUV": [
+      "Customer concentration: 2 customers 64.2%+19.3% of 2025 revenue (75%+7% in 2024)",
+      "Losses/liquidity: $5.1M op loss 2025, $178M accum deficit, $5.1M working capital deficit, $2.8M cash",
+      "Revenue quality: only 2.9% growth, gross margin -10.1% to 74.5%",
+      "Dependence: on Yahoo/Google (64%+19%), ad suppliers, traffic acquisition",
+      "Dilution: RSU vesting/warrants",
+      "Listing: NYSE American standards risk"
+    ],
+    "FATE": [
+      "No revenue, heavy clinical losses, funding dependent",
+      "Biotech risks: trial failures, manufacturing delays, competition",
+      "Dilution: need substantial funding",
+      "IP/Tech: iPSC/gene-editing platform unproven at scale"
+    ],
+    "NEOV": [
+      "Early stage: sales since 2019, startup risks",
+      "Competition: Tesla/LG/Sonnen etc with greater resources",
+      "Supply chain: Asia/US sourcing, FEOC compliance",
+      "Regulatory: evolving ESS standards"
+    ],
+    "ICCT": [
+      "Limited history post-merger, difficult evaluation",
+      "No patents, IP via contracts only",
+      "Customer concentration in AR (26%/25%)"
+    ],
+    "CRMZ": [
+      "Small revenue share (1% TAM), fragmented competition",
+      "Dependence on data suppliers/NRSROs"
+    ]
+  },
+  "quality_notes": "DRCT highest risk - going concern + revenue collapse disqualifies entirely; balance sheet critically weak ($0.7M cash). INUV watchable microcap but 83% customer concentration + losses/cap needs veto durable demand. No evidence of sustainable moats/FCF in volatile adtech. FATE/NEOV/ICCT high speculation. CRMZ stable niche but minimal scale. No GOOGL/INTC/USAR/GT exposure. Revenue quality poor across board (concentration, declines, dependence). Capital allocation risks in loss-makers needing dilution.",
+  "source_urls": []
+}
+```
 

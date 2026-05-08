@@ -6944,4 +6944,37 @@ HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=0
 Self-learning: tier=execution-ready repeat48h=19 fresh=yes bucket=dividend-etf-defensive
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-07 23:25:42 Eastern Daylight Time
+
+Research Update
+
+Market tone: Mixed global cues with European indices lower (-0.02% to -0.63%), India VIX at 16.62 signaling stock-specific volatility; US fast-food (QSR) and African e-comm (JMIA under $10) earnings beats drive sector momentum amid profit booking risks and FII selling concerns.
+Candidates: 3
+
+1. JMIA (consumer-discretionary-ecommerce) | confidence 0.80 | allocation 7.0% | stop 8.0% | Chittick 72/100 | tier execution-ready | bucket emerging-ecommerce | HF source 9/100
+Recommendation: execute-if-guards-pass
+Catalyst: Q1 2026 earnings beat: GMV +32% YoY to $211.2M, revenue +39% to $50.6M, Adj EBITDA loss narrowed 32% to $10.7M; stock +22.5% to $9.14; reaffirmed FY guidance and Q4 breakeven target.
+Chittick Cash: Under $10 entry with improving EBITDA trajectory and guidance; analyst PT implies safety.
+HF filter: sentiment=not run source=9/100 hype=0.20 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=emerging-ecommerce
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. QSR (consumer-discretionary-restaurants) | confidence 0.75 | allocation 5.0% | stop 8.0% | Chittick 75/100 | tier watch | bucket consumer-restaurants | HF source 8/100
+Recommendation: watch
+Catalyst: Q1 CY2026 earnings beat: revenue $2.26B (+7.3% YoY, +0.9% est), Adj EPS $0.86 (+4% est), EBITDA $706M (+1.5% est), op margin 26.8% (up from 20.6%).
+Chittick Cash: Margin expansion provides buffer.
+HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=consumer-restaurants
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. LAMR (communication-services-advertising) | confidence 0.72 | allocation 5.0% | stop 8.0% | Chittick 74/100 | tier watch | bucket advertising-reit | HF source 8/100
+Recommendation: watch
+Catalyst: Stock +5.28% to $148.60, new 52-wk high; extended $250M buyback/debt repurchase to 2027.
+Chittick Cash: Buybacks and yield buffer.
+HF filter: sentiment=not run source=8/100 hype=0.10 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=advertising-reit
+Social buzz, low weight: none
+Congress signal, low weight: none
 
