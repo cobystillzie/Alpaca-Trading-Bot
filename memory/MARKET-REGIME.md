@@ -2900,4 +2900,28 @@ For a cautious bot workflow on May 4, 2026:
   ]
 }
 ```
+## Market Regime Research - 2026-05-08 07:51:09 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities pulled back modestly on May 7 after intraday record highs, with broad indices down 0.1-0.6% amid oil volatility and Iran geopolitical cooling. Megacap tech/AI held resilient while small caps (RUT -1.6%) and cyclicals weakened sharply. Yields ticked higher (10Y to 4.39%), mixed econ data showed labor resilience but rising job cuts. Earnings tone resilient with beats, supporting valuations ~25x fwd P/E (room to run). Cautious tug-of-war with selective risk-on in tech.",
+  "market_regime": "selective_risk_on_with_caution",
+  "sector_rotation": "tech_ai_outperformance_vs_smallcap_cyclical_weakness",
+  "risk_flags": [
+    "geopolitical_tensions_iran_oil_volatility",
+    "rising_treasury_yields",
+    "smallcap_underperformance_rut_worst_day_since_march",
+    "broad_market_80_stocks_lower_narrow_rally",
+    "pre_nfp_positioning_reversal_from_highs"
+  ],
+  "source_urls": [
+    "https://neilsethi.substack.com/p/markets-update-5726",
+    "https://www.stl.news/u-s-stock-market-today-thursday-may-7-2026/",
+    "https://www.rbccm.com/en/insights/2026/05/takeaways-from-an-avalanche-of-earnings",
+    "https://waverider.ai/market-analysis/market-summary-post-market-2026-05-07/",
+    "https://www.barchart.com/story/news/1785025/how-major-us-stock-indexes-fared-thursday-5-7-2026",
+    "https://www.marketpulse.com/markets/stock-markets-top-dow-jones-daily-outlook/"
+  ]
+}
+```
 

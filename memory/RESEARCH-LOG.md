@@ -579,4 +579,9 @@ Candidates found: 3
 Mixed adtech earnings with Trade Desk (TTD) showing Q1 revenue growth but downgrade on weak outlook; Criteo (CRTO) guides modest 2026 revenue decline; momentum stocks reversing sharply; CLEAR Secure (YOU) down on downgrade despite Q1 beat; sector rotation pressures evident amid narrowing breadth.
 
 Candidates found: 3
+## Two-Hour Research Agent - 2026-05-08 07:51:09 Eastern Daylight Time
+
+Selective risk-on persists with tech/software names like DT +6% on earnings momentum and resilient demand, despite analyst PT trims; YOU -6.8% on downgrade post-Q1 beat highlights volatility; miners/gold (Orla) and defensives (CareRx) noted for catalysts; NEAR crypto irrelevant; under-$10 lists generic. Earnings beats support quality/momentum blend amid narrow breadth.
+
+Candidates found: 3
 

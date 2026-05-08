@@ -7118,4 +7118,37 @@ HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
 Self-learning: tier=stale-watch repeat48h=0 fresh=yes bucket=adtech-value
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-08 07:51:09 Eastern Daylight Time
+
+Research Update
+
+Market tone: Selective risk-on persists with tech/software names like DT +6% on earnings momentum and resilient demand, despite analyst PT trims; YOU -6.8% on downgrade post-Q1 beat highlights volatility; miners/gold (Orla) and defensives (CareRx) noted for catalysts; NEAR crypto irrelevant; under-$10 lists generic. Earnings beats support quality/momentum blend amid narrow breadth.
+Candidates: 3
+
+1. DT (information-technology-software) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 76/100 | tier execution-ready | bucket software-observability | HF source 9/100
+Recommendation: execute-if-guards-pass
+Catalyst: Q4 earnings beat drove +8% after-hours, +6% session to $40.50; resilient demand, revenue +18.18%, 9.55% margins; analysts maintain Overweight despite PT trim to $60.
+Chittick Cash: Profit margins intact at 9.55%, revenue growth +18%; trading below $60 PT with downside to $38.
+HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=software-observability
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. YOU (industrials-security) | confidence 0.75 | allocation 6.0% | stop 8.0% | Chittick 72/100 | tier watch | bucket industrials-security | HF source 8/100
+Recommendation: watch
+Catalyst: Q1 financial beat overshadowed by D.A. Davidson downgrade to Neutral/$60 PT (from Buy/$65); shares -6.8% to $57.12 near 52-wk high.
+Chittick Cash: Near highs with YTD gains; $60 PT offers buffer.
+HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=1 fresh=yes bucket=industrials-security
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. OLA (materials-mining) | confidence 0.72 | allocation 5.0% | stop 8.0% | Chittick 74/100 | tier watch | bucket materials-gold | HF source 7/100
+Recommendation: watch
+Catalyst: Orla Mining highlighted for gold-driven growth, steady demand, balance sheet strength pre-summer.
+Chittick Cash: Gold hedge, clean balance sheet.
+HF filter: sentiment=not run source=7/100 hype=0.20 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=materials-gold
+Social buzz, low weight: none
+Congress signal, low weight: none
 

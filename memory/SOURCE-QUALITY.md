@@ -6272,4 +6272,100 @@ SEC/company quality check:
 
 ### **Key Sector Finding:**
 Adtech microcaps (DRCT, INUV) show severe deterioration. DRCT collapsed 60% on single customer pause. INUV shows 2.9% growth with margin compression. Avoid concentration in this segment.
+## Source And Signal Research - 2026-05-08 07:51:09 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks or ETFs. No notable social or public web attention detected on liquid names.",
+  "social_buzz": "None",
+  "attention_anomalies": "None",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No congressional disclosure search results returned. Congressional filings are treated as low-weight, delayed secondary context only and require corroboration from stronger primary sources (earnings, technicals, hedge fund positioning). Current candidate pool relies on Q1 2026 earnings beats, sector rotation signals, and valuation dislocations rather than legislative activity.",
+  "congressional_signal": {
+    "status": "no_data",
+    "weight": "low",
+    "note": "Congressional disclosures are delayed (typically 30–45 days post-transaction) and carry minimal predictive value without multi-source confirmation. No filings scanned or returned for current date."
+  },
+  "tickers": [
+    {
+      "symbol": "SIMO",
+      "sector": "technology-semiconductors",
+      "recommendation": "execute-if-guards-pass",
+      "confidence": 0.82,
+      "primary_catalyst": "100%+ monthly gain; A Zen Rating (Strong Buy)"
+    },
+    {
+      "symbol": "SANM",
+      "sector": "technology-electronics",
+      "recommendation": "execute-if-guards-pass",
+      "confidence": 0.80,
+      "primary_catalyst": "70% monthly gain; A Zen Rating (Strong Buy)"
+    },
+    {
+      "symbol": "APP",
+      "sector": "communication-services-adtech",
+      "recommendation": "execute-if-guards-pass",
+      "confidence": 0.82,
+      "primary_catalyst": "Q1 2026 earnings beat: revenue +59% YoY, net income 2x YoY"
+    },
+    {
+      "symbol": "PUBM",
+      "sector": "communication-services-adtech",
+      "recommendation": "execute-if-guards-pass",
+      "confidence": 0.80,
+      "primary_catalyst": "Q1 2026 earnings beat; 40th consecutive positive Adj EBITDA"
+    },
+    {
+      "symbol": "SCHD",
+      "sector": "dividend-value-etf",
+      "recommendation": "execute-if-guards-pass",
+      "confidence": 0.82,
+      "primary_catalyst": "Post-Q1 2026 sector rotation; Morningstar Gold-rated #1 dividend ETF"
+    }
+  ],
+  "source_urls": [],
+  "note": "No congressional disclosure URLs available. Recommendations based on earnings fundamentals, technical momentum, and hedge fund source validation. All candidates subject to portfolio allocation guards (max 15% single-stock, position limits enforced)."
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "SES AI Corp (SES) 10-K (filed 2026-03-04) reveals high-risk pre-revenue battery tech developer with $371.9M accumulated deficit, ongoing losses ($73M in 2025), heavy R&D burn, and capital-intensive scaling risks; customer concentration absent but OEM dependency high; dilution risk from future equity/debt raises; supply chain vulnerabilities; integration risks from UZ Energy acquisition; emerging UAM/EV markets unproven. Direct Digital (DRCT) shows going concern doubt, revenue collapse (2025 rev $34.7M vs $157M 2023), customer pause, high concentration, Nasdaq delisting risk. Inuvo (INUV) revenue concentration (2 customers 83% rev), losses, working capital deficit. No durable demand evidence; all flagged for balance sheet weakness, dilution, concentration risks.",
+  "filing_risks": {
+    "SES": [
+      "Ongoing losses: $73M net loss 2025, $371.9M accumulated deficit; expects continued losses, may never profitable (Item 1A).",
+      "Capital needs: Substantial future funding required; cash sufficient 12 months but M&A/R&D may exhaust (balance sheet risk, dilution).",
+      "Customer/OEM risk: Depends on converting trials to orders; no single customer dependency but OEM assistance critical.",
+      "Supply chain: No long-term contracts, raw material volatility, geopolitical risks (Russia/Ukraine, tariffs).",
+      "Integration: UZ Energy acquisition risks material impairments, key personnel loss.",
+      "Tech/execution: Battery defects, scaling failures, unproven UAM/EV markets, NDAA compliance hurdles.",
+      "Dilution: Equity/debt raises likely dilutive."
+    ],
+    "DRCT": [
+      "Going concern doubt: $0.7M cash, $27.7M deficit; customer pause caused rev drop to $34.7M 2025 (revenue quality).",
+      "Concentration: Sell-side customer pause impacted results; high client retention but vulnerable.",
+      "Balance sheet: Credit covenants ($450k min cash), debt maturity 2026.",
+      "Nasdaq delisting risk; operational issues (IVT, platform failures).",
+      "Dilution: Needs financing, potential equity issuance."
+    ],
+    "INUV": [
+      "Concentration: 2 customers 83% rev 2025 (64%+19%), risk if lost.",
+      "Losses: $5.1M op loss, $178M deficit, $5.1M working capital deficit (balance sheet).",
+      "Reliance: Google/Yahoo key; ad supplier dependency."
+    ]
+  },
+  "quality_notes": "No durable demand signals; SES pre-commercial with unproven tech/markets; DRCT revenue quality poor (customer-specific collapse, going concern); INUV concentrated revenues erode quality. Capital allocation risks high (SES R&D burn, DRCT cost cuts); no litigation noted but execution/scale risks pervasive. Watchlist avoidance recommended due to weak balance sheets, dilution paths, concentration.",
+  "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/1819142/000181914226000015/ses-20251231.htm",
+    "https://www.sec.gov/Archives/edgar/data/1880613/000188061326000010/drct-20251231.htm",
+    "https://www.sec.gov/Archives/edgar/data/829323/000082932326000008/inuvo_10k.htm"
+  ]
+}
 
