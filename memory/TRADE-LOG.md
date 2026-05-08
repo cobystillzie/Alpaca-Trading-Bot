@@ -49,4 +49,14 @@ Catalyst: Q1 2026: net income +21% YoY to $35.8M, combined ratio 96% (from 104.6
 Bear case: Cat loss spikes; soft pricing cycle.
 Stop plan: 8.0% stop/trailing review.
 Warnings: none
+## ORDER: Paper Buy DT - 2026-05-08 09:47:11 Eastern Daylight Time
+
+Symbol: DT
+Notional: $800.00
+Order id: 24ae15f5-1f5e-4657-b760-383709c11dec
+Thesis: Leader in application performance monitoring/observability with strong growth, profitability, and AI tailwinds; recent earnings confirm momentum for 1-10 day swing.
+Catalyst: Q4 earnings beat drove +8% after-hours, +6% session to $40.50; resilient demand, revenue +18.18%, 9.55% margins; analysts maintain Overweight despite PT trim to $60.
+Bear case: Valuation recalibration if peer multiples compress further; broader tech rotation or yield spike could pressure.
+Stop plan: 8.0% stop/trailing review.
+Warnings: none
 
