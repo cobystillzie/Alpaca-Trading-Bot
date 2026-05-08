@@ -584,4 +584,11 @@ Candidates found: 3
 Selective risk-on persists with tech/software names like DT +6% on earnings momentum and resilient demand, despite analyst PT trims; YOU -6.8% on downgrade post-Q1 beat highlights volatility; miners/gold (Orla) and defensives (CareRx) noted for catalysts; NEAR crypto irrelevant; under-$10 lists generic. Earnings beats support quality/momentum blend amid narrow breadth.
 
 Candidates found: 3
+## Premarket Plan - 2026-05-08 08:17:56 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- DT: score=88, base=100, chittick=76, approved=True, allocation=8.0%, stop=8.0%
+- YOU: score=87, base=100, chittick=72, approved=True, allocation=6.0%, stop=8.0%
+- OLA: score=84, base=95, chittick=74, approved=True, allocation=5.0%, stop=8.0%
 

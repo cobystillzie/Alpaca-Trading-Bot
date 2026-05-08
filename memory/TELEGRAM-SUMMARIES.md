@@ -7151,4 +7151,125 @@ HF filter: sentiment=not run source=7/100 hype=0.20 vetoes=0
 Self-learning: tier=watch repeat48h=0 fresh=yes bucket=materials-gold
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Premarket Memo - 2026-05-08 08:17:56 Eastern Daylight Time
+
+Premarket Analyst Memo
+
+Recommendation: Execute only if guardrails pass; otherwise hold cash and wait for cleaner evidence.
+
+Market Regime
+Selective risk-on favors quality tech/software amid narrow breadth; benefits from megacap resilience.
+
+Top Candidates
+
+1. DT (information-technology-software) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 76/100 | tier execution-ready | bucket software-observability | HF source 9/100
+Thesis: Leader in application performance monitoring/observability with strong growth, profitability, and AI tailwinds; recent earnings confirm momentum for 1-10 day swing.
+Catalyst: Q4 earnings beat drove +8% after-hours, +6% session to $40.50; resilient demand, revenue +18.18%, 9.55% margins; analysts maintain Overweight despite PT trim to $60.
+Entry: Enter on pullback to $39.50-$40 or breakout above $41; paper-trade long-only up to 8% allocation if volume confirms.
+Exit: Take profits at $45 (11% gain) or $50 (23% stretch); invalidate below $38 (prior close, -6%).
+Risk/reward: Defined 6% risk to prior close for 11-23% upside to PTs; favorable given earnings confirmation.
+Bear/adversary: Analyst PT cuts signal valuation ceiling; if IT sector rotates, momentum fades quickly.
+Source quality: Strong: Weiss Ratings, earnings data, analyst notes from KeyBanc; direct financials over listicles.
+Chittick Cash Filter
+Score: 76/100
+Margin of safety: Profit margins intact at 9.55%, revenue growth +18%; trading below $60 PT with downside to $38.
+Valuation: Attractive post-pullback with growth confirmation; peers Hold-rated but DT catalysts stronger.
+Growth runway: AI/observability demand; Q4 momentum into FY2027; 30-180 day: expanding adoption.
+Balance-sheet risk: Low: $11.4B market cap, profitability supports; no noted debt/dilution flags.
+Capital allocation: Earnings execution, buybacks implied; disciplined growth focus.
+Concentration case: Superior earnings catalyst vs broad IT ETF; diversifies from recent adtech/mining repeats.
+Owner thesis, 30-180 days: Sustained AI observability leadership and margin expansion over 30-180 days.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: software-observability
+Research tier: execution-ready
+Allocation learning: none
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 9/100
+Hype risk: 0.00
+Evidence rank: 9/100
+Memory similarity: 0.00
+Vetoes: none
+Model notes: none
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://weissratings.com/en/instant-news-alerts/dynatrace-inc-dt-up-6-0-is-this-pullback-my-chance
+
+2. YOU (industrials-security) | confidence 0.75 | allocation 6.0% | stop 8.0% | Chittick 72/100 | tier watch | bucket industrials-security | HF source 8/100
+Thesis: Identity verification leader with strong YTD momentum; dip post-downgrade offers entry for catalyst-rich swing.
+Catalyst: Q1 financial beat overshadowed by D.A. Davidson downgrade to Neutral/$60 PT (from Buy/$65); shares -6.8% to $57.12 near 52-wk high.
+Entry: Enter on stabilization above $56.50 or retest $55; paper-trade long-only up to 6%.
+Exit: Profits at $60 PT (5%) or $62 (9%); invalidate below $54 (-5.5%).
+Risk/reward: Tight 5-6% risk for 5-10% upside to PT/high; post-earnings dip with beat backdrop.
+Bear/adversary: Downgrade signals near-term ceiling; volatility could extend losses.
+Source quality: Strong: Barchart news, analyst action, Q1 results; not hype-driven.
+Chittick Cash Filter
+Score: 72/100
+Margin of safety: Near highs with YTD gains; $60 PT offers buffer.
+Valuation: Close to highs but beat supports; downgrade creates discount.
+Growth runway: ID verification expansion; 30-180 day consumer/security demand.
+Balance-sheet risk: Moderate volatility; no specific flags.
+Capital allocation: Strong results imply discipline.
+Concentration case: Diversifies from tech/mining; tactical vs SCHD repeats.
+Owner thesis, 30-180 days: Sustained earnings beats and security moat over 30-180 days.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 2
+Diversity bucket: industrials-security
+Research tier: watch
+Allocation learning: none
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 8/100
+Hype risk: 0.00
+Evidence rank: 8/100
+Memory similarity: 0.00
+Vetoes: none
+Model notes: none
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.barchart.com/story/news/1782553/why-clear-secure-you-stock-is-trading-lower-today
+
+3. OLA (materials-mining) | confidence 0.72 | allocation 5.0% | stop 8.0% | Chittick 74/100 | tier watch | bucket materials-gold | HF source 7/100
+Thesis: Gold miner with momentum and clean growth catalysts; fits quality/momentum blend in materials rotation.
+Catalyst: Orla Mining highlighted for gold-driven growth, steady demand, balance sheet strength pre-summer.
+Entry: Enter on pullback to 50-day MA or breakout; paper-trade up to 5%.
+Exit: Profits on gold surge or +10%; invalidate on sector break.
+Risk/reward: Commodity buffer for 10-15% upside; defined via technicals.
+Bear/adversary: No fresh earnings; generic summer thesis lacks specificity.
+Source quality: Moderate: Moomoo article with specific catalysts; aligns with memory (MUX/FSM).
+Chittick Cash Filter
+Score: 74/100
+Margin of safety: Gold hedge, clean balance sheet.
+Valuation: Attractive in gold momentum.
+Growth runway: Gold production ramp; 30-180 day mine catalysts.
+Balance-sheet risk: Low per article; commodity cyclicality.
+Capital allocation: Owner-like focus.
+Concentration case: Alternative to MUX/GDX concentration.
+Owner thesis, 30-180 days: Gold supercycle and production growth.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: news
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: materials-gold
+Research tier: watch
+Allocation learning: none
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 7/100
+Hype risk: 0.20
+Evidence rank: 7/100
+Memory similarity: 0.30
+Vetoes: none
+Model notes: none
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.moomoo.com/news/post/69596335/why-i-d-buy-these-3-tsx-stocks-before-summer
 
