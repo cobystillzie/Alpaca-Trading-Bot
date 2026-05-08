@@ -3040,4 +3040,33 @@ For a cautious bot workflow on May 4, 2026:
   ]
 }
 ```
+## Market Regime Research - 2026-05-08 17:51:15 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities mixed-to-lower amid Iran War escalation and oil-driven inflation fears. S&P 500 down 0.5% intraday on Strait of Hormuz risks, small caps -2%, semis -3%. Fed divided (8-4 vote), rates steady at 3.5-3.75% with hawkish warnings from Collins et al. on potential hikes; PCE inflation 3.5% YoY. Earnings resilient (S&P EPS +17.5%), consumer spending holds but K-shaped divide widens. Tech flat, energy laggard despite oil strength.",
+  "market_regime": "risk-off_neutral",
+  "sector_rotation": {
+    "leaders": ["information-technology (flat, cyber uplift)"],
+    "laggards": ["russell_2000 (-2%)", "semiconductors (-3%)", "energy (-2% open)"],
+    "defensive_shift": ["consumer_staples (stable)", "dividend_value"],
+    "notable": ["small_caps_weakening", "high_beta_down"]
+  },
+  "risk_flags": [
+    "geopolitical_iran_war_escalation",
+    "fed_hawkish_divide (4 dissents)",
+    "inflation_acceleration (PCE 3.5% YoY, peak 4.5% expected)",
+    "oil_supply_hormuz_risk",
+    "incoming_fed_chair_warsh (hawkish)",
+    "small_cap_momentum_break"
+  ],
+  "source_urls": [
+    "https://www.thestreet.com/fed/another-fed-official-signals-strong-warning-that-2026-interest-rate-outlook-may-need-to-include-hikes",
+    "https://www.nyse.com/index",
+    "https://privatebank.jpmorgan.com/nam/en/insights/markets-and-investing/tmt/the-markets-inflation-fears-are-running-ahead-of-reality",
+    "https://www.ftportfolios.com/retail/blogs/marketcommentary/index.aspx",
+    "https://www.barchart.com/stocks/market-performance"
+  ]
+}
+```
 

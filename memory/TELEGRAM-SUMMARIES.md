@@ -8668,4 +8668,28 @@ HF filter: sentiment=momentum_strong_buy source=8/100 hype=0.40 vetoes=0
 Self-learning: tier=execution-ready repeat48h=2 fresh=yes bucket=technology-semiconductors
 Social buzz, low weight: low-weight momentum signal
 Congress signal, low weight: none
+## Research Update - 2026-05-08 17:51:15 Eastern Daylight Time
+
+Research Update
+
+Market tone: Stocks remain bullish overall despite Thursday selloff, with Nasdaq/S&P strength, advancers outpacing decliners, and offensive sectors leading. Consumer sentiment softening and Friday jobs report loom as tests. Biotech buy rating on Genmab (GMAB) highlights 2026 catalysts; XRP crypto data irrelevant. Risk-on tilt persists amid resilient earnings.
+Candidates: 2
+
+1. GMAB (healthcare-biotech) | confidence 0.78 | allocation 7.0% | stop 8.0% | Chittick 75/100 | tier execution-ready | bucket healthcare-biotech
+Recommendation: execute-if-guards-pass
+Catalyst: TipRanks reiterated Buy rating citing 2026 pivotal trial data catalysts and robust Epkinly sales momentum making recent 15% share pullback an entry point.
+Chittick Cash: Pullback provides buffer; partnerships de-risk development costs.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=healthcare-biotech
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. SCHD (etf-dividend-value) | confidence 0.75 | allocation 4.0% | stop 8.0% | Chittick 35/100 | tier watch-allocation-constrained | bucket dividend-etf-defensive | HF source 0/100 | HF veto
+Recommendation: watch-allocation-constrained
+Catalyst: Ongoing post-Q1 sector rotation into value/dividends; Morningstar Gold-rated #1 high-dividend ETF for 2026 income.
+Chittick Cash: Dividend discount + quality screens.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=1
+Self-learning: tier=watch-allocation-constrained repeat48h=20 fresh=yes bucket=dividend-etf-defensive
+Social buzz, low weight: none
+Congress signal, low weight: none
 

@@ -6730,4 +6730,45 @@ SEC/company quality check:
   "quality_notes": "DRCT shows deteriorating revenue quality (halved+ in 2025), weak balance sheet (going concern, low cash), high concentration on paused customer; no durable demand evidence amid 'misinformation campaign'. INUV has IP moat (18 patents) and AI edge but extreme concentration (83% from 2 customers), persistent losses. No strong durable-demand signals; both microcaps with dilution/listing risks. Avoid watchlist addition.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-08 17:51:15 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks/ETFs. Social buzz remains weak across candidates including DT, SCHD, MUX, GDX, ICLN, VSTE, MTUM, and SIMO.",
+  "social_buzz": "none",
+  "attention_anomalies": "none",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Scanning congressional disclosures reveals limited signals for liquid US stocks/ETFs. Rep. Greg Stanton disclosed a sale of TCNNF (Trulieve Cannabis, OTC/low-liquidity). Rep. Gilbert Cisneros purchased up to $15K COHR ~3 months ago. Sen. Mullin sold up to $150K COHR. No fresh, high-conviction signals for liquid names; treat as low-weight delayed context.",
+  "congressional_signal": "weak-mixed-sale-dominant",
+  "tickers": ["COHR", "TCNNF"],
+  "source_urls": [
+    "https://www.quiverquant.com/news/Congress+Trade:+Representative+Greg+Stanton+Just+Disclosed+New+Stock+Trades",
+    "https://www.quiverquant.com/news/Fund+Update:+New+$15.7M+$COHR+stock+position+opened+by+Asset+Management+One+Co.,+Ltd."
+  ]
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "Direct Digital Holdings (DRCT) operates a programmatic advertising platform (Colossus SSP) with sell-side and buy-side services, emphasizing IVT mitigation, data curation, and high client retention (90%). 2025 revenue $34.7M (down sharply from $157.1M in 2023 due to major sell-side customer pause from defamatory article), gross profit $10.4M, cash $0.7M, accumulated deficit $27.7M. Going concern doubt; credit covenants ($450k min cash); high concentration; Nasdaq delisting risk. Resilient model but execution/liquidity challenges evident.",
+  "filing_risks": [
+    "Going Concern: Substantial doubt; cash $0.7M insufficient for 12 months; accumulated deficit $27.7M; reliant on cost cuts, sell-side volume recovery, additional funding (debt/equity dilution risk).",
+    "Balance Sheet/Liquidity: Credit facilities with min $450k cash covenant, maturity Dec 2026; default risk could accelerate debt, force liquidation.",
+    "Concentration: One sell-side customer paused Q2 2024 (cause of revenue drop); 174k sell-side buyers but buy-side only 195 clients; 90% retention but vulnerable to key client loss.",
+    "Revenue Quality: 2025 revenue/gross profit collapsed 44%/40% YoY from customer pause/misinfo campaign; not 'reflective of underlying model' per mgmt but unproven recovery.",
+    "Dilution/Capital: Need financing for survival; new equity senior/dilutive; no assurance on terms.",
+    "Nasdaq Delisting: Risk of failing listing standards.",
+    "Operational: IVT/fraud detection failure risk; platform issues; cookie/ID restrictions; high customer concentration/payment risks.",
+    "Strategic: Shift to buy-side/enterprise unproven; acquisition integration risks; 73 employees, growth strain."
+  ],
+  "quality_notes": "Durable demand questionable: Programmatic ad platform with tech edge (IVT mitigation, audience curation, omni-channel) and 90% retention, but 2025 revenue plunge from single-customer issue exposes fragility. Sell-side scale (170B monthly impressions, 174k buyers) promising if volumes recover, but going concern + covenant risks dominate. No litigation noted. Capital allocation strained by distress; valuation risk high given distress signals. Watch for volume recovery/financing, but avoid without guards.",
+  "source_urls": ["https://www.sec.gov/Archives/edgar/data/1880613/000141057826000248/drct-20251231x10k.htm"]
+}
 
