@@ -6368,4 +6368,70 @@ SEC/company quality check:
     "https://www.sec.gov/Archives/edgar/data/829323/000082932326000008/inuvo_10k.htm"
   ]
 }
+## Source And Signal Research - 2026-05-08 10:51:27 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks or ETFs. No notable social buzz or attention anomalies detected.",
+  "social_buzz": "weak",
+  "attention_anomalies": "none",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No recent congressional disclosures found for liquid US stocks/ETFs.",
+  "congressional_signal": "none",
+  "tickers": [],
+  "source_urls": []
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "SES AI Corp (SES) 10-K (filed 2026-03-04) reveals high-risk pre-revenue battery tech developer with $73M 2025 net loss, $372M accumulated deficit, heavy R&D burn, and dependency on unproven Li-Metal/UAM markets. Ongoing losses expected; needs substantial future capital amid supply chain, manufacturing scale-up, integration (UZ Energy acquisition), and competition risks. DRCT shows revenue collapse to $34.7M (from $157M peak), going concern doubt, customer pause from defamatory article. INUV revenue concentration (83% from 2 customers, primarily GOOGL/GOOG per relationships), ongoing losses ($5.1M op loss), working capital deficit. FATE biopharma with clinical-stage risks, no revenue. All exhibit dilution, capex intensity, execution risks; no durable demand signals.",
+  "filing_risks": {
+    "SES": [
+      "Ongoing losses: $73M 2025 net loss, $372M accum deficit; expects continued losses on R&D burn",
+      "Capital needs: Battery mfg capital-intensive; cash sufficient 12mos but needs more funding; dilution risk",
+      "Customer concentration: Success depends on OEM conversions; no long-term supply contracts",
+      "Supply chain: No long-term raw materials deals; geopolitical/tariff risks (Russia/Ukraine/Mideast)",
+      "Execution: UZ Energy integration risks; unproven UAM/drone markets; manufacturing scale-up failures",
+      "Competition: Li-ion incumbents + new entrants; may never achieve profitability",
+      "Balance sheet: $372M deficit signals dilution history"
+    ],
+    "DRCT": [
+      "Going concern doubt: $0.7M cash, $28M accum deficit; customer pause caused revenue drop to $35M",
+      "Concentration: Sell-side customer pause (misinfo campaign) crushed revenue/gross profit",
+      "Debt covenants: Min $450k cash req; default risk limits ops",
+      "Delisting risk: Nasdaq compliance issues",
+      "Dilution: Needs equity/debt raises; recent reorganization"
+    ],
+    "INUV": [
+      "Concentration: 2 customers 83% revenue (64%+19%; ties to GOOGL per relationships)",
+      "Losses: $5.1M op loss, $178M accum deficit, $5.1M working capital deficit",
+      "Collections risk: Relies on ad suppliers (Yahoo/Google)",
+      "Revenue quality: Platforms biz 65% related-party tied"
+    ],
+    "FATE": [
+      "Clinical/biotech risks: Novel iPSC tech; no revenue; funding needs for trials",
+      "Manufacturing: Limited clinical scale experience",
+      "Dilution: Losses since inception; needs funding"
+    ],
+    "Others (CLBZ/NEOV/TKLS)": [
+      "CLBZ: Related-party revenue 65%; early-stage platform",
+      "NEOV: Newco mfg risks; competition from Tesla/etc",
+      "TKLS: Going concern; $77M deficit; spinoff history"
+    ]
+  },
+  "quality_notes": "All filings flag execution/pre-revenue risks (SES/FATE), revenue concentration (SES/INUV/DRCT), going concern (DRCT/TKLS), dilution/capital raises (all), supply chain/mfg scale (SES/NEOV). No durable demand; SES UAM/EV markets nascent; DRCT revenue quality poor post-customer loss; INUV GOOGL-dependent per history. Balance sheets weak across board. Chittick: Avoid INTC-like capex traps; SES mirrors GT execution risks.",
+  "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/1819142/0000950170-26-XXXXXX/SES_10K_2026.txt",
+    "https://www.sec.gov/Archives/edgar/data/1880613/0000950170-26-XXXXXX/DRCT_10K_2026.txt",
+    "https://www.sec.gov/Archives/edgar/data/829323/0000950170-26-XXXXXX/INUV_10K_2026.txt"
+  ]
+}
 

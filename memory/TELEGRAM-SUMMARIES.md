@@ -7393,4 +7393,37 @@ Model notes: none
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: https://www.moomoo.com/news/post/69596335/why-i-d-buy-these-3-tsx-stocks-before-summer
+## Research Update - 2026-05-08 10:51:27 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities in strong uptrend post-March correction, S&P 500 +14% from lows approaching 7400 ATH amid record earnings beats (84% beat rate, +27% blended growth led by Tech/Comms). Mild intraday profit-taking signals caution ahead of NFP/FOMC. Rates stable at 6.4% mortgages/4.33% 10yr Treasury, VIX low at 17.4, but geopolitics and Fed hold temper momentum. Earnings season driving sector rotation to value/dividends/miners/adtech.
+Candidates: 3
+
+1. DT (information-technology-software) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 76/100 | tier execution-ready | bucket software-observability | HF source 9/100
+Recommendation: execute-if-guards-pass
+Catalyst: Q4 FY2026 earnings beat drove +8% after-hours and +6% intraday to $40.50; revenue +18.18% YoY with 9.55% margins expansion.
+Chittick Cash: Reasonable 8-10x forward sales for high-growth software with 20%+ revenue trajectory; downside to 200-day MA ~$35.
+HF filter: sentiment=not run source=9/100 hype=0.10 vetoes=0
+Self-learning: tier=execution-ready repeat48h=1 fresh=yes bucket=software-observability
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. SCHD (etf-dividend-value) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 78/100 | tier execution-ready | bucket dividend-etf-defensive | HF source 9/100
+Recommendation: execute-if-guards-pass
+Catalyst: Ongoing post-Q1 2026 earnings sector rotation; Morningstar Gold #1 high-dividend ETF for 2026 passive income.
+Chittick Cash: Trades at discount to fair value; high yield buffers downside.
+HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=20 fresh=yes bucket=dividend-etf-defensive
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. MUX (materials-mining) | confidence 0.82 | allocation 5.0% | stop 8.0% | Chittick 35/100 | tier watch-allocation-constrained | bucket materials-mining | HF source 9/100 | HF veto
+Recommendation: watch
+Catalyst: Q1 2026 earnings: net income $33.4M ($0.56/sh) vs prior loss, revenue +107% to $74M on higher GEO sales/prices; reaffirmed 114-126k GEO guidance.
+Chittick Cash: Low debt, producing assets buffer downside.
+HF filter: sentiment=not run source=9/100 hype=0.20 vetoes=1
+Self-learning: tier=watch-allocation-constrained repeat48h=6 fresh=yes bucket=materials-mining
+Social buzz, low weight: none
+Congress signal, low weight: none
 

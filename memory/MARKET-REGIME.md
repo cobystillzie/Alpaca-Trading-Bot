@@ -2924,4 +2924,28 @@ For a cautious bot workflow on May 4, 2026:
   ]
 }
 ```
+## Market Regime Research - 2026-05-08 10:51:27 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities in strong uptrend post-March correction, S&P 500 +14% from lows and approaching 7400 ATH amid record earnings beats (84% beat rate, +27% blended growth led by Tech/Comms). Mild intraday profit-taking and technical resistance signal caution ahead of NFP/FOMC. Rates stable at 6.4% mortgages/4.33% 10yr Treasury, VIX low at 17.4, but geopolitics (US-Iran), Fed hold, and greed index (68.6) temper risk-on momentum.",
+  "market_regime": "Bullish Recovery with Caution (climbing wall of worry, valuations rising but not topped, resilient earnings offsetting macro risks)",
+  "sector_rotation": "Tech/Comms/AI leaders (+50% EPS growth), Energy/Materials upgrades (+45% expectations), Consumer Discretionary strong; breadth narrowing (80% stocks lower despite index highs, heavyweights carrying); small/mid-caps lagging but Russell 2000 FY2 P/E attractive at 16.6x",
+  "risk_flags": [
+    "Geopolitical uncertainty (US-Iran peace talks doubts, Strait of Hormuz, geopolitics mentions spiking)",
+    "Technical resistance at ATHs (S&P 7400, Nasdaq 29000, Dow 50000) with intraday reversals",
+    "Fed rate cut bets fading (resilient labor, high energy prices), new Fed chair speculation",
+    "Narrow breadth (80% stocks down, megacaps dominant)",
+    "Pre-NFP/FOMC positioning caution"
+  ],
+  "source_urls": [
+    "https://www.rbccm.com/en/insights/2026/05/takeaways-from-an-avalanche-of-earnings",
+    "https://www.xtb.com/int/market-analysis/news-and-research/nasdaq-surges-0-8-at-historic-high-how-strong-is-the-us-earnings-season",
+    "https://www.marketpulse.com/markets/stock-markets-top-dow-jones-daily-outlook/",
+    "https://fred.stlouisfed.org/series/VIXCLS",
+    "https://www.briefing.com/stock-market-update",
+    "https://www.marinerwealthadvisors.com/insights/earnings-drive-the-rally-as-risks-linger/"
+  ]
+}
+```
 
