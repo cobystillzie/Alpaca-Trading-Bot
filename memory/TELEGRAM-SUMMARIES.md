@@ -8190,4 +8190,198 @@ Model notes: Fresh, low repeat; semi bucket diversity.
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: none
+## Performance Ledger - 2026-05-08 16:30:04 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-05-08 16:30:03 Eastern Daylight Time
+- Portfolio value: $100,225.41
+- P/L vs $100k baseline: $225.41
+- Full paper-account return: 0.225%
+- Managed-capital return: 2.25%
+- Deployed basis: $4,500.00
+- Return on deployed basis: 5.01%
+- Latest position value: $4,725.41
+- Full-account cash reserve: 95.3%
+- Managed-capital cash reserve: 52.7%
+- Max snapshot drawdown: $16.64 from 2026-04-30 16:30:02 Eastern Daylight Time to 2026-05-04 12:40:01 Eastern Daylight Time
+
+Open Position Review
+- DT: winner, value $825.77, unrealized P/L $25.77, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 0 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: winner, value $500.84, unrealized P/L $0.84, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 1 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: winner, value $860.97, unrealized P/L $60.97, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 8 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: winner, value $860.13, unrealized P/L $60.13, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 7 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: loser, value $797.73, unrealized P/L $-2.27, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 2 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $879.98, unrealized P/L $79.98, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 10 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- SPMO: appeared 32 times; open position P/L $79.98.
+- NVDA: appeared 26 times; open position P/L $60.13.
+- SCHD: appeared 24 times; open position P/L $-2.27.
+- GOOGL: appeared 23 times; open position P/L $60.97.
+- INTC: appeared 22 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- WS: appeared 9 times; market outcome unavailable until benchmark/candidate price history is captured.
+- ADI: appeared 8 times; market outcome unavailable until benchmark/candidate price history is captured.
+- GLRE: appeared 8 times; open position P/L $0.84.
+- GSK: appeared 8 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Single-stock allocation would exceed 15%.: 7
+  - A market-open order is already logged for today. No backup order was placed.: 4
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources.: 2
+  - repeat_staleness HF source/hype filter rejects source-thin hype. HF memory filter flags similarity to prior rejected patterns.: 2
+  - Candidate references banned v1 instruments or leverage.: 1
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources. repeat_staleness HF source/hype filter rejects source-thin hype. HF memory filter flags similarity to prior rejected patterns.: 1
+  - HF memory filter flags similarity to prior rejected patterns.: 1
+- By symbol:
+  - GOOGL: 3
+  - PLTR: 3
+  - NVDA: 2
+  - SPMO: 2
+  - ADI: 1
+  - GSK: 1
+  - INTC: 1
+  - MUX: 1
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 0
+- No source URLs are stored for latest candidates.
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold not met: 6/15 trades and 10/21 days.
+- Keep strategy aggressiveness unchanged; prefer automation, logging, and review improvements.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## End Of Day Memo - 2026-05-08 16:30:04 Eastern Daylight Time
+
+End Of Day Analyst Memo
+
+Recommendation: Carry forward only evidence-backed candidates; review stops before the next market-open run.
+
+Market Regime
+End-of-day review of paper portfolio, trade quality, risk notes, and next-day watchlist.
+
+Portfolio
+Portfolio value: 100225.41 Cash: 95500 Buying power: 195725.41 Positions: - DT: qty=20.289119959, market_value=825.767182, unrealized_pl=25.767182 - GLRE: qty=28.042624789, market_value=500.841279, unrealized_pl=0.841279 - GOOGL: qty=2.151289429, market_value=860.967542, unrealized_pl=60.967542 - NVDA: qty=4.00060009, market_value=860.129019, unrealized_pl=60.129019 - SCHD: qty=25.2286345, market_value=797.7269, unrealized_pl=-2.2731 - SPMO: qty=6.119014838, market_value=879.975524, unrealized_pl=79.975524 Performance: value $100,225.41, P/L vs $100k $225.41, managed return 2.25%, deployed return 5.01%, managed cash reserve 52.7%.
+
+Top Candidates
+
+1. DT (information-technology-software) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 76/100 | tier execution-ready | bucket software-observability | HF source 9/100
+Thesis: Quality observability software leader with resilient enterprise demand; recent Q4 beat confirms growth/margin expansion in AI-driven monitoring market; blends quality business with fresh earnings catalyst and post-beat momentum for 1-10 day swing.
+Catalyst: Q4 FY2026 earnings beat: revenue +18.18% YoY, margins expanded to 9.55%; +8% AH +6% intraday to $40.50; analysts maintain Overweight despite minor PT trims.
+Entry: Enter 50% at open Monday if holds $40+, add on pullback to $39-39.50 with volume.
+Exit: Take profits at $44 (9% gain) or if breaks $38 (invalidation); trail stops after +5%.
+Risk/reward: 8% stop vs 9-12% upside to recent highs; 1.5:1 RR with defined catalyst.
+Bear/adversary: Earnings beat priced in, guide may disappoint on FY growth; allocation constrained if software heavy.
+Source quality: Strong: earnings release, analyst notes from reputable sources; no hype reliance.
+Chittick Cash Filter
+Score: 76/100
+Margin of safety: Trades below 52-wk high post-beat; cash-generative with low debt supports downside.
+Valuation: Attractive post-pullback at ~6-7x sales vs software peers; earnings beat de-risks.
+Growth runway: AI observability tailwinds; 15-20% revenue growth into 2027.
+Balance-sheet risk: Low debt, positive FCF; minimal cyclicality in enterprise SaaS.
+Capital allocation: Share buybacks, R&D focus; disciplined M&A.
+Concentration case: Clear software-observability leader vs broad ETFs; fresh catalyst over repeats.
+Owner thesis, 30-180 days: If margins >12% and revenue +20% in FY2027, review as 30-180 day compounder.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 4
+Diversity bucket: software-observability
+Research tier: execution-ready
+Allocation learning: none
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 9/100
+Hype risk: 0.00
+Evidence rank: 9/100
+Memory similarity: 0.20
+Vetoes: none
+Model notes: Repeat penalized but fresh earnings override; execution-ready tier.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
+
+2. SCHD (etf-dividend-value) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 78/100 | tier execution-ready | bucket dividend-etf-defensive | HF source 9/100
+Thesis: Premier dividend ETF with quality holdings; ongoing sector rotation to defensives amid risk-on caution; Morningstar Gold-rated for income stability.
+Catalyst: Post-Q1 2026 earnings rotation confirmation; #1 high-dividend ETF for 2026 passive income lists.
+Entry: Enter at open if SPY flat/lower; scale in to 8% max.
+Exit: Profits at +6% or SPY new highs; stop if -8% vs SPY.
+Risk/reward: Tight 8% stop vs 6-10% upside in rotation; favorable in VIX rise.
+Bear/adversary: High repeat count; opportunity cost if tech rally accelerates.
+Source quality: Excellent: Morningstar ratings, ETF factsheets; structural not hype.
+Chittick Cash Filter
+Score: 78/100
+Margin of safety: Diversified 100+ holdings, low beta, consistent payouts.
+Valuation: Discount to S&P on yield/P/E; attractive vs growth multiples.
+Growth runway: Dividend growth 5-7% annualized; stable in 30-180 days.
+Balance-sheet risk: Investment-grade holdings; low debt overall.
+Capital allocation: ETF sponsor discipline; rules-based.
+Concentration case: Broad defensive alternative to single-stock tech/miners.
+Owner thesis, 30-180 days: Core holding for income in any regime over 180 days.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: momentum
+Fresh catalyst: yes
+Repeat count, 48h: 20
+Diversity bucket: dividend-etf-defensive
+Research tier: execution-ready
+Allocation learning: High repeat; cap if defensives >20%.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 9/100
+Hype risk: 0.00
+Evidence rank: 9/100
+Memory similarity: 0.80
+Vetoes: none
+Model notes: High repeat but fresh rotation evidence; diversity bucket.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
+
+3. SIMO (technology-semiconductors) | confidence 0.80 | allocation 7.0% | stop 8.0% | Chittick 75/100 | tier execution-ready | bucket technology-semiconductors | HF source 9/100
+Thesis: Semiconductor leader in analog/mixed-signal; explosive momentum with top-tier ratings; quality growth play in risk-on tech regime.
+Catalyst: +100% past month on ongoing AI/edge catalysts; WallStreetZen A Strong Buy (Sentiment/Growth/Momentum).
+Entry: Enter on pullback to 10-day MA if volume holds.
+Exit: Profits +10%; stop below recent breakout level.
+Risk/reward: 8% downside vs 15%+ upside momentum continuation.
+Bear/adversary: Momentum chaser risk; no intraday catalyst.
+Source quality: Strong: Zen ratings, price/volume data.
+Chittick Cash Filter
+Score: 75/100
+Margin of safety: Below peak valuations; strong cash position.
+Valuation: Reasonable vs semi peers post-run.
+Growth runway: AI edge computing demand 20%+ CAGR.
+Balance-sheet risk: Net cash, no debt.
+Capital allocation: Buybacks, dividends.
+Concentration case: Semi diversity vs broad tech.
+Owner thesis, 30-180 days: If earnings confirm growth, 90-day hold.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: momentum
+Fresh catalyst: yes
+Repeat count, 48h: 2
+Diversity bucket: technology-semiconductors
+Research tier: execution-ready
+Allocation learning: none
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 9/100
+Hype risk: 0.10
+Evidence rank: 8/100
+Memory similarity: 0.00
+Vetoes: none
+Model notes: Fresh, low repeat; semi bucket diversity.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
 
