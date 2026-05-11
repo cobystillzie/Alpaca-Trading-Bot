@@ -7495,4 +7495,54 @@ SEC/company quality check:
   "source_urls": []
 }
 ```
+## Source And Signal Research - 2026-05-11 09:57:46 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "AI memory chip boom drives DRAM ETF +90% since April launch, MU surging to record highs on supply shortages; EEX +13% premarket on $1.5B Apollo buyout at $5.03/share premium; SMR sinks on 96% revenue miss but retail remains bullish; AKAM best week since 2013 (+40%) on Anthropic deal buzz; NVDA/MU/QCOM new 52-week highs amid AI infra rethink; broader futures slip on Iran tensions boosting oil.",
+  "social_buzz": "DRAM (new AI obsession, hottest trade); EEX (shoots through roof on buyout); WULF trending; CRDO (retail flips bullish on launches/NVDA copper comments); SMR (retail bullish despite miss); AKAM (extremely bullish sentiment); MU (red-hot week, +709% 12mo).",
+  "attention_anomalies": [
+    "DRAM: Risk - New ETF, +90% surge since April debut flagged as hype amid memory supercycle narrative (weak context only).",
+    "EEX: Confirmed $1.5B Apollo acquisition at premium, low risk of pump.",
+    "SMR: Huge revenue miss (96% YoY drop) but retail ignores - risk of hype override.",
+    "AKAM: +40% week on $1.8B deal buzz, extremely bullish sentiment - monitor for sustainability."
+  ],
+  "source_urls": [
+    "https://stocktwits.com/news-articles/markets/equity/dram-etf-is-new-ai-obsession-amid-memory-supercycle/cZX96wVReWu",
+    "https://stocktwits.com/news-articles/markets/equity/apollo-is-set-to-pay-a-significant-premium-to-acquire-emerald-holding-for-1-5-b-eex-stock-shoots-through-the-roof/cZXa2YnRehR",
+    "https://stocktwits.com/news-articles/markets/equity/akamai-stock-posts-best-week-since-2013-on-buzz-of-1-8-b-anthropic-cloud-deal/cZX9Ab2ReWB",
+    "https://stocktwits.com/news-articles/markets/equity/nvda-mu-qcom-stocks-hit-52-week-highs-last-week-what-is-behind-the-surge/cZX9AfGReW9",
+    "https://stocktwits.com/news-articles/markets/equity/smr-stock-sinks-on-huge-revenue-miss-but-heres-why-retail-is-still-bullish/cZX23FqReQy"
+  ]
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No recent congressional disclosures found for liquid US stocks/ETFs.",
+  "congressional_signal": "none",
+  "tickers": [],
+  "source_urls": []
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "Direct Digital Holdings (DRCT) operates a programmatic advertising platform (Colossus SSP) with sell-side (174k buyers, 170B monthly impressions) and buy-side (195 clients, 90% retention) operations. Revenue declined sharply in 2024-2025 ($62.3M to $34.7M) due to a major sell-side customer pause from defamatory allegations/misinformation campaign; volumes not fully recovered. Going concern doubt with $0.7M cash, $27.7M accumulated deficit, covenant-restricted debt. Other filings (SES, INUV, etc.) show similar microcap risks but unrelated to DRCT.",
+  "filing_risks": [
+    "Going concern: Substantial doubt; $0.7M cash insufficient for 12 months, accumulated deficit $27.7M, needs funding/reorganization/sell-side recovery.",
+    "Balance sheet: Credit facilities with $450k min cash covenant, default risk; term debt matures Dec 2026, renewal uncertain amid weak financials.",
+    "Concentration: 2025 sell-side heavily impacted by one customer pause (primary cause of revenue drop); buy-side has 195 clients but high retention may mask dependency.",
+    "Revenue quality: Sharp declines 2023-2025 ($157M → $34.7M) from customer disconnection/misinformation; seasonal ad spend fluctuations; IVT/fraud risks could harm reputation.",
+    "Dilution: Potential equity/debt raises to fund operations, senior to Class A shares.",
+    "Delisting: Nasdaq compliance risk if listing standards not met.",
+    "Litigation/Reputational: Defamatory article triggered customer pause, ongoing volume shortfall; ad fraud detection failure risk.",
+    "Capital allocation: Cost management via Jul 2024 reorganization; acquisitions risky amid distress.",
+    "Valuation: Weak fundamentals (revenue/gross profit down, going concern) vs. microcap ad tech peers."
+  ],
+  "quality_notes": "No durable demand evidence; revenue collapse from customer concentration event undermines stability. High execution risk in distressed ad tech (seasonal, competitive vs. Google/Meta/Pubmatic). Balance sheet fragility (low cash, debt covenants) and going concern flag preclude watchlist addition. IVT mitigation and 90% retention positive but insufficient vs. core risks.",
+  "source_urls": ["https://www.sec.gov/Archives/edgar/data/1880613/000121390026036XXX/directdigital10k2025.htm"]
+}
 

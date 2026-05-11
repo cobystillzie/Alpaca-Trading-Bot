@@ -9231,4 +9231,37 @@ Rejected / Watchouts
 - EWY: Low-weight social/congress signal needs at least two stronger sources.
 - EWT: Low-weight social/congress signal needs at least two stronger sources.
 - GDX: Candidate references banned v1 instruments or leverage.
+## Research Update - 2026-05-11 09:57:46 Eastern Daylight Time
+
+Research Update
+
+Market tone: Nasdaq leads risk-on momentum with Rocket Lab +34% to 52-week high on volume spike; BlackBerry extends 9-day rally on buyback authorization (26M shares) and QNX/AI momentum; Almirall Q1 sales +2.2% YoY with 19.3% European derm growth; VFC undervalued at 38% below intrinsic est; under-$10 stocks screen active but no specific catalysts.
+Candidates: 3
+
+1. RKLB (industrials-aerospace) | confidence 0.72 | allocation 6.0% | stop 8.0% | Chittick 68/100 | tier watch | bucket industrials-aerospace
+Recommendation: watch
+Catalyst: 34.22% surge to 52-week high $105.47 Friday on volume spike; classic momentum setup per ainvest.com.
+Chittick Cash: Backlog provides downside buffer but high-beta post-surge.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=industrials-aerospace
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. BB (technology-software) | confidence 0.70 | allocation 5.0% | stop 8.0% | Chittick 70/100 | tier watch | bucket technology-software-auto
+Recommendation: watch
+Catalyst: 9th straight gain day on TSX-approved NCIB for 26M shares (4.58% float); hit 52-week high Friday; +1% premarket Monday.
+Chittick Cash: Buyback reduces float; cash supports transition.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=technology-software-auto
+Social buzz, low weight: low-weight premarket attention
+Congress signal, low weight: none
+
+3. VFC (consumer-discretionary) | confidence 0.68 | allocation 5.0% | stop 8.0% | Chittick 72/100 | tier watch | bucket consumer-discretionary
+Recommendation: watch
+Catalyst: 1.8% 1-day / weekly gain despite no news; valued at $7.6B vs. $20.70 fair value est.
+Chittick Cash: 38% below intrinsic provides buffer.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=consumer-discretionary
+Social buzz, low weight: none
+Congress signal, low weight: none
 

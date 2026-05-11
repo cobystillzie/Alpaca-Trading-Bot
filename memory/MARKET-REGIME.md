@@ -3443,4 +3443,28 @@ The market is at record highs with strong earnings momentum, but faces a **CRITI
 **Sector Rotation:** Tech/semiconductors dominate (+64.97% past month) but showing parabolic extension (1995/2000 bubble comparisons). Defensive flows (SCHD, ICLN) and industrials (LBO activity) emerging as secondary rotation targets.
 
 **Execution Discipline:** Enforce 8% stops; trim mega-cap tech concentration; await CPI data before aggressive new longs; consider energy/nuclear as geopolitical hedge. Q2 earnings delivery is critical—any miss triggers rotation risk.
+## Market Regime Research - 2026-05-11 09:57:46 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities at all-time highs driven by strongest Q1 earnings in a decade (84% beat rate, +20.7% EPS surprise). Tech/AI/semiconductors leading with Nasdaq +1.71%, SOX +5.51% records. Fed held at 3.50-3.75% with rare 4-dissent split signaling policy uncertainty. Mortgage rates stable ~6.4%, oil volatility from geopolitics (Iran MOU deflating war premium, CL -5.5%). Risk-on tone persists despite inflation/energy risks.",
+  "market_regime": "Earnings-driven bull breakout (risk-on). S&P 500/ESM26 ATH 7,384 (+3% Wk), Nasdaq 26,247 record. VWAP bullish daily/weekly. Blue-sky extension but short-term volatility from inflation data, Fed speeches, geopolitics.",
+  "sector_rotation": "Tech/AI/semiconductors dominant (77% S&P gains, MU +15%, INTC +14%, AMD +11%). Healthcare/biotech momentum (DOCS, HTFL high implied moves). Energy mean-reversion (CL collapse). Gold/mining bounce. Rotation watch: internals toward order certainty Q2.",
+  "risk_flags": [
+    "Fed division (4 dissents since 1992, higher bar for cuts)",
+    "Persistent inflation (energy-driven, above 2% target)",
+    "Geopolitical oil volatility (Iran talks, OPEC+ fracture)",
+    "Upcoming inflation data, Factory Orders, Fed speeches (May 4-5)",
+    "Earnings volatility (10 stocks 17-42% implied moves this week)",
+    "Powell leadership transition uncertainty"
+  ],
+  "source_urls": [
+    "https://fortune.com/article/current-refi-mortgage-rates-05-11-2026/",
+    "https://www.topstep.com/blog/weekly-market-kickoff/",
+    "https://www.wolfnest.com/blog/market-updates-may-2026",
+    "https://www.benzinga.com/markets/tech/26/05/52437560/earnings-volatility-watch-may-11-14-2026-niq-icl-doximity",
+    "https://www.tradingkey.com/analysis/stocks/us-stocks/261878587-nasdaq-sp500-sox-google-oracle-amazon-chip-ai-intel-amd-tradingkey"
+  ]
+}
+```
 

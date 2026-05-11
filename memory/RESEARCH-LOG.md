@@ -685,4 +685,9 @@ Premarket plan built from latest watchlist.
   rejects: Low-weight social/congress signal needs at least two stronger sources.
 - GDX: score=72, base=95, chittick=35, approved=False, allocation=4.0%, stop=8.0%
   rejects: Candidate references banned v1 instruments or leverage.
+## Two-Hour Research Agent - 2026-05-11 09:57:46 Eastern Daylight Time
+
+Nasdaq leads risk-on momentum with Rocket Lab +34% to 52-week high on volume spike; BlackBerry extends 9-day rally on buyback authorization (26M shares) and QNX/AI momentum; Almirall Q1 sales +2.2% YoY with 19.3% European derm growth; VFC undervalued at 38% below intrinsic est; under-$10 stocks screen active but no specific catalysts.
+
+Candidates found: 3
 
