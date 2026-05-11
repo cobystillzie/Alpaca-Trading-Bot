@@ -3582,4 +3582,32 @@ The market is at record highs with strong earnings momentum, but faces a **CRITI
   ]
 }
 ```
+## Market Regime Research - 2026-05-11 18:07:05 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities in strong bull market with S&P 500 at 7,413 (ATH), Nasdaq 26,274 (ATH), Dow 49,704; 6th straight weekly gain driven by stellar Q1 earnings (+25.8% expected), resilient economy (NFP +115k beat, GDP +2%), AI/tech leadership despite narrow breadth (40% S&P above pre-war levels). Fed steady at 3.50-3.75%, cuts delayed to Dec 2026+ amid sticky 3.5% PCE inflation from Iran war/energy. VIX low (<15) signals complacency, technicals overbought (RSI, Bollinger). Risk-on tone with consolidation risks.",
+  "market_regime": "bull_market_overbought",
+  "sector_rotation": "tech_ai_dominated_narrow_rally; technology +7%, communication/consumer_discretionary beats; energy -5.4% lags; small/mid-caps offsetting mega-cap concentration",
+  "risk_flags": [
+    "overbought_technicals (RSI, upper Bollinger Band)",
+    "narrow_breadth (40% S&P constituents pre-war levels, 7/11 sectors flat/negative)",
+    "low_VIX_complacency (<15, recent 22% 30d vol spike from 14.43 low)",
+    "delayed_Fed_cuts (Goldman Dec2026, JPMorgan no cuts 2026; sticky 3.5% PCE)",
+    "geopolitical_energy (Iran war, oil >$100 spikes, Hormuz risks)",
+    "upcoming_inflation_data (Apr CPI exp 0.4% MoM core acceleration)"
+  ],
+  "source_urls": [
+    "https://www.investing.com/news/stock-market-news/dow-jones-nasdaq-sp-500-preview-inflation-data-on-tap-as-q1-earnings-wind-down-4676013",
+    "https://www.ubs.com/us/en/wealth-management/insights/market-news/article.3378052.html",
+    "https://www.guggenheiminvestments.com/perspectives/weekly-viewpoint/strong-earnings-and-a-resilient-economy-power-s-p",
+    "https://www.fincocktail.substack.com/p/why-the-vix-matters-more-than-most",
+    "https://www.ig.com/en/news-and-trade-ideas/weekly-market-navigator-11-may-2026-260511",
+    "https://www.thestreet.com/investing/goldman-sachs-sends-blunt-message-on-fed-interest-rate-cuts",
+    "https://www.kiplinger.com/investing/stocks/energy-leads-s-and-p-500-to-another-new-high-stock-market-today",
+    "https://www.welchforbes.com/insights/economic-outlook-may-2026/",
+    "https://markets.businessinsider.com/index/vix"
+  ]
+}
+```
 

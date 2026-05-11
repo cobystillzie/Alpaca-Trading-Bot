@@ -8673,4 +8673,54 @@ SEC/company quality check:
   "source_urls": []
 }
 ```
+## Source And Signal Research - 2026-05-11 18:07:05 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No unusual discussion or social attention anomalies detected around liquid US stocks or ETFs in provided search results; coverage limited to crypto narratives (Bitcoin decoupling from equities, SUI token rally) with no direct mentions of US equities/ETFs beyond tangential BlackRock IBIT reference.",
+  "social_buzz": "Weak; crypto-focused (Bitcoin, SUI) with no measurable buzz on US stocks/ETFs.",
+  "attention_anomalies": "None identified; results emphasize crypto decoupling and no hype/pump language targeting liquid US stocks/ETFs.",
+  "source_urls": [
+    "https://stocktwits.com/news-articles/markets/cryptocurrency/bitcoin-carving-its-own-narrative-coinbase/cZX75UFReW5",
+    "https://stocktwits.com/news-articles/markets/cryptocurrency/veteran-trader-peter-brandt-flags-major-bottom-on-sui-token-surges/cZX9zUAReWq"
+  ]
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Recent congressional trades in DVN (Devon Energy) show purchases by Republicans including John Boozman (Apr 9, 2026, $1K-$15K), Julia Letlow (Dec 2025), Marjorie Taylor Greene (multiple 2025), and historical heavy buying by Kevin Hern. Heavy lobbying on Energy/Nuclear issues. MSFT shows recent Dem purchases (Fetterman, Gottheimer). Disclosures delayed/low-weight context only.",
+  "congressional_signal": "Mixed but Republican-leaning buys in DVN energy stock; recent Boozman purchase. MSFT Dem interest. Treat as secondary catalyst.",
+  "tickers": ["DVN", "MSFT"],
+  "source_urls": [
+    "https://www.quiverquant.com/stock/DVN/",
+    "https://www.quiverquant.com/stock/MSFT/"
+  ]
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "Direct Digital Holdings (DRCT) operates a programmatic advertising platform (Colossus SSP) with sell-side (174k buyers, 170B monthly impressions) and buy-side (195 clients, 90% retention) operations. Revenue declined sharply in 2024-2025 ($62.3M→$34.7M) due to a major sell-side customer pause from defamatory allegations/misinformation campaign; volumes not recovered. Cash $0.7M, accumulated deficit $27.7M, substantial going concern doubt. Credit facilities with covenants ($450k min cash). High client concentration risks, IVT/fraud exposure, Nasdaq delisting risk. Other filings (SES, INUV, FATE, NEOV, TKLS, WS) show varied profiles: SES (battery tech, losses $73M), INUV (AI ad tech, customer concentration 83%), FATE (biotech, clinical risks), NEOV (energy storage, emerging), TKLS (tankless heaters, going concern), WS (steel processing, stable large-cap). No durable demand signals; DRCT exhibits acute balance sheet/revenue quality risks.",
+  "filing_risks": {
+    "DRCT": [
+      "Going concern doubt: Cash $0.7M insufficient for 12 months; accumulated deficit $27.7M; dependent on cost cuts, volume recovery, new funding (10-K).",
+      "Revenue concentration: 2024-2025 declines from one sell-side customer pause (defamatory article); not recovered to prior levels.",
+      "Balance sheet: Credit facilities covenants (min $450k cash); term debt matures Dec 2026; potential default/acceleration.",
+      "Dilution risk: May need equity/debt raises; Nasdaq delisting if standards fail.",
+      "Revenue quality: IVT/fraud detection critical but failure harms reputation; seasonality; high customer concentration.",
+      "Capital allocation: Reorganization July 2024; strategic shift to buy-side/enterprise unproven."
+    ],
+    "SES": "Ongoing losses ($73M 2025), accumulated deficit $371.9M, capital-intensive battery dev; supply chain/integration risks (UZ Energy acquisition).",
+    "INUV": "Customer concentration (64%+19% from two clients); history of losses ($178M accum deficit); working capital deficit $5.1M.",
+    "FATE": "Biotech clinical/preclinical risks; novel iPSC tech unproven; funding needs; manufacturing/supply risks.",
+    "NEOV": "Early-stage ESS maker; competition from Tesla/LG; regulatory/certification risks; supply chain/tariffs.",
+    "TKLS": "Going concern (cash $1M, deficit $77M, working capital deficit $5.9M); minimal revenues.",
+    "WS": "Cyclical steel industry; commodity pricing/volatility; customer concentration (top 3 =33% sales)."
+  },
+  "quality_notes": "DRCT shows deteriorating revenue/gross profit (2023: $157M/$37.6M → 2025: $34.7M/$10.4M) tied to single customer event; no durable demand evidence (impressions multicultural-focused but volumes down); balance sheet distress + covenant risks = high execution risk. INUV revenue up 2.9% but margins down 10%; concentration extreme. No GOOGL/GOOG, INTC, USAR, GT in primary focus (DRCT). Watchlist candidates (SQ, IBRX, etc.) not directly assessed here. Overall, microcaps dominate with going concern/loss flags; WS most stable but cyclical.",
+  "source_urls": []
+}
 

@@ -10296,4 +10296,37 @@ Model notes: Bearish catalyst dominant.
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: https://stocktwits.com/news-articles/markets/equity/why-is-yss-stock-falling-today-may-11/cZXaJ0jRehl
+## Research Update - 2026-05-11 18:07:05 Eastern Daylight Time
+
+Research Update
+
+Market tone: Mixed signals in late trading: SOUN tanks 11% AH on unchanged FY2026 guide despite Q1 beat; YSS drops 8%+ on Wolfpack short report alleging Pentagon program loss; crypto optimism from Cathie Wood on CLARITY Act/July 4 but irrelevant for stocks/ETFs. Broader market risk-on bull with overbought tech/AI leadership persists.
+Candidates: 3
+
+1. SOUN (information-technology-software) | confidence 0.70 | allocation 6.0% | stop 8.0% | Chittick 68/100 | tier watch | bucket ai-software | HF source 8/100
+Recommendation: watch
+Catalyst: Q1 revenue $44.2M +52% YoY beat ($42.6M exp), EPS -$0.06 beat (-$0.10 exp); FY2026 guide $225-260M unchanged triggers -11% AH selloff.
+Chittick Cash: Strong Buy consensus +52% upside provides buffer; beat execution despite guide.
+HF filter: sentiment=not run source=8/100 hype=0.20 vetoes=0
+Self-learning: tier=watch repeat48h=2 fresh=yes bucket=ai-software
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. YSS (industrials-aerospace) | confidence 0.40 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier stale-watch | bucket industrials-aerospace | HF source 6/100
+Recommendation: avoid
+Catalyst: Wolfpack Research short report reveals Pentagon scrapped key SDA program (main revenue); shares -8%+ today.
+Chittick Cash: None; revenue destruction.
+HF filter: sentiment=not run source=6/100 hype=0.00 vetoes=0
+Self-learning: tier=stale-watch repeat48h=1 fresh=yes bucket=industrials-aerospace
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. INTC (information-technology-semiconductors) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 76/100 | tier execution-ready | bucket semiconductors-ai | HF source 9/100
+Recommendation: watch
+Catalyst: +4.65% intraday on Tigress PT $118 (from $66 Buy), Freedom upgrade Buy $100; recent rip from $60s.
+Chittick Cash: Seed watchlist + upgrades vs. recent lows.
+HF filter: sentiment=not run source=9/100 hype=0.10 vetoes=0
+Self-learning: tier=execution-ready repeat48h=1 fresh=yes bucket=semiconductors-ai
+Social buzz, low weight: none
+Congress signal, low weight: none
 

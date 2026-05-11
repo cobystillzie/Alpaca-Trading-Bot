@@ -715,4 +715,9 @@ Candidates found: 4
 Mixed signals in equities: Block (SQ) sustains post-earnings momentum with PT hikes despite Piper caution; IBRX rebounds on therapy tease amid FDA review; YSS tanks on short report; SOUN dips on unchanged guidance. Broader market in bullish momentum with rotation opportunities.
 
 Candidates found: 4
+## Two-Hour Research Agent - 2026-05-11 18:07:05 Eastern Daylight Time
+
+Mixed signals in late trading: SOUN tanks 11% AH on unchanged FY2026 guide despite Q1 beat; YSS drops 8%+ on Wolfpack short report alleging Pentagon program loss; crypto optimism from Cathie Wood on CLARITY Act/July 4 but irrelevant for stocks/ETFs. Broader market risk-on bull with overbought tech/AI leadership persists.
+
+Candidates found: 3
 
