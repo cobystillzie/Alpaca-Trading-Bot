@@ -3117,4 +3117,25 @@ For a cautious bot workflow on May 4, 2026:
     "https://www.schwab.com/learn/market-commentary"
   ]
 }
+## Market Regime Research - 2026-05-10 23:54:20 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities at record highs (S&P 500, Nasdaq) driven by strong Q1 earnings (84% beats, +27.7% YoY EPS growth, tech leaders like NVDA/GOOGL), Middle East de-escalation (oil down to $95), and resilient jobs (+115k vs +62k est). Fed rate cut expectations receding amid inflation risks from Iran conflict/fuel costs; high volatility week ahead with key data. Mixed risk-on tone with rotation signals into value/dividends.",
+  "market_regime": "bullish-trending-with-rotation",
+  "sector_rotation": "tech/AI-leaders-driving-gains; post-earnings-shift-to-value/dividends (SCHD watch); energy-commodities-decompressing",
+  "risk_flags": [
+    "high-volatility-week-incoming (inflation/housing/retail/Fed)",
+    "Fed-neutral-stance (cuts-delayed, dot-plot-misjudges)",
+    "persistent-inflation (Iran-war-fuel-costs)",
+    "policy-uncertainty (Fed-leadership, tariffs)"
+  ],
+  "source_urls": [
+    "https://www.moomoo.com/news/post/69705445/us-financial-securities-weekly-report-outlook-s-p-500-and",
+    "https://www.mexc.com/news/1081207",
+    "https://www.etftrends.com/model-portfolio-content-hub/powell-stays-should-dot-plot/",
+    "https://themortgagereports.com/mortgage-rates-now/mortgage-rates-today-may-10-2026"
+  ]
+}
+```
 

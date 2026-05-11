@@ -4,177 +4,63 @@
 {
   "candidates": [
     {
-      "adversary_case": "High repeat (20+) with no new earnings/filing; better fresh alternatives in industrials/loans per JPM.",
-      "allocation_learning_note": "Reduce target due to concentration; diversify to industrials. High repeat count 20: cap allocation language and require fresh alternatives before execution-ready status.",
-      "balance_sheet_risk": "Low: Holdings screened for strong BS; minimal debt/cyclicality.",
-      "bear_case": "Prolonged risk-on tech rally delays rotation; high repeat count (20+) risks opportunity cost vs. fresh names.",
-      "capital_allocation_case": "ETF sponsor disciplined; focuses on consistent payers.",
-      "catalyst": "Ongoing post-Q1 2026 sector rotation into value/dividends confirmed by JPM resilient macro/earnings; Morningstar Gold-rated #1 high-dividend ETF for 2026 passive income.",
-      "catalyst_type": "momentum",
-      "chittick_cash_score": 78.0,
-      "chittick_reject_reason": "High repeat count; propose smaller tranche.",
-      "concentration_case": "Broad diversification over single stocks; allocation-constrained due to repeats.",
-      "confidence": 0.75,
-      "congressional_signal": "none",
-      "diversity_bucket": "dividend-etf-defensive",
-      "entry_plan": "Enter 4% tranche on open if SPY +0.5% and VIX <20; scale in to 8% on pullback to 50-day MA.",
-      "exit_plan": "Take profits at +10% or new 52-week high; invalidate below 200-day MA or if tech rotation reverses.",
-      "fresh_catalyst": true,
-      "growth_runway": "30-180 days: Rotation persistence; longer-term: Dividend growth compounds.",
-      "hf_evidence_rank": 9.0,
-      "hf_filter_vetoes": [
-        "high_repeat"
-      ],
-      "hf_hype_risk": 0.0,
-      "hf_memory_similarity": 0.95,
-      "hf_model_notes": "Repeat decay applied; allocation-constrained.",
-      "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "",
-      "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 9.0,
-      "horizon_days": 7,
-      "margin_of_safety_case": "Dividend aristocrats/Kings core; trades at discount to fair value with yield >3%.",
-      "market_regime": "Risk-on favors rotation plays like SCHD for diversification from speculative tech.",
-      "momentum_case": "Defensive rotation momentum amid Mag7 caution; consistent inflows in risk-on pullbacks.",
-      "owner_hold_case": "Hold 30-180 days if rotation confirms via JPM loan/LBO trends; review on CPI (May 12).",
-      "quality_case": "Holds quality businesses with strong balance sheets, high margins of safety via dividends; low volatility relative to broad market.",
-      "recommendation": "watch-allocation-constrained",
-      "repeat_count_48h": 20,
-      "research_tier": "watch-allocation-constrained",
-      "risk_reward": "8% stop vs. 10-15% upside to recent highs; 1.5:1 RR with dividend yield buffer.",
-      "sector": "etf-dividend-value",
-      "signal_weights": {
-        "congressional_signal": 0.0,
-        "social_buzz": 0.0
-      },
-      "social_buzz": "none",
-      "source_quality": "Strong: JPM research, Morningstar ratings; no hype reliance.",
-      "source_urls": [
-        "https://markets.jpmorgan.com/research-and-insights"
-      ],
-      "stop_loss_percent": 8.0,
-      "strategy_tags": [
-        "chittick_cash"
-      ],
-      "symbol": "SCHD",
-      "target_allocation_percent": 4.0,
-      "thesis": "Leading dividend ETF blending quality dividend payers with defensive characteristics, fitting Chittick Cash quality discipline amid rotation from tech momentum.",
-      "valuation_case": "Attractive vs. growth ETFs; P/E <15x on holdings amid earnings growth."
-    },
-    {
-      "adversary_case": "No company-specific news; broad sector inference.",
-      "allocation_learning_note": "New bucket for diversification.",
-      "balance_sheet_risk": "Moderate debt but covenant-compliant.",
-      "bear_case": "Economic slowdown hits construction; tariff risks per JPM.",
-      "capital_allocation_case": "Shareholder-friendly buybacks/dividends.",
-      "catalyst": "JPM notes sizable loan market supply increase, LBO activity (e.g., EA Sports), refinancing wall in 2026; resilient macro supports industrials.",
-      "catalyst_type": "news",
-      "chittick_cash_score": 74.0,
+      "adversary_case": "OpenAI RPO may not convert amid affordability questions; CapEx ROI uncertain if inference commoditizes; high valuation at 28-30x P/E assumes flawless execution.",
+      "allocation_learning_note": "Allocation-constrained if mega-cap >15%; pair with SCHD for balance.",
+      "balance_sheet_risk": "Low: $78B cash vs $125B debt (mostly leases), DSO 30-45 days, strong OCF $136B FY2025; GPU supply dependency noted.",
+      "bear_case": "OpenAI concentration (45% of $625B RPO) risks non-conversion or renegotiation; AI CapEx ($190B+ annual run-rate) compressing FCF from $74B to $71.6B; M365 seat compression from AI agents; ended OpenAI exclusivity.",
+      "capital_allocation_case": "Disciplined: AI CapEx peaking FY2026 with FCF rebound expected; OpenAI partnership (non-exclusive post-2026) and acquisitions balanced.",
+      "catalyst": "Azure revenue accelerating to ~40% in Q1 FY2026 per recent analysis; Q1 FY2026 revenue $77.7B (+18% YoY), commercial RPO $625B (up 110% YoY, 45% OpenAI); fresh deep investment analysis dated May 10, 2026 at ~$415/share.",
+      "catalyst_type": "filing/news",
+      "chittick_cash_score": 82.0,
       "chittick_reject_reason": "",
-      "concentration_case": "Diversifies from repeated ETFs/miners.",
-      "confidence": 0.72,
+      "concentration_case": "Deserves slot over broad ETFs due to superior Azure/AI moats vs SPMO/SCHD; diversify with existing SCHD/DT.",
+      "confidence": 0.82,
       "congressional_signal": "none",
-      "diversity_bucket": "industrials-construction",
-      "entry_plan": "Enter 6% on breakout above 50-day MA with volume +50%.",
-      "exit_plan": "Profits at +12%; stop below recent low.",
+      "diversity_bucket": "mega-cap-internet-cloud",
+      "entry_plan": "Paper buy at open if holds above $410 with volume; target 8% allocation if no concentration breach.",
+      "exit_plan": "Take profits at $440-450 (6-8% gain); invalidate below $400 (recent support) or on OpenAI default news.",
       "fresh_catalyst": true,
-      "growth_runway": "30-180 days: LBO/refi demand; longer: Infra spending.",
-      "hf_evidence_rank": 8.0,
+      "growth_runway": "Azure 35-40% for 3+ quarters, Copilot ARPU uplift, Dynamics/LinkedIn 20%+; RPO conversion to 17-18% revenue growth FY2026.",
+      "hf_evidence_rank": 9.0,
       "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.0,
-      "hf_memory_similarity": 0.1,
-      "hf_model_notes": "Fresh sector inference from JPM.",
+      "hf_hype_risk": 0.1,
+      "hf_memory_similarity": 0.0,
+      "hf_model_notes": "Fresh May 10 analysis; no repeat decay as MSFT absent from recent memory.",
       "hf_sentiment_agreement": 0.0,
       "hf_sentiment_label": "",
       "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 8.5,
-      "horizon_days": 8,
-      "margin_of_safety_case": "Trades below book value; strong cash flow coverage.",
-      "market_regime": "Risk-on supports cyclical industrials rotation.",
-      "momentum_case": "Industrials lagging tech but poised for catch-up in rotation.",
-      "owner_hold_case": "Monitor JPM loan volumes; hold if LBOs accelerate.",
-      "quality_case": "Strong BS, low cyclicality vs. peers; history of margin expansion.",
+      "hf_source_quality_score": 9.5,
+      "horizon_days": 7,
+      "margin_of_safety_case": "Low net debt (-$47B), declining leverage, high ROE >30%; quality moats buffer cyclicality; base case $600-660 intrinsic vs $415 price.",
+      "market_regime": "Risk-on favors mega-cap tech leaders like MSFT; rotation to value provides diversification but MSFT's growth profile resilient.",
+      "momentum_case": "Stock ~$415 aligns with record market highs; Azure/Copilot momentum supports continued relative strength in risk-on tech rotation.",
+      "owner_hold_case": "Azure re-acceleration to 45%+, Copilot scales to offset seat risks, CapEx normalizes with FCF >25% margins by FY2027; review on Q2 FY2026 earnings.",
+      "quality_case": "High ROE ~34%, gross margins 68-69%, OCF/NI >130%; deep Fortune 500 penetration, switching costs across Entra/M365/Azure; Deloitte unqualified audit; high-quality earnings with low leverage (D/E 0.30x).",
       "recommendation": "watch",
       "repeat_count_48h": 0,
       "research_tier": "watch",
-      "risk_reward": "8% downside risk to 1.5:1 RR on LBO catalyst.",
-      "sector": "industrials-construction",
+      "risk_reward": "Defined 6-8% upside to base case $440 vs 4-6% downside to support; favorable given moats and growth.",
+      "sector": "information-technology-software-cloud",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
       "social_buzz": "none",
-      "source_quality": "Strong: Direct JPM research on loan/LBO trends.",
+      "source_quality": "High: Detailed SEC 10-K/10-Q/8-K analysis (FY2023-FY2026 Q3), earnings call quotes (e.g., Amy Hood on RPO/OpenAI), Macrotrends data; May 10, 2026 fresh timestamp.",
       "source_urls": [
-        "https://markets.jpmorgan.com/research-and-insights"
+        "https://capitalblueprint.substack.com/p/microsoft-corporation-nasdaq-msft"
       ],
       "stop_loss_percent": 8.0,
       "strategy_tags": [
         "chittick_cash"
       ],
-      "symbol": "DY",
-      "target_allocation_percent": 6.0,
-      "thesis": "Leading construction firm benefiting from LBO/infra tailwinds; quality balance sheet positions for Chittick Cash owner-style hold.",
-      "valuation_case": "P/E <12x fwd amid growth runway."
-    },
-    {
-      "adversary_case": "Stale catalyst; no new JPM clean energy call.",
-      "allocation_learning_note": "",
-      "balance_sheet_risk": "Low via ETF structure.",
-      "bear_case": "Policy risk; outperformed in risk-on.",
-      "capital_allocation_case": "Sponsor quality.",
-      "catalyst": "Energy security crisis accelerating adoption per prior; JPM tokenization/yield trends indirectly supportive.",
-      "catalyst_type": "structural",
-      "chittick_cash_score": 72.0,
-      "chittick_reject_reason": "",
-      "concentration_case": "Thematic alternative to defensives.",
-      "confidence": 0.7,
-      "congressional_signal": "none",
-      "diversity_bucket": "clean-energy-etf",
-      "entry_plan": "Dip buy on pullback to $15 support.",
-      "exit_plan": "+10% or momentum stall.",
-      "fresh_catalyst": true,
-      "growth_runway": "Policy/security drivers.",
-      "hf_evidence_rank": 7.5,
-      "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.0,
-      "hf_memory_similarity": 0.8,
-      "hf_model_notes": "Repeat but fresh regime fit.",
-      "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "",
-      "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 8.0,
-      "horizon_days": 5,
-      "margin_of_safety_case": "Diversified; yield potential.",
-      "market_regime": "Risk-on aids thematic ETFs.",
-      "momentum_case": "+47% 2025, +26% YTD Apr 2026.",
-      "owner_hold_case": "If JPM private credit trends boost utilities.",
-      "quality_case": "Heavy utilities (36%)/industrials (32%) weighting for stability.",
-      "recommendation": "watch",
-      "repeat_count_48h": 1,
-      "research_tier": "watch",
-      "risk_reward": "Favorable with sector tailwinds.",
-      "sector": "alternatives-clean-energy-etf",
-      "signal_weights": {
-        "congressional_signal": 0.0,
-        "social_buzz": 0.0
-      },
-      "social_buzz": "none",
-      "source_quality": "Moderate: Prior context + JPM macro.",
-      "source_urls": [
-        "https://markets.jpmorgan.com/research-and-insights"
-      ],
-      "stop_loss_percent": 8.0,
-      "strategy_tags": [
-        "chittick_cash"
-      ],
-      "symbol": "ICLN",
-      "target_allocation_percent": 6.0,
-      "thesis": "Clean energy ETF with quality utilities/tech holdings; aligns with energy security theme.",
-      "valuation_case": "Discount to growth peers."
+      "symbol": "MSFT",
+      "target_allocation_percent": 8.0,
+      "thesis": "Premier scaled platform/hybrid cloud leader with Azure (Intelligent Cloud) driving high-30s/40% growth, M365 seat-based SaaS, and diversified segments; blends quality moats (switching costs, network effects, scale) with AI catalysts for 30-180 day owner hold potential.",
+      "valuation_case": "28-30x normalized P/E on $22 FY2027 EPS attractive for 35-40% Azure growth and Copilot ARPU; above broad market but justified by quality/growth."
     }
   ],
-  "summary": "Risk-on speculative appetite persists with Nasdaq leading despite fundamental threats; TROLL crypto +80% on hype (ignored per strategy); JPM insights highlight tokenization momentum on Solana (Franklin Templeton, Galaxy), resilient macro/earnings growth, loan market supply increase, LBO activity; no fresh stock/ETF catalysts; sector rotation into value/dividends continues."
+  "summary": "US equities at record highs with tech/AI leaders driving gains amid strong Q1 earnings beats; rotation into value/dividends persists; Microsoft deep-dive highlights Azure acceleration and AI catalysts but notes OpenAI concentration and CapEx risks; no immediate execution triggers pre-market."
 }
 -->
 
@@ -941,4 +827,10 @@
 | SCHD | etf-dividend-value | watch-allocation-constrained | dividend-etf-defensive | 20 | yes | 0.75 | 78 | 9 | 1 | 4.0% | 8.0% | watch-allocation-constrained | Ongoing post-Q1 2026 sector rotation into value/dividends confirmed by JPM resilient macro/earnings; Morningstar Gold-rated #1 high-dividend ETF for 2026 passiv |
 | DY | industrials-construction | watch | industrials-construction | 0 | yes | 0.72 | 74 | 8 | 0 | 6.0% | 8.0% | watch | JPM notes sizable loan market supply increase, LBO activity (e.g., EA Sports), refinancing wall in 2026; resilient macro supports industrials. |
 | ICLN | alternatives-clean-energy-etf | watch | clean-energy-etf | 1 | yes | 0.70 | 72 | 8 | 0 | 6.0% | 8.0% | watch | Energy security crisis accelerating adoption per prior; JPM tokenization/yield trends indirectly supportive. |
+
+## Latest Candidates - 2026-05-10 23:54:20 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| MSFT | information-technology-software-cloud | watch | mega-cap-internet-cloud | 0 | yes | 0.82 | 82 | 10 | 0 | 8.0% | 8.0% | watch | Azure revenue accelerating to ~40% in Q1 FY2026 per recent analysis; Q1 FY2026 revenue $77.7B (+18% YoY), commercial RPO $625B (up 110% YoY, 45% OpenAI); fresh  |
 

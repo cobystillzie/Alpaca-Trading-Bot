@@ -6846,4 +6846,344 @@ SEC/company quality check:
   "quality_notes": "Weak: Severe revenue decline (2023 $157M → 2025 $34.7M) from single-customer disruption not fully resolved; going concern explicit; covenant/debt pressures; Nasdaq risk; high concentration despite scale claims. Durable demand lacking - ad platform volumes halved, no rebound evidence. Strengths: IVT mitigation, 90% buy-side retention, multicultural focus (45% impressions), but overshadowed by financial distress. No litigation details beyond defamation mention. Watch for funding/volume recovery, but high execution risk.",
   "source_urls": ["https://www.sec.gov/Archives/edgar/data/1880613/000188061326000010/drct-20251231.htm"]
 }
+## Source And Signal Research - 2026-05-10 23:54:20 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "GameStop (GME) $56B eBay bid sparks buzz with Ryan Cohen as proposed CEO and $2B savings claim, but eBay reviewing; retail sentiment cooled to bullish. SMR stock sinks 5%+ on 96% Q1 revenue miss vs 2025. COIN/Kraken lead crypto AI citations at 22% share. BTC whales accumulated 140k+ BTC amid hot CPI worries tomorrow.",
+  "social_buzz": "GME retail bullish (cooled from extremely); SMR retail remains bullish despite revenue miss and 23% YTD decline.",
+  "attention_anomalies": "GME-eBay $56B M&A proposal high risk/hype - massive premium, unconfirmed, Cohen-led; flag unsupported $2B savings claim without details. SMR revenue collapse but persistent retail bull contradicts fundamentals (risk). BTC whale accumulation notable pre-CPI but macro-sensitive.",
+  "source_urls": [
+    "https://stocktwits.com/news-articles/markets/equity/game-stop-s-e-bay-bid-ryan-cohen-slams-sliding-metrics-michael-burry-worries-more-about-debt-burden/cZX9Ym0ReWe",
+    "https://stocktwits.com/news-articles/markets/equity/smr-stock-sinks-on-huge-revenue-miss-but-heres-why-retail-is-still-bullish/cZX23FqReQy",
+    "https://stocktwits.com/news-articles/markets/equity/coinbase-and-kraken-eating-the-crypto-ai-citation/cZXeUWIReWT",
+    "https://stocktwits.com/news-articles/markets/cryptocurrency/btc-whales-biggest-bet-hot-cpi-data/cZXeC83ReW2"
+  ]
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No recently reported congressional trades relevant to liquid US stocks/ETFs identified in scanned public disclosure sources. HR 374 (DIRECT Act) proposes rescinding unobligated IRS enforcement funds from Inflation Reduction Act and redirecting equal amount to CBP for southern border security; introduced Jan 13 2025 by Rep. Tenney (R), referred to Appropriations/Ways & Means committees; low-weight delayed context only.",
+  "congressional_signal": "HR 374 (119th): Divert IRS funds to CBP border security - introduced/referred committees (no progress); HR 9495 (118th): Stop Terror-Financing/Tax Penalties on Hostages; other bills unrelated (Medicare, NPR defund). No trade disclosures.",
+  "tickers": [],
+  "source_urls": [
+    "https://www.quiverquant.com/bills/119/hr-374",
+    "https://www.quiverquant.com/bills/118/hr-9495",
+    "https://www.quiverquant.com/bills/118/hr-8561",
+    "https://www.quiverquant.com/bills/118/hr-8286"
+  ]
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": {
+    "analysis_date": "2026-05-11",
+    "companies_analyzed": 7,
+    "high_risk_count": 7,
+    "going_concern_flags": 4,
+    "revenue_concentration_risks": 3,
+    "key_finding": "All seven companies exhibit material financial distress, going-concern doubts, or severe operational/market risks. None qualify as durable-demand watchlist candidates."
+  },
+  "filing_risks": {
+    "DRCT": {
+      "company_name": "Direct Digital Holdings, Inc.",
+      "ticker": "DRCT",
+      "filing_date": "2026-03-31",
+      "critical_risks": [
+        {
+          "risk_type": "going_concern",
+          "severity": "critical",
+          "evidence": "Substantial doubt raised about ability to continue as going concern. Cash of $0.7M as of Dec 31, 2025; accumulated deficit of $27.7M. Company states cash insufficient for next 12 months.",
+          "sec_reference": "10-K Item 1A Risk Factors; Note 3 Long-Term Debt"
+        },
+        {
+          "risk_type": "revenue_collapse",
+          "severity": "critical",
+          "evidence": "Revenue declined from $157.1M (2023) to $62.3M (2024) to $34.7M (2025). Gross profit fell from $37.6M (2023) to $10.4M (2025). Caused by major sell-side customer pause in Q2 2024 following defamatory article; customer reconnected May 22, 2024 but volumes have not recovered.",
+          "sec_reference": "10-K Item 1 Business; MD&A"
+        },
+        {
+          "risk_type": "customer_concentration",
+          "severity": "high",
+          "evidence": "Single customer pause in May 2024 caused 78% revenue decline over 18 months. Business model heavily dependent on sell-side customer relationships.",
+          "sec_reference": "10-K Item 1A Risk Factors - High customer concentration"
+        },
+        {
+          "risk_type": "debt_covenant_risk",
+          "severity": "high",
+          "evidence": "Credit facilities contain minimum unrestricted cash requirement of $450K at all times. Term credit facility matures December 3, 2026. Failure to comply could trigger default and acceleration of debt.",
+          "sec_reference": "10-K Item 1A Risk Factors - Credit facilities"
+        },
+        {
+          "risk_type": "reputational_damage",
+          "severity": "high",
+          "evidence": "Company attributes revenue collapse to 'coordinated misinformation campaign' and defamatory article/blog post. Reputational recovery uncertain.",
+          "sec_reference": "10-K Item 1A Risk Factors; MD&A"
+        }
+      ],
+      "balance_sheet_quality": "poor",
+      "capital_allocation": "defensive; company focused on cost management and reorganization (July 1, 2024) rather than growth",
+      "durable_demand_evidence": "none; business model dependent on advertising platform adoption which is cyclical and competitive"
+    },
+    "SES": {
+      "company_name": "SES AI Corp",
+      "ticker": "SES",
+      "filing_date": "2026-03-04",
+      "critical_risks": [
+        {
+          "risk_type": "going_concern",
+          "severity": "critical",
+          "evidence": "Net losses of $73.0M (2025) and $100.2M (2024). Accumulated deficit of $371.9M. Company states it will continue to incur operating losses for foreseeable future. No profitable operations or positive cash flows since inception.",
+          "sec_reference": "10-K Item 1A Risk Factors - Expect to continue to incur losses"
+        },
+        {
+          "risk_type": "capital_intensity",
+          "severity": "critical",
+          "evidence": "Battery development, design, manufacture and sale is capital-intensive. Company expects to sustain substantial operating expenses without generating sufficient revenues for years. Requires substantial additional capital.",
+          "sec_reference": "10-K Item 1A Risk Factors - Will need substantial additional capital"
+        },
+        {
+          "risk_type": "market_uncertainty",
+          "severity": "high",
+          "evidence": "UAM market is emerging and uncertain. No market standard battery technology for UAM. No assurance company's technology will emerge as preferred. EV market adoption uncertain.",
+          "sec_reference": "10-K Item 1A Risk Factors - UAM market emerging"
+        },
+        {
+          "risk_type": "manufacturing_risk",
+          "severity": "high",
+          "evidence": "Limited experience manufacturing on clinical scale; no commercial-scale manufacturing experience. Failure to manufacture sufficient quantities at acceptable quality/cost could delay clinical development.",
+          "sec_reference": "10-K Item 1A Risk Factors - Limited manufacturing experience"
+        },
+        {
+          "risk_type": "acquisition_integration",
+          "severity": "high",
+          "evidence": "Completed UZ Energy acquisition September 15, 2025. Integration may require significant management attention and could result in material impairments if unsuccessful.",
+          "sec_reference": "10-K Item 1A Risk Factors - May not integrate UZ Energy successfully"
+        },
+        {
+          "risk_type": "supply_chain",
+          "severity": "high",
+          "evidence": "Limited long-term supply arrangements. Relies on third-party suppliers for raw materials. November 2025 joint venture with Hisun for electrolyte manufacturing; supply not expected until H2 2026.",
+          "sec_reference": "10-K Item 1A Risk Factors - Supply relationships"
+        }
+      ],
+      "balance_sheet_quality": "poor",
+      "capital_allocation": "high R&D burn; company burning cash on battery development with no near-term revenue visibility",
+      "durable_demand_evidence": "speculative; dependent on UAM market adoption and EV market growth, both uncertain"
+    },
+    "INUV": {
+      "company_name": "Inuvo, Inc.",
+      "ticker": "INUV",
+      "filing_date": "2026-03-05",
+      "critical_risks": [
+        {
+          "risk_type": "revenue_concentration",
+          "severity": "critical",
+          "evidence": "Two customers accounted for 64.2% and 19.3% of 2025 revenues (83.5% total). In 2024, same two customers were 75.0% and 7.0%. Loss of either customer would materially harm business.",
+          "sec_reference": "10-K Item 1A Risk Factors - Rely on two customers"
+        },
+        {
+          "risk_type": "operating_losses",
+          "severity": "high",
+          "evidence": "Operating loss of $5.1M (2025) vs $5.8M (2024). Gross profit margin declined 10.1% to 74.5% in 2025. Accumulated deficit of $178.3M through Dec 31, 2025.",
+          "sec_reference": "10-K Item 1A Risk Factors - History of losses"
+        },
+        {
+          "risk_type": "liquidity",
+          "severity": "high",
+          "evidence": "Cash of $2.8M as of Dec 31, 2025. Net working capital deficit of $5.1M. Company dependent on credit facility backed by receivables.",
+          "sec_reference": "10-K Item 1A Risk Factors - History of losses"
+        },
+        {
+          "risk_type": "revenue_quality",
+          "severity": "high",
+          "evidence": "Revenue increased only 2.9% in 2025 vs 2024. Gross margin compression suggests pricing pressure or unfavorable product mix.",
+          "sec_reference": "10-K Item 1A Risk Factors - History of losses"
+        }
+      ],
+      "balance_sheet_quality": "poor",
+      "capital_allocation": "defensive; company focused on maintaining operations with minimal growth investment",
+      "durable_demand_evidence": "weak; highly concentrated customer base with no evidence of diversification or sticky demand"
+    },
+    "FATE": {
+      "company_name": "Fate Therapeutics Inc.",
+      "ticker": "FATE",
+      "filing_date": "2026-02-26",
+      "critical_risks": [
+        {
+          "risk_type": "clinical_stage_risk",
+          "severity": "critical",
+          "evidence": "Clinical-stage biopharmaceutical company. Product candidates may fail to demonstrate safety, potency, durability and efficacy. No approved products. Development requires substantial additional funding.",
+          "sec_reference": "10-K Risk Factor Summary; Item 1A Risk Factors"
+        },
+        {
+          "risk_type": "funding_risk",
+          "severity": "critical",
+          "evidence": "Development of product candidates will require substantial additional funding. May not be able to secure adequate funding on acceptable terms or timely basis. Funding uncertainty could cause dilution to stockholders.",
+          "sec_reference": "10-K Risk Factor Summary; Item 1A Risk Factors"
+        },
+        {
+          "risk_type": "regulatory_approval_uncertainty",
+          "severity": "critical",
+          "evidence": "Regulatory approval process for novel product candidates is particularly uncertain. Could fail to receive FDA approval for many reasons including disagreement on clinical study design, data interpretation, or methodologies.",
+          "sec_reference": "10-K Risk Factor Summary; Item 1A Risk Factors"
+        },
+        {
+          "risk_type": "manufacturing_risk",
+          "severity": "high",
+          "evidence": "Limited experience manufacturing on clinical scale; no commercial-scale manufacturing experience. Failure to manufacture sufficient quantities at acceptable quality/cost could delay development.",
+          "sec_reference": "10-K Risk Factor Summary; Item 1A Risk Factors"
+        },
+        {
+          "risk_type": "competition",
+          "severity": "high",
+          "evidence": "Faces significant competition from other biotechnology and pharmaceutical companies in environment of rapid technological change. Operating results will suffer if fails to compete effectively.",
+          "sec_reference": "10-K Risk Factor Summary; Item 1A Risk Factors"
+        }
+      ],
+      "balance_sheet_quality": "poor",
+      "capital_allocation": "high R&D burn; company burning cash on clinical development with no near-term revenue visibility",
+      "durable_demand_evidence": "none; clinical-stage company with no approved products or revenue"
+    },
+    "NEOV": {
+      "company_name": "NeoVolta Inc.",
+      "ticker": "NEOV",
+      "filing_date": "2025-09-29",
+      "critical_risks": [
+        {
+          "risk_type": "early_stage_risk",
+          "severity": "high",
+          "evidence": "Relatively new company; sales commenced July 2019. Continues to have risks associated with start-up ventures. Limited operating history.",
+          "sec_reference": "10-K Item 1A Risk Factors - Relatively new company"
+        },
+        {
+          "risk_type": "market_adoption_risk",
+          "severity": "high",
+          "evidence": "Energy storage market is emerging. Competition from established companies (Tesla, LG Chem, Sonnen, Enphase, SunPower, SMA America) with significantly greater financial resources, manufacturing capacity, brand recognition.",
+          "sec_reference": "10-K Item 1 Business - Competition"
+        },
+        {
+          "risk_type": "regulatory_risk",
+          "severity": "high",
+          "evidence": "Energy storage industry subject to complex and evolving regulatory framework at federal, state, local levels. California and Hawaii at forefront of regulatory changes. Compliance requires continued investment in engineering and certification.",
+          "sec_reference": "10-K Item 1 Business - Regulatory Environment"
+        },
+        {
+          "risk_type": "manufacturing_transition",
+          "severity": "medium",
+          "evidence": "Transitioned from contract manufacturing to in-house production in 2023. In February 2025, secured larger Poway facility to accommodate growth. Manufacturing execution risk remains.",
+          "sec_reference": "10-K Item 1 Business - Manufacturing"
+        },
+        {
+          "risk_type": "supply_chain",
+          "severity": "medium",
+          "evidence": "Sources critical components from US and Asia. Maintains buffer stocks to mitigate disruption risk. Working to increase domestic content for FEOC compliance.",
+          "sec_reference": "10-K Item 1 Business - Manufacturing"
+        }
+      ],
+      "balance_sheet_quality": "fair",
+      "capital_allocation": "growth-focused; investing in manufacturing, product development, and market expansion",
+      "durable_demand_evidence": "moderate; energy storage market growing (458 MW added Q1 2025, strongest first quarter on record per Wood Mackenzie); residential retrofit opportunity large (3M+ homes without storage); but competition intense and company early-stage"
+    },
+    "TKLS": {
+      "company_name": "Trutankless, Inc.",
+      "ticker": "TKLS",
+      "filing_date": "2025-08-28",
+      "critical_risks": [
+        {
+          "risk_type": "going_concern",
+          "severity": "critical",
+          "evidence": "Substantial doubt exists about ability to continue as going concern. Cash of $1.0M as of Dec 31, 2024 (vs $21K in 2023). Working capital deficit of $5.9M. Accumulated deficit of $77.1M.",
+          "sec_reference": "10-K Note 2 - Going Concern"
+        },
+        {
+          "risk_type": "operating_losses",
+          "severity": "critical",
+          "evidence": "Net loss of $10.2M (2024) vs $2.2M (2023). Cash used in operations of $2.3M (2024) vs $2.0M (2023). Company has not generated sufficient revenues from product sales.",
+          "sec_reference": "10-K Note 2 - Going Concern"
+        },
+        {
+          "risk_type": "capital_requirements",
+          "severity": "critical",
+          "evidence": "Company dependent on raising additional capital and investing working capital in sales/marketing. No guarantee company will generate sufficient revenue or raise capital to continue operations.",
+          "sec_reference": "10-K Note 2 - Going Concern"
+        },
+        {
+          "risk_type": "business_model_risk",
+          "severity": "high",
+          "evidence": "Company developing smart electric tankless water heater. Product still in development/early commercialization phase. Market adoption uncertain.",
+          "sec_reference": "10-K Note 1 - Organization"
+        }
+      ],
+      "balance_sheet_quality": "poor",
+      "capital_allocation": "defensive; company focused on survival and raising capital rather than growth",
+      "durable_demand_evidence": "weak; early-stage product with uncertain market adoption and no significant revenue traction"
+    },
+    "WS": {
+      "company_name": "Worthington Steel, Inc.",
+      "ticker": "WS",
+      "filing_date": "2025-07-29",
+      "critical_risks": [
+        {
+          "risk_type": "cyclical_industry",
+          "severity": "high",
+          "evidence": "Steel processing industry is cyclical. Processed steel products priced competitively based on market factors including commodity prices, transportation costs, economic conditions. Vulnerable to economic downturns.",
+          "sec_reference": "10-K Item 1A Risk Factors; Forward-Looking Statements"
+        },
+        {
+          "risk_type": "customer_concentration",
+          "severity": "high",
+          "evidence": "Top three customers represented approximately 33.0% of total net sales during fiscal 2025. Automotive is largest end market and largest consumer of flat-rolled steel.",
+          "sec_reference": "10-K Item 1 Business"
+        },
+        {
+          "risk_type": "raw_material_volatility",
+          "severity": "high",
+          "evidence": "Volatility or fluctuations in pricing, quality or availability of raw materials (particularly steel), supplies, transportation, utilities, energy, labor could materially affect results.",
+          "sec_reference": "10-K Forward-Looking Statements"
+        },
+        {
+          "risk_type": "competition",
+          "severity": "high",
+          "evidence": "Steel processing industry is fragmented and highly competitive. Many competitors including other independent intermediate processors. Competition primarily on price, product quality, delivery requirements.",
+          "sec_reference": "10-K Item 1 Business - Competition"
+        },
+        {
+          "risk_type": "recent_acquisition",
+          "severity": "medium",
+          "evidence": "June 3, 2025 (post-fiscal year end), acquired 52% controlling stake in Italy-based Sitem S.p.A. Integration risk and execution risk on international expansion.",
+          "sec_reference": "10-K Item 1 Business - Recent Business Developments"
+        }
+      ],
+      "balance_sheet_quality": "fair",
+      "capital_allocation": "balanced; company pursuing strategic acquisitions (Sitem) and capital deployment while managing cyclical industry dynamics",
+      "durable_demand_evidence": "moderate; steel processing serves diverse end markets (automotive, construction, machinery, agriculture, heavy trucks); automotive largest but diversified; cyclical demand tied to economic conditions"
+    }
+  },
+  "quality_notes": {
+    "DRCT": "Avoid. Going-concern doubt, 78% revenue collapse, single-customer dependency, reputational damage from alleged misinformation campaign. Debt covenant risk with Dec 2026 maturity. No durable demand evidence.",
+    "SES": "Avoid. Pre-revenue biotech with $73M annual losses, $371.9M accumulated deficit. Speculative UAM/EV market adoption. No manufacturing experience at scale. Requires continuous capital raises (dilution risk). No near-term path to profitability.",
+    "INUV": "Avoid. 83.5% revenue concentration in two customers. Minimal revenue growth (2.9% YoY). Gross margin compression. $178.3M accumulated deficit. Liquidity constrained ($2.8M cash, $5.1M working capital deficit). High customer concentration risk.",
+    "FATE": "Avoid. Clinical-stage biotech with no approved products or revenue. Substantial funding uncertainty. Regulatory approval highly uncertain. Manufacturing experience limited. Typical biotech risk profile with no near-term catalysts.",
+    "NEOV": "Caution. Early-stage energy storage company (sales since July 2019) with moderate durable demand (growing residential retrofit market, 458 MW Q1 2025). However, intense competition from well-capitalized incumbents (Tesla, LG, Enphase). Regulatory complexity. Manufacturing transition risk. Fair balance sheet but limited scale.",
+    "TKLS": "Avoid. Going-concern doubt, $10.2M net loss (2024), $77.1M accumulated deficit. Cash of only $1.0M with $5.9M working capital deficit. Early-stage tankless water heater product with no significant revenue traction. Dependent on capital raises.",
+    "WS": "Caution. Established steel processor with diversified customer base and end markets. However, cyclical industry with raw material volatility, customer concentration (top 3 = 33% of sales), and competitive pricing pressure. Recent Sitem acquisition (June 2025) adds integration risk. Fair balance sheet but cyclical demand risk.",
+    "overall_assessment": "All seven companies exhibit material financial distress, going-concern doubts, or severe operational/market risks. DRCT, SES, INUV, TKLS are critical-risk avoids. FATE is typical high-risk biotech. NEOV and WS have moderate durable demand but face significant competitive/cyclical headwinds. None qualify as durable-demand watchlist candidates for conservative portfolios."
+  },
+  "source_urls": [
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1880613&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1819142&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=829323&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1434316&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1748137&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1429393&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1968487&type=10-K&dateb=&owner=exclude&count=100"
+  ]
+}
+```
 
