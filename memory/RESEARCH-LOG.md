@@ -705,4 +705,9 @@ Candidates found: 3
 Bitcoin miners like CLSK show resilience amid risk-on tech rally (Nasdaq +4.5% records), with CLSK +1.57% at $14.20, bullish technicals, $16.20 analyst target, and $3.63B mkt cap; broader market two-way pull from AI optimism vs stagflation/oil risks.
 
 Candidates found: 2
+## Two-Hour Research Agent - 2026-05-11 14:01:57 Eastern Daylight Time
+
+Energy services momentum (ACDC +62.87% YTD) amid volatile oilfield but weak fundamentals; INTC +4.65% on AI chip deals/analyst upgrades (Tigress $118, Freedom $100); RKT swings to $297M Q1 profit on AI/recurring revenue; IBRX +9% weekly on Anktiva-NK trial tease despite earnings miss; risk-on breadth with AI/semiconductors leading.
+
+Candidates found: 4
 

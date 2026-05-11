@@ -3534,4 +3534,27 @@ The market is at record highs with strong earnings momentum, but faces a **CRITI
     "https://www.ig.com/en/news-and-trade-ideas/weekly-market-navigator-11-may-2026-260511"
   ]
 }
+## Market Regime Research - 2026-05-11 14:01:57 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities in bullish trend with S&P 500 and Nasdaq at all-time highs driven by exceptional Q1 earnings (84% beat rate, +20.7% above consensus) led by AI/tech. Geopolitical de-escalation (Iran peace progress) unwound energy inflation premia, supporting risk-on rotation. VIX compressed to 15-16. Fed hold with 4 dissents signals dovish skew toward cuts amid cooling labor (NFP +115K). Home prices accelerating. Minor intraday pullback (-0.05% S&P, -0.25% DJIA) but weekly +2.34%. Cautious paper-trading: monitor CPI/inflation data and Trump-Xi summit.",
+  "market_regime": "risk_on_bullish",
+  "sector_rotation": "tech_ai_dominant → potential_value_rotation",
+  "risk_flags": [
+    "Geopolitical: Trump-Xi summit (May 14-15), Iran escalation",
+    "Inflation: Upcoming CPI (>0.35% MoM core triggers hawkish repricing)",
+    "Fed: Kevin Warsh confirmation, hawkish statements (VIX>20 threshold)",
+    "Valuation: Tech/AI multiples vulnerable to rotation/pullback"
+  ],
+  "source_urls": [
+    "https://www.sofi.com/article/economy-markets/week-ahead-on-wall-street-gauging-the-wars-reach/",
+    "https://www.businesswire.com/news/home/20260511051674/en/ICE-Mortgage-Monitor-April-Home-Prices-Posted-Strongest-Monthly-Gain-in-Nearly-Two-Years",
+    "https://rdnewsnow.com/2026/05/11/market-watch-may-8-2026/",
+    "https://www.bajajbroking.in/global-indices/us-30",
+    "https://www.topstep.com/blog/weekly-market-kickoff/",
+    "https://www.tradingkey.com/analysis/stocks/us-stocks/261878587-nasdaq-sp500-sox-google-oracle-amazon-chip-ai-intel-amd-tradingkey"
+  ]
+}
+```
 

@@ -9746,4 +9746,46 @@ HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=0
 Self-learning: tier=watch-allocation-constrained repeat48h=20 fresh=yes bucket=dividend-etf-defensive
 Social buzz, low weight: low-weight social attention signal, or none
 Congress signal, low weight: none
+## Research Update - 2026-05-11 14:01:57 Eastern Daylight Time
+
+Research Update
+
+Market tone: Energy services momentum (ACDC +62.87% YTD) amid volatile oilfield but weak fundamentals; INTC +4.65% on AI chip deals/analyst upgrades (Tigress $118, Freedom $100); RKT swings to $297M Q1 profit on AI/recurring revenue; IBRX +9% weekly on Anktiva-NK trial tease despite earnings miss; risk-on breadth with AI/semiconductors leading.
+Candidates: 4
+
+1. INTC (information-technology-semiconductors) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 76/100 | tier execution-ready | bucket semiconductors-ai | HF source 9/100
+Recommendation: execute-if-guards-pass
+Catalyst: Stock +4.65% intraday May 11 on Tigress PT $118 (from $66 Buy), Freedom upgrade to Buy $100; ripped from $60s to $120+ on deals/earnings.
+Chittick Cash: US subsidies buffer downside; trading above key support with catalysts.
+HF filter: sentiment=not run source=9/100 hype=0.20 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=semiconductors-ai
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. RKT (financials-fintech-mortgage) | confidence 0.78 | allocation 7.0% | stop 8.0% | Chittick 74/100 | tier watch | bucket financials-fintech | HF source 9/100
+Recommendation: watch
+Catalyst: Q1 2026 revenue $2.94B (from $1.10B), net income $297M (from -$10M loss); AI investments >$500M, 70% recurring revenue.
+Chittick Cash: Profit swing + recurring shift buffers cyclicality.
+HF filter: sentiment=not run source=9/100 hype=0.10 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=financials-fintech
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. IBRX (healthcare-biotech) | confidence 0.72 | allocation 5.0% | stop 8.0% | Chittick 70/100 | tier watch | bucket healthcare-biotech | HF source 8/100
+Recommendation: watch
+Catalyst: New Anktiva-NK cell therapy study tease; +9% weekly despite -7% earnings drop; FDA sBLA review ongoing.
+Chittick Cash: Pipeline diversification but early-stage.
+HF filter: sentiment=not run source=8/100 hype=0.30 vetoes=0
+Self-learning: tier=watch repeat48h=3 fresh=yes bucket=healthcare-biotech
+Social buzz, low weight: low-weight retail upbeat on dip as overreaction
+Congress signal, low weight: none
+
+4. ACDC (energy-services) | confidence 0.55 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier stale-watch | bucket energy-services | HF source 8/100
+Recommendation: avoid
+Catalyst: 62.87% YTD, 46.7% past 12 weeks to $6.64; outperforms S&P despite Q1 loss.
+Chittick Cash: Weak: negative earnings/debt.
+HF filter: sentiment=not run source=8/100 hype=0.40 vetoes=0
+Self-learning: tier=stale-watch repeat48h=0 fresh=yes bucket=energy-services
+Social buzz, low weight: none
+Congress signal, low weight: none
 

@@ -8457,4 +8457,79 @@ SEC/company quality check:
     "https://www.sec.gov/Archives/edgar/data/1880613/000141057826000016/drct-20251231.htm"
   ]
 }
+## Source And Signal Research - 2026-05-11 14:01:57 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "Search results highlight crypto momentum in SUI (major bottom per Peter Brandt, $1T stablecoin transfers, 75% staked supply, SUIG ETF +11% premarket) and Bitcoin/ETH (AI capex/tokenization bullishness, equity decoupling); equity catalysts include Robinhood Ventures Fund I (RVI) crossing $1B mcap on OpenAI bet (+86% since listing), DRTS (+1% overnight ahead of brain cancer trial data), CERT (-4% premarket on earnings miss/guidance cut). No liquid US stock/ETF attention anomalies; crypto/niche focus dominates.",
+  "social_buzz": "Stocktwits sentiment: SUIG 'bullish' at 'extremely high' chatter; CERT 'bullish' at 'high' volumes despite drop; RVI retail cheers OpenAI exposure.",
+  "attention_anomalies": "SUIG premarket +11% with extreme Stocktwits volume flags unusual retail focus (weak context only); RVI +14% Friday crossing $1B mcap on OpenAI hype risks pump language.",
+  "source_urls": [
+    "https://stocktwits.com/news-articles/markets/cryptocurrency/veteran-trader-peter-brandt-flags-major-bottom-on-sui-token-surges/cZX9zUAReWq",
+    "https://stocktwits.com/news-articles/markets/cryptocurrency/one-wall-street-veteran-ai-bitcoin-biggest-bull-market/cZXacUDReWU",
+    "https://stocktwits.com/news-articles/markets/equity/robinhood-ventures-fund-crosses-1b-in-market-cap-retail-cheers-openai-bet/cZX9uL3ReWW",
+    "https://stocktwits.com/news-articles/markets/equity/drts-stock-rises-early-us-brain-cancer-trial-results-today/cZX9xaTReWl",
+    "https://stocktwits.com/news-articles/markets/cryptocurrency/bitcoin-carving-its-own-narrative-coinbase/cZX75UFReW5",
+    "https://stocktwits.com/news-articles/markets/equity/why-cert-stock-fell-today-certara-earnings-guidance-cut/cZXa2KARehb"
+  ]
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Recent congressional trades in DVN (Devon Energy) show net buying interest from Republicans including John Boozman (purchase Apr 9, 2026), Julia Letlow (Dec 2025), Marjorie Taylor Greene (multiple 2025), and Kevin Hern (historical). Mixed activity with some sales like Jefferson Shreve and Hern's large Dec 2024 sale. Disclosures delayed/low-weight context only.",
+  "congressional_signal": "Mixed but leaning bullish; recent small purchases outweigh sales in frequency.",
+  "tickers": ["DVN"],
+  "source_urls": ["https://www.quiverquant.com/stock/DVN/"]
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "Direct Digital Holdings (DRCT) operates a programmatic advertising platform (Colossus SSP) with sell-side (174k buyers, 170B monthly impressions) and buy-side (195 clients, 90% retention) operations. Revenue declined sharply in 2024-2025 ($62.3M→$34.7M) due to a major sell-side customer pause from defamatory allegations/misinformation campaign; volumes not fully recovered. Strong IVT mitigation, multicultural focus (45% impressions), but going concern doubt with $0.7M cash, $27.7M accumulated deficit, covenant-restricted debt. High client concentration, Nasdaq delisting risk, strategic shift to buy-side enterprise. Other filings (SES, INUV, FATE, NEOV, TKLS, WS) show varied health: INUV revenue up 2.9% but margins down, customer concentration; TKLS going concern with $77M deficit; WS stable large-cap steel processor.",
+  "filing_risks": {
+    "DRCT": [
+      "Going concern doubt: $0.7M cash insufficient for 12 months, $27.7M accumulated deficit, reliant on cost cuts/reconnections/financing (10-K).",
+      "Revenue concentration: 2024-2025 declines from one sell-side customer pause (not recovered); buy-side 195 clients but high retention masks dependency.",
+      "Balance sheet: Credit facilities with $450k min cash covenant, default risk; term debt matures Dec 2026, renewal uncertain.",
+      "Dilution risk: Potential equity/debt raises senior to Class A shares.",
+      "Nasdaq delisting risk if listing standards fail.",
+      "Revenue quality: 2025 gross profit $10.4M (down from $37.6M 2023), affected by incident 'not reflective of underlying model' per mgmt.",
+      "Operational: Platform issues, ad fraud detection failure, cookie restrictions, data privacy.",
+      "Capital allocation: Reorganization July 2024, acquisitions planned but funding constrained."
+    ],
+    "INUV": [
+      "Customer concentration: Two customers 64.2%/19.3% of 2025 revenue (75%/7% 2024).",
+      "History of losses: $178.3M accumulated deficit, $5.1M op loss 2025.",
+      "Balance sheet: $2.8M cash, $5.1M working capital deficit.",
+      "Revenue quality: +2.9% revenue but gross margin -10.1% to 74.5%.",
+      "Dependence on Yahoo/Google, ad suppliers."
+    ],
+    "TKLS": [
+      "Going concern: $1M cash, $5.9M working capital deficit, $77M accumulated deficit, $10.2M net loss 2024.",
+      "Revenue recognition/collectability risks."
+    ],
+    "SES": [
+      "Ongoing losses: $73M net loss 2025, $372M accumulated deficit.",
+      "Funding needs: Capital-intensive battery dev, supply chain risks.",
+      "Customer/integration risks post-UZ Energy acquisition."
+    ],
+    "FATE": [
+      "Biotech risks: Novel iPSC therapies, clinical failures, funding for trials ($113M non-affiliate mkt cap).",
+      "Manufacturing/supply chain complexities."
+    ],
+    "NEOV": [
+      "Early-stage: Sales since 2019, competition from Tesla/LG, supply chain/tariff risks.",
+      "Regulatory: ESS certifications evolving."
+    ],
+    "WS": [
+      "Cyclical steel: Commodity pricing, supply chain, customer demand fluctuations.",
+      "Concentration: Top 3 customers 33% sales."
+    ]
+  },
+  "quality_notes": "DRCT shows durable demand signals in platform scale (170B impressions, 90% retention, multicultural niche) but execution risks dominate: revenue collapse from single customer incident, weak balance sheet, going concern. No litigation noted. INUV stable revenue growth but concentration/margins slip. TKLS dire finances. WS quality steel processor with scale. No GOOGL/GOOG, INTC, USAR, GT in filings. Overall, DRCT high-risk turnaround; durable demand in ad tech but balance sheet/concentration vetoes near-term watchlist addition.",
+  "source_urls": []
+}
 
