@@ -9526,4 +9526,200 @@ Model notes: Fresh earnings; no prior repeat; post-dip watch.
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: https://stocktwits.com/news-articles/markets/equity/soun-stock-tanks-as-live-person-acquisition-fails-to-move-full-year-guidance/cZXbYzvReQY
+## Performance Ledger - 2026-05-11 12:40:05 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-05-11 12:40:05 Eastern Daylight Time
+- Portfolio value: $100,219.56
+- P/L vs $100k baseline: $219.56
+- Full paper-account return: 0.220%
+- Managed-capital return: 2.20%
+- Deployed basis: $5,100.00
+- Return on deployed basis: 4.31%
+- Latest position value: $5,319.56
+- Full-account cash reserve: 94.7%
+- Managed-capital cash reserve: 46.8%
+- Max snapshot drawdown: $16.64 from 2026-04-30 16:30:02 Eastern Daylight Time to 2026-05-04 12:40:01 Eastern Daylight Time
+
+Open Position Review
+- DT: winner, value $817.14, unrealized P/L $17.14, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 3 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: winner, value $502.80, unrealized P/L $2.80, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 4 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: winner, value $847.67, unrealized P/L $47.67, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 11 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- IBRX: loser, value $574.14, unrealized P/L $-25.86, entry 2026-05-11 09:48:18 Eastern Daylight Time, thesis age 0 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: winner, value $884.85, unrealized P/L $84.85, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 10 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: loser, value $798.59, unrealized P/L $-1.41, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 5 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $894.36, unrealized P/L $94.36, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 13 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- SPMO: appeared 32 times; open position P/L $94.36.
+- SCHD: appeared 28 times; open position P/L $-1.41.
+- NVDA: appeared 26 times; open position P/L $84.85.
+- GOOGL: appeared 23 times; open position P/L $47.67.
+- INTC: appeared 22 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- WS: appeared 9 times; market outcome unavailable until benchmark/candidate price history is captured.
+- ADI: appeared 8 times; market outcome unavailable until benchmark/candidate price history is captured.
+- GLRE: appeared 8 times; open position P/L $2.80.
+
+Rejection Analytics
+- By reason:
+  - Single-stock allocation would exceed 15%.: 7
+  - A market-open order is already logged for today. No backup order was placed.: 5
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources.: 2
+  - Low-weight social/congress signal needs at least two stronger sources.: 2
+  - repeat_staleness HF source/hype filter rejects source-thin hype. HF memory filter flags similarity to prior rejected patterns.: 2
+  - Candidate references banned v1 instruments or leverage.: 1
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources. repeat_staleness HF source/hype filter rejects source-thin hype. HF memory filter flags similarity to prior rejected patterns.: 1
+  - HF memory filter flags similarity to prior rejected patterns.: 1
+- By symbol:
+  - GOOGL: 3
+  - PLTR: 3
+  - NVDA: 2
+  - SPMO: 2
+  - ADI: 1
+  - EWT: 1
+  - EWY: 1
+  - GSK: 1
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 0
+- social: 3
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold not met: 7/15 trades and 13/21 days.
+- Keep strategy aggressiveness unchanged; prefer automation, logging, and review improvements.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## Midday Memo - 2026-05-11 12:40:05 Eastern Daylight Time
+
+Midday Risk Memo
+
+Recommendation: Hold only positions whose thesis still matches the research; do not add unless guardrails pass.
+
+Market Regime
+Review current paper positions, thesis drift, concentration, stop discipline, and cash reserve.
+
+Portfolio
+Portfolio value: 100219.56 Cash: 94900 Buying power: 195119.56 Positions: - DT: qty=20.289119959, market_value=817.144306, unrealized_pl=17.144306 - GLRE: qty=28.042624789, market_value=502.804262, unrealized_pl=2.804262 - GOOGL: qty=2.151289429, market_value=847.672574, unrealized_pl=47.672574 - IBRX: qty=70.838252656, market_value=574.144038, unrealized_pl=-25.855962 - NVDA: qty=4.00060009, market_value=884.852728, unrealized_pl=84.852728 - SCHD: qty=25.2286345, market_value=798.587196, unrealized_pl=-1.412804 - SPMO: qty=6.119014838, market_value=894.355209, unrealized_pl=94.355209 Performance: value $100,219.56, P/L vs $100k $219.56, managed return 2.20%, deployed return 4.31%, managed cash reserve 46.8%.
+
+Top Candidates
+
+1. SQ (financials-fintech) | confidence 0.80 | allocation 7.0% | stop 8.0% | Chittick 74/100 | tier execution-ready | bucket financials-fintech | HF source 9/100
+Thesis: High-quality fintech with Cash App/merchant ecosystem scale; Q1 record results + FY2026 guide raise signal sustained growth post-margin expansion; PT hikes from GS/Citi/Keefe outweigh Piper caution for 1-10d momentum swing.
+Catalyst: Q1 earnings beat + FY2026 guidance raised; +10% premarket trimmed to +8% open; GS $95/$86→$95 Buy, Citi $100/$85→$100 Buy, Keefe $90/$85→$90 Outperform (Piper $58/$51→$58 Underweight).
+Entry: Enter 50% at open if holds +6% above prior close; add 50% on pullback to $80-82 support; max 7% allocation.
+Exit: Take profits at +12-15% or $92-95 PT cluster; invalidate below $78 (pre-surge open) or -8% stop.
+Risk/reward: 8% downside risk vs. 15% upside to avg PT $95; 2:1 RR on momentum continuation.
+Bear/adversary: Piper Underweight flags margin reversion; gains already trimmed 20% from premarket high signaling exhaustion.
+Source quality: Strong: Stocktwits news citing TheFly/analyst notes; multiple PT hikes from tier-1 firms (GS/Citi); direct earnings reaction.
+Chittick Cash Filter
+Score: 74/100
+Margin of safety: PT hikes imply 20-25% upside; strong guide provides buffer vs. historical post-earnings fades.
+Valuation: Attractive vs. quality: trades below Citi/GS PTs despite beat/guidance; forward growth justifies premium to fintech peers.
+Growth runway: Cash App user growth + merchant TPV expansion; Bitcoin ecosystem tailwinds; 18%+ revenue trajectory into 2027.
+Balance-sheet risk: Low debt; positive FCF inflection; no dilution flags.
+Capital allocation: Disciplined buybacks/reinvestment in core payments; Dorsey ownership aligns incentives.
+Concentration case: Superior to broad fintech ETF on earnings catalyst/momentum; diversifies from recent biotech/industrials watches.
+Owner thesis, 30-180 days: Sustained 20%+ GPV growth + margin >12% into 2027 would justify 30-180d review as compounder.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: financials-fintech
+Research tier: execution-ready
+Allocation learning: Fresh catalyst justifies 7% tranche; allocation-constrained if >15% single-stock.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 9/100
+Hype risk: 0.20
+Evidence rank: 8/100
+Memory similarity: 0.10
+Vetoes: none
+Model notes: Fresh Q1 catalyst; low repeat (1 prior watch); strong analyst backing.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://stocktwits.com/news-articles/markets/cryptocurrency/xyz-stock-surges-on-price-target-hikes-after-q1-earnings-beat/cZX2mRHReXz
+
+2. IBRX (healthcare-biotech) | confidence 0.72 | allocation 5.0% | stop 8.0% | Chittick 70/100 | tier watch | bucket healthcare-biotech | HF source 8/100
+Thesis: Biotech with Anktiva bladder cancer catalyst + new NK cell therapy tease; weekly momentum recovery post-earnings miss signals retail shift to pipeline.
+Catalyst: Founder teases Phase 1 Anktiva-NK trial data (2 complete responses in old study); +9% weekly despite -7% earnings drop; FDA sBLA review ongoing.
+Entry: Enter on hold above weekly open if +2%; max 5% allocation given biotech vol.
+Exit: Profits at +10-12% or trial/FDA update; stop -8% below weekly low.
+Risk/reward: 8% risk vs. 12% to recent highs; 1.5:1 on momentum to catalysts.
+Bear/adversary: Earnings miss dominates; old Phase 1 data (10yr ago) not fresh; loss expansion erodes cash.
+Source quality: Moderate-high: Stocktwits citing founder X post + FDA context; lacks SEC/peer review.
+Chittick Cash Filter
+Score: 70/100
+Margin of safety: FDA review + NK data provide binary buffers; 311% 1Y gain limits downside.
+Valuation: Speculative but attractive on pipeline rerating vs. cash burn.
+Growth runway: Anktiva approval + NK combo expansions into 2027.
+Balance-sheet risk: High cash burn; dilution risk on losses.
+Capital allocation: Founder-led pipeline focus.
+Concentration case: Diversifies biotech exposure; alt to MRNA repeat.
+Owner thesis, 30-180 days: FDA approval + Phase 2 NK data would justify 30-180d hold.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: news
+Fresh catalyst: yes
+Repeat count, 48h: 3
+Diversity bucket: healthcare-biotech
+Research tier: watch
+Allocation learning: none
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 8/100
+Hype risk: 0.40
+Evidence rank: 7/100
+Memory similarity: 0.30
+Vetoes: none
+Model notes: Recent repeat but fresh trial tease; biotech vol caps confidence.
+Social buzz, max 10%: low-weight retail shift to trial hype post-earnings
+Congress signal, max 5%: none
+Sources: https://stocktwits.com/news-articles/markets/equity/ibrx-stock-anktiva-nk-cell-therapy-study/cZX2OFIReXg
+
+3. SOUN (information-technology-software) | confidence 0.68 | allocation 5.0% | stop 8.0% | Chittick 68/100 | tier watch | bucket ai-software | HF source 8/100
+Thesis: AI voice leader with Q1 beat but flat guide disappointment; analyst Strong Buy +52% upside potential for rebound swing.
+Catalyst: Q1 rev $44.2M +52% YoY beat ($42.6M exp), EPS beat; FY2026 guide $225-260M unchanged; -11% AH reaction.
+Entry: Watch for +3-5% intraday rebound; enter < $9.50 support hold.
+Exit: Target $11-12 (gap fill); stop below $8.80 AH low.
+Risk/reward: 8% risk vs. 20% to PT; oversold bounce potential.
+Bear/adversary: Guide unchanged signals growth deceleration; sequential weakness.
+Source quality: Strong: Fiscal.ai data + Koyfin analyst consensus.
+Chittick Cash Filter
+Score: 68/100
+Margin of safety: Analyst PTs + beat provide buffer post-AH dip.
+Valuation: 52% upside to consensus vs. quality AI growth.
+Growth runway: AI voice adoption; partnerships expansion.
+Balance-sheet risk: Net loss but improving; monitor burn.
+Capital allocation: Acquisitions accretive long-term.
+Concentration case: AI software alt to mega-caps; diversifies tech.
+Owner thesis, 30-180 days: Guide raise + margin expansion into 2027.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: ai-software
+Research tier: watch
+Allocation learning: none
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 8/100
+Hype risk: 0.30
+Evidence rank: 8/100
+Memory similarity: 0.00
+Vetoes: none
+Model notes: Fresh earnings; no prior repeat; post-dip watch.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://stocktwits.com/news-articles/markets/equity/soun-stock-tanks-as-live-person-acquisition-fails-to-move-full-year-guidance/cZXbYzvReQY
 
