@@ -7342,4 +7342,102 @@ SEC/company quality check:
   "quality_notes": "No durable demand evidence (e.g., recurring revenue growth, margin expansion, low concentration); DRCT/INUV show revenue cliffs, going concern, dilution risks; BRID/ICCT concentration >20%; all micro/small-caps with losses/deficits signal poor capital allocation/execution. Reject for watchlist: high balance sheet fragility, no GOOGL/INTC/USAR/GT matches. INUV IP (18 patents) positive but offset by financials.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-11 05:58:05 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "Akamai (AKAM) leads with 42% weekly surge on $1.8B Anthropic cloud deal buzz, best week since 2013, record high; biotech movers IBRX (-1% premarket on FDA delay despite Saudi approval), DRTS (+1% on brain cancer trial data today), MLTX (+7% on positive FDA pre-BLA); Asia AI ETFs EWY/Taiwan EWT massively outperforming US benchmarks; semis NVDA/MU/QCOM at 52-week highs on AI infra; RKLB extends gains post-earnings/Neutron test. Social buzz weak context only.",
+  "social_buzz": "High chatter on AKAM Anthropic deal (40%+ gain), IBRX FDA overhang/Saudi win, DRTS brain trial, MLTX FDA alignment, RKLB Neutron progress; neutral COIN amid BTC decoupling talk; no extreme pump language detected.",
+  "attention_anomalies": [
+    "AKAM: 42% weekly gain, record high on unconfirmed $1.8B Anthropic deal - flag hype risk until confirmed",
+    "IBRX: -1% premarket on FDA delay despite 307% YTD and Saudi approval - risk of prolonged overhang",
+    "DRTS: +1% pre on early glioblastoma data discussion today, 191% YTD - early-stage biotech volatility",
+    "MLTX: +7% pre on positive FDA pre-BLA for skin drug - catalyst-driven biotech spike",
+    "EWY/EWT: 239%/96% 12-mo gains stealing AI mania from SPY/QQQ - Asia semi exposure"
+  ],
+  "source_urls": [
+    "https://stocktwits.com/news-articles/markets/equity/akamai-stock-posts-best-week-since-2013-on-buzz-of-1-8-b-anthropic-cloud-deal/cZX9Ab2ReWB",
+    "https://stocktwits.com/news-articles/markets/equity/forget-spy-and-qqq-these-asia-linked-etfs-are-stealing-the-ai-mania/cZX9UayReWZ",
+    "https://stocktwits.com/news-articles/markets/equity/ibrx-stock-fda-delay-anktiva-progress-saudi-greece/cZX9uaVReWg",
+    "https://stocktwits.com/news-articles/markets/equity/dow-sp500-nasdaq-futures-slip-as-trump-calls-iran-peace-proposal-totally-unacceptable/cZX98chReWE",
+    "https://stocktwits.com/news-articles/markets/equity/drts-stock-rises-early-us-brain-cancer-trial-results-today/cZX9xaTReWl",
+    "https://stocktwits.com/news-articles/markets/cryptocurrency/bitcoin-carving-its-own-narrative-coinbase/cZX75UFReW5",
+    "https://stocktwits.com/news-articles/markets/equity/nvda-mu-qcom-stocks-hit-52-week-highs-last-week-what-is-behind-the-surge/cZX9AfGReW9",
+    "https://stocktwits.com/news-articles/markets/equity/rklb-stock-gains-overnight-after-best-day-in-over-4-years-neutron-completes-critical-test/cZX9Mu5ReWQ"
+  ]
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No relevant congressional stock trades found in recent disclosures. Results show net worth pages for former Rep. Wm. Lacy Clay (D-MO) and MO candidates (Sean Smith R, Taylor Burks, Brett Hueffmeier), plus bills H.R. 8561 (Medicare) and H.R. 8286 (Defund NPR) with no associated trades.",
+  "congressional_signal": "none",
+  "tickers": [],
+  "source_urls": [
+    "https://www.quiverquant.com/congresstrading/politician/Wm.%20Lacy%20Clay-C001049/net-worth",
+    "https://www.quiverquant.com/bills/118/hr-8561",
+    "https://www.quiverquant.com/bills/118/hr-8286",
+    "https://www.quiverquant.com/election-fundraising/candidates/Sean%20Smith-H4MO05366/net-worth",
+    "https://www.quiverquant.com/lobbying/stock/GIBOW/",
+    "https://www.quiverquant.com/election-fundraising/candidates/Taylor%20Burks-H6MO05312/net-worth",
+    "https://www.quiverquant.com/election-fundraising/candidates/Brett%20Hueffmeier-H6MO05270/net-worth"
+  ]
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "SES AI (SES) 10-K highlights ongoing losses ($73M 2025), $372M accumulated deficit, capital needs, UAM/EV market risks, supply chain issues, integration risks from UZ Energy acquisition, and manufacturing/competition challenges. DRCT shows revenue decline to $35M (2025), going concern doubt, customer concentration, Nasdaq delisting risk. FATE, AVR, NEOV, FLUX reveal clinical/execution risks, losses, supply chain/tariff vulnerabilities, material weaknesses. No durable demand signals; high balance sheet, dilution, concentration risks across filings.",
+  "filing_risks": {
+    "SES": [
+      "Ongoing losses ($73M 2025, $100M 2024), $372M accumulated deficit; may never achieve profitability",
+      "Needs substantial additional capital; cash sufficient only 12 months, dilution risk",
+      "Customer concentration/dependence on OEM conversions; no long-term supply contracts",
+      "Supply chain risks: raw materials from third-parties, tariffs, geopolitical conflicts",
+      "Integration risks from UZ Energy acquisition (Sep 2025); potential impairments",
+      "Emerging UAM/EV markets unproven; battery defects/recalls possible",
+      "High competition from larger Li-ion players; manufacturing scale-up risks"
+    ],
+    "DRCT": [
+      "Revenue/gross profit decline (2025: $35M/$10M vs 2024: $62M/$17M) due to customer pause/misinformation",
+      "Going concern doubt: $0.7M cash, $28M deficit; needs funding",
+      "High customer concentration; payment risks, IVT/ad fraud exposure",
+      "Nasdaq delisting risk (Stockholders' Equity Notice); credit covenants ($450k min cash)",
+      "Material weaknesses in internal controls; restatements needed",
+      "Credit facilities restrict operations; debt maturity Dec 2026"
+    ],
+    "FATE": [
+      "Clinical-stage biotech: novel iPSC therapies unproven; high failure risk",
+      "Significant losses expected; needs funding for trials",
+      "Manufacturing/supply chain risks for cell therapies; regulatory hurdles",
+      "Competition in immuno-oncology; dependency on partnerships"
+    ],
+    "AVR": [
+      "Clinical-stage medtech: DurAVR THV unapproved; trial delays",
+      "History of losses; needs financing pre-commercialization",
+      "Regulatory/reimbursement risks for TAVR; competition",
+      "International ops: currency, tariffs exposure"
+    ],
+    "NEOV": [
+      "Early revenue growth but scaling risks; China supply dependency",
+      "Regulatory compliance costs (UL/CSIP); competition from Tesla/Enphase",
+      "17 employees; manufacturing transition risks"
+    ],
+    "FLUX": [
+      "Going concern; $6.7M loss FY2025, negative equity",
+      "China battery cell dependency (single supplier, 28% purchases); tariffs",
+      "Nasdaq delisting risk; material weaknesses/restatements",
+      "Customer concentration; litigation risks"
+    ],
+    "WS": [
+      "Cyclical steel industry; commodity pricing/supply volatility",
+      "Customer concentration (top 3: 33% sales); tariff/trade war risks",
+      "Joint venture dependencies"
+    ]
+  },
+  "quality_notes": "No durable demand evidence; all show loss-making ops, funding needs, execution risks (clinical/manufacturing/supply). High balance-sheet fragility (going concerns, deficits, dilution), concentration (customers/suppliers), regulatory hurdles, competition. Revenue quality poor (declines, tolling dependency). Capital allocation strained by capex/R&D. Avoid watchlist adds: weak moats, macro-sensitive.",
+  "source_urls": []
+}
 

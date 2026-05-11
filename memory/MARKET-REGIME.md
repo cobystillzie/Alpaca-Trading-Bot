@@ -3304,4 +3304,26 @@ The market is at record highs with strong earnings momentum, but faces a **CRITI
   ]
 }
 ```
+## Market Regime Research - 2026-05-11 05:58:05 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities mixed with tech/AI strength but weekend risk-off from Iran tensions; futures slipping pre-open amid oil surge and upcoming inflation data; Fed holds rates steady with no 2026 cuts expected; high volatility week ahead.",
+  "market_regime": "risk-off_pullback",
+  "sector_rotation": "tech/AI-semiconductors_outperforming_value/dividends_defensive",
+  "risk_flags": [
+    "Iran Strait of Hormuz geopolitical escalation",
+    "Oil >$100/bbl supply disruption risk",
+    "US inflation data Tuesday",
+    "High-volatility week: housing/retail/industrial/OPEC",
+    "Fed transition to Warsh: tight policy continuation"
+  ],
+  "source_urls": [
+    "https://stocktwits.com/news-articles/markets/equity/dow-sp500-nasdaq-futures-slip-as-trump-calls-iran-peace-proposal-totally-unacceptable/cZX98chReWE",
+    "https://www.morningstar.com/economy/powell-closes-out-term-fed-chair-odds-rate-cut-2026-vanish",
+    "https://www.tradingkey.com/analysis/stocks/us-stocks/261878587-nasdaq-sp500-sox-google-oracle-amazon-chip-ai-intel-amd-tradingkey",
+    "https://www.mexc.com/news/1081207"
+  ]
+}
+```
 

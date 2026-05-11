@@ -4,120 +4,175 @@
 {
   "candidates": [
     {
-      "adversary_case": "Preclinical hype without trials; biotech binary risk and post-COVID sentiment fade",
+      "adversary_case": "Preclinical hype without trials; no approved hantavirus vaccine needed yet; MRNA post-COVID valuation premium erodes on dilution risks.",
       "allocation_learning_note": "",
-      "balance_sheet_risk": "Low debt, ample cash; some cyclicality in vaccine demand",
-      "bear_case": "Early-stage (preclinical only), no human trials/approval timeline; pipeline risks, competition, post-COVID revenue cliff",
-      "capital_allocation_case": "Focused R&D reinvestment; disciplined post-COVID",
-      "catalyst": "Bloomberg-confirmed early-stage hantavirus research partnerships; shares +12% Friday on news, no clinical trials yet but first-mover potential",
+      "balance_sheet_risk": "Low debt; strong cash from COVID era funds pipeline; minimal cyclicality.",
+      "bear_case": "Preclinical stage only, no human trials begun; early research may not advance; biotech volatility and pipeline risks.",
+      "capital_allocation_case": "Disciplined R&D partnerships; history of rapid platform scaling.",
+      "catalyst": "Confirmed early-stage hantavirus research with USAMRIID and Korea University; shares +12% Friday, best day in over two months per Stocktwits/Bloomberg.",
       "catalyst_type": "news",
       "chittick_cash_score": 74.0,
       "chittick_reject_reason": "",
-      "concentration_case": "Diversifies from recent software/mining/ETFs; fresh biotech bucket",
+      "concentration_case": "Diversifies from overexposed dividend/defensive ETFs like SCHD.",
       "confidence": 0.8,
       "congressional_signal": "none",
       "diversity_bucket": "healthcare-biotech",
-      "entry_plan": "Enter on open or pullback to Friday close if volume holds; paper-trade long-only up to 8%",
-      "exit_plan": "Take profits at +10-15% or prior highs; invalidate below Friday low or on trial delay news",
+      "entry_plan": "Enter on pullback to Friday close or intraday dip above $120 if volume confirms; paper-trade long-only.",
+      "exit_plan": "Take profits at +10-15% or prior highs; invalidate below Friday low for defined risk.",
       "fresh_catalyst": true,
-      "growth_runway": "Hantavirus + broader mRNA pipeline (cancer, flu); 30-180 day trial catalysts possible",
+      "growth_runway": "Hantavirus first-mover potential; ongoing mRNA expansions in infectious diseases over 30-180 days.",
       "hf_evidence_rank": 8.0,
       "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.2,
+      "hf_hype_risk": 0.3,
       "hf_memory_similarity": 0.1,
-      "hf_model_notes": "Fresh catalyst, no repeat decay; matches quality+momentum blend",
+      "hf_model_notes": "Fresh catalyst, first appearance, biotech underrepresented vs recent dividend/mining focus.",
       "hf_sentiment_agreement": 0.0,
       "hf_sentiment_label": "",
       "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 8.5,
+      "hf_source_quality_score": 8.0,
       "horizon_days": 5,
-      "margin_of_safety_case": "Cash reserves buffer R&D; platform reuse reduces capex vs traditional vaccines",
-      "market_regime": "Risk-on favors biotech innovation/momentum; risk-off rotation to defensives could pressure",
-      "momentum_case": "+12% Friday (best in 2+ months), +123% past 12mo; volume surge on news confirms breakout",
-      "owner_hold_case": "Pipeline milestones (Phase 1 data, approvals) justify 30-180 day review if revenue ramps",
-      "quality_case": "Proven mRNA tech (COVID success), strong IP/moat, cash-rich balance sheet post-vaccine windfall; high R&D spend but margin of safety from platform scalability",
+      "margin_of_safety_case": "Pipeline diversification beyond COVID/RSV; cash-rich balance sheet supports R&D without immediate dilution.",
+      "market_regime": "Risk-off favors defensive quality biotechs with fresh catalysts over cyclicals.",
+      "momentum_case": "Closed +12% Friday on news; best weekly performer in biotech context amid risk-off.",
+      "owner_hold_case": "Hantavirus trials initiation or Phase 1 data in 6-12 months justifying 30-180 day review.",
+      "quality_case": "Proven mRNA platform (COVID success); partnerships with US Army and academia; +123% over past 12 months reflects durable IP moat and execution.",
       "recommendation": "execute-if-guards-pass",
-      "repeat_count_48h": 1,
+      "repeat_count_48h": 2,
       "research_tier": "execution-ready",
-      "risk_reward": "Defined 8% stop vs 12-20% upside to momentum extension; favorable 1:2+ R/R on catalyst",
+      "risk_reward": "2:1+ upside to resistance vs 6-8% stop to recent support; catalyst-driven spike with quick exit.",
       "sector": "healthcare-biotech",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
       "social_buzz": "none",
-      "source_quality": "Strong: Bloomberg report, company confirmation, Stocktwits news; no hype-only sources",
+      "source_quality": "Strong: Stocktwits news citing Bloomberg report with company confirmation and partnerships detailed.",
       "source_urls": [
         "https://stocktwits.com/news-articles/markets/equity/mrna-stock-clocks-best-day-in-over-two-months-on-early-stage-hantavirus-vaccine-research/cZX2zB5Rego"
       ],
       "stop_loss_percent": 8.0,
       "strategy_tags": [
-        "chittick_cash",
-        "momentum"
+        "chittick_cash"
       ],
       "symbol": "MRNA",
-      "target_allocation_percent": 8.0,
-      "thesis": "Moderna's mRNA platform extends beyond COVID to novel viruses like hantavirus (no approved vaccines globally), with preclinical work via USAMRIID and Korea Univ; +12% Friday best day in 2+ months signals momentum reacceleration after 123% 12mo gain",
-      "valuation_case": "Attractive post-pullback if catalyst sustains; biotech multiples compress on execution"
+      "target_allocation_percent": 7.0,
+      "thesis": "Moderna's mRNA platform expands into novel hantavirus vaccines with no approved competitors globally; strong momentum from early-stage confirmation provides 1-10 day swing opportunity in quality biotech with pipeline diversification.",
+      "valuation_case": "Attractive entry post-pullback on news spike; trades below peak multiples given platform leverage."
     },
     {
-      "adversary_case": "Margin questions from Piper; high valuation if growth slows",
+      "adversary_case": "Piper Underweight on margins; high valuation if growth slows.",
       "allocation_learning_note": "",
-      "balance_sheet_risk": "Moderate; fintech cyclicality",
-      "bear_case": "Piper Sandler Underweight on margin sustainability; fintech competition, macro sensitivity",
-      "capital_allocation_case": "Growth-focused under Dorsey",
-      "catalyst": "Q1 earnings beat, FY2026 guidance raise; +10% premarket trimmed to +8% open; GS/Citi/Keefe PT hikes to $90-100",
+      "balance_sheet_risk": "Manageable debt; cash flow positive.",
+      "bear_case": "Piper questions margin sustainability; fintech competition intensifies.",
+      "capital_allocation_case": "Buybacks and Bitcoin treasury balanced.",
+      "catalyst": "Q1 earnings beat, FY2026 guidance raised; +10% premarket to +8% open; GS/Citi/Keefe PTs to $90-100 despite Piper Underweight.",
       "catalyst_type": "earnings",
-      "chittick_cash_score": 70.0,
+      "chittick_cash_score": 72.0,
       "chittick_reject_reason": "",
-      "concentration_case": "Adds fintech diversity vs recent tech/biotech/mining",
-      "confidence": 0.75,
+      "concentration_case": "Fintech diversifies from biotech and overrepresented defensives.",
+      "confidence": 0.78,
       "congressional_signal": "none",
       "diversity_bucket": "financials-fintech",
-      "entry_plan": "Enter on continuation above open or dip to +5%; paper-trade long-only up to 7%",
-      "exit_plan": "Profits at +12% or analyst PT cluster; stop below earnings gap",
+      "entry_plan": "Enter on consolidation above open gap; paper-trade long-only up to 7%.",
+      "exit_plan": "Profits at PT cluster $90-100 or +12%; stop below earnings gap.",
       "fresh_catalyst": true,
-      "growth_runway": "Cash App/Bitkey expansion; 30-180 day ecosystem growth",
+      "growth_runway": "Payments volume growth, international expansion 30-180 days.",
       "hf_evidence_rank": 8.5,
       "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.1,
+      "hf_hype_risk": 0.2,
       "hf_memory_similarity": 0.0,
-      "hf_model_notes": "Earnings fresh, mixed analyst but majority positive",
+      "hf_model_notes": "First appearance, earnings fresh, underrepresented fintech bucket.",
       "hf_sentiment_agreement": 0.0,
       "hf_sentiment_label": "",
       "hf_sentiment_score": 0.0,
       "hf_source_quality_score": 9.0,
-      "horizon_days": 4,
-      "margin_of_safety_case": "Guidance raise provides visibility; ecosystem moat",
-      "market_regime": "Risk-on supports growth fintech; rotation risks in risk-off",
-      "momentum_case": "+8-10% post-earnings; volume confirmation",
-      "owner_hold_case": "Sustained margin expansion and user growth",
-      "quality_case": "Jack Dorsey-led, recurring payments ecosystem, growing Cash App user base; improving margins",
+      "horizon_days": 7,
+      "margin_of_safety_case": "Guidance raise provides visibility; ecosystem lock-in.",
+      "market_regime": "Risk-off tolerant due to earnings momentum and defensive fintech moat.",
+      "momentum_case": "Surged 8-10% post-earnings; analyst upgrades outweigh one contrarian.",
+      "owner_hold_case": "Sustained margin expansion and Cash App monetization over quarters.",
+      "quality_case": "Jack Dorsey-led fintech with Cash App/Square scale; sustained margin expansion potential.",
       "recommendation": "watch",
-      "repeat_count_48h": 0,
+      "repeat_count_48h": 1,
       "research_tier": "execution-ready",
-      "risk_reward": "8% risk for 10-15% reward on PT catalysts; 1:1.5+",
+      "risk_reward": "2:1 upside to new PTs vs 8% stop to pre-earnings levels.",
       "sector": "financials-fintech",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
       "social_buzz": "none",
-      "source_quality": "Strong: Earnings, multiple analyst updates (GS/Citi/Keefe Buy/Outperform vs Piper Underweight)",
+      "source_quality": "Strong: Stocktwits citing analyst actions from GS/Citi/Keefe post-earnings.",
       "source_urls": [
         "https://stocktwits.com/news-articles/markets/cryptocurrency/xyz-stock-surges-on-price-target-hikes-after-q1-earnings-beat/cZX2mRHReXz"
       ],
       "stop_loss_percent": 8.0,
       "strategy_tags": [
-        "momentum"
+        "chittick_cash"
       ],
       "symbol": "XYZ",
       "target_allocation_percent": 7.0,
-      "thesis": "Block's fintech ecosystem (Square/Cash App) drives record Q1, raised FY2026 guidance; momentum from analyst PT hikes despite one Underweight",
-      "valuation_case": "PT hikes suggest upside but watch Piper dissent"
+      "thesis": "Block's fintech ecosystem delivers record Q1 with guidance raise; multiple analyst PT hikes signal momentum in quality payments growth business.",
+      "valuation_case": "Post-earnings derating with PT hikes supports entry."
+    },
+    {
+      "adversary_case": "Earnings blowout and FDA delays erode confidence; clinical risks high.",
+      "allocation_learning_note": "",
+      "balance_sheet_risk": "Loss-making; dilution watch.",
+      "bear_case": "Q1 $633M loss widened; FDA delay risks prolong overhang.",
+      "capital_allocation_case": "Focused R&D on Anktiva.",
+      "catalyst": "New Anktiva-NK cell therapy trial announced post-Q1 earnings miss; +9% weekly despite -7% Thursday drop; FDA review ongoing.",
+      "catalyst_type": "news",
+      "chittick_cash_score": 70.0,
+      "chittick_reject_reason": "",
+      "concentration_case": "Biotech alternative to MRNA; diversifies healthcare.",
+      "confidence": 0.7,
+      "congressional_signal": "none",
+      "diversity_bucket": "healthcare-biotech",
+      "entry_plan": "Watch for breakout above weekly high; small paper-trade on volume.",
+      "exit_plan": "Profits at +10% or FDA update; stop below weekly low.",
+      "fresh_catalyst": true,
+      "growth_runway": "FDA sBLA decision and combo trials in 30-180 days.",
+      "hf_evidence_rank": 7.0,
+      "hf_filter_vetoes": [],
+      "hf_hype_risk": 0.4,
+      "hf_memory_similarity": 0.2,
+      "hf_model_notes": "Fresh trial catalyst offsets earnings; biotech diversity.",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "",
+      "hf_sentiment_score": 0.0,
+      "hf_source_quality_score": 7.5,
+      "horizon_days": 5,
+      "margin_of_safety_case": "Pipeline depth with approvals outside US.",
+      "market_regime": "Risk-off supports biotech catalysts over broad indices.",
+      "momentum_case": "Best week since Feb on trial news shift from earnings.",
+      "owner_hold_case": "FDA approval or Phase 3 data readout.",
+      "quality_case": "Bladder cancer focus with Saudi/Greece approvals; +311% past year on pipeline progress.",
+      "recommendation": "watch",
+      "repeat_count_48h": 0,
+      "research_tier": "watch",
+      "risk_reward": "2:1 to prior highs vs 8% stop amid volatility.",
+      "sector": "healthcare-biotech",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.05
+      },
+      "social_buzz": "low-weight attention on Anktiva trial vs FDA overhang",
+      "source_quality": "Medium-high: Stocktwits on founder tease and FDA context.",
+      "source_urls": [
+        "https://stocktwits.com/news-articles/markets/equity/ibrx-stock-anktiva-nk-cell-therapy-study/cZX2OFIReXg"
+      ],
+      "stop_loss_percent": 8.0,
+      "strategy_tags": [
+        "chittick_cash"
+      ],
+      "symbol": "IBRX",
+      "target_allocation_percent": 5.0,
+      "thesis": "ImmunityBio's Anktiva pipeline advances with new NK cell therapy study tease offsetting Q1 loss; best weekly gain in months signals momentum recovery.",
+      "valuation_case": "Speculative but cheap on approvals trajectory."
     }
   ],
-  "summary": "MRNA surges 12% on confirmed early-stage hantavirus vaccine research with USAMRIID/Korea Univ partnerships; XYZ (Block) up 8-10% post-Q1 record results and FY2026 guidance raise despite Piper Sandler Underweight; BTC eyed for ATH revisit per VanEck but crypto excluded. Narrow risk-on persists amid Iran tensions, with biotech/momentum leading."
+  "summary": "Biotech momentum with MRNA +12% on hantavirus vaccine news; Block (XYZ) +8% post-Q1 beat and PT hikes; IBRX weekly gains despite earnings miss on Anktiva trial tease; risk-off futures amid Iran tensions weighing broader equities."
 }
 -->
 
@@ -904,4 +959,12 @@
 |---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
 | MRNA | healthcare-biotech | execution-ready | healthcare-biotech | 1 | yes | 0.80 | 74 | 8 | 0 | 8.0% | 8.0% | execute-if-guards-pass | Bloomberg-confirmed early-stage hantavirus research partnerships; shares +12% Friday on news, no clinical trials yet but first-mover potential |
 | XYZ | financials-fintech | execution-ready | financials-fintech | 0 | yes | 0.75 | 70 | 9 | 0 | 7.0% | 8.0% | watch | Q1 earnings beat, FY2026 guidance raise; +10% premarket trimmed to +8% open; GS/Citi/Keefe PT hikes to $90-100 |
+
+## Latest Candidates - 2026-05-11 05:58:05 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| MRNA | healthcare-biotech | execution-ready | healthcare-biotech | 2 | yes | 0.80 | 74 | 8 | 0 | 7.0% | 8.0% | execute-if-guards-pass | Confirmed early-stage hantavirus research with USAMRIID and Korea University; shares +12% Friday, best day in over two months per Stocktwits/Bloomberg. |
+| XYZ | financials-fintech | execution-ready | financials-fintech | 1 | yes | 0.78 | 72 | 9 | 0 | 7.0% | 8.0% | watch | Q1 earnings beat, FY2026 guidance raised; +10% premarket to +8% open; GS/Citi/Keefe PTs to $90-100 despite Piper Underweight. |
+| IBRX | healthcare-biotech | watch | healthcare-biotech | 0 | yes | 0.70 | 70 | 8 | 0 | 5.0% | 8.0% | watch | New Anktiva-NK cell therapy trial announced post-Q1 earnings miss; +9% weekly despite -7% Thursday drop; FDA review ongoing. |
 

@@ -8830,4 +8830,37 @@ HF filter: sentiment=not run source=9/100 hype=0.10 vetoes=0
 Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=financials-fintech
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-11 05:58:05 Eastern Daylight Time
+
+Research Update
+
+Market tone: Biotech momentum with MRNA +12% on hantavirus vaccine news; Block (XYZ) +8% post-Q1 beat and PT hikes; IBRX weekly gains despite earnings miss on Anktiva trial tease; risk-off futures amid Iran tensions weighing broader equities.
+Candidates: 3
+
+1. MRNA (healthcare-biotech) | confidence 0.80 | allocation 7.0% | stop 8.0% | Chittick 74/100 | tier execution-ready | bucket healthcare-biotech | HF source 8/100
+Recommendation: execute-if-guards-pass
+Catalyst: Confirmed early-stage hantavirus research with USAMRIID and Korea University; shares +12% Friday, best day in over two months per Stocktwits/Bloomberg.
+Chittick Cash: Pipeline diversification beyond COVID/RSV; cash-rich balance sheet supports R&D without immediate dilution.
+HF filter: sentiment=not run source=8/100 hype=0.30 vetoes=0
+Self-learning: tier=execution-ready repeat48h=2 fresh=yes bucket=healthcare-biotech
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. XYZ (financials-fintech) | confidence 0.78 | allocation 7.0% | stop 8.0% | Chittick 72/100 | tier execution-ready | bucket financials-fintech | HF source 9/100
+Recommendation: watch
+Catalyst: Q1 earnings beat, FY2026 guidance raised; +10% premarket to +8% open; GS/Citi/Keefe PTs to $90-100 despite Piper Underweight.
+Chittick Cash: Guidance raise provides visibility; ecosystem lock-in.
+HF filter: sentiment=not run source=9/100 hype=0.20 vetoes=0
+Self-learning: tier=execution-ready repeat48h=1 fresh=yes bucket=financials-fintech
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. IBRX (healthcare-biotech) | confidence 0.70 | allocation 5.0% | stop 8.0% | Chittick 70/100 | tier watch | bucket healthcare-biotech | HF source 8/100
+Recommendation: watch
+Catalyst: New Anktiva-NK cell therapy trial announced post-Q1 earnings miss; +9% weekly despite -7% Thursday drop; FDA review ongoing.
+Chittick Cash: Pipeline depth with approvals outside US.
+HF filter: sentiment=not run source=8/100 hype=0.40 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=healthcare-biotech
+Social buzz, low weight: low-weight attention on Anktiva trial vs FDA overhang
+Congress signal, low weight: none
 

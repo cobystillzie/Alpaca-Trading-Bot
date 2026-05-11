@@ -653,4 +653,9 @@ Candidates found: 2
 MRNA surges 12% on confirmed early-stage hantavirus vaccine research with USAMRIID/Korea Univ partnerships; XYZ (Block) up 8-10% post-Q1 record results and FY2026 guidance raise despite Piper Sandler Underweight; BTC eyed for ATH revisit per VanEck but crypto excluded. Narrow risk-on persists amid Iran tensions, with biotech/momentum leading.
 
 Candidates found: 2
+## Two-Hour Research Agent - 2026-05-11 05:58:05 Eastern Daylight Time
+
+Biotech momentum with MRNA +12% on hantavirus vaccine news; Block (XYZ) +8% post-Q1 beat and PT hikes; IBRX weekly gains despite earnings miss on Anktiva trial tease; risk-off futures amid Iran tensions weighing broader equities.
+
+Candidates found: 3
 
