@@ -8532,4 +8532,145 @@ SEC/company quality check:
   "quality_notes": "DRCT shows durable demand signals in platform scale (170B impressions, 90% retention, multicultural niche) but execution risks dominate: revenue collapse from single customer incident, weak balance sheet, going concern. No litigation noted. INUV stable revenue growth but concentration/margins slip. TKLS dire finances. WS quality steel processor with scale. No GOOGL/GOOG, INTC, USAR, GT in filings. Overall, DRCT high-risk turnaround; durable demand in ad tech but balance sheet/concentration vetoes near-term watchlist addition.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-11 16:03:26 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "Search results show crypto market decoupling from equities amid Iran-driven volatility, with Bitcoin institutional accumulation continuing. SUI token rallied 14% on staking adoption and technical bottom signal. CRDO (copper/advanced materials) down 12% despite 118% YTD gain, amid NVIDIA's copper/optics strategy announcement. No actionable US equity/ETF anomalies detected in liquid markets.",
+  "social_buzz": {
+    "bitcoin_ethereum": {
+      "narrative": "Bitcoin decoupling from equities; ETH bullish on Layer 2 competition receding and AI agent infrastructure dominance",
+      "source": "Coinbase Institutional (David Duong)",
+      "risk_flag": "Analyst neutral Q2 2026 despite short-term bullish tone; macro catalyst (TGA liquidity release) is timing-dependent and speculative"
+    },
+    "sui_token": {
+      "narrative": "SUI +14% in 24h on $1T+ stablecoin transfer volume, 75% staking ratio, veteran trader Peter Brandt flags 'major bottom'",
+      "volume": "$3B daily",
+      "risk_flag": "CRYPTO ONLY—not a US equity/ETF. Hype language ('major bottom') unsupported by fundamental catalyst. Staking concentration (75%) is a lock-up metric, not demand signal."
+    },
+    "crdo_copper": {
+      "narrative": "CRDO down 12% despite 118% YTD gain; NVIDIA CEO Huang announced copper + co-packaged optics in Vera Rubin Ultra and Feynman GPU lines",
+      "risk_flag": "CRDO is down on news, not up. Copper/optics adoption is a long-cycle industrial story, not a near-term trade catalyst. Retail attention ≠ fundamental support."
+    }
+  },
+  "attention_anomalies": [
+    {
+      "symbol": "CRDO",
+      "anomaly_type": "Retail attention spike amid weakness",
+      "detail": "Down 12% despite 118% YTD gain and positive NVIDIA commentary; suggests momentum exhaustion or profit-taking, not accumulation",
+      "confidence": "low",
+      "recommendation": "Avoid—price action contradicts hype narrative"
+    },
+    {
+      "symbol": "SUI",
+      "anomaly_type": "Crypto-only social buzz",
+      "detail": "High volume and retail chatter, but outside mandate (not US equity/ETF)",
+      "confidence": "n/a",
+      "recommendation": "Out of scope"
+    }
+  ],
+  "source_urls": [
+    "https://stocktwits.com/news-articles/markets/cryptocurrency/bitcoin-carving-its-own-narrative-coinbase/cZX75UFReW5",
+    "https://stocktwits.com/news-articles/markets/cryptocurrency/veteran-trader-peter-brandt-flags-major-bottom-on-sui-token-surges/cZX9zUAReWq",
+    "https://stocktwits.com/news-articles/markets/equity/crdo-shares-garner-retail-attention-amid-new-product-launches-nvidia-ceo-comments-on-copper-use/cZ3EWCZRIXA"
+  ],
+  "trade_recommendation": "NONE. No liquid US equity or ETF candidates meet execution criteria. CRDO shows classic hype-exhaustion pattern (down on news); avoid. Crypto narratives (BTC, SUI, ETH) are out of scope. Existing watchlist (RKLB, BB, INTC, SQ, RKT) remains active pending guard checks."
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Congressional disclosure data for DVN (Devon Energy Corporation) shows recent trading activity by U.S. lawmakers, predominantly Republican members. Most recent trade: Senator John Boozman (R-AR) purchased $1,001–$15,000 on April 9, 2026. Pattern reflects consistent energy sector interest among GOP legislators, with Rep. Kevin Hern (R-OK) showing sustained accumulation activity from 2021–2024 (largest sale: $250K–$500K on Dec 31, 2024). Lobbying expenditures on Energy/Nuclear issues total ~$50K per quarter consistently since 2021. Low-weight context only; disclosures are delayed and do not constitute investment signal.",
+  "congressional_signal": {
+    "weight": "low",
+    "rationale": "Delayed disclosure; single recent trade by one senator; no coordinated pattern; energy sector lobbying is routine and non-directional",
+    "recent_trades": [
+      {
+        "politician": "John Boozman",
+        "chamber": "Senate",
+        "party": "R",
+        "action": "Purchase",
+        "range": "$1,001–$15,000",
+        "date": "2026-04-09"
+      },
+      {
+        "politician": "Julia Letlow",
+        "chamber": "House",
+        "party": "R",
+        "action": "Purchase",
+        "range": "$1,001–$15,000",
+        "date": "2025-12-08"
+      }
+    ],
+    "sector_focus": "Energy/Nuclear (consistent quarterly lobbying ~$50K)",
+    "interpretation": "Routine energy sector activity; no unusual concentration or timing signal"
+  },
+  "tickers": [
+    "DVN"
+  ],
+  "source_urls": [
+    "https://www.quiverquant.com/stock/DVN/"
+  ]
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": "DRCT (Direct Digital Holdings) shows severe financial distress with going concern doubt, plunging revenue/gross profit (2025: $34.7M/$10.4M vs 2023: $157.1M/$37.6M), customer pause from defamatory article, high concentration risks, Nasdaq delisting threat, and covenant-restricted debt. INUV (Inuvo) has stable operations but history of losses ($178M accum. deficit), extreme customer concentration (83.5% from 2 customers), negative working capital (-$5.1M). Others (NEOV, ICCT, CRMZ, BRID) show varying revenue declines, customer concentration, and operational risks but no immediate existential threats.",
+  "filing_risks": {
+    "DRCT": [
+      "Substantial going concern doubt: $0.7M cash, $27.7M accum. deficit, insufficient for 12 months; reliant on cost cuts, volume recovery, new funding",
+      "Revenue collapse: 2025 rev $34.7M (-44% YoY), GP $10.4M; due to major sell-side customer pause (Q2 2024) from 'defamatory article/coordinated misinformation'",
+      "High customer concentration: One sell-side customer pause crushed results; 174K buyers but volumes not recovered",
+      "Debt covenants: Min $450K cash req., term facility matures Dec 2026; default risk could force bankruptcy/liquidation",
+      "Nasdaq delisting risk if fails listing standards",
+      "Dilution risk: May need equity/debt raises, senior claims dilute shareholders",
+      "Revenue quality: Strategic shift to buy-side/enterprise uncertain; IVT/fraud detection critical but platform issues could harm rep",
+      "Litigation/PR risk: Defamatory article impact ongoing"
+    ],
+    "INUV": [
+      "Customer concentration: 2 customers = 83.5% 2025 rev (64.2% + 19.3%), 75%+ from one in 2024; loss could devastate",
+      "Loss history: $178.3M accum. deficit, $5.1M op loss 2025, negative cash flows, $5.1M working capital deficit, $2.8M cash",
+      "Revenue quality: Dependent on Yahoo/Google relationships; ad fraud, tech changes, seasonality risks",
+      "Dilution: Restricted stock units/warrants",
+      "Balance sheet: Recurring losses funded by equity/debt; liquidity strain"
+    ],
+    "NEOV": [
+      "Early-stage: Sales since 2019 only, startup risks",
+      "Customer concentration implied via fragmented installer market",
+      "Supply chain: Relies on US/Asia components, FEOC compliance needed",
+      "Competition: Vs Tesla/LG/Sonnen with greater resources",
+      "Regulatory: Evolving ESS standards, ITC phaseout 2025"
+    ],
+    "ICCT": [
+      "Limited history post-merger (2023), difficult evaluation",
+      "No major concentration but AR concentration (26%/25%)",
+      "No patents; relies on trade secrets/contracts",
+      "Growth via acquisitions risky"
+    ],
+    "CRMZ": [
+      "No single customer >1%, diverse base",
+      "Relies on data suppliers/NRSROs contracts",
+      "Bankruptcy normalization assumption uncertain"
+    ],
+    "BRID": [
+      "Customer concentration: Walmart 27.8% rev/25.4% AR, Dollar General 14.2%/20.2%",
+      "Inflation/commodity volatility: Pork/beef/flour prices",
+      "Food safety/recall risks, regulations (USDA/FDA/HACCP)"
+    ]
+  },
+  "quality_notes": {
+    "DRCT": "Weakest quality: Revenue collapse, going concern, debt defaults, delisting - high business risk, avoid. No durable demand evidence amid customer loss.",
+    "INUV": "Moderate quality: AI ad tech with patents (18 issued), stable rev +2.9% but razor-thin margins (GP 74.5%), extreme concentration kills durability.",
+    "NEOV": "Growth potential in ESS but early-stage, competition heavy; durable if policy/financing holds.",
+    "ICCT": "SaaS healthcare niche, diversified customers, recurring rev; watch for execution.",
+    "CRMZ": "Stable SaaS, diverse subs (40% Fortune 1000), 99% recurring upfront; durable B2B demand.",
+    "BRID": "Mature food mfr, concentration risks but steady ops; durable if commodities stable."
+  },
+  "source_urls": []
+}
+```
 

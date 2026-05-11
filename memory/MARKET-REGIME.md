@@ -3557,4 +3557,29 @@ The market is at record highs with strong earnings momentum, but faces a **CRITI
   ]
 }
 ```
+## Market Regime Research - 2026-05-11 16:03:26 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities in strong bull trend with S&P 500 and Nasdaq at record highs (6-week win streak), driven by AI/tech concentration and robust Q1 earnings (+28% YoY). Resilient labor data offsets hawkish Fed signals ahead of key CPI/PPI this week. Sector dispersion high; technical overbought warnings emerging.",
+  "market_regime": "bullish_momentum_with_caution",
+  "sector_rotation": "AI/tech_concentrated; semis (+65% 1M outperformance), IT/Comms (77% of SPX gains); early rotation to industrials/energy/defense/value; laggards: financials/energy (Dow), consumer discr/REITs/utilities",
+  "risk_flags": [
+    "Overbought technicals (SPX RSI, upper Bollinger cross)",
+    "Narrow breadth (40% SPX above pre-war levels, 7/11 sectors flat/negative)",
+    "High-impact events: CPI Tue (exp 0.4% MoM core), PPI Wed, Powell term end/Fed chair vote Fri, Trump-Xi summit",
+    "Hawkish Fed tone + RBA hike signaling peak rates near but no cuts imminent",
+    "Geopolitical (Hormuz, US-China) + crypto/volatility risks"
+  ],
+  "source_urls": [
+    "https://www.ig.com/en/news-and-trade-ideas/weekly-market-navigator-11-may-2026-260511",
+    "https://www.coingabbar.com/en/crypto-currency-news/fed-cpi-powell-trump-xi-bitcoin-volatility-may-2026",
+    "https://www.tradingview.com/script/5zGQNtEV-S-P-500-Sector-Performance-Comparison/",
+    "https://www.tradingkey.com/analysis/stocks/us-stocks/261878587-nasdaq-sp500-sox-google-oracle-amazon-chip-ai-intel-amd-tradingkey",
+    "https://www.heygotrade.com/en/blog/sp-500-outlook-2026/",
+    "https://www.investing.com/news/stock-market-news/dow-jones-nasdaq-sp-500-preview-inflation-data-on-tap-as-q1-earnings-wind-down-4676013",
+    "https://articles.stockcharts.com/article/what-you-need-to-know-about-current-market-rotation/"
+  ]
+}
+```
 

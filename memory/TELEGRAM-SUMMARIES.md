@@ -9788,4 +9788,46 @@ HF filter: sentiment=not run source=8/100 hype=0.40 vetoes=0
 Self-learning: tier=stale-watch repeat48h=0 fresh=yes bucket=energy-services
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-11 16:03:26 Eastern Daylight Time
+
+Research Update
+
+Market tone: Mixed signals in equities: Block (SQ) sustains post-earnings momentum with PT hikes despite Piper caution; IBRX rebounds on therapy tease amid FDA review; YSS tanks on short report; SOUN dips on unchanged guidance. Broader market in bullish momentum with rotation opportunities.
+Candidates: 4
+
+1. SQ (financials-fintech) | confidence 0.80 | allocation 7.0% | stop 8.0% | Chittick 74/100 | tier execution-ready | bucket financials-fintech | HF source 9/100
+Recommendation: execute-if-guards-pass
+Catalyst: Q1 earnings beat + FY2026 guidance raise; +10% premarket trimmed to +8% open; GS to $95 Buy, Citi $100 Buy, Keefe $90 Outperform.
+Chittick Cash: Post-earnings derisking with guidance raise; strong balance sheet supports growth.
+HF filter: sentiment=not run source=9/100 hype=0.20 vetoes=0
+Self-learning: tier=execution-ready repeat48h=2 fresh=yes bucket=financials-fintech
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. IBRX (healthcare-biotech) | confidence 0.72 | allocation 5.0% | stop 8.0% | Chittick 70/100 | tier watch | bucket healthcare-biotech | HF source 8/100
+Recommendation: watch
+Catalyst: Founder teases Phase 1 Anktiva-NK trial data (2 complete responses); +9% weekly despite -7% earnings drop; FDA sBLA review imminent.
+Chittick Cash: Pipeline diversification; cash runway assumed adequate.
+HF filter: sentiment=not run source=8/100 hype=0.30 vetoes=0
+Self-learning: tier=watch repeat48h=4 fresh=yes bucket=healthcare-biotech
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. SOUN (information-technology-software) | confidence 0.68 | allocation 5.0% | stop 8.0% | Chittick 68/100 | tier watch | bucket ai-software | HF source 8/100
+Recommendation: watch
+Catalyst: Q1 rev $44.2M +52% YoY beat, EPS beat; FY2026 guide unchanged $225-260M; -11% AH.
+Chittick Cash: Beat execution despite guide; analyst backing.
+HF filter: sentiment=not run source=8/100 hype=0.40 vetoes=0
+Self-learning: tier=watch repeat48h=1 fresh=yes bucket=ai-software
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+4. YSS (industrials-aerospace) | confidence 0.40 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier stale-watch | bucket industrials-aerospace | HF source 6/100
+Recommendation: avoid
+Catalyst: -8% on Wolfpack short alleging Pentagon SDA program loss.
+Chittick Cash: Lacking; revenue dependency exposed.
+HF filter: sentiment=not run source=6/100 hype=0.00 vetoes=0
+Self-learning: tier=stale-watch repeat48h=0 fresh=yes bucket=industrials-aerospace
+Social buzz, low weight: none
+Congress signal, low weight: none
 

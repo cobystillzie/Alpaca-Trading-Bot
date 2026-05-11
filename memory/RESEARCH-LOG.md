@@ -710,4 +710,9 @@ Candidates found: 2
 Energy services momentum (ACDC +62.87% YTD) amid volatile oilfield but weak fundamentals; INTC +4.65% on AI chip deals/analyst upgrades (Tigress $118, Freedom $100); RKT swings to $297M Q1 profit on AI/recurring revenue; IBRX +9% weekly on Anktiva-NK trial tease despite earnings miss; risk-on breadth with AI/semiconductors leading.
 
 Candidates found: 4
+## Two-Hour Research Agent - 2026-05-11 16:03:26 Eastern Daylight Time
+
+Mixed signals in equities: Block (SQ) sustains post-earnings momentum with PT hikes despite Piper caution; IBRX rebounds on therapy tease amid FDA review; YSS tanks on short report; SOUN dips on unchanged guidance. Broader market in bullish momentum with rotation opportunities.
+
+Candidates found: 4
 
