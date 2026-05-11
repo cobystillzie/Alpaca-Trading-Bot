@@ -59,4 +59,14 @@ Catalyst: Q4 earnings beat drove +8% after-hours, +6% session to $40.50; resilie
 Bear case: Valuation recalibration if peer multiples compress further; broader tech rotation or yield spike could pressure.
 Stop plan: 8.0% stop/trailing review.
 Warnings: none
+## ORDER: Paper Buy IBRX - 2026-05-11 09:48:18 Eastern Daylight Time
+
+Symbol: IBRX
+Notional: $600.00
+Order id: b98bb27d-273c-44ac-8685-0d0d51d142c1
+Thesis: Biotech with Anktiva bladder cancer therapy nearing FDA approval; fresh NK cell combo trial shifts focus from Q1 loss; 311% YTD surge shows momentum in immunotherapy.
+Catalyst: New Anktiva-NK cell therapy study announced post-Q1 earnings; +9% weekly gain despite -7% Thursday drop; ongoing FDA sBLA review for Anktiva+BCG.
+Bear case: Q1 net loss $633M vs $130M YoY (R&D/cash burn); FDA delay risk on sBLA; biotech volatility.
+Stop plan: 8.0% stop/trailing review.
+Warnings: none
 
