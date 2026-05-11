@@ -71,4 +71,7 @@ Low-weight social/congress signal needs at least two stronger sources.
 ## Rejected EWT - 2026-05-11 09:48:17 Eastern Daylight Time
 
 Low-weight social/congress signal needs at least two stronger sources.
+## Market Open Execution Skipped - 2026-05-11 09:55:02 Eastern Daylight Time
+
+A market-open order is already logged for today. No backup order was placed.
 
