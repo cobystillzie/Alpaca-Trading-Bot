@@ -674,4 +674,15 @@ Premarket plan built from latest watchlist.
   rejects: Low-weight social/congress signal needs at least two stronger sources.
 - GDX: score=72, base=95, chittick=35, approved=False, allocation=4.0%, stop=8.0%
   rejects: Candidate references banned v1 instruments or leverage.
+## Premarket Plan - 2026-05-11 08:25:01 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- IBRX: score=84, base=100, chittick=72, approved=True, allocation=6.0%, stop=8.0%
+- EWY: score=86, base=100, chittick=70, approved=False, allocation=7.0%, stop=8.0%
+  rejects: Low-weight social/congress signal needs at least two stronger sources.
+- EWT: score=86, base=100, chittick=71, approved=False, allocation=6.0%, stop=8.0%
+  rejects: Low-weight social/congress signal needs at least two stronger sources.
+- GDX: score=72, base=95, chittick=35, approved=False, allocation=4.0%, stop=8.0%
+  rejects: Candidate references banned v1 instruments or leverage.
 
