@@ -8806,4 +8806,28 @@ HF filter: sentiment=not run source=7/100 hype=0.40 vetoes=0
 Self-learning: tier=watch repeat48h=0 fresh=yes bucket=energy-nuclear
 Social buzz, low weight: retail bullish despite miss
 Congress signal, low weight: none
+## Research Update - 2026-05-11 03:55:00 Eastern Daylight Time
+
+Research Update
+
+Market tone: MRNA surges 12% on confirmed early-stage hantavirus vaccine research with USAMRIID/Korea Univ partnerships; XYZ (Block) up 8-10% post-Q1 record results and FY2026 guidance raise despite Piper Sandler Underweight; BTC eyed for ATH revisit per VanEck but crypto excluded. Narrow risk-on persists amid Iran tensions, with biotech/momentum leading.
+Candidates: 2
+
+1. MRNA (healthcare-biotech) | confidence 0.80 | allocation 8.0% | stop 8.0% | Chittick 74/100 | tier execution-ready | bucket healthcare-biotech | HF source 8/100
+Recommendation: execute-if-guards-pass
+Catalyst: Bloomberg-confirmed early-stage hantavirus research partnerships; shares +12% Friday on news, no clinical trials yet but first-mover potential
+Chittick Cash: Cash reserves buffer R&D; platform reuse reduces capex vs traditional vaccines
+HF filter: sentiment=not run source=8/100 hype=0.20 vetoes=0
+Self-learning: tier=execution-ready repeat48h=1 fresh=yes bucket=healthcare-biotech
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. XYZ (financials-fintech) | confidence 0.75 | allocation 7.0% | stop 8.0% | Chittick 70/100 | tier execution-ready | bucket financials-fintech | HF source 9/100
+Recommendation: watch
+Catalyst: Q1 earnings beat, FY2026 guidance raise; +10% premarket trimmed to +8% open; GS/Citi/Keefe PT hikes to $90-100
+Chittick Cash: Guidance raise provides visibility; ecosystem moat
+HF filter: sentiment=not run source=9/100 hype=0.10 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=financials-fintech
+Social buzz, low weight: none
+Congress signal, low weight: none
 

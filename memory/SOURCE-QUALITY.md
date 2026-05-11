@@ -7263,4 +7263,83 @@ SEC/company quality check:
   "quality_notes": "All exhibit classic microcap red flags: unprofitable (losses $5-100M), cash burn, going concern (DRCT/TKLS explicit), customer concentration >50-80% (SES/DRCT/INUV), supply/execution risks in nascent markets (UAM batteries, ad tech, ESS). No durable demand signals; revenue volatile/seasonal. Dilution via equity raises likely. Balance sheets weak (deficits, low cash). Avoid for watchlist - high failure probability vs memory candidates like DT/SCHD/MUX.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-11 03:55:00 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "Akamai (AKAM) leads with 42% weekly surge on $1.8B Anthropic cloud deal buzz, best week since 2013; memory/AI semis (MU up 38% wk, NVDA/QCOM 52-wk highs) extend gains amid chip shortage; Rackspace (RXT) +210% wk on Q1 profit/AMD AI partnership; Rocket Lab (RKLB), POET also strong; futures slip on Iran Strait tensions boosting oil; BTC decoupling from equities.",
+  "social_buzz": "Weak context only - retail 'extremely bullish' on RXT (210% wk, +465% YTD), NVDA; POET 50% wk despite Marvell order cancel; MU/SNDK/MRAM surging overnight on AI memory hype; MLTX +7% on FDA meeting.",
+  "attention_anomalies": [
+    "AKAM: 42% weekly gain (27% Friday) on unnamed $1.8B/7yr AI cloud deal (likely Anthropic) - record high, analysts avg PT $143.76 (3% below close) - flag hype risk on unconfirmed customer.",
+    "RXT: 210% weekly rally (+12% overnight) on Q1 profit + AMD AI platform - retail bulls compare to IREN/SNDK momentum plays - flag pump language risk.",
+    "MU: 38% wk to record high, +7% overnight on AI memory supercycle/shortage - 709% past 12mo.",
+    "POET: 50% wk on photonic networking/AI data centers despite recent Marvell order cancel - investors shrug off debacle."
+  ],
+  "source_urls": [
+    "https://stocktwits.com/news-articles/markets/equity/akamai-stock-posts-best-week-since-2013-on-buzz-of-1-8-b-anthropic-cloud-deal/cZX9Ab2ReWB",
+    "https://stocktwits.com/news-articles/markets/equity/dow-sp500-nasdaq-futures-slip-as-trump-calls-iran-peace-proposal-totally-unacceptable/cZX98chReWE",
+    "https://stocktwits.com/news-articles/markets/cryptocurrency/bitcoin-carving-its-own-narrative-coinbase/cZX75UFReW5",
+    "https://stocktwits.com/news-articles/markets/equity/poet-investors-shrug-off-marvell-debacle-as-stock-notches-50-weekly-jump-retail-confidence-improves/cZX9MzOReWX",
+    "https://stocktwits.com/news-articles/markets/equity/rxt-stock--wild-rally-last-week-retail-bulls-comparing-iren-sandisk-momentum-plays/cZX9wRtReWj",
+    "https://stocktwits.com/news-articles/markets/equity/rklb-stock-gains-overnight-after-best-day-in-over-4-years-neutron-completes-critical-test/cZX9Mu5ReWQ",
+    "https://stocktwits.com/news-articles/markets/equity/nvda-mu-qcom-stocks-hit-52-week-highs-last-week-what-is-behind-the-surge/cZX9AfGReW9"
+  ]
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No relevant congressional stock trades or disclosures found in search results for liquid US stocks/ETFs. Results primarily cover bill summaries (e.g., HR 9495 terror-financing, HR 8286 defund NPR, HR 8561 Medicare) and net worth pages with no trade data.",
+  "congressional_signal": "none",
+  "tickers": [],
+  "source_urls": [
+    "https://www.quiverquant.com/bills/118/hr-9495",
+    "https://www.quiverquant.com/bills/118/hr-8286",
+    "https://www.quiverquant.com/congresstrading/politician/Wm.%20Lacy%20Clay-C001049/net-worth",
+    "https://www.quiverquant.com/election-fundraising/candidates/Michele%20Botelho-H2CT05230/net-worth",
+    "https://www.quiverquant.com/election-fundraising/candidates/Sean%20Smith-H4MO05366/net-worth",
+    "https://www.quiverquant.com/lobbying/stock/CLU/",
+    "https://www.quiverquant.com/bills/118/hr-8561",
+    "https://www.quiverquant.com/election-fundraising/candidates/Glenn%20Keith%20Pearson-H6FL16109/net-worth"
+  ]
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "DRCT (Direct Digital Holdings) shows sharp revenue/gross profit declines in 2024-2025 due to major sell-side customer pause from defamatory allegations/misinformation campaign; going concern doubt with $0.7M cash vs $27.7M accumulated deficit; covenant-restricted credit facilities; Nasdaq delisting risk. INUV stable but high customer concentration (64%+ from two clients), history of losses ($178M deficit), working capital deficit. Others (NEOV, ICCT, CRMZ, BRID) display startup risks, customer concentration, operating losses, but no immediate existential threats. No durable demand signals; high balance sheet/concentration risks warrant watchlist avoidance.",
+  "filing_risks": {
+    "DRCT": [
+      "Going concern substantial doubt: $0.7M cash insufficient for 12 months; accumulated deficit $27.7M; reliant on cost cuts, volume recovery, additional funding (10-K).",
+      "Revenue concentration: 2024-2025 declines from one sell-side customer pause (Q2 2024); volumes not recovered (10-K).",
+      "Balance sheet: Credit facilities covenants (min $450k cash), default risk; term debt matures Dec 2026 (10-K).",
+      "Dilution/liquidity: Potential equity/debt raises may dilute shareholders; Nasdaq delisting risk if standards fail (10-K).",
+      "Revenue quality: 2025 revenue $34.7M (-44% YoY), gross profit $10.4M (-40% YoY) tied to volatile ad inventory (10-K)."
+    ],
+    "INUV": [
+      "Customer concentration: Two customers 64.2% + 19.3% of 2025 revenue (vs 75%+ one in 2024); loss risk material (10-K).",
+      "Balance sheet: $2.8M cash, $5.1M working capital deficit, $178.3M accumulated deficit; negative operating cash flows (10-K).",
+      "Revenue quality: +2.9% YoY growth but gross margins -10.1% to 74.5%; operating loss $5.1M (10-K)."
+    ],
+    "NEOV": [
+      "Early-stage risks: Sales since 2019; competition from Tesla/Enphase; supply chain/tariffs/FEOC compliance (10-K).",
+      "Customer concentration: Relies on fragmented installers/distributors; no major client % disclosed but retrofit focus vulnerable."
+    ],
+    "ICCT": [
+      "Limited history: Post-merger 2023; no patents; customer AR concentration 26% one client (10-K).",
+      "Revenue quality: SaaS subscriptions but healthcare regs/privacy risks."
+    ],
+    "CRMZ": [
+      "Low revenue share of TAM (<1%); bankruptcy analytics demand tied to macro credit cycles (10-K)."
+    ],
+    "BRID": [
+      "Customer concentration: Wal-Mart 27.8% revenue/25.4% AR; Dollar General 14.2%/20.2% AR (10-K).",
+      "Inflation/raw materials: Pork/beef/flour volatility; no hedging (10-K)."
+    ]
+  },
+  "quality_notes": "No durable demand evidence (e.g., recurring revenue growth, margin expansion, low concentration); DRCT/INUV show revenue cliffs, going concern, dilution risks; BRID/ICCT concentration >20%; all micro/small-caps with losses/deficits signal poor capital allocation/execution. Reject for watchlist: high balance sheet fragility, no GOOGL/INTC/USAR/GT matches. INUV IP (18 patents) positive but offset by financials.",
+  "source_urls": []
+}
 

@@ -3281,4 +3281,27 @@ For a cautious bot workflow on May 4, 2026:
 The market is at record highs with strong earnings momentum, but faces a **CRITICAL CPI test on Tuesday (May 12)** that could reset Fed expectations and trigger sharp repricing. Geopolitical oil spike, extreme tech concentration (+64.97% semiconductors past month), and receding rate-cut expectations create a **HIGH-RISK environment for new long positions**. 
 
 **Recommended stance: CAUTIOUS / DEFENSIVE.** Reduce tech exposure, monitor CPI as primary catalyst, and prepare for potential 5-10% correction if inflation data disappoints or earnings guidance weakens.
+## Market Regime Research - 2026-05-11 03:55:00 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities in narrow AI-driven rally amid geopolitical risks (Iran Strait of Hormuz tensions, Trump rejection of peace proposal) and persistent inflation (3.3% CPI, 2.6% core). S&P 500/Nasdaq at record highs with 6-week win streak but only 40% of constituents above pre-war levels; Dow lagging. VIX low at 17.08 indicates complacency. Strong labor (115k payrolls beat) supports resilience, but Fed hawkish (rates 3.50-3.75%, dissent on easing) with upcoming CPI/retail sales. Memory chip/AI stocks surging (MU +7%, MRAM +48%). Overnight futures slipping -0.16-0.41%.",
+  "market_regime": "risk_on_narrowing",
+  "sector_rotation": "AI/tech_concentration → value/dividend_defensive",
+  "risk_flags": [
+    "Geopolitical escalation (Iran Strait closure, oil >$100)",
+    "Upcoming CPI (exp. 0.4% MoM core) could spike hawkish Fed bets",
+    "Technical overbought (S&P RSI, upper Bollinger)",
+    "Supply chain pressures rising (NY Fed index spike)",
+    "Narrow breadth (42 stocks driving S&P gains)"
+  ],
+  "source_urls": [
+    "https://stocktwits.com/news-articles/markets/equity/dow-sp500-nasdaq-futures-slip-as-trump-calls-iran-peace-proposal-totally-unacceptable/cZX98chReWE",
+    "https://fred.stlouisfed.org/series/VIXCLS",
+    "https://www.ig.com/en/news-and-trade-ideas/weekly-market-navigator-11-may-2026-260511",
+    "https://www.tradingkey.com/analysis/economic/indicators/261877993-wall-street-inflation-ai-macroeconomic-cpi-pce-tradingkey",
+    "https://adamtooze.substack.com/p/chartbook-447-the-us-economy-in-may"
+  ]
+}
+```
 

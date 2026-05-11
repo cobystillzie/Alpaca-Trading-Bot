@@ -648,4 +648,9 @@ Candidates found: 1
 MRNA surges 12% on hantavirus vaccine research confirmation (preclinical stage, no trials yet); nuclear stocks resilient despite SMR miss amid AI energy buzz; Coinbase/Kraken lead crypto AI visibility but crypto excluded; pre-CPI caution with futures slipping on geopolitics.
 
 Candidates found: 2
+## Two-Hour Research Agent - 2026-05-11 03:55:00 Eastern Daylight Time
+
+MRNA surges 12% on confirmed early-stage hantavirus vaccine research with USAMRIID/Korea Univ partnerships; XYZ (Block) up 8-10% post-Q1 record results and FY2026 guidance raise despite Piper Sandler Underweight; BTC eyed for ATH revisit per VanEck but crypto excluded. Narrow risk-on persists amid Iran tensions, with biotech/momentum leading.
+
+Candidates found: 2
 
