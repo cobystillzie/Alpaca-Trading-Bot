@@ -8905,4 +8905,167 @@ HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
 Self-learning: tier=watch repeat48h=0 fresh=yes bucket=etf-materials-gold
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Premarket Memo - 2026-05-11 08:16:12 Eastern Daylight Time
+
+Premarket Analyst Memo
+
+Recommendation: Execute only if guardrails pass; otherwise hold cash and wait for cleaner evidence.
+
+Market Regime
+Risk-on AI/biotech favors; risk-off rotation to defensives (SCHD) on CPI/Iran.
+
+Top Candidates
+
+1. IBRX (healthcare-biotech) | confidence 0.78 | allocation 6.0% | stop 8.0% | Chittick 72/100 | tier execution-ready | bucket healthcare-biotech | HF source 8/100
+Thesis: Biotech with Anktiva bladder cancer therapy nearing FDA approval; fresh NK cell combo trial shifts focus from Q1 loss; 311% YTD surge shows momentum in immunotherapy.
+Catalyst: New Anktiva-NK cell therapy study announced post-Q1 earnings; +9% weekly gain despite -7% Thursday drop; ongoing FDA sBLA review for Anktiva+BCG.
+Entry: Enter on pullback to $4.50-$4.70 or breakout above $5.20; paper size 5-7%.
+Exit: Take profits at $5.80 (15% gain) or FDA update; invalidate below $4.20 (recent low).
+Risk/reward: 1:2+ (8% stop vs 15-20% upside to resistance); defined post-earnings range.
+Bear/adversary: Massive Q1 loss signals burn rate; FDA history of delays; no revenue ramp yet.
+Source quality: Stocktwits news direct from company report; multi-source (earnings + trial tease); no hype-only.
+Chittick Cash Filter
+Score: 72/100
+Margin of safety: Post-earnings dip + trial catalyst provides entry below recent highs; cash burn offset by milestones.
+Valuation: Speculative biotech pricing catalysts; attractive vs 311% run if FDA nears.
+Growth runway: Anktiva approval + NK combo trials; bladder cancer TAM large.
+Balance-sheet risk: High cash burn ($633M Q1 loss); dilution risk pre-approval.
+Capital allocation: R&D focus on platform expansion; trial investments.
+Concentration case: Fresh biotech vs repeated SCHD; diversifies from tech/AI.
+Owner thesis, 30-180 days: FDA approval + commercial launch; monitor 30-180 days for sBLA decision.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: news
+Fresh catalyst: yes
+Repeat count, 48h: 2
+Diversity bucket: healthcare-biotech
+Research tier: execution-ready
+Allocation learning: Smaller tranche due to biotech vol; allocation-constrained if >10% portfolio.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 8/100
+Hype risk: 0.20
+Evidence rank: 8/100
+Memory similarity: 0.00
+Vetoes: none
+Model notes: Fresh catalyst; low repeat; biotech bucket underrepresented.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://stocktwits.com/news-articles/markets/equity/ibrx-stock-anktiva-nk-cell-therapy-study/cZX2OFIReXg
+
+2. EWY (etf-international-asia) | confidence 0.82 | allocation 7.0% | stop 8.0% | Chittick 70/100 | tier execution-ready | bucket etf-international-asia | HF source 9/100
+Thesis: iShares MSCI South Korea ETF capturing AI semis boom; outperforms SPY/QQQ by 7-5x past year.
+Catalyst: KOSPI record high +4% Monday; AI exports to 30% GDP (Goldman); +239% past 12mo.
+Entry: Enter on dip to $70 or above $72 breakout; paper size 6-8%.
+Exit: Profits at $78 (recent high); invalidate below $68 (50-day).
+Risk/reward: 1:2.5 (8% stop vs 20% upside to extension).
+Bear/adversary: Asia outperformance may pause on US CPI/USD; concentration in few chip names.
+Source quality: Stocktwits/Goldman/Bloomberg data; macro-backed.
+Chittick Cash Filter
+Score: 70/100
+Margin of safety: ETF diversification; momentum with macro tailwind.
+Valuation: Premium to SPY justified by growth; watch relative P/E.
+Growth runway: AI capex triple exports; semis supercycle.
+Balance-sheet risk: Low (ETF); underlying holdings strong.
+Capital allocation: Passive index.
+Concentration case: Diversifies from US tech; Asia semi alternative to QQQ.
+Owner thesis, 30-180 days: Sustained AI demand; review on KOSPI milestones.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: momentum
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: etf-international-asia
+Research tier: execution-ready
+Allocation learning: none
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 9/100
+Hype risk: 0.10
+Evidence rank: 9/100
+Memory similarity: 0.00
+Vetoes: none
+Model notes: New bucket; structural AI trade.
+Social buzz, max 10%: low-weight AI mania mention
+Congress signal, max 5%: none
+Sources: https://stocktwits.com/news-articles/markets/equity/forget-spy-and-qqq-these-asia-linked-etfs-are-stealing-the-ai-mania/cZX9UayReWZ
+
+3. EWT (etf-international-asia) | confidence 0.80 | allocation 6.0% | stop 8.0% | Chittick 71/100 | tier watch | bucket etf-international-asia | HF source 9/100
+Thesis: iShares MSCI Taiwan ETF riding TSMC/AI semis wave; +96% past year crushes QQQ.
+Catalyst: Taiwan GDP to 10% 2026 (Goldman); AI exports >30% GDP; historic expansion.
+Entry: Dip to $58 or breakout $61; paper 6%.
+Exit: Profits $65; stop below $57.
+Risk/reward: 1:2 (8% risk, 16% reward).
+Bear/adversary: Taiwan premium may unwind on trade wars.
+Source quality: Reputable (Goldman/Bloomberg); macro evidence.
+Chittick Cash Filter
+Score: 71/100
+Margin of safety: ETF structure; relative strength.
+Valuation: Growth justifies premium.
+Growth runway: AI semis demand.
+Balance-sheet risk: Low.
+Capital allocation: Index.
+Concentration case: Asia alt to US semis.
+Owner thesis, 30-180 days: AI capex persistence.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: structural
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: etf-international-asia
+Research tier: watch
+Allocation learning: none
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 9/100
+Hype risk: 0.10
+Evidence rank: 8/100
+Memory similarity: 0.00
+Vetoes: none
+Model notes: Diversity bucket.
+Social buzz, max 10%: low-weight
+Congress signal, max 5%: none
+Sources: https://stocktwits.com/news-articles/markets/equity/forget-spy-and-qqq-these-asia-linked-etfs-are-stealing-the-ai-mania/cZX9UayReWZ
+
+4. GDX (etf-materials-gold) | confidence 0.65 | allocation 4.0% | stop 8.0% | Chittick 35/100 | tier watch | bucket etf-materials-gold | HF source 8/100
+Thesis: VanEck Gold Miners ETF tactical bounce in risk-off hedge; +5.29% week.
+Catalyst: Precious metals rally (GLD +2%, SLV +4.85%); fund flows low but technical bounce.
+Entry: Above $40; paper 4%.
+Exit: $43 profit; stop $38.
+Risk/reward: 1:1.5 modest.
+Bear/adversary: Copper/AI better metals trade; flows weak.
+Source quality: Market data; secondary.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Gold backdrop.
+Valuation: Fair.
+Growth runway: Inflation/geopolitics.
+Balance-sheet risk: Low.
+Capital allocation: N/A.
+Concentration case: Defensive alt to AI.
+Owner thesis, 30-180 days: Sustained gold bull.
+Chittick reject reason: Technical rally only.
+Self-Learning Filter
+Catalyst type: momentum
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: etf-materials-gold
+Research tier: watch
+Allocation learning: none
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 8/100
+Hype risk: 0.00
+Evidence rank: 6/100
+Memory similarity: 0.00
+Vetoes: none
+Model notes: Lower tier; alt bucket.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.moomoo.com/community/feed/earnings-strength-meets-concentration-risk-markets-in-transition-116555250401286
+
+Rejected / Watchouts
+- EWY: Low-weight social/congress signal needs at least two stronger sources.
+- EWT: Low-weight social/congress signal needs at least two stronger sources.
+- GDX: Candidate references banned v1 instruments or leverage.
 
