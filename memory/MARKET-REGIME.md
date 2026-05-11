@@ -3095,4 +3095,26 @@ For a cautious bot workflow on May 4, 2026:
     "https://economictimes.com/news/international/us/us-stock-market-rally-hard-today-why-are-the-sp-500-dow-jones-and-nasdaq-nearing-record-highs-as-nvidia-and-apple-explode-higher-on-strong-us-jobs-data-and-unstoppable-ai-fueled-tech-surge/amp_articleshow/130962974.cms"
   ]
 }
+## Market Regime Research - 2026-05-10 21:51:31 Eastern Daylight Time
+
+{
+  "summary": "US equities in bullish new-high regime driven by strong Q1 earnings (84% beats, +27.7% YoY EPS growth), resilient macro (April payrolls +115k beat), and Middle East de-escalation optimism lowering oil from $107 to $95. Tech giants (NVDA, GOOGL) leading; Dow +0.3% weekly. Fed steady, rate cut expectations fading amid hawkish dissent; 10yr yield 4.36%, Baa corp yield 6.03%. Upcoming CPI (May 12), retail sales (May 14). Tactical bullish tone but cautious positioning in Mag7.",
+  "market_regime": "bullish_new_highs",
+  "sector_rotation": "tech_momentum_to_value_dividend",
+  "risk_flags": [
+    "Fed_hawkish_dissent",
+    "CPI_upcoming",
+    "oil_volatility",
+    "Mag7_caution"
+  ],
+  "source_urls": [
+    "https://www.moomoo.com/news/post/69705445/us-financial-securities-weekly-report-outlook-s-p-500-and",
+    "https://www.barchart.com/stocks/market-performance",
+    "https://markets.jpmorgan.com/research-and-insights",
+    "https://fred.stlouisfed.org/series/BAA",
+    "https://www.etftrends.com/model-portfolio-content-hub/powell-stays-should-dot-plot/",
+    "https://www.ainvest.com/news/500-technical-7-400-sight-earnings-surge-supports-breakout-2605/",
+    "https://www.schwab.com/learn/market-commentary"
+  ]
+}
 

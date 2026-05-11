@@ -633,4 +633,9 @@ Candidates found: 2
 US equities closed strong risk-on week at record highs amid stellar Q1 earnings beats (27.7% blended growth), robust jobs data, Fed steady; late Friday sees DT/SIMO/MUX momentum persist with fresh catalysts, rotation into value/mining/observability amid tech resilience and gold strength.
 
 Candidates found: 4
+## Two-Hour Research Agent - 2026-05-10 21:51:31 Eastern Daylight Time
+
+Risk-on speculative appetite persists with Nasdaq leading despite fundamental threats; TROLL crypto +80% on hype (ignored per strategy); JPM insights highlight tokenization momentum on Solana (Franklin Templeton, Galaxy), resilient macro/earnings growth, loan market supply increase, LBO activity; no fresh stock/ETF catalysts; sector rotation into value/dividends continues.
+
+Candidates found: 3
 

@@ -8734,4 +8734,37 @@ HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
 Self-learning: tier=watch repeat48h=1 fresh=yes bucket=clean-energy-etf
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-10 21:51:31 Eastern Daylight Time
+
+Research Update
+
+Market tone: Risk-on speculative appetite persists with Nasdaq leading despite fundamental threats; TROLL crypto +80% on hype (ignored per strategy); JPM insights highlight tokenization momentum on Solana (Franklin Templeton, Galaxy), resilient macro/earnings growth, loan market supply increase, LBO activity; no fresh stock/ETF catalysts; sector rotation into value/dividends continues.
+Candidates: 3
+
+1. SCHD (etf-dividend-value) | confidence 0.75 | allocation 4.0% | stop 8.0% | Chittick 35/100 | tier watch-allocation-constrained | bucket dividend-etf-defensive | HF source 9/100 | HF veto
+Recommendation: watch-allocation-constrained
+Catalyst: Ongoing post-Q1 2026 sector rotation into value/dividends confirmed by JPM resilient macro/earnings; Morningstar Gold-rated #1 high-dividend ETF for 2026 passive income.
+Chittick Cash: Dividend aristocrats/Kings core; trades at discount to fair value with yield >3%.
+HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=1
+Self-learning: tier=watch-allocation-constrained repeat48h=20 fresh=yes bucket=dividend-etf-defensive
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. DY (industrials-construction) | confidence 0.72 | allocation 6.0% | stop 8.0% | Chittick 74/100 | tier watch | bucket industrials-construction | HF source 8/100
+Recommendation: watch
+Catalyst: JPM notes sizable loan market supply increase, LBO activity (e.g., EA Sports), refinancing wall in 2026; resilient macro supports industrials.
+Chittick Cash: Trades below book value; strong cash flow coverage.
+HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=industrials-construction
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. ICLN (alternatives-clean-energy-etf) | confidence 0.70 | allocation 6.0% | stop 8.0% | Chittick 72/100 | tier watch | bucket clean-energy-etf | HF source 8/100
+Recommendation: watch
+Catalyst: Energy security crisis accelerating adoption per prior; JPM tokenization/yield trends indirectly supportive.
+Chittick Cash: Diversified; yield potential.
+HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=1 fresh=yes bucket=clean-energy-etf
+Social buzz, low weight: none
+Congress signal, low weight: none
 

@@ -6808,4 +6808,42 @@ SEC/company quality check:
   "quality_notes": "No durable demand: SES pre-commercialization (OEM sampling stage), losses accelerating; DRCT revenue quality destroyed by single-customer dependency/event; INUV 84% concentration, declining margins; all show dilution/capital raise risks, negative cash flows, no profitability path evident; BLZE diversified but unprofitable at scale. Balance-sheet risks universal (deficits >$100M+), high capex/execution hurdles in tech/energy. Avoid: fragile, no moat/proven revenue quality.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-10 21:51:31 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks/ETFs. No evidence of hype, pump language, or unsupported claims detected.",
+  "social_buzz": "none",
+  "attention_anomalies": "none",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+{
+  "summary": "No recent congressional disclosures found for liquid US stocks/ETFs.",
+  "congressional_signal": "none",
+  "tickers": [],
+  "source_urls": []
+}
+
+SEC/company quality check:
+{
+  "summary": "Direct Digital Holdings (DRCT) operates a programmatic advertising platform (Colossus SSP) with sell-side (174k buyers, 170B monthly impressions) and buy-side (195 clients, 90% retention) operations. Revenue declined sharply in 2024-2025 ($62.3M to $34.7M) due to a major sell-side customer pause from defamatory allegations/misinformation campaign; volumes not fully recovered. Going concern doubt with $0.7M cash, $27.7M accumulated deficit, liquidity shortfall. High client concentration, covenant-restricted debt, Nasdaq delisting risk. Proactive IVT/fraud mitigation and experienced team noted as strengths, but durable demand questionable amid revenue collapse.",
+  "filing_risks": [
+    "Going concern: $0.7M cash insufficient for 12 months; accumulated deficit $27.7M; dependent on cost cuts, volume recovery, additional funding (no assurances); potential dilution from equity/debt raises.",
+    "Revenue concentration: 2024-2025 declines tied to one sell-side customer pause (defamatory article); high reliance on few clients (174k sell-side buyers but volumes disrupted); payment risks if clients dispute invoices.",
+    "Balance sheet: Credit facilities with $450k min cash covenant, default risk; term debt matures Dec 2026; working capital strained post-reorg.",
+    "Dilution/Financing: Need additional capital; potential senior securities issuance diluting Class A shareholders.",
+    "Nasdaq delisting: Failure to meet listing standards risk.",
+    "Operational: Advertising fraud/IVT undetected could harm rep; platform outages; cookie/ID restrictions diminish targeting.",
+    "Customer retention/Strategy: Strategic shift to buy-side/enterprise may not deliver; 90% retention but revenue drop shows vulnerability.",
+    "Litigation/Rep: Defamatory article impact ongoing; unfavorable publicity/data privacy risks.",
+    "Revenue quality: Sell-side dominant but paused; seasonality Q4 peak; gross profit fell to $10.4M in 2025.",
+    "Capital allocation: Acquisitions planned but integration risks; 73 employees, no unions."
+  ],
+  "quality_notes": "Weak: Severe revenue decline (2023 $157M → 2025 $34.7M) from single-customer disruption not fully resolved; going concern explicit; covenant/debt pressures; Nasdaq risk; high concentration despite scale claims. Durable demand lacking - ad platform volumes halved, no rebound evidence. Strengths: IVT mitigation, 90% buy-side retention, multicultural focus (45% impressions), but overshadowed by financial distress. No litigation details beyond defamation mention. Watch for funding/volume recovery, but high execution risk.",
+  "source_urls": ["https://www.sec.gov/Archives/edgar/data/1880613/000188061326000010/drct-20251231.htm"]
+}
 
