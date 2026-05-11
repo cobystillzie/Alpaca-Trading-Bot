@@ -3513,4 +3513,25 @@ The market is at record highs with strong earnings momentum, but faces a **CRITI
     "https://www.ig.com/en/news-and-trade-ideas/weekly-market-navigator-11-may-2026-260511"
   ]
 }
+## Market Regime Research - 2026-05-11 12:51:08 Eastern Daylight Time
+
+{
+  "summary": "US equities exhibit strong bullish momentum with S&P 500 (+2.3% to 7,398) and Nasdaq (+4.5% to 26,247) hitting record highs on 6th straight weekly gain, driven by robust April jobs (115k vs 55k exp), AI/semiconductor earnings beats (AMD +26%, chips surge), and Iran deal optimism easing oil/inflation fears. Tone is risk-on but concentrated in tech/AI; Dow flat (+0.2%), VIX contained at 17.19 signals low vol. Upcoming CPI/PPI, Iran talks, Trump-Xi summit add event risk. Cautious paper-trading: favor dips in leaders, tight stops amid overbought signals (RSI, Bollinger).",
+  "market_regime": "Bullish Risk-On (Tech-Led Rally, Low Volatility)",
+  "sector_rotation": "Heavy into Tech/Semis/AI (info tech +5%, software strong, AMD/NVDA leaders); narrow breadth (40% S&P above pre-war levels, 7/11 sectors flat/negative); industrials mixed/neutral; laggards in financials/energy/consumer staples; global AI flows to Korea semis (KOSPI, SK Hynix).",
+  "risk_flags": [
+    "Geopolitical: Iran talks fragile (US rejected counter-proposal, tanker thaw but collapse risk)",
+    "Overbought: S&P RSI overbought, upper Bollinger cross, targeting 7,500-7,612 but pullback to 7,187 MA possible",
+    "Narrow breadth: Mega-cap concentration, Dow lag, equal-weight underperforms",
+    "Event risk: Tue CPI/Wed PPI, Fed chair speculation, Trump-Xi summit",
+    "Gold bearish H&S breakdown to $4,618 tgt despite weak bullish above $3,300/$4,700"
+  ],
+  "source_urls": [
+    "https://citytradersimperium.com/weekly-market-sentiment-11-may-2026/",
+    "https://www.youtube.com/watch?v=eiDhJHITYoo",
+    "https://www.nyse.com/index",
+    "https://www.home.saxo/content/articles/macro/market-quick-take---11-may-2026-11052026",
+    "https://www.ig.com/en/news-and-trade-ideas/weekly-market-navigator-11-may-2026-260511"
+  ]
+}
 

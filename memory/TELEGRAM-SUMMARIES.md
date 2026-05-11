@@ -9722,4 +9722,28 @@ Model notes: Fresh earnings; no prior repeat; post-dip watch.
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: https://stocktwits.com/news-articles/markets/equity/soun-stock-tanks-as-live-person-acquisition-fails-to-move-full-year-guidance/cZXbYzvReQY
+## Research Update - 2026-05-11 12:51:08 Eastern Daylight Time
+
+Research Update
+
+Market tone: Bitcoin miners like CLSK show resilience amid risk-on tech rally (Nasdaq +4.5% records), with CLSK +1.57% at $14.20, bullish technicals, $16.20 analyst target, and $3.63B mkt cap; broader market two-way pull from AI optimism vs stagflation/oil risks.
+Candidates: 2
+
+1. CLSK (financials-crypto-mining) | confidence 0.70 | allocation 6.0% | stop 8.0% | Chittick 65/100 | tier watch | bucket financials-crypto-mining | HF source 8/100
+Recommendation: watch
+Catalyst: Up 1.57% today at $14.20 with bullish moving averages and consensus $16.20 target; overall sentiment 12 bullish vs 5 bearish signals
+Chittick Cash: Enterprise value $4.13B vs mkt cap offers some asset backing but cash burn limits downside protection
+HF filter: sentiment=not run source=8/100 hype=0.20 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=financials-crypto-mining
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. SCHD (etf-dividend-value) | confidence 0.75 | allocation 4.0% | stop 8.0% | Chittick 35/100 | tier watch-allocation-constrained | bucket dividend-etf-defensive | HF source 9/100
+Recommendation: watch-allocation-constrained
+Catalyst: Ongoing sector rotation into value/dividends per JPM; Morningstar Gold-rated #1 high-dividend ETF
+Chittick Cash: Dividend focus and quality holdings provide downside protection
+HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=0
+Self-learning: tier=watch-allocation-constrained repeat48h=20 fresh=yes bucket=dividend-etf-defensive
+Social buzz, low weight: low-weight social attention signal, or none
+Congress signal, low weight: none
 

@@ -4,175 +4,119 @@
 {
   "candidates": [
     {
-      "adversary_case": "Piper Underweight flags margin reversion; gains already trimmed 20% from premarket high signaling exhaustion.",
-      "allocation_learning_note": "Fresh catalyst justifies 7% tranche; allocation-constrained if >15% single-stock.",
-      "balance_sheet_risk": "Low debt; positive FCF inflection; no dilution flags.",
-      "bear_case": "Piper questions margin sustainability; fintech competition intensifies; macro slowdown hits transaction volumes.",
-      "capital_allocation_case": "Disciplined buybacks/reinvestment in core payments; Dorsey ownership aligns incentives.",
-      "catalyst": "Q1 earnings beat + FY2026 guidance raised; +10% premarket trimmed to +8% open; GS $95/$86\u2192$95 Buy, Citi $100/$85\u2192$100 Buy, Keefe $90/$85\u2192$90 Outperform (Piper $58/$51\u2192$58 Underweight).",
-      "catalyst_type": "earnings",
-      "chittick_cash_score": 74.0,
-      "chittick_reject_reason": "",
-      "concentration_case": "Superior to broad fintech ETF on earnings catalyst/momentum; diversifies from recent biotech/industrials watches.",
-      "confidence": 0.8,
-      "congressional_signal": "none",
-      "diversity_bucket": "financials-fintech",
-      "entry_plan": "Enter 50% at open if holds +6% above prior close; add 50% on pullback to $80-82 support; max 7% allocation.",
-      "exit_plan": "Take profits at +12-15% or $92-95 PT cluster; invalidate below $78 (pre-surge open) or -8% stop.",
-      "fresh_catalyst": true,
-      "growth_runway": "Cash App user growth + merchant TPV expansion; Bitcoin ecosystem tailwinds; 18%+ revenue trajectory into 2027.",
-      "hf_evidence_rank": 8.5,
-      "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.2,
-      "hf_memory_similarity": 0.1,
-      "hf_model_notes": "Fresh Q1 catalyst; low repeat (1 prior watch); strong analyst backing.",
-      "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "",
-      "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 9.0,
-      "horizon_days": 5,
-      "margin_of_safety_case": "PT hikes imply 20-25% upside; strong guide provides buffer vs. historical post-earnings fades.",
-      "market_regime": "Risk-on supports fintech momentum; oil/inflation risks could pressure consumer spending.",
-      "momentum_case": "10% premarket surge on volume; relative strength in fintech amid risk-on; trimmed gains suggest consolidation for entry.",
-      "owner_hold_case": "Sustained 20%+ GPV growth + margin >12% into 2027 would justify 30-180d review as compounder.",
-      "quality_case": "Jack Dorsey-led; recurring payments revenue; strong balance sheet; margin expansion to 9.55% demonstrates operating leverage vs. cyclical peers.",
-      "recommendation": "execute-if-guards-pass",
-      "repeat_count_48h": 1,
-      "research_tier": "execution-ready",
-      "risk_reward": "8% downside risk vs. 15% upside to avg PT $95; 2:1 RR on momentum continuation.",
-      "sector": "financials-fintech",
-      "signal_weights": {
-        "congressional_signal": 0.0,
-        "social_buzz": 0.0
-      },
-      "social_buzz": "none",
-      "source_quality": "Strong: Stocktwits news citing TheFly/analyst notes; multiple PT hikes from tier-1 firms (GS/Citi); direct earnings reaction.",
-      "source_urls": [
-        "https://stocktwits.com/news-articles/markets/cryptocurrency/xyz-stock-surges-on-price-target-hikes-after-q1-earnings-beat/cZX2mRHReXz"
-      ],
-      "stop_loss_percent": 8.0,
-      "strategy_tags": [
-        "chittick_cash"
-      ],
-      "symbol": "SQ",
-      "target_allocation_percent": 7.0,
-      "thesis": "High-quality fintech with Cash App/merchant ecosystem scale; Q1 record results + FY2026 guide raise signal sustained growth post-margin expansion; PT hikes from GS/Citi/Keefe outweigh Piper caution for 1-10d momentum swing.",
-      "valuation_case": "Attractive vs. quality: trades below Citi/GS PTs despite beat/guidance; forward growth justifies premium to fintech peers."
-    },
-    {
-      "adversary_case": "Earnings miss dominates; old Phase 1 data (10yr ago) not fresh; loss expansion erodes cash.",
+      "adversary_case": "BTC dump or cash burn acceleration overwhelms technicals; high beta to crypto volatility",
       "allocation_learning_note": "",
-      "balance_sheet_risk": "High cash burn; dilution risk on losses.",
-      "bear_case": "Q1 loss ballooned to $633M; clinical/regulatory risks high; biotech volatility.",
-      "capital_allocation_case": "Founder-led pipeline focus.",
-      "catalyst": "Founder teases Phase 1 Anktiva-NK trial data (2 complete responses in old study); +9% weekly despite -7% earnings drop; FDA sBLA review ongoing.",
-      "catalyst_type": "news",
-      "chittick_cash_score": 70.0,
+      "balance_sheet_risk": "Ongoing cash burn flagged; BTC price cyclicality high",
+      "bear_case": "BTC price volatility crushes revenue; ongoing cash burn and execution risks on strategic initiatives",
+      "capital_allocation_case": "Strategic initiatives execution key; owner-operator focus on high-density ops",
+      "catalyst": "Up 1.57% today at $14.20 with bullish moving averages and consensus $16.20 target; overall sentiment 12 bullish vs 5 bearish signals",
+      "catalyst_type": "momentum",
+      "chittick_cash_score": 65.0,
       "chittick_reject_reason": "",
-      "concentration_case": "Diversifies biotech exposure; alt to MRNA repeat.",
-      "confidence": 0.72,
+      "concentration_case": "Deserves watch over broad ETFs given fresh price/momentum signal in underrepresented crypto-mining",
+      "confidence": 0.7,
       "congressional_signal": "none",
-      "diversity_bucket": "healthcare-biotech",
-      "entry_plan": "Enter on hold above weekly open if +2%; max 5% allocation given biotech vol.",
-      "exit_plan": "Profits at +10-12% or trial/FDA update; stop -8% below weekly low.",
+      "diversity_bucket": "financials-crypto-mining",
+      "entry_plan": "Enter on pullback to $13.80-$14.00 if volume holds; paper-trade long-only up to 6% allocation",
+      "exit_plan": "Take profits at $16.00-$16.20 (analyst target); invalidate below $13.00 (defined risk off recent lows)",
       "fresh_catalyst": true,
-      "growth_runway": "Anktiva approval + NK combo expansions into 2027.",
+      "growth_runway": "BTC halving cycle tailwinds, data center expansion for 30-180 day mining capacity growth",
       "hf_evidence_rank": 7.0,
       "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.4,
-      "hf_memory_similarity": 0.3,
-      "hf_model_notes": "Recent repeat but fresh trial tease; biotech vol caps confidence.",
+      "hf_hype_risk": 0.2,
+      "hf_memory_similarity": 0.0,
+      "hf_model_notes": "Fresh miner data fits momentum bucket; no repeat decay",
       "hf_sentiment_agreement": 0.0,
       "hf_sentiment_label": "",
       "hf_sentiment_score": 0.0,
       "hf_source_quality_score": 8.0,
-      "horizon_days": 7,
-      "margin_of_safety_case": "FDA review + NK data provide binary buffers; 311% 1Y gain limits downside.",
-      "market_regime": "Risk-on favors biotechs on pipeline news; inflation/geo less impactful.",
-      "momentum_case": "+9% best week in 2mo; on track despite Q1 $633M loss; shifts focus from earnings to trials.",
-      "owner_hold_case": "FDA approval + Phase 2 NK data would justify 30-180d hold.",
-      "quality_case": "Pipeline diversification beyond BCG combo; 311% 1Y return reflects binary upside potential.",
-      "recommendation": "watch",
-      "repeat_count_48h": 2,
-      "research_tier": "watch",
-      "risk_reward": "8% risk vs. 12% to recent highs; 1.5:1 on momentum to catalysts.",
-      "sector": "healthcare-biotech",
-      "signal_weights": {
-        "congressional_signal": 0.0,
-        "social_buzz": 0.08
-      },
-      "social_buzz": "low-weight retail shift to trial hype post-earnings",
-      "source_quality": "Moderate-high: Stocktwits citing founder X post + FDA context; lacks SEC/peer review.",
-      "source_urls": [
-        "https://stocktwits.com/news-articles/markets/equity/ibrx-stock-anktiva-nk-cell-therapy-study/cZX2OFIReXg"
-      ],
-      "stop_loss_percent": 8.0,
-      "strategy_tags": [
-        "chittick_cash"
-      ],
-      "symbol": "IBRX",
-      "target_allocation_percent": 5.0,
-      "thesis": "Biotech with Anktiva bladder cancer catalyst + new NK cell therapy tease; weekly momentum recovery post-earnings miss signals retail shift to pipeline.",
-      "valuation_case": "Speculative but attractive on pipeline rerating vs. cash burn."
-    },
-    {
-      "adversary_case": "Guide unchanged signals growth deceleration; sequential weakness.",
-      "allocation_learning_note": "",
-      "balance_sheet_risk": "Net loss but improving; monitor burn.",
-      "bear_case": "Sequential rev drop 20%; guide miss expectations; AI hype fade.",
-      "capital_allocation_case": "Acquisitions accretive long-term.",
-      "catalyst": "Q1 rev $44.2M +52% YoY beat ($42.6M exp), EPS beat; FY2026 guide $225-260M unchanged; -11% AH reaction.",
-      "catalyst_type": "earnings",
-      "chittick_cash_score": 68.0,
-      "chittick_reject_reason": "",
-      "concentration_case": "AI software alt to mega-caps; diversifies tech.",
-      "confidence": 0.68,
-      "congressional_signal": "none",
-      "diversity_bucket": "ai-software",
-      "entry_plan": "Watch for +3-5% intraday rebound; enter < $9.50 support hold.",
-      "exit_plan": "Target $11-12 (gap fill); stop below $8.80 AH low.",
-      "fresh_catalyst": true,
-      "growth_runway": "AI voice adoption; partnerships expansion.",
-      "hf_evidence_rank": 7.5,
-      "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.3,
-      "hf_memory_similarity": 0.0,
-      "hf_model_notes": "Fresh earnings; no prior repeat; post-dip watch.",
-      "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "",
-      "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 8.5,
-      "horizon_days": 3,
-      "margin_of_safety_case": "Analyst PTs + beat provide buffer post-AH dip.",
-      "market_regime": "Risk-on AI supports rebound; broad pullback risks amplify.",
-      "momentum_case": "-11% AH overreaction to guide; +5% 12mo sets stage for bounce.",
-      "owner_hold_case": "Guide raise + margin expansion into 2027.",
-      "quality_case": "52% growth + EPS improvement; 8 Strong Buys PT $14.63 (52% upside from $9.63).",
+      "horizon_days": 5,
+      "margin_of_safety_case": "Enterprise value $4.13B vs mkt cap offers some asset backing but cash burn limits downside protection",
+      "market_regime": "Risk-on tech rally aids via BTC correlation but stagflation/oil pulls could pressure miners",
+      "momentum_case": "Bullish technical outlook from moving averages; recent price action aligns with risk-on crypto/miner rebound",
+      "owner_hold_case": "BTC above $100k+ with margin expansion from efficiency gains justifies 30-180 day review",
+      "quality_case": "High-density data centers provide operational edge; market cap $3.63B with enterprise value $4.13B reflects scale in BTC mining",
       "recommendation": "watch",
       "repeat_count_48h": 0,
       "research_tier": "watch",
-      "risk_reward": "8% risk vs. 20% to PT; oversold bounce potential.",
-      "sector": "information-technology-software",
+      "risk_reward": "2:1 potential ($2+ upside vs $1 downside) on momentum to target with tight stop",
+      "sector": "financials-crypto-mining",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
       "social_buzz": "none",
-      "source_quality": "Strong: Fiscal.ai data + Koyfin analyst consensus.",
+      "source_quality": "Direct asset page from Pluang with price, technicals, analyst targets, sentiment scores; reputable market data",
       "source_urls": [
-        "https://stocktwits.com/news-articles/markets/equity/soun-stock-tanks-as-live-person-acquisition-fails-to-move-full-year-guidance/cZXbYzvReQY"
+        "https://pluang.com/en/asset/usstock/CLSK/10914"
+      ],
+      "stop_loss_percent": 8.0,
+      "strategy_tags": [
+        "momentum"
+      ],
+      "symbol": "CLSK",
+      "target_allocation_percent": 6.0,
+      "thesis": "Leading Bitcoin miner with high-density data centers blending quality operations, momentum from BTC correlation, and short-term upside to analyst targets",
+      "valuation_case": "$14.20 vs $16.20 target attractive for quality miner if BTC holds; not deep value"
+    },
+    {
+      "adversary_case": "Concentration risk at 20 repeats; better momentum elsewhere",
+      "allocation_learning_note": "Reduce tranche due to repeats High repeat count 20: cap allocation language and require fresh alternatives before execution-ready status.",
+      "balance_sheet_risk": "Low; diversified ETF",
+      "bear_case": "Lags tech rally if narrow breadth persists; allocation constrained at 20 repeats",
+      "capital_allocation_case": "Passive discipline",
+      "catalyst": "Ongoing sector rotation into value/dividends per JPM; Morningstar Gold-rated #1 high-dividend ETF",
+      "catalyst_type": "momentum",
+      "chittick_cash_score": 78.0,
+      "chittick_reject_reason": "High repeat count",
+      "concentration_case": "Allocation-constrained; consider vs CLSK alternative",
+      "confidence": 0.75,
+      "congressional_signal": "none",
+      "diversity_bucket": "dividend-etf-defensive",
+      "entry_plan": "Add small tranche on dip to $28.50 if broad mkt pulls back",
+      "exit_plan": "Trim at $30+ or invalidate below 50-day MA",
+      "fresh_catalyst": true,
+      "growth_runway": "Stable dividend growth in 30-180 days via value rotation",
+      "hf_evidence_rank": 9.0,
+      "hf_filter_vetoes": [],
+      "hf_hype_risk": 0.0,
+      "hf_memory_similarity": 0.8,
+      "hf_model_notes": "Repeat decay applied; allocation note",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "",
+      "hf_sentiment_score": 0.0,
+      "hf_source_quality_score": 9.0,
+      "horizon_days": 7,
+      "margin_of_safety_case": "Dividend focus and quality holdings provide downside protection",
+      "market_regime": "Neutral to positive as risk-on favors rotation from overbought tech",
+      "momentum_case": "Post-Q1 2026 rotation confirmed; stable flows in risk-on regime",
+      "owner_hold_case": "Persistent value rotation justifies 30-180 day hold",
+      "quality_case": "Proven resilient macro/earnings backdrop; high Chittick score reflects balance sheet strength",
+      "recommendation": "watch-allocation-constrained",
+      "repeat_count_48h": 20,
+      "research_tier": "watch-allocation-constrained",
+      "risk_reward": "1.5:1 with dividend yield buffer vs defined stop",
+      "sector": "etf-dividend-value",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "low-weight social attention signal, or none",
+      "source_quality": "JPM/morningstar/official ETF data; high evidence from memory",
+      "source_urls": [
+        "https://www.fidelity.co.uk/markets-insights/markets/global/two-way-pull-continues"
       ],
       "stop_loss_percent": 8.0,
       "strategy_tags": [
         "chittick_cash"
       ],
-      "symbol": "SOUN",
-      "target_allocation_percent": 5.0,
-      "thesis": "AI voice leader with Q1 beat but flat guide disappointment; analyst Strong Buy +52% upside potential for rebound swing.",
-      "valuation_case": "52% upside to consensus vs. quality AI growth."
+      "symbol": "SCHD",
+      "target_allocation_percent": 4.0,
+      "thesis": "Top-rated dividend ETF as defensive quality play amid rotation; Chittick Cash aligned for margin of safety",
+      "valuation_case": "Attractive yield vs growth stocks overvaluation"
     }
   ],
-  "summary": "Mixed earnings reactions: Block (XYZ) +8-10% on Q1 beat/guidance raise despite Piper Underweight; IBRX +9% weekly on Anktiva-NK trial tease post-earnings miss/FDA review; SOUN -11% AH on flat FY2026 guide despite Q1 beat. Broader risk-on with AI/tech records but geo/oil caution."
+  "summary": "Bitcoin miners like CLSK show resilience amid risk-on tech rally (Nasdaq +4.5% records), with CLSK +1.57% at $14.20, bullish technicals, $16.20 analyst target, and $3.63B mkt cap; broader market two-way pull from AI optimism vs stagflation/oil risks."
 }
 -->
 
@@ -1000,4 +944,11 @@
 | SQ | financials-fintech | execution-ready | financials-fintech | 1 | yes | 0.80 | 74 | 9 | 0 | 7.0% | 8.0% | execute-if-guards-pass | Q1 earnings beat + FY2026 guidance raised; +10% premarket trimmed to +8% open; GS $95/$86→$95 Buy, Citi $100/$85→$100 Buy, Keefe $90/$85→$90 Outperform (Piper $ |
 | IBRX | healthcare-biotech | watch | healthcare-biotech | 2 | yes | 0.72 | 70 | 8 | 0 | 5.0% | 8.0% | watch | Founder teases Phase 1 Anktiva-NK trial data (2 complete responses in old study); +9% weekly despite -7% earnings drop; FDA sBLA review ongoing. |
 | SOUN | information-technology-software | watch | ai-software | 0 | yes | 0.68 | 68 | 8 | 0 | 5.0% | 8.0% | watch | Q1 rev $44.2M +52% YoY beat ($42.6M exp), EPS beat; FY2026 guide $225-260M unchanged; -11% AH reaction. |
+
+## Latest Candidates - 2026-05-11 12:51:08 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| CLSK | financials-crypto-mining | watch | financials-crypto-mining | 0 | yes | 0.70 | 65 | 8 | 0 | 6.0% | 8.0% | watch | Up 1.57% today at $14.20 with bullish moving averages and consensus $16.20 target; overall sentiment 12 bullish vs 5 bearish signals |
+| SCHD | etf-dividend-value | watch-allocation-constrained | dividend-etf-defensive | 20 | yes | 0.75 | 78 | 9 | 0 | 4.0% | 8.0% | watch-allocation-constrained | Ongoing sector rotation into value/dividends per JPM; Morningstar Gold-rated #1 high-dividend ETF |
 

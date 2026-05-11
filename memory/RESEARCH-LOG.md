@@ -700,4 +700,9 @@ Candidates found: 3
 Mixed earnings reactions: Block (XYZ) +8-10% on Q1 beat/guidance raise despite Piper Underweight; IBRX +9% weekly on Anktiva-NK trial tease post-earnings miss/FDA review; SOUN -11% AH on flat FY2026 guide despite Q1 beat. Broader risk-on with AI/tech records but geo/oil caution.
 
 Candidates found: 3
+## Two-Hour Research Agent - 2026-05-11 12:51:08 Eastern Daylight Time
+
+Bitcoin miners like CLSK show resilience amid risk-on tech rally (Nasdaq +4.5% records), with CLSK +1.57% at $14.20, bullish technicals, $16.20 analyst target, and $3.63B mkt cap; broader market two-way pull from AI optimism vs stagflation/oil risks.
+
+Candidates found: 2
 

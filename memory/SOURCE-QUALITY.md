@@ -8412,4 +8412,49 @@ SEC/company quality check:
 - **WS**: Cyclical steel + Sitem integration (June 2025) + commodity exposure = **MACRO SENSITIVE**
 
 **No trade recommendations issued. All filings reviewed for risk disclosure only.**
+## Source And Signal Research - 2026-05-11 12:51:08 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "SUI crypto token surges 14% on $3B volume after Peter Brandt flags 'major bottom'; 75% supply staked, $1T stablecoin transfers. Asia AI ETFs EWY (+239% 12mo), EWT (+96%) outperform on semis boom. BB eyes 9th gain day on buyback (26M shares), QNX/AI momentum to 52w high. SLS short interest 30.7% peak ahead Phase 3 AML data. CERT -4% pre on earnings miss/guidance cut. SATL +300% YTD soars premarket on Roth Buy/$10 PT. INTC rallies 112% MoM on Apple chip deal rumors.",
+  "social_buzz": "BB extremely bullish sentiment; SLS bearish with 50% msg volume spike; SATL neutral; RKLB, VFC, SQ, IBRX moderate chatter on catalysts.",
+  "attention_anomalies": "SUI: Veteran trader 'major bottom' call + volume explosion (risk: crypto pump language). SLS: 30.7% short interest 8yr high pre-Phase 3 data (high squeeze risk). BB: 9 straight gains to 52w high on buyback (momentum chase risk). CERT: -4% pre on guide cut despite inline rev.",
+  "source_urls": [
+    "https://stocktwits.com/news-articles/markets/cryptocurrency/veteran-trader-peter-brandt-flags-major-bottom-on-sui-token-surges/cZX9zUAReWq",
+    "https://stocktwits.com/news-articles/markets/equity/forget-spy-and-qqq-these-asia-linked-etfs-are-stealing-the-ai-mania/cZX9UayReWZ",
+    "https://stocktwits.com/news-articles/markets/equity/bb-stock-extends-rally-black-berry-eyes-ninth-straight-day-of-gains-on-buybacks-qnx-growth-and-ai-push-momentum/cZX9688ReWt",
+    "https://stocktwits.com/news-articles/markets/equity/sellas-sls-stock-aml-data-q1-results-short-interest-8-year-high/cZXadgHReh4",
+    "https://stocktwits.com/news-articles/markets/equity/satl-stock-soars-pre-market-extending-300-ytd-rally-analysts-further-upside/cZXabzaReWH"
+  ]
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No recent congressional disclosures found for liquid US stocks/ETFs.",
+  "congressional_signal": "none",
+  "tickers": [],
+  "source_urls": []
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "Direct Digital Holdings (DRCT) operates a programmatic advertising platform (Colossus SSP) with sell-side and buy-side services, emphasizing IVT mitigation, audience curation, and high client retention (90%). 2025 revenue $34.7M (down sharply from $157.1M in 2023 due to major sell-side customer pause from defamatory article), gross profit $10.4M, cash $0.7M, accumulated deficit $27.7M. Going concern doubt; credit covenants ($450K min cash); Nasdaq delisting risk; 73 employees. Other filings (SES, INUV, FATE, NEOV, TKLS, WS) show varied health but DRCT exhibits acute distress.",
+  "filing_risks": [
+    "Balance Sheet: Cash $0.7M insufficient for 12 months; accumulated deficit $27.7M; working capital strained; credit facilities with $450K min cash covenant and Dec 2026 maturity risk default/acceleration.",
+    "Concentration: 2025 sell-side had 174K buyers but revenue drop tied to one major customer pause (Q2 2024, reconnected May 22 but volumes below prior levels); buy-side 195 clients but high retention masks dependency.",
+    "Revenue Quality: Sharp declines 2024 ($62.3M) / 2025 ($34.7M) from 'coordinated misinformation campaign'; reorganization July 2024; strategic shift to buy-side/enterprise unproven.",
+    "Dilution: Potential equity/debt raises to fund operations; going concern note flags dilution risk from new securities with senior rights.",
+    "Capital Allocation: Toll processing mitigates inventory risk but growth relies on sales team expansion, acquisitions, infrastructure; past resilience (2022-2023 growth) eroded by 2024-2025 event.",
+    "Litigation/Other: Defamatory article triggered customer pause (believed misinformation); IVT/ad fraud detection critical but failure risks reputation; Nasdaq delisting if standards unmet; cookie/ID restrictions threaten platform.",
+    "Valuation: Substantial doubt on going concern hinders financing; high customer concentration/payment risks; operational issues (platform failures) could worsen metrics."
+  ],
+  "quality_notes": "DRCT shows deteriorating revenue/gross profit (2023: $157M/$37.6M → 2025: $34.7M/$10.4M) from single-event customer pause, not indicative of durable demand; 90% retention and IVT controls positive but overwhelmed by liquidity crisis ($0.7M cash vs. deficit); no litigation disclosed but 'defamatory article' implies reputational/legal overhang; employee count stable at 73 but reorganization signals cost cuts; toll processing aids resilience but buy-side shift unproven amid competition (Google/Meta dominance). Watch for financing execution/customer recovery; high execution risk. Other filings: INUV revenue concentration (64%+ from 2 customers), TKLS going concern/cash burn, SES/NEOV losses but cleaner balance sheets.",
+  "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/1880613/000141057826000016/drct-20251231.htm"
+  ]
+}
 
