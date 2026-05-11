@@ -7186,4 +7186,81 @@ SEC/company quality check:
   ]
 }
 ```
+## Source And Signal Research - 2026-05-11 01:56:48 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "Akamai (AKAM) dominates coverage with 42% weekly gain on $1.8B 7-year Anthropic cloud deal buzz, best week since 2013, record high, upgrades to $190 PT (avg $144), extremely bullish retail sentiment. Broader futures slip on Trump Iran tensions (oil >$100), memory stocks (MU +7%, MRAM +48%) rally on AI demand. BTC whales accumulate 140k+ amid CPI bets. Coinbase/Kraken lead crypto AI citations (22% share). GameStop eBay bid buzz with Cohen criticism. SMR sinks 96% revenue miss but retail bullish.",
+  "social_buzz": {
+    "AKAM": "extremely bullish since Thursday (Stocktwits)",
+    "EBAY": "bullish from extremely bullish (Stocktwits)",
+    "SMR": "retail remains bullish despite revenue miss"
+  },
+  "attention_anomalies": [
+    "AKAM: 42% weekly surge, best since 2013, record high on $1.8B AI deal (risk: unnamed customer initially, analyst avg PT 3% below close)",
+    "MRAM: +48% extended trading, best day since 2021 on AI memory hype (risk: pump language, thin catalyst)",
+    "MU: +7% overnight, 709% past 12mo on memory shortage (hype risk)"
+  ],
+  "source_urls": [
+    "https://stocktwits.com/news-articles/markets/equity/akamai-stock-posts-best-week-since-2013-on-buzz-of-1-8-b-anthropic-cloud-deal/cZX9Ab2ReWB",
+    "https://stocktwits.com/news-articles/markets/equity/dow-sp500-nasdaq-futures-slip-as-trump-calls-iran-peace-proposal-totally-unacceptable/cZX98chReWE",
+    "https://stocktwits.com/news-articles/markets/equity/coinbase-and-kraken-eating-the-crypto-ai-citation/cZXeUWIReWT",
+    "https://stocktwits.com/news-articles/markets/cryptocurrency/btc-whales-biggest-bet-hot-cpi-data/cZXeC83ReW2",
+    "https://stocktwits.com/news-articles/markets/equity/game-stop-s-e-bay-bid-ryan-cohen-slams-sliding-metrics-michael-burry-worries-more-about-debt-burden/cZX9Ym0ReWe",
+    "https://stocktwits.com/news-articles/markets/equity/smr-stock-sinks-on-huge-revenue-miss-but-heres-why-retail-is-still-bullish/cZX23FqReQy"
+  ]
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No recent congressional disclosures found for liquid US stocks/ETFs.",
+  "congressional_signal": "none",
+  "tickers": [],
+  "source_urls": []
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "SEC 10-K filings reveal four micro/small-cap companies (SES AI Corp, Direct Digital Holdings, Inuvo, NeoVolta) with severe business-quality risks including ongoing losses, going concern doubts, high customer concentration, supply chain vulnerabilities, and execution challenges in emerging markets (AI batteries, digital ads, clean energy). No durable demand evidence; all exhibit weak balance sheets, dilution risks, and revenue quality issues. Not suitable for watchlist.",
+  "filing_risks": {
+    "SES (SES AI Corp)": [
+      "Ongoing losses: $73M net loss 2025 (accum. deficit $372M); expects continued losses, needs substantial capital",
+      "Balance sheet: Cash sufficient 12 months but additional funding needed; dilution risk from equity/debt raises",
+      "Customer/supply: No long-term supply contracts; reliant on OEMs, contract mfrs; UZ Energy integration risks",
+      "Revenue quality: Emerging UAM/EV markets unproven; battery defects/recalls possible; warranty liabilities",
+      "Other: Competition from larger Li-ion players; manufacturing scale-up risks; NDAA compliance hurdles"
+    ],
+    "DRCT (Direct Digital Holdings)": [
+      "Going concern doubt: $0.7M cash, $28M accum. deficit; customer pause caused revenue drop to $35M 2025",
+      "Concentration: One sell-side customer pause impacted results; high client concentration risks",
+      "Balance sheet: Credit facilities with covenants ($450k min cash); debt maturity Dec 2026; Nasdaq delisting risk",
+      "Revenue quality: Ad fraud/IVT risks; seasonal; reliance on Colossus SSP platform performance",
+      "Dilution/capital: Needs additional financing; prior misinformation campaign hit volumes"
+    ],
+    "INUV (Inuvo)": [
+      "Losses/cash burn: $5.1M op loss 2025; $2.8M cash, $5.1M working capital deficit, $178M accum. deficit",
+      "Concentration: Two customers 83.5% revenue (64% +19%)",
+      "Revenue quality: Ad tech dependent on Yahoo/Google; seasonality; fraud/click risks",
+      "Capital allocation: Recurring losses funded by equity/debt; NYSE American listing risks",
+      "Other: Dependence on AI IntentKey; competition in fragmented ad market"
+    ],
+    "NEOV (NeoVolta, FY Jun 2025)": [
+      "Early-stage: Sales since 2019; startup risks in ESS market",
+      "Competition: Vs Tesla/Enphase/Sonnen; limited resources/brand",
+      "Supply chain: Relies on Asian/US suppliers; FEOC compliance needed",
+      "Revenue quality: Fragmented installer market; financing dependencies post-ITC phaseout",
+      "Regulatory: Evolving ESS standards; manufacturing scale-up in Poway CA"
+    ],
+    "TKLS (Trutankless), ICCT (iCoreConnect)": [
+      "TKLS: Going concern; $1M cash, $6M working cap deficit, $77M accum. deficit; $10M net loss 2024",
+      "ICCT: Limited history post-merger; SaaS competition; no major risks detailed in snippets"
+    ]
+  },
+  "quality_notes": "All exhibit classic microcap red flags: unprofitable (losses $5-100M), cash burn, going concern (DRCT/TKLS explicit), customer concentration >50-80% (SES/DRCT/INUV), supply/execution risks in nascent markets (UAM batteries, ad tech, ESS). No durable demand signals; revenue volatile/seasonal. Dilution via equity raises likely. Balance sheets weak (deficits, low cash). Avoid for watchlist - high failure probability vs memory candidates like DT/SCHD/MUX.",
+  "source_urls": []
+}
 

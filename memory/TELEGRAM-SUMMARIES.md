@@ -8782,4 +8782,28 @@ HF filter: sentiment=not run source=10/100 hype=0.10 vetoes=0
 Self-learning: tier=watch repeat48h=0 fresh=yes bucket=mega-cap-internet-cloud
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-11 01:56:48 Eastern Daylight Time
+
+Research Update
+
+Market tone: MRNA surges 12% on hantavirus vaccine research confirmation (preclinical stage, no trials yet); nuclear stocks resilient despite SMR miss amid AI energy buzz; Coinbase/Kraken lead crypto AI visibility but crypto excluded; pre-CPI caution with futures slipping on geopolitics.
+Candidates: 2
+
+1. MRNA (healthcare-biotech) | confidence 0.78 | allocation 7.0% | stop 6.0% | Chittick 74/100 | tier execution-ready | bucket healthcare-biotech | HF source 8/100
+Recommendation: execute-if-guards-pass
+Catalyst: Confirmed early-stage hantavirus research with USAMRIID and Korea Univ; shares +12% Friday, best day in 2+ months on Bloomberg report.
+Chittick Cash: Pipeline diversification beyond COVID; partnerships de-risk early R&D.
+HF filter: sentiment=not run source=8/100 hype=0.30 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=healthcare-biotech
+Social buzz, low weight: moderate attention on Stocktwits from Friday surge
+Congress signal, low weight: none
+
+2. SMR (alternatives-nuclear-energy) | confidence 0.65 | allocation 4.0% | stop 8.0% | Chittick 35/100 | tier watch | bucket energy-nuclear | HF source 7/100
+Recommendation: watch
+Catalyst: Q1 earnings miss ignored by retail; nuclear/AI trade resilient per Stocktwits.
+Chittick Cash: AI demand moat but near-term execution gaps.
+HF filter: sentiment=not run source=7/100 hype=0.40 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=energy-nuclear
+Social buzz, low weight: retail bullish despite miss
+Congress signal, low weight: none
 

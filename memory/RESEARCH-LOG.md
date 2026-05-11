@@ -643,4 +643,9 @@ Candidates found: 3
 US equities at record highs with tech/AI leaders driving gains amid strong Q1 earnings beats; rotation into value/dividends persists; Microsoft deep-dive highlights Azure acceleration and AI catalysts but notes OpenAI concentration and CapEx risks; no immediate execution triggers pre-market.
 
 Candidates found: 1
+## Two-Hour Research Agent - 2026-05-11 01:56:48 Eastern Daylight Time
+
+MRNA surges 12% on hantavirus vaccine research confirmation (preclinical stage, no trials yet); nuclear stocks resilient despite SMR miss amid AI energy buzz; Coinbase/Kraken lead crypto AI visibility but crypto excluded; pre-CPI caution with futures slipping on geopolitics.
+
+Candidates found: 2
 

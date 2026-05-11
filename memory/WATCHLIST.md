@@ -4,63 +4,119 @@
 {
   "candidates": [
     {
-      "adversary_case": "OpenAI RPO may not convert amid affordability questions; CapEx ROI uncertain if inference commoditizes; high valuation at 28-30x P/E assumes flawless execution.",
-      "allocation_learning_note": "Allocation-constrained if mega-cap >15%; pair with SCHD for balance.",
-      "balance_sheet_risk": "Low: $78B cash vs $125B debt (mostly leases), DSO 30-45 days, strong OCF $136B FY2025; GPU supply dependency noted.",
-      "bear_case": "OpenAI concentration (45% of $625B RPO) risks non-conversion or renegotiation; AI CapEx ($190B+ annual run-rate) compressing FCF from $74B to $71.6B; M365 seat compression from AI agents; ended OpenAI exclusivity.",
-      "capital_allocation_case": "Disciplined: AI CapEx peaking FY2026 with FCF rebound expected; OpenAI partnership (non-exclusive post-2026) and acquisitions balanced.",
-      "catalyst": "Azure revenue accelerating to ~40% in Q1 FY2026 per recent analysis; Q1 FY2026 revenue $77.7B (+18% YoY), commercial RPO $625B (up 110% YoY, 45% OpenAI); fresh deep investment analysis dated May 10, 2026 at ~$415/share.",
-      "catalyst_type": "filing/news",
-      "chittick_cash_score": 82.0,
+      "adversary_case": "Preclinical hype without trials; biotech volatility spikes in risk-off CPI week.",
+      "allocation_learning_note": "New sector entry; cap at 8% vs concentrated software/mining.",
+      "balance_sheet_risk": "Cash-rich post-COVID; low debt, dilution managed.",
+      "bear_case": "Preclinical only, no human trials started; early-stage biotech risk if trials delayed or fail; high valuation if hype fades pre-CPI.",
+      "capital_allocation_case": "Strategic partnerships over solo R&D; disciplined post-profitability.",
+      "catalyst": "Confirmed early-stage hantavirus research with USAMRIID and Korea Univ; shares +12% Friday, best day in 2+ months on Bloomberg report.",
+      "catalyst_type": "news",
+      "chittick_cash_score": 74.0,
       "chittick_reject_reason": "",
-      "concentration_case": "Deserves slot over broad ETFs due to superior Azure/AI moats vs SPMO/SCHD; diversify with existing SCHD/DT.",
-      "confidence": 0.82,
+      "concentration_case": "Fresh biotech catalyst diversifies from software/mining/ETFs in memory.",
+      "confidence": 0.78,
       "congressional_signal": "none",
-      "diversity_bucket": "mega-cap-internet-cloud",
-      "entry_plan": "Paper buy at open if holds above $410 with volume; target 8% allocation if no concentration breach.",
-      "exit_plan": "Take profits at $440-450 (6-8% gain); invalidate below $400 (recent support) or on OpenAI default news.",
+      "diversity_bucket": "healthcare-biotech",
+      "entry_plan": "Enter 5-8% allocation on open if holds Friday close above key support; defined risk below Friday low.",
+      "exit_plan": "Take profits at +10-15% or prior resistance; invalidate below Friday low or no volume follow-through.",
       "fresh_catalyst": true,
-      "growth_runway": "Azure 35-40% for 3+ quarters, Copilot ARPU uplift, Dynamics/LinkedIn 20%+; RPO conversion to 17-18% revenue growth FY2026.",
-      "hf_evidence_rank": 9.0,
+      "growth_runway": "Hantavirus + broader infectious disease pipeline; mRNA Access Program expands access.",
+      "hf_evidence_rank": 8.0,
       "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.1,
+      "hf_hype_risk": 0.3,
       "hf_memory_similarity": 0.0,
-      "hf_model_notes": "Fresh May 10 analysis; no repeat decay as MSFT absent from recent memory.",
+      "hf_model_notes": "Fresh catalyst, no repeat decay; quality biotech fits owner lens.",
       "hf_sentiment_agreement": 0.0,
       "hf_sentiment_label": "",
       "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 9.5,
+      "hf_source_quality_score": 8.5,
       "horizon_days": 7,
-      "margin_of_safety_case": "Low net debt (-$47B), declining leverage, high ROE >30%; quality moats buffer cyclicality; base case $600-660 intrinsic vs $415 price.",
-      "market_regime": "Risk-on favors mega-cap tech leaders like MSFT; rotation to value provides diversification but MSFT's growth profile resilient.",
-      "momentum_case": "Stock ~$415 aligns with record market highs; Azure/Copilot momentum supports continued relative strength in risk-on tech rotation.",
-      "owner_hold_case": "Azure re-acceleration to 45%+, Copilot scales to offset seat risks, CapEx normalizes with FCF >25% margins by FY2027; review on Q2 FY2026 earnings.",
-      "quality_case": "High ROE ~34%, gross margins 68-69%, OCF/NI >130%; deep Fortune 500 penetration, switching costs across Entra/M365/Azure; Deloitte unqualified audit; high-quality earnings with low leverage (D/E 0.30x).",
-      "recommendation": "watch",
+      "margin_of_safety_case": "Pipeline diversification beyond COVID; partnerships de-risk early R&D.",
+      "market_regime": "Risk-off CPI/geopolitics could pressure biotech; defensive if vaccine narrative holds as quality growth.",
+      "momentum_case": "+12% Friday close, best in 2+ months; +123% past year on pipeline momentum.",
+      "owner_hold_case": "First hantavirus approval + mRNA expansion into new viruses over 30-180 days.",
+      "quality_case": "Proven mRNA tech (COVID vaccine success); partnerships with top institutions; +123% stock gain past 12mo reflects durable platform value.",
+      "recommendation": "execute-if-guards-pass",
       "repeat_count_48h": 0,
-      "research_tier": "watch",
-      "risk_reward": "Defined 6-8% upside to base case $440 vs 4-6% downside to support; favorable given moats and growth.",
-      "sector": "information-technology-software-cloud",
+      "research_tier": "execution-ready",
+      "risk_reward": "3:1 potential (12% catalyst move with 4-5% stop); tight risk on defined support.",
+      "sector": "healthcare-biotech",
       "signal_weights": {
         "congressional_signal": 0.0,
-        "social_buzz": 0.0
+        "social_buzz": 0.08
       },
-      "social_buzz": "none",
-      "source_quality": "High: Detailed SEC 10-K/10-Q/8-K analysis (FY2023-FY2026 Q3), earnings call quotes (e.g., Amy Hood on RPO/OpenAI), Macrotrends data; May 10, 2026 fresh timestamp.",
+      "social_buzz": "moderate attention on Stocktwits from Friday surge",
+      "source_quality": "Strong: Bloomberg-sourced Stocktwits with company confirmation and specific partnerships.",
       "source_urls": [
-        "https://capitalblueprint.substack.com/p/microsoft-corporation-nasdaq-msft"
+        "https://stocktwits.com/news-articles/markets/equity/mrna-stock-clocks-best-day-in-over-two-months-on-early-stage-hantavirus-vaccine-research/cZX2zB5Rego"
       ],
-      "stop_loss_percent": 8.0,
+      "stop_loss_percent": 6.0,
       "strategy_tags": [
         "chittick_cash"
       ],
-      "symbol": "MSFT",
-      "target_allocation_percent": 8.0,
-      "thesis": "Premier scaled platform/hybrid cloud leader with Azure (Intelligent Cloud) driving high-30s/40% growth, M365 seat-based SaaS, and diversified segments; blends quality moats (switching costs, network effects, scale) with AI catalysts for 30-180 day owner hold potential.",
-      "valuation_case": "28-30x normalized P/E on $22 FY2027 EPS attractive for 35-40% Azure growth and Copilot ARPU; above broad market but justified by quality/growth."
+      "symbol": "MRNA",
+      "target_allocation_percent": 7.0,
+      "thesis": "High-quality biotech with mRNA platform moat pursuing first-ever hantavirus vaccine amid no approved competitors globally; blends quality innovation with fresh catalyst momentum for 1-10 day swing.",
+      "valuation_case": "Attractive post-pullback if catalyst sustains; mRNA platform justifies premium vs biotech peers."
+    },
+    {
+      "adversary_case": "Earnings miss + risk-off CPI could trigger further derating.",
+      "allocation_learning_note": "",
+      "balance_sheet_risk": "Pre-revenue scaling risks.",
+      "bear_case": "Revenue miss signals execution risk; high valuation in risk-off regime.",
+      "capital_allocation_case": "Growth-focused but miss flags discipline.",
+      "catalyst": "Q1 earnings miss ignored by retail; nuclear/AI trade resilient per Stocktwits.",
+      "catalyst_type": "earnings",
+      "chittick_cash_score": 68.0,
+      "chittick_reject_reason": "Earnings miss weakens quality.",
+      "concentration_case": "Alternative to mining/energy in memory.",
+      "confidence": 0.65,
+      "congressional_signal": "none",
+      "diversity_bucket": "energy-nuclear",
+      "entry_plan": "Watch for rebound above post-earnings support; small 4% tranche.",
+      "exit_plan": "Profit at sector breakout; stop below recent low.",
+      "fresh_catalyst": true,
+      "growth_runway": "AI power crunch over 1-3 years.",
+      "hf_evidence_rank": 6.5,
+      "hf_filter_vetoes": [],
+      "hf_hype_risk": 0.4,
+      "hf_memory_similarity": 0.0,
+      "hf_model_notes": "Social-heavy; cap influence.",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "",
+      "hf_sentiment_score": 0.0,
+      "hf_source_quality_score": 7.0,
+      "horizon_days": 5,
+      "margin_of_safety_case": "AI demand moat but near-term execution gaps.",
+      "market_regime": "Neutral; AI narrative supports vs broad risk-off.",
+      "momentum_case": "Retail enthusiasm persists post-miss; nuclear sector strength.",
+      "owner_hold_case": "SMR deployment contracts materialize.",
+      "quality_case": "Long-term AI energy tailwind; small modular reactors position for growth.",
+      "recommendation": "watch",
+      "repeat_count_48h": 0,
+      "research_tier": "watch",
+      "risk_reward": "2:1 if retail holds; earnings fade risk.",
+      "sector": "alternatives-nuclear-energy",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.1
+      },
+      "social_buzz": "retail bullish despite miss",
+      "source_quality": "Moderate: Stocktwits retail sentiment; lacks official guidance.",
+      "source_urls": [
+        "https://stocktwits.com/news-articles/markets/equity/smr-oklo-nne-nuclear-stocks-ai-energy-retail-traders/cZX21jLReXr"
+      ],
+      "stop_loss_percent": 8.0,
+      "strategy_tags": [
+        "momentum"
+      ],
+      "symbol": "SMR",
+      "target_allocation_percent": 4.0,
+      "thesis": "Nuclear energy play tied to AI data center power demand; retail momentum overrides earnings miss for short-term swing.",
+      "valuation_case": "Stretched post-miss; wait for dip."
     }
   ],
-  "summary": "US equities at record highs with tech/AI leaders driving gains amid strong Q1 earnings beats; rotation into value/dividends persists; Microsoft deep-dive highlights Azure acceleration and AI catalysts but notes OpenAI concentration and CapEx risks; no immediate execution triggers pre-market."
+  "summary": "MRNA surges 12% on hantavirus vaccine research confirmation (preclinical stage, no trials yet); nuclear stocks resilient despite SMR miss amid AI energy buzz; Coinbase/Kraken lead crypto AI visibility but crypto excluded; pre-CPI caution with futures slipping on geopolitics."
 }
 -->
 
@@ -833,4 +889,11 @@
 | Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
 |---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
 | MSFT | information-technology-software-cloud | watch | mega-cap-internet-cloud | 0 | yes | 0.82 | 82 | 10 | 0 | 8.0% | 8.0% | watch | Azure revenue accelerating to ~40% in Q1 FY2026 per recent analysis; Q1 FY2026 revenue $77.7B (+18% YoY), commercial RPO $625B (up 110% YoY, 45% OpenAI); fresh  |
+
+## Latest Candidates - 2026-05-11 01:56:48 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| MRNA | healthcare-biotech | execution-ready | healthcare-biotech | 0 | yes | 0.78 | 74 | 8 | 0 | 7.0% | 6.0% | execute-if-guards-pass | Confirmed early-stage hantavirus research with USAMRIID and Korea Univ; shares +12% Friday, best day in 2+ months on Bloomberg report. |
+| SMR | alternatives-nuclear-energy | watch | energy-nuclear | 0 | yes | 0.65 | 68 | 7 | 0 | 4.0% | 8.0% | watch | Q1 earnings miss ignored by retail; nuclear/AI trade resilient per Stocktwits. |
 
