@@ -3490,4 +3490,27 @@ The market is at record highs with strong earnings momentum, but faces a **CRITI
   ]
 }
 ```
+## Market Regime Research - 2026-05-11 12:00:32 Eastern Daylight Time
+
+{
+  "summary": "US equities at record highs with S&P 500 up 16.2% in six straight weeks, driven by AI/tech megacaps amid resilient labor data (NFP +115k) and strong Q1 earnings (84% beats). Geopolitical risks from US-Iran tensions spike oil to $104-105/bbl, pressuring futures lower (-0.1-0.2%) and raising inflation fears ahead of CPI. VIX compressed to 15-16, but consumer sentiment at record lows (48.2) signals Main St-Wall St divergence. Fed holds at 3.50-3.75% with 4 dissents; yields dipped to 4.32% on dovish skew despite hawkish rhetoric on energy inflation.",
+  "market_regime": "risk-on with caution; narrow AI/tech-led rally at records, but futures dip on geo/oil risks; overbought signals (RSI, Bollinger) hint pullback",
+  "sector_rotation": "tech/AI/chipmakers leading (Nasdaq +22% since Apr); energy mixed buoyed by oil; financials/healthcare lagging (Dow +0.2%); concentration in megacaps (40% S&P not at pre-war highs)",
+  "risk_flags": [
+    "High geopolitical risk: US-Iran talks collapsed, Strait of Hormuz tensions, oil >$104",
+    "Inflation data Tuesday: core CPI exp 0.4% MoM, could spark hike talk if hot",
+    "Overbought technicals: S&P RSI overbought, upper Bollinger cross",
+    "Consumer sentiment record low 48.2 amid inflation/gas/tariffs",
+    "Fed hawkish tilt on energy shock; 4 FOMC dissents signal policy divide"
+  ],
+  "source_urls": [
+    "https://www.sofi.com/article/economy-markets/week-ahead-on-wall-street-gauging-the-wars-reach/",
+    "https://ts2.tech/en/stock-market-today-11-05-2026/",
+    "https://rdnewsnow.com/2026/05/11/market-watch-may-8-2026/",
+    "https://www.morningstar.com/news/marketwatch/2026051137/stocks-are-walking-a-tightrope-to-fresh-record-highs-as-a-handful-of-names-do-most-of-the-heavy-lifting",
+    "https://www.topstep.com/blog/weekly-market-kickoff/",
+    "https://www.nyse.com/index",
+    "https://www.ig.com/en/news-and-trade-ideas/weekly-market-navigator-11-may-2026-260511"
+  ]
+}
 

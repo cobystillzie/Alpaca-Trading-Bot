@@ -9297,4 +9297,37 @@ HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=0
 Self-learning: tier=watch repeat48h=0 fresh=yes bucket=etf-international-value
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-11 12:00:32 Eastern Daylight Time
+
+Research Update
+
+Market tone: Mixed earnings reactions: Block (XYZ) +8-10% on Q1 beat/guidance raise despite Piper Underweight; IBRX +9% weekly on Anktiva-NK trial tease post-earnings miss/FDA review; SOUN -11% AH on flat FY2026 guide despite Q1 beat. Broader risk-on with AI/tech records but geo/oil caution.
+Candidates: 3
+
+1. SQ (financials-fintech) | confidence 0.80 | allocation 7.0% | stop 8.0% | Chittick 74/100 | tier execution-ready | bucket financials-fintech | HF source 9/100
+Recommendation: execute-if-guards-pass
+Catalyst: Q1 earnings beat + FY2026 guidance raised; +10% premarket trimmed to +8% open; GS $95/$86→$95 Buy, Citi $100/$85→$100 Buy, Keefe $90/$85→$90 Outperform (Piper $58/$51→$58 Underweight).
+Chittick Cash: PT hikes imply 20-25% upside; strong guide provides buffer vs. historical post-earnings fades.
+HF filter: sentiment=not run source=9/100 hype=0.20 vetoes=0
+Self-learning: tier=execution-ready repeat48h=1 fresh=yes bucket=financials-fintech
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. IBRX (healthcare-biotech) | confidence 0.72 | allocation 5.0% | stop 8.0% | Chittick 70/100 | tier watch | bucket healthcare-biotech | HF source 8/100
+Recommendation: watch
+Catalyst: Founder teases Phase 1 Anktiva-NK trial data (2 complete responses in old study); +9% weekly despite -7% earnings drop; FDA sBLA review ongoing.
+Chittick Cash: FDA review + NK data provide binary buffers; 311% 1Y gain limits downside.
+HF filter: sentiment=not run source=8/100 hype=0.40 vetoes=0
+Self-learning: tier=watch repeat48h=2 fresh=yes bucket=healthcare-biotech
+Social buzz, low weight: low-weight retail shift to trial hype post-earnings
+Congress signal, low weight: none
+
+3. SOUN (information-technology-software) | confidence 0.68 | allocation 5.0% | stop 8.0% | Chittick 68/100 | tier watch | bucket ai-software | HF source 8/100
+Recommendation: watch
+Catalyst: Q1 rev $44.2M +52% YoY beat ($42.6M exp), EPS beat; FY2026 guide $225-260M unchanged; -11% AH reaction.
+Chittick Cash: Analyst PTs + beat provide buffer post-AH dip.
+HF filter: sentiment=not run source=8/100 hype=0.30 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=ai-software
+Social buzz, low weight: none
+Congress signal, low weight: none
 

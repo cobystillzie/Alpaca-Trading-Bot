@@ -7815,4 +7815,601 @@ SEC/company quality check:
   "source_urls": []
 }
 ```
+## Source And Signal Research - 2026-05-11 12:00:32 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": {
+    "date": "2026-05-11",
+    "scan_focus": "Unusual social/web attention on liquid US stocks and ETFs",
+    "key_findings": [
+      "AI infrastructure supercycle driving semiconductor and memory chip rallies",
+      "Asia-linked ETFs (EWY, EWT) significantly outperforming US benchmarks on chip demand",
+      "Memory ETF (DRAM) +90% since April 2 launch; concentrated in MU, SK Hynix, Samsung",
+      "Crypto narrative decoupling from equities; SUI token supply shock from staking concentration",
+      "Earnings misses in non-AI sectors (UPWK, MCD, HUBS) receiving analyst downgrades",
+      "Semiconductor leaders (NVDA, MU, QCOM) hitting 52-week highs on infrastructure confidence"
+    ]
+  },
+  "social_buzz": {
+    "high_attention": [
+      {
+        "ticker": "DRAM",
+        "type": "ETF",
+        "buzz_level": "very_high",
+        "narrative": "AI memory supercycle; newly-launched Roundhill Memory ETF surged ~90% in 6 weeks",
+        "risk_flag": "Extreme momentum on new product; concentrated holdings (75% in MU, SK Hynix, Samsung); hype language ('hottest trade', 'obsession')"
+      },
+      {
+        "ticker": "EWY",
+        "type": "ETF",
+        "buzz_level": "high",
+        "narrative": "South Korea KOSPI record high +4% Monday; +239% past 12 months on AI chip exports",
+        "risk_flag": "Extrapolation risk; Goldman Sachs forecast (AI exports to 30% GDP) treated as certainty; massive YTD gains may reflect valuation expansion, not just fundamentals"
+      },
+      {
+        "ticker": "EWT",
+        "type": "ETF",
+        "buzz_level": "high",
+        "narrative": "Taiwan semiconductor boom; +96% past 12 months; 'historic stock market expansion'",
+        "risk_flag": "Similar extrapolation; no specific catalyst beyond AI demand narrative; valuation not discussed"
+      },
+      {
+        "ticker": "NVDA",
+        "type": "Stock",
+        "buzz_level": "high",
+        "narrative": "52-week high $217.80; $5.23T valuation; viewed as 'foundational AI infrastructure provider' not chipmaker",
+        "risk_flag": "Sentiment shift narrative; Vera Rubin platform expectations not yet revenue-generating; valuation at historic levels"
+      },
+      {
+        "ticker": "MU",
+        "type": "Stock",
+        "buzz_level": "high",
+        "narrative": "52-week high on memory chip demand; top DRAM ETF holding",
+        "risk_flag": "Beneficiary of DRAM ETF hype; supply/demand dynamics real but priced in"
+      },
+      {
+        "ticker": "SUI",
+        "type": "Cryptocurrency",
+        "buzz_level": "high",
+        "narrative": "Veteran trader Peter Brandt flags 'major bottom'; +$3B trading volume; 75% supply staked; supply shock narrative",
+        "risk_flag": "Crypto volatility; 'major bottom' call is subjective technical analysis; staking concentration is real but not unique; Grayscale/Canary/21Shares ETF launches cited as TradFi validation but minimal detail"
+      }
+    ],
+    "moderate_attention": [
+      {
+        "ticker": "QCOM",
+        "type": "Stock",
+        "buzz_level": "moderate",
+        "narrative": "52-week high on AI moving into phones/PCs, not just cloud",
+        "risk_flag": "Speculative edge computing narrative; no specific product or revenue catalyst cited"
+      },
+      {
+        "ticker": "IREN",
+        "type": "Stock",
+        "buzz_level": "moderate",
+        "narrative": "Bitcoin-miner-turned-data-center operator; Nvidia warrant investment up to $2.1B",
+        "risk_flag": "Stock down 2% premarket despite Nvidia tie-up; 'significant revenue shortfall and widening losses' overshadowed by partnership hype"
+      },
+      {
+        "ticker": "CRDO",
+        "type": "Stock",
+        "buzz_level": "moderate",
+        "narrative": "Retail sentiment jumped bearish→bullish on product launches; Nvidia CEO comments on copper use in server racks",
+        "risk_flag": "Retail sentiment swing is weak signal; Nvidia CEO comment on copper is tangential; no earnings or guidance catalyst"
+      }
+    ],
+    "negative_attention": [
+      {
+        "ticker": "UPWK",
+        "type": "Stock",
+        "buzz_level": "high_negative",
+        "narrative": "Q2 guidance miss; -17% close; multiple analyst price target cuts; 52-week low $7.44",
+        "context": "Fundamental deterioration, not hype"
+      },
+      {
+        "ticker": "MCD",
+        "type": "Stock",
+        "buzz_level": "high_negative",
+        "narrative": "Inflation concerns, competition; -3% close; 52-week low $274.83",
+        "context": "Macro headwinds, not hype"
+      },
+      {
+        "ticker": "HUBS",
+        "type": "Stock",
+        "buzz_level": "high_negative",
+        "narrative": "Q2 revenue outlook miss; -19% decline; 52-week low $180.50",
+        "context": "Guidance deterioration, not hype"
+      },
+      {
+        "ticker": "SMR",
+        "type": "Stock",
+        "buzz_level": "moderate_negative",
+        "narrative": "NuScale Power Q1 revenue $0.57M (96% miss YoY); retail still bullish despite miss",
+        "risk_flag": "Disconnect between fundamentals and retail sentiment; classic pump risk"
+      }
+    ]
+  },
+  "attention_anomalies": {
+    "hype_red_flags": [
+      {
+        "category": "Momentum-driven new products",
+        "example": "DRAM ETF +90% in 6 weeks; launched April 2",
+        "concern": "Extreme velocity on new vehicle; retail FOMO; concentration risk in 3 stocks; no fundamental catalyst beyond existing AI narrative"
+      },
+      {
+        "category": "Valuation extrapolation",
+        "example": "EWY +239% YTD; EWT +96% YTD; treated as 'historic expansion'",
+        "concern": "Goldman Sachs forecasts (AI exports to 30% GDP) cited as certainty; no discussion of current valuations or mean-reversion risk"
+      },
+      {
+        "category": "Sentiment shift narratives",
+        "example": "NVDA reframed as 'infrastructure provider' not chipmaker; Vera Rubin platform expectations",
+        "concern": "Narrative change often precedes valuation reset; platform not yet revenue-generating; $5.23T valuation at historic levels"
+      },
+      {
+        "category": "Crypto supply shock + TradFi validation",
+        "example": "SUI: 75% staked + Grayscale/Canary/21Shares ETF launches",
+        "concern": "Supply concentration is real but not unique; ETF launches cited as 'major TradFi validation' but minimal detail; Peter Brandt 'major bottom' call is subjective TA"
+      },
+      {
+        "category": "Retail sentiment disconnects",
+        "example": "SMR: 96% revenue miss but retail remains bullish; CRDO: bearish→bullish on product launches with no earnings catalyst",
+        "concern": "Classic pump/dump risk; weak fundamental support"
+      },
+      {
+        "category": "Tangential CEO comments as catalysts",
+        "example": "CRDO: Nvidia CEO comment on copper use in server racks",
+        "concern": "Weak causal link; no direct business impact; retail attention inflated by proximity to Nvidia"
+      }
+    ],
+    "weak_context_warnings": [
+      "Social buzz alone is never a trade reason; all flagged items require independent fundamental validation",
+      "Stocktwits/retail sentiment is lagging indicator; high chatter often coincides with local tops",
+      "New ETF launches (DRAM) attract retail FOMO; concentration in 3 holdings increases idiosyncratic risk",
+      "Asia ETF outperformance (EWY, EWT) is real but already priced in; forward guidance and valuation multiples not discussed",
+      "Crypto staking narratives (SUI) are structural but volatile; regulatory risk not addressed"
+    ]
+  },
+  "source_urls": [
+    "https://stocktwits.com/news-articles/markets/equity/dram-etf-is-new-ai-obsession-amid-memory-supercycle/cZX96wVReWu",
+    "https://stocktwits.com/news-articles/markets/cryptocurrency/veteran-trader-peter-brandt-flags-major-bottom-on-sui-token-surges/cZX9zUAReWq",
+    "https://stocktwits.com/news-articles/markets/equity/why-did-upwk-mcd-hubs-stocks-plunge-to-52-week-lows-last-week/cZX9AUXReWO",
+    "https://stocktwits.com/news-articles/markets/equity/forget-spy-and-qqq-these-asia-linked-etfs-are-stealing-the-ai-mania/cZX9UayReWZ",
+    "https://stocktwits.com/news-articles/markets/cryptocurrency/one-wall-street-veteran-ai-bitcoin-biggest-bull-market/cZXacUDReWU",
+    "https://stocktwits.com/news-articles/markets/equity/why-is-iren-stock-down-in-premarket-today/cZX96aMReWs",
+    "https://stocktwits.com/news-articles/markets/equity/crdo-shares-garner-retail-attention-amid-new-product-launches-nvidia-ceo-comments-on-copper-use/cZ3EWCZRIXA",
+    "https://stocktwits.com/news-articles/markets/equity/bw-stock-surging-earnings-bookings-quarter/cZXad9LRehE",
+    "https://stocktwits.com/news-articles/markets/cryptocurrency/bitcoin-carving-its-own-narrative-coinbase/cZX75UFReW5",
+    "https://stocktwits.com/news-articles/markets/equity/nvda-mu-qcom-stocks-hit-52-week-highs-last-week-what-is-behind-the-surge/cZX9AfGReW9",
+    "https://stocktwits.com/news-articles/markets/equity/smr-stock-sinks-on-huge-revenue-miss-but-heres-why-retail-is-still-bullish/cZX23FqReQy"
+  ]
+}
+```
+
+---
+
+### **Key Takeaways for Portfolio Management:**
+
+1. **AI infrastructure rally is real but priced in**: NVDA, MU, QCOM fundamentals support higher valuations, but current levels reflect consensus. Watch for guidance misses.
+
+2. **DRAM ETF is a hype vehicle**: +90% in 6 weeks on new product launch; concentration in 3 stocks; retail FOMO evident. Suitable only for tactical traders with strict stops.
+
+3. **Asia ETFs (EWY, EWT) are momentum plays**: +239% and +96% YTD are impressive, but Goldman Sachs forecasts are treated as certainties. Valuation multiples and mean-reversion risk not discussed.
+
+4. **Non-AI sectors under pressure**: UPWK, MCD, HUBS all hit 52-week lows on guidance misses. Earnings season will be bifurcated: AI winners vs. macro-sensitive losers.
+
+5. **Crypto supply narratives (SUI) are real but volatile**: Staking concentration is structural, but regulatory and macro risks remain. Grayscale/Canary/21Shares ETF launches are validation but not catalysts.
+
+6. **Retail sentiment disconnects (SMR, CRDO) signal pump risk**: Ignore social buzz; require independent fundamental validation before any allocation.
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No recent congressional disclosures found for liquid US stocks/ETFs.",
+  "congressional_signal": "none",
+  "tickers": [],
+  "source_urls": []
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": {
+    "filing_date": "2026-03-31",
+    "companies_analyzed": 7,
+    "high_risk_count": 5,
+    "medium_risk_count": 2,
+    "key_themes": [
+      "Going concern doubts (DRCT, SES)",
+      "Severe revenue concentration (INUV, DRCT)",
+      "Pre-revenue/clinical-stage burn (SES, FATE)",
+      "Customer concentration risk (INUV 64.2% + 19.3%)",
+      "Substantial accumulated deficits ($27.7M-$371.9M)",
+      "Execution risk on unproven platforms (INUV AI, SES battery tech)"
+    ]
+  },
+  "filing_risks": {
+    "DRCT": {
+      "ticker": "DRCT",
+      "company": "Direct Digital Holdings, Inc.",
+      "filing_date": "2026-03-31",
+      "risk_level": "CRITICAL",
+      "balance_sheet_risks": [
+        "Cash: $0.7M as of Dec 31, 2025; accumulated deficit $27.7M",
+        "Substantial doubt about going concern explicitly stated in 10-K",
+        "Credit facility matures Dec 3, 2026 with $450K minimum cash covenant",
+        "Net working capital severely constrained"
+      ],
+      "revenue_quality_risks": [
+        "2025 revenue $34.7M vs 2024 $62.3M (-44% YoY); 2023 $157.1M",
+        "Single sell-side customer pause in Q2 2024 caused 78% revenue collapse",
+        "Customer reconnected May 22, 2024 but volumes 'not yet at levels prior to pause'",
+        "Gross profit margin compressed: 2025 30% vs 2024 28% vs 2023 24%"
+      ],
+      "concentration_risks": [
+        "Approximately 174,000 buy-side users but only ~195 buy-side clients",
+        "High customer retention (90%) masks single-customer dependency vulnerability",
+        "One defamatory article/misinformation campaign triggered 78% revenue drop"
+      ],
+      "capital_allocation_risks": [
+        "Reorganization executed July 1, 2024 to reduce costs post-customer pause",
+        "No clear path to profitability disclosed; burn rate unsustainable",
+        "Debt facility renewal uncertain; lenders may impose restrictive covenants"
+      ],
+      "litigation_risks": [
+        "Defamatory article/blog post triggered customer pause; company claims 'coordinated misinformation campaign'",
+        "No resolution disclosed; reputational damage ongoing"
+      ],
+      "dilution_risks": [
+        "May require equity issuance to raise capital; current shareholders face dilution",
+        "Going concern doubt may force unfavorable financing terms"
+      ],
+      "key_quotes": [
+        "'There is substantial doubt about our ability to continue as a going concern'",
+        "'The decrease in revenue and gross profit in 2024 and 2025 compared to the prior years was primarily caused by one of the Company's sell-side customers pausing its connection'",
+        "'We do not believe that our cash and cash equivalents are sufficient for the next twelve months'"
+      ]
+    },
+    "SES": {
+      "ticker": "SES",
+      "company": "SES AI Corp",
+      "filing_date": "2026-03-04",
+      "risk_level": "CRITICAL",
+      "balance_sheet_risks": [
+        "Net losses: $73.0M (2025), $100.2M (2024)",
+        "Accumulated deficit: $371.9M as of Dec 31, 2025",
+        "No profitable operations or positive cash flows from inception",
+        "Expects to 'continue to incur operating and net losses for the foreseeable future'"
+      ],
+      "revenue_quality_risks": [
+        "Pre-revenue company; no commercial product sales disclosed",
+        "Business model depends on successful commercialization of Li-ion and Li-Metal batteries",
+        "UAM (Urban Air Mobility) market 'still emerging' with uncertain adoption",
+        "EV market adoption dependent on external factors beyond company control"
+      ],
+      "execution_risks": [
+        "Completed UZ Energy acquisition Sept 15, 2025; integration risks high",
+        "Loss of key UZ Energy personnel could materially harm business",
+        "Manufacturing scale-up from pilot to commercial production unproven",
+        "NDAA-compliant drone cell manufacturing capacity not yet achieved"
+      ],
+      "supply_chain_risks": [
+        "Limited volume demand; no long-term supply arrangements in place",
+        "Joint venture with Hisun (electrolyte manufacturer) announced Nov 2025; supply not yet operational",
+        "Tariffs, trade barriers, geopolitical conflicts (Russia-Ukraine, Middle East) threaten raw material access",
+        "Currency fluctuations and freight cost volatility"
+      ],
+      "capital_allocation_risks": [
+        "Substantial capital required for R&D, manufacturing facilities, and commercialization",
+        "Cash on hand and marketable securities sufficient for '12 months from date of Annual Report'",
+        "Additional funding may be required for M&A, development costs, Molecular Universe",
+        "Cannot guarantee capital available on attractive terms"
+      ],
+      "technology_risks": [
+        "iPSC and gene-editing technology unproven at commercial scale",
+        "Battery defects in design/manufacture could delay sales and harm brand",
+        "Competitors (Tesla, LG Chem, Panasonic) have greater resources and established relationships"
+      ],
+      "key_quotes": [
+        "'We expect to continue to incur losses for the foreseeable future'",
+        "'We will need substantial additional capital in the future to fund our business and may be unable to meet our future capital requirements'",
+        "'The UAM market is still emerging, and it is uncertain to what extent market acceptance of UAM will grow'"
+      ]
+    },
+    "INUV": {
+      "ticker": "INUV",
+      "company": "Inuvo, Inc.",
+      "filing_date": "2026-03-05",
+      "risk_level": "HIGH",
+      "balance_sheet_risks": [
+        "Accumulated deficit: $178.3M through Dec 31, 2025",
+        "Operating loss: $5.1M (2025) vs $5.8M (2024)",
+        "Cash: $2.8M as of Dec 31, 2025",
+        "Net working capital deficit: $5.1M",
+        "Recurring losses and cash outflows from operations"
+      ],
+      "revenue_quality_risks": [
+        "Revenue growth only 2.9% YoY (2025 vs 2024)",
+        "Gross profit margin declined 10.1% to 74.5% in 2025",
+        "Two customers represent 83.5% of 2025 revenue (64.2% + 19.3%)",
+        "In 2024, same two customers were 82% of revenue (75.0% + 7.0%)"
+      ],
+      "concentration_risks": [
+        "Extreme customer concentration: top 2 customers = 83.5% of revenue",
+        "Loss of either major customer would cause 'significant decline in revenue'",
+        "Revenue dependent on factors outside company control: customer ad budgets, pricing, inventory depth",
+        "Historically replaced lost clients, but no guarantee of replacement"
+      ],
+      "technology_risks": [
+        "IntentKey AI technology unproven at scale; competitive moat unclear",
+        "18 issued patents + 3 pending; business not 'significantly dependent on any single patent'",
+        "Competitors include DSPs, data suppliers, measurement/attribution companies with greater resources",
+        "Ability to maintain competitive edge depends on continuous innovation"
+      ],
+      "capital_allocation_risks": [
+        "Credit facility dependent on receivables; negative cash flows introduce operational risk",
+        "Funded through equity offerings and debt facilities historically",
+        "Internal software development costs are fixed nature; limited scalability"
+      ],
+      "key_quotes": [
+        "'We have a history of losses. We cannot anticipate with any degree of certainty what our revenues will be in future periods'",
+        "'A significant portion of our revenue is derived from two customers... The loss of material customers or a material change in the revenue or gross profit they generate would have a material adverse impact on our business'"
+      ]
+    },
+    "FATE": {
+      "ticker": "FATE",
+      "company": "Fate Therapeutics Inc.",
+      "filing_date": "2026-02-26",
+      "risk_level": "HIGH",
+      "balance_sheet_risks": [
+        "Clinical-stage biopharmaceutical company; no approved products",
+        "Limited operating history; significant losses anticipated 'for the foreseeable future'",
+        "Smaller reporting company; non-accelerated filer status",
+        "Market cap ~$113M as of June 30, 2025"
+      ],
+      "revenue_quality_risks": [
+        "Pre-revenue company; no product sales",
+        "Business model depends on successful clinical development and FDA approval",
+        "iPSC-derived cell therapy platform unproven in humans at scale",
+        "Multiple product candidates in preclinical/early clinical development"
+      ],
+      "execution_risks": [
+        "Clinical trial recruitment, enrollment, and manufacturing challenges disclosed",
+        "Regulatory approval uncertain; FDA may disagree on study design, data interpretation, or comparability",
+        "Manufacturing at clinical scale unproven; no commercial-scale manufacturing experience",
+        "Depends on third-party suppliers (sole-source risk for equipment/components)"
+      ],
+      "capital_allocation_risks": [
+        "Substantial additional funding required for clinical development",
+        "May not secure adequate funding on acceptable terms or timely basis",
+        "Equity dilution likely if capital raised through stock issuance",
+        "Cost of debt could be higher than anticipated"
+      ],
+      "intellectual_property_risks": [
+        "Depends on iPSC technology and gene-editing technology",
+        "May face challenges obtaining/maintaining necessary IP rights",
+        "Competitors may develop superior technologies or products"
+      ],
+      "partnership_risks": [
+        "Depends on strategic partnerships for development/commercialization",
+        "Unsuccessful partnerships or terminations could delay development",
+        "Limited experience marketing products; no sales force or distribution"
+      ],
+      "key_quotes": [
+        "'We have a limited operating history, have incurred significant losses since our inception, and anticipate that we will continue to incur significant losses for the foreseeable future'",
+        "'Development of our product candidates will require substantial additional funding, which, if available, may cause dilution to our stockholders'"
+      ]
+    },
+    "NEOV": {
+      "ticker": "NEOV",
+      "company": "NeoVolta Inc.",
+      "filing_date": "2025-09-29",
+      "risk_level": "MEDIUM-HIGH",
+      "balance_sheet_risks": [
+        "Emerging growth company; smaller reporting company status",
+        "Limited operating history; sales commenced July 2019",
+        "Early-stage manufacturing transition (in-house production since June 2023)",
+        "Market cap ~$147.9M as of last business day of Q2 FY2025"
+      ],
+      "revenue_quality_risks": [
+        "Early-stage revenue; product portfolio recently expanded (NVPlus, NV7600, C&I BESS, NV16)",
+        "Market adoption dependent on federal incentives (ITC phase-out by Dec 31, 2025)",
+        "Residential retrofit market nascent; adoption rates uncertain",
+        "Commercial/industrial segment new and unproven"
+      ],
+      "execution_risks": [
+        "Manufacturing transition to in-house production in June 2023; quality/efficiency unproven at scale",
+        "New CEO (Ardes Johnson) appointed April 2024; strategy refresh underway",
+        "Product development pipeline aggressive (C&I BESS, NV16 inverter announced post-fiscal year)",
+        "Distributor channel expansion strategy new; execution risk high"
+      ],
+      "competitive_risks": [
+        "Competitors include Tesla, LG Chem, Sonnen, Enphase, SunPower, SMA America",
+        "Many competitors have significantly greater financial resources, manufacturing capacity, brand recognition",
+        "Larger competitors can pursue aggressive pricing and faster product refresh cycles",
+        "New entrants expected as market expands"
+      ],
+      "supply_chain_risks": [
+        "Critical components sourced from US and Asia",
+        "Buffer stocks maintained but tariff/disruption risks remain",
+        "FEOC (Foreign Entity of Concern) compliance requirements increasing",
+        "Domestic content expansion underway but not yet complete"
+      ],
+      "capital_allocation_risks": [
+        "Financing partnerships being developed to support adoption post-ITC phase-out",
+        "Strategic combinations (acquisitions/JVs) under evaluation",
+        "R&D investment ongoing for next-generation systems"
+      ],
+      "key_quotes": [
+        "'We are a relatively new company, with our sales having only commenced in July 2019, and we continue to have some of the risks associated with start-up ventures'",
+        "'Federal and state policy incentives continue to support adoption, including the ITC, though subject to phase-outs after 2025'"
+      ]
+    },
+    "WS": {
+      "ticker": "WS",
+      "company": "Worthington Steel, Inc.",
+      "filing_date": "2025-07-29",
+      "risk_level": "MEDIUM",
+      "balance_sheet_risks": [
+        "Large accelerated filer; established company (post-Separation Dec 1, 2023)",
+        "Market cap ~$1.5B as of Nov 29, 2024",
+        "Cyclical industry exposure; economic downturn risk material"
+      ],
+      "revenue_quality_risks": [
+        "Automotive industry = largest end market; EV transition creates both opportunity and risk",
+        "Top 3 customers = 33% of FY2025 net sales; customer concentration moderate",
+        "Processed steel pricing competitive; margin pressure from commodity cycles",
+        "Product mix shifts (EV vs. traditional automotive) could impact margins"
+      ],
+      "execution_risks": [
+        "Sitem Group acquisition (52% stake) completed June 3, 2025 (post-fiscal year end)",
+        "Integration of Sitem (Italy, France, Slovakia, Switzerland operations) complex",
+        "Manufacturing footprint expanded to 28 facilities globally; operational complexity high",
+        "Separation from Worthington Enterprises (Dec 1, 2023) still integrating"
+      ],
+      "capital_allocation_risks": [
+        "Sitem acquisition requires capital deployment; synergy realization uncertain",
+        "Transformation initiatives ongoing; cost savings realization timing uncertain",
+        "Capacity alignment with demand critical; over/under-capacity risks"
+      ],
+      "competitive_risks": [
+        "Fragmented, highly competitive industry",
+        "Competition primarily on price, quality, delivery",
+        "Import pressure and substitute materials threaten market share",
+        "Larger competitors may have scale advantages"
+      ],
+      "macroeconomic_risks": [
+        "Cyclical steel industry; economic recession risk material",
+        "Tariffs, trade restrictions, trade wars could impact pricing/costs",
+        "Commodity price volatility (steel, energy, labor)",
+        "Geopolitical tensions (Russia-Ukraine, Middle East) affect supply chains"
+      ],
+      "key_quotes": [
+        "'The steel processing industry is fragmented and highly competitive'",
+        "'Processed steel products are priced competitively, primarily based on market factors, including... market pricing, the cost and availability of raw materials, transportation and shipping costs, and overall economic conditions'"
+      ]
+    },
+    "ICCT": {
+      "ticker": "ICCT",
+      "company": "iCoreConnect Inc.",
+      "filing_date": "2025-05-30",
+      "risk_level": "MEDIUM",
+      "balance_sheet_risks": [
+        "Emerging growth company; non-accelerated filer; smaller reporting company",
+        "Business Combination completed Aug 25, 2023 (FG Merger Corp → iCoreConnect)",
+        "Limited operating history post-merger",
+        "Market cap ~$85.2M as of June 30, 2023 (pre-merger valuation)"
+      ],
+      "revenue_quality_risks": [
+        "SaaS model with annual recurring revenue subscriptions",
+        "Sold MSP/MSaaS assets Oct 1, 2024; business model shift underway",
+        "Customer concentration not significant (no customer >10% of revenue)",
+        "Accounts receivable concentration: 1 customer = 26% of AR (Dec 31, 2024)"
+      ],
+      "execution_risks": [
+        "Multiple product lines (iCoreRx, iCorePDMP, iCoreEPCS, iCoreVerify, iCoreHuddle, iCoreCodeGenius, iCoreExchange, iCoreCloud, iCorePay, iCoreSecure, iCoreClaims)",
+        "Healthcare compliance (HIPAA) critical; regulatory risk material",
+        "Integration of acquired products/services ongoing",
+        "Sales/marketing expansion underway; execution risk on channel development"
+      ],
+      "competitive_risks": [
+        "Highly competitive healthcare IT market",
+        "Competitors include larger healthcare IT vendors with greater resources",
+        "No single competitor across full product range, but each line highly competitive",
+        "Competition based on price, technology, applications, experience, reputation, service"
+      ],
+      "intellectual_property_risks": [
+        "No patents or trademarks currently owned",
+        "Relies on trade secrets, NDAs, and contractual rights",
+        "IP protection limited; vulnerability to competitive copying"
+      ],
+      "regulatory_risks": [
+        "HIPAA compliance mandatory; regulatory changes could increase costs",
+        "Healthcare regulations evolving; compliance costs may increase",
+        "No direct government regulation currently, but Internet/healthcare laws evolving"
+      ],
+      "key_quotes": [
+        "'Our business is difficult to evaluate because we have a limited operating history'",
+        "'The Company experiences competition from a variety of sources with respect to virtually all of its products and services... each of the lines of business in which the Company is engaged is highly competitive'"
+      ]
+    }
+  },
+  "quality_notes": {
+    "durable_demand_evidence": {
+      "DRCT": "WEAK - Revenue collapse 78% YoY; single customer pause triggered crisis; no evidence of durable demand recovery",
+      "SES": "WEAK - Pre-revenue; UAM market 'still emerging'; EV adoption uncertain; no commercial traction",
+      "INUV": "WEAK - 2.9% revenue growth; 83.5% customer concentration; margin compression; no evidence of durable demand",
+      "FATE": "WEAK - Pre-revenue; clinical-stage; no approved products; regulatory approval uncertain",
+      "NEOV": "MODERATE - Early-stage but growing market (residential retrofit, C&I); federal incentives support but phase-out risk; distributor channel expansion underway",
+      "WS": "MODERATE - Established customer base (1,200 customers); automotive end-market stable but EV transition creates uncertainty; cyclical industry",
+      "ICCT": "MODERATE - SaaS recurring revenue model; healthcare compliance creates switching costs; but limited operating history post-merger"
+    },
+    "balance_sheet_quality": {
+      "DRCT": "CRITICAL - $0.7M cash, $27.7M accumulated deficit, going concern doubt, debt maturity Dec 2026",
+      "SES": "CRITICAL - $371.9M accumulated deficit, $73M annual burn, pre-revenue, 12-month cash runway",
+      "INUV": "POOR - $178.3M accumulated deficit, $5.1M operating loss, $2.8M cash, $5.1M working capital deficit",
+      "FATE": "POOR - Clinical-stage, no revenue, significant losses anticipated, limited cash runway",
+      "NEOV": "FAIR - Emerging growth company, early-stage but manufacturing in-house, product portfolio expanding",
+      "WS": "GOOD - Established company, $1.5B market cap, but cyclical industry and Sitem integration risks",
+      "ICCT": "FAIR - Post-merger integration ongoing, SaaS model provides recurring revenue, but limited operating history"
+    },
+    "valuation_risks": {
+      "DRCT": "EXTREME - Going concern doubt; valuation likely to zero if capital not raised; equity dilution certain",
+      "SES": "EXTREME - Pre-revenue; $371.9M accumulated deficit; valuation dependent on unproven commercialization",
+      "INUV": "HIGH - 83.5% customer concentration; 2.9% growth; margin compression; valuation multiple likely to compress",
+      "FATE": "HIGH - Clinical-stage; regulatory approval uncertain; valuation dependent on trial success",
+      "NEOV": "MODERATE - Early-stage but growing market; federal incentive phase-out creates valuation risk",
+      "WS": "MODERATE - Cyclical industry; Sitem integration uncertain; commodity price exposure",
+      "ICCT": "MODERATE - Post-merger integration; limited operating history; SaaS model supports valuation but execution risk"
+    },
+    "litigation_and_reputational_risks": {
+      "DRCT": "HIGH - Defamatory article/misinformation campaign triggered customer pause; reputational damage ongoing; no resolution disclosed",
+      "SES": "MEDIUM - UZ Energy integration risks; no current litigation disclosed",
+      "INUV": "LOW - No litigation disclosed",
+      "FATE": "MEDIUM - Clinical trial risks; regulatory approval uncertainty",
+      "NEOV": "LOW - No litigation disclosed",
+      "WS": "MEDIUM - Cyclical industry; environmental/regulatory compliance risks",
+      "ICCT": "LOW - Healthcare compliance risks; no litigation disclosed"
+    },
+    "dilution_risks": {
+      "DRCT": "EXTREME - Going concern doubt; equity issuance likely; current shareholders face severe dilution",
+      "SES": "EXTREME - Pre-revenue; substantial capital required; equity dilution likely",
+      "INUV": "HIGH - Negative cash flows; equity offerings likely; dilution risk material",
+      "FATE": "HIGH - Clinical-stage; substantial capital required; equity dilution likely",
+      "NEOV": "MODERATE - Early-stage; capital requirements for growth; dilution possible",
+      "WS": "LOW - Established company; debt financing likely for Sitem integration",
+      "ICCT": "MODERATE - Post-merger; capital requirements for growth; dilution possible"
+    }
+  },
+  "source_urls": [
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1880613&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1819142&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=829323&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1434316&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1748137&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1968487&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1906133&type=10-K&dateb=&owner=exclude&count=100"
+  ]
+}
+```
+
+---
+
+## **CRITICAL WATCHLIST ALERTS**
+
+### **AVOID / HIGH RISK:**
+- **DRCT**: Going concern doubt + 78% revenue collapse + $0.7M cash + debt maturity Dec 2026 = **DISTRESSED**
+- **SES**: $371.9M accumulated deficit + pre-revenue + $73M annual burn = **SPECULATIVE BIOTECH BURN**
+- **INUV**: 83.5% customer concentration (2 customers) + 2.9% growth + margin compression = **CONCENTRATION TRAP**
+- **FATE**: Clinical-stage + pre-revenue + regulatory approval uncertain = **BINARY OUTCOME**
+
+### **CAUTION / MODERATE RISK:**
+- **NEOV**: Early-stage but growing market; federal ITC phase-out Dec 31, 2025 = **INCENTIVE CLIFF RISK**
+- **ICCT**: Post-merger integration + limited operating history + healthcare compliance = **EXECUTION RISK**
+- **WS**: Cyclical steel + Sitem integration (June 2025) + commodity exposure = **MACRO SENSITIVE**
+
+**No trade recommendations issued. All filings reviewed for risk disclosure only.**
 

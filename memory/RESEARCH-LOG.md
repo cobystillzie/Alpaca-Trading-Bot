@@ -695,4 +695,9 @@ Candidates found: 3
 Narrow risk-on momentum persists with AI/tech leadership amid overbought signals; fresh catalysts in aerospace/software (RKLB/BB breakouts), value rotation (GMOI ETF), and mixed analyst views on high-flyers; healthcare/biotech and clean energy underrepresented.
 
 Candidates found: 3
+## Two-Hour Research Agent - 2026-05-11 12:00:32 Eastern Daylight Time
+
+Mixed earnings reactions: Block (XYZ) +8-10% on Q1 beat/guidance raise despite Piper Underweight; IBRX +9% weekly on Anktiva-NK trial tease post-earnings miss/FDA review; SOUN -11% AH on flat FY2026 guide despite Q1 beat. Broader risk-on with AI/tech records but geo/oil caution.
+
+Candidates found: 3
 
