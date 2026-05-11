@@ -7545,4 +7545,274 @@ SEC/company quality check:
   "quality_notes": "No durable demand evidence; revenue collapse from customer concentration event undermines stability. High execution risk in distressed ad tech (seasonal, competitive vs. Google/Meta/Pubmatic). Balance sheet fragility (low cash, debt covenants) and going concern flag preclude watchlist addition. IVT mitigation and 90% retention positive but insufficient vs. core risks.",
   "source_urls": ["https://www.sec.gov/Archives/edgar/data/1880613/000121390026036XXX/directdigital10k2025.htm"]
 }
+## Source And Signal Research - 2026-05-11 10:51:25 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": {
+    "scan_date": "2026-05-11",
+    "scan_time_utc": "14:50",
+    "total_signals_identified": 10,
+    "high_confidence_flags": 3,
+    "medium_confidence_flags": 4,
+    "low_confidence_flags": 3,
+    "key_themes": [
+      "AI semiconductor/memory supercycle (Asia-linked ETFs, DRAM, NVDA, MU, QCOM)",
+      "Biotech outbreak trade (MRNA, INO, NVAX, SABS on hantavirus)",
+      "Earnings misses/guidance cuts (UPWK, MCD, HUBS, CERT)",
+      "Crypto decoupling narrative (BTC/COIN)",
+      "Momentum/technical breakouts (RKLB, BB, VFC)"
+    ]
+  },
+  "social_buzz": {
+    "extremely_high_volume": [
+      {
+        "symbol": "MRNA",
+        "sentiment": "extremely bullish",
+        "message_volume": "extremely high",
+        "context": "Hantavirus outbreak trade; +12% premarket Friday; retail piling in on outbreak narrative",
+        "risk_flag": "HYPE — Public health risk remains low per CDC; virus does not spread like COVID-19; early-stage research only, no clinical trials mentioned"
+      },
+      {
+        "symbol": "INO",
+        "sentiment": "extremely bullish",
+        "message_volume": "extremely high",
+        "context": "+12% premarket on hantavirus DNA vaccine narrative; prior work on Andes strain",
+        "risk_flag": "HYPE — No confirmed clinical program; social buzz only; INO down 20% YoY despite hype"
+      },
+      {
+        "symbol": "EWY",
+        "sentiment": "bullish",
+        "message_volume": "high",
+        "context": "+239% past 12 months; AI mania narrative; KOSPI record high Monday",
+        "risk_flag": "VALUATION — Massive run-up already priced in; social commentary treats past performance as future guarantee"
+      },
+      {
+        "symbol": "EWT",
+        "sentiment": "bullish",
+        "message_volume": "high",
+        "context": "+96% past 12 months; Taiwan semiconductor/AI export narrative",
+        "risk_flag": "VALUATION — Historic expansion already reflected in price; social buzz weak on forward catalysts"
+      }
+    ],
+    "normal_to_high_volume": [
+      {
+        "symbol": "DRAM",
+        "sentiment": "bullish",
+        "message_volume": "high",
+        "context": "Newly-launched ETF +90% since April 2 debut; AI memory supercycle narrative",
+        "risk_flag": "CONCENTRATION — Top 3 holdings (MU, SK Hynix, Samsung) = 75% of fund; extreme concentration risk; new fund liquidity unproven"
+      },
+      {
+        "symbol": "NVDA",
+        "sentiment": "bullish",
+        "message_volume": "normal",
+        "context": "52-week high $217.80; Vera Rubin platform narrative; $5.23T valuation",
+        "risk_flag": "VALUATION — Already at 52-week high; social commentary treats infrastructure confidence as unlimited upside"
+      },
+      {
+        "symbol": "TSLA",
+        "sentiment": "bullish",
+        "message_volume": "normal",
+        "context": "Momentum narrative on Stocktwits; 100WMA support breakout",
+        "risk_flag": "HYPE — Cybertruck recall + China sales slump ignored by retail; technical chart-reading without fundamental support"
+      }
+    ],
+    "negative_sentiment": [
+      {
+        "symbol": "UPWK",
+        "sentiment": "bearish",
+        "message_volume": "high",
+        "context": "-17% Friday; Q2 guidance miss; multiple PT cuts; 52-week low $7.44",
+        "risk_flag": "EXECUTION — Legitimate earnings miss; not hype-driven"
+      },
+      {
+        "symbol": "MCD",
+        "sentiment": "bearish",
+        "message_volume": "high",
+        "context": "-3% Friday; inflation/labor cost concerns; competition pressure; 52-week low $274.83",
+        "risk_flag": "EXECUTION — Fundamental headwinds; not hype-driven"
+      },
+      {
+        "symbol": "HUBS",
+        "sentiment": "bearish",
+        "message_volume": "high",
+        "context": "-19% Friday; Q2 revenue outlook miss; 52-week low $180.50",
+        "risk_flag": "EXECUTION — Legitimate guidance cut; not hype-driven"
+      }
+    ]
+  },
+  "attention_anomalies": {
+    "suspected_pump_language": [
+      {
+        "asset": "MRNA / INO / NVAX / SABS",
+        "pump_indicators": [
+          "Outbreak-response trade framed as immediate opportunity despite zero clinical trials",
+          "Retail sentiment 'extremely bullish' on news that is 48 hours old",
+          "Public health risk explicitly downplayed ('low risk') yet social volume remains 'extremely high'",
+          "No mention of regulatory pathway or timeline; pure speculation"
+        ],
+        "confidence": 0.85,
+        "recommendation": "Treat as weak context only. Do not trade on outbreak narrative alone."
+      },
+      {
+        "asset": "EWY / EWT",
+        "pump_indicators": [
+          "Past 12-month returns (+239%, +96%) presented as forward catalyst",
+          "Social commentary: 'AI is transforming Taiwan and South Korea into a global economic power' — aspirational, not analytical",
+          "$4.6T market value added cited as proof of durability, not warning of bubble",
+          "No discussion of valuation multiples, earnings growth, or downside scenarios"
+        ],
+        "confidence": 0.78,
+        "recommendation": "Treat as weak context only. Valuation already reflects AI narrative."
+      },
+      {
+        "asset": "DRAM",
+        "pump_indicators": [
+          "New ETF +90% in 6 weeks; social framing as 'hottest AI play'",
+          "Concentration risk (75% in 3 stocks) not mentioned in social commentary",
+          "Memory supercycle narrative treated as guaranteed, not cyclical",
+          "No discussion of supply/demand elasticity or competitive dynamics"
+        ],
+        "confidence": 0.82,
+        "recommendation": "Treat as weak context only. New fund structure and concentration create structural risks."
+      }
+    ],
+    "unsupported_claims": [
+      {
+        "claim": "AI memory boom will continue indefinitely",
+        "source": "DRAM ETF social commentary",
+        "evidence_level": "zero",
+        "risk": "Cyclical industry treated as structural growth"
+      },
+      {
+        "claim": "Hantavirus outbreak will drive vaccine demand",
+        "source": "MRNA/INO social buzz",
+        "evidence_level": "zero",
+        "risk": "Single case on cruise ship; CDC confirms low public risk; no clinical trials announced"
+      },
+      {
+        "claim": "Taiwan/South Korea AI exports will sustain 30%+ GDP contribution",
+        "source": "EWY/EWT social commentary",
+        "evidence_level": "low",
+        "risk": "Goldman Sachs commentary cited but no link to earnings growth or valuation support"
+      }
+    ],
+    "valuation_red_flags": [
+      {
+        "asset": "EWY",
+        "flag": "+239% past 12 months; KOSPI at record high; social sentiment 'bullish' with no pullback discussion",
+        "implication": "Extreme run-up already priced in; downside risk from mean reversion not mentioned"
+      },
+      {
+        "asset": "NVDA",
+        "flag": "$5.23T valuation; 52-week high; social commentary treats Vera Rubin platform as guaranteed success",
+        "implication": "Valuation leaves little room for execution risk or competitive pressure"
+      },
+      {
+        "asset": "DRAM",
+        "flag": "+90% in 6 weeks; new fund with unproven liquidity; 75% concentration in 3 stocks",
+        "implication": "Structural risks (concentration, liquidity, fund age) not reflected in social sentiment"
+      }
+    ],
+    "momentum_vs_fundamentals": [
+      {
+        "symbol": "TSLA",
+        "momentum_signal": "100WMA breakout; clean trendline; 'momentum building'",
+        "fundamental_headwind": "Cybertruck recall; China sales slump; premium valuation vs. Mag7 peers",
+        "social_bias": "Technical chart-reading dominates; fundamentals ignored"
+      },
+      {
+        "symbol": "RKLB",
+        "momentum_signal": "+34.22% to 52-week high $105.47 Friday; volume spike",
+        "fundamental_support": "None mentioned in search results",
+        "social_bias": "Pure momentum narrative; no catalyst identified"
+      },
+      {
+        "symbol": "BB",
+        "momentum_signal": "9th straight gain day; 52-week high Friday; +1% premarket Monday",
+        "fundamental_support": "TSX-approved NCIB for 26M shares (4.58% float)",
+        "social_bias": "Buyback narrative treated as unlimited upside; no valuation discussion"
+      }
+    ]
+  },
+  "source_urls": [
+    "https://stocktwits.com/news-articles/markets/equity/forget-spy-and-qqq-these-asia-linked-etfs-are-stealing-the-ai-mania/cZX9UayReWZ",
+    "https://stocktwits.com/news-articles/markets/equity/dram-etf-is-new-ai-obsession-amid-memory-supercycle/cZX96wVReWu",
+    "https://stocktwits.com/news-articles/markets/equity/why-cert-stock-fell-today-certara-earnings-guidance-cut/cZXa2KARehb",
+    "https://stocktwits.com/news-articles/markets/equity/why-did-upwk-mcd-hubs-stocks-plunge-to-52-week-lows-last-week/cZX9AUXReWO",
+    "https://stocktwits.com/news-articles/cryptocurrency/veteran-trader-peter-brandt-flags-major-bottom-on-sui-token-surges/cZX9zUAReWq",
+    "https://stocktwits.com/news-articles/markets/equity/tesla-stock-slips-premarket-cybertruck-recall-china-sales-slump/cZX967NReWr",
+    "https://stocktwits.com/news-articles/markets/cryptocurrency/bitcoin-carving-its-own-narrative-coinbase/cZX75UFReW5",
+    "https://stocktwits.com/news-articles/markets/equity/mrna-ino-sabs-nvax-stocks-jump-on-hantavirus-outbreak-fears/cZX9zT7ReWn",
+    "https://stocktwits.com/news-articles/markets/equity/nvda-mu-qcom-stocks-hit-52-week-highs-last-week-what-is-behind-the-surge/cZX9AfGReW9",
+    "https://stocktwits.com/news-articles/markets/equity/bw-stock-surging-earnings-bookings-quarter/cZXad9LRehE"
+  ],
+  "final_assessment": {
+    "actionable_signals": 0,
+    "weak_context_only": 10,
+    "recommendation": "Social buzz is dominated by hype narratives (outbreak trade, AI mania, momentum breakouts) with minimal fundamental support. EWY, EWT, DRAM, MRNA, INO all show classic pump language: past performance as guarantee, aspirational claims, concentration/structural risks ignored. UPWK, MCD, HUBS show legitimate earnings misses (not hype). Do not trade on social sentiment alone. Require independent fundamental analysis, valuation support, and multi-source catalyst confirmation before execution."
+  }
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No recent congressional disclosures found for liquid US stocks/ETFs.",
+  "congressional_signal": "none",
+  "tickers": [],
+  "source_urls": []
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": "SES AI (SES) shows high execution risk in pre-revenue battery tech with $73M 2025 net loss, $372M accumulated deficit, and heavy reliance on unproven Li-Metal/UAM markets; ongoing losses expected with substantial future capital needs. DRCT faces existential going concern doubt, revenue collapse to $35M (78% YoY drop), 90% client retention masking customer pause risks. INUV reports $5M operating loss with 83% revenue concentration in 2 customers (Yahoo/Google). NEOV early-stage ESS manufacturer with limited scale (17 employees). ICCT post-merger SaaS with limited history. CRMZ stable niche SaaS but minimal TAM penetration. No durable demand signals; all exhibit balance sheet weakness, concentration risks.",
+  "filing_risks": {
+    "SES": [
+      "Ongoing losses: $73M net loss 2025, $372M accumulated deficit; expects continued losses 'foreseeable future'",
+      "Capital needs: 'Substantial additional capital' required; cash sufficient only 12 months",
+      "Customer concentration: Success depends on OEM conversions; no long-term supply arrangements",
+      "Integration risk: Recent UZ Energy acquisition may divert management, cause impairments",
+      "Emerging markets: UAM/drone demand uncertain; NDAA compliance challenges",
+      "Dilution risk: Future equity/debt issuances 'dilutive to stockholders'",
+      "Supply chain: No long-term contracts; raw material price volatility, geopolitical risks"
+    ],
+    "DRCT": [
+      "Going concern: 'Substantial doubt' ability to continue; $0.7M cash vs $28M accumulated deficit",
+      "Revenue collapse: 2025 revenue $35M (78% YoY decline) due to major sell-side customer pause",
+      "Debt covenants: Credit facilities restrict operations; default risk on $450K cash minimum",
+      "Customer concentration: Historical reliance on few large clients; 90% retention vulnerable",
+      "Delisting risk: Potential Nasdaq non-compliance",
+      "Dilution: Future equity issuances senior to common stock"
+    ],
+    "INUV": [
+      "Revenue concentration: 2 customers = 83% 2025 revenue (64%+19%)",
+      "Losses/cash burn: $5M operating loss 2025; $178M accumulated deficit, negative working capital",
+      "Dependence: Relies on Yahoo/Google contracts; ad supplier risks",
+      "Listing risk: Must meet NYSE American standards"
+    ],
+    "NEOV": [
+      "Early stage: Sales since 2019 only; startup risks",
+      "Competition: Vs Tesla/Enphase with limited resources",
+      "Supply chain: Relies on Asia/US suppliers; FEOC compliance needed",
+      "Regulatory: Complex ESS standards evolving"
+    ],
+    "ICCT": [
+      "Limited history: Post-merger 2023; difficult evaluation",
+      "No concentration but AR concentration: 26%/25% single customer 2024/2023",
+      "Competition: Crowded HIPAA SaaS market"
+    ],
+    "CRMZ": [
+      "Low growth: 1% TAM penetration; bankruptcy normalization uncertain",
+      "Data dependence: Contracts with NRSROs/LSE; contributor program risks"
+    ]
+  },
+  "quality_notes": "All companies exhibit weak balance sheets (losses/deficits), high customer/supplier concentration, and execution risks in competitive/emerging markets. No durable demand evidence - SES pre-commercialization, DRCT collapsing revenue with going concern warning, INUV 83% concentration. Revenue quality poor across board: SaaS subscriptions vulnerable to churn, battery/tech unproven. Capital allocation concerns: SES/DRCT need dilutive raises; INUV cash burn. No litigation flags but SES UZ integration, DRCT defamatory claims noted. Valuation risks elevated given losses vs speculative narratives (AI batteries, adtech). Chittick: No GOOGL/INTC/USAR/GT presence.",
+  "source_urls": []
+}
+```
 

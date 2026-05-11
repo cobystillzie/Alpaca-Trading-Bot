@@ -9264,4 +9264,37 @@ HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
 Self-learning: tier=watch repeat48h=0 fresh=yes bucket=consumer-discretionary
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-11 10:51:25 Eastern Daylight Time
+
+Research Update
+
+Market tone: Narrow risk-on momentum persists with AI/tech leadership amid overbought signals; fresh catalysts in aerospace/software (RKLB/BB breakouts), value rotation (GMOI ETF), and mixed analyst views on high-flyers; healthcare/biotech and clean energy underrepresented.
+Candidates: 3
+
+1. RKLB (industrials-aerospace) | confidence 0.75 | allocation 7.0% | stop 8.0% | Chittick 70/100 | tier execution-ready | bucket industrials-aerospace | HF source 8/100
+Recommendation: execute-if-guards-pass
+Catalyst: 34% surge to 52-week high $105.47 Friday on elevated volume; ainvest.com flags breakout momentum.
+Chittick Cash: Backlog provides downside buffer; insider sales noted but operational moat intact.
+HF filter: sentiment=not run source=8/100 hype=0.30 vetoes=0
+Self-learning: tier=execution-ready repeat48h=1 fresh=yes bucket=industrials-aerospace
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. BB (technology-software) | confidence 0.72 | allocation 6.0% | stop 8.0% | Chittick 72/100 | tier watch | bucket technology-software-auto | HF source 8/100
+Recommendation: watch
+Catalyst: 9th straight gain to 52-week high Friday; new TSX-approved NCIB for 26M shares (4.58% float) starting May 12.
+Chittick Cash: Buyback signals management confidence; cash generative IoT.
+HF filter: sentiment=not run source=8/100 hype=0.20 vetoes=0
+Self-learning: tier=watch repeat48h=1 fresh=yes bucket=technology-software-auto
+Social buzz, low weight: low-weight momentum chatter on Stocktwits
+Congress signal, low weight: none
+
+3. GMOI (etf-international-value) | confidence 0.74 | allocation 5.0% | stop 8.0% | Chittick 78/100 | tier watch | bucket etf-international-value | HF source 9/100
+Recommendation: watch
+Catalyst: 62.9% NAV rise since end-2024 to Apr 2026; GMO research flags 'act now' on international deep value.
+Chittick Cash: Deep value metrics + quality filter provide 20-30% discount to fair value.
+HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=etf-international-value
+Social buzz, low weight: none
+Congress signal, low weight: none
 

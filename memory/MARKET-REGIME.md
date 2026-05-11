@@ -3467,4 +3467,27 @@ The market is at record highs with strong earnings momentum, but faces a **CRITI
   ]
 }
 ```
+## Market Regime Research - 2026-05-11 10:51:25 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities at record highs with S&P 500 and Nasdaq on 6-week winning streaks driven by AI/tech earnings (AMD +26%, semis surge). Narrow rally: only 40% S&P constituents above pre-war levels, Dow lagging. Resilient labor (payrolls +115k beat, UE 4.3%). Hawkish Fed risks from Iran tensions/oil ($94+), no cuts until 2027 per BofA. CPI this week critical; technical overbought signals pullback risk.",
+  "market_regime": "risk_on_narrow_bull",
+  "sector_rotation": "tech_ai_dominated; semis (+5.5% SOX record), IT/comm services 77% S&P gains; financials/energy lag (Dow drag); gold/precious metals recovering ($4,700+); healthcare mixed (Zoetis -27%)",
+  "risk_flags": [
+    "geopolitical_iran_war (Fed hike risk, oil inflation)",
+    "overbought_technicals (S&P RSI, Bollinger upper band)",
+    "narrow_breadth (40% S&P above pre-war)",
+    "hawkish_fed (8-4 split, CPI MoM exp 0.4%, cuts delayed 2027)",
+    "upcoming_cpi_earnings_volatility"
+  ],
+  "source_urls": [
+    "https://www.ig.com/en/news-and-trade-ideas/weekly-market-navigator-11-may-2026-260511",
+    "https://economictimes.com/markets/us-stocks/news/pimco-cio-sees-risk-of-us-fed-hiking-rates-due-to-iran-war/articleshow/131001154.cms",
+    "https://www.youtube.com/watch?v=LwBrRfdytpk",
+    "https://www.tradingkey.com/analysis/stocks/us-stocks/261878587-nasdaq-sp500-sox-google-oracle-amazon-chip-ai-intel-amd-tradingkey",
+    "https://cryptobriefing.com/bofa-shifts-fed-rate-cut-forecast-to-mid-to-late-2027-amid-iran-conflict"
+  ]
+}
+```
 
