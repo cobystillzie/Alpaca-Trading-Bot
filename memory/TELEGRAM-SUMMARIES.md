@@ -8863,4 +8863,46 @@ HF filter: sentiment=not run source=8/100 hype=0.40 vetoes=0
 Self-learning: tier=watch repeat48h=0 fresh=yes bucket=healthcare-biotech
 Social buzz, low weight: low-weight attention on Anktiva trial vs FDA overhang
 Congress signal, low weight: none
+## Research Update - 2026-05-11 07:57:25 Eastern Daylight Time
+
+Research Update
+
+Market tone: Risk-on equities led by Asia semis (EWY +239%, EWT +96% past year on AI); IBRX +9% weekly on Anktiva trial despite Q1 loss; gold/silver rally but technical; Burry bubble warnings; CPI Tuesday key risk amid Iran tensions/oil spike.
+Candidates: 4
+
+1. IBRX (healthcare-biotech) | confidence 0.78 | allocation 6.0% | stop 8.0% | Chittick 72/100 | tier execution-ready | bucket healthcare-biotech | HF source 8/100
+Recommendation: execute-if-guards-pass
+Catalyst: New Anktiva-NK cell therapy study announced post-Q1 earnings; +9% weekly gain despite -7% Thursday drop; ongoing FDA sBLA review for Anktiva+BCG.
+Chittick Cash: Post-earnings dip + trial catalyst provides entry below recent highs; cash burn offset by milestones.
+HF filter: sentiment=not run source=8/100 hype=0.20 vetoes=0
+Self-learning: tier=execution-ready repeat48h=1 fresh=yes bucket=healthcare-biotech
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. EWY (etf-international-asia) | confidence 0.82 | allocation 7.0% | stop 8.0% | Chittick 70/100 | tier execution-ready | bucket etf-international-asia | HF source 9/100
+Recommendation: watch
+Catalyst: KOSPI record high +4% Monday; AI exports to 30% GDP (Goldman); +239% past 12mo.
+Chittick Cash: ETF diversification; momentum with macro tailwind.
+HF filter: sentiment=not run source=9/100 hype=0.10 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=etf-international-asia
+Social buzz, low weight: low-weight AI mania mention
+Congress signal, low weight: none
+
+3. EWT (etf-international-asia) | confidence 0.80 | allocation 6.0% | stop 8.0% | Chittick 71/100 | tier watch | bucket etf-international-asia | HF source 9/100
+Recommendation: watch
+Catalyst: Taiwan GDP to 10% 2026 (Goldman); AI exports >30% GDP; historic expansion.
+Chittick Cash: ETF structure; relative strength.
+HF filter: sentiment=not run source=9/100 hype=0.10 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=etf-international-asia
+Social buzz, low weight: low-weight
+Congress signal, low weight: none
+
+4. GDX (etf-materials-gold) | confidence 0.65 | allocation 4.0% | stop 8.0% | Chittick 35/100 | tier watch | bucket etf-materials-gold | HF source 8/100
+Recommendation: watch
+Catalyst: Precious metals rally (GLD +2%, SLV +4.85%); fund flows low but technical bounce.
+Chittick Cash: Gold backdrop.
+HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=etf-materials-gold
+Social buzz, low weight: none
+Congress signal, low weight: none
 

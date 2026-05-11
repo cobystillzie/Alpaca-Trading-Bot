@@ -3326,4 +3326,121 @@ The market is at record highs with strong earnings momentum, but faces a **CRITI
   ]
 }
 ```
+## Market Regime Research - 2026-05-11 07:57:25 Eastern Daylight Time
+
+```json
+{
+  "summary": {
+    "date_analyzed": "2026-05-11",
+    "overall_tone": "Risk-on with caution flags",
+    "key_narrative": "Strong earnings (S&P 500 +28.2% YoY Q1) and robust jobs data drive record highs in equities, particularly tech/semiconductors. However, geopolitical tension (Iran), rising long-term rates (30Y >5%), and imminent inflation data (Tuesday CPI) create macro headwinds. Market is pricing resilience but showing divergence between equities and bonds.",
+    "confidence_level": "Medium-High for trend; Medium for sustainability"
+  },
+  "market_regime": {
+    "index_trend": {
+      "S&P_500": "Record highs; +0.84% Friday close; futures -0.25% Sunday overnight",
+      "Nasdaq_Composite": "Record high 26,247.08 (+1.71% Friday); futures -0.16% Sunday overnight",
+      "Dow_Jones": "+0.03% Friday; futures -0.41% Sunday overnight",
+      "direction": "Uptrend intact but momentum cooling into week; geopolitical overhang"
+    },
+    "rates_and_fed": {
+      "10Y_Treasury": "Elevated; long-term inflation expectations anchored but bond yields rising post-Iran conflict",
+      "30Y_Treasury": "Crossed 5% threshold—historically precedes equity pullbacks per technical analysis",
+      "Fed_policy": "Chair Powell tenure ends May 15; 'Chair Wars' narrative suggests market expects rate-cut preference from successor; current rates near historic lows supporting equity valuations",
+      "inflation_expectations": "CPI due Tuesday expected +3.8% YoY (vs 3.3% prior)—'monster move' nearly 2x Fed target; PPI/retail sales data Thursday"
+    },
+    "volatility": {
+      "VIX_signal": "Not explicitly quoted but options markets pricing 17.74%–42.50% post-earnings moves across 10 small/mid-caps (NIQ leading at 42.50%)",
+      "regime_type": "Elevated but not panic; earnings-driven volatility dominates",
+      "geopolitical_vol": "Iran peace proposal rejection by Trump; Strait of Hormuz closure risk; oil >$100/bbl Brent"
+    },
+    "earnings_tone": {
+      "Q1_2026_results": "Exceptional: S&P 500 profits +28.2% YoY (strongest since Q4 2021); full-year 2026 estimate upgraded to +22.6%",
+      "earnings_beats": "Widespread; April jobs report 'much stronger than expected'",
+      "sector_leaders": "IT and Communication Services drove 77% of S&P 500 gains, 67% of earnings growth, 55% of real GDP growth",
+      "forward_guidance": "Strong but Q2 results critical per CICC; market shifting focus to 'order certainty and earnings delivery'"
+    }
+  },
+  "sector_rotation": {
+    "primary_drivers": {
+      "Technology": "Dominant; Nasdaq +1.71% Friday; Philadelphia Semiconductor Index +5.51% to record 11,775.5; +64.97% over past month",
+      "AI_and_semiconductors": "Parabolic extension (1995/2000 bubble comparisons); $1T hyperscaler capex projected by 2027; DRAM ETF +95.56% since April debut",
+      "mega_cap_tech_gainers": "MU +15.49%, INTC +13.96%, AMD +11.44%, QCOM +8.17%, TSLA +4.02% Friday"
+    },
+    "secondary_rotation": {
+      "Industrials": "JPMorgan notes sizable loan supply increase, LBO activity uptick; refinancing wall in 2026 supports M&A",
+      "Financials": "Fintech execution-ready (XYZ); earnings beats and guidance raises",
+      "Healthcare_Biotech": "MRNA execution-ready (+12% Friday on hantavirus research); IBRX watch (+9% weekly despite -7% Thursday)"
+    },
+    "defensive_positioning": {
+      "Dividend_value": "SCHD watch-allocation-constrained; post-Q1 2026 sector rotation into value/dividends confirmed by JPMorgan",
+      "Clean_energy": "ICLN watch; energy security crisis accelerating adoption (+47% 2025, +26% YTD Apr 2026)",
+      "Nuclear_energy": "SMR watch; nuclear/AI trade resilient despite Q1 earnings miss"
+    },
+    "rotation_signal": "Cautious: Tech dominance intact but divergence emerging; defensive/dividend flows noted; geopolitical risk may trigger rotation into value/energy"
+  },
+  "risk_flags": {
+    "macro_risks": [
+      "CPI inflation data Tuesday: expected +3.8% YoY vs 3.3% prior—'monster move' nearly 2x Fed target; could reignite rate-hike expectations",
+      "30-year Treasury yield >5%: historically precedes equity pullbacks; bond market divergence from equities widening",
+      "Iran geopolitical escalation: Trump rejected peace proposal; Strait of Hormuz closure risk; oil >$100/bbl; global energy supply tightness"
+    ],
+    "valuation_risks": [
+      "Nasdaq/Semiconductor parabolic extension: comparisons to 1995/2000 tech bubbles; Michael Burry warns of 1999–2000 style collapse",
+      "AI bubble concerns: CICC notes market not yet in 'typical AI bubble stage' but cautions on order certainty and earnings delivery in Q2",
+      "PE ratio expansion: strong earnings + low rates = higher multiples; sustainability dependent on earnings growth continuation"
+    ],
+    "policy_risks": [
+      "Fed Chair transition (May 15): Powell tenure ends; 'Chair Wars' narrative; market pricing rate-cut preference but uncertainty remains",
+      "Treasury deficit: $2T deficit this year; continued bond issuance may pressure long-term rates",
+      "Trump-Xi meeting: geopolitical/trade implications not yet priced"
+    ],
+    "earnings_risks": [
+      "Q2 2026 results critical: market shifting focus to 'order certainty and earnings delivery'; any miss could trigger rotation",
+      "Retail sales data Thursday: expected to show consumer slowdown; consumption weakness could pressure growth narrative",
+      "Margin compression: Denis Gorbunov notes unexpected project expenses; sector-specific risks emerging"
+    ],
+    "technical_risks": [
+      "Overnight futures weakness: Dow -0.41%, S&P 500 -0.25%, Nasdaq -0.16% Sunday overnight on Iran headlines",
+      "Earnings volatility: 10 stocks pricing 17.74%–42.50% post-earnings moves this week (NIQ 42.50%); execution risk high"
+    ]
+  },
+  "source_urls": [
+    "https://stocktwits.com/news-articles/markets/equity/dow-sp500-nasdaq-futures-slip-as-trump-calls-iran-peace-proposal-totally-unacceptable/cZX98chReWE",
+    "https://www.youtube.com/watch?v=FDsjKH5y110",
+    "https://www.benzinga.com/markets/tech/26/05/52437560/earnings-volatility-watch-may-11-14-2026-niqicl-doximity",
+    "https://www.sofi.com/article/economy-markets/week-ahead-on-wall-street-gauging-the-wars-reach/",
+    "https://www.youtube.com/watch?v=4Q39Jn1JLBA",
+    "https://www.tradingkey.com/analysis/stocks/us-stocks/261878587-nasdaq-sp500-sox-google-oracle-amazon-chip-ai-intel-amd-tradingkey",
+    "https://www.youtube.com/watch?v=ZxHUmyLL0s4",
+    "https://www.ig.com/uk/news-and-trade-ideas/_us-earnings-drive-stocks-to-record-highs-260511",
+    "https://adamtooze.substack.com/p/chartbook-447-the-us-economy-in-may",
+    "https://www.youtube.com/watch?v=EEvihIKjjHY"
+  ],
+  "paper_trading_guidance": {
+    "recommended_posture": "Cautious long with hedges; reduce concentration in mega-cap tech",
+    "key_watch_dates": [
+      "Tuesday, May 13: CPI inflation data (critical; expected +3.8% YoY)",
+      "Thursday, May 15: Retail sales data + Fed Chair Powell tenure ends",
+      "This week: 10 earnings reports with high implied volatility (NIQ 42.50%)"
+    ],
+    "allocation_bias": "Maintain overweight tech/semiconductors but trim single-stock concentration; rotate into dividend/value on any pullback; monitor energy (oil >$100) and nuclear (SMR) as geopolitical hedge",
+    "stop_loss_discipline": "Enforce 8% stops on execution-ready positions (MRNA, XYZ); watch-list positions 8% stops; consider tightening on any CPI surprise >4.0%"
+  }
+}
+```
+
+---
+
+### **Cautious Paper-Trading Workflow Summary**
+
+**Market Regime:** Risk-on with **medium caution flags**. Equities at record highs on exceptional earnings (+28.2% YoY) and strong jobs data, but **three critical headwinds** emerge:
+
+1. **Inflation surprise risk** (CPI Tuesday, expected +3.8% YoY—nearly 2x Fed target)
+2. **Bond divergence** (30Y Treasury >5%; historically precedes pullbacks)
+3. **Geopolitical overhang** (Iran escalation; Strait of Hormuz; oil >$100/bbl)
+
+**Sector Rotation:** Tech/semiconductors dominate (+64.97% past month) but showing parabolic extension (1995/2000 bubble comparisons). Defensive flows (SCHD, ICLN) and industrials (LBO activity) emerging as secondary rotation targets.
+
+**Execution Discipline:** Enforce 8% stops; trim mega-cap tech concentration; await CPI data before aggressive new longs; consider energy/nuclear as geopolitical hedge. Q2 earnings delivery is critical—any miss triggers rotation risk.
 

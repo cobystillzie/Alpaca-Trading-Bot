@@ -7440,4 +7440,59 @@ SEC/company quality check:
   "quality_notes": "No durable demand evidence; all show loss-making ops, funding needs, execution risks (clinical/manufacturing/supply). High balance-sheet fragility (going concerns, deficits, dilution), concentration (customers/suppliers), regulatory hurdles, competition. Revenue quality poor (declines, tolling dependency). Capital allocation strained by capex/R&D. Avoid watchlist adds: weak moats, macro-sensitive.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-11 07:57:25 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "Unusual social attention on AI/memory plays (DRAM ETF +90% since April launch, MU +7% overnight on shortage hype), biotech outbreak trade (MRNA +6%, INO +12%, SABS/NVAX +2% premarket on hantavirus fears - flag hype risk, early-stage/no trials), AKamai +42% week on $1.8B Anthropic deal rumor; SUI crypto rally on 'major bottom' call; futures slip on Iran tensions boosting oil/MU. Social buzz weak context only.",
+  "social_buzz": "Extremely high volume on MRNA/SABS/INO/NVAX (extremely bullish per Stocktwits); DRAM 'AI obsession'; MU/NVDA/QCOM 52w highs; AKamai best week since 2013. Flag outbreak stocks for pump language risk.",
+  "attention_anomalies": [
+    "DRAM: New ETF +90% since 4/2 debut, hottest AI memory trade amid supercycle shortage",
+    "MRNA/INO/SABS/NVAX: Premarket jumps on hantavirus outbreak (6 deaths confirmed, US case) - extremely high/bullish sentiment, hype risk on early research only",
+    "Akamai (AKAM): +42% week (best since 2013) on $1.8B 7yr Anthropic cloud deal buzz, record high",
+    "MU: +7% overnight, 709% past 12mo on memory shortage/AI demand",
+    "SUI: Top-10 crypto surge past $1.27, $3B vol, Peter Brandt 'major bottom'"
+  ],
+  "source_urls": [
+    "https://stocktwits.com/news-articles/markets/equity/dram-etf-is-new-ai-obsession-amid-memory-supercycle/cZX96wVReWu",
+    "https://stocktwits.com/news-articles/markets/cryptocurrency/veteran-trader-peter-brandt-flags-major-bottom-on-sui-token-surges/cZX9zUAReWq",
+    "https://stocktwits.com/news-articles/markets/equity/akamai-stock-posts-best-week-since-2013-on-buzz-of-1-8-b-anthropic-cloud-deal/cZX9Ab2ReWB",
+    "https://stocktwits.com/news-articles/markets/equity/dow-sp500-nasdaq-futures-slip-as-trump-calls-iran-peace-proposal-totally-unacceptable/cZX98chReWE",
+    "https://stocktwits.com/news-articles/markets/equity/mrna-ino-sabs-nvax-stocks-jump-on-hantavirus-outbreak-fears/cZX9zT7ReWn",
+    "https://stocktwits.com/news-articles/markets/cryptocurrency/bitcoin-carving-its-own-narrative-coinbase/cZX75UFReW5",
+    "https://stocktwits.com/news-articles/markets/equity/ibrx-stock-fda-delay-anktiva-progress-saudi-greece/cZX9uaVReWg",
+    "https://stocktwits.com/news-articles/markets/equity/nvda-mu-qcom-stocks-hit-52-week-highs-last-week-what-is-behind-the-surge/cZX9AfGReW9"
+  ]
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No recent congressional disclosures found for liquid US stocks/ETFs.",
+  "congressional_signal": "none",
+  "tickers": [],
+  "source_urls": []
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": "Direct Digital Holdings (DRCT) operates a programmatic advertising platform (Colossus SSP) with sell-side (174k buyers, 170B monthly impressions) and buy-side (195 clients, 90% retention) operations. 2025 revenue $34.7M (-44% YoY), gross profit $10.4M due to major sell-side customer pause from defamatory article/misinformation campaign (reconnected May 2024 but volumes below prior levels). Cash $0.7M, accumulated deficit $27.7M; substantial doubt about going concern. Executed July 2024 reorganization; 73 employees. Growth strategies: sales expansion, acquisitions, audience curation. Competes with Pubmatic/Magnite/Google (sell-side), Google/Meta/Amazon (buy-side). Risks dominate: customer concentration, liquidity crisis, Nasdaq delisting threat.",
+  "filing_risks": [
+    "Substantial doubt about going concern: cash $0.7M insufficient for 12 months; accumulated deficit $27.7M; dependent on cost management, sell-side volume recovery, additional funding (no assurances); potential dilution from equity/debt raises.",
+    "High customer concentration: 2024/2025 revenue/gross profit declines from one sell-side customer pause (defamatory article); reconnection May 2024 but volumes not recovered; exposes to customer-specific risks.",
+    "Balance sheet/liquidity: credit facilities with $450k min cash covenant, default risk; term debt matures Dec 2026; working capital strained post-reorganization.",
+    "Nasdaq delisting risk: failure to meet listing standards.",
+    "Revenue quality/dependence: sell-side dominant but volatile (seasonal, IVT/fraud risks); buy-side shift unproven; payment risks if clients dispute invoices.",
+    "Dilution/capital allocation: need additional financing likely dilutive; acquisitions/strategic investments risky (integration, distraction).",
+    "Operational risks: platform failures, ad fraud detection failure, cookie/ID restrictions; high customer concentration (top clients ~90% retention but volume-dependent).",
+    "No litigation mentioned but defamatory article/coordinated misinformation campaign noted (impacted results)."
+  ],
+  "quality_notes": "Declining revenue/gross profit (2025: $34.7M/-44% YoY, $10.4M GP) not reflective of 'underlying business model' per mgmt, but tied to unresolved customer pause; 90% retention claim undermined by volume loss. Durable demand questionable: ad tech cyclical/seasonal, IVT mitigation unquantified, no YoY impression/buyer growth data for 2025. Going concern + low cash + debt covenants = execution risk. Watchlist reject: liquidity crisis, concentration, no durable demand evidence vs memory leaders (SCHD/MUX/ICLN). Chittick: No GOOGL/GOOG/INTC/USAR/GT; ad platform but Google competes directly (sell-side/buy-side dominance flagged).",
+  "source_urls": []
+}
+```
 

@@ -658,4 +658,9 @@ Candidates found: 2
 Biotech momentum with MRNA +12% on hantavirus vaccine news; Block (XYZ) +8% post-Q1 beat and PT hikes; IBRX weekly gains despite earnings miss on Anktiva trial tease; risk-off futures amid Iran tensions weighing broader equities.
 
 Candidates found: 3
+## Two-Hour Research Agent - 2026-05-11 07:57:25 Eastern Daylight Time
+
+Risk-on equities led by Asia semis (EWY +239%, EWT +96% past year on AI); IBRX +9% weekly on Anktiva trial despite Q1 loss; gold/silver rally but technical; Burry bubble warnings; CPI Tuesday key risk amid Iran tensions/oil spike.
+
+Candidates found: 4
 
