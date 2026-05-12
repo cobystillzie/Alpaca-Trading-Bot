@@ -755,4 +755,13 @@ Candidates found: 4
 Search results highlight LNC (Lincoln National) Q1 earnings strength overlooked by market ($326M reality vs priced-in weakness), alongside Raiffeisen (RBI) monitoring and unrelated real estate site; no fresh catalysts for seed watchlist or recent candidates amid cautious macro with CPI focus.
 
 Candidates found: 3
+## Premarket Plan - 2026-05-12 08:25:03 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- LNC: score=80, base=95, chittick=70, approved=True, allocation=5.0%, stop=8.0%
+- RBI.VI: score=69, base=90, chittick=35, approved=False, allocation=0.0%, stop=8.0%
+  rejects: non-us-liquid; Confidence below 0.60.; Target allocation must be between 1% and 15%.
+- INTC: score=65, base=90, chittick=35, approved=False, allocation=4.0%, stop=8.0%
+  rejects: Low-weight social/congress signal needs at least two stronger sources.; repeat_decay
 

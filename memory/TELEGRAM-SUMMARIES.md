@@ -10551,4 +10551,129 @@ HF filter: sentiment=not run source=9/100 hype=0.20 vetoes=1
 Self-learning: tier=watch-allocation-constrained repeat48h=5 fresh=yes bucket=semiconductors-ai
 Social buzz, low weight: low-weight attention on upgrades
 Congress signal, low weight: none
+## Premarket Memo - 2026-05-12 08:25:03 Eastern Daylight Time
+
+Premarket Analyst Memo
+
+Recommendation: Execute only if guardrails pass; otherwise hold cash and wait for cleaner evidence.
+
+Market Regime
+Risk-off favors defensive financials with strong balance sheets over cyclicals.
+
+Top Candidates
+
+1. LNC (financials-insurance) | confidence 0.70 | allocation 5.0% | stop 8.0% | Chittick 70/100 | tier watch | bucket financials-insurance | HF source 8/100
+Thesis: Quality insurer with strong capital foundation executing on earnings trajectory; market mispricing Q1 strength as weakness.
+Catalyst: Q1 $326M earnings reality vs market-priced weakness per AInvest analysis.
+Entry: Enter on pullback to $28-30 if volume confirms; paper-trade 5% allocation max.
+Exit: Take profits at +10-15% or $34; invalidate below recent lows or if Q2 guidance disappoints.
+Risk/reward: 3:1 potential upside from mispricing vs 8% stop; defined risk on earnings follow-through.
+Bear/adversary: Single-source catalyst; insurance sector sensitive to rates/credit cycle downturn.
+Source quality: Reputable financial news (AInvest) directly citing earnings data; strong primary evidence.
+Chittick Cash Filter
+Score: 70/100
+Margin of safety: Strong capital foundation undervalued vs earnings quality.
+Valuation: Attractive if market reprices to earnings reality.
+Growth runway: Earnings trajectory with capital for expansion; 30-180 day quality execution.
+Balance-sheet risk: Capital foundation noted as supportive; monitor credit exposure.
+Capital allocation: Executing on quality earnings supports owner discipline.
+Concentration case: Financials diversification vs tech-heavy repeats like INTC/SQ.
+Owner thesis, 30-180 days: Sustained earnings beats and capital returns over 30-180 days.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: financials-insurance
+Research tier: watch
+Allocation learning: New sector diversification amid financials-fintech repeats.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 8/100
+Hype risk: 0.00
+Evidence rank: 7/100
+Memory similarity: 0.00
+Vetoes: none
+Model notes: none
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.ainvest.com/news/lnc-q1-market-missing-326m-earnings-reality-2605/
+
+2. RBI.VI (financials-banking) | confidence 0.45 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier stale-watch | bucket financials-european-bank | HF source 6/100 | HF veto
+Thesis: European bank with monitoring tools for valuation/dividends; potential quality play in risk-off.
+Catalyst: Aktien.guide real-time monitoring for KGV/EV/Sales/strategy scores.
+Entry: Watch for US ADR equivalent (RAIFY) breakout; no direct execution.
+Exit: N/A for non-US liquid.
+Risk/reward: Uncertain due to non-US listing; low priority.
+Bear/adversary: Non-US liquid stock; no ADR catalyst or liquidity for paper-trading.
+Source quality: German financial site with real-time data; moderate for US focus.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Valuation monitoring but unverified.
+Valuation: KGV/EV/Sales attractive if alarms trigger.
+Growth runway: European recovery potential.
+Balance-sheet risk: Banking sector cyclicality.
+Capital allocation: Dividend focus positive.
+Concentration case: Skip for US-listed alternatives like LNC.
+Owner thesis, 30-180 days: N/A
+Chittick reject reason: Non-US liquid; strategy stocks/ETFs only.
+Self-Learning Filter
+Catalyst type: general
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: financials-european-bank
+Research tier: stale-watch
+Allocation learning: none
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 6/100
+Hype risk: 0.00
+Evidence rank: 4/100
+Memory similarity: 0.00
+Vetoes: non-us-liquid
+Model notes: none
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://aktien.guide/aktien/Raiffeisen-AT0000606306
+
+3. INTC (information-technology-semiconductors) | confidence 0.75 | allocation 4.0% | stop 8.0% | Chittick 35/100 | tier watch-allocation-constrained | bucket semiconductors-ai | HF source 9/100 | HF veto
+Thesis: Semiconductor turnaround with analyst upgrades; Chittick seed priority but repeat decay applies.
+Catalyst: Tigress PT $118 (from $66), Freedom Buy $100; May 11 rip from $60s to $120+ on deals/earnings.
+Entry: Queue for dip to $110-115 if guards pass (VIX<20, breadth>60%).
+Exit: Profits at $130; stop at -8%.
+Risk/reward: 2:1 upside to PTs vs stop.
+Bear/adversary: High repeats (4); allocation caps from prior rejections.
+Source quality: Analyst upgrades from reputable firms; strong.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Undervalued vs AI growth potential.
+Valuation: PTs imply 20%+ upside.
+Growth runway: AI/foundry expansion 30-180 days.
+Balance-sheet risk: Low debt; cash rich.
+Capital allocation: Capex discipline.
+Concentration case: Allocation-constrained; prefer LNC diversification.
+Owner thesis, 30-180 days: AI contracts and earnings beats over 30-180 days.
+Chittick reject reason: Repeat decay; prior allocation rejections.
+Self-Learning Filter
+Catalyst type: news
+Fresh catalyst: yes
+Repeat count, 48h: 6
+Diversity bucket: semiconductors-ai
+Research tier: watch-allocation-constrained
+Allocation learning: Reduce to 4% tranche vs prior 8%.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 9/100
+Hype risk: 0.20
+Evidence rank: 9/100
+Memory similarity: 0.80
+Vetoes: repeat_decay
+Model notes: Fresh upgrades sustain but cap allocation.
+Social buzz, max 10%: low-weight attention on upgrades
+Congress signal, max 5%: none
+Sources: none
+
+Rejected / Watchouts
+- RBI.VI: non-us-liquid; Confidence below 0.60.; Target allocation must be between 1% and 15%.
+- INTC: Low-weight social/congress signal needs at least two stronger sources.; repeat_decay
 
