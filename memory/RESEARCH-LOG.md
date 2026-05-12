@@ -735,4 +735,9 @@ Candidates found: 4
 Direct Digital Holdings (DRCT) released Q1 2026 earnings on May 11 showing 18% revenue decline to $6.7M but improved gross margin (34% vs 29%), narrower net loss ($5.6M vs $5.9M), and better Adjusted EBITDA loss ($2.6M vs $3.0M). Stock closed flat at $4.03 on May 8 with extended +2.36% to $4.12; microcap adtech with severe balance sheet distress (cash $0.8M, $9.7M stockholders' deficit, $16.5M related-party debt). No momentum or fresh catalysts; reject due to going concern risks.
 
 Candidates found: 1
+## Two-Hour Research Agent - 2026-05-12 02:32:14 Eastern Daylight Time
+
+Markets at all-time highs on earnings strength but narrow breadth; Bitcoin >$80k on ETF inflows; small-caps (Russell 2000 +40% YoY) extending rally; AI catalysts for MSFT/GOOGL; Asia semis (EWY/EWT) outperform; quality rotation amid delayed rate cuts.
+
+Candidates found: 4
 

@@ -8865,4 +8865,97 @@ SEC/company quality check:
   "source_urls": ["https://www.sec.gov/Archives/edgar/data/1880613/000188061326000010/drct-20251231.htm"]
 }
 ```
+## Source And Signal Research - 2026-05-12 02:32:14 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": {
+    "scan_date": "2026-05-12T06:31:00Z",
+    "stocks_flagged": 3,
+    "etfs_flagged": 0,
+    "risk_level": "moderate",
+    "key_finding": "CEO insider buying and media M&A deal generate retail chatter; broad market bullish on earnings. No fundamental trade signals detected."
+  },
+  "social_buzz": {
+    "OPEN": {
+      "signal": "extremely_bullish_on_stocktwits",
+      "driver": "CEO Kaz Nejatian purchased 100,000 shares (~$483.5K) on Monday; second insider buy in 6 months ($1M in November). Overnight +2% premarket.",
+      "retail_sentiment": "elevated",
+      "risk_flag": "Insider buying alone is weak trade justification. Stock down 9% since Thursday report; CEO buying may reflect valuation opportunity or confidence signal, but does not override fundamental deterioration."
+    },
+    "BZFD": {
+      "signal": "extreme_hype_spike",
+      "driver": "Byron Allen's Allen Family Digital acquiring 52% stake for $120M ($3/share). Stock soared 120% after-hours Monday on deal announcement.",
+      "retail_sentiment": "frenzy",
+      "risk_flag": "CRITICAL HYPE ALERT. Stock down 61% YTD; deal-driven euphoria is temporary. Funding structure includes $100M promissory note at 5% due 5 years out—refinancing risk. Retail chatter jumped from 'low' to elevated on deal alone. No earnings or operational catalyst. Avoid."
+    },
+    "broad_market": {
+      "signal": "bullish_macro_backdrop",
+      "driver": "Ed Yardeni raises S&P 500 target to 8,250 by end-2026 on 'gangbusters' earnings and resilient economy. S&P 500 already +8% YTD; target implies +11% further upside.",
+      "retail_sentiment": "constructive",
+      "risk_flag": "Macro tailwind is context, not a trade reason. Earnings must be validated per stock. Yardeni's call is top-down; does not justify individual stock selection."
+    }
+  },
+  "attention_anomalies": {
+    "OPEN": {
+      "anomaly": "insider_buy_sentiment_divergence",
+      "description": "CEO buying $483.5K in stock while shares down 9% in 3 days suggests either contrarian conviction or distress signaling. Stocktwits sentiment flipped to 'extremely bullish' despite negative price action.",
+      "confidence": 0.55,
+      "recommendation": "Monitor fundamentals (earnings, guidance, cash burn). Insider buying is not a buy signal without operational improvement."
+    },
+    "BZFD": {
+      "anomaly": "deal_euphoria_overvaluation_risk",
+      "description": "120% after-hours spike on M&A announcement in a stock down 61% YTD. Retail chatter explosion is classic pump pattern. Deal closes end-May; post-close volatility likely.",
+      "confidence": 0.92,
+      "recommendation": "AVOID. Hype-driven move. No operational catalyst. Refinancing risk on $100M note. Wait for post-close stabilization and Q2 earnings."
+    },
+    "S&P_500_target": {
+      "anomaly": "top_down_macro_vs_bottom_up_selection",
+      "description": "Yardeni's bullish 2026 target is being cited as justification for retail chatter on individual stocks. This is backwards reasoning—macro tailwind does not validate individual stock risk.",
+      "confidence": 0.75,
+      "recommendation": "Ignore as trade signal. Use only as portfolio context. Require stock-level catalysts (earnings, guidance, analyst upgrades) before execution."
+    }
+  },
+  "source_urls": [
+    "https://stocktwits.com/news-articles/markets/equity/open-jumps-overnight-on-ceo-s-nearly-500-k-stock-buy-retail-eyes-more-gains-ahead/cZXQDqlReLc",
+    "https://stocktwits.com/news-articles/markets/equity/ed-yardeni-sp-500-target-2026-8250-q1-earnings-gangbusters/cZXa2MQRehT",
+    "https://stocktwits.com/news-articles/markets/equity/why-did-buzzfeed-stock-more-than-double-after-hours/cZXQDxuReL5"
+  ],
+  "trade_recommendation": "NONE. Social buzz is weak context only. OPEN: insider buying is neutral without operational catalyst. BZFD: deal-driven hype is high-risk; avoid. Macro backdrop (Yardeni) is not a stock-selection tool. Require earnings, guidance, or analyst upgrades with 2+ independent sources before execution."
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Single congressional trade disclosure: Sen. John Boozman (R) purchased $1,001-$15,000 DVN on Apr 9, 2026. Other results cover press releases on federal funding, legislation, and CWCO Q1 earnings (revenue -11%) with conference call today at 11am ET.",
+  "congressional_signal": "Sen. John Boozman (R) Purchase $1,001 - $15,000 DVN (Devon Energy) on Apr 09, 2026 (delayed disclosure; low-weight secondary context only)",
+  "tickers": ["DVN", "CWCO"],
+  "source_urls": [
+    "https://www.quiverquant.com/stock/DVN/",
+    "https://www.quiverquant.com/news/Consolidated+Water+Co.+Ltd.+Reports+First+Quarter+2026+Financial+Results+with+Revenue+Decline+and+Increased+Bulk+and+Services+Revenue"
+  ]
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": "DRCT (Direct Digital Holdings) operates a sell-side ad platform (Colossus SSP) with buy-side services; 2025 revenue $34.7M (-44% YoY) and gross profit $10.4M due to major sell-side customer pause from defamatory article/misinformation campaign; cash $0.7M, accumulated deficit $27.7M, substantial going concern doubt; 90% client retention but high concentration risks; Nasdaq delisting risk; credit covenants with $450k min cash; revenue quality impaired by customer dependency.",
+  "filing_risks": [
+    "Going Concern: Substantial doubt; cash $0.7M insufficient for 12 months; depends on cost cuts, sell-side volume recovery, additional funding (no assurances); accumulated deficit $27.7M.",
+    "Revenue Concentration: 2024-2025 revenue/gross profit collapse from one sell-side customer pause (Q2 2024); volumes not recovered; high client concentration exposes to fluctuations.",
+    "Balance Sheet: Credit facilities with min $450k cash covenant, operating restrictions; term debt matures Dec 2026; potential default/acceleration; dilution risk from new equity/debt.",
+    "Delisting Risk: May fail Nasdaq Capital Market standards.",
+    "Revenue Quality: 2025 revenue $34.7M (-78% from 2023 peak), gross profit $10.4M; attributed to isolated incident but reflective of dependency; strategic shift to buy-side unproven.",
+    "Litigation/Reputation: Customer pause from 'defamatory article/blog post' (coordinated misinformation); ongoing impact; ad fraud/IVT detection risks could harm reputation.",
+    "Capital Allocation: Reorganization July 2024; acquisitions risky (integration, dilution); high burn with 73 employees.",
+    "Dilution/Financing: Need additional capital; new securities may dilute shareholders; going concern may hinder terms.",
+    "No Durable Demand: Revenue decline despite platform claims (170B monthly impressions); client retention 90% but topline collapse shows fragility; seasonal ad fluctuations."
+  ],
+  "quality_notes": "Weak: Going concern warning, revenue collapse (-78% from 2023), customer concentration caused 2024-2025 downturn, low cash ($0.7M vs $450k covenant), Nasdaq delisting risk, unproven buy-side pivot; 174k sell-side buyers but topline fragility. No durable demand evidence; memory flags stale-watch microcap-adtech (avoid). Balance-sheet distress dominant.",
+  "source_urls": ["https://www.sec.gov/Archives/edgar/data/1880613/000141057826000016/drct-20251231.htm"]
+}
+```
 

@@ -10401,4 +10401,46 @@ HF filter: sentiment=negative source=9/100 hype=0.10 vetoes=0
 Self-learning: tier=stale-watch repeat48h=0 fresh=yes bucket=microcap-adtech
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-12 02:32:14 Eastern Daylight Time
+
+Research Update
+
+Market tone: Markets at all-time highs on earnings strength but narrow breadth; Bitcoin >$80k on ETF inflows; small-caps (Russell 2000 +40% YoY) extending rally; AI catalysts for MSFT/GOOGL; Asia semis (EWY/EWT) outperform; quality rotation amid delayed rate cuts.
+Candidates: 4
+
+1. MSFT (information-technology-software) | confidence 0.78 | allocation 8.0% | stop 8.0% | Chittick 78/100 | tier execution-ready | bucket mega-cap-cloud-ai | HF source 8/100
+Recommendation: execute-if-guards-pass
+Catalyst: Technical breakout above $426 with AI growth drivers highlighted in recent analysis; strong fundamentals and market momentum.
+Chittick Cash: Net cash + buybacks provide downside buffer; trades at reasonable multiple to AI growth runway.
+HF filter: sentiment=not run source=8/100 hype=0.20 vetoes=0
+Self-learning: tier=execution-ready repeat48h=1 fresh=yes bucket=mega-cap-cloud-ai
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. GOOGL (communication-services-internet) | confidence 0.80 | allocation 8.0% | stop 8.0% | Chittick 82/100 | tier watch | bucket mega-cap-internet-cloud | HF source 9/100
+Recommendation: watch
+Catalyst: Q1 rev $110B +22% YoY, op margin 36.1%, capex $35.7B AI infra; briefly topped NVDA valuation; TPU/Anthropic cloud backlog.
+Chittick Cash: Cash generative; $462B cloud backlog buffers AI spend.
+HF filter: sentiment=not run source=9/100 hype=0.10 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=mega-cap-internet-cloud
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. ASO (consumer-discretionary-retail) | confidence 0.72 | allocation 6.0% | stop 8.0% | Chittick 70/100 | tier watch | bucket small-cap-retail | HF source 8/100
+Recommendation: watch
+Catalyst: 35% 12mo gain from lows; tariff dip created entry; ties to small-cap rotation.
+Chittick Cash: Low P/E + dividend vs peers.
+HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=small-cap-retail
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+4. EWY (etf-international-equity) | confidence 0.70 | allocation 5.0% | stop 8.0% | Chittick 68/100 | tier watch | bucket etf-asia-semis | HF source 8/100
+Recommendation: watch
+Catalyst: KOSPI record high +4%; ETF +239% 12mo >> SPY 32%; semi surge.
+Chittick Cash: Broad ETF diversification.
+HF filter: sentiment=not run source=8/100 hype=0.30 vetoes=0
+Self-learning: tier=watch repeat48h=1 fresh=yes bucket=etf-asia-semis
+Social buzz, low weight: low-weight AI mania chatter
+Congress signal, low weight: none
 

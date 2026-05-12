@@ -3684,4 +3684,283 @@ The market is at record highs with strong earnings momentum, but faces a **CRITI
   ]
 }
 ```
+## Market Regime Research - 2026-05-12 02:32:14 Eastern Daylight Time
+
+```json
+{
+  "summary": {
+    "date": "2026-05-11",
+    "market_state": "Risk-on with structural headwinds; narrow leadership in equities; Fed policy pivot delayed to 2027",
+    "key_narrative": "Strong Q1 earnings (+28.2% YoY, 84% beat rate) driving S&P 500 to all-time highs near 7,384, but concentrated in 15 mega-cap tech/AI stocks. Inflation sticky (PCE 3.5–3.8%), energy shock from Iran conflict, and Fed dissents signal hawkish hold through 2026. Mortgage rates steady at 6.25%; bond yields rising (10Y at 4.43%). Geopolitical risk premium embedded; market decoupling from macro uncertainty.",
+    "trading_implication": "Cautious paper-trading posture: strong earnings support upside, but narrow breadth, elevated valuations, and delayed rate-cut timeline create drawdown risk. Monitor inflation data, energy prices, and Fed communication for repricing events."
+  },
+  "market_regime": {
+    "index_trend": {
+      "s_and_p_500": {
+        "level": 7384,
+        "status": "all-time high",
+        "weekly_change": "+3.0%",
+        "momentum": "strong breakout; blue-sky extension",
+        "technical_note": "Six consecutive weeks of gains; VWAP bullish on daily/weekly; VIX spike to 18.37 (+6.9% single-day) signals volatility compression risk"
+      },
+      "nasdaq": {
+        "status": "record high",
+        "weekly_change": "+0.41% (Tuesday open -0.41%)",
+        "note": "Tech-heavy; sharper declines on rate-sensitive names; 80%+ of S&P gains since early 2026 from AI-related stocks"
+      },
+      "dow_jones": {
+        "status": "near-flat to slightly positive",
+        "note": "Defensive resilience; industrial/consumer staples outperforming tech on risk-off tone"
+      },
+      "small_cap_iwm": {
+        "status": "watch; under-$10 momentum tied to AI small-cap breadth",
+        "note": "Narrow leadership risk: only 15 stocks account for 75%+ of S&P gains since March 30 low"
+      }
+    },
+    "fed_and_rates": {
+      "federal_funds_rate": "3.50–3.75% (held since December 2025)",
+      "fomc_decision_april_28_29": "Unanimous hold; 4 dissents (most since 1992); 1 vote for cut (Miran), 3 opposed to easing bias",
+      "rate_cut_expectations": {
+        "2026_probability": "~3% (down from 18% day-prior)",
+        "goldman_sachs_forecast": "First cut December 2026, second March 2027 (pushed back one quarter)",
+        "jpmorgan_forecast": "Hold through 2026; potential hike before any cut",
+        "market_repricing": "Traders now pricing virtually no moves in 2026"
+      },
+      "treasury_yields": {
+        "10_year": "4.43% (rising); 2-week low 4.32% post-FOMC",
+        "mortgage_30_year": "6.25% (steady; softened from early 2025 peaks)"
+      },
+      "inflation_backdrop": {
+        "pce_march_12m": "3.5% (highest since 2023)",
+        "pce_april_forecast": "~3.8%",
+        "fed_target": "2.0%",
+        "drivers": "Energy shock (Iran conflict), tariff uncertainty, sticky core inflation"
+      }
+    },
+    "volatility": {
+      "vix": {
+        "level": 18.37,
+        "single_day_change": "+6.9% (largest since Feb 15)",
+        "interpretation": "Compression risk after strong rally; elevated but not panic-level"
+      },
+      "oil_crude": {
+        "cl_may_2026": "$95.46 (−5.5% weekly)",
+        "driver": "OPEC+ fracture + Iran peace MOU progress deflating war premium",
+        "tactical_setup": "Mean-reversion setups emerging from highest-volatility week of 2026"
+      },
+      "volatility_regime": "Elevated but contained; geopolitical risk premium compressing; potential for sharp repricing on inflation data or Fed communication"
+    },
+    "earnings_tone": {
+      "q1_2026_results": {
+        "s_and_p_500_eps_growth": "+28.2% YoY (strongest since Q4 2021)",
+        "beat_rate": "84% of companies beat EPS (well above 5- and 10-year averages)",
+        "beat_magnitude": "Average +20.7% above consensus (strongest in decade)",
+        "sector_leaders": "Technology and healthcare led upside surprises; AI infrastructure spending driving largest beats"
+      },
+      "full_year_2026_guidance": {
+        "s_and_p_500_eps_forecast": "+22.6% (upgraded from prior weeks)",
+        "analyst_response": "Lifted full-year forecasts; strong median earnings growth across index"
+      },
+      "valuation_impact": {
+        "forward_pe": "Brought down from recent highs despite price appreciation",
+        "interpretation": "Earnings growth supporting valuations; but narrow breadth (15 stocks) raises concentration risk"
+      }
+    },
+    "sector_rotation": {
+      "leadership": {
+        "dominant": "Mega-cap technology, semiconductors, AI infrastructure (75%+ of gains)",
+        "secondary": "Healthcare (biotech, AI-driven life sciences)",
+        "lagging": "Industrials, aerospace (YSS -8% on Pentagon program loss)"
+      },
+      "breadth_concern": {
+        "narrow_leadership": "Only 15 stocks driving 75%+ of S&P 500 returns since March 30 low",
+        "implication": "Rotation risk if mega-cap tech consolidates; small-cap/value underperformance"
+      },
+      "sector_specific_catalysts": {
+        "financials_fintech": "SQ +8% on Q1 beat + FY2026 guidance raise; GS/Citi/Keefe upgrades",
+        "semiconductors_ai": "INTC +4.65% intraday on Tigress $118 PT, Freedom Buy $100",
+        "biotech": "IBRX +9% weekly on Phase 1 trial data; RXRX featured in AI small-cap forecast",
+        "software_ai": "SOUN -11% AH despite Q1 beat; unchanged FY2026 guidance triggers selloff"
+      }
+    },
+    "risk_on_off_assessment": {
+      "current_regime": "Risk-on (equities at all-time highs) with risk-off undertones (narrow breadth, VIX spike, bond yield rise)",
+      "decoupling_signal": "Equity markets shrugging off geopolitical anxiety (Iran conflict, tariff noise, FOMC uncertainty) but repricing embedded in rates/credit",
+      "divergence": "Tech-heavy Nasdaq sharper decline on Tuesday open (−0.41%) vs. defensive Dow (−0.01%) signals selective risk-off in growth",
+      "credit_headwinds": "Higher risk-free rates (10Y 4.43%) + diminished Fed backstop = rising credit spreads; quality/balance-sheet strength premium emerging"
+    }
+  },
+  "sector_rotation": {
+    "current_leadership": [
+      {
+        "sector": "Technology (Mega-cap, AI infrastructure)",
+        "status": "dominant",
+        "drivers": "Q1 earnings beats, AI spending acceleration, 80%+ of S&P gains since early 2026",
+        "risk": "Narrow concentration; valuation reset risk if growth slows"
+      },
+      {
+        "sector": "Semiconductors (AI-related)",
+        "status": "strong",
+        "drivers": "INTC +4.65% on analyst upgrades; AI chip demand",
+        "risk": "Tariff uncertainty; geopolitical supply-chain risk"
+      },
+      {
+        "sector": "Healthcare/Biotech",
+        "status": "secondary strength",
+        "drivers": "Q1 earnings beats; AI-driven life sciences (RXRX, IBRX)",
+        "risk": "FDA regulatory uncertainty; small-cap volatility"
+      },
+      {
+        "sector": "Financials/Fintech",
+        "status": "execution-ready",
+        "drivers": "SQ +8% on earnings + guidance; analyst upgrades",
+        "risk": "Rate-sensitive; credit spread widening"
+      }
+    ],
+    "lagging_sectors": [
+      {
+        "sector": "Industrials/Aerospace",
+        "status": "weak",
+        "drivers": "YSS -8% on Pentagon program loss (Wolfpack short)",
+        "risk": "Defense budget uncertainty; geopolitical exposure"
+      },
+      {
+        "sector": "Small-cap/Value",
+        "status": "underperforming",
+        "drivers": "Narrow mega-cap leadership; rate sensitivity",
+        "risk": "Breadth deterioration; potential rotation trigger"
+      }
+    ],
+    "rotation_trigger_watch": [
+      "Inflation data (CPI/PCE) showing core pressure spreading beyond energy",
+      "Fed communication signaling hawkish hold or hike risk",
+      "Earnings guidance misses or margin compression",
+      "Oil price stabilization (if crude stabilizes >$100, energy premium re-embeds)",
+      "Credit spread widening (HY OAS, IG OAS) signaling risk-off"
+    ]
+  },
+  "risk_flags": {
+    "macro_risks": [
+      {
+        "flag": "Sticky inflation above Fed target",
+        "severity": "high",
+        "detail": "PCE 3.5–3.8% vs. 2% target; energy shock + tariff uncertainty keeping core inflation elevated; Fed unlikely to cut through 2026",
+        "market_impact": "Bond yields rising (10Y 4.43%); mortgage rates sticky at 6.25%; credit spreads widening"
+      },
+      {
+        "flag": "Delayed Fed rate-cut timeline",
+        "severity": "high",
+        "detail": "Goldman Sachs: first cut December 2026; JPMorgan: hold through 2026 + potential hike; market repriced to ~3% probability of 2026 cut",
+        "market_impact": "Equity valuations at risk if earnings growth doesn't offset higher discount rates; small-cap/value underperformance"
+      },
+      {
+        "flag": "Geopolitical risk premium (Iran conflict, tariffs)",
+        "severity": "medium-high",
+        "detail": "Oil spiked to $112/bbl (Brent); OPEC+ fracture + Iran peace MOU deflating war premium; tariff debate adding policy uncertainty",
+        "market_impact": "Energy volatility; inflation persistence; potential for sharp repricing if escalation resumes"
+      },
+      {
+        "flag": "Narrow market breadth",
+        "severity": "high",
+        "detail": "Only 15 stocks driving 75%+ of S&P 500 gains since March 30; mega-cap tech concentration at extremes",
+        "market_impact": "Rotation risk; drawdown if mega-cap tech consolidates; small-cap/value underperformance unsustainable"
+      }
+    ],
+    "valuation_risks": [
+      {
+        "flag": "Forward P/E compression from earnings beats, not valuation expansion",
+        "severity": "medium",
+        "detail": "Strong Q1 earnings (+28.2% YoY) bringing down forward P/E, but 84% beat rate + 20.7% beat magnitude unsustainable",
+        "market_impact": "Earnings growth expectations now priced in; miss risk high; guidance cuts trigger sharp repricing"
+      },
+      {
+        "flag": "AI hype concentration in 15 mega-cap stocks",
+        "severity": "high",
+        "detail": "80%+ of S&P gains since early 2026 from AI-related stocks; valuation multiples elevated on growth expectations",
+        "market_impact": "Sector rotation risk; small-cap AI names (SOUN -11% AH on unchanged guidance) showing guidance miss sensitivity"
+      }
+    ],
+    "technical_risks": [
+      {
+        "flag": "VIX spike to 18.37 (+6.9% single-day)",
+        "severity": "medium",
+        "detail": "Largest single-day gain since Feb 15; compression risk after strong rally; potential volatility expansion trigger",
+        "market_impact": "Options market pricing elevated tail risk; potential for sharp intraday moves on data/Fed communication"
+      },
+      {
+        "flag": "Overbought technicals; blue-sky extension",
+        "severity": "medium",
+        "detail": "S&P 500 at all-time highs; six consecutive weeks of gains; VWAP bullish but extended; consolidation risk",
+        "market_impact": "Pullback/consolidation likely; support levels: 7,300–7,350 (weekly VWAP); resistance: 7,500+ (analyst targets)"
+      }
+    ],
+    "credit_and_liquidity_risks": [
+      {
+        "flag": "Rising risk-free rates (10Y 4.43%) + diminished Fed backstop",
+        "severity": "medium-high",
+        "detail": "Credit spreads widening; quality/balance-sheet strength premium emerging; HY issuance pressure",
+        "market_impact": "Credit market stress potential; equity repricing if credit spreads spike; small-cap/leveraged names at risk"
+      },
+      {
+        "flag": "Less talkative Fed (Kevin Warsh confirmation pending)",
+        "severity": "medium",
+        "detail": "Reduced advance signaling; sharper repricing around data releases; equity/credit volatility likely to rise",
+        "market_impact": "Reduced policy predictability; potential for policy mistakes; market-driven repricing on data surprises"
+      }
+    ],
+    "sector_specific_risks": [
+      {
+        "flag": "Aerospace/Defense weakness (YSS -8% on Pentagon program loss)",
+        "severity": "low-medium",
+        "detail": "Wolfpack short report; Pentagon SDA program scrapped; defense budget uncertainty",
+        "market_impact": "Sector-specific; broader defense/industrial weakness if budget cuts accelerate"
+      },
+      {
+        "flag": "Software guidance misses (SOUN -11% AH despite beat)",
+        "severity": "medium",
+        "detail": "Q1 revenue beat but unchanged FY2026 guidance triggers selloff; guidance reset risk across software/AI names",
+        "market_impact": "Earnings growth expectations at risk; guidance cuts could trigger broad tech repricing"
+      }
+    ],
+    "paper_trading_caution_flags": [
+      "Narrow breadth + all-time highs = high drawdown risk if mega-cap tech consolidates",
+      "Delayed rate cuts + sticky inflation = headwind for growth/small-cap valuations",
+      "VIX spike + overbought technicals = consolidation/pullback likely; avoid chasing breakouts",
+      "Geopolitical risk premium deflating (oil -5.5%) but could re-embed if escalation resumes",
+      "Earnings guidance misses (SOUN, others) signal growth expectations reset risk; monitor forward guidance closely"
+    ]
+  },
+  "source_urls": [
+    "https://www.noradarealestate.com/blog/todays-mortgage-rates-may-11-2026-update/",
+    "https://cryptobriefing.com/bank-of-america-delays-fed-rate-cuts-to-2027-amid-persistent-inflation/",
+    "https://www.mexc.com/news/1082699",
+    "https://www.thestreet.com/investing/goldman-sachs-sends-blunt-message-on-fed-interest-rate-cuts",
+    "https://www.tradingkey.com/analysis/stocks/us-stocks/261882851-yardeni-predicting-sp500-break-10000-three-years-how-long-rally-last-tradingkey",
+    "https://www.topstep.com/blog/weekly-market-kickoff/",
+    "https://www.morningstar.com/economy/powell-closes-out-term-fed-chair-odds-rate-cut-2026-vanish",
+    "https://www.blackrock.com/us/individual/insights/blackrock-investment-institute/weekly-commentary",
+    "https://www.sofi.com/article/economy-markets/week-ahead-on-wall-street-gauging-the-wars-reach/",
+    "https://www.lepinefinancial.com/weekly-market-commentary-may-11-2026-9e150",
+    "https://www.ig.com/uk/news-and-trade-ideas/_us-earnings-drive-stocks-to-record-highs-260511",
+    "https://www.welchforbes.com/insights/economic-outlook-may-2026/",
+    "https://1919ic.com/market/markets-advance-to-new-highs-as-narrow-leadership-and-resilient-data-shape-the-outlook-weekly-market-insights/"
+  ]
+}
+```
+
+---
+
+### **Cautious Paper-Trading Workflow Guidance**
+
+**Market Regime Summary:**  
+✅ **Bullish technicals** (all-time highs, 6-week rally, strong earnings)  
+⚠️ **Bearish fundamentals** (narrow breadth, delayed rate cuts, sticky inflation, rising yields)  
+🔴 **High drawdown risk** if mega-cap tech consolidates or guidance misses accelerate
+
+**Recommended Posture:**
+- **Avoid chasing breakouts** into all-time highs; wait for consolidation/pullback
+- **Monitor inflation data** (CPI/PCE) and Fed communication for repricing triggers
+- **Favor quality/balance-sheet strength** over leveraged/small-cap names (credit spread widening)
+- **Watch sector rotation** from mega-cap tech to industrials/financials if rates stabilize
+- **Use tight stops** on AI/growth names; guidance miss risk elevated (SOUN -11% AH example)
 
