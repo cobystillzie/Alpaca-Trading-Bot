@@ -9068,4 +9068,44 @@ SEC/company quality check:
   "quality_notes": "All filings highlight classic small-cap risks: losses/deficits, customer concentration (SES OEMs, DRCT sell-side, INUV 83%, BRID 47%), revenue volatility/quality issues (DRCT collapse, INUV seasonality), balance-sheet weakness (low cash, deficits, going concern DRCT), dilution/funding needs (SES/DRCT/FATE), execution/scaling risks (SES mfg/supply, CollabZ platform dev); no durable demand signals (SES pre-rev, DRCT paused customer, INUV ad-dependent); INUV/DRCT tie to watchlist adtech but quality too poor for execution.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-12 07:51:17 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks or ETFs. Social buzz remains weak context only across monitored candidates including INTC, SQ, MSFT, and ETFs like IWM, EWY, SPUS, SCHD.",
+  "social_buzz": "None detected",
+  "attention_anomalies": "No anomalies flagged in public web or social coverage",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Recent congressional trades in energy stocks show mostly Republican purchases in DVN (Devon Energy), with John Boozman buying $1k-$15k on Apr 9, 2026, alongside prior buys by Letlow, Greene, Hern. Limited activity in related names like CEG (Capito partial sale Apr 17). Heavy lobbying on energy/nuclear issues. Treat as low-weight delayed signal amid energy sector rotation.",
+  "congressional_signal": "weak-positive DVN (multiple R purchases 2025-2026); neutral CEG (R partial sale); no strong cross-stock cluster",
+  "tickers": ["DVN", "CEG"],
+  "source_urls": ["https://www.quiverquant.com/stock/DVN/", "https://www.quiverquant.com/stock/CEG/"]
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": "Direct Digital Holdings (DRCT) operates a programmatic adtech platform (Colossus SSP sell-side + buy-side services) with IVT mitigation, high client retention (90%), and multicultural audience focus. 2025 revenue $34.7M (-44% YoY), gross profit $10.4M (-40% YoY) due to major sell-side customer pause from defamatory article/misinformation campaign (reconnected May 2024 but volumes below prior levels). Cash $0.7M, accumulated deficit $27.7M; substantial going concern doubt. 73 employees, Nasdaq delisting risk, credit covenants ($450k min cash). Growth plans: sales expansion, acquisitions, CTV/DOOH. Competes with Pubmatic/Magnite/Google (sell-side), Google/Meta/Amazon (buy-side). High buyer count (174k) but buy-side concentrated (195 clients). Recent Q1 2026: rev -18% but margins improved.",
+  "filing_risks": [
+    "Going concern doubt: Cash $0.7M insufficient for 12mo; accumulated deficit $27.7M; needs funding/reorg success/customer volume recovery.",
+    "Revenue concentration: 2024-25 revenue/gross profit collapse from one sell-side customer pause (defamatory article); buy-side 195 clients vulnerable.",
+    "Balance sheet: Credit facilities covenants (min $450k cash); term debt matures Dec 2026; potential default/acceleration/liquidation.",
+    "Delisting risk: Nasdaq Capital Market compliance failure.",
+    "Dilution: Additional equity/debt likely; new securities senior/dilutive.",
+    "Operational: Platform issues, ad fraud detection failure, cookie/ID restrictions, data privacy, growth management, acquisitions integration.",
+    "Revenue quality: 2025 rev $34.7M vs $157M 2023; seasonal; high customer concentration; payment disputes.",
+    "Capital allocation: Reorg July 2024; acquisitions risky; infrastructure/tech investments amid cash crunch."
+  ],
+  "quality_notes": "Weak durable demand: Revenue/gross profit halved 2024-25 from customer pause, not 'underlying business strength' as claimed; going concern + low cash signal execution distress. High concentration (one customer caused collapse) + Nasdaq risk = poor quality. 90% retention positive but buy-side small (195 clients). IVT mitigation/accreditations credible but ad fraud risk explicit. Microcap adtech volatile; avoid per latest candidate (Q1 2026 EPS miss). No GOOGL/GOOG/INTC/USAR/GT exposure noted.",
+  "source_urls": []
+}
+```
 

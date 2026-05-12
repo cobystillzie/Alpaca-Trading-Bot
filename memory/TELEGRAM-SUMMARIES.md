@@ -10518,4 +10518,37 @@ HF filter: sentiment=not run source=7/100 hype=0.00 vetoes=0
 Self-learning: tier=watch repeat48h=0 fresh=yes bucket=energy
 Social buzz, low weight: none
 Congress signal, low weight: low-weight purchases by Republicans
+## Research Update - 2026-05-12 07:51:17 Eastern Daylight Time
+
+Research Update
+
+Market tone: Search results highlight LNC (Lincoln National) Q1 earnings strength overlooked by market ($326M reality vs priced-in weakness), alongside Raiffeisen (RBI) monitoring and unrelated real estate site; no fresh catalysts for seed watchlist or recent candidates amid cautious macro with CPI focus.
+Candidates: 3
+
+1. LNC (financials-insurance) | confidence 0.70 | allocation 5.0% | stop 8.0% | Chittick 70/100 | tier watch | bucket financials-insurance | HF source 8/100
+Recommendation: watch
+Catalyst: Q1 $326M earnings reality vs market-priced weakness per AInvest analysis.
+Chittick Cash: Strong capital foundation undervalued vs earnings quality.
+HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=financials-insurance
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. RBI.VI (financials-banking) | confidence 0.45 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier stale-watch | bucket financials-european-bank | HF source 6/100 | HF veto
+Recommendation: avoid
+Catalyst: Aktien.guide real-time monitoring for KGV/EV/Sales/strategy scores.
+Chittick Cash: Valuation monitoring but unverified.
+HF filter: sentiment=not run source=6/100 hype=0.00 vetoes=1
+Self-learning: tier=stale-watch repeat48h=0 fresh=yes bucket=financials-european-bank
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. INTC (information-technology-semiconductors) | confidence 0.75 | allocation 4.0% | stop 8.0% | Chittick 35/100 | tier watch-allocation-constrained | bucket semiconductors-ai | HF source 9/100 | HF veto
+Recommendation: watch-allocation-constrained
+Catalyst: Tigress PT $118 (from $66), Freedom Buy $100; May 11 rip from $60s to $120+ on deals/earnings.
+Chittick Cash: Undervalued vs AI growth potential.
+HF filter: sentiment=not run source=9/100 hype=0.20 vetoes=1
+Self-learning: tier=watch-allocation-constrained repeat48h=5 fresh=yes bucket=semiconductors-ai
+Social buzz, low weight: low-weight attention on upgrades
+Congress signal, low weight: none
 

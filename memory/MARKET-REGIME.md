@@ -4013,4 +4013,105 @@ The market is at record highs with strong earnings momentum, but faces a **CRITI
   ]
 }
 ```
+## Market Regime Research - 2026-05-12 07:51:17 Eastern Daylight Time
+
+```json
+{
+  "summary": {
+    "date_analyzed": "2026-05-12",
+    "overall_tone": "Cautiously Bullish with Emerging Cracks",
+    "key_finding": "S&P 500 at all-time highs (~7400) but breadth deteriorating; market narrowly led by 'Tech Plus' (XLK, AMZN, META, GOOGL) controlling ~50% of index. Strong macro data (April jobs +115k vs exp +65k, unemployment 4.3%) supports equity valuations, but credit stress signals and geopolitical risks warrant defensive positioning.",
+    "macro_backdrop": "Fed holding rates steady; no cuts priced in for 2026; inflation data (April CPI expected ~3.7%) remains key catalyst. Elevated crude oil ($104 Brent, $98 WTI) tied to Middle East uncertainty and Strait of Hormuz concerns."
+  },
+  "market_regime": {
+    "index_trend": "Bullish (Primary Trend: Innocent Until Proven Guilty)",
+    "index_details": {
+      "s_and_p_500": "New intraday highs above 7400; closed week of May 8 +0.19%",
+      "nasdaq": "Rose 0.10% week of May 8",
+      "dow_jones": "Gained 0.19% week of May 8"
+    },
+    "breadth_warning": "CRITICAL: <50% of S&P 500 stocks above 50-day MA despite index at all-time highs; classic divergence signal ('Titanic Syndrome'). Growing 52-week lows during peak = red flag for long-term investors.",
+    "volatility": "VIX creeping toward 20 'danger zone'; still relatively low but trending higher",
+    "fed_policy": "Rates on hold; zero cuts/hikes priced in through end-2026; strong jobs data removes rate-cut pressure",
+    "regime_classification": "Risk-On with Fragmentation; Narrowing Leadership"
+  },
+  "sector_rotation": {
+    "leadership": {
+      "dominant": "Technology (semiconductors, cloud, AI) + select mega-cap internet (GOOGL, AMZN, META)",
+      "concentration_risk": "Tech Plus theme now controls ~50% of S&P 500; extreme concentration",
+      "recent_strength": "Semiconductors rallying (INTC +4.65% May 11 intraday; analyst PTs raised to $100–$118); Silver +7% Monday breakout"
+    },
+    "emerging_rotation": {
+      "energy": "Elevated crude supporting energy sector; potential 'blow-off top' risk",
+      "value_dividend": "JPM notes ongoing value/dividend rotation; SCHD (dividend ETF) remains defensive anchor",
+      "small_cap": "IWM under pressure; breadth weak despite index highs; tariff-sensitive retail (ASO) volatile"
+    },
+    "laggards": "Broad-based weakness outside Tech Plus; limited participation in rally",
+    "sector_tone": "Highly bifurcated; concentration risk elevated"
+  },
+  "risk_flags": {
+    "critical": [
+      "Breadth Divergence: <50% of S&P 500 above 50-day MA at all-time highs = classic distribution warning",
+      "Credit Stress: Credit card debt at all-time high; subprime auto delinquencies at 30-year peak (May 2026 data)",
+      "Geopolitical: Middle East uncertainty, Strait of Hormuz closure risk, Trump remarks driving safe-haven flows",
+      "Valuation Concentration: Tech Plus (5 stocks) driving 50% of index; narrow leadership unsustainable"
+    ],
+    "high": [
+      "Earnings Surprise Fading: Ted Weisberg notes 'terrific' earnings season but warns of crossroads; Q1 earnings growth ~25% YoY may not repeat",
+      "Inflation Persistence: April CPI expected ~3.7%; hotter-than-consensus 0.9% MoM headline print expected; USD hawkish momentum",
+      "Commodity Divergence: Silver breakout vs. gold stalling; oil-rate lockstep suggests structural supply concerns",
+      "Hype Vulnerability: HIMS stock -17% after-hours on earnings miss; market 'incredibly irrational' per trader commentary"
+    ],
+    "moderate": [
+      "Consumer Sentiment: Inflation focus in sentiment surveys despite strong macro data",
+      "CapEx/AI Optimism Risk: Potential fade in AI capex enthusiasm or permanent layoffs spreading to old-economy sectors",
+      "Volatility Creep: VIX approaching 20; interest rates elevated; crude oil elevated"
+    ]
+  },
+  "paper_trading_posture": {
+    "recommended_stance": "CAUTIOUS LONG with DEFENSIVE HEDGES",
+    "rationale": "Macro fundamentals (jobs, earnings) support continued equity exposure, but breadth deterioration and credit stress warrant reduced position sizing and sector diversification away from Tech Plus concentration.",
+    "execution_guidance": [
+      "Favor execution-ready candidates (INTC, SQ, MSFT) only if guards pass (breadth, VIX <22, no gap-down opens)",
+      "Maintain watch-list positions (GOOGL, ASO, EWY, DVN) pending CPI print and geopolitical resolution",
+      "Increase allocation to defensive/dividend plays (SCHD) and value rotation (DVN energy) to hedge concentration risk",
+      "Avoid single-stock allocations >8%; enforce portfolio-level Tech Plus cap at 40% (currently ~50% of market)",
+      "Set stop-losses at 8% per existing framework; tighten if VIX breaks 20 or breadth deteriorates further"
+    ],
+    "key_catalysts_ahead": [
+      "April CPI print (expected ~3.7%, hotter-than-consensus 0.9% MoM)",
+      "Middle East geopolitical resolution (Strait of Hormuz, oil supply)",
+      "Fed communications (rate hold confirmation)",
+      "Earnings season continuation (quality of guidance, AI capex trends)"
+    ]
+  },
+  "source_urls": [
+    "https://www.monex.com.mx/portal/download/reportes/AlCierre%2020260511%20ing.pdf",
+    "https://www.youtube.com/watch?v=LN3mW6TSFEU",
+    "https://www.youtube.com/watch?v=kQ5MEEr0JdY",
+    "https://think.ing.com/articles/fx-daily-impact-of-us-cpi-mostly-depends-on-equities/",
+    "https://www.youtube.com/watch?v=RPv-wpSlXK4",
+    "https://www.youtube.com/watch?v=EAf9Jgf0EdY",
+    "https://www.fxstreet.com/analysis/market-focus-on-us-cpi-rates-for-april-202605120924",
+    "https://www.youtube.com/watch?v=5h1Ts3dTxvA",
+    "https://www.youtube.com/watch?v=xOTXgixwEBs",
+    "https://www.youtube.com/watch?v=wU5ChAzuYsw",
+    "https://www.moneycontrol.com/news/videos/business/markets/nifty-at-critical-support-zone-cautious-start-to-trade-expected-brent-oil-remains-at-104-13916034.html",
+    "https://www.morningstar.com/stocks/4-stocks-buy-after-earnings-3"
+  ]
+}
+```
+
+---
+
+### **Interpretation for Paper-Trading Bot:**
+
+**Do NOT execute new positions today** unless:
+1. **Breadth improves** (>60% of S&P 500 above 50-day MA)
+2. **VIX stays <20**
+3. **CPI print is in-line or cooler** (not hotter than 0.9% MoM)
+
+**Current execution-ready candidates** (INTC, SQ, MSFT) should be **queued but not filled** until guards pass. Existing positions should be **monitored for stop-loss triggers** if VIX breaks 20 or geopolitical escalation occurs.
+
+**Defensive rotation** (SCHD, DVN) is **preferred over Tech Plus concentration** for new allocations.
 

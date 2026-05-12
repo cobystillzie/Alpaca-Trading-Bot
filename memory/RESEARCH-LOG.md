@@ -750,4 +750,9 @@ Candidates found: 3
 US equities in bullish momentum with S&P 500 above 7400 after six straight weeks of gains (+16% streak), strong Q1 earnings beats (84%), stabilizing labor market. Tech/semiconductors leading, broadening to small-caps/international. No fresh search results; monitoring CPI risks and sector rotation.
 
 Candidates found: 4
+## Two-Hour Research Agent - 2026-05-12 07:51:17 Eastern Daylight Time
+
+Search results highlight LNC (Lincoln National) Q1 earnings strength overlooked by market ($326M reality vs priced-in weakness), alongside Raiffeisen (RBI) monitoring and unrelated real estate site; no fresh catalysts for seed watchlist or recent candidates amid cautious macro with CPI focus.
+
+Candidates found: 3
 
