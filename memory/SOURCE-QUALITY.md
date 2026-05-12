@@ -8997,4 +8997,75 @@ SEC/company quality check:
   "source_urls": []
 }
 ```
+## Source And Signal Research - 2026-05-12 06:37:46 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks or ETFs. No evidence of hype, pump language, or unsupported claims detected in public web or social coverage.",
+  "social_buzz": "none",
+  "attention_anomalies": "none",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Congressional disclosure data from QuiverQuant shows recent DVN (Devon Energy Corporation) trades by U.S. lawmakers. Most recent: Senator John Boozman (R-AR) purchased $1,001–$15,000 on April 9, 2026. Pattern reflects consistent Republican interest in energy sector; Kevin Hern (R-OK) shows sustained quarterly accumulation 2021–2024. Disclosures are delayed (30–45 day lag) and low-weight context only; no trade recommendation warranted.",
+  "congressional_signal": {
+    "ticker": "DVN",
+    "sector": "Energy",
+    "recent_trades": [
+      {
+        "politician": "John Boozman",
+        "chamber": "Senate",
+        "party": "R",
+        "action": "Purchase",
+        "amount_range": "$1,001 - $15,000",
+        "date": "2026-04-09"
+      },
+      {
+        "politician": "Julia Letlow",
+        "chamber": "House",
+        "party": "R",
+        "action": "Purchase",
+        "amount_range": "$1,001 - $15,000",
+        "date": "2025-12-08"
+      },
+      {
+        "politician": "Kevin Hern",
+        "chamber": "House",
+        "party": "R",
+        "action": "Sale",
+        "amount_range": "$250,001 - $500,000",
+        "date": "2024-12-31"
+      }
+    ],
+    "pattern": "Predominantly Republican purchases; sustained accumulation by Hern 2021–2024 followed by large sale Dec 2024; recent Boozman purchase suggests continued sector confidence.",
+    "weight": "low",
+    "disclosure_lag_days": 30,
+    "caveat": "Congressional disclosures are delayed, low-weight context only. Do not use as primary trade signal."
+  },
+  "tickers": [
+    "DVN"
+  ],
+  "source_urls": [
+    "https://www.quiverquant.com/stock/DVN/"
+  ]
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "SES AI (SES) 10-K shows ongoing losses ($73M 2025), $372M accumulated deficit, heavy R&D burn, capital needs, UAM/EV market risks, supply chain issues, integration risks from UZ Energy acquisition, and execution risks in scaling manufacturing/batteries; no durable demand evidence. DRCT (Direct Digital) 10-K reveals revenue collapse ($34.7M 2025 vs $62M 2024, $157M 2023) from customer pause/misinfo, going concern doubt, $28M deficit, high debt covenants, customer concentration; avoid. INUV (Inuv) 10-K: history of losses ($178M deficit), 83% revenue from 2 customers (64%+19%), negative working capital -$5M, seasonality; adtech fragile. Others (FATE biotech losses/preclinical risks, BRID food concentration/inflation, CollabZ related-party heavy 65%, NeoVolta startup risks) confirm micro/small-cap execution/quality risks; no Chittick names (GOOGL/INTC/USAR/GT) in results.",
+  "filing_risks": {
+    "SES": "Balance-sheet: $372M deficit, needs more capital (dilution risk); Concentration: OEM-dependent, no single customer >10% but trials key; Revenue quality: Pre-revenue, projections uncertain; Capital allocation: High R&D/capex burn; Other: UZ integration, supply disruptions, battery defects/recalls, competition from Li-ion incumbents.",
+    "DRCT": "Balance-sheet: $28M deficit, $0.7M cash, going concern doubt; Concentration: Sell-side customer pause caused rev drop; Dilution: Needs funding; Revenue quality: -44% rev YoY, gross profit halved; Capital allocation: Cost cuts/reorg post-misinfo; Litigation: Defamatory article mentioned; Valuation: Nasdaq delist risk.",
+    "INUV": "Balance-sheet: $178M deficit, -$5M working capital; Concentration: 2 customers 83% rev; Revenue quality: +3% rev but gross margin -10%; Capital allocation: Fixed labor R&D; Other: Customer collections, ad fraud, NYSE compliance.",
+    "Others": "FATE: Preclinical/clinical risks, funding needs; BRID: Customer conc (WalMart 34%, Dollar Gen 14%), inflation/raw mat; CollabZ: 65% related-party rev, joint ventures minimal ops; NeoVolta: Startup, supply chain, competition from Tesla/LG."
+  },
+  "quality_notes": "All filings highlight classic small-cap risks: losses/deficits, customer concentration (SES OEMs, DRCT sell-side, INUV 83%, BRID 47%), revenue volatility/quality issues (DRCT collapse, INUV seasonality), balance-sheet weakness (low cash, deficits, going concern DRCT), dilution/funding needs (SES/DRCT/FATE), execution/scaling risks (SES mfg/supply, CollabZ platform dev); no durable demand signals (SES pre-rev, DRCT paused customer, INUV ad-dependent); INUV/DRCT tie to watchlist adtech but quality too poor for execution.",
+  "source_urls": []
+}
 

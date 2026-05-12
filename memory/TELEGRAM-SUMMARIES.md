@@ -10476,4 +10476,46 @@ HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
 Self-learning: tier=watch repeat48h=0 fresh=yes bucket=etf-sharia-value
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-12 06:37:46 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities in bullish momentum with S&P 500 above 7400 after six straight weeks of gains (+16% streak), strong Q1 earnings beats (84%), stabilizing labor market. Tech/semiconductors leading, broadening to small-caps/international. No fresh search results; monitoring CPI risks and sector rotation.
+Candidates: 4
+
+1. INTC (information-technology-semiconductors) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 76/100 | tier execution-ready | bucket semiconductors-ai | HF source 9/100
+Recommendation: execute-if-guards-pass
+Catalyst: Tigress PT raise to $118 (from $66 Buy), Freedom upgrade to Buy $100; +4.65% intraday May 11 on volume, ripping from $60s to $120+ on deals/earnings momentum.
+Chittick Cash: Government CHIPS funding buffers downside; trading below historical multiples vs quality peers.
+HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=4 fresh=yes bucket=semiconductors-ai
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. SQ (financials-fintech) | confidence 0.80 | allocation 7.0% | stop 8.0% | Chittick 74/100 | tier execution-ready | bucket financials-fintech | HF source 9/100
+Recommendation: execute-if-guards-pass
+Catalyst: Q1 earnings beat + FY2026 guidance raised; GS $95 Buy, Citi $100 Buy, Keefe $90 Outperform; +8% open May 11.
+Chittick Cash: Recurring rev growth buffers; cash-rich balance sheet.
+HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=4 fresh=yes bucket=financials-fintech
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. SCHD (etf-dividend-value) | confidence 0.75 | allocation 4.0% | stop 8.0% | Chittick 35/100 | tier watch-allocation-constrained | bucket dividend-etf-defensive | HF source 9/100
+Recommendation: watch-allocation-constrained
+Catalyst: Ongoing value/dividend rotation per JPM; Morningstar Gold-rated #1 high-dividend ETF.
+Chittick Cash: Dividend aristocrats buffer.
+HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=0
+Self-learning: tier=watch-allocation-constrained repeat48h=20 fresh=yes bucket=dividend-etf-defensive
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+4. DVN (energy) | confidence 0.65 | allocation 5.0% | stop 8.0% | Chittick 70/100 | tier watch | bucket energy | HF source 7/100
+Recommendation: watch
+Catalyst: Recent congressional purchases (Boozman Apr 9); sector rotation into energy.
+Chittick Cash: Cash flow covers downside.
+HF filter: sentiment=not run source=7/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=energy
+Social buzz, low weight: none
+Congress signal, low weight: low-weight purchases by Republicans
 

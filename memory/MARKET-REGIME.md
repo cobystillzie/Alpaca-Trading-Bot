@@ -3989,4 +3989,28 @@ The market is at record highs with strong earnings momentum, but faces a **CRITI
   ]
 }
 ```
+## Market Regime Research - 2026-05-12 06:37:46 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities at all-time highs with S&P 500 above 7400 after six straight weeks of gains (+16% streak). Q1 earnings exceptionally strong (+27.7% YoY, 84% beats). Labor market stabilizing (April +115k jobs, back-to-back gains). Fed no-cut bias strengthens post-jobs data. Greed zone sentiment (Fear & Greed 66.9). Tech/semiconductors leading, small-cap/international broadening. Upcoming CPI critical risk.",
+  "market_regime": "bullish_momentum_with_caution",
+  "sector_rotation": "tech_semiconductors -> broadening_to_smallcaps_international_energy_materials",
+  "risk_flags": [
+    "elevated_core_inflation_3.2%_YoY_4.4%_Q1_annualized",
+    "CPI_report_today_hawkish_expectations_0.9%_MoM",
+    "market_breadth_weakening_<50%_above_50dma",
+    "VIX_creeping_toward_20",
+    "geopolitical_oil_volatility_Iran",
+    "consumer_debt_stress_credit_cards_peak_subprime_auto_30yr_high"
+  ],
+  "source_urls": [
+    "https://www.benzinga.com/markets/market-summary/26/05/52475931/sp-500-settles-above-7400-investor-sentiment-improves-slightly-fear-index-remains-in-greed-zone",
+    "https://www.mitlinfinancial.com/insights/blog/market-commentary-strong-earnings-labor-market-improvement-help-send-sp-500-to-sixth-straight-week-of-gains/",
+    "https://www.ubp.com/en/news-insights/newsroom/ubp-weekly-view-markets-in-motion-earnings-versus-geopolitics",
+    "https://www.youtube.com/watch?v=LN3mW6TSFEU",
+    "https://www.youtube.com/watch?v=RPv-wpSlXK4"
+  ]
+}
+```
 
