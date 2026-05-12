@@ -4,171 +4,67 @@
 {
   "candidates": [
     {
-      "adversary_case": "Guide unchanged = growth slowing; sequential decline signals lumpiness in AI bookings.",
+      "adversary_case": "Stale short data, no volume/momentum, microcap execution risk outweighs vague 'rising demand'.",
       "allocation_learning_note": "",
-      "balance_sheet_risk": "Not detailed; focus on execution over BS in growth phase.",
-      "bear_case": "Unchanged guide despite beat signals deceleration risk; sequential rev decline; acquisition integration execution.",
-      "capital_allocation_case": "Acquisitions for scale; analyst-backed path to profitability.",
-      "catalyst": "Q1 revenue $44.2M +52% YoY beat ($42.6M exp), EPS -$0.06 beat (-$0.10 exp); FY2026 guide $225-260M unchanged triggers -11% AH selloff.",
-      "catalyst_type": "earnings",
-      "chittick_cash_score": 68.0,
-      "chittick_reject_reason": "",
-      "concentration_case": "AI software exposure complements healthcare/fintech; diversifies from recent industrials.",
-      "confidence": 0.7,
-      "congressional_signal": "none",
-      "diversity_bucket": "ai-software",
-      "entry_plan": "Enter 10:30-11:00 AM UTC tomorrow if holds above AH lows (~$8.50) on volume; target 7% allocation.",
-      "exit_plan": "Take profits at $11 (prior highs/analyst midway); invalidate below $8 (AH lows) or -8% stop.",
-      "fresh_catalyst": true,
-      "growth_runway": "AI voice agents scaling to $225-260M FY2026; acquisition synergies.",
-      "hf_evidence_rank": 7.0,
-      "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.2,
-      "hf_memory_similarity": 1.0,
-      "hf_model_notes": "Fresh earnings catalyst; first appearance limits repeat decay.",
-      "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "",
-      "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 8.0,
-      "horizon_days": 5,
-      "margin_of_safety_case": "Strong Buy consensus +52% upside provides buffer; beat execution despite guide.",
-      "market_regime": "Risk-on bull supports AI/software recovery; overbought breadth favors dips in quality growth names.",
-      "momentum_case": "+5% past 12mo but sharp -20% sequential Q1 rev drop and guide reaction creates oversold bounce potential.",
-      "owner_hold_case": "If FY2026 beat + agent revenue accelerates, review 90-day hold on path to positive EPS.",
-      "quality_case": "52% YoY growth demonstrates real AI demand; 8 analysts Strong Buy with $14.63 target (52% upside from ~$9.63); LivePerson acquisition adds scale but didn't lift guide.",
-      "recommendation": "watch",
-      "repeat_count_48h": 2,
-      "research_tier": "watch",
-      "risk_reward": "Risk 8% for 15-20% upside to analyst targets; defined post-earnings dip with Strong Buy consensus.",
-      "sector": "information-technology-software",
-      "signal_weights": {
-        "congressional_signal": 0.0,
-        "social_buzz": 0.0
-      },
-      "social_buzz": "none",
-      "source_quality": "High: Earnings data from Stocktwits/Fiscal.ai/Koyfin; analyst consensus robust.",
-      "source_urls": [
-        "https://stocktwits.com/news-articles/markets/equity/soun-stock-tanks-as-live-person-acquisition-fails-to-move-full-year-guidance/cZXbYzvReQY"
-      ],
-      "stop_loss_percent": 8.0,
-      "strategy_tags": [
-        "chittick_cash"
-      ],
-      "symbol": "SOUN",
-      "target_allocation_percent": 6.0,
-      "thesis": "AI voice software leader with strong revenue growth trajectory but investor disappointment on guide creates swing opportunity if post-earnings digestion stabilizes.",
-      "valuation_case": "Attractive at discount to $14.63 target versus 52% growth quality."
-    },
-    {
-      "adversary_case": "Wolfpack thesis confirmed by govt program dissolution.",
-      "allocation_learning_note": "",
-      "balance_sheet_risk": "Not detailed but program loss = revenue cliff.",
-      "bear_case": "Core revenue stream lost; retail SpaceX-proxy rug pull.",
-      "capital_allocation_case": "N/A",
-      "catalyst": "Wolfpack Research short report reveals Pentagon scrapped key SDA program (main revenue); shares -8%+ today.",
-      "catalyst_type": "news",
+      "balance_sheet_risk": "Unknown - no data.",
+      "bear_case": "Microcap illiquidity; stale data (Apr 15); no earnings/news; competes with giants; repeat decay risk.",
+      "capital_allocation_case": "Unknown.",
+      "catalyst": "GuruFocus May 9 target price increase on rising demand; short interest +2.6% to 2.57% float (Apr 15 data)",
+      "catalyst_type": "general",
       "chittick_cash_score": 45.0,
-      "chittick_reject_reason": "Bear catalyst dominates; no quality moat.",
-      "concentration_case": "Avoid; recent RKLB in bucket.",
-      "confidence": 0.4,
+      "chittick_reject_reason": "Stale data, low source quality, microcap risks.",
+      "concentration_case": "Diversion from quality like GOOGL; better ad tech via META/GOOGL.",
+      "confidence": 0.35,
       "congressional_signal": "none",
-      "diversity_bucket": "industrials-aerospace",
-      "entry_plan": "None",
-      "exit_plan": "None",
+      "diversity_bucket": "microcap-adtech",
+      "entry_plan": "Avoid - no defined entry; watch $2 breakout on volume >500k.",
+      "exit_plan": "N/A - no execution plan.",
       "fresh_catalyst": true,
-      "growth_runway": "Contract-dependent; SDA loss cripples.",
-      "hf_evidence_rank": 4.0,
-      "hf_filter_vetoes": [],
+      "growth_runway": "Vague 'rising demand'; ad tech cyclical.",
+      "hf_evidence_rank": 2.0,
+      "hf_filter_vetoes": [
+        "stale-data",
+        "source-thin"
+      ],
       "hf_hype_risk": 0.0,
       "hf_memory_similarity": 0.0,
-      "hf_model_notes": "First appearance but hard bear catalyst.",
+      "hf_model_notes": "UV inks unrelated noise; INUV ad tech only.",
       "hf_sentiment_agreement": 0.0,
       "hf_sentiment_label": "",
       "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 6.0,
+      "hf_source_quality_score": 3.0,
       "horizon_days": 3,
-      "margin_of_safety_case": "None; revenue destruction.",
-      "market_regime": "Risk-on ignores but shorts amplify in aero/defense.",
-      "momentum_case": "Downtrend acceleration on validated bear thesis.",
-      "owner_hold_case": "",
-      "quality_case": "Weak: Short interest 4.5%; YTD -8%, 12mo +2% underperforms S&P.",
+      "margin_of_safety_case": "Low - microcap valuation unknown; short interest too low for catalyst.",
+      "market_regime": "Neutral impact - microcap ignores broad AI rally.",
+      "momentum_case": "Price $1.84 flat (+0.22%); low volume/no breakout.",
+      "owner_hold_case": "N/A - lacks owner thesis.",
+      "quality_case": "Ad tech with AI focus but thin evidence; stable short interest low squeeze risk; balance sheet unknown from snippets.",
       "recommendation": "avoid",
-      "repeat_count_48h": 1,
+      "repeat_count_48h": 0,
       "research_tier": "stale-watch",
-      "risk_reward": "Asymmetric downside; avoid.",
-      "sector": "industrials-aerospace",
+      "risk_reward": "Poor - low conviction, illiquid, no fresh edge.",
+      "sector": "communication-services-adtech",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
       "social_buzz": "none",
-      "source_quality": "Medium: Reputable short seller (Wolfpack) with specific program details.",
+      "source_quality": "Weak - MarketBeat short data stale (Apr); GuruFocus snippet thin/no details.",
       "source_urls": [
-        "https://stocktwits.com/news-articles/markets/equity/why-is-yss-stock-falling-today-may-11/cZXaJ0jRehl"
+        "https://www.marketbeat.com/stocks/NYSEAMERICAN/INUV/short-interest/",
+        "https://www.gurufocus.com/latest-news/all/software?search=STO&page=4106"
       ],
-      "stop_loss_percent": 8.0,
-      "strategy_tags": [],
-      "symbol": "YSS",
-      "target_allocation_percent": 0.0,
-      "thesis": "Avoid: Space systems with confirmed negative catalyst from short seller.",
-      "valuation_case": "Irrelevant post-catalyst."
-    },
-    {
-      "adversary_case": "Node delays persist.",
-      "allocation_learning_note": "Prior execution; monitor concentration.",
-      "balance_sheet_risk": "Low; cash rich.",
-      "bear_case": "Execution delays in nodes; competition.",
-      "capital_allocation_case": "Capex discipline improving.",
-      "catalyst": "+4.65% intraday on Tigress PT $118 (from $66 Buy), Freedom upgrade Buy $100; recent rip from $60s.",
-      "catalyst_type": "news",
-      "chittick_cash_score": 76.0,
-      "chittick_reject_reason": "",
-      "concentration_case": "Seed priority; diversifies AI.",
-      "confidence": 0.82,
-      "congressional_signal": "none",
-      "diversity_bucket": "semiconductors-ai",
-      "entry_plan": "Dip buy tomorrow if pulls back to $115 support.",
-      "exit_plan": "Profits at $130; stop $110.",
-      "fresh_catalyst": true,
-      "growth_runway": "AI/PC chips + foundry to 2027+.",
-      "hf_evidence_rank": 8.5,
-      "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.1,
-      "hf_memory_similarity": 1.0,
-      "hf_model_notes": "Recent execution-ready; fresh upgrades reset repeat.",
-      "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "",
-      "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 9.0,
-      "horizon_days": 7,
-      "margin_of_safety_case": "Seed watchlist + upgrades vs. recent lows.",
-      "market_regime": "Bull favors semi recovery.",
-      "momentum_case": "Breakout from $60s to $120+ on catalysts.",
-      "owner_hold_case": "Foundry market share gains justify 90-180d review.",
-      "quality_case": "Foundry deals/AI chips rebuilding moat; balance sheet fortress.",
-      "recommendation": "watch",
-      "repeat_count_48h": 1,
-      "research_tier": "execution-ready",
-      "risk_reward": "8% risk for 15%+ to PTs.",
-      "sector": "information-technology-semiconductors",
-      "signal_weights": {
-        "congressional_signal": 0.0,
-        "social_buzz": 0.0
-      },
-      "social_buzz": "none",
-      "source_quality": "High: Analyst upgrades.",
-      "source_urls": [],
       "stop_loss_percent": 8.0,
       "strategy_tags": [
         "chittick_cash"
       ],
-      "symbol": "INTC",
-      "target_allocation_percent": 8.0,
-      "thesis": "Semiconductor turnaround with fresh upgrades; Chittick Cash seed aligns with quality revival.",
-      "valuation_case": "Attractive post-rally vs. foundry growth."
+      "symbol": "INUV",
+      "target_allocation_percent": 0.0,
+      "thesis": "Microcap ad tech (IntentKey AI platform) with stable metrics; potential demand tailwind per analyst note but lacks quality moat vs. GOOGL peers.",
+      "valuation_case": "Unknown - $1.84 flat; no comps."
     }
   ],
-  "summary": "Mixed signals in late trading: SOUN tanks 11% AH on unchanged FY2026 guide despite Q1 beat; YSS drops 8%+ on Wolfpack short report alleging Pentagon program loss; crypto optimism from Cathie Wood on CLARITY Act/July 4 but irrelevant for stocks/ETFs. Broader market risk-on bull with overbought tech/AI leadership persists."
+  "summary": "INUV shows stable short interest at 2.57% of float (358k shares, +2.6% MoM as of Apr 15), days-to-cover 1.2 on 292k avg vol; low squeeze risk. GuruFocus notes May 9 target price increase on rising demand. No fresh catalysts; microcap ad tech with low conviction."
 }
 -->
 
@@ -1029,4 +925,10 @@
 | SOUN | information-technology-software | watch | ai-software | 2 | yes | 0.70 | 68 | 8 | 0 | 6.0% | 8.0% | watch | Q1 revenue $44.2M +52% YoY beat ($42.6M exp), EPS -$0.06 beat (-$0.10 exp); FY2026 guide $225-260M unchanged triggers -11% AH selloff. |
 | YSS | industrials-aerospace | stale-watch | industrials-aerospace | 1 | yes | 0.40 | 45 | 6 | 0 | 0.0% | 8.0% | avoid | Wolfpack Research short report reveals Pentagon scrapped key SDA program (main revenue); shares -8%+ today. |
 | INTC | information-technology-semiconductors | execution-ready | semiconductors-ai | 1 | yes | 0.82 | 76 | 9 | 0 | 8.0% | 8.0% | watch | +4.65% intraday on Tigress PT $118 (from $66 Buy), Freedom upgrade Buy $100; recent rip from $60s. |
+
+## Latest Candidates - 2026-05-11 20:04:36 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| INUV | communication-services-adtech | stale-watch | microcap-adtech | 0 | yes | 0.35 | 45 | 3 | 2 | 0.0% | 8.0% | avoid | GuruFocus May 9 target price increase on rising demand; short interest +2.6% to 2.57% float (Apr 15 data) |
 

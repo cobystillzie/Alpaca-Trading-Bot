@@ -3610,4 +3610,27 @@ The market is at record highs with strong earnings momentum, but faces a **CRITI
   ]
 }
 ```
+## Market Regime Research - 2026-05-11 20:04:36 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities at record highs with S&P 500 above 7,300 (six-week win streak), Nasdaq at 26,247 (+1.71%), SOX +5.51% to 11,775. AI/tech/semiconductors driving narrow rally (IT/Comms 77% of S&P gains), strong Q1 earnings (+28% YoY). Resilient jobs (115k vs 65k exp, U4.3%), Fed no-cut pressure. Key catalysts: Apr CPI (today), Cisco/AMAT/Alibaba earnings, technical overbought signals.",
+  "market_regime": "Bullish but Narrowing (AI-led melt-up, record highs, innocent until proven guilty)",
+  "sector_rotation": "Concentrated in AI/tech/semiconductors (SOX +65% 1M, MU+15%, INTC+14%, AMD+11%); Dow/Financials/Energy lagging; limited breadth (40% S&P above pre-war levels, <50% above 50DMA); watch value/dividend rotation (e.g., SCHD).",
+  "risk_flags": [
+    "Narrow breadth (Tech+ controls 50% S&P, 7/11 sectors flat/negative)",
+    "Technical overbought (S&P RSI, upper Bollinger; VIX nearing 20)",
+    "CPI today (core exp 0.4% MoM accel → hawkish Fed/rate hike risk)",
+    "Earnings sensitivity (Q2 validation for AI capex/ROI)",
+    "Geopolitics (Trump-Xi, Hormuz, Mideast)",
+    "No Fed cuts priced in (0% by YE)"
+  ],
+  "source_urls": [
+    "https://www.tradingkey.com/analysis/stocks/us-stocks/261878587-nasdaq-sp500-sox-google-oracle-amazon-chip-ai-intel-amd-tradingkey",
+    "https://www.heygotrade.com/en/news/weekly-economic-outlook-2026-05-11/",
+    "https://www.ig.com/en/news-and-trade-ideas/weekly-market-navigator-11-may-2026-260511",
+    "https://www.youtube.com/watch?v=RPv-wpSlXK4"
+  ]
+}
+```
 

@@ -8723,4 +8723,61 @@ SEC/company quality check:
   "quality_notes": "DRCT shows deteriorating revenue/gross profit (2023: $157M/$37.6M → 2025: $34.7M/$10.4M) tied to single customer event; no durable demand evidence (impressions multicultural-focused but volumes down); balance sheet distress + covenant risks = high execution risk. INUV revenue up 2.9% but margins down 10%; concentration extreme. No GOOGL/GOOG, INTC, USAR, GT in primary focus (DRCT). Watchlist candidates (SQ, IBRX, etc.) not directly assessed here. Overall, microcaps dominate with going concern/loss flags; WS most stable but cyclical.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-11 20:04:36 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "Search results reference SUI (Sui blockchain token), a cryptocurrency, not a US-listed stock or ETF. Peter Brandt's 'major bottom' call is technical analysis on a crypto asset. Stablecoin volume ($1T) and staking metrics (75% supply staked) are blockchain fundamentals, not equity drivers. No actionable US equity/ETF signal detected.",
+  "social_buzz": "Moderate—Veteran trader endorsement ('major bottom') and volume surge ($3B daily) generate retail attention on StockTwits. Language ('strongest moves,' 'major bottom') carries promotional tone typical of crypto hype cycles. Grayscale/Canary/21Shares staking ETF mentions suggest institutional interest, but these are derivative products tracking SUI volatility, not primary catalysts.",
+  "attention_anomalies": [
+    "SUI token peaked $1.27 with $3B daily volume—extreme for crypto but not unusual during bull runs.",
+    "75% staking ratio reduces circulating supply artificially; common tokenomics mechanic, not a fundamental strength signal.",
+    "Stablecoin transfer volume ($1T) is transactional throughput, not adoption proof; does not correlate to token price sustainability.",
+    "Peter Brandt citation: Respected technician, but single trader call on weekly chart is weak foundation for position sizing.",
+    "Grayscale/Canary/21Shares ETF mentions: These track SUI; if SUI corrects, ETF holders face losses. No independent equity thesis."
+  ],
+  "risk_flags": [
+    "Crypto asset, not US equity/ETF—outside mandate scope.",
+    "Hype language ('major bottom,' 'strongest moves') without fundamental earnings, revenue, or cash-flow support.",
+    "Staking and stablecoin metrics are supply/throughput mechanics, not business fundamentals.",
+    "Single technical call from one trader insufficient to override volatility risk in crypto.",
+    "Derivative ETF products amplify SUI volatility; not suitable for conservative allocation strategies."
+  ],
+  "source_urls": [
+    "https://stocktwits.com/news-articles/markets/cryptocurrency/veteran-trader-peter-brandt-flags-major-bottom-on-sui-token-surges/cZX9zUAReWq"
+  ],
+  "recommendation": "REJECT. SUI is a cryptocurrency token, not a US-listed equity or ETF. Search results contain social buzz and technical hype, not fundamental equity research. No US stock/ETF candidate identified. Grayscale/Canary/21Shares staking ETFs are derivative products; their performance depends entirely on SUI price, which is driven by crypto sentiment, not business fundamentals. Do not allocate based on this signal."
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Recent congressional trades in DVN (Devon Energy) show multiple Republican purchases in 2025-2026 including John Boozman (Apr 2026, $1K-$15K buy), Julia Letlow (Dec 2025), Marjorie Taylor Greene (multiple), offset by sales; heavy DVN lobbying on Energy/Nuclear issues ($50K+ quarterly). No other liquid stock/ETF trades in results.",
+  "congressional_signal": "low-weight-delayed; DVN net bullish bias from recent R purchases amid energy lobbying surge",
+  "tickers": ["DVN"],
+  "source_urls": ["https://www.quiverquant.com/stock/DVN/"]
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "Direct Digital Holdings (DRCT) operates a programmatic advertising platform (Colossus SSP) with sell-side (174K buyers, 170B monthly impressions) and buy-side (195 clients, 90% retention) operations. Revenue declined sharply in 2024-2025 ($62.3M/$34.7M) from 2023 peak ($157.1M) due to major sell-side customer pause over defamatory allegations/misinformation campaign; volumes not fully recovered. Going concern doubt with $0.7M cash, $27.7M accumulated deficit; needs funding post-reorg. High client concentration, covenant risks, Nasdaq delisting threat. IVT/fraud mitigation and AI curation strengths, but execution/liquidity risks dominate.",
+  "filing_risks": [
+    "Going concern substantial doubt: $0.7M cash insufficient for 12 months; $27.7M accumulated deficit; reliant on cost cuts, volume recovery, new funding (10-K).",
+    "Revenue concentration: 2024-2025 sell-side pause by one customer crushed revenue/gross profit; ongoing volume shortfall (10-K).",
+    "Balance sheet: Credit facilities covenants (min $450K cash); default risk could accelerate debt, force bankruptcy (10-K).",
+    "Dilution risk: Potential equity/debt raises to fund operations; new securities may dilute Class A shares (10-K).",
+    "Nasdaq delisting: Failure to meet listing standards risk (10-K).",
+    "Revenue quality: Sharp declines 2023-2025; strategic shift to buy-side/enterprise unproven; seasonality, ad fraud, cookie phaseout risks (10-K).",
+    "Capital allocation: Debt maturity Dec 2026; inability to renew/refinance on favorable terms (10-K).",
+    "Operational: Platform issues, IVT/ad fraud detection failure, high customer concentration, payment disputes (10-K).",
+    "Litigation/reputation: Defamatory article triggered customer pause; ongoing impact (10-K)."
+  ],
+  "quality_notes": "Weak durable demand: Revenue/gross profit halved YoY in 2025 amid customer pause; 90% retention positive but volumes not recovered; going concern flags severe liquidity crunch. Balance sheet distress (low cash, deficit, covenants) outweighs ad tech moat (IVT mitigation, SSP/DSP). No litigation details but misinformation campaign hit ops. Watch for funding execution/fraud controls; high execution risk vs. peers like INUV (stable SaaS rev). Chittick: Avoid - pay special attention to GOOGL exposure as key partner/competitor in ad ecosystem.",
+  "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/1880613/000121390026036000/ea0221844-10k_drct.htm"
+  ]
+}
 

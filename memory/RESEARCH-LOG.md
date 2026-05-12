@@ -720,4 +720,9 @@ Candidates found: 4
 Mixed signals in late trading: SOUN tanks 11% AH on unchanged FY2026 guide despite Q1 beat; YSS drops 8%+ on Wolfpack short report alleging Pentagon program loss; crypto optimism from Cathie Wood on CLARITY Act/July 4 but irrelevant for stocks/ETFs. Broader market risk-on bull with overbought tech/AI leadership persists.
 
 Candidates found: 3
+## Two-Hour Research Agent - 2026-05-11 20:04:36 Eastern Daylight Time
+
+INUV shows stable short interest at 2.57% of float (358k shares, +2.6% MoM as of Apr 15), days-to-cover 1.2 on 292k avg vol; low squeeze risk. GuruFocus notes May 9 target price increase on rising demand. No fresh catalysts; microcap ad tech with low conviction.
+
+Candidates found: 1
 

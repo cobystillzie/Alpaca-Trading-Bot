@@ -10329,4 +10329,19 @@ HF filter: sentiment=not run source=9/100 hype=0.10 vetoes=0
 Self-learning: tier=execution-ready repeat48h=1 fresh=yes bucket=semiconductors-ai
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-11 20:04:36 Eastern Daylight Time
+
+Research Update
+
+Market tone: INUV shows stable short interest at 2.57% of float (358k shares, +2.6% MoM as of Apr 15), days-to-cover 1.2 on 292k avg vol; low squeeze risk. GuruFocus notes May 9 target price increase on rising demand. No fresh catalysts; microcap ad tech with low conviction.
+Candidates: 1
+
+1. INUV (communication-services-adtech) | confidence 0.35 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier stale-watch | bucket microcap-adtech | HF source 3/100 | HF veto
+Recommendation: avoid
+Catalyst: GuruFocus May 9 target price increase on rising demand; short interest +2.6% to 2.57% float (Apr 15 data)
+Chittick Cash: Low - microcap valuation unknown; short interest too low for catalyst.
+HF filter: sentiment=not run source=3/100 hype=0.00 vetoes=2
+Self-learning: tier=stale-watch repeat48h=0 fresh=yes bucket=microcap-adtech
+Social buzz, low weight: none
+Congress signal, low weight: none
 
