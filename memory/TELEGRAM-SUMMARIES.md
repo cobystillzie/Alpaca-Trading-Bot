@@ -10676,4 +10676,46 @@ Sources: none
 Rejected / Watchouts
 - RBI.VI: non-us-liquid; Confidence below 0.60.; Target allocation must be between 1% and 15%.
 - INTC: Low-weight social/congress signal needs at least two stronger sources.; repeat_decay
+## Research Update - 2026-05-12 10:51:15 Eastern Daylight Time
+
+Research Update
+
+Market tone: No actionable stock/ETF catalysts in search results. FinCEN BSA reporting critique highlights regulatory costs but no direct equity implications. NYNJ Link Goethals Bridge PABs affirmed 'A' stable on steady revenues/lower O&M. Union Pacific grain volumes hit Q1 2026 record on export demand. Other results: Swedish academic paper, GSA overcriminalization regs (no trades), Zeiss RPT, UK health report, SEC XBRL viewer, school event, UNCF student story.
+Candidates: 4
+
+1. UNP (industrials-rail-transport) | confidence 0.75 | allocation 6.0% | stop 8.0% | Chittick 75/100 | tier watch | bucket industrials-transport | HF source 9/100
+Recommendation: watch
+Catalyst: Q1 2026 grain transports surpass 2008 record on Mexico/overseas feed grain demand per official company news
+Chittick Cash: Asset-heavy balance sheet with irreplaceable rail rights-of-way; trading below 20x fwd FCF
+HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=industrials-transport
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. INTC (information-technology-semiconductors) | confidence 0.75 | allocation 4.0% | stop 8.0% | Chittick 35/100 | tier watch-allocation-constrained | bucket semiconductors-ai | HF source 9/100 | HF veto
+Recommendation: watch-allocation-constrained
+Catalyst: Tigress PT $118 (from $66 Buy), Freedom upgrade Buy $100; May 11 +4.65% rip on volume (memory context, no new search hit)
+Chittick Cash: CHIPS Act funding buffers downside
+HF filter: sentiment=not run source=9/100 hype=0.10 vetoes=1
+Self-learning: tier=watch-allocation-constrained repeat48h=6 fresh=yes bucket=semiconductors-ai
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. SQ (financials-fintech) | confidence 0.72 | allocation 5.0% | stop 8.0% | Chittick 35/100 | tier watch | bucket financials-fintech | HF source 9/100 | HF veto
+Recommendation: watch
+Catalyst: Q1 beat + FY2026 guide raise; GS/Citi/Keefe upgrades (memory, 4 repeats)
+Chittick Cash: Net cash position
+HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=1
+Self-learning: tier=watch repeat48h=5 fresh=yes bucket=financials-fintech
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+4. SPUS (etf-sharia-compliant) | confidence 0.68 | allocation 5.0% | stop 8.0% | Chittick 72/100 | tier watch | bucket etf-sharia-value | HF source 8/100
+Recommendation: watch
+Catalyst: Recent highlighting amid private credit/BSA cost risks ([1]); quality rotation
+Chittick Cash: Debt filter provides buffer
+HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=1 fresh=no bucket=etf-sharia-value
+Social buzz, low weight: none
+Congress signal, low weight: none
 

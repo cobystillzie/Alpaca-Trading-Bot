@@ -9108,4 +9108,107 @@ SEC/company quality check:
   "source_urls": []
 }
 ```
+## Source And Signal Research - 2026-05-12 10:51:15 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "Mixed signals across sectors: DELL drops 5%+ on UBS downgrade despite 'extremely bullish' sentiment and doubled YTD; RKLB slides 4% overnight after Cathie Wood sells amid SpaceX IPO hype (stock +472% past year); Wendy's (WEN) +4% premarket on Nelson Peltz take-private rumors; BW surges 30% post-Q1 with 5,050% retail chatter spike to 'extremely bullish'; IBRX slips despite founder AI/robot/Turkey expansion teases (+292% past year). Trump tariff concerns resurface via Krugman.",
+  "social_buzz": "DELL: extremely bullish despite downgrade/drop; BW: chatter +5,050% to extremely bullish post-earnings; RKLB: SpaceX IPO buzz but ARK dump; WEN: takeover speculation; IBRX: founder hype on AI expansion.",
+  "attention_anomalies": [
+    "BW: Retail chatter +5,050% in 24h, sentiment bearish to extremely bullish, +30% stock move post-Q1 - flag extreme volume spike risk.",
+    "RKLB: +472% past year, ARK dump amid SpaceX IPO fever - hype/pump risk on space sector rotation.",
+    "DELL: Extremely bullish sentiment vs 5%+ drop on downgrade - potential sentiment divergence/contrarian signal.",
+    "IBRX: +292% past year, overnight slip despite AI robot/Turkey hype - flag founder-promoted expansion as speculative."
+  ],
+  "source_urls": [
+    "https://stocktwits.com/news-articles/markets/equity/dell-stock-falls-on-ubs-downgrade-analyst-flags-heated-valuation-capped-upside/cZXXbcfReL9",
+    "https://stocktwits.com/news-articles/markets/equity/trump-tariffs-have-not-gone-away-paul-krugman-says/cZXXPHBReLS",
+    "https://stocktwits.com/news-articles/markets/equity/cathie-wood-sells-rklb-amid-spacex-ipo-buzz/cZXXP0HReLW",
+    "https://stocktwits.com/news-articles/markets/equity/wendy-s-stock-gains-premarket-what-s-driving-the-rally/cZXX4pWReLY",
+    "https://stocktwits.com/news-articles/markets/equity/ibrx-stock-slips-founder-ai-cancer-cell-robot-turkey/cZXXGC3ReLB",
+    "https://stocktwits.com/news-articles/markets/equity/bw-stock-turns-hot-after-stellar-q1-results/cZXXR2eReLa"
+  ]
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No new congressional trades reported in recent disclosures. ARVN shows institutional activity (91 adds, 113 reduces) and cash burn concerns. DVN has prior trade by Sen. Boozman (Apr 9, $1K-$15K purchase) but treated as low-weight delayed context.",
+  "congressional_signal": "None new. Prior DVN purchase by John Boozman (R) on Apr 9, 2026 ($1,001-$15,000). Disclosures delayed.",
+  "tickers": ["ARVN", "DVN"],
+  "source_urls": [
+    "https://www.quiverquant.com/news/Arvinas,+Inc.+Celebrates+FDA+Approval+of+First+PROTAC+Therapy+VEPPANU%E2%84%A2+and+Outlines+Advancements+in+Clinical+Pipeline",
+    "https://www.quiverquant.com/stock/DVN/"
+  ]
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": "DRCT (Direct Digital Holdings) operates a sell-side SSP (Colossus) and buy-side ad platform with 90% client retention but faces severe distress: revenue/gross profit collapsed 2024-25 due to major sell-side customer pause from defamatory article/misinfo campaign (volumes not recovered); cash $0.7M, accum deficit $27.7M, substantial going concern doubt; credit covenants ($450k min cash); high concentration risks; Nasdaq delist threat. INUV (adtech/AI intent) shows modest rev growth but gross margin decline, high customer concentration (64%/19%), history of losses ($178M accum def), neg working capital. Others (NEOV energy storage, WS steel, ICCT SaaS, CRMZ credit monitoring, BRID foods) display varying growth/decline but no acute distress like DRCT.",
+  "filing_risks": {
+    "DRCT": [
+      "Going concern doubt: cash $0.7M insufficient for 12mos, accum def $27.7M, needs funding/reorg success/customer recovery",
+      "Revenue concentration: 2024-25 rev/gp drop from one sell-side customer pause (defamatory article); buy-side shift unproven",
+      "Balance sheet: credit covenants ($450k min cash), debt maturity Dec 2026, dilution risk from equity/debt raises",
+      "Delisting risk: Nasdaq Capital Market failure",
+      "Operational: IVT/fraud, platform issues, cookie phaseout, high client churn potential post-pause",
+      "Litigation/reputation: defamatory article/misinfo campaign impact ongoing"
+    ],
+    "INUV": [
+      "Customer concentration: 2 customers 83.5% rev (64.2%/19.3%), loss of either material adverse",
+      "Loss history: op loss $5.1M 2025, accum def $178M, neg working cap -$5.1M, cash $2.8M",
+      "Revenue quality: gross margin -10.1% to 74.5%, neg op cash flows",
+      "Delisting risk: NYSE American standards",
+      "Dependence: key suppliers (Yahoo/Google), ad fraud, tech changes"
+    ],
+    "NEOV": [
+      "Early stage: sales since 2019, competition from Tesla/Enphase/Sonnen",
+      "Supply chain: Asia/US sourcing, FEOC compliance, component shortages",
+      "Customer concentration implied (small installers), financing dependence post-ITC phaseout",
+      "Regulatory: evolving ESS standards (UL/CSIP/Rule21)"
+    ],
+    "WS": [
+      "Customer concentration: top 3 = 33% sales (auto-heavy)",
+      "Cyclical: steel pricing/volumes, raw material volatility, imports/tariffs",
+      "Debt/capital: capex, acquisitions (recent Sitem), supply chain disruptions"
+    ],
+    "ICCT": [
+      "Limited history: post-SPAC merger 2023, no patents",
+      "Revenue quality: AR concentration 26%/25%, SaaS recurring but dental-heavy",
+      "Dilution: low shares 4.8M but SPAC history",
+      "Competition: fragmented healthcare SaaS"
+    ],
+    "CRMZ": [
+      "No major risks flagged; diversified subs (<1% each), recurring SaaS 99% rev"
+    ],
+    "BRID": [
+      "Customer concentration: WalMart 27.8% rev/25.4% AR, Dollar General 14.2%/20.2%",
+      "Commodity: meat/flour price volatility (no hedging)",
+      "Food industry: contamination/recalls, regulations (USDA/FDA/HACCP)"
+    ]
+  },
+  "quality_notes": {
+    "DRCT": "Avoid - acute distress (going concern, rev collapse, low cash, delist risk); memory confirms Q1 2026 rev -18%, EBITDA loss; high Chittick priority but failing quality guards (balance sheet/concentration)",
+    "INUV": "Weak - customer conc >80%, loss-making, neg WC; durable AI intent demand but execution risks",
+    "NEOV": "Watch - growth in ESS retrofit/C&I, in-house mfg, but early/competitive; durable policy/resiliency demand",
+    "WS": "Stable - large cap, div steel processing, auto exposure; cyclical but strong positioning",
+    "ICCT": "Speculative - post-SPAC SaaS, healthcare niche, low IP protection",
+    "CRMZ": "Quality - recurring SaaS, no conc, bankruptcy analytics durable in rising distress environment",
+    "BRID": "Stable - food mfg, high conc (WalMart/DG ~42% rev), commodity risks but steady"
+  },
+  "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/1880613/000141057826000016/drct-20251231.htm",
+    "https://www.sec.gov/Archives/edgar/data/829323/000141057826000012/inuv-20251231.htm",
+    "https://www.sec.gov/Archives/edgar/data/1748137/000141057825000045/neov-20250630.htm",
+    "https://www.sec.gov/Archives/edgar/data/1968487/000196848725000008/ws-20250531.htm",
+    "https://www.sec.gov/Archives/edgar/data/1906133/000141057825000051/icct-20241231.htm",
+    "https://www.sec.gov/Archives/edgar/data/315958/000141057825000022/crmz-20241231.htm",
+    "https://www.sec.gov/Archives/edgar/data/14177/000141057825000013/brid-20241101.htm"
+  ]
+}
+```
 

@@ -4114,4 +4114,30 @@ The market is at record highs with strong earnings momentum, but faces a **CRITI
 **Current execution-ready candidates** (INTC, SQ, MSFT) should be **queued but not filled** until guards pass. Existing positions should be **monitored for stop-loss triggers** if VIX breaks 20 or geopolitical escalation occurs.
 
 **Defensive rotation** (SCHD, DVN) is **preferred over Tech Plus concentration** for new allocations.
+## Market Regime Research - 2026-05-12 10:51:15 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities in record-high uptrend driven by AI/tech euphoria, narrow leadership (semis/software), and sector rotation into energy/materials. Pre-CPI caution with Asian session pullback, VIX creeping toward 20, hawkish Fed 'higher for longer' bias amid sticky inflation expectations. Risk-on tone persists but breadth deteriorating (<50% S&P stocks >50DMA).",
+  "market_regime": "late-cycle bull with pre-data consolidation; risk-on narrowing to AI/semiconductors amid rotation risks",
+  "sector_rotation": "Energy/materials leading outperformers; defensives/growth trailing; tech/AI (semis +19pp vs SPX, software breakout) dominates S&P weight; narrow leadership (14/ industry groups > SPX 1M)",
+  "risk_flags": [
+    "VIX approaching 20 danger zone (high vol environment)",
+    "Deteriorating breadth: <50% S&P stocks >50DMA despite new highs",
+    "Pre-CPI volatility catalyst (hot print risk: hawkish USD/Fed, gold $4500 test)",
+    "Narrow leadership dependent on tech/AI hyperscaler capex cycle",
+    "Rising rates pressure on rate-sensitive sectors"
+  ],
+  "source_urls": [
+    "https://www.monex.com.mx/portal/download/reportes/AlCierre%2020260511%20ing.pdf",
+    "https://www.youtube.com/watch?v=_i1o-dzxXbU",
+    "https://tradersunion.com/news/market-voices/show/2035044-sector-rotation-may-2026/",
+    "https://think.ing.com/articles/fx-daily-impact-of-us-cpi-mostly-depends-on-equities/",
+    "https://www.youtube.com/watch?v=RPv-wpSlXK4",
+    "https://articles.stockcharts.com/article/what-you-need-to-know-about-current-market-rotation/",
+    "https://www.fxstreet.com/analysis/market-focus-on-us-cpi-rates-for-april-202605120924",
+    "https://www.bloomberg.com/news/videos/2026-05-12/why-ai-matters-more-than-iran-war-in-markets-video"
+  ]
+}
+```
 
