@@ -69,4 +69,14 @@ Catalyst: New Anktiva-NK cell therapy study announced post-Q1 earnings; +9% week
 Bear case: Q1 net loss $633M vs $130M YoY (R&D/cash burn); FDA delay risk on sBLA; biotech volatility.
 Stop plan: 8.0% stop/trailing review.
 Warnings: none
+## ORDER: Paper Buy LNC - 2026-05-12 09:55:08 Eastern Daylight Time
+
+Symbol: LNC
+Notional: $500.00
+Order id: 18318d7b-90d0-4ca5-b962-49f4eb2980b8
+Thesis: Quality insurer with strong capital foundation executing on earnings trajectory; market mispricing Q1 strength as weakness.
+Catalyst: Q1 $326M earnings reality vs market-priced weakness per AInvest analysis.
+Bear case: Persistent sector weakness pricing or macro credit stress hitting insurers.
+Stop plan: 8.0% stop/trailing review.
+Warnings: none
 
