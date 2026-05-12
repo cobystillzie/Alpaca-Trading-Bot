@@ -4140,4 +4140,30 @@ The market is at record highs with strong earnings momentum, but faces a **CRITI
   ]
 }
 ```
+## Market Regime Research - 2026-05-12 11:34:38 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities in risk-on recovery mode post-March correction, with S&P 500 up ~9% YTD and 10% in April on strong earnings. Narrow leadership in Tech/AI persists amid small/mid-cap outperformance (Russell 2000 +15.7%, Micro-caps +17.9%). Fed transition to Warsh signals smaller footprint, less guidance, higher volatility ahead. Hotter CPI expected today could reinforce hawkish USD curve. VIX at 17.19 indicates moderate fear.",
+  "market_regime": "Risk-on recovery with rotation breadth; narrow Tech leadership but small-cap/value outperformance signals healthy dispersion. Cautious due to Fed transition and fiscal pressures.",
+  "sector_rotation": "Tech/Communication/Discretionary leading post-March; Energy/Materials cooling from Q1 peaks. Small/mid-caps >> S&P 500 cap-weight. Defensives (Utilities/Health/Staples) flat/lagging. Financials stumbling (-10% from Jan highs). IT sector strength at 67-68%.",
+  "risk_flags": [
+    "Fed leadership shift to Warsh: less guidance → front-end rate volatility ↑",
+    "Hot CPI print expected (0.9% MoM headline) → hawkish repricing risk",
+    "Fiscal deficits + shrinking Fed balance sheet → Treasury yield pressure",
+    "Narrow S&P leadership despite breadth improvement",
+    "Asian session equity correction noted pre-CPI",
+    "VIX 17.19: elevated vs recent lows but not extreme"
+  ],
+  "source_urls": [
+    "https://www.monex.com.mx/portal/download/reportes/AlCierre%2020260511%20ing.pdf",
+    "https://www.lepinefinancial.com/weekly-market-commentary-may-11-2026-9e150",
+    "https://articles.stockcharts.com/article/market-breadth-fears-are-everywhere-but-data-tells-a-more-nuanced-story/",
+    "https://think.ing.com/articles/fx-daily-impact-of-us-cpi-mostly-depends-on-equities/",
+    "https://www.blackrock.com/corporate/insights/blackrock-investment-institute/publications/weekly-commentary",
+    "https://www.barchart.com/stocks/market-performance",
+    "https://www.fxstreet.com/analysis/market-focus-on-us-cpi-rates-for-april-202605120924"
+  ]
+}
+```
 

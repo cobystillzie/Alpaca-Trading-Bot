@@ -9211,4 +9211,45 @@ SEC/company quality check:
   ]
 }
 ```
+## Source And Signal Research - 2026-05-12 11:34:38 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks/ETFs. Social buzz remains weak context only across candidates like INTC, SQ, SPUS, SCHD.",
+  "social_buzz": "None detected; no hits on public web/social-attention for hype, pumps, or unsupported claims.",
+  "attention_anomalies": "No anomalies flagged. Existing candidates show no evidence of suspected hype or pump language.",
+  "source_urls": []
+}
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Search results highlight insider trading activity in $ARVN (mostly sales, 1 purchase) and $CWCO (3 purchases, 6 sales), institutional shifts in $ARVN, congressional purchase of $DVN by Sen. John Boozman (Apr 9, $1K-$15K), and press releases on funding secured by Reps. Salinas, Diaz-Balart, Schrier et al. No new congressional trades beyond known $DVN.",
+  "congressional_signal": "Single recent disclosure: Sen. John Boozman (R) purchased $1,001-$15,000 DVN on Apr 09, 2026. Low-weight, delayed context only.",
+  "tickers": ["ARVN", "CWCO", "DVN"],
+  "source_urls": [
+    "https://www.quiverquant.com/news/Arvinas,+Inc.+Celebrates+FDA+Approval+of+First+PROTAC+Therapy+VEPPANU%E2%84%A2+and+Outlines+Advancements+in+Clinical+Pipeline",
+    "https://www.quiverquant.com/stock/DVN/"
+  ]
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": "ARAI (Arrive AI Inc.) is an early-stage smart mailbox company with drone/robot delivery tech, 9 US patents (exp 2034-2043), 3 registered TMs, and temperature-controlled features for pharma but explicitly disclaims cold chain liability. 41 employees, history of losses, negative cash flow, needs funding. Extensive risks: dilution from $40M Streeterville facility, IP reliance on CEO license, early-stage execution, AI/tech risks, regulation, competition. DRCT shows revenue decline to $34.7M (2025), going concern doubt, customer concentration. Others (SES, CHGG, PUBM, ABNB, NEOV) highlight execution/competition risks but ARAI/DRCT most fragile.",
+  "filing_risks": {
+    "balance_sheet": "ARAI: Negative operating cash flow, needs substantial additional funds; Streeterville $40M facility risks triggering cash repayments impairing liquidity, dilution/downward pressure on stock. DRCT: $0.7M cash, $27.7M accumulated deficit, going concern doubt, credit facilities covenants ($450K min cash).",
+    "concentration": "ARAI: Highly dependent on management/CEO (IP license), third-party suppliers. DRCT: High customer concentration (one sell-side customer pause caused revenue drop 2024-25), payment risks from DSP buyers.",
+    "litigation": "ARAI: Potential IP litigation to defend/enforce rights. DRCT: Defamatory article/misinfo campaign caused customer pause. PUBM: Ongoing litigation with Google LLC.",
+    "dilution": "ARAI: Streeterville repayment mechanics cause dilution/downward stock pressure; raising capital dilutes stockholders. DRCT: Additional equity/debt dilutive.",
+    "revenue_quality": "ARAI: Early-stage, limited history, no broad acceptance guarantee for drone/robot services; SaaS recurring risks. DRCT: Revenue declined sharply 2024-25 due to customer pause, seasonal fluctuations.",
+    "capital_allocation": "ARAI: Related-party transactions (CEO IP license) create conflicts; acquisitions risky. DRCT: Reorganization plan, strategic shift to buy-side unproven.",
+    "valuation": "ARAI: Early-stage losses, high execution risk justify premium compression. DRCT: Going concern, Nasdaq delisting risk.",
+    "durable_demand": "ARAI: Cold chain features but 'will not guarantee temperature' - liability shift to manufacturers/third parties limits pharma TAM; partner compliance costs deter adoption. Patents strong (9 issued US, 77 intl pending) but dependent on drone/robot market growth. DRCT: 90% retention but volumes not recovered post-pause."
+  },
+  "quality_notes": "ARAI: Strong IP moat (patents to 2043, TMs) but execution-heavy (41 employees, losses, funding need); cold chain disclaimer smart risk mgmt but caps revenue quality. Watch for Streeterville triggers/dilution. DRCT: Weak - revenue collapse, going concern, delisting risk; avoid. No GOOGL/INTC/USAR/GT. ARAI execution-ready if funding secured (semi-adjacent drone tech), but high Chittick veto risk on dilution/IP reliance.",
+  "source_urls": []
+}
+```
 

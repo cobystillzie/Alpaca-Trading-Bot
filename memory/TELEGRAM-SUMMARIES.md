@@ -10718,4 +10718,46 @@ HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
 Self-learning: tier=watch repeat48h=1 fresh=no bucket=etf-sharia-value
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-12 11:34:38 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities in risk-on recovery with narrow Tech/AI leadership amid small/mid-cap rotation breadth. No fresh search catalysts; relying on memory for recent analyst upgrades/earnings beats in semis/fintech. VIX moderate at 17; watch Fed transition volatility.
+Candidates: 4
+
+1. INTC (information-technology-semiconductors) | confidence 0.75 | allocation 4.0% | stop 8.0% | Chittick 35/100 | tier watch-allocation-constrained | bucket semiconductors-ai | HF source 9/100 | HF veto
+Recommendation: watch-allocation-constrained
+Catalyst: Tigress PT $118 (from $66 Buy), Freedom upgrade Buy $100; May 11 +4.65% intraday rip from $60s to $120+ on volume (6 repeats, no new hits today)
+Chittick Cash: Trading below historical highs with foundry catalysts providing downside protection vs peak valuations.
+HF filter: sentiment=not run source=9/100 hype=0.20 vetoes=1
+Self-learning: tier=watch-allocation-constrained repeat48h=7 fresh=yes bucket=semiconductors-ai
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. SQ (financials-fintech) | confidence 0.72 | allocation 5.0% | stop 8.0% | Chittick 35/100 | tier watch | bucket financials-fintech | HF source 9/100
+Recommendation: watch
+Catalyst: Q1 earnings beat + FY2026 guidance raised; GS/Citi/Keefe upgrades $90-100 PTs; +8% May 11 open (5 repeats, no new today)
+Chittick Cash: Post-earnings derating provides buffer vs growth trajectory.
+HF filter: sentiment=not run source=9/100 hype=0.10 vetoes=0
+Self-learning: tier=watch repeat48h=6 fresh=yes bucket=financials-fintech
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. UNP (industrials-rail-transport) | confidence 0.75 | allocation 6.0% | stop 8.0% | Chittick 75/100 | tier watch | bucket industrials-transport | HF source 9/100
+Recommendation: watch
+Catalyst: Q1 2026 grain transports surpass 2008 record on Mexico/overseas demand per company news.
+Chittick Cash: Asset-heavy with regulated returns buffering downturns.
+HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=1 fresh=yes bucket=industrials-transport
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+4. SCHD (etf-dividend-value) | confidence 0.70 | allocation 4.0% | stop 8.0% | Chittick 35/100 | tier watch-allocation-constrained | bucket dividend-etf-defensive | HF source 9/100 | HF veto
+Recommendation: watch-allocation-constrained
+Catalyst: Ongoing value/dividend rotation per JPM; Morningstar Gold-rated #1 (20+ repeats).
+Chittick Cash: Dividend buffer and quality screen.
+HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=1
+Self-learning: tier=watch-allocation-constrained repeat48h=20 fresh=no bucket=dividend-etf-defensive
+Social buzz, low weight: low-weight attention
+Congress signal, low weight: none
 
