@@ -725,4 +725,9 @@ Candidates found: 3
 INUV shows stable short interest at 2.57% of float (358k shares, +2.6% MoM as of Apr 15), days-to-cover 1.2 on 292k avg vol; low squeeze risk. GuruFocus notes May 9 target price increase on rising demand. No fresh catalysts; microcap ad tech with low conviction.
 
 Candidates found: 1
+## Two-Hour Research Agent - 2026-05-11 22:05:37 Eastern Daylight Time
+
+Early Tuesday pre-market quiet with no major catalysts from search results; small-cap AI themes (RXRX, ADUR, POET) highlighted for long-term potential but high volatility and pre-revenue risks limit short-term execution; under-$10 stocks list and momentum ideas noted but lack fresh triggers; memory shows INTC/SQ execution-ready on analyst upgrades/earnings beats; risk-on breadth into small-caps/value persists amid record highs.
+
+Candidates found: 4
 

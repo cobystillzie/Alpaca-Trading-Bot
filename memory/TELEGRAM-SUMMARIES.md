@@ -10344,4 +10344,46 @@ HF filter: sentiment=not run source=3/100 hype=0.00 vetoes=2
 Self-learning: tier=stale-watch repeat48h=0 fresh=yes bucket=microcap-adtech
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-11 22:05:37 Eastern Daylight Time
+
+Research Update
+
+Market tone: Early Tuesday pre-market quiet with no major catalysts from search results; small-cap AI themes (RXRX, ADUR, POET) highlighted for long-term potential but high volatility and pre-revenue risks limit short-term execution; under-$10 stocks list and momentum ideas noted but lack fresh triggers; memory shows INTC/SQ execution-ready on analyst upgrades/earnings beats; risk-on breadth into small-caps/value persists amid record highs.
+Candidates: 4
+
+1. INTC (information-technology-semiconductors) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 76/100 | tier execution-ready | bucket semiconductors-ai | HF source 9/100
+Recommendation: execute-if-guards-pass
+Catalyst: Tigress PT $118 (from $66 Buy), Freedom upgrade to Buy $100; +4.65% intraday May 11 rip from $60s on volume.
+Chittick Cash: Trading below analyst PTs with gov't backing; downside to $110 support.
+HF filter: sentiment=not run source=9/100 hype=0.20 vetoes=0
+Self-learning: tier=execution-ready repeat48h=2 fresh=yes bucket=semiconductors-ai
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. SQ (financials-fintech) | confidence 0.80 | allocation 7.0% | stop 8.0% | Chittick 74/100 | tier execution-ready | bucket financials-fintech | HF source 9/100
+Recommendation: execute-if-guards-pass
+Catalyst: Q1 earnings beat + FY2026 guidance raised; GS/Citi/Keefe upgrades; +8% open May 11.
+Chittick Cash: Below avg PTs; sticky SMB base.
+HF filter: sentiment=not run source=9/100 hype=0.10 vetoes=0
+Self-learning: tier=execution-ready repeat48h=2 fresh=yes bucket=financials-fintech
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. RXRX (healthcare-biotech) | confidence 0.65 | allocation 4.0% | stop 8.0% | Chittick 35/100 | tier watch | bucket healthcare-biotech-ai | HF source 6/100
+Recommendation: watch
+Catalyst: Featured in Tickeron 20 AI small-caps forecast (life sciences AI cluster); highest volatility tier but 5yr upside cited.
+Chittick Cash: Low price but binary biotech risks.
+HF filter: sentiment=not run source=6/100 hype=0.60 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=healthcare-biotech-ai
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+4. IWM (etf-small-cap) | confidence 0.75 | allocation 6.0% | stop 8.0% | Chittick 72/100 | tier watch | bucket etf-small-cap | HF source 8/100
+Recommendation: watch
+Catalyst: Top ETF in AI small-cap framework; $69B AUM, low-moderate vol; under-$10 stocks momentum ties to small-cap breadth.
+Chittick Cash: Diversified; historical small-cap premia.
+HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=etf-small-cap
+Social buzz, low weight: none
+Congress signal, low weight: none
 

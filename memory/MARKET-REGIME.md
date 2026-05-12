@@ -3633,4 +3633,32 @@ The market is at record highs with strong earnings momentum, but faces a **CRITI
   ]
 }
 ```
+## Market Regime Research - 2026-05-11 22:05:37 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities exhibit bullish momentum with S&P 500 and Nasdaq at record highs driven by exceptional Q1 earnings growth (~28% YoY) and AI/semiconductor leadership, despite early Tuesday open weakness in tech. Labor market stable (4.3% unemployment, strong payrolls), Fed likely holding rates steady amid persistent inflation pressures from energy shocks. Broadening participation noted but concentration risks persist in mega-cap tech/AI.",
+  "market_regime": "bullish_trending_with_volatility",
+  "sector_rotation": "tech_ai_semiconductors_lead_broadening_to_smallcaps_value",
+  "risk_flags": [
+    "fed_no_cuts_pressure",
+    "geopolitical_oil_tensions",
+    "elevated_tech_valuations",
+    "market_breadth_deterioration",
+    "rising_inflation_energy_shock"
+  ],
+  "source_urls": [
+    "https://www.mexc.com/news/1082699",
+    "https://www.youtube.com/watch?v=LN3mW6TSFEU",
+    "https://carystreetpartners.com/insight/markets-recovered-in-april-but-risks-remain/",
+    "https://www.tradingkey.com/analysis/stocks/us-stocks/261878587-nasdaq-sp500-sox-google-oracle-amazon-chip-ai-intel-amd-tradingkey",
+    "https://www.youtube.com/watch?v=THerlAJ-mmI",
+    "https://www.ig.com/uk/news-and-trade-ideas/_us-earnings-drive-stocks-to-record-highs-260511",
+    "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/ai-spending-inelastic-andrew-sheets",
+    "https://www.youtube.com/watch?v=RPv-wpSlXK4",
+    "https://www.carsonwealth.com/insights/blog/market-commentary-strong-earnings-labor-market-improvement-help-send-sp-500-to-sixth-straight-week-of-gains/",
+    "https://www.schwab.com/learn/market-commentary"
+  ]
+}
+```
 

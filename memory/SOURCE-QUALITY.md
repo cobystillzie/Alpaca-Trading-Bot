@@ -8780,4 +8780,45 @@ SEC/company quality check:
     "https://www.sec.gov/Archives/edgar/data/1880613/000121390026036000/ea0221844-10k_drct.htm"
   ]
 }
+## Source And Signal Research - 2026-05-11 22:05:37 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "Barrick Gold (B) announced Q1 revenue beat ($5.22B vs $4.84B est, -13% YoY) and $3B share buyback; pre-market -1% despite 'investor enthusiasm' and trending status; YTD -1.4%. Weak social context, no clear attention anomaly vs peers.",
+  "social_buzz": "low-moderate; top trending ticker per Stocktwits but pre-market dip suggests limited conviction",
+  "attention_anomalies": "none; standard earnings+buyback reaction with mild negative price action",
+  "source_urls": ["https://stocktwits.com/news-articles/equity/markets/barrick-b-stock-pre-market-activity-3billion-buyback-q1-results/cZXacm2ReWx"]
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Limited congressional trading activity detected. Single recent purchase of DVN (Devon Energy) by Sen. John Boozman (R) on Apr 9, 2026 ($1K-$15K). No other recent trades in liquid US stocks/ETFs reported. Various press releases on funding and FEC filings noted but no additional trade disclosures.",
+  "congressional_signal": "weak",
+  "tickers": ["DVN"],
+  "source_urls": ["https://www.quiverquant.com/stock/DVN/"]
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": "Direct Digital Holdings (DRCT) operates a sell-side SSP (Colossus) and buy-side managed services in digital advertising. 2025 revenue $34.7M (-44% YoY), gross profit $10.4M (-40% YoY) due to major sell-side customer pause from defamatory article/misinformation campaign (reconnected May 2024 but volumes below prior levels). Cash $0.7M, accumulated deficit $27.7M, substantial going concern doubt. High client retention 90% but buy-side only 195 clients; 73 employees. Growth plans: sales expansion, acquisitions, audience curation. Competes with Pubmatic/Magnite/Google.",
+  "filing_risks": [
+    "Going Concern: Cash $0.7M insufficient for 12 months; depends on cost cuts, sell-side volume recovery, new funding (substantial doubt per auditors).",
+    "Customer Concentration: 2024/2025 revenue/gross profit drop from one sell-side customer pause; high reliance on few clients (90% retention but small buy-side base).",
+    "Balance Sheet: Accumulated deficit $27.7M; credit facilities with $450k min cash covenant, default risk, debt acceleration possible.",
+    "Revenue Quality: Sharp declines 2024 ($62.3M) and 2025 ($34.7M) not 'reflective of underlying model' per mgmt; defamatory article impact ongoing.",
+    "Dilution: Additional equity/debt likely needed; new securities may dilute shareholders.",
+    "Delisting Risk: Nasdaq compliance issues possible.",
+    "Operational: IVT/fraud detection critical; platform failures, cookie deprecation, privacy regs threaten.",
+    "Litigation/Rep: Defamatory article/coordinated misinformation cited; advertising fraud, payment disputes risks.",
+    "Capital Allocation: Acquisitions planned but integration risks; debt covenants restrict."
+  ],
+  "quality_notes": "Weak durable demand: Revenue/gross profit halved 2023-2025 from customer pause, no recovery to prior levels. Balance sheet distress (going concern, low cash). High concentration (one customer caused collapse). Mgmt attributes to external 'misinformation' but no evidence of broad platform strength. 90% retention positive but small client base (195 buy-side). Competes in consolidated SSP space vs giants. Avoid: execution risks, funding dependency, delisting threat outweigh microcap adtech rebound potential.",
+  "source_urls": []
+}
+```
 

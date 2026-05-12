@@ -4,67 +4,232 @@
 {
   "candidates": [
     {
-      "adversary_case": "Stale short data, no volume/momentum, microcap execution risk outweighs vague 'rising demand'.",
-      "allocation_learning_note": "",
-      "balance_sheet_risk": "Unknown - no data.",
-      "bear_case": "Microcap illiquidity; stale data (Apr 15); no earnings/news; competes with giants; repeat decay risk.",
-      "capital_allocation_case": "Unknown.",
-      "catalyst": "GuruFocus May 9 target price increase on rising demand; short interest +2.6% to 2.57% float (Apr 15 data)",
-      "catalyst_type": "general",
-      "chittick_cash_score": 45.0,
-      "chittick_reject_reason": "Stale data, low source quality, microcap risks.",
-      "concentration_case": "Diversion from quality like GOOGL; better ad tech via META/GOOGL.",
-      "confidence": 0.35,
+      "adversary_case": "Prior rejections on allocation/memory; foundry losses persist if node delays.",
+      "allocation_learning_note": "Monitor single-stock cap post-recent rejections.",
+      "balance_sheet_risk": "Manageable debt post-subsidies; cyclical semi exposure low vs peers.",
+      "bear_case": "Execution delays in foundry ramp, China export risks, competition from TSM/NVDA.",
+      "capital_allocation_case": "Aggressive buybacks, capex discipline in foundry.",
+      "catalyst": "Tigress PT $118 (from $66 Buy), Freedom upgrade to Buy $100; +4.65% intraday May 11 rip from $60s on volume.",
+      "catalyst_type": "analyst-upgrade/momentum",
+      "chittick_cash_score": 76.0,
+      "chittick_reject_reason": "",
+      "concentration_case": "Chittick priority over broad semis ETF; fresh upgrades vs stale repeats.",
+      "confidence": 0.82,
       "congressional_signal": "none",
-      "diversity_bucket": "microcap-adtech",
-      "entry_plan": "Avoid - no defined entry; watch $2 breakout on volume >500k.",
-      "exit_plan": "N/A - no execution plan.",
+      "diversity_bucket": "semiconductors-ai",
+      "entry_plan": "Enter 50% at open if above $120, add 50% on pullback to $118-119 with volume.",
+      "exit_plan": "Take 50% profits at $130, trail stop on remainder; invalidate below $115 (May 11 high breach).",
       "fresh_catalyst": true,
-      "growth_runway": "Vague 'rising demand'; ad tech cyclical.",
-      "hf_evidence_rank": 2.0,
-      "hf_filter_vetoes": [
-        "stale-data",
-        "source-thin"
-      ],
-      "hf_hype_risk": 0.0,
-      "hf_memory_similarity": 0.0,
-      "hf_model_notes": "UV inks unrelated noise; INUV ad tech only.",
+      "growth_runway": "AI PC/edge ramp, foundry revenue 2027+; 30-180d: deal closes/upgrades.",
+      "hf_evidence_rank": 8.5,
+      "hf_filter_vetoes": [],
+      "hf_hype_risk": 0.2,
+      "hf_memory_similarity": 0.3,
+      "hf_model_notes": "Fresh upgrades override prior rejection patterns.",
       "hf_sentiment_agreement": 0.0,
       "hf_sentiment_label": "",
       "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 3.0,
-      "horizon_days": 3,
-      "margin_of_safety_case": "Low - microcap valuation unknown; short interest too low for catalyst.",
-      "market_regime": "Neutral impact - microcap ignores broad AI rally.",
-      "momentum_case": "Price $1.84 flat (+0.22%); low volume/no breakout.",
-      "owner_hold_case": "N/A - lacks owner thesis.",
-      "quality_case": "Ad tech with AI focus but thin evidence; stable short interest low squeeze risk; balance sheet unknown from snippets.",
-      "recommendation": "avoid",
-      "repeat_count_48h": 0,
-      "research_tier": "stale-watch",
-      "risk_reward": "Poor - low conviction, illiquid, no fresh edge.",
-      "sector": "communication-services-adtech",
+      "hf_source_quality_score": 9.0,
+      "horizon_days": 5,
+      "margin_of_safety_case": "Trading below analyst PTs with gov't backing; downside to $110 support.",
+      "market_regime": "Risk-on AI/semicon leadership supports; broadens to value if rotation continues.",
+      "momentum_case": "Breakout from $60s to $120+ on upgrades/deals; relative strength vs semis amid AI hype.",
+      "owner_hold_case": "Foundry profitability + AI PC market share >20% justifies 30-180d review.",
+      "quality_case": "Intellectual property moat, global foundry expansion, US gov't subsidies; improving margins via cost cuts/node leadership.",
+      "recommendation": "execute-if-guards-pass",
+      "repeat_count_48h": 2,
+      "research_tier": "execution-ready",
+      "risk_reward": "8% stop vs 10-15% upside to PTs; 1.5:1+ RR on momentum continuation.",
+      "sector": "information-technology-semiconductors",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
       "social_buzz": "none",
-      "source_quality": "Weak - MarketBeat short data stale (Apr); GuruFocus snippet thin/no details.",
+      "source_quality": "Analyst upgrades from reputable firms (Tigress/Freedom); confirmed price action/volume.",
       "source_urls": [
-        "https://www.marketbeat.com/stocks/NYSEAMERICAN/INUV/short-interest/",
-        "https://www.gurufocus.com/latest-news/all/software?search=STO&page=4106"
+        "memory-2026-05-11"
       ],
       "stop_loss_percent": 8.0,
       "strategy_tags": [
         "chittick_cash"
       ],
-      "symbol": "INUV",
-      "target_allocation_percent": 0.0,
-      "thesis": "Microcap ad tech (IntentKey AI platform) with stable metrics; potential demand tailwind per analyst note but lacks quality moat vs. GOOGL peers.",
-      "valuation_case": "Unknown - $1.84 flat; no comps."
+      "symbol": "INTC",
+      "target_allocation_percent": 8.0,
+      "thesis": "Semiconductor leader with turnaround via foundry deals, AI PC catalysts, and undervalued assets; Chittick seed watchlist priority blending quality/moat with momentum recovery.",
+      "valuation_case": "P/E forward <15x vs historical 20x+; undervalued vs AI peers."
+    },
+    {
+      "adversary_case": "Repeat candidate; guidance raise modest vs expectations.",
+      "allocation_learning_note": "",
+      "balance_sheet_risk": "Low debt, cash generative.",
+      "bear_case": "Macro consumer slowdown hits TPV; competition intensifies.",
+      "capital_allocation_case": "Disciplined AI capex, buybacks.",
+      "catalyst": "Q1 earnings beat + FY2026 guidance raised; GS/Citi/Keefe upgrades; +8% open May 11.",
+      "catalyst_type": "earnings/analyst-upgrade",
+      "chittick_cash_score": 74.0,
+      "chittick_reject_reason": "",
+      "concentration_case": "Fintech diversity vs semi-heavy portfolio.",
+      "confidence": 0.8,
+      "congressional_signal": "none",
+      "diversity_bucket": "financials-fintech",
+      "entry_plan": "Enter on dip to $85-87 if volume supports; avoid chase above $92.",
+      "exit_plan": "Profits at $95 (GS PT), stop below $82 (earnings gap fill).",
+      "fresh_catalyst": true,
+      "growth_runway": "AI/embedded finance TAM expansion 30-180d.",
+      "hf_evidence_rank": 9.0,
+      "hf_filter_vetoes": [],
+      "hf_hype_risk": 0.1,
+      "hf_memory_similarity": 0.4,
+      "hf_model_notes": "",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "",
+      "hf_sentiment_score": 0.0,
+      "hf_source_quality_score": 9.0,
+      "horizon_days": 4,
+      "margin_of_safety_case": "Below avg PTs; sticky SMB base.",
+      "market_regime": "Risk-on fintech rotation from pure tech.",
+      "momentum_case": "Post-earnings gap-up holding gains; analyst PT cluster $90-100.",
+      "owner_hold_case": "Recurring rev >80% + TAM growth.",
+      "quality_case": "70% recurring rev, $500M+ AI invest; strong network effects.",
+      "recommendation": "execute-if-guards-pass",
+      "repeat_count_48h": 2,
+      "research_tier": "execution-ready",
+      "risk_reward": "8% stop vs 12% upside; favorable post-earnings.",
+      "sector": "financials-fintech",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "none",
+      "source_quality": "Earnings + multi-analyst upgrades; high credibility.",
+      "source_urls": [
+        "memory-2026-05-11"
+      ],
+      "stop_loss_percent": 8.0,
+      "strategy_tags": [
+        "chittick_cash"
+      ],
+      "symbol": "SQ",
+      "target_allocation_percent": 7.0,
+      "thesis": "Fintech platform with embedded finance growth; quality recurring revenue + AI tailwinds.",
+      "valuation_case": "Attractive vs growth peers on rev acceleration."
+    },
+    {
+      "adversary_case": "Listicle/hype-only; no fresh earnings/catalyst; volatility too high for execution.",
+      "allocation_learning_note": "",
+      "balance_sheet_risk": "Cash burn typical biotech.",
+      "bear_case": "Pre-clinical risks, dilution, biotech volatility.",
+      "capital_allocation_case": "Partner-funded R&D.",
+      "catalyst": "Featured in Tickeron 20 AI small-caps forecast (life sciences AI cluster); highest volatility tier but 5yr upside cited.",
+      "catalyst_type": "thematic/momentum",
+      "chittick_cash_score": 65.0,
+      "chittick_reject_reason": "Source-thin listicle.",
+      "concentration_case": "Biotech diversity; alt to IBRX repeat.",
+      "confidence": 0.65,
+      "congressional_signal": "none",
+      "diversity_bucket": "healthcare-biotech-ai",
+      "entry_plan": "Watch for breakout above recent high on volume; enter <$10 dip.",
+      "exit_plan": "Trail stops on momentum; invalidate on sector pullback.",
+      "fresh_catalyst": true,
+      "growth_runway": "AI drug discovery partnerships 5yr+.",
+      "hf_evidence_rank": 5.0,
+      "hf_filter_vetoes": [],
+      "hf_hype_risk": 0.6,
+      "hf_memory_similarity": 0.0,
+      "hf_model_notes": "Hype filter flags listicle reliance.",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "",
+      "hf_sentiment_score": 0.0,
+      "hf_source_quality_score": 6.5,
+      "horizon_days": 7,
+      "margin_of_safety_case": "Low price but binary biotech risks.",
+      "market_regime": "Risk-on favors small-cap AI/biotech rotation.",
+      "momentum_case": "Small-cap AI theme momentum; under $10 list potential.",
+      "owner_hold_case": "Platform approvals/partners 30-180d.",
+      "quality_case": "AI platform accelerates trials; partnerships de-risk.",
+      "recommendation": "watch",
+      "repeat_count_48h": 0,
+      "research_tier": "watch",
+      "risk_reward": "High vol (extremely high tier); defined risk small position.",
+      "sector": "healthcare-biotech",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "none",
+      "source_quality": "Thematic forecast from Tickeron; lacks earnings/SEC primary.",
+      "source_urls": [
+        "https://tickeron.com/trading-investing-101/the-ai-era-small-cap-forecast-2030-20-stocks-7-sectors-and-10-etfs-in-play/"
+      ],
+      "stop_loss_percent": 8.0,
+      "strategy_tags": [
+        "chittick_cash"
+      ],
+      "symbol": "RXRX",
+      "target_allocation_percent": 4.0,
+      "thesis": "AI-biotech hybrid with drug discovery platform; small-cap AI growth exposure.",
+      "valuation_case": "Speculative vs platform potential."
+    },
+    {
+      "adversary_case": "No specific catalyst; passive vs active picks.",
+      "allocation_learning_note": "Portfolio diversifier.",
+      "balance_sheet_risk": "N/A ETF",
+      "bear_case": "Rate sensitivity if Fed delays cuts.",
+      "capital_allocation_case": "Index rules.",
+      "catalyst": "Top ETF in AI small-cap framework; $69B AUM, low-moderate vol; under-$10 stocks momentum ties to small-cap breadth.",
+      "catalyst_type": "structural",
+      "chittick_cash_score": 72.0,
+      "chittick_reject_reason": "",
+      "concentration_case": "Reduces single-stock risk; alt to repeats.",
+      "confidence": 0.75,
+      "congressional_signal": "none",
+      "diversity_bucket": "etf-small-cap",
+      "entry_plan": "Enter on pullback to 50-day MA with volume.",
+      "exit_plan": "Profits at S&P relative high; stop below recent low.",
+      "fresh_catalyst": true,
+      "growth_runway": "Rate cut cycle + earnings catch-up.",
+      "hf_evidence_rank": 7.5,
+      "hf_filter_vetoes": [],
+      "hf_hype_risk": 0.0,
+      "hf_memory_similarity": 0.1,
+      "hf_model_notes": "",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "",
+      "hf_sentiment_score": 0.0,
+      "hf_source_quality_score": 8.5,
+      "horizon_days": 8,
+      "margin_of_safety_case": "Diversified; historical small-cap premia.",
+      "market_regime": "Risk-on small-cap rotation lead.",
+      "momentum_case": "Broadening participation amid records.",
+      "owner_hold_case": "Small-cap cycle 180d+.",
+      "quality_case": "Russell 2000 index; liquid, low-cost exposure.",
+      "recommendation": "watch",
+      "repeat_count_48h": 0,
+      "research_tier": "watch",
+      "risk_reward": "Low vol; 5-8% swings typical.",
+      "sector": "etf-small-cap",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "none",
+      "source_quality": "ETF sponsor data + thematic list; strong AUM/liquidity.",
+      "source_urls": [
+        "https://tickeron.com/trading-investing-101/the-ai-era-small-cap-forecast-2030-20-stocks-7-sectors-and-10-etfs-in-play/",
+        "https://www.barchart.com/investing-ideas/under-10-stocks"
+      ],
+      "stop_loss_percent": 8.0,
+      "strategy_tags": [
+        "chittick_cash"
+      ],
+      "symbol": "IWM",
+      "target_allocation_percent": 6.0,
+      "thesis": "Broad small-cap ETF for rotation play; Chittick diversification from single-stocks.",
+      "valuation_case": "Attractive vs large-cap on P/E."
     }
   ],
-  "summary": "INUV shows stable short interest at 2.57% of float (358k shares, +2.6% MoM as of Apr 15), days-to-cover 1.2 on 292k avg vol; low squeeze risk. GuruFocus notes May 9 target price increase on rising demand. No fresh catalysts; microcap ad tech with low conviction."
+  "summary": "Early Tuesday pre-market quiet with no major catalysts from search results; small-cap AI themes (RXRX, ADUR, POET) highlighted for long-term potential but high volatility and pre-revenue risks limit short-term execution; under-$10 stocks list and momentum ideas noted but lack fresh triggers; memory shows INTC/SQ execution-ready on analyst upgrades/earnings beats; risk-on breadth into small-caps/value persists amid record highs."
 }
 -->
 
@@ -931,4 +1096,13 @@
 | Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
 |---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
 | INUV | communication-services-adtech | stale-watch | microcap-adtech | 0 | yes | 0.35 | 45 | 3 | 2 | 0.0% | 8.0% | avoid | GuruFocus May 9 target price increase on rising demand; short interest +2.6% to 2.57% float (Apr 15 data) |
+
+## Latest Candidates - 2026-05-11 22:05:37 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| INTC | information-technology-semiconductors | execution-ready | semiconductors-ai | 2 | yes | 0.82 | 76 | 9 | 0 | 8.0% | 8.0% | execute-if-guards-pass | Tigress PT $118 (from $66 Buy), Freedom upgrade to Buy $100; +4.65% intraday May 11 rip from $60s on volume. |
+| SQ | financials-fintech | execution-ready | financials-fintech | 2 | yes | 0.80 | 74 | 9 | 0 | 7.0% | 8.0% | execute-if-guards-pass | Q1 earnings beat + FY2026 guidance raised; GS/Citi/Keefe upgrades; +8% open May 11. |
+| RXRX | healthcare-biotech | watch | healthcare-biotech-ai | 0 | yes | 0.65 | 65 | 6 | 0 | 4.0% | 8.0% | watch | Featured in Tickeron 20 AI small-caps forecast (life sciences AI cluster); highest volatility tier but 5yr upside cited. |
+| IWM | etf-small-cap | watch | etf-small-cap | 0 | yes | 0.75 | 72 | 8 | 0 | 6.0% | 8.0% | watch | Top ETF in AI small-cap framework; $69B AUM, low-moderate vol; under-$10 stocks momentum ties to small-cap breadth. |
 
