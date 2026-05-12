@@ -8821,4 +8821,48 @@ SEC/company quality check:
   "source_urls": []
 }
 ```
+## Source And Signal Research - 2026-05-12 00:07:25 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks or ETFs. Social attention remains weak across monitored candidates including SQ, INTC, IBRX, SOUN, and IWM.",
+  "social_buzz": "None detected",
+  "attention_anomalies": "No anomalies or hype flagged",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Recent congressional disclosures show Senator John Boozman (R) purchased $1,001-$15,000 of DVN on Apr 9, 2026. Senator John Fetterman (D) purchased $1,001-$15,000 of MU on Mar 30, 2026. Rep. Gilbert Cisneros (D) purchased $1,001-$15,000 of MU on Mar 25. Rep. Dwight Evans (D) sold $15,001-$50,000 of MU on Mar 24. Rep. Ro Khanna (D) sold $1,001-$15,000 of MU on Mar 18. No new trades reported for APLD, SMR, or CEG.",
+  "congressional_signal": "low-weight delayed signals: DVN (purchase Apr 9), MU (mixed buys/sells Mar); treat as secondary context only",
+  "tickers": ["DVN", "MU"],
+  "source_urls": [
+    "https://www.quiverquant.com/stock/DVN/",
+    "https://www.quiverquant.com/stock/MU/",
+    "https://www.quiverquant.com/stock/APLD/",
+    "https://www.quiverquant.com/stock/SMR/",
+    "https://www.quiverquant.com/stock/CEG/"
+  ]
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": "Direct Digital Holdings (DRCT) operates a programmatic advertising platform (Colossus SSP) with sell-side (174k buyers, 170B monthly impressions) and buy-side (195 clients, 90% retention) operations. 2025 revenue $34.7M (-44% YoY), gross profit $10.4M (-40% YoY) due to major sell-side customer pause from defamatory article/misinformation campaign (reconnected May 2024 but volumes below prior levels). Cash $0.7M, accumulated deficit $27.7M; substantial going concern doubt. High client concentration, covenant-restricted debt ($450k min cash), Nasdaq delisting risk. IVT/fraud mitigation and AI curation strengths, but revenue quality impaired by one-off disruption and uncertain recovery.",
+  "filing_risks": [
+    "Balance Sheet: Cash $0.7M vs. $27.7M accumulated deficit; insufficient for 12 months; going concern doubt; credit facility covenants (min $450k cash) risk default/acceleration; term debt matures Dec 2026 with renewal risks.",
+    "Concentration: 2024/2025 revenue/gross profit collapse tied to one sell-side customer pause (defamatory article); buy-side 195 clients but managed services vulnerable; top customers undisclosed but implied high reliance.",
+    "Revenue Quality: 2025 rev/gross profit $34.7M/$10.4M vs. 2023 $157.1M/$37.6M; customer reconnection May 2024 but volumes not recovered; seasonal ad spend; IVT/fraud, ad fraud detection failure risks reputation/revenue.",
+    "Dilution/Capital: Need additional financing (debt/equity) risks dilution/senior claims; reorganization July 2024 cut costs but no volume recovery assurance.",
+    "Litigation/Regulatory: Defamatory article/coordinated misinformation cited (no disclosed suits); payment disputes, data privacy, cookie/ID restrictions, IVT/ad fraud risks; Nasdaq delisting if standards fail.",
+    "Valuation/Other: Strategic buy-side shift unproven; high customer concentration; operational/platform risks; 73 employees, no unions."
+  ],
+  "quality_notes": "Weak durable demand: Revenue halved+ YoY from customer pause, no recovery to 2023 peaks; 90% buy-side retention positive but small scale (195 clients); SSP impressions scale (170B/mo) but quality/IVT risks. Balance sheet distress (going concern, low cash, debt covenants) dominates; microcap adtech with fraud/privacy headwinds. Avoid - high execution/liquidity risks outweigh platform moat.",
+  "source_urls": ["https://www.sec.gov/Archives/edgar/data/1880613/000188061326000010/drct-20251231.htm"]
+}
+```
 

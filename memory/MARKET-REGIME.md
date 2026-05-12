@@ -3661,4 +3661,27 @@ The market is at record highs with strong earnings momentum, but faces a **CRITI
   ]
 }
 ```
+## Market Regime Research - 2026-05-12 00:07:25 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities in strong bull market driven by AI/semiconductor leadership with Nasdaq and SOX at record highs. Earnings growth robust at 28% Q1, offsetting Fed tightening risks. Sector rotation underway from tech to cyclicals (energy, industrials, materials) amid $100+ oil and fiscal concerns. Risk-on tone persists but volatility risks elevated from Fed leadership transition, persistent inflation, and reduced policy guidance.",
+  "market_regime": "Bull market (AI-driven grind higher) with rotation risks",
+  "sector_rotation": "Semiconductors (NVDA/AVGO/INTC) leading; energy (XOM), industrials (CAT), materials outperforming; defensives (utilities/REITs) and consumer discretionary lagging. Shift from capex expansion to earnings delivery focus. Cyclical rotation favored amid oil shock.",
+  "risk_flags": [
+    "Fed leadership transition (Warsh-style: less guidance → higher volatility)",
+    "Persistent inflation >3% + energy prices → delayed rate cuts",
+    "Fiscal deficit pressures on Treasuries (10yr ~4.4%)",
+    "Q2 earnings critical for AI validation",
+    "Geopolitical easing but oil market risk-on disconnect"
+  ],
+  "source_urls": [
+    "https://www.tradingkey.com/analysis/stocks/us-stocks/261878587-nasdaq-sp500-sox-google-oracle-amazon-chip-ai-intel-amd-tradingkey",
+    "https://www.lepinefinancial.com/weekly-market-commentary-may-11-2026-9e150",
+    "https://www.heygotrade.com/en/blog/sp-500-outlook-2026/",
+    "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/ai-spending-inelastic-andrew-sheets",
+    "https://www.wealthenhancement.com/blog/monthly-market-radar-massive-rally-meets-uncertain-macro-backdrop"
+  ]
+}
+```
 
