@@ -3963,4 +3963,30 @@ The market is at record highs with strong earnings momentum, but faces a **CRITI
 - **Favor quality/balance-sheet strength** over leveraged/small-cap names (credit spread widening)
 - **Watch sector rotation** from mega-cap tech to industrials/financials if rates stabilize
 - **Use tight stops** on AI/growth names; guidance miss risk elevated (SOUN -11% AH example)
+## Market Regime Research - 2026-05-12 06:31:18 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities in strong uptrend with S&P 500 above 7400, 6 straight weeks of gains (+16%), record highs; exceptional Q1 earnings (27-28% YoY growth, 84% beats); greed sentiment (Fear&Greed 66.9); tech/AI/semiconductors leading; but inflation sticky at 3.5% PCE/core 3.2%, Fed cuts delayed to 2027 (Goldman/BofA/JPM hawkish), oil/geopolitics risks rising yields/volatility.",
+  "market_regime": "risk_on_bull_momentum",
+  "sector_rotation": "tech_semiconductors_ai > materials_energy_industrials > broad_breadth > smallcaps > communication_services_consumer_staples_weak",
+  "risk_flags": [
+    "persistent_inflation_3.5_PCE_core_3.2",
+    "fed_cuts_delayed_2027",
+    "geopolitical_oil_spike_Iran",
+    "rising_yields_10yr_4.41",
+    "elevated_valuations_tech",
+    "upcoming_CPI_report",
+    "rising_prediction_market_hike_odds"
+  ],
+  "source_urls": [
+    "https://www.benzinga.com/markets/market-summary/26/05/52475931/sp-500-settles-above-7400-investor-sentiment-improves-slightly-fear-index-remains-in-greed-zone",
+    "https://www.thestreet.com/investing/goldman-sachs-sends-blunt-message-on-fed-interest-rate-cuts",
+    "https://www.mitlinfinancial.com/insights/blog/market-commentary-strong-earnings-labor-market-improvement-help-send-sp-500-to-sixth-straight-week-of-gains/",
+    "https://www.ubp.com/en/news-insights/newsroom/ubp-weekly-view-markets-in-motion-earnings-versus-geopolitics",
+    "https://www.thestreet.com/fed/bofa-drops-blunt-warning-about-fed-rate-cuts-for-remaining-of-2026",
+    "https://carystreetpartners.com/insight/markets-recovered-in-april-but-risks-remain/"
+  ]
+}
+```
 

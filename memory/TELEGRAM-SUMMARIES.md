@@ -10443,4 +10443,37 @@ HF filter: sentiment=not run source=8/100 hype=0.30 vetoes=0
 Self-learning: tier=watch repeat48h=1 fresh=yes bucket=etf-asia-semis
 Social buzz, low weight: low-weight AI mania chatter
 Congress signal, low weight: none
+## Research Update - 2026-05-12 06:31:18 Eastern Daylight Time
+
+Research Update
+
+Market tone: China's Big Six banks report strong double-digit growth in personal consumer loans for 2025 (e.g., CCB +29%, BOC +28%) with improving asset quality (NPL ratios declining at CCB/ABC); retail risk management enhancements via digital tools/centralization; steady demand expansion amid policy support. No direct US-listed bank/ETF catalysts; fixed income ETFs (Voya/Invesco) and Sharia ETFs (SPUS) highlighted but lack fresh momentum. Under-$10 stocks list ongoing. Risk-on persists but no execution-ready US equity triggers.
+Candidates: 3
+
+1. INTC (information-technology-semiconductors) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 76/100 | tier execution-ready | bucket semiconductors-ai | HF source 9/100
+Recommendation: execute-if-guards-pass
+Catalyst: Recent Tigress PT $118 (from $66 Buy), Freedom upgrade to Buy $100; +4.65% intraday May 11 on volume rip from $60s.
+Chittick Cash: Strong balance sheet funds multi-year capex; trading below analyst targets post-rip.
+HF filter: sentiment=not run source=9/100 hype=0.10 vetoes=0
+Self-learning: tier=execution-ready repeat48h=3 fresh=yes bucket=semiconductors-ai
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. SQ (financials-fintech) | confidence 0.80 | allocation 7.0% | stop 8.0% | Chittick 74/100 | tier execution-ready | bucket financials-fintech | HF source 9/100
+Recommendation: execute-if-guards-pass
+Catalyst: Q1 earnings beat + FY2026 guidance raised; GS/Citi/Keefe upgrades to $95-100 PTs; +8% open May 11.
+Chittick Cash: Recurring revenue buffer; below upgraded PTs.
+HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=3 fresh=yes bucket=financials-fintech
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. SPUS (etf-sharia-compliant) | confidence 0.70 | allocation 5.0% | stop 8.0% | Chittick 70/100 | tier watch | bucket etf-sharia-value | HF source 8/100
+Recommendation: watch
+Catalyst: Fresh highlighting of Sharia ETFs; low-debt criteria aligns with quality discipline amid private credit risks noted elsewhere.
+Chittick Cash: Low-leverage filter provides downside protection.
+HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=etf-sharia-value
+Social buzz, low weight: none
+Congress signal, low weight: none
 

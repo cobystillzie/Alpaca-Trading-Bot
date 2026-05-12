@@ -740,4 +740,9 @@ Candidates found: 1
 Markets at all-time highs on earnings strength but narrow breadth; Bitcoin >$80k on ETF inflows; small-caps (Russell 2000 +40% YoY) extending rally; AI catalysts for MSFT/GOOGL; Asia semis (EWY/EWT) outperform; quality rotation amid delayed rate cuts.
 
 Candidates found: 4
+## Two-Hour Research Agent - 2026-05-12 06:31:18 Eastern Daylight Time
+
+China's Big Six banks report strong double-digit growth in personal consumer loans for 2025 (e.g., CCB +29%, BOC +28%) with improving asset quality (NPL ratios declining at CCB/ABC); retail risk management enhancements via digital tools/centralization; steady demand expansion amid policy support. No direct US-listed bank/ETF catalysts; fixed income ETFs (Voya/Invesco) and Sharia ETFs (SPUS) highlighted but lack fresh momentum. Under-$10 stocks list ongoing. Risk-on persists but no execution-ready US equity triggers.
+
+Candidates found: 3
 

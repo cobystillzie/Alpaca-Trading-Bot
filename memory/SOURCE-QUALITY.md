@@ -8958,4 +8958,43 @@ SEC/company quality check:
   "source_urls": ["https://www.sec.gov/Archives/edgar/data/1880613/000141057826000016/drct-20251231.htm"]
 }
 ```
+## Source And Signal Research - 2026-05-12 06:31:18 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks/ETFs. Social buzz remains weak context only across candidates like SOUN (-11% AH post-earnings), INTC (analyst upgrades), SQ (earnings beat/upgrades), and ETFs IWM/EWY (small-cap/Asia semi rotation). No detected hype, pump language, or unsupported claims.",
+  "social_buzz": "none",
+  "attention_anomalies": "none",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Recent congressional trades in DVN (Devon Energy) show mostly purchases by Republicans including John Boozman (Apr 9, 2026, $1K-$15K), Julia Letlow (Dec 2025), Marjorie Taylor Greene (multiple 2025), with some sales; Kevin Hern heavy historical buyer. Disclosures delayed/low-weight secondary context only.",
+  "congressional_signal": "mixed-bullish DVN energy; recent buys outweigh sales but low conviction due to delays",
+  "tickers": ["DVN"],
+  "source_urls": ["https://www.quiverquant.com/stock/DVN/"]
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": "CreditRiskMonitor.com (CRMZ) is a niche SaaS provider of commercial credit risk analytics with stable recurring revenue (99% subscriptions, paid upfront annually), diverse customer base (no single >1% revenue), and rising bankruptcy demand supporting growth in a $1.4B TAM. Non-accelerated filer, smaller reporting company, OTCQX traded with $12M public float. Watchlist candidate for microcap financials-credit with durable demand evidence but high valuation risk at 10M+ shares outstanding.",
+  "filing_risks": {
+    "concentration": "No single subscriber >1% of FY2025/2024 revenue; diverse base including 40% Fortune 1000 mitigates customer risk.",
+    "balance_sheet": "Remote-only company (no HQ); $11.96M non-affiliate market cap as of Jun 30, 2025; 10.77M shares outstanding; stable SaaS model with upfront annual payments supports liquidity.",
+    "revenue_quality": "99% recurring SaaS subscriptions paid upfront annually; proprietary FRISK/PAYCE scores (96%/80% predictive accuracy); Trade Contributor Program ($3T annualized data); rising US bankruptcies +32% 2023-2025 drives demand.",
+    "dilution": "No mention of recent equity issuances or warrants; stable share count.",
+    "litigation": "Item 3 Legal Proceedings listed but no details provided in excerpts.",
+    "capital_allocation": "Invests in proprietary analytics, AI/OCR enhancements (CFSS product); no dividends or buybacks noted.",
+    "valuation": "1% of $1.4B TAM (D&B comp); OTCQX with low float suggests liquidity/valuation discount risk."
+  },
+  "quality_notes": "High revenue quality from prepaid SaaS (99% recurring) and bankruptcy tailwind (+32% filings); diverse base reduces concentration; smaller reporter with clean compliance checkboxes; durable demand in trade credit risk mgmt amid rising defaults. Risks: OTC/microcap illiquidity, dependency on data suppliers/NRSROs, competition from D&B/Experian.",
+  "source_urls": []
+}
+```
 
