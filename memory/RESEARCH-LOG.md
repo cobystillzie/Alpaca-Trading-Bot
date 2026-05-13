@@ -817,4 +817,9 @@ Premarket plan built from latest watchlist.
   rejects: Candidate references banned v1 instruments or leverage.
 - VRT: score=84, base=95, chittick=75, approved=False, allocation=6.0%, stop=8.0%
   rejects: Candidate references banned v1 instruments or leverage.
+## Two-Hour Research Agent - 2026-05-13 10:24:30 Eastern Daylight Time
+
+Gold/silver ETFs surge 4-6% on India duty hike to 15% (from 6%), driving domestic futures +7.2% (gold ₹1,64,497/10g) and +8% (silver ₹3,01,429/kg); AI infrastructure stocks (FPS/FLEX/VRT) highlighted in Simply Wall St screener for power/cooling/manufacturing exposure with growth forecasts. Biotech mixed (LCTX overvalued post-miss, QUBT beats but 827% over GF Value). Vertex +3.7% on CASGEVY reimbursement. Risk-on tilt persists but yield/inflation caution lingers.
+
+Candidates found: 3
 

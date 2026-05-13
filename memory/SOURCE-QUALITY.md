@@ -9705,4 +9705,59 @@ SEC/company quality check:
   "quality_notes": "All exhibit revenue quality issues (concentration, related-party, customer pauses); weak balance sheets (losses/deficits, cap needs, going concern); dilution risks (SES/DRCT equity raises); no litigation but integration/manufacturing risks high. No durable demand signals; cyclical/emerging markets. INTC memory: analyst PTs but penalize staleness per rules. Avoid GOOGL/INTC/USAR/GT per Chittick priority without fresh catalysts.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-13 10:24:30 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results returned. Web/social-attention scan for unusual liquid US stock/ETF discussion yielded no external data. Analysis relies on existing memory: NVDA (earnings May 20/21, Blackwell ramp focus), UNP (grain transport >2008 peaks), SQ (Q1 beat, guide raise), SCHD/SPUS (SEC semiannual reporting tailwind), and three AI infrastructure plays (FPS, FLEX, VRT) flagged by Simply Wall St screener. All candidates remain in 'watch' tier pending confirmation. No hype or pump language detected in internal memory.",
+  "social_buzz": "Null—no external social/web coverage captured. Internal memory shows Simply Wall St AI infrastructure screener mentions (FPS, FLEX, VRT) but these are analyst screens, not social hype. Treat as weak context only.",
+  "attention_anomalies": [
+    {
+      "symbol": "NVDA",
+      "anomaly": "Q1 FY2027 earnings (May 20/21) with street expectations $78.5B rev (+15% QoQ). Key focus on Blackwell ramp and Rubin signals. Potential beat/raise vs $86–87B Q2 guide. High confidence (0.82) but no social buzz detected—fundamentals-driven.",
+      "risk_flag": "None. Earnings catalyst is scheduled and transparent."
+    },
+    {
+      "symbol": "FPS, FLEX, VRT",
+      "anomaly": "Clustered AI infrastructure picks from Simply Wall St screener (all fresh, 0 repeats). FPS and VRT flagged as 'top AI infra picks'; FLEX noted for Cloud/Power spin-off. Confidence 0.72–0.75.",
+      "risk_flag": "Screener-driven clustering may reflect analyst consensus rather than unique insight. Monitor for pump language if social coverage emerges. All three rejected today due to position limits or leverage flags."
+    },
+    {
+      "symbol": "CNTB, BRAI",
+      "anomaly": "Two small-cap biotech/software plays with fresh catalysts (Q1 results, non-binding deal) but low repeat counts (0) and moderate confidence (0.55–0.70). No social buzz.",
+      "risk_flag": "Low conviction; early-stage catalysts. Treat as watch-list candidates pending validation."
+    }
+  ],
+  "source_urls": [],
+  "note": "Search returned no results. All analysis derived from internal memory dated 2026-05-13 02:19–08:23 UTC. No external web/social sources available to validate or contradict existing watch-list. Recommend re-running search if external coverage is critical for decision-making."
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Ring Energy (REI) priced $60M public offering of 44.4M shares at $1.35/share to repay debt; Q1 revenue down 6.85% YoY; mixed institutional activity with some large adds/removals. No recent congressional trades reported in disclosures.",
+  "congressional_signal": "None identified in scan of public disclosures.",
+  "tickers": ["REI"],
+  "source_urls": ["https://www.quiverquant.com/news/Ring+Energy,+Inc.+Prices+$60+Million+Public+Offering+of+Common+Stock"]
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": "Apogee Therapeutics (APGE) Q1 2026 10-Q shows net loss widening to $74.1M (vs $55.3M YoY) on R&D ramp ($52M, +52% YoY led by APG777 $19.5M) and G&A/equity comp ($30M combined); cash burn ~$74M/qtr offset by $407M gross raised ($377M March offering + $29M ATM). Strong pipeline momentum: APEX Ph2 52wk maintenance data (Mar 2026) with 75-85% EASI-75 maintenance; Part B 16wk data Q2 2026; Ph3 AD H2 2026 targeting 2029 launch. Lease liabilities $8M; single-segment US ops. No durable demand evidence; biotech burn/dilution watch.",
+  "filing_risks": [
+    "Dilution: $407M raised Q1 via 5.75M shares at $70 + 369k ATM; accumulated deficit $636M; ongoing cash burn $74M/qtr requires further raises pre-revenue.",
+    "Revenue quality: Pre-revenue clinical biotech; no product sales, dependent on Ph3 success (APG777 AD 2029 launch); pipeline risks across AD/asthma/EoE.",
+    "Operating expenses up 46% YoY to $74M (R&D +52%, equity comp +54% to $17M); G&A personnel +40%; macro volatility noted.",
+    "Capital allocation: Heavy R&D concentration (APG777 37% of external R&D); single reporting segment/unit increases execution risk.",
+    "Balance sheet: Lease liabilities $8M; no debt detailed but ongoing losses signal funding needs; interest income $8.7M provides minor offset.",
+    "Litigation: None disclosed; subsequent events clean through filing date."
+  ],
+  "quality_notes": "High-quality filing with detailed R&D breakdown by program (APG777/APG990 etc.); positive Ph2 data supports pipeline durability but pre-revenue losses/raises flag biotech volatility. Single-segment US focus; CODM consolidated view. No Chittick Cash names (GOOGL/INTC/USAR/GT) present. Not on watchlist.",
+  "source_urls": []
+}
+```
 

@@ -4410,4 +4410,25 @@ The US equity market is grinding to record highs, but the underlying conditions 
     "https://www.fxempire.com/forecasts/article/sp500-nvidia-and-amd-slide-as-inflation-oil-shake-us-stocks-1597362"
   ]
 }
+## Market Regime Research - 2026-05-13 10:24:30 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities showed resilience on May 12 amid hot CPI (3.8% YoY vs 3.7% exp), closing nearly flat (S&P 500 -0.1%, Dow +0.1%) after intraday volatility and late recovery. Futures point higher pre-open May 13 (S&P +0.2-0.4%, Nasdaq +0.8-0.9%). Tech/semis weakened (Nasdaq -0.7%, SMH -2.61%) on profit-taking and yield pressure, while defensives gained. 10Y yield at 4.459% tests key resistance, threatening rate-cut narrative.",
+  "market_regime": "volatile risk-on with caution; 'buy the dip' intact but yields/inflation create headwinds",
+  "sector_rotation": "away from growth/tech/semis (Nasdaq/SMH down sharply) toward defensives (Healthcare/Staples rallying midday); rotation from overbought vertical semis rallies",
+  "risk_flags": [
+    "Hot CPI (3.8% YoY, core 2.8%) erodes Fed rate-cut odds",
+    "10Y yield (4.459%) testing 4.484% resistance; breach risks equity rotation to bonds",
+    "Semis overbought/exhausted (SMH vertical rally risks sharp pullback to $507)",
+    "Oil spike to $102+ on geopolitics adds inflation pressure",
+    "Intraday volatility with risk-off opens, late recoveries signal fragile sentiment"
+  ],
+  "source_urls": [
+    "https://eciks.org/3521-66440-stock-market-ends-mixed-after-inflation-pressure-s-p-500-down-0-1-as-futures-poi",
+    "https://verifiedinvesting.com/blogs/live-show-recap/trading-the-close-market-recap-05-12-2026-stocks-rally-into-close-as-10-year-yields-rise-semiconductors-oil-earnings-in-focus",
+    "https://www.monexa.ai/blog/lunch-market-overview-midday-market-tech-buckles-on-hot-cpi-as-defensive-2026-05-12"
+  ]
+}
+```
 
