@@ -808,4 +808,13 @@ Premarket plan built from latest watchlist.
 AI infrastructure theme gains traction with power/cooling demand; stocks under $10 screened but no execution candidates; NVDA earnings preview builds anticipation ahead of May 20/21 report; Vertex +3.7% on CASGEVY reimbursement momentum; market volatile post-hot CPI but resilient.
 
 Candidates found: 3
+## Premarket Plan - 2026-05-13 08:25:01 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- FPS: score=87, base=100, chittick=72, approved=True, allocation=6.0%, stop=8.0%
+- FLEX: score=83, base=95, chittick=70, approved=False, allocation=5.0%, stop=8.0%
+  rejects: Candidate references banned v1 instruments or leverage.
+- VRT: score=84, base=95, chittick=75, approved=False, allocation=6.0%, stop=8.0%
+  rejects: Candidate references banned v1 instruments or leverage.
 
