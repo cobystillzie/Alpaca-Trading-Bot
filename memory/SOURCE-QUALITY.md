@@ -10076,4 +10076,76 @@ SEC/company quality check:
   ]
 }
 ```
+## Source And Signal Research - 2026-05-13 16:29:36 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks/ETFs. No notable social buzz or attention anomalies detected.",
+  "social_buzz": "None",
+  "attention_anomalies": "None",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Congressional disclosure scan identified minimal direct equity trading signals in provided search results. Primary findings: (1) Rep. Gilbert Ray Cisneros Jr. made 2 purchases of AZN stock up to $30,000 (12/18, 11/19); (2) Rep. Julia Letlow purchased AZN up to $15,000 (12/08); (3) Multiple representatives disclosed Q1 2026 fundraising (Massie $585.3K, Fong $226.4K, Lee $1.0M, Womack $326.9K, Green $144.5K, Schmidt $163.7K); (4) Ro Khanna and Daniel Goldman hold LCID positions (historical trades 2021–2023). No recent high-conviction congressional trades detected. Disclosures are delayed and low-weight context only.",
+  "congressional_signal": {
+    "strength": "low",
+    "rationale": "AZN trades by Cisneros and Letlow are 5–6 months old (November–December 2025), well outside real-time disclosure window. No recent (May 2026) congressional equity transactions identified. Fundraising disclosures are political activity, not equity signals. LCID holdings are historical (2021–2023). Per STOCK Act, 45-day disclosure lag applies; these filings provide secondary, delayed context only.",
+    "tickers_mentioned": [
+      "AZN",
+      "LCID"
+    ],
+    "trades": [
+      {
+        "representative": "Rep. Gilbert Ray Cisneros Jr.",
+        "ticker": "AZN",
+        "action": "purchase",
+        "amount": "up to $30,000",
+        "dates": [
+          "2025-12-18",
+          "2025-11-19"
+        ],
+        "disclosure_lag_days": 147
+      },
+      {
+        "representative": "Rep. Julia Letlow",
+        "ticker": "AZN",
+        "action": "purchase",
+        "amount": "up to $15,000",
+        "date": "2025-12-08",
+        "disclosure_lag_days": 157
+      }
+    ]
+  },
+  "tickers": [
+    "AZN",
+    "LCID"
+  ],
+  "source_urls": [
+    "https://www.quiverquant.com/news/Fund+Update:+New+$411.6M+$AZN+stock+position+opened+by+PUBLIC+SECTOR+PENSION+INVESTMENT+BOARD",
+    "https://www.quiverquant.com/stock/LCID/"
+  ],
+  "weight": "low",
+  "recommendation": "Do not trade on these signals. Congressional disclosures are delayed (45+ days), low-conviction, and secondary context only. No recent May 2026 trades detected. Use as background reference only; require primary catalyst or institutional flow confirmation before action."
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "Apogee Therapeutics (APGE) 10-Q for Q1 2026 reports $74.1M net loss (up 34% YoY from $55.3M), driven by R&D spend on zumilokibart (APG777) Phase 2 AD trial (Part B topline Q2 2026) and pipeline combos (APG279, APG273, APG808); cash raised via $377M March offering + $29M ATM; single-segment US biotech with $8M interest income offsetting expenses; positive 52-week APEX data supports Phase 3 H2 2026. Other filings: WSC 10-K (modular space), Durable Capital Form Ds (hedge funds ~$11.9B AUM), Metsera S-1/A (GLP-1 pipeline). No durable demand evidence for watchlist (FPS/VRT/FLEX AI infra, GLD, NVDA, UNP, SCHD, AAPL, MSFT); APGE fits clinical-stage biotech bucket.",
+  "filing_risks": [
+    "Dilution: March 2026 offering issued 5.75M shares at $70 ($377M net), plus 369k ATM shares ($29M); accumulated deficit $636M signals ongoing cash burn.",
+    "Revenue quality: Pre-revenue clinical biotech; $0 product sales, reliant on future approvals/collaborations; Q1 op ex $74M (R&D $52M+ incl. $19.5M APG777 external, $17M equity comp).",
+    "Balance-sheet: Lease liabilities $8M; no debt noted but high burn ($74M/Q) vs. post-raise cash (implied strong runway); single-segment concentration in I&I pipeline.",
+    "Capital allocation: Heavy R&D on APG777 (Part B 347 patients enrolled); equity comp 23% of op ex ($17M); no revenue, milestones tied to D&D licenses untriggered.",
+    "Litigation/Other: No material litigation disclosed; subsequent events none; macro risks (inflation, trials, supply chain) noted qualitatively.",
+    "Valuation: High growth forecasts but pre-revenue; net loss acceleration YoY; no P/E, enterprise value implied via offerings."
+  ],
+  "quality_notes": "High-quality 10-Q disclosure: Detailed R&D breakdown by program (APG777 $19.5M external spend), segment info (single US reporting unit), positive trial data (APEX 52-week EASI-75 75-85% maintenance); clean audit, no restatements. Durable demand evidence in AD/asthma Phase 2 results (71% EASI reduction Week 16, durable to 52wks) and pipeline (APG279 Phase 1b complete H2 2026 data); recent $400M+ equity raises signal institutional confidence. Watchlist lacks SEC ties (FPS/VRT AI infra on Simply Wall St screener, no filing catalysts). No Chittick Cash flags (GOOGL/INTC/USAR/GT absent).",
+  "source_urls": []
+}
 

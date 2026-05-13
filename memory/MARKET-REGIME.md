@@ -4475,4 +4475,129 @@ The US equity market is grinding to record highs, but the underlying conditions 
   ]
 }
 ```
+## Market Regime Research - 2026-05-13 16:29:36 Eastern Daylight Time
+
+```json
+{
+  "summary": {
+    "date": "2026-05-12 (market close)",
+    "headline": "Equities staged dramatic intraday reversal after hot inflation data and Middle East oil shock; institutional buyers erased morning losses in final two hours. Market balanced between resilient 'buy the dip' culture and rising macroeconomic yield pressure.",
+    "key_metrics": {
+      "spx_close_action": "Vertical three-hour rally into close after 11:20 AM capitulation",
+      "intraday_volatility": "Severe morning selling pressure followed by complete reversal",
+      "10yr_yield": "4.459%, testing March 27 pivot high; next resistance 4.484% then 4.57% declining trendline",
+      "oil_shock": "Brent crude >$100/bbl driven by Middle East geopolitical tensions",
+      "inflation_backdrop": "Hot inflation data triggered initial selloff"
+    }
+  },
+  "market_regime": {
+    "classification": "Risk-On with Elevated Macro Uncertainty",
+    "regime_characteristics": {
+      "equity_trend": "Higher highs despite headwinds; new all-time highs in US and emerging markets (Taiwan, South Korea)",
+      "volatility_regime": "High intraday dispersion; stock-level dispersion at COVID-era extremes creating indiscriminate selling opportunities",
+      "fed_policy_stance": "Persistently cautious central banks; yield curve under pressure from rising rates",
+      "earnings_durability": "Strong—S&P 500 earnings tracking +17% YoY (ex-PE revaluations); Q1 2026 tech posted fastest earnings and revenue growth",
+      "sentiment_tone": "Bifurcated: earnings optimism (especially AI/tech capex cycle) vs. geopolitical/macro anxiety"
+    },
+    "technical_boundaries": {
+      "spx_resistance": "746.67 (SPY equivalent)",
+      "spx_support": "716.06 (parallel channel top)",
+      "regime_implication": "Knife-edge balance; breakout above 746.67 signals sustained risk-on; breakdown below 716.06 signals macro capitulation"
+    }
+  },
+  "sector_rotation": {
+    "primary_themes": [
+      {
+        "theme": "AI Infrastructure & Capex Cycle",
+        "status": "Dominant",
+        "detail": "Exceptional US tech capex in AI driving global earnings acceleration; semiconductor (SMH) targeting $585.26 measured move from April 2025 lows; NVDA earnings May 20–21 (street $78.5B rev, focus on Blackwell ramp and Q2 guidance)",
+        "sectors": ["Information Technology", "Semiconductors", "Electrical Equipment (cooling/power)"]
+      },
+      {
+        "theme": "Energy & Electrification",
+        "status": "Secondary Tailwind",
+        "detail": "Oil shock and energy security concerns driving allocation to energy infrastructure; gold secular cycle strengthening on central bank demand and reserve diversification",
+        "sectors": ["Energy", "Commodities (Gold)", "Electrical Equipment"]
+      },
+      {
+        "theme": "Value & Dividend Rotation",
+        "status": "Emerging",
+        "detail": "Fidelity midyear outlook highlights value, diversification, and inflation-hedging; developed and emerging-market stocks outperformed US in 2025, remain positive YTD 2026",
+        "sectors": ["Industrials", "Dividend ETFs", "International Equities"]
+      },
+      {
+        "theme": "Convertibles & Fixed Income",
+        "status": "Tactical",
+        "detail": "Convertible market posted stock-market-beating returns in 2025; ~1/3 of market maturing over next few years; fixed income scenario rests on carry (5–6% returns in 2026)",
+        "sectors": ["Fixed Income", "Convertibles"]
+      }
+    ],
+    "dispersion_note": "Extreme stock-level dispersion (COVID-era highs) suggests indiscriminate selling in software/AI-exposed names creating reallocation opportunities; broad narratives often miss company-specific fundamentals."
+  },
+  "risk_flags": {
+    "macro_risks": [
+      {
+        "risk": "Yield Curve Pressure",
+        "severity": "High",
+        "detail": "10-year yield at 4.459% testing March pivot; if 4.484% breaches, next target 4.57% declining trendline. Rising rates create gravitational headwind for equities, especially growth/tech."
+      },
+      {
+        "risk": "Geopolitical Oil Shock",
+        "severity": "Medium-High",
+        "detail": "Brent >$100/bbl from Middle East tensions; inflation implications could force Fed to remain hawkish longer, pressuring equity valuations."
+      },
+      {
+        "risk": "Inflation Persistence",
+        "severity": "Medium",
+        "detail": "Hot inflation data triggered May 12 morning selloff; central banks maintaining cautious stance; stagflation concerns if oil shock persists."
+      }
+    ],
+    "technical_risks": [
+      {
+        "risk": "Resistance Rejection at 746.67",
+        "severity": "Medium",
+        "detail": "SPX wedged between 746.67 (resistance) and 716.06 (support). Failure to break above resistance could trigger retest of support; breakdown below 716.06 signals deeper correction."
+      },
+      {
+        "risk": "Sector Concentration",
+        "severity": "Medium",
+        "detail": "Tech/semiconductors driving earnings growth and market leadership; rotation away from mega-cap AI names could trigger sharp drawdowns given allocation concentration."
+      }
+    ],
+    "earnings_risks": [
+      {
+        "risk": "Guidance Misses in Tech",
+        "severity": "Medium",
+        "detail": "NVDA earnings May 20–21 critical; street expects $78.5B revenue (+15% QoQ), $73.1B data center. Miss or weak Q2 guidance could trigger sector-wide selloff."
+      },
+      {
+        "risk": "AI Capex Sustainability",
+        "severity": "Low-Medium",
+        "detail": "Market pricing in exceptional capex cycle through 2026+; if ROI concerns emerge or capex guidance disappoints, earnings durability narrative breaks."
+      }
+    ],
+    "sentiment_risks": [
+      {
+        "risk": "Whipsaw Volatility",
+        "severity": "Medium",
+        "detail": "May 12 intraday reversal (morning capitulation → afternoon vertical rally) suggests fragile sentiment; macro headlines could trigger rapid regime shifts."
+      }
+    ]
+  },
+  "source_urls": [
+    "https://verifiedinvesting.com/blogs/live-show-recap/trading-the-close-market-recap-05-12-2026-stocks-rally-into-close-as-10-year-yields-rise-semiconductors-oil-earnings-in-focus",
+    "https://www.ubp.com/en/news-insights/newsroom/ubp-house-view-may-2026",
+    "https://www.fidelity.com/learning-center/trading-investing/five-investing-ideas",
+    "https://harrisassoc.com/news-insights/u-s-equities-volatility-creates-opportunity/",
+    "https://www.investmentnews.com/equities/advisors-can-bask-in-the-glow-of-remarkable-and-extraordinary-corporate-earnings-goldman-sachs/266540",
+    "https://www.morningstar.com/funds/3-etfs-diversify-your-portfolio-2026-2"
+  ],
+  "paper_trading_implications": {
+    "positioning_bias": "Cautious overweight to AI infrastructure (semiconductors, cooling/power) and gold (structural central bank demand); underweight duration-sensitive growth if yields breach 4.484%.",
+    "volatility_management": "High intraday dispersion favors tactical rebalancing and sector rotation; avoid concentration in mega-cap tech ahead of NVDA earnings (May 20–21).",
+    "macro_monitoring": "Watch 10-year yield 4.484% level and SPX 746.67 resistance; geopolitical oil price and Fed communications critical daily inputs.",
+    "regime_shift_trigger": "SPX breakdown below 716.06 or 10-year yield >4.57% would signal transition to risk-off; use option strategies to hedge downside."
+  }
+}
+```
 

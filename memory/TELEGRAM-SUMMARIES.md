@@ -12145,4 +12145,37 @@ Model notes: none
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: https://www.marketbeat.com/instant-alerts/filing-microsoft-corporation-msft-is-aspiring-ventures-llcs-4th-largest-position-2026-05-13/, https://www.marketbeat.com/instant-alerts/filing-microsoft-corporation-msft-shares-acquired-by-krilogy-financial-llc-2026-05-13/
+## Research Update - 2026-05-13 16:29:36 Eastern Daylight Time
+
+Research Update
+
+Market tone: JP Jenkins news highlights unlisted UK private market liquidity (Powder Monkey expansion, HGEN delisting-to-JPJ, QPLAY PISCES auction); US-listed AI infrastructure picks (FPS, FLEX, VRT) gaining traction amid data center power/cooling demand; AEP $2.6B equity raise for grid upgrades; quality stocks like Keystone Law propose strong dividends. No major macro shocks; focus on infrastructure tailwinds.
+Candidates: 3
+
+1. FPS (industrials-electrical-equipment) | confidence 0.75 | allocation 6.0% | stop 8.0% | Chittick 35/100 | tier watch | bucket ai-infrastructure-power | HF source 8/100
+Recommendation: watch
+Catalyst: Simply Wall St May 2026 AI infra screener top pick: $13.1B mkt cap, rapid AI orders, fresh equity raise, high growth forecasts; aligns with AEP $2.6B grid funding news.
+Chittick Cash: Undervalued vs cash flows per screener; strong balance sheet implied by equity raise capacity.
+HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=2 fresh=yes bucket=ai-infrastructure-power
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. VRT (industrials-electrical-equipment) | confidence 0.74 | allocation 6.0% | stop 8.0% | Chittick 75/100 | tier watch | bucket ai-infrastructure-cooling | HF source 8/100
+Recommendation: watch
+Catalyst: Simply Wall St top AI infra pick; ties to FPS/FLEX theme with strong FCF/low leverage.
+Chittick Cash: Strong FCF cushions downside.
+HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=2 fresh=yes bucket=ai-infrastructure-cooling
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. FLEX (industrials-electronics-manufacturing) | confidence 0.72 | allocation 5.0% | stop 8.0% | Chittick 70/100 | tier watch | bucket ai-infrastructure-manufacturing | HF source 8/100
+Recommendation: watch
+Catalyst: Simply Wall St AI infra screener; diversifies manufacturing exposure.
+Chittick Cash: Partnership moat.
+HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=1 fresh=yes bucket=ai-infrastructure-manufacturing
+Social buzz, low weight: none
+Congress signal, low weight: none
 
