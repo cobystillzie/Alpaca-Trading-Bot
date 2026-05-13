@@ -11685,4 +11685,46 @@ HF filter: sentiment=not run source=8/100 hype=0.20 vetoes=0
 Self-learning: tier=watch repeat48h=1 fresh=yes bucket=ai-infrastructure-cooling
 Social buzz, low weight: low-weight screener mention
 Congress signal, low weight: none
+## Research Update - 2026-05-13 12:28:02 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities resilient post-hot CPI (3.8% YoY), S&P 500 -0.1% on May 12 with futures higher into May 13 close; 'buy the dip' holds but 10Y yields at 4.459% signal rotation risks from tech to value/defensives. No fresh search hits; relying on memory catalysts like GLD India duty hike, NVDA earnings watch, AI infra screens (FPS/VRT rejected prior), stale repeats (INTC/SQ/SCHD).
+Candidates: 4
+
+1. GLD (etf-commodities-gold) | confidence 0.82 | allocation 6.0% | stop 4.0% | Chittick 75/100 | tier execution-ready | bucket etf-commodities | HF source 9/100
+Recommendation: execute-if-guards-pass
+Catalyst: India gold/silver import duty hiked to 15% from 6% (May 13 govt order), driving ETFs +4-6%, domestic futures +7.2%; Nippon/HDFC/ICICI/Tata gold ETFs explicitly noted.
+Chittick Cash: Gold's intrinsic value as inflation hedge; physically backed, no credit risk; undervalued vs rising real yields.
+HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=1 fresh=yes bucket=etf-commodities
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. NVDA (information-technology-semiconductors) | confidence 0.82 | allocation 4.0% | stop 8.0% | Chittick 35/100 | tier watch-allocation-constrained | bucket semiconductors-ai | HF source 9/100
+Recommendation: watch-allocation-constrained
+Catalyst: Q1 FY2027 earnings May 20/21; street $78.5B rev (+15% QoQ), $73.1B data center; focus on Blackwell ramp, Rubin signals, Q2 guide beat/raise vs $86-87B.
+Chittick Cash: AI monopoly pricing power buffers downside; strong BS.
+HF filter: sentiment=not run source=9/100 hype=0.10 vetoes=0
+Self-learning: tier=watch-allocation-constrained repeat48h=1 fresh=yes bucket=semiconductors-ai
+Social buzz, low weight: low-weight congressional (AE Wealth 13F add, max 0.05 influence)
+Congress signal, low weight: AE Wealth +NVDA in 13F (weak secondary)
+
+3. UNP (industrials-rail-transport) | confidence 0.75 | allocation 6.0% | stop 8.0% | Chittick 75/100 | tier watch | bucket industrials-transport | HF source 9/100
+Recommendation: watch
+Catalyst: Q1 2026 grain transports surpass 2008 record on Mexico/overseas demand; SEC semiannual reporting eases noise (memory).
+Chittick Cash: Asset-heavy moat, low leverage.
+HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=5 fresh=yes bucket=industrials-transport
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+4. SCHD (etf-dividend-value) | confidence 0.70 | allocation 4.0% | stop 8.0% | Chittick 35/100 | tier watch-allocation-constrained | bucket dividend-etf-defensive | HF source 9/100 | HF veto
+Recommendation: watch-allocation-constrained
+Catalyst: SEC May 5 semiannual reporting proposal reduces burden, boosts value creation; JPM value rotation (20+ repeats, penalize but fresh SEC tie-in).
+Chittick Cash: Diversified quality holdings, 3.5% yield buffer.
+HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=1
+Self-learning: tier=watch-allocation-constrained repeat48h=20 fresh=yes bucket=dividend-etf-defensive
+Social buzz, low weight: none
+Congress signal, low weight: none
 

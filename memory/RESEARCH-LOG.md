@@ -822,4 +822,9 @@ Premarket plan built from latest watchlist.
 Gold/silver ETFs surge 4-6% on India duty hike to 15% (from 6%), driving domestic futures +7.2% (gold ₹1,64,497/10g) and +8% (silver ₹3,01,429/kg); AI infrastructure stocks (FPS/FLEX/VRT) highlighted in Simply Wall St screener for power/cooling/manufacturing exposure with growth forecasts. Biotech mixed (LCTX overvalued post-miss, QUBT beats but 827% over GF Value). Vertex +3.7% on CASGEVY reimbursement. Risk-on tilt persists but yield/inflation caution lingers.
 
 Candidates found: 3
+## Two-Hour Research Agent - 2026-05-13 12:28:02 Eastern Daylight Time
+
+US equities resilient post-hot CPI (3.8% YoY), S&P 500 -0.1% on May 12 with futures higher into May 13 close; 'buy the dip' holds but 10Y yields at 4.459% signal rotation risks from tech to value/defensives. No fresh search hits; relying on memory catalysts like GLD India duty hike, NVDA earnings watch, AI infra screens (FPS/VRT rejected prior), stale repeats (INTC/SQ/SCHD).
+
+Candidates found: 4
 

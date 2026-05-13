@@ -9760,4 +9760,136 @@ SEC/company quality check:
   "source_urls": []
 }
 ```
+## Source And Signal Research - 2026-05-13 12:28:02 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results returned. Web/social-attention scan for unusual discussion around liquid US stocks/ETFs yielded no external data. Analysis proceeds from internal candidate tables only.",
+  "social_buzz": {
+    "status": "no_external_data",
+    "note": "Search returned empty. Weak context only—social buzz alone never justifies trades. Internal candidate flags (Simply Wall St screener mentions for FPS/FLEX/VRT; India gold duty news for GLD) are tracked separately as fundamental catalysts, not hype.",
+    "risk_flags": [
+      "AI infrastructure picks (FPS, FLEX, VRT) sourced from Simply Wall St screener—verify underlying fundamentals independently; screener consensus can amplify crowding.",
+      "GLD spike tied to India tariff policy—real catalyst, but commodity ETF volatility may reverse quickly if policy reverses.",
+      "No independent social/Reddit/Twitter corroboration available for any candidate."
+    ]
+  },
+  "attention_anomalies": {
+    "candidates_with_fresh_context": [
+      {
+        "symbol": "GLD",
+        "catalyst": "India gold/silver import duty hiked to 15% from 6% (May 13 govt order)",
+        "market_reaction": "ETFs +4–6%, domestic futures +7.2%",
+        "status": "execution_ready",
+        "confidence": 0.82,
+        "anomaly_type": "policy_driven_commodity_move",
+        "fundamental_check": "Real policy event; verify duration/reversal risk and portfolio hedge fit."
+      },
+      {
+        "symbol": "NVDA",
+        "catalyst": "Q1 FY2027 earnings May 20/21; street expects $78.5B rev (+15% QoQ), $73.1B data center",
+        "status": "watch",
+        "confidence": 0.82,
+        "anomaly_type": "earnings_catalyst",
+        "note": "Rejected for execution due to single-stock allocation cap (>15%). Fundamental catalyst valid; position sizing constraint active."
+      },
+      {
+        "symbol": "FPS, FLEX, VRT",
+        "source": "Simply Wall St AI infrastructure screener (May 2026)",
+        "status": "watch / rejected",
+        "anomaly_type": "screener_consensus_clustering",
+        "risk": "Three AI infra picks flagged simultaneously from same source. Screener-driven clustering can indicate crowding. FPS/FLEX rejected for position limits; VRT rejected for banned instrument reference. Verify each on standalone fundamentals before allocation.",
+        "note": "Not social hype, but algorithmic screener consensus—still requires independent due diligence."
+      }
+    ]
+  },
+  "source_urls": [],
+  "meta": {
+    "search_status": "no_results",
+    "data_source": "internal_candidate_tables_only",
+    "timestamp": "2026-05-13T16:26:00Z",
+    "recommendation": "Proceed with fundamental analysis of candidates listed. GLD execution-ready pending guard checks. NVDA/FPS/FLEX/VRT remain watch-tier or rejected due to position/instrument constraints, not weakness of underlying catalysts. No external social-attention data available to override or reinforce internal signals."
+  }
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Search results contain no direct congressional stock trading disclosures. One PDF link (item 13) references a House Periodic Transaction Report (PTR) dated May 8, 2026, but content is not accessible. Multiple press releases document legislative activity (SMART Act, NICS Data Reporting Act, congressional funding announcements, stock trading ban proposal by Krishnamoorthi/Cloud) but these are policy/governance signals, not personal trades. Corporate equity offerings (Ring Energy $60M, Red Cat Holdings $225M) and hedge fund 13F moves (State Street +RCAT, AE Wealth +SCEP/SCMC/MSFT/NVDA) are disclosed but fall outside congressional personal trading scope.",
+  "congressional_signal": {
+    "weight": "low",
+    "context": [
+      "Krishnamoorthi (D-IL) and Cloud (R-TX) bipartisan push for ban on congressional stock trading and prediction markets—governance reform signal, not a trade trigger.",
+      "Multiple House bills passed (SMART Act for community banks, NICS Data Reporting Act, VA fund recrediting)—policy catalysts, not personal disclosures.",
+      "Federal funding announcements (Congresswoman Simon $142M East Bay, Congressman Lieu $1.031M Torrance)—constituency/infrastructure signals, not equity trades.",
+      "PTR PDF (May 8, 2026) inaccessible; cannot extract specific holdings or transactions."
+    ],
+    "recommendation": "Treat as delayed, secondary context only. No actionable congressional personal trade signal identified in this batch."
+  },
+  "tickers": [
+    "RCAT",
+    "RING",
+    "SCEP",
+    "SCMC",
+    "MSFT",
+    "NVDA",
+    "FHLC",
+    "SCNM"
+  ],
+  "source_urls": [
+    "https://www.quiverquant.com/news/Ring+Energy,+Inc.+Prices+$60+Million+Public+Offering+of+Common+Stock",
+    "https://www.quiverquant.com/news/Red+Cat+Holdings,+Inc.+Announces+Pricing+of+Public+Offering+at+$9.40+per+Share,+Aiming+to+Raise+Approximately+$225+Million",
+    "https://www.quiverquant.com/news/Press+Release:+Krishnamoorthi+and+Cloud+Lead+Bipartisan+Call+for+Ban+on+Congressional+Stock+Trading",
+    "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9115808.pdf",
+    "https://www.quiverquant.com/news/Fund+Update:+AE+Wealth+Management+LLC+Just+Disclosed+New+Holdings"
+  ]
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "SES AI Corp (SES) 10-K (filed Mar 4, 2026) reveals high-risk pre-revenue battery tech firm with $73M 2025 net loss, $372M accum deficit, ongoing losses expected; heavy R&D burn, capex needs for Li-Metal/Li-ion/UAM/drone batteries; uncertain markets, supply chain risks, integration issues post-UZ Energy acquisition. Direct Digital (DRCT) shows revenue collapse to $35M/$10M gross profit 2025 from $157M peak due to customer pause/misinfo; going concern doubt, $28M deficit, covenant risks. Fate Therapeutics (FATE), Bridgford (BRID), Collab Z show clinical/early-stage risks, customer concentration (Wal-Mart 34%), related-party reliance (65%). No durable demand signals; all flagged for balance sheet weakness, dilution, revenue quality issues.",
+  "filing_risks": {
+    "SES": [
+      "Ongoing losses: $73M 2025 net loss, $372M accum deficit; profitability uncertain due to R&D, scaling, EV/UAM market risks",
+      "Capital needs: Cash sufficient 12mos but needs more funding; dilutive equity/debt likely",
+      "Customer/supply concentration: No long-term contracts, supplier disruptions (e.g., tariffs, geopolitics)",
+      "Integration/execution: UZ Energy acquisition risks (cultural, key personnel loss); manufacturing scale-up failures",
+      "Tech/market risks: Emerging UAM/drone/NDAA markets unproven; battery defects/recalls possible",
+      "Dilution: Future equity raises probable"
+    ],
+    "DRCT": [
+      "Going concern: $0.7M cash, $28M deficit; customer pause caused rev/gross profit plunge ($35M/$10M 2025 vs $157M prior)",
+      "Concentration: Heavy reliance on few sell-side clients; payment disputes/fraud risks",
+      "Debt covenants: $450k min cash; default risk, Nasdaq delisting threat",
+      "Revenue quality: IVT/ad fraud, cookie phaseout, seasonal; 90% retention but volumes down",
+      "Dilution/liquidity: Needs financing amid reorganization"
+    ],
+    "FATE": [
+      "Clinical/early-stage biotech: Novel iPSC tech unproven; funding needs, trial delays, competition",
+      "Losses: Significant ongoing losses anticipated",
+      "Manufacturing/supply: Complex cell therapy scale-up risks"
+    ],
+    "BRID": [
+      "Concentration: Wal-Mart 33.5% rev, 8% AR; Dollar General 14% rev, 29% AR",
+      "Inflation/food risks: Commodity/labor cost volatility, consumer shifts to private label",
+      "Regulatory: USDA/FDA inspections, recalls"
+    ],
+    "Collab Z": [
+      "Related-party: 65% 2025 rev from affiliates; transition risks to platform model",
+      "Early-stage: Platform unproven, AI dev pending; JV minimal ops",
+      "Dilution: Recent Series B preferred issuance"
+    ]
+  },
+  "quality_notes": "No durable demand evidence; all show weak balance sheets (losses/deficits), revenue concentration/quality issues (customer pauses, related-party, unproven markets), capex/R&D burn, dilution risks via equity raises. SES/DRCT/FATE highest execution risk; BRID stable but concentrated; no litigation flags but supply/manufacturing risks pervasive. Watchlist rejects: high burn, going concern, no moat/proven revenue.",
+  "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/1819142/000181914226000015/ses-20251231.htm",
+    "https://www.sec.gov/Archives/edgar/data/1880613/000188061326000010/drct-20251231.htm",
+    "https://www.sec.gov/Archives/edgar/data/1434316/000143431226000015/fate-20251231.htm",
+    "https://www.sec.gov/Archives/edgar/data/14177/00014177wme20251031.htm",
+    "https://www.sec.gov/Archives/edgar/data/2050338/000205033825000004/clbz-20250930.htm"
+  ]
+}
 

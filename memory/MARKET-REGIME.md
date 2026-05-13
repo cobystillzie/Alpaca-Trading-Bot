@@ -4431,4 +4431,25 @@ The US equity market is grinding to record highs, but the underlying conditions 
   ]
 }
 ```
+## Market Regime Research - 2026-05-13 12:28:02 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities showed resilience amid hot CPI inflation (3.8% YoY vs 3.7% exp), with S&P 500 closing down just 0.1% after nearly 1% intraday drop on May 12. Futures point higher (S&P +0.2-0.4%, Nasdaq +0.8-0.9%) into May 13 close. 'Buy the dip' mentality persists but rising 10Y yields (4.459%, testing 4.484% resistance) signal rotation risks from growth/tech to value/defensives.",
+  "market_regime": "volatile risk-on with caution; resilient 'buy the dip' amid inflation headwinds, but rising yields threaten growth valuations",
+  "sector_rotation": "tech/semiconductors under pressure (Nasdaq -0.7%, SMH -2.61% despite parabolic rally); Dow +0.1% outperforms; watch rotation to defensives/dividends amid yield rise and overbought tech",
+  "risk_flags": [
+    "Hot CPI (3.8% YoY, core 2.8%) delays Fed rate cuts",
+    "10Y yield at 4.459% testing 4.484% resistance; potential equity outflow",
+    "Semiconductor vertical exhaustion (SMH overbought, QCOM -11%)",
+    "Geopolitical oil surge (+4% to $102) adds inflation pressure",
+    "Intraday volatility: risk-off open, late rally masks weakness"
+  ],
+  "source_urls": [
+    "https://eciks.org/3521-66440-stock-market-ends-mixed-after-inflation-pressure-s-p-500-down-0-1-as-futures-poi",
+    "https://verifiedinvesting.com/blogs/live-show-recap/trading-the-close-market-recap-05-12-2026-stocks-rally-into-close-as-10-year-yields-rise-semiconductors-oil-earnings-in-focus",
+    "https://www.bls.gov/ppi/"
+  ]
+}
+```
 
