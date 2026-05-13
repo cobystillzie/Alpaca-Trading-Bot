@@ -4166,4 +4166,162 @@ The market is at record highs with strong earnings momentum, but faces a **CRITI
   ]
 }
 ```
+## Market Regime Research - 2026-05-12 20:31:56 Eastern Daylight Time
+
+```json
+{
+  "summary": {
+    "date_analyzed": "2026-05-12",
+    "current_time_utc": "2026-05-13T00:30Z",
+    "overall_tone": "late-cycle_cautious_with_structural_headwinds",
+    "key_observation": "US equities grinding higher despite rising rates, oil, and volatility—classic late-cycle 'rooftop party above refinery fire' setup. Expectations-driven market; surprises matter more than Fed moves themselves."
+  },
+  "market_regime": {
+    "index_trend": {
+      "status": "record_highs_with_weakness_underneath",
+      "details": "S&P 500 and Nasdaq Composite at records; however, May 11 saw Nasdaq drop 1.52%, S&P 500 fall 0.88%, Dow lose 0.56% on inflation/oil concerns. Week-start (May 8) showed modest gains: Nasdaq +0.10%, S&P 500 +0.19%, Dow +0.19%.",
+      "interpretation": "Advance-decline divergence; breadth deteriorating despite headline indices near all-time highs."
+    },
+    "fed_policy_stance": {
+      "status": "rates_held_unchanged",
+      "context": "Powell's final meeting (late April 2026) kept rates steady. Market now pricing Fed moves via futures; expectations-based framework dominates.",
+      "key_insight": "Fed does not command markets—it influences them. Markets react to *surprises* vs. expectations, not to policy moves themselves. Futures markets have already priced consensus outcomes.",
+      "implication_for_trading": "Watch for deviations from Fed Funds futures pricing; muted moves if outcomes match expectations; volatility spikes on surprises."
+    },
+    "rates_and_yields": {
+      "10yr_treasury": "~4.45% (as of May 12 midday)",
+      "volatility_regime": "elevated",
+      "context": "Rising yields alongside equity records signals market pricing in sticky inflation and/or growth resilience. Front-end rate volatility likely to rise as Fed signals less advance guidance.",
+      "risk": "Yield volatility could trigger equity repricing if real rates move sharply."
+    },
+    "volatility_metrics": {
+      "vix_level": "~19 (midday May 12)",
+      "assessment": "moderate_but_rising",
+      "context": "VIX near 19 is elevated for a 'calm' market; oil, yields, and volatility rising *together* is a structural warning sign—not typical risk-on behavior."
+    },
+    "dollar_strength": {
+      "dxy_level": "~98.4 (May 12)",
+      "trend": "firming",
+      "implication": "Strong dollar headwind for multinational earnings; potential drag on EM flows."
+    }
+  },
+  "sector_rotation": {
+    "primary_narrative": "sector_rotation_from_ai_to_geopolitical_hedges_and_value",
+    "timeline": "Late 2025: AI-driven rotation → Early 2026: US-Iran conflict geopolitical shock → May 2026: Energy, dividend, and defensive value gaining traction",
+    "active_rotations": {
+      "into": [
+        "energy (DVN, sector rotation signals)",
+        "dividend_value (SCHD, JPM ongoing rotation thesis)",
+        "financials_fintech (SQ earnings beat + guidance raise; GS/Citi/Keefe upgrades)",
+        "industrials_transport (UNP grain transports surpass 2008 record)",
+        "insurance (LNC Q1 earnings reality check)"
+      ],
+      "out_of": [
+        "mega_cap_ai (NVDA, AMD slide per May 11 data; allocation constraints in memory)",
+        "high_multiple_tech (INTC watch-constrained despite Tigress $118 PT; memory flags prior rejection patterns)"
+      ]
+    },
+    "earnings_tone": {
+      "status": "mixed_with_guidance_raises",
+      "examples": "SQ beat + FY2026 guide raise; LESL earnings tomorrow (watch for tone); UNP grain transport strength; LNC earnings reality vs. market pricing.",
+      "risk": "Inflation and rate sensitivity could pressure forward guidance despite Q1 beats."
+    },
+    "geopolitical_overlay": {
+      "factor": "US-Iran conflict dominated early 2026 narrative",
+      "current_impact": "Energy sector benefiting; Trump-Xi talks creating FX/sector rotation early signals per investing.com analysis.",
+      "implication": "Geopolitical risk premium embedded; watch for escalation or de-escalation surprises."
+    }
+  },
+  "risk_flags": {
+    "critical": [
+      {
+        "flag": "late_cycle_structural_fragility",
+        "description": "Equities at records while oil, yields, and volatility all rise together—atypical risk-on behavior. Suggests market is pricing in resilience but underlying conditions are tightening.",
+        "paper_trading_implication": "Reduce position sizing; tighten stops; favor defensive/dividend allocations."
+      },
+      {
+        "flag": "inflation_surprise_risk",
+        "description": "ING analysis expects hotter-than-consensus 0.9% MoM US headline CPI. If realized, could trigger hawkish USD curve move and equity repricing.",
+        "paper_trading_implication": "Monitor CPI release closely; consider hedges or reduced leverage on inflation-sensitive longs."
+      },
+      {
+        "flag": "front_end_rate_volatility_rising",
+        "description": "Eldridge commentary notes interest rate volatility likely to rise at front end as Fed signals less advance guidance. Uncertainty around near-term policy path.",
+        "paper_trading_implication": "Avoid duration bets; focus on shorter-duration or floating-rate strategies."
+      }
+    ],
+    "elevated": [
+      {
+        "flag": "student_loan_delinquency_uptick",
+        "description": "NY Fed report: Q1 delinquency rate 10.3% (up from 9.6% Q4 2025); transmission rate to serious delinquency 10.9% (down from 16.2% Q4 2025). Mixed signal—improvement in transmission but overall delinquency rising.",
+        "paper_trading_implication": "Consumer credit stress contained for now per NY Fed; spillover to broader credit markets 'likely limited.' Monitor for deterioration."
+      },
+      {
+        "flag": "sector_concentration_in_memory",
+        "description": "INTC, SQ, SCHD, UNP, DVN, LNC dominate candidate list. Allocation constraints and repeated rejections suggest crowding in fintech, semiconductors, and dividend plays.",
+        "paper_trading_implication": "Diversify; avoid over-concentration in single-sector rotations."
+      },
+      {
+        "flag": "expectations_vs_reality_gap",
+        "description": "Market is forward-looking and expectations-driven. If earnings growth slows or guidance is cut, repricing could be sharp despite current record highs.",
+        "paper_trading_implication": "Focus on earnings surprises and guidance revisions; don't chase momentum into record highs."
+      }
+    ],
+    "watch": [
+      {
+        "flag": "private_credit_risks",
+        "description": "SPUS (Sharia-compliant ETF) highlighted amid private credit/BSA cost risks. Broader private credit market stress could cascade.",
+        "paper_trading_implication": "Monitor credit spreads and private credit fund flows; avoid illiquid credit exposure."
+      },
+      {
+        "flag": "energy_sector_volatility",
+        "description": "Oil, yields, and volatility rising together; energy sector rotation active but geopolitical tail risk remains.",
+        "paper_trading_implication": "Energy plays (DVN, UNP) offer rotation opportunity but carry geopolitical event risk."
+      }
+    ]
+  },
+  "source_urls": [
+    "https://www.monex.com.mx/portal/download/reportes/AlCierre%2020260511%20ing.pdf",
+    "https://adamniedbalski.substack.com/p/why-the-fed-doesnt-control-the-market",
+    "https://www.tradingview.com/news/stockstory:03babed4a094b:0-leslie-s-lesl-reports-earnings-tomorrow-what-to-expect/",
+    "https://www.fxstreet.com/analysis/stocks-climb-to-records-even-as-oil-yields-and-volatility-rise-together-202605120059",
+    "https://www.cmegroup.com/markets/interest-rates/stirs/30-day-federal-fund.html",
+    "https://www.stonex.com/en/insights/perspective-mid-day-commentary-for-may-12-2026-05-12/",
+    "https://fixedincome.fidelity.com/ftgw/fi/FINewsArticle?id=202605121105RTRSNEWSCOMBINED_KBN3RJ1XB-OUSBS_1",
+    "https://www.eldridgeco.com/weekly-market-commentary-may-11-2026-9e150",
+    "https://investing.com/analysis/trumpxi-talks-5-things-investors-want-200680125?ampMode=1",
+    "https://www.fxempire.com/forecasts/article/sp500-nvidia-and-amd-slide-as-inflation-oil-shake-us-stocks-1597362",
+    "https://think.ing.com/articles/fx-daily-impact-of-us-cpi-mostly-depends-on-equities/"
+  ],
+  "paper_trading_workflow_guidance": {
+    "position_sizing": "reduce_from_baseline; favor_smaller_initial_entries",
+    "stop_loss_discipline": "tighten_stops_to_6_8pct; avoid_wide_stops_in_late_cycle",
+    "sector_focus": "dividend_value_and_defensive_financials_over_mega_cap_tech",
+    "earnings_calendar": "prioritize_guidance_revisions_over_beats_alone; watch_LESL_tomorrow_and_forward_guidance_tone",
+    "macro_triggers": "monitor_CPI_release_closely; watch_Fed_Funds_futures_for_surprise_pricing; track_oil_yield_volatility_correlation",
+    "risk_management": "avoid_chasing_records; focus_on_expectations_gaps; reduce_leverage_in_late_cycle_setup"
+  }
+}
+```
+
+---
+
+### **Narrative Summary for Paper-Trading Bot**
+
+**Market Regime: Late-Cycle Caution with Structural Headwinds**
+
+The US equity market is grinding to record highs, but the underlying conditions are tightening. Oil, yields, and volatility are all rising *together*—a classic late-cycle warning sign. The Fed is holding rates steady, and markets are now pricing policy via futures; surprises matter far more than the moves themselves.
+
+**Key Risks:**
+1. **Inflation surprise** (ING expects hotter CPI) could trigger hawkish repricing.
+2. **Front-end rate volatility** rising as Fed signals less guidance.
+3. **Sector concentration** in fintech, semiconductors, and dividends; rotation is active but crowded.
+4. **Earnings growth deceleration** risk if guidance is cut despite Q1 beats.
+
+**Recommended Posture:**
+- Reduce position sizing; tighten stops.
+- Favor dividend/defensive value over mega-cap tech.
+- Focus on earnings *surprises* and guidance revisions, not just beats.
+- Monitor CPI and Fed Funds futures for deviations from expectations.
+- Avoid chasing records; late-cycle setups reward discipline, not momentum.
 

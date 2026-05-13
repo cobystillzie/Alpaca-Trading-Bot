@@ -9252,4 +9252,70 @@ SEC/company quality check:
   "source_urls": []
 }
 ```
+## Source And Signal Research - 2026-05-12 20:31:56 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks/ETFs. No evidence of hype, pump language, or unsupported claims detected.",
+  "social_buzz": "None detected",
+  "attention_anomalies": "None detected",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No recent congressional trades reported for liquid US stocks/ETFs in search results. USAR shows no Congress trading data; AGIO mentions past Cisneros trades (2x, details unspecified). DVN congressional purchase (Boozman Apr 9) persists in memory as low-weight context only.",
+  "congressional_signal": "none_new",
+  "tickers": ["USAR", "AGIO", "DVN"],
+  "source_urls": [
+    "https://www.quiverquant.com/stock/USAR/",
+    "https://www.quiverquant.com/news/Agios+Pharmaceuticals+Submits+Supplemental+New+Drug+Application+for+Mitapivat+in+Sickle+Cell+Disease+Following+FDA+Agreement+on+Confirmatory+Trial"
+  ]
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "DRCT (Direct Digital Holdings) 10-K shows severe financial distress with revenue/gross profit plunging from $157M/$37.6M (2023) to $34.7M/$10.4M (2025) due to major sell-side customer pause from defamatory article/misinformation campaign; going concern doubt, $0.7M cash vs $27.7M accumulated deficit, covenant-restricted debt; INUV (Inuvo) stable but risky with 83.5% 2025 revenue from 2 customers (64.2%+19.3%), history of losses ($178M deficit), $5.1M net working capital deficit; others (FATE biotech, BRID foods, NEOV energy storage, ICCT SaaS, CRMZ credit monitoring) show sector-specific risks but no acute distress like DRCT/INUV. No durable demand evidence; high concentration/liquidity risks dominate.",
+  "filing_risks": {
+    "DRCT": [
+      "Going concern doubt: $0.7M cash insufficient for 12 months, $27.7M accumulated deficit, needs funding/reorg success post-2024 customer pause",
+      "Revenue concentration: 2024-2025 revenue drop from one sell-side customer pause (defamatory article), volumes not recovered",
+      "Debt covenants: Minimum $450K cash, term facility matures Dec 2026, default risk could force bankruptcy",
+      "Dilution risk: Potential equity/debt raises senior to Class A stock",
+      "Nasdaq delisting risk if fails listing standards",
+      "Balance sheet: Reorg July 2024, strategic shift to buy-side unproven"
+    ],
+    "INUV": [
+      "Customer concentration: 2 customers 83.5% of 2025 revenue (64.2%+19.3%), vs 82% in 2024 from top 2",
+      "Loss history: $178.3M accumulated deficit, $5.1M working capital deficit, $2.8M cash, negative operating cash flows",
+      "Revenue quality: 2.9% growth but gross margin down 10.1% to 74.5%, operating loss $5.1M",
+      "Receivables/collection risks, seasonality, dependence on Yahoo/Google/ad suppliers"
+    ],
+    "BRID": [
+      "Customer concentration: Wal-Mart 33.5% FY2025 revenue (27.8% FY2024), Dollar General 14.2%; AR 8.2%/28.8%",
+      "Inflation/consumer spending: Prolonged inflation reduces discretionary spend on snacks",
+      "Food industry risks: Product contamination, evolving preferences, regulations (USDA/FDA/HACCP)"
+    ],
+    "Others (FATE/NEOV/ICCT/CRMZ)": [
+      "FATE: Biotech pipeline risks, losses, funding needs",
+      "NEOV: Early-stage, supply chain/tariffs/FEOC compliance risks",
+      "ICCT: Limited history post-merger, no patents",
+      "CRMZ: SaaS dependency on data suppliers, fragmented competition"
+    ]
+  },
+  "quality_notes": "DRCT exhibits acute balance-sheet/going-concern risks with revenue collapse and customer dependency; no durable demand (revenue halved 2023-2025). INUV revenue quality undermined by extreme concentration (83% from 2 clients) and persistent losses/deficit; watch for client loss. BRID stable but concentrated retail exposure. No litigation/dilution specifics beyond DRCT equity raise risk. Capital allocation concerns in DRCT (reorg/debt). Avoid execution-ready; high watchlist risks. No GOOGL/GOOG/INTC/USAR/GT in filings.",
+  "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/1880613/000141057826000123/drct-20251231x10k.htm",
+    "https://www.sec.gov/Archives/edgar/data/829323/000141057826000098/inuv-20251231x10k.htm",
+    "https://www.sec.gov/Archives/edgar/data/1434316/000143431626000012/fate-20251231x10k.htm",
+    "https://www.sec.gov/Archives/edgar/data/14177/00014177a26000001/bridgford10k103125.htm",
+    "https://www.sec.gov/Archives/edgar/data/1748137/000174813725000007/neov-20250630x10k.htm",
+    "https://www.sec.gov/Archives/edgar/data/1906133/000141057825000123/icct-20241231x10k.htm",
+    "https://www.sec.gov/Archives/edgar/data/315958/000143774925003214/crmz20241231_10k.htm"
+  ]
+}
 
