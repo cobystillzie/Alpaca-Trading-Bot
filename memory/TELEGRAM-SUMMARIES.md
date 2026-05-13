@@ -11279,4 +11279,28 @@ HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
 Self-learning: tier=watch repeat48h=2 fresh=yes bucket=etf-sharia-value
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-13 02:19:25 Eastern Daylight Time
+
+Research Update
+
+Market tone: Robinhood corporate actions show heavy reverse splits (INUV, DKI, OLOX), cash mergers (UHG $1.18, FARM $1.29), liquidations (LAYS $64.29, QXAS $9.09, multiple Direxion ETFs), delistings (SGMO to OTC, CUK pending), bankruptcies (AXDXQ worthless). CNTB Q1 loss $19.4M but $46M cash + $18.6M raise funds to H2 2027; Phase 2 asthma/COPD data mid-2026, $110M Simcere milestones. BRAI non-binding Home.cc deal. Risk-off bias with low-quality microcaps/ETFs closing; no execution-ready catalysts.
+Candidates: 2
+
+1. CNTB (healthcare-biotech) | confidence 0.70 | allocation 4.0% | stop 8.0% | Chittick 65/100 | tier watch | bucket healthcare-biotech | HF source 9/100
+Recommendation: watch
+Catalyst: Q1 results May 12: $46M cash post-$18.6M net raise; Phase 2 Seabreeze STAT asthma/COPD data mid-2026; FDA Phase 3 alignment meeting planned.
+Chittick Cash: Cash into H2 2027 covers Phase 2; milestones de-risk.
+HF filter: sentiment=not run source=9/100 hype=0.20 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=healthcare-biotech
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. BRAI (information-technology-software) | confidence 0.55 | allocation 2.0% | stop 10.0% | Chittick 35/100 | tier watch | bucket small-cap-ai | HF source 7/100
+Recommendation: watch
+Catalyst: May 12 news: Non-binding deal for Home.cc stake + A$7.27M capital injection.
+Chittick Cash: Limited; pre-revenue AI speculative.
+HF filter: sentiment=not run source=7/100 hype=0.40 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=small-cap-ai
+Social buzz, low weight: none
+Congress signal, low weight: none
 

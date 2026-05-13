@@ -9318,4 +9318,79 @@ SEC/company quality check:
     "https://www.sec.gov/Archives/edgar/data/315958/000143774925003214/crmz20241231_10k.htm"
   ]
 }
+## Source And Signal Research - 2026-05-13 02:19:25 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "GameStop (GME) shows volatile meme-driven action with Roaring Kitty posts sparking brief rally before dilution fears from 150% share increase proposal erased gains; Ryan Cohen's eBay feud adds minor lift but rejected $56B bid highlights risks. Akamai (AKAM) surges 42% on $1.8B Anthropic cloud deal buzz, best week since 2013. Wendy's (WEN) up premarket on unconfirmed Nelson Peltz take-private speculation. Social buzz weak/transient for GME, strong fundamentals for AKAM.",
+  "social_buzz": "GME: Moderate, meme-fueled (Roaring Kitty posts quickly removed, dilution fears dominate); WEN: Low, rumor-driven; AKAM: High volume on deal confirmation.",
+  "attention_anomalies": "GME: Sharp intraday reversal on dilution filing (13% up then down), risk of pump/hype; AKAM: 42% weekly gain to record high on named $1.8B AI deal (Anthropic), 14/25 Buy ratings; WEN: 4% premarket on unconfirmed Peltz private equity talks (flag as speculative risk, no formal offer).",
+  "source_urls": [
+    "https://stocktwits.com/news-articles/markets/equity/game-stop-stock-slides-overnight-roaring-kitty-meme-spark-fresh-dilution-fears/cZXQDmbReLT",
+    "https://stocktwits.com/news-articles/markets/equity/gme-stock-ryan-cohen-slams-ebay-gamestop-bid-rejection/cZXLerfRe0a",
+    "https://stocktwits.com/news-articles/markets/equity/akamai-stock-posts-best-week-since-2013-on-buzz-of-1-8-b-anthropic-cloud-deal/cZX9Ab2ReWB",
+    "https://stocktwits.com/news-articles/markets/equity/wendy-s-stock-gains-premarket-what-s-driving-the-rally/cZXX4pWReLY"
+  ]
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No recent congressional disclosures of trades in liquid US stocks/ETFs identified in search results. LCID shows historical sales by Reps. Goldman/Lofgren/Khanna (2021-2023, delayed data). Broader context includes push for congressional stock trading bans (Krishnamoorthi/Cloud) and DOJ insider trading scrutiny (Casten/Lieu). H.R. 8712 introduces Uyghur Forced Labor Disclosure Act for SEC registrants/mergers.",
+  "congressional_signal": "none",
+  "tickers": ["LCID"],
+  "source_urls": [
+    "https://www.quiverquant.com/stock/LCID/",
+    "https://www.quiverquant.com/news/Press+Release:+Krishnamoorthi+and+Cloud+Lead+Bipartisan+Call+for+Ban+on+Congressional+Stock+Trading",
+    "https://www.quiverquant.com/news/Press+Release:+Casten+and+Lieu+Call+for+DOJ+Action+Against+Insider+Trading+on+Prediction+Market+Platforms",
+    "https://www.quiverquant.com/news/New+Bill:+Representative+Suhas+Subramanyam+introduces+H.R.+8712:+Uyghur+Forced+Labor+Disclosure+Act"
+  ]
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "SES AI Corp (SES) 10-K (filed 2026-03-04) reveals high-risk pre-revenue battery tech developer with $73M 2025 net loss, $372M accumulated deficit, heavy R&D burn, and dependency on unproven AI-driven Li-Metal batteries/Molecular Universe platform for EV/UAM/drone markets. Ongoing losses expected; needs substantial future capital amid supply chain, manufacturing scale-up, integration (UZ Energy acquisition), and competition risks. No durable demand evidence; pure development-stage speculation. Phillips Edison (PECO) DEF 14A shows stable grocery-anchored REIT with strong 2025 FFO growth (7%) and 97% occupancy but irrelevant to watchlist. DRCT exhibits going-concern doubt, revenue collapse to $35M, customer pause; INUV high customer concentration (83% from 2 clients); others low-quality.",
+  "filing_risks": {
+    "SES": [
+      "Balance-sheet: $73M 2025 net loss (vs $100M 2024), $371.9M accumulated deficit; cash sufficient only 12 months, needs dilutive equity/debt for R&D/capex/M&A.",
+      "Concentration: No single customer dependency noted but OEM conversion risk critical; UZ Energy integration diverts management.",
+      "Revenue quality: Pre-commercial; projections based on unproven assumptions (EV/UAM/ESS growth, AI materials); no positive cash flow since inception.",
+      "Capital allocation: High R&D burn on Li-Metal batteries/Molecular Universe; joint ventures (e.g., Hisun) unproven; ongoing losses 'foreseeable future'.",
+      "Dilution: Explicit future equity issuance risk to fund operations.",
+      "Litigation: None noted.",
+      "Valuation: Never profitable; UAM/drone markets 'emerging' with no standard battery tech.",
+      "Other: Manufacturing scale-up risks (machinery failure, skilled labor shortages); supply chain volatility (raw materials, tariffs); product defects/recalls; competition from Li-ion incumbents."
+    ],
+    "DRCT": [
+      "Balance-sheet: Going-concern doubt; $0.7M cash vs $27.7M accumulated deficit; credit facility covenants ($450K min cash).",
+      "Concentration: High sell-side customer dependency (2024 pause caused revenue drop from $157M to $35M).",
+      "Revenue quality: 2025 revenue/gross profit collapsed 44%/40% YoY due to defamatory article/customer pause.",
+      "Dilution: Future equity/debt needed.",
+      "Other: Nasdaq delisting risk; advertising fraud/IVT risks."
+    ],
+    "INUV": [
+      "Concentration: 83% revenue from 2 customers (64%+19% in 2025).",
+      "Balance-sheet: $5.1M operating loss, $178M accumulated deficit, $5.1M working capital deficit.",
+      "Revenue quality: 2.9% growth but gross margin -10% to 74.5%; fixed labor costs.",
+      "Other: Dependence on GOOGL/Yahoo; ad fraud/publisher risks."
+    ],
+    "BRID": [
+      "Concentration: Wal-Mart 33.5% revenue, Dollar General 14.2%; 47.7% combined.",
+      "Other: Food industry risks (contamination, recalls, inflation); 44% unionized workforce."
+    ],
+    "PECO": "Low risk; stable REIT with 7% FFO growth, 97% occupancy; no balance-sheet red flags."
+  },
+  "quality_notes": "SES: Poor quality - classic dev-stage battery hype with massive losses, no revenue traction, execution risks everywhere (manufacturing, OEM conversion, UAM market uncertainty); dilution/capital raise imminent. INTC memory context: Pay special attention but no new INTC filing here. DRCT: Terminal decline, going-concern; avoid. INUV: Revenue lumpy/high concentration on ad platforms (GOOGL risk). BRID: Customer concentration but profitable food producer. No durable demand signals in any (SES projections speculative; others cyclical/declining). Chittick watchlist alignment: None match (no INTC/USAR/GT/GOOGL direct; avoid adding high-risk names).",
+  "source_urls": [
+    "https://www.sec.gov/Archives/edgar/data/1819142/000181914226000015/ses-20251231.htm",
+    "https://www.sec.gov/Archives/edgar/data/1476204/000147620426000026/peco-20260323.htm",
+    "https://www.sec.gov/Archives/edgar/data/1880613/000188061326000007/drct-20251231.htm",
+    "https://www.sec.gov/Archives/edgar/data/829323/000082932326000013/inuvo_10k.htm",
+    "https://www.sec.gov/Archives/edgar/data/14177/000001417726000004/brid-20251031.htm",
+    "https://www.sec.gov/Archives/edgar/data/2050338/000205033825000002/clbz-20250930.htm"
+  ]
+}
 

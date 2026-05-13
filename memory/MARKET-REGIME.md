@@ -4324,4 +4324,26 @@ The US equity market is grinding to record highs, but the underlying conditions 
 - Focus on earnings *surprises* and guidance revisions, not just beats.
 - Monitor CPI and Fed Funds futures for deviations from expectations.
 - Avoid chasing records; late-cycle setups reward discipline, not momentum.
+## Market Regime Research - 2026-05-13 02:19:25 Eastern Daylight Time
+
+```json
+{
+  "summary": "Mixed market tone with inflation pressures weighing on consumer staples (MCD at 52-week lows) amid elevated CPI forecasts (3.7-4.0% YoY). Defensive/value rotation persists (SCHD, SPUS in watchlists). Q1 2026 earnings season underway with moderate growth (Mainstreet +9% NOI) but no broad beat momentum. High volatility in niche sectors (T1 Energy solar). Overall cautious risk-off bias for paper-trading.",
+  "market_regime": "Choppy consolidation - inflation sticky, no Fed pivot signal",
+  "sector_rotation": "Defensive/value tilt (dividend ETFs, industrials like UNP) over growth; consumer staples weak (MCD); niche renewables volatile (T1 Energy); ongoing fintech/industrials watch (SQ, UNP from memory)",
+  "risk_flags": [
+    "Sticky inflation (3.7-4.0% CPI forecast)",
+    "Highly volatile individual names (T1 Energy 57% below fair value but volatile)",
+    "Consumer weakness (MCD Dividend Aristocrat at 52-week lows)",
+    "Stale candidate repeats (INTC/SQ 7-8x, no fresh catalysts)",
+    "Earnings dispersion (moderate growth but no broad upside)"
+  ],
+  "source_urls": [
+    "https://www.barchart.com/story/news/1889934/inflation-has-pushed-this-dividend-aristocrat-to-52-week-lows-why-its-still-not-quite-time-to-buy",
+    "https://www.investing.com/analysis/no-clean-cycle-why-markets-rewards-patience-over-predictionand-how-to-exploit-it-200680128",
+    "https://www.businesswire.com/news/home/20260512407538/en/Mainstreet-Equity-Corp.-Achieves-Moderate-Growth-Amid-Economic-Uncertainty",
+    "https://simplywall.st/stocks/de/semiconductors/fra-t2t/t1-energy-shares"
+  ]
+}
+```
 

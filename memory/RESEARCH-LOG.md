@@ -779,4 +779,9 @@ Candidates found: 4
 US equities at record highs amid rising oil, yields, volatility; late-cycle caution with inflation/CPI risks, Fed futures sensitivity, earnings guidance focus. Rotation into value/dividends/energy active but crowded; tighten risk controls.
 
 Candidates found: 5
+## Two-Hour Research Agent - 2026-05-13 02:19:25 Eastern Daylight Time
+
+Robinhood corporate actions show heavy reverse splits (INUV, DKI, OLOX), cash mergers (UHG $1.18, FARM $1.29), liquidations (LAYS $64.29, QXAS $9.09, multiple Direxion ETFs), delistings (SGMO to OTC, CUK pending), bankruptcies (AXDXQ worthless). CNTB Q1 loss $19.4M but $46M cash + $18.6M raise funds to H2 2027; Phase 2 asthma/COPD data mid-2026, $110M Simcere milestones. BRAI non-binding Home.cc deal. Risk-off bias with low-quality microcaps/ETFs closing; no execution-ready catalysts.
+
+Candidates found: 2
 
