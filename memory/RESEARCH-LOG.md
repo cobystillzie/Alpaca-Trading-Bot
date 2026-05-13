@@ -803,4 +803,9 @@ Premarket plan built from latest watchlist.
 - SPUS: score=83, base=95, chittick=72, approved=True, allocation=5.0%, stop=8.0%
 - UNP: score=87, base=100, chittick=75, approved=False, allocation=6.0%, stop=8.0%
   rejects: Candidate references banned v1 instruments or leverage.
+## Two-Hour Research Agent - 2026-05-13 08:23:38 Eastern Daylight Time
+
+AI infrastructure theme gains traction with power/cooling demand; stocks under $10 screened but no execution candidates; NVDA earnings preview builds anticipation ahead of May 20/21 report; Vertex +3.7% on CASGEVY reimbursement momentum; market volatile post-hot CPI but resilient.
+
+Candidates found: 3
 

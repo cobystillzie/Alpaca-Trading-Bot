@@ -11494,4 +11494,37 @@ Sources: https://www.jdsupra.com/legalnews/the-sec-s-semiannual-reporting-propos
 Rejected / Watchouts
 - SCHD: HF memory filter flags similarity to prior rejected patterns.
 - UNP: Candidate references banned v1 instruments or leverage.
+## Research Update - 2026-05-13 08:23:38 Eastern Daylight Time
+
+Research Update
+
+Market tone: AI infrastructure theme gains traction with power/cooling demand; stocks under $10 screened but no execution candidates; NVDA earnings preview builds anticipation ahead of May 20/21 report; Vertex +3.7% on CASGEVY reimbursement momentum; market volatile post-hot CPI but resilient.
+Candidates: 3
+
+1. FPS (industrials-electrical-equipment) | confidence 0.75 | allocation 6.0% | stop 8.0% | Chittick 72/100 | tier watch | bucket ai-infrastructure-power | HF source 8/100
+Recommendation: watch
+Catalyst: Simply Wall St highlights as top AI infrastructure pick with rapid AI order momentum, fresh equity raise, and high growth forecasts; screens undervalued relative to cash flows.
+Chittick Cash: Undervalued vs estimated cash flows per screener; backlog provides visibility but thin margins cap near-term downside protection.
+HF filter: sentiment=not run source=8/100 hype=0.20 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=ai-infrastructure-power
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. FLEX (industrials-electronics-manufacturing) | confidence 0.72 | allocation 5.0% | stop 8.0% | Chittick 70/100 | tier watch | bucket ai-infrastructure-manufacturing | HF source 8/100
+Recommendation: watch
+Catalyst: Simply Wall St AI infra screener pick; planned Cloud/Power spin-off, power control/chip partnerships accelerating growth.
+Chittick Cash: Global scale provides buffer; forecasts imply earnings inflection.
+HF filter: sentiment=not run source=8/100 hype=0.20 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=ai-infrastructure-manufacturing
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. VRT (industrials-electrical-equipment) | confidence 0.74 | allocation 6.0% | stop 8.0% | Chittick 75/100 | tier watch | bucket ai-infrastructure-cooling | HF source 8/100
+Recommendation: watch
+Catalyst: Simply Wall St top AI infra pick; backlog, margin expansion from AI spend.
+Chittick Cash: Strong FCF/low debt but rich multiple limits buffer.
+HF filter: sentiment=not run source=8/100 hype=0.30 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=ai-infrastructure-cooling
+Social buzz, low weight: none
+Congress signal, low weight: none
 

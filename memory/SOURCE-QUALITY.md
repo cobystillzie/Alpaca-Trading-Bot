@@ -9666,4 +9666,43 @@ SEC/company quality check:
 5. **Liquidity: POOR** ($11.96M market cap; illiquid)  
 
 **Recommendation:** Monitor for thematic bankruptcy-cycle plays, but do not allocate core capital. Suitable only for high-risk, micro-cap, or contrarian portfolios with deep due diligence and extended time horizons.
+## Source And Signal Research - 2026-05-13 08:23:38 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks/ETFs. No evidence of hype, pump language, or unsupported claims detected.",
+  "social_buzz": "None",
+  "attention_anomalies": "None",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Ring Energy (REI) priced $60M public offering of 44.4M shares at $1.35, raising funds to repay debt; significant dilution risk but improves balance sheet. Q1 2026 revenue down 6.85% YoY to $73.7M. Mixed institutional activity with some large adds (Truffle Hound 2M shares) but more reductions. No congressional trading signals in results.",
+  "congressional_signal": "none",
+  "tickers": ["REI"],
+  "source_urls": [
+    "https://www.quiverquant.com/news/Ring+Energy,+Inc.+Prices+$60+Million+Public+Offering+of+Common+Stock"
+  ]
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "SEC 10-K filings reveal high-risk profiles across candidates. SES AI (SES) shows severe ongoing losses ($73M 2025 net loss, $372M accum. deficit), capital needs, customer concentration/integration risks (UZ Energy), and unproven markets (UAM/drones). DRCT faces going concern doubt, customer pause revenue drop (2025 rev $34.7M vs $157M 2023), high concentration. INUV has customer concentration (83.5% from 2 clients), losses ($5.1M op loss), working capital deficit. BRID customer concentration (Wal-Mart/Dollar General ~48% rev), food industry risks. CLBZ heavy related-party rev (65%), early-stage platform. NEOV startup risks, competition from Tesla/LG. WS steel cyclicality, concentration (top3 33%). No durable demand; prioritize balance sheet/concentration risks.",
+  "filing_risks": {
+    "SES": "Ongoing losses ($73M 2025, $372M accum. deficit); needs substantial capital; UZ Energy integration risks; emerging UAM/drone markets unproven; supply chain/raw materials volatility; battery defects/recalls; customer concentration/OEM reliance; manufacturing scale risks; competition from larger Li-ion players.",
+    "DRCT": "Going concern doubt (cash $0.7M, accum. deficit $27.7M); customer pause caused rev drop ($34.7M 2025 vs $157M 2023); high concentration; credit covenants/default risk; delisting risk; IVT/fraud risks; cookie phaseout.",
+    "INUV": "Customer concentration (2 clients 83.5% rev); history of losses ($178M accum. deficit); working capital deficit $5.1M; negative cash flows; reliance on Yahoo/Google.",
+    "BRID": "Customer concentration (Wal-Mart 33.5%, Dollar General 14.2% rev); food contamination/recall risks; raw material (pork/beef/flour) volatility; inflation/consumer spending risks.",
+    "CLBZ": "65% related-party revenue; early-stage platform (minimal JV ops); development/consulting reliance; scaling risks.",
+    "NEOV": "Startup (sales since 2019); competition (Tesla/LG/Sonnen); regulatory/certification risks; supply chain/tariffs; dependency on installers.",
+    "WS": "Steel cyclicality/commodity pricing; top3 customers 33%; supply chain disruptions; international ops risks."
+  },
+  "quality_notes": "All exhibit revenue quality issues (concentration, related-party, customer pauses); weak balance sheets (losses/deficits, cap needs, going concern); dilution risks (SES/DRCT equity raises); no litigation but integration/manufacturing risks high. No durable demand signals; cyclical/emerging markets. INTC memory: analyst PTs but penalize staleness per rules. Avoid GOOGL/INTC/USAR/GT per Chittick priority without fresh catalysts.",
+  "source_urls": []
+}
 

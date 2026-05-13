@@ -4391,4 +4391,23 @@ The US equity market is grinding to record highs, but the underlying conditions 
   ]
 }
 ```
+## Market Regime Research - 2026-05-13 08:23:37 Eastern Daylight Time
+
+{
+  "summary": "US equities showed high intraday volatility on May 12 with initial risk-off selling due to hot CPI (3.8% YoY), surging energy costs (oil +4% to $102), and geopolitical tensions (Iran war), but staged a strong late-day rally (S&P 500 -0.15%). 'Buy the dip' mentality persists amid resilient indices, though semiconductors (SMH -2.61%) flashed overbought exhaustion warnings. Earnings mixed with pops/drops (e.g., QUBT +40% then fade). ETF flows rebounded sharply in April favoring US equities.",
+  "market_regime": "Volatile risk-on with caution: Indices resilient in narrow range (S&P SPY 716-747) despite macro headwinds; 'buy the dip' dominant but vertical tech rallies risk sharp pullbacks.",
+  "sector_rotation": "Semiconductors/tech overbought and cracking (SMH vertical rally exhaustion, QCOM -11%, SNDK -6%); commodities strong (oil breakout, silver relative strength); defensive value/dividend interest implied by ETF flows and memory (SCHD, SPUS); earnings volatility in software/AI (MDB breakout, ANET retest).",
+  "risk_flags": [
+    "Hot inflation (CPI 3.8% YoY, core 2.8%) + energy surge blocks Fed cuts (policy on hold thru 2026, hawkish dissent);",
+    "10Y yield testing 4.46% (breach 4.48% risks equity rotation to bonds);",
+    "Semiconductor parabolic exhaustion (SMH FOMO traps, measured pullback to $507);",
+    "Geopolitical oil spike ($102+, Strait of Hormuz risk);",
+    "Low consumer sentiment (48.2 all-time low), high inflation expectations (4.5%)"
+  ],
+  "source_urls": [
+    "https://verifiedinvesting.com/blogs/live-show-recap/trading-the-close-market-recap-05-12-2026-stocks-rally-into-close-as-10-year-yields-rise-semiconductors-oil-earnings-in-focus",
+    "https://www.aa.com.tr/en/economy/3-year-high-inflation-makes-it-difficult-for-fed-to-continue-interest-rate-cuts/3935718",
+    "https://www.fxempire.com/forecasts/article/sp500-nvidia-and-amd-slide-as-inflation-oil-shake-us-stocks-1597362"
+  ]
+}
 
