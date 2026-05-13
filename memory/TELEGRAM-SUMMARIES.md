@@ -12178,4 +12178,201 @@ HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
 Self-learning: tier=watch repeat48h=1 fresh=yes bucket=ai-infrastructure-manufacturing
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Performance Ledger - 2026-05-13 16:30:53 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-05-13 16:30:52 Eastern Daylight Time
+- Portfolio value: $100,142.59
+- P/L vs $100k baseline: $142.59
+- Full paper-account return: 0.143%
+- Managed-capital return: 1.43%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 2.55%
+- Latest position value: $5,742.59
+- Full-account cash reserve: 94.3%
+- Managed-capital cash reserve: 42.6%
+- Max snapshot drawdown: $121.87 from 2026-05-08 16:30:03 Eastern Daylight Time to 2026-05-13 12:33:26 Eastern Daylight Time
+
+Open Position Review
+- DT: loser, value $709.51, unrealized P/L $-90.49, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 5 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: loser, value $488.78, unrealized P/L $-11.22, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 6 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: winner, value $866.00, unrealized P/L $66.00, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 13 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- IBRX: loser, value $576.62, unrealized P/L $-23.38, entry 2026-05-11 09:48:18 Eastern Daylight Time, thesis age 2 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: loser, value $497.08, unrealized P/L $-2.92, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 1 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: winner, value $906.66, unrealized P/L $106.66, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 12 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $801.01, unrealized P/L $1.01, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 7 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $896.92, unrealized P/L $96.92, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 15 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- SCHD: appeared 34 times; open position P/L $1.01.
+- SPMO: appeared 32 times; open position P/L $96.92.
+- INTC: appeared 31 times; market outcome unavailable until benchmark/candidate price history is captured.
+- NVDA: appeared 28 times; open position P/L $106.66.
+- GOOGL: appeared 24 times; open position P/L $66.00.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- SQ: appeared 9 times; market outcome unavailable until benchmark/candidate price history is captured.
+- WS: appeared 9 times; market outcome unavailable until benchmark/candidate price history is captured.
+- ADI: appeared 8 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Single-stock allocation would exceed 15%.: 7
+  - A market-open order is already logged for today. No backup order was placed.: 5
+  - Candidate references banned v1 instruments or leverage.: 5
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources.: 2
+  - Low-weight social/congress signal needs at least two stronger sources.: 2
+  - Max open-position count would be exceeded.: 2
+  - repeat_staleness HF source/hype filter rejects source-thin hype. HF memory filter flags similarity to prior rejected patterns.: 2
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources. repeat_staleness HF source/hype filter rejects source-thin hype. HF memory filter flags similarity to prior rejected patterns.: 1
+- By symbol:
+  - GOOGL: 3
+  - PLTR: 3
+  - FLEX: 2
+  - FPS: 2
+  - NVDA: 2
+  - SPMO: 2
+  - VRT: 2
+  - ADI: 1
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 0
+- unknown: 4
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold not met: 8/15 trades and 15/21 days.
+- Keep strategy aggressiveness unchanged; prefer automation, logging, and review improvements.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## End Of Day Memo - 2026-05-13 16:30:53 Eastern Daylight Time
+
+End Of Day Analyst Memo
+
+Recommendation: Carry forward only evidence-backed candidates; review stops before the next market-open run.
+
+Market Regime
+End-of-day review of paper portfolio, trade quality, risk notes, and next-day watchlist.
+
+Portfolio
+Portfolio value: 100142.59 Cash: 94400 Buying power: 194542.59 Positions: - DT: qty=20.289119959, market_value=709.510525, unrealized_pl=-90.489475 - GLRE: qty=28.042624789, market_value=488.78295, unrealized_pl=-11.21705 - GOOGL: qty=2.151289429, market_value=866.00156, unrealized_pl=66.00156 - IBRX: qty=70.838252656, market_value=576.623377, unrealized_pl=-23.376623 - LNC: qty=14.590020426, market_value=497.081996, unrealized_pl=-2.918004 - NVDA: qty=4.00060009, market_value=906.655998, unrealized_pl=106.655998 - SCHD: qty=25.2286345, market_value=801.009145, unrealized_pl=1.009145 - SPMO: qty=6.119014838, market_value=896.921524, unrealized_pl=96.921524 Performance: value $100,142.59, P/L vs $100k $142.59, managed return 1.43%, deployed return 2.55%, managed cash reserve 42.6%.
+
+Top Candidates
+
+1. FPS (industrials-electrical-equipment) | confidence 0.75 | allocation 6.0% | stop 8.0% | Chittick 35/100 | tier watch | bucket ai-infrastructure-power | HF source 8/100
+Thesis: Forgent Power Solutions positioned at AI infrastructure bottleneck with electrical distribution gear for data centers/power grid; strong revenue/earnings growth from AI demand creates quality growth trade.
+Catalyst: Simply Wall St May 2026 AI infra screener top pick: $13.1B mkt cap, rapid AI orders, fresh equity raise, high growth forecasts; aligns with AEP $2.6B grid funding news.
+Entry: Enter 50% at open if above prior close +1%; add on pullback to 5-day EMA if volume > avg.
+Exit: Take 50% profit at +8%; trail stop at +4%; invalidate below 5-day low.
+Risk/reward: 3:1 potential (8% stop vs 20-25% upside to growth re-rating); defined via recent range.
+Bear/adversary: Recent rejections on position limits; Simply Wall St screener not primary filing/earnings.
+Source quality: Strong: Simply Wall St screener + AEP raise corroboration; multi-source AI infra theme.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Undervalued vs cash flows per screener; strong balance sheet implied by equity raise capacity.
+Valuation: Screens attractive vs AI growth; $13.1B cap reasonable for infra leader.
+Growth runway: AI data center buildout through 2027+; services expansion.
+Balance-sheet risk: Low; equity-funded growth, no noted debt issues.
+Capital allocation: AI-focused orders + maintenance reinvestment.
+Concentration case: AI power infra scarcer than semis; diversifies from NVDA/VRT watches.
+Owner thesis, 30-180 days: Sustained AI capex + margin expansion justifies 30-180 day review.
+Chittick reject reason: Prior position limit rejections; monitor allocation.
+Self-Learning Filter
+Catalyst type: news
+Fresh catalyst: yes
+Repeat count, 48h: 3
+Diversity bucket: ai-infrastructure-power
+Research tier: watch
+Allocation learning: Position-constrained; propose 4% tranche if slots open.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 8/100
+Hype risk: 0.00
+Evidence rank: 0/100
+Memory similarity: 0.40
+Vetoes: none
+Model notes: none
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://simplywall.st/stocks/us/capital-goods/nyse-fps/forgent-power-solutions/news/if-ai-infrastructure-is-the-theme-these-three-stocks-matter, https://briefglance.com/companies/american-electric-power-company-inc-aep/pulses/17761
+
+2. VRT (industrials-electrical-equipment) | confidence 0.74 | allocation 6.0% | stop 8.0% | Chittick 75/100 | tier watch | bucket ai-infrastructure-cooling | HF source 8/100
+Thesis: Vertiv supplies critical power/cooling/racks for data centers/AI hardware; backlog + margin expansion from liquid cooling demand.
+Catalyst: Simply Wall St top AI infra pick; ties to FPS/FLEX theme with strong FCF/low leverage.
+Entry: Enter on breakout above 20-day high with volume.
+Exit: Profit at +10%; stop below entry -6%.
+Risk/reward: 3:1 (6-8% risk to 20% upside).
+Bear/adversary: Leverage concerns in prior filters.
+Source quality: Strong screener validation.
+Chittick Cash Filter
+Score: 75/100
+Margin of safety: Strong FCF cushions downside.
+Valuation: Attractive for backlog growth.
+Growth runway: AI cooling demand 2026-2028.
+Balance-sheet risk: Low leverage noted.
+Capital allocation: Backlog conversion focus.
+Concentration case: Cooling niche complements power plays.
+Owner thesis, 30-180 days: Margin expansion + AI spend sustain.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: news
+Fresh catalyst: yes
+Repeat count, 48h: 3
+Diversity bucket: ai-infrastructure-cooling
+Research tier: watch
+Allocation learning: none
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 8/100
+Hype risk: 0.00
+Evidence rank: 0/100
+Memory similarity: 0.30
+Vetoes: none
+Model notes: none
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://simplywall.st/stocks/us/capital-goods/nyse-fps/forgent-power-solutions/news/if-ai-infrastructure-is-the-theme-these-three-stocks-matter
+
+3. FLEX (industrials-electronics-manufacturing) | confidence 0.72 | allocation 5.0% | stop 8.0% | Chittick 70/100 | tier watch | bucket ai-infrastructure-manufacturing | HF source 8/100
+Thesis: Global manufacturing partner for data center hardware/comms; accelerating via Cloud/Power spin-off + chip partnerships.
+Catalyst: Simply Wall St AI infra screener; diversifies manufacturing exposure.
+Entry: Dip buy near 10-day SMA.
+Exit: +8% target; -7% stop.
+Risk/reward: 2.5:1.
+Bear/adversary: Less differentiated than FPS/VRT.
+Source quality: Reputable screener.
+Chittick Cash Filter
+Score: 70/100
+Margin of safety: Partnership moat.
+Valuation: Growth justifies entry.
+Growth runway: Spin-off unlocks value.
+Balance-sheet risk: Manageable cyclicality.
+Capital allocation: Strategic spin-off.
+Concentration case: Manufacturing alternative to equipment.
+Owner thesis, 30-180 days: Post-spin growth.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: news
+Fresh catalyst: yes
+Repeat count, 48h: 2
+Diversity bucket: ai-infrastructure-manufacturing
+Research tier: watch
+Allocation learning: none
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 8/100
+Hype risk: 0.00
+Evidence rank: 0/100
+Memory similarity: 0.20
+Vetoes: none
+Model notes: none
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://simplywall.st/stocks/us/capital-goods/nyse-fps/forgent-power-solutions/news/if-ai-infrastructure-is-the-theme-these-three-stocks-matter
 
