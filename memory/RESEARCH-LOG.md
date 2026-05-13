@@ -794,4 +794,13 @@ Candidates found: 3
 SEC proposes optional semiannual reporting (Form 10-S) for domestic filers, replacing quarterly 10-Qs; comments due July 6. Benefits smaller/newly public cos with resource reallocation, but risks info asymmetry vs quarterly peers, longer 10b5-1 blackouts, Reg FD challenges. No direct trade catalysts; reinforces quality focus amid narrow risk-off rotation.
 
 Candidates found: 3
+## Premarket Plan - 2026-05-13 08:17:22 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- SCHD: score=75, base=100, chittick=78, approved=False, allocation=4.0%, stop=8.0%
+  rejects: HF memory filter flags similarity to prior rejected patterns.
+- SPUS: score=83, base=95, chittick=72, approved=True, allocation=5.0%, stop=8.0%
+- UNP: score=87, base=100, chittick=75, approved=False, allocation=6.0%, stop=8.0%
+  rejects: Candidate references banned v1 instruments or leverage.
 
