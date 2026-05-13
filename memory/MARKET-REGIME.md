@@ -4452,4 +4452,27 @@ The US equity market is grinding to record highs, but the underlying conditions 
   ]
 }
 ```
+## Market Regime Research - 2026-05-13 14:27:22 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities exhibit resilient 'buy the dip' behavior amid hot CPI (3.8% YoY) and rising 10Y yields (4.459%), with S&P 500 down just 0.15% after intraday volatility. Futures point higher pre-open on May 13, supported by strong earnings expectations (esp. tech/AI) despite inflation/geopolitical risks. Market at all-time highs, balancing yield pressure with corporate profitability.",
+  "market_regime": "risk_on_resilient",
+  "sector_rotation": "tech_concentration_with_value_shift_potential",
+  "risk_flags": [
+    "hot_inflation_cpi_3.8%",
+    "yields_testing_4.484%_resistance",
+    "geopolitical_oil_tensions",
+    "ppi_data_today",
+    "fed_no_cuts_expected_2026"
+  ],
+  "source_urls": [
+    "https://verifiedinvesting.com/blogs/live-show-recap/trading-the-close-market-recap-05-12-2026-stocks-rally-into-close-as-10-year-yields-rise-semiconductors-oil-earnings-in-focus",
+    "https://fortune.com/article/current-mortgage-rates-05-13-2026/",
+    "https://www.bny.com/wealth/global/en/insights/chart-of-the-week/will-markets-remain-resilient.html",
+    "https://eciks.org/3521-66440-stock-market-ends-mixed-after-inflation-pressure-s-p-500-down-0-1-as-futures-poi",
+    "https://cws.substack.com/p/cws-market-review-may-12-2026"
+  ]
+}
+```
 

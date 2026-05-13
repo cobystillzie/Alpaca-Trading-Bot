@@ -827,4 +827,9 @@ Candidates found: 3
 US equities resilient post-hot CPI (3.8% YoY), S&P 500 -0.1% on May 12 with futures higher into May 13 close; 'buy the dip' holds but 10Y yields at 4.459% signal rotation risks from tech to value/defensives. No fresh search hits; relying on memory catalysts like GLD India duty hike, NVDA earnings watch, AI infra screens (FPS/VRT rejected prior), stale repeats (INTC/SQ/SCHD).
 
 Candidates found: 4
+## Two-Hour Research Agent - 2026-05-13 14:27:22 Eastern Daylight Time
+
+Mixed insider activity with AAPL officer sale under 10b5-1 plan (non-signal); MSFT sees strong institutional buying from Aspiring Ventures (+158%) and Krilogy (+14.5%) in Q4; no major catalysts or filings for GOOGL/INTC/USAR/GT; gold ETFs resilient amid prior duty hike momentum.
+
+Candidates found: 2
 

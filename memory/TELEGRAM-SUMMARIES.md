@@ -11961,4 +11961,28 @@ Model notes: Stale but regime fit
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: none
+## Research Update - 2026-05-13 14:27:22 Eastern Daylight Time
+
+Research Update
+
+Market tone: Mixed insider activity with AAPL officer sale under 10b5-1 plan (non-signal); MSFT sees strong institutional buying from Aspiring Ventures (+158%) and Krilogy (+14.5%) in Q4; no major catalysts or filings for GOOGL/INTC/USAR/GT; gold ETFs resilient amid prior duty hike momentum.
+Candidates: 2
+
+1. AAPL (information-technology-consumer-electronics) | confidence 0.75 | allocation 8.0% | stop 5.0% | Chittick 88/100 | tier watch | bucket mega-cap-consumer-tech | HF source 10/100
+Recommendation: watch
+Catalyst: Principal Accounting Officer Ben Borders sold 1,274 shares on May 8 at $290 under pre-arranged Rule 10b5-1 plan per Form 4; holds 38,713 shares post-sale.
+Chittick Cash: P/E ~30x fwd earnings with 15%+ growth; $60B+ net cash buffer.
+HF filter: sentiment=not run source=10/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=mega-cap-consumer-tech
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. MSFT (information-technology-software-cloud) | confidence 0.78 | allocation 8.0% | stop 6.0% | Chittick 92/100 | tier watch | bucket mega-cap-cloud-ai | HF source 9/100
+Recommendation: watch
+Catalyst: Aspiring Ventures LLC +158% stake to 14,576 shares ($7M, 4th largest position); Krilogy +14.5% to 77k shares ($36M) in Q4 per 13F filings.
+Chittick Cash: P/E 35x fwd with 15%+ growth; $80B+ cash.
+HF filter: sentiment=not run source=9/100 hype=0.10 vetoes=0
+Self-learning: tier=watch repeat48h=1 fresh=yes bucket=mega-cap-cloud-ai
+Social buzz, low weight: none
+Congress signal, low weight: none
 

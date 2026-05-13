@@ -9892,4 +9892,188 @@ SEC/company quality check:
     "https://www.sec.gov/Archives/edgar/data/2050338/000205033825000004/clbz-20250930.htm"
   ]
 }
+## Source And Signal Research - 2026-05-13 14:27:22 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks/ETFs. No notable social or web attention anomalies detected.",
+  "social_buzz": "None",
+  "attention_anomalies": "None",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No recent congressional disclosures of trades in liquid US stocks/ETFs identified in search results. Disclosures mentioned are limited to fundraising and cash on hand reports (e.g., Rep. Susie Lee $1.0M raised, Rep. Thomas Massie $585.3K). Company news on Ring Energy (REI) and others noted but no congressional trading signals.",
+  "congressional_signal": "none",
+  "tickers": [],
+  "source_urls": []
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": "Seven companies analyzed from recent 10-K filings (SES AI, Direct Digital Holdings, Inuvo, Bridgford Foods, NeoVolta, Trutankless, Worthington Steel). All exhibit material going-concern risks, revenue concentration, or execution challenges. None qualify for watchlist addition given allocation constraints and quality thresholds.",
+  "filing_risks": {
+    "SES_AI": {
+      "ticker": "SES",
+      "cik": "1819142",
+      "filing_date": "2026-03-04",
+      "critical_risks": [
+        "Accumulated deficit $371.9M (Dec 2025); net losses $73.0M (2025), $100.2M (2024); no profitable operations since inception",
+        "Going-concern implicit: 'We expect to continue to incur losses for the foreseeable future' with projections 'based on internal assumptions that may prove incorrect'",
+        "Capital intensity: requires 'substantial additional capital' for Li-ion/Li-Metal battery development; cash sufficiency only 12 months from filing date",
+        "UZ Energy integration risk (Sept 2025 acquisition): management distraction, key-employee retention, operational/systems consolidation challenges",
+        "Market execution risk: UAM market 'still emerging' with 'no market standard battery technology'; Li-ion cost reductions threaten pricing power",
+        "Supply chain: limited long-term supplier contracts; Hisun JV (Nov 2025) for electrolyte manufacturing not yet revenue-generating (H2 2026 target)",
+        "Product liability: Li-Metal dendrite formation risk; high-energy-density inherent fire risk despite safety procedures",
+        "Customer concentration: business does not 'substantially depend on any one customer' but OEM sampling model creates conversion risk"
+      ],
+      "revenue_quality": "Pre-commercial; no meaningful revenue from battery sales; Molecular Universe platform discovery (6 novel electrolytes) in customer validation phase with 40+ testers but no commercial adoption timeline",
+      "balance_sheet_concern": "Accumulated deficit $371.9M; negative cash flow from operations; dependent on equity raises and debt financing",
+      "dilution_risk": "High: ongoing equity issuance for capital raises; convertible preferred stock outstanding",
+      "valuation_risk": "Speculative; no earnings; valuation entirely dependent on future commercialization success and market adoption"
+    },
+    "DIRECT_DIGITAL_HOLDINGS": {
+      "ticker": "DRCT",
+      "cik": "1880613",
+      "filing_date": "2026-03-31",
+      "critical_risks": [
+        "Substantial doubt about going concern: cash $0.7M (Dec 2025), accumulated deficit $27.7M; 'do not believe cash is sufficient for next twelve months'",
+        "Revenue collapse: 2025 revenue $34.7M (down 44% from 2024 $62.3M); gross profit $10.4M (down 40% from 2024 $17.4M)",
+        "Single-customer event risk: May 2024 sell-side customer pause due to 'defamatory article/blog post' (alleged coordinated misinformation); customer reconnected May 22 but volumes 'not yet at levels prior to pause' and 'continued to affect periods to date'",
+        "Credit facility covenants: minimum unrestricted cash $450K; default risk if covenants breached; term facility matures Dec 3, 2026 with uncertain renewal",
+        "High customer concentration: 90% client retention cited as strength, but 2024 single-customer pause demonstrates vulnerability",
+        "Operational restructuring (July 1, 2024): cost-cutting post-crisis; no evidence of revenue stabilization",
+        "Financing uncertainty: 'cannot be certain additional capital will be available on attractive terms, if at all'",
+        "Nasdaq listing risk: if unable to satisfy listing standards, delisting possible"
+      ],
+      "revenue_quality": "Deteriorating; sell-side revenue pause (May 2024) caused 44% YoY decline; buy-side managed services model dependent on client spending cycles and brand perception",
+      "balance_sheet_concern": "Cash $0.7M insufficient for 12-month operations; accumulated deficit $27.7M; working capital deficit implied",
+      "dilution_risk": "High: equity issuance likely required for survival; existing shareholders face dilution or conversion of debt to equity",
+      "valuation_risk": "Distressed; trading below book value likely; going-concern discount applies"
+    },
+    "INUVO": {
+      "ticker": "INUV",
+      "cik": "829323",
+      "filing_date": "2026-03-05",
+      "critical_risks": [
+        "Severe revenue concentration: 2025 top two customers = 83.5% of revenue (64.2% + 19.3%); 2024 top customer = 75.0% alone",
+        "Revenue volatility: 2025 revenue growth only +2.9% YoY; gross margin compression to 74.5% (down 10.1 percentage points)",
+        "Operating losses: $5.1M loss (2025) vs $5.8M loss (2024); accumulated deficit $178.3M through Dec 2025",
+        "Liquidity stress: cash $2.8M; net working capital deficit $5.1M; 'negative cash flows from operating activities' create 'potential risk of interruption to operating activities'",
+        "Customer dependency: loss of either top customer would cause 'significant decline in revenue' and 'materially adverse impact' on business",
+        "Fixed-cost structure: internally developed software consists 'primarily of labor costs which are of a fixed nature'; limited operating leverage",
+        "Recurring losses and cash outflows: historically funded through 'equity offerings and debt facilities'",
+        "Competitive pressure: DSP/demand-side platform market highly competitive; larger incumbents (Google, Meta, Amazon) dominate; Inuvo targets fragmented mid-market but faces pricing pressure"
+      ],
+      "revenue_quality": "Highly concentrated and volatile; dependent on two customers for 83.5% of revenue; IntentKey AI platform in early commercialization phase",
+      "balance_sheet_concern": "Accumulated deficit $178.3M; cash $2.8M; working capital deficit $5.1M; negative operating cash flow",
+      "dilution_risk": "High: historical reliance on equity offerings for funding; future capital raises likely",
+      "valuation_risk": "Distressed; accumulated deficit exceeds market cap likely; customer concentration discount applies"
+    },
+    "BRIDGFORD_FOODS": {
+      "ticker": "BRID",
+      "cik": "14177",
+      "filing_date": "2026-01-28",
+      "critical_risks": [
+        "Customer concentration: Walmart 33.5% of FY2025 revenue (up from 27.8% FY2024); Dollar General 14.2% of revenue; top two customers = 47.7% of sales",
+        "Walmart receivables risk: 8.2% of AR from Walmart (Oct 31, 2025) vs 25.4% prior year; payment terms and volume volatility create cash flow risk",
+        "Commodity input volatility: pork, beef, flour prices subject to 'seasonal variation' and 'volatile daily swings'; no hedging program in place ('do not participate in commodity futures market')",
+        "Inflation impact: 'prolonged periods of inflation decrease consumers' discretionary spending, which negatively impacts our results of operations'; private-label shift (FY2025) indicates consumer price sensitivity",
+        "Labor cost pressure: 44% of workforce covered by collective bargaining agreements; contracts expire June 2025–Feb 2028; 'pending contracts will be settled favorably' (unquantified risk)",
+        "Product liability and food safety: subject to USDA/FDA inspection; HACCP compliance required; listeria/E. coli/salmonella contamination risk; product recalls possible",
+        "Competitive intensity: 'highly competitive conditions'; competitors include 'large companies with substantially greater financial and marketing resources'",
+        "Margin pressure: shift to private-label (lower margin) due to consumer demand; no new products contributed significantly to FY2025 growth"
+      ],
+      "revenue_quality": "Stable but margin-compressed; Walmart/Dollar General concentration creates volume/pricing risk; private-label shift indicates margin erosion",
+      "balance_sheet_concern": "Moderate; established company with positive equity; no going-concern disclosure; commodity exposure and labor cost inflation create margin risk",
+      "dilution_risk": "Low: mature company; no equity issuance mentioned",
+      "valuation_risk": "Moderate; cyclical food processor; commodity and labor cost inflation create earnings volatility; customer concentration discount applies"
+    },
+    "NEOVOLTA": {
+      "ticker": "NEOV",
+      "cik": "1748137",
+      "filing_date": "2025-09-29",
+      "critical_risks": [
+        "Early-stage execution risk: founded 2018; sales commenced July 2019; 'relatively new company with some of the risks associated with start-up ventures'",
+        "Manufacturing transition: in-house production assumed June 1, 2023 (from contract manufacturing); Feb 2025 facility expansion in Poway; supply chain and quality control risks remain",
+        "Product development stage: NV14/NV24 core products; NVPlus, NV7600 recently launched; 250 kW/430 kWh C&I system and NV16 inverter announced post-fiscal-year-end (not yet revenue-generating)",
+        "Regulatory compliance burden: UL 9540/9540A, UL 1741SA/SB, IEEE 1547, California Rule 21, Hawaii SRD-UL-1741-SA-V1.1 certifications required; 'compliance requires continued investment in engineering and certification'",
+        "Market adoption uncertainty: residential retrofit market estimated 3M+ homes without storage; adoption dependent on federal ITC (scheduled to sunset Dec 31, 2025) and state incentives; financing partnerships 'in development'",
+        "Competitive pressure: Tesla, LG Chem, Sonnen, Enphase, SunPower, SMA America have 'significantly greater financial resources, manufacturing capacity, brand recognition, and established distribution channels'",
+        "Supply chain risk: sourcing from US and Asia; tariff/FEOC compliance requirements increasing; buffer stocks maintained but supply disruption risk remains",
+        "Small team: 17 full-time employees as of June 30, 2025; reliance on outside consultants for R&D, regulatory, market development",
+        "Capital requirements: no going-concern disclosure but early-stage company with limited cash generation; future capital raises likely"
+      ],
+      "revenue_quality": "Early-stage; product sales commenced 2019; revenue growth dependent on residential retrofit adoption and C&I market entry; no material revenue from new products (NVPlus, NV7600, C&I system)",
+      "balance_sheet_concern": "Not disclosed in filing; early-stage company likely has limited cash and positive equity; capital requirements for manufacturing expansion and product development",
+      "dilution_risk": "Moderate-to-high: early-stage company; future capital raises likely for manufacturing scale and product development",
+      "valuation_risk": "Speculative; early-stage ESS manufacturer; valuation dependent on residential retrofit adoption, C&I market entry, and competitive positioning vs. larger incumbents"
+    },
+    "TRUTANKLESS": {
+      "ticker": "TKLS",
+      "cik": "1429393",
+      "filing_date": "2025-08-28",
+      "critical_risks": [
+        "Substantial doubt about going concern: cash $1.0M (Dec 31, 2024) vs $21.5K (Dec 31, 2023); accumulated deficit $77.1M (Dec 2024) vs $66.9M (Dec 2023); working capital deficit $5.9M (Dec 2024) vs $7.4M (Dec 2023)",
+        "Operating losses: net loss $10.2M (2024) vs $2.2M (2023); cash used in operations $2.3M (2024) vs $2.0M (2023)",
+        "Management statement: 'substantial doubt exists about the Company's ability to continue as a going concern'; 'no guarantee the Company will generate sufficient revenues or raise capital to continue operations'",
+        "Revenue generation risk: 'Company has not generated sufficient revenues from product sales to provide sufficient cash flows to enable the Company to finance its operations internally'",
+        "Product commercialization: smart electric tankless water heater with Wi-Fi; Notation Labs spinoff (Jan 2022); Tankless365 subsidiary (planned spinoff reversed, now retained)",
+        "Capital requirements: 'management plans to raise additional capital and invest working capital resources in sales and marketing' over next 12 months; no committed funding sources",
+        "Operational risk: if capital raise fails, 'Company may be forced to scale back or discontinue its sales and marketing efforts'",
+        "Dilution risk: 13.6M additional shares issuable via warrants, stock payable, convertible debt as of Dec 31, 2024"
+      ],
+      "revenue_quality": "Minimal; product in commercialization phase; no material revenue disclosed; dependent on market adoption of smart tankless water heater",
+      "balance_sheet_concern": "Critical: cash $1.0M; accumulated deficit $77.1M; working capital deficit $5.9M; going-concern doubt explicit",
+      "dilution_risk": "Very high: 13.6M shares issuable via warrants/convertible debt; future equity raises likely for survival",
+      "valuation_risk": "Distressed; going-concern discount applies; accumulated deficit $77.1M suggests equity value near zero"
+    },
+    "WORTHINGTON_STEEL": {
+      "ticker": "WS",
+      "cik": "1968487",
+      "filing_date": "2025-07-29",
+      "critical_risks": [
+        "Cyclical industry exposure: 'cyclical nature of the steel industry' creates earnings volatility; automotive end-market (largest customer segment) sensitive to economic cycles and EV adoption rates",
+        "Customer concentration: top three customers = 33.0% of FY2025 net sales; automotive industry concentration creates demand risk",
+        "Raw material volatility: 'volatility or fluctuations in the pricing, quality or availability of raw materials (particularly steel), supplies, transportation, utilities, energy, labor and other items required by operations'",
+        "Tariff and trade risk: 'impact of tariffs, the adoption of trade restrictions affecting the Company's products or suppliers, a United States withdrawal from or significant renegotiation of trade agreements'",
+        "Competitive pressure: 'fragmented and highly competitive' steel processing industry; 'competition is primarily on the basis of price, product quality and the ability to meet delivery requirements'",
+        "Separation execution risk: Worthington Steel separated from Worthington Enterprises (Dec 1, 2023); 'ability to successfully realize the anticipated benefits of the Separation' remains uncertain",
+        "Recent acquisition integration: Sitem Group acquisition (52% stake, June 3, 2025, post-fiscal-year-end); integration risks for Italy/France/Slovakia/Switzerland operations",
+        "Inflation and interest rate risk: 'effect of inflation, interest rate increases and economic recession, which may negatively impact the Company's operations and financial results'",
+        "Supply chain disruption: 'effects of disruption in the business of suppliers, customers, facilities and shipping operations due to adverse weather, casualty events, equipment breakdowns, labor shortages'",
+        "AI/technology risk: 'operational, data privacy, security, regulatory, and legal risks associated with the Company's reliance on AI technologies'"
+      ],
+      "revenue_quality": "Cyclical; dependent on automotive demand and steel pricing; top three customers = 33% of sales; value-added processing model provides some pricing power but subject to commodity cycles",
+      "balance_sheet_concern": "Moderate; large accelerated filer with established operations; no going-concern disclosure; Sitem acquisition (June 2025) adds integration risk and potential goodwill impairment risk",
+      "dilution_risk": "Low: mature company; no equity issuance mentioned; Sitem acquisition likely financed via debt or cash",
+      "valuation_risk": "Moderate; cyclical steel processor; automotive concentration creates earnings volatility; Sitem integration and tariff/trade policy uncertainty create near-term risk"
+    }
+  },
+  "quality_notes": {
+    "allocation_constraint": "All seven candidates rejected or watch-listed due to: (1) going-concern risks (SES, DRCT, INUV, TKLS), (2) revenue concentration >30% (INUV 83.5%, BRID 47.7%, WS 33%), (3) early-stage execution risk (NEOV), or (4) cyclical/commodity exposure (WS, BRID). None meet watchlist quality threshold for new allocation.",
+    "going_concern_flags": "SES (implicit via 'expect to continue to incur losses'), DRCT (explicit 'substantial doubt'), INUV (implicit via negative cash flow), TKLS (explicit 'substantial doubt'). These four disqualify from consideration.",
+    "revenue_concentration_risk": "INUV (83.5% top two customers), BRID (47.7% Walmart+DG), WS (33% top three). Single-customer loss would materially impair operations. DRCT May 2024 pause demonstrates real-world execution risk.",
+    "capital_intensity_and_dilution": "SES (battery R&D requires 'substantial additional capital'), NEOV (manufacturing expansion, product development), TKLS (sales/marketing investment). All face future equity dilution.",
+    "competitive_positioning": "SES (UAM market 'still emerging', Li-ion cost reduction threat), NEOV (vs. Tesla/LG/Enphase), INUVO (vs. Google/Meta/Amazon), DRCT (vs. Pubmatic/Magnite/Google). Larger incumbents with superior resources.",
+    "execution_risk_summary": "SES UZ Energy integration (Sept 2025), NEOV manufacturing transition (June 2023, Feb 2025 expansion), WS Sitem acquisition (June 2025 post-fiscal-year-end), DRCT May 2024 customer pause recovery. All exhibit near-term operational uncertainty.",
+    "chittick_cash_note": "No GOOGL, INTC, USAR, or GT references in filings. Watchlist memory shows NVDA, SCHD, UNP, FPS, VRT, GLD as active candidates. Current batch (SES, DRCT, INUV, BRID, NEOV, TKLS, WS) does not overlap with Chittick focus areas."
+  },
+  "source_urls": [
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1819142&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1880613&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=829323&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=14177&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1748137&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1429393&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1968487&type=10-K&dateb=&owner=exclude&count=100"
+  ]
+}
+```
 
