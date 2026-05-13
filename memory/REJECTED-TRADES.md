@@ -74,4 +74,13 @@ Low-weight social/congress signal needs at least two stronger sources.
 ## Market Open Execution Skipped - 2026-05-11 09:55:02 Eastern Daylight Time
 
 A market-open order is already logged for today. No backup order was placed.
+## Rejected FPS - 2026-05-13 09:46:40 Eastern Daylight Time
+
+Max open-position count would be exceeded.
+## Rejected VRT - 2026-05-13 09:46:40 Eastern Daylight Time
+
+Candidate references banned v1 instruments or leverage.
+## Rejected FLEX - 2026-05-13 09:46:40 Eastern Daylight Time
+
+Candidate references banned v1 instruments or leverage.
 
