@@ -11727,4 +11727,238 @@ HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=1
 Self-learning: tier=watch-allocation-constrained repeat48h=20 fresh=yes bucket=dividend-etf-defensive
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Performance Ledger - 2026-05-13 12:33:26 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-05-13 12:33:26 Eastern Daylight Time
+- Portfolio value: $100,103.54
+- P/L vs $100k baseline: $103.54
+- Full paper-account return: 0.104%
+- Managed-capital return: 1.04%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 1.85%
+- Latest position value: $5,703.63
+- Full-account cash reserve: 94.3%
+- Managed-capital cash reserve: 43.0%
+- Max snapshot drawdown: $121.87 from 2026-05-08 16:30:03 Eastern Daylight Time to 2026-05-13 12:33:26 Eastern Daylight Time
+
+Open Position Review
+- DT: loser, value $678.19, unrealized P/L $-121.81, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 5 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: loser, value $480.09, unrealized P/L $-19.91, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 6 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: winner, value $861.15, unrealized P/L $61.15, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 13 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- IBRX: loser, value $579.10, unrealized P/L $-20.90, entry 2026-05-11 09:48:18 Eastern Daylight Time, thesis age 2 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: winner, value $503.50, unrealized P/L $3.50, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 1 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: winner, value $909.31, unrealized P/L $109.31, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 12 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: loser, value $798.23, unrealized P/L $-1.77, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 7 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $894.05, unrealized P/L $94.05, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 15 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- SCHD: appeared 34 times; open position P/L $-1.77.
+- SPMO: appeared 32 times; open position P/L $94.05.
+- INTC: appeared 31 times; market outcome unavailable until benchmark/candidate price history is captured.
+- NVDA: appeared 28 times; open position P/L $109.31.
+- GOOGL: appeared 24 times; open position P/L $61.15.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- SQ: appeared 9 times; market outcome unavailable until benchmark/candidate price history is captured.
+- WS: appeared 9 times; market outcome unavailable until benchmark/candidate price history is captured.
+- ADI: appeared 8 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Single-stock allocation would exceed 15%.: 7
+  - A market-open order is already logged for today. No backup order was placed.: 5
+  - Candidate references banned v1 instruments or leverage.: 3
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources.: 2
+  - Low-weight social/congress signal needs at least two stronger sources.: 2
+  - repeat_staleness HF source/hype filter rejects source-thin hype. HF memory filter flags similarity to prior rejected patterns.: 2
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources. repeat_staleness HF source/hype filter rejects source-thin hype. HF memory filter flags similarity to prior rejected patterns.: 1
+  - HF memory filter flags similarity to prior rejected patterns.: 1
+- By symbol:
+  - GOOGL: 3
+  - PLTR: 3
+  - NVDA: 2
+  - SPMO: 2
+  - ADI: 1
+  - EWT: 1
+  - EWY: 1
+  - FLEX: 1
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 1
+- No source URLs are stored for latest candidates.
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold not met: 8/15 trades and 15/21 days.
+- Keep strategy aggressiveness unchanged; prefer automation, logging, and review improvements.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## Midday Memo - 2026-05-13 12:33:26 Eastern Daylight Time
+
+Midday Risk Memo
+
+Recommendation: Hold only positions whose thesis still matches the research; do not add unless guardrails pass.
+
+Market Regime
+Review current paper positions, thesis drift, concentration, stop discipline, and cash reserve.
+
+Portfolio
+Portfolio value: 100103.54 Cash: 94400 Buying power: 194503.54 Positions: - DT: qty=20.289119959, market_value=678.19021, unrealized_pl=-121.80979 - GLRE: qty=28.042624789, market_value=480.089736, unrealized_pl=-19.910264 - GOOGL: qty=2.151289429, market_value=861.150402, unrealized_pl=61.150402 - IBRX: qty=70.838252656, market_value=579.102715, unrealized_pl=-20.897285 - LNC: qty=14.590020426, market_value=503.501605, unrealized_pl=3.501605 - NVDA: qty=4.00060009, market_value=909.312397, unrealized_pl=109.312397 - SCHD: qty=25.2286345, market_value=798.231473, unrealized_pl=-1.768527 - SPMO: qty=6.119014838, market_value=894.049258, unrealized_pl=94.049258 Performance: value $100,103.54, P/L vs $100k $103.54, managed return 1.04%, deployed return 1.85%, managed cash reserve 43.0%.
+
+Top Candidates
+
+1. GLD (etf-commodities-gold) | confidence 0.82 | allocation 6.0% | stop 4.0% | Chittick 75/100 | tier execution-ready | bucket etf-commodities | HF source 9/100
+Thesis: Commodity ETF with policy-driven demand surge; quality hedge in inflationary regime with rising yields.
+Catalyst: India gold/silver import duty hiked to 15% from 6% (May 13 govt order), driving ETFs +4-6%, domestic futures +7.2%; Nippon/HDFC/ICICI/Tata gold ETFs explicitly noted.
+Entry: Paper buy at market open May 14 or on pullback to +2% above prior close if volume holds; max 6% allocation.
+Exit: Take profits at +8-10% or if retests entry; invalidate below prior close -2% (tight stop for ETF).
+Risk/reward: 1:2+; 4% stop vs 8-12% target on policy momentum, downside protected by gold's safe-haven status.
+Bear/adversary: Short-term tariff arbitrage fades if India policy softens; GLD overbought if equities rally broadly.
+Source quality: Strong; direct govt policy event with explicit ETF reaction (Nippon/HDFC/ICICI/Tata); memory-confirmed, no hype.
+Chittick Cash Filter
+Score: 75/100
+Margin of safety: Gold's intrinsic value as inflation hedge; physically backed, no credit risk; undervalued vs rising real yields.
+Valuation: Attractive as tactical hedge; P/NAV ~1x with demand catalyst.
+Growth runway: Inflation persistence, EM demand, central bank buying; 30-180 day store-of-value play.
+Balance-sheet risk: None; ETF structure holds physical gold, minimal cyclicality.
+Capital allocation: ETF sponsor (State Street) disciplined; low costs, high AUM.
+Concentration case: Diversifies equity-heavy portfolio; complements value/defensive rotation.
+Owner thesis, 30-180 days: Rising inflation/geopolitical tensions justify 30-180 day hold as portfolio ballast.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: news
+Fresh catalyst: yes
+Repeat count, 48h: 2
+Diversity bucket: etf-commodities
+Research tier: execution-ready
+Allocation learning: none
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 9/100
+Hype risk: 0.00
+Evidence rank: 9/100
+Memory similarity: 0.00
+Vetoes: none
+Model notes: none
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
+
+2. NVDA (information-technology-semiconductors) | confidence 0.82 | allocation 4.0% | stop 8.0% | Chittick 35/100 | tier watch-allocation-constrained | bucket semiconductors-ai | HF source 9/100
+Thesis: AI semiconductor leader with earnings catalyst; blend quality/moat with momentum despite allocation constraints.
+Catalyst: Q1 FY2027 earnings May 20/21; street $78.5B rev (+15% QoQ), $73.1B data center; focus on Blackwell ramp, Rubin signals, Q2 guide beat/raise vs $86-87B.
+Entry: Watch for post-earnings breakout above recent highs if guide raises; small tranche 2-4% if allocation allows.
+Exit: Profits at +10% or guide confirmation; stop below earnings gap.
+Risk/reward: 1:2; 8% stop vs 15%+ upside on beat/Blackwell catalysts.
+Bear/adversary: Allocation cap exceeded (rejected prior); semis exhaustion amid yields.
+Source quality: Strong; consensus estimates from reputable sources, company event.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: AI monopoly pricing power buffers downside; strong BS.
+Valuation: Premium but justified by growth; attractive on guide raise.
+Growth runway: Blackwell/Rubin ramps, data center dominance 30-180+ days.
+Balance-sheet risk: Low debt, high cash; minimal cyclicality in AI.
+Capital allocation: Exemplary buybacks/capex discipline.
+Concentration case: Warrants slot despite cap due to moat; prefer over broad semis ETF.
+Owner thesis, 30-180 days: AI secular growth justifies 30-180 day review on execution.
+Chittick reject reason: Prior allocation rejection
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 2
+Diversity bucket: semiconductors-ai
+Research tier: watch-allocation-constrained
+Allocation learning: Reduce tranche if executed
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 9/100
+Hype risk: 0.10
+Evidence rank: 8/100
+Memory similarity: 0.00
+Vetoes: none
+Model notes: none
+Social buzz, max 10%: low-weight congressional (AE Wealth 13F add, max 0.05 influence)
+Congress signal, max 5%: AE Wealth +NVDA in 13F (weak secondary)
+Sources: none
+
+3. UNP (industrials-rail-transport) | confidence 0.75 | allocation 6.0% | stop 8.0% | Chittick 75/100 | tier watch | bucket industrials-transport | HF source 9/100
+Thesis: Quality industrial with volume catalyst; owner-like moat in rail networks amid rotation to cyclicals.
+Catalyst: Q1 2026 grain transports surpass 2008 record on Mexico/overseas demand; SEC semiannual reporting eases noise (memory).
+Entry: Dip buy on pullback to 50-day MA if volume holds.
+Exit: Profits +8-10%; stop below recent lows.
+Risk/reward: 1:2; defined support levels.
+Bear/adversary: Stale catalyst (4 repeats); broader freight weakness.
+Source quality: Strong; company news + SEC policy context.
+Chittick Cash Filter
+Score: 75/100
+Margin of safety: Asset-heavy moat, low leverage.
+Valuation: Reasonable P/E vs historicals.
+Growth runway: Export demand, efficiency gains 30-180 days.
+Balance-sheet risk: Investment-grade, low cyclicality vs autos.
+Capital allocation: Shareholder-friendly dividends/buybacks.
+Concentration case: Diversifies tech/AI; rail moat > broad industrials ETF.
+Owner thesis, 30-180 days: Grain export tailwinds for 30-180 days.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 6
+Diversity bucket: industrials-transport
+Research tier: watch
+Allocation learning: none
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 9/100
+Hype risk: 0.00
+Evidence rank: 8/100
+Memory similarity: 0.20
+Vetoes: none
+Model notes: none
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
+
+4. SCHD (etf-dividend-value) | confidence 0.70 | allocation 4.0% | stop 8.0% | Chittick 35/100 | tier watch-allocation-constrained | bucket dividend-etf-defensive | HF source 9/100 | HF veto
+Thesis: Premier dividend ETF for rotation; quality filter amid yield rise, despite high repeats.
+Catalyst: SEC May 5 semiannual reporting proposal reduces burden, boosts value creation; JPM value rotation (20+ repeats, penalize but fresh SEC tie-in).
+Entry: Add on dip if Dow outperformance continues.
+Exit: Trim at +8%; stop -6%.
+Risk/reward: 1:1.5; lower vol trade.
+Bear/adversary: 20+ repeats, no fresh breakout; allocation cap.
+Source quality: Strong; JPM/Morningstar/SEC.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Diversified quality holdings, 3.5% yield buffer.
+Valuation: Discount to S&P on yield.
+Growth runway: Dividend growth compounds 30-180 days.
+Balance-sheet risk: Low; quality screens.
+Capital allocation: ETF passive excellence.
+Concentration case: Broad defensive alt to single stocks.
+Owner thesis, 30-180 days: Core holding in rotation regime.
+Chittick reject reason: High repeats
+Self-Learning Filter
+Catalyst type: general
+Fresh catalyst: yes
+Repeat count, 48h: 20
+Diversity bucket: dividend-etf-defensive
+Research tier: watch-allocation-constrained
+Allocation learning: Small tranche only High repeat count 20: cap allocation language and require fresh alternatives before execution-ready status. High repeat count 20: cap allocation language and require fresh alternatives before execution-ready status.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 9/100
+Hype risk: 0.00
+Evidence rank: 8/100
+Memory similarity: 0.80
+Vetoes: repeat_decay
+Model notes: Stale but regime fit
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
 
