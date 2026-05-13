@@ -11985,4 +11985,164 @@ HF filter: sentiment=not run source=9/100 hype=0.10 vetoes=0
 Self-learning: tier=watch repeat48h=1 fresh=yes bucket=mega-cap-cloud-ai
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Performance Ledger - 2026-05-13 16:22:27 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-05-13 16:22:27 Eastern Daylight Time
+- Portfolio value: $100,128.18
+- P/L vs $100k baseline: $128.18
+- Full paper-account return: 0.128%
+- Managed-capital return: 1.28%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 2.29%
+- Latest position value: $5,728.18
+- Full-account cash reserve: 94.3%
+- Managed-capital cash reserve: 42.7%
+- Max snapshot drawdown: $121.87 from 2026-05-08 16:30:03 Eastern Daylight Time to 2026-05-13 12:33:26 Eastern Daylight Time
+
+Open Position Review
+- DT: loser, value $696.79, unrealized P/L $-103.21, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 5 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: loser, value $488.78, unrealized P/L $-11.22, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 6 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: winner, value $865.44, unrealized P/L $65.44, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 13 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- IBRX: loser, value $576.62, unrealized P/L $-23.38, entry 2026-05-11 09:48:18 Eastern Daylight Time, thesis age 2 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: loser, value $497.08, unrealized P/L $-2.92, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 1 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: winner, value $905.78, unrealized P/L $105.78, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 12 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $800.76, unrealized P/L $0.76, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 7 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $896.92, unrealized P/L $96.92, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 15 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- SCHD: appeared 34 times; open position P/L $0.76.
+- SPMO: appeared 32 times; open position P/L $96.92.
+- INTC: appeared 31 times; market outcome unavailable until benchmark/candidate price history is captured.
+- NVDA: appeared 28 times; open position P/L $105.78.
+- GOOGL: appeared 24 times; open position P/L $65.44.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- SQ: appeared 9 times; market outcome unavailable until benchmark/candidate price history is captured.
+- WS: appeared 9 times; market outcome unavailable until benchmark/candidate price history is captured.
+- ADI: appeared 8 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Single-stock allocation would exceed 15%.: 7
+  - A market-open order is already logged for today. No backup order was placed.: 5
+  - Candidate references banned v1 instruments or leverage.: 5
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources.: 2
+  - Low-weight social/congress signal needs at least two stronger sources.: 2
+  - Max open-position count would be exceeded.: 2
+  - repeat_staleness HF source/hype filter rejects source-thin hype. HF memory filter flags similarity to prior rejected patterns.: 2
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources. repeat_staleness HF source/hype filter rejects source-thin hype. HF memory filter flags similarity to prior rejected patterns.: 1
+- By symbol:
+  - GOOGL: 3
+  - PLTR: 3
+  - FLEX: 2
+  - FPS: 2
+  - NVDA: 2
+  - SPMO: 2
+  - VRT: 2
+  - ADI: 1
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 0
+- unknown: 3
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold not met: 8/15 trades and 15/21 days.
+- Keep strategy aggressiveness unchanged; prefer automation, logging, and review improvements.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## End Of Day Memo - 2026-05-13 16:22:27 Eastern Daylight Time
+
+End Of Day Analyst Memo
+
+Recommendation: Carry forward only evidence-backed candidates; review stops before the next market-open run.
+
+Market Regime
+End-of-day review of paper portfolio, trade quality, risk notes, and next-day watchlist.
+
+Portfolio
+Portfolio value: 100128.18 Cash: 94400 Buying power: 194528.18 Positions: - DT: qty=20.289119959, market_value=696.789247, unrealized_pl=-103.210753 - GLRE: qty=28.042624789, market_value=488.78295, unrealized_pl=-11.21705 - GOOGL: qty=2.151289429, market_value=865.442224, unrealized_pl=65.442224 - IBRX: qty=70.838252656, market_value=576.623377, unrealized_pl=-23.376623 - LNC: qty=14.590020426, market_value=497.081996, unrealized_pl=-2.918004 - NVDA: qty=4.00060009, market_value=905.775866, unrealized_pl=105.775866 - SCHD: qty=25.2286345, market_value=800.764428, unrealized_pl=0.764428 - SPMO: qty=6.119014838, market_value=896.921524, unrealized_pl=96.921524 Performance: value $100,128.18, P/L vs $100k $128.18, managed return 1.28%, deployed return 2.29%, managed cash reserve 42.7%.
+
+Top Candidates
+
+1. AAPL (information-technology-consumer-electronics) | confidence 0.75 | allocation 8.0% | stop 5.0% | Chittick 88/100 | tier watch | bucket mega-cap-consumer-tech | HF source 10/100
+Thesis: High-quality consumer tech leader with sticky ecosystem; routine 10b5-1 sale by accounting officer is non-discretionary and low-signal given remaining 38k share position.
+Catalyst: Principal Accounting Officer Ben Borders sold 1,274 shares on May 8 at $290 under pre-arranged Rule 10b5-1 plan per Form 4; holds 38,713 shares post-sale.
+Entry: Watch for breakout above $295 on volume post-Form 4 digestion; paper buy limit $288-292 if dips.
+Exit: Take profits at $305 (5% up); invalidate below $280 (pre-sale levels).
+Risk/reward: Defined 3-5% upside to resistance vs 3% downside to support; low catalyst risk.
+Bear/adversary: 10b5-1 plans can mask timing; minor role officer but optics in concentrated tech.
+Source quality: Strong: Direct SEC Form 4 via StockTitan; official insider disclosure.
+Chittick Cash Filter
+Score: 88/100
+Margin of safety: P/E ~30x fwd earnings with 15%+ growth; $60B+ net cash buffer.
+Valuation: Fair at $290 vs historical 25-35x; services growth offsets hardware cycles.
+Growth runway: AI features in iOS/devices; services expansion; 30-180 day Vision Pro ramp.
+Balance-sheet risk: Minimal; fortress balance sheet, low debt.
+Capital allocation: Disciplined buybacks/dividends; opportunistic M&A.
+Concentration case: Premier quality mega-cap; diversifies from AI semis like NVDA/INTC.
+Owner thesis, 30-180 days: Ecosystem lock-in sustains 10%+ CAGR; review post-WWDC for AI catalysts.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: filing
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: mega-cap-consumer-tech
+Research tier: watch
+Allocation learning: none
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 10/100
+Hype risk: 0.00
+Evidence rank: 9/100
+Memory similarity: 0.00
+Vetoes: none
+Model notes: none
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.stocktitan.net/sec-filings/AAPL/form-4-apple-inc-insider-trading-activity-2fd7d4facd75.html
+
+2. MSFT (information-technology-software-cloud) | confidence 0.78 | allocation 8.0% | stop 6.0% | Chittick 92/100 | tier watch | bucket mega-cap-cloud-ai | HF source 9/100
+Thesis: Premier cloud/AI software giant with accelerating institutional demand; quality compounder.
+Catalyst: Aspiring Ventures LLC +158% stake to 14,576 shares ($7M, 4th largest position); Krilogy +14.5% to 77k shares ($36M) in Q4 per 13F filings.
+Entry: Dip buy $510-520 on pullback; add on volume above $530.
+Exit: Profits at $550 (Wedbush PT); stop below $500.
+Risk/reward: 5-8% upside to PTs vs 5% downside; institutional flow supportive.
+Bear/adversary: Q4 data is dated; OpenAI restructuring may cap equity upside.
+Source quality: Strong: MarketBeat 13F reports from SEC filings.
+Chittick Cash Filter
+Score: 92/100
+Margin of safety: P/E 35x fwd with 15%+ growth; $80B+ cash.
+Valuation: Premium justified by AI/cloud dominance.
+Growth runway: Azure +30% growth; Copilot/Workday integrations; OpenAI exposure.
+Balance-sheet risk: Low; net cash position.
+Capital allocation: Excellent: Dividends, buybacks, AI capex.
+Concentration case: Top-tier over broad ETFs; complements GOOGL focus.
+Owner thesis, 30-180 days: AI monopoly potential; 30-180 day Azure beats.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: filing
+Fresh catalyst: yes
+Repeat count, 48h: 2
+Diversity bucket: mega-cap-cloud-ai
+Research tier: watch
+Allocation learning: none
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 9/100
+Hype risk: 0.10
+Evidence rank: 8/100
+Memory similarity: 0.00
+Vetoes: none
+Model notes: none
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.marketbeat.com/instant-alerts/filing-microsoft-corporation-msft-is-aspiring-ventures-llcs-4th-largest-position-2026-05-13/, https://www.marketbeat.com/instant-alerts/filing-microsoft-corporation-msft-shares-acquired-by-krilogy-financial-llc-2026-05-13/
 

@@ -83,4 +83,13 @@ Candidate references banned v1 instruments or leverage.
 ## Rejected FLEX - 2026-05-13 09:46:40 Eastern Daylight Time
 
 Candidate references banned v1 instruments or leverage.
+## Rejected FPS - 2026-05-13 09:55:02 Eastern Daylight Time
+
+Max open-position count would be exceeded.
+## Rejected VRT - 2026-05-13 09:55:02 Eastern Daylight Time
+
+Candidate references banned v1 instruments or leverage.
+## Rejected FLEX - 2026-05-13 09:55:02 Eastern Daylight Time
+
+Candidate references banned v1 instruments or leverage.
 
