@@ -4369,4 +4369,26 @@ The US equity market is grinding to record highs, but the underlying conditions 
   ]
 }
 ```
+## Market Regime Research - 2026-05-13 06:21:29 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equity markets exhibit a narrow, fragile rally driven by ~10 stocks (69% of S&P 500 gains since March 30 lows), amid hot April CPI (3.8% YoY, core pressures) crushing Fed rate cut hopes until mid-2027+. Fed funds steady at 3.50-3.75% (divisive 8-4 vote); Iran War energy shock (gas +28%, fuel oil +54%) + strong jobs (115k payrolls, 4.3% unemployment) fuel inflation fears to 4.5% peak. Narrow breadth signals risk-off rotation to value/defensives (SCHD/SPUS watches); VIX likely elevated on geopolitics/Fed hawkishness.",
+  "market_regime": "Narrow risk-off rotation (Mag 7 concentration vulnerability); inflation shock + delayed cuts = defensive/value bias for cautious paper-trading",
+  "sector_rotation": "From narrow tech/AI (INTC/NVDA watches constrained) → value/dividend/defensive (SCHD 20+ repeats, SPUS quality tilt, UNP industrials); fintech (SQ) losing freshness amid macro risks",
+  "risk_flags": [
+    "Hot CPI (3.8% YoY >2% target) kills rate cuts until 2027+; Kalshi 42% Fed hike odds pre-July 2027",
+    "Iran War energy inflation (gas +28%, fuel oil +54%); RSM forecasts 4.5% peak summer",
+    "S&P 500 narrow rally: 10 stocks = 69% gains → breadth collapse risk",
+    "Divisive FOMC (8-4 hold); Goolsbee warns overheating/non-energy inflation",
+    "Geopolitical overhang + Trump tariffs amplify supply shocks"
+  ],
+  "source_urls": [
+    "https://www.thestreet.com/fed/hot-inflation-report-throws-cold-water-on-fed-rate-cuts",
+    "https://www.investing.com/analysis/the-sp-500s-narrow-rally-10-stocks-accounted-for-69-of-gains-200680144",
+    "https://www.schwab.com/learn/market-commentary",
+    "https://www.financialcontent.com"
+  ]
+}
+```
 

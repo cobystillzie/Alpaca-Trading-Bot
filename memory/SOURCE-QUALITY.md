@@ -9433,4 +9433,237 @@ SEC/company quality check:
   "source_urls": []
 }
 ```
+## Source And Signal Research - 2026-05-13 06:21:29 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks/ETFs. Existing candidates (INTC, SQ, UNP, SCHD, SPUS, NVDA, CNTB, BRAI) show no new social attention anomalies.",
+  "social_buzz": "weak",
+  "attention_anomalies": "none",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Three public offerings priced May 12, 2026: Ring Energy (REI) $60M at $1.35/share (44.4M shares, closes ~May 14); Red Cat Holdings (RCAT) $225M at $9.40/share (23.9M shares, closes ~May 14). Arvinas (ARVN) FDA approval of VEPPANU (first PROTAC therapy) with Q1 2026 cash burn of $70.5M; cash/equivalents/securities $615M sufficient into H2 2028. Evolution Petroleum (EPM) Q3 2026 results: 16th consecutive dividend ($0.12), revenue decline, increased losses; post-quarter portfolio high-grade with $3.3M mineral divestiture and $0.5M Haynesville/Bossier acquisition. Insider trading: ARVN 14 sales vs 1 purchase (6 months); LOGOS GLOBAL exited ARVN entirely (-$66.1M Q4 2025); Point72 added ARVN (+$27.5M Q4 2025). No congressional disclosures identified in source materials.",
+  "congressional_signal": "None detected. Source materials contain no references to congressional filings, SEC Form 4 insider disclosures, or legislative activity. All data derived from company press releases, 13F institutional holdings (delayed), and public offering announcements.",
+  "tickers": [
+    "REI",
+    "RCAT",
+    "ARVN",
+    "EPM"
+  ],
+  "source_urls": [
+    "https://www.quiverquant.com/news/Ring+Energy,+Inc.+Prices+$60+Million+Public+Offering+of+Common+Stock",
+    "https://www.quiverquant.com/news/Red+Cat+Holdings,+Inc.+Announces+Pricing+of+Public+Offering+at+$9.40+per+Share,+Aiming+to+Raise+Approximately+$225+Million",
+    "https://www.quiverquant.com/news/Arvinas,+Inc.+Celebrates+FDA+Approval+of+First+PROTAC+Therapy+VEPPANU%E2%84%A2+and+Outlines+Advancements+in+Clinical+Pipeline",
+    "https://www.quiverquant.com/news/Evolution+Petroleum+Corporation+Reports+Fiscal+Q3+2026+Financial+Results+and+Declares+16th+Consecutive+Cash+Dividend"
+  ]
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": {
+    "filing_date": "2026-03-24",
+    "company": "CreditRiskMonitor.com, Inc.",
+    "ticker": "CRMZ",
+    "sector": "Software/SaaS - Financial Risk Analytics",
+    "market_cap_estimate": "$11.96M (non-affiliate, June 2025)",
+    "key_metrics": {
+      "shares_outstanding": 10767501,
+      "status": "Non-accelerated filer, Smaller reporting company",
+      "exchange": "OTCQX",
+      "revenue_concentration": "No single subscriber >1% of revenue (diversified)",
+      "business_model": "SaaS subscription (>99% of revenue, paid upfront annually)"
+    }
+  },
+  "filing_risks": {
+    "revenue_quality": {
+      "risk_level": "MODERATE",
+      "evidence": [
+        "SaaS subscription model with upfront annual payments reduces churn risk and improves cash visibility",
+        "Diversified subscriber base: ~40% of Fortune 1000 + 1000+ large corporations; no single subscriber >1% revenue",
+        "Trade Contributor Program: $3 trillion in annualized trade credit transaction data provides proprietary data moat",
+        "However: Highly dependent on corporate credit extension cycles; demand correlates with bankruptcy rates"
+      ],
+      "concern": "Bankruptcy normalization thesis is core to growth narrative—if corporate bankruptcies revert below long-term average, demand softens"
+    },
+    "market_opportunity": {
+      "risk_level": "MODERATE-HIGH",
+      "evidence": [
+        "TAM estimate: >$1.375B (Dun & Bradstreet Finance & Risk vertical 2024); CRMZ <1% market share",
+        "32% increase in US business bankruptcies (2025 vs 2023) supports near-term demand",
+        "However: Dun & Bradstreet (private, post-Clearlake acquisition) and Experian/Equifax dominate; CRMZ is niche player",
+        "SupplyChainMonitor product still early-stage; adoption depends on 'nearshoring' and supply-chain risk awareness"
+      ],
+      "concern": "Macro normalization of bankruptcy rates or recession-driven credit contraction could reverse 32% growth tailwind"
+    },
+    "competitive_position": {
+      "risk_level": "MODERATE",
+      "evidence": [
+        "FRISK® score: 96% accuracy for public company bankruptcy prediction (3+ months pre-filing); PAYCE® 80% for private",
+        "Proprietary algorithms, 15+ years of usage data, and subscriber sentiment signal differentiate product",
+        "However: Competitors (Dun & Bradstreet, Experian, Equifax) have vastly greater resources, brand, and distribution",
+        "No patent protection mentioned; competitive moat relies on data accumulation and user experience"
+      ],
+      "concern": "Larger competitors could replicate analytics; CRMZ lacks pricing power and scale economies"
+    },
+    "balance_sheet_liquidity": {
+      "risk_level": "LOW-MODERATE",
+      "evidence": [
+        "Upfront annual subscription model generates strong cash inflows",
+        "No debt mentioned; remote-only operations minimize fixed costs",
+        "However: Market cap $11.96M suggests limited financial cushion for R&D or M&A",
+        "No cash balance disclosed in 10-K excerpt; need full financials to assess runway"
+      ],
+      "concern": "Small cap with limited access to capital markets; any revenue disruption could force dilutive equity raise"
+    },
+    "customer_concentration": {
+      "risk_level": "LOW",
+      "evidence": [
+        "Explicitly states: 'no single subscriber >1% of fiscal 2025 and 2024 revenues'",
+        "Diversified across Fortune 1000 and mid-market corporates",
+        "Loss of any individual subscriber would not have material adverse effect"
+      ],
+      "concern": "None material; diversification is a strength"
+    },
+    "product_concentration": {
+      "risk_level": "MODERATE",
+      "evidence": [
+        "SaaS subscription products represent >99% of operating revenues",
+        "CreditRiskMonitor® and SupplyChainMonitor™ are core; add-ons (Credit Limit Service, CFSS) are supplementary",
+        "However: Limited product diversification; no hardware, services, or consulting revenue streams"
+      ],
+      "concern": "Disruption to SaaS platform (cyber, regulatory, technology shift) could materially impact revenue"
+    },
+    "regulatory_legal": {
+      "risk_level": "LOW",
+      "evidence": [
+        "No material litigation disclosed",
+        "Data supplier contracts with NRSROs and London Stock Exchange Group provide legal framework",
+        "Trade Contributor Program operates under confidentiality agreements"
+      ],
+      "concern": "Data privacy regulations (GDPR, CCPA) could increase compliance costs; no specific disclosure of exposure"
+    },
+    "dilution_capital_allocation": {
+      "risk_level": "MODERATE",
+      "evidence": [
+        "No equity issuance or stock buyback activity disclosed in excerpt",
+        "Remote-only model suggests disciplined capital allocation",
+        "However: Small market cap ($11.96M) and OTCQX listing suggest limited institutional investor base",
+        "No dividend or share repurchase program mentioned"
+      ],
+      "concern": "If growth stalls, company may need dilutive equity raise; no clear capital allocation policy disclosed"
+    },
+    "valuation_concerns": {
+      "risk_level": "MODERATE-HIGH",
+      "evidence": [
+        "Market cap $11.96M on ~10.8M shares = ~$1.11/share (June 2025 valuation)",
+        "No P/E, P/S, or EV/EBITDA metrics disclosed in excerpt; need full financials",
+        "OTCQX listing and small-cap status suggest limited analyst coverage and liquidity"
+      ],
+      "concern": "Illiquid, thinly-traded security; valuation highly dependent on bankruptcy cycle narrative; micro-cap risk premium"
+    },
+    "technology_obsolescence": {
+      "risk_level": "MODERATE",
+      "evidence": [
+        "AI/ML capabilities (FRISK®, PAYCE®) are core differentiators but require continuous R&D investment",
+        "No disclosure of R&D spending or technology roadmap",
+        "Competitors (Dun & Bradstreet, Experian) likely investing heavily in AI; CRMZ may fall behind"
+      ],
+      "concern": "Rapid evolution of generative AI and alternative data sources could disrupt traditional bankruptcy prediction models"
+    }
+  },
+  "quality_notes": {
+    "durable_demand_evidence": [
+      "Trade credit is ~25% of US corporate debt and 3x bank lending by volume (per filing)",
+      "32% YoY increase in business bankruptcies (2025 vs 2023) validates core thesis",
+      "~40% of Fortune 1000 are subscribers; high-quality customer base with recurring needs",
+      "SupplyChainMonitor™ addresses emerging 'nearshoring' and supply-chain resilience trends (favorable macro tailwind)"
+    ],
+    "revenue_quality_strengths": [
+      "Upfront annual subscription model: >99% of revenue paid in advance; strong cash conversion",
+      "Diversified subscriber base: No concentration risk; sticky customer relationships",
+      "Proprietary data (Trade Contributor Program, $3T transaction data): High switching costs",
+      "Recurring SaaS model: Predictable, scalable revenue with low marginal cost"
+    ],
+    "revenue_quality_weaknesses": [
+      "Highly cyclical: Demand tied to bankruptcy rates and corporate credit cycles",
+      "Macro-dependent: Normalization of bankruptcy rates or recession could reverse growth",
+      "Limited pricing power: Smaller competitor vs. Dun & Bradstreet, Experian, Equifax",
+      "No disclosed customer acquisition cost (CAC) or lifetime value (LTV) metrics"
+    ],
+    "balance_sheet_assessment": [
+      "Remote-only operations minimize fixed costs and capital intensity",
+      "Upfront subscription revenue improves working capital",
+      "No debt disclosed; low financial leverage",
+      "However: Micro-cap status ($11.96M market cap) limits financial flexibility"
+    ],
+    "management_capital_allocation": [
+      "No material M&A, buybacks, or dividend activity disclosed",
+      "Focus appears to be organic growth and product development",
+      "Limited disclosure of strategic priorities or capital allocation framework",
+      "No executive compensation or insider ownership details in excerpt"
+    ],
+    "litigation_regulatory_risk": [
+      "No material litigation disclosed",
+      "Data privacy compliance (GDPR, CCPA) not explicitly addressed; potential hidden cost",
+      "Regulatory environment for credit reporting and data aggregation is stable but evolving"
+    ],
+    "insider_ownership_alignment": [
+      "No insider ownership or stock option details disclosed in excerpt",
+      "Remote-only structure suggests lean management team",
+      "Need proxy statement to assess management alignment with shareholders"
+    ]
+  },
+  "quality_notes_summary": {
+    "investment_thesis": "CRMZ is a niche SaaS provider with a durable, recurring revenue model tied to corporate credit risk management. The 32% YoY increase in bankruptcies and ~40% Fortune 1000 penetration validate near-term demand. However, the company is a micro-cap ($11.96M) with <1% market share vs. much larger competitors (Dun & Bradstreet, Experian, Equifax). Valuation, liquidity, and macro cyclicality are material risks.",
+    "key_strengths": [
+      "Diversified, sticky SaaS subscriber base (no >1% concentration)",
+      "Upfront annual subscription model (strong cash generation)",
+      "Proprietary bankruptcy prediction algorithms (96% accuracy for public companies)",
+      "Favorable macro tailwind: 32% YoY bankruptcy growth + supply-chain resilience trends"
+    ],
+    "key_weaknesses": [
+      "Micro-cap illiquidity ($11.96M market cap, OTCQX listing)",
+      "Highly cyclical revenue dependent on bankruptcy rates and corporate credit cycles",
+      "Minimal competitive moat vs. much larger, better-resourced competitors",
+      "Limited analyst coverage, institutional investor base, and financial disclosure"
+    ],
+    "watch_list_recommendation": "WATCH (not BUY). Suitable for contrarian, micro-cap, or thematic (bankruptcy cycle) portfolios only. Requires deep due diligence on full financials, cash position, R&D spending, and customer retention metrics. High risk/reward profile; illiquidity and cyclicality are material concerns. Monitor bankruptcy rate trends and competitive positioning closely.",
+    "red_flags": [
+      "Micro-cap illiquidity and OTCQX listing (limited exit liquidity)",
+      "Macro cyclicality: Demand tied to bankruptcy rates; normalization risk is material",
+      "Competitive disadvantage vs. Dun & Bradstreet, Experian, Equifax (scale, resources, brand)",
+      "No disclosed cash balance, R&D spending, or customer acquisition metrics in 10-K excerpt"
+    ]
+  },
+  "source_urls": [
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000315958&type=10-K&dateb=&owner=exclude&count=100",
+    "https://www.creditriskmonitor.com",
+    "https://www.sec.gov/Archives/edgar/container/315958/000031595826000001/crmz-20260324.htm"
+  ]
+}
+```
+
+---
+
+## **SUPPLEMENTAL ANALYSIS: MICRO-CAP RISK PROFILE**
+
+**CRMZ is NOT recommended for core watchlist allocation.** The filing reveals a well-managed niche SaaS business with durable demand drivers (bankruptcy cycle, supply-chain resilience), but **micro-cap illiquidity, macro cyclicality, and competitive disadvantage vs. incumbents** present material risks unsuitable for most portfolios.
+
+### **Key Takeaways for Chittick Cash / Watchlist:**
+
+1. **Revenue Quality: STRONG** (SaaS, upfront annual, diversified)  
+2. **Demand Durability: MODERATE** (tied to bankruptcy cycle; normalization risk)  
+3. **Competitive Position: WEAK** (niche player vs. Dun & Bradstreet, Experian, Equifax)  
+4. **Valuation: OPAQUE** (micro-cap, OTCQX; limited disclosure)  
+5. **Liquidity: POOR** ($11.96M market cap; illiquid)  
+
+**Recommendation:** Monitor for thematic bankruptcy-cycle plays, but do not allocate core capital. Suitable only for high-risk, micro-cap, or contrarian portfolios with deep due diligence and extended time horizons.
 

@@ -789,4 +789,9 @@ Candidates found: 2
 NVIDIA Q1 FY2027 earnings preview dominates AI/semiconductor narrative ahead of May 20-21 release (slight date discrepancy across sources); Q4 FY2026 blowout ($68.1B rev +73% YoY, data center $62.3B 91% total, 75.2% margins) sets high bar with street expecting $78.5B rev, $1.75 EPS, $73.1B data center. Focus: Blackwell ramp, Rubin roadmap, demand breadth beyond hyperscalers, Q2 guide ~$86-87B. Technicals show 154% rally to $220 high but RSI divergence/Elliott Wave completion signals pullback risk to $193-195 support. Strong Buy consensus but high expectations limit near-term swing.
 
 Candidates found: 3
+## Two-Hour Research Agent - 2026-05-13 06:21:29 Eastern Daylight Time
+
+SEC proposes optional semiannual reporting (Form 10-S) for domestic filers, replacing quarterly 10-Qs; comments due July 6. Benefits smaller/newly public cos with resource reallocation, but risks info asymmetry vs quarterly peers, longer 10b5-1 blackouts, Reg FD challenges. No direct trade catalysts; reinforces quality focus amid narrow risk-off rotation.
+
+Candidates found: 3
 

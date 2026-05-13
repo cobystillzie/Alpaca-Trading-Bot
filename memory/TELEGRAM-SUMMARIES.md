@@ -11336,4 +11336,37 @@ HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
 Self-learning: tier=stale-watch repeat48h=8 fresh=yes bucket=financials-fintech
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-13 06:21:29 Eastern Daylight Time
+
+Research Update
+
+Market tone: SEC proposes optional semiannual reporting (Form 10-S) for domestic filers, replacing quarterly 10-Qs; comments due July 6. Benefits smaller/newly public cos with resource reallocation, but risks info asymmetry vs quarterly peers, longer 10b5-1 blackouts, Reg FD challenges. No direct trade catalysts; reinforces quality focus amid narrow risk-off rotation.
+Candidates: 3
+
+1. SCHD (etf-dividend-value) | confidence 0.75 | allocation 4.0% | stop 8.0% | Chittick 78/100 | tier watch-allocation-constrained | bucket dividend-etf-defensive | HF source 9/100
+Recommendation: watch-allocation-constrained
+Catalyst: SEC May 5 proposal enables semiannual reporting, reducing quarterly compliance burden to boost long-term value creation (esp smaller cos); reinforces SCHD's high-quality dividend payers.
+Chittick Cash: Dividend aristocrats/Kings core; low beta, 3.5% yield buffers downside.
+HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=0
+Self-learning: tier=watch-allocation-constrained repeat48h=20 fresh=yes bucket=dividend-etf-defensive
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. SPUS (etf-sharia-value) | confidence 0.70 | allocation 5.0% | stop 8.0% | Chittick 72/100 | tier watch | bucket etf-sharia-value | HF source 8/100
+Recommendation: watch
+Catalyst: SEC semiannual reporting eases burden on constrained managers; aligns with SPUS low-debt/quality filter amid private credit risks.
+Chittick Cash: Sharia debt screen provides structural protection.
+HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=3 fresh=yes bucket=etf-sharia-value
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. UNP (industrials-rail-transport) | confidence 0.75 | allocation 6.0% | stop 8.0% | Chittick 75/100 | tier watch | bucket industrials-transport | HF source 9/100
+Recommendation: watch
+Catalyst: SEC semiannual option reduces quarterly noise; UNP's grain volume already strong (Q1 2026 >2008 peaks).
+Chittick Cash: P/E 20x, strong FCF.
+HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=4 fresh=yes bucket=industrials-transport
+Social buzz, low weight: none
+Congress signal, low weight: none
 
