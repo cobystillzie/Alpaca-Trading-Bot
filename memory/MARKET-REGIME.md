@@ -4346,4 +4346,27 @@ The US equity market is grinding to record highs, but the underlying conditions 
   ]
 }
 ```
+## Market Regime Research - 2026-05-13 04:22:24 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities showed resilience amid 'risk-off' pressures from hot inflation data, rising energy costs, and higher 10-year yields on May 12. S&P 500 rallied into close despite early distribution, supported by blowout Q1 earnings (84% beat EPS, 80% revenue, +27.7% YoY growth), AI productivity narrative, and resilient consumer/corporate fundamentals. Markets pricing Fed expectations via futures; no major policy surprises anticipated. Valuations stretched at 21x fwd P/E with geopolitical/oil risks elevated. Tone: Constructive but fragile, climbing wall of worry.",
+  "market_regime": "Risk-on resilience with risk-off undercurrents (early session distribution reversed to close rally); stretched valuations limit upside in cautious paper-trading",
+  "sector_rotation": "Earnings-driven leadership (semiconductors, oil in focus); hints of rotation to value/quality/defensives amid private credit risks (SCHD/SPUS watches); healthcare rotation weakness noted but not dominant",
+  "risk_flags": [
+    "Hot inflation + rising energy costs (oil >$100)",
+    "10-year yields rising (margin pressure)",
+    "Geopolitical risks (Iran conflict, tariffs)",
+    "Stretched valuations (21x fwd P/E vs historical)",
+    "Fed tightening relative to aggressive cut pricing possible",
+    "Fragile constructive outlook - little room for disappointment"
+  ],
+  "source_urls": [
+    "https://verifiedinvesting.com/blogs/live-show-recap/trading-the-close-market-recap-05-12-2026-stocks-rally-into-close-as-10-year-yields-rise-semiconductors-oil-earnings-in-focus",
+    "https://sungwonsohn.substack.com/p/why-stock-market-has-been-so-resilient",
+    "https://adamniedbalski.substack.com/p/why-the-fed-doesnt-control-the-market",
+    "https://www.cmegroup.com/markets/interest-rates/stirs/30-day-federal-fund.html"
+  ]
+}
+```
 

@@ -11303,4 +11303,37 @@ HF filter: sentiment=not run source=7/100 hype=0.40 vetoes=0
 Self-learning: tier=watch repeat48h=0 fresh=yes bucket=small-cap-ai
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-13 04:22:24 Eastern Daylight Time
+
+Research Update
+
+Market tone: NVIDIA Q1 FY2027 earnings preview dominates AI/semiconductor narrative ahead of May 20-21 release (slight date discrepancy across sources); Q4 FY2026 blowout ($68.1B rev +73% YoY, data center $62.3B 91% total, 75.2% margins) sets high bar with street expecting $78.5B rev, $1.75 EPS, $73.1B data center. Focus: Blackwell ramp, Rubin roadmap, demand breadth beyond hyperscalers, Q2 guide ~$86-87B. Technicals show 154% rally to $220 high but RSI divergence/Elliott Wave completion signals pullback risk to $193-195 support. Strong Buy consensus but high expectations limit near-term swing.
+Candidates: 3
+
+1. NVDA (information-technology-semiconductors) | confidence 0.82 | allocation 8.0% | stop 8.0% | Chittick 85/100 | tier watch | bucket semiconductors-ai
+Recommendation: watch
+Catalyst: Q1 FY2027 earnings on May 20/21 with street $78.5B rev (+15% QoQ), $73.1B data center; key focus on Blackwell ramp, Rubin signals, Q2 guide beat/raise vs $86-87B consensus.
+Chittick Cash: Premium valuation but backed by 73% YoY growth, 75% margins, FCF machine; support levels provide entry buffer.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=semiconductors-ai
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. UNP (industrials-rail-transport) | confidence 0.75 | allocation 6.0% | stop 8.0% | Chittick 75/100 | tier watch | bucket industrials-transport
+Recommendation: watch
+Catalyst: Q1 2026 grain transports surpass 2008 peaks on Mexico/overseas demand (prior memory, no new hits but fresh context).
+Chittick Cash: Strong balance sheet, volume records buffer downside.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=3 fresh=yes bucket=industrials-transport
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. SQ (financials-fintech) | confidence 0.70 | allocation 5.0% | stop 8.0% | Chittick 35/100 | tier stale-watch | bucket financials-fintech
+Recommendation: watch
+Catalyst: Q1 beat + FY2026 guide raise; analyst upgrades (memory, no new).
+Chittick Cash: Moderate.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=stale-watch repeat48h=8 fresh=yes bucket=financials-fintech
+Social buzz, low weight: none
+Congress signal, low weight: none
 

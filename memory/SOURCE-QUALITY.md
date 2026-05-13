@@ -9393,4 +9393,44 @@ SEC/company quality check:
     "https://www.sec.gov/Archives/edgar/data/2050338/000205033825000002/clbz-20250930.htm"
   ]
 }
+## Source And Signal Research - 2026-05-13 04:22:24 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks/ETFs. Existing candidates (INTC, SQ, UNP, SCHD, SPUS, CNTB, BRAI) show no new social/web hits today per memory; high repeat counts on INTC/SQ indicate fading freshness without confirmation.",
+  "social_buzz": "Weak/None - No new public web/social coverage detected. Ongoing repeats from prior days (e.g., INTC 8x, SQ 7x, SCHD 20x) lack fresh momentum.",
+  "attention_anomalies": "None flagged. No evidence of hype, pump language, or unsupported claims in available data. Stale repeats on memory candidates (INTC/SQ) pose risk of overexposure without validation.",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Ring Energy (REI) priced $60M public offering of 44.4M shares at $1.35, a ~50% discount to recent trading levels, for debt repayment under senior credit facility. Significant dilution risk (44M+ shares) amid Q1 revenue decline (-6.85% YoY to $73.7M) and mixed HF activity (44 adds vs 66 reduces). No congressional disclosures in results.",
+  "congressional_signal": "none",
+  "tickers": ["REI"],
+  "source_urls": ["https://www.quiverquant.com/news/Ring+Energy,+Inc.+Prices+$60+Million+Public+Offering+of+Common+Stock"]
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": "Direct Digital Holdings (DRCT) operates a programmatic advertising platform (Colossus SSP) with sell-side (174K buyers, 170B monthly impressions) and buy-side (195 clients, 90% retention) operations. 2025 revenue $34.7M (-44% YoY) and gross profit $10.4M due to major sell-side customer pause from defamatory article/misinformation campaign (reconnected May 2024 but volumes lag). Cash $0.7M, accumulated deficit $27.7M, substantial going concern doubt. High client concentration, covenant-restricted debt, Nasdaq delisting risk. IVT/fraud mitigation and multicultural audience focus provide some differentiation but business distressed.",
+  "filing_risks": [
+    "Going Concern: Cash $0.7M insufficient for 12 months; accumulated deficit $27.7M; dependent on cost cuts, sell-side volume recovery, additional funding (no assurances); may need to modify operations/terminate.",
+    "Revenue Concentration: 2024-2025 revenue/gross profit collapse from one sell-side customer pause (defamatory article); high buy-side client concentration exposes to fluctuations/declines.",
+    "Balance Sheet: Credit facilities with $450K min cash covenant, default risk; term debt matures Dec 2026; potential acceleration/liquidation; dilution risk from new equity/debt.",
+    "Delisting Risk: May fail Nasdaq Capital Market standards.",
+    "Operational: IVT/ad fraud failure harms reputation; platform outages; cookie/ID restrictions diminish targeting; strategic shift to buy-side/enterprise unproven.",
+    "Revenue Quality: 2025 revenue $34.7M vs $157.1M 2023; seasonal; payment disputes from clients.",
+    "Capital Allocation: Reorganization July 2024; acquisitions risky (integration/management distraction); public company costs strain resources.",
+    "Litigation/Reputational: Defamatory article/coordinated misinformation caused customer pause/revenue drop; ongoing IVT/privacy scrutiny."
+  ],
+  "quality_notes": "Weak - substantial going concern doubt, collapsing revenue (2025 $34.7M vs 2023 $157M), customer concentration caused 2024-25 plunge, low cash $0.7M, covenant/debt risks, Nasdaq delisting threat, unproven strategic pivot. Durable demand questionable amid misinformation fallout and ad tech commoditization. 90% retention positive but buy-side small (195 clients). Reject for watchlist: existential balance sheet/liquidity risks outweigh SSP scale/IVT mitigation moat.",
+  "source_urls": []
+}
+```
 

@@ -784,4 +784,9 @@ Candidates found: 5
 Robinhood corporate actions show heavy reverse splits (INUV, DKI, OLOX), cash mergers (UHG $1.18, FARM $1.29), liquidations (LAYS $64.29, QXAS $9.09, multiple Direxion ETFs), delistings (SGMO to OTC, CUK pending), bankruptcies (AXDXQ worthless). CNTB Q1 loss $19.4M but $46M cash + $18.6M raise funds to H2 2027; Phase 2 asthma/COPD data mid-2026, $110M Simcere milestones. BRAI non-binding Home.cc deal. Risk-off bias with low-quality microcaps/ETFs closing; no execution-ready catalysts.
 
 Candidates found: 2
+## Two-Hour Research Agent - 2026-05-13 04:22:24 Eastern Daylight Time
+
+NVIDIA Q1 FY2027 earnings preview dominates AI/semiconductor narrative ahead of May 20-21 release (slight date discrepancy across sources); Q4 FY2026 blowout ($68.1B rev +73% YoY, data center $62.3B 91% total, 75.2% margins) sets high bar with street expecting $78.5B rev, $1.75 EPS, $73.1B data center. Focus: Blackwell ramp, Rubin roadmap, demand breadth beyond hyperscalers, Q2 guide ~$86-87B. Technicals show 154% rally to $220 high but RSI divergence/Elliott Wave completion signals pullback risk to $193-195 support. Strong Buy consensus but high expectations limit near-term swing.
+
+Candidates found: 3
 
