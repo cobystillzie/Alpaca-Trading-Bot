@@ -10454,4 +10454,40 @@ SEC/company quality check:
   "source_urls": []
 }
 ```
+## Source And Signal Research - 2026-05-14 09:26:56 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "Opendoor Technologies (OPEN) sees institutional buying from JPMorgan (24% stake increase to 1.22M shares, value $5.73M) and BlackRock (1.7% to 63.45M shares) in Q1 2026 per 13F filings; CEO Kaz Nejatian bought $483k shares this week after $1M in Nov; stock -21% YTD, unchanged premarket; retail sentiment on Stocktwits 'bullish' (softened from 'extremely bullish').",
+  "social_buzz": "Retail sentiment turned 'bullish' from 'neutral' then softened to 'bullish' from 'extremely bullish'; traders urge patience amid dip.",
+  "attention_anomalies": "None detected - institutional accumulation post-earnings dip with CEO/insider buying; no pump language or unsupported claims evident.",
+  "source_urls": ["https://stocktwits.com/news-articles/markets/equity/open-stock-draws-fresh-buying-from-jp-morgan-black-rock-after-sharp-pullback-this-year-retail-traders-urge-patience/cZX11vLRe1d"]
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No recent congressional disclosures of trades in liquid US stocks or ETFs identified in provided search results. Disclosures are delayed, low-weight context only.",
+  "congressional_signal": "none",
+  "tickers": [],
+  "source_urls": []
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "PECO DEF 14A (proxy) shows strong 2025 performance: Core FFO $2.60 (+7% YoY), same-center NOI +3.8%, 97% occupancy, $400M acquisitions; resilient grocery-anchored REIT with durable demand. SES 10-K reveals ongoing losses ($73M net loss), capital needs, supply risks, integration challenges post-UZ Energy acquisition, emerging UAM/EV markets. NEOV 10-K (small-cap ESS maker) emerging growth with product expansion but funding/regulatory risks. FLUX 10-K flags going concern, material weaknesses, Nasdaq delisting risk, China supplier/tariff dependency, losses. WS/BRID stable but cyclical.",
+  "filing_risks": {
+    "PECO": "Low risk: Investment-grade balance sheet, disciplined capital allocation, no major litigation/dilution; customer concentration not specified but diversified grocery anchors (Kroger/Publix). Durable demand from necessity retail.",
+    "SES": "High risk: Ongoing losses/accumulated deficit $372M, needs substantial capital (dilution risk), single-supplier raw materials, UZ Energy integration risks (key personnel/cultural), emerging UAM/EV markets unproven, battery defects/recalls, OEM conversion uncertainty, China tariffs/geopolitics.",
+    "NEOV": "Medium-high risk: Emerging growth/smaller reporter, funding needs amid ITC phaseout, third-party manufacturing dependency, competition from Tesla/LG, regulatory evolution (UL/CSIP compliance costs), customer concentration not detailed but fragmented installers.",
+    "FLUX": "Critical risk: Going concern doubt, material weaknesses/internal control failures (restatements/inventory errors), Nasdaq delisting imminent (equity deficit), China battery cell single-supplier (28% purchases), tariffs/supply disruptions, litigation/settlements, losses $6.7M.",
+    "WS": "Low-medium risk: Cyclical steel pricing/volumes, supply chain/raw material volatility, customer concentration (top3 33%), international ops risks (tariffs/labor). Strong balance sheet post-spin.",
+    "BRID": "Medium risk: Customer concentration (Wal-Mart 28%/Dollar General 14% sales), food industry contamination/recalls, raw material volatility (pork/beef/flour), inflation impacts, collective bargaining (42% employees)."
+  },
+  "quality_notes": "PECO: High revenue quality (FFO growth, 97% occupancy), durable demand (grocery-anchored essentials). SES/NEOV/FLUX: Low quality (losses, capex heavy, China supply risks, unproven markets). WS/BRID: Cyclical but stable; watch concentration. No GOOGL/INTC/USAR/GT. Prioritize PECO for watchlist (resilient cash flows, downside protection).",
+  "source_urls": []
+}
 

@@ -883,4 +883,9 @@ Premarket plan built from latest watchlist.
 - UNP: score=70, base=100, chittick=35, approved=True, allocation=5.0%, stop=8.0%
 - LMT: score=86, base=95, chittick=82, approved=True, allocation=6.0%, stop=6.0%
 - PDFS: score=86, base=100, chittick=70, approved=True, allocation=5.0%, stop=8.0%
+## Two-Hour Research Agent - 2026-05-14 09:26:56 Eastern Daylight Time
+
+US equities near all-time highs amid fragile rally with hawkish Fed signals, oil-driven inflation, and geopolitical risks; gold/commodities and defense themes resilient as hedges; crypto shows strength but volatile.
+
+Candidates found: 3
 

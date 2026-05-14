@@ -5162,4 +5162,26 @@ The US equity market is grinding to record highs, but the underlying conditions 
   ]
 }
 ```
+## Market Regime Research - 2026-05-14 09:26:56 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities at all-time highs (S&P 500 ~7209) with April's strongest monthly gain since 2020, but fragile rally shows ominous technical sell signals, hawkish Fed (8-4 hold at 3.50-3.75%, most dissents since 1992), persistent oil-driven inflation (~$120 Brent), and Iran conflict risks. VIX low at 17.87-17.99 signals complacency amid elevated energy/geopolitical risks.",
+  "market_regime": "risk_on-complacent",
+  "sector_rotation": "defensives_commodities-gold_aerospace",
+  "risk_flags": [
+    "hawkish_fed_dissents",
+    "energy_inflation_shock",
+    "iran_geopolitical_escalation",
+    "sp500_ominous_technical_sell",
+    "vix_complacency_low"
+  ],
+  "source_urls": [
+    "https://markets.businessinsider.com",
+    "https://defirate.com/prediction-markets/fed-decision-odds/",
+    "https://markets.businessinsider.com/index/vix",
+    "https://www.crestwoodadvisors.com/may-2026-economic-and-market-update/"
+  ]
+}
+```
 

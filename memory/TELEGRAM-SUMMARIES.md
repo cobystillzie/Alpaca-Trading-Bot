@@ -12898,4 +12898,37 @@ Model notes: Fresh filing.
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: https://www.sec.gov/Archives/edgar/data/.../pdfs-offering
+## Research Update - 2026-05-14 09:26:56 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities near all-time highs amid fragile rally with hawkish Fed signals, oil-driven inflation, and geopolitical risks; gold/commodities and defense themes resilient as hedges; crypto shows strength but volatile.
+Candidates: 3
+
+1. COIN (financials-crypto-exchange) | confidence 0.72 | allocation 5.0% | stop 8.0% | Chittick 68/100 | tier watch | bucket financials-crypto | HF source 8/100
+Recommendation: watch
+Catalyst: Q1 2026 results: Revenue $7.672B (+46% YoY), net income $3.217B (+106% YoY), driven by spot trading volume and margin expansion.
+Chittick Cash: Strong revenue growth and profitability inflection provide buffer; trading at premium but backed by user base.
+HF filter: sentiment=not run source=8/100 hype=0.20 vetoes=0
+Self-learning: tier=watch repeat48h=1 fresh=yes bucket=financials-crypto
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. GLD (etf-commodities-gold) | confidence 0.84 | allocation 6.0% | stop 4.0% | Chittick 35/100 | tier execution-ready | bucket etf-commodities | HF source 9/100
+Recommendation: execute-if-guards-pass
+Catalyst: India govt hiked gold/silver import duties to 15% from 6% (May 13 order); triggered 4-7% surge in domestic ETFs/futures, sustaining global momentum.
+Chittick Cash: Gold's safe-haven status provides downside protection.
+HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=7 fresh=yes bucket=etf-commodities
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. LMT (industrials-aerospace-defense) | confidence 0.72 | allocation 6.0% | stop 6.0% | Chittick 82/100 | tier watch | bucket industrials-defense | HF source 6/100
+Recommendation: watch
+Catalyst: China's J-X 6th-gen fighter claims highlight US air superiority gap (F-22 parts issues, production restart challenges); potential NGAD/F-35 upside.
+Chittick Cash: Govt backlogs provide floor.
+HF filter: sentiment=not run source=6/100 hype=0.30 vetoes=0
+Self-learning: tier=watch repeat48h=3 fresh=yes bucket=industrials-defense
+Social buzz, low weight: low-weight attention on China fighter posts
+Congress signal, low weight: none
 
