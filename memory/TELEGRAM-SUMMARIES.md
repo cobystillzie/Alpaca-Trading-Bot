@@ -12964,4 +12964,28 @@ HF filter: sentiment=not run source=6/100 hype=0.40 vetoes=0
 Self-learning: tier=watch repeat48h=4 fresh=yes bucket=industrials-defense
 Social buzz, low weight: low-weight blog chatter
 Congress signal, low weight: none
+## Research Update - 2026-05-14 11:29:20 Eastern Daylight Time
+
+Research Update
+
+Market tone: UNH shows sharp 47% recovery from March 2026 lows with Q1 EPS beat, MCR improvement to 83.9%, Optum Health rebound, and AI investments; Goldline IPO oversubscribed 840x signals India pharma momentum but illiquid; Longeveron Phase 2 catalysts noted. Volatile risk-off macro persists with Fed hawkishness.
+Candidates: 2
+
+1. UNH (healthcare-managed-care) | confidence 0.82 | allocation 8.0% | stop 4.0% | Chittick 82/100 | tier execution-ready | bucket healthcare-insurance
+Recommendation: execute-if-guards-pass
+Catalyst: Q1 2026 EPS $7.23 beat (+7.93% reaction April 21); MCR 83.9% vs 84.8% YoY; Optum Health $1.3B adj earnings; prior auth cuts May 5; Goldman Conviction Buy May 1.
+Chittick Cash: Pricing discipline and Optum recovery provide buffer; trading below mid-target $645 and own-history highs.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=healthcare-insurance
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. LGVN (healthcare-biotech) | confidence 0.70 | allocation 4.0% | stop 10.0% | Chittick 68/100 | tier watch | bucket healthcare-biotech
+Recommendation: watch
+Catalyst: Q1 2026 results; $30M private placement closed ($15M initial); Phase 2b ELPIS II topline Aug 2026 for HLHS orphan indication.
+Chittick Cash: Recent funding provides runway; FDA designations de-risk path.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=healthcare-biotech
+Social buzz, low weight: none
+Congress signal, low weight: none
 

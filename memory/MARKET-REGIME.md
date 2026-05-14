@@ -5209,4 +5209,27 @@ The US equity market is grinding to record highs, but the underlying conditions 
   ]
 }
 ```
+## Market Regime Research - 2026-05-14 11:29:20 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities exhibit mixed tone amid elevated geopolitical risks (Iran tensions, US naval blockade), surging oil prices ($120/bbl Brent), and persistent inflation pressures. S&P 500 hit ATH 7,209 in April but now flashes 'ominous' sell signals per Ned Davis; VIX spiked to 35.30 (90-day high) before pulling back to ~18-29 range. Fed held rates at 3.50-3.75% with record 4 dissents (most since 1992), signaling hawkish stance; rate cuts 'off the table' per Yardeni. Q1 earnings strong (+21.3% YoY), supporting health insurers and chips, but valuations stretched (MS targets 8,000-8,300). Overall risk-off tilt with volatility surge and macro headwinds.",
+  "market_regime": "Volatile risk-off transition; recent ATHs masking deteriorating breadth and macro setup. Cautious paper-trading: reduce beta, prioritize stops, favor defensives over cyclicals.",
+  "sector_rotation": "Defensive lean: Health insurers lead Q1 earnings (best since COVID). Tech/chips rebound (memory makers like Micron). Energy volatile but supportive amid oil rally. Avoid broad cyclicals given Fed hawkishness and oil shock.",
+  "risk_flags": [
+    "VIX 90-day +80% with recent 35.30 spike signals heightened fear",
+    "Fed hawkish: 4 dissents, no 2026 cuts expected amid reaccelerating inflation",
+    "Geopolitical: Iran blockade extended, oil $120/bbl inflationary pressure",
+    "S&P 'ominous' sell signals per Ned Davis; stretched valuations",
+    "Hot wholesale inflation (PPI) reinforcing 'higher for longer' rates"
+  ],
+  "source_urls": [
+    "https://www.crestwoodadvisors.com/may-2026-economic-and-market-update/",
+    "https://markets.businessinsider.com",
+    "https://www.noradarealestate.com/blog/mortgage-rates-forecast-next-90-days-may-to-july-2026/",
+    "https://markets.businessinsider.com/index/vix",
+    "https://www.investing.com/news/economy-news/fed-cutting-rates-in-2026-is-essentially-off-the-table-ed-yardeni-4687855"
+  ]
+}
+```
 

@@ -893,4 +893,9 @@ Candidates found: 3
 US equities at record highs amid tech momentum and US-China talks, but hot CPI/PPI (3.8% y/y, sticky core) reprices Fed hawkishly with rate hike odds ~28%; gold resilient on India duty hike, crypto shows blowout Q1 numbers for COIN, defense chatter on China J-X persists but lacks official confirmation.
 
 Candidates found: 3
+## Two-Hour Research Agent - 2026-05-14 11:29:20 Eastern Daylight Time
+
+UNH shows sharp 47% recovery from March 2026 lows with Q1 EPS beat, MCR improvement to 83.9%, Optum Health rebound, and AI investments; Goldline IPO oversubscribed 840x signals India pharma momentum but illiquid; Longeveron Phase 2 catalysts noted. Volatile risk-off macro persists with Fed hawkishness.
+
+Candidates found: 2
 
