@@ -102,4 +102,14 @@ Candidate references banned v1 instruments or leverage.
 ## Rejected GLD - 2026-05-14 09:50:03 Eastern Daylight Time
 
 Candidate references banned v1 instruments or leverage.
+## Rejected LMT - 2026-05-14 09:55:01 Eastern Daylight Time
+
+Candidate references banned v1 instruments or leverage.
+Low-weight social/congress signal needs at least two stronger sources.
+## Rejected COIN - 2026-05-14 09:55:01 Eastern Daylight Time
+
+Candidate references banned v1 instruments or leverage.
+## Rejected GLD - 2026-05-14 09:55:01 Eastern Daylight Time
+
+Candidate references banned v1 instruments or leverage.
 
