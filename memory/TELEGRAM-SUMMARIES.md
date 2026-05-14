@@ -12441,4 +12441,37 @@ HF filter: sentiment=mildly positive source=1/100 hype=0.12 vetoes=0
 Self-learning: tier=watch repeat48h=7 fresh=yes bucket=industrials-transport
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-14 03:24:26 Eastern Daylight Time
+
+Research Update
+
+Market tone: PDF Solutions (PDFS) priced upsized public offering at $44/share (4.6M shares, mix of company/selling stockholder); Japan Nikkei down 0.95%; ETF diversification ideas (DFAT, FBND, VBIL); dividend ETF analysis; inflation sticky per PPI pushing yields higher, hurting software/tech; AI infra/transport themes persist from memory.
+Candidates: 3
+
+1. PDFS (information-technology-semiconductors) | confidence 0.75 | allocation 5.0% | stop 8.0% | Chittick 70/100 | tier watch | bucket semiconductors-data | HF source 9/100
+Recommendation: watch
+Catalyst: May 13 upsized public offering priced at $44/share (4.57M shares sold, underwriters get 30-day option for 685k more); fresh liquidity/event-driven volume spike.
+Chittick Cash: Offering priced transparently; balance sheet improves via proceeds; niche less volatile than broad semis.
+HF filter: sentiment=not run source=9/100 hype=0.20 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=semiconductors-data
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. DFAT (etf-small-value) | confidence 0.72 | allocation 6.0% | stop 6.0% | Chittick 75/100 | tier watch | bucket etf-value-diversification | HF source 8/100
+Recommendation: watch
+Catalyst: Morningstar gold-rated pick for 2026 portfolio diversification; avoids Nvidia/TSLA/Broadcom hype.
+Chittick Cash: Targets undervalued quality smalls; ETF structure limits single-name risk.
+HF filter: sentiment=not run source=8/100 hype=0.10 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=etf-value-diversification
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. FBND (etf-bonds) | confidence 0.70 | allocation 5.0% | stop 6.0% | Chittick 72/100 | tier watch | bucket etf-bonds-fixed-income | HF source 8/100
+Recommendation: watch
+Catalyst: Morningstar 2026 diversification pick amid stock-heavy portfolios; PPI inflation reinforces bonds' role.
+Chittick Cash: Active management, diversified fixed income.
+HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=etf-bonds-fixed-income
+Social buzz, low weight: none
+Congress signal, low weight: none
 

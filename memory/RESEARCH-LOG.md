@@ -847,4 +847,9 @@ Candidates found: 3
 Risk-on but late-cycle: mega-cap tech and AI remain supported, while breadth is uneven and event-driven moves dominate. Fresh catalyst flow is stronger in gold/commodities, AI infrastructure, and select industrials than in repeated mega-cap names.
 
 Candidates found: 3
+## Two-Hour Research Agent - 2026-05-14 03:24:26 Eastern Daylight Time
+
+PDF Solutions (PDFS) priced upsized public offering at $44/share (4.6M shares, mix of company/selling stockholder); Japan Nikkei down 0.95%; ETF diversification ideas (DFAT, FBND, VBIL); dividend ETF analysis; inflation sticky per PPI pushing yields higher, hurting software/tech; AI infra/transport themes persist from memory.
+
+Candidates found: 3
 

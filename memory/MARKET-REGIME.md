@@ -4976,4 +4976,116 @@ The US equity market is grinding to record highs, but the underlying conditions 
     "https://markets.jpmorgan.com/research-and-insights"
   ]
 }
+## Market Regime Research - 2026-05-14 03:24:25 Eastern Daylight Time
+
+```json
+{
+  "summary": {
+    "date_analyzed": "2026-05-14T07:23:00Z",
+    "overall_tone": "Mixed with elevated structural uncertainty",
+    "key_observation": "Simultaneous USD and equity rally challenges traditional risk-on/risk-off dynamics; tech concentration masks underlying economic slowdown concerns",
+    "confidence_level": "Moderate—conflicting signals require cautious position sizing"
+  },
+  "market_regime": {
+    "index_trend": {
+      "sp500_status": "Rally in progress; six consecutive weeks of gains",
+      "recent_performance": "S&P 500 YTD +8.72% vs. Russell Microcap +17.55%",
+      "concentration_risk": "High—five mega-cap stocks (NVDA, INTC, AAPL, AMD, MSFT) accounted for 75% of last week's S&P 500 gains",
+      "technical_setup": "Momentum positive but vulnerable to sector rotation; high volatility may indicate trend reversal risk",
+      "analyst_targets": "Morgan Stanley raised year-end target to 8,000 (from 7,800) and 12-month target to 8,300"
+    },
+    "fed_and_rates": {
+      "current_stance": "Holding rates steady; rate cuts delayed beyond prior expectations",
+      "inflation_backdrop": "Hotter CPI print; oil-driven inflation pressures rising due to regional conflicts and supply disruptions",
+      "rate_cut_odds": "Repriced lower; Fed prioritizing inflation control over accommodation",
+      "treasury_yields": "Relatively unchanged; bond market digesting recent inflation data; sharp yield rises could pressure equities"
+    },
+    "volatility_environment": {
+      "vix_level": "Low and falling, suggesting investors not pricing significant downside risk",
+      "volatility_signal": "Complacency risk; high volatility spikes may indicate sharp reversals when sentiment shifts",
+      "divergence_alert": "Rare USD strength + equity rally divergence; one likely to fail, creating 'fade' opportunity"
+    },
+    "earnings_and_fundamentals": {
+      "earnings_tone": "Positive earnings growth cited as support by J.P. Morgan; however, regional employment weakening",
+      "employment_trend": "Slowing across much of the economy; retail trade employment declined at 3x the 2024 rate; weakness in manufacturing, financial services, construction, leisure/hospitality",
+      "valuation_concern": "S&P 500 valuation described as 'stretched' amid inflation repricing"
+    }
+  },
+  "sector_rotation": {
+    "leadership": {
+      "outperformer": "Technology and semiconductors (NASDAQ 100 notable outperformance); AI-related themes driving flows",
+      "driver": "Positive semiconductor sentiment and AI infrastructure narrative"
+    },
+    "underperformance": {
+      "laggards": "Mega-cap tech showing concentration; traditional sectors facing headwinds",
+      "rotation_signal": "Flight to safety into small/micro-caps (Russell Microcap +57% over past year vs. S&P 500 +27%)"
+    },
+    "emerging_themes": {
+      "ai_infrastructure": "Power, cooling, and manufacturing (FPS, VRT, FLEX) remain in focus; backlog and data-center buildout demand sustained",
+      "commodities": "Gold ETFs rallying on India tariff policy (15% import duty); oil supply disruptions supporting inflation narrative",
+      "industrials": "Rail transport (UNP) showing strength; Q1 2026 grain volumes exceeded 2008 peak"
+    },
+    "sector_breadth": "Narrow—concentration in mega-cap tech masks weakness in broader market; small-cap outperformance suggests risk-off undertone"
+  },
+  "risk_flags": {
+    "macro_risks": [
+      "Recession risk elevated at 50% (vs. 15% long-term average) per San Joaquin Valley forecast",
+      "Economic slowdown expected to extend into H2 2026; delayed rate cuts removing support",
+      "Regional conflicts and oil supply disruptions creating inflation pressure and uncertainty",
+      "Tariff uncertainty (unconstitutional rulings creating policy confusion)"
+    ],
+    "market_structure_risks": [
+      "Extreme concentration: five stocks driving 75% of S&P 500 weekly gains",
+      "Valuation stretched at current levels; limited margin of safety",
+      "Divergence between USD strength and equity rally unsustainable; resolution likely to be sharp",
+      "VIX complacency: low volatility may mask tail-risk exposure"
+    ],
+    "liquidity_and_credit_risks": [
+      "Community bank indicators pointing to growing financial strain",
+      "Below-average near-term performance expected in financial sector",
+      "Emphasis on maintaining liquidity amid elevated uncertainty"
+    ],
+    "sector_specific_risks": [
+      "Retail employment weakness signals consumer pressure",
+      "Manufacturing and construction slowdown",
+      "Tech mega-cap valuations vulnerable to rate repricing or earnings disappointment"
+    ],
+    "sentiment_risks": [
+      "Homebuyers shaking off inflation fears despite hotter CPI—potential complacency",
+      "Investors not pricing significant downside (low VIX) despite 50% recession risk"
+    ]
+  },
+  "paper_trading_workflow_guidance": {
+    "position_sizing": "Reduce single-stock concentration; favor diversified exposure given macro uncertainty",
+    "entry_strategy": "Wait for USD/equity divergence resolution; avoid chasing mega-cap tech rallies",
+    "stop_loss_discipline": "Tighter stops warranted given elevated volatility reversal risk and recession probability",
+    "sector_allocation": "Overweight AI infrastructure (power, cooling) and industrials (transport); underweight mega-cap tech concentration",
+    "hedging_consideration": "GLD (gold ETF) execution-ready as inflation/uncertainty hedge; India tariff catalyst fresh",
+    "monitoring_priorities": [
+      "Treasury yield moves (critical for equity valuation)",
+      "USD strength sustainability vs. equity rally",
+      "VIX spike triggers (complacency risk high)",
+      "Employment data (recession indicator)",
+      "Fed communications on rate path"
+    ]
+  },
+  "source_urls": [
+    "https://markets.jpmorgan.com/research-and-insights",
+    "https://www.turlockjournal.com/news/local/business-forecast-economic-slowdown-likely-to-continue-in-2026/",
+    "https://www.aurra.markets/trading/market-outlook/analysis/usd-and-stocks-rally-we-analyze-the-sp-500-breakout",
+    "https://www.investing.com/analysis/sp-500-valuation-looks-stretched-as-inflation-reprices-ratecut-odds-200680243",
+    "https://money.com/micro-cap-stocks-performance-sp-500/",
+    "https://www.mpamag.com/us/specialty/wholesale/homebuyers-shake-off-inflation-fears-despite-hotter-cpi-print/575139",
+    "https://www.investing.com/analysis/sox-mania-tariffs-and-volatility-keep-markets-on-edge-200680254"
+  ]
+}
+```
+
+---
+
+### **Cautious Paper-Trading Workflow Summary**
+
+**Market Regime:** Risk-on surface (equity rally, low VIX) masking risk-off fundamentals (50% recession risk, employment weakness, delayed rate cuts). **Divergence between USD strength and equity gains is unsustainable and likely to resolve sharply.**
+
+**Key Caution:** Extreme concentration in five mega-cap stocks driving index gains; valuation stretched; complacency in VIX pricing. Avoid chasing tech rallies. Favor diversified small-cap/AI-infrastructure exposure and commodity hedges (GLD). Maintain tight stops and elevated liquidity reserves.
 
