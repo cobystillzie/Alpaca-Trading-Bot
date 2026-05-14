@@ -862,4 +862,9 @@ Candidates found: 3
 Mixed signals with S&P resilience amid AI/tech leadership, but stagflation risks (CPI +3.8%, oil $102, 10yr 4.483%) and geopolitical tensions (Iran, China 6th-gen fighter claims) pressure defensives/commodities; narrow breadth favors quality industrials/transport over hype. Coinbase shows strong Q1 growth (revenue +46%, net income +106%) but crypto volatility caps appeal.
 
 Candidates found: 3
+## Two-Hour Research Agent - 2026-05-14 07:51:19 Eastern Daylight Time
+
+US equities resilient near records amid tech/semiconductor rebound, but hot CPI/PPI inflation (3.8%/6% YoY) raises Fed hike odds to 35.6%, strengthening USD and yields; gold/commodities hedge appeal rising on policy catalysts like India's duty hike; AI infra/defensives watch amid rotation risks.
+
+Candidates found: 4
 

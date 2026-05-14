@@ -10391,4 +10391,67 @@ SEC/company quality check:
   "quality_notes": "DRCT shows deteriorating fundamentals (revenue/gross profit halved+ YoY from customer pause; going concern + delisting risks dominate; advertising fraud/IVT/platform issues add execution risk; no durable demand evidence amid misinformation hit). INUV has innovative AI/IP moat (IntentKey, 21 patents) but brittle revenue (83% from 2 customers, history of losses/cash burn); Platforms segment low-risk/scalable but Agencies growth unproven. BRID stable (snack shift to private label on inflation; no going concern; balanced segments) with durable food demand but cyclical/concentration risks. No strong durable-demand signals for watchlist; DRCT/INUV balance-sheet/revenue concentration warrant avoidance.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-14 07:51:19 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks/ETFs. Existing candidates (GLD, PDFS, DFAT, FBND, LMT, UNP, COIN) show no flagged social anomalies or hype in provided data.",
+  "social_buzz": "Weak/None - No public web/social coverage detected.",
+  "attention_anomalies": "None identified. No pump language, unsupported claims, or hype risks flagged in candidates.",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Copa Holdings (CPA) reported strong Q1 2026 results with $212.5M net profit (+20.5% EPS YoY), 24.6% operating margin, 15% traffic growth; analysts median PT $165. Multiple 13F filings show institutional activity in DT, AZN, WBS, MSFT, AAPL, ETN; limited congressional trading mentions (1 DT sale, 3 AZN buys). No fresh high-conviction congressional signals for liquid US stocks/ETFs.",
+  "congressional_signal": "Low-weight: Rep. Gilbert Cisneros 2x AZN purchases (up to $30K, Dec); Rep. Julia Letlow AZN purchase (up to $15K, Dec); 1 DT sale (unspecified). Disclosures delayed/secondary context only.",
+  "tickers": ["CPA", "DT", "AZN", "WBS", "FITB", "HAS", "NOW", "NFLX", "MSFT", "AAPL", "ETN"],
+  "source_urls": [
+    "https://www.quiverquant.com/news/Copa+Holdings+Reports+Strong+Q1+2026+Financial+Results+with+Increased+Net+Profit+and+Capacity+Growth",
+    "https://www.quiverquant.com/news/Fund+Update:+NewEdge+Wealth,+LLC+Just+Disclosed+New+Holdings",
+    "https://www.quiverquant.com/news/Fund+Update:+New+$29.6M+$DT+stock+position+opened+by+PUBLIC+SECTOR+PENSION+INVESTMENT+BOARD",
+    "https://www.quiverquant.com/news/Fund+Update:+New+$411.6M+$AZN+stock+position+opened+by+PUBLIC+SECTOR+PENSION+INVESTMENT+BOARD",
+    "https://www.quiverquant.com/news/Fund+Update:+New+$55.8M+$WBS+stock+position+opened+by+PUBLIC+SECTOR+PENSION+INVESTMENT+BOARD"
+  ]
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": "Direct Digital Holdings (DRCT) shows severe business deterioration with revenue plunging from $157M (2023) to $62M (2024) to $35M (2025), attributed to a major sell-side customer pause amid defamatory allegations/misinformation campaign; going concern doubt with $0.7M cash vs $28M accumulated deficit; high customer concentration risks; Nasdaq delisting threat. Inuvo (INUV) has stable revenue growth but history of losses ($178M deficit), extreme 64%+19% customer concentration, negative working capital. Others (NeoVolta, iCoreConnect, CreditRiskMonitor) show startup risks, losses, but no immediate existential threats. No durable demand evidence; prioritize balance sheet/liquidity risks.",
+  "filing_risks": {
+    "DRCT": [
+      "Going concern doubt: $0.7M cash insufficient for 12 months; accumulated deficit $27.7M; reliant on cost cuts, partner recovery, new funding (no assurances)",
+      "Revenue collapse: 2025 revenue $34.7M (-44% YoY), gross profit $10.4M; major sell-side customer paused Q2 2024 over allegations, volumes not recovered",
+      "High concentration: One customer pause caused multi-year revenue drop; buy-side 195 clients but 90% retention vulnerable",
+      "Debt covenants: Minimum $450k cash required; term facility matures Dec 2026; default risk could force bankruptcy",
+      "Nasdaq delisting risk if fails listing standards",
+      "Dilution risk from potential equity/debt raises",
+      "IVT/fraud detection failure could harm reputation"
+    ],
+    "INUV": [
+      "Customer concentration: Two customers 64.2% + 19.3% of 2025 revenue (vs 75% +7% in 2024)",
+      "Loss history: $178M accumulated deficit; $5.1M operating loss 2025; negative working capital -$5.1M, $2.8M cash",
+      "Receivables/collection risks; seasonality; dependence on Yahoo/Google (multi-year contracts but no % disclosed)"
+    ],
+    "NEOV": [
+      "Early-stage: Sales since 2019; competition from Tesla/Enphase; supply chain/FEOC compliance risks",
+      "17 employees; limited scale vs larger competitors"
+    ],
+    "ICCT": [
+      "Limited history post-merger; no patents; competition in HIPAA SaaS",
+      "72 employees; customer AR concentration 26% (2024)"
+    ],
+    "CRMZ": [
+      "1% TAM share; dependence on data suppliers/NRSROs; low growth historically tied to bankruptcy cycles"
+    ]
+  },
+  "quality_notes": "DRCT exhibits poor revenue quality (customer-specific dependency, misinformation impact), weak balance sheet (going concern, low cash), capital allocation risks (debt covenants, potential dilution), high litigation/rep risk from allegations. INUV revenue quality undermined by extreme concentration (83% two customers). No durable demand signals; DRCT volumes 'not yet recovered'; INUV platforms business low-risk but buy-side unproven. Others microcaps with execution risks but diversified. Avoid DRCT (existential); monitor INUV concentration. No GOOGL/INTC/USAR/GT exposure.",
+  "source_urls": []
+}
+```
 

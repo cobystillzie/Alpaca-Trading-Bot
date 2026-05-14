@@ -5137,4 +5137,29 @@ The US equity market is grinding to record highs, but the underlying conditions 
   ]
 }
 ```
+## Market Regime Research - 2026-05-14 07:51:19 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities show short-term resilience with S&P 500 and Nasdaq at record highs driven by chip stock rebound, but hot CPI (3.8% YoY) and PPI (6% YoY) data signal reaccelerating inflation, boosting Fed hike odds to 35.6% and USD strength. Divergent signals: tech leading gains amid 'US exceptionalism', yet ominous S&P trend indicators flashing sell, elevated single-stock vol vs low VIX, and rising Treasury yields/mortgage rates point to building risks.",
+  "market_regime": "bullish_short_term_bearish_signals",
+  "sector_rotation": "technology-semiconductors_outperforming; memory_chips_rebounding; defensives_commodities_bonds_on_watch",
+  "risk_flags": [
+    "hot_inflation_PPI_6pct_CPI_3.8pct",
+    "fed_hike_probability_35.6pct",
+    "S&P_trend_sell_signals_NedDavis",
+    "single_stock_vol_historic_high_vs_VIX",
+    "oil_102USD_treasury_yield_rising",
+    "geopolitical_tensions_Iran_China"
+  ],
+  "source_urls": [
+    "https://markets.businessinsider.com",
+    "https://www.youtube.com/watch?v=X3AeCoeN6QE",
+    "https://economictimes.com/markets/us-stocks/news/...",
+    "https://www.aurra.markets/trading/market-outlook/...",
+    "https://dorseywright.nasdaq.com/research/bigwire",
+    "https://247wallst.com/investing/2026/05/13/..."
+  ]
+}
+```
 

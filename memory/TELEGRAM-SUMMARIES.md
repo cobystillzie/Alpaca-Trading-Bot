@@ -12540,4 +12540,46 @@ HF filter: sentiment=not run source=8/100 hype=0.30 vetoes=0
 Self-learning: tier=watch repeat48h=0 fresh=yes bucket=financials-crypto
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-14 07:51:19 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities resilient near records amid tech/semiconductor rebound, but hot CPI/PPI inflation (3.8%/6% YoY) raises Fed hike odds to 35.6%, strengthening USD and yields; gold/commodities hedge appeal rising on policy catalysts like India's duty hike; AI infra/defensives watch amid rotation risks.
+Candidates: 4
+
+1. GLD (etf-commodities-gold) | confidence 0.84 | allocation 6.0% | stop 4.0% | Chittick 78/100 | tier execution-ready | bucket etf-commodities | HF source 9/100
+Recommendation: execute-if-guards-pass
+Catalyst: India govt hiked gold/silver import duties to 15% from 6% (May 13 official order); triggered 4-7% domestic ETF/futures surge, sustaining global momentum.
+Chittick Cash: Gold's intrinsic value floors downside; ETF structure avoids storage risk.
+HF filter: sentiment=not run source=9/100 hype=0.10 vetoes=0
+Self-learning: tier=execution-ready repeat48h=6 fresh=yes bucket=etf-commodities
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. UNP (industrials-rail-transport) | confidence 0.75 | allocation 5.0% | stop 8.0% | Chittick 35/100 | tier watch | bucket industrials-transport | HF source 7/100
+Recommendation: watch
+Catalyst: Q1 2026 grain transport volumes exceeded 2008 record peak on Mexico/overseas export demand.
+Chittick Cash: Asset-heavy balance sheet; dividend history.
+HF filter: sentiment=not run source=7/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=9 fresh=yes bucket=industrials-transport
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. LMT (industrials-aerospace-defense) | confidence 0.72 | allocation 6.0% | stop 6.0% | Chittick 82/100 | tier watch | bucket industrials-defense | HF source 6/100
+Recommendation: watch
+Catalyst: China 6th-gen J-X fighter claims highlight US air superiority gap, F-22 restart/NGAD potential.
+Chittick Cash: Strong backlog, dividends.
+HF filter: sentiment=not run source=6/100 hype=0.20 vetoes=0
+Self-learning: tier=watch repeat48h=2 fresh=yes bucket=industrials-defense
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+4. PDFS (information-technology-semiconductors) | confidence 0.75 | allocation 5.0% | stop 8.0% | Chittick 70/100 | tier watch | bucket semiconductors-data | HF source 9/100
+Recommendation: watch
+Catalyst: May 13 upsized public offering at $44/share (4.57M shares); volume spike.
+Chittick Cash: Cash raise bolsters BS.
+HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=1 fresh=yes bucket=semiconductors-data
+Social buzz, low weight: none
+Congress signal, low weight: none
 
