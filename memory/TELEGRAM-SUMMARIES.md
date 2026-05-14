@@ -12988,4 +12988,152 @@ HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
 Self-learning: tier=watch repeat48h=0 fresh=yes bucket=healthcare-biotech
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Performance Ledger - 2026-05-14 12:31:09 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-05-14 12:31:09 Eastern Daylight Time
+- Portfolio value: $100,212.65
+- P/L vs $100k baseline: $212.65
+- Full paper-account return: 0.213%
+- Managed-capital return: 2.13%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 3.80%
+- Latest position value: $5,812.65
+- Full-account cash reserve: 94.2%
+- Managed-capital cash reserve: 41.9%
+- Max snapshot drawdown: $121.87 from 2026-05-08 16:30:03 Eastern Daylight Time to 2026-05-13 12:33:26 Eastern Daylight Time
+
+Open Position Review
+- DT: loser, value $734.77, unrealized P/L $-65.23, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 6 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: loser, value $487.80, unrealized P/L $-12.20, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 7 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: winner, value $859.69, unrealized P/L $59.69, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 14 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- IBRX: loser, value $574.85, unrealized P/L $-25.15, entry 2026-05-11 09:48:18 Eastern Daylight Time, thesis age 3 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: winner, value $507.88, unrealized P/L $7.88, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 2 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: winner, value $939.46, unrealized P/L $139.46, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 13 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $805.04, unrealized P/L $5.04, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 8 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $903.15, unrealized P/L $103.15, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 16 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- SCHD: appeared 34 times; open position P/L $5.04.
+- SPMO: appeared 32 times; open position P/L $103.15.
+- INTC: appeared 31 times; market outcome unavailable until benchmark/candidate price history is captured.
+- NVDA: appeared 28 times; open position P/L $139.46.
+- GOOGL: appeared 24 times; open position P/L $59.69.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- UNP: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- GLD: appeared 9 times; market outcome unavailable until benchmark/candidate price history is captured.
+- SQ: appeared 9 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Candidate references banned v1 instruments or leverage.: 9
+  - Single-stock allocation would exceed 15%.: 7
+  - A market-open order is already logged for today. No backup order was placed.: 5
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources.: 4
+  - Low-weight social/congress signal needs at least two stronger sources.: 2
+  - Max open-position count would be exceeded.: 2
+  - repeat_staleness HF source/hype filter rejects source-thin hype. HF memory filter flags similarity to prior rejected patterns.: 2
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources. repeat_staleness HF source/hype filter rejects source-thin hype. HF memory filter flags similarity to prior rejected patterns.: 1
+- By symbol:
+  - GOOGL: 3
+  - PLTR: 3
+  - COIN: 2
+  - FLEX: 2
+  - FPS: 2
+  - GLD: 2
+  - LMT: 2
+  - NVDA: 2
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 0
+- unknown: 2
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold not met: 8/15 trades and 16/21 days.
+- Keep strategy aggressiveness unchanged; prefer automation, logging, and review improvements.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## Midday Memo - 2026-05-14 12:31:09 Eastern Daylight Time
+
+Midday Risk Memo
+
+Recommendation: Hold only positions whose thesis still matches the research; do not add unless guardrails pass.
+
+Market Regime
+Review current paper positions, thesis drift, concentration, stop discipline, and cash reserve.
+
+Portfolio
+Portfolio value: 100212.65 Cash: 94400 Buying power: 194612.65 Positions: - DT: qty=20.289119959, market_value=734.770479, unrealized_pl=-65.229521 - GLRE: qty=28.042624789, market_value=487.801458, unrealized_pl=-12.198542 - GOOGL: qty=2.151289429, market_value=859.687525, unrealized_pl=59.687525 - IBRX: qty=70.838252656, market_value=574.85242, unrealized_pl=-25.14758 - LNC: qty=14.590020426, market_value=507.878611, unrealized_pl=7.878611 - NVDA: qty=4.00060009, market_value=939.460919, unrealized_pl=139.460919 - SCHD: qty=25.2286345, market_value=805.043204, unrealized_pl=5.043204 - SPMO: qty=6.119014838, market_value=903.151904, unrealized_pl=103.151904 Performance: value $100,212.65, P/L vs $100k $212.65, managed return 2.13%, deployed return 3.80%, managed cash reserve 41.9%.
+
+Top Candidates
+
+1. UNH (healthcare-managed-care) | confidence 0.82 | allocation 8.0% | stop 4.0% | Chittick 82/100 | tier execution-ready | bucket healthcare-insurance
+Thesis: Leading managed care with Optum ecosystem; Q1 recovery validates pricing discipline and segment turnaround amid membership trade-off for margins.
+Catalyst: Q1 2026 EPS $7.23 beat (+7.93% reaction April 21); MCR 83.9% vs 84.8% YoY; Optum Health $1.3B adj earnings; prior auth cuts May 5; Goldman Conviction Buy May 1.
+Entry: Enter 50% at open if holds $399; add 50% on dip to $390 with volume.
+Exit: Take 50% profit at $420 (5% gain); trail stop from $410; invalidate below $385 (recent support break).
+Risk/reward: 3-5% upside to $420 vs 3-4% downside to stop; 1.5:1 RR on swing.
+Bear/adversary: DOJ probe escalates or Q2 MCR deteriorates, erasing Q1 gains.
+Source quality: High: TIKR Terminal analysis with earnings call quotes, stats, analyst upgrades.
+Chittick Cash Filter
+Score: 82/100
+Margin of safety: Pricing discipline and Optum recovery provide buffer; trading below mid-target $645 and own-history highs.
+Valuation: 21x fwd vs quality justifies premium; 63% upside to TIKR mid-case.
+Growth runway: Medicare repricing 2027-28; Optum Rx onboarding; AI 2:1 ROI target.
+Balance-sheet risk: Debt manageable at 42.9%; strong cash flow covers.
+Capital allocation: Buybacks $2B Q2; AI capex disciplined.
+Concentration case: Diversifies from commodities/defense; healthcare lead in Q1 earnings.
+Owner thesis, 30-180 days: Q2 MCR holds + Optum to 6-8% margins; DOJ resolution; AI revenue 2027.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: healthcare-insurance
+Research tier: execution-ready
+Allocation learning: none
+Hugging Face Filter
+Not run for this candidate.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.tikr.com/blog/unitedhealth-stock-is-up-47-from-its-march-2026-lows-heres-what-the-recovery-is-worth
+
+2. LGVN (healthcare-biotech) | confidence 0.70 | allocation 4.0% | stop 10.0% | Chittick 68/100 | tier watch | bucket healthcare-biotech
+Thesis: Stem cell therapy pipeline with multiple FDA designations; recent $15M funding extends runway.
+Catalyst: Q1 2026 results; $30M private placement closed ($15M initial); Phase 2b ELPIS II topline Aug 2026 for HLHS orphan indication.
+Entry: Watch for entry on pullback to 50-day MA post-funding digestion.
+Exit: Target pre-Aug data momentum; stop below recent lows.
+Risk/reward: Binary clinical upside vs dilution/failure downside.
+Bear/adversary: Phase 2b misses or further dilution erodes value.
+Source quality: High: Company IR release with trial/FDA details.
+Chittick Cash Filter
+Score: 68/100
+Margin of safety: Recent funding provides runway; FDA designations de-risk path.
+Valuation: Speculative pre-clinical; funding validates.
+Growth runway: Aug 2026 HLHS data; AD BLA pathway.
+Balance-sheet risk: $15M funded of $30M; monitor burn.
+Capital allocation: Strategic funding from healthcare VCs.
+Concentration case: Biotech diversifier vs insurers/commodities.
+Owner thesis, 30-180 days: Positive Phase 2b + BLA progress.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: earnings/filing
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: healthcare-biotech
+Research tier: watch
+Allocation learning: none
+Hugging Face Filter
+Not run for this candidate.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://investors.longeveron.com/news/News/news-details/2026/Longeveron-Announces-2026-First-Quarter-Financial-Results-and-Provides-Business-Update/default.aspx
 
