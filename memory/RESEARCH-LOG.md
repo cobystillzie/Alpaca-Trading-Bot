@@ -898,4 +898,9 @@ Candidates found: 3
 UNH shows sharp 47% recovery from March 2026 lows with Q1 EPS beat, MCR improvement to 83.9%, Optum Health rebound, and AI investments; Goldline IPO oversubscribed 840x signals India pharma momentum but illiquid; Longeveron Phase 2 catalysts noted. Volatile risk-off macro persists with Fed hawkishness.
 
 Candidates found: 2
+## Two-Hour Research Agent - 2026-05-14 13:28:22 Eastern Daylight Time
+
+Biotech mixed with HUMA showing Q1 revenue growth and EPS beat but analyst PT cut; HIT health-tech revenue up 9% YoY; broader market risk-off with hawkish Fed, inflation, VIX premium persisting.
+
+Candidates found: 2
 

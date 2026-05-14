@@ -13136,4 +13136,28 @@ Not run for this candidate.
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: https://investors.longeveron.com/news/News/news-details/2026/Longeveron-Announces-2026-First-Quarter-Financial-Results-and-Provides-Business-Update/default.aspx
+## Research Update - 2026-05-14 13:28:22 Eastern Daylight Time
+
+Research Update
+
+Market tone: Biotech mixed with HUMA showing Q1 revenue growth and EPS beat but analyst PT cut; HIT health-tech revenue up 9% YoY; broader market risk-off with hawkish Fed, inflation, VIX premium persisting.
+Candidates: 2
+
+1. HUMA (healthcare-biotech) | confidence 0.78 | allocation 6.0% | stop 8.0% | Chittick 70/100 | tier execution-ready | bucket healthcare-biotech | HF source 9/100
+Recommendation: execute-if-guards-pass
+Catalyst: Q1 2026 earnings May 13: product revenue $0.5M (up from $0.1M YoY), EPS -$0.09 beat consensus -$0.10 by $0.01; stock +20% intraday on volume 16.86M vs avg 6.4M.
+Chittick Cash: Trading at $1.10 vs $7.71 consensus PT (611% upside); mkt cap $243M vs clinical milestones runway; cash position supports runway despite burn.
+HF filter: sentiment=not run source=9/100 hype=0.20 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=healthcare-biotech
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. HIT (healthcare-insurance) | confidence 0.70 | allocation 4.0% | stop 7.0% | Chittick 72/100 | tier watch | bucket healthcare-health-tech | HF source 8/100
+Recommendation: watch
+Catalyst: Q1 2026 earnings: revenue $8.8M (+9% YoY), $82M placed in plans; FY guide $45-50M.
+Chittick Cash: Guide implies 25%+ growth; small cap discount.
+HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=healthcare-health-tech
+Social buzz, low weight: none
+Congress signal, low weight: none
 

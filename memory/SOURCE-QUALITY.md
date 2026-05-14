@@ -10703,4 +10703,51 @@ SEC/company quality check:
 5. **Competitive Moat Unclear**: Zumilokibart's 77-day half-life is genuine advantage, but clinical efficacy vs. lebrikizumab is not yet head-to-head tested. Market adoption risk is real.
 
 **Recommendation**: Monitor for Q2 2026 Part B data release. Do not initiate position until clinical data clarity and regulatory pathway confirmation. Current valuation ($70/share post-offering) reflects significant optimism; downside risk is material if trials disappoint.
+## Source And Signal Research - 2026-05-14 13:28:22 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "RIGL (Rigel Pharmaceuticals) surged 15% on global licensing deal with Arvinas and Pfizer for advanced breast cancer treatment; $70M upfront + $15M transition + up to $320M milestones. Short interest at record high, retail eyeing further upside. YTD +14%. No other unusual discussion detected.",
+  "social_buzz": "moderate - stocktwits coverage on licensing deal and short squeeze speculation",
+  "attention_anomalies": "RIGL: 15% intraday surge + record short interest amid positive catalyst",
+  "source_urls": [
+    "https://stocktwits.com/news-articles/markets/equity/rigl-stock-jumps-short-interest-surges-to-record-high-why-is-retail-eyeing-a-further-upside/cZXXhLJReiW",
+    "https://api-gw-prd.stocktwits.com/earnings-api/v1/documents/company-events/da0b6470-4d5a-47fb-a641-fedf3a6b1c26/slides.pdf"
+  ]
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Search results contain no recent congressional trades or disclosures relevant to liquid US stocks/ETFs. Results primarily feature institutional fund activity (PUBLIC SECTOR PENSION INVESTMENT BOARD 13F filings for AZN, WBS, DT positions), corporate financing announcements (Willis Lease Finance convertible notes offering, Senti Biosciences financing), and earnings reports (Copa Holdings Q1 2026). Congressional activity limited to two press releases on unrelated policy matters (seafood trade investigation, fuel retailer choice act). No actionable congressional trading signals detected.",
+  "congressional_signal": "LOW_WEIGHT_NONE",
+  "tickers": [],
+  "source_urls": [
+    "https://www.quiverquant.com/news/Willis+Lease+Finance+Corporation+Prices+$200+Million+Convertible+Senior+Notes+Offering",
+    "https://www.quiverquant.com/news/Fund+Update:+New+$411.6M+$AZN+stock+position+opened+by+PUBLIC+SECTOR+PENSION+INVESTMENT+BOARD",
+    "https://www.quiverquant.com/news/Copa+Holdings+Reports+Strong+Q1+2026+Financial+Results+with+Increased+Net+Profit+and+Capacity+Growth",
+    "https://www.quiverquant.com/news/Fund+Update:+New+$55.8M+$WBS+stock+position+opened+by+PUBLIC+SECTOR+PENSION+INVESTMENT+BOARD",
+    "https://www.quiverquant.com/news/Senti+Biosciences+Secures+Up+to+$40+Million+Financing+and+FDA+Endorsement+for+SENTI-202+in+Relapsed%2FRefractory+Acute+Myeloid+Leukemia",
+    "https://www.quiverquant.com/news/Fund+Update:+New+$29.6M+$DT+stock+position+opened+by+PUBLIC+SECTOR+PENSION+INVESTMENT+BOARD",
+    "https://www.quiverquant.com/news/Press+Release:+Congressmen+Carter+and+Higgins+Request+Section+301+Investigation+into+Unfair+Seafood+Trade+Practices",
+    "https://www.quiverquant.com/news/Press+Release:+Congressman+Mike+Flood+Supports+Passage+of+Nationwide+Consumer+and+Fuel+Retailer+Choice+Act"
+  ]
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "Apogee Therapeutics (APGE) 10-Q (Q1 2026) details clinical progress for zumilokibart (APG777) in AD (positive Phase 2 APEX data, Part B topline Q2 2026, Phase 3 H2 2026) and asthma, with pipeline combos (APG279, APG273, APG808); net loss $74.1M (up 34% YoY) from R&D ramp ($52M vs $40M), G&A, equity comp; cash burn high, raised $407M via equity/ATM; single-segment US ops, lease liabilities $8M. Humacyte (HUMA) 10-K highlights Symvess (ATEV) FDA approval for vascular trauma, strong V005/V017 data (low infection/amputation vs synthetics), Phase 3 HD access trials (V007 superior usability vs AVF in women/obese/diabetics); no revenue yet from HD. WillScot (WSC), Regal Rexnord (RRX) 10-Ks standard industrial filings, no acute catalysts. Clearside (CLSD) exploring strategic alternatives (sale/merger), RIF, going concern doubt, Nasdaq delisting risk.",
+  "filing_risks": [
+    "APGE: High cash burn ($74M Q1 loss, R&D +36% YoY to $52M, equity comp $17M); dilution risk (5.75M shares March offering +369k ATM, accumulated deficit $636M); single-segment concentration (all US assets, one reporting unit); no revenue, pre-commercial biotech execution risk (Phase 3 AD 2026, launch 2029).",
+    "HUMA: No HD revenue yet despite Phase 3 data; V006 trial missed secondary patency primary endpoint vs ePTFE (67% vs 74% at 24mo); high SAE rates (thrombosis 23%, stenosis 19%); concentration in trauma/HD conduits, regulatory/commercialization risks.",
+    "CLSD: Going concern doubt (insufficient cash for 12mo), strategic review (sale/bankruptcy risk), full RIF ($2.6M severance Q3), Nasdaq delisting (bid < $1), paused internal R&D; royalty rights sold, revenue quality low.",
+    "WSC: High debt/capital needs for fleet expansion; cyclical modular/storage leasing tied to construction/economy; competition, supply chain/labor risks.",
+    "RRX: Post-Altra integration synergies/debt burden ($5.1B acquisition); commodity/input cost volatility; cyclical industrial/motion control exposure."
+  ],
+  "quality_notes": "APGE shows durable demand signals in AD (71% EASI reduction Phase 2a, 75-85% maintenance EASI-75 at 52w), asthma (FeNO suppression), broad I&I pipeline; high R&D spend validates execution but pre-revenue. HUMA durable in trauma (92.9% infection-free, 82.5% limb salvage 24mo; superior vs synthetics), HD usability (81% 6mo patency vs 66% AVF); Phase 3 beats in key subgroups (women/diabetics). WSC/RRX standard industrials, no standout durability. CLSD high risk (distress). No GOOGL/INTC/USAR/GT. Balance sheet: APGE cash-strong post-raise but burning; HUMA clinical-stage. Revenue quality N/A (pre-revenue). Capital allocation: APGE equity raises dilute; HUMA trial-focused.",
+  "source_urls": []
+}
 

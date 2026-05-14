@@ -4,119 +4,121 @@
 {
   "candidates": [
     {
-      "adversary_case": "DOJ probe escalates or Q2 MCR deteriorates, erasing Q1 gains.",
-      "allocation_learning_note": "",
-      "balance_sheet_risk": "Debt manageable at 42.9%; strong cash flow covers.",
-      "bear_case": "DOJ criminal probe unresolved; 1.3M membership loss; 21x fwd P/E; Q2 MCR moderation risk.",
-      "capital_allocation_case": "Buybacks $2B Q2; AI capex disciplined.",
-      "catalyst": "Q1 2026 EPS $7.23 beat (+7.93% reaction April 21); MCR 83.9% vs 84.8% YoY; Optum Health $1.3B adj earnings; prior auth cuts May 5; Goldman Conviction Buy May 1.",
+      "adversary_case": "BTIG PT cut signals commercialization doubts; biotech execution risks (prior V006 miss), high losses could cap rally.",
+      "allocation_learning_note": "New sector entry; cap at 6% vs repeated GLD/UNP.",
+      "balance_sheet_risk": "Clinical losses, dilution history; no debt details but biotech-typical burn; monitor cash post-Q1.",
+      "bear_case": "BTIG PT cut to $2 from $3 (May 13) despite Buy; ongoing losses (TTM EPS -$0.20, net margin -1999%); high cash burn, dilution risk in clinical biotech.",
+      "capital_allocation_case": "Trial-focused spend; FDA approval shows regulatory discipline.",
+      "catalyst": "Q1 2026 earnings May 13: product revenue $0.5M (up from $0.1M YoY), EPS -$0.09 beat consensus -$0.10 by $0.01; stock +20% intraday on volume 16.86M vs avg 6.4M.",
       "catalyst_type": "earnings",
-      "chittick_cash_score": 82.0,
+      "chittick_cash_score": 70.0,
       "chittick_reject_reason": "",
-      "concentration_case": "Diversifies from commodities/defense; healthcare lead in Q1 earnings.",
-      "confidence": 0.82,
+      "concentration_case": "Unique HAV moat in vascular trauma/HD vs broad healthcare ETFs; diversifies from existing industrials/ETFs.",
+      "confidence": 0.78,
       "congressional_signal": "none",
-      "diversity_bucket": "healthcare-insurance",
-      "entry_plan": "Enter 50% at open if holds $399; add 50% on dip to $390 with volume.",
-      "exit_plan": "Take 50% profit at $420 (5% gain); trail stop from $410; invalidate below $385 (recent support break).",
+      "diversity_bucket": "healthcare-biotech",
+      "entry_plan": "Enter 50% at open tomorrow if holds $1.05, add 50% on pullback to $1.00 with volume; max 6% portfolio allocation.",
+      "exit_plan": "Take profits at $1.50 (36% gain, near prior highs) or $1.75 (60% to avg PT); invalidate below $0.95 (earnings gap fill).",
       "fresh_catalyst": true,
-      "growth_runway": "Medicare repricing 2027-28; Optum Rx onboarding; AI 2:1 ROI target.",
-      "hf_evidence_rank": 0.0,
+      "growth_runway": "HD Phase 3 data (V007 superior usability); trauma commercialization ramp; 30-180d: Q2 updates, potential partnerships.",
+      "hf_evidence_rank": 8.0,
       "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.0,
+      "hf_hype_risk": 0.2,
       "hf_memory_similarity": 0.0,
       "hf_model_notes": "",
       "hf_sentiment_agreement": 0.0,
       "hf_sentiment_label": "",
       "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 0.0,
+      "hf_source_quality_score": 9.0,
       "horizon_days": 7,
-      "margin_of_safety_case": "Pricing discipline and Optum recovery provide buffer; trading below mid-target $645 and own-history highs.",
-      "market_regime": "Defensive healthcare resilient in risk-off; benefits from earnings strength vs macro volatility.",
-      "momentum_case": "+47% from $270 March lows to $399; post-earnings strength holds.",
-      "owner_hold_case": "Q2 MCR holds + Optum to 6-8% margins; DOJ resolution; AI revenue 2027.",
-      "quality_case": "Buffett-style moat in scale/Optum; cash flow 1.4x NI; debt-to-capital 42.9% to 40% target; share buybacks accelerated.",
+      "margin_of_safety_case": "Trading at $1.10 vs $7.71 consensus PT (611% upside); mkt cap $243M vs clinical milestones runway; cash position supports runway despite burn.",
+      "market_regime": "Risk-off favors quality defensives but biotechs volatile; healthcare resilient if inflation erodes synthetics/reimbursement.",
+      "momentum_case": "+20% on earnings (from ~$0.91 to $1.10), YTD +12%; broke 52w high $2.93 resistance zone on 2.6x volume.",
+      "owner_hold_case": "HD Phase 3 readout + Symvess revenue scale to $10M+ quarterly; monitor for 30-180d if beats guidance.",
+      "quality_case": "Proprietary regenerative HAVs address unmet needs in ESRD/PAD/trauma (superior patency/infection rates vs synthetics per Phase 3); FDA-approved product derisks vs pure pipeline plays; $243M mkt cap undervalues Phase 3 HD access potential.",
       "recommendation": "execute-if-guards-pass",
       "repeat_count_48h": 0,
       "research_tier": "execution-ready",
-      "risk_reward": "3-5% upside to $420 vs 3-4% downside to stop; 1.5:1 RR on swing.",
-      "sector": "healthcare-managed-care",
-      "signal_weights": {
-        "congressional_signal": 0.0,
-        "social_buzz": 0.0
-      },
-      "social_buzz": "none",
-      "source_quality": "High: TIKR Terminal analysis with earnings call quotes, stats, analyst upgrades.",
-      "source_urls": [
-        "https://www.tikr.com/blog/unitedhealth-stock-is-up-47-from-its-march-2026-lows-heres-what-the-recovery-is-worth"
-      ],
-      "stop_loss_percent": 4.0,
-      "strategy_tags": [
-        "chittick_cash"
-      ],
-      "symbol": "UNH",
-      "target_allocation_percent": 8.0,
-      "thesis": "Leading managed care with Optum ecosystem; Q1 recovery validates pricing discipline and segment turnaround amid membership trade-off for margins.",
-      "valuation_case": "21x fwd vs quality justifies premium; 63% upside to TIKR mid-case."
-    },
-    {
-      "adversary_case": "Phase 2b misses or further dilution erodes value.",
-      "allocation_learning_note": "",
-      "balance_sheet_risk": "$15M funded of $30M; monitor burn.",
-      "bear_case": "Pre-revenue biotech; clinical risk high; dilution from raises.",
-      "capital_allocation_case": "Strategic funding from healthcare VCs.",
-      "catalyst": "Q1 2026 results; $30M private placement closed ($15M initial); Phase 2b ELPIS II topline Aug 2026 for HLHS orphan indication.",
-      "catalyst_type": "earnings/filing",
-      "chittick_cash_score": 68.0,
-      "chittick_reject_reason": "",
-      "concentration_case": "Biotech diversifier vs insurers/commodities.",
-      "confidence": 0.7,
-      "congressional_signal": "none",
-      "diversity_bucket": "healthcare-biotech",
-      "entry_plan": "Watch for entry on pullback to 50-day MA post-funding digestion.",
-      "exit_plan": "Target pre-Aug data momentum; stop below recent lows.",
-      "fresh_catalyst": true,
-      "growth_runway": "Aug 2026 HLHS data; AD BLA pathway.",
-      "hf_evidence_rank": 0.0,
-      "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.0,
-      "hf_memory_similarity": 0.0,
-      "hf_model_notes": "",
-      "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "",
-      "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 0.0,
-      "horizon_days": 10,
-      "margin_of_safety_case": "Recent funding provides runway; FDA designations de-risk path.",
-      "market_regime": "Risk-off favors orphan/designee plays with funding.",
-      "momentum_case": "Funding news supports near-term stability.",
-      "owner_hold_case": "Positive Phase 2b + BLA progress.",
-      "quality_case": "FDA Orphan/Fast Track/Rare Pediatric/RMAT; addresses unmet needs in pediatrics/elderly.",
-      "recommendation": "watch",
-      "repeat_count_48h": 0,
-      "research_tier": "watch",
-      "risk_reward": "Binary clinical upside vs dilution/failure downside.",
+      "risk_reward": "3:1 (8% downside to stop vs 36% upside to first target); defined post-earnings gap risk.",
       "sector": "healthcare-biotech",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
       "social_buzz": "none",
-      "source_quality": "High: Company IR release with trial/FDA details.",
+      "source_quality": "Strong: MarketBeat/Tipranks consensus data, direct earnings (EPS/revenue beat), BTIG note, Panabee report; multi-source confirmation.",
       "source_urls": [
-        "https://investors.longeveron.com/news/News/news-details/2026/Longeveron-Announces-2026-First-Quarter-Financial-Results-and-Provides-Business-Update/default.aspx"
+        "https://www.marketbeat.com/stocks/NASDAQ/HUMA/",
+        "https://www.panabee.com/news/humacyte-earnings-q1-2026-report",
+        "https://www.gurufocus.com/news/8856049/huma-maintained-by-btig-price-target-lowered-to-200"
       ],
-      "stop_loss_percent": 10.0,
+      "stop_loss_percent": 8.0,
       "strategy_tags": [
         "chittick_cash"
       ],
-      "symbol": "LGVN",
+      "symbol": "HUMA",
+      "target_allocation_percent": 6.0,
+      "thesis": "Clinical-stage biotech with FDA-approved Symvess (HAV) for vascular trauma; early revenue ramp + EPS beat signal commercialization traction in high-need vascular access market.",
+      "valuation_case": "Deep discount to PTs ($3-25 range); pre-revenue but revenue inflection + beats justify multiple expansion vs peers."
+    },
+    {
+      "adversary_case": "Neg profitability caps near-term multiple.",
+      "allocation_learning_note": "",
+      "balance_sheet_risk": "Growth spend pressure.",
+      "bear_case": "Neg adjusted EBITDA from growth spend; small cap execution risk.",
+      "capital_allocation_case": "Investment-focused.",
+      "catalyst": "Q1 2026 earnings: revenue $8.8M (+9% YoY), $82M placed in plans; FY guide $45-50M.",
+      "catalyst_type": "earnings",
+      "chittick_cash_score": 72.0,
+      "chittick_reject_reason": "",
+      "concentration_case": "Niche health-tech vs broad.",
+      "confidence": 0.7,
+      "congressional_signal": "none",
+      "diversity_bucket": "healthcare-health-tech",
+      "entry_plan": "Watch for $12-15 range breakout on volume tomorrow.",
+      "exit_plan": "Target FY guide multiple; stop below earnings low.",
+      "fresh_catalyst": true,
+      "growth_runway": "Placement volume expansion.",
+      "hf_evidence_rank": 7.0,
+      "hf_filter_vetoes": [],
+      "hf_hype_risk": 0.0,
+      "hf_memory_similarity": 0.0,
+      "hf_model_notes": "",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "",
+      "hf_sentiment_score": 0.0,
+      "hf_source_quality_score": 8.0,
+      "horizon_days": 5,
+      "margin_of_safety_case": "Guide implies 25%+ growth; small cap discount.",
+      "market_regime": "Risk-off tolerant if healthcare defensives hold.",
+      "momentum_case": "Post-earnings volume implied; aligns with healthcare tailwinds.",
+      "owner_hold_case": "FY beat + profitability inflection.",
+      "quality_case": "Recurring revenue model in employer health plans; growth investments despite neg EBITDA show discipline.",
+      "recommendation": "watch",
+      "repeat_count_48h": 0,
+      "research_tier": "watch",
+      "risk_reward": "2:1 potential on guide beat.",
+      "sector": "healthcare-insurance",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "none",
+      "source_quality": "Strong: Benzinga full transcript.",
+      "source_urls": [
+        "https://www.benzinga.com/insights/news/26/05/52547916/health-in-tech-q1-2026-earnings-call-complete-transcript"
+      ],
+      "stop_loss_percent": 7.0,
+      "strategy_tags": [
+        "chittick_cash"
+      ],
+      "symbol": "HIT",
       "target_allocation_percent": 4.0,
-      "thesis": "Stem cell therapy pipeline with multiple FDA designations; recent $15M funding extends runway.",
-      "valuation_case": "Speculative pre-clinical; funding validates."
+      "thesis": "Health-tech platform for self-funded stop-loss insurance; revenue growth + placement volume signal market share gains.",
+      "valuation_case": "Attractive on revenue trajectory."
     }
   ],
-  "summary": "UNH shows sharp 47% recovery from March 2026 lows with Q1 EPS beat, MCR improvement to 83.9%, Optum Health rebound, and AI investments; Goldline IPO oversubscribed 840x signals India pharma momentum but illiquid; Longeveron Phase 2 catalysts noted. Volatile risk-off macro persists with Fed hawkishness."
+  "summary": "Biotech mixed with HUMA showing Q1 revenue growth and EPS beat but analyst PT cut; HIT health-tech revenue up 9% YoY; broader market risk-off with hawkish Fed, inflation, VIX premium persisting."
 }
 -->
 
@@ -1195,4 +1197,11 @@
 |---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
 | UNH | healthcare-managed-care | execution-ready | healthcare-insurance | 0 | yes | 0.82 | 82 | 0 | 0 | 8.0% | 4.0% | execute-if-guards-pass | Q1 2026 EPS $7.23 beat (+7.93% reaction April 21); MCR 83.9% vs 84.8% YoY; Optum Health $1.3B adj earnings; prior auth cuts May 5; Goldman Conviction Buy May 1. |
 | LGVN | healthcare-biotech | watch | healthcare-biotech | 0 | yes | 0.70 | 68 | 0 | 0 | 4.0% | 10.0% | watch | Q1 2026 results; $30M private placement closed ($15M initial); Phase 2b ELPIS II topline Aug 2026 for HLHS orphan indication. |
+
+## Latest Candidates - 2026-05-14 13:28:22 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| HUMA | healthcare-biotech | execution-ready | healthcare-biotech | 0 | yes | 0.78 | 70 | 9 | 0 | 6.0% | 8.0% | execute-if-guards-pass | Q1 2026 earnings May 13: product revenue $0.5M (up from $0.1M YoY), EPS -$0.09 beat consensus -$0.10 by $0.01; stock +20% intraday on volume 16.86M vs avg 6.4M. |
+| HIT | healthcare-insurance | watch | healthcare-health-tech | 0 | yes | 0.70 | 72 | 8 | 0 | 4.0% | 7.0% | watch | Q1 2026 earnings: revenue $8.8M (+9% YoY), $82M placed in plans; FY guide $45-50M. |
 

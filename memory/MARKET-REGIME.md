@@ -5232,4 +5232,30 @@ The US equity market is grinding to record highs, but the underlying conditions 
   ]
 }
 ```
+## Market Regime Research - 2026-05-14 13:28:22 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities mixed amid hawkish Fed pivot risks, surging inflation (PCE ~3.8% headline), stabilizing labor market (UR 4.34%), and geopolitical shocks (Hormuz, Iran tensions). S&P 500 at 7,444 (+0.58%), DJIA 49,693 (-0.14%). Rates rising (30yr mtg 6.79%, 10yr T 4.3%), VIX 17.9 > realized vol 9.8 signals hedging. No clear earnings tone; retail weak vs S&P.",
+  "market_regime": "risk-off cautious (elevated vol pricing, hawkish Fed tilt, inflation reacceleration risks outweighing Warsh dovishness)",
+  "sector_rotation": "defensive tilt implied (gold/commodities resilient per memory, retail crashing rel S&P; defense watch via LMT catalyst); avoid cyclicals amid rate/tariff pressures",
+  "risk_flags": [
+    "Fed tightening bias (hike risks 2026/2027H1, 4 dots for hikes)",
+    "Inflation overshoot (supercore hot, tariffs persistent, Hormuz shock)",
+    "Rising yields (10yr >4.3%, mtg 6.79%)",
+    "VIX premium (17.9 vs 9.8 realized = tail-risk hedging)",
+    "Geopolitical (Iran/Strait tensions fueling energy/inflation)",
+    "FOMC discord (Warsh isolated, hawks gaining)"
+  ],
+  "source_urls": [
+    "https://www.employamerica.org/monetary-policy/fed-note-why-we-think-risks-are-tilted-towards-a-hike/",
+    "https://www.investing.com/analysis/dispersion-drives-the-market-to-the-extremes-200680263",
+    "https://www.noradarealestate.com/blog/mortgage-rates-today-may-14-2026-30-year-refinance-rate-rises-by-18-basis-points/",
+    "https://www.spglobal.com/spdji/en/",
+    "https://finance-commerce.com/2026/05/kevin-warsh-fed-interest-rate-outlook/",
+    "https://articles.stockcharts.com/article/these-stocks-may-be-ready-for-their-next-big-move/",
+    "https://nationalmortgageprofessional.com/news/warsh-confirmed-lead-fed-mortgage-rate-relief-may-still-be-far"
+  ]
+}
+```
 
