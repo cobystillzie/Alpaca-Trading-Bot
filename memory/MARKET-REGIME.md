@@ -4784,4 +4784,196 @@ The US equity market is grinding to record highs, but the underlying conditions 
     "https://www.mexc.co/news/1087299"
   ]
 }
+## Market Regime Research - 2026-05-14 01:22:47 Eastern Daylight Time
+
+{
+  "summary": "US equities remain in an upward but maturing bull trend with stretched valuations, strong but narrowing leadership in technology/AI, and mixed macro signals. Central banks are holding policy rates high with limited urgency to cut, volatility is relatively contained but with pockets of tension, and cross‑asset divergences (strong USD, strong stocks, subdued commodities outside of specific spikes) argue for a cautious, risk‑managed stance for a paper‑trading workflow.",
+  "market_regime": {
+    "index_trend": {
+      "sp500": {
+        "direction": "uptrend but vulnerable",
+        "tone": "The S&P 500 is near highs with multiple trend indicators flashing or approaching sell signals, suggesting an extended advance that may be losing momentum rather than an early‑stage bull phase.",
+        "evidence": [
+          "Markets Insider / Ned Davis Research flag a cluster of trend models that have shifted to sell or near bearish territory for the S&P 500, implying rising risk of further drawdown even if the primary trend remains up.",
+          "Multiple sources (Invesco, Fidelity, Investing.com analyses) describe US equities as having delivered strong returns into early/mid‑2026, with some strategists explicitly calling S&P 500 valuations \"stretched\" while simultaneously raising upside targets."
+        ]
+      },
+      "nasdaq_100": {
+        "direction": "strong uptrend / leadership",
+        "tone": "Tech and AI‑linked growth stocks continue to lead, with the NASDAQ 100 outperforming broader indices.",
+        "evidence": [
+          "Aurra.Markets notes the NASDAQ 100 outperforming on tech and semiconductor strength, with AI themes acting as a powerful driver even amid macro headwinds.",
+          "Fidelity’s mid‑2026 outlook cites technology as the fastest earnings and revenue growth sector in the S&P 500, with rising margins and continued investment."
+        ]
+      },
+      "breadth": {
+        "tone": "positive but somewhat narrow",
+        "description": "Overall equity performance is strong across regions, but leadership is concentrated in large‑cap US tech and AI‑related themes; non‑tech participation is more mixed.",
+        "evidence": [
+          "Invesco’s global roundup reports a constructive start to 2026 with equities broadly higher across regions, but highlights technology as a core driver in the US and Asia.",
+          "Aurra.Markets flags that the broader rally is not uniform, with tech/semiconductors pulling indices higher."
+        ]
+      }
+    },
+    "rates_and_fed": {
+      "policy_rate": "High and on hold",
+      "central_bank_stance": "cautious / data‑dependent",
+      "tone": "Major central banks (Fed, ECB, BoE) are keeping rates unchanged, signaling caution and little urgency to cut despite stabilizing or easing inflation in some regions.",
+      "evidence": [
+        "Invesco notes central banks in the US, UK and eurozone have held rates steady and are not rushing to cut, even as eurozone inflation eases.",
+        "Fidelity points out that US inflation has stayed above 2% for more than five years, reinforcing a higher‑for‑longer policy bias.",
+        "Investing.com commentary mentions inflation repricing rate‑cut odds and describes stretched S&P 500 valuation against this backdrop."
+      ],
+      "implications_for_equities": [
+        "Discount rates remain elevated, which can pressure long‑duration growth valuations if earnings or sentiment disappoint.",
+        "Higher short‑term yields make cash and short‑duration bonds (e.g., treasury‑bill ETFs highlighted by Morningstar) relatively attractive, potentially capping equity multiples.",
+        "Markets are sensitive to incremental inflation and Fed‑messaging surprises; rate‑cut expectations are not a one‑way bullish tailwind."
+      ]
+    },
+    "volatility": {
+      "vix": "low to moderate, with spike risk",
+      "tone": "Headline volatility remains contained, but cross‑asset divergences, geopolitical tensions, and sector‑level swings signal underlying fragility.",
+      "evidence": [
+        "Aurra.Markets emphasizes monitoring the VIX, noting that a low and falling VIX currently reflects complacent pricing of risk even as unusual asset divergences appear.",
+        "Investing.com pieces on tariffs, SOX (semiconductor) volatility, and market divergence highlight choppy behavior in key thematic areas despite supportive long‑term charts.",
+        "Invesco reports strong but volatile performance in European and other non‑US markets tied to geopolitical events (e.g., oil, metals surges)."
+      ]
+    },
+    "earnings_tone": {
+      "overall": "constructive",
+      "us_equities": "Strong earnings, particularly in technology, are supporting the current level of indices even as valuations expand.",
+      "sector_detail": {
+        "technology": "fastest earnings and revenue growth, with expanding margins despite heavy investment, per Fidelity’s mid‑2026 outlook.",
+        "corporate_credit": "Invesco notes corporate bonds have seen tightening spreads and positive performance, signaling investor confidence in earnings and balance sheets.",
+        "regionally": "Invesco reports broadly positive earnings‑related sentiment across US, Europe, UK, and Asia, though the US lagged some global peers in the most recent month due to specific geopolitical and Fed‑independence concerns."
+      },
+      "valuation_overlay": "Investing.com and other strategy notes describe S&P 500 valuations as stretched relative to historical norms, even as some houses raise index targets, indicating reliance on continued strong earnings delivery, especially from mega‑cap tech."
+    },
+    "risk_on_off": {
+      "overall_state": "risk‑on but late‑cycle / selective",
+      "cross_asset_dynamics": {
+        "equities": "Risk‑on: US and global equities have delivered strong returns; tech and AI remain key drivers.",
+        "fx": "US dollar strength is coexisting with rising US stocks, which Aurra.Markets interprets as a 'US exceptionalism' narrative rather than classic risk‑off.",
+        "commodities": "Mixed: broad commodities are subdued in some sessions, but there are sharp moves in specific areas (oil and precious metals surges per Invesco; gold impacted by policy changes such as India’s import‑duty hike in your memory).",
+        "bonds": "Constructive: fixed income has responded positively to signs of cooling or stabilizing inflation (tightening credit spreads, solid corporate bond performance), consistent with risk‑on credit conditions."
+      },
+      "interpretation": [
+        "The combination of strong equities, strong USD, and episodic commodity spikes is atypical of early‑cycle risk‑on. It fits better with a late‑cycle, US‑led growth narrative where capital flows favor US risk assets despite higher rates.",
+        "Risk appetite is high in specific themes (AI, semiconductors, mega‑cap tech) but more cautious elsewhere; this concentration elevates regime‑shift risk if leadership stumbles."
+      ]
+    }
+  },
+  "sector_rotation": {
+    "leadership": [
+      {
+        "sector": "Information Technology (especially mega‑cap tech and semiconductors)",
+        "status": "clear leader",
+        "evidence": [
+          "Fidelity identifies technology as posting the fastest earnings and revenue growth in Q1 2026, with rising margins.",
+          "Aurra.Markets reports NASDAQ 100 outperformance driven by semiconductors and AI themes.",
+          "Invesco cites technology as a core driver of returns in both US and Asia equity markets."
+        ]
+      },
+      {
+        "sector": "AI infrastructure ecosystem (power, cooling, manufacturing)",
+        "status": "emerging thematic leadership",
+        "evidence": [
+          "Your internal candidate list (FPS, VRT, FLEX) reflects external research screens focusing on AI‑related infrastructure as a key growth theme supporting broader tech."
+        ]
+      },
+      {
+        "sector": "Energy and Materials (selective)",
+        "status": "cyclical / event‑driven strength",
+        "evidence": [
+          "Invesco highlights oil’s strongest monthly jump in four years and a sharp rise in metals and precious‑metal prices amid geopolitical risks.",
+          "Asia‑Pacific equities benefited from soaring metals prices, with Korea and Taiwan boosted by AI‑related semiconductor demand."
+        ]
+      }
+    ],
+    "laggards_or_mixed": [
+      {
+        "sector": "Non‑tech US equities",
+        "status": "positive but trailing leaders",
+        "evidence": [
+          "Invesco notes that while US equities ended the month higher, they lagged global peers amid geopolitical and Fed concerns, implying leadership remains concentrated in specific sectors."
+        ]
+      },
+      {
+        "sector": "Commodities (broad basket)",
+        "status": "subdued outside of specific spikes",
+        "evidence": [
+          "Aurra.Markets and Investing.com describe commodities as stagnant or subdued even when equities rally, underscoring a divergence from typical broad risk‑on cycles."
+        ]
+      }
+    ],
+    "defensive_and_income": [
+      {
+        "segment": "Bonds and short‑term Treasuries",
+        "status": "renewed relevance as diversifiers",
+        "evidence": [
+          "Morningstar’s ETF piece highlights core bond ETFs (FBND) and ultra‑short Treasury ETFs (VBIL) as ways to diversify stock‑heavy portfolios.",
+          "Invesco reports a strong month for corporate bonds and tightening spreads, consistent with investors using fixed income as part of a balanced risk posture."
+        ]
+      },
+      {
+        "segment": "Dividend/value tilt",
+        "status": "secondary role vs. growth/tech",
+        "evidence": [
+          "Your existing watchlist (e.g., SCHD) and Morningstar’s commentary suggest ongoing interest in factor diversification, though the macro narrative is still dominated by growth/tech leadership."
+        ]
+      },
+      {
+        "segment": "Precious metals",
+        "status": "inflation hedge and geopolitical hedge",
+        "evidence": [
+          "Fidelity suggests a modest allocation to precious metals as an additional inflation hedge alongside equities.",
+          "Invesco documents a large rise in gold prices, tied to geopolitical risk, aligning with the gold‑related moves noted in your recent guards‑pass memory."
+        ]
+      }
+    ],
+    "interpretation_for_bot": "The prevailing rotation favors growth and tech (especially AI and semis) with cyclical support in energy/metals when geopolitical or supply factors flare. Defensive assets (bonds, short‑term Treasuries, gold) are attracting capital as hedges rather than primary performance engines. For a cautious paper‑trading workflow, this suggests modeling scenarios where leadership narrows further or reverses, while tracking relative strength and volatility across tech, cyclicals, and defensives."
+  },
+  "risk_flags": {
+    "valuation_and_trend": [
+      "S&P 500 valuation is characterized as stretched by multiple research pieces, even as some strategists raise index targets, implying a thinner margin of safety.",
+      "Ned Davis Research trend indicators, cited by Markets Insider, are flashing or nearing sell signals, pointing to potential for a correction despite the prevailing uptrend."
+    ],
+    "macro_and_policy": [
+      "Inflation staying above 2% for an extended period in the US constrains the Fed’s ability to cut rates aggressively, raising the risk that markets are over‑pricing future easing.",
+      "Central banks maintaining high policy rates while geopolitical tensions and uneven economic data persist increases the probability of growth scares or sentiment shocks.",
+      "US markets show sensitivity to political and institutional issues (e.g., concerns about Federal Reserve independence noted by Invesco), which can translate into episodic volatility."
+    ],
+    "concentration_and_rotation": [
+      "Market performance and earnings expectations are heavily concentrated in mega‑cap tech, semiconductors, and AI‑adjacent names; any disappointment or regulatory shock in this cluster could have outsized index impact.",
+      "Cross‑asset divergences (strong USD + strong US equities + subdued broad commodities) indicate a regime that may not be stable indefinitely; Aurra.Markets notes that either the dollar or the equity rally is likely to falter first.",
+      "Late‑cycle style behavior—growth/tech outperformance amid high rates, tight credit spreads, and strong but regionally uneven growth—can reverse sharply if macro data deteriorate."
+    ],
+    "geopolitical_and_commodity": [
+      "Invesco details significant geopolitical tensions (Venezuela, Iran, Greenland) contributing to volatility and driving sharp moves in oil and precious metals.",
+      "Spikes in energy or metals prices can re‑ignite inflation pressures and force markets to reprice rate‑cut expectations, potentially hurting valuation‑rich equities.",
+      "Country‑specific policy actions (e.g., India’s sharp gold import duty hike in your memory) can trigger abrupt price dislocations in related assets and ETFs, underscoring event risk."
+    ],
+    "volatility_and_liquidity": [
+      "A low and possibly complacent VIX, as flagged by Aurra.Markets, can precede volatility spikes when unexpected news hits.",
+      "Sector‑specific analyses (e.g., SOX/semiconductors) highlight that one‑year and weekly charts point to volatility even if long‑term quarterly charts still suggest upside, indicating the path of returns may be bumpy."
+    ],
+    "workflow_implications_for_paper_trading": [
+      "Treat the current environment as risk‑on but late‑cycle: bias scenarios toward continued tech leadership but incorporate stress‑tests for a rotation out of expensive growth and into defensives.",
+      "Monitor: (a) index trend strength vs. breadth, (b) Fed/ECB communication and inflation data surprises, (c) VIX level and term structure, (d) USD vs. commodities behavior, and (e) earnings revisions for mega‑cap tech.",
+      "Avoid assuming linear extrapolation of recent tech/AI gains; model corrections and sideways regimes as realistic outcomes for the next leg of the cycle."
+    ]
+  },
+  "source_urls": [
+    "https://markets.businessinsider.com",
+    "https://www.morningstar.com/funds/3-etfs-diversify-your-portfolio-2026-2",
+    "https://www.aurra.markets/trading/market-outlook/analysis/usd-and-stocks-rally-we-analyze-the-sp-500-breakout",
+    "https://www.invesco.com/lu/en/insights/monthly-market-roundup.html",
+    "https://www.fidelity.com/learning-center/trading-investing/five-investing-ideas",
+    "https://www.investing.com/analysis/sp-500-valuation-looks-stretched-as-inflation-reprices-ratecut-odds-200680243",
+    "https://www.investing.com/analysis/market-divergence-grows-stocks-to-watch-right-now-200680225",
+    "https://www.investing.com/analysis/sox-mania-tariffs-and-volatility-keep-markets-on-edge-200680254",
+    "https://www.blackrock.com/us/individual/insights",
+    "https://markets.jpmorgan.com/research-and-insights"
+  ]
+}
 

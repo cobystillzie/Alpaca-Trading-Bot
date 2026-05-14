@@ -12408,4 +12408,37 @@ HF filter: sentiment=not run source=1/100 hype=0.15 vetoes=0
 Self-learning: tier=watch repeat48h=6 fresh=yes bucket=industrials-transport
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-14 01:22:47 Eastern Daylight Time
+
+Research Update
+
+Market tone: Risk-on but late-cycle: mega-cap tech and AI remain supported, while breadth is uneven and event-driven moves dominate. Fresh catalyst flow is stronger in gold/commodities, AI infrastructure, and select industrials than in repeated mega-cap names.
+Candidates: 3
+
+1. GLD (etf-commodities-gold) | confidence 0.84 | allocation 6.0% | stop 4.0% | Chittick 75/100 | tier execution-ready | bucket commodities-hedge | HF source 1/100
+Recommendation: execute-if-guards-pass
+Catalyst: India’s government raised gold/silver import duties to about 15% from roughly 6%, a fresh official policy catalyst that has already pushed related ETFs and futures higher.
+Chittick Cash: Margin of safety comes from liquid, transparent exposure to a global reserve asset during an event-driven demand shock, rather than underwriting a single operating business.
+HF filter: sentiment=positive source=1/100 hype=0.08 vetoes=0
+Self-learning: tier=execution-ready repeat48h=3 fresh=yes bucket=commodities-hedge
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. VRT (industrials-electrical-equipment) | confidence 0.70 | allocation 4.0% | stop 8.0% | Chittick 75/100 | tier watch | bucket ai-infrastructure-cooling | HF source 1/100
+Recommendation: watch
+Catalyst: AI infrastructure spending remains a live theme, with continued evidence of backlog, data-center buildout demand, and investor attention on liquid-cooling and power-management names.
+Chittick Cash: Margin of safety is decent only if entry is at a technical pivot, because the business is real but the market has already priced in a lot of growth.
+HF filter: sentiment=positive source=1/100 hype=0.24 vetoes=0
+Self-learning: tier=watch repeat48h=3 fresh=yes bucket=ai-infrastructure-cooling
+Social buzz, low weight: light positive attention around AI infrastructure, but not a primary signal
+Congress signal, low weight: none
+
+3. UNP (industrials-rail-transport) | confidence 0.74 | allocation 5.0% | stop 8.0% | Chittick 76/100 | tier watch | bucket industrials-transport | HF source 1/100
+Recommendation: watch
+Catalyst: Q1 2026 grain transport volumes on the network reportedly exceeded the prior 2008 peak, indicating strong export demand and real operating momentum.
+Chittick Cash: Margin of safety is supported by a durable franchise and tangible freight demand, though not by bargain-basement valuation.
+HF filter: sentiment=mildly positive source=1/100 hype=0.12 vetoes=0
+Self-learning: tier=watch repeat48h=7 fresh=yes bucket=industrials-transport
+Social buzz, low weight: none
+Congress signal, low weight: none
 
