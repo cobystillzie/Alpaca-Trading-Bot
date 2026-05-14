@@ -875,4 +875,12 @@ Premarket plan built from latest watchlist.
 - UNP: score=70, base=100, chittick=35, approved=True, allocation=5.0%, stop=8.0%
 - LMT: score=86, base=95, chittick=82, approved=True, allocation=6.0%, stop=6.0%
 - PDFS: score=86, base=100, chittick=70, approved=True, allocation=5.0%, stop=8.0%
+## Premarket Plan - 2026-05-14 08:25:01 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- GLD: score=83, base=100, chittick=78, approved=True, allocation=6.0%, stop=4.0%
+- UNP: score=70, base=100, chittick=35, approved=True, allocation=5.0%, stop=8.0%
+- LMT: score=86, base=95, chittick=82, approved=True, allocation=6.0%, stop=6.0%
+- PDFS: score=86, base=100, chittick=70, approved=True, allocation=5.0%, stop=8.0%
 
