@@ -12507,4 +12507,37 @@ HF filter: sentiment=not run source=7/100 hype=0.00 vetoes=0
 Self-learning: tier=watch repeat48h=8 fresh=yes bucket=industrials-transport
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-14 07:25:16 Eastern Daylight Time
+
+Research Update
+
+Market tone: Mixed signals with S&P resilience amid AI/tech leadership, but stagflation risks (CPI +3.8%, oil $102, 10yr 4.483%) and geopolitical tensions (Iran, China 6th-gen fighter claims) pressure defensives/commodities; narrow breadth favors quality industrials/transport over hype. Coinbase shows strong Q1 growth (revenue +46%, net income +106%) but crypto volatility caps appeal.
+Candidates: 3
+
+1. GLD (etf-commodities-gold) | confidence 0.84 | allocation 6.0% | stop 4.0% | Chittick 75/100 | tier execution-ready | bucket etf-commodities | HF source 9/100
+Recommendation: execute-if-guards-pass
+Catalyst: India gold/silver import duty hiked to 15% from 6% (May 13 govt order); drove domestic ETFs +4-7%, futures +7.2%; fresh confirmation sustains momentum.
+Chittick Cash: Physical asset backing; downside to $230 (multi-year support) offers 7% buffer vs quality hedge role.
+HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=5 fresh=yes bucket=etf-commodities
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. LMT (industrials-aerospace-defense) | confidence 0.70 | allocation 6.0% | stop 6.0% | Chittick 82/100 | tier watch | bucket industrials-defense | HF source 6/100
+Recommendation: watch
+Catalyst: China J-X 6th-gen claims (elevon actuators, hypersonic, high-speed cruise) expose F-22 production challenges (70% parts from China, bankrupt suppliers); boosts NGAD/defense spending urgency.
+Chittick Cash: Strong balance sheet (net cash position); backlog >$160B provides visibility.
+HF filter: sentiment=not run source=6/100 hype=0.20 vetoes=0
+Self-learning: tier=watch repeat48h=1 fresh=yes bucket=industrials-defense
+Social buzz, low weight: low-weight attention on China fighter claims
+Congress signal, low weight: none
+
+3. COIN (financials-crypto-exchange) | confidence 0.65 | allocation 0.0% | stop 10.0% | Chittick 35/100 | tier watch | bucket financials-crypto | HF source 8/100
+Recommendation: watch
+Catalyst: Q1 results: Revenue $7.672B (+46% YoY), net income $3.217B (+106%); spot trading/margin expansion.
+Chittick Cash: Volatile; limited downside protection.
+HF filter: sentiment=not run source=8/100 hype=0.30 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=financials-crypto
+Social buzz, low weight: none
+Congress signal, low weight: none
 

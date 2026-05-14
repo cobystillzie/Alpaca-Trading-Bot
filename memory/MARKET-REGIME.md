@@ -5113,4 +5113,28 @@ The US equity market is grinding to record highs, but the underlying conditions 
   ]
 }
 ```
+## Market Regime Research - 2026-05-14 07:25:16 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities show resilience with S&P 500 hitting record highs driven by AI enthusiasm, strong earnings, and tech leadership, but mounting risks from geopolitical tensions (Iran conflict), spiking oil ($102/bbl), persistent inflation (CPI +3.8%), and rising Treasury yields (10yr 4.483%) signal a shift toward caution. Leadership narrowing to tech/industrials amid underperformance in energy/utilities; VIX low at 17.4 but macro risks elevated.",
+  "market_regime": "late-cycle risk-on with stagflationary pressures; narrow leadership (tech/AI) amid high valuations and inflation/tension risks",
+  "sector_rotation": "Tech, Communications, Industrials, Materials leading; Energy underperforming sharply; Utilities/Financials lagging despite positive returns; Real Estate subdued (historic low sales); AI infrastructure/transport (power, rail, cooling) gaining traction",
+  "risk_flags": [
+    "Geopolitical: Iran conflict driving oil to $102 WTI, gasoline >$5/gal",
+    "Inflation: CPI +3.8%, breakeven yields stable but Fed hike odds 35.6%",
+    "Rates: 10yr Treasury 4.483% (+4.4bps), mortgage rates 6.37-6.46%",
+    "Volatility: VIX 17.4 (low but leadership narrowing)",
+    "Labor softening: JOLTS 4.1%, jobless claims 200k (rising)",
+    "Fed: No cuts expected, potential hikes repriced"
+  ],
+  "source_urls": [
+    "https://themortgagereports.com/mortgage-rates-now/mortgage-rates-today-may-13-2026",
+    "https://www.dws.com/en-us/capabilities/alternatives/liquid-real-assets/lra-market-update/earning-update/",
+    "https://www.bankrate.com/mortgages/analysis/mortgage-rates-may-13-2026/",
+    "https://www.fidelity.com/learning-center/trading-investing/five-investing-ideas",
+    "https://www.investing.com/analysis/gbpusd-rate-path-looks-heavier-as-us-inflation-reprices-the-fed-200680252"
+  ]
+}
+```
 

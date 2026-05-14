@@ -857,4 +857,9 @@ Candidates found: 3
 US equities resilient amid 'US exceptionalism' with S&P targets at 8,000-8,300 despite hot PPI reinforcing Fed hawkishness and fading rate cuts; tech/semiconductors lead but stretched valuations and high single-stock IV signal risks; search highlights China 6th-gen fighter advancements pressuring US defense/aerospace but no fresh catalysts; gold ETFs like GLD retain momentum from India duty hike; AI infra themes (power/cooling) persistent but repeats penalized.
 
 Candidates found: 3
+## Two-Hour Research Agent - 2026-05-14 07:25:16 Eastern Daylight Time
+
+Mixed signals with S&P resilience amid AI/tech leadership, but stagflation risks (CPI +3.8%, oil $102, 10yr 4.483%) and geopolitical tensions (Iran, China 6th-gen fighter claims) pressure defensives/commodities; narrow breadth favors quality industrials/transport over hype. Coinbase shows strong Q1 growth (revenue +46%, net income +106%) but crypto volatility caps appeal.
+
+Candidates found: 3
 

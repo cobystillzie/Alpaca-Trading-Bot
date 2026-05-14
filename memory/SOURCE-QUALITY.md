@@ -10280,4 +10280,115 @@ SEC/company quality check:
   "source_urls": []
 }
 ```
+## Source And Signal Research - 2026-05-14 07:25:16 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks/ETFs. No evidence of hype, pump language, or unsupported claims detected in public web/social coverage.",
+  "social_buzz": "weak",
+  "attention_anomalies": "none",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Search results contain primarily corporate earnings (Copa Holdings Q1 2026), fund portfolio updates (13F filings), and legislative activity (TRUST Act, DOMINANCE Act, E15 fuel access). No direct congressional stock trades or securities transactions detected in disclosed materials. Congressional fundraising disclosures (FEC Q1 2026) show cash-on-hand and fundraising totals for individual representatives but no personal securities holdings or trades.",
+  "congressional_signal": {
+    "weight": "low",
+    "rationale": "FEC disclosures reflect campaign finance activity only (fundraising, cash on hand, spending). No STOCK Act reportable trades or securities transactions identified. Legislative activity (TRUST Act for community banks, DOMINANCE Act for energy security, E15 fuel access) represents policy catalysts, not direct congressional holdings. Treat as secondary, delayed context only.",
+    "relevant_bills": [
+      {
+        "bill": "H.R. 4478 (TRUST Act)",
+        "sponsor": "Tim Moore (R-NC)",
+        "status": "House passed (voice vote)",
+        "sector_exposure": "Financials (community banks, asset limit raised $3B→$6B)",
+        "fec_disclosure": "$182.0K fundraising Q1 2026"
+      },
+      {
+        "bill": "DOMINANCE Act",
+        "sponsors": "Ami Bera (D-CA), Young Kim (R-CA)",
+        "status": "House Foreign Affairs Committee passed (unanimous)",
+        "sector_exposure": "Energy, critical minerals, supply chain",
+        "fec_disclosure": "$147.0K fundraising Q1 2026, $1.9M cash on hand"
+      },
+      {
+        "bill": "E15 fuel access (year-round)",
+        "sponsor": "Ashley Hinson (R-IA)",
+        "status": "House passed",
+        "sector_exposure": "Energy, agriculture, ethanol",
+        "fec_disclosure": "$1.8M fundraising Q1 2026 (33rd highest), $6.5M cash on hand"
+      }
+    ]
+  },
+  "tickers": [
+    {
+      "symbol": "CPA",
+      "company": "Copa Holdings, S.A.",
+      "catalyst": "Q1 2026 earnings: $212.5M net profit (+20.5% YoY EPS), 24.6% operating margin, 40 Boeing 737 MAX aircraft order, $1.71/share dividend",
+      "hedge_fund_activity": "Capital Research Global Investors +1.03M shares (+$117.2M); Capital World Investors -890k shares (-$101.1M); mixed institutional sentiment",
+      "analyst_targets": "Median $165.0 (range $138–$185); Goldman Sachs $138, UBS $185, Barclays $165"
+    },
+    {
+      "symbol": "FITB",
+      "company": "Fifth Third Bancorp",
+      "catalyst": "NewEdge Wealth 13F: +1.3M shares (+5269% increase, ~$60.5M position); community bank regulatory relief (TRUST Act context)",
+      "note": "TRUST Act raises asset threshold for lighter regulation; potential tailwind for mid-size regional banks"
+    },
+    {
+      "symbol": "MSFT",
+      "company": "Microsoft",
+      "catalyst": "Public Sector Pension Investment Board 13F: +696.7k shares (+20% increase, ~$254.2M position)"
+    },
+    {
+      "symbol": "AAPL",
+      "company": "Apple",
+      "catalyst": "Public Sector Pension Investment Board 13F: +776.6k shares (+20% increase, ~$194.4M position)"
+    }
+  ],
+  "source_urls": [
+    "https://www.quiverquant.com/news/Copa+Holdings+Reports+Strong+Q1+2026+Financial+Results+with+Increased+Net+Profit+and+Capacity+Growth",
+    "https://www.quiverquant.com/news/Press+Release:+U.S.+House+Passes+Tim+Moore's+TRUST+Act+to+Update+Community+Bank+Regulations",
+    "https://www.quiverquant.com/news/Press+Release:+House+Foreign+Affairs+Committee+Advances+DOMINANCE+Act+for+U.S.+Energy+Security,+Supported+by+Reps.+Bera+and+Kim",
+    "https://www.quiverquant.com/news/Press+Release:+Congresswoman+Ashley+Hinson+Announces+House+Passage+of+Nationwide+E15+Access+Legislation",
+    "https://www.quiverquant.com/news/Fund+Update:+NewEdge+Wealth,+LLC+Just+Disclosed+New+Holdings",
+    "https://www.quiverquant.com/news/Fund+Update:+PUBLIC+SECTOR+PENSION+INVESTMENT+BOARD+Just+Disclosed+New+Holdings"
+  ],
+  "disclaimer": "Congressional disclosures are delayed, low-weight context. No direct STOCK Act trades detected. FEC filings reflect campaign finance only. Legislative activity represents policy catalysts, not securities holdings. 13F fund disclosures are institutional, not congressional. Do not use as primary trade signal."
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "Direct Digital Holdings (DRCT) operates a programmatic advertising platform (Colossus SSP) with sell-side and buy-side services, emphasizing IVT mitigation, high client retention (90%), and multicultural audiences. 2025 revenue $34.7M (down sharply from $157.1M in 2023 due to a major sell-side customer pause from defamatory allegations/misinformation campaign), gross profit $10.4M, cash $0.7M, accumulated deficit $27.7M. Substantial going concern doubt; strategic shift to buy-side enterprise; experienced team but high risks from customer concentration, debt covenants, Nasdaq delisting threat. Inuvo (INUV) focuses on AI-driven IntentKey for ad targeting (privacy-by-design, 18 patents), Platforms/Agencies segments; revenue growth 2.9% to ~$25-30M est., but operating loss $5.1M, cash $2.8M, net working capital deficit $5.1M, 83.5% revenue from 2 customers. Bridgford (BRID) stable snack/frozen foods processor (75% snacks), FY2025 sales mix steady, Wal-Mart/Dollar General ~48% revenue; no major red flags but food industry risks (inflation, contamination).",
+  "filing_risks": {
+    "DRCT": [
+      "Substantial going concern doubt (cash $0.7M insufficient for 12 months; accumulated deficit $27.7M; reliant on cost cuts, partner recovery, new funding)",
+      "High customer concentration (one sell-side customer paused Q2 2024 causing 2024-2025 revenue/gross profit collapse; not yet recovered pre-pause volumes)",
+      "Debt covenants/restrictions (credit facilities require $450k min cash; default risk could accelerate debt, force bankruptcy)",
+      "Nasdaq delisting risk (failure to meet listing standards)",
+      "Revenue quality issues (defamatory article/misinformation campaign impacted major customer; strategic buy-side shift unproven)",
+      "Dilution risk (potential equity/debt raises; new securities senior/dilutive)",
+      "Balance sheet weak (reorganization July 2024; ongoing funding needs)"
+    ],
+    "INUV": [
+      "Customer concentration extreme (2 customers 83.5% revenue in 2025; 75%+ from one in 2024; loss would materially harm)",
+      "History of losses/negative working capital ($5.1M deficit; accumulated deficit $178.3M; negative operating cash flows)",
+      "Revenue quality dependent on key platforms (Yahoo/Google multi-year contracts; ad supplier dependence)",
+      "Liquidity strain (cash $2.8M; reliant on receivables-based credit facility)",
+      "Seasonality (H2 stronger; Q1 weakest)",
+      "Dilution risk (outstanding RSUs/warrants)"
+    ],
+    "BRID": [
+      "Customer concentration (Wal-Mart 33.5% FY2025 revenue, Dollar General 14.2%; ~48% combined)",
+      "Food industry risks (product contamination/recalls, evolving preferences, pathogens like listeria/E.coli; inflation/discretionary spending cuts)",
+      "Commodity/labor cost volatility (pork/beef/flour; 44% unionized workforce with CBAs expiring 2025-2028)",
+      "No litigation noted but general product liability exposure"
+    ]
+  },
+  "quality_notes": "DRCT shows deteriorating fundamentals (revenue/gross profit halved+ YoY from customer pause; going concern + delisting risks dominate; advertising fraud/IVT/platform issues add execution risk; no durable demand evidence amid misinformation hit). INUV has innovative AI/IP moat (IntentKey, 21 patents) but brittle revenue (83% from 2 customers, history of losses/cash burn); Platforms segment low-risk/scalable but Agencies growth unproven. BRID stable (snack shift to private label on inflation; no going concern; balanced segments) with durable food demand but cyclical/concentration risks. No strong durable-demand signals for watchlist; DRCT/INUV balance-sheet/revenue concentration warrant avoidance.",
+  "source_urls": []
+}
 
