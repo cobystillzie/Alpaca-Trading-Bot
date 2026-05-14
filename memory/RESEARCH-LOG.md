@@ -867,4 +867,12 @@ Candidates found: 3
 US equities resilient near records amid tech/semiconductor rebound, but hot CPI/PPI inflation (3.8%/6% YoY) raises Fed hike odds to 35.6%, strengthening USD and yields; gold/commodities hedge appeal rising on policy catalysts like India's duty hike; AI infra/defensives watch amid rotation risks.
 
 Candidates found: 4
+## Premarket Plan - 2026-05-14 08:18:32 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- GLD: score=83, base=100, chittick=78, approved=True, allocation=6.0%, stop=4.0%
+- UNP: score=70, base=100, chittick=35, approved=True, allocation=5.0%, stop=8.0%
+- LMT: score=86, base=95, chittick=82, approved=True, allocation=6.0%, stop=6.0%
+- PDFS: score=86, base=100, chittick=70, approved=True, allocation=5.0%, stop=8.0%
 
