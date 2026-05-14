@@ -12375,4 +12375,37 @@ Model notes: none
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: https://simplywall.st/stocks/us/capital-goods/nyse-fps/forgent-power-solutions/news/if-ai-infrastructure-is-the-theme-these-three-stocks-matter
+## Research Update - 2026-05-13 20:55:03 Eastern Daylight Time
+
+Research Update
+
+Market tone: Macro and cross-asset signals lean slightly risk-off: rates remain elevated, S&P 500 technicals have weakened despite high index levels, and equity leadership is concentrated in AI/megacap tech. Short-term swings are being driven by options flows and macro headlines, so tight risk management and modest position sizes are appropriate for 1–10 day paper trades.
+Candidates: 3
+
+1. GLD (etf-commodities-gold) | confidence 0.82 | allocation 6.0% | stop 4.0% | Chittick 75/100 | tier execution-ready | bucket etf-commodities | HF source 1/100
+Recommendation: execute-if-guards-pass
+Catalyst: India’s government raised import duties on gold and silver to about 15% from roughly 6% via a May 13 order, triggering a 4–7% jump in domestic gold ETFs and futures; this reflects a sudden regulatory shock affecting one of the world’s la...
+Chittick Cash: There is no traditional margin of safety because GLD represents a non-cash-flowing asset; however, from a portfolio perspective, gold’s historical negative or low correlation to risk assets provides a ‘safety’ functio...
+HF filter: sentiment=not run source=1/100 hype=0.20 vetoes=0
+Self-learning: tier=execution-ready repeat48h=2 fresh=yes bucket=etf-commodities
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. FPS (industrials-electrical-equipment) | confidence 0.75 | allocation 6.0% | stop 8.0% | Chittick 72/100 | tier watch | bucket ai-infrastructure-power | HF source 1/100
+Recommendation: watch
+Catalyst: Simply Wall St and related institutional notes in May 2026 identified FPS as a top AI-infrastructure power name, citing strong order growth tied to AI data centers, recent capital raising, and favorable valuation metrics compared with pe...
+Chittick Cash: FPS appears to trade at a discount to intrinsic value estimates based on AI-infrastructure growth, but those estimates are sensitive to capex cycles. The recent equity raise improves financial resilience, modestly imp...
+HF filter: sentiment=not run source=1/100 hype=0.35 vetoes=0
+Self-learning: tier=watch repeat48h=3 fresh=yes bucket=ai-infrastructure-power
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. UNP (industrials-rail-transport) | confidence 0.75 | allocation 6.0% | stop 8.0% | Chittick 75/100 | tier watch | bucket industrials-transport | HF source 1/100
+Recommendation: watch
+Catalyst: Industry data show that Q1 2026 grain transport volumes on UNP’s network exceeded the prior 2008 peak, driven by strong export demand to Mexico and other overseas markets. This volume tailwind, combined with potential benefits from the S...
+Chittick Cash: UNP is rarely ‘cheap’ in absolute terms, but pullbacks often provide reasonable entry points given its durable franchise. The current fundamental support from record grain volumes enhances downside protection relative...
+HF filter: sentiment=not run source=1/100 hype=0.15 vetoes=0
+Self-learning: tier=watch repeat48h=6 fresh=yes bucket=industrials-transport
+Social buzz, low weight: none
+Congress signal, low weight: none
 

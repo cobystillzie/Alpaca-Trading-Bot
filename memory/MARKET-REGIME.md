@@ -4600,4 +4600,188 @@ The US equity market is grinding to record highs, but the underlying conditions 
   }
 }
 ```
+## Market Regime Research - 2026-05-13 20:55:03 Eastern Daylight Time
+
+{
+  "summary": {
+    "tone": "Mixed-to-cautious risk-on: major US indices remain near highs and AI/tech leadership is intact, but yields and inflation are re-accelerating, volatility is perking up from low levels, and several technical and macro indicators are flashing warning signs. A cautious, late-cycle, rate-sensitive environment.",
+    "key_drivers": [
+      "Equities near record levels with continued AI/tech leadership and positive long-term sell-side targets (e.g., S&P 500 target hikes into 2026).",
+      "Re-heating inflation data (PPI/CPI) and oil above $100, pushing long rates and global bond yields higher and reviving rate-hike fears.",
+      "Multiple research/technical shops flagging trend deterioration and potential S&P 500 downside despite the recent resilience.",
+      "Volatility indices (VIX) rising off lows and intraday swings in Nasdaq 100 highlighting fragility beneath headline indices.",
+      "Ongoing sector and asset rotation toward income and hybrids (preferreds, selective income ETFs) as yields reprice.",
+      "Geopolitical and macro overhangs (Middle East conflict, Iran/Hormuz risk, Fed leadership transition) adding event risk."
+    ]
+  },
+  "market_regime": {
+    "index_trend": {
+      "state": "Uptrend but wobbling / late-cycle",
+      "evidence": [
+        "US large-cap benchmarks are still close to record highs and the Nasdaq 100 just staged a sharp intraday rebound after its worst selloff since March, closing strong even as the S&P 500 slipped slightly. This reflects persistent dip-buying and underlying bullish appetite for growth and AI-linked names.",
+        "A Wall Street research firm (via Markets Insider) notes that a cluster of trend indicators on the S&P 500 has shifted toward ‘sell’ or is close to bearish territory, indicating a weakening uptrend even as price remains elevated.",
+        "Morgan Stanley’s raised S&P 500 year-end 2026 target to 8,000 signals that major sell-side houses still frame this as a long-term bull market, especially around AI and productivity themes, despite near-term technical fatigue."
+      ],
+      "interpretation_for_bot": "Treat the tape as an aging bull market: price is still in or near an uptrend regime, but breadth and trend quality are deteriorating. For a cautious paper-trading workflow this argues for emphasizing risk controls, shorter lookback confirmation on breakouts, and being skeptical of buying into overextended strength without clear confirmation."
+    },
+    "rates_and_fed": {
+      "state": "Rising yields / hawkish drift",
+      "evidence": [
+        "US Producer Price Index (PPI) data came in hotter than expected (‘red hot inflation at the wholesale level’ per StoneX), with commentators noting PPI/CPI as “all bad news,” reinforcing inflation concerns.",
+        "Oil (Brent) around or above $100 is widely cited as a key driver of renewed inflation pressure and a major contributor to the bad PPI print.",
+        "US Treasury yields are pushing higher: commentary notes yields ‘starting to break out’, with the 10-year flirting with prior highs and breakeven inflation expectations ‘rocketing up.’ Some Fed officials (e.g., Susan Collins) are now publicly entertaining the possibility of rate hikes rather than cuts.",
+        "Global rates are also moving up: Japan’s 10-year yield has reached ~2.6%, the highest in ~29 years, highlighting a global repricing of long-term rates.",
+        "Long-duration US Treasuries (e.g., TLT) face persistent pressure and bearish sentiment as higher yields and inflation expectations weigh on bond prices; research notes a very low composite score and warns of structural challenges for that duration bucket."
+      ],
+      "interpretation_for_bot": "The rate environment is shifting back toward ‘higher-for-longer’ with non-trivial hike risk. For a cautious paper-trading bot, this favors modeling a regime where long-duration assets (growth stocks, long bonds, REITs) face valuation headwinds, financial conditions are slowly tightening, and macro shocks from rates are more common."
+    },
+    "volatility": {
+      "state": "Rising from low levels / under-the-surface choppiness",
+      "evidence": [
+        "The VIX recently spiked to around 19 before closing lower, indicating volatility has moved up from ultra-complacent levels but is not yet in crisis territory.",
+        "The Nasdaq 100 experienced its sharpest selloff since March before rebounding 1.5% intraday and closing strong, reflecting intraday whipsaws and options-driven moves.",
+        "Commentary from multiple sources notes that volatility is ‘quietly building beneath the surface’ even as headline indices remain relatively stable.",
+        "Options activity is described as showing ‘strong betting direction’ particularly around instruments like TLT, suggesting more aggressive positioning and potential for rapid swings when consensus shifts."
+      ],
+      "interpretation_for_bot": "Regime is transitioning from low-vol melt-up toward a moderate-vol, event-driven environment. For paper trading, assume fatter intraday tails, more fake breakouts/breakdowns, and a higher value on volatility-aware position sizing and entry timing filters."
+    },
+    "earnings_and_fundamentals": {
+      "state": "Solid but concentrated; AI and tech dominate",
+      "evidence": [
+        "Tech remains the clear earnings engine: recent data show it posting the fastest earnings and revenue growth among S&P 500 sectors, with expanding profit margins despite heavy AI investment.",
+        "AI-linked mega caps (semis, cloud software, infrastructure plays) continue to dominate growth expectations and narrative, with upcoming earnings (e.g., NVDA) treated as key macro-style events.",
+        "Broader earnings tone is constructive but less spectacular outside the AI complex; some cyclical areas show mixed performance, consistent with a maturing cycle."
+      ],
+      "interpretation_for_bot": "Fundamentals remain supportive, but leadership is narrow and valuation-rich. In a cautious regime, that implies higher impact from idiosyncratic events (earnings surprises, regulation, AI-capex shifts) on index-level behavior and greater sensitivity to disappointment in a handful of leaders."
+    },
+    "risk_on_off_profile": {
+      "state": "Risk-on with growing defensive undercurrent",
+      "evidence": [
+        "Indexes near highs, strong dip-buying in growth/tech, and raised S&P 500 targets reflect a still-risk-on strategic posture among many investors.",
+        "At the same time, inflows and interest in income and hybrid instruments (preferreds, dividend ETFs, convertible bonds, short-duration Treasuries) are rising as yields climb and investors seek cushion against volatility.",
+        "Analyst notes describe a ‘cautious outlook’ among investors despite Nasdaq resilience, with clear warnings around TLT, long-duration risk, and the potential for more equity downside.",
+        "Geopolitical risks (Middle East conflict, Iran/Strait of Hormuz tensions) plus Fed leadership transition headlines are increasing the perceived risk of tail events."
+      ],
+      "interpretation_for_bot": "The environment is not outright risk-off, but risk-taking is more tactical and selective, with a noticeable shift toward quality, income, and shorter duration exposures. For a cautious paper-trading workflow, model this as a fragile risk-on regime where risk-off episodes can appear quickly on macro or policy headlines."
+    }
+  },
+  "sector_rotation": {
+    "leadership": {
+      "sectors_in_favor": [
+        {
+          "sector": "Information Technology (especially AI/semiconductors, cloud, infrastructure hardware)",
+          "rationale": "Tech shows the fastest earnings and revenue growth and rising margins, with AI as the core structural theme. Market commentary repeatedly notes AI as the center of Wall Street optimism and a key driver of the S&P 500’s long-term upside cases."
+        },
+        {
+          "sector": "Communication Services / Mega-cap platforms (indirect)",
+          "rationale": "While not directly detailed in the snippets, large communication-services platforms are typically grouped with AI beneficiaries and often move with the tech/AI complex; they remain part of the broader ‘growth leadership’ basket."
+        },
+        {
+          "sector": "Select Industrials tied to AI infrastructure and logistics",
+          "rationale": "Industrial names linked to power, cooling, and manufacturing for AI data centers, and transportation/logistics with strong volume trends, are highlighted as structural beneficiaries of AI and global trade flows."
+        }
+      ],
+      "sectors_out_of_favor_or_stressed": [
+        {
+          "sector": "Long-duration fixed income (long Treasuries, long-duration bond ETFs like TLT)",
+          "rationale": "Rising long-term yields, higher inflation, and a very low composite score for TLT signal structural headwinds and bearish sentiment toward long-duration government bonds."
+        },
+        {
+          "sector": "Rate-sensitive assets broadly (some REITs, utilities, long-duration ‘bond proxy’ equities)",
+          "rationale": "The shift toward potential rate hikes and rising global yields generally compresses valuation multiples for rate-sensitive sectors, even if they are not specifically mentioned; this is a standard macro linkage to model."
+        }
+      ]
+    },
+    "income_and_defensive_rotation": {
+      "themes": [
+        {
+          "theme": "Preferred securities and hybrids",
+          "details": "Preferred yields have risen more than corporate bond and long-term Treasury yields, with averages climbing from ~5.3% to ~6.6–7.1% over recent months, increasing their income advantage over investment-grade corporates. Analysts express a more favorable view on preferreds relative to other fixed income, while stressing their higher interest-rate and volatility risk.",
+          "implication": "Investors are rotating into higher-yielding, moderately riskier income instruments as compensation for elevated macro uncertainty, rather than hiding only in ultra-safe short-term Treasuries."
+        },
+        {
+          "theme": "Short-duration cash-like ETFs and core bond diversifiers",
+          "details": "Income-focused commentary highlights Treasury bill ETFs and intermediate bond ETFs with moderate duration as tools for parking cash and adding ballast with constrained rate risk.",
+          "implication": "There is ongoing demand for liquidity and short-duration safety alongside risk assets, indicating a barbell appetite: growth/AI on one side, cash and near-cash income on the other."
+        },
+        {
+          "theme": "Dividend and value-tilted equity strategies",
+          "details": "Dividend/value ETFs and high-quality income-focused equity strategies are getting attention as part of income-investing discussions, leveraging higher yields and somewhat lower duration than pure growth.",
+          "implication": "This supports a rotation pattern in which some capital is being reallocated from pure growth into quality-income equities as rates rise and volatility picks up."
+        }
+      ]
+    },
+    "interpretation_for_bot": {
+      "regime_style": "Narrow growth/AI leadership with a growing bid for quality and income.",
+      "rotation_behaviors_to_model": [
+        "Expect leadership persistence in megacap tech/AI, but with higher drawdown risk around macro data and Fed communications.",
+        "Anticipate episodic flows into defensives, income, and hybrids when yields spike or inflation data surprise to the upside.",
+        "Be cautious about long-duration bond proxies and instruments with high interest-rate sensitivity; price action can decouple from equity indices during rate spikes.",
+        "Recognize that sector dispersion is likely to remain elevated: index moves may understate the rotation and volatility happening at the sector and factor level."
+      ]
+    }
+  },
+  "risk_flags": {
+    "macro_and_policy": [
+      {
+        "risk": "Re-accelerating inflation and renewed rate-hike fears",
+        "details": "Hot PPI and elevated CPI prints, combined with oil above $100 and rising breakeven inflation expectations, have reversed earlier hopes for imminent Fed cuts. Public commentary from Fed officials is now openly entertaining the possibility of further hikes. This raises the risk of policy surprise and valuation compression, especially for long duration assets."
+      },
+      {
+        "risk": "Global rate shock and bond market stress",
+        "details": "The breakout in US yields and the rise in Japan’s 10-year yield to levels not seen in nearly three decades indicate a global repricing of term premiums. This can trigger cross-asset correlations, sudden de-risking, and pressure on carry trades, which may spill into equities in ways that simple index trend-following might not fully anticipate."
+      },
+      {
+        "risk": "Fed leadership transition and communication uncertainty",
+        "details": "Market commentary is focused on the implications of new Fed leadership and the associated shift in reaction functions and communication style. Transition periods can increase the risk of miscommunication, market misinterpretation of policy signals, and abrupt repricing in rates and risk assets."
+      }
+    ],
+    "market_structure_and_technical": [
+      {
+        "risk": "Deteriorating S&P 500 technicals despite high prices",
+        "details": "A cluster of trend indicators has turned bearish or near-bearish on the S&P 500 according to research cited by Markets Insider, even as index levels remain elevated. This divergence raises the likelihood that small negative catalysts could trigger outsized downside moves, as positioning is still optimistic while underlying momentum wanes."
+      },
+      {
+        "risk": "Concentration risk in AI and megacap tech",
+        "details": "Market performance and forward expectations are heavily concentrated in a relatively small set of AI and megacap tech names. Disappointment in earnings, AI capex trends, or regulatory developments affecting these firms could have an amplified impact on indices and sentiment."
+      },
+      {
+        "risk": "Options-driven and intraday volatility",
+        "details": "The Nasdaq 100’s severe intraday selloff followed by a sharp rebound, along with strong directional options activity, suggests that dealer positioning and options flows are significant drivers of short-term price action. This may increase the frequency of sharp intraday reversals and false technical signals."
+      }
+    ],
+    "geopolitical_and_event": [
+      {
+        "risk": "Middle East conflict and energy supply shocks",
+        "details": "Conflict in the Middle East and specific Iran/Strait of Hormuz tensions are explicitly linked to oil above $100 and elevated inflation concerns. Any escalation could drive further spikes in energy prices and risk-off moves in global assets, as well as renewed volatility in commodities and related equities."
+      },
+      {
+        "risk": "Cross-asset contagion from long-duration instruments",
+        "details": "Severe negative sentiment and poor scores on long-duration Treasury ETFs (e.g., TLT) alongside rising yields highlight the risk that further bond drawdowns could trigger portfolio rebalancing and de-risking in equities or credit, especially among leveraged or risk-parity strategies."
+      }
+    ],
+    "workflow_considerations_for_a_cautious_paper_trading_bot": [
+      "Assume a late-cycle environment with rising macro headline risk: prioritize scenario testing around inflation, rate shocks, and AI-leadership drawdowns.",
+      "Use volatility-adjusted position sizing and be conservative on leverage (if modeled) given the uptick in intraday swings and the potential for gap moves around data releases.",
+      "Integrate calendar-awareness of key macro releases (CPI, PPI, FOMC, major AI-leader earnings) and treat these as periods of elevated slippage and signal unreliability.",
+      "Model regime switches more frequently than in a low-vol melt-up: allow for faster downshifts in risk exposure when volatility or rate-shock indicators trigger.",
+      "Given the heavy role of AI/tech in index behavior, incorporate factor or sector overlays rather than relying solely on index-level signals."
+    ]
+  },
+  "source_urls": [
+    "https://markets.businessinsider.com",
+    "https://www.gurufocus.com/news/8855477/market-resilience-amid-nasdaq-volatility-insights-on-tlt-and-vix",
+    "https://www.mexc.co/news/1087299",
+    "https://www.schwab.com/learn/story/preferreds-might-offer-value-amid-volatility",
+    "https://www.stonex.com/en/insights/perspective-morning-commentary-for-may-13-2026-05-13/",
+    "https://www.fidelity.com/learning-center/trading-investing/five-investing-ideas",
+    "https://www.capitalstreetfx.com/market-analysis/daily-market-analysis-morning-session-13-may-2026-05-13",
+    "https://www.youtube.com/watch?v=vMLyZ9wZbH8",
+    "https://www.youtube.com/watch?v=1rbPmRvm67k",
+    "https://www.youtube.com/watch?v=CznapfLByeg",
+    "https://www.youtube.com/watch?v=aYSLMgBRyWs",
+    "https://www.morningstar.com/funds/3-etfs-diversify-your-portfolio-2026-2",
+    "https://www.mexc.co/news/1087299"
+  ]
+}
 
