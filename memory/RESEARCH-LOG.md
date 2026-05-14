@@ -888,4 +888,9 @@ Premarket plan built from latest watchlist.
 US equities near all-time highs amid fragile rally with hawkish Fed signals, oil-driven inflation, and geopolitical risks; gold/commodities and defense themes resilient as hedges; crypto shows strength but volatile.
 
 Candidates found: 3
+## Two-Hour Research Agent - 2026-05-14 10:50:56 Eastern Daylight Time
+
+US equities at record highs amid tech momentum and US-China talks, but hot CPI/PPI (3.8% y/y, sticky core) reprices Fed hawkishly with rate hike odds ~28%; gold resilient on India duty hike, crypto shows blowout Q1 numbers for COIN, defense chatter on China J-X persists but lacks official confirmation.
+
+Candidates found: 3
 

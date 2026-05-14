@@ -10490,4 +10490,67 @@ SEC/company quality check:
   "quality_notes": "PECO: High revenue quality (FFO growth, 97% occupancy), durable demand (grocery-anchored essentials). SES/NEOV/FLUX: Low quality (losses, capex heavy, China supply risks, unproven markets). WS/BRID: Cyclical but stable; watch concentration. No GOOGL/INTC/USAR/GT. Prioritize PECO for watchlist (resilient cash flows, downside protection).",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-14 10:50:56 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks or ETFs. Social attention remains quiet with no detected anomalies.",
+  "social_buzz": "weak",
+  "attention_anomalies": "none",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "No recent congressional disclosures of trades in liquid US stocks or ETFs identified in search results. Mentions of past congressional activity in $DT (1 sale), $AZN (3 purchases) are delayed (Q1 2026 period) and low-weight.",
+  "congressional_signal": "none",
+  "tickers": [],
+  "source_urls": [
+    "https://www.quiverquant.com/news/Fund+Update:+New+$29.6M+$DT+stock+position+opened+by+PUBLIC+SECTOR+PENSION+INVESTMENT+BOARD",
+    "https://www.quiverquant.com/news/Fund+Update:+New+$411.6M+$AZN+stock+position+opened+by+PUBLIC+SECTOR+PENSION+INVESTMENT+BOARD"
+  ]
+}
+```
+
+SEC/company quality check:
+{
+  "summary": "SEC filings from Apogee Therapeutics (APGE 10-Q Q1 2026), Humacyte (HUMA 10-K FY2025), WillScot (WSC 10-K FY2025), Regal Rexnord (RRX 10-K FY2025), Clearside Biomedical (CLSD 10-Q Q2 2025), and others. APGE reports $74M Q1 net loss (up 34% YoY), heavy R&D burn ($52M external costs), $377M equity raise; clinical progress in AD/asthma but pre-revenue biotech. HUMA highlights Symvess approval, strong trial data vs. synthetic grafts, but Phase 3 patency misses in dialysis. WSC/ RRX standard industrials filings. CLSD explores strategic alternatives (sale/merger/bankruptcy risk), workforce cut, Nasdaq delisting risk. No durable demand signals; high clinical/regulatory risks.",
+  "filing_risks": {
+    "APGE": [
+      "Balance-sheet: $635M accumulated deficit; $74M Q1 loss ($55M 2025); $407M net cash raise Q1 but $52M R&D burn (zumilokibart $20M), equity comp $17M (23% of opex).",
+      "Revenue quality: Pre-revenue clinical biotech; no product sales, reliant on future milestones/approvals (Phase 3 AD H2 2026).",
+      "Dilution: March 2026 offering 5.75M shares at $70 ($377M net); ATM $30M Q1; high equity comp.",
+      "Concentration: Single segment/reporting unit; 80%+ opex R&D personnel/external (zumilokibart 37%).",
+      "Capital allocation: $51M external R&D (up 50% YoY); lease liabilities $8M.",
+      "Litigation: None noted.",
+      "Valuation: Burning $200M+ annually toward 2029 AD launch; macro risks (inflation, trials)."
+    ],
+    "HUMA": [
+      "Clinical/regulatory: V006 Phase 3 missed secondary patency (67% vs ePTFE 74% at 24mo); infections low but pseudoaneurysm/rupture SAEs.",
+      "Concentration: Symvess trauma approved; dialysis BLA pending despite patency miss.",
+      "Revenue quality: Post-approval but early commercial; Ukraine/V005 data strong vs benchmarks (91% secondary patency, 0.9% infection).",
+      "Capital allocation: Diversifying to AV access (women/obese/diabetic targets)."
+    ],
+    "CLSD": [
+      "Going concern: Substantial doubt; exploring sale/merger/bankruptcy/wind-down; paused R&D, full workforce to consultants ($2.6M severance Q3).",
+      "Balance-sheet: $368M deficit; Nasdaq delisting risk (bid < $1; reverse split proposed).",
+      "Revenue quality: License revenue only (Bausch/Arctic/BioCryst); royalties sold.",
+      "Dilution: High potential common equivalents excluded (25M shares).",
+      "Litigation: Related-party director overlaps (BioCryst/Aura)."
+    ],
+    "WSC": [
+      "General: Modular space/storage; risks include credit/collection, cybersecurity, tariffs, debt covenants, impairments."
+    ],
+    "RRX": [
+      "Balance-sheet: High debt post-Altra ($5.1B); Industrial Systems divestiture $444M.",
+      "Macro: Tariffs, supply disruptions, impairments.",
+      "Capital allocation: M&A synergies targeted."
+    ]
+  },
+  "quality_notes": "APGE: High-quality 10-Q detail; durable pipeline demand (AD EASI-75 67%, 52wk maintenance 75-85%; asthma FeNO 60% drop) but pre-revenue burn erodes runway. HUMA: Strong trauma data (91% patency vs 79% synthetic) supports durable medtech demand; dialysis mixed. CLSD: Distressed (strategic review, delisting); no durable demand. WSC/RRX: Cyclical industrials, no standout quality. No Chittick focus names (GOOGL/INTC/USAR/GT absent). Watchlist lacks durable evidence vs memory (GLD/UNP/LMT/COIN/PDFS stronger catalysts).",
+  "source_urls": []
+}
 

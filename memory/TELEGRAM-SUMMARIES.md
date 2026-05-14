@@ -12931,4 +12931,37 @@ HF filter: sentiment=not run source=6/100 hype=0.30 vetoes=0
 Self-learning: tier=watch repeat48h=3 fresh=yes bucket=industrials-defense
 Social buzz, low weight: low-weight attention on China fighter posts
 Congress signal, low weight: none
+## Research Update - 2026-05-14 10:50:56 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities at record highs amid tech momentum and US-China talks, but hot CPI/PPI (3.8% y/y, sticky core) reprices Fed hawkishly with rate hike odds ~28%; gold resilient on India duty hike, crypto shows blowout Q1 numbers for COIN, defense chatter on China J-X persists but lacks official confirmation.
+Candidates: 3
+
+1. COIN (financials-crypto-exchange) | confidence 0.72 | allocation 5.0% | stop 8.0% | Chittick 68/100 | tier watch | bucket financials-crypto | HF source 8/100
+Recommendation: watch
+Catalyst: Q1 2026: Revenue $7.672B (+46% YoY), net income $3.217B (+106% YoY); spot trading volume and margin expansion per aktien.guide data.
+Chittick Cash: Strong balance sheet implied by profitability surge; trading at growth multiple but volatile.
+HF filter: sentiment=not run source=8/100 hype=0.30 vetoes=0
+Self-learning: tier=watch repeat48h=2 fresh=yes bucket=financials-crypto
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. GLD (etf-commodities-gold) | confidence 0.84 | allocation 6.0% | stop 4.0% | Chittick 78/100 | tier execution-ready | bucket etf-commodities | HF source 9/100
+Recommendation: execute-if-guards-pass
+Catalyst: India govt hiked gold/silver import duties to 15% from 6% (May 13 order); triggered 4-7% surge in domestic ETFs/futures.
+Chittick Cash: Physical gold downside protected.
+HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=8 fresh=yes bucket=etf-commodities
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. LMT (industrials-aerospace-defense) | confidence 0.70 | allocation 6.0% | stop 6.0% | Chittick 82/100 | tier watch | bucket industrials-defense | HF source 6/100
+Recommendation: watch
+Catalyst: China J-X 6th-gen fighter claims highlight US air gap (F-22 parts from China, production issues); NGAD/F-35 upside.
+Chittick Cash: Gov backlog cushions downside.
+HF filter: sentiment=not run source=6/100 hype=0.40 vetoes=0
+Self-learning: tier=watch repeat48h=4 fresh=yes bucket=industrials-defense
+Social buzz, low weight: low-weight blog chatter
+Congress signal, low weight: none
 

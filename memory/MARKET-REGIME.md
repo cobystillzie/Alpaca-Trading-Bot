@@ -5184,4 +5184,29 @@ The US equity market is grinding to record highs, but the underlying conditions 
   ]
 }
 ```
+## Market Regime Research - 2026-05-14 10:50:56 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities at record highs (S&P 500 ~7,472, Nasdaq ~26,495, Dow ~49,963) driven by Nvidia/chip rally amid US-China talks, but hot CPI/PPI data (3.8% y/y CPI, sticky core >3%) reprices Fed hawkishly; breakevens rising, rate hike odds ~28%; technical overbought warnings and 'ominous' S&P signals temper optimism in cautious paper-trading context.",
+  "market_regime": "risk-on euphoric_short_term_but_hawkish_repricing_risk; indices grinding ATHs on tech momentum, real rates negative amid inflation surge signaling potential regime shift to restrictive",
+  "sector_rotation": "technology_semiconductors_leading (Nvidia +3%, Cisco +14.7%, memory chips rebound); defensives/industrials on watch (geopolitics); gold/commodities resilient; broad rotation stalled by inflation overhang",
+  "risk_flags": [
+    "hot_inflation (CPI 3.8%, PPI upside surprise, core PCE sticky >3%)",
+    "fed_hawkish_shift (Collins flags hikes, Warsh influence, easing bias removal June, 28% rate hike odds)",
+    "technical_overbought (S&P stretched, Ned Davis 'sell' signals, Nasdaq exhaustion)",
+    "geopolitical (Iran conflict, US-China tensions, oil volatility)",
+    "volatility_low_but_rising (mixed signals, 'sell in May' seasonal)"
+  ],
+  "source_urls": [
+    "https://www.investing.com/analysis/gbpusd-rate-path-looks-heavier-as-us-inflation-reprices-the-fed-200680252",
+    "https://markets.businessinsider.com",
+    "https://realeconomy.rsmus.com/market-minute-a-new-inflation-regime-awaits-warsh/",
+    "https://www.youtube.com/watch?v=1-d5G-9qEZI",
+    "https://www.investing.com/analysis/sp-500-valuation-looks-stretched-as-inflation-reprices-ratecut-odds-200680243",
+    "https://virginiabusiness.com/boston-feds-collins-signals-possible-rate-hikes-inflation/",
+    "https://timesofindia.indiatimes.com/business/international-business/us-stock-market-today-may-14-2026-sp-500-nasdaq-hit-fresh-highs-as-nvidia-rallies-us-china-talks-in-focus/articleshow/131096262.cms"
+  ]
+}
+```
 
