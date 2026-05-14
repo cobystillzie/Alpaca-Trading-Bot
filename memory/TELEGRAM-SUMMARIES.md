@@ -12474,4 +12474,37 @@ HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
 Self-learning: tier=watch repeat48h=0 fresh=yes bucket=etf-bonds-fixed-income
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-14 05:24:01 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities resilient amid 'US exceptionalism' with S&P targets at 8,000-8,300 despite hot PPI reinforcing Fed hawkishness and fading rate cuts; tech/semiconductors lead but stretched valuations and high single-stock IV signal risks; search highlights China 6th-gen fighter advancements pressuring US defense/aerospace but no fresh catalysts; gold ETFs like GLD retain momentum from India duty hike; AI infra themes (power/cooling) persistent but repeats penalized.
+Candidates: 3
+
+1. GLD (etf-commodities-gold) | confidence 0.84 | allocation 6.0% | stop 4.0% | Chittick 75/100 | tier execution-ready | bucket etf-commodities | HF source 9/100
+Recommendation: execute-if-guards-pass
+Catalyst: India gold/silver import duty hiked to 15% from 6% (May 13 govt order); drove domestic ETFs +4-7%, futures +7.2%; repeat but fresh policy confirmation sustains momentum.
+Chittick Cash: Physical gold backing provides downside protection; trading at modest premium to NAV.
+HF filter: sentiment=not run source=9/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=4 fresh=yes bucket=etf-commodities
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. LMT (industrials-aerospace-defense) | confidence 0.70 | allocation 6.0% | stop 6.0% | Chittick 82/100 | tier watch | bucket industrials-defense | HF source 6/100
+Recommendation: watch
+Catalyst: China 6th-gen J-X fighter claims (elevon actuators, hypersonic, TVC) spotlight US air superiority gap; F-22 production restart challenges noted, potential NGAD/F-35 ramp catalyst.
+Chittick Cash: Backlog covers 2+ years revenue; undervalued vs growth.
+HF filter: sentiment=not run source=6/100 hype=0.30 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=industrials-defense
+Social buzz, low weight: low-weight China military discussion
+Congress signal, low weight: none
+
+3. UNP (industrials-rail-transport) | confidence 0.74 | allocation 5.0% | stop 8.0% | Chittick 35/100 | tier watch | bucket industrials-transport | HF source 7/100
+Recommendation: watch
+Catalyst: Q1 2026 grain transports exceed 2008 record on Mexico/overseas demand; operational momentum.
+Chittick Cash: Priced for 12-14x EPS; backlog protection.
+HF filter: sentiment=not run source=7/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=8 fresh=yes bucket=industrials-transport
+Social buzz, low weight: none
+Congress signal, low weight: none
 

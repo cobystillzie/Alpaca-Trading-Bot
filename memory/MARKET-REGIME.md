@@ -5088,4 +5088,29 @@ The US equity market is grinding to record highs, but the underlying conditions 
 **Market Regime:** Risk-on surface (equity rally, low VIX) masking risk-off fundamentals (50% recession risk, employment weakness, delayed rate cuts). **Divergence between USD strength and equity gains is unsustainable and likely to resolve sharply.**
 
 **Key Caution:** Extreme concentration in five mega-cap stocks driving index gains; valuation stretched; complacency in VIX pricing. Avoid chasing tech rallies. Favor diversified small-cap/AI-infrastructure exposure and commodity hedges (GLD). Maintain tight stops and elevated liquidity reserves.
+## Market Regime Research - 2026-05-14 05:24:01 Eastern Daylight Time
+
+```json
+{
+  "summary": "US equities exhibit resilient bullish momentum with S&P 500 targets raised to 8,000-8,300 by Morgan Stanley amid 'US exceptionalism' narrative. Hotter-than-expected PPI inflation reinforces Fed hawkishness (rate hike bets rising, Warsh as new chair), fading rate cut odds. Tech/semiconductors rebound leads gains, but valuations stretched, single-stock IV at historic highs vs low VIX signals volatility risk. Mixed session with Dow lagging, diversification to bonds/small-value/gold recommended.",
+  "market_regime": "bullish_trend_with_inflation_pressures",
+  "sector_rotation": "tech_semiconductors_outperforming > broad_equities > industrials; diversification_to_small_value_bonds_treasuries_gold",
+  "risk_flags": [
+    "stretched_S&P_valuations",
+    "hot_PPI_inflation",
+    "rising_rate_hike_bets",
+    "hawkish_Fed_Warsh",
+    "record_single_stock_IV_vs_low_VIX",
+    "geopolitical_tensions_Iran_China",
+    "stronger_USD_headwind"
+  ],
+  "source_urls": [
+    "https://www.investing.com/analysis/sp-500-valuation-looks-stretched-as-inflation-reprices-ratecut-odds-200680243",
+    "https://www.morningstar.com/funds/3-etfs-diversify-your-portfolio-2026-2",
+    "https://economictimes.com/markets/us-stocks/news/us-stock-market-live-dow-jones-sp-500-nasdaq-trump-china-visit-us-iran-talks-oil-prices-today-brent-crude-impact-fed-rate-hike-bets-us-inflation-ppi-data-nvidia-china-news-chip-stocks-rally-sp500-target-8000/liveblog/131065553.cms",
+    "https://dorseywright.nasdaq.com/research/bigwire",
+    "https://www.aurra.markets/trading/market-outlook/analysis/usd-and-stocks-rally-we-analyze-the-sp-500-breakout"
+  ]
+}
+```
 

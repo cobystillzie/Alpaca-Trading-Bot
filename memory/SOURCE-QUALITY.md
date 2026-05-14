@@ -10226,4 +10226,58 @@ SEC/company quality check:
   "quality_notes": "Weak: Going concern doubt, revenue cliff from single customer (non-recovered), tiny cash run-way, covenant breach risk, delisting threat outweigh IVT mitigation/90% retention positives. No durable demand (ad volumes down post-pause, seasonal). Balance sheet distress + concentration = high risk; avoid watchlist.",
   "source_urls": ["https://www.sec.gov/Archives/edgar/data/1880613/000141057826000248/drct-20251231_10k.htm"]
 }
+## Source And Signal Research - 2026-05-14 05:24:01 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+```json
+{
+  "summary": "No search results found for unusual discussion around liquid US stocks/ETFs. Existing candidates like GLD, FPS, VRT show no flagged social anomalies or hype risks in memory.",
+  "social_buzz": "weak",
+  "attention_anomalies": "none",
+  "source_urls": []
+}
+```
+
+Congressional disclosures, max 5% influence:
+```json
+{
+  "summary": "Copa Holdings ($CPA) reported strong Q1 2026 earnings with net profit of $212.5M (EPS $5.16, +20.5% YoY), operating margin 24.6%, capacity +14%, traffic +15%, load factor 87.2%, $1.5B liquidity (40% of LTM revenue), $1.71/share dividend, and 40 Boeing 737 MAX order. Mixed hedge fund activity with notable adds/removals. Analyst PT median $165. No congressional trades in results.",
+  "congressional_signal": "None identified in results. Low-weight delayed disclosures only (e.g., $DT sale by Rep. Guest in Jan, POWL no recent trades).",
+  "tickers": ["CPA", "DT", "AZN", "WBS", "POWL"],
+  "source_urls": [
+    "https://www.quiverquant.com/news/Copa+Holdings+Reports+Strong+Q1+2026+Financial+Results+with+Increased+Net+Profit+and+Capacity+Growth",
+    "https://www.quiverquant.com/news/Fund+Update:+New+$29.6M+$DT+stock+position+opened+by+PUBLIC+SECTOR+PENSION+INVESTMENT+BOARD",
+    "https://www.quiverquant.com/news/Fund+Update:+New+$411.6M+$AZN+stock+position+opened+by+PUBLIC+SECTOR+PENSION+INVESTMENT+BOARD",
+    "https://www.quiverquant.com/news/Fund+Update:+New+$55.8M+$WBS+stock+position+opened+by+PUBLIC+SECTOR+PENSION+INVESTMENT+BOARD",
+    "https://www.quiverquant.com/stock/POWL/"
+  ]
+}
+```
+
+SEC/company quality check:
+```json
+{
+  "summary": "Direct Digital Holdings (DRCT) operates a programmatic advertising platform (Colossus SSP) with sell-side and buy-side services, reporting sharp revenue declines in 2024-2025 due to a major customer pause from defamatory allegations/misinformation campaign; substantial going concern doubt with $0.7M cash, $27.7M accumulated deficit, covenant-restricted debt; Inuvo (INUV) shows AI-driven ad tech stability with revenue growth but high customer concentration (64%+ from two clients), ongoing losses ($178M deficit), working capital deficit; both microcaps exhibit high business risk with revenue volatility, concentration, and liquidity strains vs. durable demand signals like 90% client retention (DRCT) and AI intent tech (INUV). No durable-demand evidence for watchlist; special note: no GOOGL/GOOG, INTC, USAR, GT in filings.",
+  "filing_risks": {
+    "DRCT": [
+      "Balance-sheet: $0.7M cash vs. $27.7M accumulated deficit; going concern doubt; credit facilities with $450k min cash covenant, maturity Dec 2026, default risk",
+      "Concentration: 2024-2025 revenue/gross profit collapse from one sell-side customer pause (defamatory article); high reliance on sell-side volumes",
+      "Revenue quality: 2025 revenue $34.7M (down from $157M in 2023); seasonal ad fluctuations; IVT/ad fraud risk",
+      "Dilution: Potential equity/debt raises to fund operations",
+      "Capital allocation: Reorganization July 2024; Nasdaq delisting risk",
+      "Litigation: Defamatory allegations/misinformation campaign impacting customer",
+      "Valuation: Speculative microcap with paused volumes not recovered to prior levels"
+    ],
+    "INUV": [
+      "Balance-sheet: $2.8M cash, $5.1M working capital deficit, $178M accumulated deficit; negative operating cash flows",
+      "Concentration: Two customers 64.2%+19.3% of 2025 revenue (75%+7% in 2024); high reliance on Yahoo/Google",
+      "Revenue quality: 2.9% growth but gross margin down 10.1% to 74.5%; seasonality; ad supplier dependence",
+      "Dilution: History of equity offerings/debt to fund losses",
+      "Capital allocation: Acquisitions for growth; NYSE American listing risk"
+    ]
+  },
+  "quality_notes": "DRCT: Weak - revenue collapse, going concern, customer concentration, low cash burn high; INUV: Moderate - AI ad tech moat (18 patents), revenue growth but high concentration/losses persist; both lack durable demand (ad cyclicality, client risks) for watchlist addition; no alignment with AI infra/power themes; filings highlight execution risks over competitive edges.",
+  "source_urls": []
+}
+```
 
