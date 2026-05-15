@@ -14330,4 +14330,19 @@ Model notes: Sector ETF with medium risk, suitable for diversified swing exposur
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: https://www.zacks.com/stock/news/2921716/is-state-street-spdr-sp-retail-etf-xrt-a-strong-etf-right-now
+## Research Update - 2026-05-15 18:59:53 Eastern Daylight Time
+
+Research Update
+
+Market tone: Signing Day Sports (SGN) shows extremely elevated and volatile short interest for a micro-cap that has been flagged as potentially delisted. The recent spike to ~71% of float shorted and subsequent sharp drop still leaves over one-fifth of float short. However, the name fails basic quality, liquidity, and survivability standards and should not be used as a long-only swing candidate for a disciplined paper-trading strategy.
+Candidates: 1
+
+1. SGN (micro-cap / speculative digital-sports-tech (nominally communication services or consumer discretionary, but effectively a distressed micro-cap special situation).) | confidence 0.82 | allocation 0.0% | stop 0.0% | Chittick 10/100 | tier monitor-only | bucket micro-cap-speculative / avoid-list | HF source 0/100 | HF veto
+Recommendation: avoid
+Catalyst: The only clear recent data point is the sharp rise and then fall in short interest through Q1 2026: short interest peaked at 9.57M shares (~70.8% of float) on February 13, 2026, then declined by ~57.6% to 4.05M shares by February 27 and...
+Chittick Cash: There is effectively no margin of safety: we lack reliable information on intrinsic value, asset coverage, or sustainable earnings. The combination of potential delisting, micro-cap volatility, and possible dilution m...
+HF filter: sentiment=none source=0/100 hype=0.80 vetoes=3
+Self-learning: tier=monitor-only repeat48h=0 fresh=yes bucket=micro-cap-speculative / avoid-list
+Social buzz, low weight: none identified in the provided context; any interest is inferred only from trading volume and short-interest statistics, not from verifiable social or news-flow anomalies.
+Congress signal, low weight: none; no congressional trading or disclosure signal is relevant or observed for SGN.
 

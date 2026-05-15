@@ -924,4 +924,9 @@ Candidates found: 4
 The tape remains in a late-stage, momentum-led risk-on regime, but the snippets you provided skew toward defensive/recession-resilient stocks and yield/income products, plus some retail/speculative angles (bitcoin, income ETFs, retail ETFs). That mix supports a cautious, quality-focused stance with selective short-term swings only when catalysts and risk controls are very clear.
 
 Candidates found: 3
+## Two-Hour Research Agent - 2026-05-15 18:59:53 Eastern Daylight Time
+
+Signing Day Sports (SGN) shows extremely elevated and volatile short interest for a micro-cap that has been flagged as potentially delisted. The recent spike to ~71% of float shorted and subsequent sharp drop still leaves over one-fifth of float short. However, the name fails basic quality, liquidity, and survivability standards and should not be used as a long-only swing candidate for a disciplined paper-trading strategy.
+
+Candidates found: 1
 

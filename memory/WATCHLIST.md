@@ -4,184 +4,69 @@
 {
   "candidates": [
     {
-      "adversary_case": "The strongest objection is that WMT may be more of a long-term core holding than a 1\u201310 day swing candidate. The margin and value-demand trends are not typically catalysts for rapid price movement; if the market remains risk-on and rotates toward AI/high beta, WMT could stagnate or underperform, making this a low-reward swing. A stricter Chittick-style investor might prefer to study and size a 30\u2013180 day owner position when valuation is more clearly favorable instead of burning swing capital here.",
-      "allocation_learning_note": "Position as a stabilizing, defensive candidate rather than a primary high-beta swing; consider smaller swing allocation unless valuation and momentum both improve.",
-      "balance_sheet_risk": "WMT carries manageable leverage for a company of its size and cash generation. Its business is not highly cyclical, and there is no indication of acute balance-sheet stress in the supplied material. The main macro risk is margin pressure from tariffs and wage/commodity inflation rather than solvency issues.",
-      "bear_case": "Tariffs, particularly any renewed or escalated U.S.\u2013China tariff regime, could pressure import costs and margins. Weak discretionary demand can drag on higher-margin general merchandise, limiting earnings leverage. Competitive intensity from dollar stores, Costco, Amazon, and regional grocers can compress margins if WMT is forced to match price more aggressively. If macro growth improves quickly and risk-on accelerates, investors might rotate out of defensives like WMT toward higher-beta names, capping near-term upside.",
-      "capital_allocation_case": "Management historically has been disciplined: steady dividends, buybacks when appropriate, and investment in logistics, technology, and e-commerce to defend and expand the moat. There are no red flags in the provided sources suggesting poor capital allocation. From a Chittick lens, WMT\u2019s capital allocation is acceptable, if not spectacularly opportunistic.",
-      "catalyst": "Recent 2026 operating results highlighted by EBC show operating income outpacing sales growth, confirming margin improvement and value-demand resilience. In a market increasingly focused on recession resilience and consumer trade-down behavior, this acts as a near-term narrative and fundamental tailwind.",
-      "catalyst_type": "structural",
-      "chittick_cash_score": 82.0,
-      "chittick_reject_reason": "",
-      "concentration_case": "As a single large-cap defensive name, WMT may be preferable to a broad retail ETF like XRT if the goal is to lean into durable, recession-resilient cash flows rather than the full retail spectrum (which includes higher-risk specialty retailers). That said, for diversification, pairing WMT with other sectors (healthcare, industrials, or a broad ETF) could better fit a concentrated-quality strategy.",
-      "confidence": 0.73,
-      "congressional_signal": "none",
-      "diversity_bucket": "consumer-staples-defensive",
-      "entry_plan": "For paper trading, assume entry on a modest pullback or consolidation following the positive 2026 results commentary: buy a first tranche on a 1\u20132% intraday dip from recent highs or after two consecutive flat-to-up closes with above-average volume that confirm accumulation rather than a blow-off. Avoid chasing large gap-ups; wait for intraday consolidation or a minor retrace toward a short-term support zone.",
-      "exit_plan": "For a 5\u20137 day swing, target a 3\u20135% gain from entry, or exit earlier if the broader market shows a sharp risk-off turn (e.g., rate spike, broad retail ETF breakdown like XRT) or if WMT closes below recent short-term support with above-average volume for two sessions. For paper purposes, treat a decisive breakdown through that short-term support as an invalidation of the swing thesis, even if the longer-term quality case remains intact.",
+      "adversary_case": "A speculative trader might argue that extreme historical short interest (up to ~70.8% of float) and still-elevated current levels (~21.1% of float) create an attractive setup for a sharp short squeeze if any positive news emerges. They may also claim that because the stock is cheap in nominal terms and heavily shorted, the risk/reward is skewed positively. The rebuttal is that without clear evidence of active listing, audited financial strength, or a concrete positive catalyst, this is a lottery ticket, not an investment. The strategy\u2019s mandate explicitly deprioritizes such lottery-style micro-caps.",
+      "allocation_learning_note": "This case reinforces the need to separate short-interest and micro-cap volatility monitoring from actual candidate selection. Names flagged as potentially delisted or structurally speculative should be tracked only as risk exemplars, not as trade candidates.",
+      "balance_sheet_risk": "Unknown but presumptively high. Micro-cap issuers in this situation frequently have thin cash buffers, dependence on equity issuance or convertible financing, and limited bank relationships. Balance-sheet opacity and the possibility of going-concern warnings would be red flags under the Chittick Cash framework.",
+      "bear_case": "Key failure modes: (1) Delisting/illiquidity: MarketBeat explicitly notes SGN is potentially delisted and may not be actively trading; if true, new capital cannot reliably enter or exit, rendering any paper strategy non-replicable in the real world. (2) Structural dilution/going concern risk: micro-caps with sub-$1 share prices and wild short-interest often rely on repeated equity issuance, reverse splits, or toxic financing, destroying long-term shareholder value. (3) Regulatory and compliance risks: reversals, trading suspensions, or exchange delisting could permanently impair liquidity. (4) No fundamental anchor: without verifiable revenue, profit, or balance-sheet strength, there is no intrinsic value reference; price may trend toward zero over time regardless of intermittent squeezes.",
+      "capital_allocation_case": "No trustworthy public information is provided about management\u2019s capital allocation history. By default, repeated dilution, reverse splits, and promotional behavior are common in this cohort, which is inconsistent with an owner-oriented, margin-of-safety approach.",
+      "catalyst": "The only clear recent data point is the sharp rise and then fall in short interest through Q1 2026: short interest peaked at 9.57M shares (~70.8% of float) on February 13, 2026, then declined by ~57.6% to 4.05M shares by February 27 and by another ~29.8% to 2.85M shares (~21.1% of float) by March 13, 2026. There is no accompanying verified earnings, contract, or balance-sheet catalyst, and the stock is flagged as potentially delisted.",
+      "catalyst_type": "momentum",
+      "chittick_cash_score": 10.0,
+      "chittick_reject_reason": "Fails core Chittick Cash principles: (1) no validated business quality or margin of safety, (2) high balance-sheet and dilution risk, (3) no clear real-growth runway or durable competitive advantage, and (4) elevated structural and governance risk associated with potential delisting.",
+      "concentration_case": "SGN does not deserve concentration; it does not even pass the threshold to be a small speculative sleeve within a quality-focused portfolio. Broad ETFs or established quality names in sports, media, or tech provide far better risk/reward trade-offs.",
+      "confidence": 0.82,
+      "congressional_signal": "none; no congressional trading or disclosure signal is relevant or observed for SGN.",
+      "diversity_bucket": "micro-cap-speculative / avoid-list",
+      "entry_plan": "No entry. For this research process, SGN is classified as monitor-only / avoid due to delisting risk, lack of reliable fundamentals, and misalignment with the long-only, quality-biased strategy.",
+      "exit_plan": "Not applicable; no position is recommended. If held hypothetically, a disciplined framework would emphasize very tight capital-at-risk limits, immediate exit on any sign of trading halt/delisting notice, and avoidance of averaging down on liquidity gaps\u2014reinforcing why it should not be initiated at all.",
       "fresh_catalyst": true,
-      "growth_runway": "Over 30\u2013180 days, the growth runway is tied to continued mix shift into higher-margin businesses (e-commerce, advertising, data, financial services), incremental international expansion, and share gains if macro softness drives more consumers into WMT\u2019s ecosystem. Longer term, WMT can keep compounding through omnichannel integration and leveraging data/scale, but that is outside the primary 1\u201310 day review window.",
-      "hf_evidence_rank": 0.0,
-      "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.05,
-      "hf_memory_similarity": 0.0,
-      "hf_model_notes": "Defensive quality name aligned with recession-resilient theme; not a classic high-momentum swing, but strong for concentrated-quality consideration.",
-      "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "",
-      "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 0.0,
-      "horizon_days": 7,
-      "margin_of_safety_case": "For a business of WMT\u2019s quality and resilience, the main margin-of-safety question is valuation versus normalized earnings and cash flow. The stress-test \u2018clean pass\u2019 label suggests fundamentals are solid, but without explicit valuation metrics in the snippet, it\u2019s prudent to assume no deep discount is present. Margin of safety here comes more from business durability and balance-sheet strength than from a clearly cheap multiple.",
-      "market_regime": "In a fragile risk-on regime, WMT can serve as a ballast: if the market chops or corrects on macro or rates, defensive cash-flow names often outperform. If the market continues melting up, WMT likely underperforms high-beta tech but should still hold value reasonably well, making it suitable as a stabilizing component rather than a pure swing-trade rocket.",
-      "momentum_case": "Large-cap defensives have been seeing accumulating interest as investors hedge against macro and rate/regime shifts. WMT\u2019s mention as a \u2018clean pass\u2019 in a 2026 stress-test article indicates its fundamentals are trending favorably relative to peers, and such writeups often coincide with relative-strength improvement versus broader retail. In a late-stage risk-on market, rotation into high-quality defensives can sustain a slow, steady uptrend rather than a sharp spike.",
-      "owner_hold_case": "A 30\u2013180 day owner thesis would focus on WMT\u2019s ability to keep growing EPS and cash flow through a mix of trade-down share gains, e-commerce/logistics efficiency gains, and high-margin services. If the stock were at a reasonable or slightly discounted multiple relative to its historical averages and peers, a Chittick-style investor could justify holding through macro noise, with periodic reassessment at each earnings report.",
-      "quality_case": "WMT is a global retail leader with massive scale, purchasing power, and a strong everyday-low-price brand. Its grocery and consumables base is non-cyclical, and growth in higher-margin segments (e-commerce, advertising, membership-like services) improves returns on capital. Balance sheet and liquidity are robust for a retailer, and the franchise has a long track record of cash generation and disciplined reinvestment. Historically, WMT has proven resilient through multiple economic cycles, which aligns with a Buffett/Munger-style quality lens.",
-      "recommendation": "watch",
-      "repeat_count_48h": 0,
-      "research_tier": "watch",
-      "risk_reward": "Near term, the upside is modest but relatively dependable: a few percent of appreciation plus defensive characteristics, versus limited downside if the macro picture worsens. The trade is more about stability and margin of safety than high-octane momentum.",
-      "sector": "consumer-staples / big-box retail",
-      "signal_weights": {
-        "congressional_signal": 0.0,
-        "social_buzz": 0.0
-      },
-      "social_buzz": "none",
-      "source_quality": "Evidence quality is moderate: EBC\u2019s recession-proof-stocks analysis references recent 2026 operating metrics and positions WMT as a \u2018clean pass,\u2019 but this is a secondary research source rather than primary filings. Still, WMT\u2019s business quality and cycle resilience are well-established by long public history, so the overall quality read is strong even if we lack the raw 10-Q in this snippet.",
-      "source_urls": [
-        "https://www.ebc.com/forex/recession-proof-stocks-that-passed-the-stress-test"
+      "growth_runway": "From a 30\u2013180 day owner lens, there is no credible evidence of a real growth runway. Any perceived upside would depend on speculative trading flows, potential re-listing developments, or unverified operational progress. Over longer horizons, micro-caps like this often face repeated financing needs and competitive pressures that erode shareholder value.",
+      "hf_evidence_rank": 0.2,
+      "hf_filter_vetoes": [
+        "micro_cap_speculation",
+        "potentially_delisted",
+        "no_fundamental_catalyst"
       ],
-      "stop_loss_percent": 5.0,
-      "strategy_tags": [
-        "chittick_cash",
-        "defensive",
-        "consumer-staples",
-        "swing-or-core-flex"
-      ],
-      "symbol": "WMT",
-      "target_allocation_percent": 5.0,
-      "thesis": "Walmart is a dominant, scale-advantaged retailer that historically gains share in economic slowdowns as consumers trade down. The EBC recession-proof screen notes that operating income is currently growing faster than sales, suggesting mix improvement and pricing power even as value-seeking customers show up. In a fragile risk-on tape with macro uncertainty, WMT offers a blend of defensive resilience, cash generation, and moderate upside.",
-      "valuation_case": "The available research highlights operational strength rather than cheapness. WMT often trades at a premium to peers because of its scale, resilience, and growing higher-margin streams. That is acceptable for a long-term owner, but it makes the short-term swing thesis reliant on continued rotation into defensives rather than simple mispricing mean reversion."
-    },
-    {
-      "adversary_case": "The strongest objection is that COST\u2019s current multiple likely prices in strong membership growth and defensiveness, leaving the 1\u201310 day upside small relative to risk. From a Chittick Cash perspective, adding at a rich valuation for a short-horizon swing may not offer enough margin of safety. It might be better to wait for a sharper market pullback, or to focus on underpriced quality in less crowded sectors instead.",
-      "allocation_learning_note": "Given explicit valuation risk, treat COST as a candidate for small, tightly-risk-managed swings or as part of a longer-term watchlist rather than a heavy near-term allocation.",
-      "balance_sheet_risk": "Costco\u2019s balance sheet is generally conservative relative to its cash generation and store base. There is no indication in the provided sources of leverage or liquidity stress. The primary risk is valuation compression, not solvency or financing issues.",
-      "bear_case": "Valuation risk is explicitly cited: COST often trades at a high earnings and cash-flow multiple, leaving less cushion if growth slows or sentiment shifts. Any sign of slowing membership growth, weaker comps, or delayed fee increase expectations could trigger a sharp de-rating. Macro normalization or a renewed shift into high-beta growth could see investors rotate away from a premium defensive name like COST. Additionally, competition from Sam\u2019s Club, BJ\u2019s, and e-commerce may nibble at growth, even if not existentially.",
-      "capital_allocation_case": "COST is disciplined in capital allocation: selective expansion, strong focus on value, and occasional special dividends. Management\u2019s longstanding culture of frugality and member focus is a positive from a Chittick lens, as it suggests ongoing alignment with long-term owner returns.",
-      "catalyst": "EBC cites that membership fees rose to $1.36 billion, confirming continued growth in a key high-margin revenue stream. This acts as a near-term confirmation of Costco\u2019s pricing power and member engagement, and can reinforce investor expectations of ongoing comp growth and potential future membership fee increases.",
-      "catalyst_type": "structural",
-      "chittick_cash_score": 80.0,
-      "chittick_reject_reason": "",
-      "concentration_case": "COST can complement or partially substitute for a broad retail ETF like XRT when the goal is concentrated exposure to high-quality, defensively growing consumer demand with recurring-fee economics. However, in a diversified swing-trading framework, relying solely on a premium-priced defensive like COST may reduce upside potential compared with selective exposure to cyclicals or growth names with clearer near-term catalysts.",
-      "confidence": 0.71,
-      "congressional_signal": "none",
-      "diversity_bucket": "consumer-staples-defensive",
-      "entry_plan": "For a 3\u20137 day swing, favor entries on shallow pullbacks following positive membership-fee news: for example, buy after a 2\u20133% pullback from a recent high that holds above a short-term support band, or after a tight multi-day consolidation with declining volume followed by a volume-backed upside break. Given valuation risk, avoid chasing large, extended moves; aim for entries where the risk to recent swing low is around 4\u20135%.",
-      "exit_plan": "Set a near-term profit objective of ~3\u20134% for a swing. Exit early if the stock breaks below its recent consolidation or swing-low area on elevated volume, or if there is any negative news around membership metrics or fee plans. If broad retail (e.g., XRT) and defensives both weaken simultaneously, tighten stops or exit to avoid a broader de-rating impulse in the group.",
-      "fresh_catalyst": true,
-      "growth_runway": "Over 30\u2013180 days, catalysts include continued membership growth, store openings, potential membership-fee increase talk, and steady comp growth. Longer term, international expansion and deeper penetration of existing markets offer further runway. None of these are likely to move the stock dramatically in under 10 days unless accompanied by new announcements or earnings surprises.",
-      "hf_evidence_rank": 0.0,
-      "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.08,
-      "hf_memory_similarity": 0.0,
-      "hf_model_notes": "High-quality compounder with clear recurring revenue component; main concern is valuation for a short-horizon allocation.",
+      "hf_hype_risk": 0.8,
+      "hf_memory_similarity": 0.7,
+      "hf_model_notes": "Pattern matches prior rejected micro-cap, short-squeeze narratives where hype and short-interest dominated discourse without substantiated fundamentals. Given the long-only, quality-biased mandate, the model treats short-interest-only stories as vetoed unless anchored by earnings, filings, or durable evidence.",
       "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "",
+      "hf_sentiment_label": "none",
       "hf_sentiment_score": 0.0,
       "hf_source_quality_score": 0.0,
       "horizon_days": 5,
-      "margin_of_safety_case": "Membership-fee growth and brand strength provide a qualitative margin of safety, but valuation appears stretched based on the mention of \u2018valuation risk.\u2019 The margin of safety is more business-based than price-based here; a strict Chittick filter would likely demand a wider price discount before committing larger capital.",
-      "market_regime": "In a late-stage risk-on regime, COST fits as a quality defensive-with-growth: it may not lead in a speculative melt-up, but it tends to hold value well in corrections. If the market rotates toward defensives and income (as some of your links on yield products and bitcoin/income ETFs suggest), COST can benefit as a perceived safe growth compounder.",
-      "momentum_case": "COST has historically displayed durable uptrends with episodic pullbacks, often outperforming broad market indices during volatility. Being highlighted in a recession-proof context in 2026, with renewed focus on membership-fee growth, could support continued institutional accumulation in an environment where investors seek both quality and growth. However, the article notes \u2018valuation risk,\u2019 which suggests the stock may already reflect much of the good news, limiting explosive upside.",
-      "owner_hold_case": "A 30\u2013180 day owner thesis would center on sustained membership growth, possible forward commentary around membership fee hikes, and continued comp growth despite macro noise. If bought at a more favorable valuation than implied in the current commentary, an owner could hold through intermediate-term volatility with the expectation of compounding EPS and occasional special dividends. Regular earnings updates would be the checkpoints for thesis validation.",
-      "quality_case": "COST is one of the highest-quality retailers globally: strong brand, obsessive cost control, limited SKU model, and a business where membership fees (rather than merchandise markups) drive much of the profit. It has a long record of high returns on capital and prudent pace-of-store expansion. The recurring nature of membership fees provides a structural quality advantage; customers tolerate periodic fee hikes because of perceived value.",
-      "recommendation": "watch",
+      "margin_of_safety_case": "There is effectively no margin of safety: we lack reliable information on intrinsic value, asset coverage, or sustainable earnings. The combination of potential delisting, micro-cap volatility, and possible dilution means the downside could be total loss, and there is no clear floor beyond zero.",
+      "market_regime": "In a broadly risk-on regime, some traders chase micro-cap squeezes and short-interest extremes. However, our framework explicitly prefers quality, margin of safety, and repeatable catalysts. The current macro environment does not require micro-cap speculation to capture upside; there are many higher-quality vehicles aligned with the same risk-on backdrop. SGN sits in the speculative tail of the distribution and is misaligned with the Chittick Cash lens and the strategy\u2019s risk discipline.",
+      "momentum_case": "Short-term, SGN has experienced violent moves around low nominal prices (e.g., from $0.21 on January 30, 2026 to $0.25 on February 13 and $0.54 by February 27, with corresponding short-interest swings). Average daily volume is quoted at ~15.3M shares, with recent daily volume near 14.6M, indicating trading interest when it is active. However, this \u2018momentum\u2019 is driven by micro-cap volatility and short-covering flows rather than institutional trend, and the potential delisting status means momentum could disappear abruptly, with high risk of trading halts or liquidity gaps.",
+      "owner_hold_case": "There is no plausible 30\u2013180 day owner-oriented hold case that meets the strategy\u2019s standards. Only a pure speculative trading mindset would consider involvement, which is outside this bot\u2019s mandate.",
+      "quality_case": "Business quality cannot be validated from the provided data. What we have is purely trading-structure information (short interest and volume) without audited financial context. The micro-cap status, sub-dollar price history (recent report-price data show SGN trading between ~$0.18 and ~$0.95 in late 2025 and at $0.70 on March 13, 2026), and delisting risk all suggest low durability, high dilution risk, and poor margin of safety. This fails Buffett/Munger-style quality filters and the Chittick Cash emphasis on real growth runway and balance-sheet resilience.",
+      "recommendation": "avoid",
       "repeat_count_48h": 0,
-      "research_tier": "watch",
-      "risk_reward": "Risk/reward is skewed toward modest but high-quality upside: near-term reward is limited by valuation, while downside is cushioned by membership-fee resilience and defensive demand. Not ideal for high-return swing trading, but attractive for a paper-trading framework testing quality-based entries and tight risk management.",
-      "sector": "consumer-staples / warehouse-club retail",
+      "research_tier": "monitor-only",
+      "risk_reward": "Asymmetrically poor for a disciplined investor: while a short-covering rally could produce large percentage moves, the probability-weighted outcome in a potentially delisted, low-quality micro-cap is dominated by permanent capital loss, illiquidity, and structural dilution. The lack of verifiable positive catalysts means any upside is pure speculation.",
+      "sector": "micro-cap / speculative digital-sports-tech (nominally communication services or consumer discretionary, but effectively a distressed micro-cap special situation).",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
-      "social_buzz": "none",
-      "source_quality": "The EBC article is a curated analysis summarizing 2026 results, pointing to membership fee growth and calling COST a \u2018clean pass\u2019 with valuation risk. This is a reasonably solid secondary source; business quality is widely documented by long-term history, though we lack direct 10-Q/10-K excerpts here.",
+      "social_buzz": "none identified in the provided context; any interest is inferred only from trading volume and short-interest statistics, not from verifiable social or news-flow anomalies.",
+      "source_quality": "Short-interest data and float metrics are from MarketBeat, which aggregates exchange-reported figures and is reasonably reliable for positioning stats. However, there is no corroborating data on financials, filings, or exchange notices in the supplied context, and the key qualitative note is that SGN is \u2018potentially delisted and may not be actively trading.\u2019 Evidence is adequate to assess risk but insufficient to build a positive fundamental thesis.",
       "source_urls": [
-        "https://www.ebc.com/forex/recession-proof-stocks-that-passed-the-stress-test"
+        "https://www.marketbeat.com/stocks/NYSEAMERICAN/SGN/short-interest/"
       ],
-      "stop_loss_percent": 5.0,
+      "stop_loss_percent": 0.0,
       "strategy_tags": [
         "chittick_cash",
-        "defensive",
-        "quality-growth",
-        "swing-or-core-flex"
+        "micro-cap-speculative",
+        "short-interest-monitor"
       ],
-      "symbol": "COST",
-      "target_allocation_percent": 4.0,
-      "thesis": "Costco is a membership-based warehouse retailer with strong customer loyalty, recurring membership revenue, and a long history of steady comp growth and disciplined expansion. The EBC recession-proof analysis highlights its growing membership-fee income, which provides recurring, high-margin cash flow that is less sensitive to merchandise margin volatility. In a market that is both risk-on and jittery about macro, COST offers a blend of quality, defensiveness, and a clearer near-term price driver via recurring fee growth.",
-      "valuation_case": "COST typically trades at a premium multiple; the article\u2019s warning about valuation risk suggests that the current price may be at or above the high end of historical ranges. For a short-term swing, this is acceptable if momentum is intact, but it weakens the case for a larger or longer-horizon allocation right now."
-    },
-    {
-      "adversary_case": "The strongest objection is that XRT is currently negative year-to-date and macro headwinds to retail may be structural (student loans, higher rates, persistent inflation) rather than transitory. In such a case, the ETF\u2019s 1-year gain could represent the tail end of a cycle rather than a base for another leg up, and a supposed \u2018bounce\u2019 might be a bull trap. Without a strong positive catalyst (e.g., big upside surprise in retail data), this could be a low-conviction mean-reversion attempt.",
-      "allocation_learning_note": "Use a moderate allocation to test sector-rotation and mean-reversion behaviors without exceeding concentration limits or relying on megacap tech; respect stops aggressively given retail\u2019s macro sensitivity.",
-      "balance_sheet_risk": "By construction, XRT includes companies with a range of balance-sheet qualities; some will be highly leveraged. The ETF structure spreads this risk but does not eliminate it. Overall, the risk is that weaker constituents drag on performance if financing costs remain high.",
-      "bear_case": "Retail is sensitive to consumer confidence, rates, and wage/inflation dynamics. If macro data disappoints, or if rising rates and inflation pressure consumers further, XRT could resume its year-to-date decline. The ETF\u2019s composition includes weaker retailers that may suffer more in a slowdown. Additionally, XRT\u2019s beta >1 means it will likely underperform in any sharp risk-off move, especially if discretionary retail is hit harder than staples.",
-      "capital_allocation_case": "As a passive smart-beta style ETF, capital allocation is rule-based rather than discretionary. This is neither a positive nor a negative from a Chittick perspective; the benefit is low turnover and transparency, but there is no active manager to selectively avoid deteriorating retailers.",
-      "catalyst": "Zacks highlights that as of mid-May 2026 the ETF is down about -5.51% year-to-date but up roughly 9.07% over the last year, trading within a 52-week range of $74.20 to $90.88. This indicates a pullback within an intact longer-term uptrend and suggests a potential setup for a bounce or mean-reversion swing if macro and consumer-data headlines stabilize or improve.",
-      "catalyst_type": "momentum",
-      "chittick_cash_score": 65.0,
-      "chittick_reject_reason": "",
-      "concentration_case": "XRT offers broad retail exposure compared with concentrated bets like WMT or COST. For a portfolio already heavy in mega-cap defensives or tech, XRT can provide diversification into a different consumer bucket while avoiding single-stock event risk. It can also serve as a less concentrated alternative if an individual retailer appears extended or over-allocated.",
-      "confidence": 0.69,
-      "congressional_signal": "none",
-      "diversity_bucket": "consumer-discretionary-ETF",
-      "entry_plan": "Look for a bounce setup near the mid-to-lower end of the recent range: enter on a confirmed reversal pattern (for example, a strong green day following a test of support near the lower portion of its recent trading range) with above-average volume and improving intraday breadth. Avoid entering midday on large spikes; seek entries closer to the prior day\u2019s close or early-session consolidations after an initial push.",
-      "exit_plan": "For a 3\u20136 day swing, target a 4\u20136% move toward the middle of the 52-week range, tightening stops as price approaches resistance levels. Invalidate the trade if XRT closes below recent support (e.g., a breakdown toward or below the 52-week low area) on heavy volume, or if macro data sharply undercuts consumer confidence (e.g., a big negative surprise in retail sales) and the ETF underperforms the S&P 500 by several percentage points over 1\u20132 days.",
-      "fresh_catalyst": true,
-      "growth_runway": "Over 30\u2013180 days, XRT\u2019s path depends on consumer spending trends, retail earnings season outcomes, and interest-rate trajectories. If soft-landing narratives hold and wage growth supports spending, retail could have room to recover. Conversely, a slowdown would impair the ETF. That medium-term uncertainty underscores why we frame XRT as a short-term swing vehicle rather than a 30\u2013180 day owner hold in this context.",
-      "hf_evidence_rank": 0.0,
-      "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.06,
-      "hf_memory_similarity": 0.0,
-      "hf_model_notes": "Sector ETF with medium risk, suitable for diversified swing exposure rather than concentrated-quality long-term allocation.",
-      "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "",
-      "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 0.0,
-      "horizon_days": 4,
-      "margin_of_safety_case": "As an ETF, margin of safety is more about owning the sector basket near the lower part of its recent range rather than about intrinsic value vs. price. With XRT currently down YTD but up over 1 year, there is some argument that the pullback offers relative value in the retail sector if consumer demand stabilizes. However, the presence of weaker retailers in the basket reduces fundamental margin of safety compared with a curated list of high-quality individual names.",
-      "market_regime": "In a risk-on but fragile environment, sector ETFs like XRT benefit from rotations into cyclicals and consumer themes. However, they can also be hit quickly if macro headlines turn risk-off. XRT is therefore suitable primarily as a tightly managed swing vehicle rather than a \u2018set and forget\u2019 holding in this regime.",
-      "momentum_case": "The ETF is up about 9% over the past year but currently negative year-to-date, implying it has undergone a correction or consolidation within a broader rising channel. With a beta of 1.20 and mid-20s volatility, XRT can move meaningfully over 1\u201310 days in response to macro retail data, earnings clusters, or rotation back into consumer cyclicals. If the broader tape remains risk-on and yields stabilize, a bounce from the lower half of its 52-week range could offer a decent short-term risk/reward.",
-      "owner_hold_case": "A 30\u2013180 day owner case would require a clearer macro thesis that U.S. consumer spending and retail margins will improve or at least remain solid, and that valuations in the sector are attractive. Given current macro fragility, it may be prudent to treat XRT primarily as a short-term tool until such a thesis is better supported by data (e.g., consistent upside surprises in retail sales and earnings).",
-      "quality_case": "As a diversified ETF with ~76 holdings, XRT reduces company-specific blow-up risk (e.g., earnings misses, inventory issues) and instead reflects the broader state of U.S. retail. This is consistent with a cautious, evidence-driven approach: you are less exposed to idiosyncratic surprises, while still capturing sector-level trends. From a Chittick angle, the fund includes both high- and low-quality names, so it is not a pure concentrated-quality instrument, but the diversification does reduce downside-tail risk compared with any single retailer.",
-      "recommendation": "execute-if-guards-pass",
-      "repeat_count_48h": 0,
-      "research_tier": "execution-ready",
-      "risk_reward": "Upside is moderate but can be meaningful given beta >1 and current pullback. Downside is cushioned somewhat by diversification but remains significant in a macro shock. The trade offers a balanced way to test sector momentum with defined risk and without relying on any single retailer\u2019s earnings.",
-      "sector": "ETF \u2013 U.S. retail / consumer-discretionary mix",
-      "signal_weights": {
-        "congressional_signal": 0.0,
-        "social_buzz": 0.0
-      },
-      "social_buzz": "none",
-      "source_quality": "Zacks is a reputable, data-driven source providing factual statistics (YTD performance, 1-year performance, beta, standard deviation, holdings count, and range). This is strong ETF-level evidence, though it does not constitute a specific news or earnings catalyst; the swing thesis is more technical/rotational than event-driven.",
-      "source_urls": [
-        "https://www.zacks.com/stock/news/2921716/is-state-street-spdr-sp-retail-etf-xrt-a-strong-etf-right-now"
-      ],
-      "stop_loss_percent": 6.0,
-      "strategy_tags": [
-        "sector-ETF",
-        "swing-trade",
-        "diversification",
-        "technical-rotation"
-      ],
-      "symbol": "XRT",
-      "target_allocation_percent": 5.0,
-      "thesis": "SPDR S&P Retail ETF (XRT) offers diversified exposure to U.S. retail, spanning brick-and-mortar, e-commerce, and specialty retailers. Zacks notes that XRT has about 76 holdings, a beta of 1.20, and a 3-year standard deviation of 22.39%, making it a medium-risk way to express a retail view. Given the mixed macro and risk-on regime, XRT can serve as a momentum/rotation vehicle for a 3\u20137 day swing while diversifying away single-name risk.",
-      "valuation_case": "ETF valuation is an aggregate of its holdings. Without detailed P/E or P/S data in the snippet, we cannot assert that XRT is cheap fundamentally. The case is more technical (range-based) and macro (consumer-cycle) than valuation-driven. From a strict Buffett/Munger or Chittick view, this would be a smaller tactical tool rather than a core long-term value holding."
+      "symbol": "SGN",
+      "target_allocation_percent": 0.0,
+      "thesis": "Signing Day Sports exhibits extreme short-interest dynamics (recently as high as ~70.8% of float shorted and currently ~21.1% as of March 13, 2026), which theoretically could support short-squeeze behavior. However, this is a micro-cap that MarketBeat explicitly marks as potentially delisted and possibly not actively trading. There is no robust evidence of sustainable fundamentals, balance-sheet strength, or reliable liquidity. For a cautious, quality-focused, long-only paper-trading framework, SGN should not be treated as a trade candidate but as a risk example of why short-interest alone is not a sufficient catalyst.",
+      "valuation_case": "Valuation cannot be responsibly assessed. The sub-$1 share price and low absolute market cap do not imply cheapness; they more likely reflect distress and lack of institutional sponsorship. Without earnings, cash-flow, or asset-based valuation support, any \u2018cheap\u2019 narrative is speculative."
     }
   ],
-  "summary": "The tape remains in a late-stage, momentum-led risk-on regime, but the snippets you provided skew toward defensive/recession-resilient stocks and yield/income products, plus some retail/speculative angles (bitcoin, income ETFs, retail ETFs). That mix supports a cautious, quality-focused stance with selective short-term swings only when catalysts and risk controls are very clear."
+  "summary": "Signing Day Sports (SGN) shows extremely elevated and volatile short interest for a micro-cap that has been flagged as potentially delisted. The recent spike to ~71% of float shorted and subsequent sharp drop still leaves over one-fifth of float short. However, the name fails basic quality, liquidity, and survivability standards and should not be used as a long-only swing candidate for a disciplined paper-trading strategy."
 }
 -->
 
@@ -1290,4 +1175,10 @@
 | WMT | consumer-staples / big-box retail | watch | consumer-staples-defensive | 0 | yes | 0.73 | 82 | 0 | 0 | 5.0% | 5.0% | watch | Recent 2026 operating results highlighted by EBC show operating income outpacing sales growth, confirming margin improvement and value-demand resilience. In a m |
 | COST | consumer-staples / warehouse-club retail | watch | consumer-staples-defensive | 0 | yes | 0.71 | 80 | 0 | 0 | 4.0% | 5.0% | watch | EBC cites that membership fees rose to $1.36 billion, confirming continued growth in a key high-margin revenue stream. This acts as a near-term confirmation of  |
 | XRT | ETF – U.S. retail / consumer-discretionary mix | execution-ready | consumer-discretionary-ETF | 0 | yes | 0.69 | 65 | 0 | 0 | 5.0% | 6.0% | execute-if-guards-pass | Zacks highlights that as of mid-May 2026 the ETF is down about -5.51% year-to-date but up roughly 9.07% over the last year, trading within a 52-week range of $7 |
+
+## Latest Candidates - 2026-05-15 18:59:53 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| SGN | micro-cap / speculative digital-sports-tech (nominally communication services or | monitor-only | micro-cap-speculative / avoid-list | 0 | yes | 0.82 | 10 | 0 | 3 | 0.0% | 0.0% | avoid | The only clear recent data point is the sharp rise and then fall in short interest through Q1 2026: short interest peaked at 9.57M shares (~70.8% of float) on F |
 
