@@ -4,121 +4,66 @@
 {
   "candidates": [
     {
-      "adversary_case": "BTIG PT cut signals commercialization doubts; biotech execution risks (prior V006 miss), high losses could cap rally.",
-      "allocation_learning_note": "New sector entry; cap at 6% vs repeated GLD/UNP.",
-      "balance_sheet_risk": "Clinical losses, dilution history; no debt details but biotech-typical burn; monitor cash post-Q1.",
-      "bear_case": "BTIG PT cut to $2 from $3 (May 13) despite Buy; ongoing losses (TTM EPS -$0.20, net margin -1999%); high cash burn, dilution risk in clinical biotech.",
-      "capital_allocation_case": "Trial-focused spend; FDA approval shows regulatory discipline.",
-      "catalyst": "Q1 2026 earnings May 13: product revenue $0.5M (up from $0.1M YoY), EPS -$0.09 beat consensus -$0.10 by $0.01; stock +20% intraday on volume 16.86M vs avg 6.4M.",
-      "catalyst_type": "earnings",
-      "chittick_cash_score": 70.0,
-      "chittick_reject_reason": "",
-      "concentration_case": "Unique HAV moat in vascular trauma/HD vs broad healthcare ETFs; diversifies from existing industrials/ETFs.",
+      "adversary_case": "A speculative trader could argue that the near-doubling of revenue, combined with a concentrated gaming/youth-audience franchise and any potential rebound in crypto prices, might create a high-beta turnaround play, especially if short interest is elevated. They might view the realized/unrealized crypto losses as non-core and treat the underlying business as undervalued optionality. However, this adversary view underestimates the real balance-sheet and liquidity risk signaled by the going concern disclosure and working capital deficit, and it conflicts with our Chittick Cash emphasis on quality, capital preservation, and clear downside protection.",
+      "allocation_learning_note": "Serves as a negative screen example: strong growth plus speculative crypto leverage and a going concern warning illustrated why high revenue growth is not sufficient for inclusion under the Chittick Cash framework.",
+      "balance_sheet_risk": "Balance-sheet risk is severe: (1) Working capital deficiency of $5.7M as of March 31, 2026; (2) Accumulated deficit of $180M; (3) $22.8M of digital assets and $10.7M in an ETH fund expose the balance sheet to crypto volatility; (4) $9.5M of ETH-backed promissory notes secured by ETH valued at ~$14.6M add leveraged exposure to crypto prices; (5) Going concern language in the 10-Q confirms management\u2019s recognition that current resources may not be sufficient to fund operations for the next 12 months without additional capital.",
+      "bear_case": "Key downside risks are substantial: (1) Going concern warning indicates a non-trivial probability of financial distress or recapitalization on unfavorable terms (dilution or debt restructuring). (2) High exposure to digital-asset price volatility (holding ~$22.8M in digital assets and $10.7M in an ETH fund) combined with $9.5M of ETH-backed promissory notes creates a leveraged, pro-cyclical risk profile. (3) Core operations remain loss-making even before crypto effects, so even if digital assets stabilize, the company may still burn cash. (4) Potential dilution from capital raises to address working capital deficits or to de-risk the balance sheet is high. (5) Gaming/esports advertising budgets are cyclical and sensitive to macro slowdowns and marketing budget cuts.",
+      "capital_allocation_case": "Capital allocation appears aggressive and misaligned with quality-first principles. The firm has chosen to hold significant digital-asset positions and to finance via ETH-backed promissory notes, increasing financial and operational risk. There is no evidence in the provided material of shareholder-friendly actions such as sustained deleveraging, disciplined share repurchases funded by free cash flow, or a conservative liquidity buffer. Instead, management decisions have amplified volatility and contributed to a going concern warning.",
+      "catalyst": "Q1 2026 10-Q and earnings disclosure: revenue nearly doubled year over year to $14.5M, but net loss widened to $17.7M, driven by $14.6M in realized and unrealized digital-asset and ETH-fund losses; management disclosed substantial doubt about the company\u2019s ability to continue as a going concern due to a $5.7M working capital deficiency, $180M accumulated deficit, and ETH-backed promissory notes.",
+      "catalyst_type": "filing",
+      "chittick_cash_score": 18.0,
+      "chittick_reject_reason": "Fails margin-of-safety and balance-sheet-strength criteria; explicit going concern warning and crypto-levered capital structure conflict with Chittick Cash\u2019s emphasis on quality, downside protection, and long-only concentrated-quality thinking.",
+      "concentration_case": "Given the fragile balance sheet, going concern risk, and lack of proven profitability, GameSquare does not deserve concentrated exposure versus higher-quality alternatives in digital media, gaming, or broader market ETFs. For a Chittick Cash\u2013influenced portfolio, capital would be far better deployed into established, cash-generating platforms or diversified ETFs than into a single, highly speculative micro/small-cap with crypto leverage.",
       "confidence": 0.78,
       "congressional_signal": "none",
-      "diversity_bucket": "healthcare-biotech",
-      "entry_plan": "Enter 50% at open tomorrow if holds $1.05, add 50% on pullback to $1.00 with volume; max 6% portfolio allocation.",
-      "exit_plan": "Take profits at $1.50 (36% gain, near prior highs) or $1.75 (60% to avg PT); invalidate below $0.95 (earnings gap fill).",
+      "diversity_bucket": "small-cap-speculative / gaming-digital-media",
+      "entry_plan": "No entry. Under current information, GameSquare should not be included as a paper-trade long candidate. If monitored at all, it should be from the sidelines until: (a) the balance sheet is materially repaired (e.g., refinancing, equity raise that clears short-term liquidity risk), (b) management reduces crypto leverage and exposure, and (c) the company demonstrates a credible path toward operating breakeven excluding digital-asset gains/losses.",
+      "exit_plan": "N/A \u2013 no position recommended. If a hypothetical speculative paper position were taken contrary to this framework, a tight downside guard (e.g., 10\u201315% max loss) and a hard time stop of 3\u20135 days around the catalyst would be essential, given binary financing and sentiment risks.",
       "fresh_catalyst": true,
-      "growth_runway": "HD Phase 3 data (V007 superior usability); trauma commercialization ramp; 30-180d: Q2 updates, potential partnerships.",
-      "hf_evidence_rank": 8.0,
+      "growth_runway": "Conceptually, there is a runway in gaming/esports media, talent management, and marketing as brands increasingly target gaming and creator-economy audiences. The inclusion of agencies like Zoned, Code Red, Click, and the FaZe brand platform could support multi-year expansion across sponsorships, content, and SaaS. However, this theoretical runway is overshadowed over the next 30\u2013180 days by immediate liquidity, crypto-mark-to-market, and financing risks. Long-term growth is moot if the capital structure is not stabilized.",
+      "hf_evidence_rank": 0.75,
       "hf_filter_vetoes": [],
       "hf_hype_risk": 0.2,
-      "hf_memory_similarity": 0.0,
-      "hf_model_notes": "",
+      "hf_memory_similarity": 0.3,
+      "hf_model_notes": "The 10-Q-derived summary from StockTitan is treated as high-quality evidence emphasizing credit and liquidity risk rather than upside catalysts. No hype patterns or listicle-style promotion detected in the provided snippet.",
       "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "",
-      "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 9.0,
-      "horizon_days": 7,
-      "margin_of_safety_case": "Trading at $1.10 vs $7.71 consensus PT (611% upside); mkt cap $243M vs clinical milestones runway; cash position supports runway despite burn.",
-      "market_regime": "Risk-off favors quality defensives but biotechs volatile; healthcare resilient if inflation erodes synthetics/reimbursement.",
-      "momentum_case": "+20% on earnings (from ~$0.91 to $1.10), YTD +12%; broke 52w high $2.93 resistance zone on 2.6x volume.",
-      "owner_hold_case": "HD Phase 3 readout + Symvess revenue scale to $10M+ quarterly; monitor for 30-180d if beats guidance.",
-      "quality_case": "Proprietary regenerative HAVs address unmet needs in ESRD/PAD/trauma (superior patency/infection rates vs synthetics per Phase 3); FDA-approved product derisks vs pure pipeline plays; $243M mkt cap undervalues Phase 3 HD access potential.",
-      "recommendation": "execute-if-guards-pass",
-      "repeat_count_48h": 0,
-      "research_tier": "execution-ready",
-      "risk_reward": "3:1 (8% downside to stop vs 36% upside to first target); defined post-earnings gap risk.",
-      "sector": "healthcare-biotech",
-      "signal_weights": {
-        "congressional_signal": 0.0,
-        "social_buzz": 0.0
-      },
-      "social_buzz": "none",
-      "source_quality": "Strong: MarketBeat/Tipranks consensus data, direct earnings (EPS/revenue beat), BTIG note, Panabee report; multi-source confirmation.",
-      "source_urls": [
-        "https://www.marketbeat.com/stocks/NASDAQ/HUMA/",
-        "https://www.panabee.com/news/humacyte-earnings-q1-2026-report",
-        "https://www.gurufocus.com/news/8856049/huma-maintained-by-btig-price-target-lowered-to-200"
-      ],
-      "stop_loss_percent": 8.0,
-      "strategy_tags": [
-        "chittick_cash"
-      ],
-      "symbol": "HUMA",
-      "target_allocation_percent": 6.0,
-      "thesis": "Clinical-stage biotech with FDA-approved Symvess (HAV) for vascular trauma; early revenue ramp + EPS beat signal commercialization traction in high-need vascular access market.",
-      "valuation_case": "Deep discount to PTs ($3-25 range); pre-revenue but revenue inflection + beats justify multiple expansion vs peers."
-    },
-    {
-      "adversary_case": "Neg profitability caps near-term multiple.",
-      "allocation_learning_note": "",
-      "balance_sheet_risk": "Growth spend pressure.",
-      "bear_case": "Neg adjusted EBITDA from growth spend; small cap execution risk.",
-      "capital_allocation_case": "Investment-focused.",
-      "catalyst": "Q1 2026 earnings: revenue $8.8M (+9% YoY), $82M placed in plans; FY guide $45-50M.",
-      "catalyst_type": "earnings",
-      "chittick_cash_score": 72.0,
-      "chittick_reject_reason": "",
-      "concentration_case": "Niche health-tech vs broad.",
-      "confidence": 0.7,
-      "congressional_signal": "none",
-      "diversity_bucket": "healthcare-health-tech",
-      "entry_plan": "Watch for $12-15 range breakout on volume tomorrow.",
-      "exit_plan": "Target FY guide multiple; stop below earnings low.",
-      "fresh_catalyst": true,
-      "growth_runway": "Placement volume expansion.",
-      "hf_evidence_rank": 7.0,
-      "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.0,
-      "hf_memory_similarity": 0.0,
-      "hf_model_notes": "",
-      "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "",
-      "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 8.0,
+      "hf_sentiment_label": "negative/concerned",
+      "hf_sentiment_score": 0.1,
+      "hf_source_quality_score": 0.8,
       "horizon_days": 5,
-      "margin_of_safety_case": "Guide implies 25%+ growth; small cap discount.",
-      "market_regime": "Risk-off tolerant if healthcare defensives hold.",
-      "momentum_case": "Post-earnings volume implied; aligns with healthcare tailwinds.",
-      "owner_hold_case": "FY beat + profitability inflection.",
-      "quality_case": "Recurring revenue model in employer health plans; growth investments despite neg EBITDA show discipline.",
-      "recommendation": "watch",
+      "margin_of_safety_case": "Margin of safety is very low. The company\u2019s valuation (not quantified in the snippet but inferably fragile) sits atop a capital structure with a working capital deficit, a large accumulated deficit, substantial crypto-linked balance-sheet volatility, and a going concern warning. These conditions mean that even if revenue growth persists, equity holders bear first-loss risk in any negative scenario, and future capital raises are likely to be dilutive. This fails the Chittick Cash focus on durable balance sheets and downside protection.",
+      "market_regime": "In a late-cycle risk-on environment, speculative micro-cap names can rally sharply on news or risk appetite, but they are also the first to be hit if volatility returns or if investors rotate back into quality and defensives. Given the company\u2019s going concern warning and balance-sheet fragility, the current regime amplifies tail risk without providing sufficient fundamental offset; this is the type of name that could be whipsawed by a risk-off shift.",
+      "momentum_case": "There is no verified evidence from the provided sources of sustained positive price momentum, high-volume breakouts, or constructive technical trends. The narrative around the quarter emphasizes large crypto-related losses overshadowing revenue growth, which is more consistent with pressure or at best choppy trading than with clean, trend-following momentum. Without clear evidence of a positive reaction to earnings (e.g., volume spike with a strong price move and follow-through), a 1\u201310 day swing setup is not justified.",
+      "owner_hold_case": "To even consider a 30\u2013180 day owner-style hold, the company would need to (1) secure financing or execute a transaction that materially removes the going concern overhang and addresses the working capital deficit; (2) clearly reduce digital-asset and ETH-fund exposure and/or hedge it in a way that de-levers the balance sheet; (3) demonstrate a credible path to operating breakeven (or better) excluding crypto gains/losses; and (4) show at least one or two quarters of execution that confirms clients and revenue growth are durable. Until then, owner-style holding is not justified.",
+      "quality_case": "Business quality is weak relative to our framework. On the positive side, GameSquare operates a vertically integrated gaming and digital-media platform with agencies (Zoned, Code Red, Click), content, SaaS, and sponsorship streams, plus the FaZe brand exposure, all targeting structurally growing gaming and youth-culture advertising budgets. However, the core operations still lose money (approximately $3.4M operating loss before other income/expenses in Q1 2026), and the capital structure is fragile: large accumulated deficit, working capital deficiency, and reliance on digital assets and ETH-backed debt. The going concern language in the 10-Q is a serious red flag. This combination fails the margin-of-safety, balance-sheet-strength, and durable-profitability criteria central to Chittick Cash and Buffett/Munger discipline.",
+      "recommendation": "avoid",
       "repeat_count_48h": 0,
       "research_tier": "watch",
-      "risk_reward": "2:1 potential on guide beat.",
-      "sector": "healthcare-insurance",
+      "risk_reward": "Asymmetrically skewed to the downside for a quality-focused, evidence-based strategy. Upside depends on speculative re-rating or crypto sentiment improving, while downside includes dilution, further asset write-downs, and even restructuring. The margin of safety is poor, and the reward is heavily contingent on factors outside management\u2019s operational control.",
+      "sector": "communication-services / digital media & entertainment (gaming/esports marketing)",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
-      "social_buzz": "none",
-      "source_quality": "Strong: Benzinga full transcript.",
+      "social_buzz": "none identified from provided sources; no evidence of unusual real-time social or retail-attention spike to justify a momentum swing thesis.",
+      "source_quality": "Strong for risk assessment, weak for bullish thesis. The primary information is from the company\u2019s own 10-Q as summarized by StockTitan, which provides detailed financial metrics (revenue, net loss, size of digital-asset exposure, ETH fund, promissory notes, deficits) and explicit going concern language. This is high-quality for understanding risk and business fragility. However, there are no corroborating sources indicating positive price action, analyst upgrades, or institutional sponsorship that would support a near-term long.",
       "source_urls": [
-        "https://www.benzinga.com/insights/news/26/05/52547916/health-in-tech-q1-2026-earnings-call-complete-transcript"
+        "https://www.stocktitan.net/sec-filings/GAME/10-q-game-square-holdings-inc-quarterly-earnings-report-7d3501e733d2.html"
       ],
-      "stop_loss_percent": 7.0,
+      "stop_loss_percent": 0.0,
       "strategy_tags": [
-        "chittick_cash"
+        "chittick_cash",
+        "quality-screen",
+        "risk-flag",
+        "avoid-list"
       ],
-      "symbol": "HIT",
-      "target_allocation_percent": 4.0,
-      "thesis": "Health-tech platform for self-funded stop-loss insurance; revenue growth + placement volume signal market share gains.",
-      "valuation_case": "Attractive on revenue trajectory."
+      "symbol": "GAME",
+      "target_allocation_percent": 0.0,
+      "thesis": "GameSquare Holdings is showing strong top-line growth in gaming/esports-related digital media and marketing, but its Q1 2026 10-Q reveals heavy digital-asset losses, ETH-backed leverage, a working capital deficit, and a going concern warning. This is not a fit for a quality-focused Chittick Cash lens; it belongs on a cautionary watchlist rather than in a paper-trade portfolio.",
+      "valuation_case": "No compelling valuation argument can be made from the provided information. The main narrative is not about undervaluation relative to cash flows or assets but about revenue growth overshadowed by crypto losses and leverage. Without positive free cash flow, stable margins, or hard-asset backing, any valuation case would be speculative and difficult to anchor in traditional metrics, contrary to Buffett/Munger discipline."
     }
   ],
-  "summary": "Biotech mixed with HUMA showing Q1 revenue growth and EPS beat but analyst PT cut; HIT health-tech revenue up 9% YoY; broader market risk-off with hawkish Fed, inflation, VIX premium persisting."
+  "summary": "The tape remains broadly risk-on but fragile: U.S. indexes are near highs with strong mega-cap/AI leadership, while sector breadth is narrowing and macro risks (inflation, rates, geopolitics) argue for selective, catalyst-driven entries and disciplined risk controls."
 }
 -->
 
@@ -1204,4 +1149,10 @@
 |---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
 | HUMA | healthcare-biotech | execution-ready | healthcare-biotech | 0 | yes | 0.78 | 70 | 9 | 0 | 6.0% | 8.0% | execute-if-guards-pass | Q1 2026 earnings May 13: product revenue $0.5M (up from $0.1M YoY), EPS -$0.09 beat consensus -$0.10 by $0.01; stock +20% intraday on volume 16.86M vs avg 6.4M. |
 | HIT | healthcare-insurance | watch | healthcare-health-tech | 0 | yes | 0.70 | 72 | 8 | 0 | 4.0% | 7.0% | watch | Q1 2026 earnings: revenue $8.8M (+9% YoY), $82M placed in plans; FY guide $45-50M. |
+
+## Latest Candidates - 2026-05-14 21:35:59 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| GAME | communication-services / digital media & entertainment (gaming/esports marketing | watch | small-cap-speculative / gaming-digital-media | 0 | yes | 0.78 | 18 | 1 | 0 | 0.0% | 0.0% | avoid | Q1 2026 10-Q and earnings disclosure: revenue nearly doubled year over year to $14.5M, but net loss widened to $17.7M, driven by $14.6M in realized and unrealiz |
 

@@ -10750,4 +10750,132 @@ SEC/company quality check:
   "quality_notes": "APGE shows durable demand signals in AD (71% EASI reduction Phase 2a, 75-85% maintenance EASI-75 at 52w), asthma (FeNO suppression), broad I&I pipeline; high R&D spend validates execution but pre-revenue. HUMA durable in trauma (92.9% infection-free, 82.5% limb salvage 24mo; superior vs synthetics), HD usability (81% 6mo patency vs 66% AVF); Phase 3 beats in key subgroups (women/diabetics). WSC/RRX standard industrials, no standout durability. CLSD high risk (distress). No GOOGL/INTC/USAR/GT. Balance sheet: APGE cash-strong post-raise but burning; HUMA clinical-stage. Revenue quality N/A (pre-revenue). Capital allocation: APGE equity raises dilute; HUMA trial-focused.",
   "source_urls": []
 }
+## Source And Signal Research - 2026-05-14 21:35:59 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+{
+  "summary": "No unusual or verifiable spikes in social or news attention for specific liquid US stocks or ETFs could be confirmed from the available sources in this environment. Any recent mentions of names like COIN, GLD, LMT, UNH, LGVN, HUMA, or HIT in your internal logs should be treated as strategy or screening context, not as evidence of current external buzz.",
+  "social_buzz": [],
+  "attention_anomalies": [],
+  "source_urls": []
+}
+
+Congressional disclosures, max 5% influence:
+{
+  "summary": "Recent public congressional-related market context includes: (1) Arista Networks (ANET) has seen 6 reported trades by members of Congress in the last 6 months (4 buys, 2 sells), with Senator John Boozman disclosing two purchases worth up to $30,000 each in November and December; (2) multiple new bipartisan and sector-relevant bills were introduced or highlighted (e.g., Uyghur Forced Labor Disclosure Act, Combating Organized Retail Crime Act, Monitor Accountability Act, Puerto Rico debt/hedge fund oversight efforts), which may indirectly affect regulatory or reputational risk for related sectors but do not constitute direct trading signals; (3) several issuers reported financings or clinical/operational milestones (e.g., WLFC convertible notes, CLRB/SNTI/HUMA/biotech pipeline updates, FWDI Solana-related revenue growth), but available congressional data in these snippets is primarily fundraising/spending or general legislative activity, not fresh trading disclosures in those specific tickers. Overall, the only clearly identified recent congressional stock-trade activity in the provided materials is in ANET, and even that data is inherently delayed and should be treated as a weak, secondary input rather than a primary catalyst.",
+  "congressional_signal": {
+    "overall_view": "Congressional trading and political-activity data in the supplied context are sparse, delayed, and should only be used as a low-weight, secondary qualitative input. They are not suitable as primary trading catalysts.",
+    "by_ticker": [
+      {
+        "ticker": "ANET",
+        "signal_type": "congressional_trading",
+        "direction": "mixed-bullish",
+        "details": {
+          "trades_last_6_months": 6,
+          "purchases": 4,
+          "sales": 2,
+          "notable_traders": [
+            {
+              "name": "John Boozman",
+              "chamber": "Senate",
+              "party": "R",
+              "state": "AR",
+              "trade_count": 2,
+              "purchases": 2,
+              "sales": 0,
+              "max_reported_value_usd": 30000,
+              "approx_trade_dates": [
+                "2025-11-13",
+                "2025-12-11"
+              ]
+            }
+          ]
+        },
+        "timeliness": "stale",
+        "weighting_rationale": "Disclosures are reported with a lag and reflect past activity; they may indicate general congressional interest but do not provide timely tradeable information."
+      }
+    ],
+    "legislative_context": [
+      {
+        "bill": "Uyghur Forced Labor Disclosure Act (H.R.8712)",
+        "sponsor": "Suhas Subramanyam (D-VA)",
+        "type": "supply_chain_human_rights_disclosure",
+        "potential_market_relevance": "Could increase disclosure and compliance burdens for publicly traded companies with exposure to Chinese supply chains, especially in apparel, electronics, and other goods potentially linked to Xinjiang; no direct tickers or trades identified."
+      },
+      {
+        "bill": "Combating Organized Retail Crime Act",
+        "sponsor": "Eric Sorensen and others",
+        "type": "law_enforcement/retail_crime",
+        "potential_market_relevance": "May impact retailers and e-commerce platforms via enforcement and reporting changes around organized retail theft; no associated congressional stock trades in the provided context."
+      },
+      {
+        "bill": "Monitor Accountability Act",
+        "sponsor": "Andy Biggs (R-AZ)",
+        "type": "public_housing_monitor_oversight",
+        "potential_market_relevance": "Focuses on federal monitors/receivers; indirect implications for entities interacting with federal housing authorities; no ticker-specific trading data in the snippets."
+      },
+      {
+        "bill": "Keeping Violent Offenders Off Our Streets Act",
+        "sponsor": "Scott Fitzgerald (R-WI)",
+        "type": "criminal_justice/bail_reform",
+        "potential_market_relevance": "Primarily a public safety and judicial process bill; any market effects would be highly indirect (e.g., security, insurance, or local economic impacts)."
+      }
+    ],
+    "fundraising_disclosures": [
+      {
+        "politician": "Joseph D. Morelle",
+        "reported_fundraising_q1_2026_usd": 180800,
+        "market_relevance": "Standard campaign finance disclosure; no associated trading or issuer-specific information."
+      },
+      {
+        "politician": "Linda T. Sánchez",
+        "reported_fundraising_q1_2026_usd": 391600,
+        "market_relevance": "Campaign finance; no issuer-level trading data attached in the provided snippets."
+      },
+      {
+        "politician": "Eric Sorensen",
+        "reported_fundraising_q1_2026_usd": 270600,
+        "reported_spending_q1_2026_usd": 61200,
+        "market_relevance": "Campaign disclosure; not directly tied to any stock or ETF in the excerpts."
+      },
+      {
+        "politician": "Andy Biggs",
+        "reported_fundraising_q1_2026_usd": 0,
+        "reported_spending_q1_2026_usd": 9100,
+        "market_relevance": "Campaign/spending update; no stock/ETF trades referenced."
+      },
+      {
+        "politician": "Scott Fitzgerald",
+        "reported_fundraising_q1_2026_usd": 323500,
+        "market_relevance": "Campaign finance detail; no tickers or trade data provided."
+      }
+    ],
+    "usage_caveats": [
+      "Congressional trade disclosures are often filed weeks or months after trades occur, making them lagging indicators.",
+      "Reported value ranges (e.g., 'up to $30,000') are imprecise; position size and conviction cannot be inferred reliably.",
+      "Legislative and fundraising activity can shape long-term regulatory or reputational risk profiles for sectors but rarely offers precise, time-sensitive trade signals.",
+      "This information should not be treated as a recommendation to buy, sell, or hold any security."
+    ]
+  },
+  "tickers": [
+    {
+      "symbol": "ANET",
+      "name": "Arista Networks, Inc.",
+      "context": "Liquid US large-cap networking/AI-infrastructure stock with recent price strength driven by AI-networking optimism and analyst target hikes; identified in disclosures as having 6 congressional trades over the last 6 months, skewed toward purchases, but those filings are delayed and should be treated as low-weight supplemental context."
+    }
+  ],
+  "source_urls": [
+    "https://www.quiverquant.com/news/Arista+Networks+jumps+as+AI-networking+optimism+builds+after+upbeat+results+and+analyst+target+hikes",
+    "https://www.quiverquant.com/news/Press+Release:+Rep.+Suhas+Subramanyam+Introduces+Bipartisan+Uyghur+Forced+Labor+Disclosure+Act",
+    "https://www.quiverquant.com/news/Press+Release:+Congressman+Eric+Sorensen+Votes+in+Favor+of+Bipartisan+Combating+Organized+Retail+Crime+Act",
+    "https://www.quiverquant.com/news/Press+Release:+Major+Law+Enforcement+Organizations+Express+Support+for+Congressman+Andy+Biggs%E2%80%99s+Monitor+Accountability+Act",
+    "https://www.quiverquant.com/news/Press+Release:+Scott+Fitzgerald's+Keeping+Violent+Offenders+Off+Our+Streets+Act+Passes+in+House",
+    "https://www.quiverquant.com/news/Press+Release:+Vel%C3%A1zquez,+Torres,+and+Warren+Seek+Clarity+from+Warsh+on+Hedge+Fund+Ties+to+Puerto+Rico+Debt+Crisis",
+    "https://www.quiverquant.com/news/Press+Release:+Congressman+Joe+Morelle+Introduces+Protecting+Our+Democracy+Act+to+Address+Government+Corruption",
+    "https://www.quiverquant.com/news/Press+Release:+Linda+S%C3%A1nchez+Leads+Congressional+Delegation+in+Call+for+Answers+on+Taiwan's+WTO+Exclusion"
+  ]
+}
+
+SEC/company quality check:
+{"summary":"Current watchlist evidence is strongest for APGE and HUMA, but both remain pre-profit biotech names with material execution and financing risk. APGE shows durable clinical demand signals across multiple programs (APEX AD and asthma data, APG279/APG333 progress) plus a strengthened balance sheet after a $377.4 million net equity raise in March 2026 and $29.7 million ATM gross proceeds in Q1 2026. HUMA has clearer commercial validation with FDA approval of Symvess, supportive long-term durability/infection data, and repeated trial results showing patency and infection advantages, but its revenue base is still early and concentration/launch-execution risk remains high. For Chittick Cash memory names, the strongest SEC-based quality concerns are INTC and GOOGL/GOOG-style concentration/valuation issues and USAR/GT capital-allocation or demand cyclicality concerns; however, no fresh filings for those exact names were provided in the current search set, so no new filing-backed change is asserted here.","filing_risks":[{"symbol":"APGE","risks":["No product revenue yet; company states it has not generated revenue from product sales and does not expect product revenue for several years, if at all.","Persistent operating losses and accumulated deficit; Q1 2026 net loss was $74.1 million and accumulated deficit was $635.9 million.","Dilution risk is elevated after the March 2026 follow-on offering and ongoing ATM usage.","Pipeline concentration risk: value depends heavily on a small number of clinical assets (zumilokibart/APG777, APG279, APG273, APG808).","Clinical/regulatory execution risk remains high because Phase 3 in AD is not yet started and future indication expansion depends on upcoming data/readouts."],"supporting_evidence":["\"We have not generated any revenue from product sales and do not expect to generate any revenue from the sale of products for several years, if at all.\"","\"We generated a net loss of $74.1 million for the three months ended March 31, 2026.\"","\"As of March 31, 2026, we had an accumulated deficit of $635.9 million.\"","\"On March 26, 2026... we issued and sold... 5,750,000 shares... The aggregate net proceeds... were $377.4 million\"","\"During the three months ended March 31, 2026, we sold 369,220 shares... under our ATM Facility\""]},{"symbol":"HUMA","risks":["Commercialization risk: despite FDA approval, current reported product revenue remains very small and the business is not yet diversified.","Clinical/regulatory mix is favorable, but one key trial missed its primary endpoint in one analysis window (V006 24-month secondary patency non-inferiority not demonstrated).","Execution risk around adoption, reimbursement, manufacturing scale-up, and trauma-center uptake remains material.","Potential concentration risk in a single approved product platform (Symvess/ATEV) plus ongoing dependence on further expansion indications.","Healthcare policy/pricing and launch reimbursement could affect revenue quality and valuation."],"supporting_evidence":["\"On December 19, 2024, the FDA granted full approval for the ATEV...\"","\"Symvess maintained an infection-free rate of 92.9% from months 3-36...\"","\"The secondary patency of the ATEV was greater than that of ePTFE at six and 12 months but lower at 18 and 24 months... the ATEV did not achieve its primary efficacy endpoint regarding secondary patency.\"","\"We have incurred significant operating losses since inception\" (company risk context in filing)","Revenue still appears early-stage from the provided latest candidate note: Q1 2026 product revenue was only $0.5M."]},{"symbol":"WSC","risks":["Leverage and refinancing risk are explicitly highlighted as substantial indebtedness remains a core risk.","Demand sensitivity to macroeconomic conditions and customer end-market cyclicality is meaningful because the business serves construction, industrial, and project-based users.","Competition and execution risk in modular space and portable storage can pressure pricing and fleet utilization.","Capital allocation risk exists because the company relies on debt, acquisitions, and ongoing fleet investment to sustain growth and returns.","Valuation risk can be elevated when growth is tied to leveraged M&A integration and market-dependent utilization."],"supporting_evidence":["\"the Company's substantial indebtedness as a result of the Altra Transaction and the effects of such indebtedness on the Company's financial flexibility\"","\"economic conditions and changes therein, including financial market conditions and levels of end market demand\"","\"our ability to effectively compete in the modular space and portable storage industries\"","\"our ability to access the capital and credit markets or the ability of key counterparties to perform their obligations to us\"","\"our ability to service our debt and operate our business\""]},{"symbol":"RRX","risks":["Substantial indebtedness from prior acquisitions remains a central financial risk.","Integration/synergy realization risk persists after Altra and Rexnord PMC transactions and divestitures.","Tariff, trade-policy, and supply-chain exposure are explicit concerns.","Customer concentration and order volatility can affect revenue quality and margin durability.","Acquisition-driven capital allocation introduces valuation and execution risk if synergies or deleveraging lag."],"supporting_evidence":["\"the Company's substantial indebtedness as a result of the Altra Transaction and the effects of such indebtedness on the Company's financial flexibility\"","\"the Company's ability to achieve its objectives on reducing its indebtedness on the desired timeline or at all\"","\"dependence on key suppliers and the potential effects of supply disruptions\"","\"changes to trade policies, imposition of tariffs or trade restrictions\"","\"unanticipated operating costs, customer loss and business disruption\""]},{"symbol":"GLXY","risks":["Business mix remains highly sensitive to digital-asset market volatility and regulatory change.","The company is a newly listed U.S. reporting issuer with limited operating history as a U.S. public company.","Counterparty, custody, cybersecurity, and litigation risks are material across crypto markets and infrastructure.","Data center growth depends on long-lead-time power, lease-up, and customer concentration at Helios/CoreWeave.","Valuation risk is high because the offering depends on growth assumptions in nascent AI/HPC and crypto businesses."],"supporting_evidence":["\"Our operating results have and will significantly fluctuate due to a variety of factors, including the highly volatile nature of cryptocurrency.\"","\"We have limited operating history. Our business lines are nascent, unproven and subject to material legal, regulatory, operational, reputational, tax and other risks\"","\"Our AI/HPC data center business model is predicated... on establishing and maintaining a customer base that will generate a recurring stream of revenues.\"","\"Our and our third-party service providers’ failure to safeguard and manage our and our customers’ funds and digital assets could adversely impact our business\"","\"The market price and trading volume of our Class A common stock may be volatile.\""]}],"quality_notes":["APGE quality is improving on clinical readthrough and balance-sheet strength, but this is still an R&D-funded platform company with no approved product revenue and heavy dilution history.","HUMA has the strongest durable-demand evidence in the provided set because FDA approval plus long-term infection/patency data support a real product thesis, but the revenue base is still early and one pivotal readout had an important miss at longer follow-up.","WSC and RRX look fundamentally more mature than the biotech names, but both filings explicitly emphasize leverage, macro sensitivity, and execution/integration risk; those issues matter more than headline revenue growth.","GLXY’s filing shows real scale, but the business remains exposed to crypto price cycles, regulation, concentration in Helios/CoreWeave, and valuation fragility typical of early public-market re-ratings.","No fresh SEC filings for GOOGL/GOOG, INTC, USAR, or GT were included in the provided search results, so I am not asserting updated filing-based conclusions for those names beyond the memory note."],"source_urls":["https://www.sec.gov/Archives/edgar/data/1974640/000119312526109999/d123456d10q.htm","https://www.sec.gov/Archives/edgar/data/1818382/000181838226000010/huma-20251231.htm","https://www.sec.gov/Archives/edgar/data/1647088/000164708826000012/wsc-20251231.htm","https://www.sec.gov/Archives/edgar/data/82811/000008281126000010/rrx-20251231.htm","https://www.sec.gov/Archives/edgar/data/1859392/000185939225000021/glxy-s1.htm"]}
 

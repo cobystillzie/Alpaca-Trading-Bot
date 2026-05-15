@@ -13320,4 +13320,19 @@ Model notes: none
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: https://www.benzinga.com/insights/news/26/05/52547916/health-in-tech-q1-2026-earnings-call-complete-transcript
+## Research Update - 2026-05-14 21:35:59 Eastern Daylight Time
+
+Research Update
+
+Market tone: The tape remains broadly risk-on but fragile: U.S. indexes are near highs with strong mega-cap/AI leadership, while sector breadth is narrowing and macro risks (inflation, rates, geopolitics) argue for selective, catalyst-driven entries and disciplined risk controls.
+Candidates: 1
+
+1. GAME (communication-services / digital media & entertainment (gaming/esports marketing)) | confidence 0.78 | allocation 0.0% | stop 0.0% | Chittick 18/100 | tier watch | bucket small-cap-speculative / gaming-digital-media | HF source 1/100
+Recommendation: avoid
+Catalyst: Q1 2026 10-Q and earnings disclosure: revenue nearly doubled year over year to $14.5M, but net loss widened to $17.7M, driven by $14.6M in realized and unrealized digital-asset and ETH-fund losses; management disclosed substantial doubt...
+Chittick Cash: Margin of safety is very low. The company’s valuation (not quantified in the snippet but inferably fragile) sits atop a capital structure with a working capital deficit, a large accumulated deficit, substantial crypto...
+HF filter: sentiment=negative/concerned source=1/100 hype=0.20 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=small-cap-speculative / gaming-digital-media
+Social buzz, low weight: none identified from provided sources; no evidence of unusual real-time social or retail-attention spike to justify a momentum swing thesis.
+Congress signal, low weight: none
 
