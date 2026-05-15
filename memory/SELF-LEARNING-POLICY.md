@@ -12,91 +12,53 @@ This policy is updated by the weekly review and must be read by research, premar
 
 ## Current Weekly Findings
 
-- Repeated symbols in recent watchlist: SCHD x19, WS x9, GLRE x8, MUX x8, VYM x7, DT x4, PEG x4, GDX x3.
-- Current candidate diversity buckets: dividend-etf-defensive, software-observability, technology-semiconductors.
-- Overused recent diversity buckets: broad-market-etf x31, other x27, industrials-power x14, financials x8, consumer x4, semiconductors-ai x4.
+- Repeated symbols in recent watchlist: GLD x7, LMT x5, UNP x4, COIN x3.
+- Current candidate diversity buckets: consumer-discretionary-ETF, consumer-staples-defensive.
+- Overused recent diversity buckets: industrials-power x11, broad-market-etf x10, other x5, healthcare-biotech x4, financials x3.
 - Weekly review must disclose any code or prompt edits through Telegram before commit/push.
 
 ## Latest Review Input
 
-```json
 {
-  "analysis_date": "2026-05-08",
-  "status": "CAUTIOUS - SIGNIFICANT OPERATIONAL ISSUES DETECTED",
-  "critical_findings": {
-    "stale_ticker_concentration": {
-      "severity": "HIGH",
-      "evidence": [
-        "SCHD: 20 repeat cycles in 48 hours (2026-05-06 to 2026-05-08)",
-        "MUX: 7 repeat cycles, confidence degrading (0.82→0.78), HF veto flag appeared",
-        "GLRE: 7 repeat cycles, static catalyst text",
-        "WS: 8 repeat cycles, identical 10-K commentary",
-        "VYM: 11 repeat cycles, allocation-constrained status"
-      ],
-      "root_cause": "Memory system not pruning stale candidates; research loop recycling same tickers without new catalyst discovery",
-      "impact": "Portfolio concentration risk; diminishing research signal-to-noise ratio"
+  "lessons": [
+    {
+      "id": "lesson_repeat_staleness",
+      "text": "The bot is repeatedly surfacing the same tickers (e.g., SCHD 20+ times, UNP ~9 times, GLD multiple times in 48 hours, SQ/INTC with 7–8 repeats) with near-identical catalysts. Staleness penalties exist but are too weak; the research output is dominated by recycled names instead of new opportunities."
     },
-    "allocation_blocking_pattern": {
-      "severity": "HIGH",
-      "evidence": [
-        "VYM flagged 'watch-allocation-constrained' (2026-05-07 07:16:10)",
-        "MUX flagged 'watch-allocation-constrained' (2026-05-08 10:51:27)",
-        "SCHD locked at 8.0% allocation across 20 cycles",
-        "No portfolio rebalancing or exit signals observed"
-      ],
-      "root_cause": "Allocation ceiling hit but no position-sizing strategy or trim logic triggered",
-      "impact": "Execution paralysis on high-conviction candidates; capital inefficiency"
+    {
+      "id": "lesson_allocation_constraints",
+      "text": "Allocation and max-position rules are working (many trades rejected for >15% single-name or max open positions), but upstream candidate generation is not aware enough of these constraints and keeps re-proposing allocation-blocked or position-count-blocked names (e.g., FPS, GOOGL, NVDA, AEP). This wastes research bandwidth."
     },
-    "rejected_trade_analysis": {
-      "severity": "MEDIUM",
-      "pattern": "Allocation ceiling + leverage ban + social-signal weakness",
-      "rejected_count": 13,
-      "key_rejections": [
-        "SPMO: 3x rejected (allocation ceiling)",
-        "GOOGL: 3x rejected (allocation ceiling)",
-        "NVDA: 2x rejected (allocation ceiling)",
-        "PLTR: 4x rejected (banned v1 leverage + weak social signal + staleness)",
-        "INTC/ADI/GSK: Rejected for staleness + HF memory filter similarity flags"
-      ],
-      "interpretation": "System correctly blocking over-concentration but lacks dynamic rebalancing to unlock capital"
+    {
+      "id": "lesson_sector_concentration",
+      "text": "There is persistent over-focus on a few themes: semiconductors/AI (NVDA, INTC, PDFS, AI infra names), dividend/value ETFs (SCHD, DFAT, SPUS), and a handful of industrials/defensive names (UNP, GLD, LMT, utilities). Other sectors (e.g., diversified healthcare, global ex-US equity, broader consumer, small-cap non-AI) are under-researched."
+    },
+    {
+      "id": "lesson_execution_vs_research_mismatch",
+      "text": "Multiple candidates reach 'execution-ready' (GLD, UNH, AEP, HUMA, XRT), but many are then blocked by v1 bans or max-position rules. The research pipeline does not sufficiently incorporate the current execution constraints and banned patterns, leading to repeated generation of un-executable ideas."
+    },
+    {
+      "id": "lesson_filter_rigidity",
+      "text": "HF filters and the banned-v1 logic are very conservative (blocking GLD, COIN, LMT, FPS/VRT/FLEX, AEP/ORCL/ROP even when catalysts appear solid), which helps avoid hype, but the current implementation is blunt: once a name or pattern is flagged, subsequent higher-quality evidence is often ignored instead of reassessed."
+    },
+    {
+      "id": "lesson_signal_quality",
+      "text": "The bot correctly de-emphasizes low-weight social/congress buzz (rejections of PLTR, EWY, EWT, LMT, ORCL where social/congress is thin). However, this sometimes leads to discarding otherwise valid ideas without first checking if fundamental or institutional evidence can independently justify a trade."
+    },
+    {
+      "id": "lesson_daily_output_pattern",
+      "text": "Daily candidate tables show a pattern of incremental tweaks to the same stories (e.g., UNP grain volumes, India gold duty, SEC semiannual reporting) instead of novel angles or risk updates. This leads to repetitive daily research output with low marginal information gain."
     }
-  },
-  "filter_quality_assessment": {
-    "chittick_cash_score": {
-      "rating": "NEUTRAL_TO_WEAK",
-      "observation": "Scores range 42–78; no clear correlation with execution-ready tier or confidence",
-      "example_noise": [
-        "DRCT (adtech): Chittick 42, HF Source 0, confidence 0.55 → still execution-ready",
-        "INUV (adtech): Chittick 52, confidence 0.68 → watch tier",
-        "Inconsistent weighting suggests Chittick not primary decision driver"
-      ],
-      "verdict": "Added complexity without improving candidate ranking; consider deprecating or reweighting"
+  ],
+  "rejected_patterns": [
+    {
+      "pattern": "stale_repeated_tickers",
+      "description": "Tickers with high repeat counts and no materially new catalysts continue to be surfaced. Examples: SCHD (20+ repeats with similar value/dividend rotation thesis), UNP (same grain-volume and SEC reporting angle re-used), GLD (same India duty hike catalyst repeated multiple times), SQ/INTC (upgrades and price action recycled).",
+      "risk": "Crowds out fresher ideas, encourages overfitting to a small ticker universe, and can nudge the bot towards 'story addiction' rather than balanced portfolio research.",
+      "action": "Introduce explicit hard caps and cool-downs on repeats and require a genuinely new catalyst or thesis update to re-qualify."
     },
-    "hugging_face_filters": {
-      "rating": "MIXED_SIGNAL",
-      "positive": [
-        "HF Source/Veto flags caught PLTR leverage references (correct)",
-        "Memory similarity filter flagged ADI/GSK/INTC repeats (correct)"
-      ],
-      "negative": [
-        "HF Source counts (0, 7, 8, 9) lack transparency; unclear what constitutes 'source'",
-        "HF Veto column mostly 0–1; low signal frequency",
-        "MUX veto appeared late (2026-05-08) after 7 cycles; delayed detection"
-      ],
-      "verdict": "Useful for hard blocks (leverage, banned instruments) but noisy for ranking; improve source taxonomy"
-    },
-    "social_buzz_congressional_signals": {
-      "rating": "WEAK_TO_NOISE",
-      "evidence": [
-        "PEG: 15 repeats on 'low-weight congressional volume signal' alone",
-        "FATE: Officer option exercise flagged as +49.67% monthly gainer (insider activity ≠ catalyst)",
-        "DRCT: Hermes awards (9,360% ROI claim) cited but no earnings/guidance follow-up",
-        "Congressional signal on PEG never escalated despite 15 cycles"
-      ],
-      "verdict": "Social/congressional signals are low-conviction noise; require corroboration with earnings, guidance, or technical setup"
-    }
-  },
-  "sector_diversity_audit": {
-    "overweight_sectors": [
-      "Materials/Mining: MUX, GDX, FSM, OLA (4 candidates, 7–8% allocations)",
-      "Dividend/Value ETFs: SCHD, V
+    {
+      "pattern": "allocation_blocked_resurfacing",
+      "description": "Names repeatedly re-enter the candidate list even when allocation/margin/position-count constraints make them untradeable (GOOGL, NVDA, SPMO, FPS, AEP, etc.).",
+      "risk": "Wastes candidate slots and adds noise to the research stream, while also encouraging frustration-oriented overrides in future versions.",
+      "action": "Pre-check allocation/position constraints at candidate selection time and tag such names as 'allocation-muted' so they appear only in a diagnostic list, n
