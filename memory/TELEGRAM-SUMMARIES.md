@@ -13427,4 +13427,238 @@ HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
 Self-learning: tier=watch-allocation-constrained repeat48h=0 fresh=no bucket=portfolio-allocation
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Performance Ledger - 2026-05-15 15:02:48 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-05-15 15:02:28 Eastern Daylight Time
+- Portfolio value: $100,186.50
+- P/L vs $100k baseline: $186.50
+- Full paper-account return: 0.187%
+- Managed-capital return: 1.86%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 3.33%
+- Latest position value: $5,786.50
+- Full-account cash reserve: 94.2%
+- Managed-capital cash reserve: 42.1%
+- Max snapshot drawdown: $121.87 from 2026-05-08 16:30:03 Eastern Daylight Time to 2026-05-13 12:33:26 Eastern Daylight Time
+
+Open Position Review
+- DT: loser, value $775.04, unrealized P/L $-24.96, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 7 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: loser, value $487.66, unrealized P/L $-12.34, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 8 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: winner, value $852.80, unrealized P/L $52.80, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 15 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- IBRX: loser, value $569.55, unrealized P/L $-30.45, entry 2026-05-11 09:48:18 Eastern Daylight Time, thesis age 4 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: winner, value $502.19, unrealized P/L $2.19, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 3 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: winner, value $914.82, unrealized P/L $114.82, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 14 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $800.88, unrealized P/L $0.88, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 9 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $883.56, unrealized P/L $83.56, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 17 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- SCHD: appeared 34 times; open position P/L $0.88.
+- SPMO: appeared 32 times; open position P/L $83.56.
+- INTC: appeared 31 times; market outcome unavailable until benchmark/candidate price history is captured.
+- NVDA: appeared 28 times; open position P/L $114.82.
+- GOOGL: appeared 24 times; open position P/L $52.80.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- UNP: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- GLD: appeared 9 times; market outcome unavailable until benchmark/candidate price history is captured.
+- SQ: appeared 9 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Candidate references banned v1 instruments or leverage.: 9
+  - Single-stock allocation would exceed 15%.: 7
+  - A market-open order is already logged for today. No backup order was placed.: 5
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources.: 4
+  - Low-weight social/congress signal needs at least two stronger sources.: 2
+  - Max open-position count would be exceeded.: 2
+  - repeat_staleness HF source/hype filter rejects source-thin hype. HF memory filter flags similarity to prior rejected patterns.: 2
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources. repeat_staleness HF source/hype filter rejects source-thin hype. HF memory filter flags similarity to prior rejected patterns.: 1
+- By symbol:
+  - GOOGL: 3
+  - PLTR: 3
+  - COIN: 2
+  - FLEX: 2
+  - FPS: 2
+  - GLD: 2
+  - LMT: 2
+  - NVDA: 2
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 0
+- unknown: 4
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold not met: 8/15 trades and 17/21 days.
+- Keep strategy aggressiveness unchanged; prefer automation, logging, and review improvements.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## Midday Memo - 2026-05-15 15:02:48 Eastern Daylight Time
+
+Midday Risk Memo
+
+Recommendation: Hold only positions whose thesis still matches the research; do not add unless guardrails pass.
+
+Market Regime
+Review current paper positions, thesis drift, concentration, stop discipline, and cash reserve.
+
+Portfolio
+Portfolio value: 100186.5 Cash: 94400 Buying power: 194586.5 Positions: - DT: qty=20.289119959, market_value=775.044382, unrealized_pl=-24.955618 - GLRE: qty=28.042624789, market_value=487.661245, unrealized_pl=-12.338755 - GOOGL: qty=2.151289429, market_value=852.803399, unrealized_pl=52.803399 - IBRX: qty=70.838252656, market_value=569.546635, unrealized_pl=-30.453365 - LNC: qty=14.590020426, market_value=502.188503, unrealized_pl=2.188503 - NVDA: qty=4.00060009, market_value=914.817223, unrealized_pl=114.817223 - SCHD: qty=25.2286345, market_value=800.883002, unrealized_pl=0.883002 - SPMO: qty=6.119014838, market_value=883.555148, unrealized_pl=83.555148 Performance: value $100,186.50, P/L vs $100k $186.50, managed return 1.86%, deployed return 3.33%, managed cash reserve 42.1%.
+
+Top Candidates
+
+1. AEP (utilities-electric) | confidence 0.78 | allocation 6.0% | stop 4.0% | Chittick 80/100 | tier execution-ready | bucket defensive-utilities-dividend | HF source 1/100
+Thesis: American Electric Power is a large, regulated U.S. utility with a stable earnings base, now undertaking a sizeable equity raise at $127/share. In a regime of elevated macro and valuation risk, a defensive, dividend-paying name with visible cash flows and an active capital plan can provide ballast. The discounted primary offering price versus the latest qu...
+Catalyst: AEP announced the pricing of a registered underwritten offering of 20,472,442 common shares at $127.00 per share (per company investor site, updated May 15, 2026). This is a large, well-telegraphed capital raise that often creates near-term price pressure and then a stabilization/mean reversion o...
+Entry: For paper trading, consider a staged entry around the deal reference: initial tranche if price trades in the $127–129 band and holds above $127 on closing prices for two consecutive sessions after the deal; add slightly if it reclaims a short-term moving av...
+Exit: Take profits if the stock appreciates 6–8% from entry or retests a prior local high with stalling volume. Invalidation if it closes decisively below $123–124 (roughly 3–4% below the deal price) on strong volume or if notable negative regulatory news emerges...
+Risk/reward: Moderate upside (mid‑single to high‑single digit over 1–10 days) with relatively contained downside if the deal acts as support. Not a home-run, but a stable, quality name where the big risk is rate/regulatory pressure rather than business model collapse.
+Bear/adversary: An adversary would argue that buying after a utility secondary offering in a rising-rate, stagflation‑risk environment is fighting the macro tape: higher yields pressure bond‑proxy equities, and the dilutive issuance may cap upside. They would suggest waiting for a larger pullback or avoiding rat...
+Source quality: Strong: information comes directly from American Electric Power’s investor website with up-to-date market data and offering details.
+Chittick Cash Filter
+Score: 80/100
+Margin of safety: The margin of safety comes less from a deep discount to intrinsic value and more from the regulated nature of cash flows and the bolstered balance sheet post-offering. The deal at $127 effectively sets an institutional anchor; entering n...
+Valuation: Utilities typically trade on earnings multiples and yield spreads to Treasuries. Without full current valuation metrics here, the offering price and continued investor demand suggest the valuation is acceptable but not cheap. Given the s...
+Growth runway: Over 30–180 days and beyond, AEP’s growth runway is driven by ongoing grid modernization, renewables integration, and regulated capex that can support rate base growth and earnings. It will not grow like tech, but has a long, visible run...
+Balance-sheet risk: The equity raise reduces leverage and supports capex funding, improving balance sheet resilience at the cost of dilution. Utilities are inherently leveraged businesses, but AEP’s proactive capital raising suggests pru...
+Capital allocation: Management is using the equity markets to fund long-lived assets in a regulated framework, which is consistent with conservative capital allocation. There is some risk of over-issuance if future capex is misjudged, bu...
+Concentration case: AEP deserves attention as a non-tech, defensive anchor in a portfolio otherwise at risk of over‑concentration in AI, tech, or cyclicals. It offers diversification by sector and factor (low beta, income-like attributes), aligning with the...
+Owner thesis, 30-180 days: An owner could justify a 30–180 day and longer hold as part of a core, defensive allocation, collecting dividends and participating in modest rate base-driven growth, while reassessing as rate expectations and regulatory decisions evolve.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: filing/news
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: defensive-utilities-dividend
+Research tier: execution-ready
+Allocation learning: Introduce AEP as a lower-beta counterweight to prior tech/gold ideas, avoiding over-concentration in cyclical or momentum themes.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.10
+Evidence rank: 1/100
+Memory similarity: 0.20
+Vetoes: none
+Model notes: Utility with fresh capital-raise catalyst; high disclosure quality, low hype.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.aep.com/investors/
+
+2. ORCL (information-technology-software) | confidence 0.70 | allocation 5.0% | stop 8.0% | Chittick 72/100 | tier watch | bucket mega-cap-software-cloud-ai | HF source 1/100
+Thesis: Oracle is a mature, high-cash-flow enterprise software company that has repositioned itself as a key AI and cloud infrastructure player, with deep integration across Alphabet, Amazon, and Microsoft networks. Upcoming earnings and an AI-focused conference provide clear catalysts in an AI-driven market, but with less hype and volatility than pure-play GPU o...
+Catalyst: MarketBeat highlights three near-term and medium-term catalysts: (1) Oracle’s fiscal Q4 2026 earnings release scheduled for early June, with expectations around 20% revenue growth; (2) the Oracle AI World 2026 conference in October; and (3) accelerating monetization of remaining performance oblig...
+Entry: Given the early-June earnings catalyst, a 1–10 day swing should be tightly managed. For paper trading, consider a starter position on a pullback into recent support or a consolidation zone ahead of earnings rather than chasing a spike. Alternatively, a post...
+Exit: For a pre-earnings swing, exit into strength if the stock moves 7–10% in your favor before the report, or cut early if it loses key short-term support with above-average volume. For a post-earnings breakout entry, set a profit target of roughly 10–12% and a...
+Risk/reward: Asymmetry is decent but not exceptional: double-digit upside if AI momentum and earnings impress, versus mid‑single-digit downside if expectations prove too high. Event risk around earnings is significant and requires disciplined sizing.
+Bear/adversary: A skeptic would argue that ORCL is now an AI‑themed value trap: the core database business is mature, cloud share is structurally constrained by hyperscaler competition, and AI hype has pulled forward returns. They would suggest the 40% upside narrative is driven by optimistic sell-side modeling...
+Source quality: Moderate to strong: MarketBeat is a reputable financial news aggregator summarizing analyst sentiment and catalysts, but underlying primary sources (Oracle filings, earnings transcripts, and official conference announcements) are not directly cited here and...
+Chittick Cash Filter
+Score: 72/100
+Margin of safety: Margin of safety is modest: ORCL is not obviously cheap on traditional metrics given elevated expectations. The safety comes from the durability of its enterprise base and cash flows, not from a bargain price. This argues for cautious si...
+Valuation: Analyst consensus implying ~40% upside suggests current price is below target, but that may reflect optimistic growth and AI monetization assumptions. Without explicit valuation metrics here, it should be treated as a reasonably valued q...
+Growth runway: 30–180 days: execution on cloud and AI workloads, strong Q4 2026 results, and visibility from AI World 2026 can sustain sentiment. Longer term, monetizing a large RPO backlog and expanding cross‑cloud partnerships offers a multi‑year gro...
+Balance-sheet risk: Oracle has taken on significant debt to fund its cloud build‑out and acquisitions, as highlighted in the article. While manageable given cash flows, this raises sensitivity to rate and growth shocks. A negative surpri...
+Capital allocation: Historically, Oracle has aggressively repurchased stock and maintained dividends while investing in cloud infrastructure. Capital allocation has been shareholder‑friendly but somewhat aggressive on buybacks; future di...
+Concentration case: ORCL serves as a way to participate in AI and cloud infrastructure without concentrating solely in the most crowded AI winners. It diversifies AI exposure into enterprise software and databases, but still belongs to the broader tech/AI c...
+Owner thesis, 30-180 days: An owner might hold 30–180 days to capture the earnings report, early read-throughs from AI World 2026 preparations, and further clarity on RPO monetization, reassessing if growth normalizes or if the AI narrative stalls.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: earnings/news/structural
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: mega-cap-software-cloud-ai
+Research tier: watch
+Allocation learning: If executed later, sizing should be constrained to avoid AI/tech over-concentration, given prior exposure to mega-cap growth themes.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.40
+Evidence rank: 1/100
+Memory similarity: 0.30
+Vetoes: none
+Model notes: AI/tech exposure with event catalysts; watch status due to hype and event risk.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.marketbeat.com/originals/be-ready-3-upcoming-catalysts-could-drive-oracle-to-record-highs/
+
+3. ROP (information-technology-application-software) | confidence 0.72 | allocation 4.0% | stop 6.0% | Chittick 82/100 | tier watch | bucket quality-software-compounder | HF source 1/100
+Thesis: Roper Technologies is a diversified software and technology company increasingly driven by its Application Software segment, which is benefiting from SaaS adoption and GenAI innovation. With double-digit growth in this unit and management guiding to more than mid-single-digit organic growth overall, ROP offers high-quality, compounder-like exposure with A...
+Catalyst: Zacks reports that Roper’s Application Software revenues rose 11.5% year over year to $1.19 billion in Q1 2026, and the company expects more than mid-single-digit organic revenue growth for the year. The article also cites growing adoption of SaaS and continued GenAI innovation as key catalysts,...
+Entry: Given this is more of a quality compounder than an event-driven swing, any 1–10 day paper trade should be modest and opportunistic: consider entries on pullbacks toward recent support after the Q1 2026 rally rather than chasing strength. Use intraday or sho...
+Exit: For a short swing, target a 5–8% move off support back toward recent highs, with a stop 4–6% below entry or below the identified support zone. If price breaks recent highs on strong volume, consider extending the hold slightly but still review within 10 day...
+Risk/reward: Balanced: moderate upside with limited downside if entries are taken near support, but valuation risk caps the asymmetry. This is better suited as a high-quality watchlist/owner‑style name than a pure short-term trade.
+Bear/adversary: A critic would argue Roper’s acquisition-driven model plus current SaaS/AI enthusiasm has led to a valuation that bakes in years of flawless execution. Any slowdown in Application Software growth or misjudged acquisition could de-rate the stock sharply, making near-term entries unattractive.
+Source quality: Moderate: Zacks is a mainstream research outlet summarizing segment performance and guidance. Primary confirmation from Roper’s own Q1 2026 release and presentation would strengthen conviction.
+Chittick Cash Filter
+Score: 82/100
+Margin of safety: Margin of safety is thin based on likely premium valuation; the safety comes from business quality, recurring revenue, and diversified verticals rather than price. Under the Chittick lens, this argues for patience and smaller sizing unti...
+Valuation: High-quality names like ROP often trade at elevated multiples. With double-digit Application Software growth and mid‑single-digit organic growth overall, the price may be justified but leaves little room for disappointment. Not an obviou...
+Growth runway: 30–180 days: continued outperformance of Application Software and visible SaaS adoption provide a clear near- to medium-term runway. Longer term, disciplined acquisitions and GenAI-driven enhancements to vertical software should sustain...
+Balance-sheet risk: Roper historically uses debt to fund acquisitions but manages leverage prudently. The key risk is overpaying or acquiring assets that underperform expectations rather than an immediate solvency concern.
+Capital allocation: Capital allocation is central to Roper’s thesis: management has a track record of accretive deals and portfolio optimization. This makes it attractive for an owner-style Chittick lens, but also means any perceived det...
+Concentration case: ROP offers diversified vertical software exposure rather than single vertical or consumer-focused risk. In a portfolio with heavy mega-cap tech exposure, it adds a different quality software factor, though still within tech.
+Owner thesis, 30-180 days: An owner could justify a 30–180 day hold to capture the ongoing SaaS transition, Application Software growth, and potential rerating as GenAI capabilities deepen. Regular review around earnings and major M&A announcements would be critical.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: earnings/structural
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: quality-software-compounder
+Research tier: watch
+Allocation learning: Use ROP as a benchmark for quality software exposure; avoid over-allocating at premium valuations, consistent with Chittick’s emphasis on margin of safety.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.25
+Evidence rank: 1/100
+Memory similarity: 0.20
+Vetoes: none
+Model notes: High-quality, premium-valued software compounder with fresh Q1 data; better as watch/owner-style than aggressive swing.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.zacks.com/stock/news/2922128/strength-in-rops-application-software-unit-seems-firm-more-upside-ahead
+
+4. AEP-ALT-NOTE (meta-allocation-note) | confidence 0.60 | allocation 3.0% | stop 4.0% | Chittick 75/100 | tier watch-allocation-constrained | bucket portfolio-allocation | HF source 0/100
+Thesis: This is not a separate ticker but an explicit note to consider a smaller, safe tranche if allocation or concentration constraints arise for AEP-like defensive trades. If the model flags AEP for concentration or utility overexposure, reduce target size rather than dropping defensive exposure entirely.
+Catalyst: Same as AEP: the large equity offering and updated investor disclosures.
+Entry: If primary AEP trade is flagged for concentration, cap at 3–4% instead of 6%.
+Exit: Same percentage guards as main AEP idea but scaled down position size.
+Risk/reward: Lower impact, lower risk; used to satisfy Chittick-style defensive tilt under constraints.
+Bear/adversary: A critic would say micro-positions add complexity without meaningful diversification benefit.
+Source quality: Inherited from AEP.
+Chittick Cash Filter
+Score: 75/100
+Margin of safety: Focuses on capital preservation via sizing, not price.
+Valuation: N/A – piggybacks on main AEP thesis.
+Growth runway: N/A – allocation-level.
+Balance-sheet risk: N/A.
+Capital allocation: Helps enforce portfolio-level prudence.
+Concentration case: Explicit mechanism to avoid over-concentration in any single defensive name.
+Owner thesis, 30-180 days: Short review horizon remains; this is a structural note for the paper bot’s allocator.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: general
+Fresh catalyst: no
+Repeat count, 48h: 0
+Diversity bucket: portfolio-allocation
+Research tier: watch-allocation-constrained
+Allocation learning: Use smaller, safer tranches when utility/defensive allocations approach internal caps, instead of dropping the defensive sleeve entirely.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.00
+Evidence rank: 0/100
+Memory similarity: 0.10
+Vetoes: none
+Model notes: Meta-entry to help allocator adjust under constraints.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.aep.com/investors/
 

@@ -112,4 +112,17 @@ Candidate references banned v1 instruments or leverage.
 ## Rejected GLD - 2026-05-14 09:55:01 Eastern Daylight Time
 
 Candidate references banned v1 instruments or leverage.
+## Rejected AEP - 2026-05-15 15:02:49 Eastern Daylight Time
+
+Candidate references banned v1 instruments or leverage.
+## Rejected AEP-ALT-NOTE - 2026-05-15 15:02:49 Eastern Daylight Time
+
+Max open-position count would be exceeded.
+## Rejected ROP - 2026-05-15 15:02:49 Eastern Daylight Time
+
+Candidate references banned v1 instruments or leverage.
+## Rejected ORCL - 2026-05-15 15:02:49 Eastern Daylight Time
+
+Candidate references banned v1 instruments or leverage.
+Low-weight social/congress signal needs at least two stronger sources.
 
