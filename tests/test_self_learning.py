@@ -7,6 +7,7 @@ from bot.self_learning import (
     evaluate_self_learning_finalize,
     format_self_learning_disclosure,
     recent_diversity_bucket_counts,
+    recent_rejection_labels_by_symbol,
     recent_symbol_counts,
 )
 
@@ -232,6 +233,81 @@ def test_enrich_quarantines_high_repeat_without_hard_fresh_catalyst(tmp_path):
     assert enriched.repeat_count_48h == 12
     assert enriched.research_tier == "stale-watch"
     assert "quarantine as stale-watch" in enriched.allocation_learning_note
+
+
+def test_recent_rejection_labels_use_lookback_window(tmp_path):
+    memory = tmp_path / "memory"
+    memory.mkdir()
+    now = datetime(2026, 5, 15, 12, 0, 0)
+    (memory / "REJECTED-TRADES.md").write_text(
+        "\n".join(
+            [
+                "# Rejected Trades",
+                "## Rejected AEP - 2026-05-15 09:45:00 Eastern Daylight Time",
+                "",
+                "Candidate references banned v1 instruments or leverage.",
+                "## Rejected GOOGL - 2026-05-01 09:45:00 Eastern Daylight Time",
+                "",
+                "Single-stock allocation would exceed 15%.",
+            ]
+        ),
+        encoding="utf-8",
+    )
+
+    labels = recent_rejection_labels_by_symbol(tmp_path, now=now)
+
+    assert labels == {"AEP": {"hard_banned"}}
+
+
+def test_enrich_routes_recent_hard_ban_to_monitor_only(tmp_path):
+    memory = tmp_path / "memory"
+    memory.mkdir()
+    now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    (memory / "WATCHLIST.md").write_text("# Watchlist\n", encoding="utf-8")
+    (memory / "REJECTED-TRADES.md").write_text(
+        "\n".join(
+            [
+                "# Rejected Trades",
+                f"## Rejected AEP - {now} Eastern Daylight Time",
+                "",
+                "Candidate references banned v1 instruments or leverage.",
+            ]
+        ),
+        encoding="utf-8",
+    )
+
+    enriched = enrich_candidates_with_self_learning(
+        tmp_path,
+        [candidate("AEP", catalyst="Fresh earnings guidance raised today after close.")],
+    )[0]
+
+    assert enriched.research_tier == "monitor-only"
+    assert enriched.target_allocation_percent == 0.0
+    assert "monitor-only learning content" in enriched.allocation_learning_note
+
+
+def test_enrich_routes_recent_position_block_to_allocation_muted(tmp_path):
+    memory = tmp_path / "memory"
+    memory.mkdir()
+    now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    (memory / "WATCHLIST.md").write_text("# Watchlist\n", encoding="utf-8")
+    (memory / "REJECTED-TRADES.md").write_text(
+        "\n".join(
+            [
+                "# Rejected Trades",
+                f"## Rejected FPS - {now} Eastern Daylight Time",
+                "",
+                "Max open-position count would be exceeded.",
+            ]
+        ),
+        encoding="utf-8",
+    )
+
+    enriched = enrich_candidates_with_self_learning(tmp_path, [candidate("FPS")])[0]
+
+    assert enriched.research_tier == "allocation-muted"
+    assert enriched.target_allocation_percent == 0.0
+    assert "blocked-ideas learning" in enriched.allocation_learning_note
 
 
 def test_build_self_learning_policy_mentions_repeats_and_diversity(tmp_path):

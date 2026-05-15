@@ -65,6 +65,7 @@ def test_research_prompt_requires_broader_discovery_and_self_learning_fields():
 
     assert "SELF-LEARNING-POLICY.md" in prompt
     assert "Aim for at least three diversity buckets" in prompt
+    assert "monitor-only" in prompt
     assert '"fresh_catalyst"' in prompt
     assert '"repeat_count_48h"' in prompt
     assert '"research_tier"' in prompt
@@ -380,3 +381,25 @@ def test_execution_ready_repeat_without_fresh_catalyst_is_rejected():
 
     assert not result.approved
     assert any("fresh catalyst" in reason for reason in result.rejects)
+
+
+def test_monitor_only_candidate_is_not_tradeable():
+    candidate = TradeCandidate(
+        symbol="AEP",
+        thesis="AEP has utility demand and a defined paper-trading thesis.",
+        catalyst="Company update created a current research item for monitoring.",
+        quality_case="The utility has regulated assets and durable power demand.",
+        momentum_case="Shares have relative stability versus high-beta growth.",
+        bear_case="Rate shocks or financing pressure can weaken the setup.",
+        confidence=0.72,
+        horizon_days=5,
+        target_allocation_percent=0,
+        stop_loss_percent=6,
+        source_urls=["https://example.com/company", "https://www.sec.gov"],
+        research_tier="monitor-only",
+    )
+
+    result = score_candidate(candidate)
+
+    assert not result.approved
+    assert any("monitor-only" in reason for reason in result.rejects)

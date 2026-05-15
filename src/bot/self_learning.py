@@ -48,6 +48,7 @@ HARD_FRESH_CATALYST_TERMS = (
 
 HIGH_REPEAT_ALLOCATION_CONSTRAINT = 15
 STALE_REPEAT_QUARANTINE = 12
+RECENT_REJECTION_LOOKBACK_DAYS = 7
 
 UNSAFE_DIFF_PATTERNS = (
     r"LIVE_TRADING_ENABLED\s*=\s*true",
@@ -231,14 +232,69 @@ def _allocation_constraint_note(symbol: str, rejected_text: str) -> str:
     return ""
 
 
+def _rejection_labels(body: str) -> set[str]:
+    labels: set[str] = set()
+    clean = body.lower()
+    if "candidate references banned v1 instruments or leverage" in clean:
+        labels.add("hard_banned")
+    if "low-weight social/congress signal needs at least two stronger sources" in clean:
+        labels.add("low_weight_signal")
+    if "max open-position count would be exceeded" in clean:
+        labels.add("max_positions")
+    if "single-stock allocation would exceed" in clean:
+        labels.add("allocation_exceeded")
+    if "hf source/hype filter" in clean or "hf memory filter" in clean or "repeat_staleness" in clean:
+        labels.add("hype_or_repeat_filter")
+    return labels
+
+
+def recent_rejection_labels_by_symbol(
+    root: Path,
+    *,
+    days: int = RECENT_REJECTION_LOOKBACK_DAYS,
+    now: datetime | None = None,
+) -> dict[str, set[str]]:
+    path = root / "memory" / "REJECTED-TRADES.md"
+    if not path.exists():
+        return {}
+    current = now or datetime.now()
+    cutoff = current - timedelta(days=days)
+    text = path.read_text(encoding="utf-8")
+    matches = list(
+        re.finditer(
+            r"^## Rejected ([A-Z][A-Z0-9.\-]{0,15}) - (\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}).*$",
+            text,
+            flags=re.M,
+        )
+    )
+    labels_by_symbol: dict[str, set[str]] = {}
+    for index, match in enumerate(matches):
+        try:
+            stamp = datetime.strptime(match.group(2), "%Y-%m-%d %H:%M:%S")
+        except ValueError:
+            continue
+        if stamp < cutoff:
+            continue
+        start = match.end()
+        end = matches[index + 1].start() if index + 1 < len(matches) else len(text)
+        labels = _rejection_labels(text[start:end])
+        if not labels:
+            continue
+        symbol = match.group(1).upper()
+        labels_by_symbol.setdefault(symbol, set()).update(labels)
+    return labels_by_symbol
+
+
 def enrich_candidates_with_self_learning(root: Path, candidates: list[TradeCandidate]) -> list[TradeCandidate]:
     counts = recent_symbol_counts(root)
     bucket_counts = recent_diversity_bucket_counts(root)
     total_bucket_mentions = sum(bucket_counts.values())
     rejected_path = root / "memory" / "REJECTED-TRADES.md"
     rejected_text = rejected_path.read_text(encoding="utf-8") if rejected_path.exists() else ""
+    rejection_labels = recent_rejection_labels_by_symbol(root)
     enriched: list[TradeCandidate] = []
     for candidate in candidates:
+        symbol = candidate.symbol.upper()
         repeat_count = max(candidate.repeat_count_48h, counts.get(candidate.symbol, 0))
         fresh = has_fresh_catalyst(candidate)
         allocation_note = candidate.allocation_learning_note or _allocation_constraint_note(candidate.symbol, rejected_text)
@@ -251,8 +307,31 @@ def enrich_candidates_with_self_learning(root: Path, candidates: list[TradeCandi
                 f"Recent research is over-concentrated in {diversity_bucket}; compare with underrepresented sectors before increasing allocation."
             )
             allocation_note = f"{allocation_note} {sector_note}".strip()
+        labels = rejection_labels.get(symbol, set())
         tier = candidate.research_tier
-        if repeat_count >= HIGH_REPEAT_ALLOCATION_CONSTRAINT:
+        target_allocation = candidate.target_allocation_percent
+        if "hard_banned" in labels:
+            tier = "monitor-only"
+            target_allocation = 0.0
+            blocked_note = (
+                "Recent rejection hit a hard v1 ban pattern; keep this as monitor-only learning content with no allocation."
+            )
+            allocation_note = f"{allocation_note} {blocked_note}".strip()
+        elif "low_weight_signal" in labels and not has_hard_fresh_catalyst(candidate):
+            tier = "monitor-only"
+            target_allocation = 0.0
+            blocked_note = (
+                "Recent rejection depended on low-weight social/congress evidence; keep monitor-only until fundamental sources independently support it."
+            )
+            allocation_note = f"{allocation_note} {blocked_note}".strip()
+        elif labels.intersection({"allocation_exceeded", "max_positions"}):
+            tier = "allocation-muted"
+            target_allocation = 0.0
+            blocked_note = (
+                "Recent allocation or max-position rejection: route to blocked-ideas learning instead of the trade candidate lane."
+            )
+            allocation_note = f"{allocation_note} {blocked_note}".strip()
+        elif repeat_count >= HIGH_REPEAT_ALLOCATION_CONSTRAINT:
             tier = "watch-allocation-constrained"
             repeat_note = (
                 f"High repeat count {repeat_count}: cap allocation language and require fresh alternatives before execution-ready status."
@@ -282,6 +361,7 @@ def enrich_candidates_with_self_learning(root: Path, candidates: list[TradeCandi
                 diversity_bucket=diversity_bucket,
                 research_tier=tier,
                 allocation_learning_note=allocation_note,
+                target_allocation_percent=target_allocation,
             )
         )
     return enriched
@@ -312,6 +392,7 @@ def build_self_learning_policy(root: Path, review: str, candidates: list[TradeCa
             "- If a repeated ticker has no fresh catalyst, lower it to `stale-watch` and research at least two alternatives from underrepresented sectors.",
             "- Top candidate sets should aim for at least three diversity buckets before execution-ready language is used.",
             "- Allocation-blocked candidates must either propose a smaller safe tranche or name a different-sector alternative; do not keep repeating the same 8% target.",
+            "- Recently rejected hard-ban, low-weight-only, allocation-blocked, or max-position-blocked ideas must stay in `monitor-only` or `allocation-muted` lanes with zero allocation until the blocker is resolved.",
             "- Do not loosen live-trading, options, crypto, margin, short-selling, cash-reserve, or secret-handling rules.",
             "",
             "## Current Weekly Findings",
@@ -410,6 +491,7 @@ def finalize_self_learning_update(settings: Settings) -> int:
         "Research scoring now applies repeat decay to high-repeat candidates even when a soft fresh catalyst is present.",
         "Self-learning now downgrades extreme repeat loops such as SCHD/VYM-style rotation repeats to allocation-constrained or stale-watch status unless hard catalyst evidence exists.",
         "Research prompts now require allocation-constrained language and fresh alternatives for names above repeat thresholds.",
+        "Recent rejection history now routes hard-banned and allocation-blocked ideas into monitor-only/allocation-muted lanes with zero allocation.",
     ]
     preliminary = evaluate_self_learning_finalize(
         changed_files=changed_files,

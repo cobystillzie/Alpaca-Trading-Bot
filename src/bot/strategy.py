@@ -261,6 +261,7 @@ Strategy:
 - Apply repeat decay after five appearances. Names above 12 repeats should not be execution-ready unless a hard fresh catalyst is documented; names above 15 repeats should include allocation-constrained language and fresh alternatives.
 - Build a broader discovery set. Aim for at least three diversity buckets across top candidates and include at least two alternatives from underrepresented sectors when a repeated mega-cap or broad ETF appears again.
 - If a candidate was blocked by allocation or concentration constraints, propose a smaller safe tranche or a different-sector alternative instead of repeating the same target allocation.
+- Keep two separate lanes: `trade_candidates` for ideas that can pass current paper-trading rules, and `monitor-only` / `allocation-muted` for ideas blocked by v1 bans, low-weight-only evidence, allocation, or max-position constraints. Monitor-only and allocation-muted ideas must have `target_allocation_percent` 0 and must not use execution-ready language.
 - Use social buzz only as attention/volume anomaly context. Maximum influence: {social_weight:.2f}.
 - Use congressional disclosures only as weak secondary catalyst context. Maximum influence: {congressional_weight:.2f}.
 - Social buzz and congressional disclosures must never be the main reason for a trade.
@@ -312,7 +313,7 @@ Return strict JSON only:
       "fresh_catalyst": true,
       "repeat_count_48h": 0,
       "diversity_bucket": "mega-cap-internet-cloud",
-      "research_tier": "execution-ready/watch/stale-watch/watch-allocation-constrained",
+      "research_tier": "execution-ready/watch/stale-watch/watch-allocation-constrained/monitor-only/allocation-muted",
       "allocation_learning_note": "",
       "confidence": 0.72,
       "horizon_days": 5,
@@ -466,6 +467,8 @@ def score_candidate(candidate: TradeCandidate) -> ScoreResult:
         rejects.append("HF memory filter flags similarity to prior rejected patterns.")
     if candidate.research_tier == "execution-ready" and candidate.repeat_count_48h >= 3 and not candidate.fresh_catalyst:
         rejects.append("Repeated candidate cannot be execution-ready without a fresh catalyst.")
+    if candidate.research_tier in {"monitor-only", "allocation-muted"}:
+        rejects.append(f"Candidate is {candidate.research_tier} and cannot be traded.")
     if candidate.confidence < 0.6:
         rejects.append("Confidence below 0.60.")
     if not (1 <= candidate.horizon_days <= 10):
