@@ -13160,4 +13160,164 @@ HF filter: sentiment=not run source=8/100 hype=0.00 vetoes=0
 Self-learning: tier=watch repeat48h=0 fresh=yes bucket=healthcare-health-tech
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Performance Ledger - 2026-05-14 21:32:28 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-05-14 21:32:27 Eastern Daylight Time
+- Portfolio value: $100,136.95
+- P/L vs $100k baseline: $136.95
+- Full paper-account return: 0.137%
+- Managed-capital return: 1.37%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 2.45%
+- Latest position value: $5,736.95
+- Full-account cash reserve: 94.3%
+- Managed-capital cash reserve: 42.6%
+- Max snapshot drawdown: $121.87 from 2026-05-08 16:30:03 Eastern Daylight Time to 2026-05-13 12:33:26 Eastern Daylight Time
+
+Open Position Review
+- DT: loser, value $703.22, unrealized P/L $-96.78, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 6 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: loser, value $414.47, unrealized P/L $-85.53, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 7 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: winner, value $858.82, unrealized P/L $58.82, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 14 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- IBRX: loser, value $575.91, unrealized P/L $-24.09, entry 2026-05-11 09:48:18 Eastern Daylight Time, thesis age 3 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: winner, value $536.18, unrealized P/L $36.18, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 2 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: winner, value $946.58, unrealized P/L $146.58, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 13 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $802.27, unrealized P/L $2.27, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 8 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $899.50, unrealized P/L $99.50, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 16 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- SCHD: appeared 34 times; open position P/L $2.27.
+- SPMO: appeared 32 times; open position P/L $99.50.
+- INTC: appeared 31 times; market outcome unavailable until benchmark/candidate price history is captured.
+- NVDA: appeared 28 times; open position P/L $146.58.
+- GOOGL: appeared 24 times; open position P/L $58.82.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- UNP: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- GLD: appeared 9 times; market outcome unavailable until benchmark/candidate price history is captured.
+- SQ: appeared 9 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Candidate references banned v1 instruments or leverage.: 9
+  - Single-stock allocation would exceed 15%.: 7
+  - A market-open order is already logged for today. No backup order was placed.: 5
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources.: 4
+  - Low-weight social/congress signal needs at least two stronger sources.: 2
+  - Max open-position count would be exceeded.: 2
+  - repeat_staleness HF source/hype filter rejects source-thin hype. HF memory filter flags similarity to prior rejected patterns.: 2
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources. repeat_staleness HF source/hype filter rejects source-thin hype. HF memory filter flags similarity to prior rejected patterns.: 1
+- By symbol:
+  - GOOGL: 3
+  - PLTR: 3
+  - COIN: 2
+  - FLEX: 2
+  - FPS: 2
+  - GLD: 2
+  - LMT: 2
+  - NVDA: 2
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 0
+- unknown: 4
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold not met: 8/15 trades and 16/21 days.
+- Keep strategy aggressiveness unchanged; prefer automation, logging, and review improvements.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## End Of Day Memo - 2026-05-14 21:32:28 Eastern Daylight Time
+
+End Of Day Analyst Memo
+
+Recommendation: Carry forward only evidence-backed candidates; review stops before the next market-open run.
+
+Market Regime
+End-of-day review of paper portfolio, trade quality, risk notes, and next-day watchlist.
+
+Portfolio
+Portfolio value: 100136.95 Cash: 94400 Buying power: 194536.95 Positions: - DT: qty=20.289119959, market_value=703.220898, unrealized_pl=-96.779102 - GLRE: qty=28.042624789, market_value=414.469994, unrealized_pl=-85.530006 - GOOGL: qty=2.151289429, market_value=858.816253, unrealized_pl=58.816253 - IBRX: qty=70.838252656, market_value=575.914994, unrealized_pl=-24.085006 - LNC: qty=14.590020426, market_value=536.183251, unrealized_pl=36.183251 - NVDA: qty=4.00060009, market_value=946.581987, unrealized_pl=146.581987 - SCHD: qty=25.2286345, market_value=802.270577, unrealized_pl=2.270577 - SPMO: qty=6.119014838, market_value=899.495181, unrealized_pl=99.495181 Performance: value $100,136.95, P/L vs $100k $136.95, managed return 1.37%, deployed return 2.45%, managed cash reserve 42.6%.
+
+Top Candidates
+
+1. HUMA (healthcare-biotech) | confidence 0.78 | allocation 6.0% | stop 8.0% | Chittick 70/100 | tier execution-ready | bucket healthcare-biotech | HF source 9/100
+Thesis: Clinical-stage biotech with FDA-approved Symvess (HAV) for vascular trauma; early revenue ramp + EPS beat signal commercialization traction in high-need vascular access market.
+Catalyst: Q1 2026 earnings May 13: product revenue $0.5M (up from $0.1M YoY), EPS -$0.09 beat consensus -$0.10 by $0.01; stock +20% intraday on volume 16.86M vs avg 6.4M.
+Entry: Enter 50% at open tomorrow if holds $1.05, add 50% on pullback to $1.00 with volume; max 6% portfolio allocation.
+Exit: Take profits at $1.50 (36% gain, near prior highs) or $1.75 (60% to avg PT); invalidate below $0.95 (earnings gap fill).
+Risk/reward: 3:1 (8% downside to stop vs 36% upside to first target); defined post-earnings gap risk.
+Bear/adversary: BTIG PT cut signals commercialization doubts; biotech execution risks (prior V006 miss), high losses could cap rally.
+Source quality: Strong: MarketBeat/Tipranks consensus data, direct earnings (EPS/revenue beat), BTIG note, Panabee report; multi-source confirmation.
+Chittick Cash Filter
+Score: 70/100
+Margin of safety: Trading at $1.10 vs $7.71 consensus PT (611% upside); mkt cap $243M vs clinical milestones runway; cash position supports runway despite burn.
+Valuation: Deep discount to PTs ($3-25 range); pre-revenue but revenue inflection + beats justify multiple expansion vs peers.
+Growth runway: HD Phase 3 data (V007 superior usability); trauma commercialization ramp; 30-180d: Q2 updates, potential partnerships.
+Balance-sheet risk: Clinical losses, dilution history; no debt details but biotech-typical burn; monitor cash post-Q1.
+Capital allocation: Trial-focused spend; FDA approval shows regulatory discipline.
+Concentration case: Unique HAV moat in vascular trauma/HD vs broad healthcare ETFs; diversifies from existing industrials/ETFs.
+Owner thesis, 30-180 days: HD Phase 3 readout + Symvess revenue scale to $10M+ quarterly; monitor for 30-180d if beats guidance.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: healthcare-biotech
+Research tier: execution-ready
+Allocation learning: New sector entry; cap at 6% vs repeated GLD/UNP.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 9/100
+Hype risk: 0.20
+Evidence rank: 8/100
+Memory similarity: 0.00
+Vetoes: none
+Model notes: none
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.marketbeat.com/stocks/NASDAQ/HUMA/, https://www.panabee.com/news/humacyte-earnings-q1-2026-report, https://www.gurufocus.com/news/8856049/huma-maintained-by-btig-price-target-lowered-to-200
+
+2. HIT (healthcare-insurance) | confidence 0.70 | allocation 4.0% | stop 7.0% | Chittick 72/100 | tier watch | bucket healthcare-health-tech | HF source 8/100
+Thesis: Health-tech platform for self-funded stop-loss insurance; revenue growth + placement volume signal market share gains.
+Catalyst: Q1 2026 earnings: revenue $8.8M (+9% YoY), $82M placed in plans; FY guide $45-50M.
+Entry: Watch for $12-15 range breakout on volume tomorrow.
+Exit: Target FY guide multiple; stop below earnings low.
+Risk/reward: 2:1 potential on guide beat.
+Bear/adversary: Neg profitability caps near-term multiple.
+Source quality: Strong: Benzinga full transcript.
+Chittick Cash Filter
+Score: 72/100
+Margin of safety: Guide implies 25%+ growth; small cap discount.
+Valuation: Attractive on revenue trajectory.
+Growth runway: Placement volume expansion.
+Balance-sheet risk: Growth spend pressure.
+Capital allocation: Investment-focused.
+Concentration case: Niche health-tech vs broad.
+Owner thesis, 30-180 days: FY beat + profitability inflection.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: healthcare-health-tech
+Research tier: watch
+Allocation learning: none
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 8/100
+Hype risk: 0.00
+Evidence rank: 7/100
+Memory similarity: 0.00
+Vetoes: none
+Model notes: none
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.benzinga.com/insights/news/26/05/52547916/health-in-tech-q1-2026-earnings-call-complete-transcript
 
