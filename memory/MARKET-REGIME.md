@@ -5261,4 +5261,233 @@ The US equity market is grinding to record highs, but the underlying conditions 
 ## Market Regime Research - 2026-05-14 21:35:59 Eastern Daylight Time
 
 {"summary":"US equities appear to be in a risk-on but increasingly selective regime: the index trend is still constructive and near highs, earnings are strong, and volatility is contained, but breadth is narrowing and macro uncertainty around inflation/Fed policy remains a live risk. This supports a cautious paper-trading posture that treats the tape as bullish with growing fragility rather than a clean broad-based breakout.","market_regime":"Constructive uptrend / late-cycle risk-on with narrowing breadth. Large-cap U.S. equities and the S&P 500 have been rallying on strong mega-cap earnings, while the VIX is still only in the high-teens and volatility term structure remains supportive. However, market breadth is weakening, overbought/sell-signal language has emerged, and support levels are thin after the rapid advance. Net: bullish trend, but not low-risk.","sector_rotation":["Leadership is concentrated in information technology and communication services, driven by AI-linked mega-cap earnings strength (Alphabet, Amazon, Meta, Microsoft, NVIDIA, Micron).","Consumer discretionary has also benefited from the growth/earnings-led rally.","Industrials and financials are showing solid earnings and positive guidance, suggesting secondary participation beyond mega-cap tech.","Healthcare is the main laggard at the sector level, though select sub-areas such as managed care and health insurers have shown better quarter-specific results.","Defensive volatility-sensitive exposures are not clearly being favored; the market tone is more pro-cyclical/risk-on than defensive."],"risk_flags":["Valuations are elevated versus long-term history, so the market is relying on continued earnings delivery to justify multiples.","Breadth deterioration and narrowing leadership increase the risk of a pullback even if headline indexes remain near highs.","VIX hovering around 17-18 indicates complacency is not extreme, but hedging demand is still present.","Fed path is uncertain: some forecasts still expect cuts, while others see cuts as off the table; rates staying higher for longer would pressure multiples.","Inflation and energy-driven price pressure remain key macro risks.","Geopolitical uncertainty and oil price shocks remain potential volatility triggers.","High dependence on a small set of mega-cap technology names makes headline index strength less broad-based and more fragile."],"source_urls":["https://bgm360.com/news-insights/april-2026-market-review/","https://www.zacks.com/stock/news/2920961/zacks-earnings-trends-highlights-alphabet-amazon-microsoft-meta-and-nvidia","https://www.morningstar.com/news/marketwatch/20260514202/nvidia-earnings-alone-wont-rescue-the-s-p-500-from-its-new-sell-signal","https://www.thestreet.com/fed/wells-fargo-sees-writing-on-the-wall-about-the-next-fed-rate-cut","https://www.themortgagereports.com/mortgage-rates-now/mortgage-rates-today-may-14-2026","https://ca.investing.com/indices/volatility-s-p-500-historical-data","https://www.ajbell.co.uk/news/why-are-us-markets-close-record-levels-when-theres-so-much-uncertainty"]}
+## Market Regime Research - 2026-05-15 15:01:37 Eastern Daylight Time
+
+{
+  "summary": {
+    "tone": "Cautiously risk-on with a speculative undercurrent and rising macro uncertainty.",
+    "trend": "US indices (S&P 500, Nasdaq) are near or at all‑time highs with improving breadth versus earlier in the rally, but not yet in full, broad-based uptrend confirmation.",
+    "macro_vs_equity": "Equities are pricing in strong AI/earnings and productivity gains while rates markets have rapidly shifted from cuts to a meaningful probability of hikes, creating a tension between macro risk and equity optimism.",
+    "volatility": "Implied and realized equity volatility are off their recent peaks but still elevated versus calm regimes; volatility is compressing on up days and spiking on macro/geopolitical shocks.",
+    "implication_for_paper_trading": "Environment favors a measured, risk-aware ‘participate but be ready to de‑risk’ stance: use smaller sizing, tighter guardrails, and be wary of crowded AI/speculative pockets."
+  },
+  "market_regime": {
+    "index_trend": {
+      "spx_ndx_rty_state": "Major US indices remain close to record highs; recent notes show the S&P 500 and Nasdaq Composite at or near ATHs while the Russell 2000 has improved but still lags over longer horizons.",
+      "breadth": {
+        "short_term": "Recent session breadth was strong with ~72% of S&P 500 names green on the day, indicating healthier participation than the earlier narrow mega‑cap leadership phase.",
+        "medium_term_moving_average_stats": {
+          "sp500": {
+            "above_50dma": 0.47,
+            "above_100dma": 0.46,
+            "above_200dma": 0.54
+          },
+          "style_and_size": {
+            "sp500_growth_above_50dma": 0.56,
+            "sp500_value_above_50dma": 0.44,
+            "russell_2000_above_50dma": 0.61
+          }
+        },
+        "interpretation": "Breadth is mid-range but improving: not classic late‑stage blow‑off where >80% of components are extended, nor early‑bear where <25% are above key MAs. Growth and small caps look relatively better on a 50‑day basis."
+      },
+      "trend_assessment": "Overall US large‑cap regime is bullish but not strongly extended in breadth terms. Price is strong; participation is adequate but not euphoric.",
+      "paper_trading_note": "Your bot should treat the equity index backdrop as uptrend-with-fragility: assume trend continuation is more likely than immediate reversal, but incorporate guards against sharp pullbacks."
+    },
+    "rates_and_fed": {
+      "current_yields_and_moves": {
+        "10y_ust": "Around mid‑4% (cited at ~4.45%) with recent backing off from local highs.",
+        "recent_action": "Bond markets sold off into the latest risk‑off wobble, but the broader context is a year‑to‑date repricing to ‘higher for longer’ and potential additional tightening."
+      },
+      "policy_expectations": {
+        "fedwatch_pricing": {
+          "hike_probability_2026": 0.45,
+          "cut_probability_through_2027": "≈0 based on futures; cuts largely priced out.",
+          "central_scenario": "Market-implied base case leans toward at least one 25 bp hike over the next couple of years rather than cuts."
+        },
+        "sell_side_views": {
+          "wells_fargo": "Baseline of two quarter-point cuts in 2026, assuming energy-driven inflation proves temporary.",
+          "morgan_stanley": "Expects Fed to hold rates through 2026 with cuts in early 2027.",
+          "other_commentary": "Some outlets highlight growing fears of stagflation and a Volcker-style choice, implying risk of renewed hikes rather than cuts."
+        },
+        "fed_communications": {
+          "ny_fed_williams": "Describes policy as mildly restrictive, sees no reason to hike or cut right now, and emphasizes uncertainty around energy prices and persistent but not runaway inflation."
+        },
+        "interpretation": "There is a notable disconnect: rates markets have swung from expecting several cuts to assigning a high probability to hikes, while some banks still forecast 2026 cuts. The forward curve is significantly tighter and more hawkish than at the start of the year."
+      },
+      "regime_implication": "Policy regime is ‘higher for longer with non‑trivial hike risk.’ For a cautious bot, this implies: avoid assuming a benign disinflation + cuts backdrop; treat rate shocks as a recurring risk driver for equities, especially long-duration assets (unprofitable tech, high‑multiple AI, REITs)."
+    },
+    "volatility_and_liquidity": {
+      "volatility": {
+        "vix_level": "VIX cited around the high‑teens (~17–18), down on strong up days but quick to jump on macro/geopolitical headlines.",
+        "regime": "Not a low-volatility melt‑up (VIX < 13), but also not crisis levels (>25–30). More of a ‘responsive vol’ regime: volatility expands on shocks and compresses when AI/earnings narratives dominate.",
+        "options_activity": "Option markets show substantial activity in index and AI‑related contracts; skew and term structure suggest hedging demand but not extreme fear."
+      },
+      "liquidity": {
+        "micro_liquidity": "Top-of-book liquidity has improved versus 5- and 20-day averages; ETF share of activity (~25%) is healthy and rising.",
+        "flow_texture": {
+          "long_only": "Slight net sellers in some growth/tech pockets; buyers in macro products, industrials, and communication services.",
+          "hedge_funds": "Net buyers overall, particularly in macro products and cyclicals, while trimming information technology and some defensives."
+        },
+        "interpretation": "Liquidity conditions are supportive but not frothy; flow patterns show positioning adjustments rather than a ‘everyone all‑in’ scenario."
+      }
+    },
+    "earnings_and_micro_tone": {
+      "overall_earnings_picture": "Large‑cap earnings have generally been solid, with repeated beats from AI beneficiaries and key sectors (tech, select industrials, healthcare). Commentary emphasizes that earnings strength is a key justification for valuations at/near record highs.",
+      "ai_and_infrastructure": "AI remains the core leadership theme. Recent reports (e.g., from big-network and cloud hardware providers) reinforce that AI infrastructure demand is real and broadening beyond just GPUs into networking, data center power and cooling, and software layers.",
+      "consumer_and_cyclicals": {
+        "examples": "Names like YETI and travel/experience companies reported better-than-expected demand and guidance; some mid‑cap additions to indices are being rewarded.",
+        "interpretation": "Consumer demand appears resilient in aggregate, inconsistent with an imminent deep recession, though pockets of weakness exist in lower‑income cohorts and rate‑sensitive segments."
+      },
+      "tone_assessment": "Earnings tone is constructive: micro data largely justifies index levels and supports the argument that, absent a macro shock, profit growth can continue. However, valuations in leading AI names price in a long runway of growth, so they remain sensitive to any disappointment."
+    },
+    "risk_on_off_conditions": {
+      "current_risk_appetite": {
+        "equity_behavior": "Markets are broadly higher in recent sessions when yields ease, with AI leaders, bitcoin‑sensitive equities, memes, and retail favorites all participating. That indicates improving risk appetite with a speculative flavor.",
+        "cross_asset": {
+          "usd": "The dollar has been bid on days when energy prices and geopolitical worries flare, consistent with defensive flows.",
+          "commodities": "Energy prices have firmed on geopolitical concerns; precious metals (gold, silver) saw sharp downside on renewed hike fears, underlining sensitivity to real yields and global risk sentiment."
+        }
+      },
+      "speculative_temperature": {
+        "retail_flow": "Rule changes around pattern day trading and margin easings are expected to boost retail activity, especially in high-beta segments (memes, crypto-linked, non-profitable tech, AI-adjacent names).",
+        "meme/crypto_beta": "When AI leaders, bitcoin equities, and meme baskets move in tandem, the tape reflects thematic and flow-driven behavior rather than pure fundamentals.",
+        "interpretation": "This is a ‘risk-on but frothy at the edges’ regime: high-velocity pockets can overshoot and then mean-revert violently on any macro or idiosyncratic shock."
+      },
+      "geopolitical_and_macro_risks": {
+        "geopolitics": "Renewed fears of US–Iran conflict and other flashpoints periodically hit sentiment, particularly via higher energy prices and flight-to-safety flows.",
+        "inflation_and_stagflation": "Recent inflation prints surprised to the upside; commentary increasingly references stagflation risk (slower growth + sticky inflation), which would be unfriendly to both bonds and rich-equity valuations.",
+        "central_bank_repricing": "Global central-bank repricing toward tighter policy is pressuring tech and metals on some days, stressing the fragility of the current equity rally."
+      },
+      "overall_risk_regime": "Net risk stance is moderately risk-on with significant event risk. The market is comfortable taking equity risk so long as AI/earnings stories hold and yields do not lurch higher; however, the combination of hawkish repricing and geopolitical tension means the regime can quickly swing to risk-off."
+    }
+  },
+  "sector_rotation": {
+    "leadership_and_laggers": {
+      "current_leaders": {
+        "information_technology": {
+          "breadth_stats": {
+            "above_50dma": 0.71,
+            "above_100dma": 0.67,
+            "above_200dma": 0.60
+          },
+          "qualitative": "Still the primary leadership cohort, anchored by AI and semiconductor names, plus infrastructure and software beneficiaries. However, some hedge funds are starting to trim large-cap tech exposure after significant outperformance."
+        },
+        "energy": {
+          "breadth_stats": {
+            "above_50dma": 0.52,
+            "above_100dma": 0.86,
+            "above_200dma": 0.95
+          },
+          "drivers": "Firming oil and geopolitical risk have pushed energy into a strong intermediate- and long-term uptrend, with very high percentages of names above longer moving averages.",
+          "risk_note": "Crowded long energy + higher-for-longer rates are consistent with a stagflation-hedge play; momentum is strong but sensitive to any reversal in energy prices or de-escalation."
+        },
+        "industrials": {
+          "breadth_stats": {
+            "above_50dma": 0.47,
+            "above_100dma": 0.43,
+            "above_200dma": 0.57
+          },
+          "flows": "Seeing net buying from hedge funds and some long-only demand, partly as an AI infrastructure and reshoring play and partly as a cyclical beneficiary."
+        },
+        "utilities": {
+          "breadth_stats": {
+            "above_50dma": 0.23,
+            "above_100dma": 0.52,
+            "above_200dma": 0.68
+          },
+          "interpretation": "Short-term readings are mixed, but medium-to-longer term participation is high, reflecting the sector’s role as a defensive and AI‑power‑demand play. Utilities can act as both ‘bond proxies’ and ‘AI infrastructure’ exposures."
+        }
+      },
+      "laggards_or_mixed": {
+        "consumer_discretionary": {
+          "breadth_stats": {
+            "above_50dma": 0.21,
+            "above_100dma": 0.25,
+            "above_200dma": 0.29
+          },
+          "interpretation": "Despite positive single‑stock stories, the sector overall is not a broad leader. Higher rates and concerns about the lower-income consumer weigh on parts of the group."
+        },
+        "real_estate": {
+          "breadth_stats": {
+            "above_50dma": 0.68,
+            "above_100dma": 0.68,
+            "above_200dma": 0.68
+          },
+          "interpretation": "REITs have staged a recovery with many names above key MAs, but the sector remains structurally sensitive to any renewed rise in yields. Flows show hedge funds selling some real estate exposure."
+        },
+        "materials_and_basic_resources": {
+          "qualitative": "Tech sell-offs tied to higher yields were accompanied by pressure on metals and mining; metals such as gold and silver sold off heavily on renewed hike fears.",
+          "interpretation": "Materials have become more volatile, trading as a levered play on global growth vs. tightening expectations."
+        },
+        "communication_services": {
+          "breadth_stats": {
+            "above_50dma": 0.43,
+            "above_100dma": 0.48,
+            "above_200dma": 0.43
+          },
+          "flows": "Net hedge-fund buying and some long-only interest, reflecting a mix of AI/cloud beneficiaries and resilient ad-driven platforms."
+        }
+      }
+    },
+    "style_and_factor_rotation": {
+      "growth_vs_value": {
+        "growth": "S&P 500 Growth has a higher fraction of names above intermediate MAs (e.g., ~56% above 50dma) than Value (~44%), indicating continued growth leadership.",
+        "value": "Value has improved but trails growth; exposure to financials/energy/industrials provides some support but not enough to flip leadership.",
+        "implication": "The regime is still growth/AI-led, with some catch-up from cyclicals and small caps."
+      },
+      "size": {
+        "large_caps": "Remain the core leadership cohort, especially mega-cap AI; breadth is okay but not extreme.",
+        "small_caps": "Russell 2000 shows a relatively high percentage above the 50dma (~61%), signaling a recent improvement. This suggests a rotation attempt into smaller, more domestic, and cyclical names.",
+        "interpretation": "Factor-wise, the market is transitioning from ultra-narrow mega-cap tech leadership toward a somewhat broader mix including small caps and cyclicals, though mega-cap growth still dominates benchmarks."
+      },
+      "quality_and_profitability": {
+        "quality": "Strong earnings and balance sheets are being rewarded; high-quality growth continues to attract flows.",
+        "unprofitable/speculative": "Non-profitable tech and meme/crypto-adjacent names are rallying in tandem with AI, indicating rising risk tolerance and potential late-cycle speculative behavior."
+      }
+    },
+    "paper_trading_implications": {
+      "regime_for_sector_tests": "This is a good environment for your bot to practice regime‑aware sector and factor tilts: overweight growth/AI and energy/industrials in simulations while monitoring how portfolios behave when rates back up or volatility spikes.",
+      "stress_testing": "Use the current mix of AI enthusiasm + energy strength + hawkish rates repricing to stress test how a diversified, cautious paper portfolio behaves under scenarios such as: sudden 50–75 bp jump in the 10y yield, AI sentiment reversal, or a de-escalation in energy/geopolitics."
+    }
+  },
+  "risk_flags": {
+    "policy_and_rates": {
+      "hawkish_repricing": "FedWatch probabilities now assign around a 45% chance of at least one hike and almost no cuts through 2027; that is a major shift from earlier expectations of multiple cuts.",
+      "scenario_risk": "If inflation remains sticky or re-accelerates, the Fed may need to tighten into slowing growth (stagflation risk), which would be negative for long-duration assets and high-multiple equities.",
+      "bot_guardrail_hint": "Your paper-trading logic should treat abrupt rate repricing events as triggers to tighten risk (e.g., reduce gross exposure or raise cash in simulations) rather than assuming ‘Fed put’ behavior."
+    },
+    "valuation_and_positioning": {
+      "ai_and_mega_cap_concentration": "Index leadership is heavily concentrated in AI and a handful of mega-caps; valuations in these names embed aggressive growth assumptions.",
+      "speculative_pockets": "Meme stocks, crypto-linked equities, and non-profitable tech show increasing participation when markets are up, suggesting that excess liquidity and retail flows are amplifying moves.",
+      "breadth_warning": "Even with recent improvement, breadth is far from uniformly strong; record highs with mixed breadth have historically increased correction risk.",
+      "bot_guardrail_hint": "In testing, penalize portfolios that become overly concentrated in a single theme (e.g., AI/crypto) or a few large names; enforce diversification and position caps."
+    },
+    "macro_and_geopolitical": {
+      "geopolitical_flashpoints": "Tensions in the Middle East and other regions periodically drive energy higher and risk assets lower; these episodes can happen with little warning.",
+      "energy_and_inflation": "Higher energy prices complicate the disinflation narrative and raise the odds of further policy tightening, while also benefiting energy equities and hurting rate‑sensitive sectors.",
+      "bot_guardrail_hint": "In your simulations, treat large, sudden moves in oil or key geopolitical headlines as stress events; monitor correlation spikes between equities, rates, and commodities under such shocks."
+    },
+    "liquidity_and_flow": {
+      "institutional_flow_mixture": "Hedge funds are net buyers in some areas while long-only investors are modest net sellers in big tech and some financials/materials; this suggests rotational rather than outright risk-on positioning.",
+      "retail_flow_and_regulatory_changes": "Looser pattern day trading and margin rules may increase intraday volatility and gap risk in high-beta names, even if index-level flows remain stable.",
+      "bot_guardrail_hint": "For small/mid-cap or speculative tickers in paper trading, assume higher gap risk and slippage; avoid strategies that implicitly require continuous deep liquidity."
+    },
+    "volatility_regime": {
+      "nonlinear_moves": "With VIX in the high‑teens and sensitive to macro data, small changes in inflation expectations or Fed rhetoric can generate outsized moves in high‑beta sectors.",
+      "correlation_risk": "During risk-off snaps, correlations between previously diversifying assets (growth/value, large/small, sectors) tend to spike toward 1, reducing diversification benefits.",
+      "bot_guardrail_hint": "Backtest and log how your hypothetical portfolio behaves when correlation matrices ‘blow out’—e.g., during days with large index gaps or macro data surprises."
+    }
+  },
+  "source_urls": [
+    "https://www.tickmill.com/blog/sp500-trading-update-15526",
+    "https://www.barchart.com/stocks/market-performance",
+    "https://www.newsquawk.com/daily/5578-us-market-open-stocks-hit-as-yieldsenergy-firm-on-renewed-fears-of-us-iran-conflict-resumption",
+    "https://intellectia.ai/blog/fed-rate-hike-probability-stock-market-may-2026",
+    "https://247wallst.com/investing/2026/05/15/fed-rate-cuts-are-over-expect-hikes-as-stagflation-is-ready-to-strike/",
+    "https://www.thestreet.com/fed/wells-fargo-sees-writing-on-the-wall-about-the-next-fed-rate-cut",
+    "https://www.investing.com/news/stock-market-news/morgan-stanley-expects-fed-to-hold-rates-through-2026-cut-in-early-2027-93CH-4692516",
+    "https://www.investing.com/analysis/the-market-melt-up-stalls-as-the-summit-calm-starts-losing-momentum-200680353",
+    "https://www.blackrock.com/us/individual/insights"
+  ]
+}
 

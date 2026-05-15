@@ -4,66 +4,237 @@
 {
   "candidates": [
     {
-      "adversary_case": "A speculative trader could argue that the near-doubling of revenue, combined with a concentrated gaming/youth-audience franchise and any potential rebound in crypto prices, might create a high-beta turnaround play, especially if short interest is elevated. They might view the realized/unrealized crypto losses as non-core and treat the underlying business as undervalued optionality. However, this adversary view underestimates the real balance-sheet and liquidity risk signaled by the going concern disclosure and working capital deficit, and it conflicts with our Chittick Cash emphasis on quality, capital preservation, and clear downside protection.",
-      "allocation_learning_note": "Serves as a negative screen example: strong growth plus speculative crypto leverage and a going concern warning illustrated why high revenue growth is not sufficient for inclusion under the Chittick Cash framework.",
-      "balance_sheet_risk": "Balance-sheet risk is severe: (1) Working capital deficiency of $5.7M as of March 31, 2026; (2) Accumulated deficit of $180M; (3) $22.8M of digital assets and $10.7M in an ETH fund expose the balance sheet to crypto volatility; (4) $9.5M of ETH-backed promissory notes secured by ETH valued at ~$14.6M add leveraged exposure to crypto prices; (5) Going concern language in the 10-Q confirms management\u2019s recognition that current resources may not be sufficient to fund operations for the next 12 months without additional capital.",
-      "bear_case": "Key downside risks are substantial: (1) Going concern warning indicates a non-trivial probability of financial distress or recapitalization on unfavorable terms (dilution or debt restructuring). (2) High exposure to digital-asset price volatility (holding ~$22.8M in digital assets and $10.7M in an ETH fund) combined with $9.5M of ETH-backed promissory notes creates a leveraged, pro-cyclical risk profile. (3) Core operations remain loss-making even before crypto effects, so even if digital assets stabilize, the company may still burn cash. (4) Potential dilution from capital raises to address working capital deficits or to de-risk the balance sheet is high. (5) Gaming/esports advertising budgets are cyclical and sensitive to macro slowdowns and marketing budget cuts.",
-      "capital_allocation_case": "Capital allocation appears aggressive and misaligned with quality-first principles. The firm has chosen to hold significant digital-asset positions and to finance via ETH-backed promissory notes, increasing financial and operational risk. There is no evidence in the provided material of shareholder-friendly actions such as sustained deleveraging, disciplined share repurchases funded by free cash flow, or a conservative liquidity buffer. Instead, management decisions have amplified volatility and contributed to a going concern warning.",
-      "catalyst": "Q1 2026 10-Q and earnings disclosure: revenue nearly doubled year over year to $14.5M, but net loss widened to $17.7M, driven by $14.6M in realized and unrealized digital-asset and ETH-fund losses; management disclosed substantial doubt about the company\u2019s ability to continue as a going concern due to a $5.7M working capital deficiency, $180M accumulated deficit, and ETH-backed promissory notes.",
-      "catalyst_type": "filing",
-      "chittick_cash_score": 18.0,
-      "chittick_reject_reason": "Fails margin-of-safety and balance-sheet-strength criteria; explicit going concern warning and crypto-levered capital structure conflict with Chittick Cash\u2019s emphasis on quality, downside protection, and long-only concentrated-quality thinking.",
-      "concentration_case": "Given the fragile balance sheet, going concern risk, and lack of proven profitability, GameSquare does not deserve concentrated exposure versus higher-quality alternatives in digital media, gaming, or broader market ETFs. For a Chittick Cash\u2013influenced portfolio, capital would be far better deployed into established, cash-generating platforms or diversified ETFs than into a single, highly speculative micro/small-cap with crypto leverage.",
+      "adversary_case": "An adversary would argue that buying after a utility secondary offering in a rising-rate, stagflation\u2011risk environment is fighting the macro tape: higher yields pressure bond\u2011proxy equities, and the dilutive issuance may cap upside. They would suggest waiting for a larger pullback or avoiding rate\u2011sensitive sectors entirely until the Fed path is clearer.",
+      "allocation_learning_note": "Introduce AEP as a lower-beta counterweight to prior tech/gold ideas, avoiding over-concentration in cyclical or momentum themes.",
+      "balance_sheet_risk": "The equity raise reduces leverage and supports capex funding, improving balance sheet resilience at the cost of dilution. Utilities are inherently leveraged businesses, but AEP\u2019s proactive capital raising suggests prudent management of interest-rate and funding risk.",
+      "bear_case": "The large equity issuance is dilutive and signals ongoing capex needs; if rates remain higher for longer, the sector can de-rate as a bond proxy. Regulatory or political pressure on allowed returns, or cost overruns on projects, could compress earnings growth. If there is a sharp risk-off move tied to rates or inflation, utilities may not provide as much downside protection as in past cycles.",
+      "capital_allocation_case": "Management is using the equity markets to fund long-lived assets in a regulated framework, which is consistent with conservative capital allocation. There is some risk of over-issuance if future capex is misjudged, but the decision to raise equity rather than over\u2011lever the balance sheet is generally shareholder\u2011friendly for a long-term owner.",
+      "catalyst": "AEP announced the pricing of a registered underwritten offering of 20,472,442 common shares at $127.00 per share (per company investor site, updated May 15, 2026). This is a large, well-telegraphed capital raise that often creates near-term price pressure and then a stabilization/mean reversion once the deal is absorbed.",
+      "catalyst_type": "filing/news",
+      "chittick_cash_score": 80.0,
+      "chittick_reject_reason": "",
+      "concentration_case": "AEP deserves attention as a non-tech, defensive anchor in a portfolio otherwise at risk of over\u2011concentration in AI, tech, or cyclicals. It offers diversification by sector and factor (low beta, income-like attributes), aligning with the Chittick Cash emphasis on quality and margin of safety.",
       "confidence": 0.78,
       "congressional_signal": "none",
-      "diversity_bucket": "small-cap-speculative / gaming-digital-media",
-      "entry_plan": "No entry. Under current information, GameSquare should not be included as a paper-trade long candidate. If monitored at all, it should be from the sidelines until: (a) the balance sheet is materially repaired (e.g., refinancing, equity raise that clears short-term liquidity risk), (b) management reduces crypto leverage and exposure, and (c) the company demonstrates a credible path toward operating breakeven excluding digital-asset gains/losses.",
-      "exit_plan": "N/A \u2013 no position recommended. If a hypothetical speculative paper position were taken contrary to this framework, a tight downside guard (e.g., 10\u201315% max loss) and a hard time stop of 3\u20135 days around the catalyst would be essential, given binary financing and sentiment risks.",
+      "diversity_bucket": "defensive-utilities-dividend",
+      "entry_plan": "For paper trading, consider a staged entry around the deal reference: initial tranche if price trades in the $127\u2013129 band and holds above $127 on closing prices for two consecutive sessions after the deal; add slightly if it reclaims a short-term moving average (e.g., 10-day) with above-average volume.",
+      "exit_plan": "Take profits if the stock appreciates 6\u20138% from entry or retests a prior local high with stalling volume. Invalidation if it closes decisively below $123\u2013124 (roughly 3\u20134% below the deal price) on strong volume or if notable negative regulatory news emerges, whichever comes first.",
       "fresh_catalyst": true,
-      "growth_runway": "Conceptually, there is a runway in gaming/esports media, talent management, and marketing as brands increasingly target gaming and creator-economy audiences. The inclusion of agencies like Zoned, Code Red, Click, and the FaZe brand platform could support multi-year expansion across sponsorships, content, and SaaS. However, this theoretical runway is overshadowed over the next 30\u2013180 days by immediate liquidity, crypto-mark-to-market, and financing risks. Long-term growth is moot if the capital structure is not stabilized.",
-      "hf_evidence_rank": 0.75,
+      "growth_runway": "Over 30\u2013180 days and beyond, AEP\u2019s growth runway is driven by ongoing grid modernization, renewables integration, and regulated capex that can support rate base growth and earnings. It will not grow like tech, but has a long, visible runway of investment with regulated returns.",
+      "hf_evidence_rank": 0.85,
       "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.2,
-      "hf_memory_similarity": 0.3,
-      "hf_model_notes": "The 10-Q-derived summary from StockTitan is treated as high-quality evidence emphasizing credit and liquidity risk rather than upside catalysts. No hype patterns or listicle-style promotion detected in the provided snippet.",
+      "hf_hype_risk": 0.1,
+      "hf_memory_similarity": 0.2,
+      "hf_model_notes": "Utility with fresh capital-raise catalyst; high disclosure quality, low hype.",
       "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "negative/concerned",
-      "hf_sentiment_score": 0.1,
-      "hf_source_quality_score": 0.8,
+      "hf_sentiment_label": "",
+      "hf_sentiment_score": 0.0,
+      "hf_source_quality_score": 0.9,
       "horizon_days": 5,
-      "margin_of_safety_case": "Margin of safety is very low. The company\u2019s valuation (not quantified in the snippet but inferably fragile) sits atop a capital structure with a working capital deficit, a large accumulated deficit, substantial crypto-linked balance-sheet volatility, and a going concern warning. These conditions mean that even if revenue growth persists, equity holders bear first-loss risk in any negative scenario, and future capital raises are likely to be dilutive. This fails the Chittick Cash focus on durable balance sheets and downside protection.",
-      "market_regime": "In a late-cycle risk-on environment, speculative micro-cap names can rally sharply on news or risk appetite, but they are also the first to be hit if volatility returns or if investors rotate back into quality and defensives. Given the company\u2019s going concern warning and balance-sheet fragility, the current regime amplifies tail risk without providing sufficient fundamental offset; this is the type of name that could be whipsawed by a risk-off shift.",
-      "momentum_case": "There is no verified evidence from the provided sources of sustained positive price momentum, high-volume breakouts, or constructive technical trends. The narrative around the quarter emphasizes large crypto-related losses overshadowing revenue growth, which is more consistent with pressure or at best choppy trading than with clean, trend-following momentum. Without clear evidence of a positive reaction to earnings (e.g., volume spike with a strong price move and follow-through), a 1\u201310 day swing setup is not justified.",
-      "owner_hold_case": "To even consider a 30\u2013180 day owner-style hold, the company would need to (1) secure financing or execute a transaction that materially removes the going concern overhang and addresses the working capital deficit; (2) clearly reduce digital-asset and ETH-fund exposure and/or hedge it in a way that de-levers the balance sheet; (3) demonstrate a credible path to operating breakeven (or better) excluding crypto gains/losses; and (4) show at least one or two quarters of execution that confirms clients and revenue growth are durable. Until then, owner-style holding is not justified.",
-      "quality_case": "Business quality is weak relative to our framework. On the positive side, GameSquare operates a vertically integrated gaming and digital-media platform with agencies (Zoned, Code Red, Click), content, SaaS, and sponsorship streams, plus the FaZe brand exposure, all targeting structurally growing gaming and youth-culture advertising budgets. However, the core operations still lose money (approximately $3.4M operating loss before other income/expenses in Q1 2026), and the capital structure is fragile: large accumulated deficit, working capital deficiency, and reliance on digital assets and ETH-backed debt. The going concern language in the 10-Q is a serious red flag. This combination fails the margin-of-safety, balance-sheet-strength, and durable-profitability criteria central to Chittick Cash and Buffett/Munger discipline.",
-      "recommendation": "avoid",
+      "margin_of_safety_case": "The margin of safety comes less from a deep discount to intrinsic value and more from the regulated nature of cash flows and the bolstered balance sheet post-offering. The deal at $127 effectively sets an institutional anchor; entering near or slightly above that level, with tight risk controls, offers a reasonable buffer against large permanent capital loss over the short review horizon.",
+      "market_regime": "In a risk-on but fragile regime, AEP offers defensive characteristics and income-like exposure, partially offsetting volatility from growth names. If the market sells off on rate or inflation concerns, utilities can still suffer multiple compression, but should fare better than high-multiple tech. In a continued melt-up, AEP will likely lag but should provide stabilizing ballast in the paper portfolio.",
+      "momentum_case": "The stock recently traded around $128.60 (+0.51% on the last close cited) and is not in a speculative blow-off phase. The offering price at $127 creates a near-term support/resistance reference; if the stock holds above that level after the deal is digested, it suggests solid institutional demand. Utilities have been relative laggards versus AI/tech, so this is more of a low-beta, mean-reversion momentum rather than high-octane breakout.",
+      "owner_hold_case": "An owner could justify a 30\u2013180 day and longer hold as part of a core, defensive allocation, collecting dividends and participating in modest rate base-driven growth, while reassessing as rate expectations and regulatory decisions evolve.",
+      "quality_case": "AEP is a core regulated utility with recurring revenue, regulated return on equity, and a long history of paying dividends. The business model is relatively insulated from cyclical earnings swings, and the equity raise strengthens the balance sheet and funds capex for grid and generation investments. As a quality, wide-moat, regulated utility, it fits the Buffett/Munger preference for predictable cash flows, albeit with more modest growth.",
+      "recommendation": "execute-if-guards-pass",
       "repeat_count_48h": 0,
-      "research_tier": "watch",
-      "risk_reward": "Asymmetrically skewed to the downside for a quality-focused, evidence-based strategy. Upside depends on speculative re-rating or crypto sentiment improving, while downside includes dilution, further asset write-downs, and even restructuring. The margin of safety is poor, and the reward is heavily contingent on factors outside management\u2019s operational control.",
-      "sector": "communication-services / digital media & entertainment (gaming/esports marketing)",
+      "research_tier": "execution-ready",
+      "risk_reward": "Moderate upside (mid\u2011single to high\u2011single digit over 1\u201310 days) with relatively contained downside if the deal acts as support. Not a home-run, but a stable, quality name where the big risk is rate/regulatory pressure rather than business model collapse.",
+      "sector": "utilities-electric",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
-      "social_buzz": "none identified from provided sources; no evidence of unusual real-time social or retail-attention spike to justify a momentum swing thesis.",
-      "source_quality": "Strong for risk assessment, weak for bullish thesis. The primary information is from the company\u2019s own 10-Q as summarized by StockTitan, which provides detailed financial metrics (revenue, net loss, size of digital-asset exposure, ETH fund, promissory notes, deficits) and explicit going concern language. This is high-quality for understanding risk and business fragility. However, there are no corroborating sources indicating positive price action, analyst upgrades, or institutional sponsorship that would support a near-term long.",
+      "social_buzz": "none",
+      "source_quality": "Strong: information comes directly from American Electric Power\u2019s investor website with up-to-date market data and offering details.",
       "source_urls": [
-        "https://www.stocktitan.net/sec-filings/GAME/10-q-game-square-holdings-inc-quarterly-earnings-report-7d3501e733d2.html"
+        "https://www.aep.com/investors/"
       ],
-      "stop_loss_percent": 0.0,
+      "stop_loss_percent": 4.0,
       "strategy_tags": [
         "chittick_cash",
-        "quality-screen",
-        "risk-flag",
-        "avoid-list"
+        "defensive",
+        "quality-income"
       ],
-      "symbol": "GAME",
-      "target_allocation_percent": 0.0,
-      "thesis": "GameSquare Holdings is showing strong top-line growth in gaming/esports-related digital media and marketing, but its Q1 2026 10-Q reveals heavy digital-asset losses, ETH-backed leverage, a working capital deficit, and a going concern warning. This is not a fit for a quality-focused Chittick Cash lens; it belongs on a cautionary watchlist rather than in a paper-trade portfolio.",
-      "valuation_case": "No compelling valuation argument can be made from the provided information. The main narrative is not about undervaluation relative to cash flows or assets but about revenue growth overshadowed by crypto losses and leverage. Without positive free cash flow, stable margins, or hard-asset backing, any valuation case would be speculative and difficult to anchor in traditional metrics, contrary to Buffett/Munger discipline."
+      "symbol": "AEP",
+      "target_allocation_percent": 6.0,
+      "thesis": "American Electric Power is a large, regulated U.S. utility with a stable earnings base, now undertaking a sizeable equity raise at $127/share. In a regime of elevated macro and valuation risk, a defensive, dividend-paying name with visible cash flows and an active capital plan can provide ballast. The discounted primary offering price versus the latest quote suggests a short-term reference level that can anchor trading in the near term.",
+      "valuation_case": "Utilities typically trade on earnings multiples and yield spreads to Treasuries. Without full current valuation metrics here, the offering price and continued investor demand suggest the valuation is acceptable but not cheap. Given the sector\u2019s rate sensitivity, this is more of a fair\u2011value\u2011for\u2011quality setup rather than a clear bargain."
+    },
+    {
+      "adversary_case": "A skeptic would argue that ORCL is now an AI\u2011themed value trap: the core database business is mature, cloud share is structurally constrained by hyperscaler competition, and AI hype has pulled forward returns. They would suggest the 40% upside narrative is driven by optimistic sell-side modeling rather than realistic long-term growth.",
+      "allocation_learning_note": "If executed later, sizing should be constrained to avoid AI/tech over-concentration, given prior exposure to mega-cap growth themes.",
+      "balance_sheet_risk": "Oracle has taken on significant debt to fund its cloud build\u2011out and acquisitions, as highlighted in the article. While manageable given cash flows, this raises sensitivity to rate and growth shocks. A negative surprise in growth could re-focus attention on leverage.",
+      "bear_case": "Valuation has already rerated on AI optimism, making it vulnerable to any disappointment in earnings, guidance, or AI deal flow. Oracle carries meaningful debt from its expansion and acquisitions, raising balance-sheet risk if growth slows or rates stay high. Competitive pressure from other cloud providers and open-source alternatives remains intense.",
+      "capital_allocation_case": "Historically, Oracle has aggressively repurchased stock and maintained dividends while investing in cloud infrastructure. Capital allocation has been shareholder\u2011friendly but somewhat aggressive on buybacks; future discipline will matter if AI returns underwhelm.",
+      "catalyst": "MarketBeat highlights three near-term and medium-term catalysts: (1) Oracle\u2019s fiscal Q4 2026 earnings release scheduled for early June, with expectations around 20% revenue growth; (2) the Oracle AI World 2026 conference in October; and (3) accelerating monetization of remaining performance obligations (RPO) from 2027 onward. Analysts rate ORCL a Moderate Buy with roughly 40% upside to consensus and a 76% buy-side bias, and institutions have reportedly shifted back to accumulation in 2026.",
+      "catalyst_type": "earnings/news/structural",
+      "chittick_cash_score": 72.0,
+      "chittick_reject_reason": "",
+      "concentration_case": "ORCL serves as a way to participate in AI and cloud infrastructure without concentrating solely in the most crowded AI winners. It diversifies AI exposure into enterprise software and databases, but still belongs to the broader tech/AI cluster; allocations should account for existing tech exposure in the paper portfolio.",
+      "confidence": 0.7,
+      "congressional_signal": "none",
+      "diversity_bucket": "mega-cap-software-cloud-ai",
+      "entry_plan": "Given the early-June earnings catalyst, a 1\u201310 day swing should be tightly managed. For paper trading, consider a starter position on a pullback into recent support or a consolidation zone ahead of earnings rather than chasing a spike. Alternatively, a post-earnings reaction trade could be planned: enter only if earnings and guidance beat expectations and the stock breaks above recent resistance on strong volume.",
+      "exit_plan": "For a pre-earnings swing, exit into strength if the stock moves 7\u201310% in your favor before the report, or cut early if it loses key short-term support with above-average volume. For a post-earnings breakout entry, set a profit target of roughly 10\u201312% and a stop 6\u20138% below entry or below the breakout level, whichever is tighter.",
+      "fresh_catalyst": true,
+      "growth_runway": "30\u2013180 days: execution on cloud and AI workloads, strong Q4 2026 results, and visibility from AI World 2026 can sustain sentiment. Longer term, monetizing a large RPO backlog and expanding cross\u2011cloud partnerships offers a multi\u2011year growth runway if Oracle continues to gain share in workloads that matter.",
+      "hf_evidence_rank": 0.65,
+      "hf_filter_vetoes": [],
+      "hf_hype_risk": 0.4,
+      "hf_memory_similarity": 0.3,
+      "hf_model_notes": "AI/tech exposure with event catalysts; watch status due to hype and event risk.",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "",
+      "hf_sentiment_score": 0.0,
+      "hf_source_quality_score": 0.7,
+      "horizon_days": 7,
+      "margin_of_safety_case": "Margin of safety is modest: ORCL is not obviously cheap on traditional metrics given elevated expectations. The safety comes from the durability of its enterprise base and cash flows, not from a bargain price. This argues for cautious sizing and avoiding overreliance on the AI narrative for downside protection.",
+      "market_regime": "In a risk-on regime focused on AI and mega-cap tech, Oracle can benefit from thematic flows while offering more diversification than single-name GPU or micro-cap AI trades. However, in a correction or de-rating of growth, Oracle\u2019s multiple could compress alongside peers, especially given its AI narrative premium.",
+      "momentum_case": "ORCL has been benefiting from renewed investor attention as AI workloads drive demand for cloud infrastructure and databases. Analyst upgrades and institutional accumulation suggest positive relative strength. The upcoming earnings event provides a potential momentum continuation if growth and AI narrative beat expectations.",
+      "owner_hold_case": "An owner might hold 30\u2013180 days to capture the earnings report, early read-throughs from AI World 2026 preparations, and further clarity on RPO monetization, reassessing if growth normalizes or if the AI narrative stalls.",
+      "quality_case": "Oracle has entrenched enterprise relationships, mission-critical database and application software, and a growing cloud infrastructure business. High switching costs and embeddedness across hyperscalers reflect a durable moat. While not as pristine as some Buffett-style compounders, it fits the quality lens: high margins, recurring revenue, and significant free cash flow to fund buybacks and dividends.",
+      "recommendation": "watch",
+      "repeat_count_48h": 0,
+      "research_tier": "watch",
+      "risk_reward": "Asymmetry is decent but not exceptional: double-digit upside if AI momentum and earnings impress, versus mid\u2011single-digit downside if expectations prove too high. Event risk around earnings is significant and requires disciplined sizing.",
+      "sector": "information-technology-software",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.05
+      },
+      "social_buzz": "none",
+      "source_quality": "Moderate to strong: MarketBeat is a reputable financial news aggregator summarizing analyst sentiment and catalysts, but underlying primary sources (Oracle filings, earnings transcripts, and official conference announcements) are not directly cited here and should be cross-checked in deeper research.",
+      "source_urls": [
+        "https://www.marketbeat.com/originals/be-ready-3-upcoming-catalysts-could-drive-oracle-to-record-highs/"
+      ],
+      "stop_loss_percent": 8.0,
+      "strategy_tags": [
+        "chittick_cash",
+        "ai-infrastructure",
+        "event-driven"
+      ],
+      "symbol": "ORCL",
+      "target_allocation_percent": 5.0,
+      "thesis": "Oracle is a mature, high-cash-flow enterprise software company that has repositioned itself as a key AI and cloud infrastructure player, with deep integration across Alphabet, Amazon, and Microsoft networks. Upcoming earnings and an AI-focused conference provide clear catalysts in an AI-driven market, but with less hype and volatility than pure-play GPU or small-cap AI bets.",
+      "valuation_case": "Analyst consensus implying ~40% upside suggests current price is below target, but that may reflect optimistic growth and AI monetization assumptions. Without explicit valuation metrics here, it should be treated as a reasonably valued quality name with AI optionality rather than a clear mispricing."
+    },
+    {
+      "adversary_case": "A critic would argue Roper\u2019s acquisition-driven model plus current SaaS/AI enthusiasm has led to a valuation that bakes in years of flawless execution. Any slowdown in Application Software growth or misjudged acquisition could de-rate the stock sharply, making near-term entries unattractive.",
+      "allocation_learning_note": "Use ROP as a benchmark for quality software exposure; avoid over-allocating at premium valuations, consistent with Chittick\u2019s emphasis on margin of safety.",
+      "balance_sheet_risk": "Roper historically uses debt to fund acquisitions but manages leverage prudently. The key risk is overpaying or acquiring assets that underperform expectations rather than an immediate solvency concern.",
+      "bear_case": "Valuation is likely rich given Roper\u2019s quality and growth, limiting margin of safety if growth decelerates. The strategy depends on continued successful capital allocation and integration of acquired assets; missteps or overpayment could compress returns. AI tailwinds could be overestimated or commoditized, reducing differentiation.",
+      "capital_allocation_case": "Capital allocation is central to Roper\u2019s thesis: management has a track record of accretive deals and portfolio optimization. This makes it attractive for an owner-style Chittick lens, but also means any perceived deterioration in capital allocation discipline would be a major red flag.",
+      "catalyst": "Zacks reports that Roper\u2019s Application Software revenues rose 11.5% year over year to $1.19 billion in Q1 2026, and the company expects more than mid-single-digit organic revenue growth for the year. The article also cites growing adoption of SaaS and continued GenAI innovation as key catalysts, particularly for its Aderant business.",
+      "catalyst_type": "earnings/structural",
+      "chittick_cash_score": 82.0,
+      "chittick_reject_reason": "",
+      "concentration_case": "ROP offers diversified vertical software exposure rather than single vertical or consumer-focused risk. In a portfolio with heavy mega-cap tech exposure, it adds a different quality software factor, though still within tech.",
+      "confidence": 0.72,
+      "congressional_signal": "none",
+      "diversity_bucket": "quality-software-compounder",
+      "entry_plan": "Given this is more of a quality compounder than an event-driven swing, any 1\u201310 day paper trade should be modest and opportunistic: consider entries on pullbacks toward recent support after the Q1 2026 rally rather than chasing strength. Use intraday or short-term oversold readings to fine-tune entry.",
+      "exit_plan": "For a short swing, target a 5\u20138% move off support back toward recent highs, with a stop 4\u20136% below entry or below the identified support zone. If price breaks recent highs on strong volume, consider extending the hold slightly but still review within 10 days per the framework.",
+      "fresh_catalyst": true,
+      "growth_runway": "30\u2013180 days: continued outperformance of Application Software and visible SaaS adoption provide a clear near- to medium-term runway. Longer term, disciplined acquisitions and GenAI-driven enhancements to vertical software should sustain growth, provided execution remains strong.",
+      "hf_evidence_rank": 0.7,
+      "hf_filter_vetoes": [],
+      "hf_hype_risk": 0.25,
+      "hf_memory_similarity": 0.2,
+      "hf_model_notes": "High-quality, premium-valued software compounder with fresh Q1 data; better as watch/owner-style than aggressive swing.",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "",
+      "hf_sentiment_score": 0.0,
+      "hf_source_quality_score": 0.7,
+      "horizon_days": 6,
+      "margin_of_safety_case": "Margin of safety is thin based on likely premium valuation; the safety comes from business quality, recurring revenue, and diversified verticals rather than price. Under the Chittick lens, this argues for patience and smaller sizing until a better entry or broader market pullback improves prospective returns.",
+      "market_regime": "In a risk-on environment with AI themes in favor, ROP can attract flows as a high-quality, profitable AI\u2011adjacent compounder. In a correction, high-multiple software is vulnerable, but Roper\u2019s diversified and recurring revenue mix should cushion earnings compared to unprofitable peers.",
+      "momentum_case": "The strong performance of the Application Software unit and positive guidance should support the stock\u2019s trend, especially as investors seek profitable, AI\u2011adjacent software names rather than pure speculation. While not a hyper\u2011momentum small cap, ROP\u2019s steady positive revisions and earnings delivery underpin constructive medium\u2011term momentum.",
+      "owner_hold_case": "An owner could justify a 30\u2013180 day hold to capture the ongoing SaaS transition, Application Software growth, and potential rerating as GenAI capabilities deepen. Regular review around earnings and major M&A announcements would be critical.",
+      "quality_case": "Roper has long been regarded as a high-quality serial acquirer and operator of niche, high-margin software and technology businesses. The transition toward a greater mix of recurring SaaS revenue improves visibility and resilience. GenAI features embedded in vertical software like Aderant can deepen customer lock-in and pricing power, aligning well with a quality, long-duration growth profile.",
+      "recommendation": "watch",
+      "repeat_count_48h": 0,
+      "research_tier": "watch",
+      "risk_reward": "Balanced: moderate upside with limited downside if entries are taken near support, but valuation risk caps the asymmetry. This is better suited as a high-quality watchlist/owner\u2011style name than a pure short-term trade.",
+      "sector": "information-technology-application-software",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "none",
+      "source_quality": "Moderate: Zacks is a mainstream research outlet summarizing segment performance and guidance. Primary confirmation from Roper\u2019s own Q1 2026 release and presentation would strengthen conviction.",
+      "source_urls": [
+        "https://www.zacks.com/stock/news/2922128/strength-in-rops-application-software-unit-seems-firm-more-upside-ahead"
+      ],
+      "stop_loss_percent": 6.0,
+      "strategy_tags": [
+        "chittick_cash",
+        "quality-compounder",
+        "ai-adjacent"
+      ],
+      "symbol": "ROP",
+      "target_allocation_percent": 4.0,
+      "thesis": "Roper Technologies is a diversified software and technology company increasingly driven by its Application Software segment, which is benefiting from SaaS adoption and GenAI innovation. With double-digit growth in this unit and management guiding to more than mid-single-digit organic growth overall, ROP offers high-quality, compounder-like exposure with AI tailwinds, but without meme-like volatility.",
+      "valuation_case": "High-quality names like ROP often trade at elevated multiples. With double-digit Application Software growth and mid\u2011single-digit organic growth overall, the price may be justified but leaves little room for disappointment. Not an obvious bargain, but acceptable for a quality-biased owner at the right price."
+    },
+    {
+      "adversary_case": "A critic would say micro-positions add complexity without meaningful diversification benefit.",
+      "allocation_learning_note": "Use smaller, safer tranches when utility/defensive allocations approach internal caps, instead of dropping the defensive sleeve entirely.",
+      "balance_sheet_risk": "N/A.",
+      "bear_case": "Overly small allocations dilute impact; however, they still help with regime diversification.",
+      "capital_allocation_case": "Helps enforce portfolio-level prudence.",
+      "catalyst": "Same as AEP: the large equity offering and updated investor disclosures.",
+      "catalyst_type": "general",
+      "chittick_cash_score": 75.0,
+      "chittick_reject_reason": "",
+      "concentration_case": "Explicit mechanism to avoid over-concentration in any single defensive name.",
+      "confidence": 0.6,
+      "congressional_signal": "none",
+      "diversity_bucket": "portfolio-allocation",
+      "entry_plan": "If primary AEP trade is flagged for concentration, cap at 3\u20134% instead of 6%.",
+      "exit_plan": "Same percentage guards as main AEP idea but scaled down position size.",
+      "fresh_catalyst": false,
+      "growth_runway": "N/A \u2013 allocation-level.",
+      "hf_evidence_rank": 0.0,
+      "hf_filter_vetoes": [],
+      "hf_hype_risk": 0.0,
+      "hf_memory_similarity": 0.1,
+      "hf_model_notes": "Meta-entry to help allocator adjust under constraints.",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "",
+      "hf_sentiment_score": 0.0,
+      "hf_source_quality_score": 0.0,
+      "horizon_days": 5,
+      "margin_of_safety_case": "Focuses on capital preservation via sizing, not price.",
+      "market_regime": "Risk-on with fragility; a small defensive sleeve is preferable to none.",
+      "momentum_case": "N/A \u2013 structural allocation note.",
+      "owner_hold_case": "Short review horizon remains; this is a structural note for the paper bot\u2019s allocator.",
+      "quality_case": "Reiterating that the driver is diversification and defensive quality, not short-term outperformance.",
+      "recommendation": "watch-allocation-constrained",
+      "repeat_count_48h": 0,
+      "research_tier": "watch-allocation-constrained",
+      "risk_reward": "Lower impact, lower risk; used to satisfy Chittick-style defensive tilt under constraints.",
+      "sector": "meta-allocation-note",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "none",
+      "source_quality": "Inherited from AEP.",
+      "source_urls": [
+        "https://www.aep.com/investors/"
+      ],
+      "stop_loss_percent": 4.0,
+      "strategy_tags": [
+        "allocation-discipline"
+      ],
+      "symbol": "AEP-ALT-NOTE",
+      "target_allocation_percent": 3.0,
+      "thesis": "This is not a separate ticker but an explicit note to consider a smaller, safe tranche if allocation or concentration constraints arise for AEP-like defensive trades. If the model flags AEP for concentration or utility overexposure, reduce target size rather than dropping defensive exposure entirely.",
+      "valuation_case": "N/A \u2013 piggybacks on main AEP thesis."
     }
   ],
-  "summary": "The tape remains broadly risk-on but fragile: U.S. indexes are near highs with strong mega-cap/AI leadership, while sector breadth is narrowing and macro risks (inflation, rates, geopolitics) argue for selective, catalyst-driven entries and disciplined risk controls."
+  "summary": "Equities remain in a late\u2011cycle, risk\u2011on but fragile regime: the S&P 500 is near all\u2011time highs with heavy leadership from AI/mega\u2011cap tech, while breadth and macro risks (stagflation concerns, geopolitics, energy) argue for tighter risk management and selective exposure rather than broad chasing."
 }
 -->
 
@@ -1155,4 +1326,13 @@
 | Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
 |---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
 | GAME | communication-services / digital media & entertainment (gaming/esports marketing | watch | small-cap-speculative / gaming-digital-media | 0 | yes | 0.78 | 18 | 1 | 0 | 0.0% | 0.0% | avoid | Q1 2026 10-Q and earnings disclosure: revenue nearly doubled year over year to $14.5M, but net loss widened to $17.7M, driven by $14.6M in realized and unrealiz |
+
+## Latest Candidates - 2026-05-15 15:01:37 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| AEP | utilities-electric | execution-ready | defensive-utilities-dividend | 0 | yes | 0.78 | 80 | 1 | 0 | 6.0% | 4.0% | execute-if-guards-pass | AEP announced the pricing of a registered underwritten offering of 20,472,442 common shares at $127.00 per share (per company investor site, updated May 15, 202 |
+| ORCL | information-technology-software | watch | mega-cap-software-cloud-ai | 0 | yes | 0.70 | 72 | 1 | 0 | 5.0% | 8.0% | watch | MarketBeat highlights three near-term and medium-term catalysts: (1) Oracle’s fiscal Q4 2026 earnings release scheduled for early June, with expectations around |
+| ROP | information-technology-application-software | watch | quality-software-compounder | 0 | yes | 0.72 | 82 | 1 | 0 | 4.0% | 6.0% | watch | Zacks reports that Roper’s Application Software revenues rose 11.5% year over year to $1.19 billion in Q1 2026, and the company expects more than mid-single-dig |
+| AEP-ALT-NOTE | meta-allocation-note | watch-allocation-constrained | portfolio-allocation | 0 | no | 0.60 | 75 | 0 | 0 | 3.0% | 4.0% | watch-allocation-constrained | Same as AEP: the large equity offering and updated investor disclosures. |
 

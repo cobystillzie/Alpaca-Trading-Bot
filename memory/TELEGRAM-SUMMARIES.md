@@ -13385,4 +13385,46 @@ Sources: https://www.stocktitan.net/sec-filings/GAME/10-q-game-square-holdings-i
 
 Rejected / Watchouts
 - GAME: Candidate references banned v1 instruments or leverage.; Low-weight social/congress signal needs at least two stronger sources.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
+## Research Update - 2026-05-15 15:01:38 Eastern Daylight Time
+
+Research Update
+
+Market tone: Equities remain in a late‑cycle, risk‑on but fragile regime: the S&P 500 is near all‑time highs with heavy leadership from AI/mega‑cap tech, while breadth and macro risks (stagflation concerns, geopolitics, energy) argue for tighter risk management and selective exposure rather than broad chasing.
+Candidates: 4
+
+1. AEP (utilities-electric) | confidence 0.78 | allocation 6.0% | stop 4.0% | Chittick 80/100 | tier execution-ready | bucket defensive-utilities-dividend | HF source 1/100
+Recommendation: execute-if-guards-pass
+Catalyst: AEP announced the pricing of a registered underwritten offering of 20,472,442 common shares at $127.00 per share (per company investor site, updated May 15, 2026). This is a large, well-telegraphed capital raise that often creates near-t...
+Chittick Cash: The margin of safety comes less from a deep discount to intrinsic value and more from the regulated nature of cash flows and the bolstered balance sheet post-offering. The deal at $127 effectively sets an institutiona...
+HF filter: sentiment=not run source=1/100 hype=0.10 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=defensive-utilities-dividend
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. ORCL (information-technology-software) | confidence 0.70 | allocation 5.0% | stop 8.0% | Chittick 72/100 | tier watch | bucket mega-cap-software-cloud-ai | HF source 1/100
+Recommendation: watch
+Catalyst: MarketBeat highlights three near-term and medium-term catalysts: (1) Oracle’s fiscal Q4 2026 earnings release scheduled for early June, with expectations around 20% revenue growth; (2) the Oracle AI World 2026 conference in October; and...
+Chittick Cash: Margin of safety is modest: ORCL is not obviously cheap on traditional metrics given elevated expectations. The safety comes from the durability of its enterprise base and cash flows, not from a bargain price. This ar...
+HF filter: sentiment=not run source=1/100 hype=0.40 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=mega-cap-software-cloud-ai
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. ROP (information-technology-application-software) | confidence 0.72 | allocation 4.0% | stop 6.0% | Chittick 82/100 | tier watch | bucket quality-software-compounder | HF source 1/100
+Recommendation: watch
+Catalyst: Zacks reports that Roper’s Application Software revenues rose 11.5% year over year to $1.19 billion in Q1 2026, and the company expects more than mid-single-digit organic revenue growth for the year. The article also cites growing adopti...
+Chittick Cash: Margin of safety is thin based on likely premium valuation; the safety comes from business quality, recurring revenue, and diversified verticals rather than price. Under the Chittick lens, this argues for patience and...
+HF filter: sentiment=not run source=1/100 hype=0.25 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=quality-software-compounder
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+4. AEP-ALT-NOTE (meta-allocation-note) | confidence 0.60 | allocation 3.0% | stop 4.0% | Chittick 75/100 | tier watch-allocation-constrained | bucket portfolio-allocation | HF source 0/100
+Recommendation: watch-allocation-constrained
+Catalyst: Same as AEP: the large equity offering and updated investor disclosures.
+Chittick Cash: Focuses on capital preservation via sizing, not price.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch-allocation-constrained repeat48h=0 fresh=no bucket=portfolio-allocation
+Social buzz, low weight: none
+Congress signal, low weight: none
 
