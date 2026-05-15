@@ -908,4 +908,10 @@ Candidates found: 2
 The tape remains broadly risk-on but fragile: U.S. indexes are near highs with strong mega-cap/AI leadership, while sector breadth is narrowing and macro risks (inflation, rates, geopolitics) argue for selective, catalyst-driven entries and disciplined risk controls.
 
 Candidates found: 1
+## Premarket Plan - 2026-05-15 15:00:34 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- GAME: score=67, base=100, chittick=18, approved=False, allocation=0.0%, stop=0.0%
+  rejects: Candidate references banned v1 instruments or leverage.; Low-weight social/congress signal needs at least two stronger sources.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
 
