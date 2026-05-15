@@ -8,6 +8,7 @@ This policy is updated by the weekly review and must be read by research, premar
 - If a repeated ticker has no fresh catalyst, lower it to `stale-watch` and research at least two alternatives from underrepresented sectors.
 - Top candidate sets should aim for at least three diversity buckets before execution-ready language is used.
 - Allocation-blocked candidates must either propose a smaller safe tranche or name a different-sector alternative; do not keep repeating the same 8% target.
+- Recently rejected hard-ban, low-weight-only, allocation-blocked, or max-position-blocked ideas must stay in `monitor-only` or `allocation-muted` lanes with zero allocation until the blocker is resolved.
 - Do not loosen live-trading, options, crypto, margin, short-selling, cash-reserve, or secret-handling rules.
 
 ## Current Weekly Findings
