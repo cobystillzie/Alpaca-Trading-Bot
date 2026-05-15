@@ -13661,4 +13661,37 @@ Model notes: Meta-entry to help allocator adjust under constraints.
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: https://www.aep.com/investors/
+## Research Update - 2026-05-15 15:05:19 Eastern Daylight Time
+
+Research Update
+
+Market tone: The tape remains in a late-stage, momentum-led risk-on regime, but the snippets you provided skew toward defensive/recession-resilient stocks and yield/income products, plus some retail/speculative angles (bitcoin, income ETFs, retail ETFs). That mix supports a cautious, quality-focused stance with selective short-term swings only when catalysts and risk controls are very clear.
+Candidates: 3
+
+1. WMT (consumer-staples / big-box retail) | confidence 0.73 | allocation 5.0% | stop 5.0% | Chittick 82/100 | tier watch | bucket consumer-staples-defensive | HF source 0/100
+Recommendation: watch
+Catalyst: Recent 2026 operating results highlighted by EBC show operating income outpacing sales growth, confirming margin improvement and value-demand resilience. In a market increasingly focused on recession resilience and consumer trade-down be...
+Chittick Cash: For a business of WMT’s quality and resilience, the main margin-of-safety question is valuation versus normalized earnings and cash flow. The stress-test ‘clean pass’ label suggests fundamentals are solid, but without...
+HF filter: sentiment=not run source=0/100 hype=0.05 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=consumer-staples-defensive
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. COST (consumer-staples / warehouse-club retail) | confidence 0.71 | allocation 4.0% | stop 5.0% | Chittick 80/100 | tier watch | bucket consumer-staples-defensive | HF source 0/100
+Recommendation: watch
+Catalyst: EBC cites that membership fees rose to $1.36 billion, confirming continued growth in a key high-margin revenue stream. This acts as a near-term confirmation of Costco’s pricing power and member engagement, and can reinforce investor expe...
+Chittick Cash: Membership-fee growth and brand strength provide a qualitative margin of safety, but valuation appears stretched based on the mention of ‘valuation risk.’ The margin of safety is more business-based than price-based h...
+HF filter: sentiment=not run source=0/100 hype=0.08 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=consumer-staples-defensive
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. XRT (ETF – U.S. retail / consumer-discretionary mix) | confidence 0.69 | allocation 5.0% | stop 6.0% | Chittick 65/100 | tier execution-ready | bucket consumer-discretionary-ETF | HF source 0/100
+Recommendation: execute-if-guards-pass
+Catalyst: Zacks highlights that as of mid-May 2026 the ETF is down about -5.51% year-to-date but up roughly 9.07% over the last year, trading within a 52-week range of $74.20 to $90.88. This indicates a pullback within an intact longer-term uptren...
+Chittick Cash: As an ETF, margin of safety is more about owning the sector basket near the lower part of its recent range rather than about intrinsic value vs. price. With XRT currently down YTD but up over 1 year, there is some arg...
+HF filter: sentiment=not run source=0/100 hype=0.06 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=consumer-discretionary-ETF
+Social buzz, low weight: none
+Congress signal, low weight: none
 
