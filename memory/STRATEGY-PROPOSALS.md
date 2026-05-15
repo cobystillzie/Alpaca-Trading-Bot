@@ -798,4 +798,307 @@ Weekly review may propose changes here. Routine runs must not rewrite executable
     }
   ]
 }
+## Weekly Strategy Proposals - 2026-05-15 17:25:52 Eastern Daylight Time
+
+{
+  "lessons": {
+    "1_stale_repetition": {
+      "observation": [
+        "SCHD appears ~20+ times with minimal new catalysts.",
+        "UNP, GLD, INTC, SQ, FPS, VRT recur frequently within a few days, often with nearly identical notes.",
+        "Daily tables are cluttered with high-Repeat names that are already allocation‑blocked or previously rejected."
+      ],
+      "takeaway": "The engine is over-surfacing the same tickers and catalysts, reducing marginal research value and masking genuinely new ideas.",
+      "action_summary": [
+        "Introduce a hard cool‑down window by ticker after N repeats.",
+        "Down‑rank or hide stale names unless there is a clearly new, tagged catalyst.",
+        "Separate a ‘rolling coverage watchlist’ from ‘new daily candidates’ so recurring coverage does not dominate daily output."
+      ]
+    },
+    "2_allocation_and_guardrail_conflicts": {
+      "observation": [
+        "Many rejected trades (SPMO, GOOGL, NVDA, GLD, COIN, LMT, AEP, ROP, ORCL) fail guardrails (15% max single stock, max positions, v1 bans, low‑weight social/congress).",
+        "Despite repeated guardrail failures, the same names keep appearing as ‘execution-ready’ or ‘watch’, then get blocked again at the trade gate."
+      ],
+      "takeaway": "Idea generation is not sufficiently conditioned on portfolio/guardrail state, causing wasted work and repetitive rejections.",
+      "action_summary": [
+        "Apply allocation/guardrail filters earlier in the pipeline before an idea is promoted to ‘execution-ready’.",
+        "If a ticker is repeatedly blocked on structural rules (e.g., max allocation, v1 ban), treat it as ‘allocation-blocked’ and suppress further execution-ready flags until conditions change.",
+        "Log and use rejection reasons as negative training signals for future candidate scoring."
+      ]
+    },
+    "3_sector_and_theme_concentration": {
+      "observation": [
+        "Heavy clustering in semiconductors/AI (NVDA, INTC, PDFS, FPS, VRT, FLEX) and AI-infrastructure themes.",
+        "Defensive ETFs and utilities (SCHD, SPUS, GLD, AEP, DFAT, FBND, XRT, WMT, COST) are often re-used as ‘diversification’ but repeat frequently.",
+        "Some sectors (e.g., consumer discretionary ex-retail, emerging markets, small-cap quality, non-U.S. developed markets) are underrepresented."
+      ],
+      "takeaway": "Diversity is improving but still dominated by a few thematic clusters, causing correlation risk in hypothetical portfolios.",
+      "action_summary": [
+        "Explicitly track sector, factor, and theme exposure in candidate generation.",
+        "Attach a diversification score to each candidate and down‑rank names that exacerbate existing concentration unless the catalyst is exceptional.",
+        "Require some minimum representation of underexposed sectors/factors in daily research."
+      ]
+    },
+    "4_daily_output_quality": {
+      "observation": [
+        "Many entries provide partially duplicated catalyst blurbs (GLD’s India duty hike is repeated with slightly different wording 8+ times).",
+        "‘Fresh’ is sometimes marked yes even when there is no genuinely new information (e.g., UNP repeating the same grain-transport note).",
+        "A few high-signal items (UNH, HUMA, AEP, WMT/COST set, DFAT/FBND) appear, but they are buried among repeated AI/GLD/SCHD items."
+      ],
+      "takeaway": "The signal-to-noise ratio of daily candidate tables is lower than it could be; ‘freshness’ is not strictly enforced.",
+      "action_summary": [
+        "Redefine ‘Fresh’ to require new event types or materially new data (e.g., new filing, rating change, guidance, macro/policy move), not just rephrasing.",
+        "Cap repeated mention of the same catalyst over a short lookback window.",
+        "Promote a concise ‘top 3–5 new ideas’ section separate from the rolling watchlist."
+      ]
+    },
+    "5_hugging_face_filters_and_social_congress_signals": {
+      "observation": [
+        "HF Source and HF Vetoes fields are present; HF Vetoes frequently block hypey or repeat-driven ideas (e.g., INTC, ADI, GSK flagged for repeat_staleness and source‑thin hype).",
+        "Rejected log shows multiple cases where low‑weight social/congress signals were correctly rejected due to insufficient corroboration (PLTR, EWY, EWT, LMT, ORCL).",
+        "However, some rejections cite ‘Candidate references banned v1 instruments or leverage’ on plain equities/ETFs (e.g., GLD, AEP, ROP, ORCL, COIN) indicating an over-broad or noisy filter rule set."
+      ],
+      "takeaway": [
+        "Hugging Face (HF) filters are adding value by curbing hype and under‑sourced social/congress-driven picks.",
+        "But classification rules (especially ‘banned v1 instruments or leverage’) are overly coarse and sometimes misfire on ordinary names, blocking otherwise high-quality ideas."
+      ]
+    },
+    "6_chittick_cash_scoring": {
+      "observation": [
+        "Chittick scores are generally high (70–90) for mega/quality names (AAPL, MSFT, UNP, UNH, WMT, COST, ROP, AEP) and for some vetted ETFs (SCHD, GLD, DFAT, FBND).",
+        "High Chittick scores sometimes align with high HF Source and low HF Vetoes (e.g., UNH, DFAT, FBND), and these tend to be higher-quality, well-sourced ideas.",
+        "However, high repeats like SCHD and GLD also maintain high Chittick scores, feeding their constant resurfacing."
+      ],
+      "takeaway": "Chittick scoring is useful as a quality prior but currently under-weights novelty, diversification, and ‘already-allocated’ status."
+    },
+    "7_congressional_and_social_buzz": {
+      "observation": [
+        "Multiple rejections cite ‘Low-weight social/congress signal needs at least two stronger sources.’",
+        "Names like PLTR, EWY, EWT, LMT, ORCL are stopped at the gate when driven mainly by these low-conviction signals.",
+        "No clear example where social/congress inputs alone led to a top-tier, high-confidence execution-ready trade that passed all filters."
+      ],
+      "takeaway": "Treating social/congress signals as a weak, confirmatory layer rather than a primary driver has been appropriate. They added more noise than standalone value but did help with red-flagging hype."
+    }
+  },
+  "rejected_patterns_and_anti_patterns": {
+    "1_repeat_staleness": {
+      "pattern": "Tickers that reappear many times (Repeat > ~5) with nearly identical catalysts (e.g., SCHD, GLD, UNP, INTC, SQ) but still show Fresh = yes and are sometimes promoted to execution-ready.",
+      "risk": "Cognitive and allocation crowding, missing new opportunities because attention is focused on recycled names.",
+      "rule_proposal": [
+        "If Repeat >= 5 and no new catalyst type in the last 3 days, set tier to 'stale-watch' and block promotion to execution-ready.",
+        "Attach a staleness_penalty to Confidence and Chittick for repeated ideas without fresh catalysts."
+      ]
+    },
+    "2_allocation_blocked_recycling": {
+      "pattern": "Names repeatedly hitting structural allocation limits (NVDA, GOOGL, SPMO, GLD) continue to surface as trade candidates.",
+      "risk": "Persistent conflicts between research-output and risk-management layers; wasted evaluation cycles.",
+      "rule_proposal": [
+        "On repeated 'Single-stock allocation would exceed 15%' for a ticker, place that ticker on an 'allocation-blocked' list and treat it as coverage-only.",
+        "Require a significant portfolio state change (e.g., hypothetical sell or rebalance) before allowing that name back into the execution-ready pool."
+      ]
+    },
+    "3_overreliance_on_single_catalyst": {
+      "pattern": "GLD entries repeatedly cite the same India duty hike; UNP entries repeatedly cite the Q1 2026 grain transport record; SCHD entries reuse 'value/dividend rotation' and SEC semiannual reporting.",
+      "risk": "Overstating the importance or persistence of a one-time event; ignoring whether price has already digested the news.",
+      "rule_proposal": [
+        "Limit a single discrete event to at most 2–3 days of ‘fresh’ promotion unless there are follow-up developments (e.g., earnings, policy updates).",
+        "Force a valuation/technical re-check after a catalyst has been cited N times to see if risk/reward remains attractive."
+      ]
+    },
+    "4_broad_ban_misclassification": {
+      "pattern": "‘Candidate references banned v1 instruments or leverage’ applied to names that look like standard equities/ETFs (GLD, AEP, ROP, ORCL, COIN, LMT, FPS/VRT/FLEX).",
+      "risk": "Systematic loss of otherwise high-quality ideas and confusion around which asset classes are actually permitted.",
+      "rule_proposal": [
+        "Tighten the pattern-matching used to detect leverage/banned instruments so that unlevered, long-only equities/ETFs are not flagged.",
+        "Add a disambiguation step: if the instrument is a plain equity/ETF and not explicitly on a banned list, override the generic v1 ban rule."
+      ]
+    },
+    "5_max_open_position_conflicts": {
+      "pattern": "FPS and others are rejected solely because 'Max open-position count would be exceeded', yet they keep resurfacing as attractive watch names.",
+      "risk": "Multiple near-duplicate rejections; no learning that position slots are scarce resources.",
+      "rule_proposal": [
+        "When max positions is hit, log the reason and then prioritize replacement logic (e.g., ranking potential sells) before generating more new buys.",
+        "Mark over-capacity ideas as ‘queue’ or ‘secondary watch’ instead of re-flagging them as would-be executions."
+      ]
+    },
+    "6_social_congress_overweight_and_misalignment": {
+      "pattern": "Names whose primary justification is social/congress buzz keep triggering the 'low-weight signal' rejection rule.",
+      "risk": "Repeated attempt to push low-quality, under-sourced names like PLTR and some country ETFs based on weak buzz.",
+      "rule_proposal": [
+        "Require at least one strong fundamental or macro source before any social/congress-sourced name can elevate beyond low-confidence watch.",
+        "Use social/congress signals only as a tie-breaker or risk-flag, not as a primary catalyst."
+      ]
+    }
+  },
+  "strategy_proposals": {
+    "1_novelty_and_diversity_weighting": {
+      "goal": "Reduce stale, repeated tickers and enhance portfolio diversification.",
+      "proposal": {
+        "novelty_score": {
+          "definition": "Score inversely proportional to (Repeat count in last N days + similarity to prior catalysts).",
+          "use": [
+            "Multiply base Confidence by (0.7 + 0.3 * novelty_score).",
+            "Suppress execution-ready status when novelty_score is below a threshold (e.g., 0.3) unless conviction is exceptionally high."
+          ]
+        },
+        "diversification_score": {
+          "definition": "Measure marginal reduction in concentration by sector, industry, factor (value/growth, size, quality), and theme (AI, commodities, defensives, etc.).",
+          "use": [
+            "Prefilter candidates by ensuring some proportion of daily output comes from underrepresented sectors/factors.",
+            "Boost Confidence for names that improve diversification when portfolio is concentrated."
+          ]
+        }
+      }
+    },
+    "2_two_layer_output_structure": {
+      "goal": "Separate ‘coverage maintenance’ from ‘new actionable ideas’ to avoid repetitive daily tables.",
+      "proposal": {
+        "coverage_watchlist": [
+          "Contains frequently followed names (SCHD, GLD, UNP, NVDA, AAPL, MSFT, etc.).",
+          "Updated only when there is a materially new catalyst.",
+          "Shown in a compact format (e.g., one row per ticker summarizing last catalyst and time since last meaningful update)."
+        ],
+        "daily_candidate_shortlist": [
+          "Top 3–7 new or materially updated ideas per day.",
+          "Must pass novelty and diversification thresholds.",
+          "Includes explicit notation of what changed vs. prior memory (e.g., new earnings, guidance, policy, deal)."
+        ]
+      }
+    },
+    "3_guardrail-aware_candidate_generation": {
+      "goal": "Align research output with allocation constraints and risk limits so fewer ideas die at the gate.",
+      "proposal": {
+        "pre-screening": [
+          "Before scoring a ticker as execution-ready, check hypothetical portfolio allocation (single name, sector, factor).",
+          "If adding the position would breach limits, classify the idea as 'allocation-blocked coverage' instead of a trade candidate."
+        ],
+        "blocked_list_management": [
+          "Maintain three lists: allocation_blocked, max_position_blocked, and banned_instruments.",
+          "In daily generation, down-rank or omit tickers on these lists from the execution-ready pool."
+        ]
+      }
+    },
+    "4_catalyst_de-duplication_and_windowing": {
+      "goal": "Avoid reusing the same catalyst beyond its useful window.",
+      "proposal": {
+        "event_window_rules": [
+          "News/earnings/policy catalysts: full effect window 1–3 trading days, after which they shift to 'background context'.",
+          "If a candidate’s only new justification is a previously used catalyst beyond its event window, mark Fresh = no and reduce its priority."
+        ],
+        "event_type_tracking": [
+          "Track catalysts by type (earnings, rating change, policy, corporate action, macro, valuation/re-rating, volume/technical).",
+          "Require a new type or updated data within an existing type to treat a candidate as fresh."
+        ]
+      }
+    },
+    "5_factoring_in_trade_rejection_history": {
+      "goal": "Turn rejection logs into learning signals.",
+      "proposal": {
+        "rejection_features": [
+          "For each ticker, maintain counts of each rejection reason (allocation limit, banned instrument, max positions, low social weight, HF veto).",
+          "Use these counts as negative features in scoring and candidate-type selection."
+        ],
+        "behavioral_change": [
+          "If a ticker has multiple 'banned v1 instrument' rejections, restrict it to 'coverage only' until filter rules are updated.",
+          "If a name frequently fails the 'low social weight' test, require stronger traditional research sources before it can be reconsidered."
+        ]
+      }
+    },
+    "6_role_of_chittick_cash_and_HF_filters": {
+      "goal": "Use these tools more deliberately to improve idea quality.",
+      "proposal": {
+        "chittick_refinement": [
+          "Incorporate novelty_penalty and diversification_bonus into the Chittick score so high-quality but stale names (like SCHD) are still good coverage but not constant top candidates.",
+          "Introduce a small ‘rejection penalty’ so ideas repeatedly blocked at gates see a reduced Chittick over time unless the underlying conditions change."
+        ],
+        "HF_filter_tuning": [
+          "Retain strict hype and source-thin vetoes—they are working.",
+          "Narrow the scope of the 'banned v1 instruments or leverage' classification; require positive evidence of leverage/banned-structure instead of loose pattern matching.",
+          "Log filter decisions and periodically sample them to remove systematic false positives."
+        ]
+      }
+    }
+  },
+  "self_learning_directives": {
+    "1_memory_and_freshness_management": [
+      "Implement a per-ticker time-decay function: older catalysts gradually lose weight, encouraging discovery of newer events.",
+      "When adding a candidate, compare its catalyst text to stored history. If similarity is high and time since last similar catalyst is short, mark it stale and avoid promoting it."
+    ],
+    "2_portfolio_state_awareness": [
+      "Always retrieve current hypothetical allocation and open positions before ranking new ideas.",
+      "Update internal state after each simulated trade decision so future candidates reflect the updated constraints."
+    ],
+    "3_source_weighting_and_validation": [
+      "Maintain a reliability score for each research source (e.g., company filings > top-tier sell-side > curated news > blogs > social/congress).",
+      "Require a minimum weighted-source score for an idea to overcome HF hype vetoes.",
+      "Treat social/congress as a secondary feature; use it to validate or question existing theses rather than drive new positions alone."
+    ],
+    "4_pattern_recognition_from_rejection_log": [
+      "Regularly cluster rejection reasons to detect systemic misconfigurations (e.g., over-broad v1-banned rules).",
+      "Automatically propose rule adjustments when a pattern of obviously-valid instruments is being misclassified as banned or leveraged."
+    ],
+    "5_sector_and_theme_balance": [
+      "Track sector/industry/theme weights of the current paper portfolio and of the candidate universe.",
+      "When a sector (e.g., AI/semis) is heavily represented, increase the threshold for new ideas in that sector unless they score exceptionally high on catalysts and valuation.",
+      "Encourage exploration of underrepresented sectors by slightly boosting their base scores when fundamentals support them (e.g., DFAT/FBND/WMT/COST-style diversification candidates)."
+    ],
+    "6_evaluation_feedback_loop": [
+      "After simulated holding periods, record performance outcomes per catalyst type, sector, and source mix.",
+      "Incrementally adjust feature weights: up-weight catalyst types and sources associated with better risk-adjusted outcomes; down-weight those linked to poor results."
+    ]
+  },
+  "safe_code_and_prompt_routine_changes": {
+    "1_filtering_and_scoring_pipeline": {
+      "changes": [
+        "Add an early-stage 'Eligibility Filter' that checks: (a) banned instruments, (b) leverage/derivative exposure, (c) portfolio allocation and max-position constraints. Only candidates passing this stage enter the scoring pipeline.",
+        "Introduce a 'Staleness Module' that computes novelty_score based on repeat count, last-catalyst age, and semantic similarity to prior notes. Apply this before ranking.",
+        "Integrate a 'Diversification Module' that looks at current portfolio exposures and gives each candidate a diversification_score."
+      ]
+    },
+    "2_data_structures_and_flags": {
+      "changes": [
+        "Extend candidate objects with fields: novelty_score, diversification_score, last_catalyst_date, catalyst_type, rejection_history, allocation_blocked_flag.",
+        "Maintain separate lists in memory: coverage_watchlist, daily_candidate_shortlist, and blocked_tickers (with reasons).",
+        "Ensure Fresh is computed algorithmically from last_catalyst_date and catalyst_type, not set manually."
+      ]
+    },
+    "3_prompt_and_instruction_updates": {
+      "changes": [
+        "In prompts that generate daily candidates, explicitly instruct: 'Prioritize new or materially updated catalysts; penalize tickers that have appeared more than N times in the last M days without new events.'",
+        "Instruct the model: 'If an idea would violate allocation or guardrail constraints, classify it as coverage-only and do not label it execution-ready.'",
+        "Include an instruction: 'Cap repeated references to the same discrete catalyst to a short window; afterwards, treat it as background context only.'"
+      ]
+    },
+    "4_logging_and_explainability": {
+      "changes": [
+        "For each candidate, log which modules (eligibility, staleness, diversification, HF filters, Chittick) influenced the final recommendation and how (e.g., penalties/bonuses).",
+        "Surface a concise explanation when a candidate is downgraded to stale-watch or allocation-blocked so the system avoids re-running the same failing logic."
+      ]
+    },
+    "5_safety_and_scope_enforcement": {
+      "changes": [
+        "Keep hard blocks against options, margin, shorting, crypto trading, live execution, secrets, and credential changes; do not alter these guards.",
+        "Ensure any expansion of allowed symbols is explicitly checked against the banned-instrument list and leverage detection logic."
+      ]
+    }
+  },
+  "assessment_of_signal_components": {
+    "chittick_cash": {
+      "impact": "Generally aligned with quality, especially for large, fundamentally sound names and diversified ETFs.",
+      "issues": "Does not adequately consider novelty or allocation-blocked status, leading to over-promotion of repeated names.",
+      "net_assessment": "Positive but needs integration with novelty/diversification and rejection-history features."
+    },
+    "hugging_face_filters": {
+      "impact": "Helpful in vetoing hypey, source-thin ideas and enforcing multi-source standards for social/congress-driven picks.",
+      "issues": "Overly aggressive 'banned v1 instruments or leverage' tagging on plain equities/ETFs; some false positives.",
+      "net_assessment": "Overall improvement in quality, but requires narrower classification rules and periodic calibration."
+    },
+    "social_buzz_and_congress_signals": {
+      "impact": "Have mostly added noise when used as primary drivers; best usage has been as a gating flag when combined with stronger sources.",
+      "issues": "Repeated proposals based mainly on weak social/congress signals that then get rejected for low-weight support.",
+      "net_assessment": "Keep as low-weight, confirmatory or risk-flag inputs only; never as standalone trade catalysts."
+    }
+  }
+}
 
