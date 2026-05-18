@@ -929,4 +929,10 @@ Candidates found: 3
 Signing Day Sports (SGN) shows extremely elevated and volatile short interest for a micro-cap that has been flagged as potentially delisted. The recent spike to ~71% of float shorted and subsequent sharp drop still leaves over one-fifth of float short. However, the name fails basic quality, liquidity, and survivability standards and should not be used as a long-only swing candidate for a disciplined paper-trading strategy.
 
 Candidates found: 1
+## Premarket Plan - 2026-05-18 08:16:38 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- SGN: score=65, base=100, chittick=10, approved=False, allocation=0.0%, stop=0.0%
+  rejects: Low-weight social/congress signal needs at least two stronger sources.; micro_cap_speculation; potentially_delisted; no_fundamental_catalyst; HF source/hype filter rejects source-thin hype.; Candidate is monitor-only and cannot be traded.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
 
