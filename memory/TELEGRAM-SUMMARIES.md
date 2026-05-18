@@ -15189,4 +15189,37 @@ Model notes: Cyclical value candidate, but the evidence set is too thin for exec
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: none
+## Research Update - 2026-05-18 17:13:31 Eastern Daylight Time
+
+Research Update
+
+Market tone: Fresh catalysts today are concentrated in AI/tech (Direxion Titans ETFs built on AAPL/NVDA/MSFT/AVGO/MU) and in specific single-name stories like Coca-Cola’s World Cup-driven thesis and argenx’s Vyvgart growth. Macro remains late-cycle but broadly risk-on for quality, cash-generative names, while leveraged and hype-heavy vehicles should be avoided for this ruleset.
+Candidates: 3
+
+1. KO (consumer-staples-beverages) | confidence 0.73 | allocation 6.0% | stop 8.0% | Chittick 82/100 | tier execution-ready | bucket consumer-staples-defensive | HF source 0/100
+Recommendation: execute-if-guards-pass
+Catalyst: Citi raised KO’s price target from $90 to $91 with a reiterated Buy rating, citing expected volume gains from Coca-Cola’s role as an official partner of the upcoming FIFA World Cup and its largest-ever marketing campaign tied to the event.
+Chittick Cash: Margin of safety is modest in classical value terms because KO trades at ~25x P/E; however, the business quality and balance-sheet strength offset some valuation risk. The dividend yield and global brand durability cr...
+HF filter: sentiment=not run source=0/100 hype=0.10 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=consumer-staples-defensive
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. FFIV (information-technology-software-infrastructure) | confidence 0.63 | allocation 0.0% | stop 8.0% | Chittick 74/100 | tier watch | bucket quality-software-infrastructure | HF source 0/100
+Recommendation: watch
+Catalyst: TipRanks reports that FFIV shares climbed after Evercore ISI highlighted F5’s strong positioning in handling AI inference traffic, along with favorable pricing trends, effectively reframing the stock as an AI infrastructure beneficiary.
+Chittick Cash: Without up-to-date valuation metrics in the snippet, margin of safety is hard to quantify; historically, FFIV has traded at reasonable multiples versus quality. The AI re-rating risk cuts both ways: it can expand mult...
+HF filter: sentiment=not run source=0/100 hype=0.25 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=quality-software-infrastructure
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. ARGX (healthcare-biotech) | confidence 0.60 | allocation 0.0% | stop 10.0% | Chittick 68/100 | tier watch | bucket healthcare-biotech | HF source 0/100
+Recommendation: watch
+Catalyst: Investing.com’s SWOT analysis notes that argenx shares have gained momentum on Vyvgart growth and points to several potential catalysts for further upside through 2026, including label expansions and additional clinical milestones.
+Chittick Cash: Biotech margin of safety rests on cash runway, diversified pipeline, and the durability of Vyvgart revenue. Without fresh balance-sheet or valuation details, we should assume only a moderate margin of safety: better t...
+HF filter: sentiment=not run source=0/100 hype=0.30 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=healthcare-biotech
+Social buzz, low weight: none
+Congress signal, low weight: none
 
