@@ -135,4 +135,14 @@ HF source/hype filter rejects source-thin hype.
 Candidate is monitor-only and cannot be traded.
 Target allocation must be between 1% and 15%.
 Stop loss must be between 3% and 12%.
+## Rejected SGN - 2026-05-18 09:55:03 Eastern Daylight Time
+
+Low-weight social/congress signal needs at least two stronger sources.
+micro_cap_speculation
+potentially_delisted
+no_fundamental_catalyst
+HF source/hype filter rejects source-thin hype.
+Candidate is monitor-only and cannot be traded.
+Target allocation must be between 1% and 15%.
+Stop loss must be between 3% and 12%.
 
