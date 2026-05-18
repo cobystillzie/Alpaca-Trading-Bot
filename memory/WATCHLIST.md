@@ -4,69 +4,234 @@
 {
   "candidates": [
     {
-      "adversary_case": "A speculative trader might argue that extreme historical short interest (up to ~70.8% of float) and still-elevated current levels (~21.1% of float) create an attractive setup for a sharp short squeeze if any positive news emerges. They may also claim that because the stock is cheap in nominal terms and heavily shorted, the risk/reward is skewed positively. The rebuttal is that without clear evidence of active listing, audited financial strength, or a concrete positive catalyst, this is a lottery ticket, not an investment. The strategy\u2019s mandate explicitly deprioritizes such lottery-style micro-caps.",
-      "allocation_learning_note": "This case reinforces the need to separate short-interest and micro-cap volatility monitoring from actual candidate selection. Names flagged as potentially delisted or structurally speculative should be tracked only as risk exemplars, not as trade candidates.",
-      "balance_sheet_risk": "Unknown but presumptively high. Micro-cap issuers in this situation frequently have thin cash buffers, dependence on equity issuance or convertible financing, and limited bank relationships. Balance-sheet opacity and the possibility of going-concern warnings would be red flags under the Chittick Cash framework.",
-      "bear_case": "Key failure modes: (1) Delisting/illiquidity: MarketBeat explicitly notes SGN is potentially delisted and may not be actively trading; if true, new capital cannot reliably enter or exit, rendering any paper strategy non-replicable in the real world. (2) Structural dilution/going concern risk: micro-caps with sub-$1 share prices and wild short-interest often rely on repeated equity issuance, reverse splits, or toxic financing, destroying long-term shareholder value. (3) Regulatory and compliance risks: reversals, trading suspensions, or exchange delisting could permanently impair liquidity. (4) No fundamental anchor: without verifiable revenue, profit, or balance-sheet strength, there is no intrinsic value reference; price may trend toward zero over time regardless of intermittent squeezes.",
-      "capital_allocation_case": "No trustworthy public information is provided about management\u2019s capital allocation history. By default, repeated dilution, reverse splits, and promotional behavior are common in this cohort, which is inconsistent with an owner-oriented, margin-of-safety approach.",
-      "catalyst": "The only clear recent data point is the sharp rise and then fall in short interest through Q1 2026: short interest peaked at 9.57M shares (~70.8% of float) on February 13, 2026, then declined by ~57.6% to 4.05M shares by February 27 and by another ~29.8% to 2.85M shares (~21.1% of float) by March 13, 2026. There is no accompanying verified earnings, contract, or balance-sheet catalyst, and the stock is flagged as potentially delisted.",
-      "catalyst_type": "momentum",
-      "chittick_cash_score": 10.0,
-      "chittick_reject_reason": "Fails core Chittick Cash principles: (1) no validated business quality or margin of safety, (2) high balance-sheet and dilution risk, (3) no clear real-growth runway or durable competitive advantage, and (4) elevated structural and governance risk associated with potential delisting.",
-      "concentration_case": "SGN does not deserve concentration; it does not even pass the threshold to be a small speculative sleeve within a quality-focused portfolio. Broad ETFs or established quality names in sports, media, or tech provide far better risk/reward trade-offs.",
-      "confidence": 0.82,
-      "congressional_signal": "none; no congressional trading or disclosure signal is relevant or observed for SGN.",
-      "diversity_bucket": "micro-cap-speculative / avoid-list",
-      "entry_plan": "No entry. For this research process, SGN is classified as monitor-only / avoid due to delisting risk, lack of reliable fundamentals, and misalignment with the long-only, quality-biased strategy.",
-      "exit_plan": "Not applicable; no position is recommended. If held hypothetically, a disciplined framework would emphasize very tight capital-at-risk limits, immediate exit on any sign of trading halt/delisting notice, and avoidance of averaging down on liquidity gaps\u2014reinforcing why it should not be initiated at all.",
+      "adversary_case": "The strongest objection is that this is just a recycled megacap idea with no new information, so capital is better allocated to fresher names.",
+      "allocation_learning_note": "Repeated megacap exposure should be deprioritized until a new catalyst resets the setup.",
+      "balance_sheet_risk": "Low balance-sheet risk; the main risk is multiple compression rather than solvency.",
+      "bear_case": "Can underperform if AI capex concerns, ad-pressure, or a broad megacap rotation hits. Without fresh news, it may just drift.",
+      "capital_allocation_case": "Historically strong capital allocator with share repurchases and reinvestment discipline.",
+      "catalyst": "No fresh catalyst identified in the supplied sources; repeated-name decay dominates.",
+      "catalyst_type": "general",
+      "chittick_cash_score": 71.0,
+      "chittick_reject_reason": "repeat_staleness without a fresh catalyst",
+      "concentration_case": "Would normally deserve attention, but repeated-decay rules and the absence of fresh catalysts make it less compelling than newer ideas.",
+      "confidence": 0.55,
+      "congressional_signal": "none",
+      "diversity_bucket": "mega-cap-internet-cloud",
+      "entry_plan": "Do not execute now; only consider if a fresh earnings, filing, guidance, or confirmed breakout catalyst appears and price holds above a short-term trend on elevated volume.",
+      "exit_plan": "If reactivated, use a tight paper stop under the breakout level or post-catalyst low; take partial profits into strength and exit on failed continuation.",
       "fresh_catalyst": true,
-      "growth_runway": "From a 30\u2013180 day owner lens, there is no credible evidence of a real growth runway. Any perceived upside would depend on speculative trading flows, potential re-listing developments, or unverified operational progress. Over longer horizons, micro-caps like this often face repeated financing needs and competitive pressures that erode shareholder value.",
-      "hf_evidence_rank": 0.2,
+      "growth_runway": "AI-driven search monetization, cloud growth, and YouTube monetization remain major 30-180 day and longer-term drivers.",
+      "hf_evidence_rank": 0.0,
       "hf_filter_vetoes": [
-        "micro_cap_speculation",
-        "potentially_delisted",
-        "no_fundamental_catalyst"
+        "repeat_staleness",
+        "fresh_catalyst_missing"
       ],
-      "hf_hype_risk": 0.8,
-      "hf_memory_similarity": 0.7,
-      "hf_model_notes": "Pattern matches prior rejected micro-cap, short-squeeze narratives where hype and short-interest dominated discourse without substantiated fundamentals. Given the long-only, quality-biased mandate, the model treats short-interest-only stories as vetoed unless anchored by earnings, filings, or durable evidence.",
+      "hf_hype_risk": 0.0,
+      "hf_memory_similarity": 0.91,
+      "hf_model_notes": "High-quality franchise, but the system should not recycle it into execution-ready status absent new evidence.",
       "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "none",
+      "hf_sentiment_label": "neutral",
       "hf_sentiment_score": 0.0,
       "hf_source_quality_score": 0.0,
       "horizon_days": 5,
-      "margin_of_safety_case": "There is effectively no margin of safety: we lack reliable information on intrinsic value, asset coverage, or sustainable earnings. The combination of potential delisting, micro-cap volatility, and possible dilution means the downside could be total loss, and there is no clear floor beyond zero.",
-      "market_regime": "In a broadly risk-on regime, some traders chase micro-cap squeezes and short-interest extremes. However, our framework explicitly prefers quality, margin of safety, and repeatable catalysts. The current macro environment does not require micro-cap speculation to capture upside; there are many higher-quality vehicles aligned with the same risk-on backdrop. SGN sits in the speculative tail of the distribution and is misaligned with the Chittick Cash lens and the strategy\u2019s risk discipline.",
-      "momentum_case": "Short-term, SGN has experienced violent moves around low nominal prices (e.g., from $0.21 on January 30, 2026 to $0.25 on February 13 and $0.54 by February 27, with corresponding short-interest swings). Average daily volume is quoted at ~15.3M shares, with recent daily volume near 14.6M, indicating trading interest when it is active. However, this \u2018momentum\u2019 is driven by micro-cap volatility and short-covering flows rather than institutional trend, and the potential delisting status means momentum could disappear abruptly, with high risk of trading halts or liquidity gaps.",
-      "owner_hold_case": "There is no plausible 30\u2013180 day owner-oriented hold case that meets the strategy\u2019s standards. Only a pure speculative trading mindset would consider involvement, which is outside this bot\u2019s mandate.",
-      "quality_case": "Business quality cannot be validated from the provided data. What we have is purely trading-structure information (short interest and volume) without audited financial context. The micro-cap status, sub-dollar price history (recent report-price data show SGN trading between ~$0.18 and ~$0.95 in late 2025 and at $0.70 on March 13, 2026), and delisting risk all suggest low durability, high dilution risk, and poor margin of safety. This fails Buffett/Munger-style quality filters and the Chittick Cash emphasis on real growth runway and balance-sheet resilience.",
-      "recommendation": "avoid",
-      "repeat_count_48h": 0,
+      "margin_of_safety_case": "Margin of safety is business-quality driven, but near-term price attractiveness cannot be confirmed without a fresh setup.",
+      "market_regime": "Works best in a risk-on market with stable rates, but the trade needs a fresh catalyst to overcome repeat decay.",
+      "momentum_case": "No confirmed fresh breakout or volume-driven catalyst in the provided inputs. Momentum case is stale relative to more recent names.",
+      "owner_hold_case": "Hold or review only if a fresh earnings beat, guidance raise, or durable breakout re-establishes a new evidence set.",
+      "quality_case": "Excellent business quality, strong balance sheet, and diversified cash generation. The issue is not quality but timing and valuation sensitivity after repeated appearances.",
+      "recommendation": "watch",
+      "repeat_count_48h": 6,
+      "research_tier": "stale-watch",
+      "risk_reward": "Good business, poor current setup. Reward is attractive only after fresh evidence resets the timer.",
+      "sector": "information technology / internet / cloud",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.03
+      },
+      "social_buzz": "Elevated attention exists in the background, but it is not the main reason to trade and is capped at low weight.",
+      "source_quality": "Weak for execution because no fresh source-backed catalyst was provided in this pass.",
+      "source_urls": [],
+      "stop_loss_percent": 0.0,
+      "strategy_tags": [
+        "chittick_cash"
+      ],
+      "symbol": "GOOGL",
+      "target_allocation_percent": 0.0,
+      "thesis": "Alphabet remains a high-quality compounder with durable search, YouTube, and cloud economics. It is included as a Chittick Cash research priority, but the repeated-name penalty and lack of a fresh company-specific catalyst make it better suited to watch status than an immediate trade.",
+      "valuation_case": "Likely fair-to-premium valuation for a dominant franchise; not obviously cheap enough to override the stale-catalyst problem."
+    },
+    {
+      "adversary_case": "The strongest objection is that this is a turnaround story without a current catalyst, which makes it easy to trap capital for weeks.",
+      "allocation_learning_note": "Do not recycle turnaround names without fresh filings or guidance; wait for evidence.",
+      "balance_sheet_risk": "Capex-heavy turnaround and cyclicality create execution risk; dilution is not the main issue but margin volatility is.",
+      "bear_case": "Foundry execution, margin pressure, and capex intensity can overwhelm the thesis. It can lag badly if the turnaround slips.",
+      "capital_allocation_case": "Needs disciplined capex and clear prioritization; capital allocation must prove it can convert spending into durable returns.",
+      "catalyst": "No fresh catalyst in the supplied sources for today; prior memory notes similarity to rejected patterns.",
+      "catalyst_type": "general",
+      "chittick_cash_score": 64.0,
+      "chittick_reject_reason": "repeat_staleness and prior similarity filter",
+      "concentration_case": "Worth monitoring because the setup is potentially asymmetric, but it is not better than fresher, cleaner catalyst names today.",
+      "confidence": 0.48,
+      "congressional_signal": "none",
+      "diversity_bucket": "semiconductors",
+      "entry_plan": "Monitor only; re-evaluate after a fresh filing, guidance update, or verifiable breakout with volume confirmation.",
+      "exit_plan": "If eventually traded, use a tight invalidation under the post-catalyst low and reduce quickly on margin/execution disappointment.",
+      "fresh_catalyst": true,
+      "growth_runway": "Foundry demand, product refresh, and domestic supply-chain positioning are the long-run drivers.",
+      "hf_evidence_rank": 0.0,
+      "hf_filter_vetoes": [
+        "repeat_staleness",
+        "memory_similarity"
+      ],
+      "hf_hype_risk": 0.0,
+      "hf_memory_similarity": 0.88,
+      "hf_model_notes": "Interesting turnaround, but not execution-ready without new evidence.",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "neutral",
+      "hf_sentiment_score": 0.0,
+      "hf_source_quality_score": 0.0,
+      "horizon_days": 5,
+      "margin_of_safety_case": "Some margin of safety may exist from strategic importance and optionality, but it is not enough to override execution risk.",
+      "market_regime": "In a neutral-to-risk-on tape, INTC can work only if the market is rewarding turnaround and domestic manufacturing narratives.",
+      "momentum_case": "No fresh breakout evidence provided. Recent reuse has been rejected before, so momentum evidence is insufficient for execution.",
+      "owner_hold_case": "Only hold over 30-180 days if filings show improving utilization, gross margin, and customer traction.",
+      "quality_case": "Balance-sheet and industrial-policy relevance are real, but durable earnings quality is still unproven versus best-in-class peers.",
+      "recommendation": "monitor-only",
+      "repeat_count_48h": 6,
       "research_tier": "monitor-only",
-      "risk_reward": "Asymmetrically poor for a disciplined investor: while a short-covering rally could produce large percentage moves, the probability-weighted outcome in a potentially delisted, low-quality micro-cap is dominated by permanent capital loss, illiquidity, and structural dilution. The lack of verifiable positive catalysts means any upside is pure speculation.",
-      "sector": "micro-cap / speculative digital-sports-tech (nominally communication services or consumer discretionary, but effectively a distressed micro-cap special situation).",
+      "risk_reward": "Potential upside is meaningful, but the setup is not evidence-strong enough today.",
+      "sector": "semiconductors / hardware",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
-      "social_buzz": "none identified in the provided context; any interest is inferred only from trading volume and short-interest statistics, not from verifiable social or news-flow anomalies.",
-      "source_quality": "Short-interest data and float metrics are from MarketBeat, which aggregates exchange-reported figures and is reasonably reliable for positioning stats. However, there is no corroborating data on financials, filings, or exchange notices in the supplied context, and the key qualitative note is that SGN is \u2018potentially delisted and may not be actively trading.\u2019 Evidence is adequate to assess risk but insufficient to build a positive fundamental thesis.",
-      "source_urls": [
-        "https://www.marketbeat.com/stocks/NYSEAMERICAN/SGN/short-interest/"
-      ],
+      "social_buzz": "none",
+      "source_quality": "Weak for execution because the supplied context does not provide a new company-specific catalyst now, and memory flags prior similarity issues.",
+      "source_urls": [],
       "stop_loss_percent": 0.0,
       "strategy_tags": [
-        "chittick_cash",
-        "micro-cap-speculative",
-        "short-interest-monitor"
+        "chittick_cash"
       ],
-      "symbol": "SGN",
+      "symbol": "INTC",
       "target_allocation_percent": 0.0,
-      "thesis": "Signing Day Sports exhibits extreme short-interest dynamics (recently as high as ~70.8% of float shorted and currently ~21.1% as of March 13, 2026), which theoretically could support short-squeeze behavior. However, this is a micro-cap that MarketBeat explicitly marks as potentially delisted and possibly not actively trading. There is no robust evidence of sustainable fundamentals, balance-sheet strength, or reliable liquidity. For a cautious, quality-focused, long-only paper-trading framework, SGN should not be treated as a trade candidate but as a risk example of why short-interest alone is not a sufficient catalyst.",
-      "valuation_case": "Valuation cannot be responsibly assessed. The sub-$1 share price and low absolute market cap do not imply cheapness; they more likely reflect distress and lack of institutional sponsorship. Without earnings, cash-flow, or asset-based valuation support, any \u2018cheap\u2019 narrative is speculative."
+      "thesis": "Intel is a turnaround and domestic semiconductor manufacturing story with potential upside if execution improves, but it remains more evidence-dependent than classic quality names. It is a watchlist priority, not an automatic buy.",
+      "valuation_case": "Cheapness alone is not sufficient; the key question is whether margins and utilization can sustainably improve."
+    },
+    {
+      "adversary_case": "The strongest objection is that this is essentially a thinly sourced small-cap speculation trade.",
+      "allocation_learning_note": "Use as a sector-diversity placeholder, not a trade, until a hard catalyst exists.",
+      "balance_sheet_risk": "Likely elevated due to small-cap cyclicality and potential financing sensitivity.",
+      "bear_case": "Commodity and small-cap liquidity risk can create sharp reversals, and absent a clear catalyst the trade is fragile.",
+      "capital_allocation_case": "Not enough evidence to evaluate disciplined capital allocation.",
+      "catalyst": "No fresh catalyst provided in the supplied sources.",
+      "catalyst_type": "general",
+      "chittick_cash_score": 52.0,
+      "chittick_reject_reason": "source_thin and no verified fresh catalyst",
+      "concentration_case": "Underrepresented sector exposure is useful for discovery, but it still needs a stronger catalyst than currently available.",
+      "confidence": 0.41,
+      "congressional_signal": "none",
+      "diversity_bucket": "materials-critical-minerals",
+      "entry_plan": "Watch only; require a fresh company release, contract, filing, or confirmed technical breakout before any paper entry.",
+      "exit_plan": "If traded later, use a hard stop below breakout support and trim quickly if volume fades.",
+      "fresh_catalyst": true,
+      "growth_runway": "Potential growth depends on end-market demand and any strategic supply-chain tailwinds, but those are not verified in the supplied data.",
+      "hf_evidence_rank": 0.0,
+      "hf_filter_vetoes": [
+        "source_thin",
+        "no_verified_catalyst"
+      ],
+      "hf_hype_risk": 0.0,
+      "hf_memory_similarity": 0.35,
+      "hf_model_notes": "Small-cap discovery name, but not execution-ready.",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "neutral",
+      "hf_sentiment_score": 0.0,
+      "hf_source_quality_score": 0.0,
+      "horizon_days": 5,
+      "margin_of_safety_case": "Low confidence in margin of safety because small-cap cyclicals can re-rate violently in both directions.",
+      "market_regime": "A risk-on tape can help small caps, but only if there is a real catalyst and volume confirmation.",
+      "momentum_case": "No verified momentum or breakout evidence was supplied.",
+      "owner_hold_case": "Review only if filings or releases show sustained demand, improved cash generation, or a meaningful contract pipeline.",
+      "quality_case": "Business quality is hard to underwrite from the provided materials; cyclicality and concentration risk remain central concerns.",
+      "recommendation": "monitor-only",
+      "repeat_count_48h": 0,
+      "research_tier": "monitor-only",
+      "risk_reward": "Potentially high upside, but evidence quality is too thin right now.",
+      "sector": "materials / critical minerals",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "none",
+      "source_quality": "Weak because there is no specific source-backed catalyst in this pass.",
+      "source_urls": [],
+      "stop_loss_percent": 0.0,
+      "strategy_tags": [
+        "chittick_cash"
+      ],
+      "symbol": "USAR",
+      "target_allocation_percent": 0.0,
+      "thesis": "U.S. Antimony is a small-cap materials play with potential cyclical upside, but the current prompt does not provide a verified fresh catalyst or enough source depth to justify execution.",
+      "valuation_case": "Cannot assess attractiveness without current financial evidence; valuation alone is not actionable here."
+    },
+    {
+      "adversary_case": "The strongest objection is that the name is cyclical and can look cheap for a long time without actually rerating.",
+      "allocation_learning_note": "Prefer fresh, source-backed catalyst names over cyclical value re-rates without proof.",
+      "balance_sheet_risk": "Cyclicality and capital intensity are the main risks; debt/service strain should be watched if conditions weaken.",
+      "bear_case": "Demand weakness, margin compression, and commodity/input cost swings can quickly erode the thesis.",
+      "capital_allocation_case": "Needs discipline in capex and portfolio simplification to restore confidence.",
+      "catalyst": "No new company-specific catalyst supplied in this pass.",
+      "catalyst_type": "general",
+      "chittick_cash_score": 58.0,
+      "chittick_reject_reason": "no_fresh_catalyst",
+      "concentration_case": "Useful to diversify away from megacap tech, but not compelling enough for execution today.",
+      "confidence": 0.44,
+      "congressional_signal": "none",
+      "diversity_bucket": "consumer-discretionary-auto-parts",
+      "entry_plan": "Hold in monitor-only status until a fresh earnings update, guidance change, or technical breakout appears.",
+      "exit_plan": "If later executed, use a tight stop below catalyst-day support and scale out into strength.",
+      "fresh_catalyst": true,
+      "growth_runway": "Replacement tire demand and operational improvement are the main drivers; neither is evidenced strongly in the current inputs.",
+      "hf_evidence_rank": 0.0,
+      "hf_filter_vetoes": [
+        "no_fresh_catalyst"
+      ],
+      "hf_hype_risk": 0.0,
+      "hf_memory_similarity": 0.29,
+      "hf_model_notes": "Cyclical value candidate, but the evidence set is too thin for execution.",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "neutral",
+      "hf_sentiment_score": 0.0,
+      "hf_source_quality_score": 0.0,
+      "horizon_days": 5,
+      "margin_of_safety_case": "Potentially reasonable on a normalized basis, but only if margins stabilize; otherwise the apparent cheapness is a value trap.",
+      "market_regime": "Can work in a stable risk-on environment, but the trade needs a fresh catalyst or technical confirmation.",
+      "momentum_case": "No verified trend or breakout evidence provided.",
+      "owner_hold_case": "Would merit 30-180 day review if margin, cash flow, and share trends improve in filings or earnings.",
+      "quality_case": "Brand and replacement-demand characteristics can support the business, but quality is still cycle-dependent and not yet a clear margin-of-safety standout.",
+      "recommendation": "monitor-only",
+      "repeat_count_48h": 0,
+      "research_tier": "monitor-only",
+      "risk_reward": "Moderate upside if the cycle turns, but the current evidence does not justify capital deployment.",
+      "sector": "consumer-discretionary / auto parts",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "none",
+      "source_quality": "Weak-to-moderate because no new primary-source catalyst was provided here.",
+      "source_urls": [],
+      "stop_loss_percent": 0.0,
+      "strategy_tags": [
+        "chittick_cash"
+      ],
+      "symbol": "GT",
+      "target_allocation_percent": 0.0,
+      "thesis": "Goodyear is a cyclical auto-parts/consumer-tire name with potential value upside if pricing, mix, and cost control improve. It fits the research watchlist but does not yet have a fresh catalyst in the provided inputs.",
+      "valuation_case": "Could be inexpensive relative to normalized earnings, but the market will want proof of execution first."
     }
   ],
-  "summary": "Signing Day Sports (SGN) shows extremely elevated and volatile short interest for a micro-cap that has been flagged as potentially delisted. The recent spike to ~71% of float shorted and subsequent sharp drop still leaves over one-fifth of float short. However, the name fails basic quality, liquidity, and survivability standards and should not be used as a long-only swing candidate for a disciplined paper-trading strategy."
+  "summary": "Mixed tape with narrow leadership: quality mega-caps remain strong, but repeat names are penalized without fresh catalysts. The best paper-trade setup today is to favor non-repeated, catalyst-backed names with defined risk and avoid hype-only micro-caps. Broad market tone is supportive but still rotation-prone."
 }
 -->
 
@@ -1181,4 +1346,13 @@
 | Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
 |---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
 | SGN | micro-cap / speculative digital-sports-tech (nominally communication services or | monitor-only | micro-cap-speculative / avoid-list | 0 | yes | 0.82 | 10 | 0 | 3 | 0.0% | 0.0% | avoid | The only clear recent data point is the sharp rise and then fall in short interest through Q1 2026: short interest peaked at 9.57M shares (~70.8% of float) on F |
+
+## Latest Candidates - 2026-05-18 10:52:29 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| GOOGL | information technology / internet / cloud | stale-watch | mega-cap-internet-cloud | 6 | yes | 0.55 | 71 | 0 | 2 | 0.0% | 0.0% | watch | No fresh catalyst identified in the supplied sources; repeated-name decay dominates. |
+| INTC | semiconductors / hardware | monitor-only | semiconductors | 6 | yes | 0.48 | 64 | 0 | 2 | 0.0% | 0.0% | monitor-only | No fresh catalyst in the supplied sources for today; prior memory notes similarity to rejected patterns. |
+| USAR | materials / critical minerals | monitor-only | materials-critical-minerals | 0 | yes | 0.41 | 52 | 0 | 2 | 0.0% | 0.0% | monitor-only | No fresh catalyst provided in the supplied sources. |
+| GT | consumer-discretionary / auto parts | monitor-only | consumer-discretionary-auto-parts | 0 | yes | 0.44 | 58 | 0 | 1 | 0.0% | 0.0% | monitor-only | No new company-specific catalyst supplied in this pass. |
 

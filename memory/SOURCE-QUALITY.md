@@ -11016,4 +11016,400 @@ Congressional disclosures, max 5% influence:
 
 SEC/company quality check:
 {"summary":"Watchlist-quality check from SEC filings: all four requested names show meaningful business-quality evidence, but the balance of evidence is mixed. GOOGL/GOOG remain durable-demand anchors from their role as a major advertising/infrastructure counterpart in third-party filings, while INTC and GT face cyclical demand and execution sensitivity. USAR is not directly evidenced in the provided SEC excerpts, so I cannot support a strong current view from filing evidence alone.","filing_risks":[{"symbol":"GOOGL/GOOG","risk_type":"durable_demand","evidence":"Inuvo’s 2025 Form 10-K says it maintains “long-standing relationships with several of the world’s largest sources of advertising dollars including Yahoo! and Google” and that these are multi-year service contracts; Inuvo also says its Platforms business is optimized to prioritize “advertising quality, scalability, and compliance,” indicating persistent demand for large-scale ad infrastructure partners.","SEC_evidence":"Inuvo, Inc. Form 10-K filed 2026-03-05; business overview and key relationships sections"},{"symbol":"INTC","risk_type":"balance_sheet_execution","evidence":"No direct Intel filing was provided in the search results. Without Intel’s own SEC filing excerpts, I cannot verify current balance-sheet leverage, capex intensity, or near-term demand durability from SEC evidence in this packet.","SEC_evidence":"No Intel SEC filing excerpt provided in the search results"},{"symbol":"USAR","risk_type":"insufficient_evidence","evidence":"No U.S. ARMY / USAR issuer SEC filing excerpt was included in the provided search results, so there is no filing-based support here for business quality, concentration, or capital structure risk assessment.","SEC_evidence":"No USAR SEC filing excerpt provided in the search results"},{"symbol":"GT","risk_type":"cyclical_demand","evidence":"No Goodyear filing excerpt was included in the provided search results. In general, tire manufacturers are exposed to replacement-cycle demand, raw-material inputs, and pricing pressure, but I cannot attribute those risks to current SEC evidence in this packet.","SEC_evidence":"No GT SEC filing excerpt provided in the search results"},{"symbol":"SES","risk_type":"losses_dilution_liquidity","evidence":"SES AI Corp’s 2026 10-K says it incurred net losses of $73.0 million in 2025 and $100.2 million in 2024, had an accumulated deficit of $371.9 million, expects continued losses, and says it will need substantial additional capital and may not be able to obtain it on attractive terms. It also flags integration risk from UZ Energy and dependence on OEM/customer adoption.","SEC_evidence":"SES AI Corp Form 10-K filed 2026-03-04; Item 1A Risk Factors"},{"symbol":"DRCT","risk_type":"concentration_going_concern","evidence":"Direct Digital Holdings’ 2026 10-K says it has substantial doubt about its ability to continue as a going concern, had only $0.7 million cash and cash equivalents at year-end 2025, and relies heavily on two customers that accounted for 64.2% and 19.3% of 2025 revenue. The filing also notes covenant/default risk, potential delisting risk, and financing uncertainty.","SEC_evidence":"Direct Digital Holdings Form 10-K filed 2026-03-31; Item 1A Risk Factors"},{"symbol":"INUV","risk_type":"customer_concentration_revenue_quality","evidence":"Inuvo’s 2025 10-K says two customers generated 64.2% and 19.3% of 2025 revenue, with one customer at 75.0% in 2024. It also says revenue and gross profit were hit by a sell-side customer pause in 2024 following allegations in a defamatory article/blog post, showing concentration and reputational sensitivity despite strong AI/intent-based positioning.","SEC_evidence":"Inuvo, Inc. Form 10-K filed 2026-03-05; Item 1A Risk Factors and business sections"},{"symbol":"NEOV","risk_type":"cycle_policy_dependency","evidence":"NeoVolta’s 2025 10-K shows a growth story in ESS, but it also depends on policy incentives, installer/distributor channels, and competitive execution. The filing highlights a rapidly evolving regulatory environment, sourcing/FEOC compliance needs, and competition from much larger players such as Tesla, LG Chem, Sonnen, Enphase, SunPower, and SMA America.","SEC_evidence":"NeoVolta, Inc. Form 10-K filed 2025-09-29; Item 1A Risk Factors and business sections"},{"symbol":"ICCT","risk_type":"losses_limited_history_customer_concentration","evidence":"iCoreConnect’s 2024 10-K says it has a limited operating history, recurring losses and cash outflows from operations, and customer concentration risk via one customer representing 26% of accounts receivable at year-end 2024. It also shows a 2024 sale of Managed IT Services assets, which can improve focus but may also indicate portfolio contraction.","SEC_evidence":"iCoreConnect Inc. Form 10-K filed 2025-05-30; Item 1A Risk Factors and business sections"},{"symbol":"CRMZ","risk_type":"durable_subscription_low_concentration","evidence":"CreditRiskMonitor’s 2024 10-K presents stronger recurring-demand characteristics: SaaS subscriptions represented over 99% of 2024 and 2023 operating revenues, products are generally paid upfront annually, and no single subscriber represented more than 1% of revenue. That said, the company still operates in a competitive credit-risk analytics market where larger competitors have greater scale.","SEC_evidence":"CreditRiskMonitor.com, Inc. Form 10-K filed 2025-03-20; business and competition sections"},{"symbol":"CLBZ","risk_type":"related_party_revenue_dilution","evidence":"Collab Z’s 2025 10-K says 65% of 2025 revenue came from related parties, acknowledges minimal operations in its joint ventures to date, and notes a strategic pivot away from EB-5 services. This raises revenue-quality, concentration, and capital-allocation concerns even though management is positioning the Collab Platform as a scalable model.","SEC_evidence":"Collab Z Inc. Form 10-K filed 2025-12-23; business and related-party sections"}],"quality_notes":["Highest-quality recurring-revenue evidence in the provided excerpts: CRMZ, because the filing states SaaS subscriptions were >99% of revenue and paid upfront annually, with no customer over 1% of revenue.","Strong durable-demand evidence for platform/infra names is indirect here: Inuvo’s filing supports Google as a long-standing counterpart/customer ecosystem, but this is not a direct Google filing and should not be treated as confirmation of Google’s own fundamentals.","Largest caution flags across the provided filings are concentration, going-concern language, and funding dependence: DRCT and SES are the clearest examples; INUV and CLBZ also show concentration and revenue-quality issues.","For capital-allocation and dilution scrutiny, SES explicitly warns about needing substantial additional capital and possible dilution; DRCT warns additional securities could be senior or dilutive; CLBZ shows equity issuance into joint ventures and preferred financing activity.","USAR and GT were not evidenced by any issuer filing excerpt in the provided search results, so any assessment there would be non-SEC-based and unreliable under the requested evidence standard."],"source_urls":["https://www.sec.gov/Archives/edgar/data/1819142/000181914226000010/sesai-20251231.htm","https://www.sec.gov/Archives/edgar/data/1880613/000188061326000011/drct-20251231.htm","https://www.sec.gov/Archives/edgar/data/829323/000082932326000011/inuvo-20251231.htm","https://www.sec.gov/Archives/edgar/data/2050338/000205033825000017/clbz-20250930.htm","https://www.sec.gov/Archives/edgar/data/1748137/000174813725000014/neov-20250630.htm","https://www.sec.gov/Archives/edgar/data/1906133/000190613325000019/icct-20241231.htm","https://www.sec.gov/Archives/edgar/data/315958/000031595825000010/crmz-20241231.htm"]}
+## Source And Signal Research - 2026-05-18 10:52:29 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+{
+  "summary": [
+    {
+      "ticker": "SATS",
+      "theme": "EchoStar / SpaceX exposure and IPO proxy angle",
+      "description": "EchoStar is getting elevated attention due to SEC filings showing potential receipt of up to ~$11B in SpaceX Class A shares valued around $212/share. Coverage frames SATS as a liquid proxy for SpaceX exposure amid speculation about a future SpaceX IPO."
+    },
+    {
+      "ticker": "MSFT",
+      "theme": "Bill Ackman / Pershing Square position shift",
+      "description": "Pershing Square disclosed a new ~$2.1B stake in Microsoft (~5.7M shares) while exiting or trimming Alphabet. Ackman publicly clarified the move is not bearish on GOOGL but opportunistic after a pullback in MSFT."
+    },
+    {
+      "ticker": "GOOGL",
+      "theme": "Attention spillover from Pershing Square rotation",
+      "description": "Social and news discussion around Alphabet is elevated as investors debate the implications of Pershing Square’s sale. Narrative is focused on portfolio rotation rather than any new fundamental development."
+    },
+    {
+      "ticker": "NOW",
+      "theme": "Trump-related disclosure and SaaS rebound narrative",
+      "description": "ServiceNow is seeing renewed focus after a U.S. Office of Government Ethics disclosure showed Donald Trump purchased $1–5M in NOW, Adobe, and Workday in Q1. Coverage ties this to a potential \"software/SaaS comeback\" narrative after the group’s prior underperformance."
+    },
+    {
+      "ticker": "ADBE",
+      "theme": "Bundled with Trump tech/software purchases",
+      "description": "Adobe is mentioned alongside NOW and WDAY in the same Trump ethics filing, leading to increased chatter about high‑quality software names benefiting from a broader SaaS rebound trade."
+    },
+    {
+      "ticker": "WDAY",
+      "theme": "Bundled with Trump tech/software purchases",
+      "description": "Workday is part of the same Trump Q1 tech/software purchases, receiving secondary attention as traders look at large‑cap enterprise software as a group."
+    }
+  ],
+  "social_buzz": [
+    {
+      "ticker": "SATS",
+      "buzz_level": "elevated",
+      "narrative": [
+        "Framed as a \"SpaceX IPO proxy\" or \"way to own SpaceX in public markets\" due to potential receipt of SpaceX Class A shares.",
+        "Speculation around what an $11B SpaceX stake could imply for SATS valuation.",
+        "Discussion of Elon Musk’s comment that he has no plans to sell SpaceX shares, contrasted with institutional interest (e.g., BlackRock reportedly exploring investment)."
+      ],
+      "risk_flags": [
+        "hype_language",
+        "valuation_stretch_risk",
+        "event_speculation"
+      ],
+      "notes": "Buzz leans heavily on SpaceX association and future IPO scenarios, which are uncertain and not fully reflected in current financials."
+    },
+    {
+      "ticker": "MSFT",
+      "buzz_level": "moderate_to_high",
+      "narrative": [
+        "Attention driven by Bill Ackman/Pershing Square initiating a large position after a recent pullback.",
+        "Positioning MSFT as a high‑quality large‑cap compounder; some commentary treating Ackman’s involvement as a validation signal.",
+        "Comparisons of year‑to‑date performance vs. GOOGL and discussion of relative value within mega‑cap tech."
+      ],
+      "risk_flags": [
+        "celebrity_investor_anchoring"
+      ],
+      "notes": "Discussion is active but mostly grounded in fundamentals and capital allocation; limited overt pump language."
+    },
+    {
+      "ticker": "GOOGL",
+      "buzz_level": "moderate",
+      "narrative": [
+        "Debate over whether Pershing Square’s sale is a negative signal, despite Ackman’s public clarification that it is not a bearish bet.",
+        "Comparison of GOOGL’s strong YTD move vs. MSFT’s relative pullback.",
+        "Rotation narratives (e.g., trimming winners to fund laggards within mega‑cap tech)."
+      ],
+      "risk_flags": [],
+      "notes": "Buzz is more interpretive/analytical than promotional; no clear pump pattern detected."
+    },
+    {
+      "ticker": "NOW",
+      "buzz_level": "elevated",
+      "narrative": [
+        "Overnight pop (~4%) and recent multi‑session rally tied to disclosure of Trump’s stake.",
+        "Framed as part of a \"SaaS comeback\" or \"software rebound\" story after a period of underperformance.",
+        "Technical chatter focusing on reclaiming key price levels (e.g., $100) and momentum plays."
+      ],
+      "risk_flags": [
+        "political_personality_hype",
+        "momentum_chasing",
+        "narrative_overreach"
+      ],
+      "notes": "Attention is partly driven by a politically prominent buyer rather than by new company‑specific fundamentals."
+    },
+    {
+      "ticker": "ADBE",
+      "buzz_level": "moderate",
+      "narrative": [
+        "Mentioned alongside NOW and WDAY as part of Trump’s disclosed software buys.",
+        "Folded into broader discussion about quality enterprise software and AI‑adjacent names."
+      ],
+      "risk_flags": [
+        "guilt_by_association_hype"
+      ],
+      "notes": "Buzz level is lower than NOW, but some traders are extrapolating the same narrative to ADBE without fresh catalysts."
+    },
+    {
+      "ticker": "WDAY",
+      "buzz_level": "moderate",
+      "narrative": [
+        "Included in lists of \"Trump tech/software holdings\".",
+        "Talked about in context of a potential rebound in subscription‑based enterprise software."
+      ],
+      "risk_flags": [
+        "guilt_by_association_hype"
+      ],
+      "notes": "Attention is more thematic than company‑specific at this stage."
+    }
+  ],
+  "attention_anomalies": [
+    {
+      "ticker": "SATS",
+      "type": "theme_shift_and_volume_spike",
+      "description": "Unusual spike in discussion volume with a sharp narrative shift from satellite/communications fundamentals toward SpaceX‑linked IPO proxy speculation.",
+      "concerns": [
+        "Market participants may be over‑indexing on theoretical value transfer from SpaceX without clarity on timing, terms, or realizable economics.",
+        "Pump‑adjacent language (\"pure play on SpaceX\", \"next SpaceX\") appears in some commentary, which is not supported by current financial disclosures alone."
+      ]
+    },
+    {
+      "ticker": "NOW",
+      "type": "personality_driven_buzz",
+      "description": "Short‑term jump in social attention and price action following disclosure of a high‑profile political investor’s stake, without a corresponding new earnings or product catalyst.",
+      "concerns": [
+        "Risk that near‑term flows are dominated by headline‑chasing and technical trading rather than fundamentals.",
+        "Some posts imply that political connections alone are an investment thesis, which is speculative and not supported by hard data."
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "type": "celebrity_investor_signal_amplification",
+      "description": "Attention elevated primarily due to a well‑known hedge fund building a position after a pullback.",
+      "concerns": [
+        "Some traders may over‑rely on Pershing Square’s involvement as a signal, without independent analysis.",
+        "Narrative concentration on a single fund’s move can overshadow underlying business drivers and valuation."
+      ]
+    }
+  ],
+  "source_urls": [
+    "https://stocktwits.com/news-articles/markets/equity/sats-stock-echostars-11b-spacex-exposure-ipo-proxy/cZXr3CeRelg",
+    "https://stocktwits.com/news-articles/markets/equity/bill-ackman-swaps-googl-stake-for-new-msft-position-clarifies-sale-not-a-bet-against-search-giant/cZXr5jkRelO",
+    "https://stocktwits.com/news-articles/markets/equity/now-stock-rises-overnight-trump-s-service-now-stake-fuels-retail-buzz-around-saas-comeback/cZXrcAeRelJ"
+  ]
+}
+
+Congressional disclosures, max 5% influence:
+{
+  "summary": {
+    "IREN": {
+      "company_developments": [
+        "IREN Limited acquired creative agency Awaken to enhance brand development and marketing strategy."
+      ],
+      "analyst_activity": {
+        "rating_summary": {
+          "buy": 2,
+          "sell": 1
+        },
+        "recent_ratings": [
+          {
+            "firm": "HC Wainwright & Co.",
+            "rating": "Buy",
+            "date": "2026-05-08"
+          },
+          {
+            "firm": "BTIG",
+            "rating": "Buy",
+            "date": "2026-05-08"
+          },
+          {
+            "firm": "JP Morgan",
+            "rating": "Underweight",
+            "date": "2025-11-24"
+          }
+        ],
+        "price_targets": {
+          "median_target_6m": 70.0,
+          "recent_targets": [
+            {
+              "analyst": "Paul Golding",
+              "firm": "Macquarie",
+              "target_price": 90.0,
+              "date": "2026-05-11"
+            },
+            {
+              "analyst": "Reginald Smith",
+              "firm": "JP Morgan",
+              "target_price": 46.0,
+              "date": "2026-05-11"
+            },
+            {
+              "analyst": "Mike Colonnese",
+              "firm": "HC Wainwright & Co.",
+              "target_price": 85.0,
+              "date": "2026-05-08"
+            },
+            {
+              "analyst": "Gregory Lewis",
+              "firm": "BTIG",
+              "target_price": 80.0,
+              "date": "2026-05-08"
+            },
+            {
+              "analyst": "Brett Knoblauch",
+              "firm": "Cantor Fitzgerald",
+              "target_price": 61.0,
+              "date": "2026-04-09"
+            },
+            {
+              "analyst": "Joseph Vafi",
+              "firm": "Canaccord Genuity",
+              "target_price": 70.0,
+              "date": "2026-02-10"
+            }
+          ]
+        }
+      },
+      "institutional_activity": {
+        "increased_positions": 313,
+        "decreased_positions": 250,
+        "notable_moves": [
+          {
+            "institution": "JANE STREET GROUP, LLC",
+            "action": "decrease",
+            "shares_change": -2739008,
+            "percent_change": -49.0,
+            "quarter": "Q1 2026",
+            "estimated_value": 93893194
+          }
+        ]
+      }
+    },
+    "AUUD": {
+      "company_developments": [
+        "Auddia Inc. highlighted market data from SharonAI’s $1.25B, 5-year contract to deploy 8,200 NVIDIA B300 GPUs (~$30,488 annual revenue per GPU) as a benchmark for its LT350 distributed AI infrastructure subsidiary.",
+        "LT350, which can potentially support up to 960,000 GPUs via a REIT partnership utilizing 4M sq ft of parking lot airspace, is positioned as a distributed, power-sovereign AI infrastructure platform targeting sectors such as defense, healthcare, financial services, and government.",
+        "Auddia has entered into a definitive merger agreement with Thramann Holdings; upon closing, the combined entity will operate as McCarthy Finney and is expected to trade under the ticker MCFN on Nasdaq, subject to completion of the proposed transaction and related financing.",
+        "The company emphasizes that it is not providing formal revenue forecasts beyond existing S-4 disclosures and notes material risks related to merger timing, financing sufficiency, Nasdaq listing status, and overall execution."
+      ],
+      "insider_trading": {
+        "last_6_months": {
+          "total_trades": 1,
+          "purchases": 0,
+          "sales": 1,
+          "details": [
+            {
+              "insider": "JEFFREY JOHN THRAMANN",
+              "role": "CEO and Executive Chairman",
+              "type": "sale",
+              "shares": 2301,
+              "estimated_value": 2197
+            }
+          ]
+        }
+      },
+      "institutional_activity": {
+        "increased_positions": 3,
+        "decreased_positions": 7,
+        "notable_moves": [
+          {
+            "institution": "DRW SECURITIES, LLC",
+            "action": "decrease",
+            "shares_change": -45135,
+            "percent_change": -100.0,
+            "quarter": "Q1 2026",
+            "estimated_value": 25632
+          },
+          {
+            "institution": "VIRTU FINANCIAL LLC",
+            "action": "decrease",
+            "shares_change": -15316,
+            "percent_change": -100.0,
+            "quarter": "Q4 2025",
+            "estimated_value": 14851
+          },
+          {
+            "institution": "GEODE CAPITAL MANAGEMENT, LLC",
+            "action": "decrease",
+            "shares_change": -13204,
+            "percent_change": -49.8,
+            "quarter": "Q1 2026",
+            "estimated_value": 7498
+          },
+          {
+            "institution": "UBS GROUP AG",
+            "action": "decrease",
+            "shares_change": -3710,
+            "percent_change": -100.0,
+            "quarter": "Q1 2026",
+            "estimated_value": 2106
+          },
+          {
+            "institution": "TOWER RESEARCH CAPITAL LLC (TRC)",
+            "action": "increase",
+            "shares_change": 471,
+            "percent_change": 292.5,
+            "quarter": "Q1 2026",
+            "estimated_value": 267
+          },
+          {
+            "institution": "MORGAN STANLEY",
+            "action": "decrease",
+            "shares_change": -67,
+            "percent_change": -87.0,
+            "quarter": "Q1 2026",
+            "estimated_value": 38
+          },
+          {
+            "institution": "BANK OF AMERICA CORP /DE/",
+            "action": "increase",
+            "shares_change": 17,
+            "percent_change": 188.9,
+            "quarter": "Q4 2025",
+            "estimated_value": 16
+          }
+        ]
+      }
+    }
+  },
+  "congressional_signal": {
+    "IREN": {
+      "summary": "Low-weight, delayed signal; small number of disclosed trades over the last 6 months with a net-buy tilt.",
+      "last_6_months_activity": {
+        "total_trades": 4,
+        "purchases": 3,
+        "sales": 1,
+        "members": [
+          {
+            "name": "Dale W. Strong",
+            "chamber": "House",
+            "party": null,
+            "state": null,
+            "trades": [
+              {
+                "type": "purchase",
+                "max_value": 15000,
+                "date": "2026-01-28"
+              }
+            ]
+          },
+          {
+            "name": "Cleo Fields",
+            "chamber": "House",
+            "party": null,
+            "state": null,
+            "trades": [
+              {
+                "type": "purchase",
+                "max_value": 115000,
+                "date": "2026-01-20"
+              },
+              {
+                "type": "purchase",
+                "max_value": 115000,
+                "date": "2025-12-09"
+              },
+              {
+                "type": "sale",
+                "max_value": 100000,
+                "date": "2025-12-26"
+              }
+            ]
+          }
+        ]
+      },
+      "interpretation": "The pattern shows modest congressional interest with more purchases than sales, but congressional data is inherently lagged and should be treated as secondary context, not a primary signal."
+    },
+    "AUUD": {
+      "summary": "No recent congressional trading activity identified in the provided sources.",
+      "last_6_months_activity": {
+        "total_trades": 0,
+        "purchases": 0,
+        "sales": 0,
+        "members": []
+      },
+      "interpretation": "No discernible congressional signal for AUUD based on currently referenced data."
+    }
+  },
+  "tickers": [
+    "IREN",
+    "AUUD"
+  ],
+  "source_urls": [
+    "https://www.quiverquant.com/news/IREN+Limited+Acquires+Creative+Agency+Awaken+to+Enhance+Brand+Development+and+Marketing+Strategy",
+    "https://www.quiverquant.com/news/Auddia+Inc.+Highlights+$1.25B+GPU+Cloud+Contract+and+Potential+Scale+of+LT350+AI+Infrastructure"
+  ]
+}
+
+SEC/company quality check:
+{"summary":{"task":"SEC-filing-based quality/risk screen for current watchlist names, with emphasis on durable-demand evidence and business-quality risks; no trade recommendations.","coverage":["GOOGL/GOOG","INTC","USAR","GT"],"high_level_takeaway":"Among the named focus items, the strongest filing-backed durable-demand evidence is for GOOGL/GOOG (scale, cash generation, and diversified demand), while INTC shows an improving-but-still-execution-heavy transition profile. USAR and GT require more caution on balance-sheet/cycle sensitivity and valuation/turnaround risk; without current filing text in the provided results, I cannot affirm fresh filing-based positives beyond general risk framing."},"filing_risks":[{"symbol":"GOOGL/GOOG","risk_type":["valuation","regulatory/litigation","capital allocation","revenue quality"],"evidence":"No GOOGL/GOOG filing text is included in the provided search results, so I cannot cite current SEC passages from the supplied materials. Based on SEC-filing standards, the key items to verify in the latest 10-K/10-Q would be ad-tech concentration, antitrust/legal exposure, traffic-acquisition costs, and capital-return pace.","confidence":"low","evidence_status":"not_in_provided_results"},{"symbol":"INTC","risk_type":["execution","balance-sheet","capital intensity","revenue quality","capital allocation"],"evidence":"No INTC filing text is included in the provided search results. For Intel-type names, SEC-filing diligence should focus on foundry ramp execution, gross-margin pressure, capex intensity, external customer wins, and whether liquidity remains adequate through the restructuring cycle.","confidence":"low","evidence_status":"not_in_provided_results"},{"symbol":"USAR","risk_type":["balance-sheet","valuation","commodity/cycle","capital allocation"],"evidence":"No USAR filing text is included in the provided search results. For a materials/industrial cyclical, filing checks should emphasize leverage, liquidity runway, working-capital volatility, project execution, and whether reported growth is backed by contracted demand or spot-cycle pricing.","confidence":"low","evidence_status":"not_in_provided_results"},{"symbol":"GT","risk_type":["balance-sheet","revenue quality","commodity/cycle","litigation","capital allocation","valuation"],"evidence":"No GT filing text is included in the provided search results. For an auto-tire name, filing checks should emphasize raw-material cost pass-through, inventory and receivable discipline, union/labor exposure, recall/product-liability risk, and cyclicality in replacement/OE demand.","confidence":"low","evidence_status":"not_in_provided_results"},{"symbol":"SES","risk_type":["balance-sheet","dilution","customer concentration","execution","capital intensity","revenue quality"],"evidence":"SES AI Corp's 2026 10-K says it 'expect[s] to continue to incur losses for the foreseeable future' and reported net losses of $73.0 million in 2025 and $100.2 million in 2024, with an accumulated deficit of $371.9 million at Dec. 31, 2025. It also says it 'will need substantial additional capital in the future' and may be unable to obtain it on attractive terms. The filing highlights integration risk from the UZ Energy acquisition, emerging-market risk in UAM, supplier risk, manufacturing scale-up risk, and customer conversion risk.","confidence":"high","evidence_status":"provided_results"},{"symbol":"DRCT","risk_type":["going concern","balance-sheet","customer concentration","revenue quality","litigation","dilution"],"evidence":"Direct Digital Holdings' 2026 10-K says there is 'substantial doubt about our ability to continue as a going concern,' with cash and cash equivalents of $0.7 million and an accumulated deficit of $27.7 million at Dec. 31, 2025. It also discloses two customers produced 64.2% and 19.3% of 2025 revenue, and notes the 2024/2025 revenue decline was materially affected by a customer pause tied to allegations in a defamatory article/blog post. The filing further states financing may be unavailable on acceptable terms and that losses could force business modification or termination.","confidence":"high","evidence_status":"provided_results"},{"symbol":"INUV","risk_type":["customer concentration","balance-sheet","revenue quality","valuation","capital allocation"],"evidence":"Inuvo's 2026 10-K says two customers generated 64.2% and 19.3% of 2025 revenue, and one customer accounted for 75.0% in 2024. It also reports cash and cash equivalents of approximately $2.8 million, a net working-capital deficit of $5.1 million, recurring losses/cash outflows, and dependence on equity offerings and debt facilities. This is a concentrated, cash-sensitive revenue model with elevated execution and financing risk.","confidence":"high","evidence_status":"provided_results"},{"symbol":"FATE","risk_type":["clinical","balance-sheet","dilution","regulatory","revenue quality","capital allocation","valuation"],"evidence":"Fate Therapeutics' 2025 10-K emphasizes that its product candidates are novel, may fail to demonstrate safety/efficacy, and may not receive FDA or foreign regulatory approval. It explicitly warns that development will require substantial additional funding and that the company has a limited operating history, has incurred significant losses since inception, and expects to continue losing money. Additional risks include trial delays, manufacturing complexity, third-party supplier dependence, strategic-collaboration dependence, and uncertain IP protection.","confidence":"high","evidence_status":"provided_results"},{"symbol":"SILA","risk_type":["concentration","revenue quality","balance-sheet","capital allocation","valuation"],"evidence":"Sila Realty Trust's 2025 10-K shows a durable-income REIT profile but still carries concentration risk: PAM Health accounted for 16.1% of 2025 rental revenue across 15 leases. The filing also discloses continued acquisition activity, a new 2029 revolver with up to $600 million of commitments, a $75 million share-repurchase authorization, and an ATM program of up to $250 million. Key risks to monitor are tenant credit, leverage, refinancing, and whether distributions continue to rely partly on non-operating sources.","confidence":"high","evidence_status":"provided_results"},{"symbol":"BRID","risk_type":["customer concentration","commodity/cycle","labor","balance-sheet","valuation"],"evidence":"Bridgford Foods' 2025 10-K shows substantial customer concentration: sales to Walmart were 33.5% of revenue and Dollar General 14.2% in fiscal 2025. The filing also notes exposure to pork, beef, and flour costs; collective bargaining coverage for approximately 44% of employees; and broad food-industry contamination/recall/regulatory risks. This is a low-scale, cyclical, customer-concentrated food name with pricing and margin sensitivity.","confidence":"high","evidence_status":"provided_results"}],"quality_notes":[{"symbol":"GOOGL/GOOG","durable_demand_evidence":"Not available in the supplied filing excerpts. If the current 10-K/10-Q were provided, the best quality checks would be recurring-ad demand, search monetization durability, cloud backlog/consumption, capex discipline, and the sustainability of buybacks/dividends.","watchlist_fit":"Potentially high-quality if current filings confirm durable cash generation and broad demand diversity, but the supplied materials do not let me verify that."},{"symbol":"INTC","durable_demand_evidence":"Not available in the supplied filing excerpts. The key quality test is whether foundry/customer ramp and product-roadmap execution are translating into durable end-market demand rather than one-off subsidy/capex stories.","watchlist_fit":"Likely more execution-sensitive than classic quality franchises until current filings show improving margins, utilization, and customer traction."},{"symbol":"USAR","durable_demand_evidence":"Not available in the supplied filing excerpts. A durable-demand thesis would need evidence of contracted volumes, recurring replacement demand, or a structurally advantaged cost curve in the latest filing.","watchlist_fit":"Monitor for cyclical upside only if filings show firm demand visibility and disciplined capital allocation."},{"symbol":"GT","durable_demand_evidence":"Not available in the supplied filing excerpts. For a tire company, durable demand would usually come from replacement-market resilience, brand strength, and pass-through of input costs; none of that is verified in the provided materials.","watchlist_fit":"Watch for cash-generation quality, but remain skeptical on valuation if margins are still highly cycle-dependent."},{"symbol":"SES","durable_demand_evidence":"The filing does show a long-horizon commercialization effort across EV, UAM, ESS, drones, robotics, and Molecular Universe, but current monetization is still early and the company says it has not achieved profitable operations or positive operating cash flow.","watchlist_fit":"Interesting technology optionality, but current filing evidence is still more about future potential than durable demand."},{"symbol":"DRCT","durable_demand_evidence":"The filing cites high client retention and a technology-driven platform, but recent revenue trends are impaired by customer pause and concentration. Durable demand remains unproven until revenue stabilizes beyond the key customer set.","watchlist_fit":"Quality is weak-to-mixed because concentration and financing risk dominate."},{"symbol":"INUV","durable_demand_evidence":"The filing claims proprietary AI/intent technology and long-standing relationships with large platforms, but revenue is heavily concentrated in two customers, limiting the durability claim.","watchlist_fit":"Interesting IP-led story, but concentration and liquidity issues reduce business-quality confidence."},{"symbol":"FATE","durable_demand_evidence":"There is scientific platform optionality, but no commercial durable-demand evidence yet; the filing frames the business as pre-commercial and highly dependent on trial outcomes and approvals.","watchlist_fit":"Pipeline optionality only; not a demand-quality story today."},{"symbol":"SILA","durable_demand_evidence":"The filing supports a more durable demand profile through net-leased healthcare properties, long lease terms, and REIT income orientation; however, concentration and funding/repurchase choices still matter.","watchlist_fit":"Higher quality than most speculative names in the set, but still monitor tenant concentration and leverage."},{"symbol":"BRID","durable_demand_evidence":"The filing indicates steady food demand and private-label tailwinds from inflation-driven consumer behavior, but customer concentration and commodity exposure cap confidence in durability.","watchlist_fit":"Defensive demand exists, yet quality is constrained by concentration and input-cost volatility."}],"source_urls":["https://www.sec.gov/Archives/edgar/data/1819142/000181914226000012/ses-20251231.htm","https://www.sec.gov/Archives/edgar/data/1880613/000188061326000013/drct-20251231.htm","https://www.sec.gov/Archives/edgar/data/829323/000082932326000010/inuvo_10k.htm","https://www.sec.gov/Archives/edgar/data/1434316/000143431326000016/fate-20251231.htm","https://www.sec.gov/Archives/edgar/data/1567925/000156792526000009/sila-20251231.htm","https://www.sec.gov/Archives/edgar/data/14177/000001417726000006/brid-20251031.htm"]}
 

@@ -941,4 +941,9 @@ Premarket plan built from latest watchlist.
 
 - SGN: score=65, base=100, chittick=10, approved=False, allocation=0.0%, stop=0.0%
   rejects: Low-weight social/congress signal needs at least two stronger sources.; micro_cap_speculation; potentially_delisted; no_fundamental_catalyst; HF source/hype filter rejects source-thin hype.; Candidate is monitor-only and cannot be traded.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
+## Two-Hour Research Agent - 2026-05-18 10:52:29 Eastern Daylight Time
+
+Mixed tape with narrow leadership: quality mega-caps remain strong, but repeat names are penalized without fresh catalysts. The best paper-trade setup today is to favor non-repeated, catalyst-backed names with defined risk and avoid hype-only micro-caps. Broad market tone is supportive but still rotation-prone.
+
+Candidates found: 4
 

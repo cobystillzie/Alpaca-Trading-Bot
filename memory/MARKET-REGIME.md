@@ -5496,4 +5496,185 @@ The US equity market is grinding to record highs, but the underlying conditions 
 ## Market Regime Research - 2026-05-15 18:59:53 Eastern Daylight Time
 
 {"summary":"US equities currently screen as constructive but not complacent: index trend is higher, breadth has improved, volatility is lower, and AI/infrastructure earnings support the rally. At the same time, rate sensitivity remains the main macro constraint, with the 10Y yield still elevated around the mid-4% area and market narratives still highly responsive to policy/headline risk. For a cautious paper-trading workflow, the tape is risk-on overall, but with a need to respect sudden reversals if yields rise or geopolitical/trade headlines disappoint.","market_regime":"Risk-on, but fragile/conditional. The dominant regime is a broad equity uptrend with improving breadth and lower VIX, led by AI and large-cap growth leadership. However, it is not a clean low-risk breakout regime because valuations are rich, the Fed is still on hold, and the market remains sensitive to rates and exogenous shocks. Best described as constructive trend with elevated headline risk and a still-tight rates constraint.","sector_rotation":["Leadership remains concentrated in AI infrastructure, mega-cap tech, and high-quality growth tied to earnings validation.","Secondary participation is visible in industrials and communication services, consistent with a healthier breadth backdrop.","Speculative/high-beta pockets are re-accelerating, including bitcoin-sensitive equities, meme baskets, retail favorites, and non-profitable tech.","Defensive behavior is mixed rather than dominant; utilities and staples are not the primary leadership groups, though they may still attract flows if rates reassert upward pressure.","China ADRs appear weaker relative to the broader tape, indicating selective risk appetite rather than uniform global cyclicality."],"risk_flags":["Rates remain the key macro risk: a renewed rise in Treasury yields could compress multiples and reverse the recent constructive tone.","Fed policy is still restrictive/neutral-to-tight; there is no clear easing tailwind yet.","Speculative participation is expanding, which can support momentum but increases reversal risk if breadth narrows.","Market reliance on a small set of AI-related leaders leaves the rally vulnerable to earnings disappointment or capex-return skepticism.","Geopolitical and trade headlines remain important volatility catalysts.","Valuations are elevated relative to fundamentals, so good news may already be partly priced in."],"source_urls":["https://www.tickmill.com/blog/sp500-trading-update-15526","https://www.crestwoodadvisors.com/may-2026-economic-and-market-update/","https://www.investing.com/analysis/sp-500-pullback-looks-more-like-a-rates-problem-than-panic-200680413","https://www.morganstanley.com/insights/articles/investment-outlook-midyear-2026","https://www.investing.com/news/stock-market-news/morgan-stanley-expects-fed-to-hold-rates-through-2026-cut-in-early-2027-93CH-4692516?ampMode=1","https://www.newsquawk.com/daily/5578-us-market-open-stocks-hit-as-yieldsenergy-firm-on-renewed-fears-of-us-iran-conflict-resumption"]}
+## Market Regime Research - 2026-05-18 10:52:29 Eastern Daylight Time
+
+{
+  "summary": "US equities are in a late‑cycle, tactically bullish but fragile regime: the S&P 500 trend is up after a sharp April rebound, but leadership is narrow and concentrated in mega‑cap tech and semiconductors, while some research flags ominous technical signals and downside risk. The Fed is on hold with a cautious tone, rates remain a key driver of cross‑asset moves, volatility is subdued but prone to event spikes, and earnings have been broadly resilient but with growing dispersion. Overall conditions are moderately risk‑on at the index level but fragile under the surface, warranting a cautious, liquidity‑aware paper‑trading stance.",
+  "market_regime": {
+    "index_trend": {
+      "sp500": {
+        "direction": "uptrend_with_caution",
+        "evidence": [
+          "VanEck reports the S&P 500 gained about 10.5% in April, reversing much of the prior month’s geopolitical‑driven decline and led by tech and AI‑related names.",
+          "Markets Insider cites Ned Davis Research noting a cluster of trend indicators on the S&P 500 flashing or nearing sell signals, implying the rally may be extended and vulnerable.",
+          "TradingView commentary notes US indices (S&P 500, Nasdaq) recently traded softer on a day‑to‑day basis, but within a broader uptrend, reflecting consolidation rather than a confirmed trend break."
+        ],
+        "interpretation_for_bot": "Treat the S&P 500 as in an intermediate‑term bullish trend but extended; your paper‑trading logic should assume positive drift with elevated probability of pullbacks and failed breakouts, especially if breadth deteriorates further."
+      },
+      "breadth_and_leadership": {
+        "status": "narrow_leadership",
+        "evidence": [
+          "VanEck highlights that April’s rebound was driven by a narrow set of mega‑cap technology and semiconductor names; the cap‑weighted S&P 500 outpaced the equal‑weight index by more than 4 percentage points, and the Nasdaq Composite gained over 15%.",
+          "The Morningstar Wide Moat and US Small‑Mid Cap Moat indices lagged broader benchmarks despite gains, indicating that quality mid‑caps and equal‑weighted strategies underperformed the mega‑cap‑driven rally."
+        ],
+        "interpretation_for_bot": "Breadth is a key monitoring variable. A narrow tech/AI‑driven advance suggests the index can look strong while many components are weak; for paper‑trading, track equal‑weight vs cap‑weight S&P performance and avoid assuming broad strength from index levels alone."
+      }
+    },
+    "rates_and_fed": {
+      "policy_stance": {
+        "fed_status": "on_hold_cautious",
+        "evidence": [
+          "VanEck notes the Federal Reserve held rates unchanged for a third consecutive meeting, citing ongoing geopolitical uncertainty.",
+          "J.P. Morgan strategists describe a tactically bullish stance on US equities built on resilient macro data and positive earnings but acknowledge policy and trade risks.",
+          "Investing.com analysis underscores that changes in US 2‑year and 10‑year yields are highly correlated (~0.90 over 60 days), signaling a tightly linked curve move and emphasizing rates as a central macro driver."
+        ],
+        "interpretation_for_bot": "The regime is ‘higher‑for‑longer but on hold.’ Rate‑sensitive sectors and valuation‑heavy growth (especially long‑duration tech) remain tightly linked to moves in the 2Y/10Y Treasury yields. The bot should treat bigger‑than‑normal equity reactions around Fed communications and major rate data (CPI, jobs, PCE) as regime‑confirming events, not noise."
+      },
+      "rates_tone": {
+        "status": "yields_elevated_but_off_peaks",
+        "evidence": [
+          "Investing.com notes rising US rates underpinning dollar strength, implying that real yields remain an important headwind/tailwind toggle for risk assets.",
+          "J.P. Morgan research implicitly aligns with a backdrop of still‑restrictive but not worsening financial conditions when justifying a tactically bullish stance."
+        ],
+        "interpretation_for_bot": "For paper‑trading logic, treat modest yield back‑ups as a headwind to growth/tech leadership and yield declines as supportive risk‑on, especially for AI/semis and other long‑duration equities."
+      }
+    },
+    "volatility": {
+      "level": "subdued_with_event_spike_risk",
+      "evidence": [
+        "There is no sign in the sources of an ongoing volatility shock; instead, narratives focus on trend, sector leadership, and macro rather than crisis‑level stress.",
+        "TradingView commentary references modest day‑to‑day index moves (e.g., S&P −0.58%, Nasdaq −0.96%), consistent with low‑to‑moderate realized volatility during consolidation.",
+        "CryptoRank’s snapshot of crypto markets (e.g., BTC dominance, modest‑to‑declining total crypto market cap) suggests risk assets more broadly are not in a systemic panic, though this is a weaker equity proxy."
+      ],
+      "interpretation_for_bot": "Assume a low‑to‑moderate volatility regime with pockets of sharp moves around macro and geopolitical headlines. For testing, this means tight stop‑loss assumptions may be more frequently hit by idiosyncratic noise, while volatility‑sensitive strategies (e.g., breakout trades) should incorporate the risk of false breaks in a low‑realized‑vol environment."
+    },
+    "earnings_tone": {
+      "status": "resilient_but_dispersed",
+      "evidence": [
+        "VanEck attributes a large share of the April rebound to resilient Q1 earnings and strong AI‑related demand for semiconductors (NXP, Broadcom, NVIDIA, Marvell, ON Semiconductor).",
+        "Defensive large‑cap staples like Walmart and Costco show healthy operating results and margin expansion, as indicated by your existing candidate notes, implying stable consumer demand in essential categories.",
+        "J.P. Morgan’s tactically bullish framework explicitly relies on positive earnings growth as one of three pillars supporting US equities."
+      ],
+      "interpretation_for_bot": "Earnings are not in crisis; they are broadly supportive but increasingly bifurcated: AI/semis and select quality names outperform, while other sectors lag. For paper‑trading, earnings dates and revisions should be treated as significant event risk but not systematically bearish. Strategies that assume a wholesale earnings downturn would be inconsistent with the current regime."
+    },
+    "risk_on_off": {
+      "overall_tone": "moderate_risk_on_with_tail_risks",
+      "evidence": [
+        "US equities staged a sharp rebound after a prior geopolitical‑driven sell‑off, suggesting investors are willing to buy dips amid improving headlines (e.g., a holding ceasefire in the U.S.‑Iran conflict and falling oil prices, per VanEck).",
+        "AI‑linked and semiconductor equities lead performance, a classic risk‑on pattern focused on growth and innovation themes.",
+        "At the same time, Ned Davis Research’s warning about ominous S&P 500 trend signals, plus ongoing geopolitical and regulatory uncertainties referenced in several sources, underscore that risk appetite is selective and prone to reversals."
+      ],
+      "interpretation_for_bot": "Label the regime as ‘cautious risk‑on.’ Index‑level behavior is risk‑seeking but dependent on a narrow set of growth/tech names and benign macro/geopolitical news. For paper‑trading, treat sharp swings in risk sentiment around geopolitical headlines, Fed shifts, or AI‑related news as regime‑consistent volatility, not necessarily as a structural trend change unless breadth and credit also weaken."
+    }
+  },
+  "sector_rotation": {
+    "tech_and_semis": {
+      "status": "leadership",
+      "evidence": [
+        "VanEck reports that technology led sectors decisively in April, driven by AI infrastructure spending; semiconductor names such as NXP, Broadcom, NVIDIA, Marvell, and ON Semiconductor were key performance drivers.",
+        "The cap‑weighted S&P 500’s strong outperformance vs equal‑weight is largely due to mega‑cap tech and AI‑related names."
+      ],
+      "implication_for_bot": "In this regime, index behavior is highly sensitive to a small number of tech/AI leaders. When backtesting or paper‑trading, monitor concentration risk: index pullbacks can be sharper if these leaders falter, even if other sectors are stable."
+    },
+    "defensives_and_staples": {
+      "status": "steady_but_not_leading",
+      "evidence": [
+        "Health care and energy were cited by VanEck as laggards in April, while there is no claim that staples led; instead, the rally was tech‑led.",
+        "Your candidate list (Walmart, Costco) highlights resilient fundamentals and margin improvements, implying that defensive consumer staples are fundamentally solid but not the primary source of index upside."
+      ],
+      "implication_for_bot": "Defensive sectors appear to be acting as ballast rather than leadership. For a cautious paper‑trading framework, they can be modeled as relatively lower beta and less sensitive to macro swings compared with tech/semis, but with limited upside participation in narrow AI‑driven rallies."
+    },
+    "cyclicals_and_small_mid_caps": {
+      "status": "participating_but_lagging_megacaps",
+      "evidence": [
+        "The Morningstar US Small‑Mid Cap Moat Focus Index rose 6.18% in April but still trailed the S&P MidCap 400 (7.86%) and S&P SmallCap 600 (10.41%), indicating that while smaller caps gained, they lagged their benchmarks and the mega‑cap‑driven S&P 500.",
+        "VanEck notes that the Moat Index’s equal‑weight construction weighed on performance in a month dominated by mega‑cap tech and semiconductors."
+      ],
+      "implication_for_bot": "Cyclicals and smaller caps are not in a deep risk‑off state but are not the dominant drivers. For paper‑trading, model them as moderately higher beta to macro data and rates, with performance more sensitive to any shift away from narrow mega‑cap leadership."
+    },
+    "energy": {
+      "status": "recent_laggard_after_prior_strength",
+      "evidence": [
+        "Energy reversed sharply lower in April after leading in March, when supply disruption fears had driven prices higher, according to VanEck.",
+        "The reversal coincided with a holding ceasefire in the U.S.‑Iran conflict and falling oil prices, reducing the geopolitical risk premium in energy."
+      ],
+      "implication_for_bot": "Energy is transitioning from a geopolitical‑risk‑driven leader to a laggard as tensions ease and oil prices soften. For test logic, treat energy as highly sensitive to geopolitical headlines and commodity price swings rather than broad earnings trends."
+    },
+    "style_factors": {
+      "growth_vs_value": {
+        "status": "growth_outperformance",
+        "evidence": [
+          "Tech and AI‑related names dominate returns, which is typically associated with growth style leadership.",
+          "The underperformance of equal‑weight and moat indices vs cap‑weighted benchmarks implies mega‑cap growth dominance over diversified value or quality baskets."
+        ]
+      },
+      "quality_and_moat": {
+        "status": "positive_absolute_returns_but_relative_lag",
+        "evidence": [
+          "The Morningstar Wide Moat Focus Index gained 3.87% in April but trailed the S&P 500 during the narrow, tech‑led rebound.",
+          "The SMID Moat Index posted strong absolute gains yet underperformed the broader small‑ and mid‑cap benchmarks."
+        ]
+      },
+      "implication_for_bot": "Model the factor regime as growth/mega‑cap leadership with quality and value participating but lagging. For paper‑trading, strategies that assume a broad quality or value rotation may underperform in this specific regime relative to tech/growth‑tilted approaches."
+    }
+  },
+  "risk_flags": {
+    "technical_and_trend_risks": [
+      {
+        "description": "S&P 500 trend indicators clustering into or near sell signals, raising the risk of a corrective phase after an extended AI‑driven advance.",
+        "source_context": "Markets Insider summarizing Ned Davis Research’s view that multiple S&P 500 trend signals are flashing or nearing bearish territory.",
+        "implication_for_bot": "Backtests should incorporate scenarios where a modest macro or earnings disappointment triggers outsized downside because positioning is crowded in winners and trend indicators are stretched."
+      }
+    ],
+    "macro_and_policy_risks": [
+      {
+        "description": "Fed policy uncertainty around the timing and magnitude of any future cuts in a ‘higher‑for‑longer’ environment.",
+        "source_context": "VanEck notes the Fed is on hold amid elevated geopolitical uncertainty; J.P. Morgan acknowledges macro and trade risks even within a tactically bullish stance.",
+        "implication_for_bot": "Paper‑trading should stress‑test strategies around FOMC meetings, inflation prints, and labor data; sudden repricing of the rate path could cause style rotations (growth vs value) and volatility spikes."
+      },
+      {
+        "description": "High sensitivity of risk assets to US yield moves and dollar strength.",
+        "source_context": "Investing.com shows 2‑ and 10‑year yields moving with ~0.90 correlation, highlighting unified rate shocks that can reprice duration‑sensitive equities.",
+        "implication_for_bot": "In test scenarios, larger‑than‑usual equity drawdowns should be coupled with parallel shifts in the curve rather than idiosyncratic stock moves alone."
+      }
+    ],
+    "geopolitical_risks": [
+      {
+        "description": "Residual geopolitical tension despite a holding ceasefire in the U.S.‑Iran conflict; potential for renewed shocks to energy markets and risk sentiment.",
+        "source_context": "VanEck attributes prior weakness to geopolitical concerns and notes that easing tensions supported April’s rebound.",
+        "implication_for_bot": "Include shock scenarios where renewed tensions drive energy up, broader indices down, and factor rotations toward defensives and away from high‑beta growth."
+      }
+    ],
+    "market_structure_and_breadth_risks": [
+      {
+        "description": "Extreme concentration of index performance in mega‑cap tech and AI‑related semiconductors.",
+        "source_context": "VanEck documents mega‑cap tech and semis as the primary drivers of the April rebound; equal‑weight and moat indices lagged.",
+        "implication_for_bot": "Paper‑trading should explicitly track concentration risk: a small number of stocks can dominate P&L, and any reversal in these names can produce index moves that are not confirmed by broader breadth."
+      },
+      {
+        "description": "Underperformance of equal‑weight, quality, and moat strategies despite positive absolute returns.",
+        "source_context": "VanEck reports the Moat Index and SMID Moat Index lagging cap‑weighted benchmarks.",
+        "implication_for_bot": "Strategies that rely on mean reversion toward equal‑weight or quality leadership may underperform if the narrow leadership regime persists longer than historical averages."
+      }
+    ],
+    "liquidity_and_microstructure_risks": [
+      {
+        "description": "Potential air‑pockets in lower‑liquidity names and speculative micro‑caps despite calm index‑level volatility.",
+        "source_context": "Your internal logs show repeated rejection of micro‑cap speculative names (e.g., SGN) on grounds including micro_cap_speculation, potentially_delisted, and no_fundamental_catalyst, illustrating fragile liquidity and hype‑driven swings in that segment.",
+        "implication_for_bot": "In the paper‑trading framework, treat micro‑caps and thinly traded names as structurally higher gap‑risk and more likely to experience slippage and execution issues in real markets, even when indices appear calm."
+      }
+    ]
+  },
+  "source_urls": [
+    "https://markets.businessinsider.com",
+    "https://www.tradingview.com/symbols/USSPX500/ideas/page-41/",
+    "https://www.vaneck.com/pl/en/blog/moat-investing/moat-strategies-join-tech-led-april-rebound/",
+    "https://markets.jpmorgan.com/research-and-insights",
+    "https://www.investing.com/analysis/week-ahead-rising-us-rates-underpin-greenback-200680462",
+    "https://cryptorank.io/news/feed/a743d-dow-jumps-448-points-on-iran-deal-hopes-ai-rally-lifts-stocks",
+    "https://www.mexc.com/crypto-pulse/article/zec-is-up-1-200-here-s-exactly-why-zcash-exploded-in-2026-114408",
+    "https://cran.r-project.org/web/packages/available_packages_by_date.html",
+    "https://www.ad-hoc-news.de/boerse/news/ueberblick/momentive-global-inc-stock-us61174x1090-survey-software-specialist/69359774"
+  ]
+}
 

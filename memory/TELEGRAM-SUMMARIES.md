@@ -14445,4 +14445,46 @@ Sources: https://www.marketbeat.com/stocks/NYSEAMERICAN/SGN/short-interest/
 
 Rejected / Watchouts
 - SGN: Low-weight social/congress signal needs at least two stronger sources.; micro_cap_speculation; potentially_delisted; no_fundamental_catalyst; HF source/hype filter rejects source-thin hype.; Candidate is monitor-only and cannot be traded.; Target allocation must be between 1% and 15%.; Stop...
+## Research Update - 2026-05-18 10:52:29 Eastern Daylight Time
+
+Research Update
+
+Market tone: Mixed tape with narrow leadership: quality mega-caps remain strong, but repeat names are penalized without fresh catalysts. The best paper-trade setup today is to favor non-repeated, catalyst-backed names with defined risk and avoid hype-only micro-caps. Broad market tone is supportive but still rotation-prone.
+Candidates: 4
+
+1. GOOGL (information technology / internet / cloud) | confidence 0.55 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier stale-watch | bucket mega-cap-internet-cloud | HF source 0/100 | HF veto
+Recommendation: watch
+Catalyst: No fresh catalyst identified in the supplied sources; repeated-name decay dominates.
+Chittick Cash: Margin of safety is business-quality driven, but near-term price attractiveness cannot be confirmed without a fresh setup.
+HF filter: sentiment=neutral source=0/100 hype=0.00 vetoes=2
+Self-learning: tier=stale-watch repeat48h=6 fresh=yes bucket=mega-cap-internet-cloud
+Social buzz, low weight: Elevated attention exists in the background, but it is not the main reason to trade and is capped at low weight.
+Congress signal, low weight: none
+
+2. INTC (semiconductors / hardware) | confidence 0.48 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket semiconductors | HF source 0/100 | HF veto
+Recommendation: monitor-only
+Catalyst: No fresh catalyst in the supplied sources for today; prior memory notes similarity to rejected patterns.
+Chittick Cash: Some margin of safety may exist from strategic importance and optionality, but it is not enough to override execution risk.
+HF filter: sentiment=neutral source=0/100 hype=0.00 vetoes=2
+Self-learning: tier=monitor-only repeat48h=6 fresh=yes bucket=semiconductors
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. USAR (materials / critical minerals) | confidence 0.41 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket materials-critical-minerals | HF source 0/100 | HF veto
+Recommendation: monitor-only
+Catalyst: No fresh catalyst provided in the supplied sources.
+Chittick Cash: Low confidence in margin of safety because small-cap cyclicals can re-rate violently in both directions.
+HF filter: sentiment=neutral source=0/100 hype=0.00 vetoes=2
+Self-learning: tier=monitor-only repeat48h=0 fresh=yes bucket=materials-critical-minerals
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+4. GT (consumer-discretionary / auto parts) | confidence 0.44 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket consumer-discretionary-auto-parts | HF source 0/100 | HF veto
+Recommendation: monitor-only
+Catalyst: No new company-specific catalyst supplied in this pass.
+Chittick Cash: Potentially reasonable on a normalized basis, but only if margins stabilize; otherwise the apparent cheapness is a value trap.
+HF filter: sentiment=neutral source=0/100 hype=0.00 vetoes=1
+Self-learning: tier=monitor-only repeat48h=0 fresh=yes bucket=consumer-discretionary-auto-parts
+Social buzz, low weight: none
+Congress signal, low weight: none
 
