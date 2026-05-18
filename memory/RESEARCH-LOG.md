@@ -935,4 +935,10 @@ Premarket plan built from latest watchlist.
 
 - SGN: score=65, base=100, chittick=10, approved=False, allocation=0.0%, stop=0.0%
   rejects: Low-weight social/congress signal needs at least two stronger sources.; micro_cap_speculation; potentially_delisted; no_fundamental_catalyst; HF source/hype filter rejects source-thin hype.; Candidate is monitor-only and cannot be traded.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
+## Premarket Plan - 2026-05-18 08:25:02 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- SGN: score=65, base=100, chittick=10, approved=False, allocation=0.0%, stop=0.0%
+  rejects: Low-weight social/congress signal needs at least two stronger sources.; micro_cap_speculation; potentially_delisted; no_fundamental_catalyst; HF source/hype filter rejects source-thin hype.; Candidate is monitor-only and cannot be traded.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
 
