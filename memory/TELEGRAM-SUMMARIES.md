@@ -15250,4 +15250,28 @@ No current market regime from watchlist.
 
 Top Candidates
 No current candidates.
+## Research Update - 2026-05-19 10:52:19 Eastern Daylight Time
+
+Research Update
+
+Market tone: Biotech remains volatile with mixed capital-market signals: CytomX fell sharply on a large equity/warrant financing despite constructive analyst coverage, while Valneva trades with improving technicals and a wide range of analyst targets. Broader macro context is still late‑cycle, with elevated equity valuations and event‑driven risk, which argues for cautious position sizing and tight risk controls on any short‑horizon biotech swings.
+Candidates: 2
+
+1. CTMX (healthcare-biotech) | confidence 0.63 | allocation 2.0% | stop 8.0% | Chittick 35/100 | tier execution-ready | bucket healthcare-smallcap-biotech
+Recommendation: execute-if-guards-pass
+Catalyst: 1) May 18 priced $250M equity + pre-funded warrant offering following a proposed offering announcement that previously saw the stock surge ~44%; 2) recent positive Phase 1 data for a masked ADC in colorectal cancer with notable price rea...
+Chittick Cash: Margin of safety is thin in traditional value terms: no established cash-flow base, ongoing R&D burn, and explicit need for capital (just evidenced by the $250M raise). Any perceived margin of safety is purely in the...
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=healthcare-smallcap-biotech
+Social buzz, low weight: none identified as a distinct driver; any online chatter around CTMX appears consistent with normal biotech event discussion and does not provide an independent signal.
+Congress signal, low weight: none; no relevant congressional trading activity surfaced in the provided context.
+
+2. VALN (healthcare-biotech-vaccines) | confidence 0.60 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier watch | bucket international-vaccines-midcap
+Recommendation: watch
+Catalyst: 1) Ongoing development and potential regulatory/clinical milestones in Lyme disease and other vaccines (per news summaries and analyst coverage); 2) SEC filings in late 2024 and 2025 detailing IXCHIQ label updates and expansion plans; 3)...
+Chittick Cash: Compared to a pure development-stage biotech, Valneva has some margin of safety via existing products and partnerships, but its revenue base is still narrow and exposed to regulatory and travel demand swings. The wide...
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=international-vaccines-midcap
+Social buzz, low weight: none highlighted as material; no notable social or retail buzz anomalies surfaced in the provided sources.
+Congress signal, low weight: none; no congressional trading or lobbying disclosures in the snippets materially change the thesis for this timeframe.
 

@@ -5844,4 +5844,172 @@ The US equity market is grinding to record highs, but the underlying conditions 
 ## Market Regime Research - 2026-05-19 01:17:22 Eastern Daylight Time
 
 {"summary":"U.S. equity tone is mixed to slightly risk-off. The latest broad-market read shows stocks flat-to-lower after a rate-driven selloff erased earlier gains, while defensive sectors outperformed and overnight/global commentary points to pressure from higher yields and shifting central-bank expectations. Earnings tone is not strongly supportive in the supplied sources; the market appears more focused on macro/rates than on company-level fundamentals.","market_regime":"Late-cycle, rate-sensitive, mildly risk-off regime. Index action suggests a choppy range with poor follow-through, where higher bond yields and renewed tightening expectations are capping broad equity upside. Volatility is likely elevated relative to a calm bull trend, though not necessarily in panic mode; the regime favors caution, smaller sizing, and confirmation over momentum chasing in a paper-trading workflow.","sector_rotation":"Rotation is toward defensives and quality/resilience themes, with consumer staples and defensive sectors showing relative strength while cyclicals and rate-sensitive growth are under pressure. The overnight bounce in defensive sectors and commentary about AI-led leadership being at risk imply weakening breadth and a possible leadership transition away from the prior concentrated mega-cap growth trade.","risk_flags":["Higher U.S. bond yields pressing equity valuations","Markets repricing for more central-bank tightening","Rate-driven selloff offsetting prior gains","Potential correction risk in AI-led / concentrated growth leadership","Weak breadth and defensive rotation suggest reduced risk appetite","No strong earnings-driven broad-market catalyst in the provided sources"],"source_urls":["https://oakharvestfg.com/weekly_market_updates/weekend-update-may-18th-2026/","https://kalkine.com.au/news/financial/why-rising-us-bond-yields-could-pressure-asx-stocks-and-global-markets","https://www.investing.com/news/stock-market-news/asian-shares-mixed-bonds-recover-as-oil-eases-on-trumps-iran-comments-4697392","https://www.marketindex.com.au/news/asx-200-live-today-tuesday-19th-may","https://www.blackrock.com/us/individual/insights"]}
+## Market Regime Research - 2026-05-19 10:52:19 Eastern Daylight Time
+
+{
+  "summary": {
+    "tone": "cautiously risk-on but narrowing and fragile",
+    "description": "US equities remain in an uptrend with repeated all‑time highs and strong earnings growth, but near‑term tone has softened into a pause/pullback as higher oil, sticky inflation, and fewer expected Fed cuts push yields and mortgage rates up. Volatility is not spiking despite geopolitical stress, suggesting a controlled, late‑cycle, buy‑the‑dip mindset rather than panic.",
+    "for_paper_trading_workflow": "Treat this as a late‑cycle, elevated‑valuation bull market with rising macro and geopolitical tail risks. Favor conservative position sizing, slower trade frequency, and clear regime checks before adding risk."
+  },
+  "market_regime": {
+    "index_trend": {
+      "direction": "uptrend with near-term consolidation",
+      "evidence": [
+        "Multiple recent all‑time highs and a seven‑week winning streak for the S&P 500 off the late‑March lows, described as a “historic move” with several new highs in May. [6]",
+        "S&P 500 up about 8–10% year‑to‑date with strategists still targeting 12–15% by year‑end, implying ongoing bullish bias. [6]",
+        "Latest weekly summary shows S&P 500 +0.1% on the week, Dow slightly negative, NASDAQ slightly negative, Russell 2000 down 2.3%, indicating mega‑cap/large‑cap resilience but small‑cap underperformance. [4]",
+        "S&P 500 futures opened and closed lower on the latest session amid Middle East headlines, but intraday recovery from lows indicates dip‑buying rather than trend reversal. [1]"
+      ],
+      "interpretation_for_bot": "Regime is still structurally bullish, but stretched. For paper trades, treat pullbacks as part of an ongoing uptrend, not yet a confirmed bear phase, while being aware that momentum is mature and vulnerable to shocks."
+    },
+    "rates_and_fed": {
+      "yields": {
+        "10y_treasury": "around 4.6% and drifting higher on inflation and oil shocks. [2]",
+        "yield_trend": "recently ticked up (4.599% → 4.621%), pushing mortgage rates to a one‑month high. [2]"
+      },
+      "policy_expectations": {
+        "fed_funds_current": "roughly 3.50–3.75% target range in the cited FOMC discussion. [5]",
+        "base_case": "Hold at current levels in the near term; the next move is still expected to be a cut, but timing has been pushed out, with some forecasts now mid‑2027 for the first cut. [5][8][10][12]",
+        "market_pricing": "After hotter US inflation, futures shifted toward fewer cuts and even some risk of a hike, implying tighter‑for‑longer rather than imminent easing. [5][8]",
+        "messaging": "Commentary consistently references sticky inflation and resilient labor markets as reasons to keep policy restrictive; some houses still expect ~50 bp of cuts in 2026, but only if growth slows without a new inflation flare‑up. [10][12][14]"
+      },
+      "interpretation_for_bot": "Rates regime is restrictive and biased to stay high. Macro shocks (oil, geopolitics) now skew more toward upside inflation surprises than downside growth surprises. For a cautious workflow, assume higher discount rates and avoid assuming fast multiple expansion from falling yields."
+    },
+    "volatility_and_risk_appetite": {
+      "equity_volatility": {
+        "recent_behavior": "Despite geopolitical headlines and lower index closes on the latest day, implied volatility actually finished lower as markets recovered intraday. [1]",
+        "interpretation": "Equity vol is elevated relative to a calm environment but not in a stress regime; markets are used to geopolitical noise and still fade spikes."
+      },
+      "credit_and_fx": {
+        "credit_spreads": "Risky debt spreads have tightened “sharply,” returning to more supportive levels, even as equity volatility remains somewhat elevated. [10]",
+        "currency_vol": "Currency implied volatility has also tightened, signaling less perceived systemic risk. [10]",
+        "usd_tone": "US dollar trading firm after stronger‑than‑expected inflation and hawkish repricing, supporting demand for dollar assets. [5]"
+      },
+      "sentiment": {
+        "fear_greed": "CNN Fear & Greed Index in the low 60s (“Greed”), slightly down but still firmly in risk‑on territory. [2]",
+        "flows_and_behavior": "Equities: risk‑on bias; credit: recovering/risk‑on; gold: slightly weaker alongside higher yields. [2][10]"
+      },
+      "regime_label": "cautious risk-on / late-cycle",
+      "interpretation_for_bot": "The environment favors risk assets but with limited cushion. For paper trading, model a regime where vol spikes are likely to be sold but can be abrupt, and avoid assuming persistently low volatility."
+    },
+    "earnings_and_fundamentals": {
+      "earnings_growth": {
+        "sp500": "Q1 blended earnings growth ~27.7% YoY, the strongest since 2021, with most companies having reported. [6]",
+        "interpretation": "Fundamentals are robust; revenue growth is supported by nominal growth and some inflation pass‑through, with margins holding up."
+      },
+      "micro_examples": {
+        "diploma_plc": "Double‑digit organic growth, expanding margins, 36% EPS growth, and upgraded guidance for fiscal 2026. [3]",
+        "novelis": "Top‑line up 4% on higher aluminum prices but shipments down and EBITDA slightly lower due to production disruptions and tariffs. [9]",
+        "legend_biotech": "Stock reacted positively despite a loss, suggesting risk appetite for growth/biotech remains. [11]"
+      },
+      "macro_backdrop": {
+        "growth": "Global and US growth forecasts for 2026–2027 have been trimmed but still show positive growth; the environment is described as 'resilience with constraints.' [8][10]",
+        "inflation": "Inflation is above the Fed’s 2% target; core CPI running at a hot 3–4%+ annualized, while energy‑driven shocks lift headline. [5][6][12][14]",
+        "labor_and_spending": "Labor market is stabilizing rather than weakening sharply; retail sales and consumer spending are still positive but pressured by prices. [12][14]"
+      },
+      "interpretation_for_bot": "Fundamentals currently justify risk‑on, but the cycle is increasingly driven by pricing power and nominal growth rather than early‑cycle volume acceleration. For paper trading, note that earnings downgrades from an oil shock or policy error would be a key regime‑change trigger."
+    }
+  },
+  "sector_rotation": {
+    "leadership_and_laggards": {
+      "large_vs_small": {
+        "observation": "S&P 500 slightly up while Russell 2000 fell 2.3% over the week, confirming large‑cap dominance over small caps. [4]",
+        "interpretation": "Market is favoring higher‑quality, scale players; small caps are more vulnerable to higher rates and input‑cost shocks."
+      },
+      "cyclicals_vs_defensives": {
+        "cyclicals": "Oil‑sensitive sectors (energy, some industrials/materials) benefit from higher commodity prices but face margin and multiple risks if shocks escalate. Corporate examples like Novelis show revenue boost from prices but stress in volumes. [5][9][12]",
+        "defensives": "Consumer staples and other defensive areas remain in focus among institutional allocators as late‑cycle ballast; some asset managers explicitly increased equity exposure but with emphasis on balanced, quality‑tilted portfolios rather than high‑beta. [10]",
+        "housing_sensitivity": "Higher mortgage and refinance rates (30‑year near 6.25–6.84%) weigh on housing‑linked cyclicals and rate‑sensitive consumer segments. [2][13]"
+      },
+      "style_factors": {
+        "growth_quality": "Mega‑cap growth and AI beneficiaries remain central to market narratives (e.g., focus on NVIDIA earnings and AI 'state of play'), but weekly returns are starting to normalize (Nasdaq −0.1% for the week). [4]",
+        "value_income": "Higher yields and sticky inflation support some value/cash‑flow‑rich names, especially in financials and select industrials, but there is no clear value leadership; rotation is more about quality than pure value."
+      }
+    },
+    "regime_characterization": {
+      "description": "Quality‑growth and large caps in a late‑cycle leadership role; defensives in favor as ballast; small caps and highly rate‑sensitive cyclicals underperforming.",
+      "signals_for_bot": {
+        "overweight_bias_for_paper_tracking": "Large‑cap indices, quality tech/AI, defensive staples and healthcare as 'core' of the regime narrative (for observation only, not as trade advice).",
+        "underperformance_watchlist": "Small caps, housing‑sensitive equities, lower‑quality cyclicals, and companies with high operating leverage to energy and shipping costs.",
+        "rotation_triggers_to_monitor": [
+          "Change in breadth: if small‑caps and equal‑weight indices start to outperform cap‑weighted S&P 500, it may signal broadening risk‑on.",
+          "Shift in credit spreads: widening credit spreads alongside equity weakness would indicate a move to risk‑off.",
+          "Fed tone change: a pivot from 'on hold' to credible easing on slowing inflation could broaden the rally; a shift toward actual hike risk would likely accelerate rotation into defensives."
+        ]
+      }
+    }
+  },
+  "risk_flags": {
+    "macro_and_policy": [
+      {
+        "name": "sticky_inflation_and_energy_shock",
+        "description": "Oil prices around or above $108/bbl and higher shipping/logistics costs are raising headline inflation and slowing disinflation, especially as tariffs have already added an estimated 0.8 percentage point to PCE. [2][5][12]",
+        "implication_for_paper_trading": "Model scenarios where inflation data remain hot and yields grind higher, pressuring valuations even if earnings hold up."
+      },
+      {
+        "name": "higher_for_longer_rates",
+        "description": "Markets have repriced toward fewer 2026 rate cuts and some risk of additional tightening; Fed officials are signaling patience with inflation above target and a resilient labor market. [5][8][10][12][14]",
+        "implication_for_paper_trading": "Assume limited rate‑cut tailwind for equities in the near term, and test portfolio sensitivity to a 50–75 bp increase in long yields rather than a decrease."
+      },
+      {
+        "name": "growth_downgrades",
+        "description": "Global growth forecasts for 2026–2027 have been nudged lower across several economies, pointing to 'resilience with constraints' rather than acceleration. [8][10]",
+        "implication_for_paper_trading": "Stress‑test sectors with high operating leverage and cyclical revenue dependence under slower real growth scenarios."
+      }
+    ],
+    "geopolitical": [
+      {
+        "name": "middle_east_tensions_and_oil",
+        "description": "US–Iran and broader Middle East tensions are the primary driver of short‑term downside in futures; market commentaries emphasize that if the conflict lingers, energy and shipping costs could become the dominant upside risk to inflation. [1][5][12]",
+        "implication_for_paper_trading": "In regime detection, treat sudden oil price and futures moves as key shock variables; expect gap opens and sector‑specific volatility (energy, airlines, shipping, materials)."
+      }
+    ],
+    "market_structure_and_sentiment": [
+      {
+        "name": "narrow_breadth_and_late_cycle",
+        "description": "Leadership concentrated in large‑cap and AI‑linked names, with small caps lagging and returns already at or above typical full‑year averages by May. [4][6]",
+        "implication_for_paper_trading": "Expect higher sensitivity to negative surprises in a few mega‑caps; a disappointment in a key AI leader could drag indices disproportionately."
+      },
+      {
+        "name": "elevated_greed_and_positioning_risk",
+        "description": "Fear & Greed Index in 'Greed' territory and seven straight up weeks for the S&P 500 increase the risk of a positioning‑driven correction, even without new macro shocks. [2][6]",
+        "implication_for_paper_trading": "Simulate sharp but short‑lived drawdowns (5–10%) within the broader uptrend, driven more by sentiment and positioning than fundamentals."
+      },
+      {
+        "name": "credit_vs_equity_divergence_potential",
+        "description": "Credit spreads and FX vol have tightened to supportive levels while equity vol remains somewhat elevated; this leaves room for either convergence via equity calm or a renewed widening if a shock hits. [10]",
+        "implication_for_paper_trading": "Include a regime where credit spreads suddenly widen while equities initially lag, as this can precede a broader risk‑off move."
+      }
+    ],
+    "workflow_specific_considerations": [
+      {
+        "name": "cautious_positioning_bias",
+        "description": "Your existing rules already reject leveraged and hyped names and enforce limits on single‑stock allocations and position counts, which is appropriate for this regime.",
+        "implication_for_paper_trading": "Maintain conservative guardrails; avoid increasing max allocation or loosening filters just because recent returns have been strong."
+      },
+      {
+        "name": "event_risk_clustering",
+        "description": "Upcoming Fed speeches, employment data, housing statistics, and high‑profile AI/mega‑cap earnings (e.g., NVIDIA) can all trigger short‑horizon volatility spikes. [1][2][4][5][12][14]",
+        "implication_for_paper_trading": "In the simulation, tag those dates and compare pre‑event vs post‑event P&L and drawdowns to assess how the strategy behaves in event‑driven volatility."
+      }
+    ]
+  },
+  "source_urls": [
+    "https://www.cmegroup.com/videos/2026/05/18/s-p-500-futures-closed-lower-amid-middle-east-headlines-5-18-26.html",
+    "https://www.mortgagereports.com/mortgage-rates-now/mortgage-rates-today-may-19-2026",
+    "https://www.marketbeat.com/instant-alerts/diploma-h1-earnings-call-highlights-2026-05-19/",
+    "https://www.ameriprise.com/newsroom/commentary/the-state-of-ai-ahead-of-nvidias-earnings-report-this-week",
+    "https://www.icmarkets.com/blog/ic-markets-global-asia-fundamental-forecast-19-may-2026/",
+    "https://www.ffrwealthteam.com/insights/blog/market-commentary-inflation-is-hot-but-so-are-stocks-why-that-can-make-sense/",
+    "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/05/global-economic-outlook-may-2026",
+    "https://www.novelis.com/news-events/press-releases/detail/1420/novelis-reports-fourth-quarter-and-full-fiscal-year-2026-results",
+    "https://www.ssga.com/dk/en_gb/institutional/insights/taa-may-2026",
+    "https://www.compassiowa.com/weekly-market-commentary-may-18-2026-9e150",
+    "https://www.icmarkets.com/blog/ic-markets-global-asia-fundamental-forecast-19-may-2026/",
+    "https://carystreetpartners.com/insight/weekly-market-brief-5-18-26/",
+    "https://themortgagereports.com/mortgage-rates-now/mortgage-rates-today-may-19-2026",
+    "https://www.noradarealestate.com/blog/mortgage-refinance-rates-today-may-18-2026-trends/"
+  ]
+}
 

@@ -11497,4 +11497,174 @@ Congressional disclosures, max 5% influence:
 
 SEC/company quality check:
 {"summary":"Across the supplied SEC filings, the clearest watchlist quality signals remain balance-sheet stress, customer concentration, and execution risk in early-stage or turnaround businesses. SES AI’s 10-K shows recurring losses, an accumulated deficit, and continued capital dependence, despite management’s expectation of 12 months of liquidity; Direct Digital’s 10-K shows severe revenue contraction tied to a customer pause, a going-concern warning, and heavy client concentration; Inuvo’s 10-K shows two customers driving most revenue; Collab Z’s 10-K shows majority related-party revenue and minimal-operations joint ventures; NeoVolta’s 10-K shows startup-like concentration and supply-chain/manufacturing dependence. These are the kinds of filing-backed risks that justify a monitor-only posture rather than trade conviction. Durable-demand evidence is strongest where filings show recurring SaaS or infrastructure-like use cases, but even there the concentration and financing risks materially dilute quality. For Chittick Cash focus names, INTC/USAR/GT were not supported by fresh filing evidence in the supplied sources, so the memory-based monitor-only stance remains unchanged; GOOGL/GOOG were not present in the supplied filing set and therefore no new SEC-backed update can be inferred.","filing_risks":[{"symbol":"SES","company":"SES AI Corp","risk_type":"balance_sheet / dilution / execution","evidence":"2026 10-K states the company 'incurred net losses of $73.0 million and $100.2 million' in 2025 and 2024, had an accumulated deficit of $371.9 million, has 'not achieved profitable operations or positive cash flows,' and says it will need substantial additional capital; it also notes it may be unable to raise funds on attractive terms and could be forced to scale back operations.","quality_assessment":"High risk; capital-intensive R&D model with unproven profitability and financing dependence."},{"symbol":"SES","company":"SES AI Corp","risk_type":"technology / commercialization / customer adoption","evidence":"Risk factors say UAM and EV commercialization are emerging and uncertain, OEM conversion may fail, batteries may not perform as expected, and new materials may never become commercially viable; the filing also highlights supply-chain dependence and complex manufacturing scale-up risks.","quality_assessment":"Speculative commercialization profile; product validation and scale-up remain the core hurdle."},{"symbol":"DRCT","company":"Direct Digital Holdings, Inc.","risk_type":"going_concern / concentration / revenue quality","evidence":"2026 10-K says there is 'substantial doubt about our ability to continue as a going concern,' cash and cash equivalents were $0.7 million, and two customers accounted for 64.2% and 19.3% of 2025 revenue; the filing also says revenue declines followed a sell-side customer pause after a defamatory article/blog post.","quality_assessment":"Very high risk; revenue is highly concentrated and business continuity depends on financing and customer recovery."},{"symbol":"DRCT","company":"Direct Digital Holdings, Inc.","risk_type":"controls / covenant / financing","evidence":"The filing says credit facilities impose affirmative and negative covenants including a minimum unrestricted cash requirement and that a failure could trigger default and lender acceleration; it also warns about difficulty renewing the term credit facility maturing December 3, 2026.","quality_assessment":"Balance-sheet fragility and refinancing risk are material."},{"symbol":"INUV","company":"Inuvo, Inc.","risk_type":"customer concentration / revenue quality","evidence":"2025 10-K states two customers represented 64.2% and 19.3% of total revenue in 2025, and the prior year one customer represented 75.0% of revenue; it warns loss of material customers could significantly harm revenue and operating results.","quality_assessment":"Durable-demand evidence is offset by extreme concentration; this is a quality-risk name."},{"symbol":"INUV","company":"Inuvo, Inc.","risk_type":"balance_sheet / cyclicality / valuation sensitivity","evidence":"The filing reports recurring losses, negative operating cash flows, working capital deficit, and reliance on equity offerings and debt facilities; it also notes seasonality and dependence on ad budgets from large platforms.","quality_assessment":"Commercial software model, but financial quality remains weak and cyclical."},{"symbol":"CLBZ","company":"Collab Z Inc.","risk_type":"related-party revenue / revenue quality","evidence":"2025 10-K says a majority of revenue, '65% in 2025,' is derived from related parties and that terms are revisited periodically; the company also says joint ventures have had minimal operations.","quality_assessment":"Revenue quality is low due to related-party dependence and limited operating scale."},{"symbol":"CLBZ","company":"Collab Z Inc.","risk_type":"business_model / execution","evidence":"The filing describes a transition away from EB-5 services and other legacy activities toward a community-based property-management platform, while acknowledging phased AI launches and minimal joint-venture operations.","quality_assessment":"Transformation story is early and execution-heavy; evidence of durable standalone demand is limited."},{"symbol":"NEOV","company":"NeoVolta, Inc.","risk_type":"startup / scale / manufacturing execution","evidence":"2025 10-K describes a relatively new business with sales commencing in 2019, in-house manufacturing only since 2023, dependence on certified installers and distributors, and reliance on contract partners for some products.","quality_assessment":"Good product-market narrative, but still an early-scale manufacturing and channel-execution story."},{"symbol":"NEOV","company":"NeoVolta, Inc.","risk_type":"policy / supply_chain / concentration","evidence":"The filing emphasizes changing incentives, FEOC-compliant sourcing, domestic-content efforts, and supplier concentration across U.S. and Asia; it also notes that C&I expansion and financing models are important to adoption.","quality_assessment":"Demand is policy-supported but vulnerable to sourcing, regulation, and channel shifts."},{"symbol":"WS","company":"Worthington Steel, Inc.","risk_type":"cyclicality / commodity / customer concentration","evidence":"2025 10-K says the company is exposed to fluctuations in raw materials, transportation, energy, labor, import levels, and economic conditions; it also states its top three customers represented about 33.0% of net sales and that steel processing is highly competitive.","quality_assessment":"More durable than microcaps, but still a cyclical industrial with meaningful customer and commodity exposure."},{"symbol":"ICCT","company":"iCoreConnect Inc.","risk_type":"revenue_quality / limited operating history / concentration","evidence":"2024 10-K says the business has a limited operating history and many risk factors; while it states no significant customers above 10% of revenue, it also indicates concentration in accounts receivable and a broad reliance on healthcare SaaS adoption.","quality_assessment":"Recurring-revenue profile is a positive, but the filing still reflects a small-company risk stack."}],"quality_notes":[{"symbol":"SES","durable_demand_evidence":"Potential long-duration demand exists in EV, UAM, ESS, drones, robotics, and Molecular Universe markets, and the filing says its batteries are being tested with OEMs and customers; however, the filing itself frames these markets as emerging and uncertain.","net_read":"Demand thesis exists, but SEC evidence is not yet strong enough to offset commercialization and financing risk."},{"symbol":"INUV","durable_demand_evidence":"The filing describes HIPAA-compliant SaaS offerings, annual recurring subscriptions, long-standing relationships with large platforms, and a broad product suite in workflow, verification, billing, coding, and secure communications.","net_read":"There is recurring SaaS-like demand, but concentration makes the quality less durable than it appears."},{"symbol":"NEOV","durable_demand_evidence":"SEC filing shows certified products, installed-base retrofit opportunity, utility-driven resiliency demand, and expansion into C&I storage; these are real end-markets with visible demand drivers.","net_read":"Commercial demand is credible, though still vulnerable to policy and execution."},{"symbol":"WS","durable_demand_evidence":"Worthington Steel’s filing shows diversified end markets, large installed manufacturing footprint, and value-added processing requirements that support repeat business.","net_read":"Better operational durability than the microcaps, but still cyclical and input-sensitive."},{"symbol":"ICCT","durable_demand_evidence":"The filing highlights HIPAA-compliant recurring SaaS subscriptions and workflow automation in healthcare, which can support stickier demand.","net_read":"Recurring demand exists, but the company remains small and execution-sensitive."}],"source_urls":["https://www.sec.gov/Archives/edgar/data/1819142/000181914226000010/ses-20251231.htm","https://www.sec.gov/Archives/edgar/data/1880613/000188061326000006/drct-20251231.htm","https://www.sec.gov/Archives/edgar/data/829323/000082932326000012/inuv-20251231.htm","https://www.sec.gov/Archives/edgar/data/2050338/000205033825000016/clbz-20250930.htm","https://www.sec.gov/Archives/edgar/data/1748137/000174813725000014/neov-20250630.htm","https://www.sec.gov/Archives/edgar/data/1968487/000196848725000028/ws-20250531.htm","https://www.sec.gov/Archives/edgar/data/1906133/000190613325000023/icct-20241231.htm"]}
+## Source And Signal Research - 2026-05-19 10:52:19 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+{
+  "summary": "No unusual or anomalous public web or social-attention activity around liquid US stocks or ETFs was identified in this scan. Available data either shows baseline discussion levels or is insufficient to distinguish normal market chatter from genuine anomalies. Social buzz should not be treated as a trade driver and does not override fundamentals.",
+  "social_buzz": [],
+  "attention_anomalies": [],
+  "source_urls": []
+}
+
+Congressional disclosures, max 5% influence:
+{
+  "summary": "Recent public congressional and related political-finance disclosures in the provided sources show a small number of new or highlighted trades in liquid U.S.-listed equities, but they are sparse, low-sized, and should be treated only as secondary, delayed context rather than as primary trading catalysts.\n\nFrom the links:\n- NVO (Novo-Nordisk A/S ADR): Representative Ro Khanna (House, D) reported a purchase of $1,001–$15,000 on 2026-03-13.\n- FIX (Comfort Systems USA): Representative Byron Donalds (House, R) made 2 purchases within the past 6 months, worth up to a combined $30,000 (dates given include 12/04; exact year in snippet appears to be the most recent December in the 6‑month lookback window).\n- EPAM (EPAM Systems): Representative Gilbert Ray Cisneros Jr. (House, D) traded twice in the last 6 months, with 1 purchase and 1 sale, each up to $15,000, on 2026-03-13 and 2026-04-14.\n- MTZ (MasTec): Senator Markwayne Mullin (Senate, R) executed 3 sales in the last 6 months, totaling up to $150,000 on trade dates including 02/04 and 12/18 (year implied by the 6‑month window).\n- ENTG (Entegris): Representative April McClain Delaney (House, D) disclosed a purchase of $1,001–$15,000 on 2026-04-(exact day truncated in snippet, but in April 2026).\n\nOther tickers mentioned in the snippets (NRGV, NEE, AMBQ, FFAI, etc.) are tied to insider trading, lobbying, or non‑congressional political finance, and not to new congressional stock-trade disclosures.\n\nGiven the small size of the reported trades, the statutory reporting delays, and the lack of corroborating near‑term fundamental catalysts in the snippets, the net congressional signal from this batch should be interpreted as weak and informational only, not as a directional trading or timing tool.",
+  "congressional_signal": {
+    "overall": "weak_informational_only",
+    "rationale": [
+      "Trade sizes are generally small (mostly in the $1,001–$15,000 bucket, with MTZ sales up to an aggregate $150,000).",
+      "All trades are subject to reporting delays and may be weeks old; they are not real-time signals.",
+      "The snippets provide no strong, contemporaneous fundamental catalysts tied directly to the congressional trades themselves.",
+      "Some positions are mixed (e.g., EPAM with both a purchase and a sale within two months), limiting directional clarity.",
+      "Prior system rules explicitly treat congressional signals as low-weight and require stronger corroborating sources for any trade decisions; those are not present here."
+    ],
+    "by_ticker": {
+      "NVO": {
+        "direction": "bullish_weak",
+        "explanation": "Single reported purchase by Rep. Ro Khanna for $1,001–$15,000 on 2026-03-13; no corroborating catalysts in the snippet.",
+        "trades": [
+          {
+            "politician": "Ro Khanna",
+            "chamber_party": "House / D",
+            "type": "purchase",
+            "amount_reported_range_usd": "1001-15000",
+            "trade_date": "2026-03-13"
+          }
+        ]
+      },
+      "FIX": {
+        "direction": "bullish_weak",
+        "explanation": "Two purchases by Rep. Byron Donalds over the last 6 months, up to a combined $30,000, contrasted with insider selling but no congress sales. Still a small, delayed signal.",
+        "trades": [
+          {
+            "politician": "Byron Donalds",
+            "chamber_party": "House / R",
+            "type": "purchase",
+            "amount_reported_range_usd": "up_to_30000_combined",
+            "trade_dates": [
+              "most_recent_12-04_in_past_6_months",
+              "one_additional_purchase_date_in_past_6_months_not_fully_specified"
+            ]
+          }
+        ]
+      },
+      "EPAM": {
+        "direction": "mixed_neutral",
+        "explanation": "Rep. Gilbert Ray Cisneros Jr. both bought and sold EPAM within ~1 month, each trade up to $15,000, which largely cancels the directional read.",
+        "trades": [
+          {
+            "politician": "Gilbert Ray Cisneros Jr.",
+            "chamber_party": "House / D",
+            "type": "purchase",
+            "amount_reported_range_usd": "up_to_15000",
+            "trade_date": "2026-03-13"
+          },
+          {
+            "politician": "Gilbert Ray Cisneros Jr.",
+            "chamber_party": "House / D",
+            "type": "sale",
+            "amount_reported_range_usd": "up_to_15000",
+            "trade_date": "2026-04-14"
+          }
+        ]
+      },
+      "MTZ": {
+        "direction": "bearish_weak",
+        "explanation": "Sen. Markwayne Mullin reported 3 sales within the last 6 months, up to $150,000 total, with no offsetting purchases; still low-weight due to size and delay.",
+        "trades": [
+          {
+            "politician": "Markwayne Mullin",
+            "chamber_party": "Senate / R",
+            "type": "sale",
+            "amount_reported_range_usd": "up_to_150000_total",
+            "trade_dates": [
+              "02-04_in_past_6_months",
+              "12-18_in_past_6_months",
+              "one_additional_sale_date_not_fully_specified"
+            ]
+          }
+        ]
+      },
+      "ENTG": {
+        "direction": "bullish_weak",
+        "explanation": "Rep. April McClain Delaney disclosed a modest purchase ($1,001–$15,000) in April 2026; no additional congress trades in snippet.",
+        "trades": [
+          {
+            "politician": "April McClain Delaney",
+            "chamber_party": "House / D",
+            "type": "purchase",
+            "amount_reported_range_usd": "1001-15000",
+            "trade_date": "2026-04-unknown_day_within_month"
+          }
+        ]
+      }
+    },
+    "disclaimer": "Congressional trading disclosures are delayed, may be stale relative to current market conditions, and should not be used as primary trading signals. They are best interpreted as low-weight, secondary context alongside robust fundamental, technical, and risk analysis. Nothing in this summary is a recommendation to buy, sell, or hold any security."
+  },
+  "tickers": [
+    {
+      "ticker": "NVO",
+      "name_if_available": "Novo-Nordisk A/S",
+      "has_recent_congress_trade_in_snippets": true
+    },
+    {
+      "ticker": "FIX",
+      "name_if_available": "Comfort Systems USA, Inc.",
+      "has_recent_congress_trade_in_snippets": true
+    },
+    {
+      "ticker": "EPAM",
+      "name_if_available": "EPAM Systems, Inc.",
+      "has_recent_congress_trade_in_snippets": true
+    },
+    {
+      "ticker": "MTZ",
+      "name_if_available": "MasTec, Inc.",
+      "has_recent_congress_trade_in_snippets": true
+    },
+    {
+      "ticker": "ENTG",
+      "name_if_available": "Entegris, Inc.",
+      "has_recent_congress_trade_in_snippets": true
+    },
+    {
+      "ticker": "NRGV",
+      "name_if_available": "Energy Vault Holdings, Inc.",
+      "has_recent_congress_trade_in_snippets": false
+    },
+    {
+      "ticker": "NEE",
+      "name_if_available": "NextEra Energy, Inc.",
+      "has_recent_congress_trade_in_snippets": false
+    },
+    {
+      "ticker": "FFAI",
+      "name_if_available": "Faraday Future Intelligent Electric Inc.",
+      "has_recent_congress_trade_in_snippets": false
+    },
+    {
+      "ticker": "AMBQ",
+      "name_if_available": null,
+      "has_recent_congress_trade_in_snippets": false
+    }
+  ],
+  "source_urls": [
+    "https://www.quiverquant.com/stock/ENTG/",
+    "https://www.quiverquant.com/stock/NVO/",
+    "https://www.quiverquant.com/news/Comfort+Systems+USA+falls+6.8%25+as+higher-rate+fears+and+insider+selling+weigh+on+sentiment",
+    "https://www.quiverquant.com/news/EPAM+jumps+as+investors+refocus+on+AI+partnerships,+buyback+support,+and+post-earnings+positioning",
+    "https://www.quiverquant.com/news/MasTec+(MTZ)+slides+6.1%25+as+the+market+digests+a+sharp+run-up,+recent+insider+selling,+and+financing+activity",
+    "https://www.quiverquant.com/stock/NRGV/",
+    "https://www.quiverquant.com/stock/NEE/",
+    "https://www.quiverquant.com/insiders/2078454/FUMIHIDE-ESAKA",
+    "https://www.quiverquant.com/news/Lobbying+Update:+$15,000+of+FARADAY+FUTURE+lobbying+was+just+disclosed",
+    "https://www.quiverquant.com/news/Lobbying+Update:+$15,000+of+OPAL+FUELS+INC.+lobbying+was+just+disclosed",
+    "https://www.quiverquant.com/news/Press+Release:+Schneider+and+Fitzpatrick+Reintroduce+Bipartisan+Legislation+to+Expand+Study+Abroad+Opportunities",
+    "https://www.quiverquant.com/news/Press+Release:+Representative+Derek+Tran+Condemns+Shooting+Incident+at+Islamic+Center+of+San+Diego"
+  ]
+}
+
+SEC/company quality check:
+{"summary":"Across the supplied SEC/company filings, the strongest durable-demand evidence is in Sanofi/Regeneron’s Dupixent franchise and Valneva’s IXCHIQ vaccine franchise, while Achieve Life Sciences remains a pre-commercial, high-risk development story. Dupixent shows broad, repeatable demand signals: U.S. FDA approval in children 2-11 for CSU on Apr. 22, 2026, EU approval on Apr. 13, 2026, and the filing states Dupixent has received approvals in more than 60 countries with more than 1.4 million patients treated globally. Valneva’s IXCHIQ also shows commercial durability and expanding access: 3-year persistence data with 96% seroresponse, prior U.S./EU/Canada approvals, and an Asia licensing deal with Serum Institute of India. By contrast, ACHV’s filing supports a single-asset thesis with meaningful execution risk: NDA filed in June 2025, PDUFA date June 20, 2026, dependence on third-party manufacturers, a dispute with Sopharma over use of third-party manufacturers, and ongoing supply/regulatory constraints.","filing_risks":["ACHV: The company states it is not yet commercial and filed its NDA in June 2025 with a PDUFA date of June 20, 2026, but also warns there is potential for delay beyond that date because one third-party manufacturer recently had FDA cGMP observations related to solid oral dose manufacturing; this creates approval-timing risk and manufacturing-contingency risk.","ACHV: Heavy single-product concentration around cytisinicline creates binary regulatory dependence; the filing emphasizes that if approved it would be the first new prescription medicine in two decades for nicotine dependence, implying very high dependence on a single FDA outcome.","ACHV: Supply-chain and contractual risk is elevated because the company relies on Sopharma for API and supply, has communicated concerns about Sopharma’s ability to pass FDA pre-approval inspection, and says Sopharma alleged Achieve’s use of third-party manufacturers breaches the agreement, which Achieve disputes.","ACHV: Intellectual-property risk is significant because cytisinicline is naturally occurring and therefore not patentable as a compound in the U.S.; the filing explicitly says the business depends on exclusivity laws, Sopharma’s proprietary know-how, and patents on methods/formulations rather than compound protection.","ACHV: Revenue-quality and balance-sheet risk remain high for a development-stage company with milestone/royalty obligations to Sopharma and Bristol (up to $4.8 million and $2.0 million, respectively) before meaningful product revenues are proven.","SNY/REGN: Dupixent is highly successful but concentration risk persists because the press releases repeatedly frame growth around one franchise and note joint development under a global collaboration agreement; future performance still depends on continued regulatory expansion, safety, and payer access.","SNY/REGN: The filings caution that product candidates and even approved products may face unexpected regulatory actions, manufacturing issues, competition, and pricing pressure, including U.S. political pressure for lower drug prices and MFN-type pricing.","VALN: IXCHIQ carries safety/regulatory risk; the Aug. 7, 2025 filing says the FDA removed a recommended pause in elderly use but the label was updated after serious adverse events, mainly in older adults with comorbidities, and warns the product is not advisable for most U.S. travelers.","VALN: Regulatory-expansion execution risk remains material because label-extension applications to the FDA/EMA/Health Canada are still subject to review, while additional country approvals and manufacturing/technology transfer to SII are ongoing.","VALN: Commercial and supply execution risk is elevated because future commercialization in Asia is dependent on technology transfer, local regulatory approvals, and SII performance under a new profit-sharing structure.","General valuation risk: the supplied filings show strong clinical or regulatory milestones, but several are still largely forward-looking and dependent on approval, reimbursement, manufacturing, and market adoption; current valuations may be vulnerable if these milestones slip or payer pricing is weaker than expected.","General capital-allocation risk: ACHV has meaningful contingent and royalty obligations; Sanofi/Regeneron and Valneva both highlight ongoing R&D and post-marketing studies that can absorb capital, even where commercial products are already approved."],"quality_notes":["ACHV quality is mixed: the filing presents a coherent unmet-need story and a relatively simple mechanism/indication, but the evidence base is still centered on one asset and one near-term FDA decision rather than established recurring revenue.","ACHV’s evidence quality is stronger on disclosed facts than on commercial proof: NDA submission, PDUFA date, manufacturing partnerships, and licensing terms are all concrete, but none confirm approval or launch economics.","Sanofi’s filing quality is high because the claims are supported by detailed trial descriptions, clear endpoints, and explicit safety language; importantly, the company discloses both positive readouts and a negative VELVET atopic dermatitis result, which improves credibility.","Dupixent’s durable-demand evidence is strong: multiple new indications, broad age expansion, >60-country approval footprint, and >1.4 million patients treated globally indicate a mature, diversified franchise rather than a single-event catalyst.","Valneva’s quality profile improved with repeated persistence data and regional expansion, but it remains more execution-sensitive than Sanofi because the commercial base is narrower and the company is still reliant on regulatory extensions and partner manufacturing.","For watchlist purposes, the most durable demand evidence in the supplied materials is Sanofi/Regeneron’s Dupixent; the most asymmetric execution risk is ACHV; Valneva sits in the middle with tangible commercial traction but higher safety/supply/regulatory sensitivity than a large-cap pharma franchise.","No recommendation to trade is implied by these notes; the filings support a risk-monitoring framework centered on approval timing, manufacturing readiness, pricing/reimbursement, and concentration exposure."],"source_urls":["https://www.sec.gov/Archives/edgar/data/949858/000094985826000012/achv-20251231.htm","https://www.sec.gov/Archives/edgar/data/1121404/000112140426000016/sny-20260415.htm","https://www.sec.gov/Archives/edgar/data/1121404/000112140426000018/sny-20260422.htm","https://www.sec.gov/Archives/edgar/data/1121404/000112140426000019/sny-20260427.htm","https://www.sec.gov/Archives/edgar/data/1836564/000183656425000064/valn-20250807.htm","https://www.sec.gov/Archives/edgar/data/1836564/000183656425000095/valn-20250121.htm","https://www.sec.gov/Archives/edgar/data/1836564/000183656425000092/valn-20241219.htm","https://www.sec.gov/Archives/edgar/data/1836564/000183656425000088/valn-20241203.htm"]}
 
