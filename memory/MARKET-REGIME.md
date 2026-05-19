@@ -6273,4 +6273,120 @@ The US equity market is grinding to record highs, but the underlying conditions 
 ## Market Regime Research - 2026-05-19 14:52:26 Eastern Daylight Time
 
 {"summary":"US equities appear to be in a mixed-to-cautious regime: broad indices are near flat to modestly lower, with the Russell 2000 notably weaker than the S&P 500 and Nasdaq, suggesting defensive positioning and less appetite for smaller-cap risk. The tone from market headlines is risk-off to neutral as rising Treasury yields are pressuring stocks, especially duration-sensitive growth and chip names. Earnings remain constructive overall, with commentary pointing to another strong quarter of profit growth and several post-earnings upgrades, but the positive earnings backdrop is being partially offset by macro concerns around rates and inflation. For a paper-trading workflow, this fits a guarded environment with selective risk-taking rather than broad risk-on.","market_regime":{"label":"cautious / mixed / mildly risk-off","confidence":0.78,"evidence":["S&P 500 roughly flat to slightly positive while Nasdaq and Dow are slightly lower and Russell 2000 is down materially more, indicating weaker breadth and small-cap underperformance.","Headlines emphasize rising bond yields, inflation fears, and stocks sliding as yields climb, which is consistent with tighter financial conditions.","No evidence here of volatility stress or panic, but the tape is not broad-based risk-on either."],"interpretation":"Index behavior suggests rotation away from higher-beta segments and toward quality/larger-cap stability. The regime is not a crash setup, but it is less supportive of aggressive momentum or small-cap exposure."},"sector_rotation":{"favoring":["quality large-cap technology/infrastructure","select healthcare/biotech with idiosyncratic catalysts","defensive or lower-beta profitable names"],"pressured":["small caps","duration-sensitive growth","chip/growth cohorts when yields rise","cyclical retailers and rate-sensitive consumer names"],"notes":["Morningstar’s post-earnings coverage highlights wide-moat, valuation-supported names such as Arista Networks, Charles Schwab, and Northrop Grumman, which aligns more with quality than speculative beta.","The market commentary around higher yields suggests sector leadership is being constrained by macro rates rather than purely fundamentals.","Existing candidate flow in memory is sparse and mostly idiosyncratic, reinforcing a selective rather than thematic rotation backdrop."]},"risk_flags":[{"flag":"rising_yields","severity":"high","rationale":"Multiple headlines cite Treasury yields climbing and weighing on equities, which is a key macro headwind for a paper-trading bot to respect."},{"flag":"narrow_breadth","severity":"medium","rationale":"Russell 2000 lagging the large-cap averages implies weaker breadth and reduced risk appetite."},{"flag":"inflation_fear","severity":"medium","rationale":"Inflation concerns are explicitly mentioned as a driver of the selloff in some market coverage."},{"flag":"event_driven_earnings","severity":"medium","rationale":"Earnings are still an active source of dispersion; single-name reactions may be more important than index beta."},{"flag":"no_clean_risk_on_signal","severity":"medium","rationale":"Positive earnings tone is not yet strong enough to outweigh macro rate pressure at the index level."}],"source_urls":["https://www.ameriprise.com/newsroom/commentary/the-state-of-ai-ahead-of-nvidias-earnings-report-this-week","https://www.dowjones.com","https://www.youtube.com/watch?v=z2AZ4eAe1WE","https://www.morningstar.com/stocks/3-more-stocks-buy-after-earnings-2","https://www.foxbusiness.com/video/6395965446112"]}
+## Market Regime Research - 2026-05-19 15:26:03 Eastern Daylight Time
+
+{
+  "summary": "US equities appear to be in a late‑cycle, rates‑dominated environment with rising Treasury yields, higher mortgage rates, and a stronger dollar pressuring index levels. The tone is cautiously risk‑off in the short term, but not a full risk exodus: institutional research still shows constructive views on large‑cap quality (e.g., mega‑cap tech and select cyclicals) even as higher-for-longer rate expectations and bond‑market volatility cap upside.",
+  "market_regime": {
+    "index_trend": {
+      "description": "Major US indices are under near‑term pressure, with headlines noting the Dow and Nasdaq dropping as yields climb. The broader trend remains a grinding, uneven advance from prior lows but with frequent pullbacks when rate expectations reprice higher. Leadership remains narrow and concentrated in large‑cap growth/AI and a handful of quality cyclicals, while equal‑weight and smaller caps lag.",
+      "tone": "short‑term corrective within an aging bull phase",
+      "implications_for_bot": [
+        "Expect choppy price action with intraday reversals around macro news (CPI, Fed speeches, Treasury auctions).",
+        "Momentum signals may whipsaw more quickly; trend‑following logic should be slower and require confirmation across multiple days.",
+        "Breadth indicators (advance/decline, % above 50/200‑day MA) are more informative than index levels alone because leadership is narrow."
+      ]
+    },
+    "rates_and_fed": {
+      "description": "Long‑term yields have been climbing: 10‑year Treasury yields are reported around the mid‑4s, with some commentary citing 30‑year yields above 5% as a key portfolio risk. Mortgage rates are back in the mid‑6% range for 30‑year fixed loans, reflecting a higher‑for‑longer rate structure. Fed‑watch tools and institutional commentary point to reduced odds of near‑term cuts and some hawkish repricing, although some large asset managers still expect a gradual easing cycle with limited cuts in 2026. The Fed’s own communications stress balance sheet and market‑function considerations while acknowledging that money‑market rates and volatility could remain elevated.",
+      "tone": "hawkish‑tilted, higher‑for‑longer",
+      "implications_for_bot": [
+        "Macro shocks are more likely to originate from the rates complex than from growth data in the near term.",
+        "Equity valuation multiples, especially for long‑duration growth stocks, are sensitive to incremental moves in the 10‑ and 30‑year yields.",
+        "For paper‑trading logic, treat FOMC meetings, CPI/PCE, and large Treasury auction days as high‑volatility sessions where the bot may want wider expected ranges or reduced position‑scaling in simulations."
+      ]
+    },
+    "volatility": {
+      "description": "Volatility is elevated relative to very calm periods but not at crisis levels. Commentary from the Fed and institutional strategists points to higher money‑market rate volatility and bond‑market risk; this spills over into equities via sharp moves when rate expectations shift. However, there is no sign of disorderly equity market functioning or systemic stress.",
+      "tone": "moderately elevated, episodic spikes tied to macro events",
+      "implications_for_bot": [
+        "Backtests should incorporate occasional large intraday ranges and gap risk around macro releases.",
+        "Stop‑loss and take‑profit assumptions in the paper‑trading framework should be stress‑tested against these spikes; overly tight stops will likely lead to frequent whipsaws.",
+        "Volatility clustering (several volatile days in a row) is probable around Fed communications or big data surprises."
+      ]
+    },
+    "earnings_tone": {
+      "description": "Earnings sentiment is mixed but skewed positive for quality leaders. Microsoft, for example, is experiencing near‑term price pressure tied to capex and AI‑investment losses but is still seeing strong cloud growth, a large backlog, and overwhelmingly positive analyst ratings with meaningful upside targets. Home Depot faces a softer consumer and housing‑related headwinds, yet analysts maintain a strong‑buy consensus with substantial upside expectations. Overall, earnings revisions are not collapsing; instead, the market is rewarding durable growth and balance sheet strength while punishing weaker balance sheets and long‑duration stories without near‑term cash generation.",
+      "tone": "constructive but selective; quality growth and resilient cyclicals favored",
+      "implications_for_bot": [
+        "Earnings surprises and forward guidance drive large single‑stock moves; paper‑trading should treat earnings weeks as special regimes with higher idiosyncratic risk.",
+        "Analyst consensus remains an important sentiment anchor: stocks with strong fundamentals and supportive consensus may exhibit buy‑the‑dip behavior even during macro sell‑offs.",
+        "Factor‑based regimes (quality, profitability, cash‑flow stability) are likely more reliable than pure beta for position selection in simulations."
+      ]
+    },
+    "risk_on_off": {
+      "description": "Rising yields, a strengthening US dollar, and lingering inflation concerns are classic risk‑off forces. At the same time, institutional asset‑allocation notes show modest increases in equity exposure and expectations for eventual Fed easing, suggesting a reluctance to fully de‑risk. The result is a cautious, barbell‑style risk posture: investors maintain exposure to AI/tech and high‑quality cyclicals while reducing enthusiasm for highly levered, speculative, or deeply cyclical names.",
+      "state": "cautious, skewed slightly risk‑off at the index level but still risk‑seeking within select high‑conviction themes",
+      "implications_for_bot": [
+        "Index‑level behavior may look risk‑off (pressure on cyclicals and small caps) even as specific leadership groups behave risk‑on.",
+        "In a paper‑trading context, it is realistic to model a regime where broad beta exposure is constrained but selective growth/quality themes continue to attract flows.",
+        "Expect correlations to increase during macro shocks (broad risk‑off), then decay as investors rotate back into favored sectors rather than exiting equities entirely."
+      ]
+    }
+  },
+  "sector_rotation": {
+    "leadership": {
+      "description": "Mega‑cap technology and AI‑exposed names remain key performance drivers despite periodic pullbacks. Microsoft’s strong cloud and AI‑related earnings, alongside broadly positive analyst sentiment, show that investors still favor scalable, high‑margin, data‑and‑software‑centric businesses. Certain large‑cap US cyclicals, such as Home Depot, continue to command strong‑buy ratings and significant expected upside, implying that quality within consumer and industrial exposure is still in favor even against a rates headwind.",
+      "likely_beneficiaries_in_this_regime": [
+        "Large‑cap tech and communication services with proven earnings and AI/cloud leverage.",
+        "High‑quality consumer and industrial names with pricing power and strong balance sheets.",
+        "Select financials and insurance firms that can benefit from higher rates without outsized credit risk (though this is highly idiosyncratic)."
+      ]
+    },
+    "laggards": {
+      "description": "Rate‑sensitive and long‑duration assets tend to lag when yields rise. Higher mortgage rates and a soft housing backdrop weigh on housing‑linked equities and some rate‑sensitive REITs. Small caps and speculative growth, which depend more on cheap capital and future earnings, remain under relative pressure. Bond‑proxy equities (utilities, some staples, high‑yielding REITs) can also struggle as their yield advantage compresses versus risk‑free Treasuries.",
+      "likely_losers_in_this_regime": [
+        "Highly levered companies with weak free‑cash‑flow profiles.",
+        "Housing‑sensitive and certain REIT segments disproportionately impacted by higher mortgage and long‑term rates.",
+        "Smaller‑cap, speculative growth names without clear near‑term profitability."
+      ]
+    },
+    "rotation_dynamics": {
+      "description": "Flows are consistent with a late‑cycle environment: investors rotate within equities rather than fully exiting them. There is a bias toward quality growth and defensive profitability factors while trimming pure rate‑sensitive exposures. Institutional allocators are incrementally adding to equities but staying diversified and valuation‑aware, reflecting a belief that the macro backdrop is challenging but not recessionary.",
+      "implications_for_bot": [
+        "Sector‑rotation logic for paper‑trading should overweight factor signals (quality, earnings revisions, balance sheet strength) relative to pure sector beta.",
+        "Regime filters should recognize that higher yields tend to coincide with relative strength in quality growth vs. speculative growth, and in selected financials vs. bond proxies.",
+        "Backtests should model cross‑sector dispersion: even when the index is flat, individual sectors and themes may move significantly in opposite directions."
+      ]
+    }
+  },
+  "risk_flags": {
+    "macro_and_policy": [
+      "Higher‑for‑longer rate risk: Markets have repriced Fed expectations toward fewer and later cuts, with some commentary suggesting additional hawkishness; this compresses valuation multiples and can trigger sharp de‑rating in expensive segments.",
+      "Bond‑market instability: Commentary highlights the long‑end Treasury market as a primary portfolio risk, with 30‑year yields above 5% in some analyses; further disorderly moves in yields could propagate into equities via discount‑rate shocks.",
+      "Persistent inflation: Euro‑area forecasts and broader global data indicate inflation remaining above target into 2026; if US inflation data echo this, the Fed may stay restrictive longer than currently discounted.",
+      "Stronger US dollar: A renewed dollar rally tied to hawkish Fed expectations tightens global financial conditions and pressures US multinationals’ earnings translations."
+    ],
+    "market_structure_and_liquidity": [
+      "Volatility around Fed communication: Fed speeches and balance‑sheet discussions can spark abrupt repricing in rates and equities, especially when they shift perceptions about terminal rates or the pace of cuts.",
+      "Auction and liquidity risk: Large Treasury issuance and evolving central‑clearing and reserve‑management frameworks may periodically strain bond‑market liquidity, spilling into equity volatility.",
+      "Narrow leadership risk: Heavy reliance on a small set of mega‑caps for index performance increases fragility; any negative shock to these names can disproportionately affect broad indices."
+    ],
+    "micro_and_earnings": [
+      "Capex/AI‑spending digestion: Even favored AI leaders like Microsoft face scrutiny over high capital expenditures and AI‑related investment losses; any sign of slowing demand or lower returns on AI investment could trigger valuation resets.",
+      "Consumer‑sensitivity: Companies tied to housing, discretionary spending, or refinancing may suffer as mortgage and refinance rates climb, especially if labor markets weaken from here.",
+      "Regulatory and geopolitical risk: AI regulation, antitrust scrutiny, and global policy shifts could affect large tech valuations; this is particularly relevant given their outsized index weight."
+    ],
+    "paper_trading_specific": [
+      "Regime misclassification: Backtests that assume a stable, low‑rate environment will underestimate drawdown and correlation spikes; regime‑aware logic is necessary.",
+      "Stop‑loss behavior: Tight stops calibrated on calm periods may fail under current volatility patterns, leading to unrealistic turnover and poor simulated performance.",
+      "Event risk: FOMC days, CPI/PCE, jobs reports, and large earnings clusters should be explicitly tagged as high‑risk sessions in simulations to avoid underestimating gap and slippage risk."
+    ]
+  },
+  "source_urls": [
+    "https://www.dowjones.com",
+    "https://www.tradingkey.com/analysis/stocks/us-stocks/261909532-microsoft-msft-stock-price-2030-forecast-ai-aws-amzn-tradingkey",
+    "https://www.mexc.com/news/1101069",
+    "https://themortgagereports.com/mortgage-rates-now/mortgage-rates-today-may-19-2026",
+    "https://www.investing.com/analysis/30y-treasury-at-513-why-bond-market-is-now-the-biggest-risk-to-your-portfolio-200680575",
+    "https://www.newyorkfed.org/newsevents/speeches/2026/per260519",
+    "https://www.ssga.com/us/en/institutional/insights/taa-may-2026",
+    "https://www.stonex.com/en/insights/u-s-dollar-rally-builds-as-fed-rate-expectations-turn-hawkish/",
+    "https://www.icmarkets.com/blog/ic-markets-global-europe-fundamental-forecast-19-may-2026/",
+    "https://lsa.umich.edu/content/dam/econ-assets/Econdocs/RSQE%20PDFs/RSQE_May26_US_Forecast.pdf",
+    "https://www.calhfa.ca.gov/apps/rates/",
+    "https://www.noradarealestate.com/blog/mortgage-refinance-rates-today-may-18-2026-trends/",
+    "https://www.cmegroup.com/markets/equities/dow-jones/e-mini-dow.html"
+  ]
+}
 

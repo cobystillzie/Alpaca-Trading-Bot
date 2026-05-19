@@ -15444,4 +15444,28 @@ HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
 Self-learning: tier=watch repeat48h=1 fresh=yes bucket=healthcare-biotech
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-19 15:26:03 Eastern Daylight Time
+
+Research Update
+
+Market tone: Macro remains choppy with higher-for-longer rate fears and a firm dollar, which tends to pressure long-duration, high-multiple growth but supports a selective, quality-biased, risk-controlled approach. Sector rotation continues beneath the surface; defensives and quality cyclicals are relatively better anchors than crowded AI leaders. Biotech remains idiosyncratic and event-driven, suitable only for small, clearly risk-defined positions.
+Candidates: 2
+
+1. CTMX (healthcare-biotech) | confidence 0.63 | allocation 2.0% | stop 8.0% | Chittick 35/100 | tier execution-ready | bucket healthcare-smallcap-biotech | HF source 0/100
+Recommendation: execute-if-guards-pass
+Catalyst: 1) Recently priced ~$250M common stock + pre-funded warrants offering after a proposed raise that followed ~40%+ upside move; 2) Market now repricing post-dilution and assessing extended runway for the pipeline; 3) Elevated trading volum...
+Chittick Cash: Margin of safety is weak in classic Chittick terms: valuation is difficult to anchor, and outcomes are binary around clinical success. The one partial margin-of-safety element is reduced near-term insolvency risk from...
+HF filter: sentiment=not run source=0/100 hype=0.40 vetoes=0
+Self-learning: tier=execution-ready repeat48h=1 fresh=yes bucket=healthcare-smallcap-biotech
+Social buzz, low weight: Moderate, with mixed sentiment and some pump-adjacent language around the financing and potential upside. Buzz is clearly secondary to the real financing catalyst but still adds...
+Congress signal, low weight: none
+
+2. VALN (healthcare-biotech-vaccines) | confidence 0.60 | allocation 0.0% | stop 8.0% | Chittick 61/100 | tier watch | bucket healthcare-biotech | HF source 0/100
+Recommendation: watch
+Catalyst: Ongoing and upcoming milestones around the Lyme disease vaccine collaboration with Pfizer, chikungunya label expansions, and other pipeline/regulatory events as described in recent 6-K filings and analyst commentary.
+Chittick Cash: Margin of safety is moderate for biotech: diversified vaccine pipeline, non-dilutive capital, and partnerships reduce pure downside vs single-asset micro-caps. But regulatory and execution risk remain high and there i...
+HF filter: sentiment=not run source=0/100 hype=0.20 vetoes=0
+Self-learning: tier=watch repeat48h=2 fresh=yes bucket=healthcare-biotech
+Social buzz, low weight: Low-to-moderate, generally thesis-oriented discussion around Lyme collaboration and broader pipeline, with some overly optimistic claims but less meme-like behavior than in smal...
+Congress signal, low weight: none
 
