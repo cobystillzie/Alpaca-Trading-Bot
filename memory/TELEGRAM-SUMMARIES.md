@@ -15429,4 +15429,19 @@ Research Update
 
 Market tone: No strong new liquid US stock/ETF catalyst appears in the provided search results. The only fresh item is a non-US marathon results page, which is not tradeable under the stated strategy. With no verified market-moving company news, this pass is mostly a no-trade / monitoring update.
 Candidates: 0
+## Research Update - 2026-05-19 14:52:26 Eastern Daylight Time
+
+Research Update
+
+Market tone: From the supplied sources, the only clearly trade-relevant fresh information is company-specific: (1) very strong Q1 2026 results and dividend intention from CMB.TECH (non‑US listing) and (2) ongoing vaccine pipeline developments, analyst targets, and modest short interest changes for Valneva (VALN). Macro data in this prompt are sparse, but previously logged context suggests a mixed, mildly risk‑off environment where quality and idiosyncratic catalysts matter more than broad beta.
+Candidates: 1
+
+1. VALN (healthcare-biotech-vaccines) | confidence 0.60 | allocation 0.0% | stop 8.0% | Chittick 61/100 | tier watch | bucket healthcare-biotech
+Recommendation: watch
+Catalyst: 1) Ongoing development milestones and possible data or regulatory news on the Lyme disease vaccine with Pfizer; 2) continued commercial progress and geographic rollout of IXCHIQ (chikungunya) in the U.S., EU, and other markets; 3) analys...
+Chittick Cash: For a short-term swing, margin of safety is limited: valuation is driven largely by expectations for future vaccine cash flows rather than current stable earnings. However, compared with many early-stage biotechs, Val...
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=1 fresh=yes bucket=healthcare-biotech
+Social buzz, low weight: none
+Congress signal, low weight: none
 
