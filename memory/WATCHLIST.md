@@ -2,131 +2,8 @@
 
 <!-- latest-candidates-json
 {
-  "candidates": [
-    {
-      "adversary_case": "The strongest objection is that post-offering selloffs in small-cap biotech often do not fully mean-revert: the market may be correctly repricing CTMX to reflect a more dilutive share count and persistent financing risk. Without a clear upcoming near-term catalyst (e.g., a major data readout or partnership announcement on a fixed date), there is a meaningful chance the stock chops sideways or trends lower after a brief dead-cat bounce. From a Chittick Cash perspective, this lacks the durable margin of safety or balance-sheet strength preferred for concentrated positions.",
-      "allocation_learning_note": "Biotech financings often create tempting drawdowns that can encourage oversizing; for this framework, CTMX should be treated as a live test of small-sizing discipline in high-volatility event names, not as a template for larger positions.",
-      "balance_sheet_risk": "The $250M offering likely extends cash runway but at the cost of dilution. Balance-sheet risk is better than before the raise in terms of liquidity, but financial risk remains high relative to a profitable company because CTMX is still funding operations and trials primarily from external capital. Additional raises are possible if development timelines slip or trial costs rise.",
-      "bear_case": "1) Dilution from the $250M offering may be larger than the market anticipated, leading to a sustained reset lower rather than a quick bounce. 2) As a clinical-stage biotech, any adverse safety findings, trial delays, or weaker-than-expected follow-up data can trigger further downside. 3) In a risk-off swing\u2014especially if broader markets correct or biotech sentiment worsens\u2014capital-intensive small-cap names tend to underperform. 4) If offering participants turn into near-term sellers after the lock-up or if the pricing was at a deeper discount than anticipated, supply overhang can cap rallies.",
-      "capital_allocation_case": "Management\u2019s choice to raise a large amount of capital following positive data is consistent with typical biotech practice\u2014de-risk the balance sheet when sentiment and price are more favorable. However, this pattern also reflects dependence on equity markets and increases per-share risk for existing owners. Without more detail on R&D prioritization and partnering strategy, capital allocation quality is hard to judge beyond this standard biotech playbook.",
-      "catalyst": "1) May 18 priced $250M equity + pre-funded warrant offering following a proposed offering announcement that previously saw the stock surge ~44%; 2) recent positive Phase 1 data for a masked ADC in colorectal cancer with notable price reaction; 3) multiple recent analyst upgrades/initiations with Overweight/Outperform/Buy ratings and rising price targets through 2025\u20132026 (Piper Sandler, Wedbush, H.C. Wainwright, Barclays, Wolfe Research).",
-      "catalyst_type": "filing/news",
-      "chittick_cash_score": 38.0,
-      "chittick_reject_reason": "Insufficient margin of safety and balance-sheet resilience for a high-conviction, owner-style allocation; acceptable only as a small, clearly bounded speculative swing.",
-      "concentration_case": "CTMX does not justify a large concentrated allocation in a Chittick Cash framework: it lacks recurring earnings, has binary development risks, and just executed a sizeable dilutive transaction. At most, it could occupy a small speculative sleeve in a diversified portfolio for learning purposes about biotech event trades.",
-      "confidence": 0.63,
-      "congressional_signal": "none; no relevant congressional trading activity surfaced in the provided context.",
-      "diversity_bucket": "healthcare-smallcap-biotech",
-      "entry_plan": "For paper trading, consider a staged entry only if price shows stabilization after the offering selloff. A reasonable pattern to require: 1) at least one full day where CTMX closes green on above-average volume relative to the 10\u201320 day average; 2) intraday low that holds above the post-offering panic low. If these conditions occur, simulate a limit buy slightly above that stabilization close (e.g., +1\u20132% above that day\u2019s close) during regular hours, not at the open, to avoid gap risk. Avoid chasing large intraday spikes >10% without consolidation.",
-      "exit_plan": "Primary invalidation: a decisive close below the post-offering low (or 8% below your modeled entry, whichever is tighter) signals that selling pressure remains in control\u2014paper trade exit at that point. Profit-taking: target ~15\u201320% upside from entry, or a retest of the pre-offering reaction zone where the stock traded after the +44% move, whichever comes first. If the stock moves +10% quickly, consider moving the stop to breakeven in the simulation to reflect de-risking behavior. Time-based exit: close the position after 5\u20137 trading days if neither target nor stop is hit, to keep this as a catalyst-focused swing rather than an open-ended hold.",
-      "fresh_catalyst": true,
-      "growth_runway": "30\u2013180 days: potential drivers include additional Phase 1/2 data releases for its masked ADCs, updates from ongoing oncology collaborations (if any), and improved visibility on runway after the capital raise. Longer term, the growth case hinges on successful progression of one or more clinical candidates through mid/late-stage trials and eventual partnering or commercialization. This is a long, risky path and beyond the intended 1\u201310 day trading horizon; thus the growth runway primarily informs the owner_hold_case rather than the immediate trade.",
-      "hf_evidence_rank": 0.0,
-      "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.0,
-      "hf_memory_similarity": 0.0,
-      "hf_model_notes": "",
-      "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "",
-      "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 0.0,
-      "horizon_days": 5,
-      "margin_of_safety_case": "Margin of safety is thin in traditional value terms: no established cash-flow base, ongoing R&D burn, and explicit need for capital (just evidenced by the $250M raise). Any perceived margin of safety is purely in the pricing dislocation created by dilution anxiety and not in durable business fundamentals. This would only justify a small, opportunistic position rather than a core holding.",
-      "market_regime": "Biotech is typically higher beta and sensitive to both risk appetite and liquidity. In a neutral-to-cautious risk-on regime with late-cycle characteristics, tactical trades in small-cap biotech should assume elevated volatility and the possibility that macro risk-off days can overwhelm stock-specific news. Any CTMX swing setup should be sized smaller than a defensive consumer staples or quality software idea and must respect tight stops.",
-      "momentum_case": "Recent tape shows event-driven momentum: the proposed offering and positive trial news drove a +44% move, followed by a -19% gap down on actual offering pricing. This kind of whipsaw is common around biotech financings: first, optimism on data and capital access, then mechanical selling on dilution. If the post-offering selloff stabilizes with above-average volume and holds key support levels from the pre-offering run, a short-term bounce is plausible as fast money re-enters and shorts cover. However, momentum is currently damaged and must be treated as a tactical, not trend-following, setup.",
-      "owner_hold_case": "An owner-style 30\u2013180 day thesis would require at least: 1) confirmed follow-up data that strengthens the perceived probability of success for lead assets; 2) clear disclosure of cash runway post-offering (e.g., >24 months at current burn); and 3) evidence of strategic partnership or non-dilutive funding that reduces reliance on future equity raises. Without those, holding beyond a 10-day trading window would not align with a margin-of-safety mindset.",
-      "quality_case": "Business quality is moderate and typical for a clinical-stage biotech: focused oncology R&D with innovative masked ADC technology and some validation via institutional analyst coverage, but no durable commercial revenue base yet. Execution risk is high, and the company depends on capital markets to fund trials\u2014underscored by the $250M offering. There is scientific promise but limited margin of safety from a balance-sheet or cash-flow standpoint; this is not a classic Buffett/Munger quality compounder but can fit as a small, clearly bounded swing position.",
-      "recommendation": "execute-if-guards-pass",
-      "repeat_count_48h": 0,
-      "research_tier": "execution-ready",
-      "risk_reward": "This is a high-volatility, asymmetric trade: you are risking roughly 8% on the downside for a possible 15\u201320% rebound over a few days if dilution fears fade and data/analyst support reasserts. The payoff can be attractive, but the odds are materially lower than a quality, cash-generative business; size and discipline must compensate for this.",
-      "sector": "healthcare-biotech",
-      "signal_weights": {
-        "congressional_signal": 0.0,
-        "social_buzz": 0.0
-      },
-      "social_buzz": "none identified as a distinct driver; any online chatter around CTMX appears consistent with normal biotech event discussion and does not provide an independent signal.",
-      "source_quality": "Evidence quality is mixed but acceptable for a speculative swing: corporate news feeds (GlobeNewswire via Finviz) confirm the size and timing of the capital raise and recent trial commentary; multiple reputable sell-side firms have published ratings and price targets. However, there is no full access here to the trial data, current financials, or detailed balance sheet. This supports a small, tactical trade idea, not a high-conviction long-term investment.",
-      "source_urls": [
-        "https://finviz.com/quote?t=CTMX"
-      ],
-      "stop_loss_percent": 8.0,
-      "strategy_tags": [
-        "chittick_cash",
-        "biotech",
-        "short-horizon-catalyst",
-        "high-volatility"
-      ],
-      "symbol": "CTMX",
-      "target_allocation_percent": 2.0,
-      "thesis": "CytomX is a small-cap, clinical-stage oncology biotech that just executed a large $250M common stock and pre-funded warrant offering after positive Phase 1 data for a masked ADC in colorectal cancer and a strong Q4 2025 reaction. The stock sold off ~19% on the actual pricing of the offering, creating a near-term dislocation between constructive fundamental/analyst momentum and dilution-driven sentiment pressure. This sets up a tightly risk-managed, short-horizon bounce/reversion candidate rather than a long-duration compounder.",
-      "valuation_case": "Analyst targets in the $5\u201312 range suggest that, on a risk-adjusted basis, the Street sees upside from recent trading levels, but those models rely heavily on probability-weighted success of pipeline assets and potential partnering economics. With the share count now higher, some earlier targets may need to be re-cut. The valuation is more a function of pipeline optionality and sentiment than of traditional metrics, making it inherently fragile."
-    },
-    {
-      "adversary_case": "From a strict Chittick Cash viewpoint, VALN remains too execution-sensitive and dependent on a few products with non-trivial safety/regulatory issues to merit concentrated capital. The history of a disappointing COVID vaccine underscores that management and R&D execution have been uneven. The recent technical strength could also reflect speculative flows rather than durable demand; without a near-term, highly visible catalyst, breakout attempts may fail, resulting in whipsaw losses.",
-      "allocation_learning_note": "VALN offers a useful case study in balancing attractive analyst upside with genuine regulatory and execution risk; for this framework, emphasis should remain on confirmation via fresh catalysts and technical strength rather than valuation alone.",
-      "balance_sheet_risk": "SEC filings highlight ongoing R&D and post-marketing commitments that will continue to consume cash, although the presence of commercial products and partnership structures helps. Tech-transfer and manufacturing investments add execution and capital-intensity risk. While not as precarious as a pre-revenue biotech, Valneva\u2019s balance sheet is far from fortress-like; any delays or safety setbacks could force capital raises under less favorable conditions.",
-      "bear_case": "1) Regulatory and safety risk: IXCHIQ\u2019s label updates after serious adverse events, especially in older adults with comorbidities, may limit its addressable market and lead to negative headlines or tighter recommendations. 2) Execution risk in expanding regulatory approvals (FDA/EMA/Health Canada and additional countries) and in manufacturing tech transfer to Serum Institute; any delays, quality issues, or disagreements can disrupt growth. 3) Competition from larger vaccine companies and alternative technologies; if competing Lyme or travel vaccines perform better clinically or commercially, Valneva\u2019s growth trajectory could disappoint. 4) Macro or FX headwinds could impact international travel and demand for travel vaccines. 5) The wide dispersion of analyst targets ($4.90\u2013$18) signals substantial uncertainty about fair value.",
-      "capital_allocation_case": "Management has pursued partnerships and technology transfer deals to expand reach while sharing risk, which is generally positive. However, the company\u2019s earlier COVID vaccine misstep shows the downside of aggressive bets on a single high-profile program. Capital allocation going forward will be judged by how well they prioritize between IXCHIQ, Lyme, and other pipeline assets and how they manage post-marketing and regulatory commitments without overextending the balance sheet.",
-      "catalyst": "1) Ongoing development and potential regulatory/clinical milestones in Lyme disease and other vaccines (per news summaries and analyst coverage); 2) SEC filings in late 2024 and 2025 detailing IXCHIQ label updates and expansion plans; 3) recent positive technical pattern: stock up ~26% over two weeks, with buy signals from both short- and long-term moving averages and MACD, along with a pivot-bottom buy signal on June 25, 2025; 4) MarketBeat consensus 12-month target of ~$11.98 vs. current ~$5.71, reflecting expected long-term growth and recovery from its prior COVID-19 disappointment.",
-      "catalyst_type": "structural/news/momentum",
-      "chittick_cash_score": 61.0,
-      "chittick_reject_reason": "Does not achieve the balance-sheet strength or business resilience of a classic Chittick Cash core holding; remains too execution- and regulatory-dependent for a large, concentrated position.",
-      "concentration_case": "Given product concentration risk, regulatory uncertainties, and modest scale, VALN should not be a core, concentrated holding under a Chittick Cash lens. It is more suitable as a moderate-risk, diversified position, or as a swing candidate if technicals and catalysts align.",
-      "confidence": 0.6,
-      "congressional_signal": "none; no congressional trading or lobbying disclosures in the snippets materially change the thesis for this timeframe.",
-      "diversity_bucket": "international-vaccines-midcap",
-      "entry_plan": "Treat VALN as a watch-first candidate. A paper-trade entry would require: 1) a clear technical trigger such as a breakout above recent short-term resistance with above-average volume, or a fresh pivot low followed by a strong green day; 2) ideally, alignment with a specific news or filing event (e.g., regulatory update, partnership progress, or meaningful sell-side revision) to avoid trading pure noise. For example, if price breaks convincingly above a recent consolidation range (say, 5\u20137% higher than the current base) on strong volume after a positive news item, simulate a partial entry intraday with a limit order slightly above the breakout level. Avoid entries when price is extended more than 20% above the 20-day moving average without new fundamentals.",
-      "exit_plan": "Use a relatively modest upside target for a 5\u20137 day swing, e.g., 12\u201318% from entry, aiming for a retest of prior local resistance levels. Place a stop ~7\u20139% below entry or below the breakout/pivot level that justified the trade, whichever is tighter. If the stock stalls or reverses on high volume near resistance, simulate scaling out rather than waiting for a full stop. If no catalyst emerges and price stays range-bound, consider a time-based exit at 7\u201310 trading days.",
-      "fresh_catalyst": true,
-      "growth_runway": "30\u2013180 days: potential growth drivers include additional regulatory approvals/label extensions for IXCHIQ and other vaccines, progress in Lyme disease vaccine trials with its partner, geographic expansion via technology transfer to Serum Institute, and improved commercial traction as travel dynamics normalize. Longer term, the story is about building a diversified vaccine portfolio and deepening strategic partnerships. For our shorter horizon, these act mostly as background context rather than direct catalysts.",
-      "hf_evidence_rank": 0.0,
-      "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.0,
-      "hf_memory_similarity": 0.0,
-      "hf_model_notes": "",
-      "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "",
-      "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 0.0,
-      "horizon_days": 7,
-      "margin_of_safety_case": "Compared to a pure development-stage biotech, Valneva has some margin of safety via existing products and partnerships, but its revenue base is still narrow and exposed to regulatory and travel demand swings. The wide analyst target spread suggests that intrinsic value is highly uncertain. IXCHIQ\u2019s safety and label constraints also limit upside. As a result, margin of safety is moderate at best and does not justify a large, concentrated position; it is more compatible with a small, diversified holding or watch status.",
-      "market_regime": "In a late-cycle environment with elevated valuations, smaller healthcare names with product/regulatory risk are likely to trade with higher volatility and react strongly to any incremental news. However, vaccines and infectious disease products have some structural demand tailwinds, which can support the medium-term story. For a 1\u201310 day trading horizon, macro regime mainly affects whether risk-on flows support continued buying after a breakout or punish any disappointments.",
-      "momentum_case": "Technically, VALN has been in a short-term uptrend: up 26.5% over the past two weeks in one snapshot, with the price above both short- and long-term moving averages, a buy signal from MACD, and a pivot bottom identified in late June 2025. Support zones were noted around $6.89 and $6.13 in that period, with resistance near $7.55\u20137.89. Recent quotes around $5.71 indicate that the stock has since corrected from those higher levels, but the presence of earlier strong uptrends and analyst targets suggests it can move sharply on news. The combination of prior technical strength and current discount to targets makes it suitable for a watchlist and potentially for a small swing on renewed strength.",
-      "owner_hold_case": "A 30\u2013180 day owner-style hold would require: 1) clear evidence of IXCHIQ demand stabilizing at levels consistent with management guidance and safety profile; 2) tangible progress in Lyme vaccine development or other pipeline catalysts; 3) visibility on cash runway and capital needs, ideally with no need for near-term dilutive equity raises. In that environment, a small, long-only position could be justified as part of a diversified healthcare sleeve.",
-      "quality_case": "Compared with CTMX, Valneva has higher quality characteristics: it has commercialized products, partnerships (including with major pharma and Serum Institute of India for manufacturing), and a more diversified pipeline. SEC filings show detailed disclosure of clinical data, regulatory status, and post-marketing requirements, which is positive for transparency. However, its scale is still small relative to large vaccine players, and its fortunes are tied to a few key assets (e.g., Lyme, IXCHIQ). Regulatory and safety communications around IXCHIQ\u2014notably label changes and warnings for older adults\u2014underline real but manageable product-risk. On balance, it rates as a mid-quality, execution-sensitive specialty vaccine business.",
-      "recommendation": "watch",
-      "repeat_count_48h": 0,
-      "research_tier": "watch",
-      "risk_reward": "If entered on a breakout with a 7\u20139% downside and a 12\u201318% upside target, the modeled reward-to-risk ranges from ~1.3:1 to 2:1. That\u2019s acceptable but not exceptional, and success depends on the quality of the catalyst and breakout confirmation. Given the regulatory and execution risks, position sizing should remain moderate.",
-      "sector": "healthcare-biotech-vaccines",
-      "signal_weights": {
-        "congressional_signal": 0.0,
-        "social_buzz": 0.0
-      },
-      "social_buzz": "none highlighted as material; no notable social or retail buzz anomalies surfaced in the provided sources.",
-      "source_quality": "Evidence quality is relatively strong: SEC filings provide detailed information on IXCHIQ\u2019s regulatory status, safety profile, and expansion plans; MarketBeat aggregates multiple analyst price targets and ratings; StockInvest gives a structured technical analysis snapshot. However, real-time price, exact support/resistance, and intraday volume data are incomplete here, so any exact trading levels in live markets would need to be confirmed via up-to-date quotes and charts.",
-      "source_urls": [
-        "https://stockinvest.us/stock/VALN",
-        "https://www.marketbeat.com/stocks/NASDAQ/VALN/forecast/",
-        "https://markets.chroniclejournal.com/chroniclejournal/quote/news?Symbol=NQ%3AVALN&ChannelType=NEWS",
-        "https://www.sec.gov/Archives/edgar/data/1836564/000183656425000064/valn-20250807.htm",
-        "https://www.sec.gov/Archives/edgar/data/1836564/000183656425000095/valn-20250121.htm"
-      ],
-      "stop_loss_percent": 0.0,
-      "strategy_tags": [
-        "chittick_cash",
-        "vaccines",
-        "swing-or-watch",
-        "quality-mixed"
-      ],
-      "symbol": "VALN",
-      "target_allocation_percent": 0.0,
-      "thesis": "Valneva is a specialty vaccine company with a commercial base and a pipeline led by its Lyme disease vaccine collaboration and travel vaccines like IXCHIQ. The stock has recently shown constructive technical strength with buy signals from moving averages and MACD, while Street price targets imply significant potential upside from current levels. However, regulatory and safety nuances around IXCHIQ, as well as execution risk in label expansion and manufacturing tech transfer, temper conviction. This fits better as a watch or modest, technically-driven swing candidate than a high-conviction allocation.",
-      "valuation_case": "MarketBeat\u2019s consensus target of roughly $11.98 vs. a current price near $5.71 implies >100% upside, but this should be viewed cautiously: it embeds expectations for continued uptake of existing vaccines, successful regulatory expansions, and meaningful progress on Lyme and other assets. The low-end target of $4.90 indicates that at least some analysts see limited upside from here or risk of downside if execution falters. Without a clear fundamental inflection, valuation alone is not a sufficient reason to initiate a trade."
-    }
-  ],
-  "summary": "Biotech remains volatile with mixed capital-market signals: CytomX fell sharply on a large equity/warrant financing despite constructive analyst coverage, while Valneva trades with improving technicals and a wide range of analyst targets. Broader macro context is still late\u2011cycle, with elevated equity valuations and event\u2011driven risk, which argues for cautious position sizing and tight risk controls on any short\u2011horizon biotech swings."
+  "candidates": [],
+  "summary": "No strong new liquid US stock/ETF catalyst appears in the provided search results. The only fresh item is a non-US marathon results page, which is not tradeable under the stated strategy. With no verified market-moving company news, this pass is mostly a no-trade / monitoring update."
 }
 -->
 
@@ -1269,4 +1146,8 @@ No candidates.
 |---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
 | CTMX | healthcare-biotech | execution-ready | healthcare-smallcap-biotech | 0 | yes | 0.63 | 38 | 0 | 0 | 2.0% | 8.0% | execute-if-guards-pass | 1) May 18 priced $250M equity + pre-funded warrant offering following a proposed offering announcement that previously saw the stock surge ~44%; 2) recent posit |
 | VALN | healthcare-biotech-vaccines | watch | international-vaccines-midcap | 0 | yes | 0.60 | 61 | 0 | 0 | 0.0% | 0.0% | watch | 1) Ongoing development and potential regulatory/clinical milestones in Lyme disease and other vaccines (per news summaries and analyst coverage); 2) SEC filings |
+
+## Latest Candidates - 2026-05-19 13:29:33 Eastern Daylight Time
+
+No candidates.
 
