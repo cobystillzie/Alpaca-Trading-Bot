@@ -6389,4 +6389,165 @@ The US equity market is grinding to record highs, but the underlying conditions 
     "https://www.cmegroup.com/markets/equities/dow-jones/e-mini-dow.html"
   ]
 }
+## Market Regime Research - 2026-05-19 19:29:18 Eastern Daylight Time
+
+{
+  "summary": {
+    "tone": "cautiously risk-on with pockets of froth",
+    "backdrop": "US equities remain supported by AI and large-cap earnings, while higher long rates, sticky inflation, and geopolitical risks keep a lid on multiple expansion.",
+    "implication_for_paper_trading": "Favorable medium-term equity backdrop but tactically choppy; a cautious, rules-based bot should assume trend-up but volatility-elevated conditions, with extra respect for rate/earnings headlines."
+  },
+  "market_regime": {
+    "index_trend": {
+      "direction": "upward bias with intermittent pullbacks",
+      "evidence": [
+        "Institutional outlooks (Morgan Stanley, State Street) explicitly favor developed-market, especially US, equities and recommend an overweight to stocks versus core fixed income, implying confidence in ongoing equity uptrend rather than late-cycle collapse.",
+        "Corporate news flow shows multiple individual stocks at record highs or strong rallies (e.g., UK/European names like Diploma and Cranswick in [6]), consistent with a broader global equity risk-on tone that typically co-moves with major US indices.",
+        "Short-term headlines show Dow futures under pressure on days when yields jump ([1]), indicating a market that sells off tactically on rate spikes but is not in a persistent bear trend."
+      ],
+      "regime_label": "primary uptrend / cyclical bull, tactically fragile to rate and macro surprises",
+      "tactical_note_for_bot": "Assume trend-following long bias in indices is favored, but require confirmation across major US benchmarks (e.g., S&P 500, Nasdaq, Dow) and be prepared for swift pullbacks around macro data and Fed communications."
+    },
+    "rates_and_fed": {
+      "status": "higher-for-longer with limited near-term cut expectations",
+      "data_points": [
+        "10-year US Treasury yield around 4.6% and rising recently ([2]), driven partly by oil above $108 and inflation concerns.",
+        "Mortgage rates in the mid-6% range for 30-year loans ([2]) underscore tight financial conditions for households.",
+        "Morgan Stanley expects the Fed to stay on hold through 2026 with only modest cuts in 2027 ([5]); State Street still expects some cuts in 2026 but only about 50 bps ([13]), both pointing to restrictive policy for an extended period.",
+        "New York Fed commentary references the potential for higher money-market rates and higher rate volatility ([11]).",
+        "Dollar strength driven by increasingly hawkish Fed expectations ([15]) confirms markets are pricing tighter-for-longer policy."
+      ],
+      "implications": {
+        "equity_valuation": "Higher discount rates cap valuation multiples, particularly for long-duration growth, and make equities more sensitive to inflation and rate surprises.",
+        "cyclical_sensitivity": "Rate-sensitive segments (small caps, housing, utilities, REITs) likely trade with a macro/rates overhang, even as the broader market may trend up.",
+        "bot_guidance": "Flag FOMC meetings, CPI/PCE, payrolls, and major Fed speeches as high-risk windows; consider temporarily tightening risk parameters or reducing gross directional exposure around them in paper-trading logic."
+      }
+    },
+    "volatility": {
+      "current_state": "moderate realized volatility with potential for spikes",
+      "evidence": [
+        "Higher money-market and Treasury yield volatility referenced by the New York Fed ([11]) and State Street ([13]) suggests financial conditions can change quickly.",
+        "Dollar rally driven by shifting Fed expectations ([15]) implies cross-asset volatility; equities tend to see short, sharp bouts of risk-off when the dollar surges.",
+        "Earnings-driven single-stock moves (e.g., 8x8 +12% on earnings beat, [12]; strong individual rallies at record highs, [6]) indicate heightened idiosyncratic volatility around catalysts."
+      ],
+      "vol_regime_label": "low-to-moderate baseline, event-driven spikes",
+      "bot_guidance": "For a cautious paper-trading workflow, size positions assuming occasional 1–2 day volatility spikes beyond recent averages; avoid concentration in single event-heavy names during earnings weeks."
+    },
+    "earnings_tone": {
+      "overall": "constructively positive, led by mega-cap and AI-related spending, but with mixed pockets",
+      "evidence": [
+        "Morgan Stanley highlights AI investment and high-income consumer spending as key supports for growth and earnings ([5]).",
+        "State Street has recently increased equity exposure, citing resilient macro and earnings backdrop ([13]).",
+        "Corporate reports are mixed but not recessionary: 8x8 delivered revenue growth and returned to GAAP profitability ([12]), while Novelis saw modest declines in net income and EBITDA but still profitable ([9]).",
+        "Home Depot and Walmart earnings (via expectations and prior results in [3]) show steady if unspectacular consumer and housing-related demand, supporting a soft-landing narrative rather than sharp downturn."
+      ],
+      "earnings_regime_label": "earnings-supportive, not exuberant",
+      "bot_guidance": "Treat earnings season as supportive to the broad index trend, but assume elevated single-stock gap risk; for paper-trading, explicitly code around earnings dates to avoid accidental event trades if you want to keep the workflow conservative."
+    }
+  },
+  "sector_rotation": {
+    "current_pattern": {
+      "style": "quality growth and large-cap tech/AI leadership, with selective strength in industrials, defense, energy/infrastructure; rate-sensitives and lower-quality credit remain more constrained.",
+      "macro_drivers": [
+        "AI capex as a multi-year theme supporting semis, data-center infrastructure, and related industrials (Morgan Stanley [5], earnings preview around Nvidia and peers [3]).",
+        "Energy price shock and oil > $108 ([2], [5]) supporting energy and select commodity-linked plays while pressuring consumers and rates.",
+        "Defense/aerospace and infrastructure demand contributing to strong performance in related names, as illustrated by record highs in controls, aerospace, defense, nuclear power, and data-center related business Diploma ([6])."
+      ]
+    },
+    "by_bucket": {
+      "technology_and_ai": {
+        "tone": "leadership but crowded",
+        "evidence": [
+          "Nvidia and AI-related earnings are central market catalysts this week ([3]).",
+          "Institutional outlooks emphasize AI spending as a key pillar of global growth ([5], [13])."
+        ],
+        "implication_for_bot": "Expect AI/semis to drive market-wide sentiment and gap risk; for cautious paper-trading, track their price/volume as a market breadth signal rather than as oversized single-name bets."
+      },
+      "cyclicals_and_industrials": {
+        "tone": "selective strength",
+        "evidence": [
+          "Guidance and strong share performance in companies exposed to aerospace, defense, nuclear power, and data centers ([6]).",
+          "Deere, Home Depot, and other cyclical names being closely watched in earnings previews ([3]) indicate ongoing interest in real-economy bellwethers."
+        ],
+        "implication_for_bot": "Rotation into high-quality industrials is consistent with a soft-landing risk-on regime; monitor performance of industrial and materials ETFs as confirmation of broader cyclical participation."
+      },
+      "consumer": {
+        "tone": "bifurcated",
+        "evidence": [
+          "Chewy commentary about consumers being ‘stretched’ ([1]) suggests pressure on lower-income/online discretionary.",
+          "Walmart’s prior quarter revenue and EPS growth with expectations for continued solid numbers ([3]) align with stronger high-income/essential-spending trends as noted by Morgan Stanley ([5])."
+        ],
+        "implication_for_bot": "Consumer discretionary exposure is more sensitive to rates and fuel prices; treat weak online/discretionary names as late-cycle laggards, and view staples or value-oriented retailers as more defensive."
+      },
+      "defensives_and_rate_sensitives": {
+        "tone": "mixed to subdued",
+        "evidence": [
+          "Higher-for-longer rates and mortgage yields constrain housing-related and highly levered sectors ([2], [5], [11]).",
+          "Institutional guidance to underweight core fixed income ([5], [13]) implicitly suggests equities and spread products are preferred over duration-heavy assets, but it doesn’t automatically favor utilities/REITs, which remain headwinded by yields."
+        ],
+        "implication_for_bot": "For regime detection, a lag in utilities/REITs relative to the S&P 500 while tech/industrials outperform is characteristic of a risk-on, growth-led environment under rate pressure."
+      }
+    },
+    "rotation_regime_label": "growth and AI-led risk-on with selective cyclical participation; defensives and classic bond-proxies not leading.",
+    "bot_features_to_track": [
+      "Relative strength of tech/communication services vs. utilities/REITs.",
+      "Performance of industrials/materials vs. broad market as a signal of cyclical participation.",
+      "Spread between consumer staples and consumer discretionary to detect stress in lower-income consumer segments."
+    ]
+  },
+  "risk_flags": {
+    "macro_and_policy": [
+      {
+        "name": "Fed policy uncertainty and rate shocks",
+        "description": "Divergent but generally hawkish expectations (no cuts until 2027 per Morgan Stanley [5] vs. modest 2026 cuts per State Street [13]) set the stage for repricing whenever inflation data or Fed communications surprise. New York Fed remarks on higher money-market rates and volatility ([11]) highlight that the policy corridor is not static.",
+        "bot_implications": "Mark Fed meetings, major inflation and labor prints, and key Fed speeches as high-risk days with tightened risk budgets and, in a cautious regime, potentially suppressed new entries for the session in paper-trading logic."
+      },
+      {
+        "name": "Energy and inflation shock",
+        "description": "Oil above $108 ([2]) and references to an energy supply shock linked to Iran conflict ([5]) increase the risk of sticky inflation, consumer strain, and further upward pressure on yields.",
+        "bot_implications": "Treat sharp oil spikes as a cross-asset warning flag; if energy and the dollar are surging while cyclicals and small caps roll over, classify regime as ‘risk-off or defensive’ in the bot’s state machine until conditions stabilize."
+      },
+      {
+        "name": "Dollar strength and global spillovers",
+        "description": "The US Dollar Index has rallied and broken technical resistance as markets price more hawkish Fed outcomes ([15]); a strong dollar can pressure commodities, EM assets, and US multinationals’ earnings.",
+        "bot_implications": "For a cautious regime, incorporate dollar trend as a macro factor: strong and accelerating dollar combined with falling cyclicals often precedes risk-off episodes in equities."
+      }
+    ],
+    "market_structure_and_flow": [
+      {
+        "name": "Event-driven volatility and concentration risk",
+        "description": "Mega-cap tech and AI names (e.g., Nvidia) are central to index-level moves ([3], [5], [13]); earnings beats/misses or guidance changes in a handful of names can distort index behavior.",
+        "bot_implications": "For paper trades, avoid treating index moves around a single mega-cap event as a stable trend; require breadth confirmation (advance/decline, equal-weight indices) before classifying a new regime."
+      },
+      {
+        "name": "Financial-conditions tightening via higher yields and mortgages",
+        "description": "10-year yields near mid-4s and mortgage rates in the mid-6% range ([2]) raise debt-service burdens and may slow housing and capex, especially if rates rise further ([14]).",
+        "bot_implications": "If financials, small caps, housing, and consumer discretionary all weaken together while yields rise, treat that as a negative risk signal even if headline indices are near highs."
+      }
+    ],
+    "earnings_and_micro": [
+      {
+        "name": "Mixed but not recessionary earnings",
+        "description": "Results like 8x8’s turnaround ([12]) vs. Novelis’ modest earnings slippage ([9]) illustrate idiosyncratic risk; broad earnings remain decent, but dispersion is high.",
+        "bot_implications": "Keep per-position size modest; avoid clustering exposures in highly correlated, event-heavy names; implement explicit ‘no-new-positions’ windows around individual earnings for a cautious paper-trading framework."
+      }
+    ],
+    "overall_risk_regime": {
+      "label": "cautiously constructive / soft-landing baseline with meaningful event and macro risk",
+      "narrative": "Institutional research (Morgan Stanley, State Street) frames the environment as one where equities are still preferred over bonds, supported by AI investment and solid growth, but with substantial uncertainty from rates, energy, and geopolitics. Volatility is contained most of the time yet prone to spikes around macro data and major earnings. This aligns with a ‘risk-on but not euphoric’ regime, appropriate for a paper-trading bot that emphasizes risk controls, avoids leverage, and respects macro calendars."
+    }
+  },
+  "source_urls": [
+    "https://www.dowjones.com",
+    "https://www.mortgagereports.com/mortgage-rates-now/mortgage-rates-today-may-19-2026",
+    "https://freetrade.io/news/earnings-nvda-wmt-de",
+    "https://www.morganstanley.com/Themes/outlooks",
+    "https://www.ii.co.uk/analysis-commentary/shares-round-rallies-and-record-highs-pair-ii539103",
+    "https://www.newyorkfed.org/newsevents/speeches/2026/per260519",
+    "https://www.ssga.com/us/en/institutional/insights/taa-may-2026",
+    "https://www.stonex.com/en/insights/u-s-dollar-rally-builds-as-fed-rate-expectations-turn-hawkish",
+    "https://investors.novelis.com/news-events/press-releases/detail/1420/novelis-reports-fourth-quarter-and-full-fiscal-year-2026-results",
+    "https://www.investing.com/news/earnings/8x8-shares-surge-12-on-q4-earnings-revenue-beat-93CH-4699588"
+  ]
+}
 

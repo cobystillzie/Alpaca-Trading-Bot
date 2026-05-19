@@ -15790,4 +15790,37 @@ Model notes: High-quality SEC-based evidence and real pipeline make this a candi
 Social buzz, max 10%: Low-to-moderate, generally thesis-oriented discussion around Lyme collaboration and broader pipeline, with some overly optimistic claims but less meme-like behavior than in smaller, hyped names.
 Congress signal, max 5%: none
 Sources: https://www.sec.gov/Archives/edgar/data/1836564/0001836564240000xx/valneva-6k-20241203.htm, https://www.sec.gov/Archives/edgar/data/1836564/0001836564240000yy/valneva-6k-20241219.htm, https://www.sec.gov/Archives/edgar/data/1836564/0001836564250000aa/valneva-6k-20250121.htm, https://www.sec.gov/Archives/edgar/data/1836564/0001836564250000bb/valneva-6k-20250807.htm
+## Research Update - 2026-05-19 19:29:18 Eastern Daylight Time
+
+Research Update
+
+Market tone: No fresh execution-ready catalysts surfaced in the provided inputs. The regime is cautiously constructive but selective: quality names can work, yet repeated-name decay, limited source strength, and event risk argue for watchlists over new risk until a stronger company-specific catalyst appears.
+Candidates: 3
+
+1. VALN (healthcare-biotech-vaccines) | confidence 0.60 | allocation 0.0% | stop 8.0% | Chittick 61/100 | tier watch | bucket healthcare-biotech-vaccines | HF source 1/100
+Recommendation: watch
+Catalyst: Potential upcoming data, regulatory, or commercial milestone related to the Lyme disease vaccine collaboration with Pfizer and continued progress on vaccine programs.
+Chittick Cash: Margin of safety is limited because biotech outcomes are binary and valuation depends heavily on timing of milestones and adoption.
+HF filter: sentiment=lightly_positive_watch source=1/100 hype=0.34 vetoes=0
+Self-learning: tier=watch repeat48h=3 fresh=yes bucket=healthcare-biotech-vaccines
+Social buzz, low weight: Low-to-moderate attention around vaccine milestones; useful only as context, not a primary signal.
+Congress signal, low weight: none
+
+2. CTMX (healthcare-biotech) | confidence 0.58 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier monitor-only | bucket healthcare-smallcap-biotech | HF source 1/100 | HF veto
+Recommendation: monitor-only
+Catalyst: Recent priced equity and pre-funded warrant financing after a prior surge in the shares.
+Chittick Cash: Margin of safety is poor because the stock’s valuation is highly sensitive to dilution and clinical execution.
+HF filter: sentiment=speculative_momentum source=1/100 hype=0.70 vetoes=3
+Self-learning: tier=monitor-only repeat48h=2 fresh=yes bucket=healthcare-smallcap-biotech
+Social buzz, low weight: Elevated niche attention after the financing and prior price move; treat as secondary context only.
+Congress signal, low weight: none
+
+3. KO (consumer-staples-beverages) | confidence 0.71 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier hold | bucket consumer-staples-defensive | HF source 1/100
+Recommendation: hold
+Catalyst: Recent broker action citing improved volume expectations and brand-related exposure from official partnership visibility.
+Chittick Cash: Modest margin of safety thanks to brand durability and cash generation, though valuation is not especially cheap.
+HF filter: sentiment=defensive_positive source=1/100 hype=0.08 vetoes=0
+Self-learning: tier=hold repeat48h=1 fresh=yes bucket=consumer-staples-defensive
+Social buzz, low weight: None meaningful.
+Congress signal, low weight: none
 

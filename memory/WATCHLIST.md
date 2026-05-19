@@ -4,129 +4,187 @@
 {
   "candidates": [
     {
-      "adversary_case": "The strongest objection is that this is a classic small-cap biotech post-raise trap: the stock initially bounces on perceived funding de-risking but then grinds lower for weeks as new shares and warrants are absorbed, especially if there is no imminent, high-quality clinical catalyst. In a choppy macro regime, capital can likely find better risk-adjusted opportunities in higher-quality names or sector ETFs.",
-      "allocation_learning_note": "Size constrained due to speculative nature and limited Chittick score; treat as a testbed for biotech event-trade behavior rather than a major capital deployment.",
-      "balance_sheet_risk": "Near-term balance sheet risk is improved: the company should have more cash and reduced immediate financing stress. Yet the business is still pre- or early-revenue and will likely burn significant cash for several years, so future financing or partnering will still be required.",
-      "bear_case": "1) Post-offering overhang: New supply from the equity + warrants could cap upside if buyers remain cautious; 2) Biotech headline risk: any negative trial update, regulatory signal, or partner move could hit the stock suddenly; 3) Dilution may have pulled forward future returns, setting up a lower equilibrium valuation; 4) In a risk-off macro tape, small-cap biotech often gets sold indiscriminately, amplifying drawdowns; 5) Social buzz includes pump-like language, raising the risk that a portion of recent demand is speculative and fragile.",
-      "capital_allocation_case": "Management\u2019s willingness to raise a substantial amount of equity after a run-up can be viewed as pragmatic (de-risking funding) but dilutive. For long-term owners, it signals a capital-intensive path; for short-term traders, it creates a well-defined event with high liquidity.",
-      "catalyst": "1) Recently priced ~$250M common stock + pre-funded warrants offering after a proposed raise that followed ~40%+ upside move; 2) Market now repricing post-dilution and assessing extended runway for the pipeline; 3) Elevated trading volume and social attention linked to the financing event.",
-      "catalyst_type": "filing/news",
-      "chittick_cash_score": 38.0,
-      "chittick_reject_reason": "Speculative small-cap biotech with binary pipeline risk and limited margin of safety; fails Chittick-style emphasis on durable cash flows and high-quality balance sheets. Approved only as a small, event-driven trading idea, not as a quality core.",
-      "concentration_case": "Given its speculative nature and modest Chittick score, CTMX does not deserve a large allocation. It is at most a small satellite position aimed at exploiting short-term volatility and the post-offering price discovery window, not a core holding competing with quality compounders or broad ETFs.",
-      "confidence": 0.63,
-      "congressional_signal": "none",
-      "diversity_bucket": "healthcare-smallcap-biotech",
-      "entry_plan": "Paper-trade entry only after confirming that the stock is stabilizing above the immediate post-offering low with intraday volume cooling from extreme levels but still above average. A reasonable paper entry zone is slightly above that stabilization level (for example, a modest intraday pullback after an early bounce) rather than chasing large gaps.",
-      "exit_plan": "For a 3\u20135 day swing: take profits into a 12\u201318% move above entry if reached quickly on strong volume, or earlier if there is a clear exhaustion candle (sharp intraday reversal on high volume). Invalidation if price closes decisively below the post-offering low or hits the stop-loss band, signaling that supply is overwhelming demand.",
-      "fresh_catalyst": true,
-      "growth_runway": "If clinical programs succeed, the growth runway is large (typical for successful biotech), but the next 30\u2013180 days will be dominated by: 1) Integration of the new capital into the story (runway communication, trial starts/continuations); 2) Any interim trial updates; 3) Sell-side/partner commentary about the strengthened balance sheet. Long-term runway is contingent on trial success and potential partnerships or licensing deals.",
-      "hf_evidence_rank": 0.0,
-      "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.4,
-      "hf_memory_similarity": 0.2,
-      "hf_model_notes": "Allowed despite moderate hype risk because a concrete, non-social catalyst (equity financing) is present and documented.",
-      "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "",
-      "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 0.0,
-      "horizon_days": 4,
-      "margin_of_safety_case": "Margin of safety is weak in classic Chittick terms: valuation is difficult to anchor, and outcomes are binary around clinical success. The one partial margin-of-safety element is reduced near-term insolvency risk from the fresh capital raised, but that is offset by dilution and clinical uncertainty.",
-      "market_regime": "In a neutral-to-risk-off regime with higher rates and a strong dollar, speculative small-cap biotech sits at the fragile end of the spectrum. This argues for smaller size, tighter stops, and short horizons. If macro stress (yields spiking, strong dollar) worsens further, CTMX can sell off regardless of company-specific news.",
-      "momentum_case": "Price recently surged on the offering announcement and related positive commentary, then faced sell pressure as the deal priced and dilution was quantified. Volume is well above average, and intraday ranges are wide, indicating strong short-term trading interest. Trend is volatile rather than cleanly up or down; a mean-reversion or continuation move is plausible as the book-build participants and fast money reposition over 1\u20135 trading days.",
-      "owner_hold_case": "A 30\u2013180 day owner-style hold would require: 1) Clear, positive clinical data or regulatory milestones; 2) Evidence that the new capital is sufficient to reach a major value inflection without another dilutive raise; 3) Strengthening of partnerships or de-risking of the lead assets. Absent these, CTMX should be treated as a tactical trade only.",
-      "quality_case": "Biotech quality is driven by pipeline, partnerships, and balance sheet. The equity raise meaningfully reduces near-term insolvency risk and funds clinical development, which is a positive for business continuity. However, CTMX remains a small, clinical-stage (or early-commercial) biotech with binary trial risk, concentrated assets, and heavy dependence on future capital access. This is not a Buffett-style compounding franchise; quality is moderate at best and highly contingent on trial outcomes.",
-      "recommendation": "execute-if-guards-pass",
-      "repeat_count_48h": 1,
-      "research_tier": "execution-ready",
-      "risk_reward": "Risk/reward is skewed toward high volatility: a double-digit percentage swing in either direction is plausible over a few days. There is upside if the market interprets the raise as a funding de-risking and re-buys the story, but downside is substantial if post-raise selling and risk-off flows dominate. This is suitable only as a small, speculative satellite position, not a core holding.",
-      "sector": "healthcare-biotech",
-      "signal_weights": {
-        "congressional_signal": 0.0,
-        "social_buzz": 0.08
-      },
-      "social_buzz": "Moderate, with mixed sentiment and some pump-adjacent language around the financing and potential upside. Buzz is clearly secondary to the real financing catalyst but still adds noise and volatility.",
-      "source_quality": "Evidence is anchored in reported capital markets activity (equity offering) and corroborated by price/volume behavior and mainstream financial news summaries, with moderate-quality social-buzz context. However, the underlying scientific and clinical details are not fully re-underwritten in this pass, so fundamental depth is limited.",
-      "source_urls": [
-        "https://www.nasdaq.com/market-activity/stocks/ctmx",
-        "https://www.sec.gov/Archives/edgar/browse/?CIK=1501989",
-        "https://www.morningstar.com/stocks/xnas/ctmx/quote"
-      ],
-      "stop_loss_percent": 8.0,
-      "strategy_tags": [
-        "chittick_cash",
-        "short-horizon-swing",
-        "speculative",
-        "biotech-event"
-      ],
-      "symbol": "CTMX",
-      "target_allocation_percent": 2.0,
-      "thesis": "CytomX Therapeutics is a small-cap biotech with a real, near-term capital markets catalyst: a just-priced ~$250M equity and pre-funded warrant offering following a sharp run-up. The raise materially extends cash runway and de-risks funding for its pipeline, but also introduces dilution and post-raise price discovery. As a short-horizon paper trade, this is a tactical volatility play around the digestion of the offering rather than a long-term quality bet.",
-      "valuation_case": "Traditional valuation (P/E, FCF) is not very meaningful. The market is repricing the company\u2019s enterprise value after adding $250M+ in cash and extra shares. The key question is whether the current price reflects a realistic probability-weighted value of the pipeline; without fresh, detailed pipeline review here, we must assume valuation is speculative."
-    },
-    {
-      "adversary_case": "From a trading-efficiency standpoint, VALN may be a better 30\u2013180 day owner-style thesis than a 1\u201310 day swing unless a clear event is imminent. Committing short-horizon paper capital without a well-timed catalyst risks tying up capacity in a name that might simply drift.",
-      "allocation_learning_note": "Kept as watch-only to avoid forcing a short-horizon trade where catalysts are more 30\u2013180 day oriented. This preserves paper-trading capacity for clearer near-term events.",
-      "balance_sheet_risk": "Improved via partnerships and non-dilutive funding; still subject to the capital intensity of vaccine development and manufacturing but less exposed than peers that rely solely on equity raises.",
-      "bear_case": "1) Clinical and regulatory risk remains significant; any safety or efficacy disappointment could hit the stock; 2) Commercial execution risk \u2013 even with good data, payer and uptake dynamics may fall short of optimistic projections; 3) Partnership dependence means economics are shared, limiting upside; 4) FX and macro conditions in Europe and emerging markets can affect vaccine demand and profitability.",
-      "capital_allocation_case": "Management has shown discipline in leveraging grants and strategic partnerships rather than pure equity dilution, which fits a Chittick-style preference for careful capital allocation.",
-      "catalyst": "Ongoing and upcoming milestones around the Lyme disease vaccine collaboration with Pfizer, chikungunya label expansions, and other pipeline/regulatory events as described in recent 6-K filings and analyst commentary.",
-      "catalyst_type": "structural/general",
+      "adversary_case": "The strongest objection is that no new actionable catalyst was identified today, so any trade would be anticipation rather than evidence.",
+      "allocation_learning_note": "No allocation today; maintain as a monitored catalyst name until fresh evidence justifies risk.",
+      "balance_sheet_risk": "Biotech execution risk is high; financing needs, regulatory setbacks, and dilution are the main risks to monitor.",
+      "bear_case": "Clinical, regulatory, or safety setbacks could quickly reset the thesis. Vaccine timelines can slip, and commercial adoption may be slower than hoped.",
+      "capital_allocation_case": "Management appears to reinvest into pipeline and partnership-led expansion, which is rational for a company of this size.",
+      "catalyst": "Potential upcoming data, regulatory, or commercial milestone related to the Lyme disease vaccine collaboration with Pfizer and continued progress on vaccine programs.",
+      "catalyst_type": "general",
       "chittick_cash_score": 61.0,
       "chittick_reject_reason": "",
-      "concentration_case": "VALN could justify a modest concentrated position for an owner-style biotech thesis, but given current paper-trading rules and lack of imminent hard catalyst in this pass, it is better in a monitored watchlist than as an immediate position.",
+      "concentration_case": "It deserves attention over a broad ETF because the payoff is event-driven and idiosyncratic, but only if a fresh catalyst is confirmed.",
       "confidence": 0.6,
       "congressional_signal": "none",
-      "diversity_bucket": "healthcare-biotech",
-      "entry_plan": "Monitor for a clear, date-specific event (e.g., scheduled data readout, regulatory decision, or major partner update) and for price to consolidate with rising volume ahead of that event. No immediate paper-trade entry is planned in the next 1\u20133 days without such a defined catalyst.",
-      "exit_plan": "If converted to a trade later, exit would be centered around the identified event window (e.g., taking partial profits pre-event and the remainder on post-event reaction). For now, exit plan is not applicable because this is watch-only.",
+      "diversity_bucket": "healthcare-biotech-vaccines",
+      "entry_plan": "Watch only. If a concrete company/SEC/news catalyst lands and shares show a clean breakout on above-average volume, consider a starter tranche near the breakout level with a tight invalidation under the prior swing low.",
+      "exit_plan": "Take partial profits into the first strong spike; fully exit if catalyst follow-through fails, volume fades, or the stock loses the breakout level after the news reaction.",
       "fresh_catalyst": true,
-      "growth_runway": "Strong long-term runway around first-/best-/only-in-class vaccines (Lyme, chikungunya, Shigella, Zika) with multiple geographic expansion opportunities. Over 30\u2013180 days, major inflection points could come from label expansions, regulatory approvals, or key data readouts.",
-      "hf_evidence_rank": 0.0,
+      "growth_runway": "Near-term runway comes from vaccine milestones and commercialization; longer-term upside depends on successful execution across multiple programs and geographies.",
+      "hf_evidence_rank": 0.57,
       "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.2,
-      "hf_memory_similarity": 0.3,
-      "hf_model_notes": "High-quality SEC-based evidence and real pipeline make this a candidate for owner-style thinking; timing for a 1\u201310 day trade is not yet optimal.",
+      "hf_hype_risk": 0.34,
+      "hf_memory_similarity": 0.31,
+      "hf_model_notes": "Quality is acceptable for monitoring, but the current pass lacks a fresh, execution-grade catalyst. Keep on watch until a confirmed filing/news event appears.",
       "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "",
-      "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 0.0,
-      "horizon_days": 7,
-      "margin_of_safety_case": "Margin of safety is moderate for biotech: diversified vaccine pipeline, non-dilutive capital, and partnerships reduce pure downside vs single-asset micro-caps. But regulatory and execution risk remain high and there is no large, recurring cash flow base yet.",
-      "market_regime": "In a cautious macro environment, quality mid-cap healthcare can be a relative safe harbor versus speculative tech, but regulatory headlines can still cause large idiosyncratic moves. The neutral-to-risk-off regime argues for patience and catalyst-linked entries instead of forcing a trade.",
-      "momentum_case": "Recent price action has shown constructive but not explosive momentum, with modest positive drift and liquidity. There is interest linked to Lyme and chikungunya, but not a parabolic move. Momentum is adequate for a swing if a clear news date emerges, but it does not currently present the kind of high-conviction breakout that warrants an immediate 1\u201310 day trade without a defined catalyst date.",
-      "owner_hold_case": "A 30\u2013180 day thesis could focus on: 1) Chikungunya launch ramp and label expansions; 2) Progress and readouts in Lyme and other pipeline assets; 3) Further partnership and manufacturing scale-up that de-risks commercialization. Periodic review around each regulatory and data milestone would be appropriate.",
-      "quality_case": "SEC 6-Ks describe strong seroresponse and antibody persistence for chikungunya vaccines, transparent handling of safety events, and non-dilutive capital from CEPI/EU Horizon plus strategic partnerships (Butantan, Serum Institute). This mix of validated clinical data, diversified capital sources, and global partners supports a higher quality profile within small/mid-cap vaccines.",
+      "hf_sentiment_label": "lightly_positive_watch",
+      "hf_sentiment_score": 0.18,
+      "hf_source_quality_score": 0.64,
+      "horizon_days": 5,
+      "margin_of_safety_case": "Margin of safety is limited because biotech outcomes are binary and valuation depends heavily on timing of milestones and adoption.",
+      "market_regime": "Works best in a selective risk-on tape where investors reward credible pipeline progress; weak market breadth would likely compress multiple expansion.",
+      "momentum_case": "Recent interest has been stable to slightly rising, but the setup lacks a confirmed breakout or new price/volume acceleration strong enough for execution on this pass.",
+      "owner_hold_case": "Review over 30-180 days if pipeline milestones keep progressing, safety issues remain contained, and commercial traction improves without undue dilution.",
+      "quality_case": "This is an owner-style biotech with real products and partnerships rather than a pure pre-revenue story. Balance-sheet and execution risks remain meaningful, but it has more fundamental substance than a hype-only microcap.",
       "recommendation": "watch",
-      "repeat_count_48h": 2,
+      "repeat_count_48h": 3,
       "research_tier": "watch",
-      "risk_reward": "Medium-to-high risk with asymmetric potential if multiple vaccines scale successfully, but the risk/reward over a 1\u201310 day horizon is currently unclear without a precise news trigger. Over 30\u2013180 days, risk/reward improves as more pipeline information surfaces, but this goes beyond the immediate paper-trade horizon.",
+      "risk_reward": "Potentially attractive if a real catalyst appears, but not enough evidence today to justify execution.",
       "sector": "healthcare-biotech-vaccines",
       "signal_weights": {
         "congressional_signal": 0.0,
-        "social_buzz": 0.05
+        "social_buzz": 0.03
       },
-      "social_buzz": "Low-to-moderate, generally thesis-oriented discussion around Lyme collaboration and broader pipeline, with some overly optimistic claims but less meme-like behavior than in smaller, hyped names.",
-      "source_quality": "Very strong for fundamentals: multiple SEC 6-Ks with rich clinical, partnership, and capital structure detail; supportive external analysis from reputable financial sources. Real-time price/volume details are not deeply re-scanned in this pass, but fundamental evidence quality is high.",
+      "social_buzz": "Low-to-moderate attention around vaccine milestones; useful only as context, not a primary signal.",
+      "source_quality": "Moderate-to-strong on company filings and recent milestone context, but not fresh enough for execution today.",
       "source_urls": [
-        "https://www.sec.gov/Archives/edgar/data/1836564/0001836564240000xx/valneva-6k-20241203.htm",
-        "https://www.sec.gov/Archives/edgar/data/1836564/0001836564240000yy/valneva-6k-20241219.htm",
-        "https://www.sec.gov/Archives/edgar/data/1836564/0001836564250000aa/valneva-6k-20250121.htm",
-        "https://www.sec.gov/Archives/edgar/data/1836564/0001836564250000bb/valneva-6k-20250807.htm"
+        "https://www.sec.gov/ixviewer/doc?action=load&doc=/Archives/edgar/data/1836564/000110465924139028/tm2431930d1_6k.htm",
+        "https://www.sec.gov/ixviewer/doc?action=load&doc=/Archives/edgar/data/1836564/000110465924140915/tm2432290d1_6k.htm",
+        "https://www.sec.gov/ixviewer/doc?action=load&doc=/Archives/edgar/data/1836564/000110465925005789/tm252585d1_6k.htm",
+        "https://www.sec.gov/ixviewer/doc?action=load&doc=/Archives/edgar/data/1836564/000110465925089999/tm2525184d1_6k.htm"
       ],
       "stop_loss_percent": 8.0,
       "strategy_tags": [
-        "chittick_cash",
-        "biotech-quality",
-        "monitor-for-catalyst"
+        "chittick_cash"
       ],
       "symbol": "VALN",
       "target_allocation_percent": 0.0,
-      "thesis": "Valneva is a vaccine-focused biotech with multiple late-stage and commercial assets (e.g., chikungunya, Lyme collaboration) and documented, high-quality clinical and partnership data. It offers a more fundamentally grounded, though still risky, biotech exposure than many micro-cap names. The nearer-term trade is a watch rather than an immediate execution, as the current setup is more about upcoming clinical/regulatory milestones than a discrete, tradable event this week.",
-      "valuation_case": "Valuation reflects expectations for chikungunya, Lyme, and other candidates; given binary risk, it is hard to label the stock clearly cheap. Evidence suggests some upside if multiple programs succeed, but the market is already ascribing meaningful value to the pipeline."
+      "thesis": "Valneva offers a higher-quality biotech profile than typical small-cap vaccine names because it has commercial assets, a real pipeline, and multiple possible news-driven inflection points. It is not cheap in a simple sense, but the combination of pipeline optionality and commercial progress can create a tradable setup if a confirmed milestone or regulatory update arrives.",
+      "valuation_case": "Valuation can become interesting if the market prices in pipeline optionality at a discount, but current evidence is insufficient to call it attractive for a 1-10 day trade."
+    },
+    {
+      "adversary_case": "The strongest objection is that this is a financing/repricing story, not a durable catalyst-backed business case.",
+      "allocation_learning_note": "Blocked from execution because the current edge is financing-driven and too dependent on post-offering sentiment.",
+      "balance_sheet_risk": "The new financing helps liquidity, but equity dilution is itself a material shareholder risk.",
+      "bear_case": "Dilution, biotech binary risk, and a potential post-rally fade are the main failure modes.",
+      "capital_allocation_case": "The raise suggests survival-oriented capital allocation rather than a high-conviction growth compounding story.",
+      "catalyst": "Recent priced equity and pre-funded warrant financing after a prior surge in the shares.",
+      "catalyst_type": "filing",
+      "chittick_cash_score": 38.0,
+      "chittick_reject_reason": "Source-thin, dilution-heavy setup with no durable fundamental catalyst for execution.",
+      "concentration_case": "It can outpace a broad ETF on event volatility, but the quality bar is too low for execution today.",
+      "confidence": 0.58,
+      "congressional_signal": "none",
+      "diversity_bucket": "healthcare-smallcap-biotech",
+      "entry_plan": "Monitor only. If a new catalyst appears and the stock holds a higher low with volume confirmation, reassess for a small tranche; otherwise avoid chasing.",
+      "exit_plan": "If held from lower levels, use a tight trailing stop around the news-driven support area and sell into the first liquidity spike.",
+      "fresh_catalyst": true,
+      "growth_runway": "Longer-term growth depends on pipeline progression, but no durable near-term evidence in this pass is strong enough to underwrite a trade.",
+      "hf_evidence_rank": 0.42,
+      "hf_filter_vetoes": [
+        "dilution_risk",
+        "source_thin",
+        "event_fade_risk"
+      ],
+      "hf_hype_risk": 0.7,
+      "hf_memory_similarity": 0.67,
+      "hf_model_notes": "The financing provides a real event but not a high-quality business catalyst. Keep out of execution lane unless a stronger follow-through develops.",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "speculative_momentum",
+      "hf_sentiment_score": 0.12,
+      "hf_source_quality_score": 0.53,
+      "horizon_days": 5,
+      "margin_of_safety_case": "Margin of safety is poor because the stock\u2019s valuation is highly sensitive to dilution and clinical execution.",
+      "market_regime": "In a cautious regime, this is more likely to be sold into strength than sustained unless fresh clinical or partnership news appears.",
+      "momentum_case": "There was a post-offering repricing impulse, but the move is likely already crowded and may be vulnerable to mean reversion once financing headlines fade.",
+      "owner_hold_case": "Only reconsider over 30-180 days if clinical or partnership milestones convert the financing into demonstrable value creation.",
+      "quality_case": "The capital raise may improve the balance sheet runway, but the underlying business remains highly speculative and dependent on clinical or partnership outcomes not yet established in the supplied evidence.",
+      "recommendation": "monitor-only",
+      "repeat_count_48h": 2,
+      "research_tier": "monitor-only",
+      "risk_reward": "The upside can be fast but the evidence base is too thin for a fresh trade today.",
+      "sector": "healthcare-biotech",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.06
+      },
+      "social_buzz": "Elevated niche attention after the financing and prior price move; treat as secondary context only.",
+      "source_quality": "Good on the financing event itself, but weak on durable fundamental evidence for a new entry.",
+      "source_urls": [
+        "https://www.nasdaq.com/market-activity/stocks/ctmx",
+        "https://www.benzinga.com/",
+        "https://www.marketwatch.com/",
+        "https://www.sec.gov/edgar/search"
+      ],
+      "stop_loss_percent": 8.0,
+      "strategy_tags": [
+        "chittick_cash"
+      ],
+      "symbol": "CTMX",
+      "target_allocation_percent": 0.0,
+      "thesis": "CTMX remains a tradable biotech only in the sense that financing-related repricing can create short-lived volatility. The current setup is too dependent on dilution mechanics and sentiment rather than durable fundamental evidence, so it belongs in monitoring rather than execution.",
+      "valuation_case": "Any apparent cheapness can be quickly offset by dilution and uncertainty, so valuation is not a strong support for entry."
+    },
+    {
+      "adversary_case": "The strongest objection is that the stock is not a fresh catalyst-driven swing candidate and may offer too little upside versus better names.",
+      "allocation_learning_note": "No new allocation suggested; existing exposure or watch-only status is more appropriate than initiating a fresh swing.",
+      "balance_sheet_risk": "Low balance-sheet risk relative to most equities; cyclicality is muted.",
+      "bear_case": "If yields rise or the market rotates back into higher-beta names, KO can lag. Upside is also capped by its defensive nature and richer valuation.",
+      "capital_allocation_case": "Management has a long record of disciplined capital allocation and shareholder-return focus.",
+      "catalyst": "Recent broker action citing improved volume expectations and brand-related exposure from official partnership visibility.",
+      "catalyst_type": "news",
+      "chittick_cash_score": 82.0,
+      "chittick_reject_reason": "No fresh actionable catalyst today; more of a quality hold than a new trade.",
+      "concentration_case": "It can earn a place only as a defensive anchor, not because it offers the best upside among current opportunities.",
+      "confidence": 0.71,
+      "congressional_signal": "none",
+      "diversity_bucket": "consumer-staples-defensive",
+      "entry_plan": "If used, buy only on a modest pullback or post-news consolidation, not after a vertical move. Keep size small relative to a faster-moving catalyst trade.",
+      "exit_plan": "Trim on a quick 2-4% appreciation if the move is news-driven; exit if the price loses the recent support or if defensive rotation stalls.",
+      "fresh_catalyst": true,
+      "growth_runway": "Longer-term growth comes from pricing, mix, and emerging-market volume, but near-term swing potential is limited.",
+      "hf_evidence_rank": 0.76,
+      "hf_filter_vetoes": [],
+      "hf_hype_risk": 0.08,
+      "hf_memory_similarity": 0.18,
+      "hf_model_notes": "High-quality but not urgent. Suitable as a hold/watch candidate, not a swing execution priority on this pass.",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "defensive_positive",
+      "hf_sentiment_score": 0.22,
+      "hf_source_quality_score": 0.81,
+      "horizon_days": 5,
+      "margin_of_safety_case": "Modest margin of safety thanks to brand durability and cash generation, though valuation is not especially cheap.",
+      "market_regime": "Best in a defensive or mixed regime where investors prefer cash flow certainty and lower volatility.",
+      "momentum_case": "The name has enough institutional sponsorship that it can trend on defensive rotation, but it typically lacks explosive momentum unless backed by a clear news catalyst.",
+      "owner_hold_case": "Hold through 30-180 days if defensive leadership persists and earnings execution remains stable.",
+      "quality_case": "Strong global brands, recurring demand, and resilient cash flow make it a classic quality business. The main limitation is valuation, which usually reduces margin of safety.",
+      "recommendation": "hold",
+      "repeat_count_48h": 1,
+      "research_tier": "hold",
+      "risk_reward": "Lower-risk but also lower-upside than more eventful names; suitable only if the bot wants a defensive sleeve.",
+      "sector": "consumer-staples-beverages",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "None meaningful.",
+      "source_quality": "Good: the catalyst comes from reputable broker commentary and aligns with a long-standing quality business.",
+      "source_urls": [
+        "https://www.reuters.com/",
+        "https://www.coca-colacompany.com/",
+        "https://www.tipranks.com/"
+      ],
+      "stop_loss_percent": 8.0,
+      "strategy_tags": [
+        "chittick_cash"
+      ],
+      "symbol": "KO",
+      "target_allocation_percent": 0.0,
+      "thesis": "Coca-Cola remains a high-quality defensive compounder with durable brands, pricing power, and a cleaner risk profile than most growth names. It can work as a steady paper-trade candidate when there is a company-specific catalyst and the market is rotating toward defensives.",
+      "valuation_case": "Reasonable for a quality defensive name, but not obviously mispriced enough to force a new entry."
     }
   ],
-  "summary": "Macro remains choppy with higher-for-longer rate fears and a firm dollar, which tends to pressure long-duration, high-multiple growth but supports a selective, quality-biased, risk-controlled approach. Sector rotation continues beneath the surface; defensives and quality cyclicals are relatively better anchors than crowded AI leaders. Biotech remains idiosyncratic and event-driven, suitable only for small, clearly risk-defined positions."
+  "summary": "No fresh execution-ready catalysts surfaced in the provided inputs. The regime is cautiously constructive but selective: quality names can work, yet repeated-name decay, limited source strength, and event risk argue for watchlists over new risk until a stronger company-specific catalyst appears."
 }
 -->
 
@@ -1286,4 +1344,12 @@ No candidates.
 |---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
 | CTMX | healthcare-biotech | execution-ready | healthcare-smallcap-biotech | 1 | yes | 0.63 | 38 | 0 | 0 | 2.0% | 8.0% | execute-if-guards-pass | 1) Recently priced ~$250M common stock + pre-funded warrants offering after a proposed raise that followed ~40%+ upside move; 2) Market now repricing post-dilut |
 | VALN | healthcare-biotech-vaccines | watch | healthcare-biotech | 2 | yes | 0.60 | 61 | 0 | 0 | 0.0% | 8.0% | watch | Ongoing and upcoming milestones around the Lyme disease vaccine collaboration with Pfizer, chikungunya label expansions, and other pipeline/regulatory events as |
+
+## Latest Candidates - 2026-05-19 19:29:18 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| VALN | healthcare-biotech-vaccines | watch | healthcare-biotech-vaccines | 3 | yes | 0.60 | 61 | 1 | 0 | 0.0% | 8.0% | watch | Potential upcoming data, regulatory, or commercial milestone related to the Lyme disease vaccine collaboration with Pfizer and continued progress on vaccine pro |
+| CTMX | healthcare-biotech | monitor-only | healthcare-smallcap-biotech | 2 | yes | 0.58 | 38 | 1 | 3 | 0.0% | 8.0% | monitor-only | Recent priced equity and pre-funded warrant financing after a prior surge in the shares. |
+| KO | consumer-staples-beverages | hold | consumer-staples-defensive | 1 | yes | 0.71 | 82 | 1 | 0 | 0.0% | 8.0% | hold | Recent broker action citing improved volume expectations and brand-related exposure from official partnership visibility. |
 
