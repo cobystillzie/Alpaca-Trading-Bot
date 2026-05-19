@@ -15274,4 +15274,153 @@ HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
 Self-learning: tier=watch repeat48h=0 fresh=yes bucket=international-vaccines-midcap
 Social buzz, low weight: none highlighted as material; no notable social or retail buzz anomalies surfaced in the provided sources.
 Congress signal, low weight: none; no congressional trading or lobbying disclosures in the snippets materially change the thesis for this timeframe.
+## Performance Ledger - 2026-05-19 12:32:28 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-05-19 12:32:27 Eastern Daylight Time
+- Portfolio value: $100,160.42
+- P/L vs $100k baseline: $160.42
+- Full paper-account return: 0.160%
+- Managed-capital return: 1.60%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 2.87%
+- Latest position value: $5,760.45
+- Full-account cash reserve: 94.2%
+- Managed-capital cash reserve: 42.4%
+- Max snapshot drawdown: $121.87 from 2026-05-08 16:30:03 Eastern Daylight Time to 2026-05-13 12:33:26 Eastern Daylight Time
+
+Open Position Review
+- DT: winner, value $811.16, unrealized P/L $11.16, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 11 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: winner, value $505.89, unrealized P/L $5.89, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 12 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: winner, value $835.72, unrealized P/L $35.72, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 19 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- IBRX: loser, value $538.95, unrealized P/L $-61.05, entry 2026-05-11 09:48:18 Eastern Daylight Time, thesis age 8 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: winner, value $502.33, unrealized P/L $2.33, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 7 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: winner, value $890.59, unrealized P/L $90.59, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 18 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $811.73, unrealized P/L $11.73, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 13 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $864.07, unrealized P/L $64.07, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 21 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- SCHD: appeared 34 times; open position P/L $11.73.
+- INTC: appeared 32 times; market outcome unavailable until benchmark/candidate price history is captured.
+- SPMO: appeared 32 times; open position P/L $64.07.
+- NVDA: appeared 28 times; open position P/L $90.59.
+- GOOGL: appeared 25 times; open position P/L $35.72.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- UNP: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- GLD: appeared 9 times; market outcome unavailable until benchmark/candidate price history is captured.
+- SQ: appeared 9 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Candidate references banned v1 instruments or leverage.: 11
+  - Single-stock allocation would exceed 15%.: 7
+  - A market-open order is already logged for today. No backup order was placed.: 5
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources.: 5
+  - Max open-position count would be exceeded.: 3
+  - Low-weight social/congress signal needs at least two stronger sources.: 2
+  - Low-weight social/congress signal needs at least two stronger sources. micro_cap_speculation potentially_delisted no_fundamental_catalyst HF source/hype filter rejects source-thin hype. Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%. Stop loss must be between 3% and 12%.: 2
+  - repeat_staleness HF source/hype filter rejects source-thin hype. HF memory filter flags similarity to prior rejected patterns.: 2
+- By symbol:
+  - GOOGL: 3
+  - PLTR: 3
+  - COIN: 2
+  - FLEX: 2
+  - FPS: 2
+  - GLD: 2
+  - LMT: 2
+  - NVDA: 2
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 0
+- sec: 2
+- unknown: 4
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold met: 8 trades over 21 days.
+- Strategy tuning may be reviewed, but safety guardrails still apply.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## Midday Memo - 2026-05-19 12:32:28 Eastern Daylight Time
+
+Midday Risk Memo
+
+Recommendation: Hold only positions whose thesis still matches the research; do not add unless guardrails pass.
+
+Market Regime
+Review current paper positions, thesis drift, concentration, stop discipline, and cash reserve.
+
+Portfolio
+Portfolio value: 100160.42 Cash: 94400 Buying power: 194560.42 Positions: - DT: qty=20.289119959, market_value=811.159016, unrealized_pl=11.159016 - GLRE: qty=28.042624789, market_value=505.888951, unrealized_pl=5.888951 - GOOGL: qty=2.151289429, market_value=835.722161, unrealized_pl=35.722161 - IBRX: qty=70.838252656, market_value=538.951594, unrealized_pl=-61.048406 - LNC: qty=14.590020426, market_value=502.334403, unrealized_pl=2.334403 - NVDA: qty=4.00060009, market_value=890.593589, unrealized_pl=90.593589 - SCHD: qty=25.2286345, market_value=811.731315, unrealized_pl=11.731315 - SPMO: qty=6.119014838, market_value=864.065473, unrealized_pl=64.065473 Performance: value $100,160.42, P/L vs $100k $160.42, managed return 1.60%, deployed return 2.87%, managed cash reserve 42.4%.
+
+Top Candidates
+
+1. CTMX (healthcare-biotech) | confidence 0.63 | allocation 2.0% | stop 8.0% | Chittick 35/100 | tier execution-ready | bucket healthcare-smallcap-biotech
+Thesis: CytomX is a small-cap, clinical-stage oncology biotech that just executed a large $250M common stock and pre-funded warrant offering after positive Phase 1 data for a masked ADC in colorectal cancer and a strong Q4 2025 reaction. The stock sold off ~19% on the actual pricing of the offering, creating a near-term dislocation between constructive fundamenta...
+Catalyst: 1) May 18 priced $250M equity + pre-funded warrant offering following a proposed offering announcement that previously saw the stock surge ~44%; 2) recent positive Phase 1 data for a masked ADC in colorectal cancer with notable price reaction; 3) multiple recent analyst upgrades/initiations with...
+Entry: For paper trading, consider a staged entry only if price shows stabilization after the offering selloff. A reasonable pattern to require: 1) at least one full day where CTMX closes green on above-average volume relative to the 10–20 day average; 2) intraday...
+Exit: Primary invalidation: a decisive close below the post-offering low (or 8% below your modeled entry, whichever is tighter) signals that selling pressure remains in control—paper trade exit at that point. Profit-taking: target ~15–20% upside from entry, or a...
+Risk/reward: This is a high-volatility, asymmetric trade: you are risking roughly 8% on the downside for a possible 15–20% rebound over a few days if dilution fears fade and data/analyst support reasserts. The payoff can be attractive, but the odds are materially lower...
+Bear/adversary: The strongest objection is that post-offering selloffs in small-cap biotech often do not fully mean-revert: the market may be correctly repricing CTMX to reflect a more dilutive share count and persistent financing risk. Without a clear upcoming near-term catalyst (e.g., a major data readout or p...
+Source quality: Evidence quality is mixed but acceptable for a speculative swing: corporate news feeds (GlobeNewswire via Finviz) confirm the size and timing of the capital raise and recent trial commentary; multiple reputable sell-side firms have published ratings and pri...
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Margin of safety is thin in traditional value terms: no established cash-flow base, ongoing R&D burn, and explicit need for capital (just evidenced by the $250M raise). Any perceived margin of safety is purely in the pricing dislocation...
+Valuation: Analyst targets in the $5–12 range suggest that, on a risk-adjusted basis, the Street sees upside from recent trading levels, but those models rely heavily on probability-weighted success of pipeline assets and potential partnering econo...
+Growth runway: 30–180 days: potential drivers include additional Phase 1/2 data releases for its masked ADCs, updates from ongoing oncology collaborations (if any), and improved visibility on runway after the capital raise. Longer term, the growth case...
+Balance-sheet risk: The $250M offering likely extends cash runway but at the cost of dilution. Balance-sheet risk is better than before the raise in terms of liquidity, but financial risk remains high relative to a profitable company bec...
+Capital allocation: Management’s choice to raise a large amount of capital following positive data is consistent with typical biotech practice—de-risk the balance sheet when sentiment and price are more favorable. However, this pattern a...
+Concentration case: CTMX does not justify a large concentrated allocation in a Chittick Cash framework: it lacks recurring earnings, has binary development risks, and just executed a sizeable dilutive transaction. At most, it could occupy a small speculativ...
+Owner thesis, 30-180 days: An owner-style 30–180 day thesis would require at least: 1) confirmed follow-up data that strengthens the perceived probability of success for lead assets; 2) clear disclosure of cash runway post-offering (e.g., >24 months at current burn); and 3) evidence...
+Chittick reject reason: Insufficient margin of safety and balance-sheet resilience for a high-conviction, owner-style allocation; acceptable only as a small, clearly bounded speculative swing.
+Self-Learning Filter
+Catalyst type: filing/news
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: healthcare-smallcap-biotech
+Research tier: execution-ready
+Allocation learning: Biotech financings often create tempting drawdowns that can encourage oversizing; for this framework, CTMX should be treated as a live test of small-sizing discipline in high-volatility event names, not as a template for larger positions.
+Hugging Face Filter
+Not run for this candidate.
+Social buzz, max 10%: none identified as a distinct driver; any online chatter around CTMX appears consistent with normal biotech event discussion and does not provide an independent signal.
+Congress signal, max 5%: none; no relevant congressional trading activity surfaced in the provided context.
+Sources: https://finviz.com/quote?t=CTMX
+
+2. VALN (healthcare-biotech-vaccines) | confidence 0.60 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier watch | bucket international-vaccines-midcap
+Thesis: Valneva is a specialty vaccine company with a commercial base and a pipeline led by its Lyme disease vaccine collaboration and travel vaccines like IXCHIQ. The stock has recently shown constructive technical strength with buy signals from moving averages and MACD, while Street price targets imply significant potential upside from current levels. However,...
+Catalyst: 1) Ongoing development and potential regulatory/clinical milestones in Lyme disease and other vaccines (per news summaries and analyst coverage); 2) SEC filings in late 2024 and 2025 detailing IXCHIQ label updates and expansion plans; 3) recent positive technical pattern: stock up ~26% over two w...
+Entry: Treat VALN as a watch-first candidate. A paper-trade entry would require: 1) a clear technical trigger such as a breakout above recent short-term resistance with above-average volume, or a fresh pivot low followed by a strong green day; 2) ideally, alignmen...
+Exit: Use a relatively modest upside target for a 5–7 day swing, e.g., 12–18% from entry, aiming for a retest of prior local resistance levels. Place a stop ~7–9% below entry or below the breakout/pivot level that justified the trade, whichever is tighter. If the...
+Risk/reward: If entered on a breakout with a 7–9% downside and a 12–18% upside target, the modeled reward-to-risk ranges from ~1.3:1 to 2:1. That’s acceptable but not exceptional, and success depends on the quality of the catalyst and breakout confirmation. Given the re...
+Bear/adversary: From a strict Chittick Cash viewpoint, VALN remains too execution-sensitive and dependent on a few products with non-trivial safety/regulatory issues to merit concentrated capital. The history of a disappointing COVID vaccine underscores that management and R&D execution have been uneven. The rec...
+Source quality: Evidence quality is relatively strong: SEC filings provide detailed information on IXCHIQ’s regulatory status, safety profile, and expansion plans; MarketBeat aggregates multiple analyst price targets and ratings; StockInvest gives a structured technical an...
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Compared to a pure development-stage biotech, Valneva has some margin of safety via existing products and partnerships, but its revenue base is still narrow and exposed to regulatory and travel demand swings. The wide analyst target spre...
+Valuation: MarketBeat’s consensus target of roughly $11.98 vs. a current price near $5.71 implies >100% upside, but this should be viewed cautiously: it embeds expectations for continued uptake of existing vaccines, successful regulatory expansions...
+Growth runway: 30–180 days: potential growth drivers include additional regulatory approvals/label extensions for IXCHIQ and other vaccines, progress in Lyme disease vaccine trials with its partner, geographic expansion via technology transfer to Serum...
+Balance-sheet risk: SEC filings highlight ongoing R&D and post-marketing commitments that will continue to consume cash, although the presence of commercial products and partnership structures helps. Tech-transfer and manufacturing inves...
+Capital allocation: Management has pursued partnerships and technology transfer deals to expand reach while sharing risk, which is generally positive. However, the company’s earlier COVID vaccine misstep shows the downside of aggressive...
+Concentration case: Given product concentration risk, regulatory uncertainties, and modest scale, VALN should not be a core, concentrated holding under a Chittick Cash lens. It is more suitable as a moderate-risk, diversified position, or as a swing candida...
+Owner thesis, 30-180 days: A 30–180 day owner-style hold would require: 1) clear evidence of IXCHIQ demand stabilizing at levels consistent with management guidance and safety profile; 2) tangible progress in Lyme vaccine development or other pipeline catalysts; 3) visibility on cash...
+Chittick reject reason: Does not achieve the balance-sheet strength or business resilience of a classic Chittick Cash core holding; remains too execution- and regulatory-dependent for a large, concentrated position.
+Self-Learning Filter
+Catalyst type: structural/news/momentum
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: international-vaccines-midcap
+Research tier: watch
+Allocation learning: VALN offers a useful case study in balancing attractive analyst upside with genuine regulatory and execution risk; for this framework, emphasis should remain on confirmation via fresh catalysts and technical strength rather than valuatio...
+Hugging Face Filter
+Not run for this candidate.
+Social buzz, max 10%: none highlighted as material; no notable social or retail buzz anomalies surfaced in the provided sources.
+Congress signal, max 5%: none; no congressional trading or lobbying disclosures in the snippets materially change the thesis for this timeframe.
+Sources: https://stockinvest.us/stock/VALN, https://www.marketbeat.com/stocks/NASDAQ/VALN/forecast/, https://markets.chroniclejournal.com/chroniclejournal/quote/news?Symbol=NQ%3AVALN&ChannelType=NEWS, https://www.sec.gov/Archives/edgar/data/1836564/000183656425000064/valn-20250807.htm
 
