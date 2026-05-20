@@ -16420,4 +16420,203 @@ HF filter: sentiment=defensive/constructive source=1/100 hype=0.05 vetoes=0
 Self-learning: tier=watch repeat48h=3 fresh=yes bucket=consumer-staples-beverages
 Social buzz, low weight: minimal; mostly defensive-rotation chatter.
 Congress signal, low weight: none
+## Performance Ledger - 2026-05-20 16:30:03 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-05-20 16:30:03 Eastern Daylight Time
+- Portfolio value: $100,213.93
+- P/L vs $100k baseline: $213.93
+- Full paper-account return: 0.214%
+- Managed-capital return: 2.14%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 3.82%
+- Latest position value: $5,813.94
+- Full-account cash reserve: 94.2%
+- Managed-capital cash reserve: 41.9%
+- Max snapshot drawdown: $121.87 from 2026-05-08 16:30:03 Eastern Daylight Time to 2026-05-13 12:33:26 Eastern Daylight Time
+
+Open Position Review
+- DT: loser, value $799.80, unrealized P/L $-0.20, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 12 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: loser, value $496.63, unrealized P/L $-3.37, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 13 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: winner, value $836.64, unrealized P/L $36.64, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 20 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- IBRX: loser, value $570.94, unrealized P/L $-29.06, entry 2026-05-11 09:48:18 Eastern Daylight Time, thesis age 9 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: winner, value $517.65, unrealized P/L $17.65, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 8 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: winner, value $905.54, unrealized P/L $105.54, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 19 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $809.33, unrealized P/L $9.33, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 14 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $877.41, unrealized P/L $77.41, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 22 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- SCHD: appeared 34 times; open position P/L $9.33.
+- INTC: appeared 32 times; market outcome unavailable until benchmark/candidate price history is captured.
+- SPMO: appeared 32 times; open position P/L $77.41.
+- NVDA: appeared 29 times; open position P/L $105.54.
+- GOOGL: appeared 25 times; open position P/L $36.64.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- UNP: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VALN: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- GLD: appeared 9 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Candidate references banned v1 instruments or leverage.: 11
+  - Single-stock allocation would exceed 15%.: 7
+  - A market-open order is already logged for today. No backup order was placed.: 5
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources.: 5
+  - Max open-position count would be exceeded.: 3
+  - Low-weight social/congress signal needs at least two stronger sources.: 2
+  - Low-weight social/congress signal needs at least two stronger sources. micro_cap_speculation potentially_delisted no_fundamental_catalyst HF source/hype filter rejects source-thin hype. Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%. Stop loss must be between 3% and 12%.: 2
+  - repeat_staleness HF source/hype filter rejects source-thin hype. HF memory filter flags similarity to prior rejected patterns.: 2
+- By symbol:
+  - GOOGL: 3
+  - PLTR: 3
+  - COIN: 2
+  - FLEX: 2
+  - FPS: 2
+  - GLD: 2
+  - LMT: 2
+  - NVDA: 2
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 0
+- congressional: 1
+- reputable_financial_news: 1
+- social: 1
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold met: 8 trades over 22 days.
+- Strategy tuning may be reviewed, but safety guardrails still apply.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## End Of Day Memo - 2026-05-20 16:30:03 Eastern Daylight Time
+
+End Of Day Analyst Memo
+
+Recommendation: Carry forward only evidence-backed candidates; review stops before the next market-open run.
+
+Market Regime
+End-of-day review of paper portfolio, trade quality, risk notes, and next-day watchlist.
+
+Portfolio
+Portfolio value: 100213.93 Cash: 94400 Buying power: 194613.93 Positions: - DT: qty=20.289119959, market_value=799.797109, unrealized_pl=-0.202891 - GLRE: qty=28.042624789, market_value=496.634885, unrealized_pl=-3.365115 - GOOGL: qty=2.151289429, market_value=836.636459, unrealized_pl=36.636459 - IBRX: qty=70.838252656, market_value=570.935065, unrealized_pl=-29.064935 - LNC: qty=14.590020426, market_value=517.653925, unrealized_pl=17.653925 - NVDA: qty=4.00060009, market_value=905.541431, unrealized_pl=105.541431 - SCHD: qty=25.2286345, market_value=809.334595, unrealized_pl=9.334595 - SPMO: qty=6.119014838, market_value=877.405538, unrealized_pl=77.405538 Performance: value $100,213.93, P/L vs $100k $213.93, managed return 2.14%, deployed return 3.82%, managed cash reserve 41.9%.
+
+Top Candidates
+
+1. MU (information-technology / semiconductors) | confidence 0.61 | allocation 5.0% | stop 8.0% | Chittick 61/100 | tier execute-if-guards-pass | bucket information-technology-semiconductors | HF source 1/100
+Thesis: Micron offers a quality-oriented cyclical setup where improving DRAM pricing and memory tightness can support a 1-10 day swing if the market confirms the rally rather than fading it. Compared with lower-quality momentum names, MU has better earnings leverage and a more defensible business if the memory upcycle is real.
+Catalyst: Market coverage highlighted a major DRAM rally theme and identified two catalysts that could either extend or break the 2026 memory move; the stock is trading near a technically important area and already has fresh attention.
+Entry: Paper-entry only on a confirmed breakout above recent resistance with expanding volume, or on a controlled pullback that holds the breakout area intraday. Avoid chasing a gap extension without follow-through.
+Exit: Take partial profits into the first strong extension day; exit fully on failed breakout, loss of key support, or if the sector leadership narrows. Use an 8% stop from entry if triggered.
+Risk/reward: Good if memory momentum continues: defined downside, meaningful upside on a sector squeeze.
+Bear/adversary: The strongest objection is that this is just another cyclical memory headline and the rally may already be priced in.
+Source quality: Moderate-to-strong for a market-data/news setup, but not ideal because the supplied description is partial and not an official company filing or earnings release.
+Chittick Cash Filter
+Score: 61/100
+Margin of safety: Not deep value, but better margin discipline than speculative names because the trade is tied to a real earnings-sensitive cycle rather than pure story stock promotion.
+Valuation: Attractive only if memory pricing and guidance are still inflecting upward; otherwise valuation can look cheap for a reason in a cyclical downturn.
+Growth runway: 30-180 day runway depends on DRAM pricing, supply discipline, and AI/server memory demand; longer term, the business benefits from memory content growth in AI infrastructure.
+Balance-sheet risk: Cyclical earnings volatility remains the main risk; no major dilution issue is indicated in the provided material.
+Capital allocation: Management discipline matters because cyclical capex and supply decisions can amplify both upside and downside.
+Concentration case: Deserves attention over a broad ETF because it offers direct exposure to a specific, tradable memory inflection rather than diluted index exposure.
+Owner thesis, 30-180 days: Review/hold if memory pricing and guidance remain constructive and the stock keeps respecting breakout support over the next few weeks.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: news
+Fresh catalyst: yes
+Repeat count, 48h: 2
+Diversity bucket: information-technology-semiconductors
+Research tier: execute-if-guards-pass
+Allocation learning: Smaller tranche appropriate because the setup is cyclical and headline-sensitive; do not size as a conviction core.
+Hugging Face Filter
+Sentiment: constructive but not strong (0.58), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.28
+Evidence rank: 1/100
+Memory similarity: 0.18
+Vetoes: none
+Model notes: Fresh cyclical catalyst with acceptable evidence quality; not hype-only, but still requires technical confirmation.
+Social buzz, max 10%: moderate attention around memory and semis; treated only as context, not a primary catalyst.
+Congress signal, max 5%: none
+Sources: https://www.stonex.com/en/insights/daily-coffee-report-5-19-26/
+
+2. C (financials / diversified banks) | confidence 0.55 | allocation 0.0% | stop 0.0% | Chittick 54/100 | tier watch | bucket financials-large-cap-bank | HF source 1/100
+Thesis: Citigroup is a quality large-cap financial that can work as a short swing if the market continues to reward banks with visible capital return and analyst support. It fits the Buffett/Munger lens better than most short-horizon ideas because it is cash-generative, diversified, and less story-driven.
+Catalyst: Recent trading-signal attention and multiple analyst targets in the last 6 months, with a median target cited around $144, provide a soft but current catalyst backdrop.
+Entry: Buy only if price holds above recent support and the market is not punishing banks broadly. Use a small starter position and add only on strength after confirmation.
+Exit: Trim into 3-5% upside if the move is orderly; exit on loss of support or if financials reverse with yields. Keep the stop tight because the edge is modest.
+Risk/reward: Moderate upside with limited but real downside if the bank tape stays constructive.
+Bear/adversary: The strongest objection is that this is just analyst noise without a strong operational catalyst.
+Source quality: Moderate. The cited evidence is more market-data/analyst-flow oriented than fundamental, but it is still more credible than social buzz.
+Chittick Cash Filter
+Score: 54/100
+Margin of safety: Better margin of safety than most growth names because it is a large, diversified bank with capital return capacity and less narrative fragility.
+Valuation: Potentially reasonable if the market keeps applying a discount to bank earnings and the name is still underappreciated versus peers.
+Growth runway: Growth is mainly via capital return, efficiency, and franchise optimization rather than rapid top-line expansion.
+Balance-sheet risk: Bank balance-sheet and credit-cycle exposure remain the key risks, though they are manageable for a large diversified lender.
+Capital allocation: Capital return discipline matters here; banks that buy back stock and preserve CET1 flex can outperform in choppy regimes.
+Concentration case: Useful as a diversification anchor versus a broad ETF because it is a single high-quality financial with identifiable valuation and rate sensitivity.
+Owner thesis, 30-180 days: Hold/review over 30-180 days if capital return stays strong and credit quality remains stable.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: general
+Fresh catalyst: yes
+Repeat count, 48h: 0
+Diversity bucket: financials-large-cap-bank
+Research tier: watch
+Allocation learning: Prefer watch status until a clearer price trigger or company-specific catalyst appears.
+Hugging Face Filter
+Sentiment: mildly constructive (0.36), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.12
+Evidence rank: 0/100
+Memory similarity: 0.11
+Vetoes: none
+Model notes: Soft catalyst, but credible enough for watch status; not execution-ready.
+Social buzz, max 10%: low, mostly rate- and bank-sector discussion.
+Congress signal, max 5%: none
+Sources: https://www.quiverquant.com/stocks/C
+
+3. KO (consumer-staples-beverages) | confidence 0.74 | allocation 0.0% | stop 0.0% | Chittick 79/100 | tier watch | bucket consumer-staples-beverages | HF source 1/100
+Thesis: Coca-Cola remains a high-quality defensive compounder, and it can still be used tactically when the market is defensive or when analyst upgrades create a small but tradable drift higher. It is not a high-conviction swing trade here, but it is a quality benchmark in a difficult tape.
+Catalyst: Recent broker action cited improved volume expectations and maintained positive sentiment around brand visibility and partnership-related exposure.
+Entry: Only consider on a shallow pullback or a tight breakout after a market-wide wobble. Do not chase if it has already moved on the headline.
+Exit: Take quick partial gains on a small move; stop out on failed support or if the market rotates back into risk-on growth. Keep risk small because expected upside is limited.
+Risk/reward: Low-to-moderate upside, low drama, but not the best swing if more catalytic names are available.
+Bear/adversary: The strongest objection is that KO is too slow and the catalyst is too mild for a short swing.
+Source quality: Moderate. Broker action is a real signal, but it is not a hard fundamental inflection.
+Chittick Cash Filter
+Score: 79/100
+Margin of safety: Strong margin-of-safety profile due to cash flows, brand resilience, and defensive demand.
+Valuation: Reasonable for a quality staple, but not obviously cheap enough to justify aggressive upside expectations.
+Growth runway: Longer-term runway comes from pricing, innovation, and emerging-market volume, though near-term growth is usually modest.
+Balance-sheet risk: Balance-sheet risk is not a major concern versus the broader market, though it remains a large-cap corporate issuer.
+Capital allocation: Historically disciplined capital allocation and shareholder returns support the quality case.
+Concentration case: Worth attention over a broad ETF because it is a durable, lower-risk quality anchor with better downside protection than many alternatives.
+Owner thesis, 30-180 days: Worth reviewing over 30-180 days if defensive leadership persists and the company continues to defend margins and volume.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: news
+Fresh catalyst: yes
+Repeat count, 48h: 4
+Diversity bucket: consumer-staples-beverages
+Research tier: watch
+Allocation learning: Good quality name, but keep muted because the catalyst is modest and the move may already be partly realized.
+Hugging Face Filter
+Sentiment: defensive/constructive (0.41), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.05
+Evidence rank: 1/100
+Memory similarity: 0.08
+Vetoes: none
+Model notes: Quality anchor, but swing-trade upside is limited.
+Social buzz, max 10%: minimal; mostly defensive-rotation chatter.
+Congress signal, max 5%: none
+Sources: https://www.cnbc.com/quotes/KO
 
