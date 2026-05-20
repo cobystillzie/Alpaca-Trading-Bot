@@ -151,4 +151,22 @@ No candidates available. No order was placed.
 ## Market Open Execution - 2026-05-19 09:55:03 Eastern Daylight Time
 
 No candidates available. No order was placed.
+## Rejected ET - 2026-05-20 09:55:03 Eastern Daylight Time
+
+Candidate references banned v1 instruments or leverage.
+Candidate is monitor-only and cannot be traded.
+Confidence below 0.60.
+Target allocation must be between 1% and 15%.
+Stop loss must be between 3% and 12%.
+## Rejected LLOY.L - 2026-05-20 09:55:03 Eastern Daylight Time
+
+Confidence below 0.60.
+Target allocation must be between 1% and 15%.
+Stop loss must be between 3% and 12%.
+## Rejected EPP01 - 2026-05-20 09:55:03 Eastern Daylight Time
+
+Candidate is monitor-only and cannot be traded.
+Confidence below 0.60.
+Target allocation must be between 1% and 15%.
+Stop loss must be between 3% and 12%.
 
