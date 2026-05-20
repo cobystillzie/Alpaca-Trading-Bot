@@ -15856,4 +15856,37 @@ HF filter: sentiment=constructive source=1/100 hype=0.16 vetoes=0
 Self-learning: tier=execution-ready repeat48h=2 fresh=yes bucket=consumer-staples-beverages
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-20 01:33:48 Eastern Daylight Time
+
+Research Update
+
+Market tone: Futures are slightly weak with inflation and geopolitical concerns in focus while traders await Nvidia’s earnings. Stock-specific catalysts today include Nvidia’s early delivery of its next-gen Vera CPU to major AI customers and XPeng’s mass-produced Robotaxi rollout, both influencing sentiment in AI infrastructure and autonomous driving names.
+Candidates: 3
+
+1. NVDA (information-technology-semiconductors) | confidence 0.58 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier monitor-only | bucket mega-cap-ai-semiconductors | HF source 0/100 | HF veto
+Recommendation: watch
+Catalyst: 1) Company blog-confirmed initial Vera CPU deliveries to marquee AI customers; 2) Imminent Q1 earnings with high investor focus; 3) Modest premarket dip despite positive product news, setting up a possible relief/momentum move if earning...
+Chittick Cash: Valuation embeds very high growth and AI leadership assumptions, leaving limited classical margin of safety. The quality of the business is exceptional, but entry here is largely a momentum and catalyst bet rather tha...
+HF filter: sentiment=not run source=0/100 hype=0.15 vetoes=2
+Self-learning: tier=monitor-only repeat48h=0 fresh=yes bucket=mega-cap-ai-semiconductors
+Social buzz, low weight: Some online chatter and newsflow focus on Nvidia’s Vera delivery and upcoming earnings, but no clear evidence of abnormal, tradeable buzz beyond standard mega-cap attention.
+Congress signal, low weight: none
+
+2. XPEV (consumer-discretionary-automobiles-ev) | confidence 0.55 | allocation 0.0% | stop 9.0% | Chittick 35/100 | tier watch | bucket china-ev-autonomy | HF source 0/100
+Recommendation: watch
+Catalyst: 1) Official rollout of XPeng’s first mass-produced Robotaxi; 2) Management commentary that customer engagement improved after VLA rollout; 3) The stock is down ~3.5% on the day and trades 7.3% below its 20-day SMA and ~24% below its 200-...
+Chittick Cash: Given weak profitability and competitive pressures, there is limited classic margin of safety. The stock’s proximity to 52-week lows offers some technical reference for downside, but intrinsic-value certainty is low.
+HF filter: sentiment=not run source=0/100 hype=0.25 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=china-ev-autonomy
+Social buzz, low weight: No strong, verifiable abnormal buzz signals; any attention appears in standard EV/China discourse without clear volume anomalies.
+Congress signal, low weight: none
+
+3. VALN (healthcare-biotech-vaccines) | confidence 0.60 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier watch | bucket international-biotech-vaccines | HF source 0/100
+Recommendation: watch
+Catalyst: Medium-term catalysts include ongoing development and potential regulatory/clinical milestones for the Lyme disease vaccine, chikungunya label expansions, and broader geographic commercialization. No clear, dated near-term (1–10 day) cat...
+Chittick Cash: Valuation may embed pessimism after a significant drawdown, but intrinsic value is highly sensitive to pipeline success probabilities. From a strict margin-of-safety lens, the uncertainty is high, so position sizing s...
+HF filter: sentiment=not run source=0/100 hype=0.12 vetoes=0
+Self-learning: tier=watch repeat48h=4 fresh=yes bucket=international-biotech-vaccines
+Social buzz, low weight: none
+Congress signal, low weight: none
 
