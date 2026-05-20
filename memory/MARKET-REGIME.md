@@ -7098,4 +7098,169 @@ The US equity market is grinding to record highs, but the underlying conditions 
     "https://www.youtube.com/watch?v=QYYHtaX6na8"
   ]
 }
+## Market Regime Research - 2026-05-20 05:33:46 Eastern Daylight Time
+
+{
+  "summary": {
+    "tone": "risk-on but selective",
+    "description": "US equities are in a strong uptrend after a sharp April rebound, led by growth and AI-linked technology, with small caps and emerging markets participating. Earnings are broadly beating expectations and supporting the move. Rates and inflation remain elevated but have stabilized enough that markets are not currently pricing an imminent policy shock. The environment is pro‑risk but still data‑ and headline‑sensitive, which suits a cautious, rules‑based paper‑trading workflow."
+  },
+  "market_regime": {
+    "index_trend": {
+      "equities": "uptrend / bullish bias",
+      "evidence": [
+        "US stocks rebounded ~10% in April, with the S&P 500 making new record highs after a brief March pullback. (Park Avenue May 2026 commentary)",
+        "Small caps (Russell 2000) rallied ~12%, outpacing large caps, suggesting broadening participation beyond mega‑cap leaders.",
+        "Emerging markets, especially AI- and tech-heavy Asian markets (Korea, Taiwan), outperformed, consistent with a global risk-on tone."
+      ],
+      "interpretation_for_bot": "Regime is trend-up rather than range-bound or corrective. For paper trading, this favors testing strategies that assume positive index drift but still incorporate pullback/volatility filters."
+    },
+    "rates_and_fed": {
+      "rates_level_and_trend": [
+        "10-year US Treasury yield in the mid‑4s to high‑4s (around 4.4% in April, with recent moves toward ~4.6% as per mortgage-rate references), indicating a still-restrictive but not spiraling environment.",
+        "Mortgage rates hovering in the low-to-mid 6% range, with commentary that they are likely to remain around these levels near term. (MortgageReports May 19, 2026)"
+      ],
+      "fed_policy_tone": [
+        "Fed has left rates unchanged for multiple meetings and is explicitly data‑dependent. (Park Avenue commentary)",
+        "Institutional outlooks still expect a modest easing cycle (about 50 bps of cuts in 2026), but timing is uncertain and conditional on inflation data. (State Street Global Advisors TAA May 2026)",
+        "Fed-watching commentary and New York Fed communications highlight concern about money-market and rate volatility, but not an imminent hiking campaign."
+      ],
+      "usd_and_global": [
+        "US Dollar Index has rebounded ~1.8% off May lows and broken above key technical resistance as Fed expectations tilt somewhat hawkish. (StoneX / Fed expectations piece)",
+        "Stronger USD is a mild headwind to non-US risk assets but has not derailed EM outperformance yet, thanks to tech/AI and easing energy pressures earlier in the period."
+      ],
+      "interpretation_for_bot": "Rates regime: 'high but stable with hawkish risk.' For a cautious framework, market-regime filters should treat a sudden spike in yields or more hawkish Fed rhetoric as a key risk-off trigger, even within the current bullish equity trend."
+    },
+    "volatility": {
+      "observed_conditions": [
+        "Equity markets rebounded sharply after a ~5% pullback in March, suggesting episodic but contained volatility rather than persistent stress.",
+        "Treasury yields have traded in a relatively narrow range recently as inflation expectations stabilized with easing energy prices, though there are renewed pressures from higher oil. (Park Avenue commentary; mortgage-rate update)",
+        "Fed and NY Fed communications explicitly point to potential for rate and money-market volatility, but current realized volatility in major indices is consistent with an expansionary equity phase, not crisis."
+      ],
+      "regime_label": "moderate, event-driven volatility",
+      "interpretation_for_bot": "Paper strategies can assume 'normal' volatility with occasional shocks. For a cautious approach, it is sensible to test rule toggles that de‑risk on large day-to-day index moves or sharp yield changes."
+    },
+    "earnings_tone": {
+      "broad_earnings": [
+        "Q1 earnings growth running near the strongest pace since late 2021 (~+27% YoY for S&P 500 earnings in the data cited).",
+        "Around 84% of S&P 500 companies that have reported beat earnings estimates, and ~81% have positive revenue surprises. (Park Avenue commentary)",
+        "Corporate commentary overall supports the view of a still-resilient US consumer and stable-to-improving margins, especially in tech and AI infrastructure."
+      ],
+      "sector_specific": [
+        "US tech stocks returned ~17% in April, the best monthly performance since 2002, driven by semiconductors (+28%) and major platforms monetizing AI (e.g., Alphabet’s Gemini ramp).",
+        "High yield credit spreads have tightened (~0.45% narrowing), reflecting stronger corporate fundamentals and low near-term default stress. (Park Avenue commentary)",
+        "Individual names in cyclical sectors (e.g., Home Depot) face idiosyncratic fundamental headwinds, but analyst consensus remains constructive on earnings power over the medium term."
+      ],
+      "interpretation_for_bot": "Earnings regime: supportive / beat-driven. For simulation, it is reasonable to flag the current phase as earnings‑supportive to trend-following and growth/quality tilts."
+    },
+    "risk_on_off_conditions": {
+      "risk_on_signals": [
+        "Strong performance of small caps and emerging markets, both typically more sensitive to risk sentiment.",
+        "Outperformance of high yield credit and tightening spreads, indicating a healthy credit environment rather than defensive stress positioning.",
+        "Tech, semiconductors, and AI infrastructure leading returns, often associated with risk-on behavior and growth appetite.",
+        "Geopolitical risk (Middle East conflict) has de‑escalated via a ceasefire extension, and markets have priced in lower odds of further escalation impacting the macro outlook."
+      ],
+      "risk_off_or_caution_signals": [
+        "Inflation remains above the Fed’s 2% target (headline CPI around mid‑3% range, core in the mid‑2s), with energy volatility still a swing factor.",
+        "Long-term yields remain relatively high versus the post-2008 norm, keeping financial conditions tighter than in prior cycles.",
+        "The US dollar’s renewed strength and Fed futures turning somewhat more hawkish raise the risk of another leg up in yields.",
+        "Isolated sector stress and stock-specific drawdowns in some defense/industrial names and other cyclicals, coupled with bouts of profit-taking after big tech/AI runs."
+      ],
+      "net_assessment": "Net regime is risk-on with embedded macro and policy tail risks. The balance of evidence supports a 'constructive but not complacent' environment."
+    }
+  },
+  "sector_rotation": {
+    "leadership": [
+      {
+        "area": "US large-cap growth / tech",
+        "details": "Technology, especially AI-related firms and semiconductors, has been the clear performance leader (tech +17% in April; semis +28%). Communication services with AI exposure (e.g., Alphabet) has also outperformed.",
+        "implication_for_bot": "Growth and AI/semiconductor themes characterize the current leadership regime; any paper-trading factor model should tag these as leadership sectors but incorporate mean-reversion and crowding risk checks."
+      },
+      {
+        "area": "Small caps (Russell 2000)",
+        "details": "Small caps gained ~12.2% in April, outperforming large caps, suggesting broadening of the rally beyond a narrow mega‑cap cohort.",
+        "implication_for_bot": "Breadth improvement supports testing strategies that do not rely solely on mega-cap momentum; however, small caps remain more sensitive to rate and credit shifts."
+      },
+      {
+        "area": "Emerging markets / Asia tech",
+        "details": "Emerging markets returned ~14.7%, with standout gains in South Korea (~38%) and Taiwan (~26%), partly due to AI and semiconductor exposure and earlier weakness in the USD.",
+        "implication_for_bot": "Global risk appetite and the AI supply chain theme extend beyond the US, which is relevant for any cross‑market or ADR components of the paper strategy."
+      }
+    ],
+    "laggards_and_defensives": [
+      {
+        "area": "Traditional defensives (utilities, staples) and some industrial/defense names",
+        "details": "Defensive sectors and selected industrials have not led this leg of the rally; some defense names have experienced significant post-earnings drawdowns and extended losing streaks.",
+        "implication_for_bot": "The regime is not defensive-led. Defensive sectors currently function more as potential ballast than as momentum plays."
+      },
+      {
+        "area": "Treasuries and high-grade bonds",
+        "details": "Treasuries slightly negative to flat in recent months (e.g., US Agg +0.1%, Treasuries -0.1%), indicating that duration has not been a meaningful source of positive return in the current regime.",
+        "implication_for_bot": "In a multi-asset testbed, long-duration government bonds are not strongly trending; risk-off hedging via duration may be less efficient unless yields spike."
+      }
+    ],
+    "credit_and_fi": [
+      {
+        "area": "High yield and investment grade credit",
+        "details": "High yield has outperformed (+1.7% in April) with tightening spreads, and investment-grade corporates also posted modest gains, pointing to sustained risk appetite in credit.",
+        "implication_for_bot": "Credit markets are corroborating the equity risk-on tone. For regime classification in the bot, credit spreads support a ‘benign credit’ flag rather than a stress regime."
+      }
+    ],
+    "rotation_summary_for_bot": "Current sector regime is growth/tech/AI leadership with improving breadth into small caps and EM, while defensives and long-duration Treasuries lag. Any sector-tilt logic in the paper bot should tag this phase as 'growth and cyclicals over defensives', while monitoring for leadership exhaustion in crowded AI/semis and the potential return of defensives if yields or volatility spike."
+  },
+  "risk_flags": {
+    "macro_and_policy": [
+      {
+        "name": "Persistent above-target inflation",
+        "description": "Headline CPI in the low-to-mid 3% range and core around mid‑2% remain above the Fed’s 2% target, leaving the door open to renewed hawkishness if energy or wages re‑accelerate.",
+        "bot_implication": "Define macro-risk triggers (e.g., inflation surprises above consensus) that temporarily tighten risk limits or switch the paper strategy into a lower‑beta mode."
+      },
+      {
+        "name": "Rate and yield sensitivity",
+        "description": "10-year yields are elevated and have recently ticked higher alongside mortgage rates. The market is sensitive to any shift in Fed guidance or inflation data that would push yields significantly above the current range.",
+        "bot_implication": "Include a yield-regime filter that responds to sudden, large moves up in the 10-year yield as potential risk-off signals in simulations."
+      },
+      {
+        "name": "US dollar strength",
+        "description": "The US Dollar Index has broken above resistance and is up ~1.8% from May lows as markets price a more hawkish Fed path.",
+        "bot_implication": "For any exposure to EM, exporters, or multinational earnings, tag stronger USD phases as a mild headwind regime and test reduced risk or higher selectivity during USD surges."
+      }
+    ],
+    "market_structure_and_technical": [
+      {
+        "name": "Extended leadership in AI/semis",
+        "description": "Tech and semiconductor segments have delivered exceptionally strong returns, raising the risk of crowded positioning and sharp pullbacks around earnings or guidance changes.",
+        "bot_implication": "For a cautious workflow, cap simulated concentration in single themes, enforce strict max position sizes, and test behavior under sharp single-sector drawdowns."
+      },
+      {
+        "name": "Late-cycle feel in parts of the market",
+        "description": "Strong earnings, tight credit spreads, and risk-on behavior coexist with high starting valuations for some growth franchises and elevated policy rates.",
+        "bot_implication": "In backtests or paper trading, emphasize drawdown controls and scenario tests where both equities and bonds correct together rather than assuming classic negative correlation."
+      }
+    ],
+    "geopolitical_and_event": [
+      {
+        "name": "Geopolitical flare-up risk",
+        "description": "The Middle East conflict has de-escalated via an extended ceasefire, but the backdrop remains fragile and could re‑ignite, affecting energy prices and global risk sentiment.",
+        "bot_implication": "Incorporate event-driven risk flags around energy price spikes or geopolitical headlines, with rules that slow or suspend new risk deployment in the simulation after large overnight moves."
+      },
+      {
+        "name": "Earnings and guidance shock risk",
+        "description": "While the earnings season has been strong overall, individual companies (including in cyclical and defense sectors) have experienced major post-earnings drawdowns when results or guidance disappointed.",
+        "bot_implication": "Test stricter entry rules around earnings dates, and simulate wider stop zones or reduced size for names with imminent binary catalysts."
+      }
+    ],
+    "overall_risk_assessment_for_bot": "Regime is constructive but fragile: supportive earnings and broadening equity trends coexist with elevated rates, renewed USD strength, and potential for event-driven volatility. A cautious paper-trading workflow should treat the environment as risk-on but require robust guardrails: concentration limits, yield/inflation-based regime filters, and explicit handling of event risk and sector crowding."
+  },
+  "source_urls": [
+    "https://www.parkavenuewealthmanagement.com/monthly-market-commentary-may-2026",
+    "https://www.ssga.com/us/en/institutional/insights/taa-may-2026",
+    "https://themortgagereports.com/mortgage-rates-now/mortgage-rates-today-may-19-2026",
+    "https://www.stonex.com/en/insights/u-s-dollar-rally-builds-as-fed-rate-expectations-turn-hawkish/",
+    "https://www.newyorkfed.org/newsevents/speeches/2026/per260519",
+    "https://www.dowjones.com",
+    "https://www.cmegroup.com/markets/equities/dow-jones/e-mini-dow.html",
+    "https://www.marketbeat.com/instant-alerts/bilibili-q1-earnings-call-highlights-2026-05-19/"
+  ]
+}
 

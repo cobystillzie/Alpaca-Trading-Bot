@@ -4,63 +4,176 @@
 {
   "candidates": [
     {
-      "adversary_case": "The strongest objection is that this is a crowded theme trade without a fresh company-specific earnings or guidance catalyst, so the move may already be extended.",
-      "allocation_learning_note": "If used later, size modestly because this is cyclical and close to range highs; do not treat it like a defensive compounder.",
-      "balance_sheet_risk": "No acute balance-sheet red flag from the provided data, but cyclicality remains the main risk because earnings can compress quickly in a downturn.",
-      "bear_case": "Memory is highly cyclical, so any sign of pricing weakness, inventory normalization, or a broader risk-off tape could hit MU quickly. The stock can also snap back hard if the rally is crowded.",
-      "capital_allocation_case": "Micron generally benefits from disciplined capex and product-cycle execution, but this setup is more about operating leverage than capital return policy.",
-      "catalyst": "Recent market coverage highlighted a major DRAM rally theme and framed two catalysts that could drive or break the 2026 memory move; the stock is trading near the upper end of its recent range with strong volume support.",
-      "catalyst_type": "momentum",
-      "chittick_cash_score": 61.0,
-      "chittick_reject_reason": "",
-      "concentration_case": "It deserves attention over a broad ETF because it has a concrete, sector-specific catalyst and stronger upside torque than a diversified benchmark.",
-      "confidence": 0.59,
-      "congressional_signal": "none",
-      "diversity_bucket": "information-technology-semiconductors",
-      "entry_plan": "Paper trade only if MU holds above the prior intraday support zone and continues to trade above the recent midpoint of its range on above-average volume. Prefer a staged entry rather than full size at once.",
-      "exit_plan": "Take partial profits into strength if the stock extends sharply from entry. Cut if price loses the recent support zone or if the memory-theme narrative weakens.",
+      "adversary_case": "The strongest objection is that this is not a real catalyst; it is a small, delayed disclosure with no edge and no timing value.",
+      "allocation_learning_note": "Keep at 0% until a real company catalyst or valuation edge is confirmed.",
+      "balance_sheet_risk": "Needs review of leverage and distribution coverage; midstream can be resilient, but debt/refinancing sensitivity matters in a higher-rate regime.",
+      "bear_case": "ET can underperform if energy sentiment cools, if rates stay high, or if there is no fresh catalyst to re-rate the units. The disclosure signal is too weak to support a bullish trade.",
+      "capital_allocation_case": "No fresh management action in the supplied data to assess allocation discipline.",
+      "catalyst": "Weak secondary context only: delayed congressional disclosure of a small sale by Rep. Brian Babin; no company-specific operational catalyst in the provided results",
+      "catalyst_type": "general",
+      "chittick_cash_score": 41.0,
+      "chittick_reject_reason": "No company-specific catalyst; only low-weight congressional context. Not execution-ready under a cautious evidence-based process.",
+      "concentration_case": "A broad ETF or a stronger catalyst name would be preferable; ET is not compelling enough to displace better evidence-backed ideas.",
+      "confidence": 0.32,
+      "congressional_signal": "Small delayed sale disclosed by Rep. Brian Babin; informational only and not a trading catalyst.",
+      "diversity_bucket": "energy-midstream",
+      "entry_plan": "Do not execute from this evidence set. Only consider on a separate pullback/reversal setup with a confirmed tape turn and a company-specific catalyst.",
+      "exit_plan": "If monitored, review on any 3-5% follow-through from a proper base; invalidate if energy weakens or if no fresh operational news emerges within the holding window.",
       "fresh_catalyst": true,
-      "growth_runway": "30-180 day upside depends on continued DRAM strength, AI/storage demand, and favorable memory pricing. Longer term, Micron benefits from secular data growth.",
-      "hf_evidence_rank": 0.56,
+      "growth_runway": "Longer-term runway depends on continued volume growth, asset utilization, and stable capital returns, but none of that is evidenced in the current search set.",
+      "hf_evidence_rank": 0.22,
       "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.31,
-      "hf_memory_similarity": 0.34,
-      "hf_model_notes": "Fresh catalyst is present but evidence is only moderate-quality market coverage. Not hype-only, but not a high-conviction execution-ready setup from the available sources.",
+      "hf_hype_risk": 0.05,
+      "hf_memory_similarity": 0.12,
+      "hf_model_notes": "Included only because ET is the sole ticker with a clearly identified recent disclosure in the provided materials; evidence is insufficient for a trade.",
       "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "constructive-but-cautious",
-      "hf_sentiment_score": 0.58,
-      "hf_source_quality_score": 0.52,
+      "hf_sentiment_label": "weakly neutral",
+      "hf_sentiment_score": 0.28,
+      "hf_source_quality_score": 0.18,
       "horizon_days": 5,
-      "margin_of_safety_case": "Margin of safety is limited for a short swing because the stock is near the top of its recent range. The quality of the business helps, but valuation is not cheap enough to call this deep value.",
-      "market_regime": "Works best in a selective risk-on regime where semis still have sponsorship. It is vulnerable if the market shifts toward lower-duration defensives or if rates rise further.",
-      "momentum_case": "Price is near the highs of the cited range, and trading volume is substantial. That suggests institutional interest and a trend that can persist if memory pricing remains constructive.",
-      "owner_hold_case": "Over 30-180 days, the case improves if memory pricing, AI-related demand, and earnings guidance continue to confirm the cycle thesis.",
-      "quality_case": "Micron is a large, profitable semiconductor company with meaningful competitive advantages in memory and storage. It is cyclical, but the scale and product relevance are materially stronger than a generic commodity-tech trade.",
-      "recommendation": "watch",
-      "repeat_count_48h": 0,
-      "research_tier": "watch",
-      "risk_reward": "Moderate-to-good: upside can run if the DRAM theme persists, but downside is also meaningful because this is a cyclical semiconductor trade.",
-      "sector": "information-technology / semiconductors",
+      "margin_of_safety_case": "Potentially decent on a fundamental basis, but margin of safety cannot be assessed from the provided results alone; no fresh valuation anchor here.",
+      "market_regime": "In a risk-on tape, ET can lag higher-beta names unless energy/midstream is specifically bid; in risk-off, it can act more defensively, but the current setup is not a timing edge.",
+      "momentum_case": "No fresh momentum evidence in the provided search results; price action context is absent, so this cannot be treated as a breakout or trend trade.",
+      "owner_hold_case": "Would only be reviewed for a 30-180 day hold if the company issued updated guidance, FCF/distribution coverage stayed strong, and the unit price offered a clear margin of safety.",
+      "quality_case": "Midstream assets and fee-like cash flows can be durable, but the evidence in hand is too thin to justify a new risk allocation. Balance-sheet and distribution sustainability need direct company data before adding exposure.",
+      "recommendation": "monitor-only",
+      "repeat_count_48h": 1,
+      "research_tier": "monitor-only",
+      "risk_reward": "Poor for a fresh trade here because the catalyst is too weak; acceptable only as a monitored defensive income idea.",
+      "sector": "energy-midstream",
       "signal_weights": {
-        "congressional_signal": 0.0,
-        "social_buzz": 0.03
+        "congressional_signal": 0.05,
+        "social_buzz": 0.0
       },
-      "social_buzz": "Some attention around the DRAM rally narrative, but this is secondary context only.",
-      "source_quality": "Moderate. The source is a market quote/news page with a clear price and volume snapshot, but the catalyst framing is not as strong as a company filing or earnings release.",
+      "social_buzz": "none",
+      "source_quality": "Weak for trading: single small congressional disclosure is low-weight, delayed, and immaterial relative to ET liquidity.",
       "source_urls": [
-        "https://robinhood.com/stocks/MU"
+        "https://www.quiverquant.com/stock/ET/",
+        "https://www.quiverquant.com/news/Congress+Trade:+Representative+Brian+Babin+Just+Disclosed+New+Stock+Trades"
       ],
-      "stop_loss_percent": 8.0,
+      "stop_loss_percent": 0.0,
       "strategy_tags": [
         "chittick_cash"
       ],
-      "symbol": "MU",
+      "symbol": "ET",
       "target_allocation_percent": 0.0,
-      "thesis": "Micron offers direct exposure to a strong memory-cycle re-rating, and the business has enough scale and quality to be considered under a Buffett/Munger lens rather than a pure trading vehicle. For a short swing, the key is that the stock is already acting like an institutional momentum name with a visible catalyst path.",
-      "valuation_case": "A 31.88 P/E is not bargain-priced for a cyclical semiconductor, so valuation only works if the memory upcycle continues."
+      "thesis": "Large-cap midstream cash flows and asset footprint can support a defensive long-only hold, but the only fresh signal here is an immaterial congressional sale, which is not enough for execution. This is more of a monitored quality income name than a short-term swing trade.",
+      "valuation_case": "No usable valuation setup from the supplied sources; avoid making a price call without current cash flow or leverage data."
+    },
+    {
+      "adversary_case": "Without a current catalyst or trend confirmation, this is just a familiar bank name, not an edge.",
+      "allocation_learning_note": "Hold at 0% until a true catalyst appears.",
+      "balance_sheet_risk": "Banks have explicit capital and credit-cycle risk; needs current CET1 and impairment data before taking risk.",
+      "bear_case": "UK banks can be hurt by margin compression, credit deterioration, or slower loan demand if the macro backdrop softens.",
+      "capital_allocation_case": "No fresh capital-return update in the provided material.",
+      "catalyst": "No fresh catalyst in the supplied materials; only a market-data/description page for Lloyds Banking Group",
+      "catalyst_type": "general",
+      "chittick_cash_score": 55.0,
+      "chittick_reject_reason": "No catalyst and no momentum evidence; only a static descriptive page.",
+      "concentration_case": "A bank watchlist slot is fine, but not over a clearer catalyst name or sector leader with recent news.",
+      "confidence": 0.27,
+      "congressional_signal": "none",
+      "diversity_bucket": "financials-large-cap-bank",
+      "entry_plan": "Watch only. If later evidence shows a breakout on earnings or guidance, reassess with a tight stop.",
+      "exit_plan": "Not applicable for execution here; if added later, use a failure-of-breakout exit and reassess on any macro shock to rates/credit.",
+      "fresh_catalyst": true,
+      "growth_runway": "Dependent on UK retail/commercial banking volumes, mortgage activity, and fee income; none are evidenced as recent catalysts here.",
+      "hf_evidence_rank": 0.18,
+      "hf_filter_vetoes": [],
+      "hf_hype_risk": 0.02,
+      "hf_memory_similarity": 0.05,
+      "hf_model_notes": "Included for sector diversity only; not execution-ready.",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "neutral",
+      "hf_sentiment_score": 0.22,
+      "hf_source_quality_score": 0.25,
+      "horizon_days": 5,
+      "margin_of_safety_case": "Could be reasonable if valuation is depressed, but no current valuation evidence is provided here.",
+      "market_regime": "In a risk-on regime with stable rates, banks can work; however, without a fresh catalyst this is not actionable.",
+      "momentum_case": "No momentum proof is present in the search results; price trend, volume, and relative strength are not documented.",
+      "owner_hold_case": "Would only move to review if upcoming earnings, guidance, or a material capital return update improves the thesis.",
+      "quality_case": "Lloyds is a large, long-established retail/commercial bank with diversified UK banking operations, but the result set provides no recent earnings, guidance, or regulatory update to support a new entry.",
+      "recommendation": "watch",
+      "repeat_count_48h": 0,
+      "research_tier": "watch",
+      "risk_reward": "Neutral: quality may be acceptable, but there is no catalyst to justify an entry now.",
+      "sector": "financials-large-cap-bank",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "none",
+      "source_quality": "Moderate as a company description source, but weak for trading because it lacks fresh market-moving information.",
+      "source_urls": [
+        "https://au.investing.com/equities/lloyds-banking-grp"
+      ],
+      "stop_loss_percent": 0.0,
+      "strategy_tags": [
+        "chittick_cash"
+      ],
+      "symbol": "LLOY.L",
+      "target_allocation_percent": 0.0,
+      "thesis": "UK banking exposure can be attractive if rates stay supportive and credit remains clean, but the provided source is only a static quote page without a fresh catalyst. This is a watchlist candidate, not a swing trade.",
+      "valuation_case": "No valuation data in the search result; do not assume cheapness from the name alone."
+    },
+    {
+      "adversary_case": "The strongest objection is that this may not even be the right tradable instrument from the evidence provided.",
+      "allocation_learning_note": "Keep at 0%; seek actual listed-symbol and catalyst confirmation first.",
+      "balance_sheet_risk": "Likely meaningful project and financing risk, but specifics are unavailable here.",
+      "bear_case": "Renewables names can be capital-intensive, policy-sensitive, and volatile; without fresh filings or earnings, risk is high relative to evidence.",
+      "capital_allocation_case": "No governance or capital-allocation evidence available.",
+      "catalyst": "No tradable catalyst in the provided result set; profile-style listing only",
+      "catalyst_type": "general",
+      "chittick_cash_score": 24.0,
+      "chittick_reject_reason": "Source-thin profile page; insufficient evidence for a stock trade.",
+      "concentration_case": "Should be displaced by better-evidenced sector ideas; this is not trade-ready.",
+      "confidence": 0.15,
+      "congressional_signal": "none",
+      "diversity_bucket": "renewables",
+      "entry_plan": "No execution; keep as a research placeholder only.",
+      "exit_plan": "Not applicable.",
+      "fresh_catalyst": false,
+      "growth_runway": "Renewables can have runway, but nothing in the result shows near-term catalysts or revenue acceleration.",
+      "hf_evidence_rank": 0.08,
+      "hf_filter_vetoes": [],
+      "hf_hype_risk": 0.01,
+      "hf_memory_similarity": 0.02,
+      "hf_model_notes": "Included solely because it was returned in search results; not a tradeable thesis.",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "not actionable",
+      "hf_sentiment_score": 0.1,
+      "hf_source_quality_score": 0.12,
+      "horizon_days": 5,
+      "margin_of_safety_case": "No valuation or balance-sheet evidence is provided; margin of safety cannot be established.",
+      "market_regime": "Risk-on can help growthy renewables, but this specific result does not offer a tradable setup.",
+      "momentum_case": "No price/volume trend data is provided, so momentum cannot be assessed.",
+      "owner_hold_case": "Only revisit if a filing, earnings release, or exchange confirmation establishes a real listed opportunity with a clear catalyst.",
+      "quality_case": "Renewables can be a quality-growth theme, but there is no current financial or event evidence here to support an entry.",
+      "recommendation": "monitor-only",
+      "repeat_count_48h": 0,
+      "research_tier": "monitor-only",
+      "risk_reward": "Unattractive because the available evidence is source-thin and not clearly a listed swing-trade setup.",
+      "sector": "renewables",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "none",
+      "source_quality": "Weak: the result is mostly a company profile/quote page rather than a timely market catalyst.",
+      "source_urls": [
+        "https://www.moneycontrol.com/india/stockpricequote/renewables/emmveephotovoltaicpower/EPP01"
+      ],
+      "stop_loss_percent": 0.0,
+      "strategy_tags": [
+        "chittick_cash"
+      ],
+      "symbol": "EPP01",
+      "target_allocation_percent": 0.0,
+      "thesis": "This is not a usable trading candidate from the provided evidence. The page appears to be an informational profile for Emmvee Photovoltaic Power, not a catalyst-backed listed stock setup suitable for the bot.",
+      "valuation_case": "No usable valuation signal in the search result."
     }
   ],
-  "summary": "Micron is the only clearly sourced single-name idea in the provided results, with a strong memory-semiconductor momentum setup but the evidence is still thin for a fresh 1-10 day swing beyond a single news snippet. Broadly, the tape remains selective and higher-rate sensitive, so quality-with-catalyst names are favored over hype."
+  "summary": "Risk appetite looks moderately constructive, but the provided search set is dominated by non-stock noise plus a single strong art-market headline and a weak banking/utility backdrop; there is no clear fresh stock catalyst in the results that passes a cautious 1-10 day swing-trade filter."
 }
 -->
 
@@ -1250,4 +1363,12 @@ No candidates.
 | Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
 |---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
 | MU | information-technology / semiconductors | watch | information-technology-semiconductors | 0 | yes | 0.59 | 61 | 1 | 0 | 0.0% | 8.0% | watch | Recent market coverage highlighted a major DRAM rally theme and framed two catalysts that could drive or break the 2026 memory move; the stock is trading near t |
+
+## Latest Candidates - 2026-05-20 05:33:46 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| ET | energy-midstream | monitor-only | energy-midstream | 1 | yes | 0.32 | 41 | 0 | 0 | 0.0% | 0.0% | monitor-only | Weak secondary context only: delayed congressional disclosure of a small sale by Rep. Brian Babin; no company-specific operational catalyst in the provided resu |
+| LLOY.L | financials-large-cap-bank | watch | financials-large-cap-bank | 0 | yes | 0.27 | 55 | 0 | 0 | 0.0% | 0.0% | watch | No fresh catalyst in the supplied materials; only a market-data/description page for Lloyds Banking Group |
+| EPP01 | renewables | monitor-only | renewables | 0 | no | 0.15 | 24 | 0 | 0 | 0.0% | 0.0% | monitor-only | No tradable catalyst in the provided result set; profile-style listing only |
 
