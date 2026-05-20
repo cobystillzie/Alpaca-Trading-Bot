@@ -6550,4 +6550,222 @@ The US equity market is grinding to record highs, but the underlying conditions 
     "https://www.investing.com/news/earnings/8x8-shares-surge-12-on-q4-earnings-revenue-beat-93CH-4699588"
   ]
 }
+## Market Regime Research - 2026-05-19 21:30:13 Eastern Daylight Time
+
+{
+  "summary": {
+    "tone": "cautious, late‑cycle, still nominally risk-on but wobbling",
+    "backdrop": "US indices remain in an uptrend but have recently pulled back, led by expensive AI/tech. Inflation has re-accelerated, global yields are pushing higher, and markets are pricing a higher-for-longer Fed with some upside risk to policy rates. Earnings overall are ok to good, but leadership is narrow (AI/tech, select quality) and valuations are less forgiving. Volatility is elevated versus earlier in the year but not in crisis territory.",
+    "implication_for_paper_trading": "Treat the regime as a maturing bull market with rising macro and valuation risk. Emphasize risk controls, scenario testing, and slower sizing rather than aggressive trend-chasing."
+  },
+  "market_regime": {
+    "index_trend": {
+      "direction": "uptrend with corrective pressure",
+      "evidence": [
+        "Morningstar notes that from March 30 to May 18 the Morningstar US Market Index rose about 16%, with Growth +20% and Technology +32%, indicating a strong preceding uptrend driven by growth/AI stocks [3].",
+        "The same report says the US equity market is now only ~5% below Morningstar’s composite fair value (vs. 12% discount at end of March), so the rally has reduced valuation cushion and is more fragile [3].",
+        "Recent headlines describe Wall St futures steady after a tech-led selloff, with the NASDAQ shedding around 0.8% on the day and having been down as much as 1.5% intraday, consistent with a pullback inside an ongoing bull phase rather than a clear trend reversal [1]."
+      ],
+      "regime_label": "late-stage bullish / corrective",
+      "for_bot": {
+        "bias": "mild upside bias but expect frequent two-sided swings",
+        "tactics": [
+          "Prefer swing horizons over very short-term mean reversion or long-term buy-and-hold assumptions.",
+          "Stress-test entries against pullback continuation rather than assuming immediate V-shaped rebounds."
+        ]
+      }
+    },
+    "rates_and_fed": {
+      "conditions": {
+        "inflation": "re-accelerating / sticky",
+        "policy_rate": "high and likely on hold, with upside risk",
+        "global_yields": "rising (US and global, including Japan)",
+        "market_expectations": "limited odds of near-term rate cuts; credible debate about a further hike if inflation stays firm"
+      },
+      "evidence": [
+        "Milford highlights that US headline inflation recently accelerated to about 3.8% and core inflation is also running faster than markets expected, with energy pressures building [2].",
+        "Morningstar notes that interest rates are rising not just in the US but globally, with Japanese government bond yields at their highest levels since 1997, and that the Fed is expected to keep the federal funds rate unchanged ‘over the foreseeable future’ due to persistent inflation [3].",
+        "Commentary from Ed Yardeni (CNBC) describes expectations for a possible additional Fed rate hike in July, underscoring that the balance of risk is tilted toward tighter, not looser, policy [5].",
+        "Bloomberg coverage refers to a ‘global bond selloff’ and rising yields, prompting questions about bond allocations in this rate environment [13]."
+      ],
+      "regime_label": "higher-for-longer with potential further tightening",
+      "for_bot": {
+        "assumptions": [
+          "Do not hard-code imminent rate cuts; base scenarios on policy staying restrictive.",
+          "Respect sensitivity of long-duration assets (high-growth, unprofitable tech, long-duration bonds) to rate spikes."
+        ],
+        "stress_tests": [
+          "Shock 2Y–10Y yields higher by 25–50 bps and simulate equity index drawdowns, especially in growth-heavy baskets.",
+          "Model correlation spikes between stocks and bonds during rate shocks (less diversification benefit)."
+        ]
+      }
+    },
+    "volatility": {
+      "state": "elevated vs. earlier in the year, but not disorderly",
+      "evidence": [
+        "Morningstar’s outlook explicitly says they expect volatility to remain high going forward, particularly as the AI trade loses momentum and rates move higher [3].",
+        "News flow features alternating ‘selloff’ and ‘bounce’ days in chip/AI names as yields move up and down [1][8], a pattern consistent with tactical, rates-driven volatility rather than a steady grind up."
+      ],
+      "for_bot": {
+        "volatility_assumptions": [
+          "Do not calibrate position sizing or stop distances on low-volatility regimes from earlier in the cycle.",
+          "Assume intraday whipsaws around macro data (CPI, jobs, Fed communications) and key AI/mega-cap earnings."
+        ]
+      }
+    },
+    "earnings_tone": {
+      "overall": "constructive but no longer deeply cheap",
+      "micro_evidence": [
+        "Morningstar cites that US stocks are now ~5% below fair value, vs 12% prior, after a strong run; this suggests earnings have been good enough to justify higher valuations but margin of safety is diminished [3].",
+        "Morningstar’s equity research names multiple wide-moat firms (e.g., Arista Networks, Charles Schwab, Northrop Grumman) where fair value estimates were raised after better-than-expected earnings and they still see undervaluation [11].",
+        "On the other hand, some cyclicals show strain – e.g., Frontier Group (ULCC) reported a sharp widening of net losses in Q1 2026, and the stock is under pressure [9].",
+        "Novelis reported Q4 FY26 revenue up 4% largely on higher aluminum prices, with volume and margin commentary indicating a mixed but not recessionary industrial backdrop [12]."
+      ],
+      "macro_link": [
+        "Earnings growth expectations in the ‘high teens’ for the US (around 18%) are cited by Milford, reflecting optimistic forward estimates despite macro headwinds [2].",
+        "AI-related capex and revenue are still a major growth engine; Bloomberg notes that AI/tech contributed nearly 1 percentage point to US GDP growth in Q1 alone [8]."
+      ],
+      "for_bot": {
+        "regime_implications": [
+          "Avoid assuming broad-based earnings collapse; base-case is decent but uneven earnings.",
+          "However, treat growth/momentum names as more valuation-sensitive: disappointments can lead to sharp de-ratings."
+        ]
+      }
+    },
+    "risk_on_off": {
+      "state": "moderate risk-on, but more selective and valuation-aware",
+      "evidence": [
+        "AI and tech are still central to the growth narrative, but upward price momentum has ‘run out of steam’ according to Morningstar, and a tech-led selloff has recently hit indices [1][3].",
+        "Morningstar explicitly argues it’s ‘time to harvest profits from growth and reinvest into value’, which implies risk appetite is rotating rather than evaporating [3].",
+        "Defensive assets and quality value (e.g., wide-moat industrials, defense names) are highlighted as attractive in fundamental research [3][11].",
+        "Credit commentary notes spreads are not in crisis territory, but a ‘global bond selloff’ points to rate/term-risk being repriced rather than outright credit stress [13]."
+      ],
+      "for_bot": {
+        "behavioural_assumptions": [
+          "Expect traders to fade overcrowded AI/growth trades on bad macro or policy headlines.",
+          "Expect dip-buying interest in quality value and some defensives when rates jitters hit the tape."
+        ]
+      }
+    }
+  },
+  "sector_rotation": {
+    "leadership_and_laggers": {
+      "recent_leaders": [
+        "Growth and Technology: Morningstar’s Growth Index +20% and Technology Index +32% from March 30 to mid-May, driven largely by AI-related names [3].",
+        "AI hardware/software and chip ecosystem: Bloomberg highlights that AI and tech-related activity contributed almost 1 percentage point to Q1 US GDP growth [8]."
+      ],
+      "signs_of_exhaustion_in_leaders": [
+        "Morningstar notes that the technology sector, while still about 7% undervalued by their metrics, was at a 25% discount in late March; that compression means a much smaller margin of safety [3].",
+        "Upward momentum in AI stocks has ‘run out of steam’ and chip stocks are described as bouncing when yields retreat, implying they are now very rates-sensitive and prone to pullbacks [3][8].",
+        "Short-term market coverage references a ‘tech-led selloff’ dragging indices lower [1]."
+      ],
+      "emerging_or_relative_winners": [
+        "Value and quality: Morningstar argues that dislocation between styles has normalized and it is time to reallocate from growth into value, indicating improving relative prospects for value sectors (financials, select industrials, healthcare, defense) [3].",
+        "Defense/aerospace: Morningstar increased fair value estimates on Northrop Grumman (NOC); the stock is still seen as undervalued, reflecting resilient demand from long-cycle defense programs [11].",
+        "Select financials: Charles Schwab’s fair value estimate was increased on the back of better earnings and a more supportive short-term rate environment, indicating some financials can benefit from higher-for-longer rates [11]."
+      ],
+      "under_pressure": [
+        "Rate-sensitive long-duration assets (unprofitable growth, some high-multiple tech): these are vulnerable when yields rise and are at the core of the recent tech-led selloff [1][3][8].",
+        "Cyclical/housing-exposed regions: Milford notes Australian housing data ‘rolling over’ amid policy changes that may weigh on investor confidence; while not directly US, it underscores global sensitivity of housing and rate-sensitive cyclicals to high yields [2]."
+      ]
+    },
+    "rotation_regime_label": "from concentrated growth/AI leadership toward more balanced or value-tilted leadership",
+    "for_bot": {
+      "index_level_implications": [
+        "Headline indices (especially NASDAQ-heavy benchmarks) may not capture under-the-surface rotation: tech weakness can offset strength in value sectors.",
+        "Index up days may coincide with tech down / value up, and vice versa; sector-aware analysis is important."
+      ],
+      "workflow_guidance": [
+        "Track sector and style relative strength (e.g., Growth vs Value indices, Tech vs Financials/Industrials) rather than treating ‘the market’ as homogenous.",
+        "When modeling scenarios, separate ‘growth-shock’ days (yields up, tech down, some financials up) from ‘risk-off’ days (broad selloff including value).",
+        "For paper simulations, test how strategies perform if leadership shifts from mega-cap tech toward diversified value/quality sectors over the next 1–3 quarters."
+      ]
+    }
+  },
+  "risk_flags": {
+    "macro_and_policy": [
+      {
+        "name": "persistent_or_reaccelerating_inflation",
+        "description": "Inflation has recently ticked higher, with US headline around 3.8% and core running ahead of expectations; energy is a renewed pressure point.",
+        "impact": "Keeps the Fed in a hawkish stance; increases odds of additional hikes or at least a prolonged plateau at high rates; compresses valuation multiples, particularly for long-duration assets.",
+        "sources": [2, 3, 8]
+      },
+      {
+        "name": "higher_for_longer_and_hike_risk",
+        "description": "Market commentary and strategists like Ed Yardeni openly discuss the possibility of another rate hike; the consensus no longer assumes near-term cuts.",
+        "impact": "Surprises may come in the form of ‘hawkish holds’ or hikes rather than cuts; bond-equity correlation may turn more positive during shocks, reducing diversification benefits.",
+        "sources": [3, 5, 13]
+      },
+      {
+        "name": "global_growth_and_china_slowdown",
+        "description": "Morningstar notes that recent indicators out of China point to weaker-than-expected growth; Milford also highlights soft housing-related data in Australia and regional data risks.",
+        "impact": "Pressure on global cyclicals, commodities, and industrial exporters; potential for negative earnings revisions in globally exposed sectors.",
+        "sources": [2, 3, 12]
+      }
+    ],
+    "market_structure_and_valuation": [
+      {
+        "name": "narrow_leadership_and_crowding_in_ai_tech",
+        "description": "A disproportionate share of index gains has come from AI and tech since late March; those sectors have massively outperformed and are now closer to fair value.",
+        "impact": "Raises vulnerability to factor- and sector-driven corrections; if AI enthusiasm fades or yields spike, leadership unwind could drag indices quickly.",
+        "sources": [1, 3, 8]
+      },
+      {
+        "name": "compressed_valuation_cushion",
+        "description": "The US equity market’s discount to fair value has shrunk from ~12% to ~5% in under two months.",
+        "impact": "Smaller margin of safety: negative surprises in macro or earnings have more room to translate into price downside than upside; volatility around data and earnings may be asymmetric to the downside.",
+        "sources": [3]
+      },
+      {
+        "name": "style_rotation_volatility",
+        "description": "Ongoing rotation from growth toward value and quality may create cross-sectional volatility even if indices look calm.",
+        "impact": "Sector-agnostic or concentrated style exposures may experience large swings; backtests that ignore style shifts could mis-estimate risk.",
+        "sources": [3, 11]
+      }
+    ],
+    "geopolitical_and_idiosyncratic": [
+      {
+        "name": "geopolitical_tensions",
+        "description": "News flow references U.S.–Iran tensions alongside bond selloffs; UK political noise and leadership uncertainty also weigh on regional assets.",
+        "impact": "Can trigger risk-off episodes that hit cyclicals, financials, and high-beta sectors; may also intensify moves in energy and defense.",
+        "sources": [1, 2, 11]
+      },
+      {
+        "name": "earnings_dispersion",
+        "description": "While the aggregate earnings picture is constructive, there are notable disappointments (e.g., widening losses at some travel/cyclical names) alongside strong beats (e.g., wide-moat tech/defense).",
+        "impact": "Single-stock risk is elevated; index-level calm can mask big stock-specific moves around earnings and guidance.",
+        "sources": [9, 11, 12]
+      }
+    ],
+    "implementation_for_cautious_paper_trading": {
+      "position_and_exposure_controls": [
+        "Cap single-name and sector weights in simulations (e.g., no more than a modest share in any one high-beta sector such as semis or speculative biotech).",
+        "Limit overall gross exposure on days of major macro releases (CPI, FOMC, jobs), or model tighter entry criteria around those events."
+      ],
+      "scenario_and_stress_testing": [
+        "Run explicit ‘rates shock’ scenarios: 25–50 bps yield spike, tech/growth down, value/financials mixed, volatility higher.",
+        "Run ‘AI sentiment reversal’ scenarios: AI/semis down sharply without a commensurate macro shock, testing how concentrated exposures behave."
+      ],
+      "workflow_and_timing": [
+        "Emphasize closing risk ahead of binary events in the paper workflow to see how that impacts drawdown and turnover metrics.",
+        "Incorporate a volatility filter (e.g., wider recent range or volatility index proxy) to switch the bot between more conservative and more active modes."
+      ]
+    }
+  },
+  "source_urls": [
+    "https://www.investing.com/news/stock-market-news/wall-st-futures-steady-after-techled-selloff-nvidia-results-awaited-4697391",
+    "https://milfordasset.com/insights/ep76-what-investors-are-asking",
+    "https://www.morningstar.com/markets/us-stock-market-outlook-its-time-reallocate-growth-value",
+    "https://markets.jpmorgan.com/research-and-insights",
+    "https://www.youtube.com/watch?v=cJSLbsjgWH0",
+    "https://www.youtube.com/watch?v=2Q4Eb5hsm64",
+    "https://www.youtube.com/watch?v=6dihA5TI0F8",
+    "https://www.fitchratings.com/research/banks/fitch-affirms-bnp-paribas-long-term-idr-at-aa-outlook-stable-19-05-2026",
+    "https://www.cmegroup.com/markets/equities/dow-jones/e-mini-dow.html",
+    "https://www.tradingview.com/symbols/FXPRO-US30/ideas/page-16/",
+    "https://www.perplexity.ai/finance/ULCC/research",
+    "https://www.morningstar.com/stocks/3-more-stocks-buy-after-earnings-2",
+    "https://investors.novelis.com/news-events/press-releases/detail/1420/novelis-reports-fourth-quarter-and-full-fiscal-year-2026-results"
+  ]
+}
 
