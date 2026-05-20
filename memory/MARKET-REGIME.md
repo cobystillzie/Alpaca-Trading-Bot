@@ -6939,4 +6939,163 @@ The US equity market is grinding to record highs, but the underlying conditions 
     "https://www.perplexity.ai/finance/LMT"
   ]
 }
+## Market Regime Research - 2026-05-20 03:31:53 Eastern Daylight Time
+
+{
+  "summary": {
+    "tone": "Cautious risk-on but fragile",
+    "description": "US equities remain broadly supported by AI-led earnings strength, but the tape is getting heavier as higher long-term yields and persistent inflation fears pressure valuations. Volatility is elevated relative to early-year calm but not in crisis territory. Leadership is narrow (mega-cap growth/AI) and starting to show signs of fatigue, while value, quality, and income pockets are attracting fresh attention."
+  },
+  "market_regime": {
+    "index_trend": {
+      "state": "uptrend_under_pressure",
+      "details": [
+        "Broad US benchmarks remain near prior highs, but recent sessions have seen selloffs coinciding with moves higher in long-dated Treasury yields and renewed inflation concerns (Bloomberg Businessweek segment on yields rising and stocks extending declines, Source 4).",
+        "AI and mega-cap tech have been the primary performance engine; several sources note that upward price momentum in AI stocks has stalled recently (Morningstar US market outlook, Source 3; YouTube discussion of markets ‘on the brink’ tied to NVDA earnings and Fed minutes, Source 11).",
+        "Breadth is mixed-to-weak: cyclical and value sectors have been improving at the margin, but overall index advances are still heavily dependent on a small group of AI-related leaders."
+      ]
+    },
+    "rates_and_fed": {
+      "state": "higher_for_longer_bias",
+      "details": [
+        "Long-term US Treasury yields have moved back toward multi-decade highs, reflecting renewed inflation angst and markets increasingly pricing out near-term rate cuts (Bloomberg Businessweek on yields climbing, Source 4; discussion of global bond selloff and Treasuries in current rate environment, Source 6; video noting markets ‘want higher rates’ and are testing the Fed, Source 8).",
+        "Commentary across sources emphasizes that higher yields are tightening financial conditions at the margin and raising discount rates for equities, particularly for long-duration growth names.",
+        "Bond market strategists highlight that while higher yields improve prospective fixed-income returns, tight credit spreads and upside risks to rates argue for selectivity and a quality bias in credit (Christian Philp Advisory Group note, Source 1; bond-focused video discussing spreads and correlations, Source 6)."
+      ]
+    },
+    "volatility": {
+      "state": "moderate_elevated_but_orderly",
+      "details": [
+        "Market observers expect volatility to remain high relative to the subdued levels seen earlier in the year, given the combination of sticky inflation, shifting Fed expectations, and crowded AI positioning (Morningstar US market outlook discussing expected volatility, Source 3).",
+        "Recent episodes of equity weakness have been linked to rate spikes and key event risk (Fed communications, marquee AI earnings like NVDA), but price action remains rotational rather than panic-driven (YouTube discussion of markets ‘on the brink’ around NVDA earnings and Fed minutes, Source 11)."
+      ]
+    },
+    "earnings_tone": {
+      "state": "generally_positive_but_selective",
+      "details": [
+        "Earnings season has delivered enough positive surprises to keep the broader equity tone constructive. Several large-cap and AI-adjacent names continue to post strong results and receive upward revisions to fair value estimates (Morningstar article on undervalued wide-moat stocks after earnings: ANET, SCHW, NOC seeing fair value increases, Source 2).",
+        "Individual mid-cap and tech names are reacting sharply to beats/misses, underscoring a more discriminating market: for example, 8x8 surged after an earnings and revenue beat with improved profitability (Investing.com on 8x8, Source 9), while Frontier Group sold off on widening losses despite revenue context (Perplexity finance page on ULCC, Source 7).",
+        "AI-driven earnings strength continues to support headline indices, but several sources note that momentum in AI stocks has lost some steam, indicating that expectations are high and event risk (e.g., upcoming NVDA results) is significant (Morningstar US market outlook, Source 3; NVDA-focused sentiment check, Source 11; AI-driven earnings mention, Source 8)."
+      ]
+    },
+    "risk_on_off": {
+      "state": "cautious_risk_on_with_macro_headwinds",
+      "details": [
+        "Risk appetite is still evident in strong interest for AI, select growth software, and other secular growth stories, alongside opportunistic buying of quality cyclicals and value names (Morningstar value rotation thesis, Source 3; stock-specific articles and videos emphasizing post-earnings opportunities, Sources 2 and 10).",
+        "At the same time, rising yields, persistent inflation, and concerns about extended valuations in mega-cap growth are driving defensive undercurrents: increased focus on quality factor, income-generating assets, and more balanced allocations between growth and value (Christian Philp Advisory Group’s quality-focused bond stance, Source 1; bond allocation discussion, Source 6).",
+        "Overall, conditions are better described as a fragile or conditional risk-on regime—supportive as long as yields and inflation expectations do not make another disorderly leg higher, and as long as AI earnings continue to validate elevated multiples."
+      ]
+    }
+  },
+  "sector_rotation": {
+    "growth_vs_value": {
+      "state": "gradual_rotation_from_pure_growth_toward_value_and_quality",
+      "details": [
+        "Morningstar’s US stock market outlook explicitly argues that it is time to begin reallocating from growth to value, citing stretched valuations in many AI beneficiaries and more attractive risk-reward in undervalued value-oriented names (Morningstar outlook, Source 3).",
+        "While AI and mega-cap tech remain leadership cohorts, price momentum has cooled, and marginal flows appear to be shifting toward sectors with reasonable valuations, earnings visibility, and dividend support.",
+        "This is consistent with commentary that higher real yields increase the cost of long-duration growth exposures and make cheaper, cash-generative value names more competitive in asset allocation decisions."
+      ]
+    },
+    "by_sector": {
+      "technology_ai": {
+        "regime": "still_leading_but_fatigued",
+        "notes": [
+          "AI-related stocks remain central to index performance, but multiple sources highlight momentum fatigue and heightened sensitivity to incremental data (Morningstar outlook on AI momentum stall, Source 3; NVDA-centric earnings risk discussion, Source 11).",
+          "Software shares are cited as gaining even on days when broader indices weaken due to rising yields, suggesting ongoing interest in select growth software with solid fundamentals (Bloomberg Businessweek note on software shares gaining, Source 4)."
+        ]
+      },
+      "financials": {
+        "regime": "selective_strength_in_high_quality",
+        "notes": [
+          "High-quality diversified financial institutions continue to show resilience; for instance, Fitch affirms BNP Paribas at AA- with a stable outlook, emphasizing manageable earnings volatility and diversified revenues (Fitch report, Source 5).",
+          "US financials with strong deposit franchises and fee businesses (e.g., Charles Schwab in Morningstar’s undervalued wide-moat list, Source 2) are positioned as potential beneficiaries of higher-for-longer rates, though market sensitivity to curve shape and funding costs remains high."
+        ]
+      },
+      "defense_aerospace": {
+        "regime": "quiet_beneficiary",
+        "notes": [
+          "Defense names like Northrop Grumman are appearing on lists of undervalued wide-moat stocks post-earnings (Morningstar article, Source 2), aligning with a broader tilt toward quality, cash-generative industrials and defense in a more volatile macro environment."
+        ]
+      },
+      "fixed_income_related": {
+        "regime": "improving_relative_attractiveness",
+        "notes": [
+          "Higher yields have materially improved prospective bond returns, but commentators stress selectivity and a quality bias given tight credit spreads and the risk that rates may have further to rise (Christian Philp Advisory Group, Source 1; bond environment discussion, Source 6).",
+          "The changing stock-bond correlation is a core discussion point, with some strategists highlighting that bonds may no longer consistently hedge equity risk in inflation-driven selloffs (Source 6). This underpins the appeal of quality and shorter duration exposures."
+        ]
+      },
+      "defensive_sectors": {
+        "regime": "gradual_interest_in_staples_and_quality_income",
+        "notes": [
+          "Investor commentary and sell-side notes indicate an uptick in interest for stable, cash-generative staples and other defensive equities with pricing power in a higher-rate, higher-volatility environment (e.g., mention of quality-focused income names like KO in your existing memory context, though not from the new search results).",
+          "This aligns with the broader theme of reallocating toward value, quality, and income as a partial counterweight to concentrated growth risk."
+        ]
+      }
+    }
+  },
+  "risk_flags": {
+    "macro": [
+      {
+        "flag": "rising_long_term_yields_and_inflation_fears",
+        "implication": "Higher real and nominal yields pressure equity valuations—especially for long-duration growth—and can catalyze sudden de-risking episodes. Macro-sensitive paper-trading logic should treat large yield spikes as regime-shift signals rather than noise.",
+        "sources": [4, 6, 8]
+      },
+      {
+        "flag": "higher_for_longer_fed_expectations",
+        "implication": "Markets are increasingly aligned with a prolonged restrictive stance by the Fed, limiting the scope for multiple expansion driven by imminent rate-cut hopes. Strategies that implicitly assume rapid reversion to low-rate conditions should be flagged as aggressive.",
+        "sources": [3, 4, 6, 8]
+      }
+    ],
+    "market_structure": [
+      {
+        "flag": "narrow_leadership_and_ai_concentration",
+        "implication": "Index performance dependence on a small group of AI/mega-cap names increases fragility. Negative surprises around key AI earnings (e.g., NVDA) or regulatory shifts could have outsized impact on broad indices.",
+        "sources": [3, 8, 11]
+      },
+      {
+        "flag": "elevated_but_orderly_volatility",
+        "implication": "Volatility is structurally higher than in the prior low-VIX regime, which can magnify intraday swings and stop-loss hits in paper strategies. Position sizing and stop placement logic should account for wider expected ranges.",
+        "sources": [3, 4, 11]
+      }
+    ],
+    "earnings_and_micro": [
+      {
+        "flag": "event_risk_around_megacap_ai_and_key_macro_dates",
+        "implication": "Upcoming earnings from marquee AI names, combined with Fed meetings and inflation prints, can flip tape tone quickly. Paper-trading logic should mark these as event windows where backtests using average volatility may understate realized swings.",
+        "sources": [3, 8, 11]
+      },
+      {
+        "flag": "high_dispersion_in_single_stock_reactions",
+        "implication": "Even within the same sector, post-earnings reactions are highly idiosyncratic (e.g., 8x8 rallying on a beat while Frontier Group sells off on widened losses). This undermines naive sector-level inference and supports conservative assumptions for single-name risk.",
+        "sources": [2, 7, 9]
+      }
+    ],
+    "credit_and_liquidity": [
+      {
+        "flag": "tight_credit_spreads_despite_rate_rise",
+        "implication": "Spreads remaining tight while rates rise suggests that credit markets may not yet fully price a growth slowdown. If spreads widen abruptly, equities could face correlated downside. Paper-trading frameworks should not assume bonds reliably hedge equity risk in this environment.",
+        "sources": [1, 6]
+      }
+    ],
+    "regime_for_paper_trading_bot": [
+      {
+        "flag": "regime_tag_for_system",
+        "implication": "Label current environment as ‘cautious_risk_on_higher_yield_regime’. System should: (a) prioritize quality and diversification in any simulated allocations; (b) treat AI/mega-cap tech as high-impact regime drivers; (c) respond to bond-yield spikes and AI-earnings events as potential triggers for short-term risk-off phases rather than anomalies.",
+        "sources": [1, 3, 4, 6, 8, 11]
+      }
+    ]
+  },
+  "source_urls": [
+    "https://christianphilpadvisorygroup.com/heres-what-were-thinking-42/",
+    "https://www.morningstar.com/stocks/3-more-stocks-buy-after-earnings-2",
+    "http://www.morningstar.com/markets/us-stock-market-outlook-its-time-reallocate-growth-value",
+    "https://www.youtube.com/watch?v=qlMLsjmnOdw",
+    "https://www.fitchratings.com/research/banks/fitch-affirms-bnp-paribas-long-term-idr-at-aa-outlook-stable-19-05-2026",
+    "https://www.youtube.com/watch?v=6dihA5TI0F8",
+    "https://www.perplexity.ai/finance/ULCC/research",
+    "https://www.youtube.com/watch?v=jdAD-bVpVTQ",
+    "https://investing.com/news/earnings/8x8-shares-surge-12-on-q4-earnings-revenue-beat-93CH-4699588?ampMode=1",
+    "https://www.youtube.com/watch?v=QYYHtaX6na8"
+  ]
+}
 

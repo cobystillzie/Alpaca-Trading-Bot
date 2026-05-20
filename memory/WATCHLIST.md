@@ -4,193 +4,63 @@
 {
   "candidates": [
     {
-      "adversary_case": "The market may have fully priced in both Vera and strong AI demand; the modest premarket dip could be smart money de-risking before a negative surprise. In that scenario, chasing any initial post-earnings bounce could lead to a bull-trap drawdown. A quality business does not guarantee a good short-term trade at current valuation.",
-      "allocation_learning_note": "Given prior rejections tied to allocation limits for mega-cap tech, this idea is constrained to watch-only status until overall portfolio concentration in AI megacaps is lower or rules change.",
-      "balance_sheet_risk": "Low. Nvidia carries strong cash reserves and manageable obligations, with substantial free cash flow. Main financial risk is valuation-driven, not solvency.",
-      "bear_case": "Expectations are extremely elevated; any sign of slowing data center growth, margin compression, or cautious guidance on AI spending could trigger a sharp correction. The stock is richly valued, so multiple compression risk is meaningful. Macro headwinds (rates, geopolitics) could also drive a risk-off move that hits high-beta AI names hardest, regardless of company-specific strength.",
-      "capital_allocation_case": "Management has historically allocated capital effectively toward R&D, acquisitions (where allowed), and shareholder returns via buybacks and dividends. The main risk is over-commitment to capex or pricing decisions that could compress margins if competition or regulation intensify.",
-      "catalyst": "1) Company blog-confirmed initial Vera CPU deliveries to marquee AI customers; 2) Imminent Q1 earnings with high investor focus; 3) Modest premarket dip despite positive product news, setting up a possible relief/momentum move if earnings/guidance are solid.",
-      "catalyst_type": "earnings",
-      "chittick_cash_score": 70.0,
-      "chittick_reject_reason": "Not rejected, but de-emphasized as a core Chittick-style buy due to valuation and earnings-gap risk; better suited as a tightly risk-managed swing in paper-trading.",
-      "concentration_case": "For a cautious paper portfolio, NVDA deserves monitoring due to its centrality to the AI theme and market leadership. However, position sizing should stay well below maximum single-name limits, especially given prior allocation constraints noted for mega-cap tech names in this workflow.",
-      "confidence": 0.58,
+      "adversary_case": "The strongest objection is that this is a crowded theme trade without a fresh company-specific earnings or guidance catalyst, so the move may already be extended.",
+      "allocation_learning_note": "If used later, size modestly because this is cyclical and close to range highs; do not treat it like a defensive compounder.",
+      "balance_sheet_risk": "No acute balance-sheet red flag from the provided data, but cyclicality remains the main risk because earnings can compress quickly in a downturn.",
+      "bear_case": "Memory is highly cyclical, so any sign of pricing weakness, inventory normalization, or a broader risk-off tape could hit MU quickly. The stock can also snap back hard if the rally is crowded.",
+      "capital_allocation_case": "Micron generally benefits from disciplined capex and product-cycle execution, but this setup is more about operating leverage than capital return policy.",
+      "catalyst": "Recent market coverage highlighted a major DRAM rally theme and framed two catalysts that could drive or break the 2026 memory move; the stock is trading near the upper end of its recent range with strong volume support.",
+      "catalyst_type": "momentum",
+      "chittick_cash_score": 61.0,
+      "chittick_reject_reason": "",
+      "concentration_case": "It deserves attention over a broad ETF because it has a concrete, sector-specific catalyst and stronger upside torque than a diversified benchmark.",
+      "confidence": 0.59,
       "congressional_signal": "none",
-      "diversity_bucket": "mega-cap-ai-semiconductors",
-      "entry_plan": "Paper-trade conditional entry only after earnings volatility stabilizes: consider a buy zone on a hold/reclaim of a key short-term support level after the initial earnings reaction (e.g., intraday higher low with volume tapering on the downside). Avoid entering during the first 15\u201330 minutes post-print in simulation to reduce whipsaw risk.",
-      "exit_plan": "For a 3\u20137 day swing, target 6\u201310% upside from post-earnings stabilization as profit zone, with an 8% stop loss from entry or a technical break of recent support. If earnings/guidance clearly disappoint or price breaks key levels on heavy volume, exit fully rather than averaging down.",
+      "diversity_bucket": "information-technology-semiconductors",
+      "entry_plan": "Paper trade only if MU holds above the prior intraday support zone and continues to trade above the recent midpoint of its range on above-average volume. Prefer a staged entry rather than full size at once.",
+      "exit_plan": "Take partial profits into strength if the stock extends sharply from entry. Cut if price loses the recent support zone or if the memory-theme narrative weakens.",
       "fresh_catalyst": true,
-      "growth_runway": "30\u2013180 day: continued AI data center capex from hyperscalers and AI labs, ramp of new products (including Vera CPU), and potential software/stack monetization. Longer term: diversification across automotive, edge, and physical AI/robotics, though those are secondary to near-term data center drivers.",
-      "hf_evidence_rank": 0.0,
-      "hf_filter_vetoes": [
-        "prior_nvda_allocation_rejections",
-        "repeat_decay_high"
-      ],
-      "hf_hype_risk": 0.15,
-      "hf_memory_similarity": 0.9,
-      "hf_model_notes": "Name has been previously rejected due to single-name allocation constraints; current treatment is watch-only with explicit caution and no execution-ready language.",
-      "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "",
-      "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 0.0,
-      "horizon_days": 5,
-      "margin_of_safety_case": "Valuation embeds very high growth and AI leadership assumptions, leaving limited classical margin of safety. The quality of the business is exceptional, but entry here is largely a momentum and catalyst bet rather than a discount-to-intrinsic-value play.",
-      "market_regime": "In a neutral-to-cautious risk-on environment, AI leaders can still outperform, but gap risk around earnings is high. The setup is suitable only for a small, tightly risk-managed paper swing, not a full-sized allocation.",
-      "momentum_case": "Despite the small premarket dip (~0.3%), NVDA remains in a broader uptrend tied to AI infrastructure demand. Liquidity is extremely high, and AI hardware continues to attract flows. The slight weakness into a potential positive earnings event can offer a classic \u2018strong trend, short-term wobble\u2019 swing opportunity if price holds key support.",
-      "owner_hold_case": "An owner-style 30\u2013180 day thesis would focus on sustained AI infrastructure demand, ramping adoption of Vera and related platforms, and potential upside from software and services layering on top of hardware. That longer-term case is attractive but should be evaluated separately from this short-duration swing frame, given valuation.",
-      "quality_case": "Nvidia is a high-ROIC, cash-generative chip leader with entrenched ecosystem advantages in GPUs, networking, and now CPUs for AI workloads. Its moat is reinforced by CUDA and deep relationships with hyperscalers and leading AI labs. Balance sheet is strong with significant net cash and robust free cash flow, aligning with Buffett/Munger-style quality (though at a premium valuation).",
-      "recommendation": "watch",
-      "repeat_count_48h": 0,
-      "research_tier": "monitor-only",
-      "risk_reward": "Skew is acceptable but not outstanding: strong business and positive product catalyst versus elevated expectations and earnings-gap risk. Works best as a small, opportunistic swing in paper-trading rather than a core position.",
-      "sector": "information-technology-semiconductors",
-      "signal_weights": {
-        "congressional_signal": 0.0,
-        "social_buzz": 0.05
-      },
-      "social_buzz": "Some online chatter and newsflow focus on Nvidia\u2019s Vera delivery and upcoming earnings, but no clear evidence of abnormal, tradeable buzz beyond standard mega-cap attention.",
-      "source_quality": "Primary news comes from Nvidia\u2019s own blog post (via Stocktwits news recap) confirming Vera CPU deliveries plus reputable financial news around earnings timing and futures action. This is solid, fundamentals-based evidence, not pure social hype.",
-      "source_urls": [
-        "https://stocktwits.com/news-articles/markets/equity/nvda-stock-dips-premarket-chip-giant-hand-delivers-next-gen-vera-cp-us-to-anthropic-open-ai-space-x-oracle/cZXujOeReZL",
-        "https://stocktwits.com/news-articles/markets/equity/nasdaq-sp500-futures-flat-nvda-meta-googl-hd-hims-stocks-to-watch/cZXulrXReZk"
-      ],
-      "stop_loss_percent": 8.0,
-      "strategy_tags": [
-        "chittick_cash",
-        "ai-infrastructure",
-        "earnings-swing",
-        "mega-cap-quality"
-      ],
-      "symbol": "NVDA",
-      "target_allocation_percent": 0.0,
-      "thesis": "Nvidia remains the dominant AI infrastructure provider, and the first deliveries of its next-generation Vera CPU to top AI customers (Anthropic, OpenAI, Oracle Cloud, SpaceX AI) reinforce its central role in AI compute. Shares are slightly weaker premarket ahead of Q1 earnings, offering a potential short-duration swing setup if the market leans too cautious into a strong fundamental backdrop.",
-      "valuation_case": "Shares trade at a premium multiple versus the broader market and semis peer group, justified by exceptional growth but sensitive to any slowdown. From a value-investor lens, this is expensive quality, suitable for small, time-boxed paper trades rather than a large, long-term margin-of-safety purchase."
-    },
-    {
-      "adversary_case": "The robotaxi rollout and VLA 2.0 may already be price-insufficient catalysts in a market more focused on profitability and macro China risks. In that case, XPEV could grind lower or remain range-bound even if the technology narrative is positive, making any bounce attempt short-lived or non-existent.",
-      "allocation_learning_note": "If allocated in future, keep below mid-single-digit percent of portfolio and treat as a high-volatility experiment, not a Chittick core.",
-      "balance_sheet_risk": "As with many EV start-ups, XPeng\u2019s balance sheet and cash burn are key risks; ongoing need for capital markets access and sensitivity to subsidy/policy changes add uncertainty.",
-      "bear_case": "If support around the 52-week low fails, further downside could be significant as technical sellers and stop orders trigger. Execution risk around robotaxi commercialization is high, and regulatory shifts or EV demand volatility in China could pressure both volume and margins. Valuation, while off highs, may still not fully reflect these risks.",
-      "capital_allocation_case": "Management is prioritizing R&D and autonomous capabilities, which could create long-term value but is dilutive to near-term profitability. From a Chittick/Buffett lens, this is more speculative growth than disciplined compounding.",
-      "catalyst": "1) Official rollout of XPeng\u2019s first mass-produced Robotaxi; 2) Management commentary that customer engagement improved after VLA rollout; 3) The stock is down ~3.5% on the day and trades 7.3% below its 20-day SMA and ~24% below its 200-day SMA, near key support.",
-      "catalyst_type": "news",
-      "chittick_cash_score": 45.0,
-      "chittick_reject_reason": "Low score due to speculative profile, limited margin of safety, and execution/balance-sheet risks; not suitable as a concentrated-quality core holding.",
-      "concentration_case": "Given prior focus on U.S. quality names, XPEV helps diversify geographically and sector-wise, but should remain a small, experimental position in any paper portfolio, especially in light of balance-sheet and execution risk.",
-      "confidence": 0.55,
-      "congressional_signal": "none",
-      "diversity_bucket": "china-ev-autonomy",
-      "entry_plan": "For paper trading, consider a staged entry only if price stabilizes above the identified key support (around the recent low highlighted in the article) for at least 1\u20132 sessions and shows a positive reversal pattern (e.g., higher low plus uptick in volume on green days). Avoid entries if the stock closes decisively below that support.",
-      "exit_plan": "Target 8\u201312% upside toward the 20-day SMA (~$16.24) as an initial profit zone over 5\u201310 days, with a 8\u201310% stop loss from entry or a close below recent lows. If price approaches the 20-day SMA and stalls, exit rather than hoping for a full trend reversal.",
-      "fresh_catalyst": true,
-      "growth_runway": "30\u2013180 day: progress in robotaxi deployment, VLA 2.0 performance metrics, and any evidence of improved sales or engagement. Longer term: EV adoption and autonomous driving penetration in China, plus potential overseas expansion.",
-      "hf_evidence_rank": 0.0,
+      "growth_runway": "30-180 day upside depends on continued DRAM strength, AI/storage demand, and favorable memory pricing. Longer term, Micron benefits from secular data growth.",
+      "hf_evidence_rank": 0.56,
       "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.25,
-      "hf_memory_similarity": 0.3,
-      "hf_model_notes": "Treated as a speculative, non-core swing watch due to sector, geography, and trend profile.",
+      "hf_hype_risk": 0.31,
+      "hf_memory_similarity": 0.34,
+      "hf_model_notes": "Fresh catalyst is present but evidence is only moderate-quality market coverage. Not hype-only, but not a high-conviction execution-ready setup from the available sources.",
       "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "",
-      "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 0.0,
-      "horizon_days": 7,
-      "margin_of_safety_case": "Given weak profitability and competitive pressures, there is limited classic margin of safety. The stock\u2019s proximity to 52-week lows offers some technical reference for downside, but intrinsic-value certainty is low.",
-      "market_regime": "In a neutral-to-cautious backdrop, a high-beta China EV play is riskier than domestic defensives or large U.S. tech. This argues for a very small, speculative allocation at most in a paper portfolio and only if technical evidence of support emerges.",
-      "momentum_case": "Current momentum is negative: XPEV is below both 20-day and 200-day SMAs, and price is near a critical support region around the 52-week low. A short-term oversold bounce is possible if support holds, but trend-followers would view the stock as in a downtrend. This is a potential contrarian swing rather than a trend continuation trade.",
-      "owner_hold_case": "An owner-style 30\u2013180 day thesis would require clear evidence that robotaxi commercialization is gaining traction (revenue, partnerships, expanded pilots) and that losses are narrowing. Until those emerge, XPEV is more of a trading vehicle than an owner-hold.",
-      "quality_case": "XPeng operates in a structurally growing EV and autonomous-driving market with strong government and ecosystem support in China. It has significant technology investment, including VLA 2.0 for map-light autonomy. However, profitability remains weak and competition is intense, making it a more speculative quality profile than classic Buffett-style holdings.",
+      "hf_sentiment_label": "constructive-but-cautious",
+      "hf_sentiment_score": 0.58,
+      "hf_source_quality_score": 0.52,
+      "horizon_days": 5,
+      "margin_of_safety_case": "Margin of safety is limited for a short swing because the stock is near the top of its recent range. The quality of the business helps, but valuation is not cheap enough to call this deep value.",
+      "market_regime": "Works best in a selective risk-on regime where semis still have sponsorship. It is vulnerable if the market shifts toward lower-duration defensives or if rates rise further.",
+      "momentum_case": "Price is near the highs of the cited range, and trading volume is substantial. That suggests institutional interest and a trend that can persist if memory pricing remains constructive.",
+      "owner_hold_case": "Over 30-180 days, the case improves if memory pricing, AI-related demand, and earnings guidance continue to confirm the cycle thesis.",
+      "quality_case": "Micron is a large, profitable semiconductor company with meaningful competitive advantages in memory and storage. It is cyclical, but the scale and product relevance are materially stronger than a generic commodity-tech trade.",
       "recommendation": "watch",
       "repeat_count_48h": 0,
       "research_tier": "watch",
-      "risk_reward": "Risk/reward is speculative but potentially attractive for a small contrarian swing: a defined nearby support with a clear technical target (20-day SMA). However, the trade cuts against the prevailing downtrend, raising failure probability.",
-      "sector": "consumer-discretionary-automobiles-ev",
+      "risk_reward": "Moderate-to-good: upside can run if the DRAM theme persists, but downside is also meaningful because this is a cyclical semiconductor trade.",
+      "sector": "information-technology / semiconductors",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.03
       },
-      "social_buzz": "No strong, verifiable abnormal buzz signals; any attention appears in standard EV/China discourse without clear volume anomalies.",
-      "source_quality": "Data points (price, SMA levels, analyst consensus) come from Benzinga-based reporting, which is generally reliable for descriptive metrics. This is decent but not top-tier primary-source evidence and includes some interpretation.",
+      "social_buzz": "Some attention around the DRAM rally narrative, but this is secondary context only.",
+      "source_quality": "Moderate. The source is a market quote/news page with a clear price and volume snapshot, but the catalyst framing is not as strong as a company filing or earnings release.",
       "source_urls": [
-        "https://m.dailyhunt.in/news/india/english/benzinga-epaper-benzinga/whats+going+on+with+xpeng+stock+on+monday-newsid-n712752504",
-        "https://coincentral.com/xpeng-xpev-stock-slips-robotaxi-mass-production-guangzhou/"
+        "https://robinhood.com/stocks/MU"
       ],
-      "stop_loss_percent": 9.0,
+      "stop_loss_percent": 8.0,
       "strategy_tags": [
-        "swing-trade",
-        "ev-autonomy",
-        "contrarian",
-        "chittick_cash-light"
+        "chittick_cash"
       ],
-      "symbol": "XPEV",
+      "symbol": "MU",
       "target_allocation_percent": 0.0,
-      "thesis": "XPeng is an emerging EV and autonomous-driving player in China that has just rolled out its first mass-produced Robotaxi and is promoting its Vision-Language-Action (VLA) 2.0 autonomous model. The stock is under pressure and trading below key moving averages, but the fundamental catalyst of a commercial robotaxi launch and improved customer engagement could support a tactical mean-reversion or early-momentum swing if technicals stabilize.",
-      "valuation_case": "Analyst consensus price target around $21.06 suggests upside versus current price (~$15), but consensus targets can be slow to adjust and may not fully account for macro and execution risk. Valuation should be treated as speculative rather than clearly cheap."
-    },
-    {
-      "adversary_case": "In the absence of a near-term binary event, the stock could drift sideways or down for months as investors wait for more evidence, making early entry a value trap. Additionally, existing safety label updates for IXCHIQ in elderly patients highlight that adverse events can alter the commercial narrative quickly.",
-      "allocation_learning_note": "Until a clearly dated, positive catalyst is identified, VALN should remain a research watch name rather than an active swing candidate.",
-      "balance_sheet_risk": "As a biotech, Valneva relies on partnerships, grants, and eventual product revenues; filings suggest it has external support (CEPI, Serum Institute, Pfizer partnership), but financing and dilution risk remain non-trivial.",
-      "bear_case": "Regulatory, safety, or trial setbacks (especially in elderly populations for chikungunya or in Lyme) could pressure the stock further. Manufacturing, pricing/reimbursement, and competitive vaccines are ongoing risks. The name is also subject to sentiment swings in European mid-cap biotech, which can be sharp.",
-      "capital_allocation_case": "Management has directed capital into advancing core vaccine programs and leveraging partnerships, which is appropriate for the stage of the company. The trade-off is continued high R&D spend versus near-term profitability.",
-      "catalyst": "Medium-term catalysts include ongoing development and potential regulatory/clinical milestones for the Lyme disease vaccine, chikungunya label expansions, and broader geographic commercialization. No clear, dated near-term (1\u201310 day) catalyst is visible in current web results beyond general pipeline progress.",
-      "catalyst_type": "structural",
-      "chittick_cash_score": 61.0,
-      "chittick_reject_reason": "Not rejected, but kept at watch status due to lack of immediate catalyst and negative recent price trend; unsuitable for 1\u201310 day swing entry right now.",
-      "concentration_case": "For a diversified paper portfolio, VALN would provide sector and geographic diversification (healthcare/Europe) versus current focus on U.S. large caps. However, speculative biotech concentration must remain low.",
-      "confidence": 0.6,
-      "congressional_signal": "none",
-      "diversity_bucket": "international-biotech-vaccines",
-      "entry_plan": "No near-term paper entry is recommended at this time. Continue to monitor price action around any clearly dated data readout or regulatory milestones; a higher-conviction setup would combine a fresh positive catalyst with improving technicals (e.g., reclaim of key moving averages on strong volume).",
-      "exit_plan": "Not applicable yet; this is a monitor/watch-only thesis. Any future paper trade would need a defined catalyst window and tight risk controls given biotech volatility.",
-      "fresh_catalyst": true,
-      "growth_runway": "30\u2013180 day: progress on Lyme disease vaccine trials with Pfizer, further IXCHIQ commercialization, and regional label expansions. Longer term: additional vaccines targeting unmet infectious diseases and broader geographic penetration.",
-      "hf_evidence_rank": 0.0,
-      "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.12,
-      "hf_memory_similarity": 0.95,
-      "hf_model_notes": "Already appeared several times in recent candidate sets; repeat decay applied, so kept in watch tier without execution-ready language.",
-      "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "",
-      "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 0.0,
-      "horizon_days": 10,
-      "margin_of_safety_case": "Valuation may embed pessimism after a significant drawdown, but intrinsic value is highly sensitive to pipeline success probabilities. From a strict margin-of-safety lens, the uncertainty is high, so position sizing should be modest if/when a trade is considered.",
-      "market_regime": "In a cautious environment with macro and rate jitters, speculative biotech with Europe listing and U.S. ADR can be volatile and may underperform until concrete positive catalysts materialize.",
-      "momentum_case": "Recent price performance appears weak (drawdowns cited around -34% over some periods in Euronext data). There is no evidence of a current upside breakout or strong positive momentum. This is not a momentum trade at present; it is a fundamentally-driven watch for better technical setups or specific data/regulatory events.",
-      "owner_hold_case": "An owner-style 30\u2013180 day thesis would hinge on clear milestones in the Lyme/Pfizer program and IXCHIQ label/commercial progress, with regular reassessment around each data or regulatory event.",
-      "quality_case": "Valneva has a focused strategy in prophylactic vaccines targeting unmet medical needs. SEC filings show solid immunogenicity data for IXCHIQ and partnerships with Pfizer, CEPI, and the Serum Institute, which support both funding and access. However, as a mid-cap biotech, it remains exposed to trial outcomes, regulatory decisions, and commercial uptake risk.",
-      "recommendation": "watch",
-      "repeat_count_48h": 4,
-      "research_tier": "watch",
-      "risk_reward": "Potential upside is meaningful if vaccines succeed commercially, but downside is also substantial due to binary event risk and current negative trend. Without a dated, near-term catalyst, the risk/reward for a 1\u201310 day swing is weak.",
-      "sector": "healthcare-biotech-vaccines",
-      "signal_weights": {
-        "congressional_signal": 0.0,
-        "social_buzz": 0.0
-      },
-      "social_buzz": "none",
-      "source_quality": "Quality is moderate-to-strong: SEC filings plus Euronext/MarketScreener data provide solid fundamentals; however, the current web snippets do not identify a precise upcoming catalyst date.",
-      "source_urls": [
-        "https://www.zonebourse.com/cours/action/VALNEVA-SE-54466/",
-        "https://it.marketscreener.com/quotazioni/azione/VALNEVA-SE-54466/",
-        "https://www.sec.gov/Archives/edgar/data/1836564/000183656425000050/vla-20250807.htm",
-        "https://www.sec.gov/Archives/edgar/data/1836564/000183656425000078/vla-20250121.htm",
-        "https://www.sec.gov/Archives/edgar/data/1836564/000183656424000072/vla-20241219.htm",
-        "https://www.sec.gov/Archives/edgar/data/1836564/000183656424000068/vla-20241203.htm"
-      ],
-      "stop_loss_percent": 0.0,
-      "strategy_tags": [
-        "chittick_cash",
-        "biotech",
-        "pipeline-watch"
-      ],
-      "symbol": "VALN",
-      "target_allocation_percent": 0.0,
-      "thesis": "Valneva (U.S. ADR ticker VALN) is a specialty vaccine developer with commercial and late-stage assets, including a Lyme disease vaccine collaboration with Pfizer and chikungunya vaccine IXCHIQ. Recent SEC filings and market data highlight a growing vaccine portfolio and long-duration immunogenicity, but shares have been weak over the past year, potentially offering a high-uncertainty, fundamentals-driven watch candidate rather than an immediate trade.",
-      "valuation_case": "Without detailed current multiples, valuation appears to be in a \u2018prove-it\u2019 zone where the market discounts some pipeline value but does not assume blockbuster success. This makes the name interesting for research but not obviously cheap or expensive from the snippets alone."
+      "thesis": "Micron offers direct exposure to a strong memory-cycle re-rating, and the business has enough scale and quality to be considered under a Buffett/Munger lens rather than a pure trading vehicle. For a short swing, the key is that the stock is already acting like an institutional momentum name with a visible catalyst path.",
+      "valuation_case": "A 31.88 P/E is not bargain-priced for a cyclical semiconductor, so valuation only works if the memory upcycle continues."
     }
   ],
-  "summary": "Futures are slightly weak with inflation and geopolitical concerns in focus while traders await Nvidia\u2019s earnings. Stock-specific catalysts today include Nvidia\u2019s early delivery of its next-gen Vera CPU to major AI customers and XPeng\u2019s mass-produced Robotaxi rollout, both influencing sentiment in AI infrastructure and autonomous driving names."
+  "summary": "Micron is the only clearly sourced single-name idea in the provided results, with a strong memory-semiconductor momentum setup but the evidence is still thin for a fresh 1-10 day swing beyond a single news snippet. Broadly, the tape remains selective and higher-rate sensitive, so quality-with-catalyst names are favored over hype."
 }
 -->
 
@@ -1374,4 +1244,10 @@ No candidates.
 | NVDA | information-technology-semiconductors | monitor-only | mega-cap-ai-semiconductors | 0 | yes | 0.58 | 70 | 0 | 2 | 0.0% | 8.0% | watch | 1) Company blog-confirmed initial Vera CPU deliveries to marquee AI customers; 2) Imminent Q1 earnings with high investor focus; 3) Modest premarket dip despite |
 | XPEV | consumer-discretionary-automobiles-ev | watch | china-ev-autonomy | 0 | yes | 0.55 | 45 | 0 | 0 | 0.0% | 9.0% | watch | 1) Official rollout of XPeng’s first mass-produced Robotaxi; 2) Management commentary that customer engagement improved after VLA rollout; 3) The stock is down  |
 | VALN | healthcare-biotech-vaccines | watch | international-biotech-vaccines | 4 | yes | 0.60 | 61 | 0 | 0 | 0.0% | 0.0% | watch | Medium-term catalysts include ongoing development and potential regulatory/clinical milestones for the Lyme disease vaccine, chikungunya label expansions, and b |
+
+## Latest Candidates - 2026-05-20 03:31:53 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| MU | information-technology / semiconductors | watch | information-technology-semiconductors | 0 | yes | 0.59 | 61 | 1 | 0 | 0.0% | 8.0% | watch | Recent market coverage highlighted a major DRAM rally theme and framed two catalysts that could drive or break the 2026 memory move; the stock is trading near t |
 

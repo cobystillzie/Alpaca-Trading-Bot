@@ -15889,4 +15889,19 @@ HF filter: sentiment=not run source=0/100 hype=0.12 vetoes=0
 Self-learning: tier=watch repeat48h=4 fresh=yes bucket=international-biotech-vaccines
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-20 03:31:53 Eastern Daylight Time
+
+Research Update
+
+Market tone: Micron is the only clearly sourced single-name idea in the provided results, with a strong memory-semiconductor momentum setup but the evidence is still thin for a fresh 1-10 day swing beyond a single news snippet. Broadly, the tape remains selective and higher-rate sensitive, so quality-with-catalyst names are favored over hype.
+Candidates: 1
+
+1. MU (information-technology / semiconductors) | confidence 0.59 | allocation 0.0% | stop 8.0% | Chittick 61/100 | tier watch | bucket information-technology-semiconductors | HF source 1/100
+Recommendation: watch
+Catalyst: Recent market coverage highlighted a major DRAM rally theme and framed two catalysts that could drive or break the 2026 memory move; the stock is trading near the upper end of its recent range with strong volume support.
+Chittick Cash: Margin of safety is limited for a short swing because the stock is near the top of its recent range. The quality of the business helps, but valuation is not cheap enough to call this deep value.
+HF filter: sentiment=constructive-but-cautious source=1/100 hype=0.31 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=information-technology-semiconductors
+Social buzz, low weight: Some attention around the DRAM rally narrative, but this is secondary context only.
+Congress signal, low weight: none
 

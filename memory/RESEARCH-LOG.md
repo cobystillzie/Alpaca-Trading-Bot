@@ -1001,4 +1001,9 @@ Candidates found: 3
 Futures are slightly weak with inflation and geopolitical concerns in focus while traders await Nvidia’s earnings. Stock-specific catalysts today include Nvidia’s early delivery of its next-gen Vera CPU to major AI customers and XPeng’s mass-produced Robotaxi rollout, both influencing sentiment in AI infrastructure and autonomous driving names.
 
 Candidates found: 3
+## Two-Hour Research Agent - 2026-05-20 03:31:53 Eastern Daylight Time
+
+Micron is the only clearly sourced single-name idea in the provided results, with a strong memory-semiconductor momentum setup but the evidence is still thin for a fresh 1-10 day swing beyond a single news snippet. Broadly, the tape remains selective and higher-rate sensitive, so quality-with-catalyst names are favored over hype.
+
+Candidates found: 1
 
