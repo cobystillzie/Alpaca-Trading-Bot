@@ -15937,4 +15937,130 @@ HF filter: sentiment=not actionable source=0/100 hype=0.01 vetoes=0
 Self-learning: tier=monitor-only repeat48h=0 fresh=no bucket=renewables
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Premarket Memo - 2026-05-20 08:25:02 Eastern Daylight Time
+
+Premarket Analyst Memo
+
+Recommendation: Execute only if guardrails pass; otherwise hold cash and wait for cleaner evidence.
+
+Market Regime
+In a risk-on tape, ET can lag higher-beta names unless energy/midstream is specifically bid; in risk-off, it can act more defensively, but the current setup is not a timing edge.
+
+Top Candidates
+
+1. ET (energy-midstream) | confidence 0.32 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket energy-midstream | HF source 0/100
+Thesis: Large-cap midstream cash flows and asset footprint can support a defensive long-only hold, but the only fresh signal here is an immaterial congressional sale, which is not enough for execution. This is more of a monitored quality income name than a short-term swing trade.
+Catalyst: Weak secondary context only: delayed congressional disclosure of a small sale by Rep. Brian Babin; no company-specific operational catalyst in the provided results
+Entry: Do not execute from this evidence set. Only consider on a separate pullback/reversal setup with a confirmed tape turn and a company-specific catalyst.
+Exit: If monitored, review on any 3-5% follow-through from a proper base; invalidate if energy weakens or if no fresh operational news emerges within the holding window.
+Risk/reward: Poor for a fresh trade here because the catalyst is too weak; acceptable only as a monitored defensive income idea.
+Bear/adversary: The strongest objection is that this is not a real catalyst; it is a small, delayed disclosure with no edge and no timing value.
+Source quality: Weak for trading: single small congressional disclosure is low-weight, delayed, and immaterial relative to ET liquidity.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Potentially decent on a fundamental basis, but margin of safety cannot be assessed from the provided results alone; no fresh valuation anchor here.
+Valuation: No usable valuation setup from the supplied sources; avoid making a price call without current cash flow or leverage data.
+Growth runway: Longer-term runway depends on continued volume growth, asset utilization, and stable capital returns, but none of that is evidenced in the current search set.
+Balance-sheet risk: Needs review of leverage and distribution coverage; midstream can be resilient, but debt/refinancing sensitivity matters in a higher-rate regime.
+Capital allocation: No fresh management action in the supplied data to assess allocation discipline.
+Concentration case: A broad ETF or a stronger catalyst name would be preferable; ET is not compelling enough to displace better evidence-backed ideas.
+Owner thesis, 30-180 days: Would only be reviewed for a 30-180 day hold if the company issued updated guidance, FCF/distribution coverage stayed strong, and the unit price offered a clear margin of safety.
+Chittick reject reason: No company-specific catalyst; only low-weight congressional context. Not execution-ready under a cautious evidence-based process.
+Self-Learning Filter
+Catalyst type: general
+Fresh catalyst: yes
+Repeat count, 48h: 2
+Diversity bucket: energy-midstream
+Research tier: monitor-only
+Allocation learning: Keep at 0% until a real company catalyst or valuation edge is confirmed.
+Hugging Face Filter
+Sentiment: weakly neutral (0.28), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.05
+Evidence rank: 0/100
+Memory similarity: 0.12
+Vetoes: none
+Model notes: Included only because ET is the sole ticker with a clearly identified recent disclosure in the provided materials; evidence is insufficient for a trade.
+Social buzz, max 10%: none
+Congress signal, max 5%: Small delayed sale disclosed by Rep. Brian Babin; informational only and not a trading catalyst.
+Sources: https://www.quiverquant.com/stock/ET/, https://www.quiverquant.com/news/Congress+Trade:+Representative+Brian+Babin+Just+Disclosed+New+Stock+Trades
+
+2. LLOY.L (financials-large-cap-bank) | confidence 0.27 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier watch | bucket financials-large-cap-bank | HF source 0/100
+Thesis: UK banking exposure can be attractive if rates stay supportive and credit remains clean, but the provided source is only a static quote page without a fresh catalyst. This is a watchlist candidate, not a swing trade.
+Catalyst: No fresh catalyst in the supplied materials; only a market-data/description page for Lloyds Banking Group
+Entry: Watch only. If later evidence shows a breakout on earnings or guidance, reassess with a tight stop.
+Exit: Not applicable for execution here; if added later, use a failure-of-breakout exit and reassess on any macro shock to rates/credit.
+Risk/reward: Neutral: quality may be acceptable, but there is no catalyst to justify an entry now.
+Bear/adversary: Without a current catalyst or trend confirmation, this is just a familiar bank name, not an edge.
+Source quality: Moderate as a company description source, but weak for trading because it lacks fresh market-moving information.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Could be reasonable if valuation is depressed, but no current valuation evidence is provided here.
+Valuation: No valuation data in the search result; do not assume cheapness from the name alone.
+Growth runway: Dependent on UK retail/commercial banking volumes, mortgage activity, and fee income; none are evidenced as recent catalysts here.
+Balance-sheet risk: Banks have explicit capital and credit-cycle risk; needs current CET1 and impairment data before taking risk.
+Capital allocation: No fresh capital-return update in the provided material.
+Concentration case: A bank watchlist slot is fine, but not over a clearer catalyst name or sector leader with recent news.
+Owner thesis, 30-180 days: Would only move to review if upcoming earnings, guidance, or a material capital return update improves the thesis.
+Chittick reject reason: No catalyst and no momentum evidence; only a static descriptive page.
+Self-Learning Filter
+Catalyst type: general
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: financials-large-cap-bank
+Research tier: watch
+Allocation learning: Hold at 0% until a true catalyst appears.
+Hugging Face Filter
+Sentiment: neutral (0.22), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.02
+Evidence rank: 0/100
+Memory similarity: 0.05
+Vetoes: none
+Model notes: Included for sector diversity only; not execution-ready.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://au.investing.com/equities/lloyds-banking-grp
+
+3. EPP01 (renewables) | confidence 0.15 | allocation 0.0% | stop 0.0% | Chittick 24/100 | tier monitor-only | bucket renewables | HF source 0/100
+Thesis: This is not a usable trading candidate from the provided evidence. The page appears to be an informational profile for Emmvee Photovoltaic Power, not a catalyst-backed listed stock setup suitable for the bot.
+Catalyst: No tradable catalyst in the provided result set; profile-style listing only
+Entry: No execution; keep as a research placeholder only.
+Exit: Not applicable.
+Risk/reward: Unattractive because the available evidence is source-thin and not clearly a listed swing-trade setup.
+Bear/adversary: The strongest objection is that this may not even be the right tradable instrument from the evidence provided.
+Source quality: Weak: the result is mostly a company profile/quote page rather than a timely market catalyst.
+Chittick Cash Filter
+Score: 24/100
+Margin of safety: No valuation or balance-sheet evidence is provided; margin of safety cannot be established.
+Valuation: No usable valuation signal in the search result.
+Growth runway: Renewables can have runway, but nothing in the result shows near-term catalysts or revenue acceleration.
+Balance-sheet risk: Likely meaningful project and financing risk, but specifics are unavailable here.
+Capital allocation: No governance or capital-allocation evidence available.
+Concentration case: Should be displaced by better-evidenced sector ideas; this is not trade-ready.
+Owner thesis, 30-180 days: Only revisit if a filing, earnings release, or exchange confirmation establishes a real listed opportunity with a clear catalyst.
+Chittick reject reason: Source-thin profile page; insufficient evidence for a stock trade.
+Self-Learning Filter
+Catalyst type: general
+Fresh catalyst: no
+Repeat count, 48h: 1
+Diversity bucket: renewables
+Research tier: monitor-only
+Allocation learning: Keep at 0%; seek actual listed-symbol and catalyst confirmation first.
+Hugging Face Filter
+Sentiment: not actionable (0.10), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.01
+Evidence rank: 0/100
+Memory similarity: 0.02
+Vetoes: none
+Model notes: Included solely because it was returned in search results; not a tradeable thesis.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.moneycontrol.com/india/stockpricequote/renewables/emmveephotovoltaicpower/EPP01
+
+Rejected / Watchouts
+- ET: Candidate references banned v1 instruments or leverage.; Candidate is monitor-only and cannot be traded.; Confidence below 0.60.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
+- LLOY.L: Confidence below 0.60.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
+- EPP01: Candidate is monitor-only and cannot be traded.; Confidence below 0.60.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
 

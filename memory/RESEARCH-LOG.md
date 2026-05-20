@@ -1011,4 +1011,14 @@ Candidates found: 1
 Risk appetite looks moderately constructive, but the provided search set is dominated by non-stock noise plus a single strong art-market headline and a weak banking/utility backdrop; there is no clear fresh stock catalyst in the results that passes a cautious 1-10 day swing-trade filter.
 
 Candidates found: 3
+## Premarket Plan - 2026-05-20 08:25:02 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- ET: score=66, base=90, chittick=35, approved=False, allocation=0.0%, stop=0.0%
+  rejects: Candidate references banned v1 instruments or leverage.; Candidate is monitor-only and cannot be traded.; Confidence below 0.60.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
+- LLOY.L: score=66, base=90, chittick=35, approved=False, allocation=0.0%, stop=0.0%
+  rejects: Confidence below 0.60.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
+- EPP01: score=62, base=90, chittick=24, approved=False, allocation=0.0%, stop=0.0%
+  rejects: Candidate is monitor-only and cannot be traded.; Confidence below 0.60.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
 
