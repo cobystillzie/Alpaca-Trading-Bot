@@ -1056,4 +1056,14 @@ Premarket plan built from latest watchlist.
   rejects: Candidate references banned v1 instruments or leverage.; Confidence below 0.60.; Target allocation must be between 1% and 15%.
 - KO: score=82, base=95, chittick=79, approved=False, allocation=0.0%, stop=6.0%
   rejects: Candidate references banned v1 instruments or leverage.; Target allocation must be between 1% and 15%.
+## Premarket Plan - 2026-05-21 08:25:02 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- INTU: score=81, base=95, chittick=76, approved=False, allocation=6.0%, stop=8.0%
+  rejects: Candidate references banned v1 instruments or leverage.
+- MU: score=73, base=90, chittick=61, approved=False, allocation=0.0%, stop=8.0%
+  rejects: Candidate references banned v1 instruments or leverage.; Confidence below 0.60.; Target allocation must be between 1% and 15%.
+- KO: score=82, base=95, chittick=79, approved=False, allocation=0.0%, stop=6.0%
+  rejects: Candidate references banned v1 instruments or leverage.; Target allocation must be between 1% and 15%.
 
