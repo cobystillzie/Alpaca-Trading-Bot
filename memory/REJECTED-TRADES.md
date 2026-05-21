@@ -169,4 +169,16 @@ Candidate is monitor-only and cannot be traded.
 Confidence below 0.60.
 Target allocation must be between 1% and 15%.
 Stop loss must be between 3% and 12%.
+## Rejected KO - 2026-05-21 09:48:26 Eastern Daylight Time
+
+Candidate references banned v1 instruments or leverage.
+Target allocation must be between 1% and 15%.
+## Rejected INTU - 2026-05-21 09:48:26 Eastern Daylight Time
+
+Candidate references banned v1 instruments or leverage.
+## Rejected MU - 2026-05-21 09:48:26 Eastern Daylight Time
+
+Candidate references banned v1 instruments or leverage.
+Confidence below 0.60.
+Target allocation must be between 1% and 15%.
 
