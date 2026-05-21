@@ -7433,4 +7433,156 @@ The US equity market is grinding to record highs, but the underlying conditions 
     "https://www.youtube.com/watch?v=mdFndujWSWQ"
   ]
 }
+## Market Regime Research - 2026-05-20 23:46:46 Eastern Daylight Time
+
+{
+  "summary": "US equities are in a cautiously risk‑on, event‑driven regime: index futures and spot have rebounded ahead of key AI/mega‑cap earnings with sentiment buoyed by lower energy prices and an ongoing belief in strong corporate profits, but this is offset by elevated bond yields, a firm US dollar, and Fed communications leaning more hawkish than markets previously hoped. For a cautious paper‑trading workflow, conditions favor selective participation, respect for event risk (especially mega‑cap tech earnings and Fed minutes), and tight guardrails on position size and exposure.",
+  "market_regime": {
+    "index_trend": {
+      "tone": "rebound-within-uptrend",
+      "details": [
+        "US index futures (S&P 500, Dow, Nasdaq 100) are trading higher pre‑market, retracing a recent multi‑day slump and reflecting renewed risk appetite ahead of Nvidia and broader AI‑related earnings. [3][4]",
+        "Spot US stocks have extended a rebound, supported in part by lower energy prices and anticipation of AI‑related earnings updates, suggesting that pullbacks are still being bought rather than turning into sustained risk‑off selling. [4]",
+        "Macro‑micro data show that S&P 500 levels remain closely tied to US corporate profits after tax (correlation >0.8), and current commentary assumes profits are holding up, supporting the view that the broader bull trend remains intact even amid tactical volatility. [10]"
+      ]
+    },
+    "rates_and_fed": {
+      "tone": "hawkish-leaning",
+      "details": [
+        "Fed minutes and Fed‑related commentary indicate growing support for further rate hikes and significantly reduced odds of rate cuts in 2026, shifting the policy path in a more hawkish direction than markets previously priced. [2]",
+        "Trading Economics data show the Fed Funds rate elevated, with expectations it remains relatively high near term; forward models see policy staying restrictive, reinforcing a higher‑for‑longer rate environment. [8]",
+        "The US dollar index is firm, holding near the high‑90s, and commentary notes that a hawkish tone in the minutes would reinforce dollar strength, signaling tighter financial conditions rather than an easing pivot. [1]"
+      ]
+    },
+    "volatility_and_liquidity": {
+      "tone": "contained-but-event-sensitive",
+      "details": [
+        "Futures are higher despite recent bond market volatility, suggesting that equity volatility is currently being absorbed rather than cascading into broader de‑risking. [3]",
+        "Commentary around oil dropping sharply and 10‑year Treasury yield moves being a \"relief valve\" underscores that cross‑asset volatility is meaningful but still within a tradable range, not a disorderly stress regime. [9]",
+        "After‑hours trading tools and reports highlight concentrated post‑close price action around earnings releases, implying that most spike risk is clustered around specific events rather than market‑wide dislocation. [6][7]"
+      ]
+    },
+    "earnings_tone": {
+      "tone": "selectively-positive-with-high-expectations",
+      "details": [
+        "Market commentary frames Nvidia and broader AI‑linked earnings as pivotal for \"the state of the AI economy,\" which has been a key driver of index performance; futures strength into these prints signals constructive expectations. [3][4]",
+        "Individual company reports (e.g., CMPS beating EPS expectations even with limited revenue) and the general focus on earnings surprises suggest that markets are rewarding beats and punishing misses, a normal but event‑sensitive micro backdrop. [7]",
+        "MacroMicro’s profit‑vs‑S&P framework supports the idea that as long as profit expectations do not roll over sharply, equity indices can sustain elevated levels despite higher rates. [10]"
+      ]
+    },
+    "risk_on_off": {
+      "tone": "moderate-risk-on-under-macro-constraints",
+      "details": [
+        "Equity indices and futures are rebounding and risk proxies tied to AI/tech are being bid ahead of earnings, which is characteristic of a risk‑on stance. [3][4]",
+        "At the same time, elevated bond yields, a firm USD, and hawkish Fed minutes keep a macro \"ceiling\" on risk appetite, meaning the environment is more tactical than exuberant. [1][2][8]",
+        "Asset‑allocation behavior (stocks rallying as energy prices dip, USD strength, and ongoing focus on yield curves) indicates a preference for growth/quality exposure rather than broad high‑beta speculation. [1][4][9]"
+      ]
+    }
+  },
+  "sector_rotation": {
+    "leadership": [
+      {
+        "sector": "information_technology_and_AI_complex",
+        "status": "lead",
+        "notes": "Futures and narrative revolve around Nvidia and AI earnings as key drivers of the \"AI economy\"; semiconductors and mega‑cap tech remain at the center of risk appetite and index leadership. [3][4][10]"
+      },
+      {
+        "sector": "communication_services_and_platform_tech",
+        "status": "supporting_lead",
+        "notes": "While not explicitly detailed in the snippets, mega‑cap platform and cloud names typically move in sympathy with AI and chip earnings; current futures tone suggests the broader growth/tech complex is benefiting from the Nvidia/AI focus. [3][4]"
+      },
+      {
+        "sector": "financials_large_cap_banks",
+        "status": "beneficiary_of_higher_rates_but_macro_sensitive",
+        "notes": "Higher‑for‑longer rates can support net interest margins, but hawkish Fed expectations and bond volatility keep valuations rate‑sensitive; existing watchlist attention to large banks like Citi fits with a cautious, selective stance rather than broad overweight. [2][8]"
+      }
+    ],
+    "laggards_or_defensive_flows": [
+      {
+        "sector": "energy",
+        "status": "near_term_laggard",
+        "notes": "US stocks are being supported by lower energy prices, implying that energy equities may be under relative pressure compared to the broader market during this rebound. [4][9]"
+      },
+      {
+        "sector": "defensives_consumer_staples_utilities",
+        "status": "neutral_to_modestly_out_of_favor",
+        "notes": "With indices rebounding on AI/tech narratives and futures strength, the marginal rotation appears tilted away from classic defensives, though they continue to serve as ballast in case hawkish Fed risks reprice. [1][4][11]"
+      }
+    ],
+    "style_and_factor_notes": [
+      {
+        "factor": "growth_vs_value",
+        "status": "growth_biased",
+        "notes": "AI‑centric growth names and megacaps are again the focal point of traders ahead of earnings; this skews flows toward growth/quality and away from deep value. [3][4][10]"
+      },
+      {
+        "factor": "size",
+        "status": "mega_cap_and_large_cap_lead",
+        "notes": "Index‑level moves tied to Nvidia and similar giants indicate large/mega caps are dominant in driving index returns, while smaller names remain more idiosyncratic and event‑driven. [3][4]"
+      }
+    ]
+  },
+  "risk_flags": {
+    "macro_policy_risks": [
+      {
+        "flag": "hawkish_fed_and_higher_for_longer_rates",
+        "impact": "elevated",
+        "description": "Fed minutes and market pricing indicate growing support for further hikes and a low likelihood of cuts in 2026, increasing the risk of valuation compression in long‑duration equities and amplifying sensitivity to inflation and labor data. [2][8]"
+      },
+      {
+        "flag": "elevated_bond_yields_and_dollar_strength",
+        "impact": "moderate_to_high",
+        "description": "Global bond yields and a firm USD can tighten financial conditions, pressure international earnings translation for US multinationals, and periodically trigger risk‑off waves if yields rise sharply. [1][8]"
+      }
+    ],
+    "event_and_earnings_risks": [
+      {
+        "flag": "concentrated_earnings_risk_in_AI_and_megacap_tech",
+        "impact": "high",
+        "description": "Nvidia and other AI‑linked earnings are central to the current bull narrative; disappointments or cautious guidance could trigger outsized moves in semiconductors and drag down broad indices given their heavy weight. [3][4][10]"
+      },
+      {
+        "flag": "after_hours_and_gap_risk",
+        "impact": "moderate",
+        "description": "Significant price and volume moves in after‑hours trading around earnings events introduce gap risk between close and next open, important for a paper‑trading bot that evaluates fills and slippage around market open. [6][7]"
+      }
+    ],
+    "market_structure_and_flow_risks": [
+      {
+        "flag": "bond_market_volatility_spillover",
+        "impact": "moderate",
+        "description": "Equity futures strength is occurring \"amid bond market volatility\"; sharp moves in yields can quickly reverse equity sentiment, especially if tied to surprise macro data or shifts in Fed communication. [3][9]"
+      },
+      {
+        "flag": "narrow_leadership_and_concentration",
+        "impact": "moderate_to_high",
+        "description": "Index performance is heavily reliant on a narrow group of AI/tech leaders; concentration risk increases the potential for system‑wide drawdowns if a small number of names re‑rate downward simultaneously. [3][4][10][11]"
+      }
+    ],
+    "implementation_considerations_for_cautious_paper_trading": [
+      {
+        "flag": "event_clustering_around_open_and_close",
+        "impact": "operational",
+        "description": "Many key announcements and large moves occur near the open/close or after hours; a cautious workflow should explicitly mark these windows as higher‑risk for slippage and avoid assuming mid‑day liquidity conditions at those times. [3][6][7]"
+      },
+      {
+        "flag": "guardrails_on_position_size_and_leverage",
+        "impact": "risk_control",
+        "description": "Given the combination of hawkish macro conditions and event‑driven spikes, strict limits on single‑name concentration, avoidance of leverage, and respect for stop parameters remain appropriate for testing strategy robustness in this regime. [2][8][11]"
+      }
+    ]
+  },
+  "source_urls": [
+    "https://www.admis.com/bonds-vs-equities/",
+    "https://cryptobriefing.com/fed-minutes-reveal-growing-support-for-rate-hikes-impacting-2026-cut-predictions/",
+    "https://stockinvest.us/digest/wall-street-futures-climb-ahead-of-nvidia-earnings-amid-bond-market-volatility",
+    "https://tradingeconomics.com/united-states/stock-market/news/552409",
+    "https://tradingeconomics.com/united-states/interest-rate",
+    "https://en.macromicro.me/collections/34/us-stock-relative/404/us-corporate-profits-after-tax-gspc",
+    "https://marketchameleon.com/Reports/AfterHoursTrading",
+    "https://www.barchart.com/stocks/market-performance",
+    "https://www.youtube.com/watch?v=exQlGWhSRaU",
+    "https://ibheprofiles.ibhe.org/first-dry/COMPASS-CMPS-Q1-2026-Earnings-Beat-Revenue-NA-EPS-030-19-448"
+  ]
+}
 

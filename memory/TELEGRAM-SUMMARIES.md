@@ -16619,4 +16619,37 @@ Model notes: Quality anchor, but swing-trade upside is limited.
 Social buzz, max 10%: minimal; mostly defensive-rotation chatter.
 Congress signal, max 5%: none
 Sources: https://www.cnbc.com/quotes/KO
+## Research Update - 2026-05-20 23:46:46 Eastern Daylight Time
+
+Research Update
+
+Market tone: Macro backdrop remains cautiously risk-on with AI and large-cap tech still central to the bull narrative, but today’s notable single-stock development in software/fintech is Intuit’s combination of higher guidance and a sizeable workforce reduction. That mix of cost-cutting plus raised profit outlook is supportive for high-quality, cash-generative software names and illustrates a broader margin-protection theme.
+Candidates: 3
+
+1. INTU (information-technology / application-software-fintech) | confidence 0.71 | allocation 6.0% | stop 8.0% | Chittick 76/100 | tier execution-ready | bucket large-cap-software-fintech | HF source 0/100
+Recommendation: execute-if-guards-pass
+Catalyst: Company guidance update and restructuring: Intuit raised its annual adjusted profit forecast to $23.80–$23.85 per share (up from $22.98–$23.18 previously) and announced plans to cut 17% of its global staff, emphasizing a strategic refocu...
+Chittick Cash: On traditional Chittick-style margin-of-safety grounds, Intuit is not a deep value candidate; it usually trades at a premium multiple to the market due to its high margins, recurring revenue, and durable competitive m...
+HF filter: sentiment=not run source=0/100 hype=0.10 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=large-cap-software-fintech
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. MU (information-technology / semiconductors) | confidence 0.59 | allocation 0.0% | stop 8.0% | Chittick 61/100 | tier watch | bucket information-technology-semiconductors | HF source 0/100
+Recommendation: watch
+Catalyst: Recent market coverage (not reprinted here in full) highlighted a major DRAM rally theme and pointed to specific catalysts that could extend or break the 2026 memory upcycle, with MU trading near multi-year highs and exhibiting strong se...
+Chittick Cash: No clear margin-of-safety discount is evident; the stock has already rerated with the cycle. The margin of safety is cyclical and contingent on the DRAM thesis playing out; it is not a classic Buffett-style bargain.
+HF filter: sentiment=not run source=0/100 hype=0.25 vetoes=0
+Self-learning: tier=watch repeat48h=2 fresh=yes bucket=information-technology-semiconductors
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. KO (consumer-staples / beverages) | confidence 0.63 | allocation 0.0% | stop 6.0% | Chittick 79/100 | tier watch | bucket consumer-staples-beverages | HF source 0/100
+Recommendation: watch
+Catalyst: Recent broker action cited improved volume expectations and maintained a positive outlook, recently raising the price target (e.g., Citi from $90 to $91) and reiterating a bullish stance based on anticipated volume gains from sponsorship...
+Chittick Cash: KO rarely trades at a deep discount; margin of safety stems from business durability and cash flow predictability rather than a low multiple. At fair to slightly rich valuations, position sizing should reflect its rol...
+HF filter: sentiment=not run source=0/100 hype=0.05 vetoes=0
+Self-learning: tier=watch repeat48h=3 fresh=yes bucket=consumer-staples-beverages
+Social buzz, low weight: none
+Congress signal, low weight: none
 
