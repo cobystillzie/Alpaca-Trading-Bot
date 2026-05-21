@@ -17198,4 +17198,37 @@ Model notes: Candidate derived primarily from a single secondary-analytics valua
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: https://www.simplywall.st/stocks/us/diversified-financials/otc-tmxx.f/tmx-group/valuation
+## Research Update - 2026-05-21 12:52:03 Eastern Daylight Time
+
+Research Update
+
+Market tone: Broader equity indices remain in a late‑cycle, risk‑on environment driven by AI, resilient US growth, and still‑benign volatility, but your rule log shows that strict filters and banned‑instrument lists are currently preventing most executions. Given the absence of fresh, strong single‑stock catalysts in the provided search results, today’s update focuses on maintaining a cautious stance, avoiding forced trades, and adding only one modest‑conviction, non‑US watch candidate (TMX Group) plus non‑actionable monitoring ideas.
+Candidates: 3
+
+1. TMXX.F (financials / market infrastructure & exchanges) | confidence 0.57 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier watch | bucket international-financial-infrastructure | HF source 0/100
+Recommendation: watch
+Catalyst: Soft, structural catalyst only: continued global interest in exchanges and market‑infrastructure names as beneficiaries of sustained trading activity and volatility. No fresh earnings, guidance, major corporate action, or regulatory news...
+Chittick Cash: The limited data suggests TMXX.F is trading above at least one estimated fair value (US$40.15 vs an estimated US$22.33). Without reconciling this with earnings, free cash flow, or peer multiples, the margin of safety...
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=1 fresh=yes bucket=international-financial-infrastructure
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. LQDA (healthcare / biotechnology) | confidence 0.45 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier monitor-only | bucket speculative-healthcare | HF source 0/100 | HF veto
+Recommendation: watch
+Catalyst: Recent insider purchase (5,300 shares on 2026‑05‑19) indicates management or strategic shareholder confidence, but no near‑term clinical, regulatory, or commercial milestone was provided in the context.
+Chittick Cash: No evidence of durable profitability or strong balance‑sheet protection was provided; typical small‑cap biotech risk profile implies low margin of safety.
+HF filter: sentiment=not run source=0/100 hype=0.30 vetoes=1
+Self-learning: tier=monitor-only repeat48h=0 fresh=yes bucket=speculative-healthcare
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. BAH (industrials / government & defense consulting) | confidence 0.52 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier watch | bucket defensive-industrials | HF source 0/100
+Recommendation: watch
+Catalyst: Upcoming earnings (referenced as a Q4 2026 preview) and associated commentary on insider trading, hedge‑fund activity, and analyst targets, but no post‑earnings data or concrete surprises are given.
+Chittick Cash: Not assessable from the snippet. Historically, BAH’s valuation has tended to be moderate but not deeply discounted; until we have multiples versus peers and growth, we should not assume a margin of safety.
+HF filter: sentiment=not run source=0/100 hype=0.10 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=defensive-industrials
+Social buzz, low weight: none
+Congress signal, low weight: none
 

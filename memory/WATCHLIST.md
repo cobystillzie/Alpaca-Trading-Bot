@@ -4,65 +4,175 @@
 {
   "candidates": [
     {
-      "adversary_case": "From a Chittick-style, owner-operator lens, the strongest objection is that the stock appears to trade rich to an estimated fair value with no clear near-term growth inflection or capital-allocation event in the evidence set. In that view, it is better to wait for either a pullback that restores margin of safety or a strong, verifiable catalyst (e.g., a major earnings beat, new product/market initiative, or regulatory change that boosts volumes) rather than allocate scarce risk budget to a fully-valued exchange operator on a short horizon.",
-      "allocation_learning_note": "Due to valuation premium and absence of a discrete near-term catalyst, TMXX.F should not consume scarce execution slots in the current macro regime. Use it instead as a template for how to treat exchange operators in the framework and wait for better margin-of-safety entries.",
-      "balance_sheet_risk": "As an exchange operator, TMX typically runs with manageable leverage and strong interest coverage, but this cannot be confirmed from the provided documents. Exchange businesses are generally cash generative and not capital-intensive, with limited need for heavy debt financing. The more relevant risks are operational (systems, cyber), regulatory, and cyclicality in volumes rather than outright balance-sheet distress.",
-      "bear_case": "Key risks include: (1) Valuation risk: trading noticeably above a modeled fair value reduces downside protection, especially if earnings growth or trading volumes slow. (2) Cyclicality in capital markets: IPO and secondary issuance cycles, as well as risk appetite for equities and derivatives, drive listing and trading revenues; a risk-off shock could reduce volumes and sentiment. (3) Regulatory and competitive risk: shifts in Canadian or cross-border regulation, or competitive pressures from alternative trading systems, could impact margins or market share. (4) FX and liquidity risk: as an OTC-pink U.S. listing representing a Canadian primary listing, TMXX.F may have lower liquidity and wider spreads in U.S. trading, increasing execution risk for short-horizon paper strategies. (5) Thesis risk: without a clearly identified near-term catalyst from the provided evidence, a 1\u201310 day swing trade is more exposed to random noise than to a structural edge.",
-      "capital_allocation_case": "TMX historically has returned capital via dividends and buybacks while investing in technology and new products, but the exact current payout and buyback pace are not detailed in the supplied evidence. For a Chittick lens, a disciplined, predictable capital-return policy would be a positive, but this requires up-to-date filings or management commentary to validate. In absence of that here, capital allocation must be treated as neutral-to-positive but unverified.",
-      "catalyst": "Soft catalyst only: ongoing global interest in market infrastructure and exchanges as beneficiaries of higher trading activity and volatility. The provided valuation source indicates the stock trades at a premium to its modeled fair value, which is more of a caution signal than a positive catalyst. No specific near-term event (earnings, major regulatory change, or strategic transaction) is visible in the supplied materials.",
-      "catalyst_type": "general",
+      "adversary_case": "A skeptic would argue that without primary\u2011listing data, detailed financials, or a clear catalyst, recommending even a watch\u2011tier slot for an OTC line risks distraction from higher\u2011quality, better\u2011documented opportunities in your pipeline. They would also note that the valuation flag from Simply Wall St directly contradicts the Chittick emphasis on margin of safety.",
+      "allocation_learning_note": "Kept at 0% allocation and watch\u2011only to avoid over\u2011trading on a soft sector theme without primary\u2011source validation, in line with repeated past rejections tied to weak evidence and valuation concerns.",
+      "balance_sheet_risk": "No balance\u2011sheet details are provided in the snippet. Historically, major exchanges tend to operate with manageable leverage and strong cash generation, but this assumption should be verified against recent filings before any real capital deployment. For now, balance\u2011sheet risk is treated as unknown rather than low.",
+      "bear_case": "Key risks include: (1) Valuation compression if earnings growth slows or if the broader market rotates away from exchanges; (2) sensitivity to Canadian and global equity volumes\u2014prolonged downturns in listings or trading could pressure revenue; (3) FX risk for USD\u2011based investors; and (4) information risk around the OTC TMXX.F line (liquidity, spreads, and tracking vs primary listing). The Simply Wall St snapshot explicitly flags a price above their fair\u2011value estimate, suggesting limited downside protection if sentiment cools.",
+      "capital_allocation_case": "Absent explicit information on dividends, buybacks, or M&A discipline, it is not possible to make a detailed capital\u2011allocation assessment. Exchanges often return capital via dividends and buybacks, but the Chittick lens would require confirmation from filings and board policies, which we do not have here.",
+      "catalyst": "Soft, structural catalyst only: continued global interest in exchanges and market\u2011infrastructure names as beneficiaries of sustained trading activity and volatility. No fresh earnings, guidance, major corporate action, or regulatory news was provided in the search results.",
+      "catalyst_type": "structural",
       "chittick_cash_score": 68.0,
-      "chittick_reject_reason": "",
-      "concentration_case": "TMX offers exposure to a niche (Canadian market infrastructure) that differs from typical U.S.-centric mega-cap tech or broad ETFs, providing some geographic and sector diversification. However, given the lack of a strong catalyst and the valuation premium, it is not clearly superior right now to higher-conviction large-cap quality names or diversified ETFs for new risk allocation. It is better framed as a watchlist candidate to revisit when either valuation or catalysts improve.",
+      "chittick_reject_reason": "Insufficient primary\u2011source evidence on fundamentals and valuation, and a third\u2011party valuation snapshot that flags overvaluation versus fair value undermine the margin\u2011of\u2011safety requirement.",
+      "concentration_case": "If eventually validated by better data, TMX Group could provide targeted exposure to a high\u2011quality market\u2011infrastructure franchise outside the US, diversifying away from the highly crowded US megacap tech complex and from broad ETFs. At this stage, however, given the information gaps and overvaluation flag, it does not deserve allocation priority over better\u2011documented alternatives.",
       "confidence": 0.57,
       "congressional_signal": "none",
       "diversity_bucket": "international-financial-infrastructure",
-      "entry_plan": "Given the lack of a strong fresh catalyst, this is not an execution-priority swing candidate. If included for research purposes, a conservative paper entry could be modeled only if price consolidates above a short-term support level near the mid-range of its recent band (e.g., a pullback toward the US$36\u201338 area, then a turn higher confirmed by 2\u20133 days of higher lows and sustained volume). Because TMXX.F trades OTC in the U.S., any paper entry should assume wider spreads; avoid market-on-open orders in simulation and use limit-style logic centered near the prior close.",
-      "exit_plan": "For a hypothetical 5\u20137 day swing, a profit-taking trigger could be a 4\u20136% move above entry or a test/retake of recent highs if the stock is near the top of its band, while an invalidation could be a decisive close 5\u20138% below entry or a breakdown below recent support for two consecutive days. Given the absence of a sharp catalyst, any simulated exit should be time-based as well\u2014e.g., closing the position after 7\u201310 trading days if neither target nor stop is hit.",
+      "entry_plan": "No entry for now. This is a watch\u2011only candidate. If it were to evolve into a trade, a more robust setup would require: (a) confirmation of reasonable valuation versus earnings and cash flow on the primary listing, (b) evidence of sustained uptrend (higher highs/lows on multi\u2011week chart with solid volume), and (c) a specific catalyst such as earnings, a fee\u2011structure change, or regulatory development.",
+      "exit_plan": "Not applicable; no position is being simulated. For future reference, a typical swing\u2011style framework would consider: (1) trimming or exiting if price breaks below a recent swing low by ~7\u201310% on above\u2011average volume, or (2) taking profits into 10\u201320% strength if achieved quickly without a fundamental upgrade.",
       "fresh_catalyst": true,
-      "growth_runway": "30\u2013180 day and longer-term drivers likely include: (1) sustained or rising equity and derivatives trading volumes, (2) new listings (IPOs, cross-listings) on TSX and TSXV, (3) product expansion in derivatives, data services, and indices, and (4) potential efficiency gains or technology upgrades in trading/clearing. Over a 30\u2013180 day owner lens, these are slow-burn rather than discrete catalysts; no specific, dated events were provided in this packet.",
-      "hf_evidence_rank": 0.4,
+      "growth_runway": "Exchanges generally have multi\u2011year growth levers: product innovation (new derivatives, data services), listings growth (including international and tech), and potential consolidation. Over 30\u2013180 days, the main drivers are likely to be trading volumes, listings activity, and macro risk sentiment. No specific TMX\u2011only growth initiatives or guidance updates are highlighted in the current context.",
+      "hf_evidence_rank": 0.0,
       "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.1,
+      "hf_hype_risk": 0.0,
       "hf_memory_similarity": 0.0,
-      "hf_model_notes": "Candidate derived primarily from a single secondary-analytics valuation page (Simply Wall St), with no corroborating fresh news or filings in this packet. Treated as a cautious watchlist idea rather than an execution-ready trade.",
+      "hf_model_notes": "Classified as watch\u2011tier due to sector quality but thin evidence and apparent valuation stretch. No execution language used.",
       "hf_sentiment_agreement": 0.0,
       "hf_sentiment_label": "",
       "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 0.45,
+      "hf_source_quality_score": 0.0,
       "horizon_days": 5,
-      "margin_of_safety_case": "Using the Simply Wall St snapshot as a rough check, TMXX.F trades at a notable premium to that model\u2019s fair value estimate (~US$40 vs ~US$22). While such models can be conservative or wrong, this suggests limited margin of safety at current levels, at least on a mechanical DCF or multiples basis. The underlying business is high quality and likely has defensive cash flows, which partially offsets valuation risk, but a Chittick-style framework would likely demand either a lower price or new growth visibility before committing meaningful capital.",
-      "market_regime": "In a neutral-to-cautious regime, exchange operators can be relatively resilient given their fee-based models and potential to benefit from volatility, but they are not immune to risk-off moves that compress valuations for financial infrastructure. For a cautious paper-trading approach, this regime argues for moderate sizing, avoiding leverage, and respecting the possibility of correlated drawdowns if global equities sell off.",
-      "momentum_case": "The Simply Wall St panel notes TMXX.F at US$40.15 with a small recent change (e.g., -2.1% in a given period) and a 52-week band around US$35\u201341 in the snippet. That implies the stock is near the upper half of its recent range, suggesting moderate positive or at least stable momentum rather than a deep value dislocation. There is no clear evidence here of a fresh breakout on volume or a sharp reversal that would independently justify a 1\u201310 day swing entry.",
-      "owner_hold_case": "An owner-style 30\u2013180 day thesis could emerge if (a) the stock corrected closer to or below fair value while business performance remained strong, creating a margin-of-safety entry; or (b) new information (earnings, strategic initiatives, regulatory tailwinds) indicated a durable uplift in trading volumes, listings, or data/derivatives revenues. Under those conditions, a 30\u2013180 day hold could compound via modest earnings growth plus multiple stability. In the current evidence set, this is a hypothetical path, not a present recommendation.",
-      "quality_case": "Exchanges and clearinghouses are typically high-quality businesses: they exhibit network effects, high operating leverage, and recurring transaction and listing fees. TMX Group, as the operator of Canada\u2019s main equity exchanges, likely has durable competitive advantages and solid profitability. Its business model is asset-light with good free cash flow conversion and structural demand for capital markets infrastructure. However, the supplied valuation snapshot implies the market already prices in much of this quality, with the current price (~US$40.15) above an estimated fair value (~US$22.33), reducing the margin of safety. Without direct access to recent financial statements in this packet, balance-sheet strength and payout discipline must be inferred from its status as a major exchange operator rather than explicitly verified here.",
+      "margin_of_safety_case": "The limited data suggests TMXX.F is trading above at least one estimated fair value (US$40.15 vs an estimated US$22.33). Without reconciling this with earnings, free cash flow, or peer multiples, the margin of safety appears weak. From a Chittick perspective, this fails the \u2018obvious margin of safety\u2019 test for new capital, so any interest should remain observational.",
+      "market_regime": "In a risk\u2011on regime, exchange volumes and derivatives activity can stay elevated, which is supportive for TMX Group\u2019s fundamentals and sentiment. However, late\u2011cycle dynamics and concentrated AI/megacap leadership also mean that if a sharp de\u2011risking occurs, volumes can initially spike (helpful) but then normalize at lower levels, and valuation multiples on quality but non\u2011hyper\u2011growth names can compress. For a cautious paper\u2011trading bot, this argues for watchful patience rather than aggressive new exposure.",
+      "momentum_case": "The limited quote snippet indicates TMXX.F is trading modestly above a recent price reference (~US$40.15 vs US$39.30, +2.1%), but no robust information is given about trend strength, relative performance vs peers, or unusual volume. Without full chart and volume context, the momentum case is too thin to justify more than a watch designation.",
+      "owner_hold_case": "A 30\u2013180 day owner\u2011style thesis would need: (1) confirmation that TMX trades at a reasonable multiple relative to earnings growth and cash flow, (2) visibility into durable drivers like listings growth, data/analytics revenue, and potential regulatory or structural tailwinds, and (3) a clear capital\u2011return or reinvestment policy. None of this is yet evidenced in the provided context, so an owner\u2011hold case is premature.",
+      "quality_case": "Exchange operators typically score well on business quality: recurring revenue from listings and data, strong competitive moats via network effects and regulatory licenses, and attractive incremental margins. TMX Group fits this pattern, and the business model is generally resilient across cycles. However, the only concrete data point in the search context is a third\u2011party valuation view indicating the stock trades above their fair\u2011value estimate, which raises questions about margin of safety at current prices.",
       "recommendation": "watch",
-      "repeat_count_48h": 0,
+      "repeat_count_48h": 1,
       "research_tier": "watch",
-      "risk_reward": "Risk/reward is muted: upside is modest (a few percent in a calm regime) against a similar downside, and there is no obvious short-term event to skew probabilities in your favor. The structural quality of the business is a positive, but current valuation appears stretched versus one modeled fair value, suggesting limited margin of safety for a swing. This tilts the idea toward watch/monitor rather than immediate execution.",
+      "risk_reward": "As of now, the visible risk\u2011reward is not skewed enough toward reward: business quality appears solid, but the limited evidence points to a possibly stretched valuation, and there is no discrete, time\u2011bound catalyst to anchor a 1\u201310 day swing. The asymmetry is therefore unproven, justifying a watch stance only.",
       "sector": "financials / market infrastructure & exchanges",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
       "social_buzz": "none",
-      "source_quality": "Evidence is mixed. The core business description is inferred from TMX\u2019s role as a major exchange operator (strong structural logic), but the only direct data provided is a Simply Wall St valuation panel, which is a secondary source using its own models. There are no primary filings, earnings releases, or major-news catalysts in this packet. As such, the fundamental quality case is conceptually strong but not freshly documented here, and the catalyst/momentum case is weak.",
+      "source_quality": "Evidence is narrow and comes primarily from a single third\u2011party valuation site (Simply Wall St) plus general sector knowledge about exchanges. There are no primary\u2011source filings, earnings releases, or high\u2011quality news articles in the provided snippet. This warrants conservative treatment and a cap on confidence.",
       "source_urls": [
-        "https://www.simplywall.st/stocks/us/diversified-financials/otc-tmxx.f/tmx-group/valuation"
+        "https://simplywall.st/stocks/us/diversified-financials/otc-tmxx.f/tmx-group/valuation"
       ],
       "stop_loss_percent": 8.0,
       "strategy_tags": [
-        "chittick_cash",
-        "quality-infrastructure",
-        "swing-1-10-day-watch"
+        "chittick_cash"
       ],
       "symbol": "TMXX.F",
       "target_allocation_percent": 0.0,
-      "thesis": "TMX Group operates the primary Canadian equity and derivatives exchanges (TSX, TSX Venture, Montreal Exchange), making it a core market-infrastructure business with network effects and relatively stable, diversified fee revenue. As an exchange operator, it benefits from trading volume, new listings, and derivatives activity rather than directional market bets. The Simply Wall St valuation snapshot suggests the stock is trading above an estimated fair value, indicating limited margin of safety short term but confirming market recognition of a high-quality, profitable franchise.",
-      "valuation_case": "The indicated premium to estimated fair value implies the market is paying up for TMX\u2019s quality and stability. Without additional evidence of accelerating earnings, substantial buybacks/dividend increases, or structural growth beyond what is already embedded in consensus, this looks more like a hold or watch on valuation grounds rather than an attractive new buy for a concentrated portfolio. For a short-horizon swing, valuation alone is not disqualifying, but it removes the tailwind of multiple expansion."
+      "thesis": "TMX Group operates the Toronto Stock Exchange and related market infrastructure, which tend to benefit structurally from higher trading volumes, listings activity, and derivatives usage. Exchanges are usually high\u2011margin, cash\u2011generative businesses with network effects. However, the specific valuation snapshot from Simply Wall St suggests the OTC\u2011traded TMXX.F line is trading significantly above at least one fair\u2011value estimate, and there is no clear, near\u2011term company\u2011specific catalyst in the provided context, which limits this to a watch\u2011only idea rather than an execution candidate.",
+      "valuation_case": "Based on the Simply Wall St snapshot, the stock screens as overvalued on their discounted cash flow or comparable\u2011based model. Without corroborating evidence from other fundamental sources or a clear justification (e.g., exceptional growth, unique optionality), it is hard to argue for valuation attractiveness at current levels."
+    },
+    {
+      "adversary_case": "A critic would say this does not belong even on the monitor list given the strategy\u2019s quality and margin\u2011of\u2011safety focus; the insider\u2011purchase signal is too weak and context\u2011free.",
+      "allocation_learning_note": "Retained with 0% allocation to avoid the pattern of prior micro\u2011cap speculative rejections; serves as an example of how insider signals alone are insufficient.",
+      "balance_sheet_risk": "Likely meaningful, given common biotech reliance on capital markets. No explicit cash or debt data were provided.",
+      "bear_case": "High binary risk on trial or regulatory outcomes, potential dilution through future equity raises, and elevated volatility common to small\u2011cap biotech. Insider purchases can be early or wrong, and there is no corroborating fundamental news.",
+      "capital_allocation_case": "Not assessed; insufficient information.",
+      "catalyst": "Recent insider purchase (5,300 shares on 2026\u201105\u201119) indicates management or strategic shareholder confidence, but no near\u2011term clinical, regulatory, or commercial milestone was provided in the context.",
+      "catalyst_type": "general",
+      "chittick_cash_score": 40.0,
+      "chittick_reject_reason": "Fails on margin of safety, business quality, and evidence depth.",
+      "concentration_case": "Does not merit concentration in a quality\u2011focused strategy; at most a speculative satellite in other frameworks, but not for this bot.",
+      "confidence": 0.45,
+      "congressional_signal": "none",
+      "diversity_bucket": "speculative-healthcare",
+      "entry_plan": "No entry; monitor only for now. Any future consideration would require well\u2011documented clinical or regulatory catalysts, improved visibility on cash runway, and confirmation that the risk\u2011reward is not dominated by a single binary event within the 1\u201310 day horizon.",
+      "exit_plan": "Not applicable; no position is simulated.",
+      "fresh_catalyst": true,
+      "growth_runway": "Biotech has long\u2011dated optionality but highly path\u2011dependent outcomes. Without clear near\u2011term milestones, the 30\u2013180 day growth runway is speculative.",
+      "hf_evidence_rank": 0.0,
+      "hf_filter_vetoes": [
+        "micro_cap_speculation"
+      ],
+      "hf_hype_risk": 0.3,
+      "hf_memory_similarity": 0.0,
+      "hf_model_notes": "Kept as monitor\u2011only due to typical biotech risk profile and thin catalyst description.",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "",
+      "hf_sentiment_score": 0.0,
+      "hf_source_quality_score": 0.0,
+      "horizon_days": 7,
+      "margin_of_safety_case": "No evidence of durable profitability or strong balance\u2011sheet protection was provided; typical small\u2011cap biotech risk profile implies low margin of safety.",
+      "market_regime": "Risk\u2011on conditions can support speculative biotech flows, but that does not resolve the idiosyncratic binary risk. For a cautious, rule\u2011driven bot, regime alone is insufficient to justify action here.",
+      "momentum_case": "No price, volume, or relative\u2011strength information is provided. Insider buying alone is not an adequate momentum or confirmation signal for a short\u2011horizon swing.",
+      "owner_hold_case": "An owner\u2011style thesis would require approved products, visible revenue growth, and a solid cash runway. These are not evidenced here.",
+      "quality_case": "Biotech development stories rarely meet the \u2018quality, cash\u2011generative, high margin of safety\u2019 standard unless they already have established, growing products. With only a revenue snapshot and no profitability or balance\u2011sheet detail, this does not clear the quality bar for trade candidacy.",
+      "recommendation": "watch",
+      "repeat_count_48h": 0,
+      "research_tier": "monitor-only",
+      "risk_reward": "Currently skewed toward risk: limited information, likely high volatility, and binary catalysts that may not align with the 1\u201310 day swing horizon.",
+      "sector": "healthcare / biotechnology",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "none",
+      "source_quality": "Information is derived from a secondary data aggregator summarizing insider transactions, not from primary filings or detailed research.",
+      "source_urls": [
+        "https://www.quiverquant.com/news/Insider+Purchase:+Director+at+$LQDA+Buys+5,300+Shares"
+      ],
+      "stop_loss_percent": 8.0,
+      "strategy_tags": [],
+      "symbol": "LQDA",
+      "target_allocation_percent": 0.0,
+      "thesis": "Liquidia is a small\u2011cap biotech with a recent insider purchase by a director\u2011level entity (Partners LP Caligan). Insider buying can signal confidence, but in the absence of fresh clinical, regulatory, or earnings catalysts, and given typical biotech binary\u2011risk and volatility, this is suitable for monitoring only and does not align well with the Chittick emphasis on durable, cash\u2011generative quality.",
+      "valuation_case": "Not enough data to assess; valuation is effectively opaque without earnings visibility."
+    },
+    {
+      "adversary_case": "One could argue that BAH actually fits the quality and cash\u2011flow profile you want and that the lack of specific news in the current snippet should not prevent you from studying it more deeply. However, that is an argument for research, not for immediate trade candidacy.",
+      "allocation_learning_note": "Shows how earnings previews alone are not enough for trade entry in this framework; reinforces requirement for post\u2011event evidence or explicit guidance shifts.",
+      "balance_sheet_risk": "Typically moderate for an established consulting firm, but not documented in the provided data.",
+      "bear_case": "Risks include government budget uncertainty, contract concentration, margin pressure from labor costs, and potential derating if growth expectations are not met. Entering ahead of earnings without detail on expectations and valuation could expose a short\u2011horizon trade to event risk without a clear edge.",
+      "capital_allocation_case": "No information on dividends, buybacks, or M&A in the snippet; cannot be evaluated.",
+      "catalyst": "Upcoming earnings (referenced as a Q4 2026 preview) and associated commentary on insider trading, hedge\u2011fund activity, and analyst targets, but no post\u2011earnings data or concrete surprises are given.",
+      "catalyst_type": "earnings",
+      "chittick_cash_score": 70.0,
+      "chittick_reject_reason": "Insufficient recent, primary\u2011source evidence on valuation and catalysts; earnings preview alone is not enough to justify a near\u2011term trade.",
+      "concentration_case": "Could eventually provide diversified exposure away from megacap tech into stable government services, but current evidence is too thin to prioritize over better\u2011documented ideas.",
+      "confidence": 0.52,
+      "congressional_signal": "none",
+      "diversity_bucket": "defensive-industrials",
+      "entry_plan": "No entry at this time. Monitor earnings results and post\u2011report price action; if the company delivers upside and the stock breaks out on strong volume with reasonable valuation, it can be reconsidered as a higher\u2011confidence candidate.",
+      "exit_plan": "Not applicable; no position is simulated.",
+      "fresh_catalyst": true,
+      "growth_runway": "30\u2013180 day drivers would likely include contract wins, budget trends, and any AI\u2011 or cyber\u2011related consulting expansion. These are not quantified here.",
+      "hf_evidence_rank": 0.0,
+      "hf_filter_vetoes": [],
+      "hf_hype_risk": 0.1,
+      "hf_memory_similarity": 0.0,
+      "hf_model_notes": "Treated as a quality research prospect rather than an execution candidate given lack of fresh, concrete data.",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "",
+      "hf_sentiment_score": 0.0,
+      "hf_source_quality_score": 0.0,
+      "horizon_days": 5,
+      "margin_of_safety_case": "Not assessable from the snippet. Historically, BAH\u2019s valuation has tended to be moderate but not deeply discounted; until we have multiples versus peers and growth, we should not assume a margin of safety.",
+      "market_regime": "In a risk\u2011on regime, defense and government IT can lag high\u2011beta sectors, but they do provide a relative\u2011defensive component. That said, for a 1\u201310 day swing with no detailed earnings setup, the regime does not provide sufficient justification.",
+      "momentum_case": "No price or technical information is provided, so there is no grounded momentum case in the current context.",
+      "owner_hold_case": "An owner\u2011style 30\u2013180 day thesis would rely on visibility into backlog, margins, and capital returns; this would require going to primary filings and transcripts.",
+      "quality_case": "BAH generally fits the profile of a durable, cash\u2011generative services business with sticky government contracts and decent visibility, which is conceptually aligned with the Chittick quality lens. However, there is no direct 10\u2011K/10\u2011Q evidence, updated backlog data, or balance\u2011sheet detail in the provided snippet.",
+      "recommendation": "watch",
+      "repeat_count_48h": 0,
+      "research_tier": "watch",
+      "risk_reward": "Risk\u2011reward cannot be properly assessed without updated earnings, valuation, and technical data, so it is asymmetric in the wrong direction for a rules\u2011driven short\u2011term strategy.",
+      "sector": "industrials / government & defense consulting",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "none",
+      "source_quality": "Information is derived from a secondary news/analytics summary rather than primary filings or earnings transcripts.",
+      "source_urls": [
+        "https://www.quiverquant.com/news/BOOZ+ALLEN+HAMILTON+Q4+2026+Earnings+Preview:+Recent+$BAH+Insider+Trading,+Hedge+Fund+Activity,+and+More"
+      ],
+      "stop_loss_percent": 8.0,
+      "strategy_tags": [
+        "chittick_cash"
+      ],
+      "symbol": "BAH",
+      "target_allocation_percent": 0.0,
+      "thesis": "Booz Allen Hamilton is a large government and defense\u2011oriented consulting firm with relatively stable demand and visibility, but the provided context frames it mainly via an upcoming earnings preview and institutional\u2011flow statistics. Without fresh results or guidance in hand, it should be monitored rather than traded, especially given the strategy\u2019s emphasis on clear catalysts and robust evidence.",
+      "valuation_case": "Unknown; the preview mentions a median analyst target (~$87) but not the current price or multiples, which is insufficient for a valuation call."
     }
   ],
-  "summary": "No actionable, stock-specific catalysts emerged from the provided search results. Macro context and prior logs continue to argue for cautious, quality-focused single-stock exposure with tight risk controls and respect for v1 guardrails."
+  "summary": "Broader equity indices remain in a late\u2011cycle, risk\u2011on environment driven by AI, resilient US growth, and still\u2011benign volatility, but your rule log shows that strict filters and banned\u2011instrument lists are currently preventing most executions. Given the absence of fresh, strong single\u2011stock catalysts in the provided search results, today\u2019s update focuses on maintaining a cautious stance, avoiding forced trades, and adding only one modest\u2011conviction, non\u2011US watch candidate (TMX Group) plus non\u2011actionable monitoring ideas."
 }
 -->
 
@@ -1290,4 +1400,12 @@ No candidates.
 | Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
 |---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
 | TMXX.F | financials / market infrastructure & exchanges | watch | international-financial-infrastructure | 0 | yes | 0.57 | 68 | 0 | 0 | 0.0% | 8.0% | watch | Soft catalyst only: ongoing global interest in market infrastructure and exchanges as beneficiaries of higher trading activity and volatility. The provided valu |
+
+## Latest Candidates - 2026-05-21 12:52:03 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| TMXX.F | financials / market infrastructure & exchanges | watch | international-financial-infrastructure | 1 | yes | 0.57 | 68 | 0 | 0 | 0.0% | 8.0% | watch | Soft, structural catalyst only: continued global interest in exchanges and market‑infrastructure names as beneficiaries of sustained trading activity and volati |
+| LQDA | healthcare / biotechnology | monitor-only | speculative-healthcare | 0 | yes | 0.45 | 40 | 0 | 1 | 0.0% | 8.0% | watch | Recent insider purchase (5,300 shares on 2026‑05‑19) indicates management or strategic shareholder confidence, but no near‑term clinical, regulatory, or commerc |
+| BAH | industrials / government & defense consulting | watch | defensive-industrials | 0 | yes | 0.52 | 70 | 0 | 0 | 0.0% | 8.0% | watch | Upcoming earnings (referenced as a Q4 2026 preview) and associated commentary on insider trading, hedge‑fund activity, and analyst targets, but no post‑earnings |
 

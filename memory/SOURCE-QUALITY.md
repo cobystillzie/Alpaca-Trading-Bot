@@ -13799,4 +13799,176 @@ Congressional disclosures, max 5% influence:
 
 SEC/company quality check:
 {"summary":"The filings point to very different risk profiles. Direct Digital Holdings (DRCT) shows the clearest balance-sheet and liquidity stress: its 2025 10-K states there is \"substantial doubt\" about going concern, cash was only $0.7 million at 12/31/2025, accumulated deficit was $27.7 million, and a major sell-side customer pause materially reduced revenue. Inuvo (INUV) appears operationally stronger than DRCT on liquidity but still carries meaningful concentration risk: in 2025, two customers represented 64.2% and 19.3% of revenue, and the company reported recurring losses, $2.8 million cash, and a $5.1 million net working capital deficit in its 2025 10-K. NeoVolta (NEOV) is early-stage but has lower customer concentration in the cited filing; its 2025 10-K emphasizes product expansion and distribution growth, while also flagging start-up risk, dependency on regulatory incentives, supplier sourcing, and a competitive market. iCoreConnect (ICCT) and CreditRiskMonitor (CRMZ) show durable-demand characteristics in their SaaS/subscription models, but both still face material execution risk; ICCT explicitly disclosed material weaknesses in internal controls and recurring losses, while CRMZ’s subscriptions are upfront annual, diversified, and oriented toward counterparty-risk monitoring.\n\nFor the Chittick Cash watchlist names in memory: GOOGL/GOOG and INTC were repeatedly rejected in prior logs for portfolio/risk-policy reasons rather than filing-specific fundamentals, so no fresh SEC evidence is available here; USAR and GT were not present in the provided filing set, so they cannot be checked against this evidence pack.","filing_risks":["DRCT: Going-concern warning, weak liquidity, and customer concentration. The 2025 10-K says there is \"substantial doubt\" about continuing as a going concern, cash and cash equivalents were $0.7 million, and the company had an accumulated deficit of $27.7 million; it also says one sell-side customer pause drove the 2024-2025 revenue decline and disrupted volumes.","DRCT: Debt/covenant and financing risk. The 10-K says credit facilities include a minimum unrestricted cash covenant of $450,000 and that failure could trigger default, acceleration, or bankruptcy/liquidation; renewal of the term facility due Dec. 3, 2026 may be limited and new financing may be costly or unavailable.","DRCT: Revenue quality risk from customer concentration. The filing highlights that one customer accounted for 64.2% of 2025 revenue and another 19.3%, making results highly sensitive to budget shifts and platform changes by a small number of counterparties.","DRCT: Operational/reputation risk from ad fraud, privacy, and platform issues. Risk factors cite advertising fraud detection failures, cookie/ID restrictions, privacy/security law changes, and potential internal control weaknesses as threats to reporting and operating performance.","INUV: Extreme customer concentration. The 2025 10-K says two customers represented 64.2% and 19.3% of revenue; in 2024 the same two were 75.0% and 7.0%. Loss of a material customer could cause a significant decline in revenue.","INUV: Losses and liquidity pressure remain. The 2025 10-K discloses recurring losses, cash and cash equivalents of about $2.8 million, a net working capital deficit of $5.1 million, and an accumulated deficit of $178.3 million.","INUV: Internal-control risk. The 10-K says the company has identified material weaknesses in internal control over financial reporting, creating risk of misstatement, restatement, or delayed reporting.","INUV: Business-model and platform risk. The filing warns about dependence on large platforms, competition from Google/Meta/Amazon and others, seasonality, privacy/cookie restrictions, and the possibility that AI/intent-based targeting may not maintain a competitive edge.","NEOV: Start-up/scale risk and competitive pressure. The 2025 10-K says the company is relatively new and still has start-up-like risks; it competes against larger firms such as Tesla, LG Chem, Sonnen, Enphase, SunPower, and SMA America with greater resources and distribution.","NEOV: Regulatory and supply-chain dependence. The filing emphasizes dependence on evolving safety/interconnection standards, FEOC-compliant sourcing, tariff exposure, and supplier continuity for battery/inverter components.","NEOV: Execution risk on growth strategy. The company is expanding into distributors, financing partnerships, and C&I products; those initiatives require successful product launches, channel development, and working-capital management.","ICCT: Financial and control risk. The 2024 10-K shows ongoing losses, a history of acquisitions, and explicitly states management identified material weaknesses in internal control over financial reporting and disclosure controls.","ICCT: Concentration and receivables risk. While no customer exceeded 10% of revenue, accounts receivable concentration existed with one customer at 26% of receivables and another at 25% in prior years, indicating collection exposure.","ICCT: Business-transition risk. The company sold assets of its Managed IT Services business on Oct. 1, 2024, so execution risk remains around reshaping the revenue mix and sustaining recurring SaaS growth.","CRMZ: Despite stronger subscription economics, customer dependence and competitive risk remain. The company says over 99% of revenue is subscription-based and annual upfront, but it still competes against Dun & Bradstreet, Experian, and Equifax in a fragmented market.","CRMZ: Small-scale business risk. The 2024 10-K implies the company represents just over 1% of the relevant TAM and depends on continued relevance of its FRISK/PAYCE analytics and Trade Contributor Program.","CRMZ: Product/assumption risk. FRISK/PAYCE model performance depends on proprietary data inputs and subscriber behavior; if data quality, usage, or model accuracy deteriorate, product value could weaken.","GOOGL/GOOG: No new SEC filing evidence was provided in this packet; prior memory indicates repeated policy/rejection flags, but no filing-based balance-sheet or litigation analysis can be added here.","INTC: No new SEC filing evidence was provided in this packet; prior memory indicates repeated rejection flags, but no filing-based conclusion can be supported from the supplied materials.","USAR: Not present in the supplied SEC evidence, so no filing-based risk check can be made.","GT: Not present in the supplied SEC evidence, so no filing-based risk check can be made."],"quality_notes":["CRMZ shows the strongest durable-demand evidence in this set: more than 99% of revenue came from SaaS subscriptions, usually paid upfront annually, with no single subscriber above 1% of fiscal 2024 or 2023 operating revenues; its products are explicitly designed for ongoing monitoring of financial distress and supply-chain risk.","ICCT also has recurring-revenue characteristics, with HIPAA-compliant SaaS subscriptions sold under annual recurring revenue models across a broad product suite, but quality is dampened by material weaknesses and operating losses.","INUV has an attractive product narrative around AI-driven intent discovery and privacy-by-design targeting, plus long-standing platform relationships (including Yahoo! and Google), but revenue quality is weakened by very high customer concentration and the company’s own disclosure of recurring losses and working-capital stress.","NEOV’s evidence is more about emerging product and channel expansion than proven durable demand. Positives include UL 9540/9540A and Rule 21/CSIP compliance and a made-to-order model, but its demand base is still early, product breadth is expanding, and the company relies on installers/distributors and policy-driven adoption.","DRCT’s platform and client-retention claims are undermined by a sharp 2024-2025 revenue decline tied to a customer pause, plus explicit going-concern language. The company does describe anti-IVT controls, curated supply, and 90% client retention, but these do not offset the near-term financial stress.","For watchlist discipline, the highest-quality business model in the evidence set is CRMZ’s subscription risk-intelligence platform; the highest balance-sheet/red-flag risk is DRCT; the most concentration-sensitive but potentially durable operating model is INUV; NEOV is more of an execution/speculative growth case than a quality compounder at this stage.","No trades are recommended. This is a filing-based risk/quality screen only, not an allocation signal."],"source_urls":["https://www.sec.gov/Archives/edgar/data/1880613/000188061326000013/drct-20251231.htm","https://www.sec.gov/Archives/edgar/data/829323/000110465926029690/inuv-20251231x10k.htm","https://www.sec.gov/Archives/edgar/data/1748137/000121390025086579/ea0237138-10k_neovolta.htm","https://www.sec.gov/Archives/edgar/data/1906133/000149315225021960/icct-20241231.htm","https://www.sec.gov/Archives/edgar/data/315958/000149315225010582/crmz-20241231.htm"]}
+## Source And Signal Research - 2026-05-21 12:52:03 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+{
+  "summary": "Unable to identify any specific liquid US stocks or ETFs with clearly unusual, well-documented social or news attention based on the provided search context. No robust anomalies can be confirmed without concrete search results or source data.",
+  "social_buzz": [],
+  "attention_anomalies": [],
+  "source_urls": []
+}
+
+Congressional disclosures, max 5% influence:
+{
+  "summary": "Scanned public congressional trading disclosures for recent activity in liquid U.S. stocks and ETFs. No newly reported congressional trades were identified that create a distinct or actionable signal beyond existing market information. Recent news flow instead highlights (1) standard corporate developments and insider activity (e.g., an LQDA director purchase, AMRC director sale, various earnings previews, and institutional flows in names like BJ, BAH, IMPP, SY), and (2) a policy-focused press release from Rep. Ashley Hinson proposing a ban on congressional trading in prediction markets to reduce perceived insider trading risks. This policy discussion reinforces the view that congressional trading data should be treated as delayed, low-weight context rather than a primary catalyst signal.",
+  "congressional_signal": {
+    "overall_assessment": "neutral_low_weight",
+    "details": [
+      {
+        "ticker": "BJ",
+        "direction": "bearish",
+        "rationale": "Disclosures show 8 congressional trades in BJ over the past 6 months, all sales and no purchases. However, these are sparse, backward-looking, and not clearly tied to a specific catalyst. In isolation this is a weak, low-conviction negative data point and should not drive trading decisions.",
+        "weight": 0.2
+      },
+      {
+        "ticker": null,
+        "direction": "policy_only",
+        "rationale": "Rep. Ashley Hinson’s proposed legislation targets congressional trading on prediction markets, reflecting political and public concern about potential misuse of non-public information. This development is about regulatory risk and public trust—not a directional signal on any single stock or ETF.",
+        "weight": 0.1
+      }
+    ],
+    "notes": "No fresh, high-intensity congressional buying or selling clusters were found in liquid U.S. stocks/ETFs that would justify overriding other fundamentals or risk constraints. Prior portfolio rules (15% single-name cap, banned v1/leverage instruments, and need for multiple strong sources) remain the governing filters."
+  },
+  "tickers": [
+    {
+      "symbol": "BJ",
+      "name": "BJ's Wholesale Club Holdings, Inc.",
+      "congressional_activity": {
+        "trades_last_6_months": 8,
+        "purchases": 0,
+        "sales": 8,
+        "net_direction": "net_seller",
+        "signal_weight": "low"
+      },
+      "other_context": {
+        "institutional_flows": {
+          "institutions_adding": 306,
+          "institutions_reducing": 349,
+          "notable_moves": [
+            {
+              "institution": "VICTORY CAPITAL MANAGEMENT INC",
+              "action": "add",
+              "shares_change": 4704423,
+              "percent_change": 57.2,
+              "estimated_value_usd": 423539202
+            },
+            {
+              "institution": "SELECT EQUITY GROUP, L.P.",
+              "action": "remove",
+              "shares_change": -2692084,
+              "percent_change": -100.0,
+              "estimated_value_usd": 264954907
+            }
+          ]
+        },
+        "analyst_targets": {
+          "analysts_covered_last_6_months": 9,
+          "median_target_price": 100.0
+        }
+      }
+    },
+    {
+      "symbol": "LQDA",
+      "name": "Liquidia Corporation",
+      "congressional_activity": null,
+      "other_context": {
+        "insider_trading": {
+          "recent_trades": [
+            {
+              "insider": "Partners LP Caligan",
+              "role": "director",
+              "type": "purchase",
+              "trade_date": "2026-05-19",
+              "shares": 5300,
+              "estimated_value_usd": 317894,
+              "post_trade_holding_shares": 8138951,
+              "holding_increase_percent_of_class": 0.1
+            }
+          ]
+        },
+        "fundamentals": {
+          "revenue_last_reported_quarter_usd": 132900000
+        },
+        "analyst_targets": {
+          "analysts_covered_last_6_months": 6,
+          "median_target_price": 60.5
+        }
+      }
+    },
+    {
+      "symbol": "BAH",
+      "name": "Booz Allen Hamilton Holding Corporation",
+      "congressional_activity": null,
+      "other_context": {
+        "fundamentals": {
+          "revenue_previous_quarter_usd": 2600000000,
+          "expected_revenue_next_quarter_usd": 2914580593,
+          "expected_eps_next_quarter": 1.35
+        },
+        "institutional_flows": {
+          "institutions_adding": 234,
+          "institutions_reducing": 525
+        },
+        "analyst_targets": {
+          "analysts_covered_last_6_months": 5,
+          "median_target_price": 87.0
+        }
+      }
+    },
+    {
+      "symbol": "IMPP",
+      "name": "Imperial Petroleum Inc.",
+      "congressional_activity": null,
+      "other_context": {
+        "institutional_flows": {
+          "institutions_adding": 42,
+          "institutions_reducing": 32
+        }
+      }
+    },
+    {
+      "symbol": "SY",
+      "name": "So-Young International Inc.",
+      "congressional_activity": null,
+      "other_context": {
+        "institutional_flows": {
+          "institutions_adding": 14,
+          "institutions_reducing": 23
+        }
+      }
+    },
+    {
+      "symbol": "AMRC",
+      "name": "Ameresco, Inc.",
+      "congressional_activity": null,
+      "other_context": {
+        "insider_trading": {
+          "recent_trades": [
+            {
+              "insider": "FRANCIS V JR WISNESKI",
+              "role": "director",
+              "type": "sale",
+              "trade_date": "2026-05-19",
+              "shares": 10000,
+              "estimated_value_usd": 302900
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "source_urls": [
+    "https://www.quiverquant.com/news/Insider+Purchase:+Director+at+$LQDA+Buys+5,300+Shares",
+    "https://www.quiverquant.com/news/Press+Release:+Congresswoman+Ashley+Hinson+Proposes+Legislation+to+Ban+Congressional+Trading+on+Prediction+Markets",
+    "https://www.quiverquant.com/news/BJS+WHSL+CLUB+HLDGS+Q1+2027+Earnings+Preview:+Recent+$BJ+Insider+Trading,+Hedge+Fund+Activity,+and+More",
+    "https://www.quiverquant.com/news/BOOZ+ALLEN+HAMILTON+Q4+2026+Earnings+Preview:+Recent+$BAH+Insider+Trading,+Hedge+Fund+Activity,+and+More",
+    "https://www.quiverquant.com/news/Recent+$IMPP+Insider+Trading,+Hedge+Fund+Activity,+and+More",
+    "https://www.quiverquant.com/news/SO-YOUNG+INTERNATIONAL+Q1+2026+Earnings+Preview:+Recent+$SY+Insider+Trading,+Hedge+Fund+Activity,+and+More",
+    "https://www.quiverquant.com/news/Insider+Sale:+Director+at+$AMRC+Sells+10,000+Shares"
+  ]
+}
+
+SEC/company quality check:
+{"summary":"Current watchlist evidence is mixed to negative on business quality for the names surfaced in the search results. Direct Digital Holdings (DRCT) and Inuvo (INUV) both show concentration risk, with DRCT citing substantial customer concentration and going-concern doubt, and INUV disclosing two customers that accounted for 64.2% and 19.3% of 2025 revenue. NeoVolta (NEOV) shows a smaller-company growth story but remains exposed to execution, supplier, and regulatory risks. The strongest durable-demand evidence among the filings is for Inuvo’s continued multi-year contracts and patented AI/intent technology, and for Worthington Steel’s diversified value-added steel processing footprint and broad customer base; however, both still carry cyclical, pricing, and macro sensitivity. No trade recommendation is being made.","filing_risks":[{"ticker":"DRCT","company":"Direct Digital Holdings, Inc.","risk_level":"high","risk_points":["Going-concern risk: the 10-K states there is 'substantial doubt about our ability to continue as a going concern' and that cash and cash equivalents were $0.7 million with an accumulated deficit of $27.7 million.","Customer concentration: the filing says a sell-side customer paused its connection in 2024, materially reducing revenue, and risk factors disclose high customer concentration and dependency on a few customers.","Liquidity/capital access: management says existing cash is insufficient for the next twelve months and future financing may not be available on acceptable terms.","Covenant/default risk: credit facilities include a minimum unrestricted cash requirement and a default could accelerate debt and force bankruptcy or liquidation.","Revenue quality/volatility: 2024 and 2025 revenue fell sharply versus 2023 after the customer pause, indicating fragile revenue quality."],"durable_demand_evidence":["Colossus SSP is positioned as a curated sell-side platform with IVT mitigation, supply path optimization, and direct publisher relationships.","The company discloses approximately 90% client retention and says it has long-standing client relationships.","It cites growth in multicultural audiences and broad omni-channel capabilities across OTT/CTV, DOOH, audio, and display."],"evidence_quotes":["'There is substantial doubt about our ability to continue as a going concern.'","'As of December 31, 2025, we had cash and cash equivalents of $0.7 million and an accumulated deficit of $27.7 million.'","'During 2025 these two customers accounted for 64.2% and 19.3% of our revenues, respectively.'"]},{"ticker":"INUV","company":"Inuvo, Inc.","risk_level":"high","risk_points":["Extreme customer concentration: 2025 revenue was concentrated in two customers at 64.2% and 19.3%.","Liquidity/capital intensity: the filing reports recurring losses, negative operating cash flows, $2.8 million cash and cash equivalents, a net working capital deficit of $5.1 million, and accumulated deficit of $178.3 million.","Revenue quality: management says the business has recurring losses and cash outflows from operations and has historically funded operations through equity offerings and debt facilities.","Business model dependence: despite AI positioning, the Platforms business depends on large external platforms and ad ecosystems, and the company notes it competes against much larger players.","Seasonality and macro sensitivity: the company says results fluctuate with seasonality and broader ad demand."],"durable_demand_evidence":["The company states it has multi-year service contracts with Yahoo! and Google and important distribution relationships with publishers and app owners.","It emphasizes patented and proprietary intent-based AI, fraud prevention, and privacy-by-design positioning as differentiation.","Management says SaaS products were over 99% of operating revenues in fiscal 2024 and 2023 and are generally paid upfront annually, which supports revenue visibility."],"evidence_quotes":["'In 2025, we had two individual customers with revenue concentration greater than 10% of our total revenues accounting for 64.2% and 19.3%, respectively.'","'We have encountered recurring losses and cash outflows from operations... Through December 31, 2025, our accumulated deficit was $178.3 million.'","'The Company’s SaaS subscription products represented over 99% of its fiscal 2024 and 2023 operating revenues and the vast majority are paid upfront annually.'"]},{"ticker":"NEOV","company":"NeoVolta, Inc.","risk_level":"moderate","risk_points":["Small-company execution risk: the company is still scaling manufacturing, channels, and product development, and describes itself as relatively new.","Supply chain/manufacturing risk: it sources critical components from the U.S. and Asia and acknowledges risks from disruptions, tariffs, and shortages.","Regulatory risk: energy storage is subject to evolving federal, state, and local safety/interconnection standards and incentive changes.","Competitive risk: the market includes larger competitors such as Tesla, LG Chem, Enphase, and others with greater resources and distribution.","Capital allocation risk: the filing indicates ongoing expansion into C&I and new products, which can pressure cash and execution if demand underperforms."],"durable_demand_evidence":["Management points to growing retrofit demand, installer fragmentation, and rising battery attachment rates in solar installations.","The company cites safety and certification advantages, including UL 9540/9540A and LiFePO4 chemistry.","It says installers tend to become recurring purchasers once certified, which can support repeat demand.","It has expanded distribution beyond Southern California and continues to invest in financing partnerships and new products."],"evidence_quotes":["'We are a designer and manufacturer of high-performance energy storage systems.'","'We source critical components from suppliers in the United States and Asia. To mitigate risks from supply chain disruptions, tariffs, or component shortages...'","'Our systems use lithium iron phosphate (LiFePO4) chemistry and are UL 9540/9540A certified...'"]},{"ticker":"WS","company":"Worthington Steel, Inc.","risk_level":"moderate","risk_points":["Cyclical/commodity risk: results depend on steel prices, demand, and the availability and cost of raw materials, transportation, energy, and labor.","Customer concentration: the filing states top three customers represented approximately 33.0% of fiscal 2025 net sales.","Integration risk: the company completed a controlling acquisition of Sitem Group after year-end, adding execution and integration risk.","Macro/tariff risk: the filing explicitly highlights inflation, recession, tariffs, trade restrictions, and supply chain constraints.","Capital allocation risk: it references acquisitions, joint ventures, facility consolidations, and transformation efforts that must generate expected returns."],"durable_demand_evidence":["Worthington describes a diversified value-added metals processing platform across automotive, construction, machinery, agriculture, heavy trucks, and other end markets.","It operates 28 manufacturing facilities across multiple geographies and services about 1,200 customers, which supports breadth of demand.","The company emphasizes exact-specification products, technical services, and proximity-based delivery advantages that can support retention.","Its tolling capability provides flexibility to earn fees without inventory costs.","The filing also states management uses the Worthington Business System to drive continuous improvement and operational discipline."],"evidence_quotes":["'We serviced approximately 1,200 customers during fiscal 2025 in many end markets including automotive, construction, machinery and equipment, agriculture, and heavy trucks, among others.'","'During fiscal 2025, our top three customers represented approximately 33.0% of total net sales.'","'The steel processing industry is fragmented and highly competitive.'"]}],"quality_notes":["Evidence used is from SEC Form 10-K disclosures and not from price action or social sources.","No trade recommendation is made; this is a risk and quality check only.","For Chittick Cash emphasis: GOOGL/GOOG and INTC did not appear in the provided search results, so no filing-based assessment was added for those tickers from this evidence set.","USAR and GT also did not appear in the provided search results; no filing-based assessment was added for them from this evidence set.","Balance-sheet, concentration, litigation, dilution, revenue quality, capital allocation, and valuation concerns were prioritized where the filings supported them directly.","Where the filing presented management claims of durable demand, those claims were included, but they should be treated as company assertions unless corroborated by additional filings or third-party evidence."],"source_urls":["https://www.sec.gov/Archives/edgar/data/1880613/000188061326000012/drct-20251231.htm","https://www.sec.gov/Archives/edgar/data/829323/000082932326000012/inuv-20251231.htm","https://www.sec.gov/Archives/edgar/data/1748137/000174813725000018/neov-20250630.htm","https://www.sec.gov/Archives/edgar/data/1968487/000196848725000021/ws-20250531.htm","https://www.sec.gov/Archives/edgar/data/1906133/000190613325000021/icct-20241231.htm","https://www.sec.gov/Archives/edgar/data/315958/000031595825000010/crmz-20241231.htm","https://www.sec.gov/Archives/edgar/data/1892492/000189249225000008/octo-20241231.htm"]}
 
