@@ -7585,4 +7585,272 @@ The US equity market is grinding to record highs, but the underlying conditions 
     "https://ibheprofiles.ibhe.org/first-dry/COMPASS-CMPS-Q1-2026-Earnings-Beat-Revenue-NA-EPS-030-19-448"
   ]
 }
+## Market Regime Research - 2026-05-21 05:50:40 Eastern Daylight Time
+
+{
+  "summary": {
+    "tone": "cautiously risk-on with narrow leadership",
+    "context": "US indices are trying to rebound from a brief pullback, with traders focused on AI/tech earnings (notably Nvidia), elevated but stable bond yields, and a firm US dollar. Volatility is contained, but there is a growing disconnect between higher rates and resilient equities, which warrants caution for a paper-trading system.",
+    "for_paper_trading_bot": "Environment is still broadly supportive of equities but fragile: leadership is concentrated in AI/mega-cap tech, rates and geopolitics are potential shock points, and the regime can flip quickly around earnings and Fed headlines. A cautious, low-frequency, index- and sector-aware approach fits better than aggressive single-stock speculation."
+  },
+  "market_regime": {
+    "index_trend": {
+      "sp500": {
+        "direction": "uptrend_with_recent_pullback",
+        "evidence": [
+          "S&P 500 futures modestly higher and cash index recovering after a three-day losing streak ahead of Nvidia earnings, per Trading Economics and StockInvest futures commentary.",
+          "US stocks \"inched higher\" with the S&P 500 and Nasdaq 100 up about 0.4% to halt three-day losses, indicating a continuation of a broader bull trend rather than a full regime break. [4]"
+        ],
+        "interpretation": "Primary trend remains bullish, with short-term corrective moves linked to rate jitters and event risk (Nvidia earnings)."
+      },
+      "nasdaq100": {
+        "direction": "leadership_uptrend",
+        "evidence": [
+          "Nasdaq 100 futures up ~0.9% premarket, outperforming S&P 500 and Dow, consistent with ongoing AI/tech leadership. [3]",
+          "Cash Nasdaq 100 up 0.4% as three-day losses halt, supported by Nvidia gains. [4]"
+        ],
+        "interpretation": "Growth/AI-heavy Nasdaq remains the leading index; dips are being bought, but concentration risk is high."
+      },
+      "dow_jones": {
+        "direction": "lagging_but_supportive",
+        "evidence": [
+          "Dow flat intraday while S&P 500 and Nasdaq 100 rise, signaling some rotation away from old-economy names. [4]",
+          "On a prior session, Dow rose 621 points (+1.26%) with strong gains in financials/industrials like Goldman Sachs, Nike, Boeing. [4]"
+        ],
+        "interpretation": "Dow is choppy and more sensitive to cyclicals; trend is positive but less robust than tech-heavy indices."
+      }
+    },
+    "rates_and_fed": {
+      "fed_policy_tone": "hawkish_bias_but_data_dependent",
+      "short_rate_context": {
+        "current": "Fed funds target is restrictive relative to growth/inflation backdrop.",
+        "expectations": "Models expect policy rates to drift lower over time (Trading Economics baseline ~3.75% by end of the current quarter), but timing is uncertain and contingent on inflation data. [5]"
+      },
+      "bond_market": {
+        "yields": "elevated_and_range_bound",
+        "evidence": [
+          "Global bond yields remain elevated; a recent bond sell-off underscored bearish sentiment, largely tied to geopolitics and firmer energy-driven inflation. [1]",
+          "Despite this, there has not yet been a meaningful rotation out of equities into bonds, suggesting equity risk appetite is still intact. [1]"
+        ],
+        "interpretation": "Rates regime is restrictive with limited near-term easing; higher yields are a headwind but not yet breaking equity risk-on behavior."
+      },
+      "usd_dollar": {
+        "stance": "firm_to_strong",
+        "evidence": [
+          "USD index is described as little changed but strong, with dollar strength a prevailing FX theme. [1]",
+          "Dollar firmness is tied to hawkish Fed expectations and geopolitics."
+        ],
+        "implications": "Strong USD and higher real yields typically pressure non-US risk assets and commodities, but US mega-cap growth has been resilient."
+      }
+    },
+    "volatility_and_liquidity": {
+      "volatility": {
+        "state": "suppressed_normal",
+        "evidence": [
+          "Indices are managing modest swings (e.g., -3-day dip followed by +0.4% rebound) rather than disorderly moves. [4]",
+          "Futures moves around +0.5–0.9% premarket into major earnings are notable but not extreme, implying VIX is likely in a mid/low range. [3]"
+        ],
+        "interpretation": "Vol remains contained; complacency is a risk given concentrated leadership and macro overhangs."
+      },
+      "liquidity": {
+        "state": "healthy",
+        "evidence": [
+          "Strong index-level moves on earnings days (e.g., Dow +1.26%) with broad participation in large liquid names like Goldman Sachs, Boeing, Nike. [4]",
+          "Ongoing heavy trading and derivatives activity around Nvidia and AI complex, consistent with deep liquidity in the leaders."
+        ],
+        "implications": "Execution risk for large caps and index products is low; microcaps or illiquid names still pose slippage risk and should be avoided by the bot."
+      }
+    },
+    "earnings_tone": {
+      "overall": "constructive_but_event_driven",
+      "technology_ai": {
+        "status": "critical_lead_driver",
+        "evidence": [
+          "US equities are \"mostly higher\" ahead of Nvidia results, which are expected to confirm sharp growth in earnings and orders and to update the state of the AI economy underpinning the market. [4]",
+          "Nvidia gained about 1% ahead of earnings and later posted results that topped estimates, supporting after-hours gains. [4]"
+        ],
+        "interpretation": "AI earnings remain the backbone of the bull narrative; guidance and capex commentary can swing the entire risk complex."
+      },
+      "consumer_and_cyclicals": {
+        "status": "mixed_to_positive",
+        "evidence": [
+          "Retail names like TJX and Target trading higher after results, pointing to decent consumer demand. [4]",
+          "Cyclical Dow components (Goldman Sachs, Nike, Boeing) have led gains on strong sessions. [4]"
+        ],
+        "interpretation": "Consumer and cyclicals are not signaling imminent recession; earnings support a soft-landing/risk-on narrative for now."
+      },
+      "mega_cap_software_and_platforms": {
+        "status": "selective_weakness",
+        "evidence": [
+          "Microsoft and Oracle both dropped about 1.5% despite the broader AI optimism, suggesting some positioning fatigue or valuation concerns. [4]"
+        ],
+        "interpretation": "Even within AI/tech, dispersion is increasing; not all large-cap tech participates equally, which matters for stock selection and index vs single-stock risk."
+      },
+      "macro_link": {
+        "profits_vs_equities": {
+          "evidence": [
+            "Corporate profits after tax remain strongly correlated with the S&P 500 (correlation >0.8). [6]"
+          ],
+          "interpretation": "The bull market is still fundamentally tethered to earnings rather than pure liquidity; any downturn in profit trends would be a regime risk."
+        }
+      }
+    },
+    "risk_on_off_conditions": {
+      "current_bias": "moderate_risk_on_with_tail_risk",
+      "supportive_signals": [
+        "Equities continue to outperform bonds despite elevated yields, suggesting persistent risk appetite. [1]",
+        "Futures and cash indices bouncing after short pullbacks, with AI/tech leading gains. [3][4]",
+        "Credit and corporate profit backdrop remains broadly supportive relative to index levels, per strong S&P 500–profit correlation. [6]"
+      ],
+      "caution_signals": [
+        "Firmer energy-driven inflation and elevated bond yields raise the risk of more hawkish Fed expectations. [1]",
+        "Heightened geopolitical risk (e.g., Middle East tensions) keeps a floor under risk premia. [1]",
+        "Growing disconnect between higher rates and strong risk asset performance is flagged as needing closer attention. [1]"
+      ],
+      "regime_assessment_for_bot": "Risk-on but late-cycle: trend-following can still work, especially in indices and leading sectors, but should be paired with conservative sizing, higher event-awareness around earnings and Fed communications, and explicit respect for drawdown limits."
+    }
+  },
+  "sector_rotation": {
+    "leadership_sectors": [
+      {
+        "sector": "information_technology_ai_semiconductors",
+        "status": "primary_leader",
+        "evidence": [
+          "Nvidia and broader AI complex seen as central to the bull narrative; Nvidia gains ahead of earnings and beats support the market. [4]",
+          "Nasdaq 100 futures outperform S&P 500 and Dow, reflecting tech/growth leadership. [3]"
+        ],
+        "notes_for_bot": "Regime still favors high-quality large-cap AI/semis and software, but concentration risk and earnings-event sensitivity are high. For a cautious workflow, index/sector exposure is generally safer than single, crowded names."
+      },
+      {
+        "sector": "consumer_discretionary_and_select_retail",
+        "status": "supportive",
+        "evidence": [
+          "TJX and Target trading higher on earnings, suggesting steady consumer demand. [4]",
+          "Nike strong within the Dow on big up days. [4]"
+        ],
+        "notes_for_bot": "Consumer strength supports broader risk-on tone; however, retail is highly stock-specific around earnings, so avoid short-horizon single-name bets."
+      },
+      {
+        "sector": "financials",
+        "status": "cyclical_participant",
+        "evidence": [
+          "Goldman Sachs up nearly 6% on a strong Dow session, indicating financials can participate in upswings. [4]"
+        ],
+        "notes_for_bot": "Financials benefit from higher-for-longer rates up to a point; they can act as a secondary cyclicals proxy in this regime."
+      }
+    ],
+    "lagging_or_mixed_sectors": [
+      {
+        "sector": "traditional_mega_cap_software_and_legacy_it",
+        "status": "mixed",
+        "evidence": [
+          "Microsoft and Oracle each down about 1.5% despite AI enthusiasm, showing some divergence within tech. [4]"
+        ],
+        "notes_for_bot": "Leadership is not uniform even inside tech; the bot should treat different subsectors (AI infrastructure vs legacy enterprise software) separately rather than assuming blanket tech strength."
+      },
+      {
+        "sector": "bonds_and_defensives",
+        "status": "underperforming_equities",
+        "evidence": [
+          "Recent bond sell-off and elevated yields indicate bond price weakness. [1]",
+          "Equity markets have shown little sensitivity to higher yields, and no meaningful rotation into bonds has taken place despite higher rates. [1]"
+        ],
+        "notes_for_bot": "Defensive rotations into bonds/utilities/staples are not dominant yet; however, these may become more attractive if yields stabilize and equity volatility rises."
+      }
+    ],
+    "rotation_dynamics": {
+      "cross_asset": "equities_outperform_bonds",
+      "within_equities": "growth_ai_lead_with_select_cyclical_support",
+      "interpretation": "The market is in a pro-growth, AI-led phase with supportive cyclicals and under-owned defensives. Any sharp move in yields, inflation, or AI sentiment could catalyze a rotation toward value/defensive sectors or into bonds.",
+      "paper_trading_implications": [
+        "Favor indices or sector ETFs that reflect current leadership (e.g., tech/growth-heavy vs broad market) rather than over-concentrated single-stock bets.",
+        "Monitor sector-level breadth: if tech leadership narrows further or reverses while defensives strengthen, treat it as an early warning of regime change.",
+        "Align any watchlist (e.g., INTU, MU, KO) with prevailing sector currents: MU fits semis/AI tailwind; INTU tracks software/IT; KO tracks staples/defensive demand, which currently lag leadership but may cushion in corrections."
+      ]
+    }
+  },
+  "risk_flags": {
+    "macro_and_policy": [
+      {
+        "name": "hawkish_fed_and_rate_path_uncertainty",
+        "description": "Elevated yields and firm dollar driven by higher-for-longer expectations; Fed minutes and data can quickly shift the curve.",
+        "source_evidence": [
+          "Hawkish tone from FOMC minutes would reinforce dollar strength. [1]",
+          "Fed funds rate projected to be around 3.75% by quarter-end, highlighting uncertainty around the timing/magnitude of cuts. [5]"
+        ],
+        "implications_for_bot": "Reduce sensitivity to single-day macro headlines; avoid overreacting intraday. Consider using regime filters that down-weight risk right before major Fed events."
+      },
+      {
+        "name": "inflation_and_energy_price_risk",
+        "description": "Firmer energy-driven inflation keeps pressure on central banks and bond markets.",
+        "source_evidence": [
+          "Combination of firmer energy-driven inflation and heightened Fed tightening expectations leaves risk sentiment vulnerable. [1]"
+        ],
+        "implications_for_bot": "Be cautious about extrapolating low volatility; inflation surprises can reprice yields and hit growth stocks disproportionately."
+      }
+    ],
+    "geopolitical": [
+      {
+        "name": "middle_east_and_global_tensions",
+        "description": "Geopolitical tensions (e.g., Iran-related) maintain an overhang on risk sentiment and commodities.",
+        "source_evidence": [
+          "Global bond yields elevated as markets await the outcome of President Trump’s pause on attacks; Iran situation has entered a drawn-out holding pattern. [1]"
+        ],
+        "implications_for_bot": "Expect occasional gap moves not explained by domestic data or earnings. For a cautious workflow, avoid leveraged or highly illiquid exposure that could be stressed by gap risk."
+      }
+    ],
+    "market_structure_and_sentiment": [
+      {
+        "name": "concentration_in_ai_and_mega_caps",
+        "description": "Market performance is heavily reliant on AI and a handful of mega-cap tech names.",
+        "source_evidence": [
+          "US equities supported by expectations that Nvidia will confirm sharp growth, impacting whole tech sector and broader AI economy. [4]",
+          "Nasdaq 100 and Nvidia outperformance underscore narrow leadership. [3][4]"
+        ],
+        "implications_for_bot": "Avoid building a paper portfolio that is implicitly just a levered bet on a single theme; ensure diversification across sectors and factors when evaluating strategy robustness."
+      },
+      {
+        "name": "rates_equities_disconnect",
+        "description": "Equities remain strong despite elevated yields and recent bond sell-off.",
+        "source_evidence": [
+          "Recent bond sell-off underscored bearish sentiment in bonds, but equity markets have shown little sensitivity to higher yields; rotation into bonds has yet to take place. [1]",
+          "Analysts note a growing disconnect between rates and risk assets that warrants closer attention. [1]"
+        ],
+        "implications_for_bot": "Treat the current risk-on regime as potentially fragile. Backtests should include scenarios where the correlation between equities and rates abruptly normalizes."
+      }
+    ],
+    "implementation_and_model_risks_for_paper_trading": [
+      {
+        "name": "event_risk_around_earnings_and_fed_releases",
+        "description": "Single-stock and sector moves can be dominated by discrete events (earnings, guidance, Fed meetings).",
+        "examples": [
+          "Nvidia earnings affecting entire tech sector and broader indices. [4]",
+          "Retail earnings (Target, TJX) driving sector-specific moves. [4]"
+        ],
+        "guardrails_suggestion": "For a cautious workflow, avoid initiating new hypothetical positions in names or sectors immediately before known major events; focus on learning about regime behavior rather than timing binary outcomes."
+      },
+      {
+        "name": "overfitting_to_recent_ai_boom",
+        "description": "Strategies calibrated only on the recent AI-led bull run may not generalize to more balanced or risk-off regimes.",
+        "guardrails_suggestion": "When evaluating strategies in paper trading, stress-test on earlier regimes (e.g., pre-AI boom, tightening cycles) and include scenarios with falling tech leadership and rising defensives."
+      },
+      {
+        "name": "position_and_risk_constraints",
+        "description": "Existing memory shows strict constraints (single-stock max allocation, banned leverage, position count limits) frequently blocking trades.",
+        "evidence_from_memory": [
+          "Multiple rejected trades due to single-stock allocation limits and banned leverage instruments.",
+          "No trades executed on several days due to lack of qualifying candidates."
+        ],
+        "implications_for_bot": "The current regime rewards concentration in a few leaders, but the framework rightly blocks that behavior. For learning, focus on understanding how index/sector exposure and risk filters would have behaved, rather than on maximizing hypothetical trade count."
+      }
+    ]
+  },
+  "source_urls": [
+    "https://www.admis.com/bonds-vs-equities/",
+    "https://tradingeconomics.com/united-states/stock-market/news/552337",
+    "https://stockinvest.us/digest/wall-street-futures-climb-ahead-of-nvidia-earnings-amid-bond-market-volatility",
+    "https://tradingeconomics.com/united-states/interest-rate",
+    "https://en.macromicro.me/collections/34/us-stock-relative/404/us-corporate-profits-after-tax-gspc"
+  ]
+}
 
