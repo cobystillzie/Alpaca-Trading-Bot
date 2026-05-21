@@ -1046,4 +1046,14 @@ Candidates found: 3
 No fresh, verifiable single-stock catalysts surfaced in the latest scan beyond those already logged (INTU, MU, KO). Given strict quality, catalyst, and risk constraints, the only near-term execution-ready idea remains INTU, with MU and KO as watch candidates. Market structure is still dominated by AI/mega-cap leadership and a cautious but not fully risk-off macro backdrop.
 
 Candidates found: 3
+## Premarket Plan - 2026-05-21 08:18:06 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- INTU: score=81, base=95, chittick=76, approved=False, allocation=6.0%, stop=8.0%
+  rejects: Candidate references banned v1 instruments or leverage.
+- MU: score=73, base=90, chittick=61, approved=False, allocation=0.0%, stop=8.0%
+  rejects: Candidate references banned v1 instruments or leverage.; Confidence below 0.60.; Target allocation must be between 1% and 15%.
+- KO: score=82, base=95, chittick=79, approved=False, allocation=0.0%, stop=6.0%
+  rejects: Candidate references banned v1 instruments or leverage.; Target allocation must be between 1% and 15%.
 
