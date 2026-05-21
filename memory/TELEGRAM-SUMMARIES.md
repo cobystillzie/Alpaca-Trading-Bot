@@ -16952,4 +16952,127 @@ HF filter: sentiment=not run source=0/100 hype=0.10 vetoes=0
 Self-learning: tier=watch repeat48h=0 fresh=yes bucket=international-financial-infrastructure
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Performance Ledger - 2026-05-21 12:32:42 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-05-21 12:32:42 Eastern Daylight Time
+- Portfolio value: $100,137.35
+- P/L vs $100k baseline: $137.35
+- Full paper-account return: 0.137%
+- Managed-capital return: 1.37%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 2.45%
+- Latest position value: $5,737.35
+- Full-account cash reserve: 94.3%
+- Managed-capital cash reserve: 42.6%
+- Max snapshot drawdown: $121.87 from 2026-05-08 16:30:03 Eastern Daylight Time to 2026-05-13 12:33:26 Eastern Daylight Time
+
+Open Position Review
+- DT: loser, value $789.25, unrealized P/L $-10.75, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 13 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: loser, value $492.99, unrealized P/L $-7.01, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 14 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: winner, value $836.46, unrealized P/L $36.46, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 21 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- IBRX: loser, value $535.18, unrealized P/L $-64.82, entry 2026-05-11 09:48:18 Eastern Daylight Time, thesis age 10 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: winner, value $516.85, unrealized P/L $16.85, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 9 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: winner, value $878.45, unrealized P/L $78.45, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 20 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $808.86, unrealized P/L $8.86, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 15 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $879.30, unrealized P/L $79.30, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 23 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- SCHD: appeared 34 times; open position P/L $8.86.
+- INTC: appeared 32 times; market outcome unavailable until benchmark/candidate price history is captured.
+- SPMO: appeared 32 times; open position P/L $79.30.
+- NVDA: appeared 29 times; open position P/L $78.45.
+- GOOGL: appeared 25 times; open position P/L $36.46.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- UNP: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VALN: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- GLD: appeared 9 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Candidate references banned v1 instruments or leverage.: 12
+  - Single-stock allocation would exceed 15%.: 7
+  - A market-open order is already logged for today. No backup order was placed.: 5
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources.: 5
+  - Max open-position count would be exceeded.: 3
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 2
+  - Low-weight social/congress signal needs at least two stronger sources.: 2
+  - Low-weight social/congress signal needs at least two stronger sources. micro_cap_speculation potentially_delisted no_fundamental_catalyst HF source/hype filter rejects source-thin hype. Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%. Stop loss must be between 3% and 12%.: 2
+- By symbol:
+  - GOOGL: 3
+  - PLTR: 3
+  - COIN: 2
+  - FLEX: 2
+  - FPS: 2
+  - GLD: 2
+  - INTU: 2
+  - KO: 2
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 0
+- unknown: 1
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold met: 8 trades over 23 days.
+- Strategy tuning may be reviewed, but safety guardrails still apply.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## Midday Memo - 2026-05-21 12:32:42 Eastern Daylight Time
+
+Midday Risk Memo
+
+Recommendation: Hold only positions whose thesis still matches the research; do not add unless guardrails pass.
+
+Market Regime
+Review current paper positions, thesis drift, concentration, stop discipline, and cash reserve.
+
+Portfolio
+Portfolio value: 100137.35 Cash: 94400 Buying power: 194537.35 Positions: - DT: qty=20.289119959, market_value=789.246766, unrealized_pl=-10.753234 - GLRE: qty=28.042624789, market_value=492.989344, unrealized_pl=-7.010656 - GOOGL: qty=2.151289429, market_value=836.464356, unrealized_pl=36.464356 - IBRX: qty=70.838252656, market_value=535.182999, unrealized_pl=-64.817001 - LNC: qty=14.590020426, market_value=516.851474, unrealized_pl=16.851474 - NVDA: qty=4.00060009, market_value=878.451768, unrealized_pl=78.451768 - SCHD: qty=25.2286345, market_value=808.862819, unrealized_pl=8.862819 - SPMO: qty=6.119014838, market_value=879.298149, unrealized_pl=79.298149 Performance: value $100,137.35, P/L vs $100k $137.35, managed return 1.37%, deployed return 2.45%, managed cash reserve 42.6%.
+
+Top Candidates
+
+1. TMXX.F (financials / market infrastructure & exchanges) | confidence 0.57 | allocation 0.0% | stop 8.0% | Chittick 68/100 | tier watch | bucket international-financial-infrastructure | HF source 0/100
+Thesis: TMX Group operates the primary Canadian equity and derivatives exchanges (TSX, TSX Venture, Montreal Exchange), making it a core market-infrastructure business with network effects and relatively stable, diversified fee revenue. As an exchange operator, it benefits from trading volume, new listings, and derivatives activity rather than directional market...
+Catalyst: Soft catalyst only: ongoing global interest in market infrastructure and exchanges as beneficiaries of higher trading activity and volatility. The provided valuation source indicates the stock trades at a premium to its modeled fair value, which is more of a caution signal than a positive catalys...
+Entry: Given the lack of a strong fresh catalyst, this is not an execution-priority swing candidate. If included for research purposes, a conservative paper entry could be modeled only if price consolidates above a short-term support level near the mid-range of it...
+Exit: For a hypothetical 5–7 day swing, a profit-taking trigger could be a 4–6% move above entry or a test/retake of recent highs if the stock is near the top of its band, while an invalidation could be a decisive close 5–8% below entry or a breakdown below recen...
+Risk/reward: Risk/reward is muted: upside is modest (a few percent in a calm regime) against a similar downside, and there is no obvious short-term event to skew probabilities in your favor. The structural quality of the business is a positive, but current valuation app...
+Bear/adversary: From a Chittick-style, owner-operator lens, the strongest objection is that the stock appears to trade rich to an estimated fair value with no clear near-term growth inflection or capital-allocation event in the evidence set. In that view, it is better to wait for either a pullback that restores...
+Source quality: Evidence is mixed. The core business description is inferred from TMX’s role as a major exchange operator (strong structural logic), but the only direct data provided is a Simply Wall St valuation panel, which is a secondary source using its own models. The...
+Chittick Cash Filter
+Score: 68/100
+Margin of safety: Using the Simply Wall St snapshot as a rough check, TMXX.F trades at a notable premium to that model’s fair value estimate (~US$40 vs ~US$22). While such models can be conservative or wrong, this suggests limited margin of safety at curr...
+Valuation: The indicated premium to estimated fair value implies the market is paying up for TMX’s quality and stability. Without additional evidence of accelerating earnings, substantial buybacks/dividend increases, or structural growth beyond wha...
+Growth runway: 30–180 day and longer-term drivers likely include: (1) sustained or rising equity and derivatives trading volumes, (2) new listings (IPOs, cross-listings) on TSX and TSXV, (3) product expansion in derivatives, data services, and indices,...
+Balance-sheet risk: As an exchange operator, TMX typically runs with manageable leverage and strong interest coverage, but this cannot be confirmed from the provided documents. Exchange businesses are generally cash generative and not ca...
+Capital allocation: TMX historically has returned capital via dividends and buybacks while investing in technology and new products, but the exact current payout and buyback pace are not detailed in the supplied evidence. For a Chittick...
+Concentration case: TMX offers exposure to a niche (Canadian market infrastructure) that differs from typical U.S.-centric mega-cap tech or broad ETFs, providing some geographic and sector diversification. However, given the lack of a strong catalyst and th...
+Owner thesis, 30-180 days: An owner-style 30–180 day thesis could emerge if (a) the stock corrected closer to or below fair value while business performance remained strong, creating a margin-of-safety entry; or (b) new information (earnings, strategic initiatives, regulatory tailwin...
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: general
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: international-financial-infrastructure
+Research tier: watch
+Allocation learning: Due to valuation premium and absence of a discrete near-term catalyst, TMXX.F should not consume scarce execution slots in the current macro regime. Use it instead as a template for how to treat exchange operators in the framework and wa...
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.10
+Evidence rank: 0/100
+Memory similarity: 0.00
+Vetoes: none
+Model notes: Candidate derived primarily from a single secondary-analytics valuation page (Simply Wall St), with no corroborating fresh news or filings in this packet. Treated as a cautious watchlist idea rather than an execution-ready trade.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.simplywall.st/stocks/us/diversified-financials/otc-tmxx.f/tmx-group/valuation
 
