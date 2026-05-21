@@ -181,4 +181,20 @@ Candidate references banned v1 instruments or leverage.
 Candidate references banned v1 instruments or leverage.
 Confidence below 0.60.
 Target allocation must be between 1% and 15%.
+## Rejected KO - 2026-05-21 09:55:11 Eastern Daylight Time
+
+Candidate references banned v1 instruments or leverage.
+Candidate is monitor-only and cannot be traded.
+Target allocation must be between 1% and 15%.
+## Rejected INTU - 2026-05-21 09:55:11 Eastern Daylight Time
+
+Candidate references banned v1 instruments or leverage.
+Candidate is monitor-only and cannot be traded.
+Target allocation must be between 1% and 15%.
+## Rejected MU - 2026-05-21 09:55:11 Eastern Daylight Time
+
+Candidate references banned v1 instruments or leverage.
+Candidate is monitor-only and cannot be traded.
+Confidence below 0.60.
+Target allocation must be between 1% and 15%.
 
