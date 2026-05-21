@@ -16937,4 +16937,19 @@ Rejected / Watchouts
 - INTU: Candidate references banned v1 instruments or leverage.
 - MU: Candidate references banned v1 instruments or leverage.; Confidence below 0.60.; Target allocation must be between 1% and 15%.
 - KO: Candidate references banned v1 instruments or leverage.; Target allocation must be between 1% and 15%.
+## Research Update - 2026-05-21 11:52:46 Eastern Daylight Time
+
+Research Update
+
+Market tone: No actionable, stock-specific catalysts emerged from the provided search results. Macro context and prior logs continue to argue for cautious, quality-focused single-stock exposure with tight risk controls and respect for v1 guardrails.
+Candidates: 1
+
+1. TMXX.F (financials / market infrastructure & exchanges) | confidence 0.57 | allocation 0.0% | stop 8.0% | Chittick 68/100 | tier watch | bucket international-financial-infrastructure | HF source 0/100
+Recommendation: watch
+Catalyst: Soft catalyst only: ongoing global interest in market infrastructure and exchanges as beneficiaries of higher trading activity and volatility. The provided valuation source indicates the stock trades at a premium to its modeled fair valu...
+Chittick Cash: Using the Simply Wall St snapshot as a rough check, TMXX.F trades at a notable premium to that model’s fair value estimate (~US$40 vs ~US$22). While such models can be conservative or wrong, this suggests limited marg...
+HF filter: sentiment=not run source=0/100 hype=0.10 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=international-financial-infrastructure
+Social buzz, low weight: none
+Congress signal, low weight: none
 

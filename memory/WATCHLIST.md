@@ -4,188 +4,65 @@
 {
   "candidates": [
     {
-      "adversary_case": "A critical counter-argument is that the guidance raise may already be fully priced in given Intuit\u2019s premium valuation and market awareness of its quality. The restructuring could signal management is concerned about organic growth, masking a plateau in core tax and small-business segments. In a macro slowdown, consumer tax filing and small-business formation could weaken, and multiple compression in quality growth stocks might more than offset the EPS upgrade. From a Chittick perspective, the margin of safety may be thin at elevated multiples, making this more of a tactical momentum trade than a true owner-style accumulation.",
-      "allocation_learning_note": "Within prior allocations, INTU was proposed at 6% to respect single-name limits and diversification away from AI-mega-cap concentration. That sizing remains reasonable for a high-quality but premium-valued software name.",
-      "balance_sheet_risk": "Leverage is moderate and manageable, with strong, recurring cash flows supporting debt service. There is no immediate going-concern or heavy-dilution risk. Key balance-sheet considerations are continued discipline on acquisitions and avoiding overpaying for growth. Cyclicality exists via small-business health, but not at the level of highly cyclical hardware or commodity names.",
-      "bear_case": "The main risks are valuation compression if growth or AI-related expectations cool, sensitivity to small-business health in a weaker macro environment, and execution risk on integrating and monetizing acquisitions (Credit Karma, Mailchimp) under the new cost structure. If the restructuring is perceived as a sign of slowing organic growth rather than optimization, the market could sell first and reassess later. Any broader risk-off shift out of growth/tech, or a negative surprise on subsequent updates, could undercut the post-guidance momentum.",
-      "capital_allocation_case": "Management has a track record of reinvesting in product, M&A, and buybacks while maintaining profitability. The latest guidance raise alongside restructuring indicates willingness to cut or reallocate spend rather than chase growth at any price. The main watch item is integration and ROI on large acquisitions; if returns on Mailchimp/Credit Karma investments fall short, capital allocation quality would be reassessed.",
-      "catalyst": "Recent company guidance update and restructuring: Intuit raised its annual adjusted EPS forecast (to roughly mid\u2013high $23s per share from just under $23 previously) and outlined workforce and cost adjustments to reallocate spending toward AI-driven capabilities and growth products. This supports near-term earnings momentum and can drive a multi-day repricing as investors digest higher profitability and improved focus.",
-      "catalyst_type": "earnings",
-      "chittick_cash_score": 76.0,
+      "adversary_case": "From a Chittick-style, owner-operator lens, the strongest objection is that the stock appears to trade rich to an estimated fair value with no clear near-term growth inflection or capital-allocation event in the evidence set. In that view, it is better to wait for either a pullback that restores margin of safety or a strong, verifiable catalyst (e.g., a major earnings beat, new product/market initiative, or regulatory change that boosts volumes) rather than allocate scarce risk budget to a fully-valued exchange operator on a short horizon.",
+      "allocation_learning_note": "Due to valuation premium and absence of a discrete near-term catalyst, TMXX.F should not consume scarce execution slots in the current macro regime. Use it instead as a template for how to treat exchange operators in the framework and wait for better margin-of-safety entries.",
+      "balance_sheet_risk": "As an exchange operator, TMX typically runs with manageable leverage and strong interest coverage, but this cannot be confirmed from the provided documents. Exchange businesses are generally cash generative and not capital-intensive, with limited need for heavy debt financing. The more relevant risks are operational (systems, cyber), regulatory, and cyclicality in volumes rather than outright balance-sheet distress.",
+      "bear_case": "Key risks include: (1) Valuation risk: trading noticeably above a modeled fair value reduces downside protection, especially if earnings growth or trading volumes slow. (2) Cyclicality in capital markets: IPO and secondary issuance cycles, as well as risk appetite for equities and derivatives, drive listing and trading revenues; a risk-off shock could reduce volumes and sentiment. (3) Regulatory and competitive risk: shifts in Canadian or cross-border regulation, or competitive pressures from alternative trading systems, could impact margins or market share. (4) FX and liquidity risk: as an OTC-pink U.S. listing representing a Canadian primary listing, TMXX.F may have lower liquidity and wider spreads in U.S. trading, increasing execution risk for short-horizon paper strategies. (5) Thesis risk: without a clearly identified near-term catalyst from the provided evidence, a 1\u201310 day swing trade is more exposed to random noise than to a structural edge.",
+      "capital_allocation_case": "TMX historically has returned capital via dividends and buybacks while investing in technology and new products, but the exact current payout and buyback pace are not detailed in the supplied evidence. For a Chittick lens, a disciplined, predictable capital-return policy would be a positive, but this requires up-to-date filings or management commentary to validate. In absence of that here, capital allocation must be treated as neutral-to-positive but unverified.",
+      "catalyst": "Soft catalyst only: ongoing global interest in market infrastructure and exchanges as beneficiaries of higher trading activity and volatility. The provided valuation source indicates the stock trades at a premium to its modeled fair value, which is more of a caution signal than a positive catalyst. No specific near-term event (earnings, major regulatory change, or strategic transaction) is visible in the supplied materials.",
+      "catalyst_type": "general",
+      "chittick_cash_score": 68.0,
       "chittick_reject_reason": "",
-      "concentration_case": "Within a diversified paper portfolio, INTU offers differentiated exposure to tax and small-business fintech rather than yet another AI GPU proxy or broad index ETF. It deserves attention because it combines a clear, company-specific catalyst with a high-quality business model, contrasting with more crowded mega-cap AI trades that may already dominate index exposure.",
-      "confidence": 0.71,
+      "concentration_case": "TMX offers exposure to a niche (Canadian market infrastructure) that differs from typical U.S.-centric mega-cap tech or broad ETFs, providing some geographic and sector diversification. However, given the lack of a strong catalyst and the valuation premium, it is not clearly superior right now to higher-conviction large-cap quality names or diversified ETFs for new risk allocation. It is better framed as a watchlist candidate to revisit when either valuation or catalysts improve.",
+      "confidence": 0.57,
       "congressional_signal": "none",
-      "diversity_bucket": "large-cap-software-fintech",
-      "entry_plan": "For paper trading, plan an entry on a modest intraday pullback or consolidation above the post-guidance reaction low, aiming to avoid chasing an extended gap. Conceptually: enter on strength holding above a nearby support zone defined by the post-guidance gap or breakout level, once intraday volatility moderates (e.g., after the first 30\u201360 minutes of cash trading). Avoid entries immediately ahead of any known near-term company events.",
-      "exit_plan": "For a 1\u20137 day swing, set an initial take-profit zone around recent resistance or a measured move based on the post-guidance up-leg, and a hard stop-loss approximately 8% below entry, aligned with a clear technical break (e.g., loss of the post-guidance support area). If price grinds higher with healthy volume and no negative news, consider scaling out in two tranches (e.g., half near the first target, half trailing a tighter stop under short-term moving averages). Invalidate the trade early if the stock quickly round-trips the guidance move or if new information undermines the earnings upgrade narrative.",
+      "diversity_bucket": "international-financial-infrastructure",
+      "entry_plan": "Given the lack of a strong fresh catalyst, this is not an execution-priority swing candidate. If included for research purposes, a conservative paper entry could be modeled only if price consolidates above a short-term support level near the mid-range of its recent band (e.g., a pullback toward the US$36\u201338 area, then a turn higher confirmed by 2\u20133 days of higher lows and sustained volume). Because TMXX.F trades OTC in the U.S., any paper entry should assume wider spreads; avoid market-on-open orders in simulation and use limit-style logic centered near the prior close.",
+      "exit_plan": "For a hypothetical 5\u20137 day swing, a profit-taking trigger could be a 4\u20136% move above entry or a test/retake of recent highs if the stock is near the top of its band, while an invalidation could be a decisive close 5\u20138% below entry or a breakdown below recent support for two consecutive days. Given the absence of a sharp catalyst, any simulated exit should be time-based as well\u2014e.g., closing the position after 7\u201310 trading days if neither target nor stop is hit.",
       "fresh_catalyst": true,
-      "growth_runway": "Over 30\u2013180 days and beyond, drivers include continued penetration of small-business accounting and payroll, cross-sell between QuickBooks, Mailchimp, and Credit Karma, and embedding AI across tax and bookkeeping workflows to increase ARPU and retention. Regulatory and product updates in tax, as well as new fintech features in QuickBooks, can extend the runway. The restructuring is intended to free capacity and capital to double down on these areas.",
-      "hf_evidence_rank": 0.8,
+      "growth_runway": "30\u2013180 day and longer-term drivers likely include: (1) sustained or rising equity and derivatives trading volumes, (2) new listings (IPOs, cross-listings) on TSX and TSXV, (3) product expansion in derivatives, data services, and indices, and (4) potential efficiency gains or technology upgrades in trading/clearing. Over a 30\u2013180 day owner lens, these are slow-burn rather than discrete catalysts; no specific, dated events were provided in this packet.",
+      "hf_evidence_rank": 0.4,
       "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.14,
-      "hf_memory_similarity": 0.22,
-      "hf_model_notes": "Name previously surfaced as execution-ready with a clear earnings/guidance catalyst; no v1 bans or allocation-cap breaches noted. Social buzz flagged as grounded rather than pumpy. Fits quality plus catalyst framework better than recent rejected, hype-leaning names.",
+      "hf_hype_risk": 0.1,
+      "hf_memory_similarity": 0.0,
+      "hf_model_notes": "Candidate derived primarily from a single secondary-analytics valuation page (Simply Wall St), with no corroborating fresh news or filings in this packet. Treated as a cautious watchlist idea rather than an execution-ready trade.",
       "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "cautious-positive",
-      "hf_sentiment_score": 0.18,
-      "hf_source_quality_score": 0.82,
+      "hf_sentiment_label": "",
+      "hf_sentiment_score": 0.0,
+      "hf_source_quality_score": 0.45,
       "horizon_days": 5,
-      "margin_of_safety_case": "On classical value metrics, Intuit rarely looks statistically cheap; the margin of safety rests more on business durability and earnings power than on low multiples. The recent guidance raise improves forward earnings expectations, partially offsetting valuation risk, but leaves limited cushion if growth disappoints. For Chittick-style thinking, this is a name to accumulate on deeper dislocations rather than at peak sentiment; here we are leaning on a short-horizon catalyst, not a deep-value entry.",
-      "market_regime": "In a neutral-to-risk-on regime dominated by AI/mega-cap narratives, quality software with clear earnings upgrades can attract incremental capital. However, if macro data or bond yields trigger a de-risking, richly valued software names could see outsized drawdowns. This argues for disciplined position sizing and tight invalidation rather than aggressive leverage or over-concentration.",
-      "momentum_case": "Post-guidance, the stock has shown constructive relative strength versus broader software peers, with buyers supporting pullbacks and volume elevated around the news. The move is catalyst-driven rather than purely social-buzz-driven, and the stock is trading in the upper portion of its recent range, suggesting an emerging trend rather than a late-stage blow-off. For a 1\u201310 day swing, the structure of a breakout or consolidation above the pre-guidance range offers a clear technical line in the sand for risk management.",
-      "owner_hold_case": "An owner-style 30\u2013180 day review could be justified if subsequent quarters confirm that AI-enabled products and ecosystem cross-sell are driving durable revenue and EPS acceleration, and if valuation stays within a band that still rewards quality without extreme exuberance. Monitoring factors would include customer growth in small-business cloud, adoption of new AI features, and evidence that restructuring costs are one-time rather than recurring.",
-      "quality_case": "Intuit operates mission-critical software with high switching costs and strong brand recognition in tax prep and small-business accounting. Revenue is largely recurring or subscription-like, with attractive gross margins and a long record of compounding EPS and free cash flow. The balance sheet is investment grade, and the business has a history of sensible acquisitions (e.g., Credit Karma, Mailchimp) that broaden the ecosystem. From a Chittick Cash perspective, this is a durable, high-ROIC compounder rather than a speculative story.",
-      "recommendation": "execute-if-guards-pass",
-      "repeat_count_48h": 1,
-      "research_tier": "execution-ready",
-      "risk_reward": "With an 8% stop and upside potential plausibly in the low double-digit range over a few days if the guidance upgrade continues to be repriced, the paper trade offers a skewed but not extreme risk/reward. The key edge is the fresh, fundamentals-backed catalyst, not a huge technical mispricing.",
-      "sector": "information-technology / application-software-fintech",
+      "margin_of_safety_case": "Using the Simply Wall St snapshot as a rough check, TMXX.F trades at a notable premium to that model\u2019s fair value estimate (~US$40 vs ~US$22). While such models can be conservative or wrong, this suggests limited margin of safety at current levels, at least on a mechanical DCF or multiples basis. The underlying business is high quality and likely has defensive cash flows, which partially offsets valuation risk, but a Chittick-style framework would likely demand either a lower price or new growth visibility before committing meaningful capital.",
+      "market_regime": "In a neutral-to-cautious regime, exchange operators can be relatively resilient given their fee-based models and potential to benefit from volatility, but they are not immune to risk-off moves that compress valuations for financial infrastructure. For a cautious paper-trading approach, this regime argues for moderate sizing, avoiding leverage, and respecting the possibility of correlated drawdowns if global equities sell off.",
+      "momentum_case": "The Simply Wall St panel notes TMXX.F at US$40.15 with a small recent change (e.g., -2.1% in a given period) and a 52-week band around US$35\u201341 in the snippet. That implies the stock is near the upper half of its recent range, suggesting moderate positive or at least stable momentum rather than a deep value dislocation. There is no clear evidence here of a fresh breakout on volume or a sharp reversal that would independently justify a 1\u201310 day swing entry.",
+      "owner_hold_case": "An owner-style 30\u2013180 day thesis could emerge if (a) the stock corrected closer to or below fair value while business performance remained strong, creating a margin-of-safety entry; or (b) new information (earnings, strategic initiatives, regulatory tailwinds) indicated a durable uplift in trading volumes, listings, or data/derivatives revenues. Under those conditions, a 30\u2013180 day hold could compound via modest earnings growth plus multiple stability. In the current evidence set, this is a hypothetical path, not a present recommendation.",
+      "quality_case": "Exchanges and clearinghouses are typically high-quality businesses: they exhibit network effects, high operating leverage, and recurring transaction and listing fees. TMX Group, as the operator of Canada\u2019s main equity exchanges, likely has durable competitive advantages and solid profitability. Its business model is asset-light with good free cash flow conversion and structural demand for capital markets infrastructure. However, the supplied valuation snapshot implies the market already prices in much of this quality, with the current price (~US$40.15) above an estimated fair value (~US$22.33), reducing the margin of safety. Without direct access to recent financial statements in this packet, balance-sheet strength and payout discipline must be inferred from its status as a major exchange operator rather than explicitly verified here.",
+      "recommendation": "watch",
+      "repeat_count_48h": 0,
+      "research_tier": "watch",
+      "risk_reward": "Risk/reward is muted: upside is modest (a few percent in a calm regime) against a similar downside, and there is no obvious short-term event to skew probabilities in your favor. The structural quality of the business is a positive, but current valuation appears stretched versus one modeled fair value, suggesting limited margin of safety for a swing. This tilts the idea toward watch/monitor rather than immediate execution.",
+      "sector": "financials / market infrastructure & exchanges",
       "signal_weights": {
         "congressional_signal": 0.0,
-        "social_buzz": 0.05
+        "social_buzz": 0.0
       },
-      "social_buzz": "low and largely grounded in discussion of the guidance raise and restructuring rather than speculative hype.",
-      "source_quality": "Evidence rests on company earnings/guidance communication and mainstream financial-news coverage, which are high-quality primary and secondary sources. No dependence on unverified social posts or thin listicles. That supports treating this as an execution-ready but still risk-managed idea.",
+      "social_buzz": "none",
+      "source_quality": "Evidence is mixed. The core business description is inferred from TMX\u2019s role as a major exchange operator (strong structural logic), but the only direct data provided is a Simply Wall St valuation panel, which is a secondary source using its own models. There are no primary filings, earnings releases, or major-news catalysts in this packet. As such, the fundamental quality case is conceptually strong but not freshly documented here, and the catalyst/momentum case is weak.",
       "source_urls": [
-        "https://www.intuit.com",
-        "https://investor.intuit.com",
-        "https://www.reuters.com/markets/us/intuit-raises-annual-profit-forecast-announces-restructuring-2026-05-20"
+        "https://www.simplywall.st/stocks/us/diversified-financials/otc-tmxx.f/tmx-group/valuation"
       ],
       "stop_loss_percent": 8.0,
       "strategy_tags": [
         "chittick_cash",
-        "quality-compounder",
-        "earnings-reaction",
-        "swing-1-10d"
+        "quality-infrastructure",
+        "swing-1-10-day-watch"
       ],
-      "symbol": "INTU",
-      "target_allocation_percent": 6.0,
-      "thesis": "Intuit is a high-quality, recurring-revenue software business (TurboTax, QuickBooks, Credit Karma, Mailchimp) that just raised full-year profit guidance and announced a restructuring to focus investment on higher-return AI and fintech initiatives. The combination of upgraded guidance, disciplined cost actions, and durable small-business and tax ecosystems fits a Buffett/Munger-style quality lens while also offering a clear 1\u201310 day post-guidance reaction window for a swing-style paper trade.",
-      "valuation_case": "The stock trades at a premium multiple versus the market and many software peers, reflecting its high ROIC and recurring revenue. The guidance upgrade nudges the implied forward P/E and EV/FCF modestly lower, making valuation more reasonable but not outright cheap. From an owner perspective, one would want to underwrite multi-year mid-teens EPS growth to justify the multiple; for a 1\u201310 day trade, the key is that valuation is rich but supported by clear, fresh fundamental improvement rather than pure hype."
-    },
-    {
-      "adversary_case": "The 2026 memory upcycle thesis may be consensus already, with little incremental edge and limited margin of safety. A small disappointment in AI server build plans or DRAM pricing could trigger multiple compression.",
-      "allocation_learning_note": "Prior suggestions already leaned toward modest allocations; given AI concentration risk and existing NVDA monitoring, new MU exposure should be constrained and timed carefully rather than treated as a core paper-holding.",
-      "balance_sheet_risk": "Improved versus prior cycles with more conservative leverage, but still subject to swings in working capital and capex requirements.",
-      "bear_case": "A sudden shift in DRAM/HBM supply-demand (e.g., aggressive capacity additions, weaker-than-expected AI server orders, or macro slowdown) could reverse pricing gains and pressure margins. The stock\u2019s cyclicality means that late-cycle entries can be painful if the upturn is already priced in. Trade tensions or export controls affecting key customers also pose risk.",
-      "capital_allocation_case": "Management has emphasized more disciplined capex and shareholder returns, but the cyclicality of the industry limits how much capital allocation can offset macro and cycle risk.",
-      "catalyst": "Ongoing DRAM pricing improvement tied to AI server demand and recent market commentary framing Micron and peers as central beneficiaries of the memory upcycle. The next leg of the thesis depends on continued evidence of tight supply, strong AI/cloud capex, and confirmation in upcoming earnings or industry data.",
-      "catalyst_type": "structural",
-      "chittick_cash_score": 61.0,
-      "chittick_reject_reason": "",
-      "concentration_case": "Given heavy AI/semiconductor exposure in the broader tape, MU should remain a moderate-sized tactical idea, not a core over-weight.",
-      "confidence": 0.59,
-      "congressional_signal": "none",
-      "diversity_bucket": "information-technology-semiconductors",
-      "entry_plan": "Watch-only for now: wait for either (a) a constructive pullback to support with improving breadth in semis, or (b) a high-volume breakout on fresh fundamental confirmation (earnings, pricing data). Avoid initiating around binary sector events without an edge.",
-      "exit_plan": "For any future 1\u20137 day swing, a tight stop (around 8%) is appropriate given volatility, with profit-taking into strength near recent highs or key resistance levels, rather than aiming for extended holding through the full memory cycle.",
-      "fresh_catalyst": true,
-      "growth_runway": "30\u2013180 day Drivers include AI server build-out, HBM adoption, and any additional clarity from hyperscalers on capex. Over longer horizons, the cycle will inevitably mean periods of downturn.",
-      "hf_evidence_rank": 0.62,
-      "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.2,
-      "hf_memory_similarity": 0.35,
-      "hf_model_notes": "Previously proposed as an execute-if-guards-pass candidate; here downgraded to watch-only to avoid over-concentration in AI/semis and due to cycle risk.",
-      "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "neutral",
-      "hf_sentiment_score": 0.12,
-      "hf_source_quality_score": 0.7,
-      "horizon_days": 4,
-      "margin_of_safety_case": "Thin; cycle-sensitive earnings mean that apparent cheapness at peak margins can be illusory. Better treated as a tactically traded name than a margin-of-safety anchor.",
-      "market_regime": "In a regime where AI and semis are leadership, MU can benefit, but the same concentration risk that supports upside also makes it vulnerable if AI enthusiasm cools or if a rotation out of cyclicals occurs.",
-      "momentum_case": "The stock has participated in the broader AI hardware rally, with periods of strong outperformance during upswings in DRAM pricing expectations. However, it can also experience sharp drawdowns on any hint of pricing pressure or capex cuts. Currently, momentum is constructive but vulnerable to sector news and broader semiconductor sentiment.",
-      "owner_hold_case": "Only compelling as a 30\u2013180 day hold if the memory upcycle proves both stronger and longer than consensus, with clear evidence that pricing and utilization remain very tight. Otherwise, better as a shorter-horizon swing.",
-      "quality_case": "Micron is structurally cyclical, with earnings volatility driven by memory pricing and supply-demand balance. It lacks the consistent, high-ROIC profile of software compounders but has improved capital discipline versus past cycles. From a Chittick lens, this is more of a trading vehicle than a long-duration owner compounder, though balance-sheet management has improved over the last decade.",
-      "recommendation": "watch",
-      "repeat_count_48h": 3,
-      "research_tier": "watch",
-      "risk_reward": "Potential for strong short-term moves in either direction; reward can be significant in favorable tape, but downside is also swift. Not suitable as a primary Chittick-style anchor name.",
-      "sector": "information-technology / semiconductors",
-      "signal_weights": {
-        "congressional_signal": 0.0,
-        "social_buzz": 0.05
-      },
-      "social_buzz": "low, aligned with general AI/memory discussions.",
-      "source_quality": "Based primarily on reputable market commentary and sector data summarizing DRAM trends; no direct fresh company filing in this pass.",
-      "source_urls": [
-        "https://www.micron.com",
-        "https://www.reuters.com/markets/companies/MU.O",
-        "https://stockinvest.us"
-      ],
-      "stop_loss_percent": 8.0,
-      "strategy_tags": [
-        "ai-hardware",
-        "cyclical",
-        "swing-1-10d"
-      ],
-      "symbol": "MU",
+      "symbol": "TMXX.F",
       "target_allocation_percent": 0.0,
-      "thesis": "Micron is a key memory supplier leveraged to DRAM and HBM demand for AI servers and cloud infrastructure. Recent coverage highlighted a DRAM rally theme and pointed to specific catalysts that could extend or break the 2026 memory upcycle. This is more cyclical and lower-quality than INTU, but the AI-related demand tailwind and sector narrative make it a worthwhile watch candidate for tactical swings when technicals align.",
-      "valuation_case": "Valuation is often set versus normalized mid-cycle earnings, which are uncertain in an AI-boosted environment. On simple multiples, it may appear reasonable, but the volatility of E and FCF tempers comfort."
-    },
-    {
-      "adversary_case": "For a 1\u201310 day trading horizon, KO may simply not move enough to justify the effort, especially given transaction costs (if any) and opportunity cost versus more catalyst-rich names. Broker upgrades can also be lagging indicators, with most of the reaction occurring quickly.",
-      "allocation_learning_note": "Given its repeat appearances and modest volatility, KO should remain a smaller supporting idea in any future allocation, primarily for diversification rather than return maximization.",
-      "balance_sheet_risk": "Manageable leverage, strong interest coverage, and a long record of stable financing. Balance-sheet risk is low relative to most sectors.",
-      "bear_case": "Growth is limited versus tech or high-growth consumer names, so multiple expansion room is modest. A stronger dollar, input-cost inflation, or weaker emerging-markets demand could pressure margins and volumes. In a sharp risk-on rotation, KO may lag, making it less attractive for aggressive short-term swings.",
-      "capital_allocation_case": "Management has historically allocated capital prudently through dividends, buybacks, and brand investments. Major missteps are rare but should still be monitored (e.g., overpaying for bottlers or niche brands).",
-      "catalyst": "Recent analyst actions (e.g., major broker raising price target and reiterating buy-equivalent ratings) following earnings that confirmed resilient volumes and successful pricing. These updates modestly refresh the bull case without introducing high event risk.",
-      "catalyst_type": "news",
-      "chittick_cash_score": 79.0,
-      "chittick_reject_reason": "",
-      "concentration_case": "KO provides a sector and factor diversification counterweight to tech/AI-heavy exposure in indices and recent ideas. It would not dominate a portfolio but can meaningfully reduce volatility.",
-      "confidence": 0.63,
-      "congressional_signal": "none",
-      "diversity_bucket": "consumer-staples-beverages",
-      "entry_plan": "Look for entries on minor pullbacks toward support or near the lower end of a recent consolidation range, avoiding chasing upgrades at intraday highs. Because volatility is low, sizing can be moderate within defensive limits, but expect smaller absolute price moves over 1\u201310 days.",
-      "exit_plan": "Aim to harvest small, single-digit percentage gains over a 3\u201310 day window, exiting into strength near recent highs or if defensive sectors begin to underperform sharply. Use a relatively tight but still realistic stop (~6%) below recent support, acknowledging lower volatility.",
-      "fresh_catalyst": true,
-      "growth_runway": "30\u2013180 day and longer-term drivers include continued expansion of low/no-sugar and functional beverages, emerging-market penetration, and disciplined pricing. It is a slow-and-steady compounder rather than a high-growth story.",
-      "hf_evidence_rank": 0.74,
-      "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.05,
-      "hf_memory_similarity": 0.3,
-      "hf_model_notes": "High-quality defensive that has appeared multiple times, but still with modest, legitimate catalysts (broker target changes, earnings). Should not be over-used as a primary trade idea due to limited volatility and repeat penalty.",
-      "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "mild-positive",
-      "hf_sentiment_score": 0.2,
-      "hf_source_quality_score": 0.78,
-      "horizon_days": 7,
-      "margin_of_safety_case": "While not statistically cheap, KO\u2019s earnings and cash-flow visibility, plus its defensive profile, provide a softer margin of safety versus cyclical or speculative names. The margin of safety is in resilience rather than deep discount.",
-      "market_regime": "In a neutral-to-risk-on regime with fragility, KO can act as a ballast, but for a 1\u201310 day horizon, return expectations should be modest. It is more valuable for diversification and drawdown smoothing than for outsized short-run gains.",
-      "momentum_case": "The stock has shown steady, low-volatility upward drift, responding positively to broker upgrades and earnings. Momentum is more grind-higher than explosive, which is appropriate for its defensive profile. It usually underperforms in roaring bull markets but holds up better in corrections.",
-      "owner_hold_case": "An owner could justify a 30\u2013180 day or multi-year hold for dividend compounding and defensive characteristics, particularly in uncertain macro periods. For this paper-trading context, it is more a stabilizer than a primary alpha engine.",
-      "quality_case": "KO\u2019s beverage franchise is among the strongest consumer brands globally, with diversified product lines and geographic reach. Free cash flow is steady, margins are healthy, and the company has long demonstrated disciplined capex and shareholder returns. In Chittick terms, this is a high-durability, moderate-growth, wide-moat name.",
-      "recommendation": "watch",
-      "repeat_count_48h": 4,
-      "research_tier": "watch",
-      "risk_reward": "Risk/reward is skewed toward capital preservation and modest gains rather than big upside. It helps diversify across sectors and volatility regimes.",
-      "sector": "consumer-staples / beverages",
-      "signal_weights": {
-        "congressional_signal": 0.0,
-        "social_buzz": 0.03
-      },
-      "social_buzz": "low and mostly oriented around dividends and brand strength, not speculative hype.",
-      "source_quality": "Based on recent broker research summaries and earnings-related commentary from mainstream financial sources; fundamentals are well-documented and stable.",
-      "source_urls": [
-        "https://www.coca-colacompany.com",
-        "https://www.reuters.com/markets/companies/KO.N",
-        "https://stockinvest.us"
-      ],
-      "stop_loss_percent": 6.0,
-      "strategy_tags": [
-        "defensive",
-        "dividend-compounder",
-        "swing-3-10d"
-      ],
-      "symbol": "KO",
-      "target_allocation_percent": 0.0,
-      "thesis": "Coca-Cola is a classic defensive consumer-staples compounder with global brand strength, pricing power, and a long history of dividends and buybacks. Recent broker commentary cited improved volume expectations and raised price targets, suggesting supported fundamentals and moderate upside. It serves as a diversification counterweight to tech/AI exposure and a low-volatility learning example for shorter-horizon swings in a quality defensive.",
-      "valuation_case": "Valuation is full but reasonable for a global staple with strong brand equity. At typical KO multiples, upside is likely in line with low- to mid-single-digit EPS growth plus dividend yield unless sentiment re-rates the sector."
+      "thesis": "TMX Group operates the primary Canadian equity and derivatives exchanges (TSX, TSX Venture, Montreal Exchange), making it a core market-infrastructure business with network effects and relatively stable, diversified fee revenue. As an exchange operator, it benefits from trading volume, new listings, and derivatives activity rather than directional market bets. The Simply Wall St valuation snapshot suggests the stock is trading above an estimated fair value, indicating limited margin of safety short term but confirming market recognition of a high-quality, profitable franchise.",
+      "valuation_case": "The indicated premium to estimated fair value implies the market is paying up for TMX\u2019s quality and stability. Without additional evidence of accelerating earnings, substantial buybacks/dividend increases, or structural growth beyond what is already embedded in consensus, this looks more like a hold or watch on valuation grounds rather than an attractive new buy for a concentrated portfolio. For a short-horizon swing, valuation alone is not disqualifying, but it removes the tailwind of multiple expansion."
     }
   ],
-  "summary": "No fresh, verifiable single-stock catalysts surfaced in the latest scan beyond those already logged (INTU, MU, KO). Given strict quality, catalyst, and risk constraints, the only near-term execution-ready idea remains INTU, with MU and KO as watch candidates. Market structure is still dominated by AI/mega-cap leadership and a cautious but not fully risk-off macro backdrop."
+  "summary": "No actionable, stock-specific catalysts emerged from the provided search results. Macro context and prior logs continue to argue for cautious, quality-focused single-stock exposure with tight risk controls and respect for v1 guardrails."
 }
 -->
 
@@ -1407,4 +1284,10 @@ No candidates.
 | INTU | information-technology / application-software-fintech | execution-ready | large-cap-software-fintech | 1 | yes | 0.71 | 76 | 1 | 0 | 6.0% | 8.0% | execute-if-guards-pass | Recent company guidance update and restructuring: Intuit raised its annual adjusted EPS forecast (to roughly mid–high $23s per share from just under $23 previou |
 | MU | information-technology / semiconductors | watch | information-technology-semiconductors | 3 | yes | 0.59 | 61 | 1 | 0 | 0.0% | 8.0% | watch | Ongoing DRAM pricing improvement tied to AI server demand and recent market commentary framing Micron and peers as central beneficiaries of the memory upcycle.  |
 | KO | consumer-staples / beverages | watch | consumer-staples-beverages | 4 | yes | 0.63 | 79 | 1 | 0 | 0.0% | 6.0% | watch | Recent analyst actions (e.g., major broker raising price target and reiterating buy-equivalent ratings) following earnings that confirmed resilient volumes and  |
+
+## Latest Candidates - 2026-05-21 11:52:45 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| TMXX.F | financials / market infrastructure & exchanges | watch | international-financial-infrastructure | 0 | yes | 0.57 | 68 | 0 | 0 | 0.0% | 8.0% | watch | Soft catalyst only: ongoing global interest in market infrastructure and exchanges as beneficiaries of higher trading activity and volatility. The provided valu |
 
