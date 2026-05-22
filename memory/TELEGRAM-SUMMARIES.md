@@ -17429,4 +17429,202 @@ Model notes: Treated as a quality research prospect rather than an execution can
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: https://www.quiverquant.com/news/BOOZ+ALLEN+HAMILTON+Q4+2026+Earnings+Preview:+Recent+$BAH+Insider+Trading,+Hedge+Fund+Activity,+and+More
+## Performance Ledger - 2026-05-21 21:16:11 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-05-21 21:16:10 Eastern Daylight Time
+- Portfolio value: $100,090.11
+- P/L vs $100k baseline: $90.11
+- Full paper-account return: 0.090%
+- Managed-capital return: 0.90%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 1.61%
+- Latest position value: $5,690.11
+- Full-account cash reserve: 94.3%
+- Managed-capital cash reserve: 43.1%
+- Max snapshot drawdown: $135.30 from 2026-05-08 16:30:03 Eastern Daylight Time to 2026-05-21 21:16:10 Eastern Daylight Time
+
+Open Position Review
+- DT: loser, value $770.99, unrealized P/L $-29.01, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 13 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: loser, value $414.47, unrealized P/L $-85.53, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 14 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: winner, value $838.03, unrealized P/L $38.03, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 21 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- IBRX: loser, value $546.16, unrealized P/L $-53.84, entry 2026-05-11 09:48:18 Eastern Daylight Time, thesis age 10 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: winner, value $536.18, unrealized P/L $36.18, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 9 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: winner, value $881.77, unrealized P/L $81.77, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 20 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $814.63, unrealized P/L $14.63, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 15 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $887.87, unrealized P/L $87.87, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 23 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- SCHD: appeared 34 times; open position P/L $14.63.
+- INTC: appeared 32 times; market outcome unavailable until benchmark/candidate price history is captured.
+- SPMO: appeared 32 times; open position P/L $87.87.
+- NVDA: appeared 29 times; open position P/L $81.77.
+- GOOGL: appeared 25 times; open position P/L $38.03.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- UNP: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VALN: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- GLD: appeared 9 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Candidate references banned v1 instruments or leverage.: 12
+  - Single-stock allocation would exceed 15%.: 7
+  - A market-open order is already logged for today. No backup order was placed.: 5
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources.: 5
+  - Max open-position count would be exceeded.: 3
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 2
+  - Low-weight social/congress signal needs at least two stronger sources.: 2
+  - Low-weight social/congress signal needs at least two stronger sources. micro_cap_speculation potentially_delisted no_fundamental_catalyst HF source/hype filter rejects source-thin hype. Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%. Stop loss must be between 3% and 12%.: 2
+- By symbol:
+  - GOOGL: 3
+  - PLTR: 3
+  - COIN: 2
+  - FLEX: 2
+  - FPS: 2
+  - GLD: 2
+  - INTU: 2
+  - KO: 2
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 1
+- congressional: 2
+- unknown: 1
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold met: 8 trades over 23 days.
+- Strategy tuning may be reviewed, but safety guardrails still apply.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## End Of Day Memo - 2026-05-21 21:16:11 Eastern Daylight Time
+
+End Of Day Analyst Memo
+
+Recommendation: Carry forward only evidence-backed candidates; review stops before the next market-open run.
+
+Market Regime
+End-of-day review of paper portfolio, trade quality, risk notes, and next-day watchlist.
+
+Portfolio
+Portfolio value: 100090.11 Cash: 94400 Buying power: 194490.11 Positions: - DT: qty=20.289119959, market_value=770.986558, unrealized_pl=-29.013442 - GLRE: qty=28.042624789, market_value=414.469994, unrealized_pl=-85.530006 - GOOGL: qty=2.151289429, market_value=838.034797, unrealized_pl=38.034797 - IBRX: qty=70.838252656, market_value=546.162928, unrealized_pl=-53.837072 - LNC: qty=14.590020426, market_value=536.183251, unrealized_pl=36.183251 - NVDA: qty=4.00060009, market_value=881.772266, unrealized_pl=81.772266 - SCHD: qty=25.2286345, market_value=814.632608, unrealized_pl=14.632608 - SPMO: qty=6.119014838, market_value=887.869053, unrealized_pl=87.869053 Performance: value $100,090.11, P/L vs $100k $90.11, managed return 0.90%, deployed return 1.61%, managed cash reserve 43.1%.
+
+Top Candidates
+
+1. TMXX.F (financials / market infrastructure & exchanges) | confidence 0.57 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier watch | bucket international-financial-infrastructure | HF source 0/100
+Thesis: TMX Group operates the Toronto Stock Exchange and related market infrastructure, which tend to benefit structurally from higher trading volumes, listings activity, and derivatives usage. Exchanges are usually high‑margin, cash‑generative businesses with network effects. However, the specific valuation snapshot from Simply Wall St suggests the OTC‑traded T...
+Catalyst: Soft, structural catalyst only: continued global interest in exchanges and market‑infrastructure names as beneficiaries of sustained trading activity and volatility. No fresh earnings, guidance, major corporate action, or regulatory news was provided in the search results.
+Entry: No entry for now. This is a watch‑only candidate. If it were to evolve into a trade, a more robust setup would require: (a) confirmation of reasonable valuation versus earnings and cash flow on the primary listing, (b) evidence of sustained uptrend (higher...
+Exit: Not applicable; no position is being simulated. For future reference, a typical swing‑style framework would consider: (1) trimming or exiting if price breaks below a recent swing low by ~7–10% on above‑average volume, or (2) taking profits into 10–20% stren...
+Risk/reward: As of now, the visible risk‑reward is not skewed enough toward reward: business quality appears solid, but the limited evidence points to a possibly stretched valuation, and there is no discrete, time‑bound catalyst to anchor a 1–10 day swing. The asymmetry...
+Bear/adversary: A skeptic would argue that without primary‑listing data, detailed financials, or a clear catalyst, recommending even a watch‑tier slot for an OTC line risks distraction from higher‑quality, better‑documented opportunities in your pipeline. They would also note that the valuation flag from Simply...
+Source quality: Evidence is narrow and comes primarily from a single third‑party valuation site (Simply Wall St) plus general sector knowledge about exchanges. There are no primary‑source filings, earnings releases, or high‑quality news articles in the provided snippet. Th...
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: The limited data suggests TMXX.F is trading above at least one estimated fair value (US$40.15 vs an estimated US$22.33). Without reconciling this with earnings, free cash flow, or peer multiples, the margin of safety appears weak. From a...
+Valuation: Based on the Simply Wall St snapshot, the stock screens as overvalued on their discounted cash flow or comparable‑based model. Without corroborating evidence from other fundamental sources or a clear justification (e.g., exceptional grow...
+Growth runway: Exchanges generally have multi‑year growth levers: product innovation (new derivatives, data services), listings growth (including international and tech), and potential consolidation. Over 30–180 days, the main drivers are likely to be...
+Balance-sheet risk: No balance‑sheet details are provided in the snippet. Historically, major exchanges tend to operate with manageable leverage and strong cash generation, but this assumption should be verified against recent filings be...
+Capital allocation: Absent explicit information on dividends, buybacks, or M&A discipline, it is not possible to make a detailed capital‑allocation assessment. Exchanges often return capital via dividends and buybacks, but the Chittick l...
+Concentration case: If eventually validated by better data, TMX Group could provide targeted exposure to a high‑quality market‑infrastructure franchise outside the US, diversifying away from the highly crowded US megacap tech complex and from broad ETFs. At...
+Owner thesis, 30-180 days: A 30–180 day owner‑style thesis would need: (1) confirmation that TMX trades at a reasonable multiple relative to earnings growth and cash flow, (2) visibility into durable drivers like listings growth, data/analytics revenue, and potential regulatory or st...
+Chittick reject reason: Insufficient primary‑source evidence on fundamentals and valuation, and a third‑party valuation snapshot that flags overvaluation versus fair value undermine the margin‑of‑safety requirement.
+Self-Learning Filter
+Catalyst type: structural
+Fresh catalyst: yes
+Repeat count, 48h: 2
+Diversity bucket: international-financial-infrastructure
+Research tier: watch
+Allocation learning: Kept at 0% allocation and watch‑only to avoid over‑trading on a soft sector theme without primary‑source validation, in line with repeated past rejections tied to weak evidence and valuation concerns.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.00
+Evidence rank: 0/100
+Memory similarity: 0.00
+Vetoes: none
+Model notes: Classified as watch‑tier due to sector quality but thin evidence and apparent valuation stretch. No execution language used.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://simplywall.st/stocks/us/diversified-financials/otc-tmxx.f/tmx-group/valuation
+
+2. LQDA (healthcare / biotechnology) | confidence 0.45 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier monitor-only | bucket speculative-healthcare | HF source 0/100 | HF veto
+Thesis: Liquidia is a small‑cap biotech with a recent insider purchase by a director‑level entity (Partners LP Caligan). Insider buying can signal confidence, but in the absence of fresh clinical, regulatory, or earnings catalysts, and given typical biotech binary‑risk and volatility, this is suitable for monitoring only and does not align well with the Chittick...
+Catalyst: Recent insider purchase (5,300 shares on 2026‑05‑19) indicates management or strategic shareholder confidence, but no near‑term clinical, regulatory, or commercial milestone was provided in the context.
+Entry: No entry; monitor only for now. Any future consideration would require well‑documented clinical or regulatory catalysts, improved visibility on cash runway, and confirmation that the risk‑reward is not dominated by a single binary event within the 1–10 day...
+Exit: Not applicable; no position is simulated.
+Risk/reward: Currently skewed toward risk: limited information, likely high volatility, and binary catalysts that may not align with the 1–10 day swing horizon.
+Bear/adversary: A critic would say this does not belong even on the monitor list given the strategy’s quality and margin‑of‑safety focus; the insider‑purchase signal is too weak and context‑free.
+Source quality: Information is derived from a secondary data aggregator summarizing insider transactions, not from primary filings or detailed research.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: No evidence of durable profitability or strong balance‑sheet protection was provided; typical small‑cap biotech risk profile implies low margin of safety.
+Valuation: Not enough data to assess; valuation is effectively opaque without earnings visibility.
+Growth runway: Biotech has long‑dated optionality but highly path‑dependent outcomes. Without clear near‑term milestones, the 30–180 day growth runway is speculative.
+Balance-sheet risk: Likely meaningful, given common biotech reliance on capital markets. No explicit cash or debt data were provided.
+Capital allocation: Not assessed; insufficient information.
+Concentration case: Does not merit concentration in a quality‑focused strategy; at most a speculative satellite in other frameworks, but not for this bot.
+Owner thesis, 30-180 days: An owner‑style thesis would require approved products, visible revenue growth, and a solid cash runway. These are not evidenced here.
+Chittick reject reason: Fails on margin of safety, business quality, and evidence depth.
+Self-Learning Filter
+Catalyst type: general
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: speculative-healthcare
+Research tier: monitor-only
+Allocation learning: Retained with 0% allocation to avoid the pattern of prior micro‑cap speculative rejections; serves as an example of how insider signals alone are insufficient.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.30
+Evidence rank: 0/100
+Memory similarity: 0.00
+Vetoes: micro_cap_speculation
+Model notes: Kept as monitor‑only due to typical biotech risk profile and thin catalyst description.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.quiverquant.com/news/Insider+Purchase:+Director+at+$LQDA+Buys+5,300+Shares
+
+3. BAH (industrials / government & defense consulting) | confidence 0.52 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier watch | bucket defensive-industrials | HF source 0/100
+Thesis: Booz Allen Hamilton is a large government and defense‑oriented consulting firm with relatively stable demand and visibility, but the provided context frames it mainly via an upcoming earnings preview and institutional‑flow statistics. Without fresh results or guidance in hand, it should be monitored rather than traded, especially given the strategy’s emph...
+Catalyst: Upcoming earnings (referenced as a Q4 2026 preview) and associated commentary on insider trading, hedge‑fund activity, and analyst targets, but no post‑earnings data or concrete surprises are given.
+Entry: No entry at this time. Monitor earnings results and post‑report price action; if the company delivers upside and the stock breaks out on strong volume with reasonable valuation, it can be reconsidered as a higher‑confidence candidate.
+Exit: Not applicable; no position is simulated.
+Risk/reward: Risk‑reward cannot be properly assessed without updated earnings, valuation, and technical data, so it is asymmetric in the wrong direction for a rules‑driven short‑term strategy.
+Bear/adversary: One could argue that BAH actually fits the quality and cash‑flow profile you want and that the lack of specific news in the current snippet should not prevent you from studying it more deeply. However, that is an argument for research, not for immediate trade candidacy.
+Source quality: Information is derived from a secondary news/analytics summary rather than primary filings or earnings transcripts.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Not assessable from the snippet. Historically, BAH’s valuation has tended to be moderate but not deeply discounted; until we have multiples versus peers and growth, we should not assume a margin of safety.
+Valuation: Unknown; the preview mentions a median analyst target (~$87) but not the current price or multiples, which is insufficient for a valuation call.
+Growth runway: 30–180 day drivers would likely include contract wins, budget trends, and any AI‑ or cyber‑related consulting expansion. These are not quantified here.
+Balance-sheet risk: Typically moderate for an established consulting firm, but not documented in the provided data.
+Capital allocation: No information on dividends, buybacks, or M&A in the snippet; cannot be evaluated.
+Concentration case: Could eventually provide diversified exposure away from megacap tech into stable government services, but current evidence is too thin to prioritize over better‑documented ideas.
+Owner thesis, 30-180 days: An owner‑style 30–180 day thesis would rely on visibility into backlog, margins, and capital returns; this would require going to primary filings and transcripts.
+Chittick reject reason: Insufficient recent, primary‑source evidence on valuation and catalysts; earnings preview alone is not enough to justify a near‑term trade.
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: defensive-industrials
+Research tier: watch
+Allocation learning: Shows how earnings previews alone are not enough for trade entry in this framework; reinforces requirement for post‑event evidence or explicit guidance shifts.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.10
+Evidence rank: 0/100
+Memory similarity: 0.00
+Vetoes: none
+Model notes: Treated as a quality research prospect rather than an execution candidate given lack of fresh, concrete data.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.quiverquant.com/news/BOOZ+ALLEN+HAMILTON+Q4+2026+Earnings+Preview:+Recent+$BAH+Insider+Trading,+Hedge+Fund+Activity,+and+More
 
