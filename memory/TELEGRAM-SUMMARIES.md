@@ -17627,4 +17627,46 @@ Model notes: Treated as a quality research prospect rather than an execution can
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: https://www.quiverquant.com/news/BOOZ+ALLEN+HAMILTON+Q4+2026+Earnings+Preview:+Recent+$BAH+Insider+Trading,+Hedge+Fund+Activity,+and+More
+## Research Update - 2026-05-21 21:53:20 Eastern Daylight Time
+
+Research Update
+
+Market tone: Selective tape: macro remains choppy and rate-sensitive, so only fresh, well-supported catalysts with quality backstops look viable. The strongest ideas today are from distinct buckets: a defense/industrial catalyst, a quality large-cap software name with a recent guidance/restructuring update, and a select semiconductor/memory trade only if momentum confirms.
+Candidates: 4
+
+1. INTU (information-technology / application-software-fintech) | confidence 0.74 | allocation 0.0% | stop 8.0% | Chittick 78/100 | tier monitor-only | bucket large-cap-software-fintech | HF source 1/100
+Recommendation: execute-if-guards-pass
+Catalyst: Recent company guidance update raised annual adjusted EPS outlook, alongside restructuring actions that can support near-term earnings leverage.
+Chittick Cash: Not cheap in absolute terms, but quality and recurring cash flow provide a valuation floor relative to lower-quality software names.
+HF filter: sentiment=positive fundamentals / low hype source=1/100 hype=0.12 vetoes=0
+Self-learning: tier=monitor-only repeat48h=2 fresh=yes bucket=large-cap-software-fintech
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. BAH (industrials / government & defense consulting) | confidence 0.61 | allocation 0.0% | stop 8.0% | Chittick 69/100 | tier watch | bucket defensive-industrials | HF source 1/100
+Recommendation: watch
+Catalyst: Upcoming earnings preview and associated commentary create a near-term information event; any upside guide or contract commentary can re-rate the stock.
+Chittick Cash: Not a deep value idea, but the defensive business mix offers better margin of safety than a more speculative cyclical.
+HF filter: sentiment=neutral to mildly positive source=1/100 hype=0.18 vetoes=0
+Self-learning: tier=watch repeat48h=1 fresh=yes bucket=defensive-industrials
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. MU (information-technology / semiconductors) | confidence 0.58 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier monitor-only | bucket semiconductors-memory | HF source 1/100
+Recommendation: watch
+Catalyst: Ongoing DRAM pricing improvement tied to AI server demand and market commentary around the memory upcycle.
+Chittick Cash: Limited margin of safety because this is a cyclical growth trade; only acceptable if momentum and pricing data remain favorable.
+HF filter: sentiment=positive but cyclical source=1/100 hype=0.24 vetoes=0
+Self-learning: tier=monitor-only repeat48h=4 fresh=yes bucket=semiconductors-memory
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+4. GOOGL (communication services / mega-cap internet-cloud) | confidence 0.41 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier monitor-only | bucket mega-cap-internet-cloud | HF source 0/100 | HF veto
+Recommendation: avoid
+Catalyst: No new hard catalyst in the provided sources; this is a quality baseline rather than a fresh event-driven swing.
+Chittick Cash: Strong business quality helps, but valuation and lack of catalyst limit current margin of safety for a short swing.
+HF filter: sentiment=neutral source=0/100 hype=0.06 vetoes=1
+Self-learning: tier=monitor-only repeat48h=13 fresh=yes bucket=mega-cap-internet-cloud
+Social buzz, low weight: none
+Congress signal, low weight: none
 
