@@ -17669,4 +17669,37 @@ HF filter: sentiment=neutral source=0/100 hype=0.06 vetoes=1
 Self-learning: tier=monitor-only repeat48h=13 fresh=yes bucket=mega-cap-internet-cloud
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-21 23:54:31 Eastern Daylight Time
+
+Research Update
+
+Market tone: No new live web data was available. I will lean on prior regime analysis: U.S. indices near highs, low-to-moderate index volatility but very high single-stock dispersion, and leadership concentrated in tech/semis. This favors selective, catalyst-driven stock picking with tight risk controls rather than broad aggressive risk-on exposure.
+Candidates: 3
+
+1. INTU (information-technology / application software & fintech) | confidence 0.71 | allocation 0.0% | stop 8.0% | Chittick 78/100 | tier monitor-only | bucket large-cap-software-fintech | HF source 1/100
+Recommendation: execute-if-guards-pass
+Catalyst: Recent company guidance update raised full-year adjusted EPS outlook and announced restructuring steps, which can boost near-term earnings leverage and investor sentiment as the market digests the improved outlook.
+Chittick Cash: On traditional Buffett/Munger terms, INTU is not a deep value play, but its strong moat, recurring revenue, and consistent cash generation provide a qualitative margin of safety. The raised guidance and restructuring...
+HF filter: sentiment=moderately_positive source=1/100 hype=0.33 vetoes=0
+Self-learning: tier=monitor-only repeat48h=3 fresh=yes bucket=large-cap-software-fintech
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. BAH (industrials / government & defense consulting) | confidence 0.63 | allocation 0.0% | stop 8.0% | Chittick 70/100 | tier watch | bucket defensive-industrials | HF source 1/100
+Recommendation: watch
+Catalyst: Earnings timing and related commentary on federal IT, cyber, and defense-contract pipelines. Positive guidance or notable contract wins/extensions could prompt a short-term re-rating, while any commentary on budget stability provides a f...
+Chittick Cash: BAH’s defensive, cash-generative business and government-backed demand offer a qualitative margin of safety, but the stock may not be deeply discounted. The margin of safety is more in business durability than in a wi...
+HF filter: sentiment=neutral_to_positive source=1/100 hype=0.20 vetoes=0
+Self-learning: tier=watch repeat48h=2 fresh=yes bucket=defensive-industrials
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. TMXX.F (financials / market infrastructure & exchanges) | confidence 0.57 | allocation 0.0% | stop 8.0% | Chittick 68/100 | tier watch | bucket international-financial-infrastructure | HF source 1/100
+Recommendation: watch
+Catalyst: Soft, structural catalyst: sustained global trading activity and volatility support higher transaction volumes and listings-related income for exchanges. While no single hard news event is identified, the regime of high single-stock disp...
+Chittick Cash: The margin of safety comes from the durable economics of exchange businesses and diversified revenue streams rather than a clearly cheap valuation. Structural tailwinds from capital-market activity and data monetizati...
+HF filter: sentiment=neutral source=1/100 hype=0.10 vetoes=0
+Self-learning: tier=watch repeat48h=2 fresh=yes bucket=international-financial-infrastructure
+Social buzz, low weight: none
+Congress signal, low weight: none
 

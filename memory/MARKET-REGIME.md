@@ -8201,4 +8201,175 @@ The US equity market is grinding to record highs, but the underlying conditions 
 ## Market Regime Research - 2026-05-21 21:53:20 Eastern Daylight Time
 
 {"summary":"The U.S. equity tape appears cautious-to-neutral, with signs of fatigue rather than outright risk-off panic. Higher rates/yield volatility are the main macro headwind, while geopolitical tensions and oil strength add inflation-growth uncertainty. That combination typically supports a more defensive, selective posture in a paper-trading workflow rather than broad risk-on exposure.","market_regime":{"label":"cautious / late-cycle / rate-sensitive","index_trend":"Major U.S. averages are described as mixed-to-lower with losses being pared, suggesting a pullback or consolidation after prior gains rather than a strong trend break.","rates_fed":"Yields are elevated and rate volatility is front and center; sources indicate markets are pricing a meaningful chance of further Fed tightening, which pressures duration-sensitive and high-multiple equities.","volatility":"Volatility is elevated by macro uncertainty (rates, oil, geopolitics), but the tone is more orderly repricing than panic. This is consistent with a choppy, headline-driven regime.","earnings_tone":"No broad earnings deterioration is evident in the provided sources; the market tone is being driven more by macro/rates than by a clear earnings recession signal.","risk_posture":"Slight risk-off / selective risk-on. Breadth and leadership appear vulnerable to macro shocks, so the regime favors caution, higher-quality names, and avoiding aggressive beta expansion."},"sector_rotation":{"defensive_bias":"Relative preference appears to be shifting toward quality, short-duration, and defensive balance-sheet characteristics.","under_pressure":"Long-duration growth, rate-sensitive sectors, and valuation-sensitive areas are likely pressured by rising yields and tighter financial conditions.","beneficiaries":"Energy and commodity-linked areas may benefit from higher oil, while financials may have mixed sensitivity depending on curve dynamics and credit concerns.","rotation_character":"Rotation seems driven by macro factors rather than stock-specific momentum; this usually produces uneven leadership and lower conviction across cyclicals and growth."},"risk_flags":["Rising Treasury yields and rate volatility can compress equity multiples, especially for long-duration growth.","Geopolitical escalation and oil strength can reintroduce inflation pressure and hurt risk appetite.","If Fed tightening expectations increase, liquidity conditions may worsen for equities broadly.","Market fatigue after strong prior gains raises the odds of shallow pullbacks and failed breakouts.","Choppy index behavior can increase false signals for momentum-based paper trades."],"source_urls":["https://fintech.tv/markets-showing-fatigue-amid-escalating-u-s-iran-tensions-and-rising-yields/","https://www.janushenderson.com/en-us/advisor/article/charting-a-course-for-short-duration-bonds-through-the-hormuz-inflation-shock/","https://www.ubs.com/global/en/wealthmanagement/insights/chief-investment-office/house-view/daily/2026/latest-21052026.html","https://markets.businessinsider.com/indices","https://kyret.ky.gov/About/Meeting-Calendar/Materials/May%2021%202026%20KRS%20Investment%20Committee%20Meeting%20Materials.pdf"]}
+## Market Regime Research - 2026-05-21 23:54:31 Eastern Daylight Time
+
+{
+  "summary": {
+    "tone": "cautious risk-on",
+    "description": "US equities are grinding higher near record levels with modest gains, low index volatility, and resilient earnings, but under a cloud of faster inflation, tight credit conditions, and geopolitical oil risk. The regime favors selective risk-taking rather than aggressive beta.",
+    "for_paper_trading_bot": "Environment is constructive but fragile. Treat this as a late-cycle, inflating, dispersion-heavy market where index trends are positive but macro and inflation shocks can quickly flip sentiment. Emphasize risk controls, diversification, and slower reaction speed."
+  },
+  "market_regime": {
+    "index_trend": {
+      "state": "uptrend_near_highs",
+      "evidence": [
+        "S&P 500 is up ~8.8% YTD and \"inched closer to its all-time high set last week\" with a 0.2% gain on Thursday. (Source [4])",
+        "Dow up ~4.6% YTD, Nasdaq up ~13.1% YTD, Russell 2000 up ~14.6% YTD, all positive on the week. (Source [4])",
+        "Global indices also positive, with the Global Dow and Dow Jones showing gains on the session. (Source [3])"
+      ],
+      "interpretation": "Trend is firmly upward across major US indices, consistent with a bullish or at least constructive equity regime. The proximity to all-time highs suggests trend-following behavior is still being rewarded, but drawdown risk from elevated levels is non-trivial.",
+      "regime_label": "bullish_trend_with_late_cycle_characteristics"
+    },
+    "rates_and_fed": {
+      "state": "elevated_rates_with_inflation_shock_concerns",
+      "evidence": [
+        "Janus Henderson notes a \"Hormuz inflation shock\" with inflation rising globally and implies central banks, including the Fed, are likely on hold through 2026 in the absence of severe growth weakness. (Source [8])",
+        "\"With interest rates having risen since early March, especially along the front end of yield curves, investors can now be compensated for maintaining low duration exposure\" and should concentrate duration in regions like the US where policy is likely to stay on hold. (Source [8])",
+        "EXANTE commentary highlights markets debating whether they will correct for faster inflation, indicating inflation is running hotter than prior expectations. (Source [1])"
+      ],
+      "interpretation": "The policy backdrop looks like a 'higher for longer' or at least 'on hold' environment amid upside inflation surprises. Short-end yields have reset higher, and markets are not priced for imminent cuts. This supports equity risk to an extent but raises vulnerability to any further inflation upside or growth downside surprises.",
+      "regime_label": "high_rate_inflation_watch",
+      "fed_bias": "on_hold_or_hawkish",
+      "bond_market_implications": "Short-duration yields attractive; limited incentive for aggressive duration extension until inflation visibility improves."
+    },
+    "volatility": {
+      "state": "suppressed_index_volatility_with_high_single_stock_dispersion",
+      "evidence": [
+        "CME: \"implied volatility across major indices contracted significantly, with Nasdaq-100 implied volatility dropping to 18%.\" (Source [2])",
+        "Investing.com analysis: \"Index-level volatility has hardly moved over the past few weeks, while single-stock volatility remains incredibly high… that has left market dispersion very [elevated].\" (Source [6])"
+      ],
+      "interpretation": "Index vol is low to moderate, indicating calm surface conditions. Beneath that, single-name moves are large, driven by earnings and idiosyncratic factors. This is classic late-cycle, dispersion-heavy regime: index exposures look stable, but stock-picking risk is high.",
+      "regime_label": "low_index_vol_high_dispersion",
+      "paper_trading_implication": "Simulated strategies should explicitly model gap risk at the single-stock level even if index-level risk metrics appear benign."
+    },
+    "earnings_tone": {
+      "state": "constructive_but_concentrated",
+      "evidence": [
+        "CME: Equity futures flat as investors digested corporate earnings and shifted focus to macro data; no signs of an earnings shock, suggesting broadly in-line to supportive results. (Source [2])",
+        "Nvidia’s upcoming/just-reported earnings are framed by Investing.com as a potential turning point for the S&P 500 and broader market, highlighting outsized influence of mega-cap tech. (Source [6])",
+        "EXANTE notes European semiconductor stocks advancing ahead of Nvidia’s earnings, signaling positive expectations for the chip and AI complex. (Source [1])"
+      ],
+      "interpretation": "Earnings season is being absorbed without broad downside surprises. Market leadership is heavily concentrated in mega-cap tech/semis, so earnings surprises from a handful of names can disproportionately move indices. Market is sensitive to AI/semiconductor earnings narrative.",
+      "regime_label": "earnings_supportive_with_megacap_dependence"
+    },
+    "risk_on_off": {
+      "state": "moderate_risk_on",
+      "evidence": [
+        "Broad equity strength across S&P 500, Dow, Nasdaq, and Russell 2000 with positive weekly and YTD returns. Small caps (Russell 2000) outperform YTD, typically a risk-on sign. (Source [4])",
+        "CME: Equity futures flat but holding near highs despite contraction in the Philly Fed manufacturing index, suggesting investors are leaning into resilience in consumer data rather than de-risking on weaker manufacturing. (Source [2])",
+        "Janus Henderson: Investors have \"largely shrugged\" rising inflation, as evidenced by equity indices at record highs and tight corporate bond spreads. (Source [8])"
+      ],
+      "interpretation": "Positioning and price action align with a risk-on stance, but it is a cautious risk-on rather than euphoria. Macro risks are recognized but not yet priced as dominant. Investors are prioritizing earnings strength and consumer resilience over manufacturing weakness and inflation shocks.",
+      "regime_label": "cautious_risk_on"
+    }
+  },
+  "sector_rotation": {
+    "leadership": {
+      "leading_sectors": [
+        "technology",
+        "semiconductors",
+        "growth_and_AI_exposed_names",
+        "small_caps"
+      ],
+      "evidence": [
+        "EXANTE: \"Technology outperformed, with European semiconductor stocks advancing ahead of Nvidia's earnings.\" (Source [1])",
+        "Investing.com: Nvidia earnings are seen as a potential turning point for the S&P 500, underscoring the centrality of AI and semiconductor plays. (Source [6])",
+        "Russell 2000 up 14.6% YTD vs S&P 500 up 8.8%, indicating renewed interest in smaller companies, which often correlates with risk-on phases. (Source [4])"
+      ],
+      "interpretation": "Growth, tech, and AI-linked semiconductors are key performance drivers. Small-cap outperformance suggests some broadening of the rally beyond mega-cap only, though the narrative is still anchored in tech and AI earnings."
+    },
+    "laggards_or_defensives": {
+      "defensive_behavior": [
+        "Utilities, staples, and traditional defensives are not highlighted as leaders in current reporting, consistent with a pro-cyclical tilt.",
+        "Bond yields have risen at the front end, which typically pressures high-dividend defensives and bond-proxy sectors. (Source [8])"
+      ],
+      "interpretation": "The absence of defensive leadership in the cited updates suggests investors are not in a pronounced flight to safety. Rotation is toward cyclicals/growth rather than defensive havens, consistent with a still-positive growth and risk sentiment."
+    },
+    "macro_sensitivities": {
+      "energy_and_commodities": {
+        "evidence": [
+          "Oil prices are volatile due to uncertainty around the Iran war; Brent fell from $109 to below $103 in a single session, easing bond yields and helping equities. (Source [4])",
+          "Janus Henderson highlights commodity-based inflation risk, particularly tied to the Hormuz shock, as a key variable for regional positioning. (Source [8])"
+        ],
+        "interpretation": "Energy is a key macro swing factor. Falling oil has recently supported equity and bond markets, but the path is politically/geopolitically driven and can reverse quickly. Sector rotation could whipsaw between energy and oil-sensitive consumers/industrials."
+      },
+      "rate_sensitives": {
+        "evidence": [
+          "Higher front-end rates encourage investors to prefer short-duration bonds over long duration, indirectly pressuring long-duration equities (e.g., unprofitable tech, high-dividend bond proxies). (Source [8])"
+        ],
+        "interpretation": "Within equities, there is likely a preference for profitable growth and quality over speculative, long-duration names. Rate-sensitive defensives may lag while quality tech and cyclicals with earnings visibility lead."
+      }
+    }
+  },
+  "risk_flags": {
+    "macro_and_policy": {
+      "inflation_shock": {
+        "risk_level": "high",
+        "details": "The Hormuz inflation shock and elevated commodity prices are pressuring global inflation. Markets are currently 'shrugging' this, but sustained or renewed spikes in energy prices could force more hawkish policy or damage growth. (Source [8])",
+        "implication_for_paper_trading": "Simulate scenarios where inflation data or commodity moves cause abrupt repricing in rates and equities, especially in rate-sensitive and consumer sectors."
+      },
+      "growth_divergence": {
+        "risk_level": "medium",
+        "details": "CME notes resilient consumer card spending (~+5% YoY) but a sharp drop in the Philly Fed manufacturing index from 26.7 to -0.4, signaling sectoral divergence. (Source [2])",
+        "implication_for_paper_trading": "Consider stress tests where manufacturing weakness spreads to broader earnings or where consumer resilience fades, impacting cyclicals and small caps."
+      },
+      "policy_path_uncertainty": {
+        "risk_level": "medium_high",
+        "details": "With short-end yields already higher and inflation elevated, central banks have limited flexibility. A negative growth shock could force a difficult trade-off, increasing tail risk for both bonds and equities. (Source [8])",
+        "implication_for_paper_trading": "Model regime shifts between 'higher for longer' and 'growth scare' environments, and monitor how index correlations and volatility dynamics change in those shifts."
+      }
+    },
+    "market_microstructure_and_positioning": {
+      "index_vs_single_name_risk": {
+        "risk_level": "high",
+        "details": "Index volatility is subdued while single-stock volatility is \"incredibly high\" with very high dispersion. (Source [6])",
+        "implication_for_paper_trading": "Backtests that only calibrate to index-level volatility will underestimate risk. Simulate gaps and outsized moves in individual names, especially during earnings and around major AI/semiconductor news."
+      },
+      "options_and_vol_structure": {
+        "risk_level": "medium",
+        "details": "CME reports significant call activity in E-mini S&P 500 and contracted implied volatility in the Nasdaq-100 (down to ~18). (Source [2])",
+        "interpretation": "This suggests either optimistic positioning or overwriting strategies during a low-vol environment. Sudden negative news could trigger a fast vol spike and delta-hedging flows.",
+        "implication_for_paper_trading": "In simulation, be prepared for volatility expansion from compressed levels; do not assume current low index vol is stable or persistent."
+      },
+      "concentration_risk": {
+        "risk_level": "medium_high",
+        "details": "Market leadership and sentiment are disproportionately influenced by mega-cap tech, especially Nvidia and semiconductors. (Sources [1], [6])",
+        "implication_for_paper_trading": "Given your existing risk rules (e.g., 15% single-stock cap, avoidance of leverage/banned instruments), treat concentration risk as a key constraint. Stress test outcomes where a small number of mega-caps underperform sharply while the broader index only moderately corrects."
+      }
+    },
+    "geopolitical_and_commodity": {
+      "oil_and_middle_east": {
+        "risk_level": "high",
+        "details": "Oil prices are \"swinging with uncertainty about what will happen with the Iran war\" and are central to both inflation and risk sentiment. (Source [4])",
+        "implication_for_paper_trading": "Model correlated shocks across energy, airlines, transports, and consumer discretionary. Be cautious in interpreting short-term relief from falling oil as a stable trend."
+      }
+    },
+    "model_specific_cautions_for_cautious_paper_trading": {
+      "late_cycle_dynamics": {
+        "description": "Price action (near-record highs, positive YTD, tight credit spreads) combined with elevated inflation and high rates is consistent with a late-cycle environment. (Sources [4], [8])",
+        "risk_level": "medium_high",
+        "implication": [
+          "Expect more frequent narrative shifts between 'soft landing' and 'recession risk,' with associated rotations between cyclicals/growth and defensives.",
+          "Simulate drawdowns from all-time highs driven by macro surprise rather than just earnings misses."
+        ]
+      },
+      "execution_and_overtrading": {
+        "description": "Your log shows many rejected trades due to single-stock caps, banned instruments, and position limits, indicating a rule-heavy, cautious framework.",
+        "risk_level": "process",
+        "implication": [
+          "In this environment of high dispersion and frequent microcatalysts, a strict rule set helps avoid tail risk but can cause opportunity loss and apparent under-trading.",
+          "For paper trading, track not just realized P&L but also 'missed exposure' to leading sectors (tech, semis, small caps) to evaluate whether constraints are overly binding."
+        ]
+      }
+    }
+  },
+  "source_urls": [
+    "https://www.barchart.com/story/news/2072781/how-major-us-stock-indexes-fared-thursday-5-21-2026",
+    "https://markets.businessinsider.com/indices",
+    "https://www.cmegroup.com/videos/2026/05/21/equity-futures-held-flat-as-manufacturing-data-contracted-5-21-.html",
+    "https://www.janushenderson.com/en-us/advisor/article/charting-a-course-for-short-duration-bonds-through-the-hormuz-inflation-shock/",
+    "https://exante.eu/press/market-updates/3047-will-markets-correct-for-faster-inflation/",
+    "https://www.investing.com/analysis/nvidia-earnings-mark-potential-turning-point-for-the-sp-500-and-stock-market-200680677"
+  ]
+}
 
