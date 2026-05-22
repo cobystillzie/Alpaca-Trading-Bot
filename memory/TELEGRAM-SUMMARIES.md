@@ -18750,4 +18750,125 @@ Model notes: Previously tagged as a watch with a soft structural catalyst; kept 
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: https://www.tmx.com/, https://www.tmx.com/investor-relations, https://www.cmegroup.com/videos/2026/05/21/equity-futures-held-flat-as-manufacturing-data-contracted-5-21-.html
+## Weekly Memo - 2026-05-22 17:24:04 Eastern Daylight Time
+
+Weekly Strategy Review Memo
+
+Recommendation: Self-learning policy updated. Friday automation may apply safe code/prompt edits only after tests pass and Telegram disclosure succeeds.
+
+Market Regime
+{ "status": "provider-blocked", "blocked_reason": "Perplexity returned 401 insufficient_quota, so no live Sonar weekly analysis was run.", "concise_lessons": [ "Weekly review should preserve the hard upstream stop instead of retrying or fabricating live research.", "Use repo memory for this blocked review and label it clearly as provider-blocked.", "Repeated symbols in the latest memory window: INTU x4, BAH x3, MU x3, TMXX.F x3.", "Overused diversity buckets in the latest memory window: other x4, financials x3, industrials-power x3, semiconductors-ai x3.", "Recent rejection history still needs to keep hard-ban, low-weight-only, allocation-blocked, and max-position-blocked ideas out of tradeable lanes." ], "rejected_patterns": [ "BAH: hard_banned", "ET: hard_banned", "INTU: hard_banned", "KO: hard_banned", "MU: hard_banned", "SGN: hype_or_repeat_filter, low_weight_signal", "TMXX.F: har...
+
+Top Candidates
+
+1. INTU (information-technology / application software & fintech) | confidence 0.71 | allocation 0.0% | stop 8.0% | Chittick 78/100 | tier monitor-only | bucket large-cap-software-fintech | HF source 1/100
+Thesis: Intuit is a high-quality software/fintech platform (TurboTax, QuickBooks, Credit Karma, Mailchimp) with recurring revenue, strong competitive moats in tax and small-business accounting, and long-term structural tailwinds from digitization of finance. Recently raised EPS guidance and restructuring actions create a near-term catalyst that can support a 1–10...
+Catalyst: Recent company guidance update raised full-year adjusted EPS outlook and announced restructuring steps, which can boost near-term earnings leverage and investor sentiment as the market digests the improved outlook.
+Entry: Paper-trade entry via a staggered approach: aim to enter on a modest intraday pullback of ~1–2% from the prior close or after a shallow consolidation day following the guidance-related move. Avoid chasing large opening gaps; prefer entering during the first...
+Exit: For a 5-day swing horizon, target a 6–10% upside depending on how price reacts to the guidance: take partial profits around +6% and trail a stop on the remainder under short-term support or around breakeven. Invalidation if the stock closes below the recent...
+Risk/reward: If the raised guidance continues to be repriced favorably, a mid-single- to low-double-digit percent upside over a 1–10 day window is plausible versus an ~8% downside if the market fades the news. This is an asymmetric but not extreme setup, hinging on exec...
+Bear/adversary: The strongest objection is that the stock may already fully price in the raised guidance, leaving little incremental upside over a 1–10 day window, while downside remains if macro or sector sentiment turns risk-off. Without real-time price confirmation, this could be buying the top of a post-news...
+Source quality: Evidence is primarily from company guidance updates and mainstream financial news commentary on the raised EPS outlook and restructuring actions, which are generally reliable. However, lack of live quotes and detailed post-event trading data reduces precisi...
+Chittick Cash Filter
+Score: 78/100
+Margin of safety: On traditional Buffett/Munger terms, INTU is not a deep value play, but its strong moat, recurring revenue, and consistent cash generation provide a qualitative margin of safety. The raised guidance and restructuring may slightly improve...
+Valuation: Valuation is likely at a premium to the market and in line with high-quality software peers. The improved EPS outlook offers some justification for that premium, but multiple expansion is not guaranteed. The short-term trade thesis leans...
+Growth runway: Over 30–180 days and beyond, growth drivers include continued penetration of cloud-based accounting among SMBs, expansion of tax and compliance services, cross-selling across TurboTax, QuickBooks, and Mailchimp, and potential new fintech...
+Balance-sheet risk: Balance sheet is generally strong with significant cash flows and manageable debt. There is no evidence of acute refinancing or dilution risk. Cyclicality is moderate: SMB sensitivity to macro conditions is a risk, bu...
+Capital allocation: Management has a history of reinvesting in product and platform acquisitions while returning capital via buybacks. The recent restructuring suggests a focus on efficiency and margin leverage. Capital allocation discip...
+Concentration case: INTU offers targeted exposure to sticky, high-margin software/fintech cash flows not easily replicated via broad ETFs. For a concentrated-quality lens, it can be more attractive than a generic software ETF because of its combination of m...
+Owner thesis, 30-180 days: A 30–180 day review or hold would be justified if integration of recent acquisitions proceeds smoothly, EPS upgrades are followed by further positive revisions, and the company executes on AI-enhanced products and SMB ecosystem expansion. In that case, a lo...
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 4
+Diversity bucket: large-cap-software-fintech
+Research tier: monitor-only
+Allocation learning: Previously constrained by v1 monitoring status; treat this as a test of upgrading a monitor-quality name into small-to-moderate paper allocation when a concrete guidance catalyst is present and rules permit. Recent rejection hit a hard v...
+Hugging Face Filter
+Sentiment: moderately_positive (0.66), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.33
+Evidence rank: 1/100
+Memory similarity: 0.60
+Vetoes: none
+Model notes: Previously evaluated as high-quality with a clear EPS-guidance catalyst; no v1 bans on the underlying; prior rejections were process-related (monitor-only flag) rather than fundamental.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.intuit.com/company/investors/, https://www.nasdaq.com/market-activity/stocks/intu, https://www.cmegroup.com/videos/2026/05/21/equity-futures-held-flat-as-manufacturing-data-contracted-5-21-.html
+
+2. BAH (industrials / government & defense consulting) | confidence 0.63 | allocation 0.0% | stop 8.0% | Chittick 70/100 | tier monitor-only | bucket defensive-industrials | HF source 1/100
+Thesis: Booz Allen Hamilton is a high-quality government and defense consulting firm with stable cash flows, long-term contracts, and exposure to defense, intelligence, and digital transformation spending. An upcoming or recent earnings/contract commentary window offers a near-term information event that can drive a modest 1–10 day swing, with a defensive 30–180...
+Catalyst: Earnings timing and related commentary on federal IT, cyber, and defense-contract pipelines. Positive guidance or notable contract wins/extensions could prompt a short-term re-rating, while any commentary on budget stability provides a floor for sentiment.
+Entry: Consider a paper entry near recent support or on a modest earnings-related overreaction. If earnings/guidance are solid and the stock initially dips on headline noise, buy into that weakness provided price holds above key prior support levels. Avoid enterin...
+Exit: For a 5–7 day swing, aim for a 4–7% upside move; take profits progressively if price grinds higher with low volatility. Invalidate the trade if the stock closes ~7–8% below entry or loses key post-earnings support on above-average volume, suggesting a funda...
+Risk/reward: BAH offers a relatively lower-volatility, modest-upside trade: limited but steady potential gains versus a controlled downside if support fails. This is more of a ‘defensive carry’ swing than a high-velocity momentum play.
+Bear/adversary: The main objection is that BAH may simply trade sideways around earnings, offering little short-term movement, while tying up allocation that could be better used in higher-momentum names. Additionally, any negative commentary on government budget constraints or cost pressures could cause a down-...
+Source quality: Catalyst information is derived from scheduled earnings commentary and reputable financial-news and broker preview reports. While not as hard as a completed earnings beat, the upcoming-event nature is clear and based on standard corporate disclosure cycles.
+Chittick Cash Filter
+Score: 70/100
+Margin of safety: BAH’s defensive, cash-generative business and government-backed demand offer a qualitative margin of safety, but the stock may not be deeply discounted. The margin of safety is more in business durability than in a wide valuation gap.
+Valuation: Government and defense services often trade at reasonable but not cheap multiples relative to earnings and cash flow. Without live multiples, valuation is assumed fair-to-full; upside is likely driven by incremental contract/guidance new...
+Growth runway: Over 30–180 days, secular growth drivers include rising cyber, analytics, and digital modernization spending across defense and intelligence agencies, along with potential incremental allocations tied to geopolitical concerns and moderni...
+Balance-sheet risk: BAH generally has manageable leverage supported by stable cash flows. There is no evidence of acute refinancing risk or heavy dilution needs. The main risk is policy/budget rather than balance-sheet instability.
+Capital allocation: Management has historically balanced dividends and buybacks with continued investment in people and capabilities. Capital allocation appears conservative and aligned with long-term contract and relationship building r...
+Concentration case: BAH provides focused exposure to U.S. government and defense consulting, a niche not well isolated in broad ETFs. For a concentrated-quality barbell against tech exposure, BAH can offer diversification and stability.
+Owner thesis, 30-180 days: A 30–180 day holder might stay invested through budget cycles, focusing on contract wins, book-to-bill ratios, and pipeline commentary. Continued strength in cyber/IT modernization contracts and a stable U.S. budget environment would justify owner-style hol...
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 3
+Diversity bucket: defensive-industrials
+Research tier: monitor-only
+Allocation learning: Use as a case study for when to deploy defensive swing trades during periods of high single-stock dispersion in tech; may help evaluate regime-based tilts in the paper strategy. Recent rejection hit a hard v1 ban pattern; keep this as mo...
+Hugging Face Filter
+Sentiment: neutral_to_positive (0.58), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.20
+Evidence rank: 1/100
+Memory similarity: 0.40
+Vetoes: none
+Model notes: Previously scored as a watch with a soft earnings catalyst; considered here as a lower-beta counterweight to tech-oriented exposure.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.boozallen.com/investors.html, https://www.barchart.com/story/news/2072781/how-major-us-stock-indexes-fared-thursday-5-21-2026
+
+3. TMXX.F (financials / market infrastructure & exchanges) | confidence 0.57 | allocation 0.0% | stop 8.0% | Chittick 68/100 | tier monitor-only | bucket international-financial-infrastructure | HF source 1/100
+Thesis: TMX Group (TMXX.F in Frankfurt) operates the Toronto Stock Exchange and related market infrastructure, benefiting from trading activity, listings, and derivatives volume. In an environment of elevated single-stock volatility and ongoing interest in exchanges globally, TMX offers a structural-quality play with potential for modest near-term movement tied t...
+Catalyst: Soft, structural catalyst: sustained global trading activity and volatility support higher transaction volumes and listings-related income for exchanges. While no single hard news event is identified, the regime of high single-stock dispersion and active capital markets benefits exchange operators.
+Entry: Given the softer catalyst and foreign listing, treat TMXX.F as monitor-first. If adding a very small tranche, consider entering on a calm day when spreads are tight and price is near recent support. Avoid chasing illiquid intraday moves; use limit orders in...
+Exit: For a 7–10 day horizon, target a modest 3–6% move tied to volume/volatility trends. Consider exiting sooner if spreads widen or if there is evidence of declining market activity. Invalidate if the stock declines ~8% from entry or breaks key recent support w...
+Risk/reward: Risk/reward is more muted: limited upside from the structural theme over a short horizon versus controlled downside if volatility collapses. The main value is as a testbed for exchange-exposure in the research framework, not as a primary swing engine.
+Bear/adversary: The strongest objection is that without a specific hard catalyst or fresh earnings, TMXX.F is a structural story better suited to a longer holding period. The short-term 1–10 day swing potential may be too small relative to execution and liquidity risks, making it an inefficient use of active risk.
+Source quality: Evidence is based on general industry structure (exchanges as beneficiaries of volatility and trading) and prior research context, not on a discrete news event. This is weaker than an explicit earnings or guidance catalyst, so conviction is lower and I trea...
+Chittick Cash Filter
+Score: 68/100
+Margin of safety: The margin of safety comes from the durable economics of exchange businesses and diversified revenue streams rather than a clearly cheap valuation. Structural tailwinds from capital-market activity and data monetization add protection, b...
+Valuation: Exchanges often trade at premium multiples due to high margins and network effects. Without live valuation metrics, I assume TMX is priced fairly to slightly richly. The short-term trade case is not valuation-driven but exposure-driven.
+Growth runway: Over 30–180 days and longer, growth is driven by increased equity and ETF listings, derivatives growth, data and analytics products, and potential M&A or partnerships in market infrastructure. Canada’s resource and financial sectors prov...
+Balance-sheet risk: Exchanges typically have conservative balance sheets with strong cash flow. TMX is unlikely to face acute balance-sheet stress; regulatory and operational risk are more relevant than leverage.
+Capital allocation: Management of exchange operators often returns capital through dividends and buybacks while investing in technology and new product lines. TMX’s capital allocation should be monitored via filings and investor presenta...
+Concentration case: TMXX.F offers concentrated exposure to Canadian market infrastructure, distinct from U.S.-centric tech or broad ETFs. It diversifies sector and geography, aligning with the discovery and diversification goals of the framework.
+Owner thesis, 30-180 days: A 30–180 day owner might hold TMX through multiple volatility regimes, focusing on trend in volumes, new product launches, and regulatory developments. The thesis is to compound steadily with market infrastructure economics rather than chase swings.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: structural
+Fresh catalyst: yes
+Repeat count, 48h: 3
+Diversity bucket: international-financial-infrastructure
+Research tier: monitor-only
+Allocation learning: Use TMXX.F as a low-stakes monitor to refine how structural, non-event catalysts are handled in the Chittick Cash lens and in diversification across geographies. Recent rejection hit a hard v1 ban pattern; keep this as monitor-only learn...
+Hugging Face Filter
+Sentiment: neutral (0.55), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.10
+Evidence rank: 1/100
+Memory similarity: 0.30
+Vetoes: none
+Model notes: Previously tagged as a watch with a soft structural catalyst; kept as a diversification and quality infrastructure example rather than a primary execution candidate.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.tmx.com/, https://www.tmx.com/investor-relations, https://www.cmegroup.com/videos/2026/05/21/equity-futures-held-flat-as-manufacturing-data-contracted-5-21-.html
 

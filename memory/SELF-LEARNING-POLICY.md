@@ -13,66 +13,51 @@ This policy is updated by the weekly review and must be read by research, premar
 
 ## Current Weekly Findings
 
-- Repeated symbols in recent watchlist: GLD x7, LMT x5, UNP x4, COIN x3.
-- Current candidate diversity buckets: consumer-discretionary-ETF, consumer-staples-defensive.
-- Overused recent diversity buckets: industrials-power x11, broad-market-etf x10, other x5, healthcare-biotech x4, financials x3.
+- Repeated symbols in recent watchlist: INTU x4, BAH x3, MU x3, TMXX.F x3.
+- Current candidate diversity buckets: defensive-industrials, international-financial-infrastructure, large-cap-software-fintech.
+- Overused recent diversity buckets: other x4, financials x3, industrials-power x3, semiconductors-ai x3.
 - Weekly review must disclose any code or prompt edits through Telegram before commit/push.
 
 ## Latest Review Input
 
 {
-  "lessons": {
-    "1_stale_repetition": {
-      "observation": [
-        "SCHD appears ~20+ times with minimal new catalysts.",
-        "UNP, GLD, INTC, SQ, FPS, VRT recur frequently within a few days, often with nearly identical notes.",
-        "Daily tables are cluttered with high-Repeat names that are already allocation‑blocked or previously rejected."
-      ],
-      "takeaway": "The engine is over-surfacing the same tickers and catalysts, reducing marginal research value and masking genuinely new ideas.",
-      "action_summary": [
-        "Introduce a hard cool‑down window by ticker after N repeats.",
-        "Down‑rank or hide stale names unless there is a clearly new, tagged catalyst.",
-        "Separate a ‘rolling coverage watchlist’ from ‘new daily candidates’ so recurring coverage does not dominate daily output."
-      ]
-    },
-    "2_allocation_and_guardrail_conflicts": {
-      "observation": [
-        "Many rejected trades (SPMO, GOOGL, NVDA, GLD, COIN, LMT, AEP, ROP, ORCL) fail guardrails (15% max single stock, max positions, v1 bans, low‑weight social/congress).",
-        "Despite repeated guardrail failures, the same names keep appearing as ‘execution-ready’ or ‘watch’, then get blocked again at the trade gate."
-      ],
-      "takeaway": "Idea generation is not sufficiently conditioned on portfolio/guardrail state, causing wasted work and repetitive rejections.",
-      "action_summary": [
-        "Apply allocation/guardrail filters earlier in the pipeline before an idea is promoted to ‘execution-ready’.",
-        "If a ticker is repeatedly blocked on structural rules (e.g., max allocation, v1 ban), treat it as ‘allocation-blocked’ and suppress further execution-ready flags until conditions change.",
-        "Log and use rejection reasons as negative training signals for future candidate scoring."
-      ]
-    },
-    "3_sector_and_theme_concentration": {
-      "observation": [
-        "Heavy clustering in semiconductors/AI (NVDA, INTC, PDFS, FPS, VRT, FLEX) and AI-infrastructure themes.",
-        "Defensive ETFs and utilities (SCHD, SPUS, GLD, AEP, DFAT, FBND, XRT, WMT, COST) are often re-used as ‘diversification’ but repeat frequently.",
-        "Some sectors (e.g., consumer discretionary ex-retail, emerging markets, small-cap quality, non-U.S. developed markets) are underrepresented."
-      ],
-      "takeaway": "Diversity is improving but still dominated by a few thematic clusters, causing correlation risk in hypothetical portfolios.",
-      "action_summary": [
-        "Explicitly track sector, factor, and theme exposure in candidate generation.",
-        "Attach a diversification score to each candidate and down‑rank names that exacerbate existing concentration unless the catalyst is exceptional.",
-        "Require some minimum representation of underexposed sectors/factors in daily research."
-      ]
-    },
-    "4_daily_output_quality": {
-      "observation": [
-        "Many entries provide partially duplicated catalyst blurbs (GLD’s India duty hike is repeated with slightly different wording 8+ times).",
-        "‘Fresh’ is sometimes marked yes even when there is no genuinely new information (e.g., UNP repeating the same grain-transport note).",
-        "A few high-signal items (UNH, HUMA, AEP, WMT/COST set, DFAT/FBND) appear, but they are buried among repeated AI/GLD/SCHD items."
-      ],
-      "takeaway": "The signal-to-noise ratio of daily candidate tables is lower than it could be; ‘freshness’ is not strictly enforced.",
-      "action_summary": [
-        "Redefine ‘Fresh’ to require new event types or materially new data (e.g., new filing, rating change, guidance, macro/policy move), not just rephrasing.",
-        "Cap repeated mention of the same catalyst over a short lookback window.",
-        "Promote a concise ‘top 3–5 new ideas’ section separate from the rolling watchlist."
-      ]
-    },
-    "5_hugging_face_filters_and_social_congress_signals": {
-      "observation": [
-        "HF Source and HF 
+  "status": "provider-blocked",
+  "blocked_reason": "Perplexity returned 401 insufficient_quota, so no live Sonar weekly analysis was run.",
+  "concise_lessons": [
+    "Weekly review should preserve the hard upstream stop instead of retrying or fabricating live research.",
+    "Use repo memory for this blocked review and label it clearly as provider-blocked.",
+    "Repeated symbols in the latest memory window: INTU x4, BAH x3, MU x3, TMXX.F x3.",
+    "Overused diversity buckets in the latest memory window: other x4, financials x3, industrials-power x3, semiconductors-ai x3.",
+    "Recent rejection history still needs to keep hard-ban, low-weight-only, allocation-blocked, and max-position-blocked ideas out of tradeable lanes."
+  ],
+  "rejected_patterns": [
+    "BAH: hard_banned",
+    "ET: hard_banned",
+    "INTU: hard_banned",
+    "KO: hard_banned",
+    "MU: hard_banned",
+    "SGN: hype_or_repeat_filter, low_weight_signal",
+    "TMXX.F: hard_banned"
+  ],
+  "strategy_proposals": [
+    "Keep the weekly review script from crashing on provider quota errors by writing a blocked review artifact from local memory.",
+    "Keep social buzz capped at 10% and congressional disclosures capped at 5%; no blocked-provider review may upgrade a trade from those signals.",
+    "Continue routing monitor-only and allocation-muted candidates to zero allocation until their blockers clear."
+  ],
+  "self_learning_directives": [
+    "Treat Perplexity insufficient_quota as a hard stop for live research and disclose the provider block in Telegram/memory.",
+    "When live review is blocked, summarize only deterministic repo-memory signals: repeats, diversity buckets, and rejection labels.",
+    "Do not run market-open execution as part of the Friday weekly review lane."
+  ],
+  "safe_code_prompt_routine_changes": [
+    "Add weekly-review quota fallback that records a provider-blocked review instead of failing before memory and Telegram reporting.",
+    "Preserve paper-only, stocks/ETFs-only, no-live-trading, no-options, no-crypto, no-margin, no-short-selling, and no-secrets guardrails."
+  ],
+  "signal_component_assessment": {
+    "chittick_cash": "Not re-evaluated live because provider quota blocked Sonar; retain existing local-memory policy.",
+    "hugging_face_filters": "Not re-evaluated live because provider quota blocked Sonar; retain downgrade/veto-only role.",
+    "social_buzz": "No live update; remains low-weight context only, capped at 10%.",
+    "congressional_disclosures": "No live update; remains delayed low-weight context only, capped at 5%."
+  },
+  "error": "POST https://api.perplexity.ai/chat/completions failed with 401: {\"error\":{\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information, visit https://www.perplexity.ai/settings/api.\",\"type\":\"insufficient_quota\",\"code\":401}}\n"
+}
