@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from contextlib import contextmanager
 from datetime import datetime, timedelta
+import json
 import os
 
 from .alpaca import AlpacaClient
@@ -18,7 +19,7 @@ from .memory import (
     today_trade_count,
     update_watchlist,
 )
-from .perplexity import run_sonar_research
+from .perplexity import PerplexityQuotaError, run_sonar_research
 from .performance import (
     build_performance_report,
     format_performance_report,
@@ -28,6 +29,9 @@ from .self_learning import (
     build_self_learning_policy,
     enrich_candidates_with_self_learning,
     finalize_self_learning_update,
+    recent_diversity_bucket_counts,
+    recent_rejection_labels_by_symbol,
+    recent_symbol_counts,
 )
 from .strategy import (
     congressional_prompt,
@@ -165,6 +169,59 @@ def _performance_summary(settings: Settings) -> str:
         managed_capital_usd=settings.managed_capital_usd,
     )
     return format_performance_summary(report)
+
+
+def _format_counts(counts: dict[str, int], *, minimum: int = 1, limit: int = 8) -> list[str]:
+    return [
+        f"{name} x{count}"
+        for name, count in sorted(counts.items(), key=lambda item: (-item[1], item[0]))
+        if count >= minimum
+    ][:limit]
+
+
+def _weekly_provider_blocked_review(settings: Settings, error: PerplexityQuotaError) -> str:
+    repeated_symbols = _format_counts(recent_symbol_counts(settings.root), minimum=3)
+    overused_buckets = _format_counts(recent_diversity_bucket_counts(settings.root), minimum=3)
+    rejection_labels = recent_rejection_labels_by_symbol(settings.root)
+    rejected_symbols = [
+        f"{symbol}: {', '.join(sorted(labels))}"
+        for symbol, labels in sorted(rejection_labels.items())
+    ][:10]
+    payload = {
+        "status": "provider-blocked",
+        "blocked_reason": "Perplexity returned 401 insufficient_quota, so no live Sonar weekly analysis was run.",
+        "concise_lessons": [
+            "Weekly review should preserve the hard upstream stop instead of retrying or fabricating live research.",
+            "Use repo memory for this blocked review and label it clearly as provider-blocked.",
+            f"Repeated symbols in the latest memory window: {', '.join(repeated_symbols) if repeated_symbols else 'none'}.",
+            f"Overused diversity buckets in the latest memory window: {', '.join(overused_buckets) if overused_buckets else 'none'}.",
+            "Recent rejection history still needs to keep hard-ban, low-weight-only, allocation-blocked, and max-position-blocked ideas out of tradeable lanes.",
+        ],
+        "rejected_patterns": rejected_symbols
+        or ["No recent rejected-symbol labels were available from repo memory."],
+        "strategy_proposals": [
+            "Keep the weekly review script from crashing on provider quota errors by writing a blocked review artifact from local memory.",
+            "Keep social buzz capped at 10% and congressional disclosures capped at 5%; no blocked-provider review may upgrade a trade from those signals.",
+            "Continue routing monitor-only and allocation-muted candidates to zero allocation until their blockers clear.",
+        ],
+        "self_learning_directives": [
+            "Treat Perplexity insufficient_quota as a hard stop for live research and disclose the provider block in Telegram/memory.",
+            "When live review is blocked, summarize only deterministic repo-memory signals: repeats, diversity buckets, and rejection labels.",
+            "Do not run market-open execution as part of the Friday weekly review lane.",
+        ],
+        "safe_code_prompt_routine_changes": [
+            "Add weekly-review quota fallback that records a provider-blocked review instead of failing before memory and Telegram reporting.",
+            "Preserve paper-only, stocks/ETFs-only, no-live-trading, no-options, no-crypto, no-margin, no-short-selling, and no-secrets guardrails.",
+        ],
+        "signal_component_assessment": {
+            "chittick_cash": "Not re-evaluated live because provider quota blocked Sonar; retain existing local-memory policy.",
+            "hugging_face_filters": "Not re-evaluated live because provider quota blocked Sonar; retain downgrade/veto-only role.",
+            "social_buzz": "No live update; remains low-weight context only, capped at 10%.",
+            "congressional_disclosures": "No live update; remains delayed low-weight context only, capped at 5%.",
+        },
+        "error": str(error)[:500],
+    }
+    return json.dumps(payload, indent=2)
 
 
 def _research_passes(settings: Settings, memory_bundle: str) -> dict[str, str]:
@@ -503,7 +560,10 @@ def run_weekly_review() -> int:
         "margin, shorting, crypto, live trading, secrets, or credential changes.\n\n"
         + memory_bundle
     )
-    review = run_sonar_research(settings, prompt)
+    try:
+        review = run_sonar_research(settings, prompt)
+    except PerplexityQuotaError as exc:
+        review = _weekly_provider_blocked_review(settings, exc)
     latest_candidates = enrich_candidates_with_self_learning(
         settings.root,
         load_latest_candidates(settings.root),

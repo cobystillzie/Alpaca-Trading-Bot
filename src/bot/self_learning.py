@@ -487,11 +487,11 @@ def finalize_self_learning_update(settings: Settings) -> int:
         f"pytest={pytest_result.returncode}, compileall={compile_result.returncode}"
     )
     behavior_changes = [
-        "Weekly review may update code/prompts/memory after reviewing failures.",
-        "Research scoring now applies repeat decay to high-repeat candidates even when a soft fresh catalyst is present.",
-        "Self-learning now downgrades extreme repeat loops such as SCHD/VYM-style rotation repeats to allocation-constrained or stale-watch status unless hard catalyst evidence exists.",
-        "Research prompts now require allocation-constrained language and fresh alternatives for names above repeat thresholds.",
-        "Recent rejection history now routes hard-banned and allocation-blocked ideas into monitor-only/allocation-muted lanes with zero allocation.",
+        "Weekly review now treats Perplexity insufficient_quota as a hard provider block instead of retrying blindly.",
+        "Provider-blocked weekly reviews now write a clearly labeled local-memory summary instead of crashing before memory and Telegram reporting.",
+        "Blocked weekly reviews summarize deterministic repo signals only: repeated symbols, overused diversity buckets, and recent rejection labels.",
+        "Perplexity quota exhaustion is surfaced as PerplexityQuotaError so weekly review can handle it without weakening paper-only guardrails.",
+        "No live trading, options, crypto, margin, short selling, secrets, or credential behavior was enabled or loosened.",
     ]
     preliminary = evaluate_self_learning_finalize(
         changed_files=changed_files,

@@ -1,5 +1,6 @@
 from bot.config import Settings
-from bot.perplexity import build_sonar_payload
+from bot.http_client import HttpClientError
+from bot.perplexity import PerplexityQuotaError, build_sonar_payload, run_sonar_research
 
 
 def settings() -> Settings:
@@ -42,3 +43,19 @@ def test_build_sonar_payload_uses_research_controls():
     assert payload["search_recency_filter"] == "day"
     assert payload["search_mode"] == "sec"
     assert payload["search_domain_filter"] == ["sec.gov", "investor.apple.com"]
+
+
+def test_run_sonar_research_raises_quota_error(monkeypatch):
+    def fail_request(*args, **kwargs):  # noqa: ARG001
+        raise HttpClientError(
+            'POST https://api.perplexity.ai/chat/completions failed with 401: {"error":{"code":"insufficient_quota"}}'
+        )
+
+    monkeypatch.setattr("bot.perplexity.request_json", fail_request)
+
+    try:
+        run_sonar_research(settings(), "weekly review")
+    except PerplexityQuotaError as exc:
+        assert "insufficient_quota" in str(exc)
+    else:
+        raise AssertionError("expected PerplexityQuotaError")

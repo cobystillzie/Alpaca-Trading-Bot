@@ -3,10 +3,20 @@ from __future__ import annotations
 from typing import Any
 
 from .config import Settings
+from .http_client import HttpClientError
 from .http_client import request_json
 
 
 PERPLEXITY_URL = "https://api.perplexity.ai/chat/completions"
+
+
+class PerplexityQuotaError(RuntimeError):
+    pass
+
+
+def _is_quota_error(exc: HttpClientError) -> bool:
+    text = str(exc).lower()
+    return "401" in text and ("insufficient_quota" in text or "exceeded your current quota" in text)
 
 
 def build_sonar_payload(
@@ -68,13 +78,18 @@ def run_sonar_research(
         search_context_size=search_context_size,
         model=model,
     )
-    data = request_json(
-        "POST",
-        PERPLEXITY_URL,
-        headers={"Authorization": f"Bearer {settings.perplexity_api_key}"},
-        payload=payload,
-        timeout=60,
-    )
+    try:
+        data = request_json(
+            "POST",
+            PERPLEXITY_URL,
+            headers={"Authorization": f"Bearer {settings.perplexity_api_key}"},
+            payload=payload,
+            timeout=60,
+        )
+    except HttpClientError as exc:
+        if _is_quota_error(exc):
+            raise PerplexityQuotaError(str(exc)) from exc
+        raise
     try:
         return data["choices"][0]["message"]["content"]
     except (KeyError, IndexError, TypeError):
