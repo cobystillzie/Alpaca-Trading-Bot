@@ -19780,4 +19780,202 @@ Model notes: none
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: https://simplywall.st/stocks/us/healthcare/nasdaq-mmed/minimed-group/news/assessing-minimed-group-mmed-valuation-after-recent-share-pr/amp
+## Performance Ledger - 2026-05-25 16:30:02 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-05-25 16:30:02 Eastern Daylight Time
+- Portfolio value: $100,155.77
+- P/L vs $100k baseline: $155.77
+- Full paper-account return: 0.156%
+- Managed-capital return: 1.56%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 2.78%
+- Latest position value: $5,755.77
+- Full-account cash reserve: 94.3%
+- Managed-capital cash reserve: 42.4%
+- Max snapshot drawdown: $135.30 from 2026-05-08 16:30:03 Eastern Daylight Time to 2026-05-21 21:16:10 Eastern Daylight Time
+
+Open Position Review
+- DT: winner, value $836.11, unrealized P/L $36.11, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 17 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: loser, value $482.05, unrealized P/L $-17.95, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 18 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: winner, value $823.88, unrealized P/L $23.88, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 25 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- IBRX: loser, value $511.45, unrealized P/L $-88.55, entry 2026-05-11 09:48:18 Eastern Daylight Time, thesis age 14 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: winner, value $525.68, unrealized P/L $25.68, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 13 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: winner, value $861.45, unrealized P/L $61.45, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 24 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $828.26, unrealized P/L $28.26, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 19 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $886.89, unrealized P/L $86.89, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 27 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- SCHD: appeared 34 times; open position P/L $28.26.
+- INTC: appeared 32 times; market outcome unavailable until benchmark/candidate price history is captured.
+- SPMO: appeared 32 times; open position P/L $86.89.
+- NVDA: appeared 29 times; open position P/L $61.45.
+- GOOGL: appeared 26 times; open position P/L $23.88.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- UNP: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VALN: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- GLD: appeared 9 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Candidate references banned v1 instruments or leverage.: 12
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 7
+  - Single-stock allocation would exceed 15%.: 7
+  - A market-open order is already logged for today. No backup order was placed.: 5
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources.: 5
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Confidence below 0.60. Target allocation must be between 1% and 15%.: 3
+  - Max open-position count would be exceeded.: 3
+  - Candidate references banned v1 instruments or leverage. Confidence below 0.60. Target allocation must be between 1% and 15%.: 2
+- By symbol:
+  - INTU: 5
+  - BAH: 3
+  - GOOGL: 3
+  - PLTR: 3
+  - TMXX.F: 3
+  - COIN: 2
+  - FLEX: 2
+  - FPS: 2
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 0
+- congressional: 1
+- unknown: 5
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold met: 8 trades over 27 days.
+- Strategy tuning may be reviewed, but safety guardrails still apply.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## End Of Day Memo - 2026-05-25 16:30:02 Eastern Daylight Time
+
+End Of Day Analyst Memo
+
+Recommendation: Carry forward only evidence-backed candidates; review stops before the next market-open run.
+
+Market Regime
+End-of-day review of paper portfolio, trade quality, risk notes, and next-day watchlist.
+
+Portfolio
+Portfolio value: 100155.77 Cash: 94400 Buying power: 194555.77 Positions: - DT: qty=20.289119959, market_value=836.114634, unrealized_pl=36.114634 - GLRE: qty=28.042624789, market_value=482.05272, unrealized_pl=-17.94728 - GOOGL: qty=2.151289429, market_value=823.879313, unrealized_pl=23.879313 - IBRX: qty=70.838252656, market_value=511.452184, unrealized_pl=-88.547816 - LNC: qty=14.590020426, market_value=525.678436, unrealized_pl=25.678436 - NVDA: qty=4.00060009, market_value=861.449217, unrealized_pl=61.449217 - SCHD: qty=25.2286345, market_value=828.256071, unrealized_pl=28.256071 - SPMO: qty=6.119014838, market_value=886.890011, unrealized_pl=86.890011 Performance: value $100,155.77, P/L vs $100k $155.77, managed return 1.56%, deployed return 2.78%, managed cash reserve 42.4%.
+
+Top Candidates
+
+1. TXN (information-technology / semiconductors) | confidence 0.62 | allocation 6.0% | stop 8.0% | Chittick 75/100 | tier watch | bucket semiconductors-analog
+Thesis: Texas Instruments offers high-quality, cash-generative exposure to analog and embedded semiconductors with structural demand in industrial and automotive end markets, and a modest fresh catalyst from improving cycle expectations and a recent small congressional purchase that aligns with a gradual upturn narrative rather than speculative AI hype.
+Catalyst: Soft but fresh catalysts: ongoing commentary about a gradual improvement in the analog/industrial semiconductor cycle and a recent disclosed congressional purchase (House member Thomas H. Kean Jr., Apr 14, 2026) that modestly reinforces positive institutional perception without being a primary dr...
+Entry: Paper entry on a modest pullback toward a recent support or 5–10 day moving-average area after a green confirmation day (avoid chasing an intraday spike). Use limit-style logic around a small dip rather than market-on-open chasing; if price gaps sharply on...
+Exit: Profit-taking if the position reaches roughly 1.5–2x the defined downside (e.g., +12–16% vs. an 8% stop) or if short-term momentum deteriorates (high-volume reversal bar, break of short-term moving average). Invalidation if price closes below the stop-loss...
+Risk/reward: Moderate: upside is tied to a continued, steady semi-cycle improvement rather than explosive AI upside, but downside is cushioned by business quality and balance-sheet strength; risk/reward is acceptable for a cautious swing, not a home run.
+Bear/adversary: The strongest objection is that the catalyst stack is too soft for a 1–10 day swing: there is no imminent earnings or specific corporate news, and congressional buying is a weak, lagged signal; for a bot prioritizing clear, time-bounded catalysts, TXN may be better as a slow-burn owner-quality na...
+Source quality: Evidence is drawn from reputable macro/sector commentary on the semiconductor cycle, congressional-disclosure data from specialized tracking platforms, and broad market news feeds rather than social media or listicles; however, there is no single hard near-...
+Chittick Cash Filter
+Score: 75/100
+Margin of safety: Valuation is not distressed but appears reasonable for a high-quality analog franchise with a long demand runway; margin of safety is primarily business-quality based rather than deep value, which is acceptable if position sizing is kept...
+Valuation: TXN trades at a quality premium versus the broader market but often at a discount to high-flying AI semis; for a cautious investor, this represents an acceptable price for a durable compounder, though not a screaming bargain and thus uns...
+Growth runway: 30–180 day drivers include incremental signs of recovery in industrial and auto orders and any commentary about capacity utilization or pricing; longer-term growth comes from increasing chip content per device and continued analog penetr...
+Balance-sheet risk: Balance sheet is generally strong with manageable leverage and ample cash generation, unlike smaller, financially stressed tech names flagged in recent SEC reviews; dilution or going-concern issues are not front-of-mi...
+Capital allocation: Management has a long record of disciplined capex, share repurchases, and dividends, though some investors debate the timing and scale of fab investments; overall, capital allocation aligns reasonably well with owner-...
+Concentration case: For a diversified portfolio, TXN can justify a mid-single-digit allocation as a conservative semi anchor versus more volatile AI leaders or broad tech ETFs; however, concentration should be capped given cyclicality and only moderate near...
+Owner thesis, 30-180 days: For a 30–180 day thesis, an owner-style investor might hold through the early phase of a semi upcycle, monitoring order trends, utilization, and pricing while collecting dividends and potentially benefiting from multiple stability as macro visibility improves.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: structural
+Fresh catalyst: yes
+Repeat count, 48h: 2
+Diversity bucket: semiconductors-analog
+Research tier: watch
+Allocation learning: Given prior rejections tied to hype, leverage, and over-concentration in mega-cap or AI names, TXN is intentionally sized as a smaller, quality-cyclical idea with a soft catalyst stack rather than a primary execution target.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.10
+Evidence rank: 0/100
+Memory similarity: 0.00
+Vetoes: none
+Model notes: none
+Social buzz, max 10%: none
+Congress signal, max 5%: Low-intensity positive: a standard-size purchase by a House member suggests mild incremental confidence but is too small and delayed to be a core driver.
+Sources: https://www.canadianminingreport.com/blog/what-s-next-for-silver-weekly-prediction-and-key-catalysts, https://www.quiverquant.com/stock/TXN/, https://www.stocktitan.net/news/2026-05-25/
+
+2. BA (industrials / aerospace & defense) | confidence 0.60 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier monitor-only | bucket defensive-industrials
+Thesis: Boeing remains a strategically important aerospace and defense manufacturer where equity value is highly sensitive to incremental updates on safety, production, and regulatory trust; near-term, trading opportunities arise around newsflow on inspections, delivery cadence, and regulatory alignment, but the business-quality and balance-sheet profile is meani...
+Catalyst: Ongoing news sensitivity to any update on production, inspections, and delivery cadence, with price reactions particularly strong when evidence emerges that customers and regulators are aligned with Boeing’s plan to stabilize output.[2][10]
+Entry: Monitor-only: no paper-trade entry. If used as a case study, one would hypothetically look for high-volume positive trust events (e.g., regulator approvals, clear production milestones) after a prior sell-off, entering only after confirmation that the news...
+Exit: Monitor-only: no active exit plan. Conceptually, a trader would look to exit into strength after the market re-prices improved trust, or cut quickly if fresh safety or regulatory concerns emerge.
+Risk/reward: Skewed and binary around trust events: upside can be significant on successful stabilization and regulatory alignment, but downside tail risk from further safety or governance failures remains large.
+Bear/adversary: From a strict Chittick Cash and Buffett/Munger lens, BA should be excluded entirely until safety culture, balance sheet, and governance are clearly repaired; current upside is too dependent on event-driven sentiment in a business with a damaged quality profile.
+Source quality: Core characterization of BA’s trading behavior and trust sensitivity comes from in-depth analytical commentary focused specifically on Boeing’s history and current state, rather than from hype or listicles, providing a more reliable qualitative framework.[2]
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: While the stock may screen as cheap versus pre-crisis levels, the margin of safety is weak because downside scenarios (fines, further incidents, lost orders) are fat-tailed and difficult to handicap; valuation compression may not fully r...
+Valuation: Valuation is highly path-dependent: if Boeing successfully executes on its stabilization plan, current levels might be attractive; if not, there is meaningful further downside; this uncertainty limits its suitability as a concentrated-qu...
+Growth runway: 30–180 day growth or repair drivers center on achieving production milestones, improving delivery cadence, and evidencing a sustainable safety and quality culture; long term, demand for air travel and replacement aircraft remains robust,...
+Balance-sheet risk: The balance sheet carries elevated leverage due to prior crises; while manageable in benign conditions, it adds risk in the event of further operational setbacks or macro shocks, reducing flexibility compared to net-c...
+Capital allocation: Capital allocation has been constrained by the need to repair the balance sheet and manage crisis fallout; shareholder returns are secondary to survival and regulatory appeasement, which is misaligned with a classic o...
+Concentration case: Given the binary trust risk and weaker quality profile, BA does not deserve concentration versus higher-quality industrials or diversified defense names; any exposure, if ever reconsidered for trading, should be small and explicitly cate...
+Owner thesis, 30-180 days: An owner-style 30–180 day thesis would require clear evidence of sustained regulatory approval, stable production metrics, and de-leveraging progress, none of which are yet robust enough for a conviction-quality hold.
+Chittick reject reason: Trust- and event-driven equity with elevated safety, governance, and balance-sheet risk; fails the concentrated-quality and margin-of-safety standards for active deployment.
+Self-Learning Filter
+Catalyst type: news
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: defensive-industrials
+Research tier: monitor-only
+Allocation learning: Prior rejections around leverage, options, and speculative catalysts suggest BA’s trust-driven profile should remain in a monitor-only lane until the business and balance sheet are clearly repaired.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.20
+Evidence rank: 0/100
+Memory similarity: 0.00
+Vetoes: none
+Model notes: none
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://verifiedinvesting.com/blogs/education/the-complete-ticker-boeing-ba-stock-analysis-from-ipo-to-impact, https://www.stocktitan.net/news/2026-05-25/
+
+3. MMED (healthcare) | confidence 0.58 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier monitor-only | bucket small-cap-healthcare
+Thesis: MiniMed Group appears to be a small healthcare/medical name with a recent share-price move not clearly tied to a single, verifiable news catalyst, making it a useful negative screen example: despite short-term gains, the lack of strong, fundamental drivers and the presence of listicle-style coverage argue for avoiding it in a disciplined, evidence-based s...
+Catalyst: Recent price action shows a 1-day gain of about 1.3% and a 7-day gain of roughly 9.1%, but coverage explicitly notes that the stock has been moving without a clear single news catalyst, suggesting that the move may be driven by technicals, illiquidity, or unspecific sentiment rather than fundamen...
+Entry: Avoid: no paper-trade entry, as the move appears hype/flow-driven without strong, fundamental justification.
+Exit: Not applicable; if already held in a hypothetical scenario, a process-consistent approach would be to trim or exit into strength given the lack of clear fundamentals.
+Risk/reward: Asymmetric to the downside: limited evidence of durable fundamental upside, with high risk of reversal once technical buying or speculative interest fades.
+Bear/adversary: A counter-argument is that early accumulation ahead of future catalysts can offer outsized returns, but given the strategy’s focus on evidence-based iteration and quality, betting on unknown future news in a small name is outside mandate.
+Source quality: Primary coverage is from a valuation- and price-move-focused article on a financial-analytics site; while not pure social media hype, it does not provide the depth of company filings, earnings, or detailed balance-sheet analysis required for conviction.[9]
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: With limited visibility into earnings power, balance sheet, or competitive position, it is difficult to argue for any margin of safety; price appreciation alone is not sufficient.
+Valuation: The referenced discussion centers on recent valuation after a share-price run, without tying it to long-term cash flows; this suggests more narrative than rigorous valuation work, which is inconsistent with the required process.[9]
+Growth runway: No clear 30–180 day growth drivers are articulated in the coverage; long-term runway is speculative without stronger evidence.
+Balance-sheet risk: Balance-sheet strength or weakness is not meaningfully discussed, which itself is a red flag compared to the detailed risk assessment normally expected for inclusion; small healthcare names often carry meaningful fund...
+Capital allocation: Insufficient information about management’s capital-allocation discipline; given sector and scale, over-reliance on equity issuance or dilution would be a concern if investigated further.
+Concentration case: Even if the name had stronger catalysts, its small size and limited disclosure would argue for only tiny allocations; under current evidence, it does not merit any capital versus higher-quality alternatives in other sectors.
+Owner thesis, 30-180 days: Absent clearer evidence of durable business drivers and a sound balance sheet, MMED is unsuitable for a 30–180 day owner-style thesis in this framework.
+Chittick reject reason: Hype/price-action-focused coverage without clear, fundamental catalysts or demonstrated quality; fails both margin-of-safety and evidence-based iteration requirements.
+Self-Learning Filter
+Catalyst type: momentum
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: small-cap-healthcare
+Research tier: monitor-only
+Allocation learning: In light of prior rejections for micro-cap speculation and source-thin hype, MMED is deliberately categorized as an avoid/monitor-only example to reinforce the discipline of rejecting weak-evidence, momentum-only names.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.50
+Evidence rank: 0/100
+Memory similarity: 0.00
+Vetoes: none
+Model notes: none
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://simplywall.st/stocks/us/healthcare/nasdaq-mmed/minimed-group/news/assessing-minimed-group-mmed-valuation-after-recent-share-pr/amp
 
