@@ -8481,4 +8481,128 @@ The US equity market is grinding to record highs, but the underlying conditions 
 ## Market Regime Research - 2026-05-25 15:56:38 Eastern Daylight Time
 
 {"summary":"US equities are in a broadly constructive but fragile, data‑dependent regime: the primary index trend is still upward with intermittent pullbacks, volatility is moderate by historical standards, the Fed/rates path is uncertain ahead of key inflation data, earnings tone remains net positive but no longer a strong upside shock, sector leadership is narrow and still tech/growth‑heavy, and overall conditions are cautiously risk‑on but prone to event‑driven reversals.","market_regime":{"index_trend":{"spx_ndx_dow_tone":"Major US indices remain closer to recent highs than to prior bear‑market lows, reflecting a still‑intact medium‑term uptrend, but recent sessions show more choppy, headline‑driven moves rather than a smooth advance.[1][2] Several market commentaries describe a market that has cooled from the strongest part of the rally, with gains more selective and sensitive to macro and geopolitical news.[1][7]","momentum_and_breadth":"Forward momentum has slowed compared with earlier in the cycle, with articles noting that the market is losing the strong earnings ‘cushion’ that had previously supported broader risk appetite.[1] Commentary on US markets ahead of the coming week emphasizes that indices are hovering near recent highs but reacting sharply to macro data and oil/geopolitics, indicating more tentative participation and narrower leadership.[2][7]","pullbacks_and_event_sensitivity":"Recent write‑ups highlight that the S&P 500 has been vulnerable to oil‑ and geopolitics‑driven sell‑offs (e.g., renewed Iran tensions), reinforcing that the prevailing uptrend can be interrupted quickly by macro shocks.[7] For a cautious paper‑trading bot, this points to a regime of uptrend-with-event-risk rather than a clean risk‑on melt‑up."},"rates_and_fed":{"policy_backdrop":"Markets are focused on upcoming inflation and growth data (notably PCE and GDP) that will inform the Fed’s near‑term stance.[2] A new Fed Chair (Kevin Warsh) has just taken office, and market commentary frames his initial communications and the next FOMC as key for rate expectations and risk sentiment.[2]","inflation_and_data_dependence":"The April PCE print later this week is described as the last major inflation read before the mid‑June FOMC, with economists expecting a notable pickup from earlier estimates in coming quarters (headline PCE forecast around 4.5% and core around 3.4% for Q2 versus about 2.7% previously).[2] That profile keeps the Fed in a ‘higher for longer’ or at least ‘not-easing-yet’ posture, which limits multiple expansion and supports a more discriminating, fundamentals‑driven equity regime.[1][2]","market_implications_for_equities":"Analysis notes that as the earnings cushion fades (see below), equity resilience will depend more on whether incoming data allow the Fed to stay patient rather than re‑tighten; the current setup is described as data‑dependent, with traders advised to keep position sizes conservative into the inflation release and avoid leverage.[1][2] For a cautious bot, this aligns with a regime where macro calendar days warrant reduced gross exposure or wider safety margins rather than aggressive trend‑following."},"volatility":{"vix_level_and_trend":"The CBOE VIX has been trading in a mid‑teens area recently, a level that is above ultra‑calm conditions but still far below crisis episodes.[8] The overall 2026 commentary from multiple sources describes ‘greater volatility’ across asset classes compared with the very low‑volatility periods of the past cycle, driven by shifting monetary policy, geopolitical tension, and uneven growth.[4]","character_of_volatility":"Macro‑event spikes (inflation releases, Fed meetings, geopolitical headlines) have produced short bursts of realized volatility superimposed on otherwise orderly trading.[2][4][7] Articles aimed at traders recommend planning around such calendar catalysts and keeping risk tight, reinforcing the idea of a moderately volatile, event‑driven environment rather than a regime of persistent panic or euphoria.[2][4] For a paper‑trading workflow, it is reasonable to treat volatility as ‘moderate with frequent data‑driven spikes’ and to de‑emphasize strategies that assume either ultra‑low or crisis‑level volatility."},"earnings_tone":{"season_progress":"More than 90% of S&P 500 companies have reported, meaning the bulk of the earnings ‘knowns’ are in the price.[1] Market commentary notes that as this reporting cushion fades, the market loses a key support that previously allowed investors to look past macro concerns.[1]","results_and_guidance_quality":"Overall earnings have been described as better‑than‑feared, particularly in large‑cap tech and parts of consumer, which helped underpin the earlier leg of the equity rally.[1][2] However, dispersion has increased: some names are missing and being punished, while others with solid beats still see only modest price responses, consistent with a more fully‑valued market.[1][6]","near_term_catalysts":"This week still contains important late‑season reports (Salesforce, Dell, Costco, Best Buy, Dollar Tree, Gap, Autodesk and others), which are framed as real‑time checks on enterprise IT, consumer staples/discretionary, and lower‑income consumer health.[2] Commentary explicitly warns of potential volatility around these reports, particularly as investors watch whether earnings can continue to offset macro and rate risks.[1][2] For a cautious bot, this suggests treating single‑stock earnings days and the current earnings tail as localized volatility hotspots, without assuming earnings will provide the same broad ‘cushion’ as earlier in the season."},"sector_rotation":{"leadership_and_narrowness":"Recent writing on US markets emphasizes the continued importance of large‑cap tech and AI‑adjacent names in driving index performance, with several analyses noting that AI‑linked stocks are ‘booming’ and remain a core source of market enthusiasm.[2][10] This implies leadership remains relatively narrow and growth‑tilted rather than broad‑based across all sectors.","defensives_vs_cyclicals":"Macro and earnings coverage suggests a mixed but not strongly defensive rotation: consumer and tech names with robust earnings are still attracting interest, while classic defensives such as utilities and low‑volatility staples are not clearly dominating flows.[1][2] At the same time, event‑driven risk (oil prices, tensions in the Middle East and Iran) has periodically benefited energy and other commodity‑linked areas while pressuring the broader S&P 500.[1][4][7]","style_and_quality_bias":"Analysts highlight that in the current environment of higher‑for‑longer rates and increased volatility across asset classes, investors are more discerning, favoring quality balance sheets and visible earnings over speculative stories.[1][4] AI‑related enthusiasm remains, but there is also more talk of valuations and fair value, with some overvalued names seeing sharp drawdowns on misses.[6][10] For a cautious bot, the rotation picture is best described as ‘growth/AI leadership with an undercurrent of quality selection and episodic swings into energy and other cyclicals around macro/geopolitical headlines.’"},"risk_on_off":{"overall_risk_tone":"The dominant tone is **cautiously risk‑on**: equities are holding higher levels with support from still‑solid earnings and AI/growth narratives, but positioning is less aggressive and more event‑aware than in an outright risk‑on melt‑up.[1][2][4][10]","macro_and_geopolitical_overhangs":"Commentary explicitly cites geopolitical tensions (notably in the Middle East and involving Iran), oil‑price spikes, and uncertainty around the new Fed Chair’s reaction function as key overhangs that could flip sentiment quickly.[1][2][4][7] This places the market closer to the middle of the risk‑on/risk‑off spectrum—optimistic but jumpy—rather than at either extreme.","behavioral_signals_for_a_cautious_bot":"Multiple sources aimed at traders stress keeping position sizes in check, avoiding leverage into key macro events, and preparing for ‘greater volatility’ in 2026 compared with prior low‑volatility regimes.[2][4] That external guidance aligns with your existing workflow’s emphasis on rejecting leverage, capping position counts, and requiring multiple independent signals before acting. In regime terms, this is a **risk‑on but risk‑managed** environment: positive drift in indices, but with enough uncertainty that a cautious paper‑trading system should prioritize capital preservation, diversification, and strict risk limits over aggressive beta seeking."},"sector_rotation":{"current_leaders":"Large‑cap **technology and AI‑related** names continue to be central drivers of US index performance, supported by still‑solid earnings expectations and strong narrative momentum.[2][10] Late‑season reports from Salesforce and Dell will offer important checks on enterprise software and hardware demand, which are key parts of this leadership group.[2]","consumer_and_cyclicals":"Upcoming results from Costco, Best Buy, Dollar Tree, Gap, and other consumer‑facing companies are being watched as barometers of both high‑end and lower‑income consumer health.[2] The fact that the market is focusing on these as major catalysts indicates that cyclicals/consumer names remain relevant to the risk‑on story rather than being fully de‑emphasized in favor of defensives.[2]","defensives_and_safety_plays":"There is no strong evidence in current commentary of a wholesale move into classic defensive sectors (utilities, staples, low‑vol ETFs), although pockets of demand do appear around spikes in macro or geopolitical anxiety.[1][2][4] Energy can act as a partial hedge when oil surges, but oil‑driven sell‑offs still weigh on the broader S&P 500, suggesting that defensive rotation is selective rather than universal.[7]","rotation_characterization_for_bot":"For your cautious paper‑trading workflow, the sector regime is best approximated as: ‘tech/AI and selected quality growth remain core leaders; consumer and cyclicals are still in play but sensitive to earnings and macro; defensives are not yet decisively in charge; energy and commodity‑linked names can see tactical strength around specific news.’ This argues for treating sector tilts as **opportunistic and data‑driven** rather than assuming a stable, multi‑quarter rotation pattern."},"risk_flags":{"macro_event_risk":["Upcoming **PCE inflation** and **GDP** releases are highlighted as major catalysts that can move both rates expectations and equities; traders are explicitly warned to expect volatility and to avoid over‑leveraging into these data.[2] For a cautious bot, macro release windows warrant stricter risk caps or reduced new exposure.","The first FOMC meeting under the new Fed Chair is a key uncertainty; markets are watching how hawkish or dovish the new leadership will be, making Fed communications a material risk factor for short‑term equity pricing.[2]"],"policy_and_inflation_risk":["Forecasts for higher PCE inflation in coming quarters keep alive the risk that the Fed may need to lean more hawkish than markets currently discount, which would pressure duration‑sensitive growth stocks and overall equity valuations.[1][2]","If inflation data surprise to the upside relative to already‑elevated expectations, the current cautiously risk‑on tone could shift quickly toward risk‑off, with higher volatility and broader de‑risking.[2][4]"],"geopolitical_and_commodity_risk":["Tensions in the Middle East and Iran have already been linked to oil‑price spikes that pressured the S&P 500, illustrating direct transmission from geopolitics to broad equity performance.[1][7]","The 2026 backdrop is described as one of ‘greater volatility’ across asset classes due partly to geopolitical tensions and uneven growth, meaning new shocks could emerge with little advance notice.[4]"],"earnings_and_single_stock_risk":["As the earnings ‘cushion’ fades with more than 90% of S&P 500 companies having already reported, the market may become more sensitive to negative surprises or guidance cuts from the remaining reporters and from any early pre‑announcements for the next quarter.[1]","Late‑season reports from high‑visibility tech and consumer names (Salesforce, Dell, Costco, Best Buy, Dollar Tree, Gap, Autodesk) are specifically identified as potential volatility sources; single‑stock gaps on earnings can spill over into sector ETFs and factor baskets.[2][6]"],"valuation_and_positioning_risk":["Coverage of specific names notes that some stocks are trading above fair‑value estimates and have sold off sharply on earnings misses, underscoring latent valuation risk in crowded winners.[6][10]","AI‑related and high‑growth segments, while still leading, are by nature more vulnerable to sentiment reversals if macro conditions worsen or if earnings fail to keep pace with elevated expectations.[1][10]"],"workflow_alignment_flags":["External trading guidance in current commentary emphasizes keeping positions size‑disciplined, avoiding leverage, and respecting macro calendars.[2][4] This aligns with your existing constraints (no leverage, max open positions, hype and social‑signal filters) and reinforces that your cautious configuration is well‑matched to the present regime.","Because market tone is ‘cautiously risk‑on’ but highly event‑driven, your bot’s existing rules that rejected thin‑signal and hype‑driven candidates—especially in micro‑caps and leveraged instruments—remain appropriate and should help avoid regime‑inconsistent exposures.[4][11]"]},"source_urls":["https://www.investing.com/analysis/week-ahead-middle-east-breakthrough-or-rough-patch-200680856","https://www.heygotrade.com/en/news/weekly-economic-outlook-2026-05-25/","https://www.aol.com/articles/p-500-faces-oil-fueled-131619000.html","https://fred.stlouisfed.org/series/VIXCLS","https://punchng.com/market-volatility-and-trading-opportunities/","https://www.barchart.com/investing-ideas/penny-stocks","https://www.zacks.com/featured-articles/201/best-ai-stocks-to-buy-now-may-2026"]}
+## Market Regime Research - 2026-05-25 17:57:49 Eastern Daylight Time
+
+{
+  "summary": "US equity tone is **risk‑on but cautious**: index futures are at or near all‑time highs with tech leadership, volatility is subdued, but sticky inflation and renewed Fed hike pricing keep a hawkish macro overhang alongside unresolved geopolitical risks.[1][2][4][11]",
+  "market_regime": {
+    "index_trend": {
+      "regime": "bullish_uptrend",
+      "evidence": [
+        "E‑mini S&P 500 (US500) futures are up roughly 1% and trading at a fresh all‑time high, reflecting strong risk appetite in an otherwise holiday‑thin session.[1][4]",
+        "Commentary notes that sentiment \"continues to defy\" concerns about war, inflation and deficits as the Dow and S&P 500 push to fresh record highs.[11]"
+      ],
+      "tone_for_bot": "Trend‑following models would classify this as a mature bullish phase with indices extended; for a cautious paper‑trading workflow, treat long‑beta exposure as late‑cycle rather than early‑cycle.",
+      "detail": {
+        "trend_strength": "strong",
+        "breadth_comment": "High‑cap tech and growth names are primary leaders; broader participation is positive but leadership is concentrated in large‑cap growth/tech.",
+        "holiday_liquidity_note": "US cash markets are closed for Memorial Day, so futures lead the signal and liquidity is thinner than normal.[1]"
+      }
+    },
+    "rates_and_fed": {
+      "regime": "hawkish_hold_with_hike_risk",
+      "evidence": [
+        "US core inflation has run hotter, with April inflation at 3.8%, reinforcing expectations that the Fed may hike by 25 bps in December; markets price roughly a 54% probability of such a move.[2]",
+        "US 10‑year Treasury yields are holding around the mid‑4.5% area (≈4.56%), consistent with elevated but not spiking long rates.[5]"
+      ],
+      "interpretation": "The market is shifting from a soft‑landing + imminent cuts narrative toward a higher‑for‑longer stance with some probability of renewed tightening. That is supportive of financials and value on some days but ultimately caps valuation expansion for long‑duration growth.",
+      "fed_tone": "Recent Fed rhetoric (via commentary) is described as ruling out imminent rate cuts, keeping attention on inflation data such as core PCE later in the week.[2]"
+    },
+    "volatility": {
+      "regime": "suppressed_volatility",
+      "evidence": [
+        "A multi‑asset volatility review notes that volatility has dropped to a four‑month low as seasonal factors combine with investor ambivalence to the Iran conflict, even as indices set record highs.[11]",
+        "At a global level, 2026 has seen a comeback of volatility, but the *current* window is calmer as risk sentiment improves with hopes of de‑escalation in the Persian Gulf.[1][7]"
+      ],
+      "implications_for_bot": "Current conditions fit a low‑realized‑volatility, grind‑up regime where momentum and trend strategies tend to perform, but tails are underpriced: any geopolitical or inflation shock can reprice risk quickly from a low‑vol base."
+    },
+    "earnings_tone": {
+      "regime": "constructive_with_tech_leadership",
+      "evidence": [
+        "Recent coverage highlights **strong earnings** from major tech bellwether NVIDIA, reinforcing the AI‑and‑semis growth narrative.[6]",
+        "Index gains are described as tech‑led, with the S&P 500 and Nasdaq pushed higher by technology strength despite higher yields and firm USD.[2]"
+      ],
+      "interpretation": "Earnings revisions and sentiment are positive in large‑cap tech and AI‑linked names, supporting growth leadership. Outside mega‑cap tech, earnings tone is more mixed and remains sensitive to rates and cost pressures.",
+      "note_for_paper_trading": "Backtests run in this environment may over‑weight tech/AI beta; treat this as a style regime, not a permanent structural shift."
+    },
+    "risk_on_off": {
+      "state": "moderate_risk_on",
+      "evidence": [
+        "US index futures are rallying with an \"upside bias\" and improved risk appetite as traders price a scenario of Iran tension de‑escalation and partial geopolitical normalization that supports risk assets.[1]",
+        "Despite sticky inflation and higher rate expectations, the S&P 500 and Nasdaq are pushing higher; the dollar is firm and bond yields are up, suggesting a risk‑on tilt in equities coexisting with cautious positioning in FX and rates.[2]",
+        "Gold remains elevated (above 4,500 in the quoted commentary), implying persistent demand for hedges against longer‑term risk even as equities climb.[5][2]"
+      ],
+      "characterization": "This is not an exuberant melt‑up, but a *resilient risk‑on* phase where investors are willing to pay for growth and equity beta while still holding hedges (gold, cash, strong USD) against macro and geopolitical shocks."
+    }
+  },
+  "sector_rotation": {
+    "leadership": {
+      "primary_leaders": [
+        "Large‑cap **technology** and **growth** (semiconductors/AI, mega‑cap platforms), supported by strong earnings and secular narratives.[2][6]",
+        "US **equities** in general over safe‑haven duration, as record highs in the Dow and S&P 500 show persistent demand for risk assets.[11]"
+      ],
+      "secondary_beneficiaries": [
+        "Cyclical sectors tied to global demand and higher nominal growth may see support on the back of resilient macro data, although explicit sector data in the sources is limited.",
+        "Energy sentiment is balanced: oil retains a modest risk premium from geopolitical tension, but recent price dips around the low‑90s per barrel reduce inflation fears somewhat.[2][5]"
+      ]
+    },
+    "laggards_or_defensives": {
+      "defensive_sectors": "Classic defensives (staples, utilities, low‑vol) are relatively less favored in a risk‑on, record‑high backdrop, though high yields and mortgage rates can still support some income‑oriented flows. Current sources do not provide detailed sector performance splits.",
+      "safe_havens": "Gold is elevated and the dollar is near six‑week highs, indicating that while equities are risk‑on, investors still maintain hedges rather than fully rotating out of defensive assets.[2][5]"
+    },
+    "style_factors": {
+      "growth_vs_value": "Growth and quality‑growth factors are in favor, driven primarily by tech and AI names; higher long yields temper but do not fully reverse this leadership.[2][6]",
+      "size": "Mega‑cap concentration remains a theme as large index‑weight names drive new highs, though explicit small‑cap data is not detailed in the current sources."
+    },
+    "paper_trading_implication": "For regime‑aware backtests, classify current conditions as **growth/tech leadership with persistent mega‑cap concentration**, while acknowledging that the macro backdrop (higher‑for‑longer rates, geopolitical uncertainty) still structurally supports some allocation to defensives and real assets."
+  },
+  "risk_flags": {
+    "macro_and_policy": [
+      {
+        "flag": "sticky_inflation_and_hike_risk",
+        "description": "US inflation around 3.8% and firm core measures have reduced expectations for near‑term cuts and pushed markets to price a non‑trivial probability of a 25 bps Fed hike in December.[2] This raises the risk of valuation compression, particularly in long‑duration growth sectors, if data surprises higher again."
+      },
+      {
+        "flag": "elevated_yields",
+        "description": "The 10‑year Treasury yield holding around 4.55–4.6% keeps financial conditions relatively tight and increases sensitivity of equities (especially high‑multiple tech and housing‑linked names) to any further back‑up in yields.[5]"
+      }
+    ],
+    "geopolitics_and_event_risk": [
+      {
+        "flag": "iran_tensions_and_ceasefire_fragility",
+        "description": "Current risk‑on tone partly reflects optimism about de‑escalation in the Persian Gulf, but analysts stress that key issues such as Iran’s nuclear program remain unresolved.[1] Markets are still assigning a risk premium to oil and Treasuries due to stalled peace negotiations.[2] A negative headline shock could rapidly unwind the current low‑volatility, risk‑on regime."
+      }
+    ],
+    "market_structure_and_technical": [
+      {
+        "flag": "low_volatility_and_complacency_risk",
+        "description": "Equity volatility has fallen to a four‑month low even as indices hit fresh highs and macro/geopolitical risks persist.[11] This combination often precedes sharper, more sudden drawdowns when new information arrives, since options pricing and positioning may under‑estimate tail risk."
+      },
+      {
+        "flag": "concentration_in_mega_cap_tech",
+        "description": "Tech‑led gains and strong results from key AI/semis names such as NVIDIA underpin index strength.[2][6] This concentration increases single‑theme risk: an earnings disappointment, regulatory headline, or rotation out of AI could have an outsized impact on cap‑weighted benchmarks."
+      }
+    ],
+    "housing_and_consumer": [
+      {
+        "flag": "high_mortgage_rates_and_consumer_rate_sensitivity",
+        "description": "30‑year mortgage rates remain elevated in the mid‑6% range, with recent prints around 6.3–6.5% and little sign of a sustained downtrend.[5][10] This weighs on housing affordability and may gradually pressure rate‑sensitive consumer sectors, even as equities trade near highs."
+      }
+    ],
+    "paper_trading_caution_notes": [
+      "Holiday‑thinned liquidity means futures price action may overstate or misstate the underlying cash‑market conviction; avoid over‑fitting to today’s intraday moves.[1][2]",
+      "The current regime reflects a specific mix of tech‑led growth optimism and macro/geopolitical overhang; use it as a tagged regime in backtests (e.g., \"late‑cycle, tech‑led bull with hawkish Fed\") rather than assuming it is a neutral or average environment."
+    ]
+  },
+  "source_urls": [
+    "https://www.xtb.com/int/market-analysis/news-and-research/us-cash-markets-closed-futures-rally-on-hopes-of-de-escalation",
+    "https://www.icmarkets.com/blog/ic-markets-global-asia-fundamental-forecast-25-may-2026/",
+    "https://www.moomoo.com/stock/EScurrent-US?chain_id=Name1K9-3FXPhg.1l193h0",
+    "https://www.mortgagereports.com/mortgage-rates-now/mortgage-rates-today-may-25-2026",
+    "https://www.noradarealestate.com/blog/todays-mortgage-rates-may-25-2026-update/",
+    "https://www.stonex.com/en-us/insights/volatility-hits-a-four-month-low-as-seasonal-lull-meets-iran-war-ambivalence/",
+    "https://www.youtube.com/watch?v=k_sXaxjf7qQ",
+    "https://www.punchng.com/market-volatility-and-trading-opportunities/?amp"
+  ]
+}
 

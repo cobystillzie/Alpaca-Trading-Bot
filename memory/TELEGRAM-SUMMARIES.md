@@ -19978,4 +19978,37 @@ Model notes: none
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: https://simplywall.st/stocks/us/healthcare/nasdaq-mmed/minimed-group/news/assessing-minimed-group-mmed-valuation-after-recent-share-pr/amp
+## Research Update - 2026-05-25 17:57:49 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities remain in a tech-led, late-cycle bull regime with low volatility and elevated macro/geopolitical risk. Focus for paper trades should stay on high-quality, cash-generative names with clear catalysts and disciplined risk controls over 3–7 day horizons.
+Candidates: 3
+
+1. TXN (information-technology / semiconductors) | confidence 0.62 | allocation 6.0% | stop 8.0% | Chittick 75/100 | tier watch | bucket semiconductors-analog
+Recommendation: watch
+Catalyst: Gradual improvement commentary in the analog/industrial semiconductor cycle and a recently disclosed standard-size purchase by Rep. Thomas Kean Jr. provide incremental sentiment and flow support without being the primary thesis driver.[c...
+Chittick Cash: Valuation is not deeply discounted but is reasonable for the quality and cycle position; strong balance sheet and recurring industrial/auto demand provide some downside buffer versus more speculative semis.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=2 fresh=yes bucket=semiconductors-analog
+Social buzz, low weight: none
+Congress signal, low weight: Modest April 2026 House purchase disclosure in TXN provides a weak, secondary confirmation that the name is on institutional and policymaker radars but should not meaningfully a...
+
+2. BA (industrials / aerospace & defense) | confidence 0.60 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier monitor-only | bucket defensive-industrials
+Recommendation: watch
+Catalyst: Ongoing news flow around production inspections, delivery cadence, and regulatory oversight continues to drive sharp short-term price reactions, but no single, clean upside catalyst dominates the current tape.[market_regime]
+Chittick Cash: Given leverage, legal and regulatory overhangs, and execution uncertainty, the margin of safety is thin; valuation may appear low versus historical multiples but is justified by elevated risk.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=monitor-only repeat48h=1 fresh=yes bucket=defensive-industrials
+Social buzz, low weight: none
+Congress signal, low weight: none noted as thesis-relevant; any such trades would be treated strictly as weak, secondary context.
+
+3. MMED (healthcare) | confidence 0.58 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier monitor-only | bucket small-cap-healthcare | HF source 0/100 | HF veto
+Recommendation: avoid
+Catalyst: Recent 1-day and 7-day price gains appear to be driven largely by technical action without a clearly identified, durable fundamental catalyst.[market_regime]
+Chittick Cash: High volatility and limited transparency mean there is effectively no observable margin of safety; downside is hard to bound and not compensated by sufficiently reliable information.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=3
+Self-learning: tier=monitor-only repeat48h=1 fresh=yes bucket=small-cap-healthcare
+Social buzz, low weight: none
+Congress signal, low weight: none
 

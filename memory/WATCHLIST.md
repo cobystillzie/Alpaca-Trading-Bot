@@ -4,53 +4,52 @@
 {
   "candidates": [
     {
-      "adversary_case": "The strongest objection is that the catalyst stack is too soft for a 1\u201310 day swing: there is no imminent earnings or specific corporate news, and congressional buying is a weak, lagged signal; for a bot prioritizing clear, time-bounded catalysts, TXN may be better as a slow-burn owner-quality name than a short-horizon trade.",
-      "allocation_learning_note": "Given prior rejections tied to hype, leverage, and over-concentration in mega-cap or AI names, TXN is intentionally sized as a smaller, quality-cyclical idea with a soft catalyst stack rather than a primary execution target.",
-      "balance_sheet_risk": "Balance sheet is generally strong with manageable leverage and ample cash generation, unlike smaller, financially stressed tech names flagged in recent SEC reviews; dilution or going-concern issues are not front-of-mind risks.[5]",
-      "bear_case": "Risks include a slower-than-expected recovery in industrial and auto demand, pricing pressure in commoditized parts of the portfolio, potential capex or fab-investment overhang, and the possibility that investors rotate toward higher-beta AI leaders instead of conservative analog names, which could cap near-term upside.",
-      "capital_allocation_case": "Management has a long record of disciplined capex, share repurchases, and dividends, though some investors debate the timing and scale of fab investments; overall, capital allocation aligns reasonably well with owner-style thinking.",
-      "catalyst": "Soft but fresh catalysts: ongoing commentary about a gradual improvement in the analog/industrial semiconductor cycle and a recent disclosed congressional purchase (House member Thomas H. Kean Jr., Apr 14, 2026) that modestly reinforces positive institutional perception without being a primary driver.[5][10]",
-      "catalyst_type": "structural",
+      "adversary_case": "The setup may be too consensus and slow-moving for a 1\u201310 day swing: much of the semis-cyclical recovery narrative could already be priced in, leaving limited near-term edge versus just owning a broad semiconductor ETF; a macro shock or yield spike could quickly swamp the modest cycle tailwinds.",
+      "allocation_learning_note": "Previously sized at 6% with an 8% stop as a cautious, quality-biased semi-cycle expression; keep sizing modest and avoid upgrading to execution-ready absent a more discrete new catalyst such as earnings or explicit guidance revision.",
+      "balance_sheet_risk": "Net debt is manageable with strong free cash flow; the main risks are cyclical rather than balance-sheet-driven, with no near-term solvency concerns noted.[sec_quality]",
+      "bear_case": "If the semiconductor recovery stalls or macro data weaken, industrial/auto demand could soften, pressuring revenue and margins; higher-for-longer rates could compress sector multiples, and any inventory correction could trigger a pullback over a 1\u20133 week horizon.[market_regime]",
+      "capital_allocation_case": "Management has a history of disciplined capex for 300mm analog capacity, along with shareholder-friendly dividends and buybacks funded by robust free cash flow, aligning well with owner-minded capital allocation.",
+      "catalyst": "Gradual improvement commentary in the analog/industrial semiconductor cycle and a recently disclosed standard-size purchase by Rep. Thomas Kean Jr. provide incremental sentiment and flow support without being the primary thesis driver.[congressional_disclosures]",
+      "catalyst_type": "general",
       "chittick_cash_score": 75.0,
       "chittick_reject_reason": "",
-      "concentration_case": "For a diversified portfolio, TXN can justify a mid-single-digit allocation as a conservative semi anchor versus more volatile AI leaders or broad tech ETFs; however, concentration should be capped given cyclicality and only moderate near-term catalysts.",
+      "concentration_case": "Relative to a broad semiconductor ETF, TXN offers focused analog/industrial exposure with historically better downside resilience and lower hype risk than AI-leader names, making it a useful concentrated-quality complement in this regime.",
       "confidence": 0.62,
-      "congressional_signal": "Low-intensity positive: a standard-size purchase by a House member suggests mild incremental confidence but is too small and delayed to be a core driver.",
+      "congressional_signal": "Modest April 2026 House purchase disclosure in TXN provides a weak, secondary confirmation that the name is on institutional and policymaker radars but should not meaningfully affect the trade thesis.[congressional_disclosures]",
       "diversity_bucket": "semiconductors-analog",
-      "entry_plan": "Paper entry on a modest pullback toward a recent support or 5\u201310 day moving-average area after a green confirmation day (avoid chasing an intraday spike). Use limit-style logic around a small dip rather than market-on-open chasing; if price gaps sharply on thin news, skip rather than force entry.",
-      "exit_plan": "Profit-taking if the position reaches roughly 1.5\u20132x the defined downside (e.g., +12\u201316% vs. an 8% stop) or if short-term momentum deteriorates (high-volume reversal bar, break of short-term moving average). Invalidation if price closes below the stop-loss band or if a material negative fundamental update arrives (guidance cut, clear cycle rollover).",
+      "entry_plan": "For paper trading, plan a staggered entry on a modest intraday dip or flat open following a green close, aiming near the 5\u201310 day moving average with confirmation that volume stays at or above recent average and no negative company-specific headlines.",
+      "exit_plan": "Take profits into a 5\u20138% advance or a push into short-term overbought territory, or earlier if momentum stalls for multiple sessions with declining volume; cut the trade if price closes below the recent swing low or the 8% stop, or if fresh negative guidance/sector data emerge.",
       "fresh_catalyst": true,
-      "growth_runway": "30\u2013180 day drivers include incremental signs of recovery in industrial and auto orders and any commentary about capacity utilization or pricing; longer-term growth comes from increasing chip content per device and continued analog penetration in industrial automation and vehicles.",
+      "growth_runway": "Over 30\u2013180 days and beyond, secular content growth in industrial automation and automotive electronics, plus capacity expansions targeted at these end markets, support a credible growth runway if macro avoids a hard landing.",
       "hf_evidence_rank": 0.0,
       "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.1,
+      "hf_hype_risk": 0.0,
       "hf_memory_similarity": 0.0,
       "hf_model_notes": "",
       "hf_sentiment_agreement": 0.0,
       "hf_sentiment_label": "",
       "hf_sentiment_score": 0.0,
       "hf_source_quality_score": 0.0,
-      "horizon_days": 7,
-      "margin_of_safety_case": "Valuation is not distressed but appears reasonable for a high-quality analog franchise with a long demand runway; margin of safety is primarily business-quality based rather than deep value, which is acceptable if position sizing is kept moderate.",
-      "market_regime": "In a neutral-to-cautiously-risk-on regime driven by macro and earnings, TXN can act as a more defensive way to hold semiconductor exposure; however, if risk-off takes hold due to hawkish Fed or geopolitical shocks, cyclicals like semis could still sell off, though likely less violently than high-multiple AI names.",
-      "momentum_case": "Semiconductor sentiment has been gradually improving with expectations for a cyclical recovery, and TXN has participated as a higher-quality, lower-beta way to express this theme; while not a momentum rocket, the name has shown constructive behavior relative to more volatile peers, and fits a moderate-strength, evidence-backed swing setup rather than a parabolic move.[5][10]",
-      "owner_hold_case": "For a 30\u2013180 day thesis, an owner-style investor might hold through the early phase of a semi upcycle, monitoring order trends, utilization, and pricing while collecting dividends and potentially benefiting from multiple stability as macro visibility improves.",
-      "quality_case": "TXN has long-standing advantages in analog semis, including a broad product portfolio, in-house manufacturing, and diversified industrial/auto demand, which historically support strong margins and free cash flow; this profile resembles the kind of durable, high-ROIC business that aligns with Buffett/Munger-style quality discipline, as contrasted with more speculative, early-stage tech and capital-intensive stories highlighted in recent SEC filings reviews.[5]",
+      "horizon_days": 5,
+      "margin_of_safety_case": "Valuation is not deeply discounted but is reasonable for the quality and cycle position; strong balance sheet and recurring industrial/auto demand provide some downside buffer versus more speculative semis.",
+      "market_regime": "In a risk-on regime with tech/semis leadership but elevated rate risk, TXN offers somewhat lower beta than AI-focused digital semis, but remains exposed to factor rotations out of growth/tech or any sharp backup in yields.[market_regime]",
+      "momentum_case": "Price action has been consistent with early-cycle semi recovery: the stock has been outperforming broader indices over recent weeks with constructive higher-lows structure and healthy liquidity, but without parabolic, hype-driven moves that would signal late FOMO.[market_regime]",
+      "owner_hold_case": "An owner-style 30\u2013180 day thesis would emphasize the analog cycle recovery, industrial and auto secular content gains, and management\u2019s disciplined capital allocation; however, for this paper-trading lane, the focus should remain on a 3\u20137 day swing with periodic re-evaluation.",
+      "quality_case": "TXN has durable competitive advantages in analog and embedded processing, a long history of high returns on capital, and a conservative balance sheet with substantial free cash flow generation; its focus on industrial and automotive customers supports relatively sticky demand through cycles.[sec_quality]",
       "recommendation": "watch",
-      "repeat_count_48h": 1,
+      "repeat_count_48h": 2,
       "research_tier": "watch",
-      "risk_reward": "Moderate: upside is tied to a continued, steady semi-cycle improvement rather than explosive AI upside, but downside is cushioned by business quality and balance-sheet strength; risk/reward is acceptable for a cautious swing, not a home run.",
+      "risk_reward": "Roughly 1:1 to 1.5:1 over a 3\u20137 day window: upside is moderate but anchored in cycle improvement, while downside is protected by quality fundamentals and a predefined stop; not a home-run trade, but a solid incremental edge candidate.",
       "sector": "information-technology / semiconductors",
       "signal_weights": {
         "congressional_signal": 0.03,
         "social_buzz": 0.0
       },
       "social_buzz": "none",
-      "source_quality": "Evidence is drawn from reputable macro/sector commentary on the semiconductor cycle, congressional-disclosure data from specialized tracking platforms, and broad market news feeds rather than social media or listicles; however, there is no single hard near-term company-specific event, so the catalyst is softer than an earnings print.",
+      "source_quality": "Evidence rests on sector-cycle commentary, a disclosed but modest congressional purchase, and long-standing fundamentals from company/industry data; these are higher quality than social or listicle sources but do not include a brand-new earnings print today.[congressional_disclosures][market_regime]",
       "source_urls": [
-        "https://www.canadianminingreport.com/blog/what-s-next-for-silver-weekly-prediction-and-key-catalysts",
         "https://www.quiverquant.com/stock/TXN/",
-        "https://www.stocktitan.net/news/2026-05-25/"
+        "https://www.icmarkets.com/blog/ic-markets-global-asia-fundamental-forecast-25-may-2026/"
       ],
       "stop_loss_percent": 8.0,
       "strategy_tags": [
@@ -58,30 +57,30 @@
       ],
       "symbol": "TXN",
       "target_allocation_percent": 6.0,
-      "thesis": "Texas Instruments offers high-quality, cash-generative exposure to analog and embedded semiconductors with structural demand in industrial and automotive end markets, and a modest fresh catalyst from improving cycle expectations and a recent small congressional purchase that aligns with a gradual upturn narrative rather than speculative AI hype.",
-      "valuation_case": "TXN trades at a quality premium versus the broader market but often at a discount to high-flying AI semis; for a cautious investor, this represents an acceptable price for a durable compounder, though not a screaming bargain and thus unsuited to oversized allocation."
+      "thesis": "Texas Instruments is a high-quality analog semiconductor franchise benefiting from early-cycle signs of recovery in industrial and auto demand, with a clean balance sheet and disciplined capital allocation that fit a Buffett/Munger-style quality lens and a 5-day catalyst window via ongoing cycle-upgrade commentary and congressional purchase context.",
+      "valuation_case": "TXN typically trades at a premium to the broader market due to its high margins and capital discipline; current pricing appears fair to slightly rich but acceptable for a short-term swing anchored in cycle improvement and quality."
     },
     {
-      "adversary_case": "From a strict Chittick Cash and Buffett/Munger lens, BA should be excluded entirely until safety culture, balance sheet, and governance are clearly repaired; current upside is too dependent on event-driven sentiment in a business with a damaged quality profile.",
-      "allocation_learning_note": "Prior rejections around leverage, options, and speculative catalysts suggest BA\u2019s trust-driven profile should remain in a monitor-only lane until the business and balance sheet are clearly repaired.",
-      "balance_sheet_risk": "The balance sheet carries elevated leverage due to prior crises; while manageable in benign conditions, it adds risk in the event of further operational setbacks or macro shocks, reducing flexibility compared to net-cash quality names.",
-      "bear_case": "Key downside risks include further safety incidents, additional regulatory scrutiny, delays in production or inspections, customer compensation, balance-sheet strain from accumulated debt, and broader travel or macro slowdowns; structurally, the company is still in a multi-year repair phase rather than a stable growth compounder.[2]",
-      "capital_allocation_case": "Capital allocation has been constrained by the need to repair the balance sheet and manage crisis fallout; shareholder returns are secondary to survival and regulatory appeasement, which is misaligned with a classic owner-oriented capital allocation playbook.[2]",
-      "catalyst": "Ongoing news sensitivity to any update on production, inspections, and delivery cadence, with price reactions particularly strong when evidence emerges that customers and regulators are aligned with Boeing\u2019s plan to stabilize output.[2][10]",
+      "adversary_case": "A contrarian trader might argue that much of the bad news is already priced in and that any incremental positive development could trigger a sharp relief rally; however, this relies on timing and risk appetite not aligned with a disciplined quality-and-margin-of-safety approach.",
+      "allocation_learning_note": "Maintain BA as monitor-only due to prior rejections and risk profile; do not promote to trade_candidate until a clear de-risking event and improved balance-sheet visibility occur.",
+      "balance_sheet_risk": "Leverage and large off-balance-sheet obligations increase financial risk; any prolonged period of operational underperformance could pressure liquidity and credit metrics.",
+      "bear_case": "Further negative headlines on safety, regulatory sanctions, or delivery delays could trigger sharp drawdowns; leverage and large forward commitments limit margin of safety, and litigation or compensation costs could weigh on equity value.",
+      "capital_allocation_case": "Management\u2019s capital allocation is constrained by the need to repair the balance sheet and invest in safety and compliance; shareholder returns are a secondary priority until the franchise is rehabilitated.",
+      "catalyst": "Ongoing news flow around production inspections, delivery cadence, and regulatory oversight continues to drive sharp short-term price reactions, but no single, clean upside catalyst dominates the current tape.[market_regime]",
       "catalyst_type": "news",
       "chittick_cash_score": 55.0,
-      "chittick_reject_reason": "Trust- and event-driven equity with elevated safety, governance, and balance-sheet risk; fails the concentrated-quality and margin-of-safety standards for active deployment.",
-      "concentration_case": "Given the binary trust risk and weaker quality profile, BA does not deserve concentration versus higher-quality industrials or diversified defense names; any exposure, if ever reconsidered for trading, should be small and explicitly categorized as speculative.",
+      "chittick_reject_reason": "Insufficient margin of safety and high, binary operational and regulatory risks relative to available alternatives; fails long-only concentrated-quality test for anything beyond monitor-only.",
+      "concentration_case": "As a single-name industrial with idiosyncratic risks, BA does not currently offer a superior risk-adjusted proposition versus diversified aerospace/defense exposure for a quality-focused strategy.",
       "confidence": 0.6,
-      "congressional_signal": "none",
+      "congressional_signal": "none noted as thesis-relevant; any such trades would be treated strictly as weak, secondary context.",
       "diversity_bucket": "defensive-industrials",
-      "entry_plan": "Monitor-only: no paper-trade entry. If used as a case study, one would hypothetically look for high-volume positive trust events (e.g., regulator approvals, clear production milestones) after a prior sell-off, entering only after confirmation that the news is substantive and not just rumor.",
-      "exit_plan": "Monitor-only: no active exit plan. Conceptually, a trader would look to exit into strength after the market re-prices improved trust, or cut quickly if fresh safety or regulatory concerns emerge.",
+      "entry_plan": "No paper-trade entry is planned at this stage; BA should remain on a monitor-only list until the balance-sheet, regulatory, and execution-risk profile improves and a clearer, positive-sum catalyst is available.",
+      "exit_plan": "Not applicable for monitor-only; any future trade plan would require a discrete de-risking event such as a strong, clean earnings report and evidence of improved regulatory posture.",
       "fresh_catalyst": true,
-      "growth_runway": "30\u2013180 day growth or repair drivers center on achieving production milestones, improving delivery cadence, and evidencing a sustainable safety and quality culture; long term, demand for air travel and replacement aircraft remains robust, but capturing that runway depends on flawless execution.",
+      "growth_runway": "Long-term demand for air travel and defense spending supports a multi-year revenue runway, but realization depends on restoring trust with regulators and customers, and on managing production efficiently.",
       "hf_evidence_rank": 0.0,
       "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.2,
+      "hf_hype_risk": 0.0,
       "hf_memory_similarity": 0.0,
       "hf_model_notes": "",
       "hf_sentiment_agreement": 0.0,
@@ -89,25 +88,25 @@
       "hf_sentiment_score": 0.0,
       "hf_source_quality_score": 0.0,
       "horizon_days": 5,
-      "margin_of_safety_case": "While the stock may screen as cheap versus pre-crisis levels, the margin of safety is weak because downside scenarios (fines, further incidents, lost orders) are fat-tailed and difficult to handicap; valuation compression may not fully reflect trust and governance risk.[2]",
-      "market_regime": "In a cautious but not outright risk-off regime, BA can trade violently around idiosyncratic news but remains vulnerable if macro or risk sentiment deteriorate, as airlines and lessors could slow orders or negotiate harder on pricing.",
-      "momentum_case": "Momentum in BA has been choppy and news-driven: positive headlines about regulatory progress or delivery normalization can trigger sharp rallies, while any safety or quality concern can cause equally sharp drawdowns; this suits an event-driven swing style but conflicts with a pure quality-and-momentum blend.",
-      "owner_hold_case": "An owner-style 30\u2013180 day thesis would require clear evidence of sustained regulatory approval, stable production metrics, and de-leveraging progress, none of which are yet robust enough for a conviction-quality hold.",
-      "quality_case": "BA\u2019s franchise in commercial aviation and defense is strategically vital, but recent years have revealed acute governance, safety, and execution issues; the stock currently trades heavily on trust\u2014production reliability and regulator/customer confidence\u2014rather than on a clean, compounding-quality narrative, which is a material negative versus Chittick Cash-style quality standards.[2]",
+      "margin_of_safety_case": "Given leverage, legal and regulatory overhangs, and execution uncertainty, the margin of safety is thin; valuation may appear low versus historical multiples but is justified by elevated risk.",
+      "market_regime": "In the current risk-on but macro-uncertain regime, high-beta, event-driven industrials like BA can move violently on both company-specific and macro news; this amplifies gap risk and makes predefined stops less reliable.[market_regime]",
+      "momentum_case": "Price action has been choppy and highly sensitive to news, with rallies and selloffs tied to each incremental headline about production, inspections, or deliveries; this makes momentum unreliable for a disciplined, rules-based swing framework.",
+      "owner_hold_case": "An owner-style 30\u2013180 day thesis would require clear, repeated evidence of execution improvement, regulatory de-escalation, and measurable progress on deleveraging; those conditions are not sufficiently met for an owner-minded case today.",
+      "quality_case": "BA\u2019s franchise value in large commercial aircraft and defense systems is structurally high, but execution challenges, safety issues, and a heavily levered balance sheet significantly weaken the near-term quality profile relative to classic Buffett-style holdings.",
       "recommendation": "watch",
-      "repeat_count_48h": 0,
+      "repeat_count_48h": 1,
       "research_tier": "monitor-only",
-      "risk_reward": "Skewed and binary around trust events: upside can be significant on successful stabilization and regulatory alignment, but downside tail risk from further safety or governance failures remains large.",
+      "risk_reward": "Near-term risk/reward is skewed by binary headline risk; while upside could be substantial on good news, downside from further safety or regulatory setbacks is difficult to bound for a 1\u201310 day horizon.",
       "sector": "industrials / aerospace & defense",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
       "social_buzz": "none",
-      "source_quality": "Core characterization of BA\u2019s trading behavior and trust sensitivity comes from in-depth analytical commentary focused specifically on Boeing\u2019s history and current state, rather than from hype or listicles, providing a more reliable qualitative framework.[2]",
+      "source_quality": "Evidence is mostly from reputable financial news and official company/regulatory communications, which are high quality but describe an evolving, high-uncertainty situation without a clear, positive inflection today.[market_regime]",
       "source_urls": [
-        "https://verifiedinvesting.com/blogs/education/the-complete-ticker-boeing-ba-stock-analysis-from-ipo-to-impact",
-        "https://www.stocktitan.net/news/2026-05-25/"
+        "https://www.icmarkets.com/blog/ic-markets-global-asia-fundamental-forecast-25-may-2026/",
+        "https://www.punchng.com/market-volatility-and-trading-opportunities/?amp"
       ],
       "stop_loss_percent": 8.0,
       "strategy_tags": [
@@ -115,55 +114,59 @@
       ],
       "symbol": "BA",
       "target_allocation_percent": 0.0,
-      "thesis": "Boeing remains a strategically important aerospace and defense manufacturer where equity value is highly sensitive to incremental updates on safety, production, and regulatory trust; near-term, trading opportunities arise around newsflow on inspections, delivery cadence, and regulatory alignment, but the business-quality and balance-sheet profile is meaningfully weaker than classical Buffett/Munger compounders, warranting caution and monitor-only status.",
-      "valuation_case": "Valuation is highly path-dependent: if Boeing successfully executes on its stabilization plan, current levels might be attractive; if not, there is meaningful further downside; this uncertainty limits its suitability as a concentrated-quality holding."
+      "thesis": "Boeing is a critical aerospace and defense supplier with significant long-term demand from commercial and military customers, but it remains a complex, headline-driven turnaround; it is more suitable for cautious monitoring than for a high-conviction 1\u201310 day swing under a quality-and-margin-of-safety framework.",
+      "valuation_case": "Traditional multiples look depressed relative to pre-crisis norms, but those norms may no longer be an appropriate anchor given structural changes in perception of risk and the company\u2019s balance sheet."
     },
     {
-      "adversary_case": "A counter-argument is that early accumulation ahead of future catalysts can offer outsized returns, but given the strategy\u2019s focus on evidence-based iteration and quality, betting on unknown future news in a small name is outside mandate.",
-      "allocation_learning_note": "In light of prior rejections for micro-cap speculation and source-thin hype, MMED is deliberately categorized as an avoid/monitor-only example to reinforce the discipline of rejecting weak-evidence, momentum-only names.",
-      "balance_sheet_risk": "Balance-sheet strength or weakness is not meaningfully discussed, which itself is a red flag compared to the detailed risk assessment normally expected for inclusion; small healthcare names often carry meaningful funding and dilution risk.",
-      "bear_case": "Without a clear catalyst, strong fundamentals, or detailed disclosure about balance-sheet health, the risk is that momentum is purely speculative; the stock could mean-revert sharply, and any adverse company-specific news could have outsized price impact.",
-      "capital_allocation_case": "Insufficient information about management\u2019s capital-allocation discipline; given sector and scale, over-reliance on equity issuance or dilution would be a concern if investigated further.",
-      "catalyst": "Recent price action shows a 1-day gain of about 1.3% and a 7-day gain of roughly 9.1%, but coverage explicitly notes that the stock has been moving without a clear single news catalyst, suggesting that the move may be driven by technicals, illiquidity, or unspecific sentiment rather than fundamental developments.[9]",
+      "adversary_case": "A momentum-focused trader might argue that early moves in such names often precede fundamental news; however, the strategy explicitly avoids hype-driven, source-thin small caps without clear catalysts.",
+      "allocation_learning_note": "Reaffirm avoid/monitor-only status; using this as a negative example to reinforce that small-cap, source-thin momentum trades are outside the current strategy\u2019s acceptable universe.",
+      "balance_sheet_risk": "As is typical for smaller healthcare names, risks may include limited cash runway, potential dilution, and dependence on external financing, though granular details are not robustly sourced.",
+      "bear_case": "Without a clear, validated catalyst or strong balance-sheet and cash-flow support, the stock is vulnerable to rapid drawdowns, liquidity air pockets, and sentiment reversals typical of thinly traded small caps.",
+      "capital_allocation_case": "Insufficient high-quality information to evaluate management\u2019s capital allocation discipline, which is itself a red flag under the strategy constraints.",
+      "catalyst": "Recent 1-day and 7-day price gains appear to be driven largely by technical action without a clearly identified, durable fundamental catalyst.[market_regime]",
       "catalyst_type": "momentum",
       "chittick_cash_score": 40.0,
-      "chittick_reject_reason": "Hype/price-action-focused coverage without clear, fundamental catalysts or demonstrated quality; fails both margin-of-safety and evidence-based iteration requirements.",
-      "concentration_case": "Even if the name had stronger catalysts, its small size and limited disclosure would argue for only tiny allocations; under current evidence, it does not merit any capital versus higher-quality alternatives in other sectors.",
+      "chittick_reject_reason": "Fails multiple Chittick Cash filters: insufficient margin of safety, lack of clear growth runway, and weak evidence quality.",
+      "concentration_case": "Allocating to a speculative, low-visibility small cap offers worse risk-adjusted characteristics than focusing on higher-quality, better-documented names or ETFs.",
       "confidence": 0.58,
       "congressional_signal": "none",
       "diversity_bucket": "small-cap-healthcare",
-      "entry_plan": "Avoid: no paper-trade entry, as the move appears hype/flow-driven without strong, fundamental justification.",
-      "exit_plan": "Not applicable; if already held in a hypothetical scenario, a process-consistent approach would be to trim or exit into strength given the lack of clear fundamentals.",
+      "entry_plan": "No entry; the name should remain in an avoid/monitor bucket until and unless a high-quality, fundamental catalyst emerges and is supported by reputable filings or news.",
+      "exit_plan": "Not applicable; no position is recommended even for paper trading in the current framework.",
       "fresh_catalyst": true,
-      "growth_runway": "No clear 30\u2013180 day growth drivers are articulated in the coverage; long-term runway is speculative without stronger evidence.",
+      "growth_runway": "Any potential growth is highly uncertain and contingent on clinical, regulatory, or commercial developments that are not yet well-documented in high-quality sources.",
       "hf_evidence_rank": 0.0,
-      "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.5,
+      "hf_filter_vetoes": [
+        "micro_cap_speculation",
+        "no_fundamental_catalyst",
+        "HF source/hype filter rejects source-thin hype"
+      ],
+      "hf_hype_risk": 0.0,
       "hf_memory_similarity": 0.0,
       "hf_model_notes": "",
       "hf_sentiment_agreement": 0.0,
       "hf_sentiment_label": "",
       "hf_sentiment_score": 0.0,
       "hf_source_quality_score": 0.0,
-      "horizon_days": 5,
-      "margin_of_safety_case": "With limited visibility into earnings power, balance sheet, or competitive position, it is difficult to argue for any margin of safety; price appreciation alone is not sufficient.",
-      "market_regime": "In a macro environment where disciplined, catalyst-backed trades are preferred, a small-cap healthcare name moving without a clear news driver is inconsistent with the process and faces a higher risk of being whipsawed by broader risk sentiment.",
-      "momentum_case": "There is short-term positive momentum (up around 9% in a week), but in the absence of a clear, fundamental catalyst, this momentum is fragile and vulnerable to reversal, especially if liquidity is thin.[9]",
-      "owner_hold_case": "Absent clearer evidence of durable business drivers and a sound balance sheet, MMED is unsuitable for a 30\u2013180 day owner-style thesis in this framework.",
-      "quality_case": "Public commentary does not highlight durable competitive advantages, robust balance-sheet strength, or clear long-term growth drivers; instead, the focus is on recent price moves, which is misaligned with a quality-first, margin-of-safety approach.[9]",
+      "horizon_days": 3,
+      "margin_of_safety_case": "High volatility and limited transparency mean there is effectively no observable margin of safety; downside is hard to bound and not compensated by sufficiently reliable information.",
+      "market_regime": "In the current tech-led risk-on regime, speculative small caps can overshoot both up and down; with low-quality evidence and limited liquidity, MMED\u2019s tape is not a good fit for a disciplined, quality-biased swing framework.[market_regime]",
+      "momentum_case": "Short-term momentum is positive but appears fragile and potentially hype-driven, with a risk of sharp reversals in the absence of fundamental news.",
+      "owner_hold_case": "Currently fails the owner-style 30\u2013180 day thesis test; without clear filings, pipeline visibility, and balance-sheet strength, it should not be considered for any owner-oriented sleeve.",
+      "quality_case": "As a small-cap healthcare name with limited disclosure and coverage, MMED does not fit a Buffett/Munger-style quality screen focused on durable moats, strong free cash flow, and robust balance sheets.",
       "recommendation": "avoid",
-      "repeat_count_48h": 0,
+      "repeat_count_48h": 1,
       "research_tier": "monitor-only",
-      "risk_reward": "Asymmetric to the downside: limited evidence of durable fundamental upside, with high risk of reversal once technical buying or speculative interest fades.",
+      "risk_reward": "While upside could be large in a speculative scenario, the lack of clear fundamental support or high-quality data makes the trade\u2019s expected value and risk profile too uncertain for this process.",
       "sector": "healthcare",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
       "social_buzz": "none",
-      "source_quality": "Primary coverage is from a valuation- and price-move-focused article on a financial-analytics site; while not pure social media hype, it does not provide the depth of company filings, earnings, or detailed balance-sheet analysis required for conviction.[9]",
+      "source_quality": "Available commentary is sparse and leans toward price-chasing without robust, independent verification; this falls below the minimum source-quality bar for inclusion as a trade candidate.",
       "source_urls": [
-        "https://simplywall.st/stocks/us/healthcare/nasdaq-mmed/minimed-group/news/assessing-minimed-group-mmed-valuation-after-recent-share-pr/amp"
+        "https://www.punchng.com/market-volatility-and-trading-opportunities/?amp"
       ],
       "stop_loss_percent": 8.0,
       "strategy_tags": [
@@ -171,11 +174,11 @@
       ],
       "symbol": "MMED",
       "target_allocation_percent": 0.0,
-      "thesis": "MiniMed Group appears to be a small healthcare/medical name with a recent share-price move not clearly tied to a single, verifiable news catalyst, making it a useful negative screen example: despite short-term gains, the lack of strong, fundamental drivers and the presence of listicle-style coverage argue for avoiding it in a disciplined, evidence-based swing strategy.",
-      "valuation_case": "The referenced discussion centers on recent valuation after a share-price run, without tying it to long-term cash flows; this suggests more narrative than rigorous valuation work, which is inconsistent with the required process.[9]"
+      "thesis": "MMED has shown recent price strength but lacks clear, well-documented fundamental catalysts or high-quality sources; it does not meet the evidence and quality thresholds for execution and should remain an avoid/monitor-only name.",
+      "valuation_case": "Valuation is opaque due to thin coverage and uncertain fundamentals; price behavior suggests speculation rather than careful discounting of cash flows."
     }
   ],
-  "summary": "U.S. equities remain cautiously risk-on but highly event-driven, with macro data, Fed expectations, and late-season earnings as the main drivers; this favors disciplined, catalyst-backed swing trades in quality names over broad speculative risk."
+  "summary": "US equities remain in a tech-led, late-cycle bull regime with low volatility and elevated macro/geopolitical risk. Focus for paper trades should stay on high-quality, cash-generative names with clear catalysts and disciplined risk controls over 3\u20137 day horizons."
 }
 -->
 
@@ -1444,4 +1447,12 @@ No candidates.
 | TXN | information-technology / semiconductors | watch | semiconductors-analog | 1 | yes | 0.62 | 75 | 0 | 0 | 6.0% | 8.0% | watch | Soft but fresh catalysts: ongoing commentary about a gradual improvement in the analog/industrial semiconductor cycle and a recent disclosed congressional purch |
 | BA | industrials / aerospace & defense | monitor-only | defensive-industrials | 0 | yes | 0.60 | 55 | 0 | 0 | 0.0% | 8.0% | watch | Ongoing news sensitivity to any update on production, inspections, and delivery cadence, with price reactions particularly strong when evidence emerges that cus |
 | MMED | healthcare | monitor-only | small-cap-healthcare | 0 | yes | 0.58 | 40 | 0 | 0 | 0.0% | 8.0% | avoid | Recent price action shows a 1-day gain of about 1.3% and a 7-day gain of roughly 9.1%, but coverage explicitly notes that the stock has been moving without a cl |
+
+## Latest Candidates - 2026-05-25 17:57:49 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| TXN | information-technology / semiconductors | watch | semiconductors-analog | 2 | yes | 0.62 | 75 | 0 | 0 | 6.0% | 8.0% | watch | Gradual improvement commentary in the analog/industrial semiconductor cycle and a recently disclosed standard-size purchase by Rep. Thomas Kean Jr. provide incr |
+| BA | industrials / aerospace & defense | monitor-only | defensive-industrials | 1 | yes | 0.60 | 55 | 0 | 0 | 0.0% | 8.0% | watch | Ongoing news flow around production inspections, delivery cadence, and regulatory oversight continues to drive sharp short-term price reactions, but no single,  |
+| MMED | healthcare | monitor-only | small-cap-healthcare | 1 | yes | 0.58 | 40 | 0 | 3 | 0.0% | 8.0% | avoid | Recent 1-day and 7-day price gains appear to be driven largely by technical action without a clearly identified, durable fundamental catalyst.[market_regime] |
 
