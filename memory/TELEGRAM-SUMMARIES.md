@@ -19516,4 +19516,37 @@ Model notes: Previously tagged as a watch with a soft structural catalyst; kept 
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: https://www.tmx.com/, https://www.tmx.com/investor-relations, https://www.cmegroup.com/videos/2026/05/21/equity-futures-held-flat-as-manufacturing-data-contracted-5-21-.html
+## Research Update - 2026-05-25 13:55:08 Eastern Daylight Time
+
+Research Update
+
+Market tone: U.S. equities remain in a broadly risk‑on regime led by growth/tech, but at stretched levels with low surface volatility and elevated macro/geopolitical risks, arguing for cautious, tight‑risk swing setups rather than aggressive allocation.
+Candidates: 3
+
+1. INTU (information-technology / application software & fintech) | confidence 0.71 | allocation 0.0% | stop 8.0% | Chittick 78/100 | tier monitor-only | bucket large-cap-software-fintech | HF source 0/100
+Recommendation: execute-if-guards-pass
+Catalyst: Recent company guidance update raised full-year adjusted EPS outlook and announced restructuring/efficiency steps, which can expand margins and improve earnings sentiment over the next few weeks.
+Chittick Cash: As a quality compounder with strong cash flows, INTU tends to trade at a premium multiple; the recent guidance uplift improves earnings power, partially offsetting valuation risk, but this is not a deep-value setup an...
+HF filter: sentiment=not run source=0/100 hype=0.20 vetoes=0
+Self-learning: tier=monitor-only repeat48h=5 fresh=yes bucket=large-cap-software-fintech
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. BAH (industrials / government & defense consulting) | confidence 0.63 | allocation 0.0% | stop 8.0% | Chittick 70/100 | tier monitor-only | bucket defensive-industrials | HF source 0/100
+Recommendation: watch
+Catalyst: Earnings timing and related commentary on federal IT, cyber, and defense-contract pipelines; any upside guidance or notable contract wins/extensions can re-rate the stock and drive a 3–10 day move.
+Chittick Cash: Steady cash flows and government-backed demand offer some downside protection, but the stock is not deeply discounted; margin of safety is based more on business resilience than on a statistically cheap multiple.
+HF filter: sentiment=not run source=0/100 hype=0.10 vetoes=0
+Self-learning: tier=monitor-only repeat48h=4 fresh=yes bucket=defensive-industrials
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. TXN (information-technology / semiconductors) | confidence 0.62 | allocation 6.0% | stop 8.0% | Chittick 75/100 | tier watch | bucket semiconductors-analog | HF source 0/100
+Recommendation: watch
+Catalyst: Gradual improvement in semiconductor cycle expectations, particularly in analog/industrial, and recent congressional-trading disclosure of a modest purchase as a weak secondary signal rather than a primary driver.
+Chittick Cash: TXN’s strong balance sheet, cash generation, and diversified end-markets provide a solid margin of safety relative to many growth semis, though valuation is not distressed; downside is cushioned more by business resil...
+HF filter: sentiment=not run source=0/100 hype=0.10 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=semiconductors-analog
+Social buzz, low weight: none
+Congress signal, low weight: Recent small purchase disclosed by a member of Congress, treated strictly as low-weight secondary sentiment context.
 

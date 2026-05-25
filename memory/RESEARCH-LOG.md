@@ -1116,4 +1116,9 @@ Premarket plan built from latest watchlist.
   rejects: Candidate references banned v1 instruments or leverage.; Candidate is monitor-only and cannot be traded.; Target allocation must be between 1% and 15%.
 - TMXX.F: score=75, base=90, chittick=68, approved=False, allocation=0.0%, stop=8.0%
   rejects: Candidate references banned v1 instruments or leverage.; Candidate is monitor-only and cannot be traded.; Confidence below 0.60.; Target allocation must be between 1% and 15%.
+## Two-Hour Research Agent - 2026-05-25 13:55:08 Eastern Daylight Time
+
+U.S. equities remain in a broadly risk‑on regime led by growth/tech, but at stretched levels with low surface volatility and elevated macro/geopolitical risks, arguing for cautious, tight‑risk swing setups rather than aggressive allocation.
+
+Candidates found: 3
 
