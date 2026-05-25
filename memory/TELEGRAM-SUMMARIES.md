@@ -19549,4 +19549,37 @@ HF filter: sentiment=not run source=0/100 hype=0.10 vetoes=0
 Self-learning: tier=watch repeat48h=0 fresh=yes bucket=semiconductors-analog
 Social buzz, low weight: none
 Congress signal, low weight: Recent small purchase disclosed by a member of Congress, treated strictly as low-weight secondary sentiment context.
+## Research Update - 2026-05-25 15:56:38 Eastern Daylight Time
+
+Research Update
+
+Market tone: U.S. equities remain cautiously risk-on but highly event-driven, with macro data, Fed expectations, and late-season earnings as the main drivers; this favors disciplined, catalyst-backed swing trades in quality names over broad speculative risk.
+Candidates: 3
+
+1. TXN (information-technology / semiconductors) | confidence 0.62 | allocation 6.0% | stop 8.0% | Chittick 75/100 | tier watch | bucket semiconductors-analog
+Recommendation: watch
+Catalyst: Soft but fresh catalysts: ongoing commentary about a gradual improvement in the analog/industrial semiconductor cycle and a recent disclosed congressional purchase (House member Thomas H. Kean Jr., Apr 14, 2026) that modestly reinforces...
+Chittick Cash: Valuation is not distressed but appears reasonable for a high-quality analog franchise with a long demand runway; margin of safety is primarily business-quality based rather than deep value, which is acceptable if pos...
+HF filter: sentiment=not run source=0/100 hype=0.10 vetoes=0
+Self-learning: tier=watch repeat48h=1 fresh=yes bucket=semiconductors-analog
+Social buzz, low weight: none
+Congress signal, low weight: Low-intensity positive: a standard-size purchase by a House member suggests mild incremental confidence but is too small and delayed to be a core driver.
+
+2. BA (industrials / aerospace & defense) | confidence 0.60 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier monitor-only | bucket defensive-industrials
+Recommendation: watch
+Catalyst: Ongoing news sensitivity to any update on production, inspections, and delivery cadence, with price reactions particularly strong when evidence emerges that customers and regulators are aligned with Boeing’s plan to stabilize output.[2][10]
+Chittick Cash: While the stock may screen as cheap versus pre-crisis levels, the margin of safety is weak because downside scenarios (fines, further incidents, lost orders) are fat-tailed and difficult to handicap; valuation compres...
+HF filter: sentiment=not run source=0/100 hype=0.20 vetoes=0
+Self-learning: tier=monitor-only repeat48h=0 fresh=yes bucket=defensive-industrials
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. MMED (healthcare) | confidence 0.58 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier monitor-only | bucket small-cap-healthcare
+Recommendation: avoid
+Catalyst: Recent price action shows a 1-day gain of about 1.3% and a 7-day gain of roughly 9.1%, but coverage explicitly notes that the stock has been moving without a clear single news catalyst, suggesting that the move may be driven by technical...
+Chittick Cash: With limited visibility into earnings power, balance sheet, or competitive position, it is difficult to argue for any margin of safety; price appreciation alone is not sufficient.
+HF filter: sentiment=not run source=0/100 hype=0.50 vetoes=0
+Self-learning: tier=monitor-only repeat48h=0 fresh=yes bucket=small-cap-healthcare
+Social buzz, low weight: none
+Congress signal, low weight: none
 

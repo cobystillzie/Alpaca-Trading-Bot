@@ -1121,4 +1121,9 @@ Premarket plan built from latest watchlist.
 U.S. equities remain in a broadly risk‑on regime led by growth/tech, but at stretched levels with low surface volatility and elevated macro/geopolitical risks, arguing for cautious, tight‑risk swing setups rather than aggressive allocation.
 
 Candidates found: 3
+## Two-Hour Research Agent - 2026-05-25 15:56:38 Eastern Daylight Time
+
+U.S. equities remain cautiously risk-on but highly event-driven, with macro data, Fed expectations, and late-season earnings as the main drivers; this favors disciplined, catalyst-backed swing trades in quality names over broad speculative risk.
+
+Candidates found: 3
 
