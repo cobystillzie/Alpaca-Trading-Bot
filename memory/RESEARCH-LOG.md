@@ -1151,4 +1151,14 @@ Candidates found: 3
 US equities remain in a narrow risk-on bull trend driven by mega-cap tech and AI themes, but with stretched valuations, rising rate expectations, and elevated event risk arguing for disciplined, catalyst-driven swing trades with clearly defined risk.
 
 Candidates found: 3
+## Premarket Plan - 2026-05-26 08:18:26 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- UPS: score=78, base=85, chittick=73, approved=False, allocation=6.0%, stop=8.0%
+  rejects: Candidate references banned v1 instruments or leverage.
+- VOYA: score=77, base=85, chittick=70, approved=False, allocation=5.0%, stop=7.0%
+  rejects: Candidate references banned v1 instruments or leverage.
+- AGI: score=76, base=85, chittick=65, approved=False, allocation=0.0%, stop=9.0%
+  rejects: Target allocation must be between 1% and 15%.
 
