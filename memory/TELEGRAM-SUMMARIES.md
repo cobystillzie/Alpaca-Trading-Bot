@@ -20011,4 +20011,37 @@ HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=3
 Self-learning: tier=monitor-only repeat48h=1 fresh=yes bucket=small-cap-healthcare
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-25 20:00:26 Eastern Daylight Time
+
+Research Update
+
+Market tone: U.S. equities remain near highs with volatility compressed and macro risk skewed to upcoming inflation/Fed data, so new swing trades should be small, catalyst‑driven, and tightly risk‑managed rather than broad risk‑on exposure.
+Candidates: 3
+
+1. TXN (information-technology / semiconductors) | confidence 0.62 | allocation 6.0% | stop 8.0% | Chittick 75/100 | tier watch | bucket semiconductors-analog | HF source 0/100
+Recommendation: watch
+Catalyst: Ongoing management and industry commentary about a slow-but-positive inflection in industrial and auto semiconductor demand, plus a recent standard-size congressional purchase disclosure that modestly reinforces institutional confidence.
+Chittick Cash: Valuation is not distressed but is supported by durable cash flows and a strong balance sheet, giving some margin of safety versus more speculative semis if the cycle merely muddles through.
+HF filter: sentiment=not run source=0/100 hype=0.10 vetoes=0
+Self-learning: tier=watch repeat48h=3 fresh=yes bucket=semiconductors-analog
+Social buzz, low weight: none
+Congress signal, low weight: Single recent standard-size House member purchase disclosure (Thomas Kean Jr.) provides a weak, delayed confidence signal and should not be treated as directional.
+
+2. BA (industrials / aerospace & defense) | confidence 0.60 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier monitor-only | bucket defensive-industrials | HF source 0/100
+Recommendation: watch
+Catalyst: Ongoing news flow around production inspections, FAA and international regulatory updates, and large airline delivery and order announcements that repeatedly generate sharp daily price swings.
+Chittick Cash: Given operational, legal, and balance-sheet uncertainties, there is insufficient margin of safety for an owner-style thesis despite the strategic franchise value.
+HF filter: sentiment=not run source=0/100 hype=0.30 vetoes=0
+Self-learning: tier=monitor-only repeat48h=2 fresh=yes bucket=defensive-industrials
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. MMED (healthcare) | confidence 0.58 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier monitor-only | bucket small-cap-healthcare | HF source 0/100 | HF veto
+Recommendation: avoid
+Catalyst: No identifiable single fundamental catalyst; recent price appreciation has occurred without clear news, according to coverage that explicitly flags the move as unexplained by events.[3]
+Chittick Cash: Lack of robust, independently verified financial disclosure in the current source set means margin of safety cannot be credibly assessed, which for a Chittick/Buffett lens is effectively disqualifying.
+HF filter: sentiment=not run source=0/100 hype=0.30 vetoes=3
+Self-learning: tier=monitor-only repeat48h=2 fresh=no bucket=small-cap-healthcare
+Social buzz, low weight: none
+Congress signal, low weight: none
 
