@@ -20759,4 +20759,37 @@ HF filter: sentiment=mixed source=1/100 hype=0.12 vetoes=0
 Self-learning: tier=watch repeat48h=2 fresh=no bucket=materials-precious-metals
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-26 16:28:40 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities sit in a cautiously constructive tape: growth and AI-linked names still lead, but demand for defensives and low-volatility exposures shows investors are not fully risk-on.
+Candidates: 3
+
+1. AAPL (technology / consumer electronics and platforms) | confidence 0.69 | allocation 6.0% | stop 6.0% | Chittick 70/100 | tier execution-ready | bucket mega-cap-consumer-platform | HF source 0/100
+Recommendation: execute-if-guards-pass
+Catalyst: Recent break to new 52-week highs with strong trading volume and ongoing investor focus on AI features, services growth, and potential device upgrade cycle; this acts as a momentum plus narrative catalyst over the next several sessions.
+Chittick Cash: On a pure value lens, Apple is not deeply discounted, but its balance sheet strength, recurring services, and buybacks provide a structural margin-of-safety versus more cyclical or leveraged tech; for a 5–7 day swing...
+HF filter: sentiment=not run source=0/100 hype=0.20 vetoes=0
+Self-learning: tier=execution-ready repeat48h=1 fresh=yes bucket=mega-cap-consumer-platform
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. STC (financials / property and casualty related services) | confidence 0.74 | allocation 7.0% | stop 7.0% | Chittick 71/100 | tier execution-ready | bucket financials-property-services | HF source 0/100
+Recommendation: execute-if-guards-pass
+Catalyst: Most recent quarterly results showed approximately 27–28% year-over-year revenue growth with beats on both earnings and revenue, which has renewed investor attention and supports a follow-through earnings-catalyst swing setup.
+Chittick Cash: Relative to more speculative financials, STC’s earnings visibility is anchored in a regulated niche and recent outperformance; however, cyclicality means margin-of-safety is more about position sizing and tight stops...
+HF filter: sentiment=not run source=0/100 hype=0.25 vetoes=0
+Self-learning: tier=execution-ready repeat48h=1 fresh=yes bucket=financials-property-services
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. AGI (materials / gold mining) | confidence 0.62 | allocation 0.0% | stop 9.0% | Chittick 35/100 | tier watch-allocation-constrained | bucket materials-precious-metals | HF source 0/100
+Recommendation: watch
+Catalyst: No new discrete short-term operating catalyst is identified in the latest context; the thesis rests on valuation support and the potential for gold-price or sentiment shifts rather than a specific event.
+Chittick Cash: Valuation has been discussed as at a discount to estimated fair value, and the company’s relative quality in the gold space adds some margin-of-safety versus weaker miners; however, commodity exposure limits downside...
+HF filter: sentiment=not run source=0/100 hype=0.15 vetoes=0
+Self-learning: tier=watch-allocation-constrained repeat48h=3 fresh=yes bucket=materials-precious-metals
+Social buzz, low weight: none
+Congress signal, low weight: none
 
