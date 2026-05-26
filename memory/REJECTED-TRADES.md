@@ -252,4 +252,17 @@ Candidate references banned v1 instruments or leverage.
 ## Rejected AGI - 2026-05-26 09:48:01 Eastern Daylight Time
 
 Target allocation must be between 1% and 15%.
+## Rejected UPS - 2026-05-26 09:55:03 Eastern Daylight Time
+
+Candidate references banned v1 instruments or leverage.
+Candidate is monitor-only and cannot be traded.
+Target allocation must be between 1% and 15%.
+## Rejected VOYA - 2026-05-26 09:55:03 Eastern Daylight Time
+
+Candidate references banned v1 instruments or leverage.
+Candidate is monitor-only and cannot be traded.
+Target allocation must be between 1% and 15%.
+## Rejected AGI - 2026-05-26 09:55:03 Eastern Daylight Time
+
+Target allocation must be between 1% and 15%.
 
