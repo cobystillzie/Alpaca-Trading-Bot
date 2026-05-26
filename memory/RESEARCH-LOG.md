@@ -1161,4 +1161,14 @@ Premarket plan built from latest watchlist.
   rejects: Candidate references banned v1 instruments or leverage.
 - AGI: score=76, base=85, chittick=65, approved=False, allocation=0.0%, stop=9.0%
   rejects: Target allocation must be between 1% and 15%.
+## Premarket Plan - 2026-05-26 08:25:01 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- UPS: score=78, base=85, chittick=73, approved=False, allocation=6.0%, stop=8.0%
+  rejects: Candidate references banned v1 instruments or leverage.
+- VOYA: score=77, base=85, chittick=70, approved=False, allocation=5.0%, stop=7.0%
+  rejects: Candidate references banned v1 instruments or leverage.
+- AGI: score=76, base=85, chittick=65, approved=False, allocation=0.0%, stop=9.0%
+  rejects: Target allocation must be between 1% and 15%.
 
