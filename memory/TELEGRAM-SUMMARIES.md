@@ -20792,4 +20792,201 @@ HF filter: sentiment=not run source=0/100 hype=0.15 vetoes=0
 Self-learning: tier=watch-allocation-constrained repeat48h=3 fresh=yes bucket=materials-precious-metals
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Performance Ledger - 2026-05-26 16:30:06 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-05-26 16:30:05 Eastern Daylight Time
+- Portfolio value: $100,206.87
+- P/L vs $100k baseline: $206.87
+- Full paper-account return: 0.207%
+- Managed-capital return: 2.07%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 3.69%
+- Latest position value: $5,806.87
+- Full-account cash reserve: 94.2%
+- Managed-capital cash reserve: 41.9%
+- Max snapshot drawdown: $135.30 from 2026-05-08 16:30:03 Eastern Daylight Time to 2026-05-21 21:16:10 Eastern Daylight Time
+
+Open Position Review
+- DT: winner, value $821.91, unrealized P/L $21.91, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 18 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: loser, value $469.71, unrealized P/L $-30.29, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 19 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: winner, value $834.58, unrealized P/L $34.58, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 26 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- IBRX: loser, value $556.79, unrealized P/L $-43.21, entry 2026-05-11 09:48:18 Eastern Daylight Time, thesis age 15 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: winner, value $522.03, unrealized P/L $22.03, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 14 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: winner, value $859.01, unrealized P/L $59.01, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 25 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $824.98, unrealized P/L $24.98, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 20 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $917.85, unrealized P/L $117.85, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 28 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- SCHD: appeared 34 times; open position P/L $24.98.
+- INTC: appeared 32 times; market outcome unavailable until benchmark/candidate price history is captured.
+- SPMO: appeared 32 times; open position P/L $117.85.
+- NVDA: appeared 29 times; open position P/L $59.01.
+- GOOGL: appeared 26 times; open position P/L $34.58.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- UNP: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VALN: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- GLD: appeared 9 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Candidate references banned v1 instruments or leverage.: 14
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 9
+  - Single-stock allocation would exceed 15%.: 7
+  - A market-open order is already logged for today. No backup order was placed.: 5
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources.: 5
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Confidence below 0.60. Target allocation must be between 1% and 15%.: 3
+  - Max open-position count would be exceeded.: 3
+  - Candidate references banned v1 instruments or leverage. Confidence below 0.60. Target allocation must be between 1% and 15%.: 2
+- By symbol:
+  - INTU: 5
+  - BAH: 3
+  - GOOGL: 3
+  - PLTR: 3
+  - TMXX.F: 3
+  - AGI: 2
+  - COIN: 2
+  - FLEX: 2
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 0
+- No source URLs are stored for latest candidates.
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold met: 8 trades over 28 days.
+- Strategy tuning may be reviewed, but safety guardrails still apply.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## End Of Day Memo - 2026-05-26 16:30:07 Eastern Daylight Time
+
+End Of Day Analyst Memo
+
+Recommendation: Carry forward only evidence-backed candidates; review stops before the next market-open run.
+
+Market Regime
+End-of-day review of paper portfolio, trade quality, risk notes, and next-day watchlist.
+
+Portfolio
+Portfolio value: 100206.87 Cash: 94400 Buying power: 194606.87 Positions: - DT: qty=20.289119959, market_value=821.91225, unrealized_pl=21.91225 - GLRE: qty=28.042624789, market_value=469.713965, unrealized_pl=-30.286035 - GOOGL: qty=2.151289429, market_value=834.582838, unrealized_pl=34.582838 - IBRX: qty=70.838252656, market_value=556.788666, unrealized_pl=-43.211334 - LNC: qty=14.590020426, market_value=522.030931, unrealized_pl=22.030931 - NVDA: qty=4.00060009, market_value=859.008851, unrealized_pl=59.008851 - SCHD: qty=25.2286345, market_value=824.976348, unrealized_pl=24.976348 - SPMO: qty=6.119014838, market_value=917.852226, unrealized_pl=117.852226 Performance: value $100,206.87, P/L vs $100k $206.87, managed return 2.07%, deployed return 3.69%, managed cash reserve 41.9%.
+
+Top Candidates
+
+1. AAPL (technology / consumer electronics and platforms) | confidence 0.69 | allocation 6.0% | stop 6.0% | Chittick 70/100 | tier execution-ready | bucket mega-cap-consumer-platform | HF source 0/100
+Thesis: Apple is a dominant, cash-generative consumer platform and services business benefiting from ecosystem lock-in, rising high-margin services, and AI-related upgrade narratives, while the stock recently printed fresh 52-week highs that confirm renewed momentum.
+Catalyst: Recent break to new 52-week highs with strong trading volume and ongoing investor focus on AI features, services growth, and potential device upgrade cycle; this acts as a momentum plus narrative catalyst over the next several sessions.
+Entry: For paper trading, consider a staggered entry on a mild intraday or 1–2 day pullback toward short-term support (e.g., 2–3% below recent high); avoid chasing extended intraday spikes and prefer limit orders near prior breakout or short-term moving-average su...
+Exit: Take partial profits if the stock moves roughly 5–7% above entry within 3–7 trading days or shows a sharp reversal on heavy volume; invalidate the trade and exit if price closes about 6% below entry or loses key short-term support on above-average volume.
+Risk/reward: This is a moderate-upside, moderate-downside swing: aiming to risk about 1 unit of loss for roughly 1–1.5 units of short-term gain, with the underlying business quality reducing tail-risk compared with more speculative momentum names.
+Bear/adversary: A skeptical view would argue that Apple’s multiple already discounts much of the AI and services growth story, iPhone replacement cycles are lengthening, regulatory headwinds could pressure App Store economics, and a broad de-rating of mega-cap tech could cause short-term drawdowns that overwhelm...
+Source quality: Evidence is based on widely reported, liquid, mega-cap fundamentals and recent price action rather than thin or promotional sources; while no live quotes are available here, the quality of the underlying business data and historical trading behavior is high.
+Chittick Cash Filter
+Score: 70/100
+Margin of safety: On a pure value lens, Apple is not deeply discounted, but its balance sheet strength, recurring services, and buybacks provide a structural margin-of-safety versus more cyclical or leveraged tech; for a 5–7 day swing the margin-of-safety...
+Valuation: Valuation is likely at or above long-term averages for a mature mega-cap, but investors continue to pay for quality, ecosystem lock-in, and AI/service optionality; this is acceptable for a short-horizon swing provided stops are disciplin...
+Growth runway: Over 30–180 days, drivers include potential AI feature rollouts across devices, continued services expansion, and any signs of a stronger hardware upgrade cycle; longer-term growth will hinge on monetizing installed base, wearables, and...
+Balance-sheet risk: Apple carries a strong balance sheet with significant cash generation and manageable debt, reducing liquidity and solvency risk and making it resilient through macro volatility.
+Capital allocation: Management has a long record of large-scale buybacks and dividends while continuing to invest in R&D and ecosystem expansion, which is generally aligned with owner-minded capital allocation.
+Concentration case: As a single mega-cap exposure, AAPL is more concentrated than an ETF but offers targeted access to high-quality consumer-tech cash flows that broad funds may underweight; given prior allocation constraints in other mega-caps, size should...
+Owner thesis, 30-180 days: An owner-style 30–180 day thesis would focus on sustained services growth, AI-and-device-upgrade catalysts, and continued capital returns, with an eye to trimming if regulatory or growth disappointments cause material de-rating.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: momentum/structural
+Fresh catalyst: yes
+Repeat count, 48h: 2
+Diversity bucket: mega-cap-consumer-platform
+Research tier: execution-ready
+Allocation learning: Given previous allocation constraints in other mega-caps, keep position sizing moderate to preserve capacity for non-tech and defensive additions.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.20
+Evidence rank: 0/100
+Memory similarity: 0.00
+Vetoes: none
+Model notes: Carries some AI/mega-cap hype risk, but underlying quality and liquidity are strong; thesis does not rely on social buzz or congressional signals.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
+
+2. STC (financials / property and casualty related services) | confidence 0.74 | allocation 7.0% | stop 7.0% | Chittick 71/100 | tier execution-ready | bucket financials-property-services | HF source 0/100
+Thesis: Stewart Information Services is a title insurance and real-estate services company that recently reported strong double-digit revenue growth and earnings beats, offering a quality financial-services exposure with a concrete earnings catalyst and a more cyclical, housing-linked profile distinct from mega-cap tech.
+Catalyst: Most recent quarterly results showed approximately 27–28% year-over-year revenue growth with beats on both earnings and revenue, which has renewed investor attention and supports a follow-through earnings-catalyst swing setup.
+Entry: For paper trading, look to enter on a controlled pullback toward the post-earnings gap or support zone rather than at the peak of the initial spike, using limit orders around recent consolidation levels that hold above the earnings-day low.
+Exit: Take profits if the stock advances roughly 7–9% from entry within 4–8 trading days or starts to stall with lower highs on declining volume; cut the trade if price closes about 7% below entry or breaks decisively below the earnings reaction low.
+Risk/reward: Risk-reward is moderately favorable: risking roughly 1 unit to target ~1.2–1.3 units, with a defined earnings reference level for invalidation and upside if the market continues repricing improved fundamentals.
+Bear/adversary: A cautious analyst would argue that title-insurance earnings are cyclical, the recent beat may reflect transient mix or volume factors, and any reversal in housing activity or uptick in rates could cause investors to fade the post-earnings enthusiasm quickly.
+Source quality: Catalyst and business description are anchored in formal earnings reporting and mainstream financial coverage rather than promotional sources; liquidity is decent but not mega-cap level, so execution discipline is important.
+Chittick Cash Filter
+Score: 71/100
+Margin of safety: Relative to more speculative financials, STC’s earnings visibility is anchored in a regulated niche and recent outperformance; however, cyclicality means margin-of-safety is more about position sizing and tight stops than about structura...
+Valuation: After a strong earnings beat, valuation may have rerated closer to peers, but absent evidence of a speculative spike the multiple appears supported by fresh fundamentals; for a 5–7 day swing, valuation is a secondary guardrail rather tha...
+Growth runway: Over 30–180 days, a sustained housing and transaction rebound, potential share gains, and efficiency improvements could support continued earnings momentum, though exposure remains tied to macro and interest-rate conditions.
+Balance-sheet risk: As a financial-services firm, its balance sheet needs monitoring, but current context does not point to acute leverage or solvency stress; primary risk is cyclical earnings variability rather than imminent financial d...
+Capital allocation: Management has navigated a challenging housing environment and appears to prioritize profitable growth and shareholder returns, though it lacks the fortress-cash profile of mega-cap tech; buybacks or dividends, where...
+Concentration case: This position offers sector diversification away from tech and gives targeted exposure to housing and real-estate activity that broad ETFs may dilute; however, the cyclical and narrower business profile argues for a mid-sized, not oversi...
+Owner thesis, 30-180 days: A 30–180 day owner-style thesis would center on a housing-activity normalization, stable or lower rates, and evidence that the recent earnings strength is not a one-off, with reassessment if transaction data or future guidance turn materially weaker.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 2
+Diversity bucket: financials-property-services
+Research tier: execution-ready
+Allocation learning: Provides non-tech, non-ETF diversification with an earnings-linked edge; size moderately to respect cyclical risk and portfolio concentration limits.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.25
+Evidence rank: 0/100
+Memory similarity: 0.00
+Vetoes: none
+Model notes: Fundamental catalyst is a concrete earnings beat rather than hype; some cyclicality and lower liquidity increase risk versus mega-caps, but evidence base is fundamentally grounded.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
+
+3. AGI (materials / gold mining) | confidence 0.62 | allocation 0.0% | stop 9.0% | Chittick 35/100 | tier watch-allocation-constrained | bucket materials-precious-metals | HF source 0/100
+Thesis: Alamos Gold offers quality-focused exposure to gold mining with relatively strong fundamentals and a valuation that has been cited as discounted to fair value, providing a defensive and diversification complement to tech and financials, albeit without a fresh near-term operating catalyst.
+Catalyst: No new discrete short-term operating catalyst is identified in the latest context; the thesis rests on valuation support and the potential for gold-price or sentiment shifts rather than a specific event.
+Entry: No execution plan at this stage; keep on watch and re-evaluate if a clear company-specific catalyst emerges (earnings, guidance change, major project update) or if a strong gold-price breakout aligns with improving volume and relative strength.
+Exit: Not applicable for monitor-only; any future trade plan would need a defined stop based on technical levels and thesis invalidation tied to either gold-price breakdown or negative company-specific developments.
+Risk/reward: Potentially favorable medium-term upside if valuation converges toward fair value and gold remains supported, but near-term risk-reward for a 1–10 day swing is not compelling without a discrete catalyst or momentum confirmation.
+Bear/adversary: A critical stance would be that absent a fresh catalyst, holding a single miner for a short swing simply adds idiosyncratic and commodity risk without a clear timing edge, and that defensive or gold exposure is better obtained through broader, more liquid vehicles or after a clear technical trigger.
+Source quality: Current view is drawn from prior valuation-oriented coverage and general sector knowledge rather than fresh filings or news; evidence is therefore weaker for short-term trading decisions and better suited to slower-moving owner-style analysis.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Valuation has been discussed as at a discount to estimated fair value, and the company’s relative quality in the gold space adds some margin-of-safety versus weaker miners; however, commodity exposure limits downside protection if gold s...
+Valuation: The stock has been covered as undervalued relative to consensus fair value estimates, which helps for medium-term ownership but is not sufficient on its own to justify a short-term swing entry without confirming price action.
+Growth runway: Over 30–180 days and beyond, growth depends on successful execution of development projects, reserve additions, and maintaining cost discipline while benefiting from supportive gold prices.
+Balance-sheet risk: AGI is viewed as having a healthier balance sheet than many peers, with less leverage and better ability to withstand down cycles, though all miners face exposure to capex and operating-cost variability.
+Capital allocation: Management’s challenge is to balance reinvestment in projects, potential dividends or buybacks, and disciplined M&A; prior commentary suggests a more quality-focused posture than some peers, but this still carries sec...
+Concentration case: As a single gold-miner position, AGI would add concentrated commodity and company risk; it is better treated as a small diversifier rather than a core holding versus broader ETFs or higher-quality compounders.
+Owner thesis, 30-180 days: An owner-style 30–180 day thesis would involve maintaining a small position as a valuation-plus-gold-hedge play, with re-evaluation based on gold trends, project execution, and any major corporate developments.
+Chittick reject reason: No fresh operating catalyst or clear short-term momentum, so it does not meet the bar for a 1–10 day swing entry under the current rules.
+Self-Learning Filter
+Catalyst type: general
+Fresh catalyst: yes
+Repeat count, 48h: 4
+Diversity bucket: materials-precious-metals
+Research tier: watch-allocation-constrained
+Allocation learning: Previously rejected on allocation grounds; any future position should be small and sized as a diversifier, not a core swing, and ideally timed around a more specific catalyst.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.15
+Evidence rank: 0/100
+Memory similarity: 0.00
+Vetoes: none
+Model notes: Kept explicitly as watch-only due to lack of fresh catalyst and to respect prior rejection tied to allocation rules.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
 
