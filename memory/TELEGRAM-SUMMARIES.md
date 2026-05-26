@@ -20077,4 +20077,37 @@ HF filter: sentiment=not run source=0/100 hype=0.20 vetoes=0
 Self-learning: tier=watch repeat48h=0 fresh=yes bucket=cyclical-energy
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-26 00:03:27 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities remain in a selective, growth-and-quality-favored tape with macro data and Fed expectations still driving short-horizon volatility. With earnings season largely past peak and key inflation data ahead, the backdrop argues for smaller, catalyst-driven swing positions in higher-quality names rather than broad risk-on exposure.
+Candidates: 3
+
+1. UPS (industrials / air freight & logistics) | confidence 0.67 | allocation 6.0% | stop 8.0% | Chittick 73/100 | tier execution-ready | bucket defensive-industrials | HF source 0/100
+Recommendation: execute-if-guards-pass
+Catalyst: Recent quarterly results and management commentary outlining cost savings from network optimization and labor contract resets, with analysts flagging a prospective inflection in package volumes and operating leverage as macro data and e‑...
+Chittick Cash: Valuation is not distressed but reflects skepticism about sustained volume growth and margins; that skepticism provides some margin of safety if management executes on cost efficiencies and volumes normalize, though t...
+HF filter: sentiment=not run source=0/100 hype=0.10 vetoes=0
+Self-learning: tier=execution-ready repeat48h=1 fresh=yes bucket=defensive-industrials
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. VOYA (financials / diversified financial services) | confidence 0.66 | allocation 5.0% | stop 7.0% | Chittick 70/100 | tier execution-ready | bucket financials-diversified | HF source 0/100
+Recommendation: execute-if-guards-pass
+Catalyst: Recent earnings reported growth across all three core business segments and were accompanied by supportive analyst commentary, which has helped re-anchor expectations around the durability of the business model.
+Chittick Cash: Valuation reflects some macro and rate uncertainty, but the demonstrated earnings growth across segments provides a cushion; the business is not obviously cheap in a Graham sense, but the combination of diversified ea...
+HF filter: sentiment=not run source=0/100 hype=0.10 vetoes=0
+Self-learning: tier=execution-ready repeat48h=1 fresh=yes bucket=financials-diversified
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. AGI (materials / gold mining) | confidence 0.62 | allocation 0.0% | stop 9.0% | Chittick 65/100 | tier watch | bucket materials-precious-metals | HF source 0/100
+Recommendation: watch
+Catalyst: Valuation-focused coverage indicates Alamos Gold trades at a roughly mid-30% discount to estimated fair value with a consensus target more than 20% above the current price, suggesting that the market has not fully reflected its asset bas...
+Chittick Cash: A ~30–35% modeled discount to fair value offers a numerical margin of safety if the assumptions about reserves, costs, and gold prices are roughly correct, but this margin is inherently more fragile than in non-commod...
+HF filter: sentiment=not run source=0/100 hype=0.15 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=materials-precious-metals
+Social buzz, low weight: none
+Congress signal, low weight: none
 
