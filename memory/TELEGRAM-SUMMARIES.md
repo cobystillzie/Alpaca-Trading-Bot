@@ -20110,4 +20110,37 @@ HF filter: sentiment=not run source=0/100 hype=0.15 vetoes=0
 Self-learning: tier=watch repeat48h=0 fresh=yes bucket=materials-precious-metals
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-26 02:02:43 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities remain in a narrow risk-on bull trend driven by mega-cap tech and AI themes, but with stretched valuations, rising rate expectations, and elevated event risk arguing for disciplined, catalyst-driven swing trades with clearly defined risk.
+Candidates: 3
+
+1. UPS (industrials / air freight & logistics) | confidence 0.67 | allocation 6.0% | stop 8.0% | Chittick 73/100 | tier execution-ready | bucket defensive-industrials
+Recommendation: execute-if-guards-pass
+Catalyst: Recent quarterly results detailed cost savings from network optimization and labor contract resets, with management outlining 2025–2026 margin improvement targets and analysts highlighting an inflection in package volume and operating ef...
+Chittick Cash: While UPS does not screen as deeply undervalued on simple multiples, the margin-of-safety case rests on owning a mission-critical network business at a point where earnings expectations have been rebased lower and whe...
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=2 fresh=yes bucket=defensive-industrials
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. VOYA (financials / diversified financial services) | confidence 0.66 | allocation 5.0% | stop 7.0% | Chittick 70/100 | tier execution-ready | bucket financials-diversified
+Recommendation: execute-if-guards-pass
+Catalyst: The latest quarterly report showed earnings growth across retirement, investment management, and benefits segments, accompanied by supportive analyst commentary that helped reset expectations and improve sentiment toward the business.[ma...
+Chittick Cash: VOYA often trades at a discount to higher-profile asset managers and insurance peers; combined with recent fundamental execution, this offers some valuation cushion if macro conditions remain stable, though the margin...
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=2 fresh=yes bucket=financials-diversified
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. AGI (materials / gold mining) | confidence 0.62 | allocation 0.0% | stop 9.0% | Chittick 65/100 | tier watch | bucket materials-precious-metals
+Recommendation: watch
+Catalyst: Valuation-focused coverage indicates AGI trades at a mid-30% discount to estimated fair value with a consensus target more than 20% above the current price, but there is no specific, time-bound catalyst like an imminent earnings event in...
+Chittick Cash: A quoted discount to estimated fair value provides some margin-of-safety argument, but this is model-dependent and subject to gold-price assumptions; balance-sheet strength is a more tangible support than the valuatio...
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=1 fresh=yes bucket=materials-precious-metals
+Social buzz, low weight: none
+Congress signal, low weight: none
 
