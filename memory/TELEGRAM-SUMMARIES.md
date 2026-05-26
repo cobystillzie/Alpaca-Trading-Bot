@@ -20717,4 +20717,46 @@ Not run for this candidate.
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: none
+## Research Update - 2026-05-26 12:51:49 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equity leadership remains concentrated in quality-growth and mega-cap names, with selective momentum in individual stocks rather than a broad defensive rotation. That favors only catalyst-backed longs with defined risk, while stale repeat names should be deprioritized unless fresh evidence appears.
+Candidates: 4
+
+1. MSFT (technology / software and cloud) | confidence 0.58 | allocation 0.0% | stop 8.0% | Chittick 63/100 | tier watch | bucket mega-cap-software-cloud | HF source 1/100
+Recommendation: watch
+Catalyst: AI catalyst build-up and renewed investor focus on the stock after a long intermediate downtrend.[3]
+Chittick Cash: Quality is high, but the current evidence does not show a clear valuation discount, so the margin of safety is limited unless price offers a cleaner technical entry.
+HF filter: sentiment=neutral source=1/100 hype=0.27 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=mega-cap-software-cloud
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. AAPL (technology / consumer electronics and platforms) | confidence 0.69 | allocation 5.0% | stop 6.0% | Chittick 60/100 | tier execution-ready | bucket mega-cap-consumer-platform | HF source 1/100
+Recommendation: execute-if-guards-pass
+Catalyst: The stock touched a new 52-week high intraday and closed modestly higher, indicating fresh price-strength confirmation.[1]
+Chittick Cash: The margin of safety is limited because the trade is chasing strength near highs, so position size should stay modest.
+HF filter: sentiment=positive source=1/100 hype=0.22 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=mega-cap-consumer-platform
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. STC (financials / property and casualty related services) | confidence 0.74 | allocation 7.0% | stop 7.0% | Chittick 71/100 | tier execution-ready | bucket financials-property-services | HF source 1/100
+Recommendation: execute-if-guards-pass
+Catalyst: Recently reported Q1 results showed revenue growth of 27.7% year over year and a beat on both earnings and revenue, which is a concrete fresh catalyst.[5]
+Chittick Cash: A post-earnings beat can provide a temporary margin of safety if the market has not fully repriced the improvement yet.
+HF filter: sentiment=positive source=1/100 hype=0.18 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=financials-property-services
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+4. AGI (materials / gold mining) | confidence 0.62 | allocation 0.0% | stop 9.0% | Chittick 65/100 | tier watch | bucket materials-precious-metals | HF source 1/100
+Recommendation: watch
+Catalyst: Valuation-oriented coverage indicates a material discount to fair value and positive consensus upside, but no fresh operating catalyst is provided in the current evidence.[... truncated ...]
+Chittick Cash: The discount to fair value provides some cushion, but it is not enough to offset the lack of a timely trigger for a short-horizon swing.
+HF filter: sentiment=mixed source=1/100 hype=0.12 vetoes=0
+Self-learning: tier=watch repeat48h=2 fresh=no bucket=materials-precious-metals
+Social buzz, low weight: none
+Congress signal, low weight: none
 

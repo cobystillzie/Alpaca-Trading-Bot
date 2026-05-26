@@ -8787,4 +8787,85 @@ The US equity market is grinding to record highs, but the underlying conditions 
     "https://www.moomoo.com/stock/EScurrent-US"
   ]
 }
+## Market Regime Research - 2026-05-26 12:51:49 Eastern Daylight Time
+
+{
+  "summary": "US equities are in a bullish, growth-led, moderately risk‑on regime with subdued but not extreme volatility and a market that is very sensitive to Fed policy expectations and earnings delivery.",
+  "market_regime": {
+    "index_trend": {
+      "tone": "bullish_uptrend",
+      "details": "S&P 500 futures are trading near fresh all‑time highs, extending a multi‑week winning streak and confirming a strong upward trend in US equities.[1][4][7] Global equity benchmarks, including US indices, have posted consecutive weeks of gains, reflecting broad risk appetite.[1][6][7] Over the past month the S&P 500 has risen roughly 7–8%, with the Dow showing similar strength, which is consistent with a strong momentum regime rather than a sideways or corrective environment.[7]",
+      "implications_for_bot": "Trend‑following or momentum filters would classify the broad US market as trending higher; a cautious paper‑trading workflow should still model the possibility of sharp sentiment shifts given elevated levels and headline sensitivity."
+    },
+    "rates_and_fed": {
+      "tone": "data_dependent_with_cuts_priced_but_not_aggressive",
+      "details": "High‑quality macro commentary notes that markets remain focused on interest‑rate expectations as they navigate geopolitical and growth risks, with US yields and Fed expectations a primary driver of equity sentiment.[1][6][13] Recent weekly institutional research highlights that volatility has stayed contained even as investors recalibrate the timing and pace of future Fed cuts, indicating a market that is adapting rather than panicking to rate‑path uncertainty.[13] The overall tone is that policy is still restrictive, but the market is looking through to an eventual easing cycle, supporting growth equities as long as incoming data do not force expectations toward significantly higher for longer.",
+      "implications_for_bot": "Regime classification should treat the macro backdrop as ‘policy‑sensitive risk‑on’: supportive of equities but prone to sharp repricing around Fed communications, CPI, payrolls, and rate‑path surprises."
+    },
+    "volatility": {
+      "tone": "subdued_to_normal",
+      "details": "The VIX, the main gauge of expected US equity volatility, is trading in the mid‑teens (~16–17), slightly above its year‑to‑date lows but well below stress levels typically associated with risk‑off regimes.[2][8][10][13] Recent institutional commentary cites VIX around 17 versus 15 at the start of the year, indicating mildly elevated but controlled volatility, not a dislocation.[13] Historically, VIX in the mid‑teens aligns with constructive risk sentiment and generally supports trend‑following strategies, though it also implies limited option‑implied protection for sudden shocks.[2][8]",
+      "implications_for_bot": "Risk sizing models can treat the regime as ‘normal vol’ rather than crisis, but a cautious paper‑trading configuration should still stress‑test for volatility spikes around macro events."
+    },
+    "earnings_tone": {
+      "tone": "positive_growth_led",
+      "details": "Recent institutional equity commentary points to a succession of strong earnings from leading US growth and technology names, which has pushed major indices higher and reinforced the leadership of megacap tech.[3][13] Market updates from large asset managers describe earnings as broadly supportive of risk assets, with upside surprises concentrated in growth and AI‑linked sectors.[3][13] The tone from these sources is that the earnings season has been better than feared, with revisions for key index constituents skewed positively, underpinning the current uptrend.",
+      "implications_for_bot": "Earnings‑sensitive models should classify the current backdrop as earnings‑supportive, especially for growth‑ and AI‑linked sectors, while recognizing that high expectations increase the penalty for any future misses or cautious forward guidance."
+    },
+    "risk_on_off": {
+      "tone": "moderate_risk_on",
+      "details": "The combination of rising US indices, contained volatility, and constructive earnings has supported a risk‑on bias in global assets, with institutional research highlighting broad equity gains across regions alongside firmer US futures.[1][4][6][7][13] Credit and macro commentary indicate that investors are still willing to add risk selectively despite geopolitical and policy uncertainties, reflected in continued flows into equities and growth‑oriented themes.[1][6][13] However, the regime is not an extreme ‘euphoria’ phase: VIX is not at historic lows, and macro narratives still emphasize rate and geopolitical risks as key overhangs.[8][13]",
+      "implications_for_bot": "For a cautious paper‑trading setup, this environment supports testing moderate risk‑on parameter sets (e.g., allowing trend‑aligned exposure) but with explicit scenarios for rapid regime shifts if macro or geopolitical headlines deteriorate."
+    }
+  },
+  "sector_rotation": {
+    "leadership": {
+      "tone": "growth_megacap_and_tech_ai_lead",
+      "details": "Recent earnings‑driven commentary highlights that strong results from large US technology and AI‑related companies have been key drivers of index gains, reinforcing the leadership of megacap growth within the S&P 500 and Nasdaq.[3][13] Large asset‑manager updates describe performance being led by sectors leveraged to productivity and AI themes, consistent with a growth‑over‑value tilt.[3][13]"
+    },
+    "laggards_defensives": {
+      "tone": "mixed_defensives_and_value",
+      "details": "High‑level market commentary notes that while global and US indices are rising, returns are less uniform across defensives such as utilities, staples, and some rate‑sensitive value sectors, which have not matched the strength of growth and tech leadership.[1][13] This pattern is consistent with a market that is not rotating aggressively into classic defensives, suggesting that investors are not yet positioning for an imminent downturn."
+    },
+    "cyclicals": {
+      "tone": "selective_participation",
+      "details": "Macro and equity reports indicate that some cyclically sensitive areas are participating in the rally alongside broader global equities, but leadership remains concentrated rather than evenly distributed across all cyclical sectors.[1][6][13] This supports an interpretation of a ‘quality growth and mega‑cap–led’ risk‑on phase rather than a broad, late‑cycle rotation into all cyclicals."
+    },
+    "implications_for_bot": "Sector filters for paper trading should treat the current regime as growth‑ and tech‑led, with only partial confirmation from cyclicals and no full defensive rotation; this argues for classifying sector rotation as concentrated risk‑on rather than broad‑based."
+  },
+  "risk_flags": {
+    "macro_policy": [
+      "Equity valuations and sentiment are increasingly sensitive to incoming US macro data and Fed communication; any shift toward a more aggressive higher‑for‑longer stance could destabilize the current bullish regime.[1][6][13]",
+      "The current rally is occurring with policy that is still restrictive by historical standards, leaving limited cushion if growth slows or inflation re‑accelerates.[1][13]"
+    ],
+    "concentration_and_breadth": [
+      "Index performance is heavily dependent on a narrow group of large growth and AI‑linked stocks, increasing concentration risk if leadership names face earnings disappointments or regulatory headlines.[3][13]",
+      "Strong index‑level gains can mask weaker breadth under the surface, which can precede a more volatile regime when leadership fatigues.[1][13]"
+    ],
+    "valuation_and_expectations": [
+      "With major US indices near all‑time highs and powered by optimistic growth and AI narratives, forward expectations are elevated, raising the impact of any negative earnings or guidance surprises for key sectors.[3][7][13]",
+      "Current volatility levels in the mid‑teens imply relatively cheap protection pricing for shocks; while supportive for risk‑taking, this also suggests markets may be underpricing tail risks.[8][10][13]"
+    ],
+    "event_and_geopolitical": [
+      "Institutional commentary continues to flag geopolitical tensions and event risk as important overhangs that can quickly shift sentiment, even in an otherwise constructive regime.[1][6][13]",
+      "Upcoming macro data releases, central‑bank meetings, and regional flashpoints represent potential catalysts for fast transitions from moderate risk‑on to risk‑off conditions.[1][6][13]"
+    ],
+    "implementation_for_cautious_paper_trading": [
+      "Use a regime tag such as 'bullish_growth_risk_on_but_macro_sensitive' to gate risk parameters and tighten limits around major macro events.",
+      "Monitor a small set of regime indicators—index trend, VIX level/trend, short‑term rate expectations, and earnings revisions—to detect early regime deterioration even while prices remain near highs."
+    ]
+  },
+  "source_urls": [
+    "https://www.ubp.com/en/news-insights/newsroom/ubp-weekly-view-rates-in-focus-as-markets-navigate-geopolitics",
+    "https://www.westpaciq.com.au/economics/2026/04/Morning-report-26-May-2026",
+    "https://am.jpmorgan.com/lu/en/asset-management/adv/insights/market-insights/market-updates/the-weekly-brief/",
+    "https://www.moomoo.com/stock/EScurrent-US",
+    "https://in.tradingview.com/markets/indices/",
+    "https://www.barchart.com/stocks/quotes/$VIX/options",
+    "https://en.macromicro.me/charts/2362/S-P-500-v-s-VIX",
+    "https://primefinancelab.com/what-is-vix-guide-2026-2/",
+    "https://fred.stlouisfed.org/series/NASDAQCOM",
+    "https://www.youtube.com/watch?v=Le7TcNQQqrM"
+  ]
+}
 

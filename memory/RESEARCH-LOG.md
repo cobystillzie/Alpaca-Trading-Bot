@@ -1171,4 +1171,9 @@ Premarket plan built from latest watchlist.
   rejects: Candidate references banned v1 instruments or leverage.
 - AGI: score=76, base=85, chittick=65, approved=False, allocation=0.0%, stop=9.0%
   rejects: Target allocation must be between 1% and 15%.
+## Two-Hour Research Agent - 2026-05-26 12:51:49 Eastern Daylight Time
+
+US equity leadership remains concentrated in quality-growth and mega-cap names, with selective momentum in individual stocks rather than a broad defensive rotation. That favors only catalyst-backed longs with defined risk, while stale repeat names should be deprioritized unless fresh evidence appears.
+
+Candidates found: 4
 
