@@ -20044,4 +20044,37 @@ HF filter: sentiment=not run source=0/100 hype=0.30 vetoes=3
 Self-learning: tier=monitor-only repeat48h=2 fresh=no bucket=small-cap-healthcare
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-25 22:00:28 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities remain in a cautious risk-on regime: large-cap tech strength and constructive index trends are offset by higher-for-longer rate fears, sticky inflation, and macro/event risk, so selective quality and catalyst-driven setups are preferred over broad beta.
+Candidates: 3
+
+1. UPS (industrials / air freight & logistics) | confidence 0.67 | allocation 6.0% | stop 8.0% | Chittick 73/100 | tier execution-ready | bucket defensive-industrials | HF source 0/100
+Recommendation: execute-if-guards-pass
+Catalyst: A forthcoming inflection in package volume and network efficiency, alongside the market starting to price in benefits from prior cost actions and contract resets, is flagged as a key catalyst in fundamental coverage highlighting that 'th...
+Chittick Cash: Coverage characterizes UPS as a 'high-quality business' with a steady income stream that the market is not fully appreciating, implying a reasonable margin of safety at current levels compared with its cash flows and...
+HF filter: sentiment=not run source=0/100 hype=0.10 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=defensive-industrials
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. VOYA (financials / diversified financial services) | confidence 0.66 | allocation 5.0% | stop 7.0% | Chittick 70/100 | tier execution-ready | bucket financials-diversified | HF source 0/100
+Recommendation: execute-if-guards-pass
+Catalyst: Recent results showed earnings growth across all three business segments, reinforcing confidence in the business model and prompting supportive analyst commentary that highlights Voya as a 'well-managed and financially sound operation' w...
+Chittick Cash: Coverage characterizes Voya as trading at a 'fair price' with quality fundamentals and an ongoing capital return story, giving some margin of safety versus more speculative financials; the diversified segment contribu...
+HF filter: sentiment=not run source=0/100 hype=0.10 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=financials-diversified
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. SM (energy / oil & gas exploration & production) | confidence 0.62 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier watch | bucket cyclical-energy | HF source 0/100
+Recommendation: watch
+Catalyst: A recent research report highlights SM as trading near 52-week highs, often reflecting positive developments such as favorable commodity pricing and operational momentum, and notes its current valuation and analyst expectations.[2]
+Chittick Cash: At ~7x forward earnings, valuation is undemanding on static numbers, but the low multiple partially reflects commodity cyclicality; the limited upside versus consensus target and the risk of commodity mean reversion r...
+HF filter: sentiment=not run source=0/100 hype=0.20 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=cyclical-energy
+Social buzz, low weight: none
+Congress signal, low weight: none
 
