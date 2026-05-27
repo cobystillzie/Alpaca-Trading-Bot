@@ -265,4 +265,14 @@ Target allocation must be between 1% and 15%.
 ## Rejected AGI - 2026-05-26 09:55:03 Eastern Daylight Time
 
 Target allocation must be between 1% and 15%.
+## Rejected STC - 2026-05-27 09:55:03 Eastern Daylight Time
+
+Candidate references banned v1 instruments or leverage.
+## Rejected AAPL - 2026-05-27 09:55:03 Eastern Daylight Time
+
+Candidate references banned v1 instruments or leverage.
+## Rejected AGI - 2026-05-27 09:55:03 Eastern Daylight Time
+
+Candidate references banned v1 instruments or leverage.
+Target allocation must be between 1% and 15%.
 
