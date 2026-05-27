@@ -1186,4 +1186,14 @@ Candidates found: 3
 US equities remain in a late‑cycle, macro‑sensitive environment with elevated valuations and strong but concentrated earnings leadership; this favors selective, high‑quality longs with clear catalysts and tight risk controls rather than broad directional bets.
 
 Candidates found: 3
+## Premarket Plan - 2026-05-27 08:25:02 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- AAPL: score=77, base=85, chittick=70, approved=False, allocation=6.0%, stop=6.0%
+  rejects: Candidate references banned v1 instruments or leverage.
+- STC: score=78, base=85, chittick=71, approved=False, allocation=7.0%, stop=7.0%
+  rejects: Candidate references banned v1 instruments or leverage.
+- AGI: score=67, base=85, chittick=35, approved=False, allocation=0.0%, stop=9.0%
+  rejects: Candidate references banned v1 instruments or leverage.; Target allocation must be between 1% and 15%.
 
