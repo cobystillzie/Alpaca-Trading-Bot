@@ -1216,4 +1216,9 @@ Candidates found: 1
 U.S. equities remain in a broadly risk-on regime led by mega-cap tech and AI/semis, while quality and defensiveness are not leading; current paper-trade ideas should balance participation in tech strength with diversification and strict risk controls.
 
 Candidates found: 2
+## Two-Hour Research Agent - 2026-05-27 18:29:50 Eastern Daylight Time
+
+US equities are trading in a moderately bullish, late‑cycle risk‑on regime with leadership still skewed to tech/AI and quality cash generative names, but with elevated valuation and rate‑sensitivity arguing for selective, catalyst‑driven swing setups rather than broad beta exposure.
+
+Candidates found: 2
 
