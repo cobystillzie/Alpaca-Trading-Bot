@@ -21130,4 +21130,37 @@ Rejected / Watchouts
 - AAPL: Candidate references banned v1 instruments or leverage.
 - STC: Candidate references banned v1 instruments or leverage.
 - AGI: Candidate references banned v1 instruments or leverage.; Target allocation must be between 1% and 15%.
+## Research Update - 2026-05-27 10:51:44 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities remain in a cautious risk-on regime: breadth is improving and earnings momentum is still constructive, but valuations are rich and event risk is elevated. For a 1-10 day paper-trading lens, the best opportunities should combine a fresh catalyst, clear trend support, and limited allocation size.
+Candidates: 3
+
+1. MRVL (semiconductors / AI infrastructure) | confidence 0.67 | allocation 4.0% | stop 7.0% | Chittick 54/100 | tier watch | bucket semiconductors-ai-infrastructure | HF source 1/100
+Recommendation: watch
+Catalyst: Fiscal Q1 2027 earnings after the close on May 27, 2026, with analysts expecting continued AI-driven data center strength and EPS growth.
+Chittick Cash: Margin of safety is limited because the stock price already embeds strong AI optimism and the valuation disconnect is large.
+HF filter: sentiment=bullish-but-overcrowded source=1/100 hype=0.42 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=semiconductors-ai-infrastructure
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. OKE (energy / midstream) | confidence 0.39 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket energy-midstream | HF source 0/100 | HF veto
+Recommendation: monitor-only
+Catalyst: Recent investor-conference coverage and sparse congressional-trade attention, but no strong discrete company catalyst was established in the available results.
+Chittick Cash: The business may offer a reasonable margin of safety versus high-multiple growth, but the current evidence does not prove an attractive entry price.
+HF filter: sentiment=neutral-to-lightly-positive source=0/100 hype=0.12 vetoes=3
+Self-learning: tier=monitor-only repeat48h=0 fresh=yes bucket=energy-midstream
+Social buzz, low weight: none
+Congress signal, low weight: light, delayed, low-weight mixed activity with no clear directional consensus
+
+3. GOOGL (communication services / mega-cap internet) | confidence 0.32 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier stale-watch | bucket mega-cap-internet-cloud | HF source 0/100 | HF veto
+Recommendation: watch
+Catalyst: No new discrete short-term catalyst was established in the provided evidence set.
+Chittick Cash: Alphabet likely has a better structural quality profile than most swing trades, but the current pass does not establish a fresh margin-of-safety edge.
+HF filter: sentiment=stale-neutral source=0/100 hype=0.05 vetoes=2
+Self-learning: tier=stale-watch repeat48h=6 fresh=yes bucket=mega-cap-internet-cloud
+Social buzz, low weight: none
+Congress signal, low weight: none
 
