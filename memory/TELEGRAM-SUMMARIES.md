@@ -21163,4 +21163,19 @@ HF filter: sentiment=stale-neutral source=0/100 hype=0.05 vetoes=2
 Self-learning: tier=stale-watch repeat48h=6 fresh=yes bucket=mega-cap-internet-cloud
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-27 12:25:08 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities remain in a cautiously bullish, valuation‑stretched regime with strong mega‑cap/AI leadership, moderate volatility, and elevated sensitivity to macro data and rates. For a conservative paper‑trading bot, liquid large‑cap quality and clear event‑driven setups remain preferable to speculative or thinly sourced names.
+Candidates: 1
+
+1. NEOV (energy / clean-tech (residential energy storage)) | confidence 0.41 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket small-cap-clean-tech | HF source 0/100 | HF veto
+Recommendation: watch
+Catalyst: Recent attention stems mainly from profile coverage and general discussion of home energy storage and solar-adjacent demand, but there is no strong, time-specific catalyst such as a just-reported earnings surprise, a major new OEM/utilit...
+Chittick Cash: Filing-derived commentary emphasizes startup-like risks and policy dependence, which reduce margin of safety; without clear evidence of strong free-cash-flow generation, durable competitive advantage, or a discount to...
+HF filter: sentiment=not run source=0/100 hype=0.40 vetoes=3
+Self-learning: tier=monitor-only repeat48h=0 fresh=yes bucket=small-cap-clean-tech
+Social buzz, low weight: none
+Congress signal, low weight: none
 
