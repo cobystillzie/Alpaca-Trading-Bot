@@ -4,67 +4,61 @@
 {
   "candidates": [
     {
-      "adversary_case": "A strict adversary would argue that, given the lack of a clearly dated, material catalyst and the early-stage risk profile documented in filing summaries, any attempt to trade NeoVolta here is effectively a speculative bet on narrative and sector sentiment rather than on verifiable business progress\u2014contradicting the Buffett/Munger and Chittick Cash emphasis on margin of safety, durable quality, and strong evidence.",
-      "allocation_learning_note": "Kept at monitor-only with 0% target allocation despite sector tailwinds due to thin evidence and startup-like risk profile; aligns with prior vetoes on speculative, source-thin ideas.",
-      "balance_sheet_risk": "Early-stage energy-storage businesses typically face ongoing capital needs, are exposed to component cost fluctuations, and can be sensitive to credit conditions; filing-derived commentary groups NeoVolta among companies that explicitly highlight startup-like risks and dependence on supportive policy and distribution partners, implying non-trivial balance-sheet and dilution risk.[1]",
-      "bear_case": "Key risks include early-stage execution risk, dependence on policy incentives for residential storage adoption, competition from larger solar and battery OEMs with stronger brands and distribution, potential margin pressure from component costs, and limited evidence of diversified, recurring cash flows.[1] For a conservative ruleset, these factors, combined with small-cap liquidity risk, make downside scenarios (capital raises, guidance disappointments, or policy shifts) particularly important.",
-      "capital_allocation_case": "With limited public evidence on capital allocation track record, dividend or buyback policy, or high-ROI reinvestment opportunities, it is difficult to assess management\u2019s capital allocation skill against a Buffett/Munger standard. The safer assumption for the bot is to treat this as unproven rather than assume excellence.[1]",
-      "catalyst": "Recent attention stems mainly from profile coverage and general discussion of home energy storage and solar-adjacent demand, but there is no strong, time-specific catalyst such as a just-reported earnings surprise, a major new OEM/utility contract, or a transformational financing disclosed in the currently summarized sources.",
-      "catalyst_type": "general",
+      "adversary_case": "A rigorous critic would argue that without a hard upcoming catalyst and with meaningful execution and financing risks, this looks more like an early-stage thematic speculation than a Buffett/Munger-quality, Chittick-suitable position; scarce capital and attention are likely better spent on larger, proven cash-generative names or diversified ETFs until NEOV demonstrates durable earnings and cleaner technicals.",
+      "allocation_learning_note": "Kept at monitor-only with 0% allocation to respect quality, catalyst, and margin-of-safety constraints; future consideration would require a clear event catalyst plus improved evidence on balance-sheet strength and execution.",
+      "balance_sheet_risk": "SEC-style commentary flags typical early-stage risks: dependence on external financing, sensitivity to policy and demand, and less robust cash reserves compared with mature peers.[sec_quality] Any financing shortfall or covenant issue could drive volatility and dilution.",
+      "bear_case": "Key risks include execution missteps in scaling manufacturing, dependence on installers and distributors, policy and incentive changes that could slow adoption, competition from larger storage players, and typical small\u2011cap liquidity and volatility risks.[sec_quality] Without a discrete near\u2011term catalyst, price can drift or mean\u2011revert sharply on any risk\u2011off shift.",
+      "capital_allocation_case": "Management appears to be prioritizing product and channel expansion, but the track record of disciplined capital allocation, buybacks, or consistent ROIC is not yet established; this is a build-out phase rather than a compounding capital-return story.[sec_quality]",
+      "catalyst": "Recent attention around home energy storage and solar-adjacent demand, plus SEC filing evidence of retrofit storage adoption and channel expansion, but no single hard, time\u2011specific catalyst in the next 1\u201310 days.",
+      "catalyst_type": "structural",
       "chittick_cash_score": 38.0,
-      "chittick_reject_reason": "Early-stage, policy-dependent, and thinly evidenced business with no strong near-term catalyst; fails margin-of-safety, quality, and evidence-density thresholds for an execution-ready long-only swing trade.",
-      "concentration_case": "Given the small-cap, early-stage profile and thin evidence, NeoVolta does not merit concentration relative to broad ETFs or higher-quality large caps; if it were ever traded, it should only appear as a very small, speculative satellite rather than as a core or high-percentage position.",
+      "chittick_reject_reason": "Insufficient margin of safety, early-stage execution risk, and lack of clear near-term catalyst make this unsuitable for a concentrated quality-style position at present.",
+      "concentration_case": "Given its limited size and liquidity and the lack of a clean margin of safety, this does not warrant concentrated exposure over broad clean-energy or quality-factor ETFs; at most, it might merit a small satellite allocation after much stronger evidence emerges.",
       "confidence": 0.41,
       "congressional_signal": "none",
       "diversity_bucket": "small-cap-clean-tech",
-      "entry_plan": "No entry: monitor-only. If future evidence shows a concrete catalyst (e.g., a major new contract, clearly positive earnings surprise with guidance raise, or a material strategic partnership) plus liquid trading conditions, a staged entry could be reconsidered with tight downside limits. Under current information, initiating even a small swing trade would not meet the strategy\u2019s evidence and quality thresholds.",
-      "exit_plan": "Not applicable for monitor-only. If circumstances changed and a trade were considered later, a rules-based plan would likely target modest upside (for example, 10\u201320%) versus a predefined 7\u201310% stop, sized conservatively due to business and liquidity risks.",
+      "entry_plan": "No entry: monitor-only. For research purposes, a future paper-trade template would look for (a) a clearly documented hard catalyst such as earnings, a major contract, or policy change, and (b) confirmation via high-volume breakout above a recent resistance level with tight spreads before considering even a small 1\u20135% allocation.",
+      "exit_plan": "N/A for monitor-only. A hypothetical future swing framework would target 2\u20133x the anticipated downside (e.g., 8\u201310% stop vs. 16\u201325% upside) and cut quickly on breakdowns below post-catalyst support or on evidence of financing/going-concern stress.",
       "fresh_catalyst": true,
-      "growth_runway": "Conceptually, residential energy storage has a multi-year runway driven by grid resiliency needs, rooftop solar penetration, and decarbonization policy, which could benefit companies like NeoVolta.[1] However, the degree to which NeoVolta specifically can capture this runway over 30\u2013180 days and beyond is unclear due to competition, channel reliance, and scale disadvantages.",
-      "hf_evidence_rank": 0.3,
-      "hf_filter_vetoes": [
-        "source_thin",
-        "no_strong_catalyst",
-        "early_stage_risk"
-      ],
-      "hf_hype_risk": 0.4,
-      "hf_memory_similarity": 0.6,
-      "hf_model_notes": "Pattern resembles prior rejected speculative clean-tech/early-stage names with limited multi-source confirmation and no discrete event driver.",
+      "growth_runway": "Longer term, electrification, home energy storage adoption, retrofit opportunities, and possible expansion into C&I storage offer a multi\u2011year runway if execution is strong and policy remains supportive.[sec_quality] Over 30\u2013180 days, investor focus would likely be on evidence of order growth, channel productivity, and any major partnership announcements.",
+      "hf_evidence_rank": 0.45,
+      "hf_filter_vetoes": [],
+      "hf_hype_risk": 0.35,
+      "hf_memory_similarity": 0.2,
+      "hf_model_notes": "Name previously surfaced as attention-driven with no strong time-specific catalyst; maintaining a conservative monitor-only stance is consistent with hype and liquidity considerations.",
       "hf_sentiment_agreement": 0.0,
       "hf_sentiment_label": "",
       "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 0.35,
+      "hf_source_quality_score": 0.55,
       "horizon_days": 5,
-      "margin_of_safety_case": "Filing-derived commentary emphasizes startup-like risks and policy dependence, which reduce margin of safety; without clear evidence of strong free-cash-flow generation, durable competitive advantage, or a discount to conservatively estimated intrinsic value, the current setup does not meet a high margin-of-safety standard.[1]",
-      "market_regime": "In the current risk-on but valuation-stretched regime, early-stage clean-tech names can be volatile and prone to sharp reversals around macro or policy headlines. Without a specific near-term company catalyst, broad risk appetite alone is not a sufficient driver for a rules-based swing setup in a name like NeoVolta.",
-      "momentum_case": "Given the limited and mostly descriptive coverage in the available result and the absence of detailed, time-stamped price/volume data, there is no robust evidence of a sustained relative-strength breakout, institutional accumulation, or volume anomaly that would justify a high-conviction 1\u201310 day momentum swing under the bot\u2019s discipline.[1]",
-      "owner_hold_case": "To justify a 30\u2013180 day owner-style hold, future evidence would need to show repeated, profitable quarters with growing backlog, improving unit economics, strengthened balance sheet, and possibly a differentiated technology or channel advantage. None of this is firmly established in the current evidence set, so it remains an aspirational rather than active owner thesis.",
-      "quality_case": "SEC-style summaries describe NeoVolta as a relatively new company in residential energy storage that depends on evolving incentives and regulatory support, with competition from better-capitalized players and reliance on third-party installers and distributors.[1] This indicates an addressable market with secular tailwinds but also underscores that NeoVolta does not yet enjoy the durable, wide-moat economics or balance-sheet strength associated with a Buffett/Munger-quality core holding.",
+      "margin_of_safety_case": "Balance-sheet and scale-up risks limit the margin of safety; the investment case currently leans more on thematic growth than on discounted cash flows supported by a strong, proven earnings base.[sec_quality] For Chittick-style thinking, this is below threshold for concentrated capital.",
+      "market_regime": "In a fragile risk\u2011on regime, small-cap clean-tech with limited profitability and thinner liquidity is highly sensitive to rate moves and sentiment shifts; any backup in yields or risk\u2011off swing could pressure the stock disproportionately.",
+      "momentum_case": "Recent coverage and discussion have lifted awareness, but the prior pass characterized the name as driven more by profile attention than by clear, high\u2011volume breakout behavior; the technical picture does not yet meet a strong momentum-triggered swing setup in the 1\u201310 day window.[sec_quality]",
+      "owner_hold_case": "A 30\u2013180 day owner-style thesis would require: (a) visible growth in contracted backlog or installations, (b) evidence of improved gross margins and operating leverage, (c) no deterioration in balance-sheet strength, and (d) at least one substantive commercial or policy catalyst to support sustained demand. These conditions are not yet fully evidenced.",
+      "quality_case": "Filings indicate real demand tailwinds from residential storage, a retrofit market, and safety certifications, with management pursuing new C&I products and financing solutions to broaden the addressable market.[sec_quality] However, the company is still in a growth and scale-up phase with material execution risk and faces competitors with far greater resources.[sec_quality]",
       "recommendation": "watch",
-      "repeat_count_48h": 0,
+      "repeat_count_48h": 1,
       "research_tier": "monitor-only",
-      "risk_reward": "Under present information, the asymmetric risk is to the downside due to business immaturity, policy dependence, and competition; potential upside from secular storage adoption is too speculative and weakly evidenced to justify taking on that risk in a short-horizon paper trade.",
+      "risk_reward": "At this stage, the asymmetry is unclear: upside depends on successful commercialization and favorable policy, while downside includes dilution, execution risk, and macro risk-off sensitivity. This is not yet a clean, buffered risk/reward for a 1\u201310 day swing.",
       "sector": "energy / clean-tech (residential energy storage)",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
       "social_buzz": "none",
-      "source_quality": "Evidence is thin and largely descriptive: one profile-style market source plus secondary SEC-summary commentary, with no detailed, recent earnings release, contract filing, or multi-source confirmation of near-term catalysts.[1] This falls below the bot\u2019s preferred standard of multiple strong, independent sources such as recent company filings, earnings, and reputable financial news.",
-      "source_urls": [
-        "https://invezz.com/en-ae/markets/stocks/neov-nasdaq/"
-      ],
+      "source_quality": "Evidence relies mainly on SEC filing-style fundamentals and general thematic context on storage adoption, which are higher-quality than social buzz but still leave gaps on near-term catalysts and precise financial trajectory.[sec_quality] There is limited high-quality, time-specific newsflow in the last few days.",
+      "source_urls": [],
       "stop_loss_percent": 0.0,
       "strategy_tags": [
         "chittick_cash"
       ],
       "symbol": "NEOV",
       "target_allocation_percent": 0.0,
-      "thesis": "NeoVolta is a small residential energy storage provider leveraged to rooftop solar and grid-resiliency demand, but available evidence and SEC filings frame it as an early-stage, higher-risk business with startup-like execution, policy, and competitive risks; this fits more as a monitor-only quality screen example than as an execution candidate for a cautious swing-trading bot.",
-      "valuation_case": "No robust valuation work (e.g., price versus earnings, cash flows, or asset value) is supported by the limited sources; given early-stage characteristics and sector volatility, apparent cheapness (if any) could reflect risk rather than opportunity. For a cautious framework, valuation should not be inferred from thin evidence."
+      "thesis": "NeoVolta is a small-cap residential energy-storage provider that benefits from structural electrification and home-storage adoption, but its profile is still early-stage and execution\u2011sensitive, making it a better fit for monitor-only research than an execution-ready swing trade right now.",
+      "valuation_case": "There is insufficient recent, high-quality consensus valuation work to claim the stock is clearly cheap relative to durable earnings; most of the bull case is about optionality and runway rather than present normalized profits, which does not align well with a classic value margin-of-safety discipline."
     }
   ],
-  "summary": "US equities remain in a cautiously bullish, valuation\u2011stretched regime with strong mega\u2011cap/AI leadership, moderate volatility, and elevated sensitivity to macro data and rates. For a conservative paper\u2011trading bot, liquid large\u2011cap quality and clear event\u2011driven setups remain preferable to speculative or thinly sourced names."
+  "summary": "US equities remain in a late\u2011cycle, earnings\u2011supported but valuation\u2011rich bull phase, with AI and large\u2011cap tech leadership intact but vulnerable to rate and macro surprises. A cautious paper\u2011trading stance favors high\u2011quality, cash\u2011generative businesses with clear catalysts and defined 1\u201310 day risk, while avoiding hype or leverage-sensitive names."
 }
 -->
 
@@ -1412,4 +1406,10 @@ No candidates.
 | Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
 |---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
 | NEOV | energy / clean-tech (residential energy storage) | monitor-only | small-cap-clean-tech | 0 | yes | 0.41 | 38 | 0 | 3 | 0.0% | 0.0% | watch | Recent attention stems mainly from profile coverage and general discussion of home energy storage and solar-adjacent demand, but there is no strong, time-specif |
+
+## Latest Candidates - 2026-05-27 12:51:29 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| NEOV | energy / clean-tech (residential energy storage) | monitor-only | small-cap-clean-tech | 1 | yes | 0.41 | 38 | 1 | 0 | 0.0% | 0.0% | watch | Recent attention around home energy storage and solar-adjacent demand, plus SEC filing evidence of retrofit storage adoption and channel expansion, but no singl |
 

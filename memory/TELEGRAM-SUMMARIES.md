@@ -21424,4 +21424,19 @@ Model notes: Pattern resembles prior rejected speculative clean-tech/early-stage
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: https://invezz.com/en-ae/markets/stocks/neov-nasdaq/
+## Research Update - 2026-05-27 12:51:29 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities remain in a late‑cycle, earnings‑supported but valuation‑rich bull phase, with AI and large‑cap tech leadership intact but vulnerable to rate and macro surprises. A cautious paper‑trading stance favors high‑quality, cash‑generative businesses with clear catalysts and defined 1–10 day risk, while avoiding hype or leverage-sensitive names.
+Candidates: 1
+
+1. NEOV (energy / clean-tech (residential energy storage)) | confidence 0.41 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket small-cap-clean-tech | HF source 1/100
+Recommendation: watch
+Catalyst: Recent attention around home energy storage and solar-adjacent demand, plus SEC filing evidence of retrofit storage adoption and channel expansion, but no single hard, time‑specific catalyst in the next 1–10 days.
+Chittick Cash: Balance-sheet and scale-up risks limit the margin of safety; the investment case currently leans more on thematic growth than on discounted cash flows supported by a strong, proven earnings base.[sec_quality] For Chit...
+HF filter: sentiment=not run source=1/100 hype=0.35 vetoes=0
+Self-learning: tier=monitor-only repeat48h=1 fresh=yes bucket=small-cap-clean-tech
+Social buzz, low weight: none
+Congress signal, low weight: none
 
