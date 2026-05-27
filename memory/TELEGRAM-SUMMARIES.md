@@ -21463,4 +21463,164 @@ HF filter: sentiment=not run source=1/100 hype=0.32 vetoes=2
 Self-learning: tier=monitor-only repeat48h=2 fresh=yes bucket=small-cap-clean-tech
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Performance Ledger - 2026-05-27 16:22:14 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-05-27 16:22:13 Eastern Daylight Time
+- Portfolio value: $100,158.15
+- P/L vs $100k baseline: $158.15
+- Full paper-account return: 0.158%
+- Managed-capital return: 1.58%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 2.82%
+- Latest position value: $5,758.15
+- Full-account cash reserve: 94.3%
+- Managed-capital cash reserve: 42.4%
+- Max snapshot drawdown: $135.30 from 2026-05-08 16:30:03 Eastern Daylight Time to 2026-05-21 21:16:10 Eastern Daylight Time
+
+Open Position Review
+- DT: loser, value $798.17, unrealized P/L $-1.83, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 19 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: loser, value $457.94, unrealized P/L $-42.06, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 20 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: winner, value $838.79, unrealized P/L $38.79, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 27 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- IBRX: loser, value $560.33, unrealized P/L $-39.67, entry 2026-05-11 09:48:18 Eastern Daylight Time, thesis age 16 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: winner, value $513.57, unrealized P/L $13.57, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 15 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: winner, value $850.13, unrealized P/L $50.13, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 26 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $822.20, unrealized P/L $22.20, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 21 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $917.02, unrealized P/L $117.02, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 29 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- SCHD: appeared 34 times; open position P/L $22.20.
+- INTC: appeared 32 times; market outcome unavailable until benchmark/candidate price history is captured.
+- SPMO: appeared 32 times; open position P/L $117.02.
+- NVDA: appeared 29 times; open position P/L $50.13.
+- GOOGL: appeared 27 times; open position P/L $38.79.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- UNP: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VALN: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- GLD: appeared 9 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Candidate references banned v1 instruments or leverage.: 16
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 9
+  - Single-stock allocation would exceed 15%.: 7
+  - A market-open order is already logged for today. No backup order was placed.: 5
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources.: 5
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Confidence below 0.60. Target allocation must be between 1% and 15%.: 3
+  - Candidate references banned v1 instruments or leverage. Target allocation must be between 1% and 15%.: 3
+  - Max open-position count would be exceeded.: 3
+- By symbol:
+  - INTU: 5
+  - AGI: 3
+  - BAH: 3
+  - GOOGL: 3
+  - PLTR: 3
+  - TMXX.F: 3
+  - COIN: 2
+  - FLEX: 2
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 4
+- unknown: 3
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold met: 8 trades over 29 days.
+- Strategy tuning may be reviewed, but safety guardrails still apply.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## End Of Day Memo - 2026-05-27 16:22:14 Eastern Daylight Time
+
+End Of Day Analyst Memo
+
+Recommendation: Carry forward only evidence-backed candidates; review stops before the next market-open run.
+
+Market Regime
+End-of-day review of paper portfolio, trade quality, risk notes, and next-day watchlist.
+
+Portfolio
+Portfolio value: 100158.15 Cash: 94400 Buying power: 194558.15 Positions: - DT: qty=20.289119959, market_value=798.173979, unrealized_pl=-1.826021 - GLRE: qty=28.042624789, market_value=457.936063, unrealized_pl=-42.063937 - GOOGL: qty=2.151289429, market_value=838.787748, unrealized_pl=38.787748 - IBRX: qty=70.838252656, market_value=560.330579, unrealized_pl=-39.669421 - LNC: qty=14.590020426, market_value=513.568719, unrealized_pl=13.568719 - NVDA: qty=4.00060009, market_value=850.127119, unrealized_pl=50.127119 - SCHD: qty=25.2286345, market_value=822.201198, unrealized_pl=22.201198 - SPMO: qty=6.119014838, market_value=917.023711, unrealized_pl=117.023711 Performance: value $100,158.15, P/L vs $100k $158.15, managed return 1.58%, deployed return 2.82%, managed cash reserve 42.4%.
+
+Top Candidates
+
+1. INUV (communication services / advertising technology (small-cap)) | confidence 0.57 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket small-cap-ad-tech | HF source 1/100 | HF veto
+Thesis: Inuvo is a small-cap advertising technology company that just printed a sharp upside move and has recent filing evidence of both risk and potential, making it a candidate only for tightly risk-controlled, short-horizon momentum observation rather than a core quality buy.
+Catalyst: Recent Q1 2026 earnings report and a strong short-term price move (+13% in the last 24 hours, +6% in the last week) alongside technical indicators flagging a strong buy on daily and 1‑week views.[1][5]
+Entry: Monitor only for now: no new paper entry. If later considered for a test swing, a hypothetical paper setup would look for a pullback toward recent support after this spike with intraday volume confirming real institutional interest rather than a single-day...
+Exit: Since this is monitor-only, no execution plan. Hypothetically, a future test trade would target approx. 15–25% upside versus an 8–10% hard stop below clearly defined technical support, with immediate exit on evidence of financing/dilution news or breakdown...
+Risk/reward: Attractive short-term upside is possible in percentage terms due to volatility, but fundamental downside (including dilution and business model risk) is large; any participation would need to be treated as a speculative, small experimental sleeve, not a cor...
+Bear/adversary: A disciplined Chittick-style investor would argue that recurring losses, capital-raise dependence, and customer concentration disqualify INUV from any serious capital allocation; the current move could be a transient squeeze or reaction to thin newsflow with poor risk-adjusted expectancy versus h...
+Source quality: Price, volatility, and technical signals come from a real-time market-data provider (TradingView).[1] Business quality and risk notes are grounded in SEC filings summarized in the earlier sec_quality memo, which is higher-quality evidence than social or opi...
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Given recurring losses, working-capital risk, and financing dependence, there is little margin of safety—valuation may appear optically low in price-per-share terms, but downside includes permanent capital impairment via dilution or busi...
+Valuation: Analyst targets cited by TradingView cluster between about $0.85 and $1.00, modestly above the current ~$0.75 level, implying limited upside from those estimates.[1] With speculative fundamentals and no clear path to sustained profitabil...
+Growth runway: Management and filings frame a runway tied to continued growth in digital advertising and AI/intent-driven targeting, plus existing relationships with large platforms; however, this is largely narrative at this stage and contingent on ev...
+Balance-sheet risk: SEC evidence notes a working-capital deficit, recurring operating losses, and a history of funding operations through equity offerings and debt facilities, which implies meaningful liquidity risk and a high probabilit...
+Capital allocation: Capital allocation appears primarily defensive (keeping the company funded) rather than focused on shareholder returns; reliance on external capital and lack of consistent profitability make it hard to rate management...
+Concentration case: Given its speculative profile and small size, INUV does not justify concentration versus higher-quality tech or broad ETFs; at most it would be a small, experimental position if ever traded, and quality capital is probably better allocat...
+Owner thesis, 30-180 days: Owner-style 30–180 day holding would only be justified if the company demonstrates a clear and sustained turn to positive operating cash flow, reduction in financing dependence, and evidence of durable revenue growth with reduced customer and funding concen...
+Chittick reject reason: Fails margin-of-safety, profitability, and balance-sheet robustness criteria; suitable, if at all, only as a speculative, monitor-only name rather than a concentrated quality holding.
+Self-Learning Filter
+Catalyst type: earnings/momentum
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: small-cap-ad-tech
+Research tier: monitor-only
+Allocation learning: Deliberately kept as monitor-only due to micro-cap risk, prior filter notes on similar names, and failure to meet Chittick quality and margin-of-safety criteria.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.45
+Evidence rank: 1/100
+Memory similarity: 0.41
+Vetoes: micro_cap_speculation; weak_margin_of_safety
+Model notes: Ad-tech micro-cap with mixed signals: some durable-demand elements in filings but overshadowed by losses and financing risk; technicals strong short term but unsuitable as a core Chittick Cash holding.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://it.tradingview.com/symbols/AMEX-INUV/, https://finviz.com/stock?t=PODC
+
+2. NEOV (energy / clean-tech (residential & C&I storage)) | confidence 0.54 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket small-cap-clean-tech | HF source 1/100 | HF veto
+Thesis: NeoVolta is a small-cap residential/commercial energy storage company with some real growth-tailwind evidence and a recent track record of filings and channel expansion, but it lacks a near-term, high-conviction catalyst and remains better suited for watchlist monitoring than for a 1–10 day swing.
+Catalyst: Recent attention stems from SEC filings and news around home energy storage adoption and distributor/channel expansion, but there is no single, time-specific catalyst such as just-reported earnings or a major contract announcement in the last few days.[2]
+Entry: No paper trade entry now. Keep on watch for a clearly dated, fundamental catalyst such as a major contract, distributor deal, or earnings surprise that coincides with a high-volume breakout from consolidation; only at that point would a 1–10 day swing thesi...
+Exit: Not applicable for monitor-only. Hypothetically, a future swing trade would define risk just below the breakout level (e.g., 7–10% stop) with a 1.5–2x upside target, and would cut quickly on failed breakouts or dilution/funding announcements.
+Risk/reward: Risk-reward is currently unclear because the lack of a near-term catalyst and ambiguous momentum means upside is mostly narrative while downside includes typical small-cap clean-tech funding and execution risk.
+Bear/adversary: A skeptic would argue that in a tech/AI-led tape, capital allocated to a small, competitive, policy-sensitive storage player without a fresh catalyst is an opportunity cost versus higher-quality leaders; storage is a structurally attractive theme, but stock-specific execution and financing risk m...
+Source quality: Business and risk information are grounded in recent SEC filings (10‑K and related forms) and company disclosures, which are high-quality sources for balance-sheet and competitive-position details.[2] There is limited fresh, date-specific newsflow in the la...
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: NEOV may offer medium-term upside if execution is strong and storage adoption continues, but the margin of safety is modest: competition is intense and balance-sheet strength is limited relative to large peers; valuation cannot be viewed...
+Valuation: Public data do not show a compelling valuation dislocation when adjusted for execution and funding risk; as a small-cap in a competitive, capital-intensive field, the equity carries meaningful risk even if headline multiples appear low.
+Growth runway: Structurally, home and C&I storage have a long runway as grid resilience, solar penetration, and electrification trends continue.[2] Over 30–180 days, growth depends on the company’s ability to win more distribution, execute manufacturin...
+Balance-sheet risk: Filings highlight scale and execution risks; as a smaller clean-tech firm, NEOV faces typical risks of limited cash buffers, dependence on external financing, and possible dilution if growth or margins disappoint.[2]
+Capital allocation: Management is investing in in-house manufacturing and product/channel expansion, which could create operating leverage if successful but also adds execution and capital-intensity risk; there is not yet a long record o...
+Concentration case: Given its risk profile and lack of near-term catalysts, NEOV does not justify concentrated exposure when compared with diversified clean-energy ETFs or larger, more established energy/storage names; it is better suited as a research watc...
+Owner thesis, 30-180 days: Over 30–180 days, an owner-style hold could be justified only if the company demonstrates consistent order growth, improved gross margins, and prudent funding with limited dilution, ideally supported by visible contract wins or policy tailwinds; until that...
+Chittick reject reason: Insufficient margin of safety and lack of clear near-term catalyst; balance-sheet and execution risks are high relative to the quality of the moat and scale.
+Self-Learning Filter
+Catalyst type: structural/general
+Fresh catalyst: yes
+Repeat count, 48h: 3
+Diversity bucket: small-cap-clean-tech
+Research tier: monitor-only
+Allocation learning: Kept at 0% allocation due to absence of a fresh, date-specific catalyst and prior notes about small-cap clean-tech execution and financing risk; better to wait for a clearer inflection.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.32
+Evidence rank: 1/100
+Memory similarity: 0.37
+Vetoes: no_fresh_catalyst; small_cap_clean_tech_risk
+Model notes: Energy storage theme is structurally attractive, but current NEOV setup lacks the time-specific, high-conviction drivers needed for a 1–10 day swing; better as a medium-term research watch.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://invezz.com/en-ae/markets/stocks/neov-nasdaq/
 
