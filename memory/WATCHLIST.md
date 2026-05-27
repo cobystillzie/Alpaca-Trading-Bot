@@ -4,61 +4,130 @@
 {
   "candidates": [
     {
-      "adversary_case": "A rigorous critic would argue that without a hard upcoming catalyst and with meaningful execution and financing risks, this looks more like an early-stage thematic speculation than a Buffett/Munger-quality, Chittick-suitable position; scarce capital and attention are likely better spent on larger, proven cash-generative names or diversified ETFs until NEOV demonstrates durable earnings and cleaner technicals.",
-      "allocation_learning_note": "Kept at monitor-only with 0% allocation to respect quality, catalyst, and margin-of-safety constraints; future consideration would require a clear event catalyst plus improved evidence on balance-sheet strength and execution.",
-      "balance_sheet_risk": "SEC-style commentary flags typical early-stage risks: dependence on external financing, sensitivity to policy and demand, and less robust cash reserves compared with mature peers.[sec_quality] Any financing shortfall or covenant issue could drive volatility and dilution.",
-      "bear_case": "Key risks include execution missteps in scaling manufacturing, dependence on installers and distributors, policy and incentive changes that could slow adoption, competition from larger storage players, and typical small\u2011cap liquidity and volatility risks.[sec_quality] Without a discrete near\u2011term catalyst, price can drift or mean\u2011revert sharply on any risk\u2011off shift.",
-      "capital_allocation_case": "Management appears to be prioritizing product and channel expansion, but the track record of disciplined capital allocation, buybacks, or consistent ROIC is not yet established; this is a build-out phase rather than a compounding capital-return story.[sec_quality]",
-      "catalyst": "Recent attention around home energy storage and solar-adjacent demand, plus SEC filing evidence of retrofit storage adoption and channel expansion, but no single hard, time\u2011specific catalyst in the next 1\u201310 days.",
-      "catalyst_type": "structural",
+      "adversary_case": "A disciplined Chittick-style investor would argue that recurring losses, capital-raise dependence, and customer concentration disqualify INUV from any serious capital allocation; the current move could be a transient squeeze or reaction to thin newsflow with poor risk-adjusted expectancy versus higher-quality alternatives.",
+      "allocation_learning_note": "Deliberately kept as monitor-only due to micro-cap risk, prior filter notes on similar names, and failure to meet Chittick quality and margin-of-safety criteria.",
+      "balance_sheet_risk": "SEC evidence notes a working-capital deficit, recurring operating losses, and a history of funding operations through equity offerings and debt facilities, which implies meaningful liquidity risk and a high probability of further dilution if performance does not improve.[1]",
+      "bear_case": "INUV is a micro/small-cap with a history of operating losses, liquidity constraints, and potential dilution; filings reference recurring funding via equity and debt, which can pressure shareholders.[1] The business is exposed to intense competition in digital advertising and to broader ad-spend cycles, and a single strong day or week of price action can easily reverse. The name fails several core Chittick Cash quality and margin-of-safety tests for a concentrated, long-only owner position.",
+      "capital_allocation_case": "Capital allocation appears primarily defensive (keeping the company funded) rather than focused on shareholder returns; reliance on external capital and lack of consistent profitability make it hard to rate management\u2019s reinvestment discipline positively from a Chittick perspective.",
+      "catalyst": "Recent Q1 2026 earnings report and a strong short-term price move (+13% in the last 24 hours, +6% in the last week) alongside technical indicators flagging a strong buy on daily and 1\u2011week views.[1][5]",
+      "catalyst_type": "earnings/momentum",
       "chittick_cash_score": 38.0,
-      "chittick_reject_reason": "Insufficient margin of safety, early-stage execution risk, and lack of clear near-term catalyst make this unsuitable for a concentrated quality-style position at present.",
-      "concentration_case": "Given its limited size and liquidity and the lack of a clean margin of safety, this does not warrant concentrated exposure over broad clean-energy or quality-factor ETFs; at most, it might merit a small satellite allocation after much stronger evidence emerges.",
-      "confidence": 0.41,
+      "chittick_reject_reason": "Fails margin-of-safety, profitability, and balance-sheet robustness criteria; suitable, if at all, only as a speculative, monitor-only name rather than a concentrated quality holding.",
+      "concentration_case": "Given its speculative profile and small size, INUV does not justify concentration versus higher-quality tech or broad ETFs; at most it would be a small, experimental position if ever traded, and quality capital is probably better allocated elsewhere.",
+      "confidence": 0.57,
       "congressional_signal": "none",
-      "diversity_bucket": "small-cap-clean-tech",
-      "entry_plan": "No entry: monitor-only. For research purposes, a future paper-trade template would look for (a) a clearly documented hard catalyst such as earnings, a major contract, or policy change, and (b) confirmation via high-volume breakout above a recent resistance level with tight spreads before considering even a small 1\u20135% allocation.",
-      "exit_plan": "N/A for monitor-only. A hypothetical future swing framework would target 2\u20133x the anticipated downside (e.g., 8\u201310% stop vs. 16\u201325% upside) and cut quickly on breakdowns below post-catalyst support or on evidence of financing/going-concern stress.",
+      "diversity_bucket": "small-cap-ad-tech",
+      "entry_plan": "Monitor only for now: no new paper entry. If later considered for a test swing, a hypothetical paper setup would look for a pullback toward recent support after this spike with intraday volume confirming real institutional interest rather than a single-day anomaly, and a very small tranche size given balance-sheet and dilution risks.",
+      "exit_plan": "Since this is monitor-only, no execution plan. Hypothetically, a future test trade would target approx. 15\u201325% upside versus an 8\u201310% hard stop below clearly defined technical support, with immediate exit on evidence of financing/dilution news or breakdown in liquidity.",
       "fresh_catalyst": true,
-      "growth_runway": "Longer term, electrification, home energy storage adoption, retrofit opportunities, and possible expansion into C&I storage offer a multi\u2011year runway if execution is strong and policy remains supportive.[sec_quality] Over 30\u2013180 days, investor focus would likely be on evidence of order growth, channel productivity, and any major partnership announcements.",
-      "hf_evidence_rank": 0.45,
-      "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.35,
-      "hf_memory_similarity": 0.2,
-      "hf_model_notes": "Name previously surfaced as attention-driven with no strong time-specific catalyst; maintaining a conservative monitor-only stance is consistent with hype and liquidity considerations.",
+      "growth_runway": "Management and filings frame a runway tied to continued growth in digital advertising and AI/intent-driven targeting, plus existing relationships with large platforms; however, this is largely narrative at this stage and contingent on eventual profitability and funding stability rather than being a proven compounding engine.",
+      "hf_evidence_rank": 0.55,
+      "hf_filter_vetoes": [
+        "micro_cap_speculation",
+        "weak_margin_of_safety"
+      ],
+      "hf_hype_risk": 0.45,
+      "hf_memory_similarity": 0.41,
+      "hf_model_notes": "Ad-tech micro-cap with mixed signals: some durable-demand elements in filings but overshadowed by losses and financing risk; technicals strong short term but unsuitable as a core Chittick Cash holding.",
       "hf_sentiment_agreement": 0.0,
       "hf_sentiment_label": "",
       "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 0.55,
+      "hf_source_quality_score": 0.63,
       "horizon_days": 5,
-      "margin_of_safety_case": "Balance-sheet and scale-up risks limit the margin of safety; the investment case currently leans more on thematic growth than on discounted cash flows supported by a strong, proven earnings base.[sec_quality] For Chittick-style thinking, this is below threshold for concentrated capital.",
-      "market_regime": "In a fragile risk\u2011on regime, small-cap clean-tech with limited profitability and thinner liquidity is highly sensitive to rate moves and sentiment shifts; any backup in yields or risk\u2011off swing could pressure the stock disproportionately.",
-      "momentum_case": "Recent coverage and discussion have lifted awareness, but the prior pass characterized the name as driven more by profile attention than by clear, high\u2011volume breakout behavior; the technical picture does not yet meet a strong momentum-triggered swing setup in the 1\u201310 day window.[sec_quality]",
-      "owner_hold_case": "A 30\u2013180 day owner-style thesis would require: (a) visible growth in contracted backlog or installations, (b) evidence of improved gross margins and operating leverage, (c) no deterioration in balance-sheet strength, and (d) at least one substantive commercial or policy catalyst to support sustained demand. These conditions are not yet fully evidenced.",
-      "quality_case": "Filings indicate real demand tailwinds from residential storage, a retrofit market, and safety certifications, with management pursuing new C&I products and financing solutions to broaden the addressable market.[sec_quality] However, the company is still in a growth and scale-up phase with material execution risk and faces competitors with far greater resources.[sec_quality]",
+      "margin_of_safety_case": "Given recurring losses, working-capital risk, and financing dependence, there is little margin of safety\u2014valuation may appear optically low in price-per-share terms, but downside includes permanent capital impairment via dilution or business underperformance; this is not aligned with concentrated, owner-style capital preservation.",
+      "market_regime": "In a risk-on environment favoring tech and growth narratives, speculative small-cap ad-tech can benefit from flows, but it is also among the first places capital leaves if volatility spikes or sentiment shifts risk-off; macro or AI sentiment disappointments could accelerate drawdowns here more than in higher-quality large caps.",
+      "momentum_case": "The stock is up about 13% in the past 24 hours and has risen roughly 6% over the last week, with TradingView\u2019s aggregated technicals showing a strong buy signal on both daily and 1\u2011week horizons, and a 1\u2011month rating of buy.[1] Volatility is high (around 21%), suggesting the recent move is meaningful but also unstable.[1]",
+      "owner_hold_case": "Owner-style 30\u2013180 day holding would only be justified if the company demonstrates a clear and sustained turn to positive operating cash flow, reduction in financing dependence, and evidence of durable revenue growth with reduced customer and funding concentration\u2014conditions not currently met.",
+      "quality_case": "Fundamentally, prior filings highlight that Inuvo operates an ad\u2011tech platform with durable-demand elements such as long-standing relationships with Google and Yahoo! and multi-year service contracts, plus patent-protected intent-based targeting technology.[1] However, SEC evidence also notes operating losses, gross margin pressure, working-capital deficits, and reliance on external financing, which significantly constrain quality for a Chittick-style lens.[1]",
       "recommendation": "watch",
-      "repeat_count_48h": 1,
+      "repeat_count_48h": 0,
       "research_tier": "monitor-only",
-      "risk_reward": "At this stage, the asymmetry is unclear: upside depends on successful commercialization and favorable policy, while downside includes dilution, execution risk, and macro risk-off sensitivity. This is not yet a clean, buffered risk/reward for a 1\u201310 day swing.",
-      "sector": "energy / clean-tech (residential energy storage)",
+      "risk_reward": "Attractive short-term upside is possible in percentage terms due to volatility, but fundamental downside (including dilution and business model risk) is large; any participation would need to be treated as a speculative, small experimental sleeve, not a core holding.",
+      "sector": "communication services / advertising technology (small-cap)",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
       "social_buzz": "none",
-      "source_quality": "Evidence relies mainly on SEC filing-style fundamentals and general thematic context on storage adoption, which are higher-quality than social buzz but still leave gaps on near-term catalysts and precise financial trajectory.[sec_quality] There is limited high-quality, time-specific newsflow in the last few days.",
-      "source_urls": [],
+      "source_quality": "Price, volatility, and technical signals come from a real-time market-data provider (TradingView).[1] Business quality and risk notes are grounded in SEC filings summarized in the earlier sec_quality memo, which is higher-quality evidence than social or opinion pieces.[1]",
+      "source_urls": [
+        "https://it.tradingview.com/symbols/AMEX-INUV/",
+        "https://finviz.com/stock?t=PODC"
+      ],
       "stop_loss_percent": 0.0,
       "strategy_tags": [
-        "chittick_cash"
+        "chittick_cash",
+        "momentum",
+        "speculative-watch"
+      ],
+      "symbol": "INUV",
+      "target_allocation_percent": 0.0,
+      "thesis": "Inuvo is a small-cap advertising technology company that just printed a sharp upside move and has recent filing evidence of both risk and potential, making it a candidate only for tightly risk-controlled, short-horizon momentum observation rather than a core quality buy.",
+      "valuation_case": "Analyst targets cited by TradingView cluster between about $0.85 and $1.00, modestly above the current ~$0.75 level, implying limited upside from those estimates.[1] With speculative fundamentals and no clear path to sustained profitability in the near term, valuation cannot be considered attractive on a quality-adjusted basis."
+    },
+    {
+      "adversary_case": "A skeptic would argue that in a tech/AI-led tape, capital allocated to a small, competitive, policy-sensitive storage player without a fresh catalyst is an opportunity cost versus higher-quality leaders; storage is a structurally attractive theme, but stock-specific execution and financing risk may not be adequately compensated right now.",
+      "allocation_learning_note": "Kept at 0% allocation due to absence of a fresh, date-specific catalyst and prior notes about small-cap clean-tech execution and financing risk; better to wait for a clearer inflection.",
+      "balance_sheet_risk": "Filings highlight scale and execution risks; as a smaller clean-tech firm, NEOV faces typical risks of limited cash buffers, dependence on external financing, and possible dilution if growth or margins disappoint.[2]",
+      "bear_case": "NEOV faces intense competition from well-capitalized incumbents, manufacturing and execution risk from scaling its own production, and exposure to policy and incentive regimes in solar and storage markets.[2] As a small-cap, it likely has constrained access to capital and could be vulnerable to dilution or adverse macro shifts (e.g., changes in subsidies, higher financing costs for installations).",
+      "capital_allocation_case": "Management is investing in in-house manufacturing and product/channel expansion, which could create operating leverage if successful but also adds execution and capital-intensity risk; there is not yet a long record of shareholder-friendly capital returns or conservative balance-sheet stewardship on par with Chittick-style exemplars.",
+      "catalyst": "Recent attention stems from SEC filings and news around home energy storage adoption and distributor/channel expansion, but there is no single, time-specific catalyst such as just-reported earnings or a major contract announcement in the last few days.[2]",
+      "catalyst_type": "structural/general",
+      "chittick_cash_score": 52.0,
+      "chittick_reject_reason": "Insufficient margin of safety and lack of clear near-term catalyst; balance-sheet and execution risks are high relative to the quality of the moat and scale.",
+      "concentration_case": "Given its risk profile and lack of near-term catalysts, NEOV does not justify concentrated exposure when compared with diversified clean-energy ETFs or larger, more established energy/storage names; it is better suited as a research watchlist holding.",
+      "confidence": 0.54,
+      "congressional_signal": "none",
+      "diversity_bucket": "small-cap-clean-tech",
+      "entry_plan": "No paper trade entry now. Keep on watch for a clearly dated, fundamental catalyst such as a major contract, distributor deal, or earnings surprise that coincides with a high-volume breakout from consolidation; only at that point would a 1\u201310 day swing thesis be reconsidered.",
+      "exit_plan": "Not applicable for monitor-only. Hypothetically, a future swing trade would define risk just below the breakout level (e.g., 7\u201310% stop) with a 1.5\u20132x upside target, and would cut quickly on failed breakouts or dilution/funding announcements.",
+      "fresh_catalyst": true,
+      "growth_runway": "Structurally, home and C&I storage have a long runway as grid resilience, solar penetration, and electrification trends continue.[2] Over 30\u2013180 days, growth depends on the company\u2019s ability to win more distribution, execute manufacturing reliably, and navigate any policy changes in key markets; long-term, the runway is tied to broader storage adoption curves.",
+      "hf_evidence_rank": 0.58,
+      "hf_filter_vetoes": [
+        "no_fresh_catalyst",
+        "small_cap_clean_tech_risk"
+      ],
+      "hf_hype_risk": 0.32,
+      "hf_memory_similarity": 0.37,
+      "hf_model_notes": "Energy storage theme is structurally attractive, but current NEOV setup lacks the time-specific, high-conviction drivers needed for a 1\u201310 day swing; better as a medium-term research watch.",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "",
+      "hf_sentiment_score": 0.0,
+      "hf_source_quality_score": 0.66,
+      "horizon_days": 7,
+      "margin_of_safety_case": "NEOV may offer medium-term upside if execution is strong and storage adoption continues, but the margin of safety is modest: competition is intense and balance-sheet strength is limited relative to large peers; valuation cannot be viewed as clearly cheap with sufficient downside protection without deeper, up-to-the-minute analysis.",
+      "market_regime": "In a risk-on, AI/tech-led market, small-cap clean-tech is not a primary leadership group; flows could rotate into storage/renewables on specific policy or rate headlines, but absent a direct catalyst, the regime does not strongly pull capital into names like NEOV.",
+      "momentum_case": "Price action has had episodic attention but there is no evidence in the current data of a fresh, strong breakout on volume tied to a clearly dated catalyst; momentum is therefore considered ambiguous and not strong enough to justify a short-horizon swing on its own.[2]",
+      "owner_hold_case": "Over 30\u2013180 days, an owner-style hold could be justified only if the company demonstrates consistent order growth, improved gross margins, and prudent funding with limited dilution, ideally supported by visible contract wins or policy tailwinds; until that evidence appears, it stays in the monitor-only bucket.",
+      "quality_case": "SEC filings indicate NeoVolta has a real product footprint in residential and C&I energy storage, with growth in storage adoption, new distributor relationships, and product launches aimed at home and commercial backup.[2] However, quality is constrained by competition against much larger players (Tesla, LG Chem, Enphase, etc.), execution risk from relatively recent in-house manufacturing shifts, and typical small-cap clean-tech funding and scale challenges noted in the filings.",
+      "recommendation": "watch",
+      "repeat_count_48h": 2,
+      "research_tier": "monitor-only",
+      "risk_reward": "Risk-reward is currently unclear because the lack of a near-term catalyst and ambiguous momentum means upside is mostly narrative while downside includes typical small-cap clean-tech funding and execution risk.",
+      "sector": "energy / clean-tech (residential & C&I storage)",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "none",
+      "source_quality": "Business and risk information are grounded in recent SEC filings (10\u2011K and related forms) and company disclosures, which are high-quality sources for balance-sheet and competitive-position details.[2] There is limited fresh, date-specific newsflow in the last few days, lowering conviction for a short-term trade.",
+      "source_urls": [
+        "https://invezz.com/en-ae/markets/stocks/neov-nasdaq/"
+      ],
+      "stop_loss_percent": 0.0,
+      "strategy_tags": [
+        "chittick_cash",
+        "clean-tech",
+        "monitor-only"
       ],
       "symbol": "NEOV",
       "target_allocation_percent": 0.0,
-      "thesis": "NeoVolta is a small-cap residential energy-storage provider that benefits from structural electrification and home-storage adoption, but its profile is still early-stage and execution\u2011sensitive, making it a better fit for monitor-only research than an execution-ready swing trade right now.",
-      "valuation_case": "There is insufficient recent, high-quality consensus valuation work to claim the stock is clearly cheap relative to durable earnings; most of the bull case is about optionality and runway rather than present normalized profits, which does not align well with a classic value margin-of-safety discipline."
+      "thesis": "NeoVolta is a small-cap residential/commercial energy storage company with some real growth-tailwind evidence and a recent track record of filings and channel expansion, but it lacks a near-term, high-conviction catalyst and remains better suited for watchlist monitoring than for a 1\u201310 day swing.",
+      "valuation_case": "Public data do not show a compelling valuation dislocation when adjusted for execution and funding risk; as a small-cap in a competitive, capital-intensive field, the equity carries meaningful risk even if headline multiples appear low."
     }
   ],
-  "summary": "US equities remain in a late\u2011cycle, earnings\u2011supported but valuation\u2011rich bull phase, with AI and large\u2011cap tech leadership intact but vulnerable to rate and macro surprises. A cautious paper\u2011trading stance favors high\u2011quality, cash\u2011generative businesses with clear catalysts and defined 1\u201310 day risk, while avoiding hype or leverage-sensitive names."
+  "summary": "U.S. equities remain in a broadly risk-on regime led by mega-cap tech and AI/semis, while quality and defensiveness are not leading; current paper-trade ideas should balance participation in tech strength with diversification and strict risk controls."
 }
 -->
 
@@ -1412,4 +1481,11 @@ No candidates.
 | Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
 |---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
 | NEOV | energy / clean-tech (residential energy storage) | monitor-only | small-cap-clean-tech | 1 | yes | 0.41 | 38 | 1 | 0 | 0.0% | 0.0% | watch | Recent attention around home energy storage and solar-adjacent demand, plus SEC filing evidence of retrofit storage adoption and channel expansion, but no singl |
+
+## Latest Candidates - 2026-05-27 14:28:04 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| INUV | communication services / advertising technology (small-cap) | monitor-only | small-cap-ad-tech | 0 | yes | 0.57 | 38 | 1 | 2 | 0.0% | 0.0% | watch | Recent Q1 2026 earnings report and a strong short-term price move (+13% in the last 24 hours, +6% in the last week) alongside technical indicators flagging a st |
+| NEOV | energy / clean-tech (residential & C&I storage) | monitor-only | small-cap-clean-tech | 2 | yes | 0.54 | 52 | 1 | 2 | 0.0% | 0.0% | watch | Recent attention stems from SEC filings and news around home energy storage adoption and distributor/channel expansion, but there is no single, time-specific ca |
 

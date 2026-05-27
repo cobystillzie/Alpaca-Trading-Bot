@@ -21439,4 +21439,28 @@ HF filter: sentiment=not run source=1/100 hype=0.35 vetoes=0
 Self-learning: tier=monitor-only repeat48h=1 fresh=yes bucket=small-cap-clean-tech
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-27 14:28:05 Eastern Daylight Time
+
+Research Update
+
+Market tone: U.S. equities remain in a broadly risk-on regime led by mega-cap tech and AI/semis, while quality and defensiveness are not leading; current paper-trade ideas should balance participation in tech strength with diversification and strict risk controls.
+Candidates: 2
+
+1. INUV (communication services / advertising technology (small-cap)) | confidence 0.57 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket small-cap-ad-tech | HF source 1/100 | HF veto
+Recommendation: watch
+Catalyst: Recent Q1 2026 earnings report and a strong short-term price move (+13% in the last 24 hours, +6% in the last week) alongside technical indicators flagging a strong buy on daily and 1‑week views.[1][5]
+Chittick Cash: Given recurring losses, working-capital risk, and financing dependence, there is little margin of safety—valuation may appear optically low in price-per-share terms, but downside includes permanent capital impairment...
+HF filter: sentiment=not run source=1/100 hype=0.45 vetoes=2
+Self-learning: tier=monitor-only repeat48h=0 fresh=yes bucket=small-cap-ad-tech
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. NEOV (energy / clean-tech (residential & C&I storage)) | confidence 0.54 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket small-cap-clean-tech | HF source 1/100 | HF veto
+Recommendation: watch
+Catalyst: Recent attention stems from SEC filings and news around home energy storage adoption and distributor/channel expansion, but there is no single, time-specific catalyst such as just-reported earnings or a major contract announcement in the...
+Chittick Cash: NEOV may offer medium-term upside if execution is strong and storage adoption continues, but the margin of safety is modest: competition is intense and balance-sheet strength is limited relative to large peers; valuat...
+HF filter: sentiment=not run source=1/100 hype=0.32 vetoes=2
+Self-learning: tier=monitor-only repeat48h=2 fresh=yes bucket=small-cap-clean-tech
+Social buzz, low weight: none
+Congress signal, low weight: none
 
