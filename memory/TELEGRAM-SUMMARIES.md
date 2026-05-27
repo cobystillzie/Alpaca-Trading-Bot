@@ -21301,4 +21301,127 @@ Model notes: Pattern resembles prior rejected speculative clean-tech/early-stage
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: https://invezz.com/en-ae/markets/stocks/neov-nasdaq/
+## Performance Ledger - 2026-05-27 12:40:05 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-05-27 12:40:04 Eastern Daylight Time
+- Portfolio value: $100,168.52
+- P/L vs $100k baseline: $168.52
+- Full paper-account return: 0.169%
+- Managed-capital return: 1.69%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 3.01%
+- Latest position value: $5,768.52
+- Full-account cash reserve: 94.2%
+- Managed-capital cash reserve: 42.3%
+- Max snapshot drawdown: $135.30 from 2026-05-08 16:30:03 Eastern Daylight Time to 2026-05-21 21:16:10 Eastern Daylight Time
+
+Open Position Review
+- DT: loser, value $795.54, unrealized P/L $-4.46, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 19 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: loser, value $462.98, unrealized P/L $-37.02, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 20 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: winner, value $846.94, unrealized P/L $46.94, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 27 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- IBRX: loser, value $562.10, unrealized P/L $-37.90, entry 2026-05-11 09:48:18 Eastern Daylight Time, thesis age 16 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: winner, value $520.28, unrealized P/L $20.28, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 15 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: winner, value $844.13, unrealized P/L $44.13, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 26 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $822.83, unrealized P/L $22.83, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 21 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $913.72, unrealized P/L $113.72, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 29 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- SCHD: appeared 34 times; open position P/L $22.83.
+- INTC: appeared 32 times; market outcome unavailable until benchmark/candidate price history is captured.
+- SPMO: appeared 32 times; open position P/L $113.72.
+- NVDA: appeared 29 times; open position P/L $44.13.
+- GOOGL: appeared 27 times; open position P/L $46.94.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- UNP: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VALN: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- GLD: appeared 9 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Candidate references banned v1 instruments or leverage.: 16
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 9
+  - Single-stock allocation would exceed 15%.: 7
+  - A market-open order is already logged for today. No backup order was placed.: 5
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources.: 5
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Confidence below 0.60. Target allocation must be between 1% and 15%.: 3
+  - Candidate references banned v1 instruments or leverage. Target allocation must be between 1% and 15%.: 3
+  - Max open-position count would be exceeded.: 3
+- By symbol:
+  - INTU: 5
+  - AGI: 3
+  - BAH: 3
+  - GOOGL: 3
+  - PLTR: 3
+  - TMXX.F: 3
+  - COIN: 2
+  - FLEX: 2
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 3
+- unknown: 1
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold met: 8 trades over 29 days.
+- Strategy tuning may be reviewed, but safety guardrails still apply.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## Midday Memo - 2026-05-27 12:40:05 Eastern Daylight Time
+
+Midday Risk Memo
+
+Recommendation: Hold only positions whose thesis still matches the research; do not add unless guardrails pass.
+
+Market Regime
+Review current paper positions, thesis drift, concentration, stop discipline, and cash reserve.
+
+Portfolio
+Portfolio value: 100168.52 Cash: 94400 Buying power: 194568.52 Positions: - DT: qty=20.289119959, market_value=795.536394, unrealized_pl=-4.463606 - GLRE: qty=28.042624789, market_value=462.983735, unrealized_pl=-37.016265 - GOOGL: qty=2.151289429, market_value=846.941135, unrealized_pl=46.941135 - IBRX: qty=70.838252656, market_value=562.101535, unrealized_pl=-37.898465 - LNC: qty=14.590020426, market_value=520.281587, unrealized_pl=20.281587 - NVDA: qty=4.00060009, market_value=844.126619, unrealized_pl=44.126619 - SCHD: qty=25.2286345, market_value=822.831914, unrealized_pl=22.831914 - SPMO: qty=6.119014838, market_value=913.721891, unrealized_pl=113.721891 Performance: value $100,168.52, P/L vs $100k $168.52, managed return 1.69%, deployed return 3.01%, managed cash reserve 42.3%.
+
+Top Candidates
+
+1. NEOV (energy / clean-tech (residential energy storage)) | confidence 0.41 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket small-cap-clean-tech | HF source 0/100 | HF veto
+Thesis: NeoVolta is a small residential energy storage provider leveraged to rooftop solar and grid-resiliency demand, but available evidence and SEC filings frame it as an early-stage, higher-risk business with startup-like execution, policy, and competitive risks; this fits more as a monitor-only quality screen example than as an execution candidate for a cauti...
+Catalyst: Recent attention stems mainly from profile coverage and general discussion of home energy storage and solar-adjacent demand, but there is no strong, time-specific catalyst such as a just-reported earnings surprise, a major new OEM/utility contract, or a transformational financing disclosed in the...
+Entry: No entry: monitor-only. If future evidence shows a concrete catalyst (e.g., a major new contract, clearly positive earnings surprise with guidance raise, or a material strategic partnership) plus liquid trading conditions, a staged entry could be reconsider...
+Exit: Not applicable for monitor-only. If circumstances changed and a trade were considered later, a rules-based plan would likely target modest upside (for example, 10–20%) versus a predefined 7–10% stop, sized conservatively due to business and liquidity risks.
+Risk/reward: Under present information, the asymmetric risk is to the downside due to business immaturity, policy dependence, and competition; potential upside from secular storage adoption is too speculative and weakly evidenced to justify taking on that risk in a shor...
+Bear/adversary: A strict adversary would argue that, given the lack of a clearly dated, material catalyst and the early-stage risk profile documented in filing summaries, any attempt to trade NeoVolta here is effectively a speculative bet on narrative and sector sentiment rather than on verifiable business progr...
+Source quality: Evidence is thin and largely descriptive: one profile-style market source plus secondary SEC-summary commentary, with no detailed, recent earnings release, contract filing, or multi-source confirmation of near-term catalysts.[1] This falls below the bot’s p...
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Filing-derived commentary emphasizes startup-like risks and policy dependence, which reduce margin of safety; without clear evidence of strong free-cash-flow generation, durable competitive advantage, or a discount to conservatively esti...
+Valuation: No robust valuation work (e.g., price versus earnings, cash flows, or asset value) is supported by the limited sources; given early-stage characteristics and sector volatility, apparent cheapness (if any) could reflect risk rather than o...
+Growth runway: Conceptually, residential energy storage has a multi-year runway driven by grid resiliency needs, rooftop solar penetration, and decarbonization policy, which could benefit companies like NeoVolta.[1] However, the degree to which NeoVolt...
+Balance-sheet risk: Early-stage energy-storage businesses typically face ongoing capital needs, are exposed to component cost fluctuations, and can be sensitive to credit conditions; filing-derived commentary groups NeoVolta among compan...
+Capital allocation: With limited public evidence on capital allocation track record, dividend or buyback policy, or high-ROI reinvestment opportunities, it is difficult to assess management’s capital allocation skill against a Buffett/Mu...
+Concentration case: Given the small-cap, early-stage profile and thin evidence, NeoVolta does not merit concentration relative to broad ETFs or higher-quality large caps; if it were ever traded, it should only appear as a very small, speculative satellite r...
+Owner thesis, 30-180 days: To justify a 30–180 day owner-style hold, future evidence would need to show repeated, profitable quarters with growing backlog, improving unit economics, strengthened balance sheet, and possibly a differentiated technology or channel advantage. None of thi...
+Chittick reject reason: Early-stage, policy-dependent, and thinly evidenced business with no strong near-term catalyst; fails margin-of-safety, quality, and evidence-density thresholds for an execution-ready long-only swing trade.
+Self-Learning Filter
+Catalyst type: general
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: small-cap-clean-tech
+Research tier: monitor-only
+Allocation learning: Kept at monitor-only with 0% target allocation despite sector tailwinds due to thin evidence and startup-like risk profile; aligns with prior vetoes on speculative, source-thin ideas.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.40
+Evidence rank: 0/100
+Memory similarity: 0.60
+Vetoes: source_thin; no_strong_catalyst; early_stage_risk
+Model notes: Pattern resembles prior rejected speculative clean-tech/early-stage names with limited multi-source confirmation and no discrete event driver.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://invezz.com/en-ae/markets/stocks/neov-nasdaq/
 
