@@ -1226,4 +1226,9 @@ Candidates found: 2
 U.S. equities remain in a tech/AI-led, quality-growth, risk-on regime but with narrow leadership and ongoing rate/geopolitical risks. Short-term swings are increasingly event-driven around earnings, guidance, and idiosyncratic news, favoring selective catalysts and disciplined risk management over broad beta.
 
 Candidates found: 2
+## Two-Hour Research Agent - 2026-05-28 07:52:57 Eastern Daylight Time
+
+US equities remain in a late-stage bull with tech/AI leadership and improving breadth, but valuations and narrow leadership make the regime bullish yet fragile. For paper swing trades, prioritize high-quality, liquid names with fresh catalysts and clear 1–10 day setups, while treating owner-style 30–180 day theses as secondary.
+
+Candidates found: 3
 

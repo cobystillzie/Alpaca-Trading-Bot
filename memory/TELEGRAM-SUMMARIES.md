@@ -21831,4 +21831,37 @@ HF filter: sentiment=not run source=1/100 hype=0.52 vetoes=0
 Self-learning: tier=monitor-only repeat48h=3 fresh=yes bucket=small-cap-clean-tech-storage
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-28 07:52:57 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities remain in a late-stage bull with tech/AI leadership and improving breadth, but valuations and narrow leadership make the regime bullish yet fragile. For paper swing trades, prioritize high-quality, liquid names with fresh catalysts and clear 1–10 day setups, while treating owner-style 30–180 day theses as secondary.
+Candidates: 3
+
+1. TXN (semiconductors) | confidence 0.59 | allocation 0.0% | stop 8.0% | Chittick 74/100 | tier watch | bucket quality-semiconductors-industrial | HF source 1/100
+Recommendation: watch
+Catalyst: Recent congressional purchase disclosures indicating modest net buying interest, alongside ongoing investor focus on semiconductors as a core beneficiary of industrial, auto, and IoT digitization; TXN has also benefited from the broader...
+Chittick Cash: TXN rarely screens as deeply undervalued, but its quality, diversified end-markets, and balance-sheet strength create a margin of safety relative to more cyclical or speculative semis. For a short swing, the margin-of...
+HF filter: sentiment=neutral-to-positive source=1/100 hype=0.18 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=quality-semiconductors-industrial
+Social buzz, low weight: none
+Congress signal, low weight: Recent small net-buy disclosures by multiple members provide a weak, delayed signal that elected officials are incrementally adding TXN exposure, but position sizes are small an...
+
+2. ECL (specialty-chemicals / water & hygiene) | confidence 0.73 | allocation 8.0% | stop 7.0% | Chittick 79/100 | tier execution-ready | bucket defensive-water-chemicals | HF source 1/100
+Recommendation: execute-if-guards-pass
+Catalyst: A recent bullish UBS rating change with a lifted price target sparked a notable price move in Ecolab, indicating fresh institutional endorsement and improved outlook.[congressional_disclosures] At the same time, public congressional disc...
+Chittick Cash: ECL is unlikely to be deeply discounted after an upgrade-driven move, but its recurring revenue, secular tailwinds, and defensive characteristics offer a qualitative margin of safety versus more cyclical or speculativ...
+HF filter: sentiment=positive source=1/100 hype=0.22 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=defensive-water-chemicals
+Social buzz, low weight: none
+Congress signal, low weight: Recent congressional disclosures show net buying interest in ECL with modest transaction sizes, reinforcing the positive analyst signal but providing only a weak, delayed second...
+
+3. XLK (technology-ETF) | confidence 0.71 | allocation 6.0% | stop 6.0% | Chittick 62/100 | tier execution-ready | bucket broad-tech-ETF | HF source 1/100
+Recommendation: execute-if-guards-pass
+Catalyst: Recent performance evidence shows XLK gaining about 17% over 30 days and 33% over the quarter, confirming strong sector momentum and attracting additional attention from trend and swing traders.[8] This performance reflects earnings stre...
+Chittick Cash: From a Chittick lens, XLK’s margin of safety is modest: while underlying holdings are generally high quality, sector valuations and concentration risk limit downside protection in a shock. The ETF does, however, provi...
+HF filter: sentiment=positive source=1/100 hype=0.28 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=broad-tech-ETF
+Social buzz, low weight: low, mainly institutional and ETF-focused discussion rather than hype-style promotion.
+Congress signal, low weight: none
 
