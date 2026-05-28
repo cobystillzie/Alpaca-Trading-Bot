@@ -4,130 +4,127 @@
 {
   "candidates": [
     {
-      "adversary_case": "A disciplined adversary would argue that this is still a cyclical mid-cap semiconductor supplier with limited structural moat compared with the best analog franchises, making it vulnerable to order slowdowns and multiple compression; they would also note that the near-term catalyst is a research update and factor rotation rather than a hard event like earnings or a major design win, lowering the conviction for a 1\u201310 day swing.",
-      "allocation_learning_note": "Sized at 8% to respect cyclical risk and avoid concentration, while still making the trade meaningful within the swing sleeve.",
-      "balance_sheet_risk": "The Q1 CY2026 research framing emphasizes durable earnings and cash generation rather than distress, implying no acute balance-sheet risk such as excessive leverage or near-term refinancing pressure; however, cyclicality in orders and inventory can still cause working-capital swings.[6][7]",
-      "bear_case": "Vishay remains a cyclical semiconductor/components business; if macro data weakens or industrial/auto orders soften, the stock could de-rate despite good near-term fundamentals.[6][7] AI enthusiasm could stay concentrated in digital/accelerator names, leaving analog/power suppliers under-owned and range-bound.[7] Any guidance that suggests slower bookings or pricing pressure in commoditized categories could compress margins and trigger a derating. As a mid-cap, it also lacks the defensive moat and capital-return track record of the very best Buffett-tier names.",
-      "capital_allocation_case": "Vishay\u2019s inclusion in discussions of cash-producing stocks suggests it is generating free cash flow that can support dividends, buybacks, or sensible capex.[7] While the exact split between returns and reinvestment is not detailed in the sources, its positioning as a durable earnings generator fits a management approach that is at least moderately disciplined rather than speculative.[6][7]",
-      "catalyst": "Recent Q1 CY2026 research update highlighting Vishay\u2019s durable cash generation, margin profile, and positioning in power/analog components at a time when investors are looking for cash-producing, AI-adjacent but less-hyped semiconductor names.[6][7]",
-      "catalyst_type": "news/structural",
-      "chittick_cash_score": 74.0,
+      "adversary_case": "The strongest objection is that this is a small, relatively illiquid adtech stock with only one profitable quarter, modest competitive moat, and dependence on larger platforms; a reversion to losses or a turn in ad spending could wipe out recent gains quickly. From a Chittick Cash perspective, the margin of safety is thin and business quality is not yet firmly established, so this trade should be capped in size and treated as a short-term experiment with tight process discipline, not a core position.",
+      "allocation_learning_note": "Kept allocation below typical 8\u201310% to reflect higher volatility, small-cap liquidity, and less established quality compared to core Chittick names.",
+      "balance_sheet_risk": "SEC-quality context indicates that similar small adtech platforms face funding and customer concentration risks, and Inuvo highlights dependence on larger partners and potential volatility in client budgets.[sec_quality][3] While not carrying extreme leverage, the company\u2019s small scale and evolving cash generation mean that macro slowdowns or execution missteps could stress its balance sheet faster than for large peers.",
+      "bear_case": "Inuvo is a micro/small-cap adtech name with significant volatility and limited analyst coverage; business results are sensitive to digital ad budgets and large-platform policies.[3][sec_quality] A single quarter of profitability may not be durable, and any slowdown in ad demand, change in a key partner relationship, or negative news could trigger sharp downside. Liquidity may be thinner than large caps, raising gap-risk and slippage on stops, and valuation at sub-$1 may attract speculative flows that reverse quickly.",
+      "capital_allocation_case": "Management is investing in AI and platform capabilities and has guided around leveraging existing partner relationships rather than capital-heavy expansion.[3][sec_quality] However, track record as a superb capital allocator is not yet established; reinvestment quality remains to be proven across several more profitable quarters.",
+      "catalyst": "Q1 2026 results and recent profitability: Inuvo reported Q1 2026 results referencing its 2025 10-K, with net income in the most recent quarter around $1.9M versus a prior-quarter loss of roughly -$0.6M, signaling an earnings inflection.[1][3] Technical tools currently flag the stock as a strong buy on daily and 1-week horizons, with notable price and volume strength and about +13% in the last 24 hours.[1]",
+      "catalyst_type": "earnings/news",
+      "chittick_cash_score": 58.0,
       "chittick_reject_reason": "",
-      "concentration_case": "This idea diversifies away from mega-cap AI leaders into a mid-cap analog/components name, giving exposure to hardware infrastructure and industrial end-markets without concentrating further in crowded index heavyweights.[6][7] For a concentrated quality sleeve, Vishay adds a different risk/return profile than broad ETFs, while still staying within the semiconductor ecosystem.",
-      "confidence": 0.72,
+      "concentration_case": "Relative to broad ad/tech ETFs, INUV offers pure-play exposure to a smaller AI-advertising platform, which can produce outsized moves around news and execution improvements. It deserves attention as a small, clearly-catalyzed swing, but not as a large, concentrated holding; a 4\u20136% allocation keeps concentration in check versus mega-cap alternatives.",
+      "confidence": 0.66,
       "congressional_signal": "none",
-      "diversity_bucket": "mid-cap-industrial-tech",
-      "entry_plan": "For paper trading, look for an entry slightly above recent support and inside the current trading range defined in the Q1 update context: buy a partial position on a constructive day if price holds above recent short-term support on normal-to-elevated volume, and avoid entries if the stock gaps down on heavy volume or undercuts that support.[5][6] Given no precise price levels in the provided sources, treat today\u2019s open as the reference and aim to enter on an intraday pullback of 1\u20132% that holds above the prior day\u2019s low, keeping size modest (8% target allocation) due to cyclical risk.",
-      "exit_plan": "Take profits into a 6\u201310% gain or if the stock retests recent resistance with stalling price/volume over 1\u20132 sessions.[5] Invalidate the trade on an 8% closing loss from entry or a decisive break and close below the prior swing low on above-average volume, which would suggest macro or sector pressure outweighs the quality case.[5] If price moves quickly in your favor (5%+ in 2\u20133 days) without news, trail a tighter stop 3\u20134% below the high to respect the short swing horizon.",
+      "diversity_bucket": "small-cap-adtech-AI",
+      "entry_plan": "Paper-trade entry on a modest intraday pullback toward prior support or VWAP after the open, for example near the 5\u20137% pullback from the latest spike (exact price to be set from live chart). Avoid chasing if the stock gaps up >10% at the open; instead, wait for a consolidation with volume drying up before entry. Size at 4\u20136% of notional portfolio to respect small-cap and gap risk.",
+      "exit_plan": "For profit-taking, target roughly 15\u201320% upside from entry, using prior short-term highs and intraday resistance as guides; scale out one-third near +12\u201315% and the rest near +18\u201320% if momentum and volume remain constructive. Invalidation if the price closes below a recent swing low or roughly 8% below entry, or if a high-volume reversal candle forms with no new positive information. Time-based exit after 5\u20137 trading days if the thesis does not play out, even if stops are not hit.",
       "fresh_catalyst": true,
-      "growth_runway": "Near-term (30\u2013180 days), growth is driven by orders tied to industrial automation, auto electrification, and AI infrastructure build-out that relies on power and analog components as enabling hardware.[6][7] Longer term, Vishay\u2019s runway is underpinned by rising semiconductor content in vehicles, IoT, power management, and data centers, though execution and capex discipline will determine how much of that content it captures.[6][7]",
-      "hf_evidence_rank": 0.65,
+      "growth_runway": "Over 30\u2013180 days, growth depends on the company\u2019s ability to deepen partnerships with major platforms, win more advertisers, and scale its AI-driven contextual marketing solutions, all cited in its filings as strategic priorities.[3][sec_quality] Longer term, structural tailwinds in privacy-compliant, AI-driven advertising could support growth, but competitive intensity is high and Inuvo\u2019s scale is still small.",
+      "hf_evidence_rank": 0.58,
       "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.2,
-      "hf_memory_similarity": 0.1,
-      "hf_model_notes": "Quality mid-cap semiconductor/components name supported by fundamental research; catalyst is softer (research + factor rotation) but still acceptable given risk-on regime.",
+      "hf_hype_risk": 0.35,
+      "hf_memory_similarity": 0.0,
+      "hf_model_notes": "Small-cap, earnings-inflection adtech with limited coverage and higher volatility; treat as a tightly risk-managed swing, not a core Chittick Cash compounder.",
       "hf_sentiment_agreement": 0.0,
       "hf_sentiment_label": "",
       "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 0.0,
-      "horizon_days": 6,
-      "margin_of_safety_case": "Relative to high-multiple AI leaders, Vishay\u2019s cash generation and diversified earnings base provide a better margin of safety if AI expectations normalize.[6][7] Its valuation is framed as attractive in the context of cash-producing stocks, suggesting that even if growth slows, downside is cushioned by earnings power and balance-sheet strength rather than speculative narratives.[6][7]",
-      "market_regime": "In a late-cycle, rate-sensitive risk-on tape, quality, cash-generative cyclicals such as Vishay can attract flows as investors look for AI-adjacent upside without paying mega-cap multiples, but they remain exposed to any macro scare or rotation out of cyclicals.[6][7]",
-      "momentum_case": "Current commentary from cash\u2011flow\u2011focused screens highlights Vishay as a target this week, implying it is appearing on value-plus-momentum radar as investors rotate into cash-producing names.[7] While it is not an explosive momentum breakout like smaller speculative semis, the setup matches the type of steady relative strength you want for a 5\u20137 day swing: a quality name attracting incremental attention as investors seek cheaper beneficiaries of AI and industrial spending rather than the most crowded mega-caps.[7][5]",
-      "owner_hold_case": "Over 30\u2013180 days, an owner-style thesis would rest on Vishay converting AI/industrial/auto content growth into sustained free-cash-flow expansion, possibly enabling higher dividends or buybacks and a valuation re-rating closer to higher-quality analog peers.[6][7] Regular review would focus on order trends, book-to-bill, and capital allocation rather than short-term price swings.",
-      "quality_case": "Vishay operates across power MOSFETs, diodes, resistors, and other passive components, giving it diversified end-market exposure (industrial, automotive, computing) and reducing single-customer risk.[6] The StockStory Q1 CY2026 report emphasizes durable earnings power and cash generation, fitting a Buffett/Munger-style preference for understandable, cash-producing industrial-tech businesses rather than speculative growth.[6][7] Its role in the analog/power part of the semiconductor value chain provides structural demand from electrification, automation, and AI infrastructure without the extreme cyclicality of pure memory or highly commoditized logic.[6][7]",
+      "hf_source_quality_score": 0.63,
+      "horizon_days": 5,
+      "margin_of_safety_case": "At a sub-$1 share price and roughly $90M market cap, valuation superficially looks cheap, but true margin of safety is limited because cash generation is nascent, the revenue base is smaller, and the business is sensitive to external platform and ad-cycle risks.[1][3][sec_quality] This is more of a growth inflection than a classic discounted cash-flow bargain; downside protection must come from position sizing and stop discipline rather than intrinsic value alone.",
+      "market_regime": "In a tech/AI-led risk-on regime, smaller AI- and adtech-linked names can see amplified moves around earnings and news, but they will also be vulnerable if risk sentiment shifts or if large-cap AI leaders sell off.[market_regime] Higher-for-longer rates and macro data surprises can quickly tighten liquidity for small caps, so this trade should be treated as a tactical swing, not a core holding.",
+      "momentum_case": "Price is up roughly 13% in the last session and over 6% in the last week, with volatility around 21% and beta ~0.5, indicating name-specific moves rather than pure market beta.[1] Technical indicators on TradingView classify INUV as a strong buy on daily and 1-week horizons, and the 1-month rating is still buy, pointing to sustained upward momentum rather than a single-spike meme move.[1] This fits the 1\u20137 day swing window where a post-earnings drift or continuation pattern can be exploited if the trend holds.",
+      "owner_hold_case": "A 30\u2013180 day owner-style hold might be justified if subsequent quarters confirm sustained profitability, stable or growing relationships with major ad platforms, and evidence that operating leverage can drive consistent free cash flow, not just episodic gains. In that scenario, one could revisit the position as a small, higher-risk growth component alongside higher-quality core holdings.",
+      "quality_case": "Inuvo operates an AI-driven advertising and marketing platform with long-standing relationships with major digital ad platforms, including Google, providing some embedded demand and ecosystem durability per its 10-K.[3][sec_quality] The recent shift to positive net income suggests improving operating leverage, but the company remains small, with a market cap near $90M and exposure to cyclical ad budgets.[1][3] From a Buffett/Munger/Chittick lens, this is not a wide-moat compounder yet, but it offers improving unit economics and real customers rather than a purely speculative story.",
       "recommendation": "execute-if-guards-pass",
-      "repeat_count_48h": 0,
+      "repeat_count_48h": 1,
       "research_tier": "execution-ready",
-      "risk_reward": "Risk 1R at roughly 8% downside to target about 1\u20131.25R (6\u201310%) upside over 5\u20137 days, with the option to convert a winning swing into a small owner-style hold if fundamentals and tape both improve.",
-      "sector": "semiconductors / electronic components",
+      "risk_reward": "Risk around 8% downside versus a 15\u201320% upside target offers roughly 2:1 to slightly better reward-to-risk on a high-volatility, catalyst-backed swing. However, execution and liquidity risks are elevated because of small-cap status and single-quarter inflection dynamics.",
+      "sector": "technology / adtech & marketing AI",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
       "social_buzz": "none",
-      "source_quality": "Evidence relies on a detailed Q1 CY2026 fundamental research report from StockStory and a separate article on cash-producing stocks that explicitly highlights cash generation and AI infrastructure context; both are research-style sources with clear fundamental framing rather than hype.[6][7]",
+      "source_quality": "Fundamental and catalyst data are anchored in the company\u2019s own 10-K cross-referenced in the Q1 2026 results article plus recent net income metrics, supplemented by TradingView price, volatility, and technical ratings.[1][3][sec_quality] Coverage is limited and analyst estimates are sparse, so evidence is adequate but not deep; this is a tactical, not long-term quality, idea.",
       "source_urls": [
-        "https://stockstory.org/us/stocks/nyse/vsh",
-        "https://www.barchart.com/story/news/2145155/2-cash-producing-stocks-to-target-this-week-and-1-we-find-risky",
-        "https://www.tradingview.com/chart/TSLA/ybrIU9pR-Finding-Stocks-With-Real-Participation/"
+        "https://it.tradingview.com/symbols/AMEX-INUV/",
+        "https://www.techjournalmauritania.com/article/912864807-inuvo-reports-first-quarter-2026-results"
       ],
       "stop_loss_percent": 8.0,
       "strategy_tags": [
         "chittick_cash",
-        "quality-cyclical",
-        "ai-adjacent",
-        "swing-1-10-day"
+        "short-term-catalyst",
+        "small-cap-momentum"
       ],
-      "symbol": "VSH",
-      "target_allocation_percent": 8.0,
-      "thesis": "Vishay Intertechnology is a cash-generative, diversified analog and power semiconductor/components manufacturer that screens as a quality cyclical at a reasonable valuation, with a fresh Q1 CY2026 update showing solid fundamentals and positioning for AI, industrial, and automotive content growth, creating a 5\u201310 day swing window around renewed attention to cash generation and capital returns.[6][7]",
-      "valuation_case": "Coverage listing Vishay among cash-producing targets implies it trades at a reasonable earnings/cash-flow multiple compared with peers and bond yields, making it a candidate where price is not obviously detached from fundamentals.[7] It is not the deepest value name, but in a market with stretched megacap valuations, a mid-cap analog/components business with solid cash flow appears comparatively attractive.[6][7]"
+      "symbol": "INUV",
+      "target_allocation_percent": 5.0,
+      "thesis": "Inuvo is a small-cap adtech/AI marketing platform that just reported a profitable Q1 2026 after prior losses, showing improving fundamentals and a potential inflection in operating performance that aligns with current market appetite for AI- and data-driven advertising businesses.[1][3] For a short 3\u20137 day swing, the setup is a momentum-plus-catalyst trade off the earnings and technical strength, with tight risk controls due to size and volatility.",
+      "valuation_case": "Analyst targets are clustered around $0.85\u2013$1.00, implying modest upside from the current ~$0.75\u20130.80 range, although small-cap targets can lag reality.[1] With improving profitability, valuation could re-rate if earnings prove sustainable, but present evidence is too thin to claim a clear undervaluation; the trade is primarily about near-term earnings momentum, not long-term value."
     },
     {
-      "adversary_case": "A critic would argue that any attention to ATOM conflicts with the Chittick Cash and Buffett/Munger discipline given the lack of proven earnings power or balance-sheet detail; they would push to ignore high-volatility, technical-only setups altogether.",
-      "allocation_learning_note": "Kept strictly at 0% allocation and monitor-only to avoid undermining the quality and margin-of-safety framework despite a tempting technical setup.",
-      "balance_sheet_risk": "No explicit data on debt, cash, or burn is given; as a niche technology company, it likely faces funding and dilution risk, which, absent contrary evidence, must be treated as material.[2]",
-      "bear_case": "The upside is driven largely by technical momentum; if the breakout fails, the stock could quickly retrace 10\u201320% given its volatility.[2] As a niche, likely smaller-cap, semiconductor technology play, ATOM may have limited revenue scale, dependence on a small number of partners, and financing/dilution risk; none of these are addressed in the momentum article.[2] Without a clear, near-term fundamental catalyst (earnings beat, contract win, or guidance), the move could be a transient squeeze rather than sustainable institutional accumulation.[5]",
-      "capital_allocation_case": "Insufficient information; the focus on technicals without discussion of cash use, R&D returns, or shareholder returns makes it impossible to assess management\u2019s capital-allocation discipline.[2]",
-      "catalyst": "A single-day price jump of over 31% on elevated volume, with the stock breaking above its 50-day moving average and testing the upper boundary of its recent trading range, has drawn trader attention as a near-term technical catalyst.[2]",
-      "catalyst_type": "momentum",
-      "chittick_cash_score": 32.0,
-      "chittick_reject_reason": "Insufficient demonstrated earnings quality, margin of safety, or balance-sheet strength; momentum-only catalyst conflicts with concentrated-quality and downside-protection priorities.",
-      "concentration_case": "As a small, volatile semiconductor technology name, ATOM would introduce significant idiosyncratic risk compared with a diversified ETF or established cash generator like VSH, without a compensating quality edge.[2]",
-      "confidence": 0.48,
+      "adversary_case": "A counter-argument is that this is precisely when small storage names rerate: structural demand for home energy storage is rising, one analyst has a buy rating and high target, and short-term dislocations around offerings can be entry points. However, from a Chittick Cash and v1 risk perspective, the combination of financing overhang, thin coverage, and highly unstable price action makes it an ill-fitting candidate for a 1\u201310 day disciplined swing in this framework.",
+      "allocation_learning_note": "Kept as monitor-only to avoid repeating prior v1 patterns of over-engaging with high-volatility small caps lacking durable fundamentals.",
+      "balance_sheet_risk": "The proposed common stock offering highlights that internal cash flow is not yet sufficient to fund growth, increasing dilution risk and showing dependence on capital markets.[12][sec_quality] As with many early-stage hardware/clean-tech firms, leverage to macro conditions, supply chain, and project financing is significant.",
+      "bear_case": "High volatility and thin float magnify downside risk; the stock is still down materially over the last year and 52 weeks, reflecting prior drawdowns and execution concerns.[4] The proposed common stock offering adds near-term dilution and signals continued capital needs, which could pressure the share price further if not matched by strong fundamental progress.[12] Competition from large, better-capitalized energy storage players, plus execution risk and potential delays in regulatory or product milestones, could undermine the growth story.",
+      "capital_allocation_case": "Management is raising equity to fund growth, which can be appropriate for an expanding hardware business but also raises questions about dilution versus per-share value creation.[12][sec_quality] Without a long track record of high-ROI reinvestment, capital-allocation quality remains unproven.",
+      "catalyst": "Recent price action includes a strong 7-day rally (~+34.7%) followed by a single-day drop of about -21.7%, alongside news of a proposed public offering of common stock that introduces near-term dilution and financing risk.[2][4][12] Analyst commentary shows a single buy rating with a $6 price target, underscoring speculative upside expectations but thin coverage.[4]",
+      "catalyst_type": "filing/news/momentum",
+      "chittick_cash_score": 42.0,
+      "chittick_reject_reason": "Early-stage, financing-dependent clean-tech with high volatility and fresh equity-offering overhang; margin of safety and durability are not yet sufficient for concentrated quality exposure.",
+      "concentration_case": "For a Chittick-style concentrated portfolio, NEOV is too speculative today versus cleaner, higher-quality alternatives in energy or industrials. It may warrant a future small allocation if execution and balance-sheet clarity improve, but it should not displace higher-quality businesses or diversified ETFs at this stage.",
+      "confidence": 0.6,
       "congressional_signal": "none",
-      "diversity_bucket": "small-cap-speculative-tech",
-      "entry_plan": "For this paper-trading system, ATOM is placed in monitor-only due to quality and margin-of-safety concerns. If it were traded purely as a technical swing, an aggressive plan would be to buy a small tranche on a decisive intraday or daily close above $12.72 with stop just below $11.50 support (around 10\u201312% risk) and target $14\u2013$15, but that risk profile and qualitative evidence do not meet this strategy\u2019s discipline.[2][5]",
-      "exit_plan": "Monitor price action versus the $11.50\u2013$12.72 range.[2] A failed breakout and close back below $11.50 on volume would invalidate the momentum case; a clean move through $14\u2013$15 would suggest the impulse is largely played out for a short-term trader.[2][5]",
+      "diversity_bucket": "small-cap-clean-tech-storage",
+      "entry_plan": "No paper-trade entry at this time. Given the combination of a fresh equity offering announcement, extreme volatility, and still-limited profitability visibility, this remains a monitor-only name until post-offering price discovery settles and at least one more quarter of results clarifies the trajectory.",
+      "exit_plan": "Not applicable for monitor-only status. If already hypothetically held, a risk-aware exit would involve trimming into strength on any renewed spike back toward prior short-term highs and reassessing after the equity offering pricing is absorbed.",
       "fresh_catalyst": true,
-      "growth_runway": "Conceptually, ATOM could benefit from long-term growth in semiconductor manufacturing complexity and substrate engineering, but the article does not quantify pipeline, contracts, or unit economics, leaving the growth runway largely speculative.[2]",
-      "hf_evidence_rank": 0.3,
-      "hf_filter_vetoes": [
-        "quality-insufficient",
-        "momentum-only"
-      ],
-      "hf_hype_risk": 0.7,
-      "hf_memory_similarity": 0.2,
-      "hf_model_notes": "High-volatility technical breakout from a single article; does not clear 0.60 confidence under quality-focused policy.",
+      "growth_runway": "NeoVolta\u2019s product lineup in residential energy storage addresses long-term trends in electrification, solar-plus-storage adoption, and grid resilience.[4][6] Over a 30\u2013180 day horizon, however, growth perception will hinge on execution, booking trends, and how effectively the new equity proceeds are deployed, all of which are uncertain today.",
+      "hf_evidence_rank": 0.52,
+      "hf_filter_vetoes": [],
+      "hf_hype_risk": 0.52,
+      "hf_memory_similarity": 0.0,
+      "hf_model_notes": "High-volatility, event-driven clean-tech with thin coverage; maintain as watch-only until financing and fundamentals are clearer.",
       "hf_sentiment_agreement": 0.0,
       "hf_sentiment_label": "",
       "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 0.3,
-      "horizon_days": 3,
-      "margin_of_safety_case": "There is no demonstrated margin of safety: valuation is not discussed, and the price just moved sharply higher on momentum, shrinking any potential cushion against bad news or financing risk.[2]",
-      "market_regime": "In a risk-on, tech\u2011led tape, speculative semiconductor names with news or perceived AI exposure can experience outsized momentum bursts, but these are precisely the trades most at risk if macro or rates sentiment wobbles.[5][7]",
-      "momentum_case": "Technically, ATOM closed at $12.11 after a +31.06% gain, jumping above its 50-day moving average, with support near $11.50 and resistance around $12.72.[2] The move happened on elevated volume, indicating strong participation.[2] A close above $12.72 is flagged as potentially opening a run toward the $14\u2013$15 area, while failure to hold could send it back toward $11.50 or $10.80.[2] This is textbook short-term momentum around a clear support/resistance box.[2][5]",
-      "owner_hold_case": "No owner-style thesis is warranted until there is clear evidence of recurring, profitable revenue and a solid balance sheet; at that point, it could be re-evaluated as a potential 30\u2013180 day project, but current evidence does not support that.",
-      "quality_case": "Atomera\u2019s business sits in a high-growth niche of the semiconductor value chain (advanced substrate engineering for chip manufacturing), which is strategically interesting, but the provided report focuses almost entirely on technicals and momentum rather than cash flow, earnings durability, or balance-sheet strength.[2] There is no evidence in these sources of sustained profitability or a wide economic moat, making it weak on Buffett/Munger-style quality criteria and Chittick Cash margin-of-safety considerations.",
+      "hf_source_quality_score": 0.55,
+      "horizon_days": 7,
+      "margin_of_safety_case": "With the equity offering looming and the stock still far below its 52-week high, investors may be anchoring on past prices rather than normalized earnings power; true margin of safety is unclear without stable cash flows and clear post-offering capitalization metrics.[4][12][sec_quality] The need for external capital reduces downside protection compared with self-funded, cash-generative peers.",
+      "market_regime": "In a risk-on market, speculative clean-tech and energy storage names can rally sharply on news and momentum, but they are among the first to be sold when risk sentiment or rates shift, given their capital-intensity and valuation sensitivity.[market_regime] Higher-for-longer rates also increase the cost of capital for project and hardware-based growth models, amplifying downside if financing windows tighten.",
+      "momentum_case": "The stock has exhibited extreme short-term momentum: up roughly +34\u201335% over the last week but down more than -20% in the last 24 hours, and about -1\u20132% over the last month, while trading roughly 60% below its 52-week high and ~74% above its 52-week low.[4] Technical services have recently upgraded it to a buy candidate due to short-term trading characteristics, but the pattern is characteristic of speculative, news-driven surges rather than stable trend momentum.[2][4]",
+      "owner_hold_case": "A 30\u2013180 day owner-style thesis would require visible proof that post-offering capital is deployed into profitable growth, that backlog or installations are scaling, and that margins are stabilizing upward. Until then, it is best monitored for future setup rather than held as a core position.",
+      "quality_case": "NeoVolta designs and sells residential energy storage systems such as NV14, NV14-K, and NV24, allowing homeowners to store and use electricity, a space with long-term structural tailwinds from electrification and grid resilience.[4][6] However, SEC risk-factor discussions (via its 10-K referenced in the offering PR) emphasize it is still relatively early-stage with exposure to funding risk, supply-chain constraints, competition from larger players, and regulatory certification requirements.[12][sec_quality] Business quality is not yet in the durable, wide-moat category that Chittick Cash prioritizes.",
       "recommendation": "watch",
-      "repeat_count_48h": 0,
+      "repeat_count_48h": 3,
       "research_tier": "monitor-only",
-      "risk_reward": "The chart-based scenario offers potentially 10\u201320% upside against roughly similar downside, but with high volatility and thin fundamental support, making it poor fit for a quality-anchored process.",
-      "sector": "semiconductors / substrate engineering",
+      "risk_reward": "Headline analyst price targets imply large upside from current levels, but this is paired with high drawdown risk, financing overhang, and execution uncertainty, making the risk/reward profile too asymmetric on the downside for a disciplined, quality-focused short swing at this time.",
+      "sector": "energy / clean-tech / residential storage",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
       "social_buzz": "none",
-      "source_quality": "Evidence is a single technical/momentum article that quantifies price, support/resistance, and moving averages but provides little fundamental data, which is insufficient as a standalone basis for a quality-focused trade.[2]",
+      "source_quality": "Information is drawn from multiple independent sources: technical/price analytics summarizing recent performance and volatility, a German equity portal summarizing analyst ratings, and the official PR regarding the planned stock offering referencing the company\u2019s 10-K risk factors.[2][4][6][12] However, there is limited recent, detailed fundamental analysis available, increasing uncertainty.",
       "source_urls": [
-        "https://www.aeroleatherclothing.com/first-dry/Atomera-ATOM-Surges-Over-31-as-Momentum-Builds-Above-Key-Support-23-7071",
-        "https://www.tradingview.com/chart/TSLA/ybrIU9pR-Finding-Stocks-With-Real-Participation/"
+        "https://www.wallstreet-online.de/aktien/neovolta-aktie",
+        "https://stockinvest.us/stock/NEOV",
+        "https://invezz.com/markets/stocks/neov-nasdaq/",
+        "https://pr.timesofsandiego.com/article/NeoVolta-Announces-Proposed-Public-Offering-of-Common-Stock?storyId=6a1752c9004597ee6ba132a0"
       ],
-      "stop_loss_percent": 0.0,
+      "stop_loss_percent": 8.0,
       "strategy_tags": [
-        "momentum",
-        "monitor-only",
-        "high-volatility"
+        "chittick_cash",
+        "clean-tech",
+        "monitor-only"
       ],
-      "symbol": "ATOM",
+      "symbol": "NEOV",
       "target_allocation_percent": 0.0,
-      "thesis": "Atomera is a niche semiconductor technology company focused on advanced substrate engineering, which just posted a 31%+ price surge on high volume and a breakout above key technical levels, creating a clear short-term momentum swing setup but with high fundamental and balance-sheet risk that makes it a monitor-only, not execution, name for this quality-focused strategy.[2]",
-      "valuation_case": "With only technical commentary available, there is no grounding for assessing whether ATOM\u2019s price is attractive relative to its actual business quality; the recent 31% spike likely pushes it closer to, not further from, speculative territory.[2]"
+      "thesis": "NeoVolta is a small-cap residential energy storage manufacturer whose shares have shown very high short-term volatility, with a sharp recent weekly gain (~+35%) but a steep 24-hour drop (~-22%) and a history of large drawdowns.[2][3][4] The company is pursuing growth in battery-based energy storage systems in the U.S., but near-term price action is dominated by news of a proposed common stock offering and technical whipsaws, making it better suited for monitor-only status until dilution and fundamentals are clearer.[2][4][6][12]",
+      "valuation_case": "One analyst rates the stock a buy with a target around $6, well above current prices, but this is based on optimistic growth assumptions and comes with a very small sample size.[4] Until the impact of dilution and new capital deployment is visible in earnings, the valuation case is speculative rather than grounded in durable cash generation or a clear margin-of-safety framework."
     }
   ],
-  "summary": "US equities are trading in a moderately bullish, late\u2011cycle risk\u2011on regime with leadership still skewed to tech/AI and quality cash generative names, but with elevated valuation and rate\u2011sensitivity arguing for selective, catalyst\u2011driven swing setups rather than broad beta exposure."
+  "summary": "U.S. equities remain in a tech/AI-led, quality-growth, risk-on regime but with narrow leadership and ongoing rate/geopolitical risks. Short-term swings are increasingly event-driven around earnings, guidance, and idiosyncratic news, favoring selective catalysts and disciplined risk management over broad beta."
 }
 -->
 
@@ -1495,4 +1492,11 @@ No candidates.
 |---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
 | VSH | semiconductors / electronic components | execution-ready | mid-cap-industrial-tech | 0 | yes | 0.72 | 74 | 0 | 0 | 8.0% | 8.0% | execute-if-guards-pass | Recent Q1 CY2026 research update highlighting Vishay’s durable cash generation, margin profile, and positioning in power/analog components at a time when invest |
 | ATOM | semiconductors / substrate engineering | monitor-only | small-cap-speculative-tech | 0 | yes | 0.48 | 32 | 0 | 2 | 0.0% | 0.0% | watch | A single-day price jump of over 31% on elevated volume, with the stock breaking above its 50-day moving average and testing the upper boundary of its recent tra |
+
+## Latest Candidates - 2026-05-28 05:51:55 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| INUV | technology / adtech & marketing AI | execution-ready | small-cap-adtech-AI | 1 | yes | 0.66 | 58 | 1 | 0 | 5.0% | 8.0% | execute-if-guards-pass | Q1 2026 results and recent profitability: Inuvo reported Q1 2026 results referencing its 2025 10-K, with net income in the most recent quarter around $1.9M vers |
+| NEOV | energy / clean-tech / residential storage | monitor-only | small-cap-clean-tech-storage | 3 | yes | 0.60 | 42 | 1 | 0 | 0.0% | 8.0% | watch | Recent price action includes a strong 7-day rally (~+34.7%) followed by a single-day drop of about -21.7%, alongside news of a proposed public offering of commo |
 

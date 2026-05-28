@@ -1221,4 +1221,9 @@ Candidates found: 2
 US equities are trading in a moderately bullish, late‑cycle risk‑on regime with leadership still skewed to tech/AI and quality cash generative names, but with elevated valuation and rate‑sensitivity arguing for selective, catalyst‑driven swing setups rather than broad beta exposure.
 
 Candidates found: 2
+## Two-Hour Research Agent - 2026-05-28 05:51:55 Eastern Daylight Time
+
+U.S. equities remain in a tech/AI-led, quality-growth, risk-on regime but with narrow leadership and ongoing rate/geopolitical risks. Short-term swings are increasingly event-driven around earnings, guidance, and idiosyncratic news, favoring selective catalysts and disciplined risk management over broad beta.
+
+Candidates found: 2
 

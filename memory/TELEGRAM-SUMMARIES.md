@@ -21807,4 +21807,28 @@ HF filter: sentiment=not run source=0/100 hype=0.70 vetoes=2
 Self-learning: tier=monitor-only repeat48h=0 fresh=yes bucket=small-cap-speculative-tech
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-28 05:51:55 Eastern Daylight Time
+
+Research Update
+
+Market tone: U.S. equities remain in a tech/AI-led, quality-growth, risk-on regime but with narrow leadership and ongoing rate/geopolitical risks. Short-term swings are increasingly event-driven around earnings, guidance, and idiosyncratic news, favoring selective catalysts and disciplined risk management over broad beta.
+Candidates: 2
+
+1. INUV (technology / adtech & marketing AI) | confidence 0.66 | allocation 5.0% | stop 8.0% | Chittick 58/100 | tier execution-ready | bucket small-cap-adtech-AI | HF source 1/100
+Recommendation: execute-if-guards-pass
+Catalyst: Q1 2026 results and recent profitability: Inuvo reported Q1 2026 results referencing its 2025 10-K, with net income in the most recent quarter around $1.9M versus a prior-quarter loss of roughly -$0.6M, signaling an earnings inflection.[...
+Chittick Cash: At a sub-$1 share price and roughly $90M market cap, valuation superficially looks cheap, but true margin of safety is limited because cash generation is nascent, the revenue base is smaller, and the business is sensi...
+HF filter: sentiment=not run source=1/100 hype=0.35 vetoes=0
+Self-learning: tier=execution-ready repeat48h=1 fresh=yes bucket=small-cap-adtech-AI
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. NEOV (energy / clean-tech / residential storage) | confidence 0.60 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier monitor-only | bucket small-cap-clean-tech-storage | HF source 1/100
+Recommendation: watch
+Catalyst: Recent price action includes a strong 7-day rally (~+34.7%) followed by a single-day drop of about -21.7%, alongside news of a proposed public offering of common stock that introduces near-term dilution and financing risk.[2][4][12] Anal...
+Chittick Cash: With the equity offering looming and the stock still far below its 52-week high, investors may be anchoring on past prices rather than normalized earnings power; true margin of safety is unclear without stable cash fl...
+HF filter: sentiment=not run source=1/100 hype=0.52 vetoes=0
+Self-learning: tier=monitor-only repeat48h=3 fresh=yes bucket=small-cap-clean-tech-storage
+Social buzz, low weight: none
+Congress signal, low weight: none
 
