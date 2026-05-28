@@ -1231,4 +1231,13 @@ Candidates found: 2
 US equities remain in a late-stage bull with tech/AI leadership and improving breadth, but valuations and narrow leadership make the regime bullish yet fragile. For paper swing trades, prioritize high-quality, liquid names with fresh catalysts and clear 1–10 day setups, while treating owner-style 30–180 day theses as secondary.
 
 Candidates found: 3
+## Premarket Plan - 2026-05-28 08:16:40 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- TXN: score=77, base=90, chittick=74, approved=False, allocation=0.0%, stop=8.0%
+  rejects: Candidate references banned v1 instruments or leverage.; Confidence below 0.60.; Target allocation must be between 1% and 15%.
+- ECL: score=84, base=95, chittick=79, approved=False, allocation=8.0%, stop=7.0%
+  rejects: Candidate references banned v1 instruments or leverage.
+- XLK: score=79, base=95, chittick=62, approved=True, allocation=6.0%, stop=6.0%
 
