@@ -22646,4 +22646,152 @@ HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
 Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=sector-etf-energy
 Social buzz, low weight: Social commentary notes spikes in certain energy stocks and ETFs tied to oil-price moves and Iran-related headlines, but these are clearly event-driven and volatile rather than...
 Congress signal, low weight: none
+## Performance Ledger - 2026-05-28 16:23:10 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-05-28 16:23:09 Eastern Daylight Time
+- Portfolio value: $100,168.67
+- P/L vs $100k baseline: $168.67
+- Full paper-account return: 0.169%
+- Managed-capital return: 1.69%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 3.01%
+- Latest position value: $5,768.67
+- Full-account cash reserve: 94.2%
+- Managed-capital cash reserve: 42.3%
+- Max snapshot drawdown: $135.30 from 2026-05-08 16:30:03 Eastern Daylight Time to 2026-05-21 21:16:10 Eastern Daylight Time
+
+Open Position Review
+- DT: winner, value $821.30, unrealized P/L $21.30, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 20 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: loser, value $445.60, unrealized P/L $-54.40, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 21 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: winner, value $839.93, unrealized P/L $39.93, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 28 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- IBRX: loser, value $549.00, unrealized P/L $-51.00, entry 2026-05-11 09:48:18 Eastern Daylight Time, thesis age 17 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: winner, value $511.96, unrealized P/L $11.96, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 16 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: winner, value $858.77, unrealized P/L $58.77, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 27 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $823.46, unrealized P/L $23.46, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 22 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $918.65, unrealized P/L $118.65, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 30 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- SCHD: appeared 34 times; open position P/L $23.46.
+- INTC: appeared 32 times; market outcome unavailable until benchmark/candidate price history is captured.
+- SPMO: appeared 32 times; open position P/L $118.65.
+- NVDA: appeared 29 times; open position P/L $58.77.
+- GOOGL: appeared 27 times; open position P/L $39.93.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- UNP: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VALN: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- GLD: appeared 9 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Candidate references banned v1 instruments or leverage.: 17
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 9
+  - Single-stock allocation would exceed 15%.: 7
+  - A market-open order is already logged for today. No backup order was placed.: 5
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources.: 5
+  - Max open-position count would be exceeded.: 4
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Confidence below 0.60. Target allocation must be between 1% and 15%.: 3
+  - Candidate references banned v1 instruments or leverage. Confidence below 0.60. Target allocation must be between 1% and 15%.: 3
+- By symbol:
+  - INTU: 5
+  - AGI: 3
+  - BAH: 3
+  - GOOGL: 3
+  - PLTR: 3
+  - TMXX.F: 3
+  - COIN: 2
+  - FLEX: 2
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 0
+- unknown: 2
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold met: 8 trades over 30 days.
+- Strategy tuning may be reviewed, but safety guardrails still apply.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## End Of Day Memo - 2026-05-28 16:23:10 Eastern Daylight Time
+
+End Of Day Analyst Memo
+
+Recommendation: Carry forward only evidence-backed candidates; review stops before the next market-open run.
+
+Market Regime
+End-of-day review of paper portfolio, trade quality, risk notes, and next-day watchlist.
+
+Portfolio
+Portfolio value: 100168.67 Cash: 94400 Buying power: 194568.67 Positions: - DT: qty=20.289119959, market_value=821.303576, unrealized_pl=21.303576 - GLRE: qty=28.042624789, market_value=445.597308, unrealized_pl=-54.402692 - GOOGL: qty=2.151289429, market_value=839.927932, unrealized_pl=39.927932 - IBRX: qty=70.838252656, market_value=548.996458, unrealized_pl=-51.003542 - LNC: qty=14.590020426, market_value=511.963817, unrealized_pl=11.963817 - NVDA: qty=4.00060009, market_value=858.768815, unrealized_pl=58.768815 - SCHD: qty=25.2286345, market_value=823.46263, unrealized_pl=23.46263 - SPMO: qty=6.119014838, market_value=918.647698, unrealized_pl=118.647698 Performance: value $100,168.67, P/L vs $100k $168.67, managed return 1.69%, deployed return 3.01%, managed cash reserve 42.3%.
+
+Top Candidates
+
+1. IBM (Information Technology / IT Services & Software) | confidence 0.74 | allocation 8.0% | stop 8.0% | Chittick 72/100 | tier execution-ready | bucket mega-cap-enterprise-it-ai
+Thesis: IBM is a legacy enterprise IT and consulting platform that has successfully repositioned around hybrid cloud and AI, and it just delivered a strong AI-focused catalyst that drove an 18% weekly move, offering a blend of quality, cash generation, and a fresh momentum burst suitable for a 3–7 day swing with an owner-style 30–180 day upside case.
+Catalyst: IBM recently announced a $5 billion AI-driven open-source security initiative with Red Hat and other partners, alongside stronger near-term AI growth messaging, which triggered roughly an 18% rise in the stock over the week as investors repriced its AI and hybrid cloud opportunity.[5]
+Entry: For paper trading, consider a staged entry near recent consolidation after the catalyst spike, for example buying on a modest intraday pullback of roughly 1–2% from the latest close or on a test of short-term intraday support, with a hard stop roughly 7–8%...
+Exit: Target about 12–15% upside from entry over a 3–7 day window if momentum persists, taking partial profits if the stock advances 7–10% quickly. Invalidation would be triggered by a decisive close below the post-catalyst breakout zone or a roughly 7–8% loss, o...
+Risk/reward: Risk/reward is moderately attractive: you are risking around 7–8% on a sharp reversal of the catalyst move in exchange for a realistic 12–15% short-term upside if the AI narrative and institutional buying follow-through continue; however, the recent 18% spi...
+Bear/adversary: A disciplined skeptic would argue that IBM has a long track record of announcing big strategic initiatives that do not materially change its long-term growth trajectory, so the AI-security news could be another narrative refresh that investors briefly reward before the stock settles back into low...
+Source quality: The main evidence is a detailed analysis from a reputable equity research-oriented blog noting IBM’s 18% weekly move and directly tying it to specific AI and security initiatives with Red Hat and partners, which is fundamentally grounded and much stronger t...
+Chittick Cash Filter
+Score: 72/100
+Margin of safety: After an 18% weekly rerating, short-term margin of safety is limited, but IBM’s underlying cash generation, entrenched enterprise position, and diversified revenue base provide a fundamental floor compared with more speculative AI names....
+Valuation: The article emphasizes that the stock repriced higher as investors recognized new AI-driven growth catalysts, implying a multiple expansion component.[5] While not deeply cheap on near-term earnings after the move, IBM still trades at a...
+Growth runway: Over 30–180 days and beyond, IBM’s growth runway rests on scaling its hybrid cloud platform (Red Hat) and embedding AI and security solutions across its large enterprise base, particularly in mission-critical workloads and regulated indu...
+Balance-sheet risk: IBM historically has carried meaningful debt from acquisitions like Red Hat, but its cash flows and investment-grade profile mitigate immediate balance-sheet risk; the main risk is not solvency but the opportunity cos...
+Capital allocation: Management’s decision to commit $5B to AI-driven open-source security with Red Hat suggests a willingness to deploy capital into strategic growth areas rather than purely financial engineering, and prior moves like sp...
+Concentration case: IBM offers a differentiated AI and hybrid cloud angle versus mega-cap hyperscalers and broader tech ETFs; it is more of a quality, cash-generative compounder than a pure high-growth AI play, which can make it appealing as a single-name c...
+Owner thesis, 30-180 days: An owner could justify a 30–180 day review horizon if IBM demonstrates that the AI-security initiative drives measurable growth in security and AI-related software revenues and consulting engagements, with evidence in upcoming earnings and customer case stu...
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: news
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: mega-cap-enterprise-it-ai
+Research tier: execution-ready
+Allocation learning: none
+Hugging Face Filter
+Not run for this candidate.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.tikr.com/blog/ibm-rose-18-this-week-heres-where-the-stock-is-headed-in-2026
+
+2. XLE (Energy ETF) | confidence 0.70 | allocation 7.0% | stop 7.0% | Chittick 63/100 | tier execution-ready | bucket sector-etf-energy
+Thesis: XLE, the Energy Select Sector SPDR ETF, provides diversified exposure to US large-cap energy companies like Exxon Mobil and Chevron that have been a rare source of equity strength, benefiting from higher oil prices and sector momentum; it fits as a short-term swing vehicle for the current energy-led strength while offering a more diversified, lower-idiosy...
+Catalyst: Recent commentary notes that the energy sector has been the lone bright spot in equities, with XLE up roughly 26–33% year to date on the back of higher oil prices, with WTI recently quoted above $110 per barrel, reinforcing a strong earnings and cash-flow backdrop for major energy companies.[6]
+Entry: For a paper trade, look to enter on an intraday or multi-day pullback of around 2–3% toward short-term support while oil remains above psychologically important levels (e.g., $100) and there is no clear sign of a regime shift in crude.[6] Use limit orders r...
+Exit: Aim for a 6–10% upside move over a 3–8 day horizon if oil prices stay firm or grind higher, taking partial profits if XLE rallies 5–7% quickly. Invalidate the trade on a decisive breakdown in oil prices (e.g., WTI losing and closing well below $100) or if X...
+Risk/reward: Risk/reward is balanced-to-favorable for a tactical swing: you are risking roughly 6–8% in a sector ETF that has been leading on strong fundamentals and high oil prices for the potential of 6–10% upside if the trend persists, but the trade is highly exposed...
+Bear/adversary: A skeptical view would emphasize that buying XLE after a 26–33% YTD run with WTI already above $110 may be late-cycle; the risk is that much of the good news is priced in, and any easing of geopolitical tensions, OPEC+ decisions, or macro slowdown could drive both oil and XLE sharply lower, turni...
+Source quality: Evidence comes from a sector-focused article that explicitly highlights XLE as the primary equity beneficiary of the current oil price environment, citing year-to-date performance and recent WTI and Brent price levels, which provides a fundamentally grounde...
+Chittick Cash Filter
+Score: 63/100
+Margin of safety: Large integrated energy companies in XLE generate substantial free cash flow at current oil prices, and many have improved balance sheets and reduced break-even levels since prior cycles, offering some margin of safety versus smaller, le...
+Valuation: After a 26–33% YTD gain, XLE is no longer obviously cheap on a short-term basis, but relative to current cash flows at WTI above $110, the sector is not in an extreme bubble either, especially given prior years of underinvestment.[6] The...
+Growth runway: Over 30–180 days, the growth story for XLE is tied to sustained higher oil prices, continued capital discipline, and shareholder-return policies at major constituents; if underinvestment in supply and geopolitical constraints persist, en...
+Balance-sheet risk: Major XLE holdings like Exxon Mobil and Chevron entered this cycle with stronger balance sheets than in past downturns, having paid down debt and improved financial resilience, which reduces solvency risk relative to...
+Capital allocation: Large integrated energy firms have generally shifted toward more disciplined capital allocation, prioritizing dividends, buybacks, and high-return projects instead of aggressive, debt-funded expansion, which supports...
+Concentration case: XLE offers a diversified way to express the energy leadership theme without concentrating in a single company, which can be preferable for a paper-trading system that wants sector exposure without single-name risk.[6] It stands as a dist...
+Owner thesis, 30-180 days: An owner could justify a 30–180 day hold if they believe that structural underinvestment in hydrocarbons, ongoing geopolitical risk, and disciplined capital allocation will keep oil prices and energy-sector cash flows elevated, enabling continued dividends...
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: structural
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: sector-etf-energy
+Research tier: execution-ready
+Allocation learning: none
+Hugging Face Filter
+Not run for this candidate.
+Social buzz, max 10%: Social commentary notes spikes in certain energy stocks and ETFs tied to oil-price moves and Iran-related headlines, but these are clearly event-driven and volatile rather than evidence of durable, fundamentals-based...
+Congress signal, max 5%: none
+Sources: https://www.techi.com/oil-price-today/
 
