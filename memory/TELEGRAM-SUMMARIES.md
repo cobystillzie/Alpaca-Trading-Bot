@@ -22622,4 +22622,28 @@ HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
 Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=industrials-aerospace-automation
 Social buzz, low weight: limited/none
 Congress signal, low weight: none
+## Research Update - 2026-05-28 15:57:38 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities remain broadly risk-on but increasingly selective, with leadership concentrated in quality growth/AI and energy while defensives lag; short-term swings are being driven more by stock-specific catalysts than macro shifts.
+Candidates: 2
+
+1. IBM (Information Technology / IT Services & Software) | confidence 0.74 | allocation 8.0% | stop 8.0% | Chittick 72/100 | tier execution-ready | bucket mega-cap-enterprise-it-ai
+Recommendation: execute-if-guards-pass
+Catalyst: IBM recently announced a $5 billion AI-driven open-source security initiative with Red Hat and other partners, alongside stronger near-term AI growth messaging, which triggered roughly an 18% rise in the stock over the week as investors...
+Chittick Cash: After an 18% weekly rerating, short-term margin of safety is limited, but IBM’s underlying cash generation, entrenched enterprise position, and diversified revenue base provide a fundamental floor compared with more s...
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=mega-cap-enterprise-it-ai
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. XLE (Energy ETF) | confidence 0.70 | allocation 7.0% | stop 7.0% | Chittick 63/100 | tier execution-ready | bucket sector-etf-energy
+Recommendation: execute-if-guards-pass
+Catalyst: Recent commentary notes that the energy sector has been the lone bright spot in equities, with XLE up roughly 26–33% year to date on the back of higher oil prices, with WTI recently quoted above $110 per barrel, reinforcing a strong earn...
+Chittick Cash: Large integrated energy companies in XLE generate substantial free cash flow at current oil prices, and many have improved balance sheets and reduced break-even levels since prior cycles, offering some margin of safet...
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=sector-etf-energy
+Social buzz, low weight: Social commentary notes spikes in certain energy stocks and ETFs tied to oil-price moves and Iran-related headlines, but these are clearly event-driven and volatile rather than...
+Congress signal, low weight: none
 
