@@ -22162,4 +22162,201 @@ HF filter: sentiment=not run source=1/100 hype=0.10 vetoes=0
 Self-learning: tier=monitor-only repeat48h=0 fresh=yes bucket=industrials-services
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Performance Ledger - 2026-05-28 12:32:28 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-05-28 12:32:28 Eastern Daylight Time
+- Portfolio value: $100,181.58
+- P/L vs $100k baseline: $181.58
+- Full paper-account return: 0.182%
+- Managed-capital return: 1.82%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 3.24%
+- Latest position value: $5,781.58
+- Full-account cash reserve: 94.2%
+- Managed-capital cash reserve: 42.2%
+- Max snapshot drawdown: $135.30 from 2026-05-08 16:30:03 Eastern Daylight Time to 2026-05-21 21:16:10 Eastern Daylight Time
+
+Open Position Review
+- DT: winner, value $819.88, unrealized P/L $19.88, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 20 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: loser, value $450.08, unrealized P/L $-49.92, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 21 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: winner, value $837.78, unrealized P/L $37.78, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 28 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- IBRX: loser, value $564.94, unrealized P/L $-35.06, entry 2026-05-11 09:48:18 Eastern Daylight Time, thesis age 17 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: winner, value $509.92, unrealized P/L $9.92, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 16 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: winner, value $851.09, unrealized P/L $51.09, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 27 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $824.35, unrealized P/L $24.35, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 22 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $923.54, unrealized P/L $123.54, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 30 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- SCHD: appeared 34 times; open position P/L $24.35.
+- INTC: appeared 32 times; market outcome unavailable until benchmark/candidate price history is captured.
+- SPMO: appeared 32 times; open position P/L $123.54.
+- NVDA: appeared 29 times; open position P/L $51.09.
+- GOOGL: appeared 27 times; open position P/L $37.78.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- UNP: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VALN: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- GLD: appeared 9 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Candidate references banned v1 instruments or leverage.: 17
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 9
+  - Single-stock allocation would exceed 15%.: 7
+  - A market-open order is already logged for today. No backup order was placed.: 5
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources.: 5
+  - Max open-position count would be exceeded.: 4
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Confidence below 0.60. Target allocation must be between 1% and 15%.: 3
+  - Candidate references banned v1 instruments or leverage. Confidence below 0.60. Target allocation must be between 1% and 15%.: 3
+- By symbol:
+  - INTU: 5
+  - AGI: 3
+  - BAH: 3
+  - GOOGL: 3
+  - PLTR: 3
+  - TMXX.F: 3
+  - COIN: 2
+  - FLEX: 2
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 0
+- unknown: 3
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold met: 8 trades over 30 days.
+- Strategy tuning may be reviewed, but safety guardrails still apply.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## Midday Memo - 2026-05-28 12:32:28 Eastern Daylight Time
+
+Midday Risk Memo
+
+Recommendation: Hold only positions whose thesis still matches the research; do not add unless guardrails pass.
+
+Market Regime
+Review current paper positions, thesis drift, concentration, stop discipline, and cash reserve.
+
+Portfolio
+Portfolio value: 100181.58 Cash: 94400 Buying power: 194581.58 Positions: - DT: qty=20.289119959, market_value=819.883338, unrealized_pl=19.883338 - GLRE: qty=28.042624789, market_value=450.084128, unrealized_pl=-49.915872 - GOOGL: qty=2.151289429, market_value=837.776642, unrealized_pl=37.776642 - IBRX: qty=70.838252656, market_value=564.935065, unrealized_pl=-35.064935 - LNC: qty=14.590020426, market_value=509.921214, unrealized_pl=9.921214 - NVDA: qty=4.00060009, market_value=851.087663, unrealized_pl=51.087663 - SCHD: qty=25.2286345, market_value=824.345632, unrealized_pl=24.345632 - SPMO: qty=6.119014838, market_value=923.542909, unrealized_pl=123.542909 Performance: value $100,181.58, P/L vs $100k $181.58, managed return 1.82%, deployed return 3.24%, managed cash reserve 42.2%.
+
+Top Candidates
+
+1. UPWK (Information Technology / Online Marketplaces) | confidence 0.66 | allocation 4.0% | stop 8.0% | Chittick 68/100 | tier execution-ready | bucket mid-cap-internet-marketplace | HF source 0/100
+Thesis: Upwork is a leading online work marketplace benefiting from structural remote/freelance trends; near term, renewed focus on AI tools and enterprise solutions provides a defined 1–10 day sentiment/momentum window around improving growth narrative, while the core business has reasonable quality traits for a small-sized, high-discipline swing.
+Catalyst: Recent narrative and analyst updates highlight investment in AI and enterprise solutions improving user experience, monetization, and efficiency, alongside a modest tweak in consensus fair value and price targets that can act as a near-term sentiment catalyst if the stock has pulled back toward s...
+Entry: Paper entry on a constructive pullback: buy in the 3–5% dip zone toward the 20-day moving average after a green reversal candle with volume at or above recent average; avoid chasing gap-ups >5% intraday without a consolidation flag; stagger in two tranches...
+Exit: Take profits into a 10–18% move toward the lower end of consensus and narrative fair-value band over 1–7 trading days; invalidate the trade and exit if price closes below recent swing low or the 20-day moving average by more than the planned stop (~7–8%), o...
+Risk/reward: Roughly 1:1.5–1:2 skew: risking about 7–8% downside from entry zone to invalidation for a 12–15% upside to conservative target, provided that broader tech momentum and UPWK’s volume profile remain supportive.
+Bear/adversary: The AI and enterprise themes may be largely priced in, and the small downward revision in fair value suggests limited near-term upside; as a mid/small-cap marketplace, UPWK could underperform mega-cap AI leaders if risk appetite narrows, making a broad tech ETF or larger quality compounder a safe...
+Source quality: Evidence is primarily from a fundamentals-oriented narrative platform synthesizing analyst estimates and business drivers, which is stronger than pure social buzz but weaker than direct SEC filings or earnings transcripts; still, it provides concrete info o...
+Chittick Cash Filter
+Score: 68/100
+Margin of safety: Analyst fair value and price targets have edged lower, suggesting the margin of safety is modest rather than deep; however, if the stock trades at a discount to the $21.4 consensus fair value and the business continues to improve monetiz...
+Valuation: The analyst consensus fair value around $21.4, slightly revised down, implies some upside from typical mid- to high-teens quotes but not a huge disconnect; valuation looks acceptable but not screamingly cheap, appropriate for a small, co...
+Growth runway: Over 30–180 days and beyond, growth should be driven by deeper penetration of enterprise clients, higher spend per customer, and enhanced AI tools that improve matching quality and workflow automation, potentially lifting take-rates and...
+Balance-sheet risk: As a platform business with relatively light capital needs, balance sheet risk is lower than for capital-intensive companies, though UPWK still faces execution risk around achieving sustained profitability and avoidin...
+Capital allocation: Management’s focus on AI capabilities and enterprise offerings suggests a tilt toward reinvestment in product and sales over aggressive financial engineering, which is consistent with owner-style thinking, provided th...
+Concentration case: UPWK is not a mega-cap core holding but a tactical, higher-beta satellite around the broader theme of AI-powered productivity and flexible work; it deserves attention as a small, defined-risk swing rather than a large allocation versus b...
+Owner thesis, 30-180 days: If execution evidence strengthens—sustained revenue acceleration, improving margins, and demonstrated traction in AI and enterprise cohorts—an owner could justify a 30–180 day hold to capture further re-rating as the platform matures, but current data suppo...
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: news
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: mid-cap-internet-marketplace
+Research tier: execution-ready
+Allocation learning: Keep allocation modest due to only moderate margin of safety and narrative-driven catalyst; use this as a testbed for AI-/platform-tilted small swings alongside more conservative core holdings.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.15
+Evidence rank: 1/100
+Memory similarity: 0.10
+Vetoes: none
+Model notes: Narrative-driven but anchored in analyst targets and identifiable product initiatives; not a pure hype/meme setup.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://simplywall.st/narratives/lgwaji4p-upwk-ai-momentum-and-enterprise-platform-expansion-will-drive-business-growth?bpId=4489467&link_type=cta_ai_narrative
+
+2. APGE (Health Care / Biotechnology) | confidence 0.61 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier monitor-only | bucket healthcare-biotech | HF source 1/100
+Thesis: Apogee Therapeutics is a clinical-stage biotech focused on chronic inflammatory and immunology indications with promising Phase 2 data, offering a quality-tilted, high-uncertainty name better suited for a small, monitoring allocation rather than an immediate swing trade.
+Catalyst: Recent SEC filings detail Phase 2 data for zumilokibart (APG777) in atopic dermatitis and 52-week maintenance studies, providing updated evidence of efficacy and long-interval dosing potential.[sec_quality]
+Entry: No active swing entry for now; observe price behavior around major medical conferences or company-announced updates on the APG777 program and broader pipeline.
+Exit: If moved to active-trade status in the future, any swing would require clearly defined event windows (data readouts, regulatory milestones) and tight downside protection given binary risk.
+Risk/reward: Long-term potential is high if the pipeline succeeds, but near-term 1–10 day risk/reward is poorly defined without a specific scheduled catalyst; this skews more toward speculative than disciplined swing.
+Bear/adversary: An aggressive trader might argue that biotech beta plus any approaching conference could warrant a speculative swing, but that conflicts with the strategy’s preference for clear catalysts and quality-margin-of-safety discipline.
+Source quality: Information is from SEC filings, which are high-quality, primary sources for pipeline status, trial data summaries, and risk disclosures.[sec_quality]
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: There is effectively no classic margin of safety; valuation depends on discounted probabilities of future cash flows from unapproved drugs, which can change abruptly with new data.[sec_quality]
+Valuation: SEC documents do not provide valuation, but for clinical-stage biotech, market cap vs. risk-adjusted peak sales is the key lens; without detailed current pricing, this remains a conceptual watch, not a value call.[sec_quality]
+Growth runway: If programs like APG777 and combination therapies (APG279, APG273, APG808) succeed, the runway spans multiple large, overlapping Type 2 inflammation markets with potential for long-acting dosing and multi-asset optionality.[sec_quality]
+Balance-sheet risk: Biotech firms face ongoing cash burn and dependence on capital markets; while filings do not flag acute distress, dilution risk is inherent and must be monitored.[sec_quality]
+Capital allocation: Capital is largely directed to pipeline development, which is appropriate but offers limited flexibility if markets tighten or data disappoints.[sec_quality]
+Concentration case: Given binary risk and lack of near-term cash flows, APGE should never be a large single-name concentration in this framework and instead remains a research-side watch.
+Owner thesis, 30-180 days: An owner might consider a 30–180 day or longer hold only if Phase 2/3 data mature positively, balance sheet visibility extends well past key milestones, and competitive positioning clarifies favorably; current stage is too early for that conviction.[sec_qua...
+Chittick reject reason: clinical-stage, binary-outcome risk profile with no clearly timed 1–10 day catalyst in current data; violates margin-of-safety discipline for swing allocation.
+Self-Learning Filter
+Catalyst type: general
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: healthcare-biotech
+Research tier: monitor-only
+Allocation learning: Biotech watchlist name for longer-term pipeline tracking and for understanding how to incorporate clinical milestones into future catalyst-driven trades.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.25
+Evidence rank: 1/100
+Memory similarity: 0.05
+Vetoes: none
+Model notes: High-quality SEC data but limited suitability to the stated swing-trade horizon without event timing.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: Apogee Therapeutics, Inc. – Form 10‑Q for the quarter ended March 31, 2026 (CIK 0001974640).
+
+3. WSC (Industrials / Commercial Services & Supplies) | confidence 0.64 | allocation 0.0% | stop 7.0% | Chittick 35/100 | tier monitor-only | bucket industrials-services | HF source 1/100
+Thesis: WillScot Mobile Mini is a recurring-revenue industrial services company offering modular space and portable storage with strong unit economics and value-added products, fitting the Chittick Cash preference for durable, cash-generative businesses, but current info lacks a sharp 1–10 day catalyst, making it more suitable for owner-thesis monitoring than imm...
+Catalyst: Recent 10-K filings reiterate the durability of the fleet, recurring lease economics, and value-added products strategy, but there is no specific new earnings surprise or contract announcement in the provided data.[sec_quality]
+Entry: No immediate swing entry; if future data show a positive earnings surprise, guidance raise, or structural policy win (e.g., infrastructure spending tailwind), a pullback-to-support entry could be considered with defined technical levels.
+Exit: For future consideration, profits would be taken into multiple of re-rating or strong price extension above prior ranges, with invalidation on evidence of cycle turn or weakening utilization metrics.
+Risk/reward: Fundamentally attractive over 30–180+ days with balanced risk/reward, but lacking a sharp 1–10 day asymmetric setup in current information.
+Bear/adversary: A more aggressive trader might argue that quality cyclicals deserve active sizing in a risk-on tape even without a visible catalyst, but that conflicts with this system’s preference for defined triggers and short horizons.
+Source quality: Information is drawn from the company’s Form 10-K, a high-quality, primary SEC source detailing business model, fleet economics, and risk factors.[sec_quality]
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Fleet economics and recurring leases offer a structural margin of safety if purchased at reasonable multiples during neutral-to-weak parts of the cycle; however, no current valuation context is provided here, so we cannot assert that the...
+Valuation: 10-K filings support the qualitative case for high returns and durable cash flows, but without current multiples or price context, valuation must be treated as unknown and thus not a basis for an immediate trade.[sec_quality]
+Growth runway: Growth is driven by continued penetration of modular solutions in construction and industrial markets, expansion of value-added services per unit, and potential benefits from infrastructure and energy-capex cycles over 30–180 days and be...
+Balance-sheet risk: WSC relies on a sizeable asset base but benefits from long-lived assets and recurring revenues; leverage needs monitoring, but filings emphasize fleet residual value and utilization, which mitigate balance-sheet stres...
+Capital allocation: Management focuses on optimizing fleet returns, cross-selling value-added products, and using capital for disciplined growth and potential shareholder returns, aligning with owner-minded capital allocation if kept wit...
+Concentration case: As a quality industrial with reasonably diversified end markets, WSC could be a candidate for a medium-sized position in an owner portfolio, but in this framework it remains a research watch rather than a near-term swing anchor.
+Owner thesis, 30-180 days: A 30–180 day thesis could focus on capturing the compounding from steady fleet utilization, cross-sell of value-added products, and any macro tailwind from construction/infrastructure cycles, reviewed each earnings cycle.[sec_quality]
+Chittick reject reason: No clearly defined, time-bound catalyst to justify a 1–10 day swing; more suitable for owner-hold analysis once valuation context is available.
+Self-Learning Filter
+Catalyst type: structural
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: industrials-services
+Research tier: monitor-only
+Allocation learning: Good example of a structural compounder where owner-style thesis may be superior to short-term swing; keep in watchlist to compare eventual valuation vs. business quality.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.10
+Evidence rank: 1/100
+Memory similarity: 0.05
+Vetoes: none
+Model notes: High-quality business description from SEC; missing current market data for trade timing.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: WillScot Holdings Corp – Form 10-K for the year ended December 31, 2025 (CIK 0001647088).
 
