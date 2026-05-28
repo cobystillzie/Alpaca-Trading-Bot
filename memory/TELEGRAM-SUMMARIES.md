@@ -22556,4 +22556,37 @@ Model notes: High-quality business description from SEC; missing current market 
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: WillScot Holdings Corp – Form 10-K for the year ended December 31, 2025 (CIK 0001647088).
+## Research Update - 2026-05-28 12:52:45 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities remain in a tech-led, factor-driven risk-on regime with narrow leadership and ongoing macro uncertainty around higher-for-longer rates; breadth and sector dispersion argue for selective, catalyst-backed swing setups rather than broad risk deployment.
+Candidates: 3
+
+1. CRM (Information Technology / Application Software) | confidence 0.69 | allocation 6.0% | stop 8.0% | Chittick 68/100 | tier execution-ready | bucket large-cap-enterprise-software | HF source 1/100
+Recommendation: execute-if-guards-pass
+Catalyst: Recent earnings report with strong focus on AI products (e.g., Agentforce) and commentary from the CEO about new AI-related revenue traction, which triggered a sharp spike in retail attention and message volume alongside an attempted pri...
+Chittick Cash: The margin of safety is modest: CRM is a high-quality SaaS franchise but tends to trade at premium multiples; post-earnings volatility can offer a slightly better entry versus pre-print levels, yet the downside protec...
+HF filter: sentiment=moderately_bullish source=1/100 hype=0.46 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=large-cap-enterprise-software
+Social buzz, low weight: Retail message volume and sentiment turned sharply and became extremely bullish post-earnings, with message volume reportedly increasing by around 1,300%, signaling a short-term...
+Congress signal, low weight: none
+
+2. MCHP (Information Technology / Semiconductors) | confidence 0.57 | allocation 0.0% | stop 8.0% | Chittick 61/100 | tier monitor-only | bucket semiconductors-analog-industrial | HF source 1/100
+Recommendation: watch
+Catalyst: Launch of first-to-market 2X leveraged single-stock ETFs on MCHP by Tradr, which often increases derivatives and speculative trading around the underlying and can temporarily elevate liquidity and volatility.[1]
+Chittick Cash: Semiconductors are cyclical and MCHP’s valuation is sensitive to macro and capex cycles; without fresh earnings upgrades or clear under-valuation evidence, the margin of safety is moderate at best and does not meet a...
+HF filter: sentiment=mixed source=1/100 hype=0.39 vetoes=0
+Self-learning: tier=monitor-only repeat48h=0 fresh=yes bucket=semiconductors-analog-industrial
+Social buzz, low weight: The ETF launch created a noticeable attention uptick for MCHP as part of a group of new leveraged products, but this is structural-news-driven rather than organic investor disco...
+Congress signal, low weight: none
+
+3. INDO (Energy / Oil & Gas) | confidence 0.41 | allocation 0.0% | stop 10.0% | Chittick 29/100 | tier allocation-muted | bucket small-cap-energy | HF source 0/100 | HF veto
+Recommendation: avoid
+Catalyst: Oil prices spiking on Iran-related conflict and geopolitical headlines led to premarket surges in several small-cap energy names, including INDO, which was highlighted among stocks surging before the open.[3]
+Chittick Cash: The margin of safety is poor: INDO’s value is highly contingent on volatile commodity prices and lacks the balance sheet and diversification buffers that would protect downside in adverse scenarios.
+HF filter: sentiment=unclear source=0/100 hype=0.71 vetoes=2
+Self-learning: tier=allocation-muted repeat48h=0 fresh=yes bucket=small-cap-energy
+Social buzz, low weight: There is attention around a basket of energy names in response to oil-price spikes, but this is generic headline buzz rather than sustained, stock-specific discovery.[3]
+Congress signal, low weight: none
 
