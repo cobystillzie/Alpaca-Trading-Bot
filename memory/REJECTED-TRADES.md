@@ -286,4 +286,9 @@ Max open-position count would be exceeded.
 Candidate references banned v1 instruments or leverage.
 Confidence below 0.60.
 Target allocation must be between 1% and 15%.
+## Rejected XLK - 2026-05-28 09:55:03 Eastern Daylight Time
+
+Candidate references banned v1 instruments or leverage.
+Candidate is allocation-muted and cannot be traded.
+Target allocation must be between 1% and 15%.
 
