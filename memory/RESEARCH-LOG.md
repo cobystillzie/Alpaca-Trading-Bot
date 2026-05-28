@@ -1264,4 +1264,9 @@ Candidates found: 3
 US equities remain in a tech-led, factor-driven risk-on regime with narrow leadership and ongoing macro uncertainty around higher-for-longer rates; breadth and sector dispersion argue for selective, catalyst-backed swing setups rather than broad risk deployment.
 
 Candidates found: 3
+## Two-Hour Research Agent - 2026-05-28 14:52:46 Eastern Daylight Time
+
+U.S. equities remain in a late‑cycle, AI/quality‑growth‑led bull phase with a selective risk‑on tone. Leadership is concentrated in large‑cap tech and communication services, while many cyclicals and rate‑sensitive sectors are choppy. Event risk around macro data and geopolitics remains a key overhang, so short‑horizon trades should keep tight risk controls.
+
+Candidates found: 3
 
