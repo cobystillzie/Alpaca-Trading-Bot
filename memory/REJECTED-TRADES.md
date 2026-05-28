@@ -275,4 +275,15 @@ Candidate references banned v1 instruments or leverage.
 
 Candidate references banned v1 instruments or leverage.
 Target allocation must be between 1% and 15%.
+## Rejected ECL - 2026-05-28 09:48:16 Eastern Daylight Time
+
+Candidate references banned v1 instruments or leverage.
+## Rejected XLK - 2026-05-28 09:48:16 Eastern Daylight Time
+
+Max open-position count would be exceeded.
+## Rejected TXN - 2026-05-28 09:48:16 Eastern Daylight Time
+
+Candidate references banned v1 instruments or leverage.
+Confidence below 0.60.
+Target allocation must be between 1% and 15%.
 
