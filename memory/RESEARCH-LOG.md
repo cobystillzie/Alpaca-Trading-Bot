@@ -1249,4 +1249,9 @@ Premarket plan built from latest watchlist.
 - ECL: score=84, base=95, chittick=79, approved=False, allocation=8.0%, stop=7.0%
   rejects: Candidate references banned v1 instruments or leverage.
 - XLK: score=79, base=95, chittick=62, approved=True, allocation=6.0%, stop=6.0%
+## Two-Hour Research Agent - 2026-05-28 09:54:17 Eastern Daylight Time
+
+US equities remain in a moderately risk‑on regime led by large‑cap tech and AI, while energy and defensives lag; breadth is narrow and valuations in leaders are rich, so short‑horizon swing setups should lean on clear catalysts and tight risk controls.
+
+Candidates found: 1
 

@@ -4,187 +4,65 @@
 {
   "candidates": [
     {
-      "adversary_case": "A disciplined adversary would argue that, for a 1\u201310 day horizon, sector-tactical ETFs or higher-beta chip names offer better risk/reward, and that congressional trades are too small, delayed, and noisy to inform timing. They would point out that the lack of a concrete near-term company-specific catalyst (earnings, guidance, or major announcement) weakens the case for an immediate swing entry.",
-      "allocation_learning_note": "If chosen in future, TXN should likely start as a smaller tranche (e.g., 4\u20136%) given the absence of a strong, dated catalyst, then scaled only if price and sector confirm.",
-      "balance_sheet_risk": "TXN historically maintains a strong balance sheet with substantial free cash flow and manageable leverage, supporting ongoing dividends and buybacks; this reduces financing and dilution risk compared with more speculative chip names.[congressional_disclosures_inference]",
-      "bear_case": "Key risks include cyclicality in industrial and auto demand, potential inventory corrections, and sensitivity to interest rates and macro slowdown, which could pressure valuation multiples.[market_regime_inference] TXN is not a pure-play AI leader, so in risk-on bursts capital can rotate toward higher-beta GPU names, leaving TXN lagging. Regulatory, export-control, or geopolitical shocks affecting chip supply chains would also weigh on the stock.[market_regime_inference]",
-      "capital_allocation_case": "Management has a long track record of returning capital via dividends and repurchases while investing in analog capacity and R&D, consistent with disciplined, owner-minded capital allocation favored by Buffett/Munger-style frameworks.[congressional_disclosures_inference]",
-      "catalyst": "Recent congressional purchase disclosures indicating modest net buying interest, alongside ongoing investor focus on semiconductors as a core beneficiary of industrial, auto, and IoT digitization; TXN has also benefited from the broader semiconductor uptrend tied to AI and automation demand even though it is not a pure AI GPU play.[congressional_disclosures_inference]",
-      "catalyst_type": "general",
-      "chittick_cash_score": 74.0,
-      "chittick_reject_reason": "",
-      "concentration_case": "Within a concentrated-quality portfolio, TXN can play the role of a core, lower-volatility semiconductor holding that balances more aggressive AI/tech exposures; it offers sector participation with less single-product or single-customer risk than some peers.[market_regime_inference]",
-      "confidence": 0.59,
-      "congressional_signal": "Recent small net-buy disclosures by multiple members provide a weak, delayed signal that elected officials are incrementally adding TXN exposure, but position sizes are small and should only be treated as secondary confirmation, not a catalyst.[congressional_disclosures]",
-      "diversity_bucket": "quality-semiconductors-industrial",
-      "entry_plan": "For paper trading, look to buy on a constructive pullback toward a rising short-term moving average or prior breakout zone with intraday stabilization and above-average but not euphoric volume; avoid chasing gap-ups on thin news and wait for a clear intraday higher low to define risk.[3][market_regime_inference]",
-      "exit_plan": "Take profits into prior swing highs or near short-term resistance if price extends 4\u20138% above entry within the next 5\u20138 trading days, or earlier if TXN closes below the chosen support level or loses relative strength versus the semiconductor ETF peers.[3][market_regime_inference] If momentum stalls and the broader semiconductor group rolls over, exit rather than widening stops.",
-      "fresh_catalyst": true,
-      "growth_runway": "Over 30\u2013180 days and beyond, TXN\u2019s growth runway is driven by rising semiconductor content in autos, industrial automation, IoT, and power management, alongside its long-lived product portfolio and ongoing internal capacity investments.[congressional_disclosures_inference] These structural drivers support an owner-style thesis even if near-term growth is moderate.",
-      "hf_evidence_rank": 0.64,
-      "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.18,
-      "hf_memory_similarity": 0.12,
-      "hf_model_notes": "TXN fits the quality and margin-of-safety filters but lacks a pinpoint near-term company-specific catalyst in the current record; recommended as a watch rather than immediate execution.",
-      "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "neutral-to-positive",
-      "hf_sentiment_score": 0.58,
-      "hf_source_quality_score": 0.66,
-      "horizon_days": 5,
-      "margin_of_safety_case": "TXN rarely screens as deeply undervalued, but its quality, diversified end-markets, and balance-sheet strength create a margin of safety relative to more cyclical or speculative semis. For a short swing, the margin-of-safety lens mainly reinforces avoiding late-stage euphoria entries and instead buying closer to support zones.",
-      "market_regime": "In a neutral-to-risk-on environment with tech and semis leading but late-cycle risks elevated, TXN offers a more conservative way to maintain chip exposure: it should benefit from continued interest in semiconductors but is less exposed to AI hype reversals than top GPU names.[market_regime_inference]",
-      "momentum_case": "Within the current regime, semiconductors have exhibited strong relative strength, and analog names like TXN have generally participated in the sector uptrend with lower volatility than high-beta AI beneficiaries.[market_regime_inference] TXN typically trades with solid liquidity and institutional sponsorship, making it suitable for 1\u201310 day swing setups around support/resistance and sector flows.[market_regime_inference]",
-      "owner_hold_case": "An owner-style 30\u2013180 day thesis would focus on gradual upside from ongoing end-market normalization, persistent demand for industrial/auto analog components, and continued capital returns. However, the current suggestion is to treat TXN as a watch candidate for shorter swing windows rather than to initiate a paper 30\u2013180 day hold.",
-      "quality_case": "TXN is widely recognized as a high-return-on-capital analog and embedded processing franchise with durable competitive advantages in manufacturing, product breadth, and customer relationships.[congressional_disclosures_inference] Its business model emphasizes long-lived products and industrial/auto exposure, which tend to generate more stable cash flows across cycles than PC/handset semis. The company has a long history of robust free cash flow, dividends, and buybacks, aligning with Buffett-style quality metrics.[congressional_disclosures_inference]",
-      "recommendation": "watch",
-      "repeat_count_48h": 0,
-      "research_tier": "watch",
-      "risk_reward": "Risk is a mid-single-digit drawdown if the current semiconductor uptrend pauses or reverses in the near term; reward is a similar or slightly higher upside if the sector continues to grind higher and TXN participates with its typical lower-volatility pattern. This produces a roughly 1:1 to 1.5:1 short-term skew but with quality and balance-sheet strength mitigating tail risk.[market_regime_inference]",
-      "sector": "semiconductors",
-      "signal_weights": {
-        "congressional_signal": 0.05,
-        "social_buzz": 0.03
-      },
-      "social_buzz": "none",
-      "source_quality": "Semiconductor sector leadership and late-cycle dynamics are supported by reputable macro and market commentary in prior regime analysis; congressional disclosures provide independent but low-weight evidence of investor interest. Direct TXN filing excerpts are not in the current record, so business-quality points rely on widely accepted industry knowledge rather than specific 10-K quotes.[congressional_disclosures][sec_quality]",
-      "source_urls": [
-        "https://www.quiverquant.com/stock/TXN/",
-        "https://www.morningstar.com",
-        "https://www.tmgm.com/en-in/academy/trading-academy/what-is-swing-trading"
-      ],
-      "stop_loss_percent": 8.0,
-      "strategy_tags": [
-        "chittick_cash",
-        "quality-semi",
-        "swing-1-10d"
-      ],
-      "symbol": "TXN",
-      "target_allocation_percent": 0.0,
-      "thesis": "Texas Instruments is a high-quality, profitable analog/embedded semiconductor leader with diversified end-markets and a long record of shareholder returns; recent congressional purchase disclosures and stable demand commentary position it as a quality, lower-beta semiconductor swing candidate versus higher-hype AI names.",
-      "valuation_case": "Valuation is likely above long-term averages given the sector\u2019s strength, but TXN trades at a premium that is at least partially justified by its durable analog franchise and shareholder return policy. For a 1\u201310 day swing, the focus is more on price structure and sector flows than on exact multiple compression/expansion, while respecting that high valuations raise downside sensitivity to macro shocks.[market_regime_inference]"
-    },
-    {
-      "adversary_case": "A skeptical analyst would argue that chasing a 4\u20135% upgrade pop risks buying into short-lived enthusiasm; they would also note that ECL\u2019s valuation as a defensive compounder may already be full, leaving limited short-term upside. Furthermore, macro softness or sudden risk-off rotation could quickly negate post-upgrade gains.",
-      "allocation_learning_note": "Given its defensive profile and fresh but single-source catalyst, an 8% paper allocation balances conviction with respect for concentration limits; additional upgrades or earnings confirmation would justify revisiting size.",
-      "balance_sheet_risk": "ECL is generally viewed as having a solid balance sheet with manageable leverage and steady cash generation from a diversified customer base, reducing the risk of distress, forced dilution, or covenant issues in normal conditions.[congressional_disclosures_inference]",
-      "bear_case": "Risks include sensitivity to industrial and hospitality activity (which can soften in a slowdown), execution risk in price increases to offset input costs, and valuation risk if its defensive-growth multiple is already rich. Regulatory or ESG-related scrutiny of chemicals and water treatment practices could also pressure sentiment or margins over time.[market_regime_inference]",
-      "capital_allocation_case": "Management has historically reinvested in technology, service capabilities, and bolt-on acquisitions while returning cash via dividends, aligning with disciplined capital allocation and an owner-minded approach favored by Buffett/Munger frameworks.[congressional_disclosures_inference]",
-      "catalyst": "A recent bullish UBS rating change with a lifted price target sparked a notable price move in Ecolab, indicating fresh institutional endorsement and improved outlook.[congressional_disclosures] At the same time, public congressional disclosures show net buying interest over the last few weeks, albeit with small transaction sizes.[congressional_disclosures]",
-      "catalyst_type": "news",
-      "chittick_cash_score": 79.0,
-      "chittick_reject_reason": "",
-      "concentration_case": "ECL provides diversification versus tech/AI and cyclical commodities by adding an essential-services, defensive-growth exposure. In a concentrated-quality portfolio, it serves as a ballast with real growth and pricing power, complementing higher-beta positions and reducing idiosyncratic risk.",
-      "confidence": 0.73,
-      "congressional_signal": "Recent congressional disclosures show net buying interest in ECL with modest transaction sizes, reinforcing the positive analyst signal but providing only a weak, delayed secondary indicator.[congressional_disclosures]",
-      "diversity_bucket": "defensive-water-chemicals",
-      "entry_plan": "For a 3\u20137 day swing, look to enter on a modest intraday or 1\u20132 day pullback after the upgrade-driven pop, ideally near a prior minor resistance turned support with volume moderating from the spike but staying above its prior average.[3][congressional_disclosures] Confirm that price holds above the gap or upgrade day low before entry.",
-      "exit_plan": "Target a move into the next resistance area or 4\u20137% above entry within the horizon, trimming sooner if the broader market weakens or if ECL closes back into the gap/upgrade candle body with rising volume. Invalidate the setup on a close below the upgrade day low or a break of short-term support accompanied by sector-wide weakness.[3]",
-      "fresh_catalyst": true,
-      "growth_runway": "Over 30\u2013180 days and beyond, Ecolab\u2019s growth comes from increasing industrial water-treatment needs, expanded hygiene and infection control standards, and potential share gains through bundled service offerings. These structural drivers point to a reasonable runway for an owner-style thesis even if short-term swings are modest.[congressional_disclosures_inference]",
-      "hf_evidence_rank": 0.68,
-      "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.22,
-      "hf_memory_similarity": 0.1,
-      "hf_model_notes": "ECL satisfies quality and Chittick filters with a clear, dated broker upgrade catalyst and observable price response, making it one of the stronger swing candidates in the current record.",
-      "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "positive",
-      "hf_sentiment_score": 0.67,
-      "hf_source_quality_score": 0.7,
-      "horizon_days": 6,
-      "margin_of_safety_case": "ECL is unlikely to be deeply discounted after an upgrade-driven move, but its recurring revenue, secular tailwinds, and defensive characteristics offer a qualitative margin of safety versus more cyclical or speculative names. From a Chittick Cash lens, it is a candidate where you accept a higher multiple in exchange for business durability and downside protection.",
-      "market_regime": "In a late-cycle, bullish-but-fragile environment, ECL fits as a defensive quality play that can attract flows when investors rotate from high-beta growth back toward stable compounders, especially in response to positive analyst revisions.[market_regime_inference] However, if risk-on accelerates in high-beta tech, ECL may lag on a relative basis.",
-      "momentum_case": "Following the UBS upgrade, ECL rose around 4\u20135% on the day of the note, reflecting strong single-day momentum and increased investor attention.[congressional_disclosures] Such analyst-driven moves often initiate short-term swing windows as price trends toward the new target levels, especially if supported by rising volume. As a large, liquid defensive growth name, ECL tends to trend more smoothly than high-beta cyclicals.",
-      "owner_hold_case": "A 30\u2013180 day owner thesis would rest on continued execution in water and hygiene, realization of pricing to offset input costs, and incremental upside from ESG and sustainability mandates that boost demand for Ecolab\u2019s solutions, with the UBS upgrade as an early confirmation of that trajectory.",
-      "quality_case": "Ecolab operates in mission-critical niches such as water treatment, sanitation, and hygiene for industries including foodservice, healthcare, and manufacturing, generating sticky customer relationships and recurring revenue.[congressional_disclosures_inference] Its business is supported by secular trends in water scarcity, environmental compliance, and health standards. The company has a long history of profitability and cash generation, consistent with quality and margin-of-safety criteria.",
-      "recommendation": "execute-if-guards-pass",
-      "repeat_count_48h": 0,
-      "research_tier": "execution-ready",
-      "risk_reward": "If entered on a controlled pullback with an 4\u20135% stop below support, upside of 6\u201310% into resistance over 3\u20137 days is plausible if the post-upgrade momentum continues, yielding roughly 1.2\u20132:1 skew. The underlying business quality and defensive profile reduce tail-risk, though index-level drawdowns remain a threat.[congressional_disclosures_inference]",
-      "sector": "specialty-chemicals / water & hygiene",
-      "signal_weights": {
-        "congressional_signal": 0.05,
-        "social_buzz": 0.03
-      },
-      "social_buzz": "none",
-      "source_quality": "The UBS upgrade and price reaction are documented via reputable financial news coverage in the congressional-disclosure feed.[congressional_disclosures] Ecolab\u2019s business quality assessment is consistent with well-known analyst and investor commentary, though specific 10-K excerpts are not present in the current record, which adds some reliance on general knowledge.",
-      "source_urls": [
-        "https://www.quiverquant.com/news/Ecolab+jumps+4.7%25+as+UBS+turns+bullish+and+lifts+price+target",
-        "https://www.quiverquant.com",
-        "https://www.tmgm.com/en-in/academy/trading-academy/what-is-swing-trading"
-      ],
-      "stop_loss_percent": 7.0,
-      "strategy_tags": [
-        "chittick_cash",
-        "defensive-compounder",
-        "swing-1-7d"
-      ],
-      "symbol": "ECL",
-      "target_allocation_percent": 8.0,
-      "thesis": "Ecolab is a high-quality water, hygiene, and infection-prevention solutions company with durable recurring revenue and strong competitive positioning; recent UBS upgrade and congressional net-buy disclosures highlight improving sentiment, making it a defensive-but-growing swing and owner-quality candidate.",
-      "valuation_case": "The UBS upgrade and price reaction suggest valuation is seen as reasonable to attractive by at least one major broker given the growth and quality profile.[congressional_disclosures] Yet the stock probably trades at a premium to the market, so near-term returns are sensitive to continued execution and macro stability. For a 1\u201310 day swing, valuation acts more as a risk context than as the primary driver."
-    },
-    {
-      "adversary_case": "A cautious critic would note that XLK\u2019s recent returns may already reflect peak optimism about tech earnings and AI, making incremental upside harder to capture on a 1\u201310 day horizon; they would also argue that risk/reward is asymmetric to the downside if macro data or Fed expectations shift, and that a broad tech ETF may not meet the Chittick emphasis on margin of safety as well as selected individual quality names.",
-      "allocation_learning_note": "Given prior allocation rejections in concentrated names, use XLK as a lower-concentration vehicle for tech leadership with a mid-single-digit allocation to avoid breaching portfolio-level tech exposure caps.",
-      "balance_sheet_risk": "Most XLK constituents are large-cap tech companies with strong balance sheets and significant cash positions, which reduces fundamental solvency or financing risk; the primary risk is valuation and regulatory/macro shocks rather than balance-sheet stress.[8]",
-      "bear_case": "Risks stem from elevated valuations and concentration in a handful of mega-cap tech names; a disappointment in AI spending, regulatory action, or a sudden macro/interest-rate shock could trigger a sharp reversal across the ETF.[5][8] Late-cycle conditions increase the risk that new entrants are buying near a local top, and XLK\u2019s sector concentration makes it vulnerable to factor rotation away from growth/tech.[5][8]",
-      "capital_allocation_case": "As an ETF tracking a sector index, XLK itself does not make capital allocation decisions; instead, it inherits the aggregate capital allocation quality of its holdings, many of which have strong track records of R&D investment and shareholder returns.[8]",
-      "catalyst": "Recent performance evidence shows XLK gaining about 17% over 30 days and 33% over the quarter, confirming strong sector momentum and attracting additional attention from trend and swing traders.[8] This performance reflects earnings strength and AI-related enthusiasm across its major holdings rather than a single-stock event.[8]",
-      "catalyst_type": "momentum",
+      "adversary_case": "This is effectively a factor bet on an already-crowded theme at rich valuations; a more conservative approach might favor waiting for a clearer pullback, using a broader ETF, or scaling position smaller to reduce exposure to a potential tech air pocket.",
+      "allocation_learning_note": "Previously rejected for max open-position count; any execution should consider smaller allocation and interaction with existing tech/AI exposure. Recent allocation or max-position rejection: route to blocked-ideas learning instead of the trade candidate lane.",
+      "balance_sheet_risk": "Constituents are generally cash-rich with modest leverage, so balance-sheet risk is low; primary risk is multiple compression rather than solvency.",
+      "bear_case": "Leadership is narrow and valuations for mega-cap tech and AI beneficiaries are elevated; any rotation out of growth/tech, negative macro surprise (rates repricing higher), or AI-sentiment reversal could hit XLK quickly and produce a sharp drawdown due to concentration.[1][2]",
+      "capital_allocation_case": "Many XLK holdings have strong capital allocation track records (reinvestment in R&D plus buybacks/dividends), though the ETF wrapper means capital allocation is indirect via index methodology.",
+      "catalyst": "Ongoing sector leadership in tech and software, with Nasdaq and semiconductor/AI names continuing to outperform broader indices and attract flows in a bullish environment for growth and quality factors.[1][2]",
+      "catalyst_type": "structural",
       "chittick_cash_score": 62.0,
       "chittick_reject_reason": "",
-      "concentration_case": "XLK deserves attention as a diversified alternative when single-name mega-caps are hitting allocation caps or repeat limits; it allows participation in tech leadership while mitigating concentration in any one stock. For this paper-trading framework, it is a useful complement or substitute when individual mega-cap trades are blocked by allocation rules.[existing_memory_inference]",
+      "concentration_case": "XLK focuses on a leading sector that currently drives index returns, making it a cleaner expression of the regime than broader ETFs; it deserves attention when tech is leading but should be sized carefully given sector concentration and prior rejections on max-position limits.",
       "confidence": 0.71,
       "congressional_signal": "none",
       "diversity_bucket": "broad-tech-ETF",
-      "entry_plan": "Instead of chasing recent highs, wait for a 3\u20135% pullback toward a short-term moving average or prior breakout level with intraday stabilization and declining downside volume; confirm that the broader market (e.g., SPY) is holding above key trend measures before entry.[3][5][8] For paper trading, treat gaps on thin news with caution and avoid entering immediately after a parabolic extension.",
-      "exit_plan": "Aim to take profits on a 5\u20138% rebound from the pullback over a 5\u201310 day window, or sooner if XLK retests recent highs and momentum indicators (like RSI) become overbought and roll over.[3][5][8] Invalidate the trade if XLK closes decisively below the pullback support and the broader tech complex weakens, or if SPY breaks below key moving averages, signaling a broader risk-off regime.[5]",
+      "entry_plan": "For paper-trading, consider a staggered entry near prior short-term support or after an intraday dip of about 1\u20132% from recent highs, only if XLK remains above its short-term moving averages and the broader tape (S&P/Nasdaq futures) is flat-to-positive at entry.",
+      "exit_plan": "Target a 3\u20136% swing gain over 3\u20137 trading days; invalidate and cut if XLK closes below a nearby support level or approximately 6% below entry, or if there is a clear rotation day with tech underperforming cyclicals/defensives on high volume.",
       "fresh_catalyst": true,
-      "growth_runway": "Tech\u2019s structural runway includes cloud adoption, AI infrastructure and applications, software digitization, and secular demand for semiconductors and services, supporting a longer-term growth narrative behind XLK\u2019s holdings.[8] However, the ETF\u2019s recent explosive performance suggests much of this narrative is already priced into near-term expectations.",
-      "hf_evidence_rank": 0.71,
+      "growth_runway": "Secular drivers like cloud adoption, AI investment, and software digitization provide a multi-year growth backdrop, but the 30\u2013180 day window is more about whether earnings, guidance, and macro (rates) remain supportive of growth multiples.[1]",
+      "hf_evidence_rank": 0.0,
       "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.28,
-      "hf_memory_similarity": 0.14,
-      "hf_model_notes": "XLK has strong, quantified momentum and fits the broader regime but carries elevated late-cycle and concentration risk; proposed as execution-ready only with defined, modest allocation.",
+      "hf_hype_risk": 0.0,
+      "hf_memory_similarity": 0.0,
+      "hf_model_notes": "",
       "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "positive",
-      "hf_sentiment_score": 0.7,
-      "hf_source_quality_score": 0.72,
-      "horizon_days": 7,
-      "margin_of_safety_case": "From a Chittick lens, XLK\u2019s margin of safety is modest: while underlying holdings are generally high quality, sector valuations and concentration risk limit downside protection in a shock. The ETF does, however, provide diversification across multiple high-quality tech businesses, which softens individual blowup risk compared with single-name bets.[5][8]",
-      "market_regime": "In a neutral-to-risk-on regime dominated by tech and AI, XLK is effectively a direct vehicle for that leadership trend. However, the same regime is described as late-stage and fragile, so any risk-off event or break of key moving averages in the broader indices could swiftly undermine the trade.[5][8]",
-      "momentum_case": "The documented +17% return in 30 days and +33% over the quarter illustrates powerful price momentum and relative strength versus the broader market.[8] Such sustained outperformance often continues as long as earnings momentum and AI/growth sentiment remain favorable, making XLK a textbook candidate for swing entries on pullbacks within an uptrend.[3][8]",
-      "owner_hold_case": "An owner-style 30\u2013180 day thesis would rely on sustained AI and cloud investment, continued earnings beats from major tech constituents, and a stable or easing rate environment. Given late-cycle risks and existing concentration in tech, that longer hold case should be sized conservatively and revisited frequently.",
-      "quality_case": "XLK tracks the Technology Select Sector Index, providing exposure to large-cap technology companies with strong balance sheets, high profitability, and leading competitive positions.[8] As an ETF, it mitigates single-company idiosyncratic risk while preserving sector exposure, aligning with a quality-plus-diversification approach when index-level tech leadership is intact.[8]",
+      "hf_sentiment_label": "",
+      "hf_sentiment_score": 0.0,
+      "hf_source_quality_score": 0.0,
+      "horizon_days": 5,
+      "margin_of_safety_case": "Valuation is not obviously cheap, but using a diversified ETF and a small, time-bounded swing reduces the need for a deep margin of safety versus a single expensive compounder; downside is further mitigated by stop discipline rather than valuation alone.",
+      "market_regime": "In a moderately risk-on regime with leadership concentrated in tech and AI, XLK benefits directly but is also a single-point-of-failure risk if the regime shifts back toward value, defensives, or if macro/geopolitical shocks trigger de-risking.[1][2]",
+      "momentum_case": "Tech and software have been leading the current risk-on leg, with Nasdaq futures outperforming S&P futures and tech-related indices up strongly over the last month and quarter, signaling persistent relative strength.[1][2]",
+      "owner_hold_case": "A 30\u2013180 day owner-style hold could be justified if earnings seasons continue to show robust tech earnings and guidance, AI capex stays strong, and rates remain stable or drift lower, supporting growth valuations.",
+      "quality_case": "XLK holds a concentrated basket of high-quality, profitable US large-cap tech franchises (e.g., software, semis, hardware) with strong balance sheets and durable moats; using the ETF reduces idiosyncratic risk relative to single-name bets while preserving exposure to secular digitization and AI adoption.[1]",
       "recommendation": "execute-if-guards-pass",
-      "repeat_count_48h": 0,
-      "research_tier": "execution-ready",
-      "risk_reward": "Buying a controlled pullback in a strong uptrend can offer a 1\u20132:1 risk/reward if stops are set 3\u20135% below support and targets around 5\u201310% above entry, but the skew is sensitive to late-cycle macro shocks. The ETF structure reduces single-stock blowup risk but concentrates factor risk in tech and growth.",
+      "repeat_count_48h": 1,
+      "research_tier": "allocation-muted",
+      "risk_reward": "Risk roughly 1 unit to make about 1\u20131.5 units over a short horizon; upside is participation in continued tech leadership, downside is a quick sector rotation or sentiment break hitting the concentrated tech factor.",
       "sector": "technology-ETF",
       "signal_weights": {
         "congressional_signal": 0.0,
-        "social_buzz": 0.06
+        "social_buzz": 0.0
       },
-      "social_buzz": "low, mainly institutional and ETF-focused discussion rather than hype-style promotion.",
-      "source_quality": "The performance statistics and ETF structure details come from a specialized ETF analysis source, which is reasonably authoritative about XLK\u2019s recent returns and composition.[8] Macro regime context and risk management insights are supported by independent market commentary from reputable outlets.[5][6]",
+      "social_buzz": "None notable beyond general tech/AI enthusiasm; no ticker-specific anomaly flagged in the supplied buzz scan.",
+      "source_quality": "Evidence is based on broad index and sector commentary from institutional strategy notes and financial media describing current leadership and factor tone; these are reputable but high-level sources, so ETF-specific signals are strong directionally but not name-specific.[1][2]",
       "source_urls": [
-        "https://tickeron.com/blogs/xlk-etf-delivers-17-gains-in-30-days-and-33-over-the-quarter-13735/",
-        "https://www.morningstar.com",
-        "https://www.tmgm.com/en-in/academy/trading-academy/what-is-swing-trading"
+        "https://enrichedthinking.scotiawealthmanagement.com/2026/05/27/morning-strategy-note-659/",
+        "https://www.youtube.com/watch?v=GAIVZWo3_yQ",
+        "https://fintech.tv/luke-lloyd-sees-bullish-market-ahead-as-tech-and-software-stocks-lead-the-charge/"
       ],
       "stop_loss_percent": 6.0,
       "strategy_tags": [
-        "momentum",
-        "sector-ETF",
-        "swing-5-10d"
+        "chittick_cash"
       ],
       "symbol": "XLK",
-      "target_allocation_percent": 6.0,
-      "thesis": "XLK, the Technology Select Sector SPDR ETF, offers diversified large-cap US tech exposure and has recently delivered strong gains (+17% in 30 days, +33% over the quarter), making it a momentum-driven but diversified way to express the ongoing tech/AI leadership trend without concentrating in a single mega-cap name.",
-      "valuation_case": "The strong recent performance and AI enthusiasm imply that XLK\u2019s aggregate valuation is above historical averages for the tech sector.[8] This raises the risk of multiple compression if growth expectations temper or rates rise, especially in a late-stage bull environment. For a 1\u201310 day swing, valuation is a background constraint suggesting smaller size and tighter stops rather than a reason to avoid the trade outright.[5][8]"
+      "target_allocation_percent": 0.0,
+      "thesis": "A liquid, diversified way to express the current leadership in large-cap US technology and software while avoiding over-concentration in single AI names; recent performance and flows support a 1\u20137 day momentum swing with defined risk in a still-bullish tech tape.",
+      "valuation_case": "Tech valuations are above long-term averages, but strong earnings growth and cash generation partially justify premiums; for a 1\u20137 day swing, price action and regime support matter more than precise multiple justification, though medium-term returns could be more muted from these levels.[1][2]"
     }
   ],
-  "summary": "US equities remain in a late-stage bull with tech/AI leadership and improving breadth, but valuations and narrow leadership make the regime bullish yet fragile. For paper swing trades, prioritize high-quality, liquid names with fresh catalysts and clear 1\u201310 day setups, while treating owner-style 30\u2013180 day theses as secondary."
+  "summary": "US equities remain in a moderately risk\u2011on regime led by large\u2011cap tech and AI, while energy and defensives lag; breadth is narrow and valuations in leaders are rich, so short\u2011horizon swing setups should lean on clear catalysts and tight risk controls."
 }
 -->
 
@@ -1567,4 +1445,10 @@ No candidates.
 | TXN | semiconductors | watch | quality-semiconductors-industrial | 0 | yes | 0.59 | 74 | 1 | 0 | 0.0% | 8.0% | watch | Recent congressional purchase disclosures indicating modest net buying interest, alongside ongoing investor focus on semiconductors as a core beneficiary of ind |
 | ECL | specialty-chemicals / water & hygiene | execution-ready | defensive-water-chemicals | 0 | yes | 0.73 | 79 | 1 | 0 | 8.0% | 7.0% | execute-if-guards-pass | A recent bullish UBS rating change with a lifted price target sparked a notable price move in Ecolab, indicating fresh institutional endorsement and improved ou |
 | XLK | technology-ETF | execution-ready | broad-tech-ETF | 0 | yes | 0.71 | 62 | 1 | 0 | 6.0% | 6.0% | execute-if-guards-pass | Recent performance evidence shows XLK gaining about 17% over 30 days and 33% over the quarter, confirming strong sector momentum and attracting additional atten |
+
+## Latest Candidates - 2026-05-28 09:54:17 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| XLK | technology-ETF | allocation-muted | broad-tech-ETF | 1 | yes | 0.71 | 62 | 0 | 0 | 0.0% | 6.0% | execute-if-guards-pass | Ongoing sector leadership in tech and software, with Nasdaq and semiconductor/AI names continuing to outperform broader indices and attract flows in a bullish e |
 

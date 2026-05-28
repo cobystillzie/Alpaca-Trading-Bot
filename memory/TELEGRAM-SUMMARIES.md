@@ -22114,4 +22114,19 @@ Sources: https://tickeron.com/blogs/xlk-etf-delivers-17-gains-in-30-days-and-33-
 Rejected / Watchouts
 - TXN: Candidate references banned v1 instruments or leverage.; Confidence below 0.60.; Target allocation must be between 1% and 15%.
 - ECL: Candidate references banned v1 instruments or leverage.
+## Research Update - 2026-05-28 09:54:17 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities remain in a moderately risk‑on regime led by large‑cap tech and AI, while energy and defensives lag; breadth is narrow and valuations in leaders are rich, so short‑horizon swing setups should lean on clear catalysts and tight risk controls.
+Candidates: 1
+
+1. XLK (technology-ETF) | confidence 0.71 | allocation 0.0% | stop 6.0% | Chittick 62/100 | tier allocation-muted | bucket broad-tech-ETF
+Recommendation: execute-if-guards-pass
+Catalyst: Ongoing sector leadership in tech and software, with Nasdaq and semiconductor/AI names continuing to outperform broader indices and attract flows in a bullish environment for growth and quality factors.[1][2]
+Chittick Cash: Valuation is not obviously cheap, but using a diversified ETF and a small, time-bounded swing reduces the need for a deep margin of safety versus a single expensive compounder; downside is further mitigated by stop di...
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=allocation-muted repeat48h=1 fresh=yes bucket=broad-tech-ETF
+Social buzz, low weight: None notable beyond general tech/AI enthusiasm; no ticker-specific anomaly flagged in the supplied buzz scan.
+Congress signal, low weight: none
 
