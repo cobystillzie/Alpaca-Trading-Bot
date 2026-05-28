@@ -4,65 +4,182 @@
 {
   "candidates": [
     {
-      "adversary_case": "This is effectively a factor bet on an already-crowded theme at rich valuations; a more conservative approach might favor waiting for a clearer pullback, using a broader ETF, or scaling position smaller to reduce exposure to a potential tech air pocket.",
-      "allocation_learning_note": "Previously rejected for max open-position count; any execution should consider smaller allocation and interaction with existing tech/AI exposure. Recent allocation or max-position rejection: route to blocked-ideas learning instead of the trade candidate lane.",
-      "balance_sheet_risk": "Constituents are generally cash-rich with modest leverage, so balance-sheet risk is low; primary risk is multiple compression rather than solvency.",
-      "bear_case": "Leadership is narrow and valuations for mega-cap tech and AI beneficiaries are elevated; any rotation out of growth/tech, negative macro surprise (rates repricing higher), or AI-sentiment reversal could hit XLK quickly and produce a sharp drawdown due to concentration.[1][2]",
-      "capital_allocation_case": "Many XLK holdings have strong capital allocation track records (reinvestment in R&D plus buybacks/dividends), though the ETF wrapper means capital allocation is indirect via index methodology.",
-      "catalyst": "Ongoing sector leadership in tech and software, with Nasdaq and semiconductor/AI names continuing to outperform broader indices and attract flows in a bullish environment for growth and quality factors.[1][2]",
-      "catalyst_type": "structural",
-      "chittick_cash_score": 62.0,
+      "adversary_case": "The AI and enterprise themes may be largely priced in, and the small downward revision in fair value suggests limited near-term upside; as a mid/small-cap marketplace, UPWK could underperform mega-cap AI leaders if risk appetite narrows, making a broad tech ETF or larger quality compounder a safer expression of the same macro theme.",
+      "allocation_learning_note": "Keep allocation modest due to only moderate margin of safety and narrative-driven catalyst; use this as a testbed for AI-/platform-tilted small swings alongside more conservative core holdings.",
+      "balance_sheet_risk": "As a platform business with relatively light capital needs, balance sheet risk is lower than for capital-intensive companies, though UPWK still faces execution risk around achieving sustained profitability and avoiding excessive dilution; no immediate red-flag leverage is implied in the available narrative.",
+      "bear_case": "Freelance demand is cyclical and can slow in downturns; competitive pressure from other marketplaces and general-purpose platforms (e.g., LinkedIn, Fiverr) could compress take-rates and marketing efficiency; analysts have trimmed fair value and targets slightly, signaling only moderate enthusiasm and leaving downside risk if execution on AI/enterprise initiatives disappoints.[2]",
+      "capital_allocation_case": "Management\u2019s focus on AI capabilities and enterprise offerings suggests a tilt toward reinvestment in product and sales over aggressive financial engineering, which is consistent with owner-style thinking, provided they maintain discipline on marketing efficiency and stock-based compensation.[2]",
+      "catalyst": "Recent narrative and analyst updates highlight investment in AI and enterprise solutions improving user experience, monetization, and efficiency, alongside a modest tweak in consensus fair value and price targets that can act as a near-term sentiment catalyst if the stock has pulled back toward support.[2]",
+      "catalyst_type": "news",
+      "chittick_cash_score": 68.0,
       "chittick_reject_reason": "",
-      "concentration_case": "XLK focuses on a leading sector that currently drives index returns, making it a cleaner expression of the regime than broader ETFs; it deserves attention when tech is leading but should be sized carefully given sector concentration and prior rejections on max-position limits.",
-      "confidence": 0.71,
+      "concentration_case": "UPWK is not a mega-cap core holding but a tactical, higher-beta satellite around the broader theme of AI-powered productivity and flexible work; it deserves attention as a small, defined-risk swing rather than a large allocation versus broad tech ETFs or entrenched mega-cap platforms.",
+      "confidence": 0.66,
       "congressional_signal": "none",
-      "diversity_bucket": "broad-tech-ETF",
-      "entry_plan": "For paper-trading, consider a staggered entry near prior short-term support or after an intraday dip of about 1\u20132% from recent highs, only if XLK remains above its short-term moving averages and the broader tape (S&P/Nasdaq futures) is flat-to-positive at entry.",
-      "exit_plan": "Target a 3\u20136% swing gain over 3\u20137 trading days; invalidate and cut if XLK closes below a nearby support level or approximately 6% below entry, or if there is a clear rotation day with tech underperforming cyclicals/defensives on high volume.",
+      "diversity_bucket": "mid-cap-internet-marketplace",
+      "entry_plan": "Paper entry on a constructive pullback: buy in the 3\u20135% dip zone toward the 20-day moving average after a green reversal candle with volume at or above recent average; avoid chasing gap-ups >5% intraday without a consolidation flag; stagger in two tranches (50% size at first signal, 50% only if price holds above that intraday low for at least one full session).",
+      "exit_plan": "Take profits into a 10\u201318% move toward the lower end of consensus and narrative fair-value band over 1\u20137 trading days; invalidate the trade and exit if price closes below recent swing low or the 20-day moving average by more than the planned stop (~7\u20138%), or if a negative company-specific update undercuts the AI/enterprise growth narrative.",
       "fresh_catalyst": true,
-      "growth_runway": "Secular drivers like cloud adoption, AI investment, and software digitization provide a multi-year growth backdrop, but the 30\u2013180 day window is more about whether earnings, guidance, and macro (rates) remain supportive of growth multiples.[1]",
-      "hf_evidence_rank": 0.0,
+      "growth_runway": "Over 30\u2013180 days and beyond, growth should be driven by deeper penetration of enterprise clients, higher spend per customer, and enhanced AI tools that improve matching quality and workflow automation, potentially lifting take-rates and engagement metrics as remote and hybrid work remain entrenched.[2]",
+      "hf_evidence_rank": 0.62,
       "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.0,
-      "hf_memory_similarity": 0.0,
-      "hf_model_notes": "",
+      "hf_hype_risk": 0.15,
+      "hf_memory_similarity": 0.1,
+      "hf_model_notes": "Narrative-driven but anchored in analyst targets and identifiable product initiatives; not a pure hype/meme setup.",
       "hf_sentiment_agreement": 0.0,
       "hf_sentiment_label": "",
       "hf_sentiment_score": 0.0,
       "hf_source_quality_score": 0.0,
       "horizon_days": 5,
-      "margin_of_safety_case": "Valuation is not obviously cheap, but using a diversified ETF and a small, time-bounded swing reduces the need for a deep margin of safety versus a single expensive compounder; downside is further mitigated by stop discipline rather than valuation alone.",
-      "market_regime": "In a moderately risk-on regime with leadership concentrated in tech and AI, XLK benefits directly but is also a single-point-of-failure risk if the regime shifts back toward value, defensives, or if macro/geopolitical shocks trigger de-risking.[1][2]",
-      "momentum_case": "Tech and software have been leading the current risk-on leg, with Nasdaq futures outperforming S&P futures and tech-related indices up strongly over the last month and quarter, signaling persistent relative strength.[1][2]",
-      "owner_hold_case": "A 30\u2013180 day owner-style hold could be justified if earnings seasons continue to show robust tech earnings and guidance, AI capex stays strong, and rates remain stable or drift lower, supporting growth valuations.",
-      "quality_case": "XLK holds a concentrated basket of high-quality, profitable US large-cap tech franchises (e.g., software, semis, hardware) with strong balance sheets and durable moats; using the ETF reduces idiosyncratic risk relative to single-name bets while preserving exposure to secular digitization and AI adoption.[1]",
+      "margin_of_safety_case": "Analyst fair value and price targets have edged lower, suggesting the margin of safety is modest rather than deep; however, if the stock trades at a discount to the $21.4 consensus fair value and the business continues to improve monetization and enterprise mix, there is some downside protection from the platform\u2019s durable demand characteristics.[2]",
+      "market_regime": "In a generally risk-on tape with tech leadership, UPWK can benefit from renewed interest in AI-leveraged platforms, but any sharp risk-off shift or macro scare tends to hit smaller, non-profitable or lower-margin tech names disproportionately, so position size and stop discipline are critical.",
+      "momentum_case": "Recent commentary frames UPWK as an AI and enterprise platform beneficiary, which often attracts incremental flows in a tech-biased risk-on regime; if price is holding above its 50-day moving average with rising volume versus its 20-day average, that would confirm a constructive swing setup with room back toward consensus targets.[2]",
+      "owner_hold_case": "If execution evidence strengthens\u2014sustained revenue acceleration, improving margins, and demonstrated traction in AI and enterprise cohorts\u2014an owner could justify a 30\u2013180 day hold to capture further re-rating as the platform matures, but current data support a shorter swing bias with ongoing re-evaluation.[2]",
+      "quality_case": "Upwork operates a two-sided marketplace with network effects, recurring usage from SMB and enterprise clients, and high incremental margins on volume growth; AI-enhanced matching and workflow tools should deepen customer engagement and raise switching costs over time, supporting a Buffett/Munger-style preference for understandable, asset-light platforms with scalability rather than speculative concepts.[2]",
       "recommendation": "execute-if-guards-pass",
-      "repeat_count_48h": 1,
-      "research_tier": "allocation-muted",
-      "risk_reward": "Risk roughly 1 unit to make about 1\u20131.5 units over a short horizon; upside is participation in continued tech leadership, downside is a quick sector rotation or sentiment break hitting the concentrated tech factor.",
-      "sector": "technology-ETF",
+      "repeat_count_48h": 0,
+      "research_tier": "execution-ready",
+      "risk_reward": "Roughly 1:1.5\u20131:2 skew: risking about 7\u20138% downside from entry zone to invalidation for a 12\u201315% upside to conservative target, provided that broader tech momentum and UPWK\u2019s volume profile remain supportive.",
+      "sector": "Information Technology / Online Marketplaces",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
-      "social_buzz": "None notable beyond general tech/AI enthusiasm; no ticker-specific anomaly flagged in the supplied buzz scan.",
-      "source_quality": "Evidence is based on broad index and sector commentary from institutional strategy notes and financial media describing current leadership and factor tone; these are reputable but high-level sources, so ETF-specific signals are strong directionally but not name-specific.[1][2]",
+      "social_buzz": "none",
+      "source_quality": "Evidence is primarily from a fundamentals-oriented narrative platform synthesizing analyst estimates and business drivers, which is stronger than pure social buzz but weaker than direct SEC filings or earnings transcripts; still, it provides concrete info on analyst targets, AI/enterprise focus, and valuation band.[2]",
       "source_urls": [
-        "https://enrichedthinking.scotiawealthmanagement.com/2026/05/27/morning-strategy-note-659/",
-        "https://www.youtube.com/watch?v=GAIVZWo3_yQ",
-        "https://fintech.tv/luke-lloyd-sees-bullish-market-ahead-as-tech-and-software-stocks-lead-the-charge/"
+        "https://simplywall.st/narratives/lgwaji4p-upwk-ai-momentum-and-enterprise-platform-expansion-will-drive-business-growth?bpId=4489467&link_type=cta_ai_narrative"
       ],
-      "stop_loss_percent": 6.0,
+      "stop_loss_percent": 8.0,
       "strategy_tags": [
-        "chittick_cash"
+        "chittick_cash",
+        "swing-1-10-day",
+        "ai-adjacent",
+        "quality-iteration"
       ],
-      "symbol": "XLK",
+      "symbol": "UPWK",
+      "target_allocation_percent": 4.0,
+      "thesis": "Upwork is a leading online work marketplace benefiting from structural remote/freelance trends; near term, renewed focus on AI tools and enterprise solutions provides a defined 1\u201310 day sentiment/momentum window around improving growth narrative, while the core business has reasonable quality traits for a small-sized, high-discipline swing.",
+      "valuation_case": "The analyst consensus fair value around $21.4, slightly revised down, implies some upside from typical mid- to high-teens quotes but not a huge disconnect; valuation looks acceptable but not screamingly cheap, appropriate for a small, controlled position rather than a concentrated bet.[2]"
+    },
+    {
+      "adversary_case": "An aggressive trader might argue that biotech beta plus any approaching conference could warrant a speculative swing, but that conflicts with the strategy\u2019s preference for clear catalysts and quality-margin-of-safety discipline.",
+      "allocation_learning_note": "Biotech watchlist name for longer-term pipeline tracking and for understanding how to incorporate clinical milestones into future catalyst-driven trades.",
+      "balance_sheet_risk": "Biotech firms face ongoing cash burn and dependence on capital markets; while filings do not flag acute distress, dilution risk is inherent and must be monitored.[sec_quality]",
+      "bear_case": "All demand and pricing power assumptions remain unproven since APGE is pre-commercial; failure in later-stage trials, safety concerns, or competitive entrants could significantly impair value, and biotech sentiment can sour rapidly in a risk-off tape.[sec_quality]",
+      "capital_allocation_case": "Capital is largely directed to pipeline development, which is appropriate but offers limited flexibility if markets tighten or data disappoints.[sec_quality]",
+      "catalyst": "Recent SEC filings detail Phase 2 data for zumilokibart (APG777) in atopic dermatitis and 52-week maintenance studies, providing updated evidence of efficacy and long-interval dosing potential.[sec_quality]",
+      "catalyst_type": "general",
+      "chittick_cash_score": 63.0,
+      "chittick_reject_reason": "clinical-stage, binary-outcome risk profile with no clearly timed 1\u201310 day catalyst in current data; violates margin-of-safety discipline for swing allocation.",
+      "concentration_case": "Given binary risk and lack of near-term cash flows, APGE should never be a large single-name concentration in this framework and instead remains a research-side watch.",
+      "confidence": 0.61,
+      "congressional_signal": "none",
+      "diversity_bucket": "healthcare-biotech",
+      "entry_plan": "No active swing entry for now; observe price behavior around major medical conferences or company-announced updates on the APG777 program and broader pipeline.",
+      "exit_plan": "If moved to active-trade status in the future, any swing would require clearly defined event windows (data readouts, regulatory milestones) and tight downside protection given binary risk.",
+      "fresh_catalyst": true,
+      "growth_runway": "If programs like APG777 and combination therapies (APG279, APG273, APG808) succeed, the runway spans multiple large, overlapping Type 2 inflammation markets with potential for long-acting dosing and multi-asset optionality.[sec_quality]",
+      "hf_evidence_rank": 0.7,
+      "hf_filter_vetoes": [],
+      "hf_hype_risk": 0.25,
+      "hf_memory_similarity": 0.05,
+      "hf_model_notes": "High-quality SEC data but limited suitability to the stated swing-trade horizon without event timing.",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "",
+      "hf_sentiment_score": 0.0,
+      "hf_source_quality_score": 0.82,
+      "horizon_days": 1,
+      "margin_of_safety_case": "There is effectively no classic margin of safety; valuation depends on discounted probabilities of future cash flows from unapproved drugs, which can change abruptly with new data.[sec_quality]",
+      "market_regime": "In a risk-on but cautious environment, early-stage biotech can rally strongly on good news but still faces significant drawdown risk; given the absence of an imminent, precisely timed catalyst in the provided data, caution is warranted.",
+      "momentum_case": "Price action may occasionally spike on clinical or conference headlines, but absent a just-announced trial result or regulatory decision, the stock\u2019s momentum is likely event-driven and volatile rather than steadily trending, making it less ideal for a 1\u201310 day catalyst swing without a very specific upcoming event.",
+      "owner_hold_case": "An owner might consider a 30\u2013180 day or longer hold only if Phase 2/3 data mature positively, balance sheet visibility extends well past key milestones, and competitive positioning clarifies favorably; current stage is too early for that conviction.[sec_quality]",
+      "quality_case": "APGE targets large, chronic inflammatory diseases (atopic dermatitis, asthma, eosinophilic esophagitis, COPD, and related Type 2 diseases) with historically durable, high-value biologics demand, supported by chronicity and high willingness to pay for effective treatments.[sec_quality]",
+      "recommendation": "watch",
+      "repeat_count_48h": 0,
+      "research_tier": "monitor-only",
+      "risk_reward": "Long-term potential is high if the pipeline succeeds, but near-term 1\u201310 day risk/reward is poorly defined without a specific scheduled catalyst; this skews more toward speculative than disciplined swing.",
+      "sector": "Health Care / Biotechnology",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "none",
+      "source_quality": "Information is from SEC filings, which are high-quality, primary sources for pipeline status, trial data summaries, and risk disclosures.[sec_quality]",
+      "source_urls": [
+        "Apogee Therapeutics, Inc. \u2013 Form 10\u2011Q for the quarter ended March 31, 2026 (CIK 0001974640)."
+      ],
+      "stop_loss_percent": 8.0,
+      "strategy_tags": [
+        "chittick_cash",
+        "biotech",
+        "monitor-only"
+      ],
+      "symbol": "APGE",
       "target_allocation_percent": 0.0,
-      "thesis": "A liquid, diversified way to express the current leadership in large-cap US technology and software while avoiding over-concentration in single AI names; recent performance and flows support a 1\u20137 day momentum swing with defined risk in a still-bullish tech tape.",
-      "valuation_case": "Tech valuations are above long-term averages, but strong earnings growth and cash generation partially justify premiums; for a 1\u20137 day swing, price action and regime support matter more than precise multiple justification, though medium-term returns could be more muted from these levels.[1][2]"
+      "thesis": "Apogee Therapeutics is a clinical-stage biotech focused on chronic inflammatory and immunology indications with promising Phase 2 data, offering a quality-tilted, high-uncertainty name better suited for a small, monitoring allocation rather than an immediate swing trade.",
+      "valuation_case": "SEC documents do not provide valuation, but for clinical-stage biotech, market cap vs. risk-adjusted peak sales is the key lens; without detailed current pricing, this remains a conceptual watch, not a value call.[sec_quality]"
+    },
+    {
+      "adversary_case": "A more aggressive trader might argue that quality cyclicals deserve active sizing in a risk-on tape even without a visible catalyst, but that conflicts with this system\u2019s preference for defined triggers and short horizons.",
+      "allocation_learning_note": "Good example of a structural compounder where owner-style thesis may be superior to short-term swing; keep in watchlist to compare eventual valuation vs. business quality.",
+      "balance_sheet_risk": "WSC relies on a sizeable asset base but benefits from long-lived assets and recurring revenues; leverage needs monitoring, but filings emphasize fleet residual value and utilization, which mitigate balance-sheet stress in normal cycles.[sec_quality]",
+      "bear_case": "Demand is cyclical and exposed to non-residential construction and industrial/energy spending; a slowdown or rate-driven tightening in construction could compress lease rates and utilization; competition from other modular suppliers could pressure pricing if macro conditions soften.[sec_quality]",
+      "capital_allocation_case": "Management focuses on optimizing fleet returns, cross-selling value-added products, and using capital for disciplined growth and potential shareholder returns, aligning with owner-minded capital allocation if kept within leverage limits.[sec_quality]",
+      "catalyst": "Recent 10-K filings reiterate the durability of the fleet, recurring lease economics, and value-added products strategy, but there is no specific new earnings surprise or contract announcement in the provided data.[sec_quality]",
+      "catalyst_type": "structural",
+      "chittick_cash_score": 78.0,
+      "chittick_reject_reason": "No clearly defined, time-bound catalyst to justify a 1\u201310 day swing; more suitable for owner-hold analysis once valuation context is available.",
+      "concentration_case": "As a quality industrial with reasonably diversified end markets, WSC could be a candidate for a medium-sized position in an owner portfolio, but in this framework it remains a research watch rather than a near-term swing anchor.",
+      "confidence": 0.64,
+      "congressional_signal": "none",
+      "diversity_bucket": "industrials-services",
+      "entry_plan": "No immediate swing entry; if future data show a positive earnings surprise, guidance raise, or structural policy win (e.g., infrastructure spending tailwind), a pullback-to-support entry could be considered with defined technical levels.",
+      "exit_plan": "For future consideration, profits would be taken into multiple of re-rating or strong price extension above prior ranges, with invalidation on evidence of cycle turn or weakening utilization metrics.",
+      "fresh_catalyst": true,
+      "growth_runway": "Growth is driven by continued penetration of modular solutions in construction and industrial markets, expansion of value-added services per unit, and potential benefits from infrastructure and energy-capex cycles over 30\u2013180 days and beyond.[sec_quality]",
+      "hf_evidence_rank": 0.74,
+      "hf_filter_vetoes": [],
+      "hf_hype_risk": 0.1,
+      "hf_memory_similarity": 0.05,
+      "hf_model_notes": "High-quality business description from SEC; missing current market data for trade timing.",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "",
+      "hf_sentiment_score": 0.0,
+      "hf_source_quality_score": 0.85,
+      "horizon_days": 1,
+      "margin_of_safety_case": "Fleet economics and recurring leases offer a structural margin of safety if purchased at reasonable multiples during neutral-to-weak parts of the cycle; however, no current valuation context is provided here, so we cannot assert that the stock is presently cheap.[sec_quality]",
+      "market_regime": "In a cautious risk-on regime, quality cyclicals with recurring revenues can perform well but still face drawdowns if macro or rates sentiment sours; WSC is more suited to medium-horizon owner holding than tactical 1\u201310 day trading unless a discrete news event emerges.",
+      "momentum_case": "Given its industrial and infrastructure exposure, WSC tends to respond to macro construction cycles and rate expectations; without a fresh breakout or earnings catalyst referenced here, momentum is assumed to be steady but unspectacular, aligning more with a trend-hold than a short swing.",
+      "owner_hold_case": "A 30\u2013180 day thesis could focus on capturing the compounding from steady fleet utilization, cross-sell of value-added products, and any macro tailwind from construction/infrastructure cycles, reviewed each earnings cycle.[sec_quality]",
+      "quality_case": "WSC\u2019s modular space and storage fleet has long useful lives (20\u201330 years) and high residual values, supporting annuity-like lease revenues across construction, education, industrial, energy, and events; integrated value-added products (workstations, connectivity, security, sanitation, fencing) deepen wallet share and reduce commoditization risk, creating a high-return, scalable platform.[sec_quality]",
+      "recommendation": "watch",
+      "repeat_count_48h": 0,
+      "research_tier": "monitor-only",
+      "risk_reward": "Fundamentally attractive over 30\u2013180+ days with balanced risk/reward, but lacking a sharp 1\u201310 day asymmetric setup in current information.",
+      "sector": "Industrials / Commercial Services & Supplies",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "none",
+      "source_quality": "Information is drawn from the company\u2019s Form 10-K, a high-quality, primary SEC source detailing business model, fleet economics, and risk factors.[sec_quality]",
+      "source_urls": [
+        "WillScot Holdings Corp \u2013 Form 10-K for the year ended December 31, 2025 (CIK 0001647088)."
+      ],
+      "stop_loss_percent": 7.0,
+      "strategy_tags": [
+        "chittick_cash",
+        "industrial-services",
+        "owner-thesis"
+      ],
+      "symbol": "WSC",
+      "target_allocation_percent": 0.0,
+      "thesis": "WillScot Mobile Mini is a recurring-revenue industrial services company offering modular space and portable storage with strong unit economics and value-added products, fitting the Chittick Cash preference for durable, cash-generative businesses, but current info lacks a sharp 1\u201310 day catalyst, making it more suitable for owner-thesis monitoring than immediate swing action.",
+      "valuation_case": "10-K filings support the qualitative case for high returns and durable cash flows, but without current multiples or price context, valuation must be treated as unknown and thus not a basis for an immediate trade.[sec_quality]"
     }
   ],
-  "summary": "US equities remain in a moderately risk\u2011on regime led by large\u2011cap tech and AI, while energy and defensives lag; breadth is narrow and valuations in leaders are rich, so short\u2011horizon swing setups should lean on clear catalysts and tight risk controls."
+  "summary": "US equities remain broadly constructive with large-cap tech and semis leading, while volatility and prior rejection history argue for disciplined, catalyst-driven swing setups rather than chasey momentum."
 }
 -->
 
@@ -1451,4 +1568,12 @@ No candidates.
 | Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
 |---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
 | XLK | technology-ETF | allocation-muted | broad-tech-ETF | 1 | yes | 0.71 | 62 | 0 | 0 | 0.0% | 6.0% | execute-if-guards-pass | Ongoing sector leadership in tech and software, with Nasdaq and semiconductor/AI names continuing to outperform broader indices and attract flows in a bullish e |
+
+## Latest Candidates - 2026-05-28 11:53:55 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| UPWK | Information Technology / Online Marketplaces | execution-ready | mid-cap-internet-marketplace | 0 | yes | 0.66 | 68 | 0 | 0 | 4.0% | 8.0% | execute-if-guards-pass | Recent narrative and analyst updates highlight investment in AI and enterprise solutions improving user experience, monetization, and efficiency, alongside a mo |
+| APGE | Health Care / Biotechnology | monitor-only | healthcare-biotech | 0 | yes | 0.61 | 63 | 1 | 0 | 0.0% | 8.0% | watch | Recent SEC filings detail Phase 2 data for zumilokibart (APG777) in atopic dermatitis and 52-week maintenance studies, providing updated evidence of efficacy an |
+| WSC | Industrials / Commercial Services & Supplies | monitor-only | industrials-services | 0 | yes | 0.64 | 78 | 1 | 0 | 0.0% | 7.0% | watch | Recent 10-K filings reiterate the durability of the fleet, recurring lease economics, and value-added products strategy, but there is no specific new earnings s |
 

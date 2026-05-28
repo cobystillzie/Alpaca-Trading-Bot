@@ -22129,4 +22129,37 @@ HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
 Self-learning: tier=allocation-muted repeat48h=1 fresh=yes bucket=broad-tech-ETF
 Social buzz, low weight: None notable beyond general tech/AI enthusiasm; no ticker-specific anomaly flagged in the supplied buzz scan.
 Congress signal, low weight: none
+## Research Update - 2026-05-28 11:53:55 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities remain broadly constructive with large-cap tech and semis leading, while volatility and prior rejection history argue for disciplined, catalyst-driven swing setups rather than chasey momentum.
+Candidates: 3
+
+1. UPWK (Information Technology / Online Marketplaces) | confidence 0.66 | allocation 4.0% | stop 8.0% | Chittick 68/100 | tier execution-ready | bucket mid-cap-internet-marketplace | HF source 0/100
+Recommendation: execute-if-guards-pass
+Catalyst: Recent narrative and analyst updates highlight investment in AI and enterprise solutions improving user experience, monetization, and efficiency, alongside a modest tweak in consensus fair value and price targets that can act as a near-t...
+Chittick Cash: Analyst fair value and price targets have edged lower, suggesting the margin of safety is modest rather than deep; however, if the stock trades at a discount to the $21.4 consensus fair value and the business continue...
+HF filter: sentiment=not run source=0/100 hype=0.15 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=mid-cap-internet-marketplace
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. APGE (Health Care / Biotechnology) | confidence 0.61 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier monitor-only | bucket healthcare-biotech | HF source 1/100
+Recommendation: watch
+Catalyst: Recent SEC filings detail Phase 2 data for zumilokibart (APG777) in atopic dermatitis and 52-week maintenance studies, providing updated evidence of efficacy and long-interval dosing potential.[sec_quality]
+Chittick Cash: There is effectively no classic margin of safety; valuation depends on discounted probabilities of future cash flows from unapproved drugs, which can change abruptly with new data.[sec_quality]
+HF filter: sentiment=not run source=1/100 hype=0.25 vetoes=0
+Self-learning: tier=monitor-only repeat48h=0 fresh=yes bucket=healthcare-biotech
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. WSC (Industrials / Commercial Services & Supplies) | confidence 0.64 | allocation 0.0% | stop 7.0% | Chittick 35/100 | tier monitor-only | bucket industrials-services | HF source 1/100
+Recommendation: watch
+Catalyst: Recent 10-K filings reiterate the durability of the fleet, recurring lease economics, and value-added products strategy, but there is no specific new earnings surprise or contract announcement in the provided data.[sec_quality]
+Chittick Cash: Fleet economics and recurring leases offer a structural margin of safety if purchased at reasonable multiples during neutral-to-weak parts of the cycle; however, no current valuation context is provided here, so we ca...
+HF filter: sentiment=not run source=1/100 hype=0.10 vetoes=0
+Self-learning: tier=monitor-only repeat48h=0 fresh=yes bucket=industrials-services
+Social buzz, low weight: none
+Congress signal, low weight: none
 

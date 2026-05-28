@@ -1254,4 +1254,9 @@ Premarket plan built from latest watchlist.
 US equities remain in a moderately risk‑on regime led by large‑cap tech and AI, while energy and defensives lag; breadth is narrow and valuations in leaders are rich, so short‑horizon swing setups should lean on clear catalysts and tight risk controls.
 
 Candidates found: 1
+## Two-Hour Research Agent - 2026-05-28 11:53:55 Eastern Daylight Time
+
+US equities remain broadly constructive with large-cap tech and semis leading, while volatility and prior rejection history argue for disciplined, catalyst-driven swing setups rather than chasey momentum.
+
+Candidates found: 3
 
