@@ -1335,4 +1335,9 @@ Candidates found: 5
 US equities remain in a broadly risk-on environment led by large-cap tech and AI, but with crowded positioning and low volatility that argue for strict position sizing, clear catalysts, and disciplined exits over 1–10 day horizons.
 
 Candidates found: 3
+## Two-Hour Research Agent - 2026-05-29 18:20:43 Eastern Daylight Time
+
+US equities remain in a late-cycle, growth-led bull phase with low index volatility, narrow leadership, and persistent flows into tech/AI and select EM while defensives lag. Policy remains restrictive and the risk backdrop favors selective, catalyst-driven swings in quality names rather than broad beta or speculative plays.
+
+Candidates found: 3
 
