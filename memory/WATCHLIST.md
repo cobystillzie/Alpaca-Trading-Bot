@@ -4,124 +4,181 @@
 {
   "candidates": [
     {
-      "adversary_case": "A strict value/quality investor could argue that even a good cyclical at a full valuation with late-cycle macro risk does not offer enough margin of safety for a short-horizon swing; they would prefer to wait for a clear macro-driven pullback or industry-specific scare that resets expectations and price by 15\u201325% before committing capital.",
-      "allocation_learning_note": "Sized at 8% target allocation to respect single-name constraints while giving meaningful exposure to a differentiated industrial-quality name rather than another mega-cap tech.",
-      "balance_sheet_risk": "Existing filings and the ability to initiate and sustain a cash dividend indicate a manageable leverage profile and sufficient liquidity.[2][sec_quality:0] Nonetheless, as a capital-intensive business, WSC remains exposed to refinancing risk if credit spreads widen or rates stay high, and any aggressive buyback or acquisition campaign funded with debt could elevate balance-sheet risk.",
-      "bear_case": "A cyclical slowdown in US construction, industrial activity, or infrastructure awards could compress utilization and pricing, pressuring margins and leading to multiple contraction. Higher-for-longer interest rates raise financing costs for both the company and its customers, potentially slowing new project starts. The stock has already re-rated on quality and consolidation themes, so any earnings disappointment, weaker guidance, or capex pause could trigger a sharp drawdown. Execution missteps in integrating acquisitions, or capital allocation tilting too aggressively toward buybacks or leverage, could erode the margin of safety.",
-      "capital_allocation_case": "Recent steps such as the institution of a regular dividend highlight shareholder-friendly capital allocation and confidence in future cash flows.[2] Historically, the company has used a mix of internal investment, selective acquisitions, and optimization of its modular fleet to drive returns, which aligns with an owner-operator mentality if discipline on leverage and returns on invested capital is preserved.",
-      "catalyst": "Recently declared a quarterly cash dividend of $0.07 per share with record date March 4, 2026 and payment date March 18, 2026, reinforcing balance-sheet strength, shareholder-return commitment, and signaling management confidence in cash generation; the ex-dividend and record-date window often supports short-term interest and can anchor a 5\u201310 day swing entry on pullbacks within an uptrend.[2]",
+      "adversary_case": "The strongest objection is that LLY is already priced for perfection on obesity, so even a real reimbursement win may be fully discounted; in that view, buying after all\u2011time highs on a widely known catalyst could be a poor risk/reward if any subsequent data, pricing pushback, or competitive news disappoints and leads to multiple compression.",
+      "allocation_learning_note": "Given strong business quality but extended valuation, favor mid-single to high-single-digit allocation rather than pushing toward max single-name limits.",
+      "balance_sheet_risk": "As a large, profitable pharma, LLY typically carries manageable debt relative to cash flows and has no obvious near\u2011term balance-sheet stress; the main risks are pipeline execution and regulatory outcomes rather than solvency or dilution.",
+      "bear_case": "Key risks include valuation compression from extremely high expectations on obesity growth, regulatory or safety setbacks for GLP\u20111\u2013based therapies, reimbursement reversals or pricing pressure, and a crowded trade dynamic where any negative headline could trigger sharp profit\u2011taking from extended levels.",
+      "capital_allocation_case": "Management has historically reinvested in R&D and selective acquisitions to extend the metabolic and broader pipeline while returning capital via dividends and buybacks; this pattern is consistent with disciplined, shareholder\u2011oriented capital allocation for a large compounder.",
+      "catalyst": "Recent news that CVS restored coverage of LLY\u2019s obesity drug Zepbound and added Foundayo has driven LLY to fresh all\u2011time highs, reflecting a concrete expansion of insurance/PBM access rather than pure sentiment, and supports higher prescription volume over the next several quarters.[social_buzz\u2192LLY]",
       "catalyst_type": "news",
-      "chittick_cash_score": 74.0,
+      "chittick_cash_score": 78.0,
       "chittick_reject_reason": "",
-      "concentration_case": "Compared with broad industrial ETFs, WSC offers focused exposure to the niche of modular workspaces and storage, a segment with higher switching costs and recurring dynamics than many general industrials. That concentration can justify a single-name allocation within the 8\u201310% range for paper-trading, provided other portfolio holdings cover different sectors and factor exposures.",
-      "confidence": 0.73,
+      "concentration_case": "Compared with buying a broad healthcare ETF, a focused LLY position gives direct exposure to best\u2011in\u2011class obesity and diabetes assets with outsized upside from drug-specific catalysts, which aligns with a concentrated-quality lens when position size is capped within portfolio risk limits.",
+      "confidence": 0.7,
       "congressional_signal": "none",
-      "diversity_bucket": "quality-industrials-infrastructure",
-      "entry_plan": "For paper-trading, look for an entry on a mild pullback toward recent short-term support or a rising 20-day moving average, ideally after a low-volume consolidation day post-dividend news. Use a limit-buy 1\u20132% below the prior close if intraday volume and broad market tone remain constructive. Avoid chasing a large gap-up; instead, wait for an intraday pullback of at least 1.5\u20132% from the session high with stabilizing tape before executing the paper entry.",
-      "exit_plan": "Target a 10\u201314% upside from entry for initial profit-taking, aligned with a typical short swing in a continuing uptrend, and tighten stops if the stock accelerates into that zone quickly. Invalidate the trade on a decisive close 8% below entry or a break and hold below the most recent swing low with expanding volume. For risk management, consider partial profit-taking at ~6\u20138% gain and move the stop to breakeven on the remainder. Time-based exit: close the position after 8\u201310 trading days if neither profit nor stop levels trigger, to respect the 1\u201310 day horizon discipline.",
+      "diversity_bucket": "large-cap-healthcare-metabolic",
+      "entry_plan": "For paper-trading, consider a staggered entry: initial tranche if LLY holds above recent breakout support on normal volume after the CVS news (e.g., after a 1\u20132% intraday test that is bought), with a time window of the next 1\u20133 sessions; avoid chasing parabolic intraday spikes and favor entries on orderly intraday pullbacks that keep the uptrend structure intact.",
+      "exit_plan": "Profit-taking: target roughly 2\u20133x the stop distance over a 5\u20137 day horizon (e.g., if risk is ~6%, aim for 12\u201318% upside, or tighten earlier on clear exhaustion candles or large gap-ups). Invalidation: cut the position if price closes decisively back below the breakout area/high\u2011volume support from the CVS news, or if a material negative safety/regulatory headline emerges.",
       "fresh_catalyst": true,
-      "growth_runway": "Over 30\u2013180 days and beyond, WSC can grow through increased penetration of modular solutions in construction and industrial settings, expansion into new geographies or verticals, and potential share gains via fleet optimization and M&A. Infrastructure programs, data centers, and logistics expansions all provide a structural base of demand. The company\u2019s focus on value-added services and customization supports incremental pricing power and margin expansion.[sec_quality:0]",
-      "hf_evidence_rank": 0.78,
+      "growth_runway": "Over 30\u2013180 days, broader GLP\u20111 adoption, potential new indications, and further reimbursement/access expansions can drive sustained volume and revenue growth; beyond that, pipeline successes and geographic expansion add to a long structural runway in metabolic disease management.",
+      "hf_evidence_rank": 0.68,
       "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.12,
-      "hf_memory_similarity": 0.15,
-      "hf_model_notes": "Strong primary-source signal from official dividend press release and prior 10-K quality notes; no obvious social or hype-driven narrative.",
+      "hf_hype_risk": 0.3,
+      "hf_memory_similarity": 0.1,
+      "hf_model_notes": "Quality large-cap healthcare name with a real reimbursement catalyst and strong momentum; key constraint is elevated valuation and crowding risk.",
       "hf_sentiment_agreement": 0.0,
       "hf_sentiment_label": "",
       "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 0.82,
-      "horizon_days": 8,
-      "margin_of_safety_case": "Asset-backed operations with long-lived modular units, recurring use cases, and a growing installed base provide some downside support relative to highly intangible or pure-growth names.[sec_quality:0] However, the stock is not deeply discounted versus quality peers, so margin of safety derives more from business resilience and cash generation than from a large valuation gap.",
-      "market_regime": "In a risk-on regime led by AI and large-cap growth, quality cyclicals like WSC can lag on days dominated by mega-cap tech flows but may benefit when investors rotate toward infrastructure, industrials, or tangible-asset plays as a catch-up trade. Elevated index valuations and narrow breadth raise the risk that a macro scare leads to de-risking from secondary names before core mega caps, so position sizing and tight invalidation levels are essential.",
-      "momentum_case": "Over the past year, WSC has generally traded with constructive momentum driven by infrastructure and nonresidential capex themes, with price action that has tended to respect rising moving averages and recover quickly from market-wide pullbacks (inferred from its inclusion in quality/durable-demand screens and dividend initiation).[2][sec_quality:0] Into and after the dividend announcement, volume can modestly increase as income and quality-focused investors adjust positions, offering a liquid tape for 5\u201310 day swings.",
-      "owner_hold_case": "An owner-style 30\u2013180 day thesis would center on continued infrastructure and industrial demand, improved utilization and pricing, incremental margin expansion, and steady dividend growth or buybacks as leverage is controlled. Under that thesis, a quality-focused owner might tolerate volatility and hold through normal macro noise as long as fleet utilization, pricing power, and ROIC remain strong.",
-      "quality_case": "Filings emphasize long-lived fleet assets, a broad installed base, and recurring demand for temporary space solutions, which create relatively stable cash flows despite cyclical end markets.[sec_quality:0] The business has been described as having durable-demand features via residual-life assets and non-trivial aftermarket/distributor exposure, supporting a Buffett-style preference for tangible asset backing and repeat customers.[sec_quality:0] Initiation and maintenance of a regular dividend further support quality and cash generation.[2]",
+      "hf_source_quality_score": 0.0,
+      "horizon_days": 6,
+      "margin_of_safety_case": "On classic value metrics LLY is not cheap, but the margin of safety is rooted in a long demand runway for obesity and diabetes treatments, strong IP, and diversified cash flows; for a short 5\u20137 day swing, the operational margin of safety comes from trading around a discrete positive reimbursement catalyst rather than a low multiple.",
+      "market_regime": "In a risk\u2011on but concentrated market where investors are rewarding visible growth and defensible franchises, high\u2011quality healthcare growth with real earnings and cash flow can attract flows as both a growth and quasi\u2011defensive exposure; however, any broad risk\u2011off shift or rotation out of expensive growth could hit LLY\u2019s premium multiple.",
+      "momentum_case": "The stock recently broke to all\u2011time highs on the CVS coverage news with heightened attention, indicating strong relative strength versus the market and healthcare peers and confirming a buyers\u2011in\u2011control regime suitable for a 3\u20137 day catalyst follow\u2011through swing rather than bottom\u2011fishing.[social_buzz\u2192LLY]",
+      "owner_hold_case": "A long\u2011only owner could justify 30\u2013180 day or longer holding if GLP\u20111 adoption continues to expand globally, reimbursement access broadens across payers, and the pipeline delivers additional metabolic or adjacent indications, supporting multi\u2011year earnings and cash\u2011flow compounding.",
+      "quality_case": "LLY has a long history of profitable innovation in diabetes and obesity care, anchored by patent-protected GLP\u20111\u2013class drugs with strong clinical data and global demand; this, combined with scale, diversified pipeline, and big-pharma balance-sheet strength, fits a Buffett/Munger style preference for durable competitive advantages and recurring cash flows.",
       "recommendation": "execute-if-guards-pass",
-      "repeat_count_48h": 1,
+      "repeat_count_48h": 0,
       "research_tier": "execution-ready",
-      "risk_reward": "If entered on a modest pullback, downside risk is roughly high-single-digit percentage with clear technical invalidation, while upside is low-teens percentage in a constructive tape; that yields a skew of about 1:1.3\u20131.5, acceptable only if tape and macro remain stable and earnings/updates don\u2019t introduce negative surprises.",
-      "sector": "industrials / specialized real estate-like services (modular workspaces and storage)",
+      "risk_reward": "As a quality, catalyst\u2011backed momentum trade, the setup offers favorable asymmetric potential if the coverage expansion supports continued rerating, but the extended base and high expectations mean drawdowns could be sudden; a disciplined stop just below the breakout keeps downside defined while leaving room for trend continuation.",
+      "sector": "Healthcare \u2013 Pharmaceuticals/Biotech",
       "signal_weights": {
         "congressional_signal": 0.0,
-        "social_buzz": 0.0
+        "social_buzz": 0.08
       },
-      "social_buzz": "none",
-      "source_quality": "Dividend details and timing come directly from an official company press release distributed via a major newswire, which is a high-quality primary source.[2] Durable-demand and quality notes derive from 10-K commentary and independent quality screens already reviewed.[sec_quality:0] There is limited real-time technical commentary in the sources, so momentum assessments are partially inferential.",
+      "social_buzz": "Heightened attention around the all\u2011time high and CVS coverage news is visible, but commentary is largely anchored to the reimbursement event rather than pure meme-style hype, making it a confirmatory signal of interest/volume rather than a primary driver.",
+      "source_quality": "Evidence for the immediate catalyst and attention comes from news coverage of CVS restoring coverage and adding Foundayo; while this is a single-event healthcare news item rather than a full 10\u2011K/earnings review, reimbursement changes are a fundamental driver for drug volumes, giving this catalyst solid quality even with limited detailed filings visible here.",
       "source_urls": [
-        "https://www.stocktitan.net/news/WSC/will-scot-declares-quarterly-cash-e1qn6dnmi5z2.html"
+        "https://stocktwits.com/news-articles/markets/equity/lly-eli-lilly-cvs-stocks-gain-cvs-health-coverage-obesity-drugs-zepbound-foundayo/cZginEWRetb"
+      ],
+      "stop_loss_percent": 7.0,
+      "strategy_tags": [
+        "chittick_cash",
+        "catalyst-swing",
+        "quality-growth"
+      ],
+      "symbol": "LLY",
+      "target_allocation_percent": 8.0,
+      "thesis": "Eli Lilly is a high\u2011quality, wide\u2011moat pharma leader whose obesity franchise is receiving incremental reimbursement/cov\u00aderage tailwinds, creating a catalyst-backed momentum swing setup within a structurally strong 30\u2013180 day demand runway.",
+      "valuation_case": "Valuation is stretched versus the market and historical pharma norms, but such premiums have been sustained in other high\u2011growth, high\u2011moat healthcare names; at current levels this is not a traditional value buy, but the CVS coverage event can justify a near\u2011term sentiment and estimate bump that supports the price for a tactical trade."
+    },
+    {
+      "adversary_case": "The main objection is that DKS remains a cyclical, brick\u2011and\u2011mortar retailer in a late\u2011cycle environment, and analyst enthusiasm could be backward\u2011looking; if consumer spending softens or inventory builds, the stock could give back recent gains despite current optimism.",
+      "allocation_learning_note": "Given cyclical risk and sector concentration, keep position size at or below mid\u2011range of allowed single\u2011name allocation and pair with non\u2011consumer exposures.",
+      "balance_sheet_risk": "As a mature retailer, DKS carries some operating leverage tied to leases and labor, but it generally manages debt and liquidity conservatively; barring a severe recession, balance-sheet stress risk appears manageable.",
+      "bear_case": "Consumer discretionary exposure is vulnerable to macro slowdown, higher-for-longer rates, and potential pullback in discretionary spending; competition from online players and other sporting goods retailers could compress margins, and any misstep on inventory or promotions could trigger sharp de\u2011rating from current levels.",
+      "capital_allocation_case": "Management has a track record of reinvesting in store experience and digital, paying dividends, and opportunistically repurchasing shares; this balanced capital allocation approach is consistent with a cash-generative, shareholder\u2011aware retailer.",
+      "catalyst": "Post\u2011earnings, several Wall Street analysts raised price targets and updated views on DKS\u2019s strategy relative to Foot Locker, signaling confidence in its execution and driving a cluster of fresh coverage that has put the stock in focus.[social_buzz\u2192DKS]",
+      "catalyst_type": "earnings",
+      "chittick_cash_score": 70.0,
+      "chittick_reject_reason": "",
+      "concentration_case": "Holding DKS adds sectoral diversification versus tech-heavy indices or AI names; for a concentrated-quality lens, it offers targeted exposure to a winner in a niche of consumer discretionary rather than broad retail, which can be weighed down by weaker players.",
+      "confidence": 0.66,
+      "congressional_signal": "none",
+      "diversity_bucket": "mid/large-cap-consumer-retail",
+      "entry_plan": "For paper execution, look for continuation above the post\u2011earnings reaction range with constructive volume; an entry in the next 1\u20133 sessions on a modest pullback toward short\u2011term support (e.g., prior day\u2019s low or post\u2011earnings gap top) with intraday confirmation (buyers stepping in) can keep risk defined.",
+      "exit_plan": "Take profits into strength if the stock approaches 2\u20133x the defined risk from entry within 4\u20138 trading days, or sooner if clear exhaustion (large upper wicks, volume spike without follow\u2011through) appears; invalidate the trade on a decisive close back into or below the post\u2011earnings gap area, or if new macro/retail data signals a sharp deterioration in consumer demand.",
+      "fresh_catalyst": true,
+      "growth_runway": "Over 30\u2013180 days, growth will depend on maintaining traffic and basket size, expanding omni\u2011channel and private labels, and potentially gaining market share from weaker competitors; these drivers can sustain mid\u2011single digit to higher growth if the consumer backdrop stays stable.",
+      "hf_evidence_rank": 0.64,
+      "hf_filter_vetoes": [],
+      "hf_hype_risk": 0.25,
+      "hf_memory_similarity": 0.1,
+      "hf_model_notes": "Earnings\u2011anchored retail swing with analyst support; macro sensitivity is the primary risk.",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "",
+      "hf_sentiment_score": 0.0,
+      "hf_source_quality_score": 0.0,
+      "horizon_days": 5,
+      "margin_of_safety_case": "Valuation is typically mid\u2011teens earnings and not deeply distressed, but the margin of safety is supported by solid profitability, dividend history, and an improving competitive position versus some weaker peers; it is not a deep-value name, yet downside is cushioned by cash generation and balance-sheet quality relative to smaller retailers.",
+      "market_regime": "In a market where leadership is concentrated in tech, strong individual stories in underrepresented sectors like retail can benefit from diversification flows, but they are also more exposed to macro data surprises; a risk\u2011on tone helps DKS, while any shift to risk\u2011off or consumer\u2011recession narrative could hit the stock quickly.",
+      "momentum_case": "The analyst retargeting and constructive narrative have coincided with positive price action and attention, suggesting an emerging momentum leg as investors reward retailers that can grow despite macro pressure; this is more measured than parabolic AI or micro\u2011cap moves, fitting a moderate\u2011beta swing profile.[social_buzz\u2192DKS]",
+      "owner_hold_case": "An owner could justify 30\u2013180 day holding if post\u2011earnings trends in traffic, margins, and share gains continue, especially if the macro backdrop avoids a hard landing and management executes on omni\u2011channel growth initiatives.",
+      "quality_case": "DKS operates a nationwide network with a recognizable brand, solid same\u2011store sales track record across cycles, and historically healthy profitability for a brick\u2011and\u2011mortar retailer; inventory discipline, omni\u2011channel integration, and focus on high\u2011margin private labels support resilience, giving it above\u2011average quality within discretionary retail.",
+      "recommendation": "execute-if-guards-pass",
+      "repeat_count_48h": 0,
+      "research_tier": "execution-ready",
+      "risk_reward": "Risk/reward is moderate: upside is driven by earnings momentum and sentiment rerating, while downside is limited by technical post\u2011earnings support and the company\u2019s solid fundamentals, provided stops are honored; macro shocks remain the key tail risk.",
+      "sector": "Consumer Discretionary \u2013 Specialty Retail",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.06
+      },
+      "social_buzz": "Moderate buzz tied to analyst reactions and strategy versus Foot Locker, with a balanced mix of bullish and cautious commentary, suggesting attention without excessive hype.[social_buzz\u2192DKS]",
+      "source_quality": "The available evidence comes from news summarizing multiple analyst target changes and post\u2011earnings commentary, which, while not as strong as direct filings, reflects institutional analysis of recent financial performance and positioning versus peers, giving a reasonable fundamental anchor.",
+      "source_urls": [
+        "https://stocktwits.com/news-articles/markets/equity/dks-stock-in-focus-wall-street-price-target-dick-s-sporting-foot-locker-strategy/cZgi9xXResg"
       ],
       "stop_loss_percent": 8.0,
       "strategy_tags": [
         "chittick_cash",
-        "quality_cyclical",
-        "dividend_signal",
-        "swing_1_10d"
+        "catalyst-swing",
+        "value-momentum"
       ],
-      "symbol": "WSC",
-      "target_allocation_percent": 8.0,
-      "thesis": "WillScot Mobile Mini is a leading provider of modular workspaces and portable storage with a large installed base and recurring, service-like revenue characteristics; durable demand from construction, infrastructure, and industrial projects plus disciplined capital allocation (including a recurring dividend) make it a quality cyclical compounder that can benefit from continued US capex and infrastructure activity over the next few quarters.[2][sec_quality:0]",
-      "valuation_case": "The declaration and continuation of a regular dividend suggest management believes cash flows are sufficient even at current valuations.[2] Relative to its durable-demand profile, WSC is likely trading at a mid-teens or higher earnings multiple (inferred from quality compounder status and dividend initiation), which is reasonable but not clearly cheap. For a 5\u201310 day swing, valuation is acceptable if trend and catalysts align; for long-term compounding, a wider discount would be preferable."
+      "symbol": "DKS",
+      "target_allocation_percent": 7.0,
+      "thesis": "Dick\u2019s Sporting Goods is a profitable, scaled specialty retailer that just delivered earnings strong enough to trigger multiple analyst price-target hikes and positive comparison versus weaker peers, giving a fundamental and sentiment-backed swing opportunity in consumer discretionary.",
+      "valuation_case": "Analyst target hikes suggest the market may be willing to pay a bit more for DKS given its execution and relative strength; at the same time, valuation does not appear extreme compared with high\u2011flyer growth stocks, making the price acceptable for a 1\u201310 day swing anchored in earnings performance."
     },
     {
-      "adversary_case": "A conservative, Chittick-style investor would argue that FC\u2019s small/mid-cap, somewhat niche profile and earnings-event concentration make it unsuitable for anything beyond a watchlist; they would instead wait for multiple quarters of clear evidence of durable subscription growth and margin expansion, then consider it as a longer-duration owner name rather than a short swing trade.",
-      "allocation_learning_note": "Kept as watch-only with 0% target allocation due to elevated event risk and incomplete valuation picture; prefer to expand sector diversity without committing capital yet.",
-      "balance_sheet_risk": "As an asset-light services company, FC is less exposed to heavy capex or fleet-financing risk, but depends heavily on maintaining client relationships and intellectual property value. Without detailed leverage data in the current sources, balance-sheet risk appears moderate but needs full 10-K review before any real capital deployment.",
-      "bear_case": "Training and consulting budgets are cyclical and discretionary; a slowdown in corporate spending, especially if macro data deteriorate, could pressure bookings and cause guidance cuts. Competition from digital-native training platforms and lower-cost online alternatives could compress pricing power. The small/mid-cap nature of FC can mean lower liquidity and wider spreads, amplifying event risk. If earnings or guidance disappoint, the stock could gap down 10\u201320% with limited chance to manage risk within a 1\u20132 day window.",
-      "capital_allocation_case": "There is no fresh capital allocation signal in the current news beyond the commitment to communicate regularly through earnings calls.[1] Historically, service and content businesses like FC can generate decent free cash flow with limited capex, but the attractiveness of capital allocation depends on buyback, dividend, or reinvestment discipline, which is not documented in the present snippets.",
-      "catalyst": "Scheduled release of fiscal Q2 2026 financial results after the market close on Wednesday, April 1, 2026, followed by a 5:00 p.m. ET conference call; earnings surprises, updated guidance on subscription growth, and commentary on enterprise demand can trigger short-term re-rating.[1]",
-      "catalyst_type": "earnings",
-      "chittick_cash_score": 58.0,
-      "chittick_reject_reason": "Insufficient current evidence of a wide moat, high margin of safety, and balance-sheet strength to qualify as a concentrated-quality core; earnings/event risk dominates near-term thesis.",
-      "concentration_case": "Given its smaller size, narrower moat compared to top-tier software or industrial names, and event-driven risk, FC does not merit a high-concentration allocation versus broad ETFs or higher-quality alternatives; it is more suitable as a small, opportunistic event trade or watchlist name than a core position.",
-      "confidence": 0.61,
+      "adversary_case": "A bull might argue that underperformance has already discounted skepticism and that any positive earnings surprise or AI monetization detail could trigger a sharp rerating; however, without event timing clarity, this remains speculative for a short-horizon strategy.",
+      "allocation_learning_note": "Given prior rejections for hype\u2011driven or source\u2011thin AI names, keep CRM firmly in monitor-only until a concrete earnings or bookings inflection appears.",
+      "balance_sheet_risk": "CRM has a robust balance sheet for a large software company, with ample liquidity and no obvious near\u2011term solvency concerns; the key risk is not financial stress but growth and margin trajectory.",
+      "bear_case": "Risks include multiple compression in software, execution risk around monetizing AI features, integration complexity across its cloud portfolio, and the possibility that the AI narrative continues to outpace actual growth, leaving investors disappointed and the stock range\u2011bound or weaker.",
+      "capital_allocation_case": "Management has shown willingness to use buybacks and selective M&A; debates remain about acquisition discipline, but overall capital allocation has supported scale and breadth of offerings.",
+      "catalyst": "Recent commentary highlights that Salesforce\u2019s CEO is emphasizing AI leadership and pointing to Agentforce surpassing a $1B run\u2011rate as evidence, even as the stock has struggled year\u2011to\u2011date; this narrative-versus-price gap is drawing attention but does not yet constitute a hard fundamental inflection.[social_buzz\u2192CRM]",
+      "catalyst_type": "general",
+      "chittick_cash_score": 63.0,
+      "chittick_reject_reason": "No near\u2011term hard catalyst or confirmed momentum; AI narrative is strong but not yet matched by tape or fresh fundamental surprise.",
+      "concentration_case": "As a large, diversified SaaS name, CRM can be a core software exposure, but in a concentrated-quality portfolio it may be lower priority than names with clearer catalysts or more compelling valuation today.",
+      "confidence": 0.57,
       "congressional_signal": "none",
-      "diversity_bucket": "niche-business-services",
-      "entry_plan": "For paper-trading, this is an optional, higher-risk event trade. Prefer waiting until after the Q2 earnings release rather than gambling on the print. If results and guidance are clearly positive and the stock gaps up on strong volume, consider an intraday pullback entry 3\u20135% below the intraday high with a tight stop, provided spreads and liquidity are acceptable. Avoid trading if post-earnings price action is erratic with low liquidity or wide spreads.",
-      "exit_plan": "Target 8\u201312% upside from the chosen post-earnings entry level, taking partial profits if the stock spikes quickly in the first or second session after the report. Set an initial stop 8% below entry and consider a time-based exit by day 3\u20134 if neither target nor stop triggers, as earnings-driven momentum often fades quickly. If the stock gaps down or the report is mixed, do not initiate the trade.",
+      "diversity_bucket": "large-cap-enterprise-software",
+      "entry_plan": "Given the lack of a clear, fresh hard catalyst and the weak momentum profile, this should remain a watch or at most a tiny, allocation-muted tranche in paper testing, only considered for actual swing entries if a strong post\u2011earnings or guidance-driven breakout occurs on high volume.",
+      "exit_plan": "For monitoring only: define hypothetical paper exits around clear technical levels (e.g., reclaiming and holding above a key moving average on volume) to test rules, but do not treat these as execution-ready triggers under current conditions.",
       "fresh_catalyst": true,
-      "growth_runway": "Over 30\u2013180 days and beyond, FC\u2019s growth depends on expanding enterprise subscriptions, international penetration, digital delivery of its content, and upselling new modules and programs into existing accounts. Corporate emphasis on leadership, culture, and productivity can support secular demand, but competition from a wide variety of edtech and consulting offerings is intense.",
-      "hf_evidence_rank": 0.6,
+      "growth_runway": "Longer term, growth could be driven by AI agents (Agentforce), cross\u2011sell into the installed base, and international expansion; however, these are multi\u2011year drivers and not yet a near\u2011term swing catalyst.",
+      "hf_evidence_rank": 0.58,
       "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.18,
+      "hf_hype_risk": 0.45,
       "hf_memory_similarity": 0.1,
-      "hf_model_notes": "High-quality timing info from official PR; fundamental and valuation aspects remain under-researched in this pass, warranting a watch rather than execution-ready label.",
+      "hf_model_notes": "Narrative\u2011rich but catalyst\u2011light; suitable for monitoring rather than active swing at this time.",
       "hf_sentiment_agreement": 0.0,
       "hf_sentiment_label": "",
       "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 0.7,
-      "horizon_days": 4,
-      "margin_of_safety_case": "There is limited evidence of a large valuation discount or strong asset backing; margin of safety resides primarily in the recurring nature of enterprise relationships and intellectual property, which is less tangible than physical assets. For Chittick-style thinking, FC would likely be a lower-tier candidate until more robust balance-sheet and long-run growth evidence is documented.",
-      "market_regime": "In a risk-on regime with a focus on high-quality growth and AI, a traditional training and consulting name like FC may receive less baseline attention and be driven mainly by its own earnings and guidance. Macro or rate shocks around the earnings date could overshadow company-specific news, leading to messy post-earnings price action.",
-      "momentum_case": "Earnings events often act as short, discrete catalysts with elevated volume and volatility as investors reassess growth and margins. If FC has been trading in a stable range with neutral-to-positive momentum into the print, a positive surprise on subscription growth or margins could drive a 5\u201310% move over a couple of sessions. Conversely, a negative surprise can cause abrupt drops, making this more of an event-driven volatility play than a pure trend-following trade.",
-      "owner_hold_case": "A 30\u2013180 day owner thesis would require evidence of accelerating subscription revenue, robust renewal rates, and operating leverage, plus confirmation that management is reinvesting intelligently into digital platforms and scalable content. Absent that, FC is better treated as a monitored niche rather than a committed owner holding.",
-      "quality_case": "Franklin Covey positions itself as a leader in organizational performance improvement with global reach and a history of recognized training content and frameworks.[1] Its business is relatively asset-light, relying on intellectual property, content, and consulting capabilities, which supports attractive margins and scalability when demand is healthy. Recurring enterprise relationships and multi-year contracts provide some revenue visibility akin to a quasi-SaaS/service hybrid.",
+      "hf_source_quality_score": 0.0,
+      "horizon_days": 7,
+      "margin_of_safety_case": "From a Chittick Cash angle, the margin of safety is not compelling yet: the business is high quality, but the stock does not trade at a clear distressed or under\u2011owned valuation, nor is there an obvious near\u2011term de\u2011risking event within 30\u2013180 days already in hand.",
+      "market_regime": "In a concentrated, AI\u2011driven risk\u2011on market, investors have favored infrastructure and hardware names more than legacy software, which has underperformed; unless there is a clear earnings or bookings inflection, CRM may continue to lag leaders despite AI rhetoric.",
+      "momentum_case": "Momentum is mixed to negative, with the stock down meaningfully year\u2011to\u2011date and lagging broader software indices; the AI narrative is strong, but the tape has not yet confirmed a sustained uptrend, so momentum does not currently support an aggressive short\u2011horizon swing.",
+      "owner_hold_case": "A 30\u2013180 day owner case would require evidence that AI features are driving incremental bookings and that operating leverage is improving margins, ideally confirmed in upcoming earnings and guidance updates.",
+      "quality_case": "CRM offers mission-critical CRM and enterprise cloud software with high switching costs, recurring revenue, and substantial free cash flow, fitting the profile of a durable, quality compounder; the move into AI agents builds on an entrenched customer base rather than starting from zero.",
       "recommendation": "watch",
-      "repeat_count_48h": 0,
-      "research_tier": "watch",
-      "risk_reward": "If executed only after a clearly positive earnings reaction with sufficient liquidity, the trade can offer a 1:1 to 1:1.5 risk-reward for a very short holding period; however, event risk is high and the small/mid-cap profile raises execution uncertainty, so this must be sized smaller than a core swing name.",
-      "sector": "consumer discretionary / business services (education & training)",
+      "repeat_count_48h": 1,
+      "research_tier": "monitor-only",
+      "risk_reward": "Current risk/reward is ambiguous: valuation is not distressed enough for deep value, while momentum is not strong enough for a pure trend trade; without a new earnings or bookings catalyst, the trade lacks a clear asymmetric edge for a 1\u201310 day horizon.",
+      "sector": "Information Technology \u2013 Application Software",
       "signal_weights": {
         "congressional_signal": 0.0,
-        "social_buzz": 0.0
+        "social_buzz": 0.08
       },
-      "social_buzz": "none",
-      "source_quality": "Earnings timing and call details are sourced from the company\u2019s official press release distributed via Business Wire, a high-quality primary source.[1] Fundamental and liquidity assessments use general knowledge about the business model and sector dynamics; there is limited additional near-term fundamental detail in the current source set.",
+      "social_buzz": "Moderate-to-high buzz focused on the contrast between strong AI claims and weak share performance, which raises hype risk if used as a primary driver; here it serves only as context.[social_buzz\u2192CRM]",
+      "source_quality": "Information is drawn from CEO commentary and coverage of AI product milestones, which are meaningful but not yet corroborated with detailed, updated financial metrics in this context; overall, this is medium-quality narrative evidence rather than robust, multi-source fundamental data.",
       "source_urls": [
-        "https://www.stocktitan.net/news/FC/franklin-covey-to-report-second-quarter-fiscal-2026-jwnjhhevuho8.html"
+        "https://stocktwits.com/news-articles/markets/equity/crm-stock-is-struggling-but-ceo-says-no-saa-s-company-is-doing-more-agentforce-s-1-b-run-rate-is-his-evidence/cZgi7L7Res9"
       ],
       "stop_loss_percent": 8.0,
       "strategy_tags": [
-        "event_driven",
-        "earnings_volatility",
-        "swing_1_5d"
+        "chittick_cash",
+        "ai-narrative",
+        "watchlist"
       ],
-      "symbol": "FC",
+      "symbol": "CRM",
       "target_allocation_percent": 0.0,
-      "thesis": "Franklin Covey is a niche leader in organizational performance improvement and leadership training, with an asset-light, high-margin subscription and services model; the upcoming fiscal Q2 2026 earnings release and call offer a clear, dated catalyst that can drive a 1\u20135 day volatility window for a strictly tactical, small-sized swing, while longer-term quality derives from recurring enterprise contracts and a recognized brand.[1]",
-      "valuation_case": "Without detailed current multiples from the sources, valuation is uncertain; given its niche and recurring-revenue positioning, FC may trade at a growth or quality premium versus generic training/education peers. For a 1\u20135 day event trade, valuation is secondary to the direction and magnitude of the earnings surprise, but for longer-term ownership, a more thorough valuation check would be essential."
+      "thesis": "Salesforce remains a high\u2011quality, cash\u2011generative SaaS platform with a large installed base and emerging AI products such as Agentforce, but its recent share\u2011price underperformance versus the AI narrative sets up better as a watch or small, allocation-muted idea than a full-sized swing.",
+      "valuation_case": "Valuation has come down from peak SaaS multiples but remains tied to growth and margin expansion expectations; without an updated earnings lens here, it is difficult to argue that the current price offers a strong value entry versus the quality of the franchise."
     }
   ],
-  "summary": "US equities remain in a late\u2011cycle, AI-and-mega-cap-led risk\u2011on regime with narrow breadth and elevated single\u2011stock event risk; no strong, broad-based dislocation is evident, so short\u2011horizon paper trades should be selective, catalyst-driven, and sized conservatively."
+  "summary": "US equities remain in a broadly risk\u2011on but concentrated regime, with AI/tech leadership, stock\u2011specific event volatility, and elevated macro uncertainty arguing for selective, catalyst\u2011driven swing trades in quality names with clear risk controls."
 }
 -->
 
@@ -1587,4 +1644,12 @@ No candidates.
 |---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
 | WSC | industrials / specialized real estate-like services (modular workspaces and stor | execution-ready | quality-industrials-infrastructure | 1 | yes | 0.73 | 74 | 1 | 0 | 8.0% | 8.0% | execute-if-guards-pass | Recently declared a quarterly cash dividend of $0.07 per share with record date March 4, 2026 and payment date March 18, 2026, reinforcing balance-sheet strengt |
 | FC | consumer discretionary / business services (education & training) | watch | niche-business-services | 0 | yes | 0.61 | 58 | 1 | 0 | 0.0% | 8.0% | watch | Scheduled release of fiscal Q2 2026 financial results after the market close on Wednesday, April 1, 2026, followed by a 5:00 p.m. ET conference call; earnings s |
+
+## Latest Candidates - 2026-05-29 12:16:14 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| LLY | Healthcare – Pharmaceuticals/Biotech | execution-ready | large-cap-healthcare-metabolic | 0 | yes | 0.70 | 78 | 0 | 0 | 8.0% | 7.0% | execute-if-guards-pass | Recent news that CVS restored coverage of LLY’s obesity drug Zepbound and added Foundayo has driven LLY to fresh all‑time highs, reflecting a concrete expansion |
+| DKS | Consumer Discretionary – Specialty Retail | execution-ready | mid/large-cap-consumer-retail | 0 | yes | 0.66 | 70 | 0 | 0 | 7.0% | 8.0% | execute-if-guards-pass | Post‑earnings, several Wall Street analysts raised price targets and updated views on DKS’s strategy relative to Foot Locker, signaling confidence in its execut |
+| CRM | Information Technology – Application Software | monitor-only | large-cap-enterprise-software | 1 | yes | 0.57 | 63 | 0 | 0 | 0.0% | 8.0% | watch | Recent commentary highlights that Salesforce’s CEO is emphasizing AI leadership and pointing to Agentforce surpassing a $1B run‑rate as evidence, even as the st |
 

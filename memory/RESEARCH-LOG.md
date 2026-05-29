@@ -1320,4 +1320,9 @@ Premarket plan built from latest watchlist.
   rejects: Candidate references banned v1 instruments or leverage.
 - FC: score=69, base=95, chittick=35, approved=False, allocation=0.0%, stop=8.0%
   rejects: Candidate references banned v1 instruments or leverage.; Target allocation must be between 1% and 15%.
+## Two-Hour Research Agent - 2026-05-29 12:16:14 Eastern Daylight Time
+
+US equities remain in a broadly risk‑on but concentrated regime, with AI/tech leadership, stock‑specific event volatility, and elevated macro uncertainty arguing for selective, catalyst‑driven swing trades in quality names with clear risk controls.
+
+Candidates found: 3
 

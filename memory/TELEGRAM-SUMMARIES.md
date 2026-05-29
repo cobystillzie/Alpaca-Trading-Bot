@@ -23298,4 +23298,37 @@ Sources: https://www.stocktitan.net/news/FC/franklin-covey-to-report-second-quar
 Rejected / Watchouts
 - WSC: Candidate references banned v1 instruments or leverage.
 - FC: Candidate references banned v1 instruments or leverage.; Target allocation must be between 1% and 15%.
+## Research Update - 2026-05-29 12:16:14 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities remain in a broadly risk‑on but concentrated regime, with AI/tech leadership, stock‑specific event volatility, and elevated macro uncertainty arguing for selective, catalyst‑driven swing trades in quality names with clear risk controls.
+Candidates: 3
+
+1. LLY (Healthcare – Pharmaceuticals/Biotech) | confidence 0.70 | allocation 8.0% | stop 7.0% | Chittick 78/100 | tier execution-ready | bucket large-cap-healthcare-metabolic | HF source 0/100
+Recommendation: execute-if-guards-pass
+Catalyst: Recent news that CVS restored coverage of LLY’s obesity drug Zepbound and added Foundayo has driven LLY to fresh all‑time highs, reflecting a concrete expansion of insurance/PBM access rather than pure sentiment, and supports higher pres...
+Chittick Cash: On classic value metrics LLY is not cheap, but the margin of safety is rooted in a long demand runway for obesity and diabetes treatments, strong IP, and diversified cash flows; for a short 5–7 day swing, the operatio...
+HF filter: sentiment=not run source=0/100 hype=0.30 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=large-cap-healthcare-metabolic
+Social buzz, low weight: Heightened attention around the all‑time high and CVS coverage news is visible, but commentary is largely anchored to the reimbursement event rather than pure meme-style hype, m...
+Congress signal, low weight: none
+
+2. DKS (Consumer Discretionary – Specialty Retail) | confidence 0.66 | allocation 7.0% | stop 8.0% | Chittick 70/100 | tier execution-ready | bucket mid/large-cap-consumer-retail | HF source 0/100
+Recommendation: execute-if-guards-pass
+Catalyst: Post‑earnings, several Wall Street analysts raised price targets and updated views on DKS’s strategy relative to Foot Locker, signaling confidence in its execution and driving a cluster of fresh coverage that has put the stock in focus.[...
+Chittick Cash: Valuation is typically mid‑teens earnings and not deeply distressed, but the margin of safety is supported by solid profitability, dividend history, and an improving competitive position versus some weaker peers; it i...
+HF filter: sentiment=not run source=0/100 hype=0.25 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=mid/large-cap-consumer-retail
+Social buzz, low weight: Moderate buzz tied to analyst reactions and strategy versus Foot Locker, with a balanced mix of bullish and cautious commentary, suggesting attention without excessive hype.[soc...
+Congress signal, low weight: none
+
+3. CRM (Information Technology – Application Software) | confidence 0.57 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier monitor-only | bucket large-cap-enterprise-software | HF source 0/100
+Recommendation: watch
+Catalyst: Recent commentary highlights that Salesforce’s CEO is emphasizing AI leadership and pointing to Agentforce surpassing a $1B run‑rate as evidence, even as the stock has struggled year‑to‑date; this narrative-versus-price gap is drawing at...
+Chittick Cash: From a Chittick Cash angle, the margin of safety is not compelling yet: the business is high quality, but the stock does not trade at a clear distressed or under‑owned valuation, nor is there an obvious near‑term de‑r...
+HF filter: sentiment=not run source=0/100 hype=0.45 vetoes=0
+Self-learning: tier=monitor-only repeat48h=1 fresh=yes bucket=large-cap-enterprise-software
+Social buzz, low weight: Moderate-to-high buzz focused on the contrast between strong AI claims and weak share performance, which raises hype risk if used as a primary driver; here it serves only as con...
+Congress signal, low weight: none
 
