@@ -23032,4 +23032,37 @@ HF filter: sentiment=not run source=0/100 hype=0.60 vetoes=2
 Self-learning: tier=monitor-only repeat48h=0 fresh=yes bucket=micro-cap-biotech-spec
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-29 04:09:53 Eastern Daylight Time
+
+Research Update
+
+Market tone: No execution-ready large-cap stock candidate is supported by the supplied sources; the freshest identifiable catalysts are small-cap biotech financing and conference appearances, which are too thin or too event-light for a concentrated long-only swing under this framework. Market tone remains selective and risk-aware, favoring names with a clear near-dated catalyst and defined downside rather than repeating stale mega-cap exposures.
+Candidates: 3
+
+1. PLYX (health care / biotech) | confidence 0.53 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket small-cap-biotech | HF source 1/100
+Recommendation: monitor-only
+Catalyst: Closed a $10 million PIPE on May 28, 2026 to support launch of the SOTERIA Phase 2 basket trial and related clinical milestones.
+Chittick Cash: Margin of safety is limited because the business is still pre-revenue and the catalyst is financing-led rather than proof-of-efficacy-led.
+HF filter: sentiment=weakly_positive source=1/100 hype=0.48 vetoes=0
+Self-learning: tier=monitor-only repeat48h=0 fresh=yes bucket=small-cap-biotech
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. ACRS (health care / biotech) | confidence 0.41 | allocation 0.0% | stop 0.0% | Chittick 28/100 | tier watch | bucket small-cap-biotech | HF source 1/100
+Recommendation: watch
+Catalyst: Scheduled fireside chat at the 2026 Jefferies Global Healthcare Conference on June 4, 2026 at 2:00 PM ET.
+Chittick Cash: There is little margin of safety evidence here because the source is event-calendar based rather than valuation- or earnings-based.
+HF filter: sentiment=neutral source=1/100 hype=0.22 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=small-cap-biotech
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. APGE (health care / biotech) | confidence 0.44 | allocation 0.0% | stop 0.0% | Chittick 33/100 | tier watch | bucket small-cap-biotech | HF source 1/100
+Recommendation: watch
+Catalyst: Upcoming June conference participation following prior positive clinical disclosures already noted in earlier context.
+Chittick Cash: Margin of safety exists only relative to other pre-revenue biotech names, not against quality cash-generating businesses.
+HF filter: sentiment=weakly_positive source=1/100 hype=0.21 vetoes=0
+Self-learning: tier=watch repeat48h=1 fresh=yes bucket=small-cap-biotech
+Social buzz, low weight: none
+Congress signal, low weight: none
 
