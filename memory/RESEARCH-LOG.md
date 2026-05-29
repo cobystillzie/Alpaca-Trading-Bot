@@ -1304,4 +1304,12 @@ Candidates found: 3
 US equities remain in a late‑cycle, AI-and-mega-cap-led risk‑on regime with narrow breadth and elevated single‑stock event risk; no strong, broad-based dislocation is evident, so short‑horizon paper trades should be selective, catalyst-driven, and sized conservatively.
 
 Candidates found: 2
+## Premarket Plan - 2026-05-29 08:16:56 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- WSC: score=81, base=95, chittick=74, approved=False, allocation=8.0%, stop=8.0%
+  rejects: Candidate references banned v1 instruments or leverage.
+- FC: score=69, base=95, chittick=35, approved=False, allocation=0.0%, stop=8.0%
+  rejects: Candidate references banned v1 instruments or leverage.; Target allocation must be between 1% and 15%.
 
