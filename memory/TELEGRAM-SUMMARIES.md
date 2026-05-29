@@ -22942,4 +22942,19 @@ Not run for this candidate.
 Social buzz, max 10%: Social commentary notes spikes in certain energy stocks and ETFs tied to oil-price moves and Iran-related headlines, but these are clearly event-driven and volatile rather than evidence of durable, fundamentals-based...
 Congress signal, max 5%: none
 Sources: https://www.techi.com/oil-price-today/
+## Research Update - 2026-05-28 22:05:05 Eastern Daylight Time
+
+Research Update
+
+Market tone: Equities remain in a late‑cycle, earnings‑supported but rate‑sensitive risk‑on regime, with quality growth and select energy/industrial names favored; a fresh capital‑raise plus multi‑year contract pipeline at NeoVolta creates a catalyst-rich, higher‑risk swing setup that fits a tightly risk‑defined 5–7 day paper trade, while broader discovery should avoid over‑concentration in repeated mega‑cap tech.
+Candidates: 1
+
+1. NEOV (energy-technology / clean energy storage) | confidence 0.68 | allocation 5.0% | stop 8.0% | Chittick 63/100 | tier execution-ready | bucket small-cap-energy-storage
+Recommendation: execute-if-guards-pass
+Catalyst: 1) May 28, 2026 public equity offering of ~12.2M shares at $2.05 per share for ~$25M gross proceeds, expected to close imminently, which removes near-term funding overhang but introduces short-term dilution and trading volatility; 2) rec...
+Chittick Cash: From a strict Chittick/Buffett margin-of-safety lens, NeoVolta scores modestly: the capital raise improves survival odds and funds growth, but the business is still early-stage, with limited earnings history and high...
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=4 fresh=yes bucket=small-cap-energy-storage
+Social buzz, low weight: none
+Congress signal, low weight: none
 

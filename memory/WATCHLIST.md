@@ -4,23 +4,23 @@
 {
   "candidates": [
     {
-      "adversary_case": "A disciplined skeptic would argue that IBM has a long track record of announcing big strategic initiatives that do not materially change its long-term growth trajectory, so the AI-security news could be another narrative refresh that investors briefly reward before the stock settles back into low-single-digit growth behavior; with the stock already up 18% in a week, you may be paying for optimism that is not yet backed by hard revenue or margin evidence, making this more of a sentiment swing than a durable re-rating.",
-      "allocation_learning_note": "",
-      "balance_sheet_risk": "IBM historically has carried meaningful debt from acquisitions like Red Hat, but its cash flows and investment-grade profile mitigate immediate balance-sheet risk; the main risk is not solvency but the opportunity cost of capital if AI and cloud investments do not generate adequate returns.[5] There is no indication in the cited sources of acute dilution or near-term credit stress.",
-      "bear_case": "IBM still carries the overhang of its legacy hardware and consulting segments, which can be low-growth and margin-dilutive, and it has a history of underwhelming revenue growth versus more agile cloud peers.[5] Execution risk around turning AI initiatives and open-source security partnerships into sustained high-margin revenue is significant; if customers view the announcements as incremental rather than transformative, multiple expansion could fade quickly and the recent 18% move may mean-revert. Higher-for-longer rates and any rotation away from quality tech toward cyclicals could also compress its valuation multiple.",
-      "capital_allocation_case": "Management\u2019s decision to commit $5B to AI-driven open-source security with Red Hat suggests a willingness to deploy capital into strategic growth areas rather than purely financial engineering, and prior moves like spinning off Kyndryl and focusing on software and consulting indicate a gradual but deliberate portfolio simplification.[5] The long-term owner lens will ultimately judge capital allocation by whether these AI and cloud investments accelerate sustainable free cash flow per share.",
-      "catalyst": "IBM recently announced a $5 billion AI-driven open-source security initiative with Red Hat and other partners, alongside stronger near-term AI growth messaging, which triggered roughly an 18% rise in the stock over the week as investors repriced its AI and hybrid cloud opportunity.[5]",
-      "catalyst_type": "news",
-      "chittick_cash_score": 72.0,
+      "adversary_case": "A conservative Buffett/Munger-style critic would argue that NeoVolta lacks the long, proven track record and enduring economic moat of a quality compounder, remains dependent on capital markets and unproven large contracts, and that a concentrated portfolio should not allocate scarce risk budget to a small, dilutive, non-profitable clean-tech name when better-quality large caps and ETFs are available; under that lens this thesis looks more like speculative timing on headlines than owner-style investing.",
+      "allocation_learning_note": "Given prior rejections on over-concentration in mega-cap names and ETFs, this candidate is purposely sized as a modest satellite position in an underrepresented clean-energy bucket, with tight stops and a short horizon to limit portfolio-level risk if small-cap volatility persists.",
+      "balance_sheet_risk": "Prior analysis gives NeoVolta a strong financial-strength score (8/10), reflecting relatively low leverage and decent liquidity for its size, but the company has still relied on equity issuance to fund growth.[7] The new $25M offering reduces near-term insolvency risk and supports capex but dilutes existing shareholders and signals that internal cash generation is not yet sufficient.[5] Inventory, warranty, and working-capital demands will rise with growth, so balance-sheet risk remains medium-high compared to established quality names.",
+      "bear_case": "Key risks include small-cap illiquidity, substantial dilution from the ~12.2M+ share offering (plus potential greenshoe), continuing lack of durable profitability, and execution risk on both residential/commercial and new utility-scale projects.[5][3][7][8][9] The $200M Infinite Grid LOI is non-binding, so there is no guarantee that the headline value will translate to actual orders or margins.[8] A risk-off macro shift, negative sentiment toward dilutive offerings, or delays/shortfalls in plant ramp, partnerships, or project financing could leave the share price grinding lower after a brief pop. As a younger company, accounting, inventory, and warranty-reserve risks are non-trivial and any disappointment can be punished disproportionately.[3][7]",
+      "capital_allocation_case": "Management has chosen to aggressively pursue growth via plant expansion, partnerships, and now utility-scale projects, funded in part by equity; this is consistent with a growth-first strategy rather than a capital-return model.[5][7][8][9] From a capital-allocation quality lens, raising equity at a time of strong revenue momentum and before major LOI execution may prove sensible if it locks in funding at reasonable prices, but repeated dilution without clear path to sustainable margins would erode shareholder value; monitoring future capital raises and ROI on plant and projects is crucial.",
+      "catalyst": "1) May 28, 2026 public equity offering of ~12.2M shares at $2.05 per share for ~$25M gross proceeds, expected to close imminently, which removes near-term funding overhang but introduces short-term dilution and trading volatility; 2) recently announced non-binding LOI with Infinite Grid Capital covering ~$200M of battery supply from NeoVolta\u2019s Georgia plant for ~1.1 GWh of utility-scale deployments; 3) recent financial updates noting strong revenue growth off a small base and development of an integrated energy solutions platform.[5][8][9]",
+      "catalyst_type": "filing/news/structural",
+      "chittick_cash_score": 63.0,
       "chittick_reject_reason": "",
-      "concentration_case": "IBM offers a differentiated AI and hybrid cloud angle versus mega-cap hyperscalers and broader tech ETFs; it is more of a quality, cash-generative compounder than a pure high-growth AI play, which can make it appealing as a single-name complement to broad ETFs without fully overlapping the most crowded megacaps.[5] For a concentrated-quality framework, it earns attention because it combines an entrenched enterprise base with a clear new AI catalyst and improving narrative, rather than being purely cyclical or speculative.",
-      "confidence": 0.74,
+      "concentration_case": "In a concentrated, quality-biased portfolio, NeoVolta is best framed as a small satellite around core holdings rather than a core position: it provides differentiated exposure to energy storage and grid-resiliency themes not captured by typical mega-cap tech or broad ETFs, but its smaller scale, dilution, and execution risk make it inferior to higher-quality compounders as a top allocation.[3][5][7][8][9] For a 1\u201310 day paper swing, the concentrated-quality standard can be relaxed slightly to exploit clear catalysts while still capping allocation and enforcing tight risk controls.",
+      "confidence": 0.68,
       "congressional_signal": "none",
-      "diversity_bucket": "mega-cap-enterprise-it-ai",
-      "entry_plan": "For paper trading, consider a staged entry near recent consolidation after the catalyst spike, for example buying on a modest intraday pullback of roughly 1\u20132% from the latest close or on a test of short-term intraday support, with a hard stop roughly 7\u20138% below entry to protect against a full reversal of the catalyst move. Avoid chasing if the stock gaps up another 5%+ without a new incremental catalyst, and instead wait for a tighter intraday flag or a low-volume pullback toward the breakout area.",
-      "exit_plan": "Target about 12\u201315% upside from entry over a 3\u20137 day window if momentum persists, taking partial profits if the stock advances 7\u201310% quickly. Invalidation would be triggered by a decisive close below the post-catalyst breakout zone or a roughly 7\u20138% loss, or by new information that undermines the AI-security thesis (e.g., partners scaling back, customers lukewarm, or guidance not confirming AI-driven acceleration). If the stock grinds sideways with declining volume for several days, favor tightening the stop to breakeven.",
+      "diversity_bucket": "small-cap-energy-storage",
+      "entry_plan": "For paper trading, treat this as a post-offering stabilization trade: 1) Wait for at least one full trading day after the equity offering closes to confirm that price can reclaim and hold above the $2.05 offer level on above-average volume (e.g., intraday reclaim and close \u22652\u20133% above $2.05). 2) Enter a partial position (e.g., half of the intended allocation) on a pullback toward $2.05\u20132.15 after that reclaim, with price not violating the intraday low of the stabilization day. 3) Only scale toward the full target allocation if price holds above $2.05 for at least two consecutive closes with constructive volume and no negative follow-up news on the LOI or financials.[5][8][9]",
+      "exit_plan": "Profit-taking: Aim to trim 1/3 of the paper position around a 12\u201315% gain from average entry (e.g., near $2.30\u20132.45 if entry ~2.05\u20132.15) and another 1/3 near 20\u201325% if strong momentum persists (e.g., retest of pre-offering levels or a clear technical resistance zone).[4] Invalidation: Place a hard stop ~8% below average entry, or below a clearly defined technical level such as a decisive close under $1.90 or under the post-offering low, whichever is tighter, indicating failed stabilization and persistent supply.[4][5] Time stop: If the stock chops sideways below $2.20 with declining volume and no incremental contract or execution updates for 7 trading days, exit remaining paper position to free risk budget for higher-conviction setups.",
       "fresh_catalyst": true,
-      "growth_runway": "Over 30\u2013180 days and beyond, IBM\u2019s growth runway rests on scaling its hybrid cloud platform (Red Hat) and embedding AI and security solutions across its large enterprise base, particularly in mission-critical workloads and regulated industries.[5] If the $5B AI-security initiative leads to robust open-source ecosystems, new service engagements, and higher software attach rates, IBM could see improving top-line growth and mix shift toward higher-margin recurring software and services.",
+      "growth_runway": "Structurally, NeoVolta is leveraged to multi-year trends in residential and C&I energy storage, grid resiliency, and distributed generation, supported by policy incentives and increasing frequency of outages.[3][5][7] The Georgia manufacturing facility and utility-scale initiative, plus the ~$200M LOI for 1.1 GWh of projects (Texas, Puerto Rico, PJM), point to a 30\u2013180 day and multi-year growth runway if execution, permitting, and financing align.[8][9] Near-term 30\u201390 day drivers include plant ramp updates, any conversion of the LOI to binding contracts, additional strategic partnerships, and follow-on financial results that confirm scaling revenues without outsized dilution or margin compression.",
       "hf_evidence_rank": 0.0,
       "hf_filter_vetoes": [],
       "hf_hype_risk": 0.0,
@@ -30,98 +30,47 @@
       "hf_sentiment_label": "",
       "hf_sentiment_score": 0.0,
       "hf_source_quality_score": 0.0,
-      "horizon_days": 5,
-      "margin_of_safety_case": "After an 18% weekly rerating, short-term margin of safety is limited, but IBM\u2019s underlying cash generation, entrenched enterprise position, and diversified revenue base provide a fundamental floor compared with more speculative AI names.[5] For an owner-style lens, the key is whether cash flows from AI and hybrid cloud can compound faster than the market currently discounts; if they can, the current price may still be reasonable, but for a 1\u201310 day swing you must treat valuation as tight and respect stops.",
-      "market_regime": "In a risk-on but selective environment, quality tech and AI beneficiaries are still rewarded when they show clear catalysts and credible growth, and IBM\u2019s AI-security push fits that regime.[5] However, rich valuations across parts of tech and ongoing rate uncertainty mean that any disappointment in follow-through, or a macro shock that pressures long-duration cash flows, could hit IBM disproportionately despite its defensive, cash-generative profile.",
-      "momentum_case": "The stock has just posted an approximately 18% gain over the week, a notable outperformance versus major indices, directly tied to the AI-security announcement and growth narrative rather than broad macro beta.[5] That kind of event-driven price and volume response typically supports follow-through over 1\u201310 days, especially when tied to a fundamental narrative re-rating rather than a fleeting technical squeeze.",
-      "owner_hold_case": "An owner could justify a 30\u2013180 day review horizon if IBM demonstrates that the AI-security initiative drives measurable growth in security and AI-related software revenues and consulting engagements, with evidence in upcoming earnings and customer case studies.[5] If hybrid cloud and AI mix continue to rise in total revenue and margins expand, the business could be worth holding as a steady compounding exposure to enterprise AI adoption.",
-      "quality_case": "IBM remains a large, diversified enterprise software, infrastructure, and consulting business with sticky global customers, material recurring revenue from software and services, and a credible multi-year strategy centered on hybrid cloud (via Red Hat) and AI that is increasingly resonating with customers.[5] Its scale, installed base, and entrenched role in mission-critical workloads provide switching-cost moats, while the new AI-security initiative suggests management is leaning into durable, high-value use cases rather than one-off hype.[5]",
+      "horizon_days": 7,
+      "margin_of_safety_case": "From a strict Chittick/Buffett margin-of-safety lens, NeoVolta scores modestly: the capital raise improves survival odds and funds growth, but the business is still early-stage, with limited earnings history and high dependence on a few big opportunities.[5][7][8][9] The equity is not clearly cheap on normalized earnings or assets; the margin of safety here is mostly about balance-sheet runway plus structural demand, not about a wide valuation buffer against bad outcomes.",
+      "market_regime": "In a late-cycle risk-on environment with higher yields, quality profitable large caps have tailwinds, while speculative growth like NeoVolta is more sensitive to sentiment swings and financing conditions.[3] The completed/impending equity raise partially mitigates financing risk, aligning NeoVolta with the theme of funded growth, but if macro data push rates higher or spark recession fears, small-cap clean-tech and storage names could underperform even with good company-specific news.[3]",
+      "momentum_case": "The stock has been highly volatile, with a recent sharp drop (e.g., a ~22% daily decline in a prior episode) around financing and news flow, and technical services have swung their short-term rating from Hold to Buy, reflecting strong trading interest and momentum potential rather than stable trend.[3][4] The fresh follow-on offering at $2.05 creates a nearby reference level where post-deal trading can show whether new institutional demand absorbs supply; any basing above the offer price with expanding volume can signal a short-term momentum reversal.[5]",
+      "owner_hold_case": "A 30\u2013180 day owner-style thesis would require: 1) evidence that the Georgia plant ramps on time and on budget, with credible production for utility-scale and C&I projects; 2) partial conversion of the Infinite Grid LOI and similar agreements into binding, financed contracts with visible margins; 3) continued growth in residential/C&I sales with improving gross margins and a path toward operating breakeven; and 4) no repeated, large dilutive offerings; under those conditions, the stock could be re-evaluated as a higher-conviction, longer-term holding linked to the structural energy-storage theme.[3][5][7][8][9]",
+      "quality_case": "NeoVolta operates in the structurally growing residential and commercial energy-storage segment, with certified products (NV WAVE, NV14/NV24, NVPlus, NV16 and C&I systems) targeting grid resiliency and electrification tailwinds.[5][3] SEC-derived analysis notes an 8/10 financial strength rating, indicating a relatively solid balance sheet for a young company and improved revenue scale, though profitability is still limited and execution risk remains high.[7][3] The new equity raise extends cash runway and supports growth capex (e.g., Georgia plant ramp and utility-scale initiatives), improving survivability but at the cost of dilution.[5]",
       "recommendation": "execute-if-guards-pass",
-      "repeat_count_48h": 0,
+      "repeat_count_48h": 4,
       "research_tier": "execution-ready",
-      "risk_reward": "Risk/reward is moderately attractive: you are risking around 7\u20138% on a sharp reversal of the catalyst move in exchange for a realistic 12\u201315% short-term upside if the AI narrative and institutional buying follow-through continue; however, the recent 18% spike means chasing at poor levels can quickly flip this to an unfavorable profile if not disciplined.",
-      "sector": "Information Technology / IT Services & Software",
+      "risk_reward": "Risk/reward is asymmetric but high beta: you risk roughly one unit (8% downside) to potentially make 1.5\u20133 units (12\u201325% upside) if post-offer demand and LOI/partnership narratives support a short-term re-rating; however, this is a speculative, execution-dependent trade that should remain a small, controlled slice of overall paper capital.",
+      "sector": "energy-technology / clean energy storage",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
       "social_buzz": "none",
-      "source_quality": "The main evidence is a detailed analysis from a reputable equity research-oriented blog noting IBM\u2019s 18% weekly move and directly tying it to specific AI and security initiatives with Red Hat and partners, which is fundamentally grounded and much stronger than social or listicle-style sources.[5]",
+      "source_quality": "Core catalysts (equity offering terms, LOI size, product descriptions) come from official company press releases and reputable financial news aggregators, backed by SEC-style financial analysis on balance sheet strength; technical and short-term rating commentary comes from secondary trading-analysis sites and is treated as lower-weight context.[3][4][5][7][8][9]",
       "source_urls": [
-        "https://www.tikr.com/blog/ibm-rose-18-this-week-heres-where-the-stock-is-headed-in-2026"
+        "https://markets.businessinsider.com",
+        "https://www.marketscreener.com/news/neovolta-announces-pricing-of-public-offering-of-common-stock-ce7f5ddadb8ef321",
+        "https://www.marketbeat.com/stocks/NASDAQ/NEOV/news/",
+        "https://stockinvest.us/stock/NEOV",
+        "https://www.gurufocus.com/news/8888662/neovolta-neov-forms-strategic-partnership-for-energy-storage-solutions",
+        "https://www.stocktitan.net/news/NEOV/neo-volta-signs-first-bess-supply-loi-with-infinite-grid-capital-for-9uocs3yi9vjz.html",
+        "https://greenstocknews.com/news/nasdaq/neov/neovolta-signs-first-bess-supply-loi-with-infinite-grid-capital-for-approximately-200-million-in-utility-scale-deployments"
       ],
       "stop_loss_percent": 8.0,
       "strategy_tags": [
         "chittick_cash",
-        "ai-beneficiary",
-        "quality-tech",
-        "catalyst-swing"
+        "swing-trade",
+        "energy-storage",
+        "small-cap",
+        "catalyst-cluster"
       ],
-      "symbol": "IBM",
-      "target_allocation_percent": 8.0,
-      "thesis": "IBM is a legacy enterprise IT and consulting platform that has successfully repositioned around hybrid cloud and AI, and it just delivered a strong AI-focused catalyst that drove an 18% weekly move, offering a blend of quality, cash generation, and a fresh momentum burst suitable for a 3\u20137 day swing with an owner-style 30\u2013180 day upside case.",
-      "valuation_case": "The article emphasizes that the stock repriced higher as investors recognized new AI-driven growth catalysts, implying a multiple expansion component.[5] While not deeply cheap on near-term earnings after the move, IBM still trades at a discount to the highest-growth AI leaders and can be seen as a lower-multiple, cash-generative way to gain AI exposure; however, the recent run reduces near-term valuation upside and shifts the edge toward tactical trading rather than value entry."
-    },
-    {
-      "adversary_case": "A skeptical view would emphasize that buying XLE after a 26\u201333% YTD run with WTI already above $110 may be late-cycle; the risk is that much of the good news is priced in, and any easing of geopolitical tensions, OPEC+ decisions, or macro slowdown could drive both oil and XLE sharply lower, turning this into a poor entry point with asymmetric downside.",
-      "allocation_learning_note": "",
-      "balance_sheet_risk": "Major XLE holdings like Exxon Mobil and Chevron entered this cycle with stronger balance sheets than in past downturns, having paid down debt and improved financial resilience, which reduces solvency risk relative to smaller E&Ps.[6] The main risk is earnings and cash-flow volatility driven by commodity prices rather than leverage-induced stress.",
-      "bear_case": "Energy is highly cyclical and sensitive to commodity prices, and WTI at $110+ reflects geopolitical risk and supply-demand balances that can change quickly; any de-escalation in geopolitical tensions, unexpected supply increases, or demand disappointments could trigger a sharp oil-price pullback and a corresponding correction in XLE.[6] Additionally, the sector has already posted strong YTD gains, so a reversal of flows or a macro risk-off shock could lead to profit-taking and underperformance.",
-      "capital_allocation_case": "Large integrated energy firms have generally shifted toward more disciplined capital allocation, prioritizing dividends, buybacks, and high-return projects instead of aggressive, debt-funded expansion, which supports shareholder value if oil prices remain supportive.[6] XLE, as an ETF, passes this discipline through in aggregate via dividend yields and exposure to buyback beneficiaries.",
-      "catalyst": "Recent commentary notes that the energy sector has been the lone bright spot in equities, with XLE up roughly 26\u201333% year to date on the back of higher oil prices, with WTI recently quoted above $110 per barrel, reinforcing a strong earnings and cash-flow backdrop for major energy companies.[6]",
-      "catalyst_type": "structural",
-      "chittick_cash_score": 63.0,
-      "chittick_reject_reason": "",
-      "concentration_case": "XLE offers a diversified way to express the energy leadership theme without concentrating in a single company, which can be preferable for a paper-trading system that wants sector exposure without single-name risk.[6] It stands as a distinct bucket compared to tech or industrial holdings and can help balance a portfolio that is otherwise tilted toward quality growth.",
-      "confidence": 0.7,
-      "congressional_signal": "none",
-      "diversity_bucket": "sector-etf-energy",
-      "entry_plan": "For a paper trade, look to enter on an intraday or multi-day pullback of around 2\u20133% toward short-term support while oil remains above psychologically important levels (e.g., $100) and there is no clear sign of a regime shift in crude.[6] Use limit orders rather than chasing spikes, and avoid entering immediately after a large gap up on geopolitical headlines alone without confirmation from underlying oil futures.",
-      "exit_plan": "Aim for a 6\u201310% upside move over a 3\u20138 day horizon if oil prices stay firm or grind higher, taking partial profits if XLE rallies 5\u20137% quickly. Invalidate the trade on a decisive breakdown in oil prices (e.g., WTI losing and closing well below $100) or if XLE closes roughly 6\u20138% below entry, signaling that the trend has broken. If volatility spikes around geopolitical news, be prepared to tighten stops or take quicker profits.",
-      "fresh_catalyst": true,
-      "growth_runway": "Over 30\u2013180 days, the growth story for XLE is tied to sustained higher oil prices, continued capital discipline, and shareholder-return policies at major constituents; if underinvestment in supply and geopolitical constraints persist, energy companies could maintain elevated cash flows and distributions.[6] Longer term, the energy transition introduces uncertainty, but over the next few quarters, capital discipline and buybacks can still support the sector.",
-      "hf_evidence_rank": 0.0,
-      "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.0,
-      "hf_memory_similarity": 0.0,
-      "hf_model_notes": "",
-      "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "",
-      "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 0.0,
-      "horizon_days": 6,
-      "margin_of_safety_case": "Large integrated energy companies in XLE generate substantial free cash flow at current oil prices, and many have improved balance sheets and reduced break-even levels since prior cycles, offering some margin of safety versus smaller, levered producers.[6] However, for a 1\u201310 day swing, valuation and margin of safety are secondary to commodity-driven momentum, so downside can be sharp if oil reverses.",
-      "market_regime": "In the current regime, energy stands out as a leadership pocket while many other sectors are more mixed, making XLE a direct way to express that theme; however, because the overall market is still valuation- and rate-sensitive, a broad risk-off move or sharp drop in oil could quickly flip sentiment on energy from leadership to laggard.[6]",
-      "momentum_case": "The ETF is described as being up about 26\u201333% year to date, significantly outperforming many other sectors, with strength closely tied to higher oil prices and sustained investor interest in energy.[6] In a tape where energy is one of the only clear outperformers, that ongoing relative strength and the tailwind from WTI above $110 support a 3\u201310 day momentum trade, especially if crude continues to hold elevated levels.",
-      "owner_hold_case": "An owner could justify a 30\u2013180 day hold if they believe that structural underinvestment in hydrocarbons, ongoing geopolitical risk, and disciplined capital allocation will keep oil prices and energy-sector cash flows elevated, enabling continued dividends and buybacks from XLE constituents.[6] However, this thesis must be revisited frequently given the inherently cyclical nature of energy.",
-      "quality_case": "XLE holds large, integrated energy majors such as Exxon Mobil and Chevron, which generate substantial free cash flow when oil prices are elevated and have generally strengthened their balance sheets since the last energy downturn.[6] These firms possess durable asset bases, global scale, and disciplined capital allocation that increasingly emphasizes shareholder returns (dividends and buybacks), offering a margin-of-safety buffer relative to smaller, levered producers.",
-      "recommendation": "execute-if-guards-pass",
-      "repeat_count_48h": 0,
-      "research_tier": "execution-ready",
-      "risk_reward": "Risk/reward is balanced-to-favorable for a tactical swing: you are risking roughly 6\u20138% in a sector ETF that has been leading on strong fundamentals and high oil prices for the potential of 6\u201310% upside if the trend persists, but the trade is highly exposed to sudden macro and geopolitical reversals in crude.",
-      "sector": "Energy ETF",
-      "signal_weights": {
-        "congressional_signal": 0.0,
-        "social_buzz": 0.05
-      },
-      "social_buzz": "Social commentary notes spikes in certain energy stocks and ETFs tied to oil-price moves and Iran-related headlines, but these are clearly event-driven and volatile rather than evidence of durable, fundamentals-based inflows.",
-      "source_quality": "Evidence comes from a sector-focused article that explicitly highlights XLE as the primary equity beneficiary of the current oil price environment, citing year-to-date performance and recent WTI and Brent price levels, which provides a fundamentally grounded view of the energy backdrop rather than pure social sentiment.[6]",
-      "source_urls": [
-        "https://www.techi.com/oil-price-today/"
-      ],
-      "stop_loss_percent": 7.0,
-      "strategy_tags": [
-        "sector-rotation",
-        "momentum",
-        "chittick_cash-complement"
-      ],
-      "symbol": "XLE",
-      "target_allocation_percent": 7.0,
-      "thesis": "XLE, the Energy Select Sector SPDR ETF, provides diversified exposure to US large-cap energy companies like Exxon Mobil and Chevron that have been a rare source of equity strength, benefiting from higher oil prices and sector momentum; it fits as a short-term swing vehicle for the current energy-led strength while offering a more diversified, lower-idiosyncratic way to participate than single names.",
-      "valuation_case": "After a 26\u201333% YTD gain, XLE is no longer obviously cheap on a short-term basis, but relative to current cash flows at WTI above $110, the sector is not in an extreme bubble either, especially given prior years of underinvestment.[6] The trade is more about capturing ongoing earnings and buyback support while oil remains high than buying at a deep discount."
+      "symbol": "NEOV",
+      "target_allocation_percent": 5.0,
+      "thesis": "NeoVolta is a small-cap energy storage company with a newly priced equity offering that shores up liquidity and a recently disclosed ~$200M non-binding BESS supply LOI plus strategic partnerships, creating a clear fundamental and financing catalyst cluster that can drive 1\u201310 day volatility and offers a defined swing-trade setup if post-offering price action stabilizes.[5][7][8][9]",
+      "valuation_case": "Traditional valuation is hard because NeoVolta is still transitioning toward scale and profitability; multiples on trailing revenues look high, but forward growth (e.g., revenues growing several hundred percent YoY in recent fiscal periods) means that if a portion of the $200M LOI and strategic initiatives convert into realized, profitable sales, today\u2019s market cap could appear modest relative to medium-term revenue.[3][7][8][9] For a 5\u201310 day swing, the key is not intrinsic value but whether the offer price and news flow anchor short-term flows; from that tactical perspective, the post-offering price near $2.05 offers a clear reference, though not necessarily a fundamental bargain.[4][5]"
     }
   ],
-  "summary": "US equities remain broadly risk-on but increasingly selective, with leadership concentrated in quality growth/AI and energy while defensives lag; short-term swings are being driven more by stock-specific catalysts than macro shifts."
+  "summary": "Equities remain in a late\u2011cycle, earnings\u2011supported but rate\u2011sensitive risk\u2011on regime, with quality growth and select energy/industrial names favored; a fresh capital\u2011raise plus multi\u2011year contract pipeline at NeoVolta creates a catalyst-rich, higher\u2011risk swing setup that fits a tightly risk\u2011defined 5\u20137 day paper trade, while broader discovery should avoid over\u2011concentration in repeated mega\u2011cap tech."
 }
 -->
 
@@ -1541,4 +1490,10 @@ No candidates.
 |---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
 | IBM | Information Technology / IT Services & Software | execution-ready | mega-cap-enterprise-it-ai | 0 | yes | 0.74 | 72 | 0 | 0 | 8.0% | 8.0% | execute-if-guards-pass | IBM recently announced a $5 billion AI-driven open-source security initiative with Red Hat and other partners, alongside stronger near-term AI growth messaging, |
 | XLE | Energy ETF | execution-ready | sector-etf-energy | 0 | yes | 0.70 | 63 | 0 | 0 | 7.0% | 7.0% | execute-if-guards-pass | Recent commentary notes that the energy sector has been the lone bright spot in equities, with XLE up roughly 26–33% year to date on the back of higher oil pric |
+
+## Latest Candidates - 2026-05-28 22:05:05 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| NEOV | energy-technology / clean energy storage | execution-ready | small-cap-energy-storage | 4 | yes | 0.68 | 63 | 0 | 0 | 5.0% | 8.0% | execute-if-guards-pass | 1) May 28, 2026 public equity offering of ~12.2M shares at $2.05 per share for ~$25M gross proceeds, expected to close imminently, which removes near-term fundi |
 
