@@ -1187,4 +1187,126 @@ Weekly review may propose changes here. Routine runs must not rewrite executable
   },
   "error": "POST https://api.perplexity.ai/chat/completions failed with 401: {\"error\":{\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information, visit https://www.perplexity.ai/settings/api.\",\"type\":\"insufficient_quota\",\"code\":401}}\n"
 }
+## Weekly Strategy Proposals - 2026-05-29 17:19:02 Eastern Daylight Time
+
+{
+  "lessons": [
+    "Repeated tickers became a drag on research quality: GOOGL, XLK, CRM, APGE, WSC, and NEOV reappeared across multiple runs, often with only weakly changed catalysts, which indicates the memory layer is not suppressing stale follow-ups well.",
+    "Allocation-blocked candidates were a persistent failure mode: several otherwise plausible names were repeatedly rejected because the single-name allocation cap, max open-position count, or muted allocation state prevented execution, so the bot kept resurfacing non-actionable candidates.",
+    "Sector concentration was too heavy in technology, semiconductors, biotech, and broad ETFs, with limited diversification into other defensible buckets, which suggests the candidate generator is overfitting to a small set of familiar themes.",
+    "Freshness handling improved some decisions when the bot forced a new catalyst requirement, but it still allowed stale-watch behavior to persist for names like GOOGL and XLK, meaning the freshness gate is present but not strict enough.",
+    "The repeated appearance of low-conviction ETF and mega-cap names suggests the system is leaning too much on market narrative and sector momentum instead of distinct, company-specific edges.",
+    "Congressional and social signals appear to have had mixed value: they occasionally supported coverage quality, but they also triggered repeated rejections for being too weak or under-sourced, especially when used without a stronger fundamental catalyst.",
+    "Hugging Face source and veto logic appears useful as a guardrail against source-thin hype, but it also seems to contribute to candidate starvation when the upstream research is already thin or repetitive.",
+    "Chittick Cash appears to have improved triage by separating execution-ready, watch, and monitor-only outputs, but it did not fully solve repetition or prevent stale candidates from cycling back into the queue."
+  ],
+  "rejected_patterns": [
+    "Stale repeated tickers with no new catalyst, especially GOOGL, XLK, CRM, APGE, WSC, and INTC.",
+    "Allocation-blocked but still resurfacing candidates that cannot pass the single-name or position-count constraints.",
+    "Broad sector echoing, especially repeated tech, semiconductor, biotech, and ETF exposure without compensating diversification.",
+    "Low-weight social or congressional signals used as primary justification rather than as secondary confirmation.",
+    "Source-thin hype and vague narrative catalysts that do not create a time-stamped, company-specific edge.",
+    "Monitor-only or allocation-muted names being repeatedly surfaced as if they were near-term trade ideas.",
+    "Candidates with no fresh company-specific catalyst being retained too long in the active queue.",
+    "Repetitive daily research phrasing that restates momentum, analyst interest, or sector leadership without adding new evidence."
+  ],
+  "strategy_proposals": [
+    "Add a hard stale-ticker suppression window so repeated names are excluded unless a materially new catalyst appears, such as earnings, guidance, filing, confirmed contract news, or a verified technical breakout.",
+    "Create an allocation-feasibility precheck before candidate promotion so the system suppresses any name that cannot fit current allocation, position-count, or tier constraints.",
+    "Implement sector cooling rules that down-rank sectors that have already produced multiple recent candidates, especially technology, semiconductors, biotech, and broad ETFs.",
+    "Require a diversity quota across sector, market cap, and catalyst type before daily output is finalized, to prevent repeated clustering around the same theme set.",
+    "Make social and congressional signals confirmatory only: they should not move a candidate into watch or execution-ready unless supported by a stronger fundamental, filing, or event-based catalyst.",
+    "Prefer time-stamped, source-specific catalysts over narrative momentum language, particularly for mega-cap and ETF names where generic bullish commentary is too easy to recycle.",
+    "For biotech and small-cap names, require a concrete dated event and remove candidates that rely on conference attendance or generic pipeline discussion alone.",
+    "Route repeated candidates into a lower-priority review lane so the bot can still track them without polluting the main actionable queue."
+  ],
+  "self_learning_directives": [
+    "Track repeat rate by ticker and by bucket, and penalize any name that appears repeatedly without a new catalyst delta.",
+    "Track the share of daily candidates by sector and cut back output from overrepresented sectors until distribution normalizes.",
+    "Track allocation-blocked candidate frequency and treat it as a generator defect, not a normal rejection outcome.",
+    "Track how often a candidate’s justification changes materially between runs; if the catalyst text is mostly reworded, treat it as stale.",
+    "Track the ratio of social or congressional-signal-driven candidates that survive to execution-ready status; if the ratio is low, reduce their weighting further.",
+    "Track how many daily outputs are near-duplicates in phrasing and evidence, then force the summarizer to produce only deltas from the previous run.",
+    "Track whether HF vetoes are filtering real noise or merely suppressing underdeveloped ideas; adjust thresholds only after comparing downstream trade quality.",
+    "Track post-gate outcomes separately from gate pass rates so the system learns from executed quality, not just approval volume."
+  ],
+  "safe_changes_after_test_gates": [
+    "Add a stale-ticker memory rule: if a symbol has appeared more than a set number of times without a new dated catalyst, suppress it from active output.",
+    "Add an allocation-feasibility gate before candidate publication so blocked names are labeled as suppressed rather than re-recommended.",
+    "Add a sector concentration guard that throttles repeated output from technology, semiconductors, biotech, and ETFs.",
+    "Add a diversity check that enforces minimum spread across sectors and catalyst types before the daily list is accepted.",
+    "Add a catalyst freshness requirement that rejects any candidate whose support is only generic momentum, analyst chatter, or repeated prior context.",
+    "Add a signal hierarchy rule that ranks filing/earnings/guidance above social buzz and congressional signals.",
+    "Add a deduplication step for daily narrative text so the same catalyst language cannot be reused across multiple runs without explicit deltas.",
+    "Add a post-gate audit log that records why each candidate was suppressed, to distinguish stale repetition from legitimate reappearance."
+  ],
+  "signal_assessment": {
+    "chittick_cash": {
+      "assessment": "Mostly helpful as a triage and permissioning layer.",
+      "effect_on_quality": [
+        "Improved separation between execution-ready, watch, monitor-only, and avoid states.",
+        "Reduced obvious bad entries such as monitor-only or weak-confidence names from execution flow."
+      ],
+      "noise_risk": [
+        "Did not sufficiently prevent stale names from re-entering the queue.",
+        "May have encouraged overconfidence in names that were structurally non-actionable."
+      ]
+    },
+    "hugging_face_filters": {
+      "assessment": "Helpful as a noise filter, but sometimes too blunt or repetitive.",
+      "effect_on_quality": [
+        "Blocked source-thin hype and some weak speculative candidates.",
+        "Provided useful vetoes when the evidence base was too thin."
+      ],
+      "noise_risk": [
+        "Appears to contribute to repeated rejection loops when upstream candidates are already low quality.",
+        "Can suppress marginal ideas without necessarily improving the diversity of the remaining set."
+      ]
+    },
+    "social_buzz": {
+      "assessment": "More noise than edge in the current setup.",
+      "effect_on_quality": [
+        "Occasionally helped confirm a broader narrative.",
+        "Could provide secondary context when paired with stronger evidence."
+      ],
+      "noise_risk": [
+        "Often under-sourced or too weak to justify action.",
+        "Repeatedly caused rejections when used as a primary signal, especially without a fresh company-specific catalyst."
+      ]
+    },
+    "congressional_signals": {
+      "assessment": "Useful as a weak confirmatory layer, not as a standalone driver.",
+      "effect_on_quality": [
+        "Helped surface interest in a few names such as semiconductor-related candidates.",
+        "Can add context when aligned with stronger fundamentals or timing."
+      ],
+      "noise_risk": [
+        "By itself it was not strong enough to carry trade decisions.",
+        "Needs stronger corroboration to avoid recycled or low-conviction ideas."
+      ]
+    }
+  },
+  "recommended_policy": {
+    "keep": [
+      "Chittick Cash as a triage layer.",
+      "HF vetoes as a source-quality and hype filter.",
+      "Social and congressional signals only as secondary confirmation."
+    ],
+    "change": [
+      "Suppress stale repeats unless catalyst delta is material.",
+      "Block allocation-impossible candidates before output.",
+      "Throttle overused sectors.",
+      "Enforce output diversity and deduplication."
+    ],
+    "do_not_enable": [
+      "Options",
+      "Margin",
+      "Shorting",
+      "Crypto",
+      "Live trading",
+      "Secrets",
+      "Credential changes"
+    ]
+  }
+}
 
