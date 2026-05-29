@@ -298,4 +298,14 @@ Candidate references banned v1 instruments or leverage.
 
 Candidate references banned v1 instruments or leverage.
 Target allocation must be between 1% and 15%.
+## Rejected WSC - 2026-05-29 09:55:02 Eastern Daylight Time
+
+Candidate references banned v1 instruments or leverage.
+Candidate is monitor-only and cannot be traded.
+Target allocation must be between 1% and 15%.
+## Rejected FC - 2026-05-29 09:55:02 Eastern Daylight Time
+
+Candidate references banned v1 instruments or leverage.
+Candidate is monitor-only and cannot be traded.
+Target allocation must be between 1% and 15%.
 
