@@ -1312,4 +1312,12 @@ Premarket plan built from latest watchlist.
   rejects: Candidate references banned v1 instruments or leverage.
 - FC: score=69, base=95, chittick=35, approved=False, allocation=0.0%, stop=8.0%
   rejects: Candidate references banned v1 instruments or leverage.; Target allocation must be between 1% and 15%.
+## Premarket Plan - 2026-05-29 08:25:01 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- WSC: score=81, base=95, chittick=74, approved=False, allocation=8.0%, stop=8.0%
+  rejects: Candidate references banned v1 instruments or leverage.
+- FC: score=69, base=95, chittick=35, approved=False, allocation=0.0%, stop=8.0%
+  rejects: Candidate references banned v1 instruments or leverage.; Target allocation must be between 1% and 15%.
 
