@@ -4,73 +4,233 @@
 {
   "candidates": [
     {
-      "adversary_case": "A conservative Buffett/Munger-style critic would argue that NeoVolta lacks the long, proven track record and enduring economic moat of a quality compounder, remains dependent on capital markets and unproven large contracts, and that a concentrated portfolio should not allocate scarce risk budget to a small, dilutive, non-profitable clean-tech name when better-quality large caps and ETFs are available; under that lens this thesis looks more like speculative timing on headlines than owner-style investing.",
-      "allocation_learning_note": "Given prior rejections on over-concentration in mega-cap names and ETFs, this candidate is purposely sized as a modest satellite position in an underrepresented clean-energy bucket, with tight stops and a short horizon to limit portfolio-level risk if small-cap volatility persists.",
-      "balance_sheet_risk": "Prior analysis gives NeoVolta a strong financial-strength score (8/10), reflecting relatively low leverage and decent liquidity for its size, but the company has still relied on equity issuance to fund growth.[7] The new $25M offering reduces near-term insolvency risk and supports capex but dilutes existing shareholders and signals that internal cash generation is not yet sufficient.[5] Inventory, warranty, and working-capital demands will rise with growth, so balance-sheet risk remains medium-high compared to established quality names.",
-      "bear_case": "Key risks include small-cap illiquidity, substantial dilution from the ~12.2M+ share offering (plus potential greenshoe), continuing lack of durable profitability, and execution risk on both residential/commercial and new utility-scale projects.[5][3][7][8][9] The $200M Infinite Grid LOI is non-binding, so there is no guarantee that the headline value will translate to actual orders or margins.[8] A risk-off macro shift, negative sentiment toward dilutive offerings, or delays/shortfalls in plant ramp, partnerships, or project financing could leave the share price grinding lower after a brief pop. As a younger company, accounting, inventory, and warranty-reserve risks are non-trivial and any disappointment can be punished disproportionately.[3][7]",
-      "capital_allocation_case": "Management has chosen to aggressively pursue growth via plant expansion, partnerships, and now utility-scale projects, funded in part by equity; this is consistent with a growth-first strategy rather than a capital-return model.[5][7][8][9] From a capital-allocation quality lens, raising equity at a time of strong revenue momentum and before major LOI execution may prove sensible if it locks in funding at reasonable prices, but repeated dilution without clear path to sustainable margins would erode shareholder value; monitoring future capital raises and ROI on plant and projects is crucial.",
-      "catalyst": "1) May 28, 2026 public equity offering of ~12.2M shares at $2.05 per share for ~$25M gross proceeds, expected to close imminently, which removes near-term funding overhang but introduces short-term dilution and trading volatility; 2) recently announced non-binding LOI with Infinite Grid Capital covering ~$200M of battery supply from NeoVolta\u2019s Georgia plant for ~1.1 GWh of utility-scale deployments; 3) recent financial updates noting strong revenue growth off a small base and development of an integrated energy solutions platform.[5][8][9]",
-      "catalyst_type": "filing/news/structural",
-      "chittick_cash_score": 63.0,
-      "chittick_reject_reason": "",
-      "concentration_case": "In a concentrated, quality-biased portfolio, NeoVolta is best framed as a small satellite around core holdings rather than a core position: it provides differentiated exposure to energy storage and grid-resiliency themes not captured by typical mega-cap tech or broad ETFs, but its smaller scale, dilution, and execution risk make it inferior to higher-quality compounders as a top allocation.[3][5][7][8][9] For a 1\u201310 day paper swing, the concentrated-quality standard can be relaxed slightly to exploit clear catalysts while still capping allocation and enforcing tight risk controls.",
-      "confidence": 0.68,
+      "adversary_case": "The best objection is that this is simply recycling a high-quality name without a fresh catalyst, which the process explicitly discourages.",
+      "allocation_learning_note": "Muted because of repeat decay and lack of a new catalyst; if revisited, reduce size unless the setup is newly confirmed.",
+      "balance_sheet_risk": "Balance-sheet risk is low relative to most equities, which is a favorable quality factor, but not sufficient on its own to justify a trade.",
+      "bear_case": "The strongest failure case is stale repetition without a new catalyst; in that case the trade becomes a crowding/valuation exercise rather than a disciplined swing setup.",
+      "capital_allocation_case": "Alphabet\u2019s capital allocation is generally disciplined, but no new evidence in the supplied results improves the near-term trade case.",
+      "catalyst": "No new company-specific catalyst is documented in the supplied results, so this is not execution-ready on freshness alone.",
+      "catalyst_type": "structural",
+      "chittick_cash_score": 66.0,
+      "chittick_reject_reason": "repeat_staleness_without_new_catalyst",
+      "concentration_case": "It deserves attention for quality, but it should not displace a better fresh-catalyst name in a paper-trading book focused on repeat-decay discipline.",
+      "confidence": 0.41,
       "congressional_signal": "none",
-      "diversity_bucket": "small-cap-energy-storage",
-      "entry_plan": "For paper trading, treat this as a post-offering stabilization trade: 1) Wait for at least one full trading day after the equity offering closes to confirm that price can reclaim and hold above the $2.05 offer level on above-average volume (e.g., intraday reclaim and close \u22652\u20133% above $2.05). 2) Enter a partial position (e.g., half of the intended allocation) on a pullback toward $2.05\u20132.15 after that reclaim, with price not violating the intraday low of the stabilization day. 3) Only scale toward the full target allocation if price holds above $2.05 for at least two consecutive closes with constructive volume and no negative follow-up news on the LOI or financials.[5][8][9]",
-      "exit_plan": "Profit-taking: Aim to trim 1/3 of the paper position around a 12\u201315% gain from average entry (e.g., near $2.30\u20132.45 if entry ~2.05\u20132.15) and another 1/3 near 20\u201325% if strong momentum persists (e.g., retest of pre-offering levels or a clear technical resistance zone).[4] Invalidation: Place a hard stop ~8% below average entry, or below a clearly defined technical level such as a decisive close under $1.90 or under the post-offering low, whichever is tighter, indicating failed stabilization and persistent supply.[4][5] Time stop: If the stock chops sideways below $2.20 with declining volume and no incremental contract or execution updates for 7 trading days, exit remaining paper position to free risk budget for higher-conviction setups.",
+      "diversity_bucket": "mega-cap-internet-cloud",
+      "entry_plan": "Watch only; do not enter unless a new earnings, filing, guidance, or confirmed breakout catalyst appears and price holds above the prior swing high on expanding volume.",
+      "exit_plan": "If a valid catalyst appears later, use a tight invalidation below the breakout level or post-event VWAP; take partial profits into 5-10% favorable movement.",
       "fresh_catalyst": true,
-      "growth_runway": "Structurally, NeoVolta is leveraged to multi-year trends in residential and C&I energy storage, grid resiliency, and distributed generation, supported by policy incentives and increasing frequency of outages.[3][5][7] The Georgia manufacturing facility and utility-scale initiative, plus the ~$200M LOI for 1.1 GWh of projects (Texas, Puerto Rico, PJM), point to a 30\u2013180 day and multi-year growth runway if execution, permitting, and financing align.[8][9] Near-term 30\u201390 day drivers include plant ramp updates, any conversion of the LOI to binding contracts, additional strategic partnerships, and follow-on financial results that confirm scaling revenues without outsized dilution or margin compression.",
-      "hf_evidence_rank": 0.0,
-      "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.0,
-      "hf_memory_similarity": 0.0,
-      "hf_model_notes": "",
+      "growth_runway": "AI, search monetization, and cloud remain the long runway, but that is an owner thesis rather than a 1-10 day swing catalyst.",
+      "hf_evidence_rank": 0.22,
+      "hf_filter_vetoes": [
+        "repeat_staleness"
+      ],
+      "hf_hype_risk": 0.05,
+      "hf_memory_similarity": 0.92,
+      "hf_model_notes": "Quality is high, but repeated-name decay and lack of fresh evidence keep this out of execution-ready status.",
       "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "",
-      "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 0.0,
-      "horizon_days": 7,
-      "margin_of_safety_case": "From a strict Chittick/Buffett margin-of-safety lens, NeoVolta scores modestly: the capital raise improves survival odds and funds growth, but the business is still early-stage, with limited earnings history and high dependence on a few big opportunities.[5][7][8][9] The equity is not clearly cheap on normalized earnings or assets; the margin of safety here is mostly about balance-sheet runway plus structural demand, not about a wide valuation buffer against bad outcomes.",
-      "market_regime": "In a late-cycle risk-on environment with higher yields, quality profitable large caps have tailwinds, while speculative growth like NeoVolta is more sensitive to sentiment swings and financing conditions.[3] The completed/impending equity raise partially mitigates financing risk, aligning NeoVolta with the theme of funded growth, but if macro data push rates higher or spark recession fears, small-cap clean-tech and storage names could underperform even with good company-specific news.[3]",
-      "momentum_case": "The stock has been highly volatile, with a recent sharp drop (e.g., a ~22% daily decline in a prior episode) around financing and news flow, and technical services have swung their short-term rating from Hold to Buy, reflecting strong trading interest and momentum potential rather than stable trend.[3][4] The fresh follow-on offering at $2.05 creates a nearby reference level where post-deal trading can show whether new institutional demand absorbs supply; any basing above the offer price with expanding volume can signal a short-term momentum reversal.[5]",
-      "owner_hold_case": "A 30\u2013180 day owner-style thesis would require: 1) evidence that the Georgia plant ramps on time and on budget, with credible production for utility-scale and C&I projects; 2) partial conversion of the Infinite Grid LOI and similar agreements into binding, financed contracts with visible margins; 3) continued growth in residential/C&I sales with improving gross margins and a path toward operating breakeven; and 4) no repeated, large dilutive offerings; under those conditions, the stock could be re-evaluated as a higher-conviction, longer-term holding linked to the structural energy-storage theme.[3][5][7][8][9]",
-      "quality_case": "NeoVolta operates in the structurally growing residential and commercial energy-storage segment, with certified products (NV WAVE, NV14/NV24, NVPlus, NV16 and C&I systems) targeting grid resiliency and electrification tailwinds.[5][3] SEC-derived analysis notes an 8/10 financial strength rating, indicating a relatively solid balance sheet for a young company and improved revenue scale, though profitability is still limited and execution risk remains high.[7][3] The new equity raise extends cash runway and supports growth capex (e.g., Georgia plant ramp and utility-scale initiatives), improving survivability but at the cost of dilution.[5]",
-      "recommendation": "execute-if-guards-pass",
-      "repeat_count_48h": 4,
-      "research_tier": "execution-ready",
-      "risk_reward": "Risk/reward is asymmetric but high beta: you risk roughly one unit (8% downside) to potentially make 1.5\u20133 units (12\u201325% upside) if post-offer demand and LOI/partnership narratives support a short-term re-rating; however, this is a speculative, execution-dependent trade that should remain a small, controlled slice of overall paper capital.",
-      "sector": "energy-technology / clean energy storage",
+      "hf_sentiment_label": "neutral",
+      "hf_sentiment_score": 0.18,
+      "hf_source_quality_score": 0.25,
+      "horizon_days": 5,
+      "margin_of_safety_case": "Quality is strong, but the current evidence does not show a valuation dislocation or a fresh catalyst that would create a clear margin of safety.",
+      "market_regime": "Works best in a selective risk-on tape that rewards profitable megacaps; less attractive if leadership broadens away from mega-cap internet/cloud.",
+      "momentum_case": "Momentum evidence is insufficient in the supplied results for a fresh breakout or post-earnings continuation setup.",
+      "owner_hold_case": "If a new earnings beat, guidance raise, AI monetization milestone, or confirmed technical breakout emerges, it can be reviewed as a 30-180 day owner-style hold.",
+      "quality_case": "The business quality is strong on scale, profitability, and strategic flexibility, but the current evidence set does not add a new margin-of-safety edge versus prior passes.",
+      "recommendation": "watch",
+      "repeat_count_48h": 6,
+      "research_tier": "stale-watch",
+      "risk_reward": "Good business, but poor near-term setup without fresh evidence, so the current risk/reward is not compelling.",
+      "sector": "Communication Services / Internet / Cloud",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
       "social_buzz": "none",
-      "source_quality": "Core catalysts (equity offering terms, LOI size, product descriptions) come from official company press releases and reputable financial news aggregators, backed by SEC-style financial analysis on balance sheet strength; technical and short-term rating commentary comes from secondary trading-analysis sites and is treated as lower-weight context.[3][4][5][7][8][9]",
-      "source_urls": [
-        "https://markets.businessinsider.com",
-        "https://www.marketscreener.com/news/neovolta-announces-pricing-of-public-offering-of-common-stock-ce7f5ddadb8ef321",
-        "https://www.marketbeat.com/stocks/NASDAQ/NEOV/news/",
-        "https://stockinvest.us/stock/NEOV",
-        "https://www.gurufocus.com/news/8888662/neovolta-neov-forms-strategic-partnership-for-energy-storage-solutions",
-        "https://www.stocktitan.net/news/NEOV/neo-volta-signs-first-bess-supply-loi-with-infinite-grid-capital-for-9uocs3yi9vjz.html",
-        "https://greenstocknews.com/news/nasdaq/neov/neovolta-signs-first-bess-supply-loi-with-infinite-grid-capital-for-approximately-200-million-in-utility-scale-deployments"
-      ],
-      "stop_loss_percent": 8.0,
+      "source_quality": "Weak for a trade today because the supplied materials do not include a new Alphabet-specific catalyst; the prior memory explicitly flags repeat-staleness risk.",
+      "source_urls": [],
+      "stop_loss_percent": 0.0,
       "strategy_tags": [
-        "chittick_cash",
-        "swing-trade",
-        "energy-storage",
-        "small-cap",
-        "catalyst-cluster"
+        "chittick_cash"
       ],
-      "symbol": "NEOV",
-      "target_allocation_percent": 5.0,
-      "thesis": "NeoVolta is a small-cap energy storage company with a newly priced equity offering that shores up liquidity and a recently disclosed ~$200M non-binding BESS supply LOI plus strategic partnerships, creating a clear fundamental and financing catalyst cluster that can drive 1\u201310 day volatility and offers a defined swing-trade setup if post-offering price action stabilizes.[5][7][8][9]",
-      "valuation_case": "Traditional valuation is hard because NeoVolta is still transitioning toward scale and profitability; multiples on trailing revenues look high, but forward growth (e.g., revenues growing several hundred percent YoY in recent fiscal periods) means that if a portion of the $200M LOI and strategic initiatives convert into realized, profitable sales, today\u2019s market cap could appear modest relative to medium-term revenue.[3][7][8][9] For a 5\u201310 day swing, the key is not intrinsic value but whether the offer price and news flow anchor short-term flows; from that tactical perspective, the post-offering price near $2.05 offers a clear reference, though not necessarily a fundamental bargain.[4][5]"
+      "symbol": "GOOGL",
+      "target_allocation_percent": 0.0,
+      "thesis": "Alphabet remains a high-quality core business with durable cash generation and optionality in search, cloud, and AI, but it should only be used when there is a fresh catalyst because it has already appeared repeatedly in prior trade screens.",
+      "valuation_case": "Absent new price or fundamental evidence, valuation cannot be judged attractive enough for execution here."
+    },
+    {
+      "adversary_case": "The best objection is that this is simply recycling a high-quality name without a fresh catalyst, which the process explicitly discourages.",
+      "allocation_learning_note": "Muted because of repeat decay and lack of a new catalyst; if revisited, reduce size unless the setup is newly confirmed.",
+      "balance_sheet_risk": "Balance-sheet risk is low relative to most equities, which is a favorable quality factor, but not sufficient on its own to justify a trade.",
+      "bear_case": "The strongest failure case is stale repetition without a new catalyst; in that case the trade becomes a crowding/valuation exercise rather than a disciplined swing setup.",
+      "capital_allocation_case": "Alphabet\u2019s capital allocation is generally disciplined, but no new evidence in the supplied results improves the near-term trade case.",
+      "catalyst": "No new company-specific catalyst is documented in the supplied results, so this is not execution-ready on freshness alone.",
+      "catalyst_type": "structural",
+      "chittick_cash_score": 66.0,
+      "chittick_reject_reason": "repeat_staleness_without_new_catalyst",
+      "concentration_case": "It deserves attention for quality, but it should not displace a better fresh-catalyst name in a paper-trading book focused on repeat-decay discipline.",
+      "confidence": 0.41,
+      "congressional_signal": "none",
+      "diversity_bucket": "mega-cap-internet-cloud",
+      "entry_plan": "Watch only; do not enter unless a new earnings, filing, guidance, or confirmed breakout catalyst appears and price holds above the prior swing high on expanding volume.",
+      "exit_plan": "If a valid catalyst appears later, use a tight invalidation below the breakout level or post-event VWAP; take partial profits into 5-10% favorable movement.",
+      "fresh_catalyst": true,
+      "growth_runway": "AI, search monetization, and cloud remain the long runway, but that is an owner thesis rather than a 1-10 day swing catalyst.",
+      "hf_evidence_rank": 0.22,
+      "hf_filter_vetoes": [
+        "repeat_staleness"
+      ],
+      "hf_hype_risk": 0.05,
+      "hf_memory_similarity": 0.92,
+      "hf_model_notes": "Quality is high, but repeated-name decay and lack of fresh evidence keep this out of execution-ready status.",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "neutral",
+      "hf_sentiment_score": 0.18,
+      "hf_source_quality_score": 0.25,
+      "horizon_days": 5,
+      "margin_of_safety_case": "Quality is strong, but the current evidence does not show a valuation dislocation or a fresh catalyst that would create a clear margin of safety.",
+      "market_regime": "Works best in a selective risk-on tape that rewards profitable megacaps; less attractive if leadership broadens away from mega-cap internet/cloud.",
+      "momentum_case": "Momentum evidence is insufficient in the supplied results for a fresh breakout or post-earnings continuation setup.",
+      "owner_hold_case": "If a new earnings beat, guidance raise, AI monetization milestone, or confirmed technical breakout emerges, it can be reviewed as a 30-180 day owner-style hold.",
+      "quality_case": "The business quality is strong on scale, profitability, and strategic flexibility, but the current evidence set does not add a new margin-of-safety edge versus prior passes.",
+      "recommendation": "watch",
+      "repeat_count_48h": 6,
+      "research_tier": "stale-watch",
+      "risk_reward": "Good business, but poor near-term setup without fresh evidence, so the current risk/reward is not compelling.",
+      "sector": "Communication Services / Internet / Cloud",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "none",
+      "source_quality": "Weak for a trade today because the supplied materials do not include a new Alphabet-specific catalyst; the prior memory explicitly flags repeat-staleness risk.",
+      "source_urls": [],
+      "stop_loss_percent": 0.0,
+      "strategy_tags": [
+        "chittick_cash"
+      ],
+      "symbol": "GOOGL",
+      "target_allocation_percent": 0.0,
+      "thesis": "Alphabet remains a high-quality core business with durable cash generation and optionality in search, cloud, and AI, but it should only be used when there is a fresh catalyst because it has already appeared repeatedly in prior trade screens.",
+      "valuation_case": "Absent new price or fundamental evidence, valuation cannot be judged attractive enough for execution here."
+    },
+    {
+      "adversary_case": "The strongest objection is that there is no documented fresh evidence, so any trade would be thesis-first rather than evidence-first.",
+      "allocation_learning_note": "No allocation until a verified catalyst and basic quality evidence are available.",
+      "balance_sheet_risk": "Unknown from the supplied materials, so balance-sheet risk must be treated as unresolved.",
+      "bear_case": "The trade can fail if it is merely a watchlist name without operational proof, liquidity support, or a documented catalyst.",
+      "capital_allocation_case": "No management discipline evidence is available in the supplied results.",
+      "catalyst": "No specific fresh catalyst is present in the supplied results.",
+      "catalyst_type": "general",
+      "chittick_cash_score": 44.0,
+      "chittick_reject_reason": "insufficient_fresh_catalyst_and_source_depth",
+      "concentration_case": "It can stay on the research list, but not above better-evidenced candidates.",
+      "confidence": 0.28,
+      "congressional_signal": "none",
+      "diversity_bucket": "materials-special-situation",
+      "entry_plan": "Monitor only until there is a company filing, contract, earnings update, or technical breakout with volume confirmation.",
+      "exit_plan": "If a valid catalyst later appears, use a very tight invalidation because small-cap setups can reverse quickly and gap down.",
+      "fresh_catalyst": true,
+      "growth_runway": "If the company has a real operating runway, it would need to be demonstrated in filings or earnings; that evidence is absent here.",
+      "hf_evidence_rank": 0.14,
+      "hf_filter_vetoes": [
+        "source_thin"
+      ],
+      "hf_hype_risk": 0.12,
+      "hf_memory_similarity": 0.21,
+      "hf_model_notes": "Seed-watchlist status is noted, but evidence depth is too thin for trade use.",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "neutral",
+      "hf_sentiment_score": 0.1,
+      "hf_source_quality_score": 0.18,
+      "horizon_days": 5,
+      "margin_of_safety_case": "No current evidence of a true discount to business value is supplied.",
+      "market_regime": "A small-cap or special-situation name would be most vulnerable in a choppy, headline-sensitive tape.",
+      "momentum_case": "No reliable momentum or breakout evidence is provided in the supplied results.",
+      "owner_hold_case": "Review only after a documented filing, contract win, or earnings report establishes a real 30-180 day thesis.",
+      "quality_case": "Insufficient company-quality evidence is supplied here to justify a margin-of-safety claim.",
+      "recommendation": "monitor-only",
+      "repeat_count_48h": 0,
+      "research_tier": "monitor-only",
+      "risk_reward": "Potentially attractive only if a real catalyst emerges; currently too speculative for execution.",
+      "sector": "Materials / Special Situation",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "none",
+      "source_quality": "Weak because the supplied results do not include a USAR-specific catalyst or filing.",
+      "source_urls": [
+        "https://www.stocktitan.net/sec-filings/OTAI/"
+      ],
+      "stop_loss_percent": 0.0,
+      "strategy_tags": [
+        "chittick_cash"
+      ],
+      "symbol": "USAR",
+      "target_allocation_percent": 0.0,
+      "thesis": "USAR is a Chittick Cash seed-watchlist name that could fit a long-only quality/catalyst framework if it shows a real operational or filing catalyst, but the supplied results do not provide enough evidence for execution today.",
+      "valuation_case": "Cannot be judged attractive without a current filing, price context, or catalyst."
+    },
+    {
+      "adversary_case": "The main objection is that this is a seed-watchlist name without a documented catalyst or current edge.",
+      "allocation_learning_note": "No allocation until a documented catalyst and stronger source set appear.",
+      "balance_sheet_risk": "Cyclical balance-sheet stress is a relevant risk but not quantified in the supplied materials.",
+      "bear_case": "Without a new catalyst, GT remains vulnerable to cyclicality, margin compression, and thesis drift.",
+      "capital_allocation_case": "No current evidence on management allocation discipline is provided.",
+      "catalyst": "No fresh GT-specific catalyst is documented in the supplied results.",
+      "catalyst_type": "general",
+      "chittick_cash_score": 43.0,
+      "chittick_reject_reason": "no_fresh_catalyst_and_insufficient_quality_evidence",
+      "concentration_case": "Not strong enough to displace better-evidenced names.",
+      "confidence": 0.26,
+      "congressional_signal": "none",
+      "diversity_bucket": "consumer-cyclical-manufacturing",
+      "entry_plan": "Monitor only; require a fresh earnings surprise, pricing improvement, or volume-confirmed breakout before considering entry.",
+      "exit_plan": "If later entered, use a modest stop under the catalyst day low and sell into strength as the move matures.",
+      "fresh_catalyst": false,
+      "growth_runway": "Longer-term runway would depend on replacement demand, pricing, and margin recovery, but none of that is evidenced here.",
+      "hf_evidence_rank": 0.12,
+      "hf_filter_vetoes": [
+        "source_thin"
+      ],
+      "hf_hype_risk": 0.08,
+      "hf_memory_similarity": 0.19,
+      "hf_model_notes": "No evidence-backed edge; keep as a monitor item only.",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "neutral",
+      "hf_sentiment_score": 0.09,
+      "hf_source_quality_score": 0.16,
+      "horizon_days": 5,
+      "margin_of_safety_case": "No present evidence of undervaluation with improving fundamentals.",
+      "market_regime": "Cyclical industrial/consumer-auto exposure is generally less favored than high-quality megacaps in a selective tape.",
+      "momentum_case": "No momentum confirmation is supplied.",
+      "owner_hold_case": "Only revisit if there is a documented earnings or operational catalyst that changes the 30-180 day thesis.",
+      "quality_case": "The supplied results do not provide enough GT-specific fundamental evidence to make a strong quality case.",
+      "recommendation": "monitor-only",
+      "repeat_count_48h": 0,
+      "research_tier": "monitor-only",
+      "risk_reward": "Not attractive today because the evidence is too thin.",
+      "sector": "Consumer Discretionary / Tires",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "none",
+      "source_quality": "Weak because no GT-specific supporting source is included in the prompt.",
+      "source_urls": [],
+      "stop_loss_percent": 0.0,
+      "strategy_tags": [
+        "chittick_cash"
+      ],
+      "symbol": "GT",
+      "target_allocation_percent": 0.0,
+      "thesis": "Goodyear can fit a quality-plus-catalyst framework only if there is a concrete operational or pricing catalyst, but the current evidence set does not supply one.",
+      "valuation_case": "Cannot be called cheap on the basis of the supplied results."
     }
   ],
-  "summary": "Equities remain in a late\u2011cycle, earnings\u2011supported but rate\u2011sensitive risk\u2011on regime, with quality growth and select energy/industrial names favored; a fresh capital\u2011raise plus multi\u2011year contract pipeline at NeoVolta creates a catalyst-rich, higher\u2011risk swing setup that fits a tightly risk\u2011defined 5\u20137 day paper trade, while broader discovery should avoid over\u2011concentration in repeated mega\u2011cap tech."
+  "summary": "The current setup favors selective, catalyst-backed longs rather than broad beta: recent evidence points to a narrow, earnings- and news-driven tape with elevated headline risk, so quality names with fresh fundamental catalysts are preferred over stale repeats."
 }
 -->
 
@@ -1496,4 +1656,13 @@ No candidates.
 | Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
 |---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
 | NEOV | energy-technology / clean energy storage | execution-ready | small-cap-energy-storage | 4 | yes | 0.68 | 63 | 0 | 0 | 5.0% | 8.0% | execute-if-guards-pass | 1) May 28, 2026 public equity offering of ~12.2M shares at $2.05 per share for ~$25M gross proceeds, expected to close imminently, which removes near-term fundi |
+
+## Latest Candidates - 2026-05-29 00:05:42 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| GOOGL | Communication Services / Internet / Cloud | stale-watch | mega-cap-internet-cloud | 6 | yes | 0.41 | 66 | 0 | 1 | 0.0% | 0.0% | watch | No new company-specific catalyst is documented in the supplied results, so this is not execution-ready on freshness alone. |
+| GOOGL | Communication Services / Internet / Cloud | stale-watch | mega-cap-internet-cloud | 6 | yes | 0.41 | 66 | 0 | 1 | 0.0% | 0.0% | watch | No new company-specific catalyst is documented in the supplied results, so this is not execution-ready on freshness alone. |
+| USAR | Materials / Special Situation | monitor-only | materials-special-situation | 0 | yes | 0.28 | 44 | 0 | 1 | 0.0% | 0.0% | monitor-only | No specific fresh catalyst is present in the supplied results. |
+| GT | Consumer Discretionary / Tires | monitor-only | consumer-cyclical-manufacturing | 0 | no | 0.26 | 43 | 0 | 1 | 0.0% | 0.0% | monitor-only | No fresh GT-specific catalyst is documented in the supplied results. |
 

@@ -22957,4 +22957,46 @@ HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
 Self-learning: tier=execution-ready repeat48h=4 fresh=yes bucket=small-cap-energy-storage
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-29 00:05:42 Eastern Daylight Time
+
+Research Update
+
+Market tone: The current setup favors selective, catalyst-backed longs rather than broad beta: recent evidence points to a narrow, earnings- and news-driven tape with elevated headline risk, so quality names with fresh fundamental catalysts are preferred over stale repeats.
+Candidates: 4
+
+1. GOOGL (Communication Services / Internet / Cloud) | confidence 0.41 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier stale-watch | bucket mega-cap-internet-cloud | HF source 0/100 | HF veto
+Recommendation: watch
+Catalyst: No new company-specific catalyst is documented in the supplied results, so this is not execution-ready on freshness alone.
+Chittick Cash: Quality is strong, but the current evidence does not show a valuation dislocation or a fresh catalyst that would create a clear margin of safety.
+HF filter: sentiment=neutral source=0/100 hype=0.05 vetoes=1
+Self-learning: tier=stale-watch repeat48h=6 fresh=yes bucket=mega-cap-internet-cloud
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. GOOGL (Communication Services / Internet / Cloud) | confidence 0.41 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier stale-watch | bucket mega-cap-internet-cloud | HF source 0/100 | HF veto
+Recommendation: watch
+Catalyst: No new company-specific catalyst is documented in the supplied results, so this is not execution-ready on freshness alone.
+Chittick Cash: Quality is strong, but the current evidence does not show a valuation dislocation or a fresh catalyst that would create a clear margin of safety.
+HF filter: sentiment=neutral source=0/100 hype=0.05 vetoes=1
+Self-learning: tier=stale-watch repeat48h=6 fresh=yes bucket=mega-cap-internet-cloud
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. USAR (Materials / Special Situation) | confidence 0.28 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket materials-special-situation | HF source 0/100 | HF veto
+Recommendation: monitor-only
+Catalyst: No specific fresh catalyst is present in the supplied results.
+Chittick Cash: No current evidence of a true discount to business value is supplied.
+HF filter: sentiment=neutral source=0/100 hype=0.12 vetoes=1
+Self-learning: tier=monitor-only repeat48h=0 fresh=yes bucket=materials-special-situation
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+4. GT (Consumer Discretionary / Tires) | confidence 0.26 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket consumer-cyclical-manufacturing | HF source 0/100 | HF veto
+Recommendation: monitor-only
+Catalyst: No fresh GT-specific catalyst is documented in the supplied results.
+Chittick Cash: No present evidence of undervaluation with improving fundamentals.
+HF filter: sentiment=neutral source=0/100 hype=0.08 vetoes=1
+Self-learning: tier=monitor-only repeat48h=0 fresh=no bucket=consumer-cyclical-manufacturing
+Social buzz, low weight: none
+Congress signal, low weight: none
 
