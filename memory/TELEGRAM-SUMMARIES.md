@@ -23065,4 +23065,37 @@ HF filter: sentiment=weakly_positive source=1/100 hype=0.21 vetoes=0
 Self-learning: tier=watch repeat48h=1 fresh=yes bucket=small-cap-biotech
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-29 06:13:20 Eastern Daylight Time
+
+Research Update
+
+Market tone: Risk-on, earnings‑driven tape with broadening beyond mega‑cap tech, but with elevated valuation and event risk favoring short, catalyst-aligned swings in high‑quality names.
+Candidates: 3
+
+1. ABNB (Consumer Discretionary / Online Travel & Experiences) | confidence 0.71 | allocation 8.0% | stop 8.0% | Chittick 74/100 | tier execution-ready | bucket consumer-internet-travel | HF source 1/100
+Recommendation: execute-if-guards-pass
+Catalyst: Fresh Form 10-Q filed May 7, 2026 with updated financials and commentary on demand, margins, and product initiatives, which can anchor near-term expectations and support post-filing drift in a constructive tape.[11]
+Chittick Cash: Margin of safety is moderate rather than deep: the business quality and balance sheet are strong, but travel/internet valuations can be cyclical and sensitive to sentiment; position sizing and stop discipline, not che...
+HF filter: sentiment=not run source=1/100 hype=0.20 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=consumer-internet-travel
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. MRK (Healthcare / Pharmaceuticals) | confidence 0.69 | allocation 0.0% | stop 8.0% | Chittick 80/100 | tier watch | bucket large-cap-pharma-defensive | HF source 1/100
+Recommendation: watch
+Catalyst: Recent annual shareholders meeting on May 26, 2026 with updated strategic commentary and reference to the 2026 proxy and 2025 10-K, plus fresh pivotal Phase 3 data for hepatitis B therapy bepirovirsen showing unprecedented functional cur...
+Chittick Cash: As a profitable, diversified pharma with recurring cash flows, Merck offers a higher margin of safety than small biotechs; valuation is more moderate, and downside is cushioned by dividends and established franchises,...
+HF filter: sentiment=not run source=1/100 hype=0.10 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=large-cap-pharma-defensive
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. APGE (Healthcare / Biotechnology) | confidence 0.63 | allocation 0.0% | stop 10.0% | Chittick 35/100 | tier watch | bucket small-mid-cap-biotech | HF source 1/100
+Recommendation: watch
+Catalyst: Recent 10-Q filed May 11, 2026 and announced participation in upcoming June conferences, which can surface new clinical and strategic updates to investors and potentially drive incremental interest.[5]
+Chittick Cash: Margin of safety is thin because there is no commercial cash flow; protection comes only from balance-sheet cash and pipeline potential, which is inherently uncertain.
+HF filter: sentiment=not run source=1/100 hype=0.30 vetoes=0
+Self-learning: tier=watch repeat48h=2 fresh=yes bucket=small-mid-cap-biotech
+Social buzz, low weight: none
+Congress signal, low weight: none
 
