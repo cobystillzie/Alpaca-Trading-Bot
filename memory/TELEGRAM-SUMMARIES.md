@@ -23098,4 +23098,28 @@ HF filter: sentiment=not run source=1/100 hype=0.30 vetoes=0
 Self-learning: tier=watch repeat48h=2 fresh=yes bucket=small-mid-cap-biotech
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-29 07:51:46 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities remain in a late‑cycle, AI-and-mega-cap-led risk‑on regime with narrow breadth and elevated single‑stock event risk; no strong, broad-based dislocation is evident, so short‑horizon paper trades should be selective, catalyst-driven, and sized conservatively.
+Candidates: 2
+
+1. WSC (industrials / specialized real estate-like services (modular workspaces and storage)) | confidence 0.73 | allocation 8.0% | stop 8.0% | Chittick 74/100 | tier execution-ready | bucket quality-industrials-infrastructure | HF source 1/100
+Recommendation: execute-if-guards-pass
+Catalyst: Recently declared a quarterly cash dividend of $0.07 per share with record date March 4, 2026 and payment date March 18, 2026, reinforcing balance-sheet strength, shareholder-return commitment, and signaling management confidence in cash...
+Chittick Cash: Asset-backed operations with long-lived modular units, recurring use cases, and a growing installed base provide some downside support relative to highly intangible or pure-growth names.[sec_quality:0] However, the st...
+HF filter: sentiment=not run source=1/100 hype=0.12 vetoes=0
+Self-learning: tier=execution-ready repeat48h=1 fresh=yes bucket=quality-industrials-infrastructure
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. FC (consumer discretionary / business services (education & training)) | confidence 0.61 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier watch | bucket niche-business-services | HF source 1/100
+Recommendation: watch
+Catalyst: Scheduled release of fiscal Q2 2026 financial results after the market close on Wednesday, April 1, 2026, followed by a 5:00 p.m. ET conference call; earnings surprises, updated guidance on subscription growth, and commentary on enterpri...
+Chittick Cash: There is limited evidence of a large valuation discount or strong asset backing; margin of safety resides primarily in the recurring nature of enterprise relationships and intellectual property, which is less tangible...
+HF filter: sentiment=not run source=1/100 hype=0.18 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=niche-business-services
+Social buzz, low weight: none
+Congress signal, low weight: none
 
