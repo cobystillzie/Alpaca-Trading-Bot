@@ -23528,4 +23528,201 @@ Model notes: Narrative‑rich but catalyst‑light; suitable for monitoring rath
 Social buzz, max 10%: Moderate-to-high buzz focused on the contrast between strong AI claims and weak share performance, which raises hype risk if used as a primary driver; here it serves only as context.[social_buzz→CRM]
 Congress signal, max 5%: none
 Sources: https://stocktwits.com/news-articles/markets/equity/crm-stock-is-struggling-but-ceo-says-no-saa-s-company-is-doing-more-agentforce-s-1-b-run-rate-is-his-evidence/cZgi7L7Res9
+## Performance Ledger - 2026-05-29 12:40:01 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-05-29 12:40:01 Eastern Daylight Time
+- Portfolio value: $100,197.10
+- P/L vs $100k baseline: $197.10
+- Full paper-account return: 0.197%
+- Managed-capital return: 1.97%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 3.52%
+- Latest position value: $5,797.10
+- Full-account cash reserve: 94.2%
+- Managed-capital cash reserve: 42.0%
+- Max snapshot drawdown: $135.30 from 2026-05-08 16:30:03 Eastern Daylight Time to 2026-05-21 21:16:10 Eastern Daylight Time
+
+Open Position Review
+- DT: winner, value $866.35, unrealized P/L $66.35, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 21 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: loser, value $441.11, unrealized P/L $-58.89, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 22 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: winner, value $824.22, unrealized P/L $24.22, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 29 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- IBRX: loser, value $533.06, unrealized P/L $-66.94, entry 2026-05-11 09:48:18 Eastern Daylight Time, thesis age 18 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: winner, value $519.77, unrealized P/L $19.77, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 17 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: winner, value $868.69, unrealized P/L $68.69, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 28 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $821.19, unrealized P/L $21.19, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 23 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $922.72, unrealized P/L $122.72, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 31 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- SCHD: appeared 34 times; open position P/L $21.19.
+- INTC: appeared 32 times; market outcome unavailable until benchmark/candidate price history is captured.
+- SPMO: appeared 32 times; open position P/L $122.72.
+- GOOGL: appeared 29 times; open position P/L $24.22.
+- NVDA: appeared 29 times; open position P/L $68.69.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- UNP: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VALN: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- GLD: appeared 9 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Candidate references banned v1 instruments or leverage.: 18
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 11
+  - Single-stock allocation would exceed 15%.: 7
+  - A market-open order is already logged for today. No backup order was placed.: 5
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources.: 5
+  - Candidate references banned v1 instruments or leverage. Target allocation must be between 1% and 15%.: 4
+  - Max open-position count would be exceeded.: 4
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Confidence below 0.60. Target allocation must be between 1% and 15%.: 3
+- By symbol:
+  - INTU: 5
+  - AGI: 3
+  - BAH: 3
+  - GOOGL: 3
+  - PLTR: 3
+  - TMXX.F: 3
+  - COIN: 2
+  - FC: 2
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 0
+- social: 3
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold met: 8 trades over 31 days.
+- Strategy tuning may be reviewed, but safety guardrails still apply.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## Midday Memo - 2026-05-29 12:40:01 Eastern Daylight Time
+
+Midday Risk Memo
+
+Recommendation: Hold only positions whose thesis still matches the research; do not add unless guardrails pass.
+
+Market Regime
+Review current paper positions, thesis drift, concentration, stop discipline, and cash reserve.
+
+Portfolio
+Portfolio value: 100197.1 Cash: 94400 Buying power: 194597.1 Positions: - DT: qty=20.289119959, market_value=866.345422, unrealized_pl=66.345422 - GLRE: qty=28.042624789, market_value=441.110488, unrealized_pl=-58.889512 - GOOGL: qty=2.151289429, market_value=824.223519, unrealized_pl=24.223519 - IBRX: qty=70.838252656, market_value=533.057851, unrealized_pl=-66.942149 - LNC: qty=14.590020426, market_value=519.769478, unrealized_pl=19.769478 - NVDA: qty=4.00060009, market_value=868.690304, unrealized_pl=68.690304 - SCHD: qty=25.2286345, market_value=821.18953, unrealized_pl=21.18953 - SPMO: qty=6.119014838, market_value=922.716842, unrealized_pl=122.716842 Performance: value $100,197.10, P/L vs $100k $197.10, managed return 1.97%, deployed return 3.52%, managed cash reserve 42.0%.
+
+Top Candidates
+
+1. LLY (Healthcare – Pharmaceuticals/Biotech) | confidence 0.70 | allocation 8.0% | stop 7.0% | Chittick 78/100 | tier execution-ready | bucket large-cap-healthcare-metabolic | HF source 0/100
+Thesis: Eli Lilly is a high‑quality, wide‑moat pharma leader whose obesity franchise is receiving incremental reimbursement/cov­erage tailwinds, creating a catalyst-backed momentum swing setup within a structurally strong 30–180 day demand runway.
+Catalyst: Recent news that CVS restored coverage of LLY’s obesity drug Zepbound and added Foundayo has driven LLY to fresh all‑time highs, reflecting a concrete expansion of insurance/PBM access rather than pure sentiment, and supports higher prescription volume over the next several quarters.[social_buzz→...
+Entry: For paper-trading, consider a staggered entry: initial tranche if LLY holds above recent breakout support on normal volume after the CVS news (e.g., after a 1–2% intraday test that is bought), with a time window of the next 1–3 sessions; avoid chasing parab...
+Exit: Profit-taking: target roughly 2–3x the stop distance over a 5–7 day horizon (e.g., if risk is ~6%, aim for 12–18% upside, or tighten earlier on clear exhaustion candles or large gap-ups). Invalidation: cut the position if price closes decisively back below...
+Risk/reward: As a quality, catalyst‑backed momentum trade, the setup offers favorable asymmetric potential if the coverage expansion supports continued rerating, but the extended base and high expectations mean drawdowns could be sudden; a disciplined stop just below th...
+Bear/adversary: The strongest objection is that LLY is already priced for perfection on obesity, so even a real reimbursement win may be fully discounted; in that view, buying after all‑time highs on a widely known catalyst could be a poor risk/reward if any subsequent data, pricing pushback, or competitive news...
+Source quality: Evidence for the immediate catalyst and attention comes from news coverage of CVS restoring coverage and adding Foundayo; while this is a single-event healthcare news item rather than a full 10‑K/earnings review, reimbursement changes are a fundamental driv...
+Chittick Cash Filter
+Score: 78/100
+Margin of safety: On classic value metrics LLY is not cheap, but the margin of safety is rooted in a long demand runway for obesity and diabetes treatments, strong IP, and diversified cash flows; for a short 5–7 day swing, the operational margin of safety...
+Valuation: Valuation is stretched versus the market and historical pharma norms, but such premiums have been sustained in other high‑growth, high‑moat healthcare names; at current levels this is not a traditional value buy, but the CVS coverage eve...
+Growth runway: Over 30–180 days, broader GLP‑1 adoption, potential new indications, and further reimbursement/access expansions can drive sustained volume and revenue growth; beyond that, pipeline successes and geographic expansion add to a long struct...
+Balance-sheet risk: As a large, profitable pharma, LLY typically carries manageable debt relative to cash flows and has no obvious near‑term balance-sheet stress; the main risks are pipeline execution and regulatory outcomes rather than...
+Capital allocation: Management has historically reinvested in R&D and selective acquisitions to extend the metabolic and broader pipeline while returning capital via dividends and buybacks; this pattern is consistent with disciplined, sh...
+Concentration case: Compared with buying a broad healthcare ETF, a focused LLY position gives direct exposure to best‑in‑class obesity and diabetes assets with outsized upside from drug-specific catalysts, which aligns with a concentrated-quality lens when...
+Owner thesis, 30-180 days: A long‑only owner could justify 30–180 day or longer holding if GLP‑1 adoption continues to expand globally, reimbursement access broadens across payers, and the pipeline delivers additional metabolic or adjacent indications, supporting multi‑year earnings...
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: news
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: large-cap-healthcare-metabolic
+Research tier: execution-ready
+Allocation learning: Given strong business quality but extended valuation, favor mid-single to high-single-digit allocation rather than pushing toward max single-name limits.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.30
+Evidence rank: 1/100
+Memory similarity: 0.10
+Vetoes: none
+Model notes: Quality large-cap healthcare name with a real reimbursement catalyst and strong momentum; key constraint is elevated valuation and crowding risk.
+Social buzz, max 10%: Heightened attention around the all‑time high and CVS coverage news is visible, but commentary is largely anchored to the reimbursement event rather than pure meme-style hype, making it a confirmatory signal of intere...
+Congress signal, max 5%: none
+Sources: https://stocktwits.com/news-articles/markets/equity/lly-eli-lilly-cvs-stocks-gain-cvs-health-coverage-obesity-drugs-zepbound-foundayo/cZginEWRetb
+
+2. DKS (Consumer Discretionary – Specialty Retail) | confidence 0.66 | allocation 7.0% | stop 8.0% | Chittick 70/100 | tier execution-ready | bucket mid/large-cap-consumer-retail | HF source 0/100
+Thesis: Dick’s Sporting Goods is a profitable, scaled specialty retailer that just delivered earnings strong enough to trigger multiple analyst price-target hikes and positive comparison versus weaker peers, giving a fundamental and sentiment-backed swing opportunity in consumer discretionary.
+Catalyst: Post‑earnings, several Wall Street analysts raised price targets and updated views on DKS’s strategy relative to Foot Locker, signaling confidence in its execution and driving a cluster of fresh coverage that has put the stock in focus.[social_buzz→DKS]
+Entry: For paper execution, look for continuation above the post‑earnings reaction range with constructive volume; an entry in the next 1–3 sessions on a modest pullback toward short‑term support (e.g., prior day’s low or post‑earnings gap top) with intraday confi...
+Exit: Take profits into strength if the stock approaches 2–3x the defined risk from entry within 4–8 trading days, or sooner if clear exhaustion (large upper wicks, volume spike without follow‑through) appears; invalidate the trade on a decisive close back into o...
+Risk/reward: Risk/reward is moderate: upside is driven by earnings momentum and sentiment rerating, while downside is limited by technical post‑earnings support and the company’s solid fundamentals, provided stops are honored; macro shocks remain the key tail risk.
+Bear/adversary: The main objection is that DKS remains a cyclical, brick‑and‑mortar retailer in a late‑cycle environment, and analyst enthusiasm could be backward‑looking; if consumer spending softens or inventory builds, the stock could give back recent gains despite current optimism.
+Source quality: The available evidence comes from news summarizing multiple analyst target changes and post‑earnings commentary, which, while not as strong as direct filings, reflects institutional analysis of recent financial performance and positioning versus peers, givi...
+Chittick Cash Filter
+Score: 70/100
+Margin of safety: Valuation is typically mid‑teens earnings and not deeply distressed, but the margin of safety is supported by solid profitability, dividend history, and an improving competitive position versus some weaker peers; it is not a deep-value n...
+Valuation: Analyst target hikes suggest the market may be willing to pay a bit more for DKS given its execution and relative strength; at the same time, valuation does not appear extreme compared with high‑flyer growth stocks, making the price acce...
+Growth runway: Over 30–180 days, growth will depend on maintaining traffic and basket size, expanding omni‑channel and private labels, and potentially gaining market share from weaker competitors; these drivers can sustain mid‑single digit to higher gr...
+Balance-sheet risk: As a mature retailer, DKS carries some operating leverage tied to leases and labor, but it generally manages debt and liquidity conservatively; barring a severe recession, balance-sheet stress risk appears manageable.
+Capital allocation: Management has a track record of reinvesting in store experience and digital, paying dividends, and opportunistically repurchasing shares; this balanced capital allocation approach is consistent with a cash-generative...
+Concentration case: Holding DKS adds sectoral diversification versus tech-heavy indices or AI names; for a concentrated-quality lens, it offers targeted exposure to a winner in a niche of consumer discretionary rather than broad retail, which can be weighed...
+Owner thesis, 30-180 days: An owner could justify 30–180 day holding if post‑earnings trends in traffic, margins, and share gains continue, especially if the macro backdrop avoids a hard landing and management executes on omni‑channel growth initiatives.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: mid/large-cap-consumer-retail
+Research tier: execution-ready
+Allocation learning: Given cyclical risk and sector concentration, keep position size at or below mid‑range of allowed single‑name allocation and pair with non‑consumer exposures.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.25
+Evidence rank: 1/100
+Memory similarity: 0.10
+Vetoes: none
+Model notes: Earnings‑anchored retail swing with analyst support; macro sensitivity is the primary risk.
+Social buzz, max 10%: Moderate buzz tied to analyst reactions and strategy versus Foot Locker, with a balanced mix of bullish and cautious commentary, suggesting attention without excessive hype.[social_buzz→DKS]
+Congress signal, max 5%: none
+Sources: https://stocktwits.com/news-articles/markets/equity/dks-stock-in-focus-wall-street-price-target-dick-s-sporting-foot-locker-strategy/cZgi9xXResg
+
+3. CRM (Information Technology – Application Software) | confidence 0.57 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier monitor-only | bucket large-cap-enterprise-software | HF source 0/100
+Thesis: Salesforce remains a high‑quality, cash‑generative SaaS platform with a large installed base and emerging AI products such as Agentforce, but its recent share‑price underperformance versus the AI narrative sets up better as a watch or small, allocation-muted idea than a full-sized swing.
+Catalyst: Recent commentary highlights that Salesforce’s CEO is emphasizing AI leadership and pointing to Agentforce surpassing a $1B run‑rate as evidence, even as the stock has struggled year‑to‑date; this narrative-versus-price gap is drawing attention but does not yet constitute a hard fundamental infle...
+Entry: Given the lack of a clear, fresh hard catalyst and the weak momentum profile, this should remain a watch or at most a tiny, allocation-muted tranche in paper testing, only considered for actual swing entries if a strong post‑earnings or guidance-driven brea...
+Exit: For monitoring only: define hypothetical paper exits around clear technical levels (e.g., reclaiming and holding above a key moving average on volume) to test rules, but do not treat these as execution-ready triggers under current conditions.
+Risk/reward: Current risk/reward is ambiguous: valuation is not distressed enough for deep value, while momentum is not strong enough for a pure trend trade; without a new earnings or bookings catalyst, the trade lacks a clear asymmetric edge for a 1–10 day horizon.
+Bear/adversary: A bull might argue that underperformance has already discounted skepticism and that any positive earnings surprise or AI monetization detail could trigger a sharp rerating; however, without event timing clarity, this remains speculative for a short-horizon strategy.
+Source quality: Information is drawn from CEO commentary and coverage of AI product milestones, which are meaningful but not yet corroborated with detailed, updated financial metrics in this context; overall, this is medium-quality narrative evidence rather than robust, mu...
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: From a Chittick Cash angle, the margin of safety is not compelling yet: the business is high quality, but the stock does not trade at a clear distressed or under‑owned valuation, nor is there an obvious near‑term de‑risking event within...
+Valuation: Valuation has come down from peak SaaS multiples but remains tied to growth and margin expansion expectations; without an updated earnings lens here, it is difficult to argue that the current price offers a strong value entry versus the...
+Growth runway: Longer term, growth could be driven by AI agents (Agentforce), cross‑sell into the installed base, and international expansion; however, these are multi‑year drivers and not yet a near‑term swing catalyst.
+Balance-sheet risk: CRM has a robust balance sheet for a large software company, with ample liquidity and no obvious near‑term solvency concerns; the key risk is not financial stress but growth and margin trajectory.
+Capital allocation: Management has shown willingness to use buybacks and selective M&A; debates remain about acquisition discipline, but overall capital allocation has supported scale and breadth of offerings.
+Concentration case: As a large, diversified SaaS name, CRM can be a core software exposure, but in a concentrated-quality portfolio it may be lower priority than names with clearer catalysts or more compelling valuation today.
+Owner thesis, 30-180 days: A 30–180 day owner case would require evidence that AI features are driving incremental bookings and that operating leverage is improving margins, ideally confirmed in upcoming earnings and guidance updates.
+Chittick reject reason: No near‑term hard catalyst or confirmed momentum; AI narrative is strong but not yet matched by tape or fresh fundamental surprise.
+Self-Learning Filter
+Catalyst type: general
+Fresh catalyst: yes
+Repeat count, 48h: 2
+Diversity bucket: large-cap-enterprise-software
+Research tier: monitor-only
+Allocation learning: Given prior rejections for hype‑driven or source‑thin AI names, keep CRM firmly in monitor-only until a concrete earnings or bookings inflection appears.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.45
+Evidence rank: 1/100
+Memory similarity: 0.10
+Vetoes: none
+Model notes: Narrative‑rich but catalyst‑light; suitable for monitoring rather than active swing at this time.
+Social buzz, max 10%: Moderate-to-high buzz focused on the contrast between strong AI claims and weak share performance, which raises hype risk if used as a primary driver; here it serves only as context.[social_buzz→CRM]
+Congress signal, max 5%: none
+Sources: https://stocktwits.com/news-articles/markets/equity/crm-stock-is-struggling-but-ceo-says-no-saa-s-company-is-doing-more-agentforce-s-1-b-run-rate-is-his-evidence/cZgi7L7Res9
 
