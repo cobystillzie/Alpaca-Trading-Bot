@@ -1284,4 +1284,9 @@ Candidates found: 1
 The current setup favors selective, catalyst-backed longs rather than broad beta: recent evidence points to a narrow, earnings- and news-driven tape with elevated headline risk, so quality names with fresh fundamental catalysts are preferred over stale repeats.
 
 Candidates found: 4
+## Two-Hour Research Agent - 2026-05-29 02:07:21 Eastern Daylight Time
+
+US equities remain in a late‑cycle, growth‑led regime: mega‑cap tech and AI beneficiaries are driving index strength, while higher-for-longer yields and narrow leadership argue for selective, quality‑biased exposure and tight risk controls.
+
+Candidates found: 3
 

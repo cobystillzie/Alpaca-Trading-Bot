@@ -22999,4 +22999,37 @@ HF filter: sentiment=neutral source=0/100 hype=0.08 vetoes=1
 Self-learning: tier=monitor-only repeat48h=0 fresh=no bucket=consumer-cyclical-manufacturing
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-29 02:07:21 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities remain in a late‑cycle, growth‑led regime: mega‑cap tech and AI beneficiaries are driving index strength, while higher-for-longer yields and narrow leadership argue for selective, quality‑biased exposure and tight risk controls.
+Candidates: 3
+
+1. UBER (Communication Services / Ride‑hailing & Mobility Platform) | confidence 0.70 | allocation 7.0% | stop 8.0% | Chittick 68/100 | tier execution-ready | bucket mobility-platform-ai-adjacent | HF source 1/100
+Recommendation: execute-if-guards-pass
+Catalyst: Recent analyst work raised the fair value/price target from about $103.46 to $105.01, explicitly tying upside to higher modeled revenue growth and the rising importance of autonomous‑vehicle partnerships (e.g., Nvidia and Zoox) and drive...
+Chittick Cash: At a valuation that already embeds meaningful growth and AV optimism, the margin of safety is moderate rather than high; the upside case depends on continued execution in profitability and AV integration, so position...
+HF filter: sentiment=not run source=1/100 hype=0.28 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=mobility-platform-ai-adjacent
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. AVPT (Information Technology / Software) | confidence 0.55 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier watch | bucket mid-cap-software | HF source 1/100
+Recommendation: watch
+Catalyst: Recent coverage provides live pricing, analyst ratings, earnings data, and news flow around the name, but no single, time‑stamped hard catalyst (such as a just‑released earnings beat or large contract) stands out in the supplied snapshot...
+Chittick Cash: Without a detailed valuation cross‑check (e.g., EV/Sales vs. growth vs. peers), the margin of safety cannot be characterized as high; the preliminary bias is that this is a quality‑leaning growth name where valuation...
+HF filter: sentiment=not run source=1/100 hype=0.20 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=mid-cap-software
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. RNAZ (Health Care / Biotechnology) | confidence 0.78 | allocation 0.0% | stop 10.0% | Chittick 32/100 | tier monitor-only | bucket micro-cap-biotech-spec | HF source 0/100 | HF veto
+Recommendation: avoid
+Catalyst: Recent information focuses on the company’s business description and trading data but does not highlight a specific, near‑dated trial readout, regulatory decision, or partnership announcement within the immediate window.[12]
+Chittick Cash: With no approved products, limited revenue, and ongoing cash burn, the intrinsic value is highly uncertain and largely option‑like; there is no reliable margin of safety in the traditional sense.[12]
+HF filter: sentiment=not run source=0/100 hype=0.60 vetoes=2
+Self-learning: tier=monitor-only repeat48h=0 fresh=yes bucket=micro-cap-biotech-spec
+Social buzz, low weight: none
+Congress signal, low weight: none
 
