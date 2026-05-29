@@ -23776,4 +23776,37 @@ HF filter: sentiment=neutral source=1/100 hype=0.11 vetoes=2
 Self-learning: tier=monitor-only repeat48h=2 fresh=no bucket=broad-tech-etf
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-05-29 14:52:10 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities remain in a broadly risk-on environment led by large-cap tech and AI, but with crowded positioning and low volatility that argue for strict position sizing, clear catalysts, and disciplined exits over 1–10 day horizons.
+Candidates: 3
+
+1. COST (Consumer Staples / Retail) | confidence 0.70 | allocation 8.0% | stop 6.0% | Chittick 80/100 | tier execution-ready | bucket consumer-staples-defensive-compounder
+Recommendation: execute-if-guards-pass
+Catalyst: Fresh earnings report with solid revenue growth, strong comparable sales, and healthy membership renewals and fee growth, reinforcing Costco’s defensive-but-growing positioning in a risk-on tape.
+Chittick Cash: Fundamental margin of safety is strong due to business quality, membership model, and balance sheet, but valuation leaves less price-based margin of safety; for a 1–10 day swing, the key margin of safety is technical...
+HF filter: sentiment=not run source=0/100 hype=0.10 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=consumer-staples-defensive-compounder
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. TMXX.F (Financials / Market Infrastructure) | confidence 0.60 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier monitor-only | bucket financials-market-infrastructure
+Recommendation: monitor-only
+Catalyst: No strong near-term company-specific catalyst identified in the latest data; the main drivers are broader market volumes, listings, and potential corporate actions or regulatory changes affecting exchanges.
+Chittick Cash: Model-based analysis indicates the stock trades above some estimates of fair value, suggesting a thin margin of safety at current levels; given business quality, this is not a structural red flag but argues for patien...
+HF filter: sentiment=not run source=0/100 hype=0.10 vetoes=0
+Self-learning: tier=monitor-only repeat48h=0 fresh=yes bucket=financials-market-infrastructure
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. SPY (Broad US Equity ETF) | confidence 0.68 | allocation 6.0% | stop 5.0% | Chittick 60/100 | tier execution-ready | bucket broad-us-equity-etf
+Recommendation: execute-if-guards-pass
+Catalyst: Macro backdrop of contained volatility, supportive credit conditions, and ongoing leadership in US large-cap growth; recent price action shows the index near highs with pullbacks being bought, reflecting persistent dip-buying behavior.
+Chittick Cash: As a broad ETF, SPY’s margin of safety is tied to overall market valuation and earnings trajectory, which are not cheap but supported by ongoing earnings growth; there is little idiosyncratic risk but also limited pri...
+HF filter: sentiment=not run source=0/100 hype=0.10 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=broad-us-equity-etf
+Social buzz, low weight: none
+Congress signal, low weight: none
 
