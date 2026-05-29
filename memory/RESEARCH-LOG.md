@@ -1325,4 +1325,9 @@ Premarket plan built from latest watchlist.
 US equities remain in a broadly risk‑on but concentrated regime, with AI/tech leadership, stock‑specific event volatility, and elevated macro uncertainty arguing for selective, catalyst‑driven swing trades in quality names with clear risk controls.
 
 Candidates found: 3
+## Two-Hour Research Agent - 2026-05-29 14:19:10 Eastern Daylight Time
+
+US equities remain in a **risk-on but narrow leadership** regime, with growth/AI and quality mega-caps still favored while cyclicals and many ex-US or rate-sensitive groups lag. The current setup supports selective long-only swings with tight risk controls, but repeated names without a fresh catalyst should be deprioritized.
+
+Candidates found: 5
 

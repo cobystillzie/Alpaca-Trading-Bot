@@ -23725,4 +23725,55 @@ Model notes: Narrative‑rich but catalyst‑light; suitable for monitoring rath
 Social buzz, max 10%: Moderate-to-high buzz focused on the contrast between strong AI claims and weak share performance, which raises hype risk if used as a primary driver; here it serves only as context.[social_buzz→CRM]
 Congress signal, max 5%: none
 Sources: https://stocktwits.com/news-articles/markets/equity/crm-stock-is-struggling-but-ceo-says-no-saa-s-company-is-doing-more-agentforce-s-1-b-run-rate-is-his-evidence/cZgi7L7Res9
+## Research Update - 2026-05-29 14:19:10 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities remain in a **risk-on but narrow leadership** regime, with growth/AI and quality mega-caps still favored while cyclicals and many ex-US or rate-sensitive groups lag. The current setup supports selective long-only swings with tight risk controls, but repeated names without a fresh catalyst should be deprioritized.
+Candidates: 5
+
+1. GOOGL (mega-cap internet / cloud / AI) | confidence 0.56 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier watch | bucket mega-cap-internet-cloud | HF source 1/100 | HF veto
+Recommendation: watch
+Catalyst: Use only if there is a fresh earnings, guidance, AI-product, antitrust, or breakout catalyst; otherwise it is repeat-stale and not execution-ready.
+Chittick Cash: High quality and balance-sheet strength provide some downside protection, but valuation only becomes compelling if the price pullback or catalyst setup improves.
+HF filter: sentiment=neutral source=1/100 hype=0.18 vetoes=1
+Self-learning: tier=watch repeat48h=6 fresh=yes bucket=mega-cap-internet-cloud
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. INTC (semiconductors / foundry / turnaround) | confidence 0.49 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier monitor-only | bucket semiconductor-turnaround | HF source 0/100 | HF veto
+Recommendation: monitor-only
+Catalyst: Fresh earnings, guidance, foundry-related update, or a confirmed breakout would be required; otherwise it remains a stale watch candidate.
+Chittick Cash: There may be balance-sheet and asset-value support, but margin of safety is not strong enough for a swing trade without catalyst confirmation.
+HF filter: sentiment=neutral source=0/100 hype=0.12 vetoes=1
+Self-learning: tier=monitor-only repeat48h=4 fresh=yes bucket=semiconductor-turnaround
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. USAR (materials / small-cap special situation) | confidence 0.22 | allocation 0.0% | stop 8.0% | Chittick 33/100 | tier monitor-only | bucket small-cap-special-situation | HF source 0/100 | HF veto
+Recommendation: monitor-only
+Catalyst: Needs a company-specific development such as contract news, production update, filing, or technical breakout.
+Chittick Cash: Margin of safety is low because the catalyst and durability case are not established.
+HF filter: sentiment=negative source=0/100 hype=0.41 vetoes=2
+Self-learning: tier=monitor-only repeat48h=1 fresh=yes bucket=small-cap-special-situation
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+4. GT (automotive tires / cyclical industrial) | confidence 0.38 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier watch | bucket cyclical-industrials | HF source 0/100 | HF veto
+Recommendation: watch
+Catalyst: Needs a fresh earnings, margin, restructuring, or demand-related catalyst to justify a trade.
+Chittick Cash: Cheapness alone is not enough; margin of safety is only adequate if operational improvement becomes visible.
+HF filter: sentiment=neutral source=0/100 hype=0.19 vetoes=1
+Self-learning: tier=watch repeat48h=2 fresh=yes bucket=cyclical-industrials
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+5. XLK (technology ETF) | confidence 0.44 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier monitor-only | bucket broad-tech-etf | HF source 1/100 | HF veto
+Recommendation: allocation-muted
+Catalyst: Broad tech leadership and ongoing AI-related index strength are the main structural supports, but there is no fresh single catalyst specific to the ETF in this pass.
+Chittick Cash: Diversification improves safety, but it does not create enough edge to justify new allocation here.
+HF filter: sentiment=neutral source=1/100 hype=0.11 vetoes=2
+Self-learning: tier=monitor-only repeat48h=2 fresh=no bucket=broad-tech-etf
+Social buzz, low weight: none
+Congress signal, low weight: none
 
