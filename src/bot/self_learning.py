@@ -50,6 +50,25 @@ HIGH_REPEAT_ALLOCATION_CONSTRAINT = 15
 STALE_REPEAT_QUARANTINE = 12
 RECENT_REJECTION_LOOKBACK_DAYS = 7
 
+EXPLICIT_BANNED_REJECTION_TERMS = (
+    "option",
+    "crypto",
+    "buying on margin",
+    "margin loan",
+    "borrowed margin",
+    "portfolio margin",
+    "margin borrowing",
+    "leveraged etf",
+    "leveraged fund",
+    "leveraged note",
+    "inverse etf",
+    "inverse fund",
+    "2x",
+    "3x",
+    "short selling",
+    "short-selling",
+)
+
 UNSAFE_DIFF_PATTERNS = (
     r"LIVE_TRADING_ENABLED\s*=\s*true",
     r"ALPACA_ENV\s*=\s*live",
@@ -236,7 +255,10 @@ def _rejection_labels(body: str) -> set[str]:
     labels: set[str] = set()
     clean = body.lower()
     if "candidate references banned v1 instruments or leverage" in clean:
-        labels.add("hard_banned")
+        if any(term in clean for term in EXPLICIT_BANNED_REJECTION_TERMS):
+            labels.add("hard_banned")
+        else:
+            labels.add("v1_ban_recheck")
     if "low-weight social/congress signal needs at least two stronger sources" in clean:
         labels.add("low_weight_signal")
     if "max open-position count would be exceeded" in clean:
@@ -310,6 +332,11 @@ def enrich_candidates_with_self_learning(root: Path, candidates: list[TradeCandi
         labels = rejection_labels.get(symbol, set())
         tier = candidate.research_tier
         target_allocation = candidate.target_allocation_percent
+        if "v1_ban_recheck" in labels:
+            blocked_note = (
+                "Recent generic v1 ban rejection requires a fresh eligibility recheck; do not auto-suppress a plain long-only stock or ETF without current banned-instrument evidence."
+            )
+            allocation_note = f"{allocation_note} {blocked_note}".strip()
         if "hard_banned" in labels:
             tier = "monitor-only"
             target_allocation = 0.0
@@ -393,6 +420,7 @@ def build_self_learning_policy(root: Path, review: str, candidates: list[TradeCa
             "- Top candidate sets should aim for at least three diversity buckets before execution-ready language is used.",
             "- Allocation-blocked candidates must either propose a smaller safe tranche or name a different-sector alternative; do not keep repeating the same 8% target.",
             "- Recently rejected hard-ban, low-weight-only, allocation-blocked, or max-position-blocked ideas must stay in `monitor-only` or `allocation-muted` lanes with zero allocation until the blocker is resolved.",
+            "- Generic v1 ban rejections require a current eligibility recheck; do not suppress plain long-only stocks or ETFs solely because older logs mentioned leverage without explicit options, margin, short, crypto, or leveraged/inverse product evidence.",
             "- Do not loosen live-trading, options, crypto, margin, short-selling, cash-reserve, or secret-handling rules.",
             "",
             "## Current Weekly Findings",
@@ -487,10 +515,10 @@ def finalize_self_learning_update(settings: Settings) -> int:
         f"pytest={pytest_result.returncode}, compileall={compile_result.returncode}"
     )
     behavior_changes = [
-        "Weekly review now treats Perplexity insufficient_quota as a hard provider block instead of retrying blindly.",
-        "Provider-blocked weekly reviews now write a clearly labeled local-memory summary instead of crashing before memory and Telegram reporting.",
-        "Blocked weekly reviews summarize deterministic repo signals only: repeated symbols, overused diversity buckets, and recent rejection labels.",
-        "Perplexity quota exhaustion is surfaced as PerplexityQuotaError so weekly review can handle it without weakening paper-only guardrails.",
+        "Banned-risk scoring now rejects explicit options, margin, shorting, crypto, and leveraged or inverse products without blocking plain-equity operating-leverage language.",
+        "Recent generic v1-ban rejections now trigger a current eligibility recheck instead of automatically muting ordinary stocks or ETFs for a week.",
+        "Research prompts now require dated catalyst deltas, duplicate removal, and throttling of overused technology, semiconductor, biotech, and ETF buckets.",
+        "Self-learning policy now records that ambiguous v1-ban logs must not suppress long-only paper candidates without current banned-instrument evidence.",
         "No live trading, options, crypto, margin, short selling, secrets, or credential behavior was enabled or loosened.",
     ]
     preliminary = evaluate_self_learning_finalize(

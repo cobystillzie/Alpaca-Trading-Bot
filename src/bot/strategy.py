@@ -17,7 +17,9 @@ BANNED_PATTERNS = [
     r"\bborrowed margin\b",
     r"\bportfolio margin\b",
     r"\bmargin borrowing\b",
-    r"\bleverage(?:d)?\b",
+    r"\bleveraged?\s+(?:etf|fund|note|product|instrument|exposure|long|short)\b",
+    r"\b(?:2x|3x|two[-\s]?times|three[-\s]?times)\s+(?:leveraged?\s+)?(?:etf|fund|note|product|exposure)\b",
+    r"\b(?:inverse|ultra|ultrapro)\s+(?:etf|fund|note|product)\b",
     r"\bshort sell(?:ing)?\b",
     r"\bshort-selling\b",
     r"\bshort dated\b",
@@ -129,6 +131,10 @@ def _has_chittick_reject_reason(text: str) -> bool:
     if clean.startswith(("pass", "passes", "passed")):
         return False
     return True
+
+
+def _references_banned_instrument_or_risk(text: str) -> bool:
+    return any(re.search(pattern, text) for pattern in BANNED_PATTERNS)
 
 
 def chittick_reject_reason_text(candidate: TradeCandidate) -> str:
@@ -260,8 +266,12 @@ Strategy:
 - Penalize stale repeated tickers when there is no fresh catalyst. Do not keep recycling GOOGL, NVDA, SPMO, or any other repeated name unless there is new earnings, filing, guidance, contract, upgrade, or confirmed breakout evidence.
 - Apply repeat decay after five appearances. Names above 12 repeats should not be execution-ready unless a hard fresh catalyst is documented; names above 15 repeats should include allocation-constrained language and fresh alternatives.
 - Build a broader discovery set. Aim for at least three diversity buckets across top candidates and include at least two alternatives from underrepresented sectors when a repeated mega-cap or broad ETF appears again.
+- Treat generic market-regime, analyst-interest, tech/AI leadership, and sector-momentum language as background context, not as a fresh catalyst by itself.
+- Before returning candidates, remove near-duplicates by ticker, bucket, and catalyst text. Keep a repeated ticker only when the JSON explains the dated catalyst delta versus prior memory.
+- Throttle overused buckets from recent memory, especially technology, semiconductors, biotech, and broad ETFs. Use at most one candidate from an overused bucket unless there is a hard dated catalyst.
 - If a candidate was blocked by allocation or concentration constraints, propose a smaller safe tranche or a different-sector alternative instead of repeating the same target allocation.
 - Keep two separate lanes: `trade_candidates` for ideas that can pass current paper-trading rules, and `monitor-only` / `allocation-muted` for ideas blocked by v1 bans, low-weight-only evidence, allocation, or max-position constraints. Monitor-only and allocation-muted ideas must have `target_allocation_percent` 0 and must not use execution-ready language.
+- Do not classify plain long-only stocks or ETFs as banned merely because their business case mentions operating leverage, earnings leverage, financial leverage, or operational leverage. Banned leverage means actual margin borrowing, shorting, options, crypto, or leveraged/inverse products.
 - Use social buzz only as attention/volume anomaly context. Maximum influence: {social_weight:.2f}.
 - Use congressional disclosures only as weak secondary catalyst context. Maximum influence: {congressional_weight:.2f}.
 - Social buzz and congressional disclosures must never be the main reason for a trade.
@@ -434,7 +444,7 @@ def score_candidate(candidate: TradeCandidate) -> ScoreResult:
 
     if not candidate.symbol:
         rejects.append("Missing symbol.")
-    if any(re.search(pattern, joined) for pattern in BANNED_PATTERNS):
+    if _references_banned_instrument_or_risk(joined):
         rejects.append("Candidate references banned v1 instruments or leverage.")
     if _signal_weight(candidate, "social_buzz") > 0.10:
         rejects.append("Social buzz weight exceeds the 10% maximum.")

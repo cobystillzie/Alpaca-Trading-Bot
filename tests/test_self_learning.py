@@ -256,10 +256,10 @@ def test_recent_rejection_labels_use_lookback_window(tmp_path):
 
     labels = recent_rejection_labels_by_symbol(tmp_path, now=now)
 
-    assert labels == {"AEP": {"hard_banned"}}
+    assert labels == {"AEP": {"v1_ban_recheck"}}
 
 
-def test_enrich_routes_recent_hard_ban_to_monitor_only(tmp_path):
+def test_enrich_rechecks_generic_v1_ban_without_auto_muting(tmp_path):
     memory = tmp_path / "memory"
     memory.mkdir()
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -279,6 +279,34 @@ def test_enrich_routes_recent_hard_ban_to_monitor_only(tmp_path):
     enriched = enrich_candidates_with_self_learning(
         tmp_path,
         [candidate("AEP", catalyst="Fresh earnings guidance raised today after close.")],
+    )[0]
+
+    assert enriched.research_tier == "execution-ready"
+    assert enriched.target_allocation_percent == 8
+    assert "fresh eligibility recheck" in enriched.allocation_learning_note
+
+
+def test_enrich_routes_explicit_hard_ban_to_monitor_only(tmp_path):
+    memory = tmp_path / "memory"
+    memory.mkdir()
+    now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    (memory / "WATCHLIST.md").write_text("# Watchlist\n", encoding="utf-8")
+    (memory / "REJECTED-TRADES.md").write_text(
+        "\n".join(
+            [
+                "# Rejected Trades",
+                f"## Rejected TQQQ - {now} Eastern Daylight Time",
+                "",
+                "Candidate references banned v1 instruments or leverage.",
+                "3x leveraged ETF product.",
+            ]
+        ),
+        encoding="utf-8",
+    )
+
+    enriched = enrich_candidates_with_self_learning(
+        tmp_path,
+        [candidate("TQQQ", catalyst="Fresh earnings guidance raised today after close.")],
     )[0]
 
     assert enriched.research_tier == "monitor-only"

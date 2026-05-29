@@ -76,5 +76,5 @@ def test_weekly_provider_blocked_review_uses_local_memory(tmp_path):
 
     assert payload["status"] == "provider-blocked"
     assert any("INTU x3" in lesson for lesson in payload["concise_lessons"])
-    assert payload["rejected_patterns"] == ["INTU: hard_banned"]
+    assert payload["rejected_patterns"] == ["INTU: v1_ban_recheck"]
     assert payload["signal_component_assessment"]["social_buzz"].endswith("10%.")

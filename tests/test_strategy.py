@@ -108,6 +108,24 @@ def test_score_allows_margin_of_safety_language():
     assert result.approved
 
 
+def test_score_allows_operating_leverage_language_for_plain_equity():
+    candidate = TradeCandidate(
+        symbol="COST",
+        thesis="Costco has a durable membership model and high-quality retail execution.",
+        catalyst="Fresh earnings showed revenue growth and operating leverage from fee income.",
+        quality_case="Recurring membership revenue and operating leverage support durable margins.",
+        momentum_case="Shares show post-earnings relative strength versus retail peers.",
+        bear_case="Premium valuation can compress if traffic or renewal rates weaken.",
+        confidence=0.78,
+        horizon_days=5,
+        target_allocation_percent=8,
+        stop_loss_percent=6,
+        source_urls=["https://investor.costco.com", "https://www.sec.gov"],
+    )
+    result = score_candidate(candidate)
+    assert result.approved
+
+
 def test_score_rejects_buying_on_margin_language():
     candidate = TradeCandidate(
         symbol="SPY",
@@ -120,6 +138,25 @@ def test_score_rejects_buying_on_margin_language():
         horizon_days=5,
         target_allocation_percent=10,
         stop_loss_percent=5,
+        source_urls=["https://example.com"],
+    )
+    result = score_candidate(candidate)
+    assert not result.approved
+    assert any("banned" in reason for reason in result.rejects)
+
+
+def test_score_rejects_leveraged_etf_language():
+    candidate = TradeCandidate(
+        symbol="TQQQ",
+        thesis="Use a 3x leveraged ETF to amplify Nasdaq exposure.",
+        catalyst="A leveraged ETF can move quickly after market news.",
+        quality_case="The structure relies on leverage and daily reset mechanics.",
+        momentum_case="Nasdaq trend is strong with relative strength.",
+        bear_case="Compounding decay and drawdowns can invalidate the setup.",
+        confidence=0.8,
+        horizon_days=5,
+        target_allocation_percent=8,
+        stop_loss_percent=8,
         source_urls=["https://example.com"],
     )
     result = score_candidate(candidate)
