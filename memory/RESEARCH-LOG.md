@@ -1340,4 +1340,12 @@ Candidates found: 3
 US equities remain in a late-cycle, growth-led bull phase with low index volatility, narrow leadership, and persistent flows into tech/AI and select EM while defensives lag. Policy remains restrictive and the risk backdrop favors selective, catalyst-driven swings in quality names rather than broad beta or speculative plays.
 
 Candidates found: 3
+## Premarket Plan - 2026-06-01 08:25:01 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- MSFT: score=78, base=85, chittick=72, approved=True, allocation=8.0%, stop=8.0%
+- WSC: score=76, base=85, chittick=66, approved=True, allocation=5.0%, stop=8.0%
+- KO: score=79, base=85, chittick=75, approved=False, allocation=0.0%, stop=5.0%
+  rejects: Candidate is monitor-only and cannot be traded.; Target allocation must be between 1% and 15%.
 
