@@ -308,4 +308,14 @@ Target allocation must be between 1% and 15%.
 Candidate references banned v1 instruments or leverage.
 Candidate is monitor-only and cannot be traded.
 Target allocation must be between 1% and 15%.
+## Rejected KO - 2026-06-01 09:55:02 Eastern Daylight Time
+
+Candidate is monitor-only and cannot be traded.
+Target allocation must be between 1% and 15%.
+## Rejected MSFT - 2026-06-01 09:55:02 Eastern Daylight Time
+
+Max open-position count would be exceeded.
+## Rejected WSC - 2026-06-01 09:55:02 Eastern Daylight Time
+
+Max open-position count would be exceeded.
 
