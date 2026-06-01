@@ -1348,4 +1348,9 @@ Premarket plan built from latest watchlist.
 - WSC: score=76, base=85, chittick=66, approved=True, allocation=5.0%, stop=8.0%
 - KO: score=79, base=85, chittick=75, approved=False, allocation=0.0%, stop=5.0%
   rejects: Candidate is monitor-only and cannot be traded.; Target allocation must be between 1% and 15%.
+## Two-Hour Research Agent - 2026-06-01 12:51:36 Eastern Daylight Time
+
+No execution-ready candidates are justified from the current evidence set. The regime remains constructive for quality growth, but the available fresh catalyst coverage is thin, and the strongest item in the feed, Lumentum, is extended after a very large multi-month move, making it better suited for watch status than a new 1-10 day swing entry.
+
+Candidates found: 3
 

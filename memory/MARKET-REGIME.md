@@ -9242,4 +9242,116 @@ The US equity market is grinding to record highs, but the underlying conditions 
 ## Market Regime Research - 2026-05-29 18:20:43 Eastern Daylight Time
 
 {"summary":"US equities remain in a **low-vol, bullish trend** with broad US indices at or near record highs, supported by resilient earnings and easing geopolitical risk, but the backdrop is a **late‑cycle, data‑dependent Fed** with asymmetric risk if inflation re-accelerates or growth weakens.[1][9][12][13] For a cautious paper-trading bot, the regime is still **risk‑on but extended**, warranting attention to narrow leadership, compressed index volatility, and the potential for sharper idiosyncratic moves beneath the surface.[1][3][10][13]","market_regime":{"index_trend":"Major US indices (S&P 500, Dow, Nasdaq, Russell 2000) are in **uptrends**, with all three large-cap benchmarks closing at fresh record highs on Thursday and extending gains on Friday (S&P +0.16%, Dow +0.13%, Nasdaq +0.20%, Russell 2000 +0.57%).[1][12] Equity index futures recently set new record levels as volatility dropped, consistent with a constructive equity tone.[12] This fits a **bullish, momentum‑driven regime**, characteristic of later‑cycle advances with strong index-level price action.","rates_and_fed":"Recent Fed communication is **hawkish on inflation but patient on cuts**: PIMCO notes that communications have turned more hawkish as persistent, partly supply-driven inflation keeps PCE more than 1 percentage point above the Fed’s 2% target and that recent minutes show a majority open to further firming if inflation does not moderate.[9] Their base case is the Fed **on hold through 2026**, with cuts pushed into 2027, but with a wider distribution of outcomes and a growing risk of an abrupt pivot in either direction later.[9] A May 29 speech from Fed Vice Chair Bowman emphasizes that growth provides key signals for inflation but is not itself a statutory objective, reinforcing that policy will remain **data-dependent and focused on inflation dynamics**.[2] Long-horizon projections (e.g., Wharton’s PWBM) see 10‑year Treasury yields drifting slightly lower from around the high‑4% area over the next decade, but that is structural, not a near‑term easing signal.[6] Net: the **rate backdrop is restrictive and stable**, not yet easing, with a mild bias toward hawkish risk if inflation stays sticky.[2][6][9]","volatility":"Index‑level volatility is **subdued**: the VIX is about 15.7, roughly 15% below its long‑term average of 18.6, indicating relatively calm index conditions.[13] CME notes that equity index futures hit new records as **market volatility dropped**, confirming the low‑vol environment.[12] However, there is **divergence under the surface**: one analysis highlights that while S&P 500 volatility is at its lowest since January (around 15.6), individual stock volatility remains near a one‑year high, implying higher single‑name risk than the index suggests.[3] For a cautious workflow, this mix points to a **complacent index regime with elevated idiosyncratic risk**, where shocks may manifest more in single stocks and sectors than in broad indices.[3][12][13]","earnings_tone":"The **earnings tone is generally supportive**, especially in technology and AI‑linked names. Company‑level data such as monday.com’s Q1 2026 EPS beat (around a 21% surprise vs consensus) and a positive price reaction illustrate ongoing upside surprises in select growth/software names.[5] Broader commentary from asset managers highlights that technology remains central to US growth and productivity, but with wide dispersion, implying that earnings strength is **concentrated and stock‑specific rather than uniform** across the market.[10] Emerging markets research indicates EM earnings are outpacing developed markets and expected to continue doing so, which indirectly underscores that global profit growth is still healthy even if leadership is shifting.[7] Overall, the US earnings backdrop remains **constructive but somewhat narrow**, with AI and tech-related profits a key pillar.[5][7][9][10]","risk_on_off":"Price action, volatility, and flows suggest a **moderate risk‑on** environment: indices at records, low VIX, and positive EM equity and EM fixed-income performance tied to improving macro and ceasefire optimism all point to risk appetite being intact.[1][7][12][13][15] At the same time, Fed hawkishness and ambiguous inflation drivers (supply shocks plus AI‑related demand) increase macro uncertainty and raise the risk of policy error, tempering the risk‑on stance.[9] This combination is typical of a **late‑cycle risk‑on regime**: supportive price and earnings trends, but with more asymmetric downside if inflation or growth surprise negatively.[1][9][12][13]"},"sector_rotation":{"leadership_and_concentration":"Technology and AI‑linked stocks remain **dominant drivers** of US equity performance; one institutional piece notes that technology accounts for roughly 40% of US growth and much of expected future productivity, while warning that dispersion within the sector has become very wide, making naive index concentration risky.[10] Commentary on AI‑led market leadership and bubble concerns similarly emphasizes that a subset of mega‑cap and AI beneficiaries has been carrying much of the index.[11] This implies a **narrow leadership regime**, with indices heavily reliant on a concentrated group of growth/tech names.","beyond_big_tech_rotation":"Some research stresses opportunities \"beyond big tech,\" advocating portfolios that stay close to benchmarks but apply explicit sector caps and selective overweights in non‑mega‑cap names with strong momentum and limited volatility.[10] This supports the view that **secondary leadership** is emerging in more diversified segments, even as tech remains core. Global context (EM equities outperforming developed markets since late 2024, aided by improving fundamentals) suggests part of the rotation is geographic rather than purely sectoral, but for a US‑focused bot this mainly flags **relative strength outside the US mega‑cap complex**.[7][10]","cyclical_vs_defensive":"Data in the sources is more qualitative than granular by GICS sector, but the pattern of low VIX, record indices, and strong tech/AI leadership with EM outperformance is consistent with **cyclical/growth sectors in favor** while defensives lag on a relative basis.[1][7][10][12][13] Strategist commentary on handling bull market \"extensions and rotations\" stresses that rotations are occurring within the growth spectrum (from early AI leaders to second‑tier beneficiaries), rather than a wholesale move into traditional defensives.[14] For a cautious system, the key signal is that **risk sectors (growth, tech, AI, select EM) are still attracting flows**, while full-scale defensive rotation has not yet taken hold.[7][10][11][14]"},"risk_flags":{"macro_policy_risk":["Fed communications have turned more hawkish, with minutes showing a majority willing to consider further tightening if inflation does not moderate, raising the risk that policy remains restrictive longer than markets expect.[9]","Inflation drivers are unusually hard to parse due to overlapping supply shocks and AI‑related demand, increasing the chance of policy missteps (tightening into a supply-driven slowdown or easing into a demand-driven reacceleration).[9]"],"valuation_and_concentration_risk":["Technology and AI‑linked equities remain central to US growth but exhibit extreme **dispersion**, implying that index-level exposure may mask high concentration risk in a small cohort of mega‑cap leaders.[10][11]","Asset managers and commentators warn that an AI‑driven leadership regime can involve bubble‑like dynamics; while explicit bubble calls vary, there is consensus that timing peaks is difficult and that the payoff profile is asymmetric for late entrants.[11]"],"volatility_structure_risk":["Index volatility (VIX ~15–16) is below its long‑term average, suggesting a degree of complacency at the index level.[13]","Research highlighting low S&P volatility alongside elevated single‑name volatility points to **hidden fragility**: correlations could rise abruptly in a shock, and single‑stock moves can be sharp even while indices appear calm.[3]"],"geopolitical_and_external_risk":["Equity gains are partly linked to easing geopolitical tensions (e.g., optimism around a tentative US‑Iran agreement to reopen the Strait of Hormuz), which remain contingent on fragile negotiations and political approval; setbacks could affect energy prices and risk sentiment.[1][9]","EM performance is supported by ceasefire optimism and a softer US dollar; reversals in these drivers could pressure global risk assets, including US equities, via spillovers.[7][15]"],"cycle_and_growth_risk":["The regime exhibits characteristics of a **late‑cycle expansion**: strong index levels, narrow leadership, low volatility, and a central bank on hold in a restrictive stance, all of which historically precede more frequent drawdowns.[1][9][10][12][13]","Structural projections for long‑term rates are benign, but they do not preclude shorter‑term growth disappointments or profit slowdowns that could challenge current valuations.[6][9]"]},"source_urls":["https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-may-29-2026","https://www.federalreserve.gov/newsevents/speech/bowman20260529a.htm","https://intellectia.ai/news/stock/diverging-volatility-trends-in-us-stocks","https://www.pimco.com/us/en/insights/supply-shocks-and-ai-related-demand-blur-inflation-signals-for-the-fed","https://www.gurufocus.com/economic_indicators/234/vix","https://www.cmegroup.com/markets/equities/dow-jones/e-mini-dow.html","https://budgetmodel.wharton.upenn.edu/p/2026-05-29-the-demographic-economic-and-conventional-budget-outlook-2026-2056","https://am.oddo-bhf.com/fr-en/professional-investor/us-equities-beyond-big-tech-discovering-promising-values/","https://www.gramercy.com/2026/05/em-weekly-may-30-2026/","https://us.rbcwealthmanagement.com/timothy.distefano/blog/5449668-Emerging-market-equities-Making-progress","https://www.youtube.com/watch?v=sFG5oC_zdVc","https://www.youtube.com/watch?v=deLJ6mpbrDs","https://bvwd.ca.gov/expert-time/MNDY-Q1-2026-Earnings-EPS-Surges-Past-Expectations-with-2093-Surprise-28-0"]}
+## Market Regime Research - 2026-06-01 12:51:36 Eastern Daylight Time
+
+{
+  "summary": "US equities are in a mature **risk‑on, trending-up regime** with strong index momentum and earnings, but stretched sentiment, higher-for-longer rates, and event risk argue for cautious position sizing and tight risk controls for a paper-trading workflow.[1][2][7][8][9][10]",
+  "market_regime": {
+    "index_trend": {
+      "tone": "bullish_trend_with_late-cycle_characteristics",
+      "evidence": [
+        "The S&P 500 has risen for **nine consecutive weeks**, its longest winning streak in over two years, with May up about **5%** and the Dow closing above **51,000** for the first time.[1]",
+        "The Nasdaq gained roughly **8% in May**, its best month of 2026, driven by AI-related earnings momentum.[1]"
+      ],
+      "implications_for_bot": [
+        "Trend-following logic would treat the environment as uptrend / risk-on, but regime age suggests monitoring for momentum slowdowns or failed breakouts.",
+        "Backtests for this regime should emphasize behavior after long winning streaks and at new highs to calibrate expectations for pullbacks vs. trend continuation."
+      ]
+    },
+    "rates_and_fed": {
+      "tone": "higher_for_longer_with_risk_of_additional_hike",
+      "evidence": [
+        "The Fed held the funds rate at **3.5%–3.75%** at the April meeting and remains cautious as inflation is expected to firm through mid‑2026 before easing toward 2% in 2H26.[2]",
+        "Markets are pricing **virtually no rate cuts through 2026**, with odds still skewed to a possible hike into year-end.[1][8]",
+        "Global commentary notes that **bond markets are under pressure** and rate volatility is a key driver for risk assets.[3][10][11]"
+      ],
+      "implications_for_bot": [
+        "Regime classification: macro backdrop is not easing; equity strength is occurring despite restrictive policy, which can increase sensitivity to data surprises.",
+        "Risk engine should monitor rate/curve shocks (e.g., large daily moves in 2y/10y yields) as potential triggers to temporarily reduce gross exposure or tighten stops in the simulation."
+      ]
+    },
+    "volatility_and_positioning": {
+      "tone": "low_to_moderate_realized_vol_with_complacent_risk-on_positioning",
+      "evidence": [
+        "Cross-asset commentary highlights a **risk-on market tone and some complacency**, which can be bullish near term but leaves markets vulnerable to negative catalysts.[9]",
+        "An equity risk-regime monitor notes that stress from the prior US rating downgrade has faded as long yields retreat from recent peaks, contributing to an easier risk backdrop.[7]"
+      ],
+      "implications_for_bot": [
+        "Vol regime: relatively benign; strategies calibrated to crisis-level volatility may overestimate short-term risk, but complacency implies drawdowns after shocks can be sharp.",
+        "Paper-trading workflow should explicitly log how the strategy behaves after volatility spikes (gap-down opens, spread widening) even if such conditions are infrequent in the current regime."
+      ]
+    },
+    "earnings_tone": {
+      "tone": "broadly_strong_earnings_with_tech_AI_leadership",
+      "evidence": [
+        "With roughly **95% of market cap** having reported 1Q26, consensus EPS growth is about **+26.9% y/y**, higher than earlier expectations.[2]",
+        "Commentary characterizes US earnings as **strong**, supporting the view that solid fundamentals can allow markets to continue grinding higher.[2][4][6]",
+        "Recent market gains have been powered by **AI-driven earnings momentum**, especially in tech-heavy indices.[1]"
+      ],
+      "implications_for_bot": [
+        "Macro/earnings filter can treat fundamentals as supportive; risk filters should still discount idiosyncratic earnings events (gaps on reports) when sizing around earnings dates.",
+        "Backtests should distinguish between regimes with strong earnings breadth vs. narrow leadership, because current leadership is concentrated in AI/tech."
+      ]
+    }
+  },
+  "sector_rotation": {
+    "current_lead_lag": {
+      "leaders": [
+        "US large-cap **technology and AI-related growth** names, underpinning the strong Nasdaq performance in May.[1]",
+        "Cyclicals and sectors leveraged to business investment, supported by stronger business fixed investment in the macro data.[2]"
+      ],
+      "laggards_or_mixed": [
+        "Some **rate‑sensitive and bond-proxy sectors** remain constrained by higher-for-longer rates and bond-market pressure.[3][10]",
+        "Defensive, high-dividend areas are less central to the latest leg of the rally as investors lean into growth and earnings momentum.[3][6]"
+      ],
+      "recent_shifts": [
+        "A sharp **unwinding of the energy risk premium** followed optimism around a U.S.–Iran ceasefire and easing of earlier supply fears, which has tempered prior outperformance in energy.[1]",
+        "Global allocators report being **slightly overweight US and EM equities**, emphasizing sectors with resilient earnings rather than high leverage to rates.[3][6]"
+      ]
+    },
+    "regime_tags_for_bot": {
+      "style_regime": "growth/quality_leadership_with_AI_tech_bias",
+      "cyclical_vs_defensive": "mild_cyclical_tilt_with_selective_defensives",
+      "rotation_implications": [
+        "Sector model should recognize a **momentum-in-growth** environment but apply caps or diversification rules to avoid over-concentration in a single theme (e.g., AI).",
+        "Event-driven shocks (geopolitics, rates) can quickly rotate leadership (e.g., energy risk premium compressing), so the paper-trading bot should log reaction to sudden sector relative-return reversals."
+      ]
+    }
+  },
+  "risk_flags": {
+    "macro_and_policy": [
+      "Fed is firmly in **higher-for-longer** mode with markets pricing almost no cuts through 2026 and some odds of a further hike, which raises sensitivity to inflation and labor data surprises.[1][2][8][11]",
+      "Global commentary warns that **interest rate volatility remains an important driver** of both equity and fixed income markets into the summer.[3][10]"
+    ],
+    "market_structure_and_sentiment": [
+      "Indices are at or near **record highs** after an extended winning streak, a classic setup where even modest negative news can trigger outsized reactions given positioning.[1][8][9]",
+      "Risk-regime monitors indicate that prior credit-rating concerns have faded, reinforcing a **risk-on, lower-perceived-risk environment** that can flip quickly if a new shock emerges.[7][9]"
+    ],
+    "earnings_and_fundamentals": [
+      "Earnings strength is robust but **expectations are now elevated**; disappointments from large index constituents could have disproportionate impact given concentration risk in mega-cap tech/AI.[1][2][4]"
+    ],
+    "geopolitics_and_exogenous": [
+      "Recent optimism rests partly on **ceasefire progress with Iran** and reduced energy supply risk; any breakdown could quickly reverse the energy price unwind and risk sentiment.[1][6]"
+    ],
+    "workflow_implications_for_a_cautious_paper_trading_bot": [
+      "Tag current regime as: `uptrend_risk_on`, `higher_for_longer_rates`, `strong_earnings`, `low_vol_but_complacent` for use in historical regime mapping and parameter selection.",
+      "Impose conservative assumptions around **gap risk** following macro data releases, Fed communications, and large-cap earnings, and record how the strategy’s PnL path behaves across those events.",
+      "Given prior system logs about **max open-position count** and constraint-driven rejections, stress-test allocation logic under scenarios where many candidates fire simultaneously in a strong trend but are blocked by risk caps.",
+      "Maintain a bias toward **risk control over signal chasing** in the simulation: emphasize drawdown tracking, hit-rate/expectancy in a high-momentum regime, and sensitivity to sudden volatility spikes."
+    ]
+  },
+  "source_urls": [
+    "https://www.clearbrookglobal.com/weekly-market-commentary-june-1-2026/",
+    "https://www.interactivebrokers.com/campus/traders-insight/securities/macro/economic-update-week-of-june-1-2026/",
+    "https://about.amundi.com/article/monthly-market-views-june-2026",
+    "https://www.invesco.com/us/en/insights/stock-market-pessimists.html",
+    "https://note.com/hirokimiyano/n/nc4a14a033690?hl=en-US",
+    "https://www.candriam.com/en-us/professional/insight-overview/coffee-break/01062026/",
+    "https://www.inferentialinvestor.com/p/inferent-equity-risk-regime-monitor",
+    "https://www.investing.com/analysis/wall-street-starts-june-at-record-highs--but-bigger-tests-lie-ahead-200681252",
+    "https://www.stonex.com/en/insights/cbot-grains-daily-options-report-2026-06-01/",
+    "https://blog.carnegieinvest.com/monthly-market-commentary-june-2026",
+    "https://convera.com/blog/market-insights/fx-research/monthly-global-fx-outlook/fx-outlook-june-2026/"
+  ]
+}
 

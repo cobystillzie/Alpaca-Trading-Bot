@@ -24799,4 +24799,37 @@ Model notes: Previously rejected due to misinterpretation of leverage-language c
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: none
+## Research Update - 2026-06-01 12:51:36 Eastern Daylight Time
+
+Research Update
+
+Market tone: No execution-ready candidates are justified from the current evidence set. The regime remains constructive for quality growth, but the available fresh catalyst coverage is thin, and the strongest item in the feed, Lumentum, is extended after a very large multi-month move, making it better suited for watch status than a new 1-10 day swing entry.
+Candidates: 3
+
+1. LITE (Semiconductors / optical components) | confidence 0.56 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier watch | bucket semiconductors-optical-components | HF source 1/100
+Recommendation: watch
+Catalyst: Fresh catalyst is the multiyear, multibillion-dollar optical circuit switch purchase agreement plus the recent Nasdaq-100 inclusion and record fiscal Q3 revenue growth reported in late May.
+Chittick Cash: Margin of safety is limited because the stock has already rerated sharply; the business may be good, but the price has moved faster than the fundamentals can reduce downside.
+HF filter: sentiment=constructive_but_stretched source=1/100 hype=0.39 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=semiconductors-optical-components
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. XLI (Industrials ETF) | confidence 0.41 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket industrials-etf | HF source 0/100
+Recommendation: monitor-only
+Catalyst: No single hard catalyst; this is a regime-and-diversification candidate rather than an event-driven swing trade.
+Chittick Cash: Diversification itself is the margin-of-safety feature here, not cheap valuation.
+HF filter: sentiment=neutral source=0/100 hype=0.05 vetoes=0
+Self-learning: tier=monitor-only repeat48h=0 fresh=yes bucket=industrials-etf
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. XLE (Energy ETF) | confidence 0.38 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket energy-etf | HF source 0/100
+Recommendation: monitor-only
+Catalyst: No hard company-specific catalyst; this is a macro-hedge and rotation watch candidate only.
+Chittick Cash: Diversification and cash generation support downside protection more than valuation mispricing does.
+HF filter: sentiment=neutral source=0/100 hype=0.03 vetoes=0
+Self-learning: tier=monitor-only repeat48h=0 fresh=no bucket=energy-etf
+Social buzz, low weight: none
+Congress signal, low weight: none
 
