@@ -1353,4 +1353,14 @@ Premarket plan built from latest watchlist.
 No execution-ready candidates are justified from the current evidence set. The regime remains constructive for quality growth, but the available fresh catalyst coverage is thin, and the strongest item in the feed, Lumentum, is extended after a very large multi-month move, making it better suited for watch status than a new 1-10 day swing entry.
 
 Candidates found: 3
+## Premarket Plan - 2026-06-02 08:25:01 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- LITE: score=66, base=90, chittick=35, approved=False, allocation=0.0%, stop=0.0%
+  rejects: Confidence below 0.60.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
+- XLI: score=58, base=80, chittick=35, approved=False, allocation=0.0%, stop=0.0%
+  rejects: Candidate is monitor-only and cannot be traded.; Confidence below 0.60.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
+- XLE: score=58, base=80, chittick=35, approved=False, allocation=0.0%, stop=0.0%
+  rejects: Candidate is monitor-only and cannot be traded.; Confidence below 0.60.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
 
