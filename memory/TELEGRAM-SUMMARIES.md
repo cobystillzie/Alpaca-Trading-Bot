@@ -25907,4 +25907,55 @@ Model notes: Defensive, high‑quality industrial consistent with Chittick Cash 
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: https://www.morningstar.com/stocks/us-stock-market-outlook-update-harvesting-growth-gains-restoring-barbell, https://moneyandmarkets.com/theres-more-to-this-market-rally-than-tech/
+## Research Update - 2026-06-03 14:51:56 Eastern Daylight Time
+
+Research Update
+
+Market tone: The setup remains selectively risk-on: broad equity leadership is still concentrated in large-cap growth, but rate sensitivity, geopolitical headlines, and crowding make single-name follow-through uneven. The best candidates are those with a clear dated catalyst, good balance sheets, and enough momentum to support a short swing window.
+Candidates: 5
+
+1. MSFT (information technology / large-cap software) | confidence 0.58 | allocation 0.0% | stop 0.0% | Chittick 69/100 | tier allocation-muted | bucket mega-cap-software-cloud | HF source 1/100 | HF veto
+Recommendation: watch
+Catalyst: The next earnings date shown in market data is Jul 29, 2026, which is a defined future catalyst window; the current setup is more of a momentum/quality continuation than a fresh event trade.[3]
+Chittick Cash: Quality is excellent, but valuation is likely the main risk; the trade works only if the market keeps paying up for durable earnings and cash flow.
+HF filter: sentiment=neutral-constructive source=1/100 hype=0.18 vetoes=2
+Self-learning: tier=allocation-muted repeat48h=1 fresh=yes bucket=mega-cap-software-cloud
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. GOOGL (communication services / internet platform) | confidence 0.46 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket mega-cap-internet-cloud | HF source 0/100 | HF veto
+Recommendation: monitor-only
+Catalyst: No fresh company-specific catalyst was surfaced in the current retrieval; this is primarily a quality-and-trend candidate under watch rather than a dated event trade.
+Chittick Cash: Business quality is high, but the margin of safety depends on entry price and evidence of renewed growth or a catalyst-driven re-rating.
+HF filter: sentiment=neutral source=0/100 hype=0.14 vetoes=2
+Self-learning: tier=monitor-only repeat48h=2 fresh=yes bucket=mega-cap-internet-cloud
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. INTC (semiconductors / legacy CPU turnaround) | confidence 0.43 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier watch | bucket semiconductor-turnaround | HF source 0/100 | HF veto
+Recommendation: watch
+Catalyst: No fresh catalyst was surfaced in the retrieved results; the current setup is thesis-driven and should stay in monitoring until new earnings, guidance, or filing evidence appears.
+Chittick Cash: Margin of safety is only adequate if the market prices in little of the turnaround; otherwise the stock lacks a clear cushion.
+HF filter: sentiment=neutral source=0/100 hype=0.12 vetoes=1
+Self-learning: tier=watch repeat48h=1 fresh=yes bucket=semiconductor-turnaround
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+4. USAR (materials / special situations) | confidence 0.22 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket materials-special-situation | HF source 0/100 | HF veto
+Recommendation: monitor-only
+Catalyst: No fresh catalyst was retrieved for the current pass.
+Chittick Cash: No clear margin of safety is demonstrated in the current evidence set.
+HF filter: sentiment=bearish source=0/100 hype=0.21 vetoes=2
+Self-learning: tier=monitor-only repeat48h=0 fresh=no bucket=materials-special-situation
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+5. GT (consumer discretionary / tires and auto parts) | confidence 0.34 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier watch | bucket consumer-cyclical-auto | HF source 0/100 | HF veto
+Recommendation: watch
+Catalyst: No fresh catalyst surfaced in the current retrieval; this is a watchlist candidate only.
+Chittick Cash: A margin of safety would require a meaningfully discounted valuation and visible operating improvement; not established here.
+HF filter: sentiment=neutral-bearish source=0/100 hype=0.10 vetoes=1
+Self-learning: tier=watch repeat48h=0 fresh=no bucket=consumer-cyclical-auto
+Social buzz, low weight: none
+Congress signal, low weight: none
 

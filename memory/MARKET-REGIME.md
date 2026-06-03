@@ -9539,4 +9539,150 @@ The US equity market is grinding to record highs, but the underlying conditions 
     "https://polymarket.com/predictions/fed-rates"
   ]
 }
+## Market Regime Research - 2026-06-03 14:51:56 Eastern Daylight Time
+
+{
+  "summary": "US equities are in a **bullish, growth-led uptrend** with strong index performance and supportive earnings, but under the surface the tone is **selectively risk-on**, concentrated in large-cap tech/AI, with persistent macro and geopolitical risks warranting caution for a paper-trading workflow.[3][5]",
+  "market_regime": {
+    "index_trend": {
+      "sp500": {
+        "direction": "uptrend",
+        "tone": "strong, AI- and mega-cap led, multiple record highs into late May",
+        "evidence": "S&P 500 up ~11% YTD through May 29 and closed at a record high of 7,580.06, repeatedly hitting new records on AI-driven earnings momentum.[3]"
+      },
+      "nasdaq": {
+        "direction": "uptrend",
+        "tone": "lead index, high-beta growth leadership, record highs",
+        "evidence": "Nasdaq Composite up ~16% YTD through May 29 with multiple record closes, reaching 26,972.62 at month-end, strongest of the three major US indices.[3]"
+      },
+      "dow": {
+        "direction": "moderate uptrend",
+        "tone": "choppier than SPX/NDX, less tech-heavy, still making new highs",
+        "evidence": "Dow up ~6% YTD through May 29, retook 50,000 in mid-May and then hit a record 51,032.46 on May 29 after a period of consolidation.[3]"
+      },
+      "short_term_tone": {
+        "futures": "mixed",
+        "evidence": "Pre-market on June 3: Dow futures -0.25%, S&P 500 futures -0.06%, Nasdaq 100 futures +0.26%, indicating modest rotation and continued relative resilience in tech.[5]"
+      },
+      "regime_label": "bull market with growth/tech leadership and mild internal divergence"
+    },
+    "rates_and_fed": {
+      "policy_tone": "restrictive but stable, markets highly data-sensitive",
+      "current_context": "Financial conditions remain relatively tight and are a key part of the backdrop for recent volatility and risk-off episodes.[1]",
+      "fed_focus": "Near-term attention on incoming data and Fed communications (e.g., Beige Book release) with markets reacting to incremental shifts rather than a clear easing cycle.[5]",
+      "implication_for_bot": "Environment remains sensitive to macro prints and Fed commentary; regime shifts can be rapid around data releases and policy surprises."
+    },
+    "volatility": {
+      "level": "low-to-moderate versus history, but with episodic spikes",
+      "tone": "Recent volatility episodes linked more to uncertainty repricing than to a fundamental collapse in growth or earnings expectations.[1]",
+      "macro_link": "Periods of risk-off behavior have been associated with geopolitical tensions and tighter financial conditions rather than a broad earnings shock.[1][4]",
+      "implication_for_bot": "Trend-following signals can work in indices and large caps, but volatility clustering around event risk warrants conservative sizing and wider safety margins in a cautious paper-trading setup."
+    },
+    "earnings_tone": {
+      "overall": "constructive",
+      "us_equities": {
+        "status": "robust earnings season with AI as a major tailwind",
+        "evidence": "Record highs in S&P 500 and Nasdaq being framed on 'a robust earnings season' and AI-related momentum for large technology and semiconductor names.[3]"
+      },
+      "forward_eps": {
+        "direction": "stable to improving across most sectors",
+        "evidence": "Consensus 2026 EPS growth still expected to increase sequentially across most US sectors, with no material deceleration in forecasts, which supports the outlook for equities over the next 6–12 months.[1]"
+      },
+      "near_term_events": "Major tech earnings (e.g., Broadcom, CrowdStrike) remain key single-name and sector catalysts and can drive short-term factor and sector rotations.[5]",
+      "tone_label": "earnings-supported bull market, especially in tech/semis"
+    },
+    "risk_on_off": {
+      "headline_tone": "net risk-on in price action, but with pockets of risk-off behavior driven by macro/geopolitics",
+      "drivers_of_risk_off": {
+        "geopolitics": "Ongoing U.S.–Iran conflict has weighed on investor sentiment and contributed to safe-haven demand and higher volatility at points.[4]",
+        "financial_conditions": "Tighter financial conditions and higher volatility have been cited as drivers of earlier risk-off tones, even as growth forecasts stay broadly unchanged.[1]"
+      },
+      "drivers_of_risk_on": {
+        "equity_price_action": "All three major indices at or near record highs by late May, with strong YTD gains and leadership from growth/tech.[3]",
+        "earnings_and_growth": "Global and US GDP growth forecasts broadly unchanged and sequential EPS growth expectations across sectors support a constructive risk backdrop.[1]"
+      },
+      "net_assessment": "Macro and geopolitical overhangs are material, but realized equity behavior is still consistent with a risk-on regime, concentrated in growth and quality large caps."
+    }
+  },
+  "sector_rotation": {
+    "leadership": {
+      "technology_and_semis": {
+        "status": "clear leadership",
+        "evidence": "S&P 500’s ~11% YTD gain and record high are 'shaped by technology and semiconductor names benefiting from AI-driven earnings optimism.'[3] Nasdaq 100 futures outperformance vs. S&P and Dow in pre-market also underscores ongoing tech resilience.[5]"
+      },
+      "communication_services_and_ai_exposed_names": {
+        "status": "beneficiaries of AI and growth momentum",
+        "evidence": "AI-related optimism is explicitly cited as a key driver of record highs in the S&P 500 and Nasdaq.[3]"
+      }
+    },
+    "laggards": {
+      "dow_exposure": {
+        "status": "relative underperformance",
+        "evidence": "Dow up ~6% YTD vs. much stronger S&P and Nasdaq performance, reflecting the Dow’s more limited exposure to the tech-driven rally.[3]"
+      },
+      "value_cyclicals_and_defensives": {
+        "status": "more mixed performance, less central to index-level gains",
+        "evidence": "The divergence between tech-heavy indices (S&P, Nasdaq) and the more diversified Dow implies weaker relative momentum in non-tech sectors.[3][5]"
+      }
+    },
+    "macro_sensitives": {
+      "energy_and_oil_linked": {
+        "tone": "tactical moves tied to oil and Middle East headlines",
+        "evidence": "Pre-market commentary notes oil prices rebounding alongside discussion of Middle East tensions, highlighting the linkage between geopolitical risk and energy-related assets.[5]"
+      },
+      "rates_sensitives": {
+        "tone": "direction tied closely to yield and Fed expectations",
+        "evidence": "Discussion of tighter financial conditions and higher volatility as drivers of recent risk-off episodes suggests that rate-sensitive sectors can swing with marginal changes in policy expectations.[1]"
+      }
+    },
+    "rotation_regime_label": "growth/AI/tech leadership, Dow-style value and some cyclicals lagging; tactical flows into macro-sensitive areas around oil and geopolitics"
+  },
+  "risk_flags": {
+    "macro_and_policy": [
+      {
+        "name": "Tight_financial_conditions",
+        "description": "Higher-for-longer policy stance and tighter financial conditions have been a key backdrop to recent volatility and risk-off episodes.[1]",
+        "relevance_for_bot": "Expect sharper reactions to rate surprises and data; conservative sizing and stricter risk controls are appropriate in a paper-trading framework."
+      },
+      {
+        "name": "Fed_and_data_event_risk",
+        "description": "Markets remain highly sensitive to macro data and Fed communications, with focal events including PMIs, factory orders, oil inventory data, and the Beige Book.[5]",
+        "relevance_for_bot": "Intraday regime shifts around releases; backtests should account for event windows where spreads and volatility can widen."
+      }
+    ],
+    "geopolitical": [
+      {
+        "name": "US_Iran_conflict",
+        "description": "Ongoing U.S.–Iran conflict continues to 'simmer' and weigh on investor sentiment, contributing to bouts of risk-off behavior and safe-haven demand.[4]",
+        "relevance_for_bot": "Headline risk can trigger sudden gaps and correlation spikes across indices, energy, and defense names; paper-trading logic should monitor for volatility spikes around geopolitical news."
+      }
+    ],
+    "market_structure_and_concentration": [
+      {
+        "name": "Leadership_concentration_in_mega_cap_tech",
+        "description": "Index gains and record highs are disproportionately driven by large technology and semiconductor companies tied to AI optimism.[3]",
+        "relevance_for_bot": "Market breadth risk: a reversal in a small group of leaders can drag indices quickly; factor exposures in any strategy logic should be monitored for unintended tech/AI concentration even in a paper setting."
+      }
+    ],
+    "earnings_and_micro": [
+      {
+        "name": "Earnings_gap_risk",
+        "description": "High-profile tech earnings (e.g., Broadcom, CrowdStrike) are identified as key near-term catalysts.[5]",
+        "relevance_for_bot": "Single-stock and sector risk around earnings dates; the bot’s rules should treat earnings windows as higher-risk periods with potential for outsized gaps and slippage."
+      }
+    ],
+    "overall_caution_level": "elevated_caution_within_a_bull_market",
+    "notes_for_paper_trading_workflow": [
+      "Treat the environment as a bull regime where trend and momentum signals are valid but require conservative risk parameters due to concentration, event, and geopolitical risks.",
+      "Backtesting and live paper-trading should explicitly tag macro and earnings event windows to understand performance under volatility spikes.",
+      "Given the regime’s reliance on AI/tech leadership, scenario testing around tech drawdowns or sudden risk-off shifts would be useful for stress-testing strategy logic."
+    ]
+  },
+  "source_urls": [
+    "https://www.chase.com/personal/investments/learning-and-insights/article/stock-market-returns-may-2026",
+    "https://enrichedthinking.scotiawealthmanagement.com/2026/06/03/morning-strategy-note-664/",
+    "https://www.nasdaq.com/articles/global-indexes/biweekly-investment-insights-stepping-back-from-the-precipice",
+    "https://www.tradingkey.com/analysis/stocks/us-stocks/261943836-us-stock-market-pre-market-indexes-diverged-oil-prices-middle-east-broadcom-earnings-report-tradingkey"
+  ]
+}
 
