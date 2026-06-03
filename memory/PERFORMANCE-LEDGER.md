@@ -5178,4 +5178,77 @@ Patience Gate
 
 Benchmark Context
 - Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## Performance Review - 2026-06-03 16:30:02 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-06-03 16:30:02 Eastern Daylight Time
+- Portfolio value: $100,084.06
+- P/L vs $100k baseline: $84.06
+- Full paper-account return: 0.084%
+- Managed-capital return: 0.84%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 1.50%
+- Latest position value: $5,684.06
+- Full-account cash reserve: 94.3%
+- Managed-capital cash reserve: 43.2%
+- Max snapshot drawdown: $141.35 from 2026-05-08 16:30:03 Eastern Daylight Time to 2026-06-03 16:30:02 Eastern Daylight Time
+
+Open Position Review
+- DT: winner, value $881.36, unrealized P/L $81.36, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 26 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: loser, value $411.95, unrealized P/L $-88.05, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 27 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: loser, value $770.78, unrealized P/L $-29.22, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 34 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- IBRX: loser, value $506.49, unrealized P/L $-93.51, entry 2026-05-11 09:48:18 Eastern Daylight Time, thesis age 23 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: loser, value $489.20, unrealized P/L $-10.80, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 22 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: winner, value $859.73, unrealized P/L $59.73, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 33 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $817.14, unrealized P/L $17.14, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 28 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $947.41, unrealized P/L $147.41, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 36 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- INTC: appeared 34 times; market outcome unavailable until benchmark/candidate price history is captured.
+- SCHD: appeared 34 times; open position P/L $17.14.
+- SPMO: appeared 32 times; open position P/L $147.41.
+- GOOGL: appeared 31 times; open position P/L $-29.22.
+- NVDA: appeared 29 times; open position P/L $59.73.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MSFT: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- UNP: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VALN: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Candidate references banned v1 instruments or leverage.: 18
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 11
+  - Single-stock allocation would exceed 15%.: 7
+  - Max open-position count would be exceeded.: 6
+  - A market-open order is already logged for today. No backup order was placed.: 5
+  - Candidate is monitor-only and cannot be traded. Confidence below 0.60. Target allocation must be between 1% and 15%. Stop loss must be between 3% and 12%.: 5
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources.: 5
+  - Candidate references banned v1 instruments or leverage. Target allocation must be between 1% and 15%.: 4
+- By symbol:
+  - INTU: 5
+  - AGI: 3
+  - BAH: 3
+  - GOOGL: 3
+  - KO: 3
+  - PLTR: 3
+  - TMXX.F: 3
+  - WSC: 3
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 8
+- unknown: 1
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold met: 8 trades over 36 days.
+- Strategy tuning may be reviewed, but safety guardrails still apply.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
 
