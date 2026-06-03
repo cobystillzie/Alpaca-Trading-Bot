@@ -335,4 +335,21 @@ Candidate is monitor-only and cannot be traded.
 Confidence below 0.60.
 Target allocation must be between 1% and 15%.
 Stop loss must be between 3% and 12%.
+## Rejected LITE - 2026-06-03 09:55:01 Eastern Daylight Time
+
+Confidence below 0.60.
+Target allocation must be between 1% and 15%.
+Stop loss must be between 3% and 12%.
+## Rejected XLI - 2026-06-03 09:55:01 Eastern Daylight Time
+
+Candidate is monitor-only and cannot be traded.
+Confidence below 0.60.
+Target allocation must be between 1% and 15%.
+Stop loss must be between 3% and 12%.
+## Rejected XLE - 2026-06-03 09:55:01 Eastern Daylight Time
+
+Candidate is monitor-only and cannot be traded.
+Confidence below 0.60.
+Target allocation must be between 1% and 15%.
+Stop loss must be between 3% and 12%.
 
