@@ -25675,4 +25675,37 @@ Rejected / Watchouts
 - LITE: Confidence below 0.60.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
 - XLI: Candidate is monitor-only and cannot be traded.; Confidence below 0.60.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
 - XLE: Candidate is monitor-only and cannot be traded.; Confidence below 0.60.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
+## Research Update - 2026-06-03 10:52:34 Eastern Daylight Time
+
+Research Update
+
+Market tone: U.S. equities remain in a late‑cycle, risk‑on environment led by growth and AI‑adjacent names but with elevated concentration and event risk; for a 1–10 day paper‑trading horizon, tight risk controls and selective, high‑quality names with clear, dated catalysts are preferred over broad beta.
+Candidates: 3
+
+1. MSFT (Information Technology) | confidence 0.73 | allocation 0.0% | stop 6.0% | Chittick 76/100 | tier allocation-muted | bucket mega-cap-software-ai | HF source 0/100
+Recommendation: execute-if-guards-pass
+Catalyst: Recent 30‑day price and volume strength with Microsoft up ~6–7% over the last month on above‑average volume, plus ongoing AI product rollouts and positioning as a core beneficiary of enterprise AI and cloud spend; next earnings (Jul 29)...
+Chittick Cash: On classic value metrics MSFT is not cheap, but its cash generation, balance sheet strength, and entrenched position in mission‑critical software and cloud provide a qualitative margin of safety versus more speculativ...
+HF filter: sentiment=not run source=0/100 hype=0.20 vetoes=0
+Self-learning: tier=allocation-muted repeat48h=1 fresh=yes bucket=mega-cap-software-ai
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. FCX (Materials) | confidence 0.69 | allocation 6.0% | stop 9.0% | Chittick 63/100 | tier execution-ready | bucket cyclical-materials-copper | HF source 0/100
+Recommendation: execute-if-guards-pass
+Catalyst: Recent strengthening of copper prices driven by tariffs and tightening supply signals has supported FCX shares, with congressional‑disclosure datasets and financial news flagging renewed attention as copper rallies.[1]
+Chittick Cash: Margin of safety is based on structural copper tightness and FCX’s asset quality rather than low headline valuation; however, commodity cyclicality means intrinsic value is harder to pin down, and downside can be larg...
+HF filter: sentiment=not run source=0/100 hype=0.25 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=cyclical-materials-copper
+Social buzz, low weight: none
+Congress signal, low weight: minor recent congressional‑trade attention flagged as context, not as a primary driver.[1]
+
+3. ECL (Industrials) | confidence 0.68 | allocation 0.0% | stop 0.0% | Chittick 80/100 | tier watch | bucket quality-industrials-defensive | HF source 0/100
+Recommendation: watch
+Catalyst: Macro strategy research highlights the attractiveness of high‑quality value and defensive names as part of a barbell alongside growth; ECL, as a leader in water and hygiene solutions with recurring revenue characteristics, fits this tilt...
+Chittick Cash: ECL’s margin of safety is qualitative—resilient demand and strong competitive position—rather than driven by a deep valuation discount; in a Chittick framework it scores well on business durability and balance‑sheet p...
+HF filter: sentiment=not run source=0/100 hype=0.10 vetoes=0
+Self-learning: tier=watch repeat48h=1 fresh=yes bucket=quality-industrials-defensive
+Social buzz, low weight: none
+Congress signal, low weight: none
 

@@ -1373,4 +1373,9 @@ Premarket plan built from latest watchlist.
   rejects: Candidate is monitor-only and cannot be traded.; Confidence below 0.60.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
 - XLE: score=58, base=80, chittick=35, approved=False, allocation=0.0%, stop=0.0%
   rejects: Candidate is monitor-only and cannot be traded.; Confidence below 0.60.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
+## Two-Hour Research Agent - 2026-06-03 10:52:34 Eastern Daylight Time
+
+U.S. equities remain in a late‑cycle, risk‑on environment led by growth and AI‑adjacent names but with elevated concentration and event risk; for a 1–10 day paper‑trading horizon, tight risk controls and selective, high‑quality names with clear, dated catalysts are preferred over broad beta.
+
+Candidates found: 3
 
