@@ -1397,4 +1397,9 @@ Premarket plan built from latest watchlist.
   rejects: source_thin; no_fundamental_catalyst; Candidate is monitor-only and cannot be traded.; Confidence below 0.60.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
 - GT: score=58, base=80, chittick=35, approved=False, allocation=0.0%, stop=0.0%
   rejects: stale_catalyst; Confidence below 0.60.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
+## Two-Hour Research Agent - 2026-06-04 10:51:32 Eastern Daylight Time
+
+The tape remains **selectively risk-on**, but the provided evidence does not support new execution-ready names with a fresh enough catalyst under the current repeat-decay and max-position constraints. The only reasonably supported new idea in the search set is **TGT**, but it is better treated as a guarded watch or small-tranche candidate rather than a high-conviction swing trade.
+
+Candidates found: 5
 

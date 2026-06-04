@@ -26431,4 +26431,55 @@ Rejected / Watchouts
 - INTC: stale_catalyst; Confidence below 0.60.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
 - USAR: source_thin; no_fundamental_catalyst; Candidate is monitor-only and cannot be traded.; Confidence below 0.60.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
 - GT: stale_catalyst; Confidence below 0.60.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
+## Research Update - 2026-06-04 10:51:32 Eastern Daylight Time
+
+Research Update
+
+Market tone: The tape remains **selectively risk-on**, but the provided evidence does not support new execution-ready names with a fresh enough catalyst under the current repeat-decay and max-position constraints. The only reasonably supported new idea in the search set is **TGT**, but it is better treated as a guarded watch or small-tranche candidate rather than a high-conviction swing trade.
+Candidates: 5
+
+1. TGT (Consumer discretionary / retail) | confidence 0.59 | allocation 0.0% | stop 0.0% | Chittick 64/100 | tier watch | bucket consumer-discretionary-retail | HF source 1/100
+Recommendation: watch
+Catalyst: Target’s latest quarterly results beat expectations, and Robinhood’s market data summary says Target raised full-year 2026 guidance in May 2026 to about 4% net sales growth.[3][5]
+Chittick Cash: The margin of safety is only moderate: valuation is not expensive versus quality, but the discount to intrinsic value appears small and the market may already be recognizing the improved outlook.[12]
+HF filter: sentiment=low source=1/100 hype=0.19 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=consumer-discretionary-retail
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. INTC (Semiconductors) | confidence 0.31 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket semiconductors | HF source 0/100 | HF veto
+Recommendation: monitor-only
+Catalyst: No fresh dated catalyst was found in the current search set; the available memory explicitly flags the name as having a stale catalyst and confidence below threshold.
+Chittick Cash: There may be a long-term margin-of-safety argument in a deeper owner-style review, but the short-horizon setup does not offer enough evidence for a paper trade.
+HF filter: sentiment=very low source=0/100 hype=0.03 vetoes=2
+Self-learning: tier=monitor-only repeat48h=1 fresh=yes bucket=semiconductors
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. USAR (Materials / critical minerals) | confidence 0.24 | allocation 0.0% | stop 0.0% | Chittick 28/100 | tier monitor-only | bucket materials-critical-minerals | HF source 0/100 | HF veto
+Recommendation: monitor-only
+Catalyst: No strong dated catalyst is present in the provided search results; earlier memory explicitly flags source-thin evidence and no fundamental catalyst.
+Chittick Cash: No reliable margin-of-safety case can be made from the current evidence set.
+HF filter: sentiment=low source=0/100 hype=0.14 vetoes=2
+Self-learning: tier=monitor-only repeat48h=1 fresh=yes bucket=materials-critical-minerals
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+4. GOOGL (Mega-cap internet / cloud) | confidence 0.20 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket mega-cap-internet-cloud | HF source 0/100 | HF veto
+Recommendation: monitor-only
+Catalyst: No fresh catalyst is present in the current search set, and prior memory explicitly flags repeat_decay, stale_catalyst, and similarity to prior rejected patterns.
+Chittick Cash: A long-term margin-of-safety argument may exist, but the short-horizon trade case is not fresh enough.
+HF filter: sentiment=very low source=0/100 hype=0.04 vetoes=2
+Self-learning: tier=monitor-only repeat48h=1 fresh=no bucket=mega-cap-internet-cloud
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+5. GT (Automotive / tires) | confidence 0.23 | allocation 0.0% | stop 0.0% | Chittick 33/100 | tier monitor-only | bucket consumer-cyclicals-autos | HF source 0/100 | HF veto
+Recommendation: monitor-only
+Catalyst: No fresh catalyst is present in the current search set; prior memory explicitly marks GT as stale-catalyst with low confidence.
+Chittick Cash: A margin-of-safety argument would require a refreshed valuation and operating catalyst; neither is available here.
+HF filter: sentiment=very low source=0/100 hype=0.05 vetoes=1
+Self-learning: tier=monitor-only repeat48h=1 fresh=yes bucket=consumer-cyclicals-autos
+Social buzz, low weight: none
+Congress signal, low weight: none
 
