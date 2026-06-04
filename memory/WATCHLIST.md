@@ -4,124 +4,175 @@
 {
   "candidates": [
     {
-      "adversary_case": "The strongest objection is that a single delayed disclosure is not a tradeable catalyst and may have no causal relationship to near-term price action.",
-      "allocation_learning_note": "Use as a placeholder only if energy becomes a fresh sector focus; otherwise prefer a stronger dated catalyst.",
-      "balance_sheet_risk": "Commodity exposure and cyclicality matter more than classic balance-sheet distress; still, leverage and capex discipline must be watched.",
-      "bear_case": "Oil prices can weaken, production mix can disappoint, and the congressional disclosure is too weak to carry the trade if the sector turns risk-off.",
-      "capital_allocation_case": "Would need evidence of disciplined buybacks, dividends, or capex restraint before rating it highly.",
-      "catalyst": "A public congressional disclosure reported a May 8, 2026 exchange transaction in DVN by Representative Kevin Hern in the $15,001\u2013$50,000 range, but this is delayed and low-conviction secondary evidence rather than a primary catalyst.",
-      "catalyst_type": "general",
-      "chittick_cash_score": 34.0,
-      "chittick_reject_reason": "No fresh company catalyst and no strong evidence of margin-of-safety advantage relative to better-quality alternatives.",
-      "concentration_case": "Included only as a low-weight energy reference; it does not outrank stronger catalyst names because the evidence is weak.",
-      "confidence": 0.34,
-      "congressional_signal": "weak secondary context only; one delayed disclosure in a liquid stock is not a primary catalyst.",
-      "diversity_bucket": "energy",
-      "entry_plan": "Monitor only; if a later dated company or price catalyst emerges, consider a small tranche on confirmation above short-term resistance with a tight stop below recent support.",
-      "exit_plan": "If entered on a future catalyst, take partial profits into a 3% to 6% move and exit on failed breakout or adverse commodity headlines.",
-      "fresh_catalyst": false,
-      "growth_runway": "30-180 day thesis would depend on sector rotation and stable commodity pricing; longer term depends on disciplined capital returns and reserve replacement.",
-      "hf_evidence_rank": 0.19,
-      "hf_filter_vetoes": [
-        "weak_catalyst",
-        "low_weight_only"
-      ],
-      "hf_hype_risk": 0.08,
-      "hf_memory_similarity": 0.12,
-      "hf_model_notes": "Allowed only as monitor-level context; not execution-ready.",
-      "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "low_attention",
-      "hf_sentiment_score": 0.18,
-      "hf_source_quality_score": 0.22,
-      "horizon_days": 5,
-      "margin_of_safety_case": "Commodity cyclicality reduces margin of safety versus high-quality compounders, but the business is at least tangible and liquid.",
-      "market_regime": "Works better if energy holds up in a choppy, higher-yield regime; it is less attractive if the market rotates back into duration growth or crude softens.",
-      "momentum_case": "No strong fresh price/momentum evidence was provided in the current search set, so this does not qualify as a momentum-backed execution-ready trade.",
-      "owner_hold_case": "Would only justify a 30-180 day review if a company-specific catalyst, cash-return update, or sector breakout appears.",
-      "quality_case": "Devon is a liquid, established oil and gas producer, which is generally more balance-sheet understandable than speculative names, but commodity sensitivity limits the margin of safety compared with true compounders.",
-      "recommendation": "watch",
-      "repeat_count_48h": 0,
-      "research_tier": "monitor-only",
-      "risk_reward": "Potentially decent if energy strength is real, but currently the evidence is too weak for execution.",
-      "sector": "energy",
-      "signal_weights": {
-        "congressional_signal": 0.05,
-        "social_buzz": 0.0
-      },
-      "social_buzz": "none",
-      "source_quality": "Weak for trading: the only fresh item is a delayed congressional disclosure, which should be treated as low-weight context, not a trade trigger.",
-      "source_urls": [
-        "https://www.quiverquant.com/stock/DVN/"
-      ],
-      "stop_loss_percent": 0.0,
-      "strategy_tags": [
-        "chittick_cash"
-      ],
-      "symbol": "DVN",
-      "target_allocation_percent": 0.0,
-      "thesis": "Large-cap, liquid energy exposure can fit a cautious long-only framework when a fresh disclosed transaction provides weak secondary context and the sector benefits from cash-flow discipline.",
-      "valuation_case": "No current valuation edge was established from the provided evidence set."
-    },
-    {
-      "adversary_case": "The main objection is that this is a low-quality turnaround story, and the market may simply be repricing short interest or a temporary beat rather than a durable improvement.",
-      "allocation_learning_note": "If later price confirmation appears, start with a small tranche rather than a full allocation because the thesis is execution-sensitive.",
-      "balance_sheet_risk": "Turnaround risk dominates; the key issue is not leverage alone but whether losses continue to erode flexibility.",
-      "bear_case": "This can fail quickly if the reset does not translate into sustained margin improvement, and deep-value metrics alone do not protect against operational disappointment.",
-      "capital_allocation_case": "Management discipline must be demonstrated through measured spending and a credible path to profitability.",
-      "catalyst": "Market coverage describes Health Catalyst as jumping after a strategic reset following earnings, which is a near-term event catalyst.",
-      "catalyst_type": "earnings",
-      "chittick_cash_score": 41.0,
-      "chittick_reject_reason": "Business quality is too weak for a concentrated-quality approach without stronger evidence of durable improvement.",
-      "concentration_case": "More interesting than a broad ETF because it offers event-driven asymmetry, but it still does not clear execution standards yet.",
-      "confidence": 0.49,
+      "adversary_case": "A disciplined skeptic would argue that without a single, clearly disclosed new event on the day of the move, the stock\u2019s pop could represent short covering or positioning noise rather than a durable re-rating, making the risk/reward unattractive for a conservative, quality-biased strategy.[3]",
+      "allocation_learning_note": "Prior rejections have often stemmed from leverage mentions or stale mega-cap tech ideas; this candidate avoids banned instruments and comes from a different sector, with a fresh, fundamentals-linked move.",
+      "balance_sheet_risk": "The article implies no imminent liquidity crisis and highlights ongoing investment and partnerships, consistent with a generally sound balance sheet for a mid-cap biotech.[3] Still, the business model is inherently dependent on future trial success, and dilution risk always exists longer term.",
+      "bear_case": "Pipeline optimism could fade if trial results disappoint, regulatory timelines slip, or partners scale back collaborations. Revenue remains concentrated in a few key products, so competition or pricing pressure could hurt fundamentals. As a mid-cap biotech, INCY is also sensitive to risk-off swings; a renewed macro scare or sector de-rating could quickly unwind recent gains.",
+      "capital_allocation_case": "Management has prioritized late-stage pipeline investment and external partnerships, which is a rational capital allocation approach in specialty pharma/biotech. There is no indication of aggressive leverage or non-core ventures in the referenced sources.[3]",
+      "catalyst": "Same-week price spike (~6.2% up move) tied to investor re-rating around late-stage pipeline momentum and recent partnership announcements, following a quarterly update that showed year-over-year net sales growth and reiterated focus on dermatology and business-development deals.[3]",
+      "catalyst_type": "news",
+      "chittick_cash_score": 64.0,
+      "chittick_reject_reason": "",
+      "concentration_case": "INCY offers targeted exposure to a differentiated late-stage biotech pipeline not captured by broad market ETFs. For a paper account already heavy in mega-cap tech or broad indices, it adds sector and factor diversification while still adhering to evidence-based catalyst selection.",
+      "confidence": 0.71,
       "congressional_signal": "none",
-      "diversity_bucket": "healthcare-it",
-      "entry_plan": "Watch only; if the stock holds post-earnings gains and retests breakout levels on above-average volume, consider a small paper tranche with a tight stop.",
-      "exit_plan": "Take profits into strength if the move extends quickly; exit on loss of gap support or if management commentary turns cautious.",
+      "diversity_bucket": "mid-cap-biotech-healthcare",
+      "entry_plan": "For paper-trading, consider a staged entry after a 1\u20133% intraday pullback toward the prior day\u2019s breakout area, or on a hold above that level with average-to-strong volume. Avoid chasing if the stock gaps excessively; wait for either a consolidation day or a retest of support near the breakout range.",
+      "exit_plan": "Take initial profits if the stock advances 8\u201312% from entry within the 5\u20137 day horizon, or if it approaches obvious short-term resistance from prior swing highs. Invalidate the trade on a decisive close below recent breakout support or if negative trial/partnership news emerges; adhere to the defined stop-loss band.",
       "fresh_catalyst": true,
-      "growth_runway": "A credible reset could improve the 30-180 day outlook if cost discipline and retention stabilize, but the longer-term runway remains unproven.",
-      "hf_evidence_rank": 0.48,
-      "hf_filter_vetoes": [
-        "turnaround_uncertainty"
-      ],
-      "hf_hype_risk": 0.31,
-      "hf_memory_similarity": 0.1,
-      "hf_model_notes": "Potential swing setup, but not enough durable evidence for execution-ready status.",
+      "growth_runway": "Over 30\u2013180 days and beyond, the key drivers are progression of late-stage dermatology programs, execution in oncology, and continued business-development updates that expand indications or de-risk assets.[3] Successful readouts or approvals could significantly expand peak sales, but timing is uncertain.",
+      "hf_evidence_rank": 0.71,
+      "hf_filter_vetoes": [],
+      "hf_hype_risk": 0.32,
+      "hf_memory_similarity": 0.18,
+      "hf_model_notes": "Same-week, fundamentals-linked move with clear pipeline and partnership context from a structured news source; not a thin, hype-driven micro-cap.",
       "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "event-driven",
-      "hf_sentiment_score": 0.44,
-      "hf_source_quality_score": 0.52,
+      "hf_sentiment_label": "moderately_positive",
+      "hf_sentiment_score": 0.63,
+      "hf_source_quality_score": 0.74,
       "horizon_days": 5,
-      "margin_of_safety_case": "The apparent cheapness is offset by a long record of losses, so the margin of safety is conditional on real operating improvement.",
-      "market_regime": "A choppy market can still support selective turnaround pops, but weak risk appetite can also punish lower-quality software names.",
-      "momentum_case": "The current news flow implies a sharp post-earnings move, which can create short swing-trade momentum if the market continues to re-rate the reset story.",
-      "owner_hold_case": "Would only justify an owner-style review if the reset leads to visible margin recovery and recurring revenue stability.",
-      "quality_case": "The company is described as cheap on sales and book value, but that discount reflects years of losses, so the quality case is more turnaround than Buffett-style compounding.",
-      "recommendation": "watch",
+      "margin_of_safety_case": "Valuation is not deeply discounted and retains pipeline execution risk, so the margin of safety is moderate at best. However, an existing revenue base and diversified late-stage pipeline provide more downside buffering than pre-revenue peers. This fits as a measured-risk swing, not a deep-value owner position.",
+      "market_regime": "In a neutral-to-cautious risk-on tape with volatility and headline sensitivity, fundamentally-backed biotech moves can reverse abruptly; however, selective risk-on still rewards credible growth stories. A disciplined swing trade structure with tight stops and modest allocation is required, especially given biotech\u2019s higher beta.",
+      "momentum_case": "Shares rose about 6.2% on the day of the latest report, on renewed optimism around late-stage assets and partnerships, suggesting fresh institutional interest and a potential short-term trend inflection.[3] The move appears fundamentally anchored rather than purely technical or social-buzz driven, which aligns with the strategy preference for clear catalysts plus momentum.",
+      "owner_hold_case": "An owner-style 30\u2013180 day thesis would center on monitored clinical and regulatory milestones across the dermatology and oncology pipeline plus any new partnership announcements that de-risk revenue concentration and extend the growth runway. This longer thesis would need periodic review of trial timelines, competitive developments, and cash runway.",
+      "quality_case": "Incyte reported a strong start to 2026 with year-over-year net sales growth driven by its core commercial portfolio, indicating durable revenue rather than a one-off event.[3] It has a diversified pipeline and ongoing partnerships, which reduce single-asset risk compared with typical small-cap biotech. However, as a biotech it still faces binary clinical/regulatory risks, so it does not reach classic Buffett-level quality but screens better than speculative peers.",
+      "recommendation": "execute-if-guards-pass",
       "repeat_count_48h": 0,
-      "research_tier": "watch",
-      "risk_reward": "Potentially attractive as a tactical rebound, but only with strict risk control because the fundamental quality is not yet strong.",
-      "sector": "healthcare technology",
+      "research_tier": "execution-ready",
+      "risk_reward": "Upside of roughly one to one-and-a-half ATRs (about 8\u201312%) over a week versus a defined downside of ~6\u20138% offers a slightly better than 1:1 risk/reward if the catalyst-driven re-rating continues. The profile is acceptable for a catalyst/momentum swing but carries typical biotech event and headline risk.",
+      "sector": "Biotechnology / Healthcare",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
       "social_buzz": "none",
-      "source_quality": "Moderate but not ideal: the catalyst comes from market commentary rather than primary company filings in the provided set.",
+      "source_quality": "Primary information on the move and its drivers comes from a structured news/analysis source summarizing price action, pipeline context, and sell-side targets, offering a clear same-week, catalyst-focused narrative.[3] No speculative social media or listicle sources are required.",
+      "source_urls": [
+        "https://www.quiverquant.com/news/Incyte+shares+rise+6.2%25+amid+renewed+optimism+around+late-stage+pipeline+and+recent+partnership+update"
+      ],
+      "stop_loss_percent": 7.0,
+      "strategy_tags": [
+        "chittick_cash"
+      ],
+      "symbol": "INCY",
+      "target_allocation_percent": 6.0,
+      "thesis": "Incyte is a profitable mid-cap biotech with an established cash-generating franchise (Jakafi) and a late-stage pipeline in dermatology and oncology; the stock is reacting positively to renewed optimism around its late-stage pipeline and recent partnership updates, offering a catalyst-backed swing trade with an improving sentiment trend and a reasonable quality profile for a biotech name.[3]",
+      "valuation_case": "Analyst targets cited in the same coverage indicate upside versus current trading levels, reflecting expectations of pipeline-driven growth, but biotech target dispersion can be wide.[3] For this trade, valuation is a secondary support rather than the primary thesis."
+    },
+    {
+      "adversary_case": "A cautious critic would argue that much of the good news may already be priced in after a near-40% surge, that strategic resets are often over-celebrated initially, and that the stock\u2019s thin liquidity and small-cap nature increase gap risk beyond standard stop levels.",
+      "allocation_learning_note": "Earlier candidates often failed due to leverage mentions or stale mega-cap tech narratives; this provides a healthcare/IT exposure with a fresh earnings and strategy catalyst, aligning with diversification goals.",
+      "balance_sheet_risk": "The article does not flag acute balance sheet distress, and software/data businesses often carry manageable leverage, but as a smaller company HCAT has less buffer than large-cap peers; investors must assume some sensitivity to funding conditions and client budget cycles.[13]",
+      "bear_case": "The extreme one-day move increases the risk that short-term traders take profits, leading to sharp pullbacks. Strategic resets can disappoint if cost cuts or refocusing fail to translate into sustained revenue growth. As a smaller tech/health IT name, HCAT is also vulnerable to any rotation out of high-beta growth if macro sentiment sours.",
+      "capital_allocation_case": "The strategic reset suggests management is reallocating resources toward higher-return growth avenues in healthcare analytics.[13] Evidence of disciplined cost control and focused investment will be key over the next few quarters.",
+      "catalyst": "Post-earnings surge of roughly 38% following an earnings beat and a announced strategic reset focused on sharpening its healthcare data analytics growth strategy.[13]",
+      "catalyst_type": "earnings",
+      "chittick_cash_score": 58.0,
+      "chittick_reject_reason": "",
+      "concentration_case": "HCAT offers focused exposure to healthcare data analytics, a niche not easily replicated via broad ETFs and distinct from mega-cap tech. For a portfolio dominated by large diversified names, it adds targeted high-growth potential at the cost of higher volatility.",
+      "confidence": 0.69,
+      "congressional_signal": "none",
+      "diversity_bucket": "small-mid-cap-healthcare-IT",
+      "entry_plan": "Wait for a 5\u201310% intraday or multi-day pullback from the post-earnings spike or a tight consolidation just below the high with declining volume before entering, to avoid chasing an overextended candle. Enter on evidence the new support level is holding (e.g., intraday higher lows on normal volume).",
+      "exit_plan": "Aim to realize profits on a further 10\u201315% move from entry within 5\u20137 trading days if momentum persists. Invalidate the trade on a close back into the pre-earnings range or a decisive break of the first post-earnings consolidation low, maintaining the defined stop-loss band.",
+      "fresh_catalyst": true,
+      "growth_runway": "Over 30\u2013180 days, growth depends on execution of the strategic reset, expansion of analytics offerings, and deeper penetration of healthcare systems and providers.[13] If management delivers sustained subscription growth and margin improvement, the current move could mark the start of a longer re-rating.",
+      "hf_evidence_rank": 0.68,
+      "hf_filter_vetoes": [],
+      "hf_hype_risk": 0.41,
+      "hf_memory_similarity": 0.15,
+      "hf_model_notes": "Strong, clearly dated earnings and strategy catalyst in an underrepresented sector bucket; high volatility, so allocation and stops must be conservative.",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "positive",
+      "hf_sentiment_score": 0.66,
+      "hf_source_quality_score": 0.7,
+      "horizon_days": 6,
+      "margin_of_safety_case": "After a vertical move, valuation is likely fuller, reducing margin of safety. The trade is justified by short-term earnings and strategy momentum rather than deep value. For Chittick-style thinking, this is a speculative satellite, not a core holding.",
+      "market_regime": "In a regime where the broader indices have shown signs of consolidation and investors are selective, strong earnings beats with credible strategic narratives can still outperform. However, volatility remains elevated, making large post-earnings movers susceptible to snap-backs; thus position sizing and stops must be conservative.",
+      "momentum_case": "The stock jumped about 38.17% after the strategic reset and earnings beat, marking a strong positive price and volume inflection.[13] Such post-earnings breakouts, if not immediately faded, can lead to short-term follow-through as investors re-price future growth and shorts cover.",
+      "owner_hold_case": "A 30\u2013180 day owner-style thesis would require tracking whether the strategic reset translates into consistent revenue acceleration, improved operating leverage, and stable or growing key customer relationships. Absent this evidence over successive quarters, the name should remain a shorter-horizon, higher-risk position.",
+      "quality_case": "HCAT operates in healthcare data and analytics, a structurally growing niche with recurring-revenue dynamics typical of SaaS and data platforms. The latest earnings beat and strategic reset indicate management is addressing past execution issues and focusing resources on higher-ROI opportunities.[13] However, as a smaller-cap, it carries more execution and customer-concentration risk than mature large caps.",
+      "recommendation": "execute-if-guards-pass",
+      "repeat_count_48h": 1,
+      "research_tier": "execution-ready",
+      "risk_reward": "Given the volatility after a 38% move, an additional 10\u201315% upside versus a controlled 8\u201310% downside offers a reasonable but high-volatility risk/reward for a short-term swing, provided entry is not at the extreme high.",
+      "sector": "Healthcare IT / Data Analytics",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "none",
+      "source_quality": "The catalyst and move are documented in a dedicated news item summarizing the price reaction, the earnings beat, and the strategic reset narrative, which together supply a clear, date-stamped, fundamentals-linked driver.[13]",
       "source_urls": [
         "https://stockstotrade.com/news/health-catalyst-inc-hcat-news-2026_06_04/"
       ],
-      "stop_loss_percent": 0.0,
+      "stop_loss_percent": 9.0,
       "strategy_tags": [
         "chittick_cash"
       ],
       "symbol": "HCAT",
+      "target_allocation_percent": 5.0,
+      "thesis": "Health Catalyst is a healthcare data analytics and software company whose stock has surged on a strategic reset and an earnings beat, suggesting improving execution and renewed confidence in its growth path; the combination of operational changes and positive earnings surprise provides a concrete, dated catalyst for a short-horizon momentum-plus-fundamentals swing trade.[13]",
+      "valuation_case": "The earnings beat and improved outlook can justify some multiple expansion, but without detailed valuation metrics in the immediate source, valuation is best treated as neutral to slightly stretched after the surge.[13] The trade relies on post-earnings momentum rather than clear undervaluation."
+    },
+    {
+      "adversary_case": "A strict evidence-based skeptic would argue that using a single congressional trade disclosure as any basis for attention is unwarranted, given minimal edge and delayed timing, and that watchlist slots should be reserved for names with at least one substantive, recent fundamental or technical catalyst.",
+      "allocation_learning_note": "Demonstrates use of congressional data strictly as a secondary, low-weight signal; avoids treating it as a primary trade driver in line with policy.",
+      "balance_sheet_risk": "DVN historically has managed leverage prudently relative to peers, but as an E&P company its cash flows are volatile; without current balance sheet statistics in the sources, risk must be treated as moderate and cyclical rather than low.[3]",
+      "bear_case": "Commodity price volatility, policy risk, and capital intensity can drive earnings and share price swings unrelated to company-specific execution. Without a strong, fresh catalyst, entering a short-horizon trade risks being whipsawed by macro energy moves rather than an identifiable edge.",
+      "capital_allocation_case": "The sector has shifted toward shareholder returns (dividends, buybacks, variable payouts) in recent years, and DVN has participated in this trend, but no new capital allocation decisions are cited in the current material.",
+      "catalyst": "Recent public congressional disclosure of a DVN exchange trade in the $15,001\u2013$50,000 range by a U.S. Representative on May 8, 2026, providing only a low-weight, delayed signal of institutional/political interest rather than a tradeable event.[3]",
+      "catalyst_type": "general",
+      "chittick_cash_score": 55.0,
+      "chittick_reject_reason": "Insufficient fresh fundamental or momentum catalyst; only a minor congressional disclosure datapoint is available, which does not meet the bar for a high-conviction, quality-weighted swing trade.",
+      "concentration_case": "DVN offers more concentrated energy exposure than broad market ETFs, which can be useful for diversification but also increases macro and commodity sensitivity. Given the weak catalyst context, this concentration is not yet justified for an active swing in the paper strategy.",
+      "confidence": 0.52,
+      "congressional_signal": "Recent medium-sized congressional trade disclosure (House member, DVN, $15,001\u2013$50,000, May 8, 2026) provides only a low-weight, delayed attention signal.[3]",
+      "diversity_bucket": "large-cap-energy-cyclical",
+      "entry_plan": "None: monitor-only. If future research uncovers a strong, dated catalyst (earnings surprise, capital returns update, material operational news) plus constructive technicals, an entry plan can be designed at that time.",
+      "exit_plan": "None for now; this record is for watchlist and research purposes only, not execution.",
+      "fresh_catalyst": true,
+      "growth_runway": "Medium-term growth is tied to disciplined shale development, cost control, and capital-return frameworks rather than high secular growth. Over 30\u2013180 days, price action is likely to track oil and gas prices more than company-specific reinvention.",
+      "hf_evidence_rank": 0.45,
+      "hf_filter_vetoes": [],
+      "hf_hype_risk": 0.15,
+      "hf_memory_similarity": 0.07,
+      "hf_model_notes": "Included as a low-weight, monitor-only idea due to a congressional disclosure mention; not suitable for execution without additional catalysts.",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "neutral",
+      "hf_sentiment_score": 0.5,
+      "hf_source_quality_score": 0.62,
+      "horizon_days": 7,
+      "margin_of_safety_case": "Energy cyclicality makes intrinsic value estimates wide. DVN can be attractive at low multiples of normalized free cash flow, but without updated valuation data or a new capital-return announcement in the current sources, margin of safety cannot be confidently assessed here.",
+      "market_regime": "In a choppy macro environment with changing expectations for rates and growth, cyclical energy names like DVN can be highly sensitive to global demand headlines and OPEC decisions. For a cautious bot, this argues for observation and thesis-building, not immediate trading based solely on a weak disclosure signal.",
+      "momentum_case": "No explicit short-term momentum or breakout catalyst is documented in the retrieved sources; any current technical setup would need independent chart review. With only a dated, low-strength congressional disclosure in hand, there is insufficient evidence for a momentum-backed swing.",
+      "owner_hold_case": "A 30\u2013180 day owner thesis would require updated work on DVN\u2019s capital returns policy, drilling program, cost structure, and sensitivity to oil price scenarios, as well as potential catalysts such as production guidance changes or major project updates. Until then, it remains a monitoring candidate.",
+      "quality_case": "DVN is a known, scaled upstream energy producer with meaningful reserves and exposure to U.S. shale, historically generating substantial free cash flow when oil prices are supportive. However, the sector is cyclical and heavily commodity-driven, which limits margin of safety compared with stable, wide-moat compounders.",
+      "recommendation": "watch",
+      "repeat_count_48h": 1,
+      "research_tier": "monitor-only",
+      "risk_reward": "Indeterminate for a 1\u201310 day horizon given the absence of a clear, tradeable catalyst; entering now would effectively be a macro bet on near-term oil price moves.",
+      "sector": "Energy / Oil & Gas Exploration & Production",
+      "signal_weights": {
+        "congressional_signal": 0.03,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "none",
+      "source_quality": "The only concrete datapoint in the current results is a structured congressional trade disclosure, which is inherently lagged and of low informational content for timing trades.[3] There is no fresh earnings or company-specific news in the provided snippets.",
+      "source_urls": [
+        "https://www.quiverquant.com/stock/DVN/"
+      ],
+      "stop_loss_percent": 8.0,
+      "strategy_tags": [
+        "chittick_cash"
+      ],
+      "symbol": "DVN",
       "target_allocation_percent": 0.0,
-      "thesis": "The recent earnings-beat-and-reset framing suggests a possible turnaround trade, but the current evidence is still fragile and fits better as a monitored special situation than a ready execution candidate.",
-      "valuation_case": "Cheap on sales/book may be real, but only because the market is discounting execution risk heavily."
+      "thesis": "Devon Energy is a large U.S. oil and gas producer with significant free cash flow sensitivity to commodity prices; while there is no strong same-week fundamental catalyst in the provided results, a recent congressional trade disclosure offers a minor secondary signal that, combined with its established business and sector role, warrants monitor-only status rather than an active swing trade.[3]",
+      "valuation_case": "No up-to-date valuation metrics or analyst target data are provided in the retrieved snippets; any valuation view would be speculative and is therefore withheld pending further research."
     }
   ],
-  "summary": "No execution-ready candidate stands out from the current evidence set. The strongest usable signal is still a cautious, late-cycle market with elevated volatility, which favors selective, catalyst-backed longs and avoids stale repeat names."
+  "summary": "Broad U.S. equities are in a choppy, late\u2011upswing phase with recent de\u2011risking after a multi\u2011week run, favoring selective, high\u2011quality names with clear, dated catalysts and disciplined risk controls."
 }
 -->
 
@@ -1664,4 +1715,12 @@ No candidates.
 |---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
 | DVN | energy | monitor-only | energy | 0 | no | 0.34 | 34 | 0 | 2 | 0.0% | 0.0% | watch | A public congressional disclosure reported a May 8, 2026 exchange transaction in DVN by Representative Kevin Hern in the $15,001–$50,000 range, but this is dela |
 | HCAT | healthcare technology | watch | healthcare-it | 0 | yes | 0.49 | 41 | 1 | 1 | 0.0% | 0.0% | watch | Market coverage describes Health Catalyst as jumping after a strategic reset following earnings, which is a near-term event catalyst. |
+
+## Latest Candidates - 2026-06-04 14:51:45 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| INCY | Biotechnology / Healthcare | execution-ready | mid-cap-biotech-healthcare | 0 | yes | 0.71 | 64 | 1 | 0 | 6.0% | 7.0% | execute-if-guards-pass | Same-week price spike (~6.2% up move) tied to investor re-rating around late-stage pipeline momentum and recent partnership announcements, following a quarterly |
+| HCAT | Healthcare IT / Data Analytics | execution-ready | small-mid-cap-healthcare-IT | 1 | yes | 0.69 | 58 | 1 | 0 | 5.0% | 9.0% | execute-if-guards-pass | Post-earnings surge of roughly 38% following an earnings beat and a announced strategic reset focused on sharpening its healthcare data analytics growth strateg |
+| DVN | Energy / Oil & Gas Exploration & Production | monitor-only | large-cap-energy-cyclical | 1 | yes | 0.52 | 55 | 1 | 0 | 0.0% | 8.0% | watch | Recent public congressional disclosure of a DVN exchange trade in the $15,001–$50,000 range by a U.S. Representative on May 8, 2026, providing only a low-weight |
 
