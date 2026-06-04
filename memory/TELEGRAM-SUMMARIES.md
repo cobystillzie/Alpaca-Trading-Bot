@@ -26810,4 +26810,202 @@ HF filter: sentiment=neutral source=1/100 hype=0.15 vetoes=0
 Self-learning: tier=monitor-only repeat48h=1 fresh=yes bucket=large-cap-energy-cyclical
 Social buzz, low weight: none
 Congress signal, low weight: Recent medium-sized congressional trade disclosure (House member, DVN, $15,001–$50,000, May 8, 2026) provides only a low-weight, delayed attention signal.[3]
+## Performance Ledger - 2026-06-04 16:30:03 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-06-04 16:30:03 Eastern Daylight Time
+- Portfolio value: $100,133.62
+- P/L vs $100k baseline: $133.62
+- Full paper-account return: 0.134%
+- Managed-capital return: 1.34%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 2.39%
+- Latest position value: $5,733.62
+- Full-account cash reserve: 94.3%
+- Managed-capital cash reserve: 42.7%
+- Max snapshot drawdown: $141.35 from 2026-05-08 16:30:03 Eastern Daylight Time to 2026-06-03 16:30:02 Eastern Daylight Time
+
+Open Position Review
+- DT: winner, value $875.48, unrealized P/L $75.48, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 27 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: loser, value $420.08, unrealized P/L $-79.92, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 28 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: loser, value $798.56, unrealized P/L $-1.44, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 35 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- IBRX: loser, value $516.40, unrealized P/L $-83.60, entry 2026-05-11 09:48:18 Eastern Daylight Time, thesis age 24 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: loser, value $496.64, unrealized P/L $-3.36, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 23 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: winner, value $871.41, unrealized P/L $71.41, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 34 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $822.20, unrealized P/L $22.20, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 29 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $932.84, unrealized P/L $132.84, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 37 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- INTC: appeared 35 times; market outcome unavailable until benchmark/candidate price history is captured.
+- SCHD: appeared 34 times; open position P/L $22.20.
+- GOOGL: appeared 32 times; open position P/L $-1.44.
+- SPMO: appeared 32 times; open position P/L $132.84.
+- NVDA: appeared 29 times; open position P/L $71.41.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MSFT: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- UNP: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VALN: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Candidate references banned v1 instruments or leverage.: 18
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 11
+  - Single-stock allocation would exceed 15%.: 7
+  - Max open-position count would be exceeded.: 6
+  - A market-open order is already logged for today. No backup order was placed.: 5
+  - Candidate is monitor-only and cannot be traded. Confidence below 0.60. Target allocation must be between 1% and 15%. Stop loss must be between 3% and 12%.: 5
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources.: 5
+  - Candidate references banned v1 instruments or leverage. Target allocation must be between 1% and 15%.: 4
+- By symbol:
+  - INTU: 5
+  - GOOGL: 4
+  - AGI: 3
+  - BAH: 3
+  - KO: 3
+  - PLTR: 3
+  - TMXX.F: 3
+  - WSC: 3
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 0
+- congressional: 2
+- unknown: 1
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold met: 8 trades over 37 days.
+- Strategy tuning may be reviewed, but safety guardrails still apply.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## End Of Day Memo - 2026-06-04 16:30:03 Eastern Daylight Time
+
+End Of Day Analyst Memo
+
+Recommendation: Carry forward only evidence-backed candidates; review stops before the next market-open run.
+
+Market Regime
+End-of-day review of paper portfolio, trade quality, risk notes, and next-day watchlist.
+
+Portfolio
+Portfolio value: 100133.62 Cash: 94400 Buying power: 389067.24 Positions: - DT: qty=20.289119959, market_value=875.475526, unrealized_pl=75.475526 - GLRE: qty=28.042624789, market_value=420.078519, unrealized_pl=-79.921481 - GOOGL: qty=2.151289429, market_value=798.558636, unrealized_pl=-1.441364 - IBRX: qty=70.838252656, market_value=516.403778, unrealized_pl=-83.596222 - LNC: qty=14.590020426, market_value=496.644295, unrealized_pl=-3.355705 - NVDA: qty=4.00060009, market_value=871.412712, unrealized_pl=71.412712 - SCHD: qty=25.2286345, market_value=822.201198, unrealized_pl=22.201198 - SPMO: qty=6.119014838, market_value=932.843812, unrealized_pl=132.843812 Performance: value $100,133.62, P/L vs $100k $133.62, managed return 1.34%, deployed return 2.39%, managed cash reserve 42.7%.
+
+Top Candidates
+
+1. INCY (Biotechnology / Healthcare) | confidence 0.71 | allocation 6.0% | stop 7.0% | Chittick 64/100 | tier execution-ready | bucket mid-cap-biotech-healthcare | HF source 1/100
+Thesis: Incyte is a profitable mid-cap biotech with an established cash-generating franchise (Jakafi) and a late-stage pipeline in dermatology and oncology; the stock is reacting positively to renewed optimism around its late-stage pipeline and recent partnership updates, offering a catalyst-backed swing trade with an improving sentiment trend and a reasonable qu...
+Catalyst: Same-week price spike (~6.2% up move) tied to investor re-rating around late-stage pipeline momentum and recent partnership announcements, following a quarterly update that showed year-over-year net sales growth and reiterated focus on dermatology and business-development deals.[3]
+Entry: For paper-trading, consider a staged entry after a 1–3% intraday pullback toward the prior day’s breakout area, or on a hold above that level with average-to-strong volume. Avoid chasing if the stock gaps excessively; wait for either a consolidation day or...
+Exit: Take initial profits if the stock advances 8–12% from entry within the 5–7 day horizon, or if it approaches obvious short-term resistance from prior swing highs. Invalidate the trade on a decisive close below recent breakout support or if negative trial/par...
+Risk/reward: Upside of roughly one to one-and-a-half ATRs (about 8–12%) over a week versus a defined downside of ~6–8% offers a slightly better than 1:1 risk/reward if the catalyst-driven re-rating continues. The profile is acceptable for a catalyst/momentum swing but c...
+Bear/adversary: A disciplined skeptic would argue that without a single, clearly disclosed new event on the day of the move, the stock’s pop could represent short covering or positioning noise rather than a durable re-rating, making the risk/reward unattractive for a conservative, quality-biased strategy.[3]
+Source quality: Primary information on the move and its drivers comes from a structured news/analysis source summarizing price action, pipeline context, and sell-side targets, offering a clear same-week, catalyst-focused narrative.[3] No speculative social media or listicl...
+Chittick Cash Filter
+Score: 64/100
+Margin of safety: Valuation is not deeply discounted and retains pipeline execution risk, so the margin of safety is moderate at best. However, an existing revenue base and diversified late-stage pipeline provide more downside buffering than pre-revenue p...
+Valuation: Analyst targets cited in the same coverage indicate upside versus current trading levels, reflecting expectations of pipeline-driven growth, but biotech target dispersion can be wide.[3] For this trade, valuation is a secondary support r...
+Growth runway: Over 30–180 days and beyond, the key drivers are progression of late-stage dermatology programs, execution in oncology, and continued business-development updates that expand indications or de-risk assets.[3] Successful readouts or appro...
+Balance-sheet risk: The article implies no imminent liquidity crisis and highlights ongoing investment and partnerships, consistent with a generally sound balance sheet for a mid-cap biotech.[3] Still, the business model is inherently de...
+Capital allocation: Management has prioritized late-stage pipeline investment and external partnerships, which is a rational capital allocation approach in specialty pharma/biotech. There is no indication of aggressive leverage or non-co...
+Concentration case: INCY offers targeted exposure to a differentiated late-stage biotech pipeline not captured by broad market ETFs. For a paper account already heavy in mega-cap tech or broad indices, it adds sector and factor diversification while still a...
+Owner thesis, 30-180 days: An owner-style 30–180 day thesis would center on monitored clinical and regulatory milestones across the dermatology and oncology pipeline plus any new partnership announcements that de-risk revenue concentration and extend the growth runway. This longer th...
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: news
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: mid-cap-biotech-healthcare
+Research tier: execution-ready
+Allocation learning: Prior rejections have often stemmed from leverage mentions or stale mega-cap tech ideas; this candidate avoids banned instruments and comes from a different sector, with a fresh, fundamentals-linked move.
+Hugging Face Filter
+Sentiment: moderately_positive (0.63), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.32
+Evidence rank: 1/100
+Memory similarity: 0.18
+Vetoes: none
+Model notes: Same-week, fundamentals-linked move with clear pipeline and partnership context from a structured news source; not a thin, hype-driven micro-cap.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.quiverquant.com/news/Incyte+shares+rise+6.2%25+amid+renewed+optimism+around+late-stage+pipeline+and+recent+partnership+update
+
+2. HCAT (Healthcare IT / Data Analytics) | confidence 0.69 | allocation 5.0% | stop 9.0% | Chittick 58/100 | tier execution-ready | bucket small-mid-cap-healthcare-IT | HF source 1/100
+Thesis: Health Catalyst is a healthcare data analytics and software company whose stock has surged on a strategic reset and an earnings beat, suggesting improving execution and renewed confidence in its growth path; the combination of operational changes and positive earnings surprise provides a concrete, dated catalyst for a short-horizon momentum-plus-fundament...
+Catalyst: Post-earnings surge of roughly 38% following an earnings beat and a announced strategic reset focused on sharpening its healthcare data analytics growth strategy.[13]
+Entry: Wait for a 5–10% intraday or multi-day pullback from the post-earnings spike or a tight consolidation just below the high with declining volume before entering, to avoid chasing an overextended candle. Enter on evidence the new support level is holding (e.g...
+Exit: Aim to realize profits on a further 10–15% move from entry within 5–7 trading days if momentum persists. Invalidate the trade on a close back into the pre-earnings range or a decisive break of the first post-earnings consolidation low, maintaining the defin...
+Risk/reward: Given the volatility after a 38% move, an additional 10–15% upside versus a controlled 8–10% downside offers a reasonable but high-volatility risk/reward for a short-term swing, provided entry is not at the extreme high.
+Bear/adversary: A cautious critic would argue that much of the good news may already be priced in after a near-40% surge, that strategic resets are often over-celebrated initially, and that the stock’s thin liquidity and small-cap nature increase gap risk beyond standard stop levels.
+Source quality: The catalyst and move are documented in a dedicated news item summarizing the price reaction, the earnings beat, and the strategic reset narrative, which together supply a clear, date-stamped, fundamentals-linked driver.[13]
+Chittick Cash Filter
+Score: 58/100
+Margin of safety: After a vertical move, valuation is likely fuller, reducing margin of safety. The trade is justified by short-term earnings and strategy momentum rather than deep value. For Chittick-style thinking, this is a speculative satellite, not a...
+Valuation: The earnings beat and improved outlook can justify some multiple expansion, but without detailed valuation metrics in the immediate source, valuation is best treated as neutral to slightly stretched after the surge.[13] The trade relies...
+Growth runway: Over 30–180 days, growth depends on execution of the strategic reset, expansion of analytics offerings, and deeper penetration of healthcare systems and providers.[13] If management delivers sustained subscription growth and margin impro...
+Balance-sheet risk: The article does not flag acute balance sheet distress, and software/data businesses often carry manageable leverage, but as a smaller company HCAT has less buffer than large-cap peers; investors must assume some sens...
+Capital allocation: The strategic reset suggests management is reallocating resources toward higher-return growth avenues in healthcare analytics.[13] Evidence of disciplined cost control and focused investment will be key over the next...
+Concentration case: HCAT offers focused exposure to healthcare data analytics, a niche not easily replicated via broad ETFs and distinct from mega-cap tech. For a portfolio dominated by large diversified names, it adds targeted high-growth potential at the...
+Owner thesis, 30-180 days: A 30–180 day owner-style thesis would require tracking whether the strategic reset translates into consistent revenue acceleration, improved operating leverage, and stable or growing key customer relationships. Absent this evidence over successive quarters,...
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 2
+Diversity bucket: small-mid-cap-healthcare-IT
+Research tier: execution-ready
+Allocation learning: Earlier candidates often failed due to leverage mentions or stale mega-cap tech narratives; this provides a healthcare/IT exposure with a fresh earnings and strategy catalyst, aligning with diversification goals.
+Hugging Face Filter
+Sentiment: positive (0.66), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.41
+Evidence rank: 1/100
+Memory similarity: 0.15
+Vetoes: none
+Model notes: Strong, clearly dated earnings and strategy catalyst in an underrepresented sector bucket; high volatility, so allocation and stops must be conservative.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://stockstotrade.com/news/health-catalyst-inc-hcat-news-2026_06_04/
+
+3. DVN (Energy / Oil & Gas Exploration & Production) | confidence 0.52 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier monitor-only | bucket large-cap-energy-cyclical | HF source 1/100
+Thesis: Devon Energy is a large U.S. oil and gas producer with significant free cash flow sensitivity to commodity prices; while there is no strong same-week fundamental catalyst in the provided results, a recent congressional trade disclosure offers a minor secondary signal that, combined with its established business and sector role, warrants monitor-only statu...
+Catalyst: Recent public congressional disclosure of a DVN exchange trade in the $15,001–$50,000 range by a U.S. Representative on May 8, 2026, providing only a low-weight, delayed signal of institutional/political interest rather than a tradeable event.[3]
+Entry: None: monitor-only. If future research uncovers a strong, dated catalyst (earnings surprise, capital returns update, material operational news) plus constructive technicals, an entry plan can be designed at that time.
+Exit: None for now; this record is for watchlist and research purposes only, not execution.
+Risk/reward: Indeterminate for a 1–10 day horizon given the absence of a clear, tradeable catalyst; entering now would effectively be a macro bet on near-term oil price moves.
+Bear/adversary: A strict evidence-based skeptic would argue that using a single congressional trade disclosure as any basis for attention is unwarranted, given minimal edge and delayed timing, and that watchlist slots should be reserved for names with at least one substantive, recent fundamental or technical cat...
+Source quality: The only concrete datapoint in the current results is a structured congressional trade disclosure, which is inherently lagged and of low informational content for timing trades.[3] There is no fresh earnings or company-specific news in the provided snippets.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Energy cyclicality makes intrinsic value estimates wide. DVN can be attractive at low multiples of normalized free cash flow, but without updated valuation data or a new capital-return announcement in the current sources, margin of safet...
+Valuation: No up-to-date valuation metrics or analyst target data are provided in the retrieved snippets; any valuation view would be speculative and is therefore withheld pending further research.
+Growth runway: Medium-term growth is tied to disciplined shale development, cost control, and capital-return frameworks rather than high secular growth. Over 30–180 days, price action is likely to track oil and gas prices more than company-specific rei...
+Balance-sheet risk: DVN historically has managed leverage prudently relative to peers, but as an E&P company its cash flows are volatile; without current balance sheet statistics in the sources, risk must be treated as moderate and cycli...
+Capital allocation: The sector has shifted toward shareholder returns (dividends, buybacks, variable payouts) in recent years, and DVN has participated in this trend, but no new capital allocation decisions are cited in the current mater...
+Concentration case: DVN offers more concentrated energy exposure than broad market ETFs, which can be useful for diversification but also increases macro and commodity sensitivity. Given the weak catalyst context, this concentration is not yet justified for...
+Owner thesis, 30-180 days: A 30–180 day owner thesis would require updated work on DVN’s capital returns policy, drilling program, cost structure, and sensitivity to oil price scenarios, as well as potential catalysts such as production guidance changes or major project updates. Unti...
+Chittick reject reason: Insufficient fresh fundamental or momentum catalyst; only a minor congressional disclosure datapoint is available, which does not meet the bar for a high-conviction, quality-weighted swing trade.
+Self-Learning Filter
+Catalyst type: general
+Fresh catalyst: yes
+Repeat count, 48h: 2
+Diversity bucket: large-cap-energy-cyclical
+Research tier: monitor-only
+Allocation learning: Demonstrates use of congressional data strictly as a secondary, low-weight signal; avoids treating it as a primary trade driver in line with policy.
+Hugging Face Filter
+Sentiment: neutral (0.50), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.15
+Evidence rank: 0/100
+Memory similarity: 0.07
+Vetoes: none
+Model notes: Included as a low-weight, monitor-only idea due to a congressional disclosure mention; not suitable for execution without additional catalysts.
+Social buzz, max 10%: none
+Congress signal, max 5%: Recent medium-sized congressional trade disclosure (House member, DVN, $15,001–$50,000, May 8, 2026) provides only a low-weight, delayed attention signal.[3]
+Sources: https://www.quiverquant.com/stock/DVN/
 
