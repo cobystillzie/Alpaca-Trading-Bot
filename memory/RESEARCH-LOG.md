@@ -1383,4 +1383,18 @@ Candidates found: 3
 The setup remains selectively risk-on: broad equity leadership is still concentrated in large-cap growth, but rate sensitivity, geopolitical headlines, and crowding make single-name follow-through uneven. The best candidates are those with a clear dated catalyst, good balance sheets, and enough momentum to support a short swing window.
 
 Candidates found: 5
+## Premarket Plan - 2026-06-04 08:25:01 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- MSFT: score=76, base=90, chittick=69, approved=False, allocation=0.0%, stop=0.0%
+  rejects: repeat_decay; stale_catalyst; Candidate is allocation-muted and cannot be traded.; Confidence below 0.60.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
+- GOOGL: score=58, base=80, chittick=35, approved=False, allocation=0.0%, stop=0.0%
+  rejects: repeat_decay; stale_catalyst; HF memory filter flags similarity to prior rejected patterns.; Candidate is monitor-only and cannot be traded.; Confidence below 0.60.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
+- INTC: score=58, base=80, chittick=35, approved=False, allocation=0.0%, stop=0.0%
+  rejects: stale_catalyst; Confidence below 0.60.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
+- USAR: score=58, base=80, chittick=35, approved=False, allocation=0.0%, stop=0.0%
+  rejects: source_thin; no_fundamental_catalyst; Candidate is monitor-only and cannot be traded.; Confidence below 0.60.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
+- GT: score=58, base=80, chittick=35, approved=False, allocation=0.0%, stop=0.0%
+  rejects: stale_catalyst; Confidence below 0.60.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
 
