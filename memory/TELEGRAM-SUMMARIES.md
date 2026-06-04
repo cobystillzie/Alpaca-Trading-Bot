@@ -26753,4 +26753,28 @@ Model notes: Monitor-only until a fresh catalyst appears.
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: none
+## Research Update - 2026-06-04 12:52:39 Eastern Daylight Time
+
+Research Update
+
+Market tone: No execution-ready candidate stands out from the current evidence set. The strongest usable signal is still a cautious, late-cycle market with elevated volatility, which favors selective, catalyst-backed longs and avoids stale repeat names.
+Candidates: 2
+
+1. DVN (energy) | confidence 0.34 | allocation 0.0% | stop 0.0% | Chittick 34/100 | tier monitor-only | bucket energy | HF source 0/100 | HF veto
+Recommendation: watch
+Catalyst: A public congressional disclosure reported a May 8, 2026 exchange transaction in DVN by Representative Kevin Hern in the $15,001–$50,000 range, but this is delayed and low-conviction secondary evidence rather than a primary catalyst.
+Chittick Cash: Commodity cyclicality reduces margin of safety versus high-quality compounders, but the business is at least tangible and liquid.
+HF filter: sentiment=low_attention source=0/100 hype=0.08 vetoes=2
+Self-learning: tier=monitor-only repeat48h=0 fresh=no bucket=energy
+Social buzz, low weight: none
+Congress signal, low weight: weak secondary context only; one delayed disclosure in a liquid stock is not a primary catalyst.
+
+2. HCAT (healthcare technology) | confidence 0.49 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier watch | bucket healthcare-it | HF source 1/100 | HF veto
+Recommendation: watch
+Catalyst: Market coverage describes Health Catalyst as jumping after a strategic reset following earnings, which is a near-term event catalyst.
+Chittick Cash: The apparent cheapness is offset by a long record of losses, so the margin of safety is conditional on real operating improvement.
+HF filter: sentiment=event-driven source=1/100 hype=0.31 vetoes=1
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=healthcare-it
+Social buzz, low weight: none
+Congress signal, low weight: none
 
