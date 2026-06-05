@@ -27120,4 +27120,165 @@ Sources: TARGET CORP ; TGT ; 27419 ; 10-k ; 2025-03-12, TARGET CORP ; TGT ; 2741
 Rejected / Watchouts
 - DVN: Low-weight social/congress signal needs at least two stronger sources.
 - TGT: Candidate is monitor-only and cannot be traded.; Target allocation must be between 1% and 15%.
+## Performance Ledger - 2026-06-05 12:40:02 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-06-05 12:40:02 Eastern Daylight Time
+- Portfolio value: $100,028.05
+- P/L vs $100k baseline: $28.05
+- Full paper-account return: 0.028%
+- Managed-capital return: 0.28%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 0.50%
+- Latest position value: $5,628.18
+- Full-account cash reserve: 94.4%
+- Managed-capital cash reserve: 43.7%
+- Max snapshot drawdown: $197.36 from 2026-05-08 16:30:03 Eastern Daylight Time to 2026-06-05 12:40:02 Eastern Daylight Time
+
+Open Position Review
+- DT: winner, value $852.75, unrealized P/L $52.75, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 28 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: loser, value $431.86, unrealized P/L $-68.14, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 29 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: loser, value $796.06, unrealized P/L $-3.94, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 36 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- IBRX: loser, value $498.96, unrealized P/L $-101.04, entry 2026-05-11 09:48:18 Eastern Daylight Time, thesis age 25 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: winner, value $502.63, unrealized P/L $2.63, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 24 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: winner, value $830.64, unrealized P/L $30.64, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 35 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $818.29, unrealized P/L $18.29, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 30 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $896.99, unrealized P/L $96.99, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 38 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- INTC: appeared 35 times; market outcome unavailable until benchmark/candidate price history is captured.
+- SCHD: appeared 34 times; open position P/L $18.29.
+- GOOGL: appeared 32 times; open position P/L $-3.94.
+- SPMO: appeared 32 times; open position P/L $96.99.
+- NVDA: appeared 29 times; open position P/L $30.64.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MSFT: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- UNP: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VALN: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Candidate references banned v1 instruments or leverage.: 18
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 11
+  - Single-stock allocation would exceed 15%.: 7
+  - Max open-position count would be exceeded.: 6
+  - A market-open order is already logged for today. No backup order was placed.: 5
+  - Candidate is monitor-only and cannot be traded. Confidence below 0.60. Target allocation must be between 1% and 15%. Stop loss must be between 3% and 12%.: 5
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources.: 5
+  - Candidate references banned v1 instruments or leverage. Target allocation must be between 1% and 15%.: 4
+- By symbol:
+  - INTU: 5
+  - GOOGL: 4
+  - AGI: 3
+  - BAH: 3
+  - KO: 3
+  - PLTR: 3
+  - TMXX.F: 3
+  - WSC: 3
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 0
+- congressional: 1
+- unknown: 6
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold met: 8 trades over 38 days.
+- Strategy tuning may be reviewed, but safety guardrails still apply.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## Midday Memo - 2026-06-05 12:40:02 Eastern Daylight Time
+
+Midday Risk Memo
+
+Recommendation: Hold only positions whose thesis still matches the research; do not add unless guardrails pass.
+
+Market Regime
+Review current paper positions, thesis drift, concentration, stop discipline, and cash reserve.
+
+Portfolio
+Portfolio value: 100028.05 Cash: 94400 Buying power: 388856.1 Positions: - DT: qty=20.289119959, market_value=852.751712, unrealized_pl=52.751712 - GLRE: qty=28.042624789, market_value=431.856422, unrealized_pl=-68.143578 - GOOGL: qty=2.151289429, market_value=796.06314, unrealized_pl=-3.93686 - IBRX: qty=70.838252656, market_value=498.956316, unrealized_pl=-101.043684 - LNC: qty=14.590020426, market_value=502.626204, unrealized_pl=2.626204 - NVDA: qty=4.00060009, market_value=830.644597, unrealized_pl=30.644597 - SCHD: qty=25.2286345, market_value=818.29076, unrealized_pl=18.29076 - SPMO: qty=6.119014838, market_value=896.986385, unrealized_pl=96.986385 Performance: value $100,028.05, P/L vs $100k $28.05, managed return 0.28%, deployed return 0.50%, managed cash reserve 43.7%.
+
+Top Candidates
+
+1. DVN (energy) | confidence 0.63 | allocation 6.0% | stop 8.0% | Chittick 68/100 | tier watch-allocation-constrained | bucket large-cap-energy | HF source 1/100
+Thesis: Devon Energy is a large, liquid U.S. oil and gas producer with disciplined capital returns and direct leverage to commodity prices; in the current regime of geopolitical tension, still‑elevated but volatile energy prices, and recent congressional trading activity, it offers a defined 5–7 day swing setup with a modest mean‑reversion/momentum blend while al...
+Catalyst: Recent congressional exchange transaction in DVN reported by Rep. Kevin Hern on May 8, 2026, in the $15,001–$50,000 range, combined with ongoing geopolitical tensions and sensitivity of energy equities to moves in crude and rate expectations, provides a time‑stamped, if low-weight, catalyst windo...
+Entry: Paper entry on a modest intraday pullback toward a recent short‑term support or 1–2% below the prior close, with a staggered single tranche sized at 5–6% of notional capital to respect regime and commodity risk. Avoid opening immediately into large gap move...
+Exit: Target a 6–9% upside over 5–7 trading days, taking profits earlier if a fast 5% gain occurs on favorable crude or macro news. Invalidate the trade on an 8% drawdown from entry or if there is a decisive break of short‑term support accompanied by a broad risk...
+Risk/reward: Defined asymmetry with roughly 1 unit of downside (8% stop) for 1–1.1 units of upside (6–9% target) in a volatile, macro‑sensitive name; acceptable only if kept to mid‑single‑digit allocation and tightly monitored given commodity and headline risk.
+Bear/adversary: The congressional transaction is effectively noise with minimal informational content; without a fresh company‑specific catalyst (earnings, guidance, major contract, or corporate action), this is just a directional bet on short‑term energy and factor flows with limited edge, making it questionabl...
+Source quality: Evidence is moderate: congressional‑trade data comes from a specialized tracking source with clear dating but is inherently low‑signal and backward‑looking; macro commentary on regime and energy’s cyclicality is broad but from mainstream market and macro ou...
+Chittick Cash Filter
+Score: 68/100
+Margin of safety: As a large‑cap producer, DVN typically trades at valuations that embed significant commodity and cycle risk; while the balance sheet is stronger than many smaller peers, intrinsic value estimates are highly sensitive to strip pricing. Ma...
+Valuation: Without fresh multiples or strip data in the current inputs, valuation must be treated as uncertain; historically DVN has oscillated between modest discounts and premiums to peers depending on oil prices and buyback/dividend policies. Fo...
+Growth runway: Over 30–180 days and beyond, DVN’s growth runway is tied to shale production efficiency, capex discipline, and global oil and gas demand; there is no evidence in the provided inputs of a distinctive new project, M&A, or structural shift...
+Balance-sheet risk: Balance‑sheet risk is moderate: DVN operates with meaningful but manageable debt for a large E&P, and primary hazards are commodity‑price-driven earnings volatility and potential capex or acquisition missteps, rather...
+Capital allocation: Devon is known for shareholder‑return programs via dividends and buybacks, which supports an owner‑mindset lens, but there is no new capital‑allocation disclosure in the current inputs to upgrade or downgrade that view.
+Concentration case: Compared with a broad energy ETF, DVN concentrates exposure into a single, more volatile producer, offering higher potential swing‑trade payoff but also more idiosyncratic risk; its liquidity and established franchise justify attention a...
+Owner thesis, 30-180 days: A 30–180 day owner‑style thesis would require updated evidence on DVN’s capital‑return framework, leverage targets, and project inventory under current strip prices, plus clarity on how it plans to navigate potential cyclical downturns; such evidence is not...
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: momentum/general
+Fresh catalyst: yes
+Repeat count, 48h: 3
+Diversity bucket: large-cap-energy
+Research tier: watch-allocation-constrained
+Allocation learning: Given the macro‑sensitive and commodity‑linked profile, DVN should be tested in paper trading with mid‑single‑digit allocation and strict stops rather than near‑max 15% sizing; lack of fresh earnings or filing catalyst argues for a conse...
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.20
+Evidence rank: 1/100
+Memory similarity: 0.10
+Vetoes: none
+Model notes: Candidate passes basic quality, no‑leverage, and evidence‑support filters but lacks a strong company‑specific fundamental catalyst; conviction is based on macro regime, sector behavior, and a dated, low‑weight congressional datapoint.
+Social buzz, max 10%: none
+Congress signal, max 5%: Single exchange transaction by one House member (Kevin Hern) in DVN disclosed for May 8, 2026; useful as a timestamped attention nudge but too small‑sample and delayed to be a primary driver.[congressional_disclosures]
+Sources: https://www.quiverquant.com/stock/DVN/
+
+2. TGT (consumer-discretionary) | confidence 0.71 | allocation 0.0% | stop 7.0% | Chittick 78/100 | tier monitor-only | bucket large-cap-consumer | HF source 1/100
+Thesis: Target is a scaled U.S. omnichannel retailer with durable brand equity, nationwide footprint, and investment‑grade balance sheet; recent SEC filings highlight both ongoing transformation risks and long‑term cash‑generation strength, making it a suitable quality name to monitor for a swing entry if technicals align, even though no new short‑term catalyst i...
+Catalyst: No fresh event since the March 2025 10‑K and subsequent 2025 10‑Qs in the provided inputs; the primary near‑term item is the market’s evolving appraisal of Target’s transformation progress, inventory discipline, and consumer‑demand resilience as reflected in these filings.[sec_quality]
+Entry: No immediate paper entry; keep TGT on a watchlist. A future swing entry would require a clearly defined technical signal (e.g., post‑earnings gap with follow‑through or a reclaim of a major moving average on strong volume) combined with confirmation that ma...
+Exit: For any future swing, plan for a 5–8% profit target against a 5–7% stop over 5–10 days, but do not stage this trade until there is an actual, dated catalyst and technical confirmation. For now, the proper action is observation, not execution.
+Risk/reward: On fundamentals, the long‑term risk/reward is appealing relative to weaker peers, but for a near‑term swing there is no defined edge in the current data; best treated as a high‑quality watchlist name rather than an active position.
+Bear/adversary: Despite its quality, Target faces structural competition from e‑commerce and discounters, margin pressure from wage and input‑cost inflation, and potential brand/reputation risks; without a clear new catalyst, buying simply because it is a quality retailer may expose the strategy to slow‑bleed dr...
+Source quality: Evidence is strong on fundamentals because it comes directly from recent 10‑K, 10‑Q, and proxy filings, providing detailed disclosure on operations, risk factors, capital allocation, and governance.[sec_quality] However, there is no fresh near‑term event or...
+Chittick Cash Filter
+Score: 78/100
+Margin of safety: The filings emphasize durability (long dividend history, omnichannel reach, owned and exclusive brands) and investment‑grade balance sheet, which support a margin‑of‑safety narrative if valuation is reasonable.[sec_quality] However, marg...
+Valuation: The current inputs do not include explicit valuation multiples or price levels, so relative cheapness versus history or peers cannot be asserted; the appropriate stance is valuation‑agnostic watchlisting until price data and updated earn...
+Growth runway: 30–180 day and longer‑term drivers include continued build‑out of omnichannel capabilities, optimization of owned/exclusive brands, and execution on transformation initiatives; filings note that these could enhance ROIC but also carry ex...
+Balance-sheet risk: Target reports maintaining investment‑grade credit ratings and outlines manageable leverage through its capital‑allocation framework; main balance‑sheet risks relate to working‑capital management (inventory and payabl...
+Capital allocation: Management emphasizes investing in growth, paying a competitive dividend, and opportunistic buybacks while protecting credit ratings, and the firm has paid uninterrupted dividends since 1967, indicating longstanding c...
+Concentration case: As a single large retailer, TGT is more idiosyncratic than a consumer‑sector ETF but offers clearer idiosyncratic levers (transformation progress, merchandising mix, omnichannel execution) to study in a quality‑focused research framework...
+Owner thesis, 30-180 days: A 30–180 day owner thesis could center on normalization of inventory, stabilization of comps, execution on transformation, and continued dividend plus selective buybacks; the filings provide a solid base case for such a thesis, but entry timing should await...
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: structural
+Fresh catalyst: yes
+Repeat count, 48h: 2
+Diversity bucket: large-cap-consumer
+Research tier: monitor-only
+Allocation learning: To avoid forcing trades in quality names without catalysts, maintain TGT as a structural watchlist holding with zero allocation until a fresh event (earnings, guidance, or major update) or clear technical pattern emerges.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.10
+Evidence rank: 1/100
+Memory similarity: 0.20
+Vetoes: none
+Model notes: High-quality SEC evidence and clear long‑term business characteristics, but no new short‑term, dated catalyst; best suited for owner‑style research and watchlisting, not immediate swing execution.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: TARGET CORP ; TGT ; 27419 ; 10-k ; 2025-03-12, TARGET CORP ; TGT ; 27419 ; 10-q ; 2025-05-30, TARGET CORP ; TGT ; 27419 ; 10-q ; 2025-08-29, TARGET CORP ; TGT ; 27419 ; 10-q ; 2025-11-26
 
