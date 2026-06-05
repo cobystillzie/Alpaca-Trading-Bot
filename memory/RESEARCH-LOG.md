@@ -1417,4 +1417,12 @@ Candidates found: 3
 U.S. equities remain extended after a strong run, with commentators warning of a possible 'June swoon' as higher long-end yields and Fed uncertainty keep the tape fragile. The backdrop is moderately risk-on but vulnerable: breadth is uneven, single‑stock event risk around earnings remains high, and low/moderate implied volatility may be underpricing potential drawdowns.
 
 Candidates found: 2
+## Premarket Plan - 2026-06-05 08:25:01 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- DVN: score=79, base=95, chittick=68, approved=False, allocation=6.0%, stop=8.0%
+  rejects: Low-weight social/congress signal needs at least two stronger sources.
+- TGT: score=82, base=95, chittick=78, approved=False, allocation=0.0%, stop=7.0%
+  rejects: Candidate is monitor-only and cannot be traded.; Target allocation must be between 1% and 15%.
 
