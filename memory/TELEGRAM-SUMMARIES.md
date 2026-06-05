@@ -27512,4 +27512,125 @@ Model notes: Intentionally included as a negative screen to reinforce credit-ris
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: https://www.stocktitan.net/sec-filings/WRLD/10-k-world-acceptance-corp-files-annual-report-0d4afd5430b0.html, https://www.bankingsupervision.europa.eu/press/speeches/date/2026/html/ssm.sp260605~d9376a730f.en.html
+## Weekly Memo - 2026-06-05 17:25:12 Eastern Daylight Time
+
+Weekly Strategy Review Memo
+
+Recommendation: Self-learning policy updated. Friday automation may apply safe code/prompt edits only after tests pass and Telegram disclosure succeeds.
+
+Market Regime
+{"lessons":["Repeated coverage of the same mega-cap names is crowding out idea discovery; GOOGL, MSFT, INTC, GT, USAR, DVN, and TGT reappeared across multiple passes with mostly the same thesis, which is a strong stale-repeat signal.","Allocation-blocked candidates are functioning as a hard stop, but the bot keeps resurfacing them instead of replacing them with new names, which wastes cycle budget and makes the output look repetitive.","Sector concentration is heavy in mega-cap tech/internet, consumer staples, and energy; that reduces diversification and increases the chance of duplicate-style research outputs.","Weak diversity shows up not only by sector but by catalyst type: many candidates rely on earnings recaps, AI momentum, macro regime, or thin congress/social signals rather than fresh company-specific change.","Daily research output is too similar across runs: the same names o...
+
+Top Candidates
+
+1. CVX (energy) | confidence 0.64 | allocation 5.0% | stop 9.0% | Chittick 74/100 | tier watch | bucket mega-cap-energy | HF source 1/100
+Thesis: Chevron offers high-quality, cash-generative integrated energy exposure with a solid balance sheet and disciplined capital allocation; near-term, the stock provides a hedge against sticky inflation and geopolitical supply risks while trading at a reasonable earnings and free-cash-flow multiple versus other mega-cap energy peers.[8][9]
+Catalyst: Upcoming macro prints (inflation, Fed rhetoric) and any moves in crude due to OPEC+ supply decisions or geopolitical news can reprice large integrated oils; congressional filings show a modest sale by a House member in March 2026, which is only a weak, delayed signal but confirms ongoing institut...
+Entry: For paper trading, consider a staged entry on a modest pullback toward recent support with confirmation that crude holds its short-term range; avoid chasing large gap-ups on headline oil spikes, and size conservatively given macro and commodity event risk.
+Exit: Take profits into 5–10% strength or if oil rallies sharply on a short-lived headline; cut the position if CVX breaks 8–10% below entry on closing basis or if crude and energy indexes roll over on negative global-growth data.
+Risk/reward: Moderate upside with inflation-hedge characteristics and dividend support, but subject to commodity and macro swings; risk/reward is acceptable if position size is capped and stops are honored.
+Bear/adversary: A rapid shift to risk-off with falling oil and tightening financial conditions could hurt CVX at the same time as the rest of the equity book, reducing its diversification benefit and leading to value-trap behavior if earnings estimates get cut.
+Source quality: Evidence is drawn from macro/sector analysis and large-cap credit/energy research; these are high-quality, diversified sources rather than hype or social media.[8][9]
+Chittick Cash Filter
+Score: 74/100
+Margin of safety: Valuation is not distressed but reasonable relative to cash flow and asset base; balance sheet strength and diversified operations provide some downside cushion versus smaller E&Ps if oil retraces.
+Valuation: Trades at a modest earnings and cash-flow multiple versus the broader market, reflecting cyclical and policy risks; not a deep bargain, but attractive enough as part of a diversified quality basket.
+Growth runway: 30–180 days: primary drivers are oil and gas prices, refining margins, and any capex/guidance updates; longer term, capital returns and selective low-carbon investments provide moderate growth rather than high-flyer upside.[8][9]
+Balance-sheet risk: Investment-grade leverage with substantial liquidity; main balance-sheet risks are commodity-price-driven rather than from excessive financial leverage.[8][9]
+Capital allocation: Management has a track record of disciplined capex, opportunistic buybacks, and dividends; capital allocation is oriented toward returning excess cash while maintaining reserve life.
+Concentration case: Deserves attention as a high-quality, liquid energy major that diversifies a tech-heavy book and offers a different macro sensitivity profile than broad ETFs.
+Owner thesis, 30-180 days: An owner-style 30–180 day thesis could be justified if inflation remains sticky and oil stays supported while CVX continues to retire shares and pay dividends; for now, paper trades should still be reviewed within 1–10 days for execution discipline.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: structural
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: mega-cap-energy
+Research tier: watch
+Allocation learning: Treat as a modest-size diversifier rather than core; do not crowd the book with cyclicals while regime remains fragile.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.10
+Evidence rank: 1/100
+Memory similarity: 0.10
+Vetoes: none
+Model notes: Energy mega-cap with solid fundamentals; thesis relies on macro/commodity dynamics rather than hype or thin sources.
+Social buzz, max 10%: none
+Congress signal, max 5%: Recent small congressional sale in CVX exists but is stale and low in size; it should not influence the trade decision beyond confirming that the name is actively followed by policymakers.
+Sources: https://www.quiverquant.com/stock/CVX/, https://www.sc.com/ke/market-outlook/weekly-market-view-5-6-2026/?mvog=1, https://www.frbsf.org/research-and-insights/publications/fedviews/2026/06/sf-fedviews-june-4-2026/
+
+2. CHKP (information_technology_cybersecurity) | confidence 0.67 | allocation 6.0% | stop 8.0% | Chittick 78/100 | tier watch | bucket mid-large-cap-cybersecurity | HF source 1/100
+Thesis: Check Point Software provides mission-critical cybersecurity solutions with high recurring revenue, strong margins, and a net-cash balance sheet, fitting a quality and margin-of-safety template while offering exposure to resilient cyber demand.[2][7]
+Catalyst: Cybersecurity remains a key enterprise spending priority even in mixed macro conditions; any upcoming earnings, guidance commentary, or high-profile cyber incidents can highlight the need for Check Point’s offerings and support the stock’s defensive growth profile.[2][7]
+Entry: Look for a constructive base with volume upticks and consider entering on a breakout above recent resistance, keeping initial size moderate given tech concentration risk; avoid entries immediately ahead of earnings without tight guards.
+Exit: Trim or exit on a failed breakout or if the stock closes 8–10% below entry; take partial profits around 8–12% upside or near prior swing highs, especially if broader tech shows signs of exhaustion.
+Risk/reward: Attractive risk/reward if growth and margins remain intact, but upside is more moderate than high-beta AI names; downside should be cushioned by cash generation and cyber’s structural demand.
+Bear/adversary: If investors abandon non-AI tech in favor of pure AI leaders or cyclicals, CHKP could tread water despite solid fundamentals, creating opportunity cost versus other trades.
+Source quality: Relies on company/sector fundamentals, macro regime work, and congressional disclosure as a low-weight context; evidence base is stronger than social-buzz or listicle-driven ideas.[2][7]
+Chittick Cash Filter
+Score: 78/100
+Margin of safety: Net cash, recurring revenue, and durable demand provide downside support; valuation is not distressed but more reasonable than hyper-growth AI names, offering a better margin of safety for a 30–180 day owner lens.[2][7]
+Valuation: Historically trades at a quality-tech multiple supported by margins and cash flow; not a deep value idea, but reasonable relative to the wider software/cyber cohort and far less stretched than many AI leaders.[2][7]
+Growth runway: 30–180 days: drivers include enterprise security budgets, new product adoption in cloud and network security, and any step-up in cyber incidents; longer term, increasing threat complexity and regulatory pressure underpin sustained demand.
+Balance-sheet risk: Low; CHKP is typically net cash with limited financial leverage, so primary risks are competitive and execution-related rather than balance-sheet stress.[2][7]
+Capital allocation: Management has historically returned cash via buybacks and occasionally dividends while continuing to invest in R&D and selective acquisitions; capital allocation appears disciplined rather than speculative.[2][7]
+Concentration case: Deserves attention as a high-quality cyber name outside the mega-cap AI complex, supporting sector diversification and providing a more stable quality anchor within tech.
+Owner thesis, 30-180 days: A 30–180 day owner thesis would focus on continued cyber budget resilience, improving platform adoption, and disciplined buybacks; for the paper-trading lane, we still keep horizon ≤10 days and review the trade around key events.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: structural
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: mid-large-cap-cybersecurity
+Research tier: watch
+Allocation learning: Use as a modest defensive-growth tilt within tech rather than a dominant position, to avoid concentration in any single software name.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.08
+Evidence rank: 1/100
+Memory similarity: 0.10
+Vetoes: none
+Model notes: Quality cybersecurity, low leverage, recurring revenue; congressional signal remains strictly secondary.
+Social buzz, max 10%: none
+Congress signal, max 5%: A modest 2025 purchase by a House member is a weak, dated signal and should not be treated as a primary driver; it only indicates some informed interest.[2]
+Sources: https://www.quiverquant.com/stock/CHKP/, https://builtin.com/job/sr-consultant-credit-political-risk-credit-risk-analyst/9621278
+
+3. WRLD (consumer_finance_subprime) | confidence 0.71 | allocation 0.0% | stop 3.0% | Chittick 28/100 | tier monitor-only | bucket subprime-consumer-finance | HF source 1/100
+Thesis: World Acceptance Corporation is a subprime consumer installment lender with significant credit, regulatory, and funding risks; it fails core Chittick Cash quality and margin-of-safety standards and is better treated as a risk-monitoring case study than as a trade candidate.[6][8]
+Catalyst: Recent 10-K filings highlight elevated credit risk, regulatory scrutiny, and sensitivity to macro conditions; in a potentially late-cycle environment with hawkish central banks, such business models face rising charge-offs and tighter funding.[6][8]
+Entry: None; this is not a buy or short candidate under current rules and serves only as a quality filter reference.
+Exit: Not applicable; no trade should be initiated.
+Risk/reward: Asymmetrically skewed toward downside in adverse macro or regulatory scenarios; any upside is highly speculative and not consistent with the strategy’s quality or margin-of-safety focus.
+Bear/adversary: A bullish view would argue that high yields and pricing power can offset credit losses and that regulation may not tighten dramatically; however, this relies on optimistic assumptions about consumer resilience and policy that conflict with a conservative risk framework.
+Source quality: Based primarily on formal regulatory filings (10-K) and system-level credit risk commentary, which are high-quality sources.[6][8]
+Chittick Cash Filter
+Score: 28/100
+Margin of safety: Despite seemingly cheap valuation metrics, the combination of subprime exposure, regulatory risk, and funding dependence means the margin of safety is weak; downside scenarios contain large permanent-capital-loss risk.[6]
+Valuation: Low valuation reflects high structural risks and is not attractive in a quality framework; apparent cheapness may be a value trap.[6]
+Growth runway: Any growth in loan book or geography increases exposure to the riskiest parts of the credit cycle; such growth does not align with a prudent long-only quality mandate.[6][8]
+Balance-sheet risk: Material exposure to credit losses and funding costs, with leverage that can compound stress in a downturn; this is the opposite of the balance-sheet strength favored by the strategy.[6][8]
+Capital allocation: Capital allocation is constrained by regulatory and funding requirements; shareholder returns are secondary to survival and compliance, which is not attractive for an owner mindset.[6]
+Concentration case: Does not deserve capital allocation compared with higher-quality financials or broad ETFs; it serves only as a negative screen example.
+Owner thesis, 30-180 days: A 30–180 day owner thesis would hinge on benign credit conditions and regulatory stasis, which is not a robust foundation; thus, it fails the owner-lens test.
+Chittick reject reason: Subprime credit concentration, regulatory overhang, and funding risk violate margin-of-safety and quality principles despite potentially low headline valuation.[6][8]
+Self-Learning Filter
+Catalyst type: filing
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: subprime-consumer-finance
+Research tier: monitor-only
+Allocation learning: Use WRLD as a reminder to avoid lower-quality, highly levered credit names in late-cycle conditions, even when valuations appear cheap.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.05
+Evidence rank: 1/100
+Memory similarity: 0.05
+Vetoes: none
+Model notes: Intentionally included as a negative screen to reinforce credit-risk boundaries; not for trading.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.stocktitan.net/sec-filings/WRLD/10-k-world-acceptance-corp-files-annual-report-0d4afd5430b0.html, https://www.bankingsupervision.europa.eu/press/speeches/date/2026/html/ssm.sp260605~d9376a730f.en.html
 
