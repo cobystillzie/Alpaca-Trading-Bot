@@ -389,4 +389,11 @@ stale_catalyst
 Confidence below 0.60.
 Target allocation must be between 1% and 15%.
 Stop loss must be between 3% and 12%.
+## Rejected TGT - 2026-06-05 09:55:02 Eastern Daylight Time
+
+Candidate is monitor-only and cannot be traded.
+Target allocation must be between 1% and 15%.
+## Rejected DVN - 2026-06-05 09:55:02 Eastern Daylight Time
+
+Low-weight social/congress signal needs at least two stronger sources.
 
