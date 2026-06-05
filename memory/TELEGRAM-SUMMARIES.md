@@ -27281,4 +27281,37 @@ Model notes: High-quality SEC evidence and clear long‑term business characteri
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: TARGET CORP ; TGT ; 27419 ; 10-k ; 2025-03-12, TARGET CORP ; TGT ; 27419 ; 10-q ; 2025-05-30, TARGET CORP ; TGT ; 27419 ; 10-q ; 2025-08-29, TARGET CORP ; TGT ; 27419 ; 10-q ; 2025-11-26
+## Research Update - 2026-06-05 14:51:53 Eastern Daylight Time
+
+Research Update
+
+Market tone: Macro remains cautiously risk-on but overbought, with narrow AI/tech leadership and elevated drawdown risk around inflation/Fed data; paper trades should favor high-quality, liquid names with clear, dated catalysts and tight risk controls.
+Candidates: 3
+
+1. CVX (energy) | confidence 0.64 | allocation 5.0% | stop 9.0% | Chittick 74/100 | tier watch | bucket mega-cap-energy | HF source 1/100
+Recommendation: execute-if-guards-pass
+Catalyst: Upcoming macro prints (inflation, Fed rhetoric) and any moves in crude due to OPEC+ supply decisions or geopolitical news can reprice large integrated oils; congressional filings show a modest sale by a House member in March 2026, which...
+Chittick Cash: Valuation is not distressed but reasonable relative to cash flow and asset base; balance sheet strength and diversified operations provide some downside cushion versus smaller E&Ps if oil retraces.
+HF filter: sentiment=not run source=1/100 hype=0.10 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=mega-cap-energy
+Social buzz, low weight: none
+Congress signal, low weight: Recent small congressional sale in CVX exists but is stale and low in size; it should not influence the trade decision beyond confirming that the name is actively followed by po...
+
+2. CHKP (information_technology_cybersecurity) | confidence 0.67 | allocation 6.0% | stop 8.0% | Chittick 78/100 | tier watch | bucket mid-large-cap-cybersecurity | HF source 1/100
+Recommendation: execute-if-guards-pass
+Catalyst: Cybersecurity remains a key enterprise spending priority even in mixed macro conditions; any upcoming earnings, guidance commentary, or high-profile cyber incidents can highlight the need for Check Point’s offerings and support the stock...
+Chittick Cash: Net cash, recurring revenue, and durable demand provide downside support; valuation is not distressed but more reasonable than hyper-growth AI names, offering a better margin of safety for a 30–180 day owner lens.[2][7]
+HF filter: sentiment=not run source=1/100 hype=0.08 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=mid-large-cap-cybersecurity
+Social buzz, low weight: none
+Congress signal, low weight: A modest 2025 purchase by a House member is a weak, dated signal and should not be treated as a primary driver; it only indicates some informed interest.[2]
+
+3. WRLD (consumer_finance_subprime) | confidence 0.71 | allocation 0.0% | stop 3.0% | Chittick 28/100 | tier monitor-only | bucket subprime-consumer-finance | HF source 1/100
+Recommendation: avoid
+Catalyst: Recent 10-K filings highlight elevated credit risk, regulatory scrutiny, and sensitivity to macro conditions; in a potentially late-cycle environment with hawkish central banks, such business models face rising charge-offs and tighter fu...
+Chittick Cash: Despite seemingly cheap valuation metrics, the combination of subprime exposure, regulatory risk, and funding dependence means the margin of safety is weak; downside scenarios contain large permanent-capital-loss risk...
+HF filter: sentiment=not run source=1/100 hype=0.05 vetoes=0
+Self-learning: tier=monitor-only repeat48h=0 fresh=yes bucket=subprime-consumer-finance
+Social buzz, low weight: none
+Congress signal, low weight: none
 

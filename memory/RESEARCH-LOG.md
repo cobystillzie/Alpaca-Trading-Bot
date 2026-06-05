@@ -1425,4 +1425,9 @@ Premarket plan built from latest watchlist.
   rejects: Low-weight social/congress signal needs at least two stronger sources.
 - TGT: score=82, base=95, chittick=78, approved=False, allocation=0.0%, stop=7.0%
   rejects: Candidate is monitor-only and cannot be traded.; Target allocation must be between 1% and 15%.
+## Two-Hour Research Agent - 2026-06-05 14:51:53 Eastern Daylight Time
+
+Macro remains cautiously risk-on but overbought, with narrow AI/tech leadership and elevated drawdown risk around inflation/Fed data; paper trades should favor high-quality, liquid names with clear, dated catalysts and tight risk controls.
+
+Candidates found: 3
 
