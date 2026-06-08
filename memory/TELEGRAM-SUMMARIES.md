@@ -27791,4 +27791,55 @@ Sources: https://www.sec.gov/Archives/edgar/data/50863
 Rejected / Watchouts
 - R: Candidate references banned v1 instruments or leverage.
 - INTC: repeat_decay; stale_catalyst; Candidate is monitor-only and cannot be traded.; Confidence below 0.60.; Target allocation must be between 1% and 15%.
+## Research Update - 2026-06-08 10:51:10 Eastern Daylight Time
+
+Research Update
+
+Market tone: The current tape looks **risk-off and headline-driven**, with a sharp broad-market selloff and elevated volatility, which argues for smaller, higher-conviction swings only.[1] No clearly fresh, source-backed long-only stock catalyst rises to execution-ready quality from the provided results, so the list is tilted toward monitoring rather than trading.[1][2][3][6]
+Candidates: 5
+
+1. GOOGL (Communication services / mega-cap internet) | confidence 0.41 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier stale-watch | bucket mega-cap-internet-cloud | HF source 0/100 | HF veto
+Recommendation: watch
+Catalyst: No new SEC filing, earnings, guidance, or contract catalyst was provided in the search results; this is a stale-watch quality name only.
+Chittick Cash: Margin of safety is not established here because the source set provides no new valuation or filing evidence.
+HF filter: sentiment=stale-watch source=0/100 hype=0.08 vetoes=3
+Self-learning: tier=stale-watch repeat48h=0 fresh=yes bucket=mega-cap-internet-cloud
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. INTC (Semiconductors / hardware) | confidence 0.36 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket semiconductor-hardware | HF source 0/100 | HF veto
+Recommendation: monitor-only
+Catalyst: No new company-specific catalyst was provided in the current search results.
+Chittick Cash: No fresh margin-of-safety evidence is available from the supplied results.
+HF filter: sentiment=monitor-only source=0/100 hype=0.07 vetoes=3
+Self-learning: tier=monitor-only repeat48h=1 fresh=yes bucket=semiconductor-hardware
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. GT (Automotive / tires / industrial cyclical) | confidence 0.33 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier watch | bucket industrials-cyclical | HF source 0/100 | HF veto
+Recommendation: watch
+Catalyst: No fresh earnings, filing, upgrade, or contract catalyst was provided in the search results.
+Chittick Cash: Margin of safety is not demonstrated in the current evidence set.
+HF filter: sentiment=stale-watch source=0/100 hype=0.05 vetoes=1
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=industrials-cyclical
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+4. CLBZ (Special situations / micro-cap speculative) | confidence 0.12 | allocation 0.0% | stop 0.0% | Chittick 18/100 | tier monitor-only | bucket special-situations-microcap | HF source 0/100 | HF veto
+Recommendation: monitor-only
+Catalyst: A fixed-price offering/listing note was mentioned, but this is not a high-quality fundamental catalyst for a long-only swing trade.
+Chittick Cash: No margin of safety is evident in the available materials.
+HF filter: sentiment=blocked source=0/100 hype=0.87 vetoes=3
+Self-learning: tier=monitor-only repeat48h=0 fresh=yes bucket=special-situations-microcap
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+5. GAME (Consumer internet / gaming) | confidence 0.38 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket consumer-internet-gaming | HF source 0/100 | HF veto
+Recommendation: monitor-only
+Catalyst: Unaudited Q3 fiscal 2026 results reported net income of US$0.5 million, up 16.4% year over year, which is a real improvement but not a robust institutional-quality catalyst.[2][4]
+Chittick Cash: The improvement is directionally positive, but there is not enough evidence for a clear margin of safety.
+HF filter: sentiment=watch source=0/100 hype=0.21 vetoes=1
+Self-learning: tier=monitor-only repeat48h=0 fresh=yes bucket=consumer-internet-gaming
+Social buzz, low weight: none
+Congress signal, low weight: none
 

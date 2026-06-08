@@ -1444,4 +1444,9 @@ Premarket plan built from latest watchlist.
 - VOO: score=81, base=95, chittick=74, approved=True, allocation=4.0%, stop=5.0%
 - INTC: score=66, base=90, chittick=35, approved=False, allocation=0.0%, stop=8.0%
   rejects: repeat_decay; stale_catalyst; Candidate is monitor-only and cannot be traded.; Confidence below 0.60.; Target allocation must be between 1% and 15%.
+## Two-Hour Research Agent - 2026-06-08 10:51:09 Eastern Daylight Time
+
+The current tape looks **risk-off and headline-driven**, with a sharp broad-market selloff and elevated volatility, which argues for smaller, higher-conviction swings only.[1] No clearly fresh, source-backed long-only stock catalyst rises to execution-ready quality from the provided results, so the list is tilted toward monitoring rather than trading.[1][2][3][6]
+
+Candidates found: 5
 
