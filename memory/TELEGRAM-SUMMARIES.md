@@ -27633,4 +27633,37 @@ Model notes: Intentionally included as a negative screen to reinforce credit-ris
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: https://www.stocktitan.net/sec-filings/WRLD/10-k-world-acceptance-corp-files-annual-report-0d4afd5430b0.html, https://www.bankingsupervision.europa.eu/press/speeches/date/2026/html/ssm.sp260605~d9376a730f.en.html
+## Research Update - 2026-06-08 07:52:30 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities remain in a constructive-but-fragile bull backdrop with elevated macro event risk (CPI/Fed, geopolitical headlines) and high index concentration in mega-cap tech; conditions are suitable for tightly risk-managed 1–10 day swing paper trades in quality names with fresh, company-specific catalysts.
+Candidates: 3
+
+1. R (industrials-logistics) | confidence 0.70 | allocation 6.0% | stop 8.0% | Chittick 68/100 | tier execution-ready | bucket cyclical-industrials-logistics | HF source 1/100
+Recommendation: execute-if-guards-pass
+Catalyst: Recent Q1 2026 earnings beat and guidance commentary that triggered roughly +10% stock appreciation over the past 30 days, with follow-through buying indicating continued institutional support.[3]
+Chittick Cash: As a cyclical with heavy assets, Ryder does not offer a textbook deep value margin of safety here; however, the price reaction appears anchored in better-than-feared fundamentals rather than story alone.[3] For a shor...
+HF filter: sentiment=not run source=1/100 hype=0.20 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=cyclical-industrials-logistics
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. VOO (broad-US-large-cap-ETF) | confidence 0.66 | allocation 4.0% | stop 5.0% | Chittick 74/100 | tier execution-ready | bucket broad-large-cap-ETF | HF source 1/100
+Recommendation: execute-if-guards-pass
+Catalyst: Upcoming macro catalysts including US CPI and Fed communication, which are cited as primary drivers for the near-term behavior of the S&P 500 and major ETFs like VOO, SPY, and IVV.[1][7]
+Chittick Cash: As a broad ETF, margin of safety is mainly about long-term US corporate earnings power rather than short-term price; current valuations embed optimism, but diversification and historical earnings resilience provide so...
+HF filter: sentiment=not run source=1/100 hype=0.15 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=broad-large-cap-ETF
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. INTC (semiconductors) | confidence 0.55 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier monitor-only | bucket semis-turnaround-monitor | HF source 1/100 | HF veto
+Recommendation: watch
+Catalyst: No fresh, well-documented catalyst in the last 48 hours; prior theses relied on older earnings and capex narratives that are now considered stale for short-horizon trading.
+Chittick Cash: From a long-term fundamental perspective, government incentives and strategic importance provide some margin of safety, but near-term valuation versus execution risk is hard to handicap without fresh data.
+HF filter: sentiment=not run source=1/100 hype=0.25 vetoes=2
+Self-learning: tier=monitor-only repeat48h=1 fresh=yes bucket=semis-turnaround-monitor
+Social buzz, low weight: none
+Congress signal, low weight: none
 
