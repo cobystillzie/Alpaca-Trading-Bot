@@ -1435,4 +1435,13 @@ Candidates found: 3
 US equities remain in a constructive-but-fragile bull backdrop with elevated macro event risk (CPI/Fed, geopolitical headlines) and high index concentration in mega-cap tech; conditions are suitable for tightly risk-managed 1–10 day swing paper trades in quality names with fresh, company-specific catalysts.
 
 Candidates found: 3
+## Premarket Plan - 2026-06-08 08:25:01 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- R: score=79, base=95, chittick=68, approved=False, allocation=6.0%, stop=8.0%
+  rejects: Candidate references banned v1 instruments or leverage.
+- VOO: score=81, base=95, chittick=74, approved=True, allocation=4.0%, stop=5.0%
+- INTC: score=66, base=90, chittick=35, approved=False, allocation=0.0%, stop=8.0%
+  rejects: repeat_decay; stale_catalyst; Candidate is monitor-only and cannot be traded.; Confidence below 0.60.; Target allocation must be between 1% and 15%.
 
