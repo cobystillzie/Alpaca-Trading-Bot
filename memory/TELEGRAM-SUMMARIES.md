@@ -27842,4 +27842,276 @@ HF filter: sentiment=watch source=0/100 hype=0.21 vetoes=1
 Self-learning: tier=monitor-only repeat48h=0 fresh=yes bucket=consumer-internet-gaming
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Performance Ledger - 2026-06-08 12:40:02 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-06-08 12:40:02 Eastern Daylight Time
+- Portfolio value: $100,035.89
+- P/L vs $100k baseline: $35.89
+- Full paper-account return: 0.036%
+- Managed-capital return: 0.36%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 0.64%
+- Latest position value: $5,635.97
+- Full-account cash reserve: 94.4%
+- Managed-capital cash reserve: 43.6%
+- Max snapshot drawdown: $238.16 from 2026-05-08 16:30:03 Eastern Daylight Time to 2026-06-05 16:30:02 Eastern Daylight Time
+
+Open Position Review
+- DT: winner, value $844.33, unrealized P/L $44.33, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 31 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: loser, value $431.58, unrealized P/L $-68.42, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 32 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: loser, value $779.98, unrealized P/L $-20.02, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 39 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- IBRX: loser, value $513.22, unrealized P/L $-86.78, entry 2026-05-11 09:48:18 Eastern Daylight Time, thesis age 28 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: winner, value $512.26, unrealized P/L $12.26, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 27 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: winner, value $833.18, unrealized P/L $33.18, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 38 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $815.68, unrealized P/L $15.68, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 33 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $905.74, unrealized P/L $105.74, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 41 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- INTC: appeared 37 times; market outcome unavailable until benchmark/candidate price history is captured.
+- SCHD: appeared 34 times; open position P/L $15.68.
+- GOOGL: appeared 33 times; open position P/L $-20.02.
+- SPMO: appeared 32 times; open position P/L $105.74.
+- NVDA: appeared 29 times; open position P/L $33.18.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MSFT: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- UNP: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VALN: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Candidate references banned v1 instruments or leverage.: 19
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 11
+  - Max open-position count would be exceeded.: 7
+  - Single-stock allocation would exceed 15%.: 7
+  - A market-open order is already logged for today. No backup order was placed.: 5
+  - Candidate is monitor-only and cannot be traded. Confidence below 0.60. Target allocation must be between 1% and 15%. Stop loss must be between 3% and 12%.: 5
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources.: 5
+  - Candidate references banned v1 instruments or leverage. Target allocation must be between 1% and 15%.: 4
+- By symbol:
+  - INTU: 5
+  - GOOGL: 4
+  - AGI: 3
+  - BAH: 3
+  - INTC: 3
+  - KO: 3
+  - PLTR: 3
+  - TMXX.F: 3
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 11
+- sec: 1
+- unknown: 3
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold met: 8 trades over 41 days.
+- Strategy tuning may be reviewed, but safety guardrails still apply.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## Midday Memo - 2026-06-08 12:40:02 Eastern Daylight Time
+
+Midday Risk Memo
+
+Recommendation: Hold only positions whose thesis still matches the research; do not add unless guardrails pass.
+
+Market Regime
+Review current paper positions, thesis drift, concentration, stop discipline, and cash reserve.
+
+Portfolio
+Portfolio value: 100035.89 Cash: 94400 Buying power: 393380.51 Positions: - DT: qty=20.289119959, market_value=844.331727, unrealized_pl=44.331727 - GLRE: qty=28.042624789, market_value=431.575996, unrealized_pl=-68.424004 - GOOGL: qty=2.151289429, market_value=779.982252, unrealized_pl=-20.017748 - IBRX: qty=70.838252656, market_value=513.22314, unrealized_pl=-86.77686 - LNC: qty=14.590020426, market_value=512.255617, unrealized_pl=12.255617 - NVDA: qty=4.00060009, market_value=833.184978, unrealized_pl=33.184978 - SCHD: qty=25.2286345, market_value=815.684642, unrealized_pl=15.684642 - SPMO: qty=6.119014838, market_value=905.736576, unrealized_pl=105.736576 Performance: value $100,035.89, P/L vs $100k $35.89, managed return 0.36%, deployed return 0.64%, managed cash reserve 43.6%.
+
+Top Candidates
+
+1. GOOGL (Communication services / mega-cap internet) | confidence 0.41 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier stale-watch | bucket mega-cap-internet-cloud | HF source 0/100 | HF veto
+Thesis: Alphabet remains a high-quality, cash-generative platform business, but in this pass there is no fresh dated catalyst from the provided sources, so the name is only worth tracking for a better entry after volatility settles.
+Catalyst: No new SEC filing, earnings, guidance, or contract catalyst was provided in the search results; this is a stale-watch quality name only.
+Entry: Watch only; do not enter unless a fresh catalyst appears and price reclaims short-term trend with above-average volume.
+Exit: If monitored later, use a tight invalidation below the most recent swing low and take partial profits into a 2-3 day extension move.
+Risk/reward: Good business quality, but poor near-term trade asymmetry without a catalyst.
+Bear/adversary: The strongest objection is that this is a repeated mega-cap without a fresh catalyst, which the memory explicitly penalizes.
+Source quality: Weak for this pass because no relevant fresh company or filing evidence was supplied.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Margin of safety is not established here because the source set provides no new valuation or filing evidence.
+Valuation: No current price-to-quality comparison is possible from the supplied evidence.
+Growth runway: Longer-term runway remains tied to search, ads, cloud, and AI, but that is background context rather than a fresh catalyst in this pass.
+Balance-sheet risk: Balance-sheet risk is low on a business basis, but that does not solve the absent catalyst problem.
+Capital allocation: Alphabet historically has strong capital allocation, but no new evidence was provided for this pass.
+Concentration case: It is a quality benchmark, but repeated-name decay and no fresh catalyst argue against recycling it over fresher alternatives.
+Owner thesis, 30-180 days: Review only if a new earnings, filing, guidance, or confirmed breakout catalyst appears over the next 30-180 days.
+Chittick reject reason: repeat_decay and stale_catalyst; no new dated catalyst in provided sources.
+Self-Learning Filter
+Catalyst type: general
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: mega-cap-internet-cloud
+Research tier: stale-watch
+Allocation learning: Use only as a benchmark watchlist name until a dated catalyst appears.
+Hugging Face Filter
+Sentiment: stale-watch (0.34), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.08
+Evidence rank: 0/100
+Memory similarity: 0.91
+Vetoes: repeat_decay; stale_catalyst; memory_similarity
+Model notes: Repeated large-cap name with no fresh catalyst supplied; keep off execution list.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
+
+2. INTC (Semiconductors / hardware) | confidence 0.36 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket semiconductor-hardware | HF source 0/100 | HF veto
+Thesis: Intel remains a turnaround/watchlist name, but the supplied results do not include a fresh filing, earnings, or contract catalyst, and prior memory already flags it as stale.
+Catalyst: No new company-specific catalyst was provided in the current search results.
+Entry: Monitor-only; consider only after a dated catalyst and a constructive price/volume setup emerge.
+Exit: If later activated, use a strict thesis stop on any failure to hold the post-catalyst base.
+Risk/reward: Potential upside exists, but the current evidence is too stale for a paper trade.
+Bear/adversary: The strongest objection is stale catalyst plus repeat-decay, which the memory explicitly penalizes.
+Source quality: Weak because there is no fresh source-backed catalyst in the provided materials.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: No fresh margin-of-safety evidence is available from the supplied results.
+Valuation: Cannot justify a valuation edge from the current sources.
+Growth runway: Any runway thesis is longer-term and not supported by fresh evidence in this pass.
+Balance-sheet risk: No new balance-sheet evidence is provided here; turnaround uncertainty remains the issue.
+Capital allocation: No fresh management-action evidence was provided.
+Concentration case: As a repeated, stale name, it should not displace fresher ideas unless a hard catalyst appears.
+Owner thesis, 30-180 days: Only reconsider if a new earnings beat, guidance raise, major customer win, or filing-backed operating inflection appears.
+Chittick reject reason: repeat_decay, stale_catalyst, and insufficient fresh evidence.
+Self-Learning Filter
+Catalyst type: general
+Fresh catalyst: yes
+Repeat count, 48h: 2
+Diversity bucket: semiconductor-hardware
+Research tier: monitor-only
+Allocation learning: Do not allocate until the catalyst becomes dated and source-backed.
+Hugging Face Filter
+Sentiment: monitor-only (0.24), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.07
+Evidence rank: 0/100
+Memory similarity: 0.93
+Vetoes: repeat_decay; stale_catalyst; memory_similarity
+Model notes: No fresh dated catalyst; keep in monitoring lane only.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
+
+3. GT (Automotive / tires / industrial cyclical) | confidence 0.33 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier watch | bucket industrials-cyclical | HF source 0/100 | HF veto
+Thesis: Goodyear is a cyclical value name that can work only with a clear catalyst, but the current results do not provide a fresh company-specific trigger.
+Catalyst: No fresh earnings, filing, upgrade, or contract catalyst was provided in the search results.
+Entry: Watch only; require a dated catalyst and price confirmation before considering any paper entry.
+Exit: If later traded, use a tight invalidation below the catalyst reaction low and take gains quickly into strength.
+Risk/reward: Possible upside, but the current setup lacks the evidence needed for execution.
+Bear/adversary: The main objection is that this is another repeated name with no fresh catalyst and weak current market tape.
+Source quality: Weak because the provided results do not include new company-specific evidence.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Margin of safety is not demonstrated in the current evidence set.
+Valuation: No fresh valuation support was supplied.
+Growth runway: Longer-run turnaround potential exists, but it is not source-backed here.
+Balance-sheet risk: Cyclical balance-sheet and earnings pressure remain key risks.
+Capital allocation: No new capital-allocation evidence was provided.
+Concentration case: It does not deserve allocation over fresher, better-documented names in this pass.
+Owner thesis, 30-180 days: Only review if a new dated catalyst materially changes the cycle outlook.
+Chittick reject reason: stale_catalyst and insufficient fresh evidence.
+Self-Learning Filter
+Catalyst type: general
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: industrials-cyclical
+Research tier: watch
+Allocation learning: Do not recycle as execution-ready without a dated catalyst.
+Hugging Face Filter
+Sentiment: stale-watch (0.21), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.05
+Evidence rank: 0/100
+Memory similarity: 0.88
+Vetoes: stale_catalyst
+Model notes: No fresh company-specific trigger; keep on watchlist only.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
+
+4. CLBZ (Special situations / micro-cap speculative) | confidence 0.12 | allocation 0.0% | stop 0.0% | Chittick 18/100 | tier monitor-only | bucket special-situations-microcap | HF source 0/100 | HF veto
+Thesis: Collab Z is not suitable for execution here because the available evidence is source-thin and the company appears to be in a highly speculative, low-quality phase rather than a durable long-only setup.
+Catalyst: A fixed-price offering/listing note was mentioned, but this is not a high-quality fundamental catalyst for a long-only swing trade.
+Entry: Monitor-only; no execution because the evidence quality is too weak and the structure is not aligned with the strategy.
+Exit: Not applicable for execution; if ever revisited, it would require radically stronger filings and a real operating catalyst.
+Risk/reward: Risk is far higher than the evidence justifies.
+Bear/adversary: The strongest objection is source-thin speculation with dilution and no durable-quality case.
+Source quality: Weak to poor because the cited material is not strong fundamental evidence and prior memory is already negative.
+Chittick Cash Filter
+Score: 18/100
+Margin of safety: No margin of safety is evident in the available materials.
+Valuation: Valuation is not attractive enough to compensate for financing and execution risk.
+Growth runway: Any growth runway is unproven and not sufficiently evidenced.
+Balance-sheet risk: Dilution and financing dependence are major concerns.
+Capital allocation: No evidence of disciplined allocation was provided.
+Concentration case: It should not displace better-quality names because it is speculative and low evidence.
+Owner thesis, 30-180 days: Only revisit if a materially stronger filing and operating inflection emerge.
+Chittick reject reason: source_thin, speculative structure, dilution risk, and no durable catalyst.
+Self-Learning Filter
+Catalyst type: news
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: special-situations-microcap
+Research tier: monitor-only
+Allocation learning: Keep only as a research note, not an execution candidate.
+Hugging Face Filter
+Sentiment: blocked (0.08), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.87
+Evidence rank: 0/100
+Memory similarity: 0.96
+Vetoes: source_thin; dilution_risk; speculative
+Model notes: Do not trade; speculative micro-cap style risk dominates.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://eltoromarketinsights.substack.com/p/23-weekly-update-bitcoin-down-47
+
+5. GAME (Consumer internet / gaming) | confidence 0.38 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket consumer-internet-gaming | HF source 0/100 | HF veto
+Thesis: Gamehaus shows some operating improvement in the provided results, but the evidence is still too thin and small-cap specific to support a strong long-only swing execution under current rules.
+Catalyst: Unaudited Q3 fiscal 2026 results reported net income of US$0.5 million, up 16.4% year over year, which is a real improvement but not a robust institutional-quality catalyst.[2][4]
+Entry: Monitor-only unless a stronger official filing or clear post-earnings breakout appears with acceptable liquidity.
+Exit: If it later becomes tradable, use a short leash around the earnings gap and the first failed consolidation low.
+Risk/reward: There is some upside if the improvement is sustained, but the evidence is not strong enough for execution now.
+Bear/adversary: The strongest objection is that the catalyst is real but too thin and small-cap fragile for current execution standards.
+Source quality: Moderate but limited; the result is sourced from a press item rather than a broader filing set, so confidence stays capped.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: The improvement is directionally positive, but there is not enough evidence for a clear margin of safety.
+Valuation: Valuation attractiveness cannot be validated from the provided results alone.
+Growth runway: Longer-term growth would depend on sustained game/platform execution, but that is not yet evidenced.
+Balance-sheet risk: No strong balance-sheet comfort is established in the provided sources.
+Capital allocation: Insufficient evidence to judge disciplined allocation.
+Concentration case: It is interesting but not compelling enough to crowd out higher-quality large-cap or better-documented alternatives.
+Owner thesis, 30-180 days: Would only merit review if future filings show repeatable profitability and liquidity is adequate.
+Chittick reject reason: source_thin and insufficient proof of durable quality.
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: consumer-internet-gaming
+Research tier: monitor-only
+Allocation learning: Keep on a low-priority research shelf until better evidence appears.
+Hugging Face Filter
+Sentiment: watch (0.29), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.21
+Evidence rank: 0/100
+Memory similarity: 0.44
+Vetoes: source_thin
+Model notes: Some real earnings improvement, but not enough durability evidence for execution.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.plataformamedia.com/en/2026/06/08/gamehaus-holdings-inc-announces-unaudited-financial-results-for-the-third-quarter-of-fiscal-2026-ended-march-31-2026/, https://www.kosmo.com.my/2026/06/08/gamehaus-holdings-inc-announces-unaudited-financial-results-for-the-third-quarter-of-fiscal-2026-ended-march-31-2026/, https://www.sec.gov/Archives/edgar/data/2050338/000205033825000021/clbz-20250930.htm
 
