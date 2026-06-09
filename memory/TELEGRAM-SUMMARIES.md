@@ -28386,4 +28386,46 @@ Model notes: Some real earnings improvement, but not enough durability evidence 
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: https://www.plataformamedia.com/en/2026/06/08/gamehaus-holdings-inc-announces-unaudited-financial-results-for-the-third-quarter-of-fiscal-2026-ended-march-31-2026/, https://www.kosmo.com.my/2026/06/08/gamehaus-holdings-inc-announces-unaudited-financial-results-for-the-third-quarter-of-fiscal-2026-ended-march-31-2026/, https://www.sec.gov/Archives/edgar/data/2050338/000205033825000021/clbz-20250930.htm
+## Research Update - 2026-06-09 07:51:12 Eastern Daylight Time
+
+Research Update
+
+Market tone: The best-supported action is to stay selective: broad market tone remains **selective risk-on**, but the current evidence set is thin for fresh execution-ready longs and stronger for a few monitor-only ideas. The only clearly timely company-specific catalyst in the supplied results is Airbnb insider selling, which is not a bullish trade catalyst by itself.[1][2][3]
+Candidates: 4
+
+1. ABNB (consumer internet / travel platform) | confidence 0.64 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket consumer-internet-travel | HF source 1/100 | HF veto
+Recommendation: watch
+Catalyst: CEO Brian Chesky reported open-market sales of 80,848 shares on June 4 and June 5, 2026, and Form 144 disclosures show additional affiliate sales in late May and early June 2026 under routine disposition reporting.[1][2]
+Chittick Cash: The supplied evidence does not indicate a valuation discount or a new margin-of-safety event; absent a price dislocation, the stock is not attractive purely on this filing set.[1][2]
+HF filter: sentiment=cautious source=1/100 hype=0.09 vetoes=1
+Self-learning: tier=monitor-only repeat48h=0 fresh=yes bucket=consumer-internet-travel
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. ANET (networking / semis-adjacent infrastructure) | confidence 0.66 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier watch | bucket networking-infrastructure | HF source 1/100 | HF veto
+Recommendation: watch
+Catalyst: MarketBeat reports Arista released Q1 2026 earnings on May 5, 2026 and beat consensus EPS, with the next earnings date still months away.[3]
+Chittick Cash: Quality is good, but the margin of safety is only acceptable if the stock is not extended after earnings; without that, the setup becomes momentum-only.[3]
+HF filter: sentiment=constructive source=1/100 hype=0.14 vetoes=2
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=networking-infrastructure
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. INTC (semiconductors) | confidence 0.31 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket semiconductors | HF source 0/100 | HF veto
+Recommendation: monitor-only
+Catalyst: No new company-specific catalyst is present in the supplied results; the memory log explicitly flags repeated stale-catalyst rejections for INTC on June 4 and June 8, 2026.[memory]
+Chittick Cash: Potential value exists only in theory; the current evidence does not establish a buyable discount or a fresh catalyst to support margin-of-safety entry.[memory]
+HF filter: sentiment=weak source=0/100 hype=0.08 vetoes=2
+Self-learning: tier=monitor-only repeat48h=2 fresh=yes bucket=semiconductors
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+4. GOOGL (mega-cap internet / cloud) | confidence 0.24 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier stale-watch | bucket mega-cap-internet-cloud | HF source 0/100 | HF veto
+Recommendation: monitor-only
+Catalyst: No new catalyst is present in the supplied search results, and memory explicitly flags prior repeat-decay and stale-catalyst issues for GOOGL.[memory]
+Chittick Cash: Quality is strong, but the margin-of-safety case is not actionable without a fresh dislocation or catalyst.[memory]
+HF filter: sentiment=weak source=0/100 hype=0.07 vetoes=3
+Self-learning: tier=stale-watch repeat48h=6 fresh=yes bucket=mega-cap-internet-cloud
+Social buzz, low weight: none
+Congress signal, low weight: none
 
