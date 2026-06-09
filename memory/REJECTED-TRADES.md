@@ -409,4 +409,34 @@ stale_catalyst
 Candidate is monitor-only and cannot be traded.
 Confidence below 0.60.
 Target allocation must be between 1% and 15%.
+## Rejected ABNB - 2026-06-09 09:55:02 Eastern Daylight Time
+
+no_bullish_fresh_catalyst
+Candidate is monitor-only and cannot be traded.
+Target allocation must be between 1% and 15%.
+Stop loss must be between 3% and 12%.
+## Rejected ANET - 2026-06-09 09:55:02 Eastern Daylight Time
+
+catalyst_not_fresh_enough
+missing_chart_confirmation
+Target allocation must be between 1% and 15%.
+Stop loss must be between 3% and 12%.
+## Rejected INTC - 2026-06-09 09:55:02 Eastern Daylight Time
+
+repeat_decay
+stale_catalyst
+HF memory filter flags similarity to prior rejected patterns.
+Candidate is monitor-only and cannot be traded.
+Confidence below 0.60.
+Target allocation must be between 1% and 15%.
+Stop loss must be between 3% and 12%.
+## Rejected GOOGL - 2026-06-09 09:55:02 Eastern Daylight Time
+
+repeat_decay
+stale_catalyst
+memory_similarity
+HF memory filter flags similarity to prior rejected patterns.
+Confidence below 0.60.
+Target allocation must be between 1% and 15%.
+Stop loss must be between 3% and 12%.
 
