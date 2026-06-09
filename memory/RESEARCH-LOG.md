@@ -1454,4 +1454,16 @@ Candidates found: 5
 The best-supported action is to stay selective: broad market tone remains **selective risk-on**, but the current evidence set is thin for fresh execution-ready longs and stronger for a few monitor-only ideas. The only clearly timely company-specific catalyst in the supplied results is Airbnb insider selling, which is not a bullish trade catalyst by itself.[1][2][3]
 
 Candidates found: 4
+## Premarket Plan - 2026-06-09 08:25:02 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- ABNB: score=69, base=95, chittick=35, approved=False, allocation=0.0%, stop=0.0%
+  rejects: no_bullish_fresh_catalyst; Candidate is monitor-only and cannot be traded.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
+- ANET: score=69, base=95, chittick=35, approved=False, allocation=0.0%, stop=0.0%
+  rejects: catalyst_not_fresh_enough; missing_chart_confirmation; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
+- INTC: score=58, base=80, chittick=35, approved=False, allocation=0.0%, stop=0.0%
+  rejects: repeat_decay; stale_catalyst; HF memory filter flags similarity to prior rejected patterns.; Candidate is monitor-only and cannot be traded.; Confidence below 0.60.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
+- GOOGL: score=57, base=80, chittick=35, approved=False, allocation=0.0%, stop=0.0%
+  rejects: repeat_decay; stale_catalyst; memory_similarity; HF memory filter flags similarity to prior rejected patterns.; Confidence below 0.60.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
 
