@@ -28592,4 +28592,238 @@ Rejected / Watchouts
 - ANET: catalyst_not_fresh_enough; missing_chart_confirmation; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
 - INTC: repeat_decay; stale_catalyst; HF memory filter flags similarity to prior rejected patterns.; Candidate is monitor-only and cannot be traded.; Confidence below 0.60.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
 - GOOGL: repeat_decay; stale_catalyst; memory_similarity; HF memory filter flags similarity to prior rejected patterns.; Confidence below 0.60.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
+## Performance Ledger - 2026-06-09 12:40:01 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-06-09 12:40:01 Eastern Daylight Time
+- Portfolio value: $99,897.13
+- P/L vs $100k baseline: $-102.87
+- Full paper-account return: -0.103%
+- Managed-capital return: -1.03%
+- Deployed basis: $5,600.00
+- Return on deployed basis: -1.83%
+- Latest position value: $5,497.39
+- Full-account cash reserve: 94.5%
+- Managed-capital cash reserve: 45.0%
+- Max snapshot drawdown: $328.28 from 2026-05-08 16:30:03 Eastern Daylight Time to 2026-06-09 12:40:01 Eastern Daylight Time
+
+Open Position Review
+- DT: winner, value $809.74, unrealized P/L $9.74, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 32 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: loser, value $437.18, unrealized P/L $-62.82, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 33 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: loser, value $769.92, unrealized P/L $-30.08, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 40 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- IBRX: loser, value $494.45, unrealized P/L $-105.55, entry 2026-05-11 09:48:18 Eastern Daylight Time, thesis age 29 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: winner, value $509.48, unrealized P/L $9.48, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 28 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: loser, value $799.40, unrealized P/L $-0.60, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 39 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $809.71, unrealized P/L $9.71, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 34 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $867.49, unrealized P/L $67.49, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 42 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- INTC: appeared 38 times; market outcome unavailable until benchmark/candidate price history is captured.
+- GOOGL: appeared 34 times; open position P/L $-30.08.
+- SCHD: appeared 34 times; open position P/L $9.71.
+- SPMO: appeared 32 times; open position P/L $67.49.
+- NVDA: appeared 29 times; open position P/L $-0.60.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MSFT: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- UNP: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VALN: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Candidate references banned v1 instruments or leverage.: 19
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 11
+  - Max open-position count would be exceeded.: 7
+  - Single-stock allocation would exceed 15%.: 7
+  - A market-open order is already logged for today. No backup order was placed.: 5
+  - Candidate is monitor-only and cannot be traded. Confidence below 0.60. Target allocation must be between 1% and 15%. Stop loss must be between 3% and 12%.: 5
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources.: 5
+  - Candidate references banned v1 instruments or leverage. Target allocation must be between 1% and 15%.: 4
+- By symbol:
+  - GOOGL: 5
+  - INTU: 5
+  - INTC: 4
+  - AGI: 3
+  - BAH: 3
+  - KO: 3
+  - PLTR: 3
+  - TMXX.F: 3
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 8
+- unknown: 3
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold met: 8 trades over 42 days.
+- Strategy tuning may be reviewed, but safety guardrails still apply.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## Midday Memo - 2026-06-09 12:40:01 Eastern Daylight Time
+
+Midday Risk Memo
+
+Recommendation: Hold only positions whose thesis still matches the research; do not add unless guardrails pass.
+
+Market Regime
+Review current paper positions, thesis drift, concentration, stop discipline, and cash reserve.
+
+Portfolio
+Portfolio value: 99897.13 Cash: 94400 Buying power: 392991.96 Positions: - DT: qty=20.289119959, market_value=809.738778, unrealized_pl=9.738778 - GLRE: qty=28.042624789, market_value=437.18452, unrealized_pl=-62.81548 - GOOGL: qty=2.151289429, market_value=769.924974, unrealized_pl=-30.075026 - IBRX: qty=70.838252656, market_value=494.451004, unrealized_pl=-105.548996 - LNC: qty=14.590020426, market_value=509.483513, unrealized_pl=9.483513 - NVDA: qty=4.00060009, market_value=799.39991, unrealized_pl=-0.60009 - SCHD: qty=25.2286345, market_value=809.713024, unrealized_pl=9.713024 - SPMO: qty=6.119014838, market_value=867.492734, unrealized_pl=67.492734 Performance: value $99,897.13, P/L vs $100k $-102.87, managed return -1.03%, deployed return -1.83%, managed cash reserve 45.0%.
+
+Top Candidates
+
+1. ABNB (consumer internet / travel platform) | confidence 0.64 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket consumer-internet-travel | HF source 1/100 | HF veto
+Thesis: Airbnb remains a high-quality consumer platform with a strong brand and asset-light model, but the current filing evidence is better interpreted as neutral-to-cautious rather than bullish because the latest disclosed activity is insider selling rather than a fundamental acceleration.[1][2]
+Catalyst: CEO Brian Chesky reported open-market sales of 80,848 shares on June 4 and June 5, 2026, and Form 144 disclosures show additional affiliate sales in late May and early June 2026 under routine disposition reporting.[1][2]
+Entry: Monitor only; do not initiate on the filing alone. If price reclaims and holds a recent pivot with above-average volume after the market digests the sales, consider a small tranche only if breadth confirms.[1][2]
+Exit: If no breakout follows the filing within the next few sessions, keep it off the execution list. If entered on later confirmation, use a tight stop below the reclaimed pivot and trim into strength rather than holding through failed follow-through.[1][2]
+Risk/reward: Risk/reward is mediocre right now because the evidence is not a bullish catalyst, so upside is less defined than downside if the market reads the sales negatively.[1][2]
+Bear/adversary: The strongest objection is that routine 10b5-1 selling with a large remaining stake may be meaningless and ABNB could still trend higher if the chart is strong; however, that is a price-action argument, not a catalyst argument.[1]
+Source quality: Source quality is high for the filing facts because the evidence comes from SEC-based insider disclosure reporting, but the trade signal is weak because the action is routine selling, not a business inflection.[1][2]
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: The supplied evidence does not indicate a valuation discount or a new margin-of-safety event; absent a price dislocation, the stock is not attractive purely on this filing set.[1][2]
+Valuation: No valuation edge is established in the search results; the filing data is about insider dispositions, not price-to-fundamentals improvement.[1][2]
+Growth runway: Longer term, Airbnb still has platform and travel-network runway, but that thesis is unchanged by the current disclosures and does not create a 1-10 day swing catalyst on its own.[1][2]
+Balance-sheet risk: No balance-sheet stress is identified in the supplied results; the larger risk here is catalyst absence rather than leverage.[1][2]
+Capital allocation: The insider activity is a routine disposition under a 10b5-1 plan, so it does not provide evidence of capital allocation strength or weakness at the company level.[1]
+Concentration case: ABNB only deserves attention over a broad ETF if it has a cleaner catalyst and chart than the market; the current evidence does not clear that bar.[1][2][3]
+Owner thesis, 30-180 days: Review only if future filings or earnings show a clearer growth reacceleration, stronger booking trends, or confirmed technical breakout that offsets the neutral insider-sale signal.[1][2]
+Chittick reject reason: No bullish fresh catalyst; current evidence is insider selling, which is not sufficient for execution-ready long exposure.
+Self-Learning Filter
+Catalyst type: filing
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: consumer-internet-travel
+Research tier: monitor-only
+Allocation learning: Set target allocation to 0 because the disclosed event is not a bullish setup; consider a different-sector alternative instead of forcing a trade.
+Hugging Face Filter
+Sentiment: cautious (0.34), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.09
+Evidence rank: 0/100
+Memory similarity: 0.22
+Vetoes: no_bullish_fresh_catalyst
+Model notes: Filing evidence is real but not trade-positive; treat as watch-only until price and fundamentals improve.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.stocktitan.net/sec-filings/ABNB/form-4-airbnb-inc-insider-trading-activity-0fedfb755830.html, https://www.stocktitan.net/sec-filings/ABNB/144-airbnb-inc-sec-filing-de5597bbc21d.html
+
+2. ANET (networking / semis-adjacent infrastructure) | confidence 0.66 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier watch | bucket networking-infrastructure | HF source 1/100 | HF veto
+Thesis: Arista Networks is still a high-quality networking franchise with strong enterprise and cloud exposure, and the only fresh evidence supplied is a recent earnings report that beat estimates, which can support continued momentum if the stock holds its trend.[3]
+Catalyst: MarketBeat reports Arista released Q1 2026 earnings on May 5, 2026 and beat consensus EPS, with the next earnings date still months away.[3]
+Entry: Watch for a clean hold above the post-earnings trend or a fresh consolidation breakout on volume. Only enter if the stock remains above its near-term moving-average support and the broader tape is stable.[3]
+Exit: Take partial profits into strength if momentum extends, and exit on a failed breakout or a close back below the breakout level with volume expansion.[3]
+Risk/reward: Moderate-to-good if the chart confirms, because the earnings beat provides a credible anchor, but the setup is not strong enough to justify aggressive size without price confirmation.[3]
+Bear/adversary: The strongest objection is that the catalyst is dated and may already be absorbed, leaving insufficient edge unless there is fresh technical confirmation.[3]
+Source quality: Good but incomplete: earnings timing and beat information are useful, but the result set lacks the underlying company filing, guidance detail, or analyst revisions needed for a fully robust trade read.[3]
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Quality is good, but the margin of safety is only acceptable if the stock is not extended after earnings; without that, the setup becomes momentum-only.[3]
+Valuation: No current valuation data is supplied, so valuation cannot be confirmed attractive here; treat as price-and-momentum led rather than undervaluation driven.[3]
+Growth runway: Arista’s runway depends on enterprise and cloud networking demand continuing, but the supplied result only confirms that the latest quarter was strong rather than showing a new multi-quarter inflection.[3]
+Balance-sheet risk: No balance-sheet distress is indicated in the supplied result set.[3]
+Capital allocation: Not enough evidence in the supplied result to assess management capital allocation changes; the earnings beat alone is the main signal.[3]
+Concentration case: Compared with a broad ETF, ANET offers more upside if networking leadership persists, but only if the chart confirms that the earnings beat translated into institutional buying.[3]
+Owner thesis, 30-180 days: Hold or review over 30-180 days only if earnings execution continues and the company sustains demand strength in networking spending.[3]
+Chittick reject reason: Catalyst is real but not fully fresh; needs technical confirmation before execution-ready sizing.
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: networking-infrastructure
+Research tier: watch
+Allocation learning: Use as a monitored swing candidate rather than an immediate allocation; size only after breakout confirmation.
+Hugging Face Filter
+Sentiment: constructive (0.58), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.14
+Evidence rank: 1/100
+Memory similarity: 0.29
+Vetoes: catalyst_not_fresh_enough; missing_chart_confirmation
+Model notes: Better than most stale mega-cap repeats because a recent earnings beat is at least a concrete catalyst, but not enough alone for confident execution.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.marketbeat.com/stocks/NYSE/ANET/earnings/
+
+3. INTC (semiconductors) | confidence 0.31 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket semiconductors | HF source 0/100 | HF veto
+Thesis: Intel is a quality-under-repair candidate: the Chittick Cash lens likes the potential margin of safety and strategic turnaround optionality, but the current memory strongly indicates the catalyst has gone stale and there is no fresh evidence in the supplied results to justify execution-ready exposure.[memory]
+Catalyst: No new company-specific catalyst is present in the supplied results; the memory log explicitly flags repeated stale-catalyst rejections for INTC on June 4 and June 8, 2026.[memory]
+Entry: Monitor only. Reconsider only if a new dated catalyst appears or a confirmed breakout is documented with volume and no stale-repeat penalty.[memory]
+Exit: No trade is recommended now; if future evidence appears, use a tight invalidation under the breakout base and avoid oversized duration risk.[memory]
+Risk/reward: Poor right now because the setup lacks a fresh catalyst and is penalized by repeat decay.[memory]
+Bear/adversary: The strongest objection is that Intel could be a deep-value turnaround if the market re-rates it, but the bot rules require fresh evidence, which is absent here.[memory]
+Source quality: Weak for trade purposes because the supplied record is dominated by rejection history, not a new primary source catalyst.[memory]
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Potential value exists only in theory; the current evidence does not establish a buyable discount or a fresh catalyst to support margin-of-safety entry.[memory]
+Valuation: Undervaluation alone is not enough; without a new catalyst, valuation cannot justify execution under the current rules.[memory]
+Growth runway: Longer-term turnaround runway may exist, but the paper-trading review is limited to 1-10 days and the current result set offers no new catalyst to monetize that runway.[memory]
+Balance-sheet risk: No current balance-sheet improvement is documented here, so restructuring/turnaround risk remains unresolved.[memory]
+Capital allocation: Insufficient fresh evidence to assess management capital allocation progress in a tradeable way.[memory]
+Concentration case: Do not choose INTC over better fresh catalysts; repeated stale references make it inferior to new, cleaner setups.[memory]
+Owner thesis, 30-180 days: Only revisit for a 30-180 day owner thesis if a genuine operating inflection appears in a new filing or earnings release.[memory]
+Chittick reject reason: repeat_decay and stale_catalyst; no fresh catalyst in current search results.
+Self-Learning Filter
+Catalyst type: general
+Fresh catalyst: yes
+Repeat count, 48h: 3
+Diversity bucket: semiconductors
+Research tier: monitor-only
+Allocation learning: Avoid recycling this ticker until a new dated catalyst appears; use a different sector instead.
+Hugging Face Filter
+Sentiment: weak (0.22), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.08
+Evidence rank: 0/100
+Memory similarity: 0.91
+Vetoes: repeat_decay; stale_catalyst
+Model notes: Strongly penalized by prior memory; not execution-ready.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
+
+4. GOOGL (mega-cap internet / cloud) | confidence 0.24 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier stale-watch | bucket mega-cap-internet-cloud | HF source 0/100 | HF veto
+Thesis: Alphabet remains a high-quality business, but the current memory and supplied results do not provide a fresh catalyst; because the name has been repeatedly recycled, it is not execution-ready without a new earnings, filing, guidance, contract, upgrade, or confirmed breakout.[memory]
+Catalyst: No new catalyst is present in the supplied search results, and memory explicitly flags prior repeat-decay and stale-catalyst issues for GOOGL.[memory]
+Entry: Monitor only. Do not initiate unless a new dated catalyst appears and the chart confirms renewed demand.[memory]
+Exit: No trade now; if future evidence appears, use a breakout-based stop and reduce size if the stock becomes a crowded repeat again.[memory]
+Risk/reward: Unfavorable right now because the current evidence is stale and the ticker is overused.[memory]
+Bear/adversary: The best objection is that Alphabet could still be the highest-quality large-cap idea on the list, but the rules explicitly penalize stale repeat names absent fresh evidence.[memory]
+Source quality: Weak for trade timing because the current result set does not add a new primary-source catalyst.[memory]
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Quality is strong, but the margin-of-safety case is not actionable without a fresh dislocation or catalyst.[memory]
+Valuation: No new valuation edge is established in the evidence set.[memory]
+Growth runway: Alphabet’s long-run runway is not in dispute, but the 1-10 day trade window and repeat-decay rules make that insufficient here.[memory]
+Balance-sheet risk: No material balance-sheet concern is documented in the supplied results.[memory]
+Capital allocation: No new capital-allocation evidence is provided in the current inputs.[memory]
+Concentration case: Should not be recycled over fresher opportunities unless the catalyst is materially updated.[memory]
+Owner thesis, 30-180 days: Could re-enter a 30-180 day owner discussion only after a fresh filing, earnings print, or confirmed breakout improves the evidence base.[memory]
+Chittick reject reason: repeat_decay and stale_catalyst; current memory flags similarity to prior rejected patterns.
+Self-Learning Filter
+Catalyst type: general
+Fresh catalyst: yes
+Repeat count, 48h: 6
+Diversity bucket: mega-cap-internet-cloud
+Research tier: stale-watch
+Allocation learning: Use only if a new catalyst appears; otherwise favor underrepresented sectors.
+Hugging Face Filter
+Sentiment: weak (0.18), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.07
+Evidence rank: 0/100
+Memory similarity: 0.93
+Vetoes: repeat_decay; stale_catalyst; memory_similarity
+Model notes: Explicitly penalized repeated mega-cap with no fresh catalyst; keep out of execution set.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: none
 
