@@ -29162,4 +29162,37 @@ Portfolio value: 100002.75 Cash: 94400 Buying power: 393287.7 Positions: - DT: q
 
 Top Candidates
 No current candidates.
+## Research Update - 2026-06-10 12:52:07 Eastern Daylight Time
+
+Research Update
+
+Market tone: U.S. equities remain in a late‑cycle, tech‑led tape with renewed strength in semis and AI after last week’s sell‑off, but under the surface the regime is still rotation‑heavy and policy‑sensitive, favoring selective, catalyst‑driven swing trades over broad beta exposure.[5][14]
+Candidates: 3
+
+1. NUVL (biotechnology) | confidence 0.71 | allocation 6.0% | stop 9.0% | Chittick 63/100 | tier execution-ready | bucket healthcare-biotech-event | HF source 1/100
+Recommendation: execute-if-guards-pass
+Catalyst: Reports that GSK is in advanced talks to acquire Nuvalent for $9–10B, plus FDA Priority Review granted for neladalkib with a PDUFA date in late November 2026 and a second NDA for zidesamtinib already under review; Bernstein also initiate...
+Chittick Cash: From a Chittick/Buffett lens, margin of safety is limited at current levels because the price now embeds a meaningful probability of a favorable GSK deal plus successful regulatory outcomes; the safety margin rests mo...
+HF filter: sentiment=bullish-catalyst source=1/100 hype=0.32 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=healthcare-biotech-event
+Social buzz, low weight: Likely elevated trader chatter given the size of the move and M&A headlines, but social attention should be treated only as confirmation of volume/awareness rather than a thesis...
+Congress signal, low weight: none
+
+2. AAPL (information-technology) | confidence 0.70 | allocation 5.0% | stop 6.0% | Chittick 78/100 | tier execution-ready | bucket mega-cap-consumer-tech | HF source 1/100 | HF veto
+Recommendation: execute-if-guards-pass
+Catalyst: Shares recently touched a fresh 52‑week high around $311.40 intraday as bullish momentum accelerated, with the broader Nasdaq and tech complex rebounding after last week’s sell‑off; the move reflects renewed investor appetite for large‑c...
+Chittick Cash: From an owner’s lens, margin of safety at fresh highs is not large; protection instead comes from Apple’s durable competitive advantages, balance sheet strength, and capital‑return discipline, which can cushion medium...
+HF filter: sentiment=constructive-momentum source=1/100 hype=0.25 vetoes=1
+Self-learning: tier=execution-ready repeat48h=1 fresh=yes bucket=mega-cap-consumer-tech
+Social buzz, low weight: Given Apple’s size and the breakout, social and financial‑media chatter is likely active, but any such buzz should be treated strictly as a secondary sentiment gauge, not as an...
+Congress signal, low weight: none
+
+3. CORT (biotechnology) | confidence 0.66 | allocation 3.0% | stop 8.0% | Chittick 67/100 | tier watch | bucket healthcare-biotech-commercial | HF source 1/100
+Recommendation: watch
+Catalyst: Recent presentation of new Korlym data has brought CORT back into focus, with a cited 30‑day share price return of roughly 48% and a 90‑day return near that pace, supported by an intrinsic value estimate of $88 per share that implies sub...
+Chittick Cash: The research platform’s fair value estimate of $88 per share, relative to the current market price, suggests an absolute valuation margin if its assumptions hold; however, the single‑product nature of the business and...
+HF filter: sentiment=cautious-bullish source=1/100 hype=0.28 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=healthcare-biotech-commercial
+Social buzz, low weight: No specific social‑buzz evidence is cited; assume normal to modestly elevated interest given recent returns but do not treat attention levels as part of the core thesis.
+Congress signal, low weight: none
 

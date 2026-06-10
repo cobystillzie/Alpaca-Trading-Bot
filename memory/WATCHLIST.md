@@ -2,8 +2,186 @@
 
 <!-- latest-candidates-json
 {
-  "candidates": [],
-  "summary": "No reliable, fresh fundamental or technical catalysts from high-quality sources are available in the provided results, so no execution-ready swing trade candidates can be proposed under the current rules. The paper bot should stay in capital-preservation and research mode until better evidence appears."
+  "candidates": [
+    {
+      "adversary_case": "A disciplined skeptic would argue that chasing a 39% gap on unconfirmed deal chatter violates margin\u2011of\u2011safety principles, that the deal may already be fully priced or over\u2011priced versus any eventual offer, and that without a signed agreement this is more of a speculative event trade than a Buffett/Munger\u2011style quality compounder.",
+      "allocation_learning_note": "Given prior system rejections for micro\u2011cap and hype\u2011only biotech, keep NUVL position size toward the lower half of the allowed 1\u201315% band and enforce disciplined stops.",
+      "balance_sheet_risk": "Biotechs without approved products generally face funding and dilution risk, but the presence of two NDAs and serious buyer interest suggests Nuvalent is not in a distressed funding situation right now; nonetheless, if no deal occurs and FDA timelines slip, it could eventually need additional capital, re\u2011introducing dilution risk.",
+      "bear_case": "The GSK talks are not a binding agreement and could fall apart or price below current market expectations, the FDA could later raise issues on either NDA, and the recent 39% spike leaves the stock vulnerable to sharp pullbacks if the deal rumor is denied, delayed, or repriced; biotech risk is inherently binary and headline\u2011driven.",
+      "capital_allocation_case": "Management appears to have focused capital on a tightly defined late\u2011stage pipeline rather than broad speculative programs, and the willingness to entertain talks with a large pharma acquirer (if accurate) reflects a pragmatic stance toward maximizing risk\u2011adjusted value for shareholders rather than empire\u2011building.[6]",
+      "catalyst": "Reports that GSK is in advanced talks to acquire Nuvalent for $9\u201310B, plus FDA Priority Review granted for neladalkib with a PDUFA date in late November 2026 and a second NDA for zidesamtinib already under review; Bernstein also initiated with Outperform and a $189 target, calling it their top oncology idea.[6]",
+      "catalyst_type": "news",
+      "chittick_cash_score": 63.0,
+      "chittick_reject_reason": "",
+      "concentration_case": "As a single\u2011name biotech with binary event risk, NUVL deserves only a modest slice of a concentrated quality portfolio, but the depth of its late\u2011stage pipeline and potential M&A floor make it more justifiable than typical early\u2011stage biotechs for a tightly risk\u2011controlled swing allocation.",
+      "confidence": 0.71,
+      "congressional_signal": "none",
+      "diversity_bucket": "healthcare-biotech-event",
+      "entry_plan": "For paper trading, consider a staged entry near the first intraday consolidation area after the 39% spike (e.g., a pullback toward the VWAP or the top of the prior base) rather than chasing the absolute intraday high; require that price holds above that intraday support on at least 30\u201360 minutes of trading before filling the paper order.",
+      "exit_plan": "Take profits into further strength if the stock advances another 10\u201320% from entry or gaps up on a formal deal announcement; invalidate the trade on a decisive close below the intraday support/VWAP zone or a strong, credible headline that the GSK talks have ended or are materially less favorable than the current rumor.",
+      "fresh_catalyst": true,
+      "growth_runway": "Nuvalent\u2019s longer\u2011term runway stems from the potential commercialization of neladalkib and zidesamtinib in defined oncology niches, plus follow\u2011on indications and possible pipeline expansion; a successful GSK acquisition would likely plug these assets into a global commercial machine, but as an independent company it would still have multi\u2011year growth optionality if the drugs are approved.[6]",
+      "hf_evidence_rank": 0.76,
+      "hf_filter_vetoes": [],
+      "hf_hype_risk": 0.32,
+      "hf_memory_similarity": 0.2,
+      "hf_model_notes": "Catalyst is grounded in concrete FDA and M&A reporting, not solely in social or listicle hype, but the binary nature of the news flow raises drawdown risk.",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "bullish-catalyst",
+      "hf_sentiment_score": 0.7,
+      "hf_source_quality_score": 0.78,
+      "horizon_days": 5,
+      "margin_of_safety_case": "From a Chittick/Buffett lens, margin of safety is limited at current levels because the price now embeds a meaningful probability of a favorable GSK deal plus successful regulatory outcomes; the safety margin rests more on the strategic value implied by two late\u2011stage NDAs and pharma interest than on steady free\u2011cash\u2011flow or diversified earnings.[6]",
+      "market_regime": "In a tech\u2011 and growth\u2011led risk\u2011on tape, high\u2011beta biotech can see exaggerated moves in both directions; any macro shock, rates spike, or generalized de\u2011risking out of crowded growth/AI could hit NUVL harder than the market even if its idiosyncratic story remains intact.[5][14]",
+      "momentum_case": "The stock is trading up roughly 39% on the day, with strong positive sentiment and heavy volume as traders respond to the buyout headlines and regulatory milestones, putting NUVL on many short\u2011term momentum screens; its move is clearly catalyst\u2011linked rather than random penny\u2011stock volatility.[6][11]",
+      "owner_hold_case": "An owner\u2011style 30\u2013180 day thesis would require either a completed acquisition with some spread to eventual closing, or a decision to own NUVL through upcoming PDUFA dates on the view that its drugs\u2019 clinical profiles justify approval and meaningful commercial uptake; that path would rely on deep clinical diligence, acceptance that binary risk is intrinsic, and confidence that management will avoid excessive dilution if independent.",
+      "quality_case": "While biotech carries binary risks, Nuvalent\u2019s case quality is higher than typical small/mid\u2011cap peers: two late\u2011stage assets with accepted NDAs, FDA Priority Review (which is selectively granted and implies meaningful unmet need and supportive data), and interest from a blue\u2011chip pharma acquirer all point to real clinical value and strategic scarcity rather than purely speculative hype.[6]",
+      "recommendation": "execute-if-guards-pass",
+      "repeat_count_48h": 0,
+      "research_tier": "execution-ready",
+      "risk_reward": "Risk/reward is skewed toward upside if a formal deal emerges or additional positive regulatory news leaks, but downside can be swift and large if negotiations fail or the market decides the squeeze overshot fair arbitrage value; position sizing and hard stops are critical.",
+      "sector": "biotechnology",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.05
+      },
+      "social_buzz": "Likely elevated trader chatter given the size of the move and M&A headlines, but social attention should be treated only as confirmation of volume/awareness rather than a thesis driver.",
+      "source_quality": "Evidence quality is relatively strong for a short\u2011term catalyst trade: multiple concrete events (FDA Priority Review, two NDAs, named GSK talks, and a major bank\u2019s top\u2011pick rating) are reported by a real\u2011time market news service summarizing primary financial news sources.[6] However, until GSK or Nuvalent file official statements, the M&A aspect remains a press\u2011sourced rumor, which must be treated as inherently uncertain.",
+      "source_urls": [
+        "https://stockstotrade.com/news/nuvalent-inc-nuvl-news-2026_06_09-3/"
+      ],
+      "stop_loss_percent": 9.0,
+      "strategy_tags": [
+        "chittick_cash",
+        "catalyst-swing",
+        "biotech-event"
+      ],
+      "symbol": "NUVL",
+      "target_allocation_percent": 6.0,
+      "thesis": "Nuvalent is a late\u2011stage oncology biotech with two NDAs under FDA review and credible buyout talks with GSK, creating a cluster of high\u2011quality, time\u2011bounded catalysts that can drive further upside over a 1\u201310 day swing while still fitting a quality\u2011biased, evidence\u2011driven framework.[6]",
+      "valuation_case": "The recent 39% surge means traditional DCF or comparable valuations are in flux; the near\u2011term tape will value NUVL mostly on probabilistic M&A outcomes (deal vs. no deal, and price per share) and, to a lesser extent, the NPV of its two NDA\u2011stage assets. Without hard deal terms, valuation is best thought of as a trading range around potential takeout prices rather than a long\u2011term intrinsic value anchor.[6]"
+    },
+    {
+      "adversary_case": "A critic would argue that buying Apple here is primarily a momentum and sentiment trade with limited valuation edge, that much of the AI/innovation optimism is already reflected in the price, and that from a strict Buffett/Munger perspective the margin of safety at all\u2011time highs is thin.",
+      "allocation_learning_note": "Given prior system flags on repeat mega\u2011caps, favor a mid\u2011single\u2011digit allocation and ensure at least two non\u2011tech or non\u2011mega\u2011cap alternatives remain in the broader discovery set.",
+      "balance_sheet_risk": "Apple maintains a strong balance sheet with substantial cash generation and manageable leverage, reducing solvency risk and supporting ongoing buybacks and dividends, which aligns with a conservative quality filter.",
+      "bear_case": "After a strong run to record levels, valuation risk is elevated and even minor disappointments in AI, iPhone, or services growth\u2014or a macro\u2011driven de\u2011rating of long\u2011duration tech\u2014could trigger a pullback; crowded positioning means Apple could participate meaningfully in any generalized tech correction.[5][13]",
+      "capital_allocation_case": "Management has a long record of large, consistent share repurchases and growing dividends, indicating a disciplined approach to returning excess capital; R&D and capex remain significant but are supported by strong cash flows.[13]",
+      "catalyst": "Shares recently touched a fresh 52\u2011week high around $311.40 intraday as bullish momentum accelerated, with the broader Nasdaq and tech complex rebounding after last week\u2019s sell\u2011off; the move reflects renewed investor appetite for large\u2011cap tech and AI\u2011adjacent names rather than a single company\u2011specific headline.[13][5]",
+      "catalyst_type": "momentum",
+      "chittick_cash_score": 78.0,
+      "chittick_reject_reason": "",
+      "concentration_case": "As a mega\u2011cap index heavyweight and quality leader, Apple can be a core single\u2011name expression of large\u2011cap tech momentum; however, given crowding and prior repeat\u2011decay issues with mega\u2011cap tech more generally, it should compete with other sectors for capital rather than dominate portfolio allocation.",
+      "confidence": 0.7,
+      "congressional_signal": "none",
+      "diversity_bucket": "mega-cap-consumer-tech",
+      "entry_plan": "For a paper swing, look for a minor pullback or intraday consolidation above prior resistance (now support) near the recent breakout zone rather than buying at a vertical extension; enter only if price holds above that breakout level on a closing basis with normal\u2011to\u2011rising volume.",
+      "exit_plan": "Aim to trim or close the swing into a further 4\u20138% extension above entry or on signs of failed breakout (close back below the prior resistance zone or a clear reversal day with above\u2011average volume). If macro tech sentiment sharply deteriorates (e.g., a broad Nasdaq drop with Apple underperforming), exit early to protect capital.",
+      "fresh_catalyst": true,
+      "growth_runway": "Over 30\u2013180 days and beyond, incremental drivers include services expansion, potential AI and on\u2011device intelligence features, and ongoing ecosystem monetization, all against a backdrop of strong brand loyalty and installed\u2011base stickiness.[13]",
+      "hf_evidence_rank": 0.78,
+      "hf_filter_vetoes": [
+        "prior-repeat-decay-on-mega-cap-tech"
+      ],
+      "hf_hype_risk": 0.25,
+      "hf_memory_similarity": 0.35,
+      "hf_model_notes": "Name overlaps with prior mega\u2011cap tech usage; allowed here due to a clearly dated new\u2011high breakout within a documented tech\u2011led rebound.",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "constructive-momentum",
+      "hf_sentiment_score": 0.68,
+      "hf_source_quality_score": 0.8,
+      "horizon_days": 4,
+      "margin_of_safety_case": "From an owner\u2019s lens, margin of safety at fresh highs is not large; protection instead comes from Apple\u2019s durable competitive advantages, balance sheet strength, and capital\u2011return discipline, which can cushion medium\u2011term drawdowns even if multiple compression occurs.[13]",
+      "market_regime": "The current environment is labeled as a technology\u2011led recovery within a cautious, policy\u2011sensitive regime; that supports short\u2011term upside in mega\u2011cap tech but also implies vulnerability to macro data surprises or Fed repricing that could quickly flip sentiment.[5][14]",
+      "momentum_case": "The stock\u2019s push to a new 52\u2011week high, in conjunction with a broader tech\u2011led bounce, reflects powerful trend and relative strength versus the market; breakouts to new highs in mega\u2011cap leaders often attract systematic and discretionary trend followers, reinforcing short\u2011term momentum.[13][5]",
+      "owner_hold_case": "An owner\u2011style 30\u2013180 day thesis would center on the durability of Apple\u2019s ecosystem, services growth, and emerging AI offerings, with periodic reassessment around product events and earnings; that thesis is separate from but compatible with a near\u2011term momentum swing.",
+      "quality_case": "Apple\u2019s business features massive installed\u2011base scale, recurring services revenue, strong brand power, and historically robust free\u2011cash\u2011flow generation and buybacks\u2014characteristics consistent with Buffett/Munger quality filters and with prior long\u2011term Berkshire ownership.[13]",
+      "recommendation": "execute-if-guards-pass",
+      "repeat_count_48h": 1,
+      "research_tier": "execution-ready",
+      "risk_reward": "Upside is moderate but reasonably probable if the breakout holds and tech leadership persists; downside is defined by a nearby technical level, allowing a tight stop and acceptable reward\u2011to\u2011risk even in a stretched valuation context.",
+      "sector": "information-technology",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.05
+      },
+      "social_buzz": "Given Apple\u2019s size and the breakout, social and financial\u2011media chatter is likely active, but any such buzz should be treated strictly as a secondary sentiment gauge, not as an input to the trading decision.",
+      "source_quality": "Information on Apple\u2019s price action and new high is drawn from a real\u2011time market data and news source, and the broader tech\u2011led regime is corroborated by market\u2011commentary coverage of index performance, providing solid but not company\u2011specific fundamental catalysts.[13][5][14]",
+      "source_urls": [
+        "https://www.perplexity.ai/finance/AAPL?comparing=AAPL%2CPR%2CNVDA%2CTSLA%2CAMZN",
+        "https://x.com/marketsday/status/2064516286240133491"
+      ],
+      "stop_loss_percent": 6.0,
+      "strategy_tags": [
+        "chittick_cash",
+        "mega-cap-tech",
+        "momentum-swing"
+      ],
+      "symbol": "AAPL",
+      "target_allocation_percent": 5.0,
+      "thesis": "Apple is a dominant mega\u2011cap consumer\u2011tech and services franchise that just printed a new 52\u2011week high on strong bullish momentum, offering a liquid, quality\u2011anchored vehicle for a short\u2011term swing aligned with the current technology\u2011led recovery, while any deeper Buffett\u2011style owner case would sit in the background rather than drive a 1\u201310 day trade.[13][5]",
+      "valuation_case": "The current breakout suggests the market is willing to pay a premium for Apple\u2019s earnings and cash flows in light of its ecosystem and AI\u2011adjacent potential; while not obviously cheap, it may still be reasonably valued versus other AI leaders on a quality\u2011adjusted basis, but the short\u2011term swing thesis leans more on technicals than valuation expansion.[13]"
+    },
+    {
+      "adversary_case": "A critic would note that relying on a single fair value model is dangerous, that the 30\u201390 day run may have exhausted near\u2011term buyers, and that concentration in one primary drug means a true Buffett\u2011style margin of safety is hard to claim despite seemingly cheap modeled value.",
+      "allocation_learning_note": "Given system caution on source\u2011thin or speculative healthcare names, keep any initial swing allocation small and contingent on further confirmatory news or stable price action.",
+      "balance_sheet_risk": "As a commercial\u2011stage company, CORT\u2019s balance sheet risk is lower than pre\u2011revenue peers, but investors still need to monitor cash generation, R&D commitments, and any reliance on external financing for pipeline expansion.[3]",
+      "bear_case": "As a single\u2011product\u2011heavy biotech, Corcept faces concentration risk in Korlym, regulatory and reimbursement uncertainty, and potential competitive threats; the strong recent run\u2011up could mean that a portion of the upside case is already embedded, making the name vulnerable to profit taking or adverse news on trials or pricing.[3]",
+      "capital_allocation_case": "Management\u2019s allocation between Korlym commercialization, lifecycle management, and pipeline investment will shape value creation; while details require deeper digging into filings, the firm\u2019s ability to fund development partly from operations is a positive indicator versus constant equity raises.",
+      "catalyst": "Recent presentation of new Korlym data has brought CORT back into focus, with a cited 30\u2011day share price return of roughly 48% and a 90\u2011day return near that pace, supported by an intrinsic value estimate of $88 per share that implies substantial upside from current levels.[3]",
+      "catalyst_type": "news",
+      "chittick_cash_score": 67.0,
+      "chittick_reject_reason": "",
+      "concentration_case": "Because of single\u2011product risk and the existing strong price performance, CORT is better suited as a satellite position or watch name rather than a concentrated core holding, particularly when other sectors can provide diversification.",
+      "confidence": 0.66,
+      "congressional_signal": "none",
+      "diversity_bucket": "healthcare-biotech-commercial",
+      "entry_plan": "Treat as a watch or small\u2011allocation swing rather than a full\u2011size position; look for a pullback or consolidation after the recent 30\u201390 day surge and only enter if price holds above a logical support level from that base with healthy but not blow\u2011off volume.",
+      "exit_plan": "For a short\u2011term swing, consider trimming if the stock adds another 10\u201315% quickly or fails to hold recent breakout levels; invalidate on a breakdown through key support or on material negative news about Korlym\u2019s data, safety, or reimbursement outlook.",
+      "fresh_catalyst": true,
+      "growth_runway": "Korlym\u2011related growth, potential label expansions, and pipeline developments underpin the medium\u2011term runway, but from a 30\u2013180 day angle the key drivers are continued data updates, prescriber uptake, and any guidance or analyst\u2011estimate revisions tied to these factors.[3]",
+      "hf_evidence_rank": 0.7,
+      "hf_filter_vetoes": [],
+      "hf_hype_risk": 0.28,
+      "hf_memory_similarity": 0.15,
+      "hf_model_notes": "Valuation work appears structured, but single\u2011source dependence and biotech concentration risk warrant a watch-first stance.",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "cautious-bullish",
+      "hf_sentiment_score": 0.64,
+      "hf_source_quality_score": 0.74,
+      "horizon_days": 7,
+      "margin_of_safety_case": "The research platform\u2019s fair value estimate of $88 per share, relative to the current market price, suggests an absolute valuation margin if its assumptions hold; however, the single\u2011product nature of the business and biotech regulatory risks constrain how much confidence to place in that apparent discount.[3]",
+      "market_regime": "In a regime where investors are still willing to reward growth and biotech stories but are selective, CORT could benefit from renewed interest in under\u2011owned quality biotechs; however, any broad de\u2011risking from growth/biotech could compress multiples regardless of its idiosyncratic progress.[5]",
+      "momentum_case": "The stock has delivered roughly 48% over 30 days and strong 90\u2011day gains, signaling robust intermediate\u2011term momentum that has been catalyzed by fundamental news rather than just microcap speculation.[3]",
+      "owner_hold_case": "A 30\u2013180 day owner\u2011style thesis would focus on whether Korlym\u2019s trajectory and new data can materially change earnings power and justify re\u2011rating, with periodic review around data releases, earnings, and any competitive developments.",
+      "quality_case": "Corcept is a commercial\u2011stage biotech with an approved drug (Korlym) and ongoing development work, which is structurally higher quality than pre\u2011revenue names; the cited valuation work uses a 7.11% discount rate and incorporates analyst expectations for revenue and earnings over several years, suggesting thoughtful fundamental underpinnings rather than pure price action.[3]",
+      "recommendation": "watch",
+      "repeat_count_48h": 0,
+      "research_tier": "watch",
+      "risk_reward": "Potential reward is attractive if the fair value estimate is directionally correct and the market re\u2011rates the stock toward it, but downside risk stems from single\u2011product dependence and the possibility that recent gains reflect front\u2011loaded expectations.",
+      "sector": "biotechnology",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "No specific social\u2011buzz evidence is cited; assume normal to modestly elevated interest given recent returns but do not treat attention levels as part of the core thesis.",
+      "source_quality": "The core valuation and momentum discussion comes from an investment research platform that explicitly lays out its fair value methodology and links it to analyst forecasts and discount\u2011rate assumptions, providing a more transparent framework than generic listicles.[3]",
+      "source_urls": [
+        "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-cort/corcept-therapeutics/news/corcept-therapeutics-cort-valuation-after-new-korlym-catalys"
+      ],
+      "stop_loss_percent": 8.0,
+      "strategy_tags": [
+        "chittick_cash",
+        "valuation-plus-momentum",
+        "biotech-commercial"
+      ],
+      "symbol": "CORT",
+      "target_allocation_percent": 3.0,
+      "thesis": "Corcept Therapeutics is attracting renewed attention after presenting new data for Korlym, with analysis suggesting the shares remain materially undervalued relative to fair value estimates, and a strong 30\u201390 day price performance backdrop provides a momentum\u2011plus\u2011valuation setup that fits a watch or low\u2011allocation swing framework.[3]",
+      "valuation_case": "The cited fair value is built from analyst expectations for revenue and earnings over several years and discounted at just over 7%, which indicates the stock may be priced below modeled intrinsic value; this provides a valuation\u2011supportive backdrop to recent momentum.[3]"
+    }
+  ],
+  "summary": "U.S. equities remain in a late\u2011cycle, tech\u2011led tape with renewed strength in semis and AI after last week\u2019s sell\u2011off, but under the surface the regime is still rotation\u2011heavy and policy\u2011sensitive, favoring selective, catalyst\u2011driven swing trades over broad beta exposure.[5][14]"
 }
 -->
 
@@ -1600,4 +1778,12 @@ No candidates.
 ## Latest Candidates - 2026-06-10 07:51:02 Eastern Daylight Time
 
 No candidates.
+
+## Latest Candidates - 2026-06-10 12:52:07 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| NUVL | biotechnology | execution-ready | healthcare-biotech-event | 0 | yes | 0.71 | 63 | 1 | 0 | 6.0% | 9.0% | execute-if-guards-pass | Reports that GSK is in advanced talks to acquire Nuvalent for $9–10B, plus FDA Priority Review granted for neladalkib with a PDUFA date in late November 2026 an |
+| AAPL | information-technology | execution-ready | mega-cap-consumer-tech | 1 | yes | 0.70 | 78 | 1 | 1 | 5.0% | 6.0% | execute-if-guards-pass | Shares recently touched a fresh 52‑week high around $311.40 intraday as bullish momentum accelerated, with the broader Nasdaq and tech complex rebounding after  |
+| CORT | biotechnology | watch | healthcare-biotech-commercial | 0 | yes | 0.66 | 67 | 1 | 0 | 3.0% | 8.0% | watch | Recent presentation of new Korlym data has brought CORT back into focus, with a cited 30‑day share price return of roughly 48% and a 90‑day return near that pac |
 

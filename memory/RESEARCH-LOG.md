@@ -1476,4 +1476,9 @@ Candidates found: 0
 Premarket plan built from latest watchlist.
 
 No candidates available. Run research first.
+## Two-Hour Research Agent - 2026-06-10 12:52:07 Eastern Daylight Time
+
+U.S. equities remain in a late‑cycle, tech‑led tape with renewed strength in semis and AI after last week’s sell‑off, but under the surface the regime is still rotation‑heavy and policy‑sensitive, favoring selective, catalyst‑driven swing trades over broad beta exposure.[5][14]
+
+Candidates found: 3
 
