@@ -1481,4 +1481,14 @@ No candidates available. Run research first.
 U.S. equities remain in a late‑cycle, tech‑led tape with renewed strength in semis and AI after last week’s sell‑off, but under the surface the regime is still rotation‑heavy and policy‑sensitive, favoring selective, catalyst‑driven swing trades over broad beta exposure.[5][14]
 
 Candidates found: 3
+## Premarket Plan - 2026-06-12 00:07:16 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- NUVL: score=77, base=95, chittick=63, approved=False, allocation=6.0%, stop=9.0%
+  rejects: Low-weight social/congress signal needs at least two stronger sources.
+- AAPL: score=82, base=95, chittick=78, approved=False, allocation=5.0%, stop=6.0%
+  rejects: prior-repeat-decay-on-mega-cap-tech
+- CORT: score=79, base=95, chittick=67, approved=False, allocation=3.0%, stop=8.0%
+  rejects: Low-weight social/congress signal needs at least two stronger sources.
 

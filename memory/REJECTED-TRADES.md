@@ -442,4 +442,13 @@ Stop loss must be between 3% and 12%.
 ## Market Open Execution - 2026-06-10 09:55:01 Eastern Daylight Time
 
 No candidates available. No order was placed.
+## Rejected AAPL - 2026-06-12 00:07:18 Eastern Daylight Time
+
+prior-repeat-decay-on-mega-cap-tech
+## Rejected CORT - 2026-06-12 00:07:18 Eastern Daylight Time
+
+Low-weight social/congress signal needs at least two stronger sources.
+## Rejected NUVL - 2026-06-12 00:07:18 Eastern Daylight Time
+
+Low-weight social/congress signal needs at least two stronger sources.
 
