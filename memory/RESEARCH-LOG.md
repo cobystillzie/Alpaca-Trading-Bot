@@ -1496,4 +1496,11 @@ Premarket plan built from latest watchlist.
 US equities remain in a late‑cycle, slightly risk‑on regime with indices near highs, but macro and geopolitical headline risk is elevated; swing trades should emphasize high‑quality names with clear, dated catalysts and disciplined risk controls.
 
 Candidates found: 2
+## Premarket Plan - 2026-06-12 08:25:01 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- RRX: score=81, base=95, chittick=74, approved=True, allocation=8.0%, stop=8.0%
+- HUMA: score=69, base=95, chittick=35, approved=False, allocation=0.0%, stop=8.0%
+  rejects: Candidate is monitor-only and cannot be traded.; Target allocation must be between 1% and 15%.
 
