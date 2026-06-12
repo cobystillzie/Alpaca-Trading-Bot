@@ -29841,4 +29841,28 @@ Model notes: Valuation work appears structured, but single‑source dependence a
 Social buzz, max 10%: No specific social‑buzz evidence is cited; assume normal to modestly elevated interest given recent returns but do not treat attention levels as part of the core thesis.
 Congress signal, max 5%: none
 Sources: https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-cort/corcept-therapeutics/news/corcept-therapeutics-cort-valuation-after-new-korlym-catalys
+## Research Update - 2026-06-12 07:52:09 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities remain in a late‑cycle, slightly risk‑on regime with indices near highs, but macro and geopolitical headline risk is elevated; swing trades should emphasize high‑quality names with clear, dated catalysts and disciplined risk controls.
+Candidates: 2
+
+1. RRX (industrials) | confidence 0.70 | allocation 8.0% | stop 8.0% | Chittick 74/100 | tier execution-ready | bucket quality-industrials-cyclicals | HF source 1/100
+Recommendation: execute-if-guards-pass
+Catalyst: Ongoing institutional accumulation and strong long‑only ownership base highlighted in recent filings, with the stock trading materially higher year‑on‑year and participating in the broader rotation into quality cyclicals and industrials.[1]
+Chittick Cash: From a 30–180 day perspective, the business benefits from durable industrial and aftermarket demand, but the recent price rise and deal leverage temper the margin of safety; valuation is not distressed, so any margin...
+HF filter: sentiment=not run source=1/100 hype=0.10 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=quality-industrials-cyclicals
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. HUMA (biotechnology) | confidence 0.66 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier monitor-only | bucket speculative-biotech-special-situation | HF source 1/100
+Recommendation: watch
+Catalyst: Humacyte recently priced a large equity offering of approximately 47.6M shares at $1.05 per share, raising about $47M in net proceeds, and reported that its V012 Phase 3 trial met the primary endpoint with plans to file a supplemental BL...
+Chittick Cash: The equity raise at $1.05 indicates limited margin of safety; investors are funding continued development with substantial dilution.[2] Without established cash flows or clear valuation anchors, downside protection is...
+HF filter: sentiment=not run source=1/100 hype=0.30 vetoes=0
+Self-learning: tier=monitor-only repeat48h=0 fresh=yes bucket=speculative-biotech-special-situation
+Social buzz, low weight: none
+Congress signal, low weight: none
 

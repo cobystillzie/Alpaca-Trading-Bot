@@ -1491,4 +1491,9 @@ Premarket plan built from latest watchlist.
   rejects: prior-repeat-decay-on-mega-cap-tech
 - CORT: score=79, base=95, chittick=67, approved=False, allocation=3.0%, stop=8.0%
   rejects: Low-weight social/congress signal needs at least two stronger sources.
+## Two-Hour Research Agent - 2026-06-12 07:52:09 Eastern Daylight Time
+
+US equities remain in a late‑cycle, slightly risk‑on regime with indices near highs, but macro and geopolitical headline risk is elevated; swing trades should emphasize high‑quality names with clear, dated catalysts and disciplined risk controls.
+
+Candidates found: 2
 
