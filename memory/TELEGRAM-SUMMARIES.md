@@ -29952,4 +29952,251 @@ Sources: https://www.stocktitan.net/sec-filings/HUMA/424b5-humacyte-inc-prospect
 
 Rejected / Watchouts
 - HUMA: Candidate is monitor-only and cannot be traded.; Target allocation must be between 1% and 15%.
+## Performance Ledger - 2026-06-13 15:20:34 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-06-13 15:20:34 Eastern Daylight Time
+- Portfolio value: $100,081.40
+- P/L vs $100k baseline: $81.40
+- Full paper-account return: 0.081%
+- Managed-capital return: 0.81%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 1.45%
+- Latest position value: $5,681.40
+- Full-account cash reserve: 94.3%
+- Managed-capital cash reserve: 43.2%
+- Max snapshot drawdown: $328.28 from 2026-05-08 16:30:03 Eastern Daylight Time to 2026-06-09 12:40:01 Eastern Daylight Time
+
+Open Position Review
+- DT: winner, value $826.78, unrealized P/L $26.78, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 36 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: loser, value $451.77, unrealized P/L $-48.23, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 37 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: loser, value $773.78, unrealized P/L $-26.22, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 44 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- IBRX: loser, value $502.95, unrealized P/L $-97.05, entry 2026-05-11 09:48:18 Eastern Daylight Time, thesis age 33 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: winner, value $544.21, unrealized P/L $44.21, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 32 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: winner, value $820.88, unrealized P/L $20.88, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 43 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $828.00, unrealized P/L $28.00, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 38 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $933.03, unrealized P/L $133.03, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 46 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- INTC: appeared 38 times; market outcome unavailable until benchmark/candidate price history is captured.
+- GOOGL: appeared 34 times; open position P/L $-26.22.
+- SCHD: appeared 34 times; open position P/L $28.00.
+- SPMO: appeared 32 times; open position P/L $133.03.
+- NVDA: appeared 29 times; open position P/L $20.88.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MSFT: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- UNP: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VALN: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Candidate references banned v1 instruments or leverage.: 19
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 11
+  - Max open-position count would be exceeded.: 8
+  - Single-stock allocation would exceed 15%.: 7
+  - A market-open order is already logged for today. No backup order was placed.: 5
+  - Candidate is monitor-only and cannot be traded. Confidence below 0.60. Target allocation must be between 1% and 15%. Stop loss must be between 3% and 12%.: 5
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources.: 5
+  - Low-weight social/congress signal needs at least two stronger sources.: 5
+- By symbol:
+  - GOOGL: 5
+  - INTU: 5
+  - INTC: 4
+  - AGI: 3
+  - BAH: 3
+  - KO: 3
+  - PLTR: 3
+  - TMXX.F: 3
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 0
+- unknown: 2
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold met: 8 trades over 46 days.
+- Strategy tuning may be reviewed, but safety guardrails still apply.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## End Of Day Memo - 2026-06-13 15:20:34 Eastern Daylight Time
+
+End Of Day Analyst Memo
+
+Recommendation: Carry forward only evidence-backed candidates; review stops before the next market-open run.
+
+Market Regime
+End-of-day review of paper portfolio, trade quality, risk notes, and next-day watchlist.
+
+Portfolio
+Portfolio value: 100081.4 Cash: 94400 Buying power: 393507.91 Positions: - DT: qty=20.289119959, market_value=826.781638, unrealized_pl=26.781638 - GLRE: qty=28.042624789, market_value=451.766685, unrealized_pl=-48.233315 - GOOGL: qty=2.151289429, market_value=773.775782, unrealized_pl=-26.224218 - IBRX: qty=70.838252656, market_value=502.951594, unrealized_pl=-97.048406 - LNC: qty=14.590020426, market_value=544.207762, unrealized_pl=44.207762 - NVDA: qty=4.00060009, market_value=820.883132, unrealized_pl=20.883132 - SCHD: qty=25.2286345, market_value=828.003784, unrealized_pl=28.003784 - SPMO: qty=6.119014838, market_value=933.027382, unrealized_pl=133.027382 Performance: value $100,081.40, P/L vs $100k $81.40, managed return 0.81%, deployed return 1.45%, managed cash reserve 43.2%.
+
+Top Candidates
+
+1. RRX (industrials) | confidence 0.70 | allocation 0.0% | stop 8.0% | Chittick 74/100 | tier allocation-muted | bucket quality-industrials-cyclicals | HF source 1/100
+Thesis: Regal Rexnord is a high‑quality industrial power transmission and motion‑control business benefiting from structural demand for energy efficiency and automation, with institutional accumulation and solid revenue mix supporting a disciplined 1–7 day swing around a quality value/industrial factor bid.
+Catalyst: Ongoing institutional accumulation and strong long‑only ownership base highlighted in recent filings, with the stock trading materially higher year‑on‑year and participating in the broader rotation into quality cyclicals and industrials.[1]
+Entry: For paper trading, consider a staggered entry near recent support or minor intraday pullbacks rather than chasing breakouts. Use a limit buy slightly below the prior close or near the 5–10 day moving average, with confirmation that price holds above a recen...
+Exit: Take profits into strength near recent short‑term resistance or if price advances approximately 10–15% from entry over 1–7 days. Invalidate the trade on a decisive close below recent support or if broader industrials/quality‑cyclicals see sharp outflows, re...
+Risk/reward: Risk/reward is moderately attractive: downside is cushioned by business quality and institutional ownership, but cyclicality and acquisition leverage cap near‑term conviction; a controlled swing position with tight risk can capture incremental upside while...
+Bear/adversary: A critic would argue that with indices near highs and industrials already re‑rated, RRX’s recent strength and acquisition‑related leverage leave little margin of safety for a short swing; any disappointment in macro data, integration progress, or deleveraging could lead to multiple compression, m...
+Source quality: Evidence quality is moderate: institutional ownership and price history are sourced from SEC‑related and market‑data platforms,[1] which are reliable, but there is no single, near‑dated company‑specific catalyst like earnings this week; the thesis leans on...
+Chittick Cash Filter
+Score: 74/100
+Margin of safety: From a 30–180 day perspective, the business benefits from durable industrial and aftermarket demand, but the recent price rise and deal leverage temper the margin of safety; valuation is not distressed, so any margin of safety comes more...
+Valuation: The stock has re‑rated higher over the past year, implying investors are already paying up for quality and synergies.[1] Valuation is likely around or slightly above long‑term averages for high‑quality industrials, making it reasonable b...
+Growth runway: Over 30–180 days and beyond, growth drivers include continued integration of prior acquisitions, cross‑selling across the combined portfolio, and secular trends in energy efficiency, electrification, and industrial automation. However, g...
+Balance-sheet risk: RRX carries meaningful leverage due to large acquisitions, with a management plan to delever over time; failure to meet deleveraging targets or a rise in rates would pressure equity. That said, large, diversified inst...
+Capital allocation: Management’s strategy emphasizes M&A‑driven expansion and integration; this can create value if execution is strong but inherently raises integration and leverage risks. Prior deals (e.g., Altra and Rexnord combinatio...
+Concentration case: Compared with a broad industrial ETF, RRX offers focused exposure to power transmission and motion‑control with a strong aftermarket channel, providing potentially higher upside (and idiosyncratic risk) than a diversified basket. For a c...
+Owner thesis, 30-180 days: A 30–180 day owner‑style thesis would focus on continued deleveraging, synergy realization from past acquisitions, and participation in late‑cycle industrial demand; the position would be reviewed if leverage metrics fail to improve, integration issues emer...
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: momentum/structural
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: quality-industrials-cyclicals
+Research tier: allocation-muted
+Allocation learning: Keep allocation mid‑range rather than max, given late‑cycle regime and acquisition leverage; this can serve as the industrials sleeve without over‑concentrating in cyclicals. Recent allocation or max-position rejection: route to blocked-...
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.10
+Evidence rank: 1/100
+Memory similarity: 0.20
+Vetoes: none
+Model notes: Institutional‑ownership and price‑trend data provide a solid base case, but absence of a sharp, dated event keeps conviction in the moderate range; suitable for a disciplined, rules‑based swing with tight risk.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://fintel.io/so/us/rrx
+
+2. HUMA (biotechnology) | confidence 0.66 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier monitor-only | bucket speculative-biotech-special-situation | HF source 1/100
+Thesis: Humacyte is a high‑risk biotech with a potentially important vascular and trauma platform; a recent successful Phase 3 trial and planned supplemental BLA create a real catalyst path, but the large equity raise at a low price and ongoing cash burn make this more suitable for cautious monitoring than for an execution‑ready swing in a quality‑focused strategy.
+Catalyst: Humacyte recently priced a large equity offering of approximately 47.6M shares at $1.05 per share, raising about $47M in net proceeds, and reported that its V012 Phase 3 trial met the primary endpoint with plans to file a supplemental BLA in the second half of 2026.[2]
+Entry: No execution entry is proposed under the current quality‑first strategy. For monitoring purposes, track price behavior around the offering price ($1.05) and upcoming regulatory milestones; any future entry would require clearer evidence of balance‑sheet sta...
+Exit: Not applicable for monitor‑only; if hypothetically entered later, the plan would require tight loss limits below key support around recent financing levels and partial profit‑taking into any sharp move driven by regulatory news.
+Risk/reward: Potential upside could be substantial if the product is approved and successfully commercialized, but near‑term downside from dilution, volatility around regulatory news, and binary risks is high; this skews the trade toward speculative rather than quality‑...
+Bear/adversary: A pro‑HUMA argument would say that a positive Phase 3 and planned BLA make this an asymmetric opportunity before broader market recognition, and that the recent raise de‑risks near‑term funding. However, from a quality and margin‑of‑safety standpoint, the structure still resembles a high‑beta, ca...
+Source quality: Evidence quality is strong regarding the specific catalyst (official prospectus supplement and company statements on the financing and Phase 3 results), but long‑term commercial and valuation outcomes remain highly uncertain.[2]
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: The equity raise at $1.05 indicates limited margin of safety; investors are funding continued development with substantial dilution.[2] Without established cash flows or clear valuation anchors, downside protection is weak and hinging on...
+Valuation: Valuation is effectively set by the recent offering price, which signals the market’s risk assessment at the time.[2] While this may be attractive if commercialization succeeds, there is insufficient evidence to argue that the stock is m...
+Growth runway: If approved, the 30–180 day and longer‑term runway includes trauma application ramp‑up and dialysis indications, but execution, reimbursement, and adoption curves are uncertain; meaningful revenue inflection may be beyond the near‑term h...
+Balance-sheet risk: Even after raising roughly $47M, Humacyte is likely to continue burning cash as it develops and commercializes its platform, implying ongoing need for capital and the risk of further dilution.[2] This is a major negat...
+Capital allocation: Management is allocating capital to fund clinical development and regulatory work, which is typical for a biotech at this stage. However, dependence on equity markets suggests shareholders bear significant dilution ri...
+Concentration case: Exposure is concentrated in a single platform and a narrow set of indications, unlike diversified healthcare or biotech ETFs. For a cautious, quality‑oriented paper portfolio, such concentration is difficult to justify at more than a tok...
+Owner thesis, 30-180 days: An owner‑style 30–180 day review would focus on regulatory milestones (sBLA submission and regulatory feedback), additional financing moves, and early commercial traction; a hold could be justified only if dilution risk stabilizes and there is clearer visib...
+Chittick reject reason: Fails Chittick‑style margin of safety and balance‑sheet tests due to ongoing cash burn, repeated reliance on equity issuance, and binary regulatory/commercial risk profile.
+Self-Learning Filter
+Catalyst type: filing/news
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: speculative-biotech-special-situation
+Research tier: monitor-only
+Allocation learning: Maintain at 0% until there is improved balance‑sheet visibility and reduced dilution risk; this helps prevent drift toward speculative biotech in a quality‑first paper strategy.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.30
+Evidence rank: 1/100
+Memory similarity: 0.10
+Vetoes: none
+Model notes: Clinically meaningful catalyst and clear SEC documentation, but structural business quality and balance‑sheet profile conflict with the core quality‑focused, low‑hype mandate; best treated as a monitored special situation.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.stocktitan.net/sec-filings/HUMA/424b5-humacyte-inc-prospectus-supplement-debt-securities-43a912db69f5.html
+## Midday Memo - 2026-06-13 15:20:34 Eastern Daylight Time
+
+Midday Risk Memo
+
+Recommendation: Hold only positions whose thesis still matches the research; do not add unless guardrails pass.
+
+Market Regime
+Review current paper positions, thesis drift, concentration, stop discipline, and cash reserve.
+
+Portfolio
+Portfolio value: 100081.4 Cash: 94400 Buying power: 393507.91 Positions: - DT: qty=20.289119959, market_value=826.781638, unrealized_pl=26.781638 - GLRE: qty=28.042624789, market_value=451.766685, unrealized_pl=-48.233315 - GOOGL: qty=2.151289429, market_value=773.775782, unrealized_pl=-26.224218 - IBRX: qty=70.838252656, market_value=502.951594, unrealized_pl=-97.048406 - LNC: qty=14.590020426, market_value=544.207762, unrealized_pl=44.207762 - NVDA: qty=4.00060009, market_value=820.883132, unrealized_pl=20.883132 - SCHD: qty=25.2286345, market_value=828.003784, unrealized_pl=28.003784 - SPMO: qty=6.119014838, market_value=933.027382, unrealized_pl=133.027382 Performance: value $100,081.40, P/L vs $100k $81.40, managed return 0.81%, deployed return 1.45%, managed cash reserve 43.2%.
+
+Top Candidates
+
+1. RRX (industrials) | confidence 0.70 | allocation 0.0% | stop 8.0% | Chittick 74/100 | tier allocation-muted | bucket quality-industrials-cyclicals | HF source 1/100
+Thesis: Regal Rexnord is a high‑quality industrial power transmission and motion‑control business benefiting from structural demand for energy efficiency and automation, with institutional accumulation and solid revenue mix supporting a disciplined 1–7 day swing around a quality value/industrial factor bid.
+Catalyst: Ongoing institutional accumulation and strong long‑only ownership base highlighted in recent filings, with the stock trading materially higher year‑on‑year and participating in the broader rotation into quality cyclicals and industrials.[1]
+Entry: For paper trading, consider a staggered entry near recent support or minor intraday pullbacks rather than chasing breakouts. Use a limit buy slightly below the prior close or near the 5–10 day moving average, with confirmation that price holds above a recen...
+Exit: Take profits into strength near recent short‑term resistance or if price advances approximately 10–15% from entry over 1–7 days. Invalidate the trade on a decisive close below recent support or if broader industrials/quality‑cyclicals see sharp outflows, re...
+Risk/reward: Risk/reward is moderately attractive: downside is cushioned by business quality and institutional ownership, but cyclicality and acquisition leverage cap near‑term conviction; a controlled swing position with tight risk can capture incremental upside while...
+Bear/adversary: A critic would argue that with indices near highs and industrials already re‑rated, RRX’s recent strength and acquisition‑related leverage leave little margin of safety for a short swing; any disappointment in macro data, integration progress, or deleveraging could lead to multiple compression, m...
+Source quality: Evidence quality is moderate: institutional ownership and price history are sourced from SEC‑related and market‑data platforms,[1] which are reliable, but there is no single, near‑dated company‑specific catalyst like earnings this week; the thesis leans on...
+Chittick Cash Filter
+Score: 74/100
+Margin of safety: From a 30–180 day perspective, the business benefits from durable industrial and aftermarket demand, but the recent price rise and deal leverage temper the margin of safety; valuation is not distressed, so any margin of safety comes more...
+Valuation: The stock has re‑rated higher over the past year, implying investors are already paying up for quality and synergies.[1] Valuation is likely around or slightly above long‑term averages for high‑quality industrials, making it reasonable b...
+Growth runway: Over 30–180 days and beyond, growth drivers include continued integration of prior acquisitions, cross‑selling across the combined portfolio, and secular trends in energy efficiency, electrification, and industrial automation. However, g...
+Balance-sheet risk: RRX carries meaningful leverage due to large acquisitions, with a management plan to delever over time; failure to meet deleveraging targets or a rise in rates would pressure equity. That said, large, diversified inst...
+Capital allocation: Management’s strategy emphasizes M&A‑driven expansion and integration; this can create value if execution is strong but inherently raises integration and leverage risks. Prior deals (e.g., Altra and Rexnord combinatio...
+Concentration case: Compared with a broad industrial ETF, RRX offers focused exposure to power transmission and motion‑control with a strong aftermarket channel, providing potentially higher upside (and idiosyncratic risk) than a diversified basket. For a c...
+Owner thesis, 30-180 days: A 30–180 day owner‑style thesis would focus on continued deleveraging, synergy realization from past acquisitions, and participation in late‑cycle industrial demand; the position would be reviewed if leverage metrics fail to improve, integration issues emer...
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: momentum/structural
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: quality-industrials-cyclicals
+Research tier: allocation-muted
+Allocation learning: Keep allocation mid‑range rather than max, given late‑cycle regime and acquisition leverage; this can serve as the industrials sleeve without over‑concentrating in cyclicals. Recent allocation or max-position rejection: route to blocked-...
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.10
+Evidence rank: 1/100
+Memory similarity: 0.20
+Vetoes: none
+Model notes: Institutional‑ownership and price‑trend data provide a solid base case, but absence of a sharp, dated event keeps conviction in the moderate range; suitable for a disciplined, rules‑based swing with tight risk.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://fintel.io/so/us/rrx
+
+2. HUMA (biotechnology) | confidence 0.66 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier monitor-only | bucket speculative-biotech-special-situation | HF source 1/100
+Thesis: Humacyte is a high‑risk biotech with a potentially important vascular and trauma platform; a recent successful Phase 3 trial and planned supplemental BLA create a real catalyst path, but the large equity raise at a low price and ongoing cash burn make this more suitable for cautious monitoring than for an execution‑ready swing in a quality‑focused strategy.
+Catalyst: Humacyte recently priced a large equity offering of approximately 47.6M shares at $1.05 per share, raising about $47M in net proceeds, and reported that its V012 Phase 3 trial met the primary endpoint with plans to file a supplemental BLA in the second half of 2026.[2]
+Entry: No execution entry is proposed under the current quality‑first strategy. For monitoring purposes, track price behavior around the offering price ($1.05) and upcoming regulatory milestones; any future entry would require clearer evidence of balance‑sheet sta...
+Exit: Not applicable for monitor‑only; if hypothetically entered later, the plan would require tight loss limits below key support around recent financing levels and partial profit‑taking into any sharp move driven by regulatory news.
+Risk/reward: Potential upside could be substantial if the product is approved and successfully commercialized, but near‑term downside from dilution, volatility around regulatory news, and binary risks is high; this skews the trade toward speculative rather than quality‑...
+Bear/adversary: A pro‑HUMA argument would say that a positive Phase 3 and planned BLA make this an asymmetric opportunity before broader market recognition, and that the recent raise de‑risks near‑term funding. However, from a quality and margin‑of‑safety standpoint, the structure still resembles a high‑beta, ca...
+Source quality: Evidence quality is strong regarding the specific catalyst (official prospectus supplement and company statements on the financing and Phase 3 results), but long‑term commercial and valuation outcomes remain highly uncertain.[2]
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: The equity raise at $1.05 indicates limited margin of safety; investors are funding continued development with substantial dilution.[2] Without established cash flows or clear valuation anchors, downside protection is weak and hinging on...
+Valuation: Valuation is effectively set by the recent offering price, which signals the market’s risk assessment at the time.[2] While this may be attractive if commercialization succeeds, there is insufficient evidence to argue that the stock is m...
+Growth runway: If approved, the 30–180 day and longer‑term runway includes trauma application ramp‑up and dialysis indications, but execution, reimbursement, and adoption curves are uncertain; meaningful revenue inflection may be beyond the near‑term h...
+Balance-sheet risk: Even after raising roughly $47M, Humacyte is likely to continue burning cash as it develops and commercializes its platform, implying ongoing need for capital and the risk of further dilution.[2] This is a major negat...
+Capital allocation: Management is allocating capital to fund clinical development and regulatory work, which is typical for a biotech at this stage. However, dependence on equity markets suggests shareholders bear significant dilution ri...
+Concentration case: Exposure is concentrated in a single platform and a narrow set of indications, unlike diversified healthcare or biotech ETFs. For a cautious, quality‑oriented paper portfolio, such concentration is difficult to justify at more than a tok...
+Owner thesis, 30-180 days: An owner‑style 30–180 day review would focus on regulatory milestones (sBLA submission and regulatory feedback), additional financing moves, and early commercial traction; a hold could be justified only if dilution risk stabilizes and there is clearer visib...
+Chittick reject reason: Fails Chittick‑style margin of safety and balance‑sheet tests due to ongoing cash burn, repeated reliance on equity issuance, and binary regulatory/commercial risk profile.
+Self-Learning Filter
+Catalyst type: filing/news
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: speculative-biotech-special-situation
+Research tier: monitor-only
+Allocation learning: Maintain at 0% until there is improved balance‑sheet visibility and reduced dilution risk; this helps prevent drift toward speculative biotech in a quality‑first paper strategy.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.30
+Evidence rank: 1/100
+Memory similarity: 0.10
+Vetoes: none
+Model notes: Clinically meaningful catalyst and clear SEC documentation, but structural business quality and balance‑sheet profile conflict with the core quality‑focused, low‑hype mandate; best treated as a monitored special situation.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.stocktitan.net/sec-filings/HUMA/424b5-humacyte-inc-prospectus-supplement-debt-securities-43a912db69f5.html
 
