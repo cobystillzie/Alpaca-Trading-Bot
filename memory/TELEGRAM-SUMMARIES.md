@@ -30599,4 +30599,37 @@ HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
 Self-learning: tier=watch repeat48h=0 fresh=yes bucket=defensive-biotech-healthcare
 Social buzz, low weight: none
 Congress signal, low weight: Recent congressional disclosures show both purchases and sales in AMGN by different members over the past six months, with modest size and no clear directional consensus, so thi...
+## Research Update - 2026-06-15 17:17:13 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities remain in a late‑cycle, moderately risk‑on environment with improved breadth beyond mega‑cap tech, but higher‑for‑longer Fed expectations and elevated index levels argue for disciplined, catalyst‑driven swing setups with tight risk controls.
+Candidates: 3
+
+1. SLB (Energy equipment & services) | confidence 0.68 | allocation 6.0% | stop 8.0% | Chittick 66/100 | tier execution-ready | bucket energy-services-cyclical
+Recommendation: execute-if-guards-pass
+Catalyst: Ongoing rotation toward cyclicals and energy in a backdrop of improved market breadth and optimism around lower oil and easing geopolitical tensions has supported energy and related services as relative leaders; SLB, as a benchmark oilfi...
+Chittick Cash: As a cyclical services provider, SLB’s margin of safety is inherently lower than that of a wide‑moat consumer staple or software platform; protection comes more from its scale, diversification, and balance‑sheet manag...
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=energy-services-cyclical
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. NTCAX (Education (non-listed context)) | confidence 0.90 | allocation 0.0% | stop 5.0% | Chittick 10/100 | tier monitor-only | bucket non-tradable-context
+Recommendation: avoid
+Catalyst: Northcentral Technical College highlights over 190 program offerings and technical diplomas, reflecting robust demand for applied education and skills training, but this is general industry context rather than a company‑specific market c...
+Chittick Cash: Not applicable; no listed security to evaluate.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=monitor-only repeat48h=0 fresh=no bucket=non-tradable-context
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. GENERIC-CLIMATE-ETF (Thematic – climate/ESG (unspecified ETF)) | confidence 0.80 | allocation 0.0% | stop 5.0% | Chittick 35/100 | tier watch | bucket thematic-climate-esg
+Recommendation: watch
+Catalyst: Academic work synthesizing approaches to attribute observed impacts to climate change strengthens the scientific basis for policy and investment flows into mitigation and adaptation solutions over time, but this is a slow‑moving structur...
+Chittick Cash: Not assessable until a specific ETF/stock is chosen; many climate funds have historically traded at rich multiples, eroding margin of safety in a higher‑rate world.
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=no bucket=thematic-climate-esg
+Social buzz, low weight: none
+Congress signal, low weight: none
 

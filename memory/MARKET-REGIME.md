@@ -10017,4 +10017,125 @@ The US equity market is grinding to record highs, but the underlying conditions 
     "https://trinity.duke.edu/news/new-survey-finds-former-federal-reserve-insiders-saying-rate-hike-could-be-needed"
   ]
 }
+## Market Regime Research - 2026-06-15 17:17:13 Eastern Daylight Time
+
+{
+  "summary": "US equities are in a broadly constructive, mildly risk‑on regime with improving breadth and moderate volatility, but the backdrop is late‑cycle: the Fed is firmly on hold with a hawkish bias, rate‑cut expectations have been pushed out, and leadership is rotating away from concentrated mega‑cap growth toward value, cyclicals, and small caps.[1][3][5][6] This favors a cautious stance for a paper‑trading workflow: trend and breadth are supportive, but macro (no cuts, possible eventual hike) and elevated index levels argue against assuming a low‑risk environment.[1][3][5][6]",
+  "market_regime": {
+    "index_trend": {
+      "tone": "Bullish but choppy; uptrend intact with recent pullback and rebound",
+      "evidence": [
+        "The S&P 500 recently gained about **0.66%** on the week, with the NASDAQ 100 up **2.35%** in a technical bounce after its worst week in over a year, indicating a recovering but still volatile uptrend.[1]",
+        "Another weekly recap notes the S&P 500 fell intrawEEK toward **7,267** before rallying sharply to close near **7,431**, with small caps leading, consistent with an ongoing uptrend punctuated by drawdowns.[5]",
+        "A separate rundown shows SPY above its **10, 20, 50, and 200‑day EMAs** after an early‑June pullback that tested the 50‑day region, confirming the primary trend remains higher.[3]"
+      ],
+      "breadth": "Improving breadth; equal‑weight and small caps outperforming",
+      "breadth_evidence": [
+        "Equal‑weight S&P 500 gained **1.91%**, significantly outpacing the cap‑weighted index, confirming that leadership is broadening beyond mega‑caps.[1]",
+        "Small caps led the latest recovery, with the Russell 2000 up nearly **4%** in a recent week.[5]",
+        "On a recent strong session, the percentage of S&P 500 components above their 50‑day moving average rose to about **60%**, indicating healthier participation.[3]"
+      ],
+      "regime_label": "Late‑cycle bull with broadening participation and episodic pullbacks"
+    },
+    "rates_and_fed": {
+      "policy_stance": "On hold at restrictive levels, with a hawkish bias and cuts pushed out",
+      "current_rate_context": [
+        "The Fed funds target range remains around **3.50%–3.75%**, with policymakers maintaining a cautious posture.[6]",
+        "A recent Fed communication effectively **eliminated expectations of 2026 rate cuts**; futures now price the first cut no earlier than **mid‑2027**, and assign non‑trivial odds to a **December 2026 hike**.[1]"
+      ],
+      "market_implications": "Higher‑for‑longer rates support value, financials, and cyclicals while pressuring long‑duration growth assets; macro risk from potential later hikes remains.",
+      "tone_for_bot": "Policy is a headwind for valuations but currently stable; surprise‑risk skews toward hawkish rather than dovish outcomes."
+    },
+    "volatility": {
+      "vix_level": "Moderate, in the mid‑teens to high‑teens, with a slight risk‑on tilt",
+      "evidence": [
+        "VIX has been reported around **16.1**, described as moderate volatility and reflecting some complacency amid the rally.[15]",
+        "Another snapshot has VIX near **17.7**, with VIX futures in contango from front month through January 2027, typical of a more normal, risk‑on volatility structure rather than stress.[3]",
+        "Commentary notes VIX dipping below **18** as hedging pressure eased, supporting momentum conditions.[7]"
+      ],
+      "term_structure": "Contango across the curve, with front month moderately below longer maturities, consistent with benign near‑term volatility expectations and a functioning risk‑transfer market.[3]",
+      "regime_label": "Neutral‑to‑complacent volatility; no acute stress but susceptible to spikes from macro/geopolitical shocks."
+    },
+    "earnings_and_fundamentals": {
+      "earnings_tone": "Resilient but not euphoric; focus shifting from AI mega‑cap narratives toward broader cyclical and value earnings.",
+      "evidence": [
+        "Despite challenging inflation data and removal of near‑term cut expectations, **equity markets remained resilient** as investors rotated into value, cyclicals, and small caps.[1]",
+        "A macro/markets note emphasizes that underlying monetary and inflation conditions still **\"point toward a continuation of market performance rather than a reversal\"**, implying earnings and growth expectations remain supportive overall.[13]",
+        "Market commentary highlights that softer oil prices and easing geopolitical tensions are seen as a **favorable backdrop for economic growth and earnings recovery**.[5][8]"
+      ],
+      "fundamental_backdrop": "Macro growth expectations are moderate; lower oil and stable financial conditions offset the drag from higher‑for‑longer rates.",
+      "tone_for_bot": "No clear earnings crisis; earnings are a mild tailwind but not strong enough to negate rate risk."
+    },
+    "risk_on_off": {
+      "overall_tone": "Cautious risk‑on",
+      "risk_on_signals": [
+        "Broad US equity indexes are near or making new highs with improving breadth and leadership from small caps and equal‑weight indices.[1][3][5]",
+        "VIX in the mid‑teens/high‑teens with a contango term structure signals normal risk appetite rather than distress.[3][15]",
+        "Recent commentary describes **risk‑on rallies** catalyzed by easing geopolitical tensions and falling oil prices.[5][9]"
+      ],
+      "risk_off_constraints": [
+        "No expected Fed rate cuts in 2026 and the possibility of a later hike represent a structural headwind and potential source of drawdowns.[1]",
+        "Valuations for US large caps remain elevated by historical standards (implied from price levels and Fed stance), making the market sensitive to negative surprises in inflation or growth.[1][13]",
+        "Intermittent spikes in volatility and prior sharp weekly drawdowns (e.g., NASDAQ’s worst week in over a year before rebounding) show that downside shocks remain a recurring feature.[1][11]"
+      ],
+      "regime_label": "Risk‑on but late‑cycle and macro‑fragile, appropriate for cautious position sizing and tight risk controls in a paper‑trading workflow."
+    }
+  },
+  "sector_rotation": {
+    "leadership_and_laggards": {
+      "current_leaders": [
+        "Value and cyclicals: Russell 1000 Value and Russell 3000 Value recently advanced roughly **+2.5%** in a week, strongly outperforming growth counterparts.[1]",
+        "Materials, Consumer Staples, and Financials: Materials gained about **+3.0%**, Consumer Staples **+2.6%**, and Financials **+2.0%** in the latest weekly snapshot.[1]",
+        "Small caps: The Russell 2000 led a recent recovery, gaining nearly **4%**, indicating renewed interest in domestically focused cyclicals.[5]"
+      ],
+      "recent_laggards_or_rotation_away": [
+        "Mega‑cap and growth benchmarks such as the Russell 1000 Growth and Russell 3000 Growth **declined modestly** even as value indices rose, signaling a shift away from concentrated growth.[1]",
+        "Commentary explicitly describes an ongoing **rotation out of richly valued mega‑cap technology** into other sectors and market‑cap segments.[1]"
+      ]
+    },
+    "rotation_theme": {
+      "description": "The \"Great Rotation\" of 2026: from mega‑cap tech/AI winners into value, cyclicals, small caps, and more defensive yield sectors.",
+      "evidence": [
+        "Weekly commentary highlights a **structural reallocation** from mega‑cap technology into cyclicals, small caps, and value sectors that had lagged during the prior AI‑driven bull market.[1]",
+        "Market notes identify supportive conditions for sectors like **financials** (benefiting from higher rates), **utilities/infrastructure/dividend payers**, and **cyclical growth areas** aligned with moderating energy prices and firm activity.[1][5][7]",
+        "Lower oil prices following optimism about a US‑Iran deal are helping risk assets, particularly sectors levered to consumer spending and transportation.[5]"
+      ],
+      "implications_for_bot": "Sector leadership is less concentrated; a cautious paper‑trading bot should recognize that momentum leadership may be rotating from mega‑cap tech into value, financials, materials, staples, and small caps, while still monitoring tactical bounces in growth/tech."
+    }
+  },
+  "risk_flags": {
+    "macro_policy_risks": [
+      "Higher‑for‑longer Fed: Futures no longer price 2026 cuts and even assign odds to a **December 2026 hike**, increasing sensitivity to inflation surprises and data‑dependent hawkish shifts.[1][6]",
+      "Inflation risk skew: Commentary notes that inflation risks remain skewed to the upside, which is consistent with policymakers’ reluctance to cut—even if recent data are mixed—and increases the risk of renewed tightening.[1][6]"
+    ],
+    "market_structure_and_valuation_risks": [
+      "Elevated index levels: Major US equity benchmarks are near historical highs, making them more vulnerable to corrections triggered by macro, earnings, or geopolitical shocks.[3][5][13]",
+      "Breadth improvement is recent: Although breadth has improved, it is a relatively recent development; a reversal back to narrow mega‑cap leadership would be a warning sign of a more fragile market.[1][3]",
+      "Volatility complacency: VIX in the mid‑teens with contango and commentary about complacency amid a rally suggest limited hedging demand; this can precede sharper volatility spikes if sentiment turns.[3][15]"
+    ],
+    "geopolitical_and_commodity_risks": [
+      "Oil and geopolitics: Recent optimism about a US‑Iran deal and falling oil prices have supported risk assets, but any breakdown in negotiations or renewed Middle East tension could reverse this tailwind and pressure cyclicals and consumers.[5][12]",
+      "Global cross‑currents: Risk sentiment is partly supported by easing geopolitical tension and lower crude; a reversal in these trends could quickly shift the tone toward risk‑off.[5][8][11]"
+    ],
+    "liquidity_and_flow_risks": [
+      "Positioning shift: The structural rotation away from mega‑cap tech may increase cross‑sector dispersion; crowded unwinds in either direction could amplify short‑term volatility.[1][3]",
+      "Options/vol flows: Moderate VIX and contango indicate normal functioning, but the low cost of protection relative to crisis levels can change rapidly on macro headlines; short‑dated options flows could drive intraday swings not visible in daily index closes.[3][15]"
+    ],
+    "implementation_notes_for_cautious_paper_trading": [
+      "Assume a **late‑cycle, moderately risk‑on regime**: bias toward respecting the prevailing uptrend and improved breadth, but do not treat the environment as low‑risk.",
+      "Emphasize **tight risk limits and position sizing**: given your constraints (allocation caps, stop‑loss bounds, and prior rejections for low‑confidence setups), the environment argues for strict adherence to these rules rather than relaxing them.",
+      "Monitor **Fed communications, inflation data, oil/geopolitics, and VIX term structure** as primary regime‑change indicators for the bot’s risk toggles."
+    ]
+  },
+  "source_urls": [
+    "https://www.clearbrookglobal.com/weekly-market-commentary-june-15-2026/",
+    "https://optionstradingiq.substack.com/p/the-market-rundown-with-otiq-6e3",
+    "https://www.pennmutualam.com/market-insights-news/blogs/monday-morning-perspectives/2026-06-15-oil-and-rates-retreat-on-iran-deal-optimism",
+    "https://www.mortgagedaily.com/mortgage-rate-forecast/week-of-june-15-19-2026/",
+    "https://verifiedinvesting.com/blogs/live-show-recap/my-trading-game-plan-revealed-06-15-2026-us-iran-deal-sparks-risk-on-rally-oil-falls-fed-relief-s-p-megaphone",
+    "https://historicaloptiondata.com/market-analysis-06-15-2026-1249-pm-et/",
+    "https://x.com/Piggos_T_Desk/status/2066316056319361393",
+    "https://www.invesco.com/us/en/insights/stock-market-fed-spacex-ipo.html"
+  ]
+}
 

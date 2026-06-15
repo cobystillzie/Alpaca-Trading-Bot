@@ -4,23 +4,81 @@
 {
   "candidates": [
     {
-      "adversary_case": "For a 1\u201110 day swing, AMGN may simply be too slow\u2011moving and index\u2011like to justify active risk versus holding a broad healthcare ETF or market index. In a risk\u2011on environment dominated by tech/AI flows, AMGN could underperform and tie up capital without delivering enough upside to compensate for idiosyncratic drug or headline risk.",
-      "allocation_learning_note": "Congressional\u2011trade coverage reinforces that political flows in AMGN are low\u2011conviction and mixed, so any future paper allocations should be based on business quality and chart structure, not on legislative sentiment.",
-      "balance_sheet_risk": "Balance sheet risk is generally low for a company of Amgen\u2019s size and profitability: leverage is actively managed, and large, recurring cash flows reduce refinancing and dilution risk relative to smaller biotechs. The main financial risks are from potential M&A missteps or overly aggressive buybacks, not from immediate solvency concerns.",
-      "bear_case": "Key risks are drug\u2011specific patent cliffs, pricing pressure from payors and policy, clinical trial setbacks, and regulatory delays. Valuation could de\u2011rate if growth disappoints or if risk\u2011on sentiment shifts capital towards more cyclical/high\u2011beta names. Biotech as a sector can underperform for extended periods on sentiment, even when fundamentals are intact.",
-      "capital_allocation_case": "Management has a long history of returning capital via dividends and buybacks while continuing to invest in R&D and select acquisitions. This aligns reasonably well with an owner\u2011style capital discipline lens, though large M&A carries integration and overpayment risk.",
-      "catalyst": "Near\u2011term: continued digestion of recent earnings guidance, product news flow (label expansions, trial readouts), and sector\u2011level rotation into defensive cash\u2011generative healthcare. Medium\u2011term owner lens: pipeline progress in oncology/inflammation and capital\u2011return actions (buybacks/dividends) that can support total return even if macro volatility increases.",
+      "adversary_case": "This is still a cyclical name closely tied to oil prices and capex; a paper bot that has recently faced repeated rejections on macro\u2011sensitive and cyclical ideas could reasonably argue that any short\u2011term commodity swing could overwhelm the thesis within a 5\u201310 day horizon, making this better as a watch rather than an execution candidate until there is a clear, dated company\u2011specific catalyst such as earnings or guidance.",
+      "allocation_learning_note": "Energy and cyclicals provide diversification relative to prior tech and mega\u2011cap heavy ideas; allocation should remain moderate given commodity and macro sensitivity and the bot\u2019s constraints.",
+      "balance_sheet_risk": "As a large, established services company, SLB typically manages a significant but serviceable debt load, backed by global diversified cash flows; key risks are not outright solvency but cyclicality of cash generation and potential working\u2011capital swings when activity slows. No acute balance\u2011sheet distress is indicated in the high\u2011level corporate materials.[8]",
+      "bear_case": "SLB is highly exposed to commodity and capex cycles; a renewed drop in oil prices, project delays, or a shift back to risk\u2011off could rapidly compress day\u2011rate and activity expectations and pressure the stock. Execution risk in its energy\u2011transition and digital strategy, as well as geopolitical disruptions in key producing regions, could also weigh on results. Valuation may already discount a constructive cycle, leaving less margin if energy sentiment weakens.",
+      "capital_allocation_case": "Management has emphasized technology investment and energy\u2011transition solutions as capital priorities, seeking to position the company for long\u2011term relevance while continuing to support returns to shareholders when conditions allow.[8] This reflects a balanced approach but remains subject to the usual cyclicality in buybacks/dividends during downturns.",
+      "catalyst": "Ongoing rotation toward cyclicals and energy in a backdrop of improved market breadth and optimism around lower oil and easing geopolitical tensions has supported energy and related services as relative leaders; SLB, as a benchmark oilfield services name, tends to benefit from any stabilization or upturn in energy capex when risk sentiment is constructive.[8]",
       "catalyst_type": "structural",
-      "chittick_cash_score": 78.0,
+      "chittick_cash_score": 66.0,
       "chittick_reject_reason": "",
-      "concentration_case": "In a concentrated\u2011quality, Chittick\u2011style portfolio, AMGN can serve as a healthcare ballast alongside more cyclical or tech\u2011oriented names. It is less compelling if the alternative is a low\u2011cost healthcare ETF that achieves similar diversification with less idiosyncratic drug risk; thus it may deserve only a moderate allocation rather than a top\u2011three slot.",
-      "confidence": 0.69,
-      "congressional_signal": "Recent congressional disclosures show both purchases and sales in AMGN by different members over the past six months, with modest size and no clear directional consensus, so this is treated only as a low\u2011weight, secondary context.[12]",
-      "diversity_bucket": "defensive-biotech-healthcare",
-      "entry_plan": "For paper trading, plan a staged entry on a modest pullback toward recent support or a low\u2011volatility continuation day rather than chasing an intraday spike. Use limit orders near the lower half of the recent daily range and avoid entering immediately after large gap\u2011up moves without consolidation.",
-      "exit_plan": "Take profits into a 4\u20118% move higher over 3\u20117 trading days, or earlier if the broader market shows a sharp risk\u2011off pivot led by healthcare. Invalidate the trade on a decisive close below recent support or a 6\u20118% drawdown from entry, whichever comes first, to respect late\u2011cycle headline risk.",
+      "concentration_case": "Relative to broad energy ETFs, SLB offers more focused exposure to upstream activity and services technology, which can outperform in periods of rising capex but underperform in oil price collapses; it deserves attention as a targeted cyclical lever rather than a core holding, arguing for modest but non\u2011zero allocation versus owning the whole sector.",
+      "confidence": 0.68,
+      "congressional_signal": "none",
+      "diversity_bucket": "energy-services-cyclical",
+      "entry_plan": "For paper trading, plan to enter on a modest intraday or 1\u20132 day pullback toward recent short\u2011term support or a rising 10\u201320 day moving average with evidence of buyers stepping in (e.g., intraday reversal or above\u2011average volume bounce). Stagger entries in two tranches to reduce timing risk.",
+      "exit_plan": "Target a 6\u201310% upside over 5\u20137 trading days, taking partial profits near prior short\u2011term resistance or recent swing highs. Invalidate the trade on a decisive close below the identified support zone or 8% below average entry, whichever triggers first, or if sector rotation clearly flips away from energy (underperformance vs. broad indices on volume).",
       "fresh_catalyst": true,
-      "growth_runway": "30\u2011180 day and longer\u2011term drivers include incremental drug\u2011label expansions, ongoing oncology and inflammation launches, and potential business\u2011development activity. Over a longer owner horizon, the runway is tied to sustaining innovation in key therapeutic areas and efficient capital returns rather than hyper\u2011growth.",
+      "growth_runway": "Over 30\u2013180 days and beyond, SLB\u2019s runway is tied to global upstream and production capex, expansion of LNG and offshore projects, and growth in digital and lower\u2011carbon service lines that help operators reduce emissions while maintaining production.[8] These provide a secular underpinning but are still expressed through cyclical earnings.",
+      "hf_evidence_rank": 0.0,
+      "hf_filter_vetoes": [],
+      "hf_hype_risk": 0.0,
+      "hf_memory_similarity": 0.0,
+      "hf_model_notes": "",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "",
+      "hf_sentiment_score": 0.0,
+      "hf_source_quality_score": 0.0,
+      "horizon_days": 6,
+      "margin_of_safety_case": "As a cyclical services provider, SLB\u2019s margin of safety is inherently lower than that of a wide\u2011moat consumer staple or software platform; protection comes more from its scale, diversification, and balance\u2011sheet management than from ultra\u2011stable cash flows. In a strong energy capex environment, earnings power can justify current pricing, but downside in a risk\u2011off or oil\u2011down scenario can be swift, so this should be treated as a tactical rather than deep\u2011value position.",
+      "market_regime": "In a late\u2011cycle, moderately risk\u2011on environment where inflation and rates remain key drivers, SLB can benefit from reflationary, cyclical leadership but would be vulnerable to any hawkish surprise, sharp oil sell\u2011off, or reversal to defensives; it should be sized assuming elevated macro sensitivity.",
+      "momentum_case": "Within the current environment of improved breadth and risk\u2011on rotation into value and cyclicals, large liquid energy services names such as SLB have tended to exhibit periods of outperformance versus the broader market; in a 1\u201310 day horizon, this setup favors buying controlled pullbacks or confirmed bounces as energy maintains leadership versus defensives and some crowded mega\u2011cap tech.",
+      "owner_hold_case": "On a 30\u2013180 day view, an owner could justify holding if evidence accumulates of a sustained global capex upcycle, continued contract wins in digital and lower\u2011carbon offerings, and stable to rising oil prices that support customer budgets; this would need to be revisited each quarter against macro data and company commentary.",
+      "quality_case": "SLB has a long operating history, global customer base, and a broad portfolio spanning reservoir characterization, drilling, production, and digital solutions, positioning it as a quality operator with economies of scale and technology depth; its strategic messaging emphasizes helping customers reduce emissions while meeting energy demand, which supports relevance under multiple energy scenarios and mitigates some transition risk.[8]",
+      "recommendation": "execute-if-guards-pass",
+      "repeat_count_48h": 0,
+      "research_tier": "execution-ready",
+      "risk_reward": "If energy leadership persists, the setup offers moderate upside in a relatively short window with a defined downside of roughly 8%; risk/reward is acceptable only with disciplined stops and small sizing due to macro and commodity sensitivity.",
+      "sector": "Energy equipment & services",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "none",
+      "source_quality": "Business and strategic positioning are taken from SLB\u2019s own corporate materials, which are authoritative for describing its operations and focus; macro and rotation context are based on prior regime analysis and should be treated as supportive but not precise timing tools.[8]",
+      "source_urls": [
+        "https://www.slb.com"
+      ],
+      "stop_loss_percent": 8.0,
+      "strategy_tags": [
+        "chittick_cash",
+        "cyclical",
+        "swing-1-10d"
+      ],
+      "symbol": "SLB",
+      "target_allocation_percent": 6.0,
+      "thesis": "SLB is a leading global oilfield services and energy technology company with scale, diversified exposure across upstream services, and a strategic pivot toward lower\u2011carbon and digital solutions; recent sector rotation into cyclicals plus its leverage to global capex and energy demand make it a tactically attractive swing candidate in a risk\u2011on but inflation\u2011sensitive tape.[8]",
+      "valuation_case": "Without precise real\u2011time multiples, valuation should be assumed to be mid\u2011cycle: not obviously distressed, but not a momentum bubble either. For a 1\u201310 day swing, the key is trading around short\u2011term technical levels and sector flows rather than underwriting a long\u2011term DCF; on that basis, valuation is acceptable if entries are made near support following a controlled pullback rather than at extended highs."
+    },
+    {
+      "adversary_case": "One could argue there are listed education companies or ETFs that benefit from similar trends, but without a specific, liquid, and catalyst\u2011backed ticker, the idea remains too vague for this framework.",
+      "allocation_learning_note": "Reinforces the need to tie thematic ideas to specific, liquid, and rule\u2011compliant tickers rather than high\u2011level institutions or concepts.",
+      "balance_sheet_risk": "Not evaluated; institution is not being considered as a security.",
+      "bear_case": "Attempting to force a trade thesis around a non\u2011listed institution would violate the bot\u2019s rules and introduce pure noise into the process.",
+      "capital_allocation_case": "Not applicable for trade purposes.",
+      "catalyst": "Northcentral Technical College highlights over 190 program offerings and technical diplomas, reflecting robust demand for applied education and skills training, but this is general industry context rather than a company\u2011specific market catalyst.[5]",
+      "catalyst_type": "general",
+      "chittick_cash_score": 10.0,
+      "chittick_reject_reason": "Not a listed stock or ETF; fails instrument eligibility screen.",
+      "concentration_case": "Not applicable.",
+      "confidence": 0.9,
+      "congressional_signal": "none",
+      "diversity_bucket": "non-tradable-context",
+      "entry_plan": "None; not tradable.",
+      "exit_plan": "None; not tradable.",
+      "fresh_catalyst": false,
+      "growth_runway": "Education and workforce training have strong secular demand, but this is high\u2011level thematic context, not a directly investable security in this case.[5]",
       "hf_evidence_rank": 0.0,
       "hf_filter_vetoes": [],
       "hf_hype_risk": 0.0,
@@ -31,36 +89,92 @@
       "hf_sentiment_score": 0.0,
       "hf_source_quality_score": 0.0,
       "horizon_days": 5,
-      "margin_of_safety_case": "As a profitable, cash\u2011generative large\u2011cap with diversified drugs, AMGN likely offers better downside protection than speculative biotech; valuation is not distressed, but the combination of dividends, buybacks, and pipeline optionality provides a reasonable margin of safety for an owner\u2011style 30\u2011180 day thesis, even if short\u2011term price action is choppy.",
-      "market_regime": "In a cautiously risk\u2011on, late\u2011cycle environment, AMGN can act as a quality, lower\u2011beta participant: it may lag sharp speculative rallies but can help cushion drawdowns when macro or rates volatility hits. If the market rotates aggressively into high\u2011beta cyclicals or pure AI, AMGN\u2019s relative performance may be muted over a 1\u201110 day horizon.",
-      "momentum_case": "Biotech and large\u2011cap pharma have shown periods of relative strength as investors look for earnings stability amidst higher\u2011for\u2011longer rates; AMGN has tended to act as a lower\u2011beta, cash\u2011flow\u2011rich component in that space. For a 1\u201110 day swing, the setup would rely on AMGN holding recent support levels and participating in any defensive\u2011plus\u2011growth rotation days, not on a parabolic momentum spike.",
-      "owner_hold_case": "Over 30\u2011180 days, AMGN could be justified as a hold if: (1) the broader tape remains late\u2011cycle but constructive, favoring cash\u2011flow\u2011rich defensives; (2) the company continues steady execution on its pipeline and capital\u2011return program; and (3) valuation does not expand to clearly stretched levels. Regular review around major drug news, regulatory decisions, and quarterly earnings would be required.",
-      "quality_case": "Amgen is one of the largest global biotechs, with a diversified portfolio of biologic and small\u2011molecule drugs, significant free cash flow, scale in R&D and commercialization, and a long track record of profitability and shareholder returns. This fits a Buffett/Munger\u2011style preference for durable moats and strong balance sheets more than speculative biotech. For Chittick Cash, it passes the basic quality bar (large, established, profitable; non\u2011binary pipeline) and the business model has an identifiable runway in core therapeutic areas.",
-      "recommendation": "watch",
+      "margin_of_safety_case": "Not applicable; no listed security to evaluate.",
+      "market_regime": "Market regime is irrelevant for this non\u2011tradable context.",
+      "momentum_case": "None; there is no listed security tied specifically to NTC, and no price/volume data to support a momentum view.",
+      "owner_hold_case": "None; non\u2011listed context only.",
+      "quality_case": "As an educational institution, NTC appears focused on technical skills and workforce alignment, which is qualitatively positive but not directly investable in listed equity form.[5]",
+      "recommendation": "avoid",
       "repeat_count_48h": 0,
-      "research_tier": "watch",
-      "risk_reward": "Risk/reward is moderate: upside is likely single\u2011digit percent over the swing horizon, but downside should be limited by quality and sector defensiveness if stops are respected. This is a steady\u2011compounder style swing, not a high\u2011beta home run.",
-      "sector": "Biotechnology / Healthcare",
+      "research_tier": "monitor-only",
+      "risk_reward": "Not applicable; there is no defined instrument or risk/reward profile.",
+      "sector": "Education (non-listed context)",
       "signal_weights": {
-        "congressional_signal": 0.03,
+        "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
       "social_buzz": "none",
-      "source_quality": "Fundamental views are grounded in Amgen\u2019s status as a long\u2011established, profitable large\u2011cap biotech with diversified drugs and longstanding coverage by major asset managers and index inclusion; congressional\u2011trade data is considered low\u2011weight and mixed\u2011direction, reinforcing that it is not a primary signal.[12]",
+      "source_quality": "Information is taken directly from the institution\u2019s official site, which is authoritative for describing its programs but irrelevant for trade execution.[5]",
       "source_urls": [
-        "https://www.quiverquant.com/news/Amgen+Stock+(AMGN)+Opinions+on+Congressional+Trade+Disclosure"
+        "https://www.ntc.edu"
       ],
-      "stop_loss_percent": 8.0,
+      "stop_loss_percent": 5.0,
       "strategy_tags": [
         "chittick_cash"
       ],
-      "symbol": "AMGN",
+      "symbol": "NTCAX",
       "target_allocation_percent": 0.0,
-      "thesis": "**Amgen** is a diversified large\u2011cap biotech with durable cash flows from established therapies, a growing portfolio of oncology and inflammation drugs, and active capital returns, offering a quality, defensive\u2011tilted name that can participate in a cautiously risk\u2011on tape while providing downside resilience over a 30\u2011180 day owner lens. Congressional trading has been mixed and low\u2011conviction, so the focus is on fundamentals and technicals rather than political flows.",
-      "valuation_case": "Valuation is not deeply discounted but is broadly consistent with other mature large\u2011cap biopharma peers\u2014investors appear to be paying a fair multiple for stable cash flows and pipeline exposure rather than speculative growth. For a 1\u201110 day swing, valuation is a guardrail (avoid obvious excess), not the primary catalyst."
+      "thesis": "Northcentral Technical College itself is not a tradable equity, but community\u2011college and education service exposure is thematically relevant to long\u2011term human\u2011capital and workforce\u2011development trends; however, without a specific listed stock or ETF directly tied to this institution and with no concrete corporate actions, there is no viable swing trade here.[5]",
+      "valuation_case": "Not applicable."
+    },
+    {
+      "adversary_case": "One might argue that structural climate\u2011policy developments make any climate ETF suitable immediately, but without confirming liquidity, valuation, and recent flows, such a trade would conflict with the bot\u2019s evidence\u2011based, catalyst\u2011driven discipline.",
+      "allocation_learning_note": "Illustrates a structural theme that should be translated into specific, liquid, and catalyst\u2011driven instruments before inclusion in execution\u2011ready sets.",
+      "balance_sheet_risk": "Depends entirely on the composition of any future chosen ETF or underlying companies; no generic statement applies.",
+      "bear_case": "Without a specific, liquid ticker and company\u2011level catalysts, attempting to trade this theme in the 1\u201310 day window would amount to noise; climate\u2011solution funds also face valuation, rate\u2011sensitivity, and policy\u2011execution risks.",
+      "capital_allocation_case": "Not applicable until specific holdings are defined.",
+      "catalyst": "Academic work synthesizing approaches to attribute observed impacts to climate change strengthens the scientific basis for policy and investment flows into mitigation and adaptation solutions over time, but this is a slow\u2011moving structural driver rather than a discrete, dated trading catalyst.[6]",
+      "catalyst_type": "structural",
+      "chittick_cash_score": 40.0,
+      "chittick_reject_reason": "Ticker and instrument remain undefined; no company\u2011specific catalyst identified, so it cannot be an execution candidate within v1 rules.",
+      "concentration_case": "Thematic climate exposure should generally be sized modestly relative to core holdings due to policy and valuation risk.",
+      "confidence": 0.8,
+      "congressional_signal": "none",
+      "diversity_bucket": "thematic-climate-esg",
+      "entry_plan": "None until mapped to a concrete, liquid ETF or stock with a fresh, company\u2011specific catalyst.",
+      "exit_plan": "None.",
+      "fresh_catalyst": false,
+      "growth_runway": "The 30\u2013180 day and longer\u2011term drivers include policy implementation, capex in renewables, grid, and adaptation projects, and improving economics of related technologies as highlighted by growing evidence of climate impacts.[6]",
+      "hf_evidence_rank": 0.0,
+      "hf_filter_vetoes": [],
+      "hf_hype_risk": 0.0,
+      "hf_memory_similarity": 0.0,
+      "hf_model_notes": "",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "",
+      "hf_sentiment_score": 0.0,
+      "hf_source_quality_score": 0.0,
+      "horizon_days": 7,
+      "margin_of_safety_case": "Not assessable until a specific ETF/stock is chosen; many climate funds have historically traded at rich multiples, eroding margin of safety in a higher\u2011rate world.",
+      "market_regime": "Climate and ESG themes can lag in higher\u2011rate environments despite strong long\u2011term logic, making them more suitable for owner\u2011style rather than short\u2011term swing positioning.",
+      "momentum_case": "None at the instrument level; climate\u2011solution ETFs often trade with broader ESG and rate\u2011sensitive flows, which can be volatile and policy\u2011driven.",
+      "owner_hold_case": "A diversified climate\u2011solution ETF might be reviewed as a 30\u2013180 day to multi\u2011year owner position once a specific instrument is identified and vetted for liquidity, holdings quality, and valuation.",
+      "quality_case": "High\u2011quality, peer\u2011reviewed research supports the reality and materiality of climate impacts, indirectly benefiting firms with credible technologies and projects in renewables, grid hardening, and adaptation, but no single security is identified here.[6]",
+      "recommendation": "watch",
+      "repeat_count_48h": 0,
+      "research_tier": "watch",
+      "risk_reward": "Indeterminate in the absence of a specified instrument and price levels.",
+      "sector": "Thematic \u2013 climate/ESG (unspecified ETF)",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "none",
+      "source_quality": "Nature\u2011journal review provides high\u2011quality, peer\u2011reviewed context on climate impact attribution, but it is far removed from trade execution and should not be used as a timing tool.[6]",
+      "source_urls": [
+        "https://www.nature.com/articles/s43017-026-00798-8"
+      ],
+      "stop_loss_percent": 5.0,
+      "strategy_tags": [
+        "chittick_cash"
+      ],
+      "symbol": "GENERIC-CLIMATE-ETF",
+      "target_allocation_percent": 0.0,
+      "thesis": "Recent review articles on climate\u2011change impact attribution highlight growing evidence of physical\u2011risk impacts across sectors and geographies, suggesting long\u2011term opportunity for diversified climate\u2011solution and adaptation plays, but without a specific ETF or stock and absent near\u2011term company catalysts, this is best treated as a watch\u2011only thematic bucket rather than an immediate swing trade.[6]",
+      "valuation_case": "Not applicable at the ticker level; thematic valuations vary widely across climate\u2011solution names."
     }
   ],
-  "summary": "US equities remain broadly constructive with a late\u2011cycle, higher\u2011for\u2011longer rate backdrop and leadership still concentrated in large\u2011cap growth/tech, but with enough cyclical participation to frame conditions as cautiously risk\u2011on rather than euphoric. Paper\u2011trading setups should assume intermittent macro\u2011driven volatility, crowded mega\u2011cap tech positioning, and the need for tight risk management and fresh, name\u2011specific catalysts."
+  "summary": "US equities remain in a late\u2011cycle, moderately risk\u2011on environment with improved breadth beyond mega\u2011cap tech, but higher\u2011for\u2011longer Fed expectations and elevated index levels argue for disciplined, catalyst\u2011driven swing setups with tight risk controls."
 }
 -->
 
@@ -1682,4 +1796,12 @@ No candidates.
 | Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
 |---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
 | AMGN | Biotechnology / Healthcare | watch | defensive-biotech-healthcare | 0 | yes | 0.69 | 78 | 0 | 0 | 0.0% | 8.0% | watch | Near‑term: continued digestion of recent earnings guidance, product news flow (label expansions, trial readouts), and sector‑level rotation into defensive cash‑ |
+
+## Latest Candidates - 2026-06-15 17:17:13 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| SLB | Energy equipment & services | execution-ready | energy-services-cyclical | 0 | yes | 0.68 | 66 | 0 | 0 | 6.0% | 8.0% | execute-if-guards-pass | Ongoing rotation toward cyclicals and energy in a backdrop of improved market breadth and optimism around lower oil and easing geopolitical tensions has support |
+| NTCAX | Education (non-listed context) | monitor-only | non-tradable-context | 0 | no | 0.90 | 10 | 0 | 0 | 0.0% | 5.0% | avoid | Northcentral Technical College highlights over 190 program offerings and technical diplomas, reflecting robust demand for applied education and skills training, |
+| GENERIC-CLIMATE-ETF | Thematic – climate/ESG (unspecified ETF) | watch | thematic-climate-esg | 0 | no | 0.80 | 40 | 0 | 0 | 0.0% | 5.0% | watch | Academic work synthesizing approaches to attribute observed impacts to climate change strengthens the scientific basis for policy and investment flows into miti |
 
