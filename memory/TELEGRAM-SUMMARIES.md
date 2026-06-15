@@ -30578,4 +30578,10 @@ Model notes: Clinically meaningful catalyst and clear SEC documentation, but str
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: https://www.stocktitan.net/sec-filings/HUMA/424b5-humacyte-inc-prospectus-supplement-debt-securities-43a912db69f5.html
+## Research Update - 2026-06-15 17:16:44 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities remain in a late‑cycle, higher‑for‑longer rate backdrop with risk appetite still biased toward quality growth and AI‑adjacent tech, but breadth remains uneven and macro/central‑bank headlines are key volatility catalysts.
+Candidates: 0
 

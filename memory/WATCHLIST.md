@@ -2,121 +2,8 @@
 
 <!-- latest-candidates-json
 {
-  "candidates": [
-    {
-      "adversary_case": "A critic would argue that with indices near highs and industrials already re\u2011rated, RRX\u2019s recent strength and acquisition\u2011related leverage leave little margin of safety for a short swing; any disappointment in macro data, integration progress, or deleveraging could lead to multiple compression, making this more of a late\u2011cycle beta play than a true mispricing.",
-      "allocation_learning_note": "Keep allocation mid\u2011range rather than max, given late\u2011cycle regime and acquisition leverage; this can serve as the industrials sleeve without over\u2011concentrating in cyclicals.",
-      "balance_sheet_risk": "RRX carries meaningful leverage due to large acquisitions, with a management plan to delever over time; failure to meet deleveraging targets or a rise in rates would pressure equity. That said, large, diversified institutional ownership suggests creditors and investors currently view the balance sheet as manageable.[1]",
-      "bear_case": "RRX is exposed to industrial and capex cycles; a sharper\u2011than\u2011expected growth slowdown or macro shock could compress orders and multiples. Integration risk from prior large acquisitions and elevated leverage post\u2011deals remain key concerns; failure to delever or acquisition underperformance could force goodwill impairments and pressure the equity. A broad factor rotation away from cyclicals back into defensive or pure growth could hurt performance in the near term.",
-      "capital_allocation_case": "Management\u2019s strategy emphasizes M&A\u2011driven expansion and integration; this can create value if execution is strong but inherently raises integration and leverage risks. Prior deals (e.g., Altra and Rexnord combinations) signal a bias toward scale and synergy realization, which aligns with an owner mindset but requires close monitoring of returns on invested capital.",
-      "catalyst": "Ongoing institutional accumulation and strong long\u2011only ownership base highlighted in recent filings, with the stock trading materially higher year\u2011on\u2011year and participating in the broader rotation into quality cyclicals and industrials.[1]",
-      "catalyst_type": "momentum/structural",
-      "chittick_cash_score": 74.0,
-      "chittick_reject_reason": "",
-      "concentration_case": "Compared with a broad industrial ETF, RRX offers focused exposure to power transmission and motion\u2011control with a strong aftermarket channel, providing potentially higher upside (and idiosyncratic risk) than a diversified basket. For a cautious swing portfolio, a modest, diversified position can make sense as the industrials sleeve rather than relying on sector ETFs.",
-      "confidence": 0.7,
-      "congressional_signal": "none",
-      "diversity_bucket": "quality-industrials-cyclicals",
-      "entry_plan": "For paper trading, consider a staggered entry near recent support or minor intraday pullbacks rather than chasing breakouts. Use a limit buy slightly below the prior close or near the 5\u201310 day moving average, with confirmation that price holds above a recent swing low on intraday charts.",
-      "exit_plan": "Take profits into strength near recent short\u2011term resistance or if price advances approximately 10\u201315% from entry over 1\u20137 days. Invalidate the trade on a decisive close below recent support or if broader industrials/quality\u2011cyclicals see sharp outflows, respecting the predefined stop\u2011loss zone.",
-      "fresh_catalyst": true,
-      "growth_runway": "Over 30\u2013180 days and beyond, growth drivers include continued integration of prior acquisitions, cross\u2011selling across the combined portfolio, and secular trends in energy efficiency, electrification, and industrial automation. However, growth remains cyclical and tied to capex conditions.",
-      "hf_evidence_rank": 0.65,
-      "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.1,
-      "hf_memory_similarity": 0.2,
-      "hf_model_notes": "Institutional\u2011ownership and price\u2011trend data provide a solid base case, but absence of a sharp, dated event keeps conviction in the moderate range; suitable for a disciplined, rules\u2011based swing with tight risk.",
-      "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "",
-      "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 0.7,
-      "horizon_days": 5,
-      "margin_of_safety_case": "From a 30\u2013180 day perspective, the business benefits from durable industrial and aftermarket demand, but the recent price rise and deal leverage temper the margin of safety; valuation is not distressed, so any margin of safety comes more from business quality and cash\u2011flow durability than from a deep discount price.",
-      "market_regime": "In a slightly risk\u2011on but late\u2011cycle regime, industrial quality cyclicals can outperform as investors seek economically sensitive names without moving too far out the risk curve; however, any negative macro surprise (growth or inflation) could quickly shift preference back to defensives, making this trade sensitive to macro headlines and factor rotations.",
-      "momentum_case": "Price has appreciated meaningfully over the past year (from roughly the low\u2011$120s in March 2025 to the high\u2011$180s by March 2026, and above $200 in June 2026), indicating persistent medium\u2011term uptrend and constructive institutional flow.[1] For a short swing, this is a relative\u2011strength industrial versus the broader market, with potential to continue working while risk appetite for cyclicals remains intact.",
-      "owner_hold_case": "A 30\u2013180 day owner\u2011style thesis would focus on continued deleveraging, synergy realization from past acquisitions, and participation in late\u2011cycle industrial demand; the position would be reviewed if leverage metrics fail to improve, integration issues emerge, or if valuation becomes clearly stretched relative to peers and growth.",
-      "quality_case": "RRX is an established industrial with diversified power transmission and motion\u2011control products, strong aftermarket exposure, and a large institutional holder base including Vanguard, BlackRock, Capital World Investors, and others, which typically signals governance quality and balance\u2011sheet discipline.[1] Its business mix in OEM and aftermarket components carries durable demand but remains tied to global industrial activity.",
-      "recommendation": "execute-if-guards-pass",
-      "repeat_count_48h": 0,
-      "research_tier": "execution-ready",
-      "risk_reward": "Risk/reward is moderately attractive: downside is cushioned by business quality and institutional ownership, but cyclicality and acquisition leverage cap near\u2011term conviction; a controlled swing position with tight risk can capture incremental upside while avoiding deep drawdowns.",
-      "sector": "industrials",
-      "signal_weights": {
-        "congressional_signal": 0.0,
-        "social_buzz": 0.0
-      },
-      "social_buzz": "none",
-      "source_quality": "Evidence quality is moderate: institutional ownership and price history are sourced from SEC\u2011related and market\u2011data platforms,[1] which are reliable, but there is no single, near\u2011dated company\u2011specific catalyst like earnings this week; the thesis leans on structural quality and factor rotation rather than a hard dated event.",
-      "source_urls": [
-        "https://fintel.io/so/us/rrx"
-      ],
-      "stop_loss_percent": 8.0,
-      "strategy_tags": [
-        "chittick_cash"
-      ],
-      "symbol": "RRX",
-      "target_allocation_percent": 8.0,
-      "thesis": "Regal Rexnord is a high\u2011quality industrial power transmission and motion\u2011control business benefiting from structural demand for energy efficiency and automation, with institutional accumulation and solid revenue mix supporting a disciplined 1\u20137 day swing around a quality value/industrial factor bid.",
-      "valuation_case": "The stock has re\u2011rated higher over the past year, implying investors are already paying up for quality and synergies.[1] Valuation is likely around or slightly above long\u2011term averages for high\u2011quality industrials, making it reasonable but not obviously cheap; acceptable for a short swing, but not an obvious deep\u2011value entry."
-    },
-    {
-      "adversary_case": "A pro\u2011HUMA argument would say that a positive Phase 3 and planned BLA make this an asymmetric opportunity before broader market recognition, and that the recent raise de\u2011risks near\u2011term funding. However, from a quality and margin\u2011of\u2011safety standpoint, the structure still resembles a high\u2011beta, cash\u2011burn biotech that can suffer significant drawdowns regardless of clinical progress.",
-      "allocation_learning_note": "Maintain at 0% until there is improved balance\u2011sheet visibility and reduced dilution risk; this helps prevent drift toward speculative biotech in a quality\u2011first paper strategy.",
-      "balance_sheet_risk": "Even after raising roughly $47M, Humacyte is likely to continue burning cash as it develops and commercializes its platform, implying ongoing need for capital and the risk of further dilution.[2] This is a major negative from a balance\u2011sheet and owner\u2011style risk standpoint.",
-      "bear_case": "Key risks include future dilutions, regulatory uncertainty despite Phase 3 success, commercialization execution risk in trauma and dialysis, and the possibility that revenues ramp more slowly than expected. The recent raise at a low price signals that capital is expensive, and any setback in regulatory timelines or uptake could pressure the stock further. This is misaligned with a primary focus on durable, high\u2011margin, cash\u2011generative businesses.",
-      "capital_allocation_case": "Management is allocating capital to fund clinical development and regulatory work, which is typical for a biotech at this stage. However, dependence on equity markets suggests shareholders bear significant dilution risk, and there is limited evidence of long\u2011term track record in returning capital.",
-      "catalyst": "Humacyte recently priced a large equity offering of approximately 47.6M shares at $1.05 per share, raising about $47M in net proceeds, and reported that its V012 Phase 3 trial met the primary endpoint with plans to file a supplemental BLA in the second half of 2026.[2]",
-      "catalyst_type": "filing/news",
-      "chittick_cash_score": 41.0,
-      "chittick_reject_reason": "Fails Chittick\u2011style margin of safety and balance\u2011sheet tests due to ongoing cash burn, repeated reliance on equity issuance, and binary regulatory/commercial risk profile.",
-      "concentration_case": "Exposure is concentrated in a single platform and a narrow set of indications, unlike diversified healthcare or biotech ETFs. For a cautious, quality\u2011oriented paper portfolio, such concentration is difficult to justify at more than a token or watch\u2011only level.",
-      "confidence": 0.66,
-      "congressional_signal": "none",
-      "diversity_bucket": "speculative-biotech-special-situation",
-      "entry_plan": "No execution entry is proposed under the current quality\u2011first strategy. For monitoring purposes, track price behavior around the offering price ($1.05) and upcoming regulatory milestones; any future entry would require clearer evidence of balance\u2011sheet stability and reduced dilution risk.[2]",
-      "exit_plan": "Not applicable for monitor\u2011only; if hypothetically entered later, the plan would require tight loss limits below key support around recent financing levels and partial profit\u2011taking into any sharp move driven by regulatory news.",
-      "fresh_catalyst": true,
-      "growth_runway": "If approved, the 30\u2013180 day and longer\u2011term runway includes trauma application ramp\u2011up and dialysis indications, but execution, reimbursement, and adoption curves are uncertain; meaningful revenue inflection may be beyond the near\u2011term horizon.",
-      "hf_evidence_rank": 0.7,
-      "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.3,
-      "hf_memory_similarity": 0.1,
-      "hf_model_notes": "Clinically meaningful catalyst and clear SEC documentation, but structural business quality and balance\u2011sheet profile conflict with the core quality\u2011focused, low\u2011hype mandate; best treated as a monitored special situation.",
-      "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "",
-      "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 0.8,
-      "horizon_days": 5,
-      "margin_of_safety_case": "The equity raise at $1.05 indicates limited margin of safety; investors are funding continued development with substantial dilution.[2] Without established cash flows or clear valuation anchors, downside protection is weak and hinging on binary regulatory outcomes.",
-      "market_regime": "In a slightly risk\u2011on regime, speculative biotechs can see sharp price swings, but they are also among the first to be hit when risk sentiment turns. Macro or rate shocks could easily overshadow company\u2011specific progress, and higher discount rates are particularly punitive to long\u2011duration, pre\u2011profit stories.",
-      "momentum_case": "The combination of positive Phase 3 data and a discounted equity raise can drive short\u2011term trading volatility in either direction. While such events often attract speculative flows, the dilutive financing at $1.05 per share indicates market caution about valuation and balance\u2011sheet strength.[2] In a quality\u2011biased swing framework, this is closer to a binary catalyst trade than a trend\u2011following setup.",
-      "owner_hold_case": "An owner\u2011style 30\u2013180 day review would focus on regulatory milestones (sBLA submission and regulatory feedback), additional financing moves, and early commercial traction; a hold could be justified only if dilution risk stabilizes and there is clearer visibility into reimbursed adoption.",
-      "quality_case": "Scientifically, the platform targets meaningful unmet needs (e.g., trauma and dialysis vascular access), and the successful Phase 3 endpoint supports clinical validity.[2] However, from a Buffett/Munger and Chittick lens, the business is still early\u2011stage, cash\u2011flow negative, and structurally reliant on external capital, which weakens the quality and margin\u2011of\u2011safety profile relative to established cash\u2011generative companies.",
-      "recommendation": "watch",
-      "repeat_count_48h": 0,
-      "research_tier": "monitor-only",
-      "risk_reward": "Potential upside could be substantial if the product is approved and successfully commercialized, but near\u2011term downside from dilution, volatility around regulatory news, and binary risks is high; this skews the trade toward speculative rather than quality\u2011anchored risk/reward.",
-      "sector": "biotechnology",
-      "signal_weights": {
-        "congressional_signal": 0.0,
-        "social_buzz": 0.0
-      },
-      "social_buzz": "none",
-      "source_quality": "Evidence quality is strong regarding the specific catalyst (official prospectus supplement and company statements on the financing and Phase 3 results), but long\u2011term commercial and valuation outcomes remain highly uncertain.[2]",
-      "source_urls": [
-        "https://www.stocktitan.net/sec-filings/HUMA/424b5-humacyte-inc-prospectus-supplement-debt-securities-43a912db69f5.html"
-      ],
-      "stop_loss_percent": 8.0,
-      "strategy_tags": [
-        "chittick_cash"
-      ],
-      "symbol": "HUMA",
-      "target_allocation_percent": 0.0,
-      "thesis": "Humacyte is a high\u2011risk biotech with a potentially important vascular and trauma platform; a recent successful Phase 3 trial and planned supplemental BLA create a real catalyst path, but the large equity raise at a low price and ongoing cash burn make this more suitable for cautious monitoring than for an execution\u2011ready swing in a quality\u2011focused strategy.",
-      "valuation_case": "Valuation is effectively set by the recent offering price, which signals the market\u2019s risk assessment at the time.[2] While this may be attractive if commercialization succeeds, there is insufficient evidence to argue that the stock is mispriced relative to likely cash flows under conservative scenarios."
-    }
-  ],
-  "summary": "US equities remain in a late\u2011cycle, slightly risk\u2011on regime with indices near highs, but macro and geopolitical headline risk is elevated; swing trades should emphasize high\u2011quality names with clear, dated catalysts and disciplined risk controls."
+  "candidates": [],
+  "summary": "US equities remain in a late\u2011cycle, higher\u2011for\u2011longer rate backdrop with risk appetite still biased toward quality growth and AI\u2011adjacent tech, but breadth remains uneven and macro/central\u2011bank headlines are key volatility catalysts."
 }
 -->
 
@@ -1728,4 +1615,8 @@ No candidates.
 |---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
 | RRX | industrials | execution-ready | quality-industrials-cyclicals | 0 | yes | 0.70 | 74 | 1 | 0 | 8.0% | 8.0% | execute-if-guards-pass | Ongoing institutional accumulation and strong long‑only ownership base highlighted in recent filings, with the stock trading materially higher year‑on‑year and  |
 | HUMA | biotechnology | monitor-only | speculative-biotech-special-situation | 0 | yes | 0.66 | 41 | 1 | 0 | 0.0% | 8.0% | watch | Humacyte recently priced a large equity offering of approximately 47.6M shares at $1.05 per share, raising about $47M in net proceeds, and reported that its V01 |
+
+## Latest Candidates - 2026-06-15 17:16:44 Eastern Daylight Time
+
+No candidates.
 
