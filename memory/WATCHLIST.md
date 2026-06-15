@@ -2,8 +2,65 @@
 
 <!-- latest-candidates-json
 {
-  "candidates": [],
-  "summary": "US equities remain in a late\u2011cycle, higher\u2011for\u2011longer rate backdrop with risk appetite still biased toward quality growth and AI\u2011adjacent tech, but breadth remains uneven and macro/central\u2011bank headlines are key volatility catalysts."
+  "candidates": [
+    {
+      "adversary_case": "For a 1\u201110 day swing, AMGN may simply be too slow\u2011moving and index\u2011like to justify active risk versus holding a broad healthcare ETF or market index. In a risk\u2011on environment dominated by tech/AI flows, AMGN could underperform and tie up capital without delivering enough upside to compensate for idiosyncratic drug or headline risk.",
+      "allocation_learning_note": "Congressional\u2011trade coverage reinforces that political flows in AMGN are low\u2011conviction and mixed, so any future paper allocations should be based on business quality and chart structure, not on legislative sentiment.",
+      "balance_sheet_risk": "Balance sheet risk is generally low for a company of Amgen\u2019s size and profitability: leverage is actively managed, and large, recurring cash flows reduce refinancing and dilution risk relative to smaller biotechs. The main financial risks are from potential M&A missteps or overly aggressive buybacks, not from immediate solvency concerns.",
+      "bear_case": "Key risks are drug\u2011specific patent cliffs, pricing pressure from payors and policy, clinical trial setbacks, and regulatory delays. Valuation could de\u2011rate if growth disappoints or if risk\u2011on sentiment shifts capital towards more cyclical/high\u2011beta names. Biotech as a sector can underperform for extended periods on sentiment, even when fundamentals are intact.",
+      "capital_allocation_case": "Management has a long history of returning capital via dividends and buybacks while continuing to invest in R&D and select acquisitions. This aligns reasonably well with an owner\u2011style capital discipline lens, though large M&A carries integration and overpayment risk.",
+      "catalyst": "Near\u2011term: continued digestion of recent earnings guidance, product news flow (label expansions, trial readouts), and sector\u2011level rotation into defensive cash\u2011generative healthcare. Medium\u2011term owner lens: pipeline progress in oncology/inflammation and capital\u2011return actions (buybacks/dividends) that can support total return even if macro volatility increases.",
+      "catalyst_type": "structural",
+      "chittick_cash_score": 78.0,
+      "chittick_reject_reason": "",
+      "concentration_case": "In a concentrated\u2011quality, Chittick\u2011style portfolio, AMGN can serve as a healthcare ballast alongside more cyclical or tech\u2011oriented names. It is less compelling if the alternative is a low\u2011cost healthcare ETF that achieves similar diversification with less idiosyncratic drug risk; thus it may deserve only a moderate allocation rather than a top\u2011three slot.",
+      "confidence": 0.69,
+      "congressional_signal": "Recent congressional disclosures show both purchases and sales in AMGN by different members over the past six months, with modest size and no clear directional consensus, so this is treated only as a low\u2011weight, secondary context.[12]",
+      "diversity_bucket": "defensive-biotech-healthcare",
+      "entry_plan": "For paper trading, plan a staged entry on a modest pullback toward recent support or a low\u2011volatility continuation day rather than chasing an intraday spike. Use limit orders near the lower half of the recent daily range and avoid entering immediately after large gap\u2011up moves without consolidation.",
+      "exit_plan": "Take profits into a 4\u20118% move higher over 3\u20117 trading days, or earlier if the broader market shows a sharp risk\u2011off pivot led by healthcare. Invalidate the trade on a decisive close below recent support or a 6\u20118% drawdown from entry, whichever comes first, to respect late\u2011cycle headline risk.",
+      "fresh_catalyst": true,
+      "growth_runway": "30\u2011180 day and longer\u2011term drivers include incremental drug\u2011label expansions, ongoing oncology and inflammation launches, and potential business\u2011development activity. Over a longer owner horizon, the runway is tied to sustaining innovation in key therapeutic areas and efficient capital returns rather than hyper\u2011growth.",
+      "hf_evidence_rank": 0.0,
+      "hf_filter_vetoes": [],
+      "hf_hype_risk": 0.0,
+      "hf_memory_similarity": 0.0,
+      "hf_model_notes": "",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "",
+      "hf_sentiment_score": 0.0,
+      "hf_source_quality_score": 0.0,
+      "horizon_days": 5,
+      "margin_of_safety_case": "As a profitable, cash\u2011generative large\u2011cap with diversified drugs, AMGN likely offers better downside protection than speculative biotech; valuation is not distressed, but the combination of dividends, buybacks, and pipeline optionality provides a reasonable margin of safety for an owner\u2011style 30\u2011180 day thesis, even if short\u2011term price action is choppy.",
+      "market_regime": "In a cautiously risk\u2011on, late\u2011cycle environment, AMGN can act as a quality, lower\u2011beta participant: it may lag sharp speculative rallies but can help cushion drawdowns when macro or rates volatility hits. If the market rotates aggressively into high\u2011beta cyclicals or pure AI, AMGN\u2019s relative performance may be muted over a 1\u201110 day horizon.",
+      "momentum_case": "Biotech and large\u2011cap pharma have shown periods of relative strength as investors look for earnings stability amidst higher\u2011for\u2011longer rates; AMGN has tended to act as a lower\u2011beta, cash\u2011flow\u2011rich component in that space. For a 1\u201110 day swing, the setup would rely on AMGN holding recent support levels and participating in any defensive\u2011plus\u2011growth rotation days, not on a parabolic momentum spike.",
+      "owner_hold_case": "Over 30\u2011180 days, AMGN could be justified as a hold if: (1) the broader tape remains late\u2011cycle but constructive, favoring cash\u2011flow\u2011rich defensives; (2) the company continues steady execution on its pipeline and capital\u2011return program; and (3) valuation does not expand to clearly stretched levels. Regular review around major drug news, regulatory decisions, and quarterly earnings would be required.",
+      "quality_case": "Amgen is one of the largest global biotechs, with a diversified portfolio of biologic and small\u2011molecule drugs, significant free cash flow, scale in R&D and commercialization, and a long track record of profitability and shareholder returns. This fits a Buffett/Munger\u2011style preference for durable moats and strong balance sheets more than speculative biotech. For Chittick Cash, it passes the basic quality bar (large, established, profitable; non\u2011binary pipeline) and the business model has an identifiable runway in core therapeutic areas.",
+      "recommendation": "watch",
+      "repeat_count_48h": 0,
+      "research_tier": "watch",
+      "risk_reward": "Risk/reward is moderate: upside is likely single\u2011digit percent over the swing horizon, but downside should be limited by quality and sector defensiveness if stops are respected. This is a steady\u2011compounder style swing, not a high\u2011beta home run.",
+      "sector": "Biotechnology / Healthcare",
+      "signal_weights": {
+        "congressional_signal": 0.03,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "none",
+      "source_quality": "Fundamental views are grounded in Amgen\u2019s status as a long\u2011established, profitable large\u2011cap biotech with diversified drugs and longstanding coverage by major asset managers and index inclusion; congressional\u2011trade data is considered low\u2011weight and mixed\u2011direction, reinforcing that it is not a primary signal.[12]",
+      "source_urls": [
+        "https://www.quiverquant.com/news/Amgen+Stock+(AMGN)+Opinions+on+Congressional+Trade+Disclosure"
+      ],
+      "stop_loss_percent": 8.0,
+      "strategy_tags": [
+        "chittick_cash"
+      ],
+      "symbol": "AMGN",
+      "target_allocation_percent": 0.0,
+      "thesis": "**Amgen** is a diversified large\u2011cap biotech with durable cash flows from established therapies, a growing portfolio of oncology and inflammation drugs, and active capital returns, offering a quality, defensive\u2011tilted name that can participate in a cautiously risk\u2011on tape while providing downside resilience over a 30\u2011180 day owner lens. Congressional trading has been mixed and low\u2011conviction, so the focus is on fundamentals and technicals rather than political flows.",
+      "valuation_case": "Valuation is not deeply discounted but is broadly consistent with other mature large\u2011cap biopharma peers\u2014investors appear to be paying a fair multiple for stable cash flows and pipeline exposure rather than speculative growth. For a 1\u201110 day swing, valuation is a guardrail (avoid obvious excess), not the primary catalyst."
+    }
+  ],
+  "summary": "US equities remain broadly constructive with a late\u2011cycle, higher\u2011for\u2011longer rate backdrop and leadership still concentrated in large\u2011cap growth/tech, but with enough cyclical participation to frame conditions as cautiously risk\u2011on rather than euphoric. Paper\u2011trading setups should assume intermittent macro\u2011driven volatility, crowded mega\u2011cap tech positioning, and the need for tight risk management and fresh, name\u2011specific catalysts."
 }
 -->
 
@@ -1619,4 +1676,10 @@ No candidates.
 ## Latest Candidates - 2026-06-15 17:16:44 Eastern Daylight Time
 
 No candidates.
+
+## Latest Candidates - 2026-06-15 17:16:53 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| AMGN | Biotechnology / Healthcare | watch | defensive-biotech-healthcare | 0 | yes | 0.69 | 78 | 0 | 0 | 0.0% | 8.0% | watch | Near‑term: continued digestion of recent earnings guidance, product news flow (label expansions, trial readouts), and sector‑level rotation into defensive cash‑ |
 

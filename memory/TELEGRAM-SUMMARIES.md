@@ -30584,4 +30584,19 @@ Research Update
 
 Market tone: US equities remain in a late‑cycle, higher‑for‑longer rate backdrop with risk appetite still biased toward quality growth and AI‑adjacent tech, but breadth remains uneven and macro/central‑bank headlines are key volatility catalysts.
 Candidates: 0
+## Research Update - 2026-06-15 17:16:53 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities remain broadly constructive with a late‑cycle, higher‑for‑longer rate backdrop and leadership still concentrated in large‑cap growth/tech, but with enough cyclical participation to frame conditions as cautiously risk‑on rather than euphoric. Paper‑trading setups should assume intermittent macro‑driven volatility, crowded mega‑cap tech positioning, and the need for tight risk management and fresh, name‑specific catalysts.
+Candidates: 1
+
+1. AMGN (Biotechnology / Healthcare) | confidence 0.69 | allocation 0.0% | stop 8.0% | Chittick 78/100 | tier watch | bucket defensive-biotech-healthcare
+Recommendation: watch
+Catalyst: Near‑term: continued digestion of recent earnings guidance, product news flow (label expansions, trial readouts), and sector‑level rotation into defensive cash‑generative healthcare. Medium‑term owner lens: pipeline progress in oncology/...
+Chittick Cash: As a profitable, cash‑generative large‑cap with diversified drugs, AMGN likely offers better downside protection than speculative biotech; valuation is not distressed, but the combination of dividends, buybacks, and p...
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=defensive-biotech-healthcare
+Social buzz, low weight: none
+Congress signal, low weight: Recent congressional disclosures show both purchases and sales in AMGN by different members over the past six months, with modest size and no clear directional consensus, so thi...
 
