@@ -1503,4 +1503,12 @@ Premarket plan built from latest watchlist.
 - RRX: score=81, base=95, chittick=74, approved=True, allocation=8.0%, stop=8.0%
 - HUMA: score=69, base=95, chittick=35, approved=False, allocation=0.0%, stop=8.0%
   rejects: Candidate is monitor-only and cannot be traded.; Target allocation must be between 1% and 15%.
+## Premarket Plan - 2026-06-15 17:15:13 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- RRX: score=81, base=95, chittick=74, approved=False, allocation=0.0%, stop=8.0%
+  rejects: Candidate is allocation-muted and cannot be traded.; Target allocation must be between 1% and 15%.
+- HUMA: score=69, base=95, chittick=35, approved=False, allocation=0.0%, stop=8.0%
+  rejects: Candidate is monitor-only and cannot be traded.; Target allocation must be between 1% and 15%.
 
