@@ -4,190 +4,63 @@
 {
   "candidates": [
     {
-      "adversary_case": "The main objection is valuation and timing: WMT is not obviously cheap on traditional multiples after a strong run, so the margin of safety is thinner than in more out-of-favor value names; if macro data improves and the market doubles down on high-beta growth/AI, capital may rotate away from defensives, leaving WMT range-bound or lagging, which would make a 5\u201310 day swing less attractive than a simple index or tech exposure.",
-      "allocation_learning_note": "Sizing kept mid-range due to fair, not cheap, valuation and the risk that a renewed speculative risk-on surge could favor higher-beta sectors over staples, even if Walmart fundamentals remain solid.",
-      "balance_sheet_risk": "Walmart carries manageable leverage with strong interest coverage and regular cash generation; there is limited refinancing or covenant risk, and the company has flexibility in capex and buybacks/dividends; key balance-sheet risks are more about long-term lease obligations and working-capital management, which are well-known and historically well-managed.",
-      "bear_case": "If consumer spending weakens more than expected, especially among lower-income shoppers, traffic and mix could compress margins; any sign of increased price competition in grocery or big-box retail could pressure earnings; valuation risk exists after the recent run\u2014multiple compression could offset solid fundamentals if broader markets de-risk, and near-term mean reversion from all-time highs is possible.",
-      "capital_allocation_case": "Management has a long record of steady dividends, opportunistic buybacks, and disciplined reinvestment in logistics, technology, and stores; while not as high-ROIC as some asset-light tech firms, Walmart\u2019s capital allocation has been consistent and shareholder-friendly in the context of a large-scale retailer.",
-      "catalyst": "Recent quarterly earnings beat with solid same-store sales and e\u2011commerce growth, raised or reaffirmed full-year guidance, and follow-through buying that has pushed shares toward/new all-time highs, creating both a quality and momentum setup over the next 5\u201310 trading days.",
-      "catalyst_type": "earnings",
-      "chittick_cash_score": 74.0,
-      "chittick_reject_reason": "",
-      "concentration_case": "WMT diversifies a portfolio that may be overexposed to tech/AI or cyclicals, providing a stable, high-quality consumer anchor; versus a broad consumer ETF, Walmart offers more direct exposure to a proven operator with durable advantages and specific earnings catalysts rather than a diluted basket of weaker peers.",
-      "confidence": 0.71,
-      "congressional_signal": "none",
-      "diversity_bucket": "consumer-defensive-mega",
-      "entry_plan": "For paper trading, consider a staged entry on a modest pullback toward recent breakout/support levels (e.g., ~1\u20132% below current price near short-term moving average or prior breakout zone) with confirmation that volume and intraday price action remain constructive (no high-volume breakdown below recent swing low). Avoid chasing large gap-ups intraday.",
-      "exit_plan": "Take profits into strength if the stock advances ~5\u20137% from entry within the 5\u20138 day horizon or shows signs of exhaustion (reversal candles on high volume near resistance). Invalidate the trade and exit if price closes below the recent swing low or ~8% below entry (whichever is tighter) or if there is a negative company-specific development (guide-down, major operational issue). Time-stop after 8 days if thesis has not played out and momentum has stalled.",
-      "fresh_catalyst": true,
-      "growth_runway": "Over 30\u2013180 days and beyond, growth drivers include expansion of e\u2011commerce and grocery delivery, advertising and data monetization, membership and financial services, and continued share gains from smaller competitors; internationally, selective growth in emerging markets and improved supply-chain technology can also support moderate earnings growth.",
-      "hf_evidence_rank": 0.0,
-      "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.1,
-      "hf_memory_similarity": 0.0,
-      "hf_model_notes": "Consumer-staples quality name chosen to diversify away from overused tech/AI buckets and to avoid repeat-decay issues with prior mega-cap tech candidates, while still aligning with late-cycle, defensive-quality swing opportunities.",
-      "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "",
-      "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 0.0,
-      "horizon_days": 6,
-      "margin_of_safety_case": "Relative to its quality, scale, and defensive cash flows, WMT trades at a fair-to-full valuation rather than a deep discount; however, its resilience in downturns, strong balance sheet, and diversified revenue streams provide downside protection versus more cyclical retailers\u2014margin of safety is more business-quality-based than strictly valuation-based.",
-      "market_regime": "In a tech-led, concentrated risk-on regime, WMT may lag in strong AI/mega-cap rallies but can provide ballast if there is a rotation into defensives or consumer staples; late-cycle macro risk (higher-for-longer rates, inflation worries) can support demand for stable cash flow names like Walmart, but a sharp risk-off move could still drag it lower.",
-      "momentum_case": "Post-earnings price action has been constructive, with WMT breaking to or near new highs on elevated volume and holding its gains, indicating institutional accumulation; the stock is trading above key moving averages and showing relative strength versus the S&P 500, making it a reasonable 5\u201310 day swing candidate in a late-cycle, defensive-tilt basket.",
-      "owner_hold_case": "Over 30\u2013180 days, a case to hold would rely on continued execution in e-commerce and advertising, stable or expanding margins, and evidence of share gains in key categories; any additional guidance raises or capital-return updates could justify reevaluating the position as a core defensive holding rather than purely a short-term swing.",
-      "quality_case": "Walmart has durable competitive advantages from scale, purchasing power, logistics, and a massive store footprint; its mix is shifting toward higher-margin services (advertising, marketplace, memberships) and omnichannel retail, and the business has historically been resilient across cycles with strong free cash flow and investment-grade balance sheet, which supports a margin-of-safety tilt versus more cyclical names.",
-      "recommendation": "execute-if-guards-pass",
-      "repeat_count_48h": 0,
-      "research_tier": "execution-ready",
-      "risk_reward": "Moderate upside with modest drawdown risk: a ~5\u20137% near-term upside target versus an ~5\u20138% downside stop, skewed by the business\u2019 defensive quality and relatively low idiosyncratic risk compared with more cyclical or speculative names.",
-      "sector": "Consumer Staples / Retail",
-      "signal_weights": {
-        "congressional_signal": 0.0,
-        "social_buzz": 0.0
-      },
-      "social_buzz": "none",
-      "source_quality": "Evidence is anchored in recent earnings and guidance commentary, long-standing business performance, and index/sector-level data from reputable financial and macro sources; Walmart\u2019s scale, defensive profile, and post-earnings price action are well-documented across mainstream financial coverage and filings, making this a relatively high-confidence, fundamentals-plus-momentum case.",
-      "source_urls": [
-        "https://www.reuters.com/markets/companies/WMT.N",
-        "https://finance.yahoo.com/quote/WMT",
-        "https://www.sec.gov/ixviewer/doc?action=load&doc=/Archives/edgar/data/104169/0000104169260000xx/wmt-10k.htm"
-      ],
-      "stop_loss_percent": 7.0,
-      "strategy_tags": [
-        "chittick_cash",
-        "swing_5_10d",
-        "defensive_quality",
-        "consumer"
-      ],
-      "symbol": "WMT",
-      "target_allocation_percent": 8.0,
-      "thesis": "Walmart is a dominant U.S. and global retailer with resilient traffic and growing higher-margin businesses (advertising, memberships, e\u2011commerce/grocery), offering a quality, defensive counterweight to narrow tech leadership while still showing constructive near\u2011term momentum after recent earnings and guidance strength.",
-      "valuation_case": "Multiples are above long-term averages but arguably justified by improved mix (higher-margin services) and consistent execution; WMT is not a clear bargain but offers acceptable valuation for a high-quality franchise, making it suitable for a moderate-size swing position rather than an outsized deep-value bet."
-    },
-    {
-      "adversary_case": "The strongest objection is that regulatory and political risk in U.S. healthcare is inherently hard to handicap in a 5\u201310 day window; even if fundamentals are strong, a single negative headline could overwhelm technical stabilization and trigger large moves, suggesting that a more diversified healthcare ETF or simply waiting for clearer post-event confirmation might be safer.",
-      "allocation_learning_note": "Allocation kept mid-range given headline/regulatory gap risk despite high business quality; this aligns with v1 sizing constraints and acknowledges that a single issuer can face idiosyncratic policy shocks.",
-      "balance_sheet_risk": "UNH has an investment-grade balance sheet, diversified revenue, and strong cash generation; while it manages sizable insurance liabilities and capital requirements, these are well-understood and closely monitored; key risks center on adverse claims experience rather than pure balance-sheet fragility.",
-      "bear_case": "Regulatory risk (Medicare Advantage rates, policy changes, investigations) remains material and can quickly shift sentiment; unexpected spikes in medical cost ratios could pressure earnings and guidance; if the broader market rotates hard into high-beta growth, defensive healthcare may underperform, limiting near-term upside.",
-      "capital_allocation_case": "Management has historically deployed capital into growth initiatives (Optum), bolt-on acquisitions, and shareholder returns through buybacks and dividends; capital allocation has generally been disciplined, enhancing UNH\u2019s position as a compounder rather than a purely defensive bond proxy.",
-      "catalyst": "Recent headlines and commentary suggesting better visibility on medical cost trends and regulatory overhangs, plus stabilization and early recovery in share price after a prior drawdown, have improved sentiment and attracted incremental buying interest, setting up a potential mean-reversion plus quality swing window.",
+      "adversary_case": "The strongest objection is that there is no clear positive catalyst\u2014only a negative relative call\u2014so trying to swing XOM long may amount to fighting the prevailing quality and momentum signals; capital might be better deployed in the favored peer or in non-energy quality names with cleaner upside catalysts.",
+      "allocation_learning_note": "Given a fresh, well-argued case to avoid or underweight XOM in favor of a better energy peer, this name should not receive significant allocation in the current regime and is better used as a benchmark for evaluating the highlighted alternative.",
+      "balance_sheet_risk": "As an integrated major, XOM generally maintains an investment-grade balance sheet, diversified cash flows, and ample liquidity, limiting acute balance-sheet risk compared with smaller E&Ps; cyclical earnings and large capex programs still require careful monitoring but do not currently suggest distress.[12][14]",
+      "bear_case": "If oil prices soften or stay range-bound while XOM continues to lag better-positioned peers on returns and growth, the stock could drift sideways or down and tie up capital; ESG and energy-transition pressures, capex missteps, or further factor de-rating of value/energy could also weigh on the shares.[12][14]",
+      "capital_allocation_case": "The article\u2019s critique effectively centers on capital allocation and opportunity cost: while XOM continues to return cash to shareholders, the author suggests another energy company is deploying capital in a way that produces superior fundamentals and momentum, raising questions about whether XOM is the best use of capital now.[14]",
+      "catalyst": "A fresh June 2026 analysis highlights two fundamental reasons to avoid XOM now\u2014concerns around capital efficiency and relative underperformance\u2014while identifying a peer with stronger fundamentals and momentum; this negative relative-call itself can serve as a short-term sentiment and positioning catalyst if XOM finds support after being de-emphasized.[14]",
       "catalyst_type": "news",
-      "chittick_cash_score": 73.0,
-      "chittick_reject_reason": "",
-      "concentration_case": "Compared with a broad healthcare ETF, UNH offers focused exposure to a best-in-class franchise with integrated services, which can be attractive for a concentrated-quality sleeve; it serves as a non-tech, defensive anchor that balances tech-heavy portfolios without resorting to very low-growth utilities or staples only.",
-      "confidence": 0.7,
+      "chittick_cash_score": 64.0,
+      "chittick_reject_reason": "Owner-style concentration prefers the alternative energy name with stronger fundamentals and momentum flagged in the same research, so XOM is downgraded to watch rather than a primary Chittick Cash vehicle.[14]",
+      "concentration_case": "For a concentrated-quality portfolio, XOM may not merit a top slot today given the availability of a stronger energy alternative highlighted in the same analysis; thus it belongs more on a watchlist for tactical swings or as a lower-priority energy anchor than as a core owner-style holding.[12][14]",
+      "confidence": 0.61,
       "congressional_signal": "none",
-      "diversity_bucket": "healthcare-defensive-quality",
-      "entry_plan": "For paper trading, consider entering on a constructive retest of recent support (e.g., minor pullback toward the 20\u201350 day moving average cluster or recent swing low that holds intraday) with confirmation that intraday dips are bought and that there is no new negative regulatory headline on the tape.",
-      "exit_plan": "Aim to take profits if the stock recovers ~6\u20138% toward a nearby resistance band or prior consolidation area within 5\u20139 trading days. Invalidate and exit if UNH closes below recent support or ~8% below entry, or if there is a material adverse regulatory or earnings-related headline that undermines the cost/visibility improvement thesis.",
+      "diversity_bucket": "large-cap-energy",
+      "entry_plan": "For paper-trading, wait for XOM to show a clear daily support zone holding for at least 2\u20133 sessions and a turn up in short-term momentum (e.g., higher low and a close back above a short-term moving average or recent swing high); then stage in near that reclaim with a tight technical stop just below the identified support band.",
+      "exit_plan": "Take profits into a 1.8\u20132.5x reward-to-risk move versus the stop, or earlier if price stalls at prior resistance or if sector ETFs roll over; invalidate the trade and exit on a decisive daily close below support or if new fundamental news further weakens the quality or capital-allocation case.",
       "fresh_catalyst": true,
-      "growth_runway": "Over 30\u2013180 days and beyond, growth is supported by increased Medicare Advantage enrollment (subject to policy), expansion of Optum\u2019s health services and data/analytics, and continued integration of insurance plus care delivery; demographic trends (aging population) and healthcare spending growth underpin a long-term runway.",
-      "hf_evidence_rank": 0.0,
+      "growth_runway": "Over 30\u2013180 days, growth is tied to oil and gas price trends, refining margins, and any company updates on capex, shareholder returns, or low-carbon initiatives; structurally, XOM has a long asset life and potential energy-transition projects but faces uncertain returns and policy risk over the longer term.[12][14]",
+      "hf_evidence_rank": 0.6,
       "hf_filter_vetoes": [],
       "hf_hype_risk": 0.1,
       "hf_memory_similarity": 0.0,
-      "hf_model_notes": "Healthcare quality name selected to broaden discovery beyond tech, semis, and broad ETFs, and to offer a non-correlated risk profile suitable for late-cycle macro conditions.",
+      "hf_model_notes": "Treated explicitly as a relative underperformer per fresh June 2026 analysis; retained only as a watch candidate, not an execution-ready trade, to honor quality and momentum requirements.[14]",
       "hf_sentiment_agreement": 0.0,
       "hf_sentiment_label": "",
       "hf_sentiment_score": 0.0,
       "hf_source_quality_score": 0.0,
-      "horizon_days": 7,
-      "margin_of_safety_case": "After a prior drawdown, valuation is more reasonable versus UNH\u2019s long-run earnings power than at past peaks; while not distressed, the pullback has improved the margin of safety relative to many defensive peers, though regulatory/policy uncertainty keeps this from being a deep-value opportunity.",
-      "market_regime": "In a narrow tech-led risk-on regime, UNH may not lead rallies but can benefit from rotations into quality defensives during macro scares or policy jitters; healthcare\u2019s defensive characteristics can help if the late-cycle environment sours, though regulatory headlines could still drive idiosyncratic volatility regardless of overall market tone.",
-      "momentum_case": "After being under pressure on cost/regulatory concerns, UNH has shown signs of bottoming, with higher lows and improving relative performance versus the healthcare sector and S&P 500; volume patterns around the recent stabilization suggest that forced selling may have abated, opening room for a short-term rebound toward prior resistance.",
-      "owner_hold_case": "A 30\u2013180 day hold could be justified if medical cost trends remain controlled, regulatory clarity continues to improve, and Optum growth persists; periodic updates on rates, policy, and company commentary would be key checkpoints, with any positive surprises supporting a longer owner-style hold beyond an initial swing.",
-      "quality_case": "UNH has scale advantages, diverse revenue streams across insurance and health services (Optum), and a history of strong earnings growth and cash generation; it operates in a structurally growing market (aging population, healthcare spending) and has demonstrated resilience across economic cycles, with a strong balance sheet supporting ongoing investment and shareholder returns.",
-      "recommendation": "execute-if-guards-pass",
+      "horizon_days": 5,
+      "margin_of_safety_case": "As a mega-cap energy major, XOM typically trades at reasonable multiples versus its cyclical cash flows and offers a dividend yield that can cushion downside, but the referenced analysis argues that, relative to a comparable energy company with better fundamentals and momentum, XOM\u2019s margin of safety is weaker at current levels.[12][14]",
+      "market_regime": "In a neutral-to-mild-risk-on regime where quality and momentum factors are still rewarded, an energy major with a questioned momentum profile may continue to underperform unless there is either a clear commodities tailwind or company-specific catalyst; broad risk-off would add cyclical pressure to energy exposure.[1][3][12]",
+      "momentum_case": "The cited piece frames XOM as a relative laggard versus a stronger energy peer, implying weaker recent price momentum and factor headwinds in quality and price-momentum baskets; a swing setup would rely on a potential mean-reversion or base-building pattern after this underperformance rather than strong existing momentum.[12][14]",
+      "owner_hold_case": "A 30\u2013180 day owner-style thesis would require either a clear inflection in returns on capital and capital-allocation messaging, or a commodity and margin backdrop that decisively favors integrated majors, plus evidence that XOM is closing the performance gap with peers; absent that, it is better treated as a tactical, not owner, position.",
+      "quality_case": "XOM remains one of the largest integrated oil & gas companies globally with diversified upstream, downstream, and chemicals operations, long-lived assets, and a long record of dividends and buybacks; its scale and integration provide resilience across commodity cycles, although recent commentary questions whether its current capital allocation and growth profile justify index-level or overweight exposure at current prices.[14]",
+      "recommendation": "watch",
       "repeat_count_48h": 0,
-      "research_tier": "execution-ready",
-      "risk_reward": "Asymmetric if the stabilization holds: downside is framed by nearby technical support and an 7\u20138% stop, while upside toward prior resistance can offer similar or slightly better potential within the horizon, backed by high business quality; however, event/regulatory risk can create gap risk that needs to be acknowledged, even in paper trading.",
-      "sector": "Healthcare / Managed Care",
+      "research_tier": "watch",
+      "risk_reward": "This is a contrarian, shorter-term swing framed around potential stabilization after negative relative commentary; upside is moderate and dependent on a sentiment rebound, while downside is limited by a tight technical stop but includes risk of continued drift if the factor headwinds persist.",
+      "sector": "Energy",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
       "social_buzz": "none",
-      "source_quality": "The thesis is grounded in widely covered regulatory developments, company guidance, and sector analyses from reputable financial news and healthcare/insurance commentary, combined with long-term evidence of UNH\u2019s earnings and cash flow performance in filings; this yields a strong, if not catalyst-perfect, evidence base.",
+      "source_quality": "The main fundamental and relative-value signal comes from a June 2026 Barchart analysis that explicitly lays out reasons to avoid XOM and prefer a different energy stock, providing timely, fundamentals-plus-momentum context rather than generic listicle hype.[14]",
       "source_urls": [
-        "https://www.reuters.com/markets/companies/UNH.N",
-        "https://finance.yahoo.com/quote/UNH",
-        "https://www.sec.gov/ixviewer/doc?action=load&doc=/Archives/edgar/data/731766/0000731766260000xx/unh-10k.htm"
+        "https://www.barchart.com/story/news/2513695/2-reasons-to-avoid-xom-and-1-stock-to-buy-instead"
       ],
       "stop_loss_percent": 8.0,
       "strategy_tags": [
-        "chittick_cash",
-        "swing_5_10d",
-        "healthcare_quality",
-        "mean_reversion"
+        "chittick_cash"
       ],
-      "symbol": "UNH",
-      "target_allocation_percent": 7.0,
-      "thesis": "UnitedHealth Group is a high-quality, dominant health insurer and healthcare services platform with diversified earnings (insurance plus Optum health services), benefiting from structural healthcare demand and recent easing of some worst-case regulatory/cost fears, while its stock has started to stabilize and improve after prior pressure, creating a potential 5\u201310 day rebound swing with a 30\u2013180 day quality bias.",
-      "valuation_case": "UNH typically trades at a premium to the broader market due to its scale and consistent growth; recent pressure has compressed the multiple somewhat, making the current price more aligned with long-term growth prospects, but the multiple could still contract if regulatory risk is repriced upward."
-    },
-    {
-      "adversary_case": "The key objection is that NSC remains a litigation and regulatory story where downside tail scenarios are hard to quantify; from a conservative Chittick-style lens, a broad industrial ETF or a different railroad with fewer recent issues might offer cleaner exposure to similar macro drivers with less idiosyncratic risk.",
-      "allocation_learning_note": "Allocation and stop chosen conservatively to reflect event and litigation uncertainty while still allowing participation in a potential recovery swing in a sector that is underrepresented in prior ideas.",
-      "balance_sheet_risk": "NSC has a leveraged but generally manageable balance sheet typical of large railroads; the main balance-sheet risks are potential increases in debt to fund remediation or legal settlements and any constraints this imposes on capital returns; however, core assets are durable and cash-generating once operations stabilize.",
-      "bear_case": "Legal and remediation costs could exceed expectations, pressuring free cash flow and limiting buybacks or dividend growth; regulatory changes could increase ongoing operating costs; if freight demand weakens due to macro slowdown, earnings recovery could be slower than anticipated, and sentiment could deteriorate again.",
-      "capital_allocation_case": "Historically, NSC has returned substantial capital via dividends and buybacks; in the near term, capital allocation may tilt more toward remediation and safety investments, which, while reducing shareholder payouts, can strengthen long-term franchise quality if executed well.",
-      "catalyst": "Ongoing updates on settlements, regulatory agreements, and operational improvements related to prior accidents, along with market commentary about improving freight volumes and pricing, have reduced some worst-case tail risk and supported a basing pattern in the shares, attracting value- and recovery-oriented interest.",
-      "catalyst_type": "news",
-      "chittick_cash_score": 68.0,
-      "chittick_reject_reason": "",
-      "concentration_case": "NSC offers targeted exposure to U.S. freight and industrial activity that cannot be replicated by tech or consumer holdings; for a concentrated-quality sleeve, it represents a higher-risk recovery idea that should be sized smaller and complemented with steadier names rather than used as a core anchor.",
-      "confidence": 0.63,
-      "congressional_signal": "none",
-      "diversity_bucket": "industrials-recovery",
-      "entry_plan": "For paper trading, consider a conditional entry only if NSC breaks above the top of its recent trading range on higher-than-average volume, signaling a confirmed breakout rather than a false start; alternatively, a low-risk entry could be on a controlled pullback to the lower third of the base that holds support with tight intraday action.",
-      "exit_plan": "Target a ~7\u20139% move toward the next resistance area or prior gap zone within 5\u20139 trading days; cut the trade if NSC falls back into the lower part of the base and closes ~9\u201310% below entry or if new negative legal/regulatory news undermines the recovery thesis. Use a time-stop of 9 days if the breakout fails to follow through and price stagnates.",
-      "fresh_catalyst": true,
-      "growth_runway": "Over 30\u2013180 days and beyond, growth depends on U.S. industrial production, intermodal freight demand, and NSC\u2019s ability to regain efficiency and customer trust; structural drivers include reshoring/near-shoring trends and long-term freight needs, but these must be weighed against regulatory and cost headwinds.",
-      "hf_evidence_rank": 0.0,
-      "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.25,
-      "hf_memory_similarity": 0.0,
-      "hf_model_notes": "Industrials/recovery name added to diversify discovery beyond tech, healthcare, and staples, while respecting constraints to avoid overused sectors like semis and broad ETFs.",
-      "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "",
-      "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 0.0,
-      "horizon_days": 8,
-      "margin_of_safety_case": "The stock has already discounted significant bad news via prior declines and some multiple compression; while not risk-free, this provides a partial margin of safety if legal and remediation costs end up within current market expectations, though true deep-value margin of safety is limited by unresolved uncertainties.",
-      "market_regime": "In a tech-led risk-on environment, industrials like NSC may lag unless there is a rotation into cyclicals and real-economy plays; however, if investors look for breadth improvement and value/recovery stories, railroads could benefit\u2014though they remain sensitive to macro and regulatory news.",
-      "momentum_case": "After a sharp decline surrounding incident and regulatory headlines, NSC has been forming a base with higher lows and improving relative performance versus the industrials sector, suggesting that forced selling may have abated; a push above recent range highs with above-average volume would confirm a short-term breakout suitable for a 5\u201310 day swing.",
-      "owner_hold_case": "A 30\u2013180 day owner-oriented thesis would revolve around visible progress on remediation, clarity on legal liabilities, and evidence that service metrics and customer volumes are improving; periodic updates from the company and regulators would be key checkpoints to justify gradually increasing conviction over time.",
-      "quality_case": "Class I railroads like NSC enjoy high barriers to entry, significant network effects, and oligopolistic industry structure; despite recent issues, the underlying franchise\u2014track network, customer relationships, and role in U.S. freight\u2014is strategically important and historically high-margin once operations normalize.",
-      "recommendation": "execute-if-guards-pass",
-      "repeat_count_48h": 0,
-      "research_tier": "execution-ready",
-      "risk_reward": "Potentially attractive upside if the recovery narrative gains traction, but with elevated headline and event risk; rewards can be meaningful due to prior multiple and price compression, while risks include renewed negative headlines and macro freight softness, making this suitable only for a measured, not maximal, allocation.",
-      "sector": "Industrials / Railroads",
-      "signal_weights": {
-        "congressional_signal": 0.0,
-        "social_buzz": 0.0
-      },
-      "social_buzz": "none",
-      "source_quality": "Evidence comes from widely reported accident/regulatory coverage, company statements on remediation, and sector-level freight and industrial demand commentary; while these are reputable, there is inherent uncertainty around legal and policy outcomes, so the evidence is solid on facts but less firm on exact financial impact.",
-      "source_urls": [
-        "https://www.reuters.com/markets/companies/NSC.N",
-        "https://finance.yahoo.com/quote/NSC",
-        "https://www.sec.gov/ixviewer/doc?action=load&doc=/Archives/edgar/data/702165/0000702165260000xx/nsc-10k.htm"
-      ],
-      "stop_loss_percent": 10.0,
-      "strategy_tags": [
-        "chittick_cash",
-        "swing_5_10d",
-        "cyclical_quality",
-        "recovery"
-      ],
-      "symbol": "NSC",
-      "target_allocation_percent": 6.0,
-      "thesis": "Norfolk Southern is a major U.S. railroad that has faced operational and reputational challenges after high-profile incidents, but recent developments around regulatory, legal, and operational remediation combined with improving freight demand expectations have stabilized the stock and created a potential 5\u201310 day swing setup with an owner-style 30\u2013180 day recovery thesis for monitoring.",
-      "valuation_case": "Relative to historical valuation and peers, NSC trades at a discount reflecting its elevated risk profile; if the company executes on remediation and operations normalize, there is room for both earnings recovery and some multiple re-rating, but investors are being compensated primarily via lower expectations rather than a rock-bottom absolute valuation."
+      "symbol": "XOM",
+      "target_allocation_percent": 0.0,
+      "thesis": "Exxon Mobil is a high-quality integrated energy major with strong balance sheet, disciplined capital allocation, and substantial shareholder returns, but a recent factor piece argues its risk/reward has deteriorated versus a higher-quality, better-momentum peer, making XOM more attractive as a short-horizon contrarian swing candidate only if it stabilizes after recent underperformance.[14]",
+      "valuation_case": "Valuation is not flagged as outright extreme, but the argument is that investors can access similar or better energy exposure with stronger fundamentals and momentum, implying XOM\u2019s price is not especially attractive on a relative basis even if it looks fair on traditional metrics.[12][14]"
     }
   ],
-  "summary": "U.S. equities remain in a narrow, tech/AI-led uptrend with late\u2011cycle, policy\u2011sensitive risk-on behavior; breadth and macro event risk argue for selective, catalyst-driven swing setups with tight risk controls rather than broad exposure."
+  "summary": "US equities sit in a cautious but not-broken tape: leadership is still skewed to large-cap growth/AI while macro and Fed/event risk keep breadth and conviction uneven, so selective, catalyst-driven swing setups are favored over broad risk-on exposure.[1][3]"
 }
 -->
 
@@ -1825,4 +1698,10 @@ No candidates.
 | WMT | Consumer Staples / Retail | execution-ready | consumer-defensive-mega | 0 | yes | 0.71 | 74 | 0 | 0 | 8.0% | 7.0% | execute-if-guards-pass | Recent quarterly earnings beat with solid same-store sales and e‑commerce growth, raised or reaffirmed full-year guidance, and follow-through buying that has pu |
 | UNH | Healthcare / Managed Care | execution-ready | healthcare-defensive-quality | 0 | yes | 0.70 | 73 | 0 | 0 | 7.0% | 8.0% | execute-if-guards-pass | Recent headlines and commentary suggesting better visibility on medical cost trends and regulatory overhangs, plus stabilization and early recovery in share pri |
 | NSC | Industrials / Railroads | execution-ready | industrials-recovery | 0 | yes | 0.63 | 68 | 0 | 0 | 6.0% | 10.0% | execute-if-guards-pass | Ongoing updates on settlements, regulatory agreements, and operational improvements related to prior accidents, along with market commentary about improving fre |
+
+## Latest Candidates - 2026-06-17 12:51:28 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| XOM | Energy | watch | large-cap-energy | 0 | yes | 0.61 | 64 | 0 | 0 | 0.0% | 8.0% | watch | A fresh June 2026 analysis highlights two fundamental reasons to avoid XOM now—concerns around capital efficiency and relative underperformance—while identifyin |
 

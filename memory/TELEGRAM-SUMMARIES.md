@@ -31450,4 +31450,19 @@ Model notes: Industrials/recovery name added to diversify discovery beyond tech,
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: https://www.reuters.com/markets/companies/NSC.N, https://finance.yahoo.com/quote/NSC, https://www.sec.gov/ixviewer/doc?action=load&doc=/Archives/edgar/data/702165/0000702165260000xx/nsc-10k.htm
+## Research Update - 2026-06-17 12:51:28 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities sit in a cautious but not-broken tape: leadership is still skewed to large-cap growth/AI while macro and Fed/event risk keep breadth and conviction uneven, so selective, catalyst-driven swing setups are favored over broad risk-on exposure.[1][3]
+Candidates: 1
+
+1. XOM (Energy) | confidence 0.61 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier watch | bucket large-cap-energy | HF source 0/100
+Recommendation: watch
+Catalyst: A fresh June 2026 analysis highlights two fundamental reasons to avoid XOM now—concerns around capital efficiency and relative underperformance—while identifying a peer with stronger fundamentals and momentum; this negative relative-call...
+Chittick Cash: As a mega-cap energy major, XOM typically trades at reasonable multiples versus its cyclical cash flows and offers a dividend yield that can cushion downside, but the referenced analysis argues that, relative to a com...
+HF filter: sentiment=not run source=0/100 hype=0.10 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=large-cap-energy
+Social buzz, low weight: none
+Congress signal, low weight: none
 
