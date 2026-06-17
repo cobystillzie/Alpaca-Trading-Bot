@@ -31465,4 +31465,127 @@ HF filter: sentiment=not run source=0/100 hype=0.10 vetoes=0
 Self-learning: tier=watch repeat48h=0 fresh=yes bucket=large-cap-energy
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Performance Ledger - 2026-06-17 16:30:04 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-06-17 16:30:03 Eastern Daylight Time
+- Portfolio value: $100,101.83
+- P/L vs $100k baseline: $101.83
+- Full paper-account return: 0.102%
+- Managed-capital return: 1.02%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 1.82%
+- Latest position value: $5,701.83
+- Full-account cash reserve: 94.3%
+- Managed-capital cash reserve: 43.0%
+- Max snapshot drawdown: $328.28 from 2026-05-08 16:30:03 Eastern Daylight Time to 2026-06-09 12:40:01 Eastern Daylight Time
+
+Open Position Review
+- DT: winner, value $836.93, unrealized P/L $36.93, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 40 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: loser, value $453.45, unrealized P/L $-46.55, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 41 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: loser, value $783.98, unrealized P/L $-16.02, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 48 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- IBRX: loser, value $497.94, unrealized P/L $-102.06, entry 2026-05-11 09:48:18 Eastern Daylight Time, thesis age 37 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: winner, value $545.52, unrealized P/L $45.52, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 36 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: winner, value $820.24, unrealized P/L $20.24, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 47 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $807.06, unrealized P/L $7.06, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 42 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $956.71, unrealized P/L $156.71, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 50 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- INTC: appeared 38 times; market outcome unavailable until benchmark/candidate price history is captured.
+- GOOGL: appeared 34 times; open position P/L $-16.02.
+- SCHD: appeared 34 times; open position P/L $7.06.
+- SPMO: appeared 32 times; open position P/L $156.71.
+- NVDA: appeared 29 times; open position P/L $20.24.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MSFT: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- UNP: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VALN: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Candidate references banned v1 instruments or leverage.: 19
+  - Max open-position count would be exceeded.: 12
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 11
+  - Single-stock allocation would exceed 15%.: 7
+  - A market-open order is already logged for today. No backup order was placed.: 5
+  - Candidate is monitor-only and cannot be traded. Confidence below 0.60. Target allocation must be between 1% and 15%. Stop loss must be between 3% and 12%.: 5
+  - Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 5
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources.: 5
+- By symbol:
+  - GOOGL: 5
+  - INTU: 5
+  - INTC: 4
+  - AGI: 3
+  - BAH: 3
+  - KO: 3
+  - PLTR: 3
+  - TMXX.F: 3
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 0
+- unknown: 1
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold met: 8 trades over 50 days.
+- Strategy tuning may be reviewed, but safety guardrails still apply.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## End Of Day Memo - 2026-06-17 16:30:04 Eastern Daylight Time
+
+End Of Day Analyst Memo
+
+Recommendation: Carry forward only evidence-backed candidates; review stops before the next market-open run.
+
+Market Regime
+End-of-day review of paper portfolio, trade quality, risk notes, and next-day watchlist.
+
+Portfolio
+Portfolio value: 100101.83 Cash: 94400 Buying power: 393565.14 Positions: - DT: qty=20.289119959, market_value=836.926198, unrealized_pl=36.926198 - GLRE: qty=28.042624789, market_value=453.449243, unrealized_pl=-46.550757 - GOOGL: qty=2.151289429, market_value=783.979563, unrealized_pl=-16.020437 - IBRX: qty=70.838252656, market_value=497.943329, unrealized_pl=-102.056671 - LNC: qty=14.590020426, market_value=545.520864, unrealized_pl=45.520864 - NVDA: qty=4.00060009, market_value=820.243036, unrealized_pl=20.243036 - SCHD: qty=25.2286345, market_value=807.064018, unrealized_pl=7.064018 - SPMO: qty=6.119014838, market_value=956.70797, unrealized_pl=156.70797 Performance: value $100,101.83, P/L vs $100k $101.83, managed return 1.02%, deployed return 1.82%, managed cash reserve 43.0%.
+
+Top Candidates
+
+1. XOM (Energy) | confidence 0.61 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier watch | bucket large-cap-energy | HF source 0/100
+Thesis: Exxon Mobil is a high-quality integrated energy major with strong balance sheet, disciplined capital allocation, and substantial shareholder returns, but a recent factor piece argues its risk/reward has deteriorated versus a higher-quality, better-momentum peer, making XOM more attractive as a short-horizon contrarian swing candidate only if it stabilizes...
+Catalyst: A fresh June 2026 analysis highlights two fundamental reasons to avoid XOM now—concerns around capital efficiency and relative underperformance—while identifying a peer with stronger fundamentals and momentum; this negative relative-call itself can serve as a short-term sentiment and positioning...
+Entry: For paper-trading, wait for XOM to show a clear daily support zone holding for at least 2–3 sessions and a turn up in short-term momentum (e.g., higher low and a close back above a short-term moving average or recent swing high); then stage in near that rec...
+Exit: Take profits into a 1.8–2.5x reward-to-risk move versus the stop, or earlier if price stalls at prior resistance or if sector ETFs roll over; invalidate the trade and exit on a decisive daily close below support or if new fundamental news further weakens th...
+Risk/reward: This is a contrarian, shorter-term swing framed around potential stabilization after negative relative commentary; upside is moderate and dependent on a sentiment rebound, while downside is limited by a tight technical stop but includes risk of continued dr...
+Bear/adversary: The strongest objection is that there is no clear positive catalyst—only a negative relative call—so trying to swing XOM long may amount to fighting the prevailing quality and momentum signals; capital might be better deployed in the favored peer or in non-energy quality names with cleaner upside...
+Source quality: The main fundamental and relative-value signal comes from a June 2026 Barchart analysis that explicitly lays out reasons to avoid XOM and prefer a different energy stock, providing timely, fundamentals-plus-momentum context rather than generic listicle hype...
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: As a mega-cap energy major, XOM typically trades at reasonable multiples versus its cyclical cash flows and offers a dividend yield that can cushion downside, but the referenced analysis argues that, relative to a comparable energy compa...
+Valuation: Valuation is not flagged as outright extreme, but the argument is that investors can access similar or better energy exposure with stronger fundamentals and momentum, implying XOM’s price is not especially attractive on a relative basis...
+Growth runway: Over 30–180 days, growth is tied to oil and gas price trends, refining margins, and any company updates on capex, shareholder returns, or low-carbon initiatives; structurally, XOM has a long asset life and potential energy-transition pro...
+Balance-sheet risk: As an integrated major, XOM generally maintains an investment-grade balance sheet, diversified cash flows, and ample liquidity, limiting acute balance-sheet risk compared with smaller E&Ps; cyclical earnings and large...
+Capital allocation: The article’s critique effectively centers on capital allocation and opportunity cost: while XOM continues to return cash to shareholders, the author suggests another energy company is deploying capital in a way that...
+Concentration case: For a concentrated-quality portfolio, XOM may not merit a top slot today given the availability of a stronger energy alternative highlighted in the same analysis; thus it belongs more on a watchlist for tactical swings or as a lower-prio...
+Owner thesis, 30-180 days: A 30–180 day owner-style thesis would require either a clear inflection in returns on capital and capital-allocation messaging, or a commodity and margin backdrop that decisively favors integrated majors, plus evidence that XOM is closing the performance ga...
+Chittick reject reason: Owner-style concentration prefers the alternative energy name with stronger fundamentals and momentum flagged in the same research, so XOM is downgraded to watch rather than a primary Chittick Cash vehicle.[14]
+Self-Learning Filter
+Catalyst type: news
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: large-cap-energy
+Research tier: watch
+Allocation learning: Given a fresh, well-argued case to avoid or underweight XOM in favor of a better energy peer, this name should not receive significant allocation in the current regime and is better used as a benchmark for evaluating the highlighted alte...
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.10
+Evidence rank: 1/100
+Memory similarity: 0.00
+Vetoes: none
+Model notes: Treated explicitly as a relative underperformer per fresh June 2026 analysis; retained only as a watch candidate, not an execution-ready trade, to honor quality and momentum requirements.[14]
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.barchart.com/story/news/2513695/2-reasons-to-avoid-xom-and-1-stock-to-buy-instead
 
