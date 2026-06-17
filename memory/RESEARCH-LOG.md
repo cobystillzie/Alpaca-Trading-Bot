@@ -1540,4 +1540,11 @@ Premarket plan built from latest watchlist.
 U.S. equities remain in a narrow, tech/AI-led uptrend with late‑cycle, policy‑sensitive risk-on behavior; breadth and macro event risk argue for selective, catalyst-driven swing setups with tight risk controls rather than broad exposure.
 
 Candidates found: 3
+## Premarket Plan - 2026-06-17 08:25:02 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- WMT: score=86, base=95, chittick=74, approved=True, allocation=8.0%, stop=7.0%
+- UNH: score=85, base=95, chittick=73, approved=True, allocation=7.0%, stop=8.0%
+- NSC: score=84, base=95, chittick=68, approved=True, allocation=6.0%, stop=10.0%
 
