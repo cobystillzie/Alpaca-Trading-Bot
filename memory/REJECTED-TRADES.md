@@ -476,4 +476,13 @@ Target allocation must be between 1% and 15%.
 
 Candidate is monitor-only and cannot be traded.
 Target allocation must be between 1% and 15%.
+## Rejected WMT - 2026-06-17 09:55:05 Eastern Daylight Time
+
+Max open-position count would be exceeded.
+## Rejected UNH - 2026-06-17 09:55:05 Eastern Daylight Time
+
+Max open-position count would be exceeded.
+## Rejected NSC - 2026-06-17 09:55:05 Eastern Daylight Time
+
+Max open-position count would be exceeded.
 
