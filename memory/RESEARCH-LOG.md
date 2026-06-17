@@ -1526,4 +1526,13 @@ Candidates found: 1
 US equities remain in a late‑cycle, moderately risk‑on environment with improved breadth beyond mega‑cap tech, but higher‑for‑longer Fed expectations and elevated index levels argue for disciplined, catalyst‑driven swing setups with tight risk controls.
 
 Candidates found: 3
+## Premarket Plan - 2026-06-16 22:32:54 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- SLB: score=83, base=95, chittick=66, approved=True, allocation=6.0%, stop=8.0%
+- NTCAX: score=70, base=100, chittick=10, approved=False, allocation=0.0%, stop=5.0%
+  rejects: Candidate is monitor-only and cannot be traded.; Target allocation must be between 1% and 15%.
+- GENERIC-CLIMATE-ETF: score=77, base=100, chittick=35, approved=False, allocation=0.0%, stop=5.0%
+  rejects: Target allocation must be between 1% and 15%.
 

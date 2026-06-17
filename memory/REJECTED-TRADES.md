@@ -466,4 +466,14 @@ Target allocation must be between 1% and 15%.
 
 Candidate is monitor-only and cannot be traded.
 Target allocation must be between 1% and 15%.
+## Rejected SLB - 2026-06-16 22:32:55 Eastern Daylight Time
+
+Max open-position count would be exceeded.
+## Rejected GENERIC-CLIMATE-ETF - 2026-06-16 22:32:55 Eastern Daylight Time
+
+Target allocation must be between 1% and 15%.
+## Rejected NTCAX - 2026-06-16 22:32:55 Eastern Daylight Time
+
+Candidate is monitor-only and cannot be traded.
+Target allocation must be between 1% and 15%.
 
