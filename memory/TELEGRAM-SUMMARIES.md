@@ -31588,4 +31588,37 @@ Model notes: Treated explicitly as a relative underperformer per fresh June 2026
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: https://www.barchart.com/story/news/2513695/2-reasons-to-avoid-xom-and-1-stock-to-buy-instead
+## Research Update - 2026-06-18 07:51:33 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities remain in a cautious, choppy risk-on tilt led by growth/AI and select momentum pockets, but with fragile breadth and elevated event risk; this favors selective, catalyst-backed swing setups with tight risk controls over broad beta chasing.
+Candidates: 3
+
+1. TER (Information Technology – Semiconductor Equipment) | confidence 0.70 | allocation 8.0% | stop 8.0% | Chittick 74/100 | tier execution-ready | bucket semicap-equipment-AI-adjacent
+Recommendation: execute-if-guards-pass
+Catalyst: Stock surged 5.72% in the last session, approaching its 52-week high at $437.77; a breakout above that level would put shares in new high territory and tends to attract incremental momentum-driven buying according to Weiss Ratings commen...
+Chittick Cash: Near 52-week highs, valuation likely embeds positive AI and semi upcycle expectations; margin of safety is driven more by business quality and secular AI/automation tailwinds than by a cheap multiple, so this is a sho...
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=semicap-equipment-AI-adjacent
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+2. LULU (Consumer Discretionary – Apparel & Specialty Retail) | confidence 0.66 | allocation 6.0% | stop 9.0% | Chittick 70/100 | tier watch | bucket consumer-discretionary-brand
+Recommendation: watch
+Catalyst: 24/7 Wall St. highlighted Lululemon as a 'textbook beaten-down name' that could 'roar back' in June, noting shares have already rebounded sharply from lows, suggesting a sentiment and momentum inflection after prior weakness.[10]
+Chittick Cash: After a heavy drawdown and partial recovery, LULU likely trades below prior peak valuation multiples but still at a premium to average apparel peers; margin of safety is modest and based more on brand durability and b...
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=consumer-discretionary-brand
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. AMC (Communication Services – Entertainment/Movies) | confidence 0.60 | allocation 1.0% | stop 10.0% | Chittick 28/100 | tier watch-allocation-constrained | bucket speculative-entertainment-meme
+Recommendation: watch
+Catalyst: Stock is up about 9.24% on the day with a run from $1.58 on 05/27 to $2.73 on 06/17, supported by record May attendance headlines and CEO Adam Aron’s purchase of 250,000 shares at $1.38, increasing his stake above 2.4 million shares.[7]
+Chittick Cash: There is effectively no margin of safety: leverage, industry headwinds, and prior dilution leave equity holders exposed; the trade is purely about short-term price dislocation, not intrinsic value.[7]
+HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
+Self-learning: tier=watch-allocation-constrained repeat48h=0 fresh=yes bucket=speculative-entertainment-meme
+Social buzz, low weight: heightened meme-style attention around record attendance and CEO share purchase, but this is not used as a primary signal.[7]
+Congress signal, low weight: none
 

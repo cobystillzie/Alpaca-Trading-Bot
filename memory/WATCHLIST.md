@@ -4,63 +4,184 @@
 {
   "candidates": [
     {
-      "adversary_case": "The strongest objection is that there is no clear positive catalyst\u2014only a negative relative call\u2014so trying to swing XOM long may amount to fighting the prevailing quality and momentum signals; capital might be better deployed in the favored peer or in non-energy quality names with cleaner upside catalysts.",
-      "allocation_learning_note": "Given a fresh, well-argued case to avoid or underweight XOM in favor of a better energy peer, this name should not receive significant allocation in the current regime and is better used as a benchmark for evaluating the highlighted alternative.",
-      "balance_sheet_risk": "As an integrated major, XOM generally maintains an investment-grade balance sheet, diversified cash flows, and ample liquidity, limiting acute balance-sheet risk compared with smaller E&Ps; cyclical earnings and large capex programs still require careful monitoring but do not currently suggest distress.[12][14]",
-      "bear_case": "If oil prices soften or stay range-bound while XOM continues to lag better-positioned peers on returns and growth, the stock could drift sideways or down and tie up capital; ESG and energy-transition pressures, capex missteps, or further factor de-rating of value/energy could also weigh on the shares.[12][14]",
-      "capital_allocation_case": "The article\u2019s critique effectively centers on capital allocation and opportunity cost: while XOM continues to return cash to shareholders, the author suggests another energy company is deploying capital in a way that produces superior fundamentals and momentum, raising questions about whether XOM is the best use of capital now.[14]",
-      "catalyst": "A fresh June 2026 analysis highlights two fundamental reasons to avoid XOM now\u2014concerns around capital efficiency and relative underperformance\u2014while identifying a peer with stronger fundamentals and momentum; this negative relative-call itself can serve as a short-term sentiment and positioning catalyst if XOM finds support after being de-emphasized.[14]",
-      "catalyst_type": "news",
-      "chittick_cash_score": 64.0,
-      "chittick_reject_reason": "Owner-style concentration prefers the alternative energy name with stronger fundamentals and momentum flagged in the same research, so XOM is downgraded to watch rather than a primary Chittick Cash vehicle.[14]",
-      "concentration_case": "For a concentrated-quality portfolio, XOM may not merit a top slot today given the availability of a stronger energy alternative highlighted in the same analysis; thus it belongs more on a watchlist for tactical swings or as a lower-priority energy anchor than as a core owner-style holding.[12][14]",
-      "confidence": 0.61,
+      "adversary_case": "Buying near a 52-week high in a cyclical industry after a 5%+ day courts late-entry risk; a modest pullback could offer a better entry with more favorable skew, and earnings/macro crosscurrents could abruptly end the breakout.",
+      "allocation_learning_note": "Size in the mid-range to respect semiconductor cyclicality and choppy macro while still making the breakout meaningful for paper-testing results.",
+      "balance_sheet_risk": "As an established semi-equipment provider, Teradyne historically operates with a solid balance sheet and no outsized leverage (based on sector norms); key risks are cyclicality and order volatility rather than solvency.",
+      "bear_case": "Semiconductor and capex-related names are cyclical; a pause in AI/chip spending, macro data disappointment, or a failed breakout could quickly retrace recent gains. TER is also extended near highs, so buying a failed breakout risks buying the short-term top.",
+      "capital_allocation_case": "Management has historically reinvested in R&D and automation while returning capital through buybacks/dividends in cycles; this aligns reasonably with an owner-mindset but is not a deep value capital-allocation story in the current setup.",
+      "catalyst": "Stock surged 5.72% in the last session, approaching its 52-week high at $437.77; a breakout above that level would put shares in new high territory and tends to attract incremental momentum-driven buying according to Weiss Ratings commentary.[3]",
+      "catalyst_type": "momentum",
+      "chittick_cash_score": 74.0,
+      "chittick_reject_reason": "",
+      "concentration_case": "TER offers focused exposure to AI/semiconductor test versus owning a broad ETF; it deserves attention as a targeted way to express semi-cap strength while still reflecting a real underlying business with durable demand drivers.",
+      "confidence": 0.7,
       "congressional_signal": "none",
-      "diversity_bucket": "large-cap-energy",
-      "entry_plan": "For paper-trading, wait for XOM to show a clear daily support zone holding for at least 2\u20133 sessions and a turn up in short-term momentum (e.g., higher low and a close back above a short-term moving average or recent swing high); then stage in near that reclaim with a tight technical stop just below the identified support band.",
-      "exit_plan": "Take profits into a 1.8\u20132.5x reward-to-risk move versus the stop, or earlier if price stalls at prior resistance or if sector ETFs roll over; invalidate the trade and exit on a decisive daily close below support or if new fundamental news further weakens the quality or capital-allocation case.",
+      "diversity_bucket": "semicap-equipment-AI-adjacent",
+      "entry_plan": "Paper entry only on a confirmed breakout above $438\u2013$440 with above-average volume; if the prior close remains near $432\u2013$437, place a buy-stop-limit slightly above resistance (e.g., trigger $439, limit $442) to avoid thin spikes.",
+      "exit_plan": "Initial profit target around 6\u201310% above entry (e.g., $465\u2013$485) or into the first signs of exhaustion (reversal candle on high volume). Invalidation if price closes back below ~$420 or loses the breakout level by more than 3\u20134% on volume; use a hard stop around 8% below entry for paper testing.",
       "fresh_catalyst": true,
-      "growth_runway": "Over 30\u2013180 days, growth is tied to oil and gas price trends, refining margins, and any company updates on capex, shareholder returns, or low-carbon initiatives; structurally, XOM has a long asset life and potential energy-transition projects but faces uncertain returns and policy risk over the longer term.[12][14]",
-      "hf_evidence_rank": 0.6,
+      "growth_runway": "Over 30\u2013180 days, Teradyne can benefit from continued AI data-center investment, next-gen chip ramps, and eventual cyclical normalization in broader semiconductor test demand; longer term, industrial automation and robotics add an additional growth lever beyond semis.[3]",
+      "hf_evidence_rank": 0.0,
       "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.1,
+      "hf_hype_risk": 0.0,
       "hf_memory_similarity": 0.0,
-      "hf_model_notes": "Treated explicitly as a relative underperformer per fresh June 2026 analysis; retained only as a watch candidate, not an execution-ready trade, to honor quality and momentum requirements.[14]",
+      "hf_model_notes": "",
       "hf_sentiment_agreement": 0.0,
       "hf_sentiment_label": "",
       "hf_sentiment_score": 0.0,
       "hf_source_quality_score": 0.0,
       "horizon_days": 5,
-      "margin_of_safety_case": "As a mega-cap energy major, XOM typically trades at reasonable multiples versus its cyclical cash flows and offers a dividend yield that can cushion downside, but the referenced analysis argues that, relative to a comparable energy company with better fundamentals and momentum, XOM\u2019s margin of safety is weaker at current levels.[12][14]",
-      "market_regime": "In a neutral-to-mild-risk-on regime where quality and momentum factors are still rewarded, an energy major with a questioned momentum profile may continue to underperform unless there is either a clear commodities tailwind or company-specific catalyst; broad risk-off would add cyclical pressure to energy exposure.[1][3][12]",
-      "momentum_case": "The cited piece frames XOM as a relative laggard versus a stronger energy peer, implying weaker recent price momentum and factor headwinds in quality and price-momentum baskets; a swing setup would rely on a potential mean-reversion or base-building pattern after this underperformance rather than strong existing momentum.[12][14]",
-      "owner_hold_case": "A 30\u2013180 day owner-style thesis would require either a clear inflection in returns on capital and capital-allocation messaging, or a commodity and margin backdrop that decisively favors integrated majors, plus evidence that XOM is closing the performance gap with peers; absent that, it is better treated as a tactical, not owner, position.",
-      "quality_case": "XOM remains one of the largest integrated oil & gas companies globally with diversified upstream, downstream, and chemicals operations, long-lived assets, and a long record of dividends and buybacks; its scale and integration provide resilience across commodity cycles, although recent commentary questions whether its current capital allocation and growth profile justify index-level or overweight exposure at current prices.[14]",
-      "recommendation": "watch",
+      "margin_of_safety_case": "Near 52-week highs, valuation likely embeds positive AI and semi upcycle expectations; margin of safety is driven more by business quality and secular AI/automation tailwinds than by a cheap multiple, so this is a shorter-term tactical play rather than a classic value entry.[3]",
+      "market_regime": "In a regime where AI/semis remain key leadership but reversals around macro headlines are frequent, a breakout play like TER should be sized conservatively with pre-defined stops and avoidance of chasing large intraday spikes.",
+      "momentum_case": "Shares jumped 5.7% in one session and are now knocking on the door of their 52-week high around $437.77, a classic breakout zone where further upside can be fueled if volume remains elevated and resistance is cleared decisively.[3]",
+      "owner_hold_case": "An owner-style 30\u2013180 day thesis would rest on sustained AI/semiconductor capex, incremental design wins, and visibility into a broader semi upcycle; however, current plan is a 3\u20137 day swing, with any owner-hold reconsidered only if the breakout is orderly and supported by further fundamental data.",
+      "quality_case": "Teradyne provides automated test equipment used in semiconductors and electronics, a critical, high-barrier niche closely tied to chip complexity and volumes; this historically supports strong returns on capital and cash generation in upcycles (inferred from long-term industry positioning).[3]",
+      "recommendation": "execute-if-guards-pass",
       "repeat_count_48h": 0,
-      "research_tier": "watch",
-      "risk_reward": "This is a contrarian, shorter-term swing framed around potential stabilization after negative relative commentary; upside is moderate and dependent on a sentiment rebound, while downside is limited by a tight technical stop but includes risk of continued drift if the factor headwinds persist.",
-      "sector": "Energy",
+      "research_tier": "execution-ready",
+      "risk_reward": "If the breakout holds, upside of roughly 1.0\u20131.5x the 8% downside risk is plausible in a 3\u20137 day window; skew is acceptable but not exceptional, so strict discipline on entries and stops is required.",
+      "sector": "Information Technology \u2013 Semiconductor Equipment",
       "signal_weights": {
         "congressional_signal": 0.0,
         "social_buzz": 0.0
       },
       "social_buzz": "none",
-      "source_quality": "The main fundamental and relative-value signal comes from a June 2026 Barchart analysis that explicitly lays out reasons to avoid XOM and prefer a different energy stock, providing timely, fundamentals-plus-momentum context rather than generic listicle hype.[14]",
+      "source_quality": "Primary data are from a Weiss Ratings market note citing exact price move, proximity to 52-week high, and an explicit Buy rating, which is a reasonably credible secondary research source.[3]",
       "source_urls": [
-        "https://www.barchart.com/story/news/2513695/2-reasons-to-avoid-xom-and-1-stock-to-buy-instead"
+        "https://www.weissratings.com/en/instant-news-alerts/teradyne-inc-ter-up-5-7-time-to-press-the-buy-button"
       ],
       "stop_loss_percent": 8.0,
       "strategy_tags": [
-        "chittick_cash"
+        "chittick_cash",
+        "momentum",
+        "quality-growth",
+        "semicap"
       ],
-      "symbol": "XOM",
-      "target_allocation_percent": 0.0,
-      "thesis": "Exxon Mobil is a high-quality integrated energy major with strong balance sheet, disciplined capital allocation, and substantial shareholder returns, but a recent factor piece argues its risk/reward has deteriorated versus a higher-quality, better-momentum peer, making XOM more attractive as a short-horizon contrarian swing candidate only if it stabilizes after recent underperformance.[14]",
-      "valuation_case": "Valuation is not flagged as outright extreme, but the argument is that investors can access similar or better energy exposure with stronger fundamentals and momentum, implying XOM\u2019s price is not especially attractive on a relative basis even if it looks fair on traditional metrics.[12][14]"
+      "symbol": "TER",
+      "target_allocation_percent": 8.0,
+      "thesis": "Teradyne is a high-quality semiconductor test and industrial automation company benefiting from structural AI/semiconductor capital spending and showing a fresh breakout attempt toward new highs, offering a 3\u20137 day catalyst-backed momentum swing within a durable quality franchise.",
+      "valuation_case": "Weiss assigns a B (Buy) rating, implying reasonable risk-adjusted value, but the immediate setup is momentum at the upper end of the recent range, not a depressed valuation; any multiple compression would hurt the thesis in the short term.[3]"
+    },
+    {
+      "adversary_case": "The rebound may already discount much of the good news; the article\u2019s 'could roar back' framing is partly narrative-driven and may not reflect new hard fundamentals. A macro wobble or company-specific negative update could quickly retrace recent gains.",
+      "allocation_learning_note": "Keep allocation mid-single-digit in any future execution phase to respect discretionary cyclicality and narrative-driven volatility.",
+      "balance_sheet_risk": "LULU historically runs with low financial leverage and strong cash generation for a retailer; primary risks are demand volatility and inventory rather than balance-sheet solvency.",
+      "bear_case": "Consumer discretionary exposure creates risk if spending slows or competition intensifies; fashion missteps, inventory issues, or guidance disappointments could re-open the downside. The recent strong rebound also raises risk of a near-term consolidation or pullback rather than a straight-line continuation.",
+      "capital_allocation_case": "Management has historically reinvested in growth (stores, digital, product) and returned capital via buybacks; capital allocation is generally disciplined but requires monitoring if growth slows and buybacks accelerate at high multiples.",
+      "catalyst": "24/7 Wall St. highlighted Lululemon as a 'textbook beaten-down name' that could 'roar back' in June, noting shares have already rebounded sharply from lows, suggesting a sentiment and momentum inflection after prior weakness.[10]",
+      "catalyst_type": "momentum",
+      "chittick_cash_score": 70.0,
+      "chittick_reject_reason": "",
+      "concentration_case": "Compared with a consumer ETF, LULU offers focused exposure to a premium athleisure brand with idiosyncratic rebound potential, which can be helpful for testing discretionary rebound setups separate from broad market beta.",
+      "confidence": 0.66,
+      "congressional_signal": "none",
+      "diversity_bucket": "consumer-discretionary-brand",
+      "entry_plan": "Look for a controlled pullback of 3\u20136% from the latest swing high on declining volume, then a turn back up (higher low) as a paper entry. Avoid chasing large gap-ups; prefer entering near short-term support with a clear technical level to define risk.",
+      "exit_plan": "Initial profit-taking on a 7\u201312% bounce from entry or into the next test of a prior resistance zone. Invalidate the trade on a close below the recent higher-low support or if LULU underperforms the broader discretionary/market indices by more than ~5% over a few sessions; cap paper loss near 8\u201310%.",
+      "fresh_catalyst": true,
+      "growth_runway": "30\u2013180 day drivers include international expansion, men\u2019s category growth, and potential demand normalization post-controversy or execution hiccups; however those drivers are slower-moving than a 5\u201310 day swing horizon and belong in a separate owner-hold review.",
+      "hf_evidence_rank": 0.0,
+      "hf_filter_vetoes": [],
+      "hf_hype_risk": 0.0,
+      "hf_memory_similarity": 0.0,
+      "hf_model_notes": "",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "",
+      "hf_sentiment_score": 0.0,
+      "hf_source_quality_score": 0.0,
+      "horizon_days": 7,
+      "margin_of_safety_case": "After a heavy drawdown and partial recovery, LULU likely trades below prior peak valuation multiples but still at a premium to average apparel peers; margin of safety is modest and based more on brand durability and balance-sheet strength than on deep-value pricing.[10]",
+      "market_regime": "In a market where leadership is broadening somewhat from pure mega-cap tech toward select cyclicals and consumer names, a LULU rebound can work, but any macro risk-off shock could hit discretionary names harder than defensives.",
+      "momentum_case": "The article notes shares have surged more than 79% from a recent low, indicating that after being beaten down, LULU has attracted aggressive dip-buying and may be transitioning from oversold to recovery trend, a classic swing-trade pattern if pullbacks hold higher lows.[10]",
+      "owner_hold_case": "An owner-style 30\u2013180 day thesis would require evidence that recent demand and margin concerns are stabilizing (e.g., improved guidance, inventory control) and that brand momentum remains intact; until such data are available, this remains a shorter-horizon swing watch.",
+      "quality_case": "Lululemon has historically combined high gross margins with strong brand strength in premium athletic apparel, a category with secular growth; its profitable global footprint and product innovation support a quality-business lens despite fashion and consumer-cyclical risks.[10]",
+      "recommendation": "watch",
+      "repeat_count_48h": 0,
+      "research_tier": "watch",
+      "risk_reward": "If LULU can extend its rebound, a 2:1 reward-to-risk is feasible over 5\u201310 days; however, volatility is elevated and the path likely choppy, so position sizing and patience are critical.",
+      "sector": "Consumer Discretionary \u2013 Apparel & Specialty Retail",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "none",
+      "source_quality": "Evidence is from a 24/7 Wall St. feature identifying LULU as a high-conviction rebound idea with concrete performance statistics; while not primary research, it is a mainstream finance outlet with data-driven context.[10]",
+      "source_urls": [
+        "https://247wallst.com/investing/2026/06/17/3-beaten-down-stocks-that-could-roar-back-in-june/"
+      ],
+      "stop_loss_percent": 9.0,
+      "strategy_tags": [
+        "chittick_cash",
+        "quality-consumer",
+        "rebound",
+        "swing"
+      ],
+      "symbol": "LULU",
+      "target_allocation_percent": 6.0,
+      "thesis": "Lululemon is a profitable, global athleisure brand with strong historical growth and brand equity that has been heavily sold off; recent analysis highlights it as a beaten-down candidate that could rebound if execution stabilizes and sentiment mean-reverts, making it suitable for a cautious 5\u201310 day swing off depressed levels.",
+      "valuation_case": "The 'beaten-down' framing implies prior de-rating, yet a 79% rebound from lows suggests valuation has already partially re-rated; near term, valuation is fair rather than cheap, acceptable for a tactical swing but less compelling for a strict value entry.[10]"
+    },
+    {
+      "adversary_case": "Given weak fundamentals and meme history, the better move may be to avoid AMC entirely and focus research time on higher-quality names; any capital (even paper) allocated here diverts attention from more repeatable edge.",
+      "allocation_learning_note": "Treat as a testbed for tiny-position, high-volatility momentum, with explicit rules that such names remain deeply allocation-constrained even if signals appear strong.",
+      "balance_sheet_risk": "High: AMC has significant debt and has historically used equity issuance and restructurings to survive, raising dilution and solvency concerns.[7]",
+      "bear_case": "High debt load, ongoing structural headwinds for theaters, and prior meme volatility create extreme downside risk; the current spike could be a classic bull trap, and liquidity events (ATM offerings, debt maneuvers) can quickly dilute shareholders.",
+      "capital_allocation_case": "Capital allocation has been defensive and survival-oriented (debt management, equity issuance), not owner-friendly; this is misaligned with the Chittick Cash quality lens.",
+      "catalyst": "Stock is up about 9.24% on the day with a run from $1.58 on 05/27 to $2.73 on 06/17, supported by record May attendance headlines and CEO Adam Aron\u2019s purchase of 250,000 shares at $1.38, increasing his stake above 2.4 million shares.[7]",
+      "catalyst_type": "news",
+      "chittick_cash_score": 28.0,
+      "chittick_reject_reason": "Fails quality, margin-of-safety, and balance-sheet criteria; only included as a watch-level example of extreme momentum rather than a Chittick-aligned candidate.",
+      "concentration_case": "AMC should never be a concentrated position; at most, it is a tiny, experimental sleeve for studying extreme momentum behavior in a paper environment.",
+      "confidence": 0.6,
+      "congressional_signal": "none",
+      "diversity_bucket": "speculative-entertainment-meme",
+      "entry_plan": "If used at all, only for paper-testing: consider a micro-sized entry on an intraday pullback of 10\u201315% toward prior support after the spike, with confirmation that volume remains strong and price holds above roughly $2.20\u2013$2.30.",
+      "exit_plan": "Target a fast 15\u201325% move from entry, taking profits into strength and not overstaying; invalidate the trade on a break and close below recent support or if the gain reverses more than 10% from peak; use a hard 10\u201312% stop for paper purposes.",
+      "fresh_catalyst": true,
+      "growth_runway": "Over 30\u2013180 days, box-office recovery and better content slates could help, but secular headwinds and financing constraints loom; this does not justify an owner-hold frame and is excluded from that lane.",
+      "hf_evidence_rank": 0.0,
+      "hf_filter_vetoes": [],
+      "hf_hype_risk": 0.0,
+      "hf_memory_similarity": 0.0,
+      "hf_model_notes": "",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "",
+      "hf_sentiment_score": 0.0,
+      "hf_source_quality_score": 0.0,
+      "horizon_days": 3,
+      "margin_of_safety_case": "There is effectively no margin of safety: leverage, industry headwinds, and prior dilution leave equity holders exposed; the trade is purely about short-term price dislocation, not intrinsic value.[7]",
+      "market_regime": "In a risk-on pocket with speculative names occasionally catching flows, AMC can see sharp extensions, but in any risk-off episode or if meme appetite wanes, it can unwind abruptly.",
+      "momentum_case": "Price has nearly doubled in three weeks (from $1.58 to $2.73) with a single-session gain over 9%, indicating powerful short-term momentum and speculative interest; such moves often see rapid follow-through but also violent reversals.[7]",
+      "owner_hold_case": "Not appropriate for a 30\u2013180 day owner thesis under the Chittick framework due to low quality and high leverage; treat strictly as a short-term trading study, if at all.",
+      "quality_case": "Fundamentally, AMC remains a leveraged, structurally challenged cinema operator exposed to secular streaming competition; the business does not meet strict quality standards, and this setup is not a margin-of-safety value play.[7]",
+      "recommendation": "watch",
+      "repeat_count_48h": 0,
+      "research_tier": "watch-allocation-constrained",
+      "risk_reward": "Potential upside can be large in percentage terms but so is the downside; the distribution is fat-tailed and unsuitable for large allocations, making this best framed as a small, high-volatility experiment rather than a core swing.",
+      "sector": "Communication Services \u2013 Entertainment/Movies",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.05
+      },
+      "social_buzz": "heightened meme-style attention around record attendance and CEO share purchase, but this is not used as a primary signal.[7]",
+      "source_quality": "Timothy Sykes-style coverage provides real-time price, volume, and catalyst description (record attendance plus insider buy), but is oriented toward trading narratives rather than deep fundamental research.[7]",
+      "source_urls": [
+        "https://www.timothysykes.com/news/amc-entertainment-holdings-inc-amc-news-2026_06_17/"
+      ],
+      "stop_loss_percent": 10.0,
+      "strategy_tags": [
+        "high-risk-momentum",
+        "event-driven",
+        "speculative",
+        "not-core-chittick"
+      ],
+      "symbol": "AMC",
+      "target_allocation_percent": 1.0,
+      "thesis": "AMC is a highly speculative turnaround/meme-adjacent theater chain showing a sharp price spike on improved box-office data and insider buying; despite low fundamental quality, it presents a short-lived, event-driven swing candidate suitable only as a very small, high-risk paper-trade test of how the bot handles extreme momentum.",
+      "valuation_case": "Valuation is not a meaningful anchor here due to repeated capital structure changes and meme volatility; any apparent cheapness on simple multiples may be illusory given balance-sheet risk.[7]"
     }
   ],
-  "summary": "US equities sit in a cautious but not-broken tape: leadership is still skewed to large-cap growth/AI while macro and Fed/event risk keep breadth and conviction uneven, so selective, catalyst-driven swing setups are favored over broad risk-on exposure.[1][3]"
+  "summary": "US equities remain in a cautious, choppy risk-on tilt led by growth/AI and select momentum pockets, but with fragile breadth and elevated event risk; this favors selective, catalyst-backed swing setups with tight risk controls over broad beta chasing."
 }
 -->
 
@@ -1704,4 +1825,12 @@ No candidates.
 | Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
 |---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
 | XOM | Energy | watch | large-cap-energy | 0 | yes | 0.61 | 64 | 0 | 0 | 0.0% | 8.0% | watch | A fresh June 2026 analysis highlights two fundamental reasons to avoid XOM now—concerns around capital efficiency and relative underperformance—while identifyin |
+
+## Latest Candidates - 2026-06-18 07:51:33 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| TER | Information Technology – Semiconductor Equipment | execution-ready | semicap-equipment-AI-adjacent | 0 | yes | 0.70 | 74 | 0 | 0 | 8.0% | 8.0% | execute-if-guards-pass | Stock surged 5.72% in the last session, approaching its 52-week high at $437.77; a breakout above that level would put shares in new high territory and tends to |
+| LULU | Consumer Discretionary – Apparel & Specialty Retail | watch | consumer-discretionary-brand | 0 | yes | 0.66 | 70 | 0 | 0 | 6.0% | 9.0% | watch | 24/7 Wall St. highlighted Lululemon as a 'textbook beaten-down name' that could 'roar back' in June, noting shares have already rebounded sharply from lows, sug |
+| AMC | Communication Services – Entertainment/Movies | watch-allocation-constrained | speculative-entertainment-meme | 0 | yes | 0.60 | 28 | 0 | 0 | 1.0% | 10.0% | watch | Stock is up about 9.24% on the day with a run from $1.58 on 05/27 to $2.73 on 06/17, supported by record May attendance headlines and CEO Adam Aron’s purchase o |
 
