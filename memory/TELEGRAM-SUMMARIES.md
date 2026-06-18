@@ -31727,4 +31727,183 @@ Sources: https://www.timothysykes.com/news/amc-entertainment-holdings-inc-amc-ne
 
 Rejected / Watchouts
 - AMC: Low-weight social/congress signal needs at least two stronger sources.
+## Performance Ledger - 2026-06-18 12:40:02 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-06-18 12:40:02 Eastern Daylight Time
+- Portfolio value: $100,149.24
+- P/L vs $100k baseline: $149.24
+- Full paper-account return: 0.149%
+- Managed-capital return: 1.49%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 2.66%
+- Latest position value: $5,749.15
+- Full-account cash reserve: 94.3%
+- Managed-capital cash reserve: 42.5%
+- Max snapshot drawdown: $328.28 from 2026-05-08 16:30:03 Eastern Daylight Time to 2026-06-09 12:40:01 Eastern Daylight Time
+
+Open Position Review
+- DT: winner, value $837.23, unrealized P/L $37.23, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 41 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: loser, value $450.36, unrealized P/L $-49.64, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 42 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: loser, value $788.21, unrealized P/L $-11.79, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 49 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- IBRX: loser, value $503.66, unrealized P/L $-96.34, entry 2026-05-11 09:48:18 Eastern Daylight Time, thesis age 38 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: winner, value $544.35, unrealized P/L $44.35, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 37 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: winner, value $844.02, unrealized P/L $44.02, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 48 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $803.01, unrealized P/L $3.01, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 43 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $978.31, unrealized P/L $178.31, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 51 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- INTC: appeared 38 times; market outcome unavailable until benchmark/candidate price history is captured.
+- GOOGL: appeared 34 times; open position P/L $-11.79.
+- SCHD: appeared 34 times; open position P/L $3.01.
+- SPMO: appeared 32 times; open position P/L $178.31.
+- NVDA: appeared 29 times; open position P/L $44.02.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MSFT: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- UNP: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VALN: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Candidate references banned v1 instruments or leverage.: 19
+  - Max open-position count would be exceeded.: 14
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 11
+  - Single-stock allocation would exceed 15%.: 7
+  - Low-weight social/congress signal needs at least two stronger sources.: 6
+  - A market-open order is already logged for today. No backup order was placed.: 5
+  - Candidate is monitor-only and cannot be traded. Confidence below 0.60. Target allocation must be between 1% and 15%. Stop loss must be between 3% and 12%.: 5
+  - Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 5
+- By symbol:
+  - GOOGL: 5
+  - INTU: 5
+  - INTC: 4
+  - AGI: 3
+  - BAH: 3
+  - KO: 3
+  - PLTR: 3
+  - TMXX.F: 3
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 0
+- unknown: 3
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold met: 8 trades over 51 days.
+- Strategy tuning may be reviewed, but safety guardrails still apply.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## Midday Memo - 2026-06-18 12:40:02 Eastern Daylight Time
+
+Midday Risk Memo
+
+Recommendation: Hold only positions whose thesis still matches the research; do not add unless guardrails pass.
+
+Market Regime
+Review current paper positions, thesis drift, concentration, stop discipline, and cash reserve.
+
+Portfolio
+Portfolio value: 100149.24 Cash: 94400 Buying power: 393697.88 Positions: - DT: qty=20.289119959, market_value=837.230535, unrealized_pl=37.230535 - GLRE: qty=28.042624789, market_value=450.36175, unrealized_pl=-49.63825 - GOOGL: qty=2.151289429, market_value=788.208783, unrealized_pl=-11.791217 - IBRX: qty=70.838252656, market_value=503.659976, unrealized_pl=-96.340024 - LNC: qty=14.590020426, market_value=544.353662, unrealized_pl=44.353662 - NVDA: qty=4.00060009, market_value=844.015802, unrealized_pl=44.015802 - SCHD: qty=25.2286345, market_value=803.012299, unrealized_pl=3.012299 - SPMO: qty=6.119014838, market_value=978.308092, unrealized_pl=178.308092 Performance: value $100,149.24, P/L vs $100k $149.24, managed return 1.49%, deployed return 2.66%, managed cash reserve 42.5%.
+
+Top Candidates
+
+1. TER (Information Technology – Semiconductor Equipment) | confidence 0.70 | allocation 0.0% | stop 8.0% | Chittick 74/100 | tier allocation-muted | bucket semicap-equipment-AI-adjacent
+Thesis: Teradyne is a high-quality semiconductor test and industrial automation company benefiting from structural AI/semiconductor capital spending and showing a fresh breakout attempt toward new highs, offering a 3–7 day catalyst-backed momentum swing within a durable quality franchise.
+Catalyst: Stock surged 5.72% in the last session, approaching its 52-week high at $437.77; a breakout above that level would put shares in new high territory and tends to attract incremental momentum-driven buying according to Weiss Ratings commentary.[3]
+Entry: Paper entry only on a confirmed breakout above $438–$440 with above-average volume; if the prior close remains near $432–$437, place a buy-stop-limit slightly above resistance (e.g., trigger $439, limit $442) to avoid thin spikes.
+Exit: Initial profit target around 6–10% above entry (e.g., $465–$485) or into the first signs of exhaustion (reversal candle on high volume). Invalidation if price closes back below ~$420 or loses the breakout level by more than 3–4% on volume; use a hard stop a...
+Risk/reward: If the breakout holds, upside of roughly 1.0–1.5x the 8% downside risk is plausible in a 3–7 day window; skew is acceptable but not exceptional, so strict discipline on entries and stops is required.
+Bear/adversary: Buying near a 52-week high in a cyclical industry after a 5%+ day courts late-entry risk; a modest pullback could offer a better entry with more favorable skew, and earnings/macro crosscurrents could abruptly end the breakout.
+Source quality: Primary data are from a Weiss Ratings market note citing exact price move, proximity to 52-week high, and an explicit Buy rating, which is a reasonably credible secondary research source.[3]
+Chittick Cash Filter
+Score: 74/100
+Margin of safety: Near 52-week highs, valuation likely embeds positive AI and semi upcycle expectations; margin of safety is driven more by business quality and secular AI/automation tailwinds than by a cheap multiple, so this is a shorter-term tactical p...
+Valuation: Weiss assigns a B (Buy) rating, implying reasonable risk-adjusted value, but the immediate setup is momentum at the upper end of the recent range, not a depressed valuation; any multiple compression would hurt the thesis in the short ter...
+Growth runway: Over 30–180 days, Teradyne can benefit from continued AI data-center investment, next-gen chip ramps, and eventual cyclical normalization in broader semiconductor test demand; longer term, industrial automation and robotics add an additi...
+Balance-sheet risk: As an established semi-equipment provider, Teradyne historically operates with a solid balance sheet and no outsized leverage (based on sector norms); key risks are cyclicality and order volatility rather than solvency.
+Capital allocation: Management has historically reinvested in R&D and automation while returning capital through buybacks/dividends in cycles; this aligns reasonably with an owner-mindset but is not a deep value capital-allocation story...
+Concentration case: TER offers focused exposure to AI/semiconductor test versus owning a broad ETF; it deserves attention as a targeted way to express semi-cap strength while still reflecting a real underlying business with durable demand drivers.
+Owner thesis, 30-180 days: An owner-style 30–180 day thesis would rest on sustained AI/semiconductor capex, incremental design wins, and visibility into a broader semi upcycle; however, current plan is a 3–7 day swing, with any owner-hold reconsidered only if the breakout is orderly...
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: momentum
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: semicap-equipment-AI-adjacent
+Research tier: allocation-muted
+Allocation learning: Size in the mid-range to respect semiconductor cyclicality and choppy macro while still making the breakout meaningful for paper-testing results. Recent allocation or max-position rejection: route to blocked-ideas learning instead of the...
+Hugging Face Filter
+Not run for this candidate.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.weissratings.com/en/instant-news-alerts/teradyne-inc-ter-up-5-7-time-to-press-the-buy-button
+
+2. LULU (Consumer Discretionary – Apparel & Specialty Retail) | confidence 0.66 | allocation 0.0% | stop 9.0% | Chittick 70/100 | tier allocation-muted | bucket consumer-discretionary-brand
+Thesis: Lululemon is a profitable, global athleisure brand with strong historical growth and brand equity that has been heavily sold off; recent analysis highlights it as a beaten-down candidate that could rebound if execution stabilizes and sentiment mean-reverts, making it suitable for a cautious 5–10 day swing off depressed levels.
+Catalyst: 24/7 Wall St. highlighted Lululemon as a 'textbook beaten-down name' that could 'roar back' in June, noting shares have already rebounded sharply from lows, suggesting a sentiment and momentum inflection after prior weakness.[10]
+Entry: Look for a controlled pullback of 3–6% from the latest swing high on declining volume, then a turn back up (higher low) as a paper entry. Avoid chasing large gap-ups; prefer entering near short-term support with a clear technical level to define risk.
+Exit: Initial profit-taking on a 7–12% bounce from entry or into the next test of a prior resistance zone. Invalidate the trade on a close below the recent higher-low support or if LULU underperforms the broader discretionary/market indices by more than ~5% over...
+Risk/reward: If LULU can extend its rebound, a 2:1 reward-to-risk is feasible over 5–10 days; however, volatility is elevated and the path likely choppy, so position sizing and patience are critical.
+Bear/adversary: The rebound may already discount much of the good news; the article’s 'could roar back' framing is partly narrative-driven and may not reflect new hard fundamentals. A macro wobble or company-specific negative update could quickly retrace recent gains.
+Source quality: Evidence is from a 24/7 Wall St. feature identifying LULU as a high-conviction rebound idea with concrete performance statistics; while not primary research, it is a mainstream finance outlet with data-driven context.[10]
+Chittick Cash Filter
+Score: 70/100
+Margin of safety: After a heavy drawdown and partial recovery, LULU likely trades below prior peak valuation multiples but still at a premium to average apparel peers; margin of safety is modest and based more on brand durability and balance-sheet strengt...
+Valuation: The 'beaten-down' framing implies prior de-rating, yet a 79% rebound from lows suggests valuation has already partially re-rated; near term, valuation is fair rather than cheap, acceptable for a tactical swing but less compelling for a s...
+Growth runway: 30–180 day drivers include international expansion, men’s category growth, and potential demand normalization post-controversy or execution hiccups; however those drivers are slower-moving than a 5–10 day swing horizon and belong in a se...
+Balance-sheet risk: LULU historically runs with low financial leverage and strong cash generation for a retailer; primary risks are demand volatility and inventory rather than balance-sheet solvency.
+Capital allocation: Management has historically reinvested in growth (stores, digital, product) and returned capital via buybacks; capital allocation is generally disciplined but requires monitoring if growth slows and buybacks accelerat...
+Concentration case: Compared with a consumer ETF, LULU offers focused exposure to a premium athleisure brand with idiosyncratic rebound potential, which can be helpful for testing discretionary rebound setups separate from broad market beta.
+Owner thesis, 30-180 days: An owner-style 30–180 day thesis would require evidence that recent demand and margin concerns are stabilizing (e.g., improved guidance, inventory control) and that brand momentum remains intact; until such data are available, this remains a shorter-horizon...
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: momentum
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: consumer-discretionary-brand
+Research tier: allocation-muted
+Allocation learning: Keep allocation mid-single-digit in any future execution phase to respect discretionary cyclicality and narrative-driven volatility. Recent allocation or max-position rejection: route to blocked-ideas learning instead of the trade candid...
+Hugging Face Filter
+Not run for this candidate.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://247wallst.com/investing/2026/06/17/3-beaten-down-stocks-that-could-roar-back-in-june/
+
+3. AMC (Communication Services – Entertainment/Movies) | confidence 0.60 | allocation 0.0% | stop 10.0% | Chittick 28/100 | tier monitor-only | bucket speculative-entertainment-meme
+Thesis: AMC is a highly speculative turnaround/meme-adjacent theater chain showing a sharp price spike on improved box-office data and insider buying; despite low fundamental quality, it presents a short-lived, event-driven swing candidate suitable only as a very small, high-risk paper-trade test of how the bot handles extreme momentum.
+Catalyst: Stock is up about 9.24% on the day with a run from $1.58 on 05/27 to $2.73 on 06/17, supported by record May attendance headlines and CEO Adam Aron’s purchase of 250,000 shares at $1.38, increasing his stake above 2.4 million shares.[7]
+Entry: If used at all, only for paper-testing: consider a micro-sized entry on an intraday pullback of 10–15% toward prior support after the spike, with confirmation that volume remains strong and price holds above roughly $2.20–$2.30.
+Exit: Target a fast 15–25% move from entry, taking profits into strength and not overstaying; invalidate the trade on a break and close below recent support or if the gain reverses more than 10% from peak; use a hard 10–12% stop for paper purposes.
+Risk/reward: Potential upside can be large in percentage terms but so is the downside; the distribution is fat-tailed and unsuitable for large allocations, making this best framed as a small, high-volatility experiment rather than a core swing.
+Bear/adversary: Given weak fundamentals and meme history, the better move may be to avoid AMC entirely and focus research time on higher-quality names; any capital (even paper) allocated here diverts attention from more repeatable edge.
+Source quality: Timothy Sykes-style coverage provides real-time price, volume, and catalyst description (record attendance plus insider buy), but is oriented toward trading narratives rather than deep fundamental research.[7]
+Chittick Cash Filter
+Score: 28/100
+Margin of safety: There is effectively no margin of safety: leverage, industry headwinds, and prior dilution leave equity holders exposed; the trade is purely about short-term price dislocation, not intrinsic value.[7]
+Valuation: Valuation is not a meaningful anchor here due to repeated capital structure changes and meme volatility; any apparent cheapness on simple multiples may be illusory given balance-sheet risk.[7]
+Growth runway: Over 30–180 days, box-office recovery and better content slates could help, but secular headwinds and financing constraints loom; this does not justify an owner-hold frame and is excluded from that lane.
+Balance-sheet risk: High: AMC has significant debt and has historically used equity issuance and restructurings to survive, raising dilution and solvency concerns.[7]
+Capital allocation: Capital allocation has been defensive and survival-oriented (debt management, equity issuance), not owner-friendly; this is misaligned with the Chittick Cash quality lens.
+Concentration case: AMC should never be a concentrated position; at most, it is a tiny, experimental sleeve for studying extreme momentum behavior in a paper environment.
+Owner thesis, 30-180 days: Not appropriate for a 30–180 day owner thesis under the Chittick framework due to low quality and high leverage; treat strictly as a short-term trading study, if at all.
+Chittick reject reason: Fails quality, margin-of-safety, and balance-sheet criteria; only included as a watch-level example of extreme momentum rather than a Chittick-aligned candidate.
+Self-Learning Filter
+Catalyst type: news
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: speculative-entertainment-meme
+Research tier: monitor-only
+Allocation learning: Treat as a testbed for tiny-position, high-volatility momentum, with explicit rules that such names remain deeply allocation-constrained even if signals appear strong. Recent rejection depended on low-weight social/congress evidence; kee...
+Hugging Face Filter
+Not run for this candidate.
+Social buzz, max 10%: heightened meme-style attention around record attendance and CEO share purchase, but this is not used as a primary signal.[7]
+Congress signal, max 5%: none
+Sources: https://www.timothysykes.com/news/amc-entertainment-holdings-inc-amc-news-2026_06_17/
 
