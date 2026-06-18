@@ -31906,4 +31906,37 @@ Not run for this candidate.
 Social buzz, max 10%: heightened meme-style attention around record attendance and CEO share purchase, but this is not used as a primary signal.[7]
 Congress signal, max 5%: none
 Sources: https://www.timothysykes.com/news/amc-entertainment-holdings-inc-amc-news-2026_06_17/
+## Research Update - 2026-06-18 12:51:56 Eastern Daylight Time
+
+Research Update
+
+Market tone: US equities are in a late‑cycle, policy‑sensitive, risk‑off to mixed regime after a hawkish Fed message pushed yields and the dollar higher and pressured broad indexes, favoring high‑quality cash‑generative names over long‑duration growth.
+Candidates: 3
+
+1. GLW (specialty_materials / communications_infrastructure) | confidence 0.72 | allocation 7.0% | stop 8.0% | Chittick 78/100 | tier execution-ready | bucket industrial-tech-optical-infrastructure | HF source 1/100
+Recommendation: execute-if-guards-pass
+Catalyst: Corning recently disclosed that it has issued warrants to NVIDIA to purchase up to 18 million GLW shares as part of a partnership to expand optical connectivity capacity for AI and high‑bandwidth data center demand, tying GLW directly to...
+Chittick Cash: Relative to many AI beneficiaries, Corning’s valuation historically reflects a hybrid of industrial and specialty tech characteristics, which can provide a margin of safety if investors under‑appreciate the durability...
+HF filter: sentiment=neutral-to-constructive source=1/100 hype=0.28 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=industrial-tech-optical-infrastructure
+Social buzz, low weight: There is some focused social and niche‑finance commentary highlighting GLW as exposed to a potential optical networking supercycle and to AI‑driven data‑center demand, including...
+Congress signal, low weight: none
+
+2. APH (industrial_technology / electronic_components) | confidence 0.68 | allocation 5.0% | stop 8.0% | Chittick 82/100 | tier watch | bucket industrial-connectivity-quality | HF source 1/100
+Recommendation: watch
+Catalyst: Analysts maintain a broadly bullish stance on Amphenol with 14 Buy ratings and a consensus price target meaningfully above the current price, reflecting confidence in its earnings resilience and secular growth in connectivity and sensors...
+Chittick Cash: At current levels, APH’s valuation embeds a quality premium, so the margin of safety is mainly in business resilience and diversified demand rather than in a clear discount to intrinsic value; DCF work suggests the st...
+HF filter: sentiment=constructive source=1/100 hype=0.20 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=industrial-connectivity-quality
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. OC (building_materials / industrials) | confidence 0.63 | allocation 4.0% | stop 9.0% | Chittick 70/100 | tier watch | bucket industrial-building-materials | HF source 1/100
+Recommendation: watch
+Catalyst: Recent research and thematic commentary frame Owens Corning as a key beneficiary of a U.S. industrial and infrastructure renaissance, citing its role in insulation, roofing, and composites used in construction and industrial projects; th...
+Chittick Cash: Because OC trades as a cyclical tied to housing and industrial activity, its margin of safety depends heavily on where the cycle and sentiment sit; if the industrial renaissance narrative is not over‑discounted and le...
+HF filter: sentiment=neutral source=1/100 hype=0.18 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=industrial-building-materials
+Social buzz, low weight: none
+Congress signal, low weight: none
 

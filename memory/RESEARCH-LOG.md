@@ -1565,4 +1565,9 @@ Premarket plan built from latest watchlist.
 - LULU: score=85, base=95, chittick=70, approved=True, allocation=6.0%, stop=9.0%
 - AMC: score=72, base=95, chittick=28, approved=False, allocation=1.0%, stop=10.0%
   rejects: Low-weight social/congress signal needs at least two stronger sources.
+## Two-Hour Research Agent - 2026-06-18 12:51:56 Eastern Daylight Time
+
+US equities are in a late‑cycle, policy‑sensitive, risk‑off to mixed regime after a hawkish Fed message pushed yields and the dollar higher and pressured broad indexes, favoring high‑quality cash‑generative names over long‑duration growth.
+
+Candidates found: 3
 
