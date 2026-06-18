@@ -485,4 +485,13 @@ Max open-position count would be exceeded.
 ## Rejected NSC - 2026-06-17 09:55:05 Eastern Daylight Time
 
 Max open-position count would be exceeded.
+## Rejected TER - 2026-06-18 09:55:02 Eastern Daylight Time
+
+Max open-position count would be exceeded.
+## Rejected LULU - 2026-06-18 09:55:02 Eastern Daylight Time
+
+Max open-position count would be exceeded.
+## Rejected AMC - 2026-06-18 09:55:03 Eastern Daylight Time
+
+Low-weight social/congress signal needs at least two stronger sources.
 
