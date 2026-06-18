@@ -1557,4 +1557,12 @@ Candidates found: 1
 US equities remain in a cautious, choppy risk-on tilt led by growth/AI and select momentum pockets, but with fragile breadth and elevated event risk; this favors selective, catalyst-backed swing setups with tight risk controls over broad beta chasing.
 
 Candidates found: 3
+## Premarket Plan - 2026-06-18 08:25:02 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- TER: score=86, base=95, chittick=74, approved=True, allocation=8.0%, stop=8.0%
+- LULU: score=85, base=95, chittick=70, approved=True, allocation=6.0%, stop=9.0%
+- AMC: score=72, base=95, chittick=28, approved=False, allocation=1.0%, stop=10.0%
+  rejects: Low-weight social/congress signal needs at least two stronger sources.
 
