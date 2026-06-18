@@ -31945,4 +31945,89 @@ Research Update
 
 Market tone: U.S. equities remain in a mixed, event-driven tape with a cautious, neutral-to-risk-off tone: recent weakness in the major indices and a higher-for-longer rates backdrop argue against broad risk-on positioning, so short-horizon swing ideas should be tightly risk-managed and catalyst-driven.
 Candidates: 0
+## Performance Ledger - 2026-06-18 16:30:03 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-06-18 16:30:02 Eastern Daylight Time
+- Portfolio value: $100,170.33
+- P/L vs $100k baseline: $170.33
+- Full paper-account return: 0.170%
+- Managed-capital return: 1.70%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 3.04%
+- Latest position value: $5,770.33
+- Full-account cash reserve: 94.2%
+- Managed-capital cash reserve: 42.3%
+- Max snapshot drawdown: $328.28 from 2026-05-08 16:30:03 Eastern Daylight Time to 2026-06-09 12:40:01 Eastern Daylight Time
+
+Open Position Review
+- DT: winner, value $840.98, unrealized P/L $40.98, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 41 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: loser, value $450.64, unrealized P/L $-49.36, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 42 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: loser, value $790.86, unrealized P/L $-9.14, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 49 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- IBRX: loser, value $519.93, unrealized P/L $-80.07, entry 2026-05-11 09:48:18 Eastern Daylight Time, thesis age 38 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: winner, value $542.31, unrealized P/L $42.31, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 37 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: winner, value $840.53, unrealized P/L $40.53, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 48 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $805.30, unrealized P/L $5.30, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 43 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $979.78, unrealized P/L $179.78, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 51 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- INTC: appeared 38 times; market outcome unavailable until benchmark/candidate price history is captured.
+- GOOGL: appeared 34 times; open position P/L $-9.14.
+- SCHD: appeared 34 times; open position P/L $5.30.
+- SPMO: appeared 32 times; open position P/L $179.78.
+- NVDA: appeared 29 times; open position P/L $40.53.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MSFT: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- UNP: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VALN: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Candidate references banned v1 instruments or leverage.: 19
+  - Max open-position count would be exceeded.: 14
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 11
+  - Single-stock allocation would exceed 15%.: 7
+  - Low-weight social/congress signal needs at least two stronger sources.: 6
+  - A market-open order is already logged for today. No backup order was placed.: 5
+  - Candidate is monitor-only and cannot be traded. Confidence below 0.60. Target allocation must be between 1% and 15%. Stop loss must be between 3% and 12%.: 5
+  - Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 5
+- By symbol:
+  - GOOGL: 5
+  - INTU: 5
+  - INTC: 4
+  - AGI: 3
+  - BAH: 3
+  - KO: 3
+  - PLTR: 3
+  - TMXX.F: 3
+
+Source Quality Attribution
+- Latest candidate JSON is unavailable; source attribution cannot be computed.
+
+Patience Gate
+- Data threshold met: 8 trades over 51 days.
+- Strategy tuning may be reviewed, but safety guardrails still apply.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## End Of Day Memo - 2026-06-18 16:30:03 Eastern Daylight Time
+
+End Of Day Analyst Memo
+
+Recommendation: Carry forward only evidence-backed candidates; review stops before the next market-open run.
+
+Market Regime
+End-of-day review of paper portfolio, trade quality, risk notes, and next-day watchlist.
+
+Portfolio
+Portfolio value: 100170.33 Cash: 94400 Buying power: 393756.92 Positions: - DT: qty=20.289119959, market_value=840.984022, unrealized_pl=40.984022 - GLRE: qty=28.042624789, market_value=450.64498, unrealized_pl=-49.35502 - GOOGL: qty=2.151289429, market_value=790.85702, unrealized_pl=-9.14298 - IBRX: qty=70.838252656, market_value=519.931523, unrealized_pl=-80.068477 - LNC: qty=14.590020426, market_value=542.311059, unrealized_pl=42.311059 - NVDA: qty=4.00060009, market_value=840.526079, unrealized_pl=40.526079 - SCHD: qty=25.2286345, market_value=805.298013, unrealized_pl=5.298013 - SPMO: qty=6.119014838, market_value=979.776656, unrealized_pl=179.776656 Performance: value $100,170.33, P/L vs $100k $170.33, managed return 1.70%, deployed return 3.04%, managed cash reserve 42.3%.
+
+Top Candidates
+No current candidates.
 
