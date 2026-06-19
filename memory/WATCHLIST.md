@@ -2,8 +2,85 @@
 
 <!-- latest-candidates-json
 {
-  "candidates": [],
-  "summary": "U.S. equities remain in a mixed, event-driven tape with a cautious, neutral-to-risk-off tone: recent weakness in the major indices and a higher-for-longer rates backdrop argue against broad risk-on positioning, so short-horizon swing ideas should be tightly risk-managed and catalyst-driven."
+  "candidates": [
+    {
+      "adversary_case": "A skeptical view would argue that Alphabet\u2019s valuation already discounts strong AI and cloud growth, while mounting AI capex, intensifying competition, and regulatory pressure create asymmetric downside if execution disappoints or if the AI trade derates; near-term, the Waymo recall and Cloud job cuts could signal internal strain rather than optimization, making the next 1\u201310 days more about volatility than edge.",
+      "allocation_learning_note": "Prior iterations have overused Alphabet without fresh catalysts; this pass is explicitly tied to new Q1 growth details, Waymo recall, Cloud restructuring news, and updated analyst/insider information, and is kept as watch-only rather than execution-ready to respect repeat-decay discipline.",
+      "balance_sheet_risk": "Balance-sheet risk is low relative to many peers due to strong cash reserves and cash flow, but AI and data-center capex intensity increases the importance of disciplined capital allocation and may temporarily pressure free cash flow if returns are slower than expected.[2][11][15][17]",
+      "bear_case": "Key risks include: 1) execution and return uncertainty on very large AI and infrastructure investments; 2) potential margin compression from intense AI competition and elevated capex; 3) regulatory and litigation exposure, including heightened AI oversight and antitrust scrutiny; and 4) sentiment drawdowns from negative headlines such as Waymo\u2019s recall or internal restructuring in Google Cloud leading to near-term volatility.[2][6][13][15][17][19]",
+      "capital_allocation_case": "Management is aggressively reinvesting in AI and cloud infrastructure while using equity and internal cash to fund the buildout; insider equity awards are compensation-related rather than opportunistic buying, and the recent large equity raise for AI buildout underlines a deliberate choice to prioritize long-term AI positioning over near-term margin maximization.[9][11][15][17]",
+      "catalyst": "Recent Q1 2026 report showed ~22% YoY revenue growth to around $110B with Google Cloud revenue up ~63% YoY to ~$20B,[2] while new headlines highlight a job-cut drive within Google Cloud amid AI spending, a recall of 3,871 Waymo robotaxis to fix navigation issues, and insider/board transactions (director John Hennessy stock sale and CFO Anat Ashkenazi\u2019s stock-unit awards).[1][2][4][6][9][13]",
+      "catalyst_type": "earnings/news",
+      "chittick_cash_score": 78.0,
+      "chittick_reject_reason": "",
+      "concentration_case": "Alphabet earns attention over a broad ETF because it sits at the center of AI, search, and cloud monetization with direct operational leverage to AI adoption rather than diffuse index exposure; however, concentration risk is meaningful given regulatory overhang and AI competition, so sizing should remain moderate relative to diversified alternatives.",
+      "confidence": 0.69,
+      "congressional_signal": "None specific or timely; recent congressional disclosure summaries emphasize diversified fund and index exposure rather than focused or time-sensitive trades in Alphabet.",
+      "diversity_bucket": "mega-cap-internet-cloud",
+      "entry_plan": "For paper-trading, consider a staged entry near recent support in the low-to-mid $360s if the stock holds above the 50-day moving average (~$362) on normal or rising volume after the latest Waymo/Cloud headlines, avoiding entries on sharp gap-ups and instead using intraday pullbacks toward support to improve risk/reward.[3][4][5][6][13]",
+      "exit_plan": "Take profits into strength if price approaches the low $380s\u2013$390s area or shows intraday reversal patterns after a 4\u20137% gain from entry; cut the position if it closes decisively below the 50-day moving average or posts a high-volume breakdown of ~8% from entry, or if a new, clearly adverse regulatory/AI headline emerges that undercuts the thesis.[3][4][5][13][19]",
+      "fresh_catalyst": true,
+      "growth_runway": "Over 30\u2013180+ days, Alphabet\u2019s growth drivers include AI-enhanced Search and YouTube monetization, rapid cloud expansion with a large backlog, and optionality from Waymo and other bets, provided regulatory and execution challenges are managed; AI productivity trends across the economy offer a supportive macro backdrop for its services.[2][7][10][13][15][17][19]",
+      "hf_evidence_rank": 0.0,
+      "hf_filter_vetoes": [],
+      "hf_hype_risk": 0.0,
+      "hf_memory_similarity": 0.0,
+      "hf_model_notes": "",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "",
+      "hf_sentiment_score": 0.0,
+      "hf_source_quality_score": 0.0,
+      "horizon_days": 5,
+      "margin_of_safety_case": "From a long-term, owner-style lens, Alphabet\u2019s balance sheet strength, dominant franchises, and cash generation provide a reasonable margin of safety, but short-horizon traders must recognize that the stock trades closer to fair value than deep value after a ~19% YTD move, leaving less valuation buffer against AI or regulatory disappointment.[2][3][5][15][17][19]",
+      "market_regime": "In a regime where mega-cap AI leaders drive index performance but also attract profit-taking after strong runs, Alphabet is sensitive to both AI enthusiasm and any shift toward de-risking; this argues for modest, time-boxed exposure and disciplined stops rather than aggressive concentration over a 1\u201310 day window.[2][4][7][17]",
+      "momentum_case": "Shares are up roughly 19% YTD and recently traded around $368\u2013369 with price action above both the 50-day (~$362) and 200-day (~$330) moving averages, indicating an intact uptrend despite modest pullbacks tied to AI profit-taking and company-specific headlines.[3][4][5]",
+      "owner_hold_case": "For a 30\u2013180 day owner-style case, one would monitor execution on AI product rollouts, cloud backlog conversion, regulatory/antitrust developments, and the financial impact of large capex programs, reassessing if growth decelerates or if regulatory/AI oversight materially constrains key businesses.[2][10][15][17][19]",
+      "quality_case": "Alphabet operates dominant franchises in Search, YouTube, Android, and Google Cloud with substantial scale advantages, recurring advertiser demand, and strong free-cash-flow generation, supported by SEC filings that emphasize durable demand and robust cash generation, albeit with heavy AI capex needs and regulatory/litigation risks.[2][15][17][19]",
+      "recommendation": "watch",
+      "repeat_count_48h": 0,
+      "research_tier": "watch",
+      "risk_reward": "Risk/reward is acceptable but not exceptional for a short swing: upside is moderate given the stock\u2019s already strong YTD performance and multiple expansion, while downside is cushioned somewhat by quality fundamentals but exposed to headline shocks; the trade only works if momentum stabilizes quickly after current newsflow.",
+      "sector": "Communication Services / Internet & AI Cloud",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.05
+      },
+      "social_buzz": "Retail sentiment has eased from bullish to neutral with normal message volume, and broader AI buzz (e.g., \u2018MANGOS\u2019 narratives) keeps Alphabet in focus, but these are noise-level inputs compared with earnings and regulatory news.[6][8][20]",
+      "source_quality": "Evidence is primarily from recent earnings commentary and analyst notes, SEC/insider filings, and reputable financial news covering the Waymo recall and Cloud restructuring, providing a strong, multi-source factual basis; social sentiment and listicle-style mentions are treated only as weak context.[1][2][3][4][5][6][9][13][15][17][19][20]",
+      "source_urls": [
+        "https://www.marketbeat.com/instant-alerts/alphabet-nasdaqgoogl-director-john-hennessy-sells-1050-shares-of-stock-2026-06-18/",
+        "https://intellectia.ai/news/stock/alphabet-faces-ai-investment-challenges-and-opportunities",
+        "https://www.marketbeat.com/stocks/NASDAQ/GOOGL/trends-and-sentiment/",
+        "https://stocktwits.com/news-articles/markets/equity/googl-stock-drops-in-premarket-report-says-search-giant-trims-cloud-team-amid-ai-spending-push/cZ0FWw5RezC",
+        "https://www.marketbeat.com/instant-alerts/alphabet-nasdaqgoog-stock-price-up-15-still-a-buy-2026-06-18/",
+        "https://stocktwits.com/news-articles/markets/equity/googl-stock-in-focus-waymo-recalls-thousands-of-us-robotaxis-over-navigation-issue/cZKjza3R7ez",
+        "https://finance.yahoo.com/technology/ai/articles/alphabet-googl-faces-waymo-recall-162110953.html",
+        "https://finance.yahoo.com/quote/GC=F/",
+        "https://www.stocktitan.net/sec-filings/GOOG/form-4-alphabet-inc-insider-trading-activity-1f79dd628495.html",
+        "https://www.commonfund.org/blog/ais-productivity-payoff-is-here?hs_amp=true",
+        "https://www.instagram.com/p/DZugF_DE2f5/",
+        "https://www.investing.com/news/stock-market-news/why-is-carrefour-stock-sliding-today-93CH-4749116",
+        "https://www.facebook.com/techinsider/posts/apples-tim-cook-said-price-increases-are-coming-to-offset-soaring-memory-costs-s/1375606111105528/",
+        "https://seekingalpha.com/article/4916268-alphabet-google-cloud-outperforming-azure-aws-462-billion-backlog-requires-more-ai-investments",
+        "https://www.zacks.com/research-daily/2939337/top-research-reports-for-alphabet-broadcom-johnson-johnson",
+        "https://www.facebook.com/jon.erlichman/posts/which-struggling-growth-stock-could-bounce-back-stocks-sometimes-growth-stocks-s/26977549708611126/",
+        "https://news.bloomberglaw.com/securities-law/alphabet-visa-among-companies-signaling-heightened-ai-oversight",
+        "https://www.instagram.com/reel/DZvQGW_vjOX/"
+      ],
+      "stop_loss_percent": 8.0,
+      "strategy_tags": [
+        "chittick_cash",
+        "mega-cap-quality",
+        "ai-cloud",
+        "swing-1-10-day"
+      ],
+      "symbol": "GOOGL",
+      "target_allocation_percent": 0.0,
+      "thesis": "Alphabet remains a high-quality, cash-generative AI and internet platform with strong recent revenue and cloud growth, but the near term is defined by mixed headlines (Waymo recall, Cloud job cuts) and ongoing AI capex, making this more of a tightly risk-managed swing candidate than a straightforward buy-and-hold over the next 1\u201310 days.[2][4][13][15][17]",
+      "valuation_case": "Analysts broadly rate the stock a Buy/Moderate Buy with average and raised price targets (e.g., ~$413\u2013$445 on GOOGL and mid-$370s on GOOG) above current prices, implying upside but not extreme undervaluation; valuation is supported by strong revenue and cloud growth but partially offsets are high AI capex and competitive risks.[1][2][3][5][15][17]"
+    }
+  ],
+  "summary": "US equities remain supported by strong mega-cap tech and AI-related earnings, but leadership is narrow and recent profit-taking in AI names alongside company-specific headlines (e.g., Alphabet\u2019s Waymo recall and Cloud restructuring) argue for a selective, quality-focused, risk-aware stance over the next 1\u201310 days."
 }
 -->
 
@@ -1667,4 +1744,10 @@ No candidates.
 ## Latest Candidates - 2026-06-18 14:51:09 Eastern Daylight Time
 
 No candidates.
+
+## Latest Candidates - 2026-06-19 07:51:25 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| GOOGL | Communication Services / Internet & AI Cloud | watch | mega-cap-internet-cloud | 0 | yes | 0.69 | 78 | 0 | 0 | 0.0% | 8.0% | watch | Recent Q1 2026 report showed ~22% YoY revenue growth to around $110B with Google Cloud revenue up ~63% YoY to ~$20B,[2] while new headlines highlight a job-cut  |
 
