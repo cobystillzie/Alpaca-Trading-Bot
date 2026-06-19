@@ -1580,4 +1580,10 @@ Candidates found: 0
 US equities remain supported by strong mega-cap tech and AI-related earnings, but leadership is narrow and recent profit-taking in AI names alongside company-specific headlines (e.g., Alphabet’s Waymo recall and Cloud restructuring) argue for a selective, quality-focused, risk-aware stance over the next 1–10 days.
 
 Candidates found: 1
+## Premarket Plan - 2026-06-19 08:25:02 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- GOOGL: score=87, base=95, chittick=78, approved=False, allocation=0.0%, stop=8.0%
+  rejects: Target allocation must be between 1% and 15%.
 
