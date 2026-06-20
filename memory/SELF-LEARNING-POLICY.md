@@ -14,11 +14,51 @@ This policy is updated by the weekly review and must be read by research, premar
 
 ## Current Weekly Findings
 
-- Repeated symbols in recent watchlist: DVN x3.
-- Current candidate diversity buckets: mega-cap-energy, mid-large-cap-cybersecurity, subprime-consumer-finance.
-- Overused recent diversity buckets: industrials-power x4, consumer x3, healthcare-biotech x3, other x3.
+- Repeated symbols in recent watchlist: none.
+- Current candidate diversity buckets: mega-cap-internet-cloud.
+- Overused recent diversity buckets: none.
 - Weekly review must disclose any code or prompt edits through Telegram before commit/push.
 
 ## Latest Review Input
 
-{"lessons":["Repeated coverage of the same mega-cap names is crowding out idea discovery; GOOGL, MSFT, INTC, GT, USAR, DVN, and TGT reappeared across multiple passes with mostly the same thesis, which is a strong stale-repeat signal.","Allocation-blocked candidates are functioning as a hard stop, but the bot keeps resurfacing them instead of replacing them with new names, which wastes cycle budget and makes the output look repetitive.","Sector concentration is heavy in mega-cap tech/internet, consumer staples, and energy; that reduces diversification and increases the chance of duplicate-style research outputs.","Weak diversity shows up not only by sector but by catalyst type: many candidates rely on earnings recaps, AI momentum, macro regime, or thin congress/social signals rather than fresh company-specific change.","Daily research output is too similar across runs: the same names often return with slightly different wording, which suggests the retrieval layer is rephrasing old theses rather than finding new evidence.","Chittick Cash appears useful as a prioritization score, but by itself it does not solve stale-repeat behavior; high Chittick scores still surfaced candidates that were blocked by repeat_decay, stale_catalyst, or allocation constraints.","Hugging Face filters improved quality when they rejected source-thin hype and prior-pattern lookalikes, especially for names like INTC, GOOGL, USAR, and SGN, but they also seem to be suppressing some candidates repeatedly without enough replacement diversity.","Social buzz and congressional signals added noise when used alone; rejected-trade logs repeatedly show they were not sufficient without stronger supporting sources, and DVN illustrates that low-weight congressional evidence should stay non-decisive unless paired with a real catalyst."],"rejected_patterns":["Repeated stale catalyst recycling for the same tickers, especially when no new dated event is present.","Resurfacing allocation-muted or monitor-only names as if they were trade candidates.","Using social/congress mentions as primary evidence without at least two stronger independent sources.","Overweighting sector-regime narratives such as AI leadership, broad tech strength, or macro rotation when no single catalyst exists.","Allowing thin special-situation or micro-cap ideas to linger despite source_thin, no_fundamental_catalyst, or delisting/speculation risk flags.","Failing to prune candidates already rejected for repeat_decay or stale_catalyst, which creates repetitive daily output.","Producing ETF or broad-market candidates when the system is supposed to be selective and event-driven, unless a clear diversification rule is explicitly intended."],"strategy_proposals":["Adopt a freshness-first gate: if a symbol has repeat_decay or stale_catalyst and no new dated catalyst, suppress it for a cooldown window before it can re-enter.","Add a duplicate-thesis detector so candidates are compared by catalyst class, not just ticker; names with the same thesis cluster should be capped per day and per sector.","Create sector quotas or soft caps so mega-cap tech, consumer staples, and energy cannot dominate the candidate list on consecutive runs.","Require a diversity budget across catalyst types: earnings, guidance, product, regulatory, contract, technical breakout, and balance-sheet events should each have minimum representation before repeats are allowed.","Use a stronger replacement rule for blocked candidates: every allocation-blocked or monitor-only resurfacing should trigger a search for a new candidate in an underrepresented bucket.","Treat congress and social signals as confirmatory only, not primary catalysts, unless they are accompanied by filings, guidance, earnings, or clear market-moving news.","Promote a stricter event-vs-regime distinction: broad market or sector strength can justify monitoring, but execution-ready status should require a named company-specific trigger.","Add a rotation rule that deprioritiz
+{
+  "lessons": {
+    "1_repeats_and_stale_tickers": [
+      "Mega‑caps like **GOOGL, INTC, MSFT, AAPL** repeatedly re‑surface with **stale or non‑fresh catalysts** and then get blocked by repeat_decay, stale_catalyst, confidence, or allocation rules.",
+      "Memory is catching and labeling this (repeat_decay, memory_similarity), but upstream research keeps re‑proposing the same names with only marginally updated narratives.",
+      "Result: wasted research cycles, noisy logs, and little incremental edge from those repeats."
+    ],
+    "2_allocation_and_position_gating": [
+      "Allocation and max‑open rules are doing their job but are **downstream bottlenecks**: many otherwise good ideas (RRX, SLB, WMT, UNH, NSC, TER, LULU, etc.) are blocked only because capacity is used elsewhere.",
+      "Frequent `single-stock allocation > 15%` and `max open-position count exceeded` rejections show that **portfolio construction logic is not tightly integrated into idea generation**; the research layer often ignores actual capacity."
+    ],
+    "3_sector_and_thematic_concentration": [
+      "Idea flow is heavily skewed to **tech / semis / mega‑cap internet** and **biotech / healthcare** with only episodic diversification into industrials, energy, consumer defensives, and thematic ETFs.",
+      "Given you are a **long‑only swing** framework, sector mix is OK but not robustly diversified; the log still shows clusters of similar factor exposures (growth/tech momentum, speculative biotech, meme-ish tickers)."
+    ],
+    "4_research_output_quality": [
+      "Catalysts are often **event‑lite**: price action (near 52‑week highs, rebounds), insider sales, or generic thematic narratives are over‑used vs. truly fresh company‑specific fundamentals.",
+      "The pipeline does show some solid special situations (e.g., NUVL M&A + FDA, GLW–NVIDIA partnership), but many other entries are more headline‑driven than thesis‑driven."
+    ],
+    "5_signal_filters_effectiveness": [
+      "The **HF hype/source filters** are working as guardrails: they consistently veto micro‑cap speculation, source‑thin social/congress mentions, and stale repeats (SGN, ADI, GSK, PLTR, etc.).",
+      "The **social buzz / congressional signals** are net additive only as *weak confirmers*; when treated as primary catalysts they trigger a lot of rejections and noise.",
+      "Chittick scores and HF filters help prioritize and de‑prioritize, but the research layer is not yet fully aligned with what those filters reward (fresh, multi‑source, fundamentally grounded catalysts)."
+    ]
+  },
+  "rejected_patterns": {
+    "ticker_repetition": [
+      "Re‑emitting the same mega‑caps (GOOGL, INTC, MSFT, AAPL, NVDA, PLTR) without a **clearly new fundamental event** within the swing horizon.",
+      "Allowing candidates that have already hit `repeat_decay` and `stale_catalyst` to re‑enter the daily shortlist solely because they remain thematically interesting or price is moving."
+    ],
+    "allocation_block_ignores_capacity": [
+      "Generating tradeable recommendations that **cannot fit** current constraints (single‑stock cap, total positions) and only discovering this at execution time.",
+      "Repeatedly proposing SPMO, NVDA, GOOGL, etc., at size levels that breach the 15% rule rather than resizing or skipping at the research stage."
+    ],
+    "weak_catalyst_construction": [
+      "Relying on: (a) price momentum alone, (b) insider sales alone (e.g., ABNB CEO selling), or (c) generic sector rotation stories as standalone swing catalysts.",
+      "Treating social buzz or isolated congress trades as primary catalysts without robust corroborating fundamentals, leading to rejections like DVN, EWY, EWT, LMT, SGN, AMC."
+    ],
+    "monitor_only_and_non_tradable_names": [
+      "Surface **monitor‑only** or **non‑tradable** contexts (KO, WSC, HUMA, NTCAX, GENERIC‑CLIMATE‑ETF, EPP01, TGT, XLI/XLE etc.) as if they were viable trades, only to be rejected later.",
+      "Including instruments that hit

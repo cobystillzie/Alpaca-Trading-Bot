@@ -1382,4 +1382,146 @@ Weekly review may propose changes here. Routine runs must not rewrite executable
 ## Weekly Strategy Proposals - 2026-06-05 17:25:12 Eastern Daylight Time
 
 {"lessons":["Repeated coverage of the same mega-cap names is crowding out idea discovery; GOOGL, MSFT, INTC, GT, USAR, DVN, and TGT reappeared across multiple passes with mostly the same thesis, which is a strong stale-repeat signal.","Allocation-blocked candidates are functioning as a hard stop, but the bot keeps resurfacing them instead of replacing them with new names, which wastes cycle budget and makes the output look repetitive.","Sector concentration is heavy in mega-cap tech/internet, consumer staples, and energy; that reduces diversification and increases the chance of duplicate-style research outputs.","Weak diversity shows up not only by sector but by catalyst type: many candidates rely on earnings recaps, AI momentum, macro regime, or thin congress/social signals rather than fresh company-specific change.","Daily research output is too similar across runs: the same names often return with slightly different wording, which suggests the retrieval layer is rephrasing old theses rather than finding new evidence.","Chittick Cash appears useful as a prioritization score, but by itself it does not solve stale-repeat behavior; high Chittick scores still surfaced candidates that were blocked by repeat_decay, stale_catalyst, or allocation constraints.","Hugging Face filters improved quality when they rejected source-thin hype and prior-pattern lookalikes, especially for names like INTC, GOOGL, USAR, and SGN, but they also seem to be suppressing some candidates repeatedly without enough replacement diversity.","Social buzz and congressional signals added noise when used alone; rejected-trade logs repeatedly show they were not sufficient without stronger supporting sources, and DVN illustrates that low-weight congressional evidence should stay non-decisive unless paired with a real catalyst."],"rejected_patterns":["Repeated stale catalyst recycling for the same tickers, especially when no new dated event is present.","Resurfacing allocation-muted or monitor-only names as if they were trade candidates.","Using social/congress mentions as primary evidence without at least two stronger independent sources.","Overweighting sector-regime narratives such as AI leadership, broad tech strength, or macro rotation when no single catalyst exists.","Allowing thin special-situation or micro-cap ideas to linger despite source_thin, no_fundamental_catalyst, or delisting/speculation risk flags.","Failing to prune candidates already rejected for repeat_decay or stale_catalyst, which creates repetitive daily output.","Producing ETF or broad-market candidates when the system is supposed to be selective and event-driven, unless a clear diversification rule is explicitly intended."],"strategy_proposals":["Adopt a freshness-first gate: if a symbol has repeat_decay or stale_catalyst and no new dated catalyst, suppress it for a cooldown window before it can re-enter.","Add a duplicate-thesis detector so candidates are compared by catalyst class, not just ticker; names with the same thesis cluster should be capped per day and per sector.","Create sector quotas or soft caps so mega-cap tech, consumer staples, and energy cannot dominate the candidate list on consecutive runs.","Require a diversity budget across catalyst types: earnings, guidance, product, regulatory, contract, technical breakout, and balance-sheet events should each have minimum representation before repeats are allowed.","Use a stronger replacement rule for blocked candidates: every allocation-blocked or monitor-only resurfacing should trigger a search for a new candidate in an underrepresented bucket.","Treat congress and social signals as confirmatory only, not primary catalysts, unless they are accompanied by filings, guidance, earnings, or clear market-moving news.","Promote a stricter event-vs-regime distinction: broad market or sector strength can justify monitoring, but execution-ready status should require a named company-specific trigger.","Add a rotation rule that deprioritizes symbols appearing in the last N passes unless the new retrieval contains a materially different catalyst or valuation setup."],"self_learning_directives":["Track the top rejection reasons weekly and optimize for reducing repeat_decay, stale_catalyst, allocation-muted resurfacing, and monitor-only trade attempts.","Learn from successful execution patterns by tagging which catalyst types actually passed all guards and whether they outperformed the stale-repeat set.","Continuously downrank thesis clusters that fail twice without a fresh event, even if their confidence score remains high.","Measure output diversity by ticker, sector, bucket, and catalyst class; reward runs that expand coverage instead of repeating the same shortlist.","Audit whether each candidate adds new information relative to its last appearance; if not, label it as redundant and suppress it automatically.","Calibrate HF vetoes to avoid overblocking useful ideas while still filtering hype and source-thin items; the objective is fewer false positives without reintroducing stale repeats.","Record whether Chittick, HF filters, social buzz, and congress signals changed the final decision; use that attribution to refine source weighting instead of letting weak signals accumulate by habit."],"safe_changes_after_test_gates":["Add a post-gate dedupe routine that blocks symbols already rejected for stale_catalyst or repeat_decay unless a new dated catalyst is present.","Add a candidate replacement routine for monitor-only or allocation-muted symbols so the daily list is not padded with non-executable repeats.","Add a sector concentration check before final output that flags when a few sectors account for most candidates.","Add a catalyst-quality check that requires at least one strong primary source before social or congressional evidence can influence a watchlist rank.","Add an output diversity check that enforces minimum variation across sectors and buckets before allowing repeated mega-cap names.","Add a prompt rule that instructs the model to prefer novel, dated, company-specific developments over recycled theme narratives.","Add a routine that compares current-day summaries against prior-day text and suppresses near-duplicate explanations.","Keep the current safety constraints that block options, margin, shorting, crypto, live trading, secrets, and credential changes; do not relax them.","Do not enable any new trading capability until the candidate set shows sustained reduction in stale repeats, blocked resurfacings, and single-sector clustering across multiple test gates."],"source_quality_assessment":{"Chittick Cash":"Helpful as a ranking layer, but not sufficient as a freshness or diversity filter on its own.","Hugging Face filters":"Net positive; they appear to reduce hype and pattern repetition, though they may need tuning to avoid over-rejecting viable but slightly novel setups.","Social buzz":"Mostly noise in this dataset unless corroborated by stronger sources; useful only as a weak tertiary input.","Congressional signals":"Marginally useful as a weak corroborating factor for certain energy or politically sensitive names, but too weak to stand alone and often contributed to repetitive, low-conviction output."}}
+## Weekly Strategy Proposals - 2026-06-20 01:25:40 Eastern Daylight Time
+
+{
+  "lessons": {
+    "1_repeats_and_stale_tickers": [
+      "Mega‑caps like **GOOGL, INTC, MSFT, AAPL** repeatedly re‑surface with **stale or non‑fresh catalysts** and then get blocked by repeat_decay, stale_catalyst, confidence, or allocation rules.",
+      "Memory is catching and labeling this (repeat_decay, memory_similarity), but upstream research keeps re‑proposing the same names with only marginally updated narratives.",
+      "Result: wasted research cycles, noisy logs, and little incremental edge from those repeats."
+    ],
+    "2_allocation_and_position_gating": [
+      "Allocation and max‑open rules are doing their job but are **downstream bottlenecks**: many otherwise good ideas (RRX, SLB, WMT, UNH, NSC, TER, LULU, etc.) are blocked only because capacity is used elsewhere.",
+      "Frequent `single-stock allocation > 15%` and `max open-position count exceeded` rejections show that **portfolio construction logic is not tightly integrated into idea generation**; the research layer often ignores actual capacity."
+    ],
+    "3_sector_and_thematic_concentration": [
+      "Idea flow is heavily skewed to **tech / semis / mega‑cap internet** and **biotech / healthcare** with only episodic diversification into industrials, energy, consumer defensives, and thematic ETFs.",
+      "Given you are a **long‑only swing** framework, sector mix is OK but not robustly diversified; the log still shows clusters of similar factor exposures (growth/tech momentum, speculative biotech, meme-ish tickers)."
+    ],
+    "4_research_output_quality": [
+      "Catalysts are often **event‑lite**: price action (near 52‑week highs, rebounds), insider sales, or generic thematic narratives are over‑used vs. truly fresh company‑specific fundamentals.",
+      "The pipeline does show some solid special situations (e.g., NUVL M&A + FDA, GLW–NVIDIA partnership), but many other entries are more headline‑driven than thesis‑driven."
+    ],
+    "5_signal_filters_effectiveness": [
+      "The **HF hype/source filters** are working as guardrails: they consistently veto micro‑cap speculation, source‑thin social/congress mentions, and stale repeats (SGN, ADI, GSK, PLTR, etc.).",
+      "The **social buzz / congressional signals** are net additive only as *weak confirmers*; when treated as primary catalysts they trigger a lot of rejections and noise.",
+      "Chittick scores and HF filters help prioritize and de‑prioritize, but the research layer is not yet fully aligned with what those filters reward (fresh, multi‑source, fundamentally grounded catalysts)."
+    ]
+  },
+  "rejected_patterns": {
+    "ticker_repetition": [
+      "Re‑emitting the same mega‑caps (GOOGL, INTC, MSFT, AAPL, NVDA, PLTR) without a **clearly new fundamental event** within the swing horizon.",
+      "Allowing candidates that have already hit `repeat_decay` and `stale_catalyst` to re‑enter the daily shortlist solely because they remain thematically interesting or price is moving."
+    ],
+    "allocation_block_ignores_capacity": [
+      "Generating tradeable recommendations that **cannot fit** current constraints (single‑stock cap, total positions) and only discovering this at execution time.",
+      "Repeatedly proposing SPMO, NVDA, GOOGL, etc., at size levels that breach the 15% rule rather than resizing or skipping at the research stage."
+    ],
+    "weak_catalyst_construction": [
+      "Relying on: (a) price momentum alone, (b) insider sales alone (e.g., ABNB CEO selling), or (c) generic sector rotation stories as standalone swing catalysts.",
+      "Treating social buzz or isolated congress trades as primary catalysts without robust corroborating fundamentals, leading to rejections like DVN, EWY, EWT, LMT, SGN, AMC."
+    ],
+    "monitor_only_and_non_tradable_names": [
+      "Surface **monitor‑only** or **non‑tradable** contexts (KO, WSC, HUMA, NTCAX, GENERIC‑CLIMATE‑ETF, EPP01, TGT, XLI/XLE etc.) as if they were viable trades, only to be rejected later.",
+      "Including instruments that hit **banned v1 / leverage filters** (COIN, GLD, certain ETFs, notes), which the system cannot trade under your rules."
+    ],
+    "overuse_of_social_buzz_and congress": [
+      "Low‑weight social/congress signals repeatedly appear without the required two stronger sources; they prompt candidates that are almost automatically rejected.",
+      "This pattern shows the research layer **listening too eagerly** to those weak signals instead of gating them earlier."
+    ]
+  },
+  "strategy_proposals": {
+    "1_candidate_generation_rules": [
+      "Introduce a **strict novelty gate**: block any ticker from re‑entering the candidate list unless it has a *qualifying new fundamental or event catalyst* (earnings, guidance change, deal, major product/reg/regulatory event) within a defined freshness window (e.g., 10–20 trading days).",
+      "Maintain a **ticker–catalyst map**: for each name, track the last accepted or considered catalyst and timestamp; disallow re‑use of the same or semantically similar catalyst once `repeat_decay` has triggered.",
+      "Before emitting a candidate, enforce a **portfolio capacity pre‑check**: query current exposure and open‑position count; if adding even the minimum allowed allocation would breach limits, suppress that ticker or downgrade it to research‑only notes."
+    ],
+    "2_sector_and_factor_diversification": [
+      "Add a **sector‑exposure target range**: e.g., no more than X% of open ideas from any single GICS sector and no more than Y% in a single factor theme (semis, speculative biotech, meme/speculative).",
+      "When the book or watchlist is tech‑heavy, bias incremental research toward **under‑represented sectors** (industrials, staples, utilities, high‑quality financials) with clear swing catalysts (earnings beats, guidance, capital allocation shifts).",
+      "Classify each candidate by style factor (growth, value, quality, defensive, cyclical) and enforce **minimum style diversity** in active swing positions."
+    ],
+    "3_catalyst_quality_framework": [
+      "Score catalysts on three axes: **freshness**, **fundamental materiality**, and **evidence breadth** (number and quality of independent sources).",
+      "Only consider **execution‑ready** if: freshness above threshold, fundamental score high (clear link to earnings/cash flow/valuation re‑rating), and evidence breadth ≥ 2–3 quality sources (filings + reputable analysis, etc.).",
+      "Demote pure price‑action or sentiment stories to **monitor-only** unless paired with a concrete event (e.g., breakout following earnings surprise or guidance hike)."
+    ],
+    "4_position_sizing_and entry discipline": [
+      "Couple **allocation suggestions to volatility and conviction**: high‑conviction, liquid, lower‑volatility names (e.g., WMT, UNH) can justify allocations in the 6–8% band, while speculative biotech/meme names (NUVL, AMC‑type profiles) should be at the 1–3% extreme only when risk fits your rules.",
+      "Predefine **stop‑loss bands per bucket** (defensive, cyclical, speculative) and ensure that every execution‑ready candidate has a stop that fits the global 3–12% constraint before it ever reaches the execution module."
+    ],
+    "5_social_buzz_and congress_signal_usage": [
+      "Downgrade social buzz and congressional trades to **secondary modifiers** only: they may improve confidence slightly for already‑sound fundamental setups but can never elevate a weak or catalyst‑less idea to tradeable status.",
+      "Require a **mandatory fundamental trigger** plus at least one non‑social independent confirmation before social/congress signals are even considered.",
+      "Log and track **precision/recall of social/congress‑boosted ideas vs. baseline** in paper results to decide later if these signals deserve any positive weight beyond risk‑flagging."
+    ],
+    "6_hf_and_chittick_integration": [
+      "Use **HF hype filter** as a *hard veto* on source‑thin or micro‑cap hype but not as the sole reason to pass a trade; combine with your own catalyst scores.",
+      "Treat **Chittick** as a **ranking/triage mechanism**: only the top N ideas by Chittick+confidence+catalyst score combination graduate to full write‑ups per day, limiting repetitive and marginal research.",
+      "For any candidate that HF memory flags as similar to prior rejections, enforce an **extra‑strict novelty threshold** and require a specifically documented ‘what’s different this time’ note."
+    ]
+  },
+  "self_learning_directives": {
+    "1_daily_and_weekly_reviews": [
+      "At the end of each trading day, auto‑summarize: (a) number of unique tickers proposed, (b) distribution by sector and style, (c) count of rejections by reason (allocation, stale, social‑signal‑weak, banned instruments).",
+      "If a day has more than a set threshold of **repeat_decay or stale_catalyst flags**, automatically tighten novelty thresholds for the next session.",
+      "Weekly, review which catalyst types (M&A, earnings beats, guidance changes, FDA, capital allocation) produced the best **paper P&L and hit rate**, and up‑weight those patterns in future candidate scoring."
+    ],
+    "2_memory_and_poisoning_controls": [
+      "Implement a **memory pruning routine**: collapse redundant tool outputs and stale candidate analyses into compressed notes rather than re‑feeding full prior logs to each new research pass.",
+      "Store only **aggregated learnings and state (per‑ticker history, last catalyst vector)** in a structured memory table, not full narrative text for every past run.",
+      "When a ticker hits repeat_decay multiple times, tag it in memory with a **cool‑down period** (e.g., cannot be re‑considered for X trading days unless a  category‑level event is detected)."
+    ],
+    "3_signal_calibration_and ablation": [
+      "Run **ablation tests** in paper: compare periods with social/congress/Chittick/HF weights active vs. muted to quantify their marginal contribution to idea quality and hit rate.",
+      "Maintain a rolling **confusion matrix per signal type**: how often did it appear in accepted winners vs. losers vs. rejected ideas; use this to slowly re‑weight its influence.",
+      "If a signal type produces recurrent rejections (e.g., low‑weight social triggers) without contributing to profitable ideas, gradually shrink its allowed role to zero or to pure risk‑flagging."
+    ],
+    "4_research_template_improvement": [
+      "Standardize a **short research template**: thesis, catalyst, time horizon, risk factors, sector/factor tags, signals used (HF, Chittick, social, congress), and explicit reason why this candidate is not just a repeat.",
+      "Force the model to answer a **binary novelty question**: ‘Does this thesis rely on any catalyst or narrative already logged for this ticker in the last X days?’ If yes, demote to monitoring and do not push as a new candidate.",
+      "Track and visualize **research entropy**: fraction of new vs. recycled information in each day’s write‑ups; if entropy drops below a threshold, reduce candidate count and increase depth on fewer, higher‑quality names."
+    ]
+  },
+  "signal_quality_assessment": {
+    "chittick_cash": {
+      "impact": "Useful as a **ranking and confidence layer**; higher Chittick scores generally co‑occur with better‑structured catalysts (e.g., GLW, AAPL, RRX, WMT, UNH).",
+      "issues": "By itself, it does not prevent stale or over‑repeated mega‑caps; still needs novelty and capacity gates.",
+      "recommendation": "Retain and **use only downstream**, after fundamental and capacity filters; never allow a high Chittick score to override stale_catalyst or repeat_decay."
+    },
+    "hugging_face_filters": {
+      "impact": "HF hype/source filters clearly improve research quality by rejecting micro‑cap speculation, leverage‑adjacent products, and source‑thin hype.",
+      "issues": "Sometimes they reject borderline but potentially valid ideas driven by a single high‑quality source; you must handle those via a documented override process rather than disabling filters.",
+      "recommendation": "Keep them as **hard safety and quality gates**; complement them with a small manual or explicit‑logic override channel that requires additional confirming evidence."
+    },
+    "social_buzz_signals": {
+      "impact": "Net effect so far is **added noise**: many candidates triggered by low‑weight social buzz are rejected for insufficient supporting sources or lack of fundamental catalyst.",
+      "issues": "They push the research engine toward short‑term sentiment and micro‑cap names that do not fit a long‑only swing, risk‑controlled mandate.",
+      "recommendation": "Restrict to **sentiment context only**; disallow social buzz from initiating candidates. Use it only to slightly boost or cut sizing on already‑sound setups, if at all."
+    },
+    "congressional_trading_signals": {
+      "impact": "As implemented, mostly **low‑weight signals** that frequently fail the ‘two strong sources’ rule and rarely convert into execution‑ready ideas.",
+      "issues": "They skew attention toward names that may not have timely, tradeable catalysts and add to log clutter.",
+      "recommendation": "Use only as **weak corroboration** when aligned with strong fundamentals. Never as primary catalyst; suppress congress‑only ideas automatically."
+    }
+  },
+  "safe_changes_after_test_gates": {
+    "code_and_logic_changes": [
+      "Implement a **portfolio‑aware candidate filter**: before scoring and emitting candidates, call a function that reads current simulated holdings and rejects or resizes any candidate that would breach single‑stock or max‑position constraints.",
+      "Add a **cool‑down mechanism** at the ticker level: maintain a dictionary with `last_catalyst_hash`, `last_considered_date`, and `repeat_count`; block candidates when `repeat_count` exceeds a threshold without a new catalyst hash.",
+      "Create a **sector/style quota module**: keep rolling counts of active and pending candidates by sector and style; if a quota is reached, new ideas from that bucket are tagged ‘research‑only’ and not passed to execution."
+    ],
+    "prompt_and_routine_changes": [
+      "Amend the research prompt to: (a) explicitly require a **fresh, documented catalyst** and (b) explicitly check memory: ‘If this ticker has been considered in the last 20 trading days, explain what is new; otherwise do not propose it.’",
+      "Add instructions that **social buzz and congress mentions cannot be primary catalysts** and must be treated only as secondary context layers.",
+      "Ensure the system prompt/routine states that **monitor‑only, non‑tradable, or banned‑instrument tickers must never be labeled execution‑ready**, and that such ideas should be logged only in a separate ‘watch but not tradeable’ section."
+    ],
+    "safety_and_scope_confirmations": [
+      "Keep all existing **bans on options, margin, shorting, crypto, and live trading** fully in place and ensure no research path suggests those as workarounds.",
+      "Never request or handle **secrets, credentials, or broker integrations**; all logic remains on paper‑trading, research, and rules‑testing only.",
+      "Add a recurring self‑check in the daily routine: ‘Confirm that all candidates comply with the mandate: long‑only, no leverage, no crypto, no non‑listed or exotic instruments.’"
+    ]
+  }
+}
 
