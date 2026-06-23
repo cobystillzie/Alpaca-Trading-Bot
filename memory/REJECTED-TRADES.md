@@ -497,4 +497,7 @@ Low-weight social/congress signal needs at least two stronger sources.
 ## Rejected GOOGL - 2026-06-19 09:55:01 Eastern Daylight Time
 
 Target allocation must be between 1% and 15%.
+## Rejected GOOGL - 2026-06-23 09:55:03 Eastern Daylight Time
+
+Target allocation must be between 1% and 15%.
 
