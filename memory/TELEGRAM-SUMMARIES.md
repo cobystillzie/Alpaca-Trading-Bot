@@ -32456,4 +32456,37 @@ Not run for this candidate.
 Social buzz, max 10%: Retail sentiment has eased from bullish to neutral with normal message volume, and broader AI buzz (e.g., ‘MANGOS’ narratives) keeps Alphabet in focus, but these are noise-level inputs compared with earnings and regul...
 Congress signal, max 5%: None specific or timely; recent congressional disclosure summaries emphasize diversified fund and index exposure rather than focused or time-sensitive trades in Alphabet.
 Sources: https://www.marketbeat.com/instant-alerts/alphabet-nasdaqgoogl-director-john-hennessy-sells-1050-shares-of-stock-2026-06-18/, https://intellectia.ai/news/stock/alphabet-faces-ai-investment-challenges-and-opportunities, https://www.marketbeat.com/stocks/NASDAQ/GOOGL/trends-and-sentiment/, https://stocktwits.com/news-articles/markets/equity/googl-stock-drops-in-premarket-report-says-search-giant-trims-cloud-team-ami...
+## Research Update - 2026-06-23 12:52:01 Eastern Daylight Time
+
+Research Update
+
+Market tone: Risk appetite is mixed: megacap tech has fresh negative news flow, while Intel and rare-earth names have active catalyst-driven interest. The best setups today are names with dated, company-specific catalysts rather than broad market or sector-only narratives.
+Candidates: 3
+
+1. INTC (semiconductors) | confidence 0.69 | allocation 6.0% | stop 7.0% | Chittick 66/100 | tier execution-ready | bucket semiconductors | HF source 1/100
+Recommendation: execute-if-guards-pass
+Catalyst: Bank of America raised its price target on June 23, 2026 to $160 from $135, citing a positive AI spending outlook through 2028.[2]
+Chittick Cash: Margin of safety is limited because this is not cheap on a classic value basis; the protection comes from the fresh catalyst and trend confirmation rather than deep valuation.
+HF filter: sentiment=positive_catalyst_driven source=1/100 hype=0.31 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=semiconductors
+Social buzz, low weight: Moderate news-driven attention around the stock and sector strength, not meme-style hype.
+Congress signal, low weight: none
+
+2. USAR (critical minerals / materials) | confidence 0.61 | allocation 3.0% | stop 9.0% | Chittick 58/100 | tier watch | bucket materials-critical-minerals | HF source 1/100
+Recommendation: execute-if-guards-pass
+Catalyst: USAR disclosed an amended business combination filing showing the Serra Verde transaction is expected to close in the third calendar quarter of 2026, while rare-earth supply-chain coverage remains active.[9][15]
+Chittick Cash: Margin of safety is thin because the company is still proving its operating model. The only real cushion is strategic scarcity value and policy support.
+HF filter: sentiment=speculative_positive source=1/100 hype=0.45 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=materials-critical-minerals
+Social buzz, low weight: Low-weight attention around rare-earth policy and US supply chain themes, but not primary evidence.
+Congress signal, low weight: none
+
+3. GOOGL (mega-cap internet / cloud) | confidence 0.49 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier watch | bucket mega-cap-internet-cloud | HF source 1/100 | HF veto
+Recommendation: watch
+Catalyst: Recent news flow highlights AI talent departures and legal/regulatory pressure, which creates volatility but does not constitute a bullish fresh catalyst.[1][10]
+Chittick Cash: The business has a strong intrinsic quality profile, but the stock does not currently offer a margin of safety for a swing entry because the market is repricing AI and legal risk.
+HF filter: sentiment=negative_event_risk source=1/100 hype=0.18 vetoes=2
+Self-learning: tier=watch repeat48h=6 fresh=yes bucket=mega-cap-internet-cloud
+Social buzz, low weight: Low-weight attention from news commentary and investor discussion, but not a primary catalyst.
+Congress signal, low weight: none
 

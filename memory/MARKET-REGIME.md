@@ -10156,4 +10156,83 @@ The US equity market is grinding to record highs, but the underlying conditions 
 ## Market Regime Research - 2026-06-19 07:51:25 Eastern Daylight Time
 
 {"summary":"US equities are in a moderately bullish but narrow, growth-led regime, with mega-cap tech and semiconductors carrying the tape, volatility contained, and the Fed still signaling higher-for-longer policy, which argues for a cautiously risk‑on stance rather than aggressive exposure for a paper‑trading bot.","market_regime":{"index_trend":{"tone":"uptrend, narrow leadership","detail":"Major US indexes are trading near recent highs with positive weekly performance led by the Nasdaq and semiconductor names, while the broader market shows flatter action and weaker cyclicals, indicating a continuing growth/mega‑cap leadership rather than a broad-based advance.[2][6]","bot_implication":"Treat regime as bullish but concentrated; avoid assuming broad risk-on across all styles and market caps."},"rates_and_fed":{"tone":"higher-for-longer, data-dependent","detail":"Futures markets are pricing only modest rate cuts into year-end and emphasize that any shift in Fed tone could move markets significantly, reflecting a market that still expects restrictive policy for longer rather than a rapid easing cycle.[3] Inflation concerns have eased somewhat, which has supported equities, but policy remains tight.[6]","bot_implication":"Macro backdrop is not an all-clear; avoid leverage or over-sizing and assume occasional rate‑headline shocks."},"volatility":{"tone":"subdued to moderate","detail":"Index moves over the week have been relatively contained, with the S&P 500 described as mostly flat and stable on some sessions even as leadership groups moved, suggesting overall volatility is not in crisis territory.[5] Recent rebounds after selloffs also indicate a buy-the-dip bias rather than panic.[3]","bot_implication":"For paper trading, it is reasonable to simulate moderate position sizes and standard stop ranges; no need to model crisis-level volatility, but keep room for headline spikes."},"earnings_and_fundamentals":{"tone":"constructively positive","detail":"Equity resilience is being framed by institutional research around resilient macro data and positive earnings growth as key pillars of a tactically bullish stance.[1] Recent market commentary notes that investors are balancing resilient corporate earnings with the drag from higher-for-longer rates.[2]","bot_implication":"Earnings backdrop supports maintaining a mild risk-on bias, but the bot should not assume an early‑cycle surge; focus on quality and confirmed trends rather than speculative laggards."}},"sector_rotation":{"leadership":{"tone":"mega-cap tech and semiconductors in front","detail":"Semiconductor and tech shares have been a strong positive driver for US indexes, repeatedly highlighted as boosting major averages and leading gains.[2][6]","bot_implication":"When simulating sector exposure, overweight the influence of growth/tech leadership in index behavior while keeping individual‑name sizing conservative."},"laggards":{"tone":"cyclicals and financials mixed to weaker","detail":"Some sessions have seen the Dow underperform due to weakness in industrial and financial sectors, even as the overall market tone stayed stable.[5] This suggests investors are not fully rotating into classic late‑cycle cyclicals yet.","bot_implication":"For scenario design, avoid assuming a full rotation into value/cyclicals; treat these groups as mixed and more sensitive to macro or rate disappointments."},"breadth":{"tone":"narrow, leadership-dependent","detail":"The fact that semiconductors and a handful of growth groups are repeatedly cited as driving index performance indicates narrow breadth, with the broader market more range-bound.[2][6]","bot_implication":"Model regime risk where index-level strength may mask fragility underneath; the bot’s filters should require both sector and stock-specific confirmation before treating a move as robust."}},"risk_flags":{"macro_policy_risk":{"description":"Fed tone shifts and data surprises","detail":"Market commentary emphasizes that even small changes in expectations for rate cuts or Fed guidance can move markets significantly in the current higher‑for‑longer environment.[3]","severity":"medium"},"concentration_risk":{"description":"Heavy reliance on semis/mega-cap tech","detail":"Recent gains in US indexes have been heavily dependent on semiconductor and large tech strength; if these leaders correct, the overall tape could weaken quickly.[2][6]","severity":"medium-high"},"breadth_and_rotation_risk":{"description":"Narrow breadth, incomplete rotation into cyclicals","detail":"Underperformance in industrials and financials alongside stable indexes suggests sector performance is uneven, with no broad risk-on embracing the full market.[5]","severity":"medium"},"event_and_headline_risk":{"description":"Geopolitics and inflation/rate headlines","detail":"Investors are explicitly balancing easing geopolitical tensions and resilient earnings against the risk that rates stay higher for longer, leaving room for abrupt sentiment shifts.[2]","severity":"medium"},"liquidity_and_gap_risk":{"description":"Intraday swings around news","detail":"Patterns of sharp selloffs followed by futures-led rebounds underscore the risk of gap moves around macro or Fed-related news.[3]","severity":"medium"}},"source_urls":["https://markets.jpmorgan.com/research-and-insights","https://www.instagram.com/p/DZwZJ9AtiPO/","https://www.facebook.com/schwabnetwork/posts/1595387549255268/","https://www.investors.com/news/stock-market-today-stock-market-news/","https://www.facebook.com/firstmetrosec/posts/1502652631895345/","https://www.reuters.com/markets/","https://seekingalpha.com/market-outlook/todays-market","https://ca.finance.yahoo.com/quote/ES=F/"]}
+## Market Regime Research - 2026-06-23 12:52:01 Eastern Daylight Time
+
+{
+  "summary": "US equities are in a late‑rally, mildly corrective **risk‑on but more cautious** regime: the primary index trend remains up after recent all‑time highs, but megacap tech is correcting, breadth is improving toward small caps and cyclicals, volatility is lifting from low levels, and a more hawkish Fed path is being priced while earnings remain broadly solid.",
+  "market_regime": {
+    "index_trend": {
+      "spx_trend": "The S&P 500 recently made successive all‑time highs (peaking near 7,621 on June 2) and is now in a pullback of roughly 4–5% from the peak, leaving it still up strongly year‑on‑year (+20% Y/Y) despite being modestly negative month‑to‑date.[5][1]",
+      "nasdaq_trend": "The Nasdaq has similarly retreated around 1.8% month‑to‑date after a strong AI‑driven run, with recent sessions led lower by large-cap tech weakness.[5][1][4]",
+      "style_and_size": "Recent trading shows megacap tech dragging cap‑weighted indices lower even as **7 of 11 S&P sectors and small caps (Russell 2000) finished higher** on the day, indicating improving breadth beneath the surface.[4][1]",
+      "interpretation": "Trend is still structurally bullish but in a **tired, corrective phase**, with leadership rotating away from the narrow megacap/AI complex toward a broader mix of sectors and smaller names.[1][4][6]"
+    },
+    "rates_and_fed": {
+      "policy_stance": "The Fed kept the funds rate steady at 3.50–3.75% at the June FOMC, with the statement and press conference described as **hawkish**, emphasizing a solid economy and inflation still above target.[2][8]",
+      "guidance_shift": "Chair Warsh signaled less reliance on explicit forward guidance, implying that shorter‑maturity yields may see **higher rate volatility** as markets react more to incoming data and potential policy surprises.[2]",
+      "market_pricing": "Front‑end yields moved to cycle highs (2‑year near 4.23%), the dollar strengthened, and equities came under pressure after the meeting, while some private forecasts now anticipate **multiple Fed hikes later this year**.[2][7][17]",
+      "macro_backdrop": "Macro data and commentary characterize the US economy as resilient with solid earnings, durable labor markets, and robust consumption, but with persistent inflation pressures and elevated long yields acting as a headwind to equity multiples.[2][5][11][15]"
+    },
+    "volatility": {
+      "vix_and_equity_vol": "The VIX has edged up to the high‑teens (around 17), from previously subdued levels, as US indices pulled back on higher yields, AI‑valuation concerns, and geopolitical uncertainty.[1][7]",
+      "rate_vol": "Analysts highlight the potential for **higher front‑end rate volatility** under the new Fed communication approach, which can bleed into equity volatility around data and Fed events.[2][5]",
+      "tone": "Overall volatility remains **contained rather than stressed**, but the regime has shifted from complacent to more alert, consistent with a mid‑cycle correction rather than a full risk‑off break.[1][5]"
+    },
+    "earnings_tone": {
+      "aggregate_earnings": "Latest updates describe US earnings growth as robust, with Q1 earnings up roughly 30% year‑over‑year overall and around 10% ex‑technology, indicating **broad‑based fundamental support** beyond AI.[11]",
+      "ai_and_tech_earnings": "AI‑linked semiconductors, memory, and IT hardware have seen especially strong earnings visibility and demand tied to data‑center build‑outs expected to extend into the late 2020s, though valuations are now being more critically reassessed.[3][5][1]",
+      "forward_outlook": "Large asset managers expect strong earnings and capital investment trends to continue supporting equities through 2026, but warn that high concentration and macro risks (rates, geopolitics) reduce the margin for error.[22][5]"
+    }
+  },
+  "sector_rotation": {
+    "leadership_and_laggers": {
+      "from_megacap_tech_to_broader_cyclicals": "Recent sessions show **rotation away from megacap technology**—with notable weakness in Alphabet, Microsoft, Amazon, Broadcom, and Meta—while small caps and a majority of sectors (7 of 11) closed higher and the Dow industrials gained.[4][1]",
+      "sector_momentum_structure": "Systematic factor work notes that **momentum remains dominant but is now highly concentrated within Technology and specific AI beneficiaries**, with large dispersion both across and within sectors, implying elevated rotation risk if momentum reverses.[6][3]",
+      "defensive_vs_cyclical": "Flows and performance indicate some rotation out of pure defensives and narrow AI winners toward more cyclical and rate‑sensitive areas (industrials, select energy/real estate), consistent with a still‑constructive growth view but with investors seeking diversification away from crowded trades.[4][3][11]"
+    },
+    "style_factors": {
+      "momentum": "Momentum remains positively exposed to AI/Tech winners, but with increasing crowding and sensitivity to rate and policy news.[6][5]",
+      "value_and_quality": "Commentary from large managers highlights a preference for **high‑quality carry and stronger balance sheets** in credit and equities, suggesting that quality and value tilts within cyclicals are favored over low‑quality high‑beta exposures in a higher‑for‑longer rate environment.[2][11][22]"
+    },
+    "rotation_implications_for_bot": "For a cautious, rules‑based paper‑trading workflow, the current environment implies:\n- Sector signals are less stable, with fast rotation between megacap tech and the rest of the market; trend filters should account for short‑term factor reversals.[1][4][6]\n- Breadth measures (e.g., % of sectors above moving averages) may provide better risk cues than cap‑weighted index levels alone given narrow prior leadership.[4][5]"
+  },
+  "risk_flags": {
+    "macro_and_policy": [
+      "Fed communication has turned more hawkish at the margin, with markets starting to price **renewed hike risk** later in the year, raising policy‑error and discount‑rate risk for long‑duration growth assets.[2][7][17]",
+      "Front‑end rate volatility is expected to increase due to reduced forward guidance, amplifying sensitivity of equities—especially Tech and other long‑duration assets—to data surprises.[2][5]",
+      "Inflation remains above target and long yields are elevated, keeping financial conditions relatively tight and limiting multiple expansion despite strong earnings.[2][5][11]"
+    ],
+    "market_structure_and_positioning": [
+      "US equity performance has been **highly concentrated in AI/Tech and megacap names**, increasing vulnerability to factor unwinds and crowding reversals.[3][5][6]",
+      "Recent selling in megacap tech alongside resilience in smaller caps and other sectors suggests an ongoing **de‑crowding in the most popular AI trades**, which can produce sharp, idiosyncratic moves in headline indices without a broad macro break.[1][4][6]",
+      "Global risk sentiment is more fragile, with synchronized equity declines across regions following Fed‑related repricing and sharp drops in high‑profile AI‑linked stocks, underscoring rising cross‑asset correlation risk around policy events.[7][1]"
+    ],
+    "geopolitical_and_commodity": [
+      "US–Iran negotiations and Middle East tensions continue to influence oil prices and risk sentiment; recent progress has pushed oil lower and supported risk assets at times, but the path remains uncertain and could re‑ignite inflation and volatility.[1][4][11]",
+      "Falling oil and some easing in energy‑driven inflation pressures have helped temper long‑end yield spikes, but reversals in crude could quickly tighten conditions again.[1][11][14]"
+    ],
+    "volatility_and_liquidity": [
+      "Volatility is transitioning from low to moderate, with the VIX moving into the high‑teens and rate vol expected to rise; this environment favors **frequent regime checks** and tighter risk controls for systematic strategies.[1][2][5]",
+      "Potential large AI‑related IPOs and capital‑raising (e.g., SpaceX) can divert liquidity from secondary markets, adding event‑driven volatility around specific tech segments.[3][4]"
+    ],
+    "workflow_cautions_for_paper_trading_bot": [
+      "Avoid treating recent AI/Tech strength as a stable regime: the combination of hawkish Fed repricing and crowded positioning increases whipsaw risk in simple momentum or breakout rules tied to megacap tech.[1][3][6][7]",
+      "Use broader market and factor indicators (sector breadth, small‑cap vs large‑cap, value vs growth) as **regime filters** before increasing notional exposure in simulations.[4][5][22]",
+      "Given the user’s existing memory of frequent candidate rejections tied to concentration and stale catalysts, a more conservative stance—lower max concurrent positions, stricter confirmation thresholds—remains consistent with the prevailing higher‑for‑longer rate and elevated‑valuation backdrop.[2][5][11][22]"
+  },
+  "source_urls": [
+    "https://www.home.saxo/content/articles/macro/market-quick-take---23-june-2026-23062026",
+    "https://www.lordabbett.com/en-us/institutional-investor/insights/markets-and-economy/2026/june-fed-meeting-policy-signals-from-the-new-chairman.html",
+    "https://wealthmanagement.bnpparibas/asia/en/insights/market-strategy/equity-perspectives-june-2026.html",
+    "https://neilsethi.substack.com/p/markets-update-6-22-26",
+    "https://www.oanda.com/eu-en/blog/june-2026-index-market-overview-navigating-monetary-headwinds-and-tech-valuation-friction",
+    "https://www.ssga.com/be/en_gb/institutional/insights/dissecting-equity-momentum",
+    "https://fortune.com/2026/06/23/stock-markets-fed-interest-rate-expectations-400-billion-spacex/",
+    "https://clearstead.com/market-perspectives/research-corner-6-22-2026/",
+    "https://www.theglobeandmail.com/investing/markets/stocks/F/pressreleases/2591847/market-analysis-for-june-22nd-2026/",
+    "https://www.schwab.com/learn/market-commentary",
+    "https://fp.thriventfunds.com/campaigns/june-2026-market-update-stocks-and-inflation-keep-rising.html",
+    "https://finance.yahoo.com/economy/policy/articles/3-fed-rate-hikes-now-064640485.html"
+  ]
+}
 

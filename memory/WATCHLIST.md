@@ -4,83 +4,185 @@
 {
   "candidates": [
     {
-      "adversary_case": "A skeptical view would argue that Alphabet\u2019s valuation already discounts strong AI and cloud growth, while mounting AI capex, intensifying competition, and regulatory pressure create asymmetric downside if execution disappoints or if the AI trade derates; near-term, the Waymo recall and Cloud job cuts could signal internal strain rather than optimization, making the next 1\u201310 days more about volatility than edge.",
-      "allocation_learning_note": "Prior iterations have overused Alphabet without fresh catalysts; this pass is explicitly tied to new Q1 growth details, Waymo recall, Cloud restructuring news, and updated analyst/insider information, and is kept as watch-only rather than execution-ready to respect repeat-decay discipline.",
-      "balance_sheet_risk": "Balance-sheet risk is low relative to many peers due to strong cash reserves and cash flow, but AI and data-center capex intensity increases the importance of disciplined capital allocation and may temporarily pressure free cash flow if returns are slower than expected.[2][11][15][17]",
-      "bear_case": "Key risks include: 1) execution and return uncertainty on very large AI and infrastructure investments; 2) potential margin compression from intense AI competition and elevated capex; 3) regulatory and litigation exposure, including heightened AI oversight and antitrust scrutiny; and 4) sentiment drawdowns from negative headlines such as Waymo\u2019s recall or internal restructuring in Google Cloud leading to near-term volatility.[2][6][13][15][17][19]",
-      "capital_allocation_case": "Management is aggressively reinvesting in AI and cloud infrastructure while using equity and internal cash to fund the buildout; insider equity awards are compensation-related rather than opportunistic buying, and the recent large equity raise for AI buildout underlines a deliberate choice to prioritize long-term AI positioning over near-term margin maximization.[9][11][15][17]",
-      "catalyst": "Recent Q1 2026 report showed ~22% YoY revenue growth to around $110B with Google Cloud revenue up ~63% YoY to ~$20B,[2] while new headlines highlight a job-cut drive within Google Cloud amid AI spending, a recall of 3,871 Waymo robotaxis to fix navigation issues, and insider/board transactions (director John Hennessy stock sale and CFO Anat Ashkenazi\u2019s stock-unit awards).[1][2][4][6][9][13]",
-      "catalyst_type": "earnings/news",
-      "chittick_cash_score": 78.0,
+      "adversary_case": "The strongest objection is that the stock is already extended and the analyst upgrade may be too late after a large run, making this a momentum chase instead of a true catalyst entry.[5][8]",
+      "allocation_learning_note": "If opened, keep size moderate because semis are still a crowded bucket and prior INTC attempts were rejected for stale catalysts.",
+      "balance_sheet_risk": "Semiconductor capex intensity and turnaround execution remain the main risks; this is not a low-risk balance sheet story.",
+      "bear_case": "The bear case is that this is still a turnaround story with heavy execution risk, analyst disagreement, and a history of engineering misses. If the AI narrative cools or the stock loses trend support, the move can fade quickly.[5][8]",
+      "capital_allocation_case": "Management must keep proving that capital is being deployed into competitive product and manufacturing priorities rather than legacy maintenance.",
+      "catalyst": "Bank of America raised its price target on June 23, 2026 to $160 from $135, citing a positive AI spending outlook through 2028.[2]",
+      "catalyst_type": "news",
+      "chittick_cash_score": 66.0,
       "chittick_reject_reason": "",
-      "concentration_case": "Alphabet earns attention over a broad ETF because it sits at the center of AI, search, and cloud monetization with direct operational leverage to AI adoption rather than diffuse index exposure; however, concentration risk is meaningful given regulatory overhang and AI competition, so sizing should remain moderate relative to diversified alternatives.",
+      "concentration_case": "It deserves attention over a broad ETF because the catalyst is company-specific and dated, while the sector itself has already seen broad multiple compression.",
       "confidence": 0.69,
-      "congressional_signal": "None specific or timely; recent congressional disclosure summaries emphasize diversified fund and index exposure rather than focused or time-sensitive trades in Alphabet.",
-      "diversity_bucket": "mega-cap-internet-cloud",
-      "entry_plan": "For paper-trading, consider a staged entry near recent support in the low-to-mid $360s if the stock holds above the 50-day moving average (~$362) on normal or rising volume after the latest Waymo/Cloud headlines, avoiding entries on sharp gap-ups and instead using intraday pullbacks toward support to improve risk/reward.[3][4][5][6][13]",
-      "exit_plan": "Take profits into strength if price approaches the low $380s\u2013$390s area or shows intraday reversal patterns after a 4\u20137% gain from entry; cut the position if it closes decisively below the 50-day moving average or posts a high-volume breakdown of ~8% from entry, or if a new, clearly adverse regulatory/AI headline emerges that undercuts the thesis.[3][4][5][13][19]",
+      "congressional_signal": "none",
+      "diversity_bucket": "semiconductors",
+      "entry_plan": "Paper-trade only if price holds above the 20-day moving average after the open and does not lose the prior session support zone; prefer a pullback-and-hold or first-hour consolidation rather than a gap chase.",
+      "exit_plan": "Take partial profits into a 5% to 8% move from entry or near the prior swing high; cut if the stock closes back below the 20-day moving average or breaks the pre-entry support level.",
       "fresh_catalyst": true,
-      "growth_runway": "Over 30\u2013180+ days, Alphabet\u2019s growth drivers include AI-enhanced Search and YouTube monetization, rapid cloud expansion with a large backlog, and optionality from Waymo and other bets, provided regulatory and execution challenges are managed; AI productivity trends across the economy offer a supportive macro backdrop for its services.[2][7][10][13][15][17][19]",
-      "hf_evidence_rank": 0.0,
+      "growth_runway": "Over the next 30 to 180 days, the key driver is whether the AI spending thesis translates into visible demand and continued analyst re-rating. Longer term, the runway depends on foundry execution and product competitiveness.",
+      "hf_evidence_rank": 0.76,
       "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.0,
-      "hf_memory_similarity": 0.0,
-      "hf_model_notes": "",
+      "hf_hype_risk": 0.31,
+      "hf_memory_similarity": 0.24,
+      "hf_model_notes": "Fresh dated catalyst plus technical support reduces repeat-decay concerns versus prior stale INTC passes.",
       "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "",
-      "hf_sentiment_score": 0.0,
-      "hf_source_quality_score": 0.0,
+      "hf_sentiment_label": "positive_catalyst_driven",
+      "hf_sentiment_score": 0.61,
+      "hf_source_quality_score": 0.73,
       "horizon_days": 5,
-      "margin_of_safety_case": "From a long-term, owner-style lens, Alphabet\u2019s balance sheet strength, dominant franchises, and cash generation provide a reasonable margin of safety, but short-horizon traders must recognize that the stock trades closer to fair value than deep value after a ~19% YTD move, leaving less valuation buffer against AI or regulatory disappointment.[2][3][5][15][17][19]",
-      "market_regime": "In a regime where mega-cap AI leaders drive index performance but also attract profit-taking after strong runs, Alphabet is sensitive to both AI enthusiasm and any shift toward de-risking; this argues for modest, time-boxed exposure and disciplined stops rather than aggressive concentration over a 1\u201310 day window.[2][4][7][17]",
-      "momentum_case": "Shares are up roughly 19% YTD and recently traded around $368\u2013369 with price action above both the 50-day (~$362) and 200-day (~$330) moving averages, indicating an intact uptrend despite modest pullbacks tied to AI profit-taking and company-specific headlines.[3][4][5]",
-      "owner_hold_case": "For a 30\u2013180 day owner-style case, one would monitor execution on AI product rollouts, cloud backlog conversion, regulatory/antitrust developments, and the financial impact of large capex programs, reassessing if growth decelerates or if regulatory/AI oversight materially constrains key businesses.[2][10][15][17][19]",
-      "quality_case": "Alphabet operates dominant franchises in Search, YouTube, Android, and Google Cloud with substantial scale advantages, recurring advertiser demand, and strong free-cash-flow generation, supported by SEC filings that emphasize durable demand and robust cash generation, albeit with heavy AI capex needs and regulatory/litigation risks.[2][15][17][19]",
-      "recommendation": "watch",
+      "margin_of_safety_case": "Margin of safety is limited because this is not cheap on a classic value basis; the protection comes from the fresh catalyst and trend confirmation rather than deep valuation.",
+      "market_regime": "Works best in a selective risk-on tape where traders are rewarding semis with fresh news, but it is vulnerable if the broader tech de-risking resumes.",
+      "momentum_case": "Benzinga reports the stock remains in a strong long-term uptrend, with price above both the 20-day and 50-day moving averages and the MACD still above its signal line.[5]",
+      "owner_hold_case": "Hold only if the AI spending thesis keeps getting validated by guidance, orders, or follow-through analyst upgrades over the next several months.",
+      "quality_case": "Intel is still a large, strategically important semiconductor franchise with multiple end markets, but execution risk remains high and the turnaround is not a Buffett-style compounder yet. The quality case is improving, but it is still below top-tier software or platform quality.",
+      "recommendation": "execute-if-guards-pass",
       "repeat_count_48h": 0,
-      "research_tier": "watch",
-      "risk_reward": "Risk/reward is acceptable but not exceptional for a short swing: upside is moderate given the stock\u2019s already strong YTD performance and multiple expansion, while downside is cushioned somewhat by quality fundamentals but exposed to headline shocks; the trade only works if momentum stabilizes quickly after current newsflow.",
-      "sector": "Communication Services / Internet & AI Cloud",
+      "research_tier": "execution-ready",
+      "risk_reward": "Moderate reward with clearly defined risk; the setup is attractive only if the fresh upgrade keeps momentum alive.",
+      "sector": "semiconductors",
       "signal_weights": {
         "congressional_signal": 0.0,
-        "social_buzz": 0.05
+        "social_buzz": 0.03
       },
-      "social_buzz": "Retail sentiment has eased from bullish to neutral with normal message volume, and broader AI buzz (e.g., \u2018MANGOS\u2019 narratives) keeps Alphabet in focus, but these are noise-level inputs compared with earnings and regulatory news.[6][8][20]",
-      "source_quality": "Evidence is primarily from recent earnings commentary and analyst notes, SEC/insider filings, and reputable financial news covering the Waymo recall and Cloud restructuring, providing a strong, multi-source factual basis; social sentiment and listicle-style mentions are treated only as weak context.[1][2][3][4][5][6][9][13][15][17][19][20]",
+      "social_buzz": "Moderate news-driven attention around the stock and sector strength, not meme-style hype.",
+      "source_quality": "Strong enough for a swing trade because the catalyst is dated, attributable, and supported by both analyst action and technical context, though the business thesis still carries execution risk.[2][5][8]",
       "source_urls": [
-        "https://www.marketbeat.com/instant-alerts/alphabet-nasdaqgoogl-director-john-hennessy-sells-1050-shares-of-stock-2026-06-18/",
-        "https://intellectia.ai/news/stock/alphabet-faces-ai-investment-challenges-and-opportunities",
-        "https://www.marketbeat.com/stocks/NASDAQ/GOOGL/trends-and-sentiment/",
-        "https://stocktwits.com/news-articles/markets/equity/googl-stock-drops-in-premarket-report-says-search-giant-trims-cloud-team-amid-ai-spending-push/cZ0FWw5RezC",
-        "https://www.marketbeat.com/instant-alerts/alphabet-nasdaqgoog-stock-price-up-15-still-a-buy-2026-06-18/",
-        "https://stocktwits.com/news-articles/markets/equity/googl-stock-in-focus-waymo-recalls-thousands-of-us-robotaxis-over-navigation-issue/cZKjza3R7ez",
-        "https://finance.yahoo.com/technology/ai/articles/alphabet-googl-faces-waymo-recall-162110953.html",
-        "https://finance.yahoo.com/quote/GC=F/",
-        "https://www.stocktitan.net/sec-filings/GOOG/form-4-alphabet-inc-insider-trading-activity-1f79dd628495.html",
-        "https://www.commonfund.org/blog/ais-productivity-payoff-is-here?hs_amp=true",
-        "https://www.instagram.com/p/DZugF_DE2f5/",
-        "https://www.investing.com/news/stock-market-news/why-is-carrefour-stock-sliding-today-93CH-4749116",
-        "https://www.facebook.com/techinsider/posts/apples-tim-cook-said-price-increases-are-coming-to-offset-soaring-memory-costs-s/1375606111105528/",
-        "https://seekingalpha.com/article/4916268-alphabet-google-cloud-outperforming-azure-aws-462-billion-backlog-requires-more-ai-investments",
-        "https://www.zacks.com/research-daily/2939337/top-research-reports-for-alphabet-broadcom-johnson-johnson",
-        "https://www.facebook.com/jon.erlichman/posts/which-struggling-growth-stock-could-bounce-back-stocks-sometimes-growth-stocks-s/26977549708611126/",
-        "https://news.bloomberglaw.com/securities-law/alphabet-visa-among-companies-signaling-heightened-ai-oversight",
-        "https://www.instagram.com/reel/DZvQGW_vjOX/"
+        "https://www.gurufocus.com/news/8927457/intel-intc-receives-price-target-increase-amid-positive-ai-spending-outlook",
+        "https://www.benzinga.com/markets/tech/26/06/60036877/why-is-intel-stock-falling-tuesday",
+        "https://www.wsj.com/tech/intels-stock-has-soared-but-it-needs-an-engineering-comeback-594741ce"
+      ],
+      "stop_loss_percent": 7.0,
+      "strategy_tags": [
+        "chittick_cash"
+      ],
+      "symbol": "INTC",
+      "target_allocation_percent": 6.0,
+      "thesis": "Intel has a fresh analyst upgrade tied to AI spending visibility, and price action remains momentum-positive despite intraday volatility. This is a better swing setup than a stale mega-cap because the catalyst is dated and specific.",
+      "valuation_case": "Valuation is not the core attraction here. The trade is justified only if investors continue to re-rate Intel on AI spending optionality and the turnaround remains credible."
+    },
+    {
+      "adversary_case": "The strongest objection is that this is a speculative capital-structure and policy trade rather than a proven business, so valuation and follow-through may not matter once the narrative weakens.",
+      "allocation_learning_note": "Small size only because this is a high-variance thematic name; do not scale until operating milestones are clearer.",
+      "balance_sheet_risk": "High. This is a speculative development-stage story with financing and dilution risk, and investors should assume execution slippage is possible.",
+      "bear_case": "The bear case is dilution, execution risk, and speculative valuation. If the transaction timeline slips or policy enthusiasm cools, the stock can retrace sharply.[9][15]",
+      "capital_allocation_case": "Capital allocation discipline has yet to be demonstrated at scale; the key question is whether management can convert strategic assets into operating value without over-diluting holders.",
+      "catalyst": "USAR disclosed an amended business combination filing showing the Serra Verde transaction is expected to close in the third calendar quarter of 2026, while rare-earth supply-chain coverage remains active.[9][15]",
+      "catalyst_type": "filing",
+      "chittick_cash_score": 58.0,
+      "chittick_reject_reason": "",
+      "concentration_case": "It deserves attention over a broad ETF because it has a very specific catalyst and a differentiated policy-backed theme, but position size must stay small.",
+      "confidence": 0.61,
+      "congressional_signal": "none",
+      "diversity_bucket": "materials-critical-minerals",
+      "entry_plan": "Only consider a small paper entry after confirmation of volume expansion on a continuation day, not on a first spike. Avoid chasing a vertical move; use the prior day high or a short consolidation breakout as the trigger.",
+      "exit_plan": "Take profits into strength quickly, especially if the move accelerates without a fresh filing or contract. Invalidate on a failure back below the breakout base or if the news flow stalls.",
+      "fresh_catalyst": true,
+      "growth_runway": "The 30 to 180 day driver is transaction progress and continued rare-earth supply-chain attention. Longer term, the runway depends on whether domestic processing and magnet supply can scale.",
+      "hf_evidence_rank": 0.61,
+      "hf_filter_vetoes": [],
+      "hf_hype_risk": 0.45,
+      "hf_memory_similarity": 0.21,
+      "hf_model_notes": "Speculative but has a dated filing and policy-linked backdrop, making it stronger than prior source-thin USAR passes.",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "speculative_positive",
+      "hf_sentiment_score": 0.57,
+      "hf_source_quality_score": 0.58,
+      "horizon_days": 4,
+      "margin_of_safety_case": "Margin of safety is thin because the company is still proving its operating model. The only real cushion is strategic scarcity value and policy support.",
+      "market_regime": "Selective risk-on for thematic, policy-linked small/mid-cap names, but only when the news flow is fresh and volume confirms interest.",
+      "momentum_case": "Rare-earth names are seeing active attention, and related stocks have been moving on tighter China export controls and supply-chain headlines. That gives USAR a momentum tailwind, but it is news-dependent rather than trend-durable.[3][6][18]",
+      "owner_hold_case": "Hold only if the acquisition closes on schedule and the company continues to de-risk domestic rare-earth processing and magnet supply.",
+      "quality_case": "The company has a plausible strategic niche in domestic rare-earth magnets and heavy rare-earth elements, but quality is still early-stage and below the standard of mature compounders. The evidence supports a real theme, not a high-quality operating history.",
+      "recommendation": "execute-if-guards-pass",
+      "repeat_count_48h": 0,
+      "research_tier": "watch",
+      "risk_reward": "Potentially high upside but equally high failure risk; this is a tactical swing, not a conviction hold.",
+      "sector": "critical minerals / materials",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.04
+      },
+      "social_buzz": "Low-weight attention around rare-earth policy and US supply chain themes, but not primary evidence.",
+      "source_quality": "Moderate. The filing source is specific and real, but much of the tradeable enthusiasm comes from broader rare-earth policy coverage rather than company-operating evidence.[9][15][18]",
+      "source_urls": [
+        "https://www.stocktitan.net/sec-filings/USAR/s-4-a-usa-rare-earth-inc-amended-business-combination-registration-ba7a9bdd3772.html",
+        "https://www.zacks.com/featured-articles/321/best-rare-earth-stocks",
+        "https://www.ebc.com/forex/best-us-rare-earth-stocks-2026",
+        "https://www.aol.com/finance/why-usa-rare-earth-stock-190144511.html"
+      ],
+      "stop_loss_percent": 9.0,
+      "strategy_tags": [
+        "chittick_cash"
+      ],
+      "symbol": "USAR",
+      "target_allocation_percent": 3.0,
+      "thesis": "USAR is a higher-risk but legitimate catalyst trade on strategic rare-earth supply-chain interest, with a specific corporate transaction timeline and policy backdrop. It fits the paper-trading bot only as a small, defined-risk swing because the upside is news-driven and the business is still speculative.",
+      "valuation_case": "Not obviously cheap on fundamentals; any valuation support depends on future strategic asset value and successful execution of the acquisition/asset roadmap."
+    },
+    {
+      "adversary_case": "The strongest objection to any bullish stance is that the current move is news-driven downside without a compensating upside catalyst, so buying here would be fighting the tape.",
+      "allocation_learning_note": "Repeated mega-cap; do not recycle into execution-ready status without a new earnings or filing catalyst.",
+      "balance_sheet_risk": "Balance sheet risk is low, but regulatory and capex risk are meaningful.",
+      "bear_case": "The bear case is that AI capex, regulatory exposure, and perceived talent leakage keep compressing sentiment before the business fundamentals can reassert themselves.[1][10]",
+      "capital_allocation_case": "Management is investing heavily in AI, which can be justified strategically, but the market is questioning the payback period.",
+      "catalyst": "Recent news flow highlights AI talent departures and legal/regulatory pressure, which creates volatility but does not constitute a bullish fresh catalyst.[1][10]",
+      "catalyst_type": "news",
+      "chittick_cash_score": 64.0,
+      "chittick_reject_reason": "Fresh catalyst is negative, repeat-decay pressure is present, and the current tape is not supportive for execution.",
+      "concentration_case": "It is important as a quality benchmark, but not preferable over fresher catalyst names for a short swing allocation.",
+      "confidence": 0.49,
+      "congressional_signal": "none",
+      "diversity_bucket": "mega-cap-internet-cloud",
+      "entry_plan": "Do not execute now. Only revisit if there is a clear reversal day backed by volume after the headline pressure clears or a new earnings/filing catalyst appears.",
+      "exit_plan": "No trade; if watched, use a new earnings report, guidance change, or confirmed breakout as the only trigger for a future plan.",
+      "fresh_catalyst": true,
+      "growth_runway": "Alphabet still has multi-year runway in cloud, AI monetization, and advertising efficiency, but that is a longer-term owner thesis, not a 1 to 10 day trade.",
+      "hf_evidence_rank": 0.66,
+      "hf_filter_vetoes": [
+        "repeat_decay",
+        "stale_catalyst"
+      ],
+      "hf_hype_risk": 0.18,
+      "hf_memory_similarity": 0.83,
+      "hf_model_notes": "High-quality business but not an execution-ready swing right now; kept only as watch due to negative fresh news flow.",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "negative_event_risk",
+      "hf_sentiment_score": 0.39,
+      "hf_source_quality_score": 0.72,
+      "horizon_days": 5,
+      "margin_of_safety_case": "The business has a strong intrinsic quality profile, but the stock does not currently offer a margin of safety for a swing entry because the market is repricing AI and legal risk.",
+      "market_regime": "In a risk-off or de-crowding tech tape, this is vulnerable because it is still a large-cap AI/advertising leader with crowded ownership.",
+      "momentum_case": "Momentum is negative into the latest drop, with shares down intraday on catalyst headlines and still below the recent high.[1][4]",
+      "owner_hold_case": "If the stock stabilizes and AI monetization becomes clearer, the long-term owner case remains intact and worth reviewing over 30 to 180 days.",
+      "quality_case": "Alphabet is still a high-quality platform business with durable ad and cloud economics, but the current setup does not offer enough margin of safety for a short swing entry. The quality is real, yet the near-term tape is working against it.[1][4]",
+      "recommendation": "watch",
+      "repeat_count_48h": 6,
+      "research_tier": "watch",
+      "risk_reward": "Poor for a 1 to 10 day swing right now because the downside catalyst is fresher than any bullish setup.",
+      "sector": "mega-cap internet / cloud",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.02
+      },
+      "social_buzz": "Low-weight attention from news commentary and investor discussion, but not a primary catalyst.",
+      "source_quality": "Moderate to strong on the negative catalyst, but weak for a bullish trade because the evidence currently supports caution rather than entry.[1][4][10]",
+      "source_urls": [
+        "https://finance.yahoo.com/markets/stocks/articles/why-alphabet-googl-shares-getting-230719406.html",
+        "https://www.benzinga.com/markets/tech/26/06/60036877/why-is-intel-stock-falling-tuesday",
+        "https://www.heygotrade.com/en/news/google-stumbles-fedex-reports-tonight/"
       ],
       "stop_loss_percent": 8.0,
       "strategy_tags": [
-        "chittick_cash",
-        "mega-cap-quality",
-        "ai-cloud",
-        "swing-1-10-day"
+        "chittick_cash"
       ],
       "symbol": "GOOGL",
       "target_allocation_percent": 0.0,
-      "thesis": "Alphabet remains a high-quality, cash-generative AI and internet platform with strong recent revenue and cloud growth, but the near term is defined by mixed headlines (Waymo recall, Cloud job cuts) and ongoing AI capex, making this more of a tightly risk-managed swing candidate than a straightforward buy-and-hold over the next 1\u201310 days.[2][4][13][15][17]",
-      "valuation_case": "Analysts broadly rate the stock a Buy/Moderate Buy with average and raised price targets (e.g., ~$413\u2013$445 on GOOGL and mid-$370s on GOOG) above current prices, implying upside but not extreme undervaluation; valuation is supported by strong revenue and cloud growth but partially offsets are high AI capex and competitive risks.[1][2][3][5][15][17]"
+      "thesis": "Alphabet remains a high-quality business, but today it is not an execution-ready buy because the latest move is driven by negative AI-talent and regulatory headlines rather than a fresh bullish catalyst. It belongs on watch, not in the active trade lane.",
+      "valuation_case": "Valuation may still be reasonable versus long-term quality, but it is not attractive enough to override the near-term catalyst imbalance."
     }
   ],
-  "summary": "US equities remain supported by strong mega-cap tech and AI-related earnings, but leadership is narrow and recent profit-taking in AI names alongside company-specific headlines (e.g., Alphabet\u2019s Waymo recall and Cloud restructuring) argue for a selective, quality-focused, risk-aware stance over the next 1\u201310 days."
+  "summary": "Risk appetite is mixed: megacap tech has fresh negative news flow, while Intel and rare-earth names have active catalyst-driven interest. The best setups today are names with dated, company-specific catalysts rather than broad market or sector-only narratives."
 }
 -->
 
@@ -1750,4 +1852,12 @@ No candidates.
 | Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
 |---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
 | GOOGL | Communication Services / Internet & AI Cloud | watch | mega-cap-internet-cloud | 0 | yes | 0.69 | 78 | 0 | 0 | 0.0% | 8.0% | watch | Recent Q1 2026 report showed ~22% YoY revenue growth to around $110B with Google Cloud revenue up ~63% YoY to ~$20B,[2] while new headlines highlight a job-cut  |
+
+## Latest Candidates - 2026-06-23 12:52:01 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| INTC | semiconductors | execution-ready | semiconductors | 0 | yes | 0.69 | 66 | 1 | 0 | 6.0% | 7.0% | execute-if-guards-pass | Bank of America raised its price target on June 23, 2026 to $160 from $135, citing a positive AI spending outlook through 2028.[2] |
+| USAR | critical minerals / materials | watch | materials-critical-minerals | 0 | yes | 0.61 | 58 | 1 | 0 | 3.0% | 9.0% | execute-if-guards-pass | USAR disclosed an amended business combination filing showing the Serra Verde transaction is expected to close in the third calendar quarter of 2026, while rare |
+| GOOGL | mega-cap internet / cloud | watch | mega-cap-internet-cloud | 6 | yes | 0.49 | 64 | 1 | 2 | 0.0% | 8.0% | watch | Recent news flow highlights AI talent departures and legal/regulatory pressure, which creates volatility but does not constitute a bullish fresh catalyst.[1][10 |
 
