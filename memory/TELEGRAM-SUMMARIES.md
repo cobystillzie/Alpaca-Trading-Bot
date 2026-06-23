@@ -32337,4 +32337,123 @@ Sources: https://www.marketbeat.com/instant-alerts/alphabet-nasdaqgoogl-director
 
 Rejected / Watchouts
 - GOOGL: Target allocation must be between 1% and 15%.
+## Performance Ledger - 2026-06-23 12:40:03 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-06-23 12:40:03 Eastern Daylight Time
+- Portfolio value: $100,096.56
+- P/L vs $100k baseline: $96.56
+- Full paper-account return: 0.097%
+- Managed-capital return: 0.97%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 1.72%
+- Latest position value: $5,696.58
+- Full-account cash reserve: 94.3%
+- Managed-capital cash reserve: 43.0%
+- Max snapshot drawdown: $328.28 from 2026-05-08 16:30:03 Eastern Daylight Time to 2026-06-09 12:40:01 Eastern Daylight Time
+
+Open Position Review
+- DT: winner, value $837.03, unrealized P/L $37.03, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 46 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: loser, value $458.64, unrealized P/L $-41.36, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 47 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: loser, value $747.70, unrealized P/L $-52.30, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 54 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- IBRX: loser, value $531.64, unrealized P/L $-68.36, entry 2026-05-11 09:48:18 Eastern Daylight Time, thesis age 43 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: winner, value $553.98, unrealized P/L $53.98, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 42 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: winner, value $808.90, unrealized P/L $8.90, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 53 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $806.81, unrealized P/L $6.81, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 48 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $951.87, unrealized P/L $151.87, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 56 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- INTC: appeared 38 times; market outcome unavailable until benchmark/candidate price history is captured.
+- GOOGL: appeared 35 times; open position P/L $-52.30.
+- SCHD: appeared 34 times; open position P/L $6.81.
+- SPMO: appeared 32 times; open position P/L $151.87.
+- NVDA: appeared 29 times; open position P/L $8.90.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MSFT: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- UNP: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VALN: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Candidate references banned v1 instruments or leverage.: 19
+  - Max open-position count would be exceeded.: 14
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 11
+  - Single-stock allocation would exceed 15%.: 7
+  - Low-weight social/congress signal needs at least two stronger sources.: 6
+  - A market-open order is already logged for today. No backup order was placed.: 5
+  - Candidate is monitor-only and cannot be traded. Confidence below 0.60. Target allocation must be between 1% and 15%. Stop loss must be between 3% and 12%.: 5
+  - Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 5
+- By symbol:
+  - GOOGL: 7
+  - INTU: 5
+  - INTC: 4
+  - AGI: 3
+  - BAH: 3
+  - KO: 3
+  - PLTR: 3
+  - TMXX.F: 3
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 0
+- listicle_or_screen: 1
+- social: 2
+- unknown: 15
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold met: 8 trades over 56 days.
+- Strategy tuning may be reviewed, but safety guardrails still apply.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## Midday Memo - 2026-06-23 12:40:03 Eastern Daylight Time
+
+Midday Risk Memo
+
+Recommendation: Hold only positions whose thesis still matches the research; do not add unless guardrails pass.
+
+Market Regime
+Review current paper positions, thesis drift, concentration, stop discipline, and cash reserve.
+
+Portfolio
+Portfolio value: 100096.56 Cash: 94400 Buying power: 393550.36 Positions: - DT: qty=20.289119959, market_value=837.027644, unrealized_pl=37.027644 - GLRE: qty=28.042624789, market_value=458.637128, unrealized_pl=-41.362872 - GOOGL: qty=2.151289429, market_value=747.702154, unrealized_pl=-52.297846 - IBRX: qty=70.838252656, market_value=531.641086, unrealized_pl=-68.358914 - LNC: qty=14.590020426, market_value=553.983076, unrealized_pl=53.983076 - NVDA: qty=4.00060009, market_value=808.901335, unrealized_pl=8.901335 - SCHD: qty=25.2286345, market_value=806.811731, unrealized_pl=6.811731 - SPMO: qty=6.119014838, market_value=951.873948, unrealized_pl=151.873948 Performance: value $100,096.56, P/L vs $100k $96.56, managed return 0.97%, deployed return 1.72%, managed cash reserve 43.0%.
+
+Top Candidates
+
+1. GOOGL (Communication Services / Internet & AI Cloud) | confidence 0.69 | allocation 0.0% | stop 8.0% | Chittick 78/100 | tier watch | bucket mega-cap-internet-cloud
+Thesis: Alphabet remains a high-quality, cash-generative AI and internet platform with strong recent revenue and cloud growth, but the near term is defined by mixed headlines (Waymo recall, Cloud job cuts) and ongoing AI capex, making this more of a tightly risk-managed swing candidate than a straightforward buy-and-hold over the next 1–10 days.[2][4][13][15][17]
+Catalyst: Recent Q1 2026 report showed ~22% YoY revenue growth to around $110B with Google Cloud revenue up ~63% YoY to ~$20B,[2] while new headlines highlight a job-cut drive within Google Cloud amid AI spending, a recall of 3,871 Waymo robotaxis to fix navigation issues, and insider/board transactions (d...
+Entry: For paper-trading, consider a staged entry near recent support in the low-to-mid $360s if the stock holds above the 50-day moving average (~$362) on normal or rising volume after the latest Waymo/Cloud headlines, avoiding entries on sharp gap-ups and instea...
+Exit: Take profits into strength if price approaches the low $380s–$390s area or shows intraday reversal patterns after a 4–7% gain from entry; cut the position if it closes decisively below the 50-day moving average or posts a high-volume breakdown of ~8% from e...
+Risk/reward: Risk/reward is acceptable but not exceptional for a short swing: upside is moderate given the stock’s already strong YTD performance and multiple expansion, while downside is cushioned somewhat by quality fundamentals but exposed to headline shocks; the tra...
+Bear/adversary: A skeptical view would argue that Alphabet’s valuation already discounts strong AI and cloud growth, while mounting AI capex, intensifying competition, and regulatory pressure create asymmetric downside if execution disappoints or if the AI trade derates; near-term, the Waymo recall and Cloud job...
+Source quality: Evidence is primarily from recent earnings commentary and analyst notes, SEC/insider filings, and reputable financial news covering the Waymo recall and Cloud restructuring, providing a strong, multi-source factual basis; social sentiment and listicle-style...
+Chittick Cash Filter
+Score: 78/100
+Margin of safety: From a long-term, owner-style lens, Alphabet’s balance sheet strength, dominant franchises, and cash generation provide a reasonable margin of safety, but short-horizon traders must recognize that the stock trades closer to fair value th...
+Valuation: Analysts broadly rate the stock a Buy/Moderate Buy with average and raised price targets (e.g., ~$413–$445 on GOOGL and mid-$370s on GOOG) above current prices, implying upside but not extreme undervaluation; valuation is supported by st...
+Growth runway: Over 30–180+ days, Alphabet’s growth drivers include AI-enhanced Search and YouTube monetization, rapid cloud expansion with a large backlog, and optionality from Waymo and other bets, provided regulatory and execution challenges are man...
+Balance-sheet risk: Balance-sheet risk is low relative to many peers due to strong cash reserves and cash flow, but AI and data-center capex intensity increases the importance of disciplined capital allocation and may temporarily pressur...
+Capital allocation: Management is aggressively reinvesting in AI and cloud infrastructure while using equity and internal cash to fund the buildout; insider equity awards are compensation-related rather than opportunistic buying, and the...
+Concentration case: Alphabet earns attention over a broad ETF because it sits at the center of AI, search, and cloud monetization with direct operational leverage to AI adoption rather than diffuse index exposure; however, concentration risk is meaningful g...
+Owner thesis, 30-180 days: For a 30–180 day owner-style case, one would monitor execution on AI product rollouts, cloud backlog conversion, regulatory/antitrust developments, and the financial impact of large capex programs, reassessing if growth decelerates or if regulatory/AI overs...
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: earnings/news
+Fresh catalyst: yes
+Repeat count, 48h: 0
+Diversity bucket: mega-cap-internet-cloud
+Research tier: watch
+Allocation learning: Prior iterations have overused Alphabet without fresh catalysts; this pass is explicitly tied to new Q1 growth details, Waymo recall, Cloud restructuring news, and updated analyst/insider information, and is kept as watch-only rather tha...
+Hugging Face Filter
+Not run for this candidate.
+Social buzz, max 10%: Retail sentiment has eased from bullish to neutral with normal message volume, and broader AI buzz (e.g., ‘MANGOS’ narratives) keeps Alphabet in focus, but these are noise-level inputs compared with earnings and regul...
+Congress signal, max 5%: None specific or timely; recent congressional disclosure summaries emphasize diversified fund and index exposure rather than focused or time-sensitive trades in Alphabet.
+Sources: https://www.marketbeat.com/instant-alerts/alphabet-nasdaqgoogl-director-john-hennessy-sells-1050-shares-of-stock-2026-06-18/, https://intellectia.ai/news/stock/alphabet-faces-ai-investment-challenges-and-opportunities, https://www.marketbeat.com/stocks/NASDAQ/GOOGL/trends-and-sentiment/, https://stocktwits.com/news-articles/markets/equity/googl-stock-drops-in-premarket-report-says-search-giant-trims-cloud-team-ami...
 
