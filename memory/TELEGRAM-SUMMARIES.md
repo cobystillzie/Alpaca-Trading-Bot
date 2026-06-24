@@ -33044,4 +33044,183 @@ HF filter: sentiment=not run source=0/100 hype=0.00 vetoes=0
 Self-learning: tier=watch repeat48h=0 fresh=yes bucket=energy-quality-operator
 Social buzz, low weight: Moderate but fundamentally anchored attention, with discussions often focusing on reserves, free cash flow, and capital returns rather than pure price‑target hype; this is treat...
 Congress signal, low weight: none
+## Performance Ledger - 2026-06-24 16:30:03 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-06-24 16:30:03 Eastern Daylight Time
+- Portfolio value: $100,083.95
+- P/L vs $100k baseline: $83.95
+- Full paper-account return: 0.084%
+- Managed-capital return: 0.84%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 1.50%
+- Latest position value: $5,683.95
+- Full-account cash reserve: 94.3%
+- Managed-capital cash reserve: 43.2%
+- Max snapshot drawdown: $328.28 from 2026-05-08 16:30:03 Eastern Daylight Time to 2026-06-09 12:40:01 Eastern Daylight Time
+
+Open Position Review
+- DT: winner, value $818.10, unrealized P/L $18.10, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 47 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: loser, value $463.26, unrealized P/L $-36.74, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 48 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: loser, value $742.19, unrealized P/L $-57.81, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 55 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- IBRX: loser, value $554.66, unrealized P/L $-45.34, entry 2026-05-11 09:48:18 Eastern Daylight Time, thesis age 44 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: winner, value $533.99, unrealized P/L $33.99, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 43 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: winner, value $801.44, unrealized P/L $1.44, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 54 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: flat, value $800.00, unrealized P/L $0.00, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 49 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $970.29, unrealized P/L $170.29, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 57 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- INTC: appeared 39 times; market outcome unavailable until benchmark/candidate price history is captured.
+- GOOGL: appeared 37 times; open position P/L $-57.81.
+- SCHD: appeared 34 times; open position P/L $0.00.
+- SPMO: appeared 32 times; open position P/L $170.29.
+- NVDA: appeared 29 times; open position P/L $1.44.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MSFT: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- UNP: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VALN: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Candidate references banned v1 instruments or leverage.: 19
+  - Max open-position count would be exceeded.: 16
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 11
+  - Single-stock allocation would exceed 15%.: 7
+  - Low-weight social/congress signal needs at least two stronger sources.: 6
+  - A market-open order is already logged for today. No backup order was placed.: 5
+  - Candidate is monitor-only and cannot be traded. Confidence below 0.60. Target allocation must be between 1% and 15%. Stop loss must be between 3% and 12%.: 5
+  - Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 5
+- By symbol:
+  - GOOGL: 8
+  - INTC: 5
+  - INTU: 5
+  - AGI: 3
+  - BAH: 3
+  - KO: 3
+  - PLTR: 3
+  - TMXX.F: 3
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 0
+- unknown: 7
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold met: 8 trades over 57 days.
+- Strategy tuning may be reviewed, but safety guardrails still apply.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## End Of Day Memo - 2026-06-24 16:30:03 Eastern Daylight Time
+
+End Of Day Analyst Memo
+
+Recommendation: Carry forward only evidence-backed candidates; review stops before the next market-open run.
+
+Market Regime
+End-of-day review of paper portfolio, trade quality, risk notes, and next-day watchlist.
+
+Portfolio
+Portfolio value: 100083.95 Cash: 94400 Buying power: 393515.07 Positions: - DT: qty=20.289119959, market_value=818.103982, unrealized_pl=18.103982 - GLRE: qty=28.042624789, market_value=463.264162, unrealized_pl=-36.735838 - GOOGL: qty=2.151289429, market_value=742.194853, unrealized_pl=-57.805147 - IBRX: qty=70.838252656, market_value=554.663518, unrealized_pl=-45.336482 - LNC: qty=14.590020426, market_value=533.994748, unrealized_pl=33.994748 - NVDA: qty=4.00060009, market_value=801.440216, unrealized_pl=1.440216 - SCHD: qty=25.2286345, market_value=800, unrealized_pl=0 - SPMO: qty=6.119014838, market_value=970.292183, unrealized_pl=170.292183 Performance: value $100,083.95, P/L vs $100k $83.95, managed return 0.84%, deployed return 1.50%, managed cash reserve 43.2%.
+
+Top Candidates
+
+1. GOOGL (Communication Services / Internet & AI) | confidence 0.68 | allocation 5.0% | stop 8.0% | Chittick 73/100 | tier watch-allocation-constrained | bucket mega-cap-internet-cloud
+Thesis: Alphabet is a dominant, high‑quality AI, search, YouTube, and cloud franchise benefiting from durable cash flows and a major index inclusion catalyst (joining the Dow Jones Industrial Average) that can drive incremental demand and short‑term momentum, but it is also a repeated name with elevated sentiment and recent volatility that warrants modest sizing...
+Catalyst: Fresh: S&P Dow Jones Indices announced that Alphabet Class A (GOOGL) will replace Verizon in the Dow Jones Industrial Average effective June 29, 2026, to better represent sectors driving U.S. growth such as AI, cloud, and digital advertising; the news pushed shares to fresh highs and extends prio...
+Entry: Paper‑trade staged entry near a modest pullback from recent highs rather than chasing spikes around the Dow inclusion headline: for example, simulate a limit entry 3–5% below the most recent intraday high or near short‑term support identified in your charti...
+Exit: For a 5–7 day swing, target approximately 1.5–2x the downside: if stop is 8%, aim for 12–15% upside or exit earlier on a clear loss of short‑term momentum (break below support with expanding volume); invalidate the trade and log it in paper records if price...
+Risk/reward: Risk/reward is acceptable but not exceptional: a high‑quality franchise with a clear index catalyst and strong AI positioning, counterbalanced by elevated expectations, crowding in mega‑cap tech, and recent sector corrections that can drive outsized downsid...
+Bear/adversary: The strongest objection is that this is a crowded, repeat‑decay mega‑cap AI name entering a mature stage of the trade: Dow inclusion is well publicized and may already be priced in, the stock has run significantly over the past year, and any further AI/mega‑cap unwind or regulatory shock could pr...
+Source quality: Evidence quality is high: the Dow inclusion and role replacing Verizon are documented by S&P Dow Jones/financial news, and multiple reputable outlets describe Alphabet’s leadership in AI, cloud, and digital ads along with its strong recent performance; sent...
+Chittick Cash Filter
+Score: 73/100
+Margin of safety: From a Chittick Cash lens, Alphabet’s durable cash generation, strong moat, and net‑cash‑like balance sheet provide a reasonable margin of safety, but the rapid appreciation and AI enthusiasm compress the traditional value margin; the Do...
+Valuation: Analysts continue to rate Alphabet as an outperform among AI stocks, reflecting confidence in its earnings growth and AI monetization, yet AI/mega‑cap corrections and the stock’s strong trailing performance suggest valuation is at least...
+Growth runway: Over a 30–180 day and longer horizon, key drivers include continued AI integration into search and productivity tools, expansion of Google Cloud, YouTube advertising and subscription growth, and potential monetization of Other Bets such...
+Balance-sheet risk: Alphabet carries relatively low financial leverage with strong cash reserves and robust free cash flow generation according to filings and analyst coverage, reducing solvency risk; key risks are more operational and r...
+Capital allocation: Management has shown willingness to reinvest heavily in AI, cloud, and infrastructure while also returning capital via buybacks; Chittick‑style scrutiny should monitor whether continued heavy capex and spending on Oth...
+Concentration case: As a mega‑cap with broad index representation, GOOGL is not a classic concentrated‑only idea, but its combination of quality, AI leadership, and a tangible Dow inclusion catalyst makes it more attractive than a generic broad ETF for a sh...
+Owner thesis, 30-180 days: For a 30–180 day owner‑style thesis, a holder would track execution in AI search and cloud, regulatory developments, and earnings/guidance updates rather than the Dow change; maintenance of double‑digit earnings growth, disciplined capex, and progress in mo...
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: news
+Fresh catalyst: yes
+Repeat count, 48h: 2
+Diversity bucket: mega-cap-internet-cloud
+Research tier: watch-allocation-constrained
+Allocation learning: Name is subject to repeat_decay from prior passes; even with a fresh Dow inclusion catalyst, v1 should constrain allocation and emphasize discovery of underrepresented sectors alongside any GOOGL exposure.
+Hugging Face Filter
+Not run for this candidate.
+Social buzz, max 10%: Retail attention and message‑volume around GOOGL have been elevated and recently shifted from bullish to more neutral as traders digest both the Dow news and broader AI volatility, but this is treated purely as low‑we...
+Congress signal, max 5%: none
+Sources: https://nai500.com/blog/2026/06/alphabet-googl-to-replace-verizon-vz-in-dow-shake-up/, https://www.facebook.com/cnbc/posts/alphabet-will-replace-verizon-in-the-dow-jones-industrial-average/1406388891362500/, https://nai500.com/blog/2026/06/ai-chip-stocks-whirl-mu-nvda-amd-intc-googl/, https://finance.yahoo.com/technology/ai/articles/alphabet-googl-keeps-market-outperform-134808909.html
+
+2. PAYX (Industrials / Business Services (Human Capital Management)) | confidence 0.71 | allocation 7.0% | stop 8.0% | Chittick 78/100 | tier execution-ready | bucket business-services-defensive-growth
+Thesis: Paychex is a high‑quality, cash‑generative human capital management and payroll provider with recurring revenue, modest cyclicality, and a clear fresh catalyst in its Q4 FY2026 earnings and guidance, which highlighted steady growth, margin resilience, and an emerging AI monetization roadmap; this offers a non‑tech‑mega‑cap, services‑quality play with near...
+Catalyst: Fresh: Paychex reported Q4 FY2026 results and fiscal 2027 outlook, with management discussing revenue growth in the mid‑single digits and emphasizing a product roadmap that focuses on direct monetization of AI‑enabled features, along with disciplined cost control; the call provides updated data f...
+Entry: Wait for at least one full trading session after the earnings reaction to avoid the most volatile initial gap; for paper‑trading, simulate a buy if PAYX trades above the midpoint of its earnings‑day candle on average or higher volume and holds above that le...
+Exit: For a 4–7 day swing, target taking profits into strength if the stock advances 6–10% from entry or shows signs of fading momentum (long upper wicks, volume drying up on up‑days); invalidate the trade if price closes below the low of the earnings reaction da...
+Risk/reward: Risk/reward is moderate but cleaner than some AI‑hype names: downside is anchored by a recurring, profitable business, while upside over a short window depends on the market rewarding the conservative growth and AI‑feature roadmap; this justifies a mid‑rang...
+Bear/adversary: The main objection is that PAYX’s 5–6% revenue growth outlook and cautious AI monetization messaging may already be reflected in the valuation, leaving limited upside for a short‑term swing; if investors rotate aggressively back into high‑beta AI and semis, this steadier compounder could underper...
+Source quality: Evidence quality is strong, relying primarily on a detailed post‑earnings summary from a reputable financial news source that cites management’s revenue guidance, margin context, and AI product roadmap; no reliance on social or listicle‑only sources.[20]
+Chittick Cash Filter
+Score: 78/100
+Margin of safety: The recurring‑revenue model and historically strong margins provide some cushion against cyclical shocks, but a 5–6% growth outlook suggests the margin of safety depends more on not overpaying for quality than on rapid growth; the fresh...
+Valuation: The article frames PAYX as a high‑quality operator emphasizing AI monetization on top of a stable core; while exact multiples are not provided, the tone suggests a quality‑at‑reasonable‑price profile rather than deep value or clear overv...
+Growth runway: Over 30–180 days and beyond, growth is driven by continued SMB payroll and HR outsourcing, expansion of value‑added services, and incremental revenue from AI‑enabled tools that can be directly monetized; macro labor‑market health and int...
+Balance-sheet risk: Paychex is generally regarded as conservatively financed with limited debt relative to cash flows, reducing balance‑sheet risk; the main financial risks stem from macro‑driven revenue slowdowns rather than leverage or...
+Capital allocation: Management has historically balanced reinvestment in technology and services with shareholder returns; the explicit focus on directly monetizing AI features suggests a disciplined approach to extracting returns from t...
+Concentration case: Compared with broad ETFs, PAYX offers a targeted bet on high‑quality, recurring‑revenue business services with a fresh information catalyst, while still avoiding the concentration in mega‑cap AI names that dominate major indices; this fi...
+Owner thesis, 30-180 days: A 30–180 day owner‑style thesis would monitor execution on AI feature monetization, client growth trends, and operating margin stability; as long as revenue tracks the 5–6% guidance and AI‑related products show uptake, a patient holder could justify staying...
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: business-services-defensive-growth
+Research tier: execution-ready
+Allocation learning: Provides a non‑tech‑mega‑cap, post‑earnings quality candidate that helps diversify away from overused AI/semiconductor buckets.
+Hugging Face Filter
+Not run for this candidate.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://finance.yahoo.com/markets/stocks/articles/paychex-inc-q4-2026-earnings-164344979.html
+
+3. EOG (Energy / Oil & Gas Exploration & Production) | confidence 0.63 | allocation 0.0% | stop 8.0% | Chittick 69/100 | tier watch | bucket energy-quality-operator
+Thesis: EOG Resources is a leading U.S. shale producer with a reputation for capital discipline, strong balance sheet, and shareholder‑friendly cash‑return policies; in the current environment, it offers exposure to energy cash flows and potential upside from any renewed oil‑price strength, while social and media attention have highlighted its role as a bellwethe...
+Catalyst: Soft but present: sustained media and investor focus on EOG as a U.S. shale bellwether in the context of volatile energy markets and macro discussions, combined with its track record of capital discipline and shareholder returns; while not a single dated event, this attention reflects ongoing rec...
+Entry: Use technical confirmation tied to oil prices: for example, simulate a long entry only if EOG is breaking above a recent short‑term consolidation high on above‑average volume while front‑month oil futures are also firm or rising; avoid entries immediately a...
+Exit: Over a 4–8 day horizon, aim to capture a 6–12% swing tied to oil‑price follow‑through, tightening stops if oil reverses or if EOG prints reversal candles on high volume; invalidate the trade if price falls 8% from entry or if oil drops sharply on macro news...
+Risk/reward: Risk/reward is balanced but clearly cyclical: upside depends largely on macro oil dynamics, while downside can be swift if commodity prices turn; the quality of the operator and capital discipline modestly improve the odds versus lower‑quality peers, but po...
+Bear/adversary: The most compelling objection is that, absent a discrete, dated company‑specific catalyst, EOG is effectively a macro oil trade in disguise; for a 1–10 day strategy with a preference for clear catalysts, this may not meet the bar relative to other names with fresher earnings or corporate events,...
+Source quality: Evidence is moderate: coverage of EOG as a bellwether and discussion of its capital discipline and shareholder‑return approach comes from mainstream financial news and market commentary, but the current catalyst is thematic rather than a single dated event;...
+Chittick Cash Filter
+Score: 69/100
+Margin of safety: Within a cyclical sector, EOG’s low cost structure and disciplined capital allocation create a relative margin of safety: it is better positioned to generate acceptable returns across oil cycles than higher‑cost peers, though commodity r...
+Valuation: Recent commentary frames EOG as a quality energy name rather than a distressed or bubble asset; valuation appears anchored in fundamentals and cash returns, but without a fresh earnings multiple snapshot, this remains a relative, not abs...
+Growth runway: Over 30–180 days and longer, drivers include drilling efficiency gains, disciplined production growth tied to demand, and potential upside from sustained or higher oil prices; any structural shift in energy policy, demand, or geopolitica...
+Balance-sheet risk: EOG is generally viewed as having a stronger balance sheet than many shale peers, with more conservative leverage and an emphasis on self‑funded capex; this reduces default and dilution risk but does not eliminate mac...
+Capital allocation: Management is known for prioritizing returns on invested capital, maintaining capital discipline, and returning cash to shareholders when conditions permit, aligning reasonably with an owner‑mindset approach to capita...
+Concentration case: Relative to a broad energy ETF, EOG offers a concentrated bet on one of the sector’s higher‑quality operators; within a diversified portfolio, a modest position can provide energy exposure with better fundamentals than the average producer.
+Owner thesis, 30-180 days: A 30–180 day owner‑style thesis would monitor oil price trends, capex discipline, and cash‑return policies (dividends, variable payouts, buybacks); as long as management maintains its quality playbook and oil prices remain supportive, an owner could justify...
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: structural
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: energy-quality-operator
+Research tier: watch
+Allocation learning: Provides sector diversification and a quality energy angle but lacks a single discrete, dated catalyst, so remains watch‑only for now under the stated preference for strong catalysts.
+Hugging Face Filter
+Not run for this candidate.
+Social buzz, max 10%: Moderate but fundamentally anchored attention, with discussions often focusing on reserves, free cash flow, and capital returns rather than pure price‑target hype; this is treated as a secondary confirmation of invest...
+Congress signal, max 5%: none
+Sources: https://finance.yahoo.com/quote/EOG/
 
