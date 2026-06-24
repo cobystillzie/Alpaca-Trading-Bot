@@ -1603,4 +1603,12 @@ Premarket plan built from latest watchlist.
 Risk appetite is mixed: megacap tech has fresh negative news flow, while Intel and rare-earth names have active catalyst-driven interest. The best setups today are names with dated, company-specific catalysts rather than broad market or sector-only narratives.
 
 Candidates found: 3
+## Premarket Plan - 2026-06-24 08:25:01 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- INTC: score=78, base=95, chittick=66, approved=True, allocation=6.0%, stop=7.0%
+- USAR: score=76, base=95, chittick=58, approved=True, allocation=3.0%, stop=9.0%
+- GOOGL: score=65, base=90, chittick=35, approved=False, allocation=0.0%, stop=8.0%
+  rejects: repeat_decay; stale_catalyst; Confidence below 0.60.; Target allocation must be between 1% and 15%.
 
