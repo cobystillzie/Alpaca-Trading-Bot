@@ -500,4 +500,16 @@ Target allocation must be between 1% and 15%.
 ## Rejected GOOGL - 2026-06-23 09:55:03 Eastern Daylight Time
 
 Target allocation must be between 1% and 15%.
+## Rejected INTC - 2026-06-24 09:55:01 Eastern Daylight Time
+
+Max open-position count would be exceeded.
+## Rejected USAR - 2026-06-24 09:55:01 Eastern Daylight Time
+
+Max open-position count would be exceeded.
+## Rejected GOOGL - 2026-06-24 09:55:01 Eastern Daylight Time
+
+repeat_decay
+stale_catalyst
+Confidence below 0.60.
+Target allocation must be between 1% and 15%.
 
