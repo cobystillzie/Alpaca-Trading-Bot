@@ -33382,4 +33382,28 @@ Rejected / Watchouts
 - GT: prior-repeat-decay-GT
 - GOOGL: repeat_decay; stale_catalyst; memory_similarity; HF memory filter flags similarity to prior rejected patterns.; Candidate is monitor-only and cannot be traded.; Target allocation must be between 1% and 15%.
 - PHX: Low-weight social/congress signal needs at least two stronger sources.; source_thin; no_fundamental_catalyst; Candidate is monitor-only and cannot be traded.; Confidence below 0.60.; Target allocation must be between 1% and 15%.
+## Research Update - 2026-06-25 10:53:33 Eastern Daylight Time
+
+Research Update
+
+Market tone: Sector data and fresh policy/industry news point to selective opportunities in tires and rare earths, but balance-sheet and execution risks argue for modest, tightly risk‑managed swing positions and a preference for diversified, higher‑quality names over single high‑beta developers.
+Candidates: 2
+
+1. GT (Consumer Discretionary / Auto Components (Tires)) | confidence 0.66 | allocation 4.0% | stop 7.0% | Chittick 35/100 | tier execution-ready | bucket cyclical-consumer-auto | HF source 0/100
+Recommendation: execute-if-guards-pass
+Catalyst: 1) Q1 2026 earnings on May 6 beat EPS consensus by $0.05 on $3.88B revenue, reducing near-term solvency fears and resetting expectations.[9] 2) Next earnings is estimated around early August 2026, giving a defined 30–40 day window that t...
+Chittick Cash: Valuation may screen optically cheap versus sales or historical multiples due to depressed sentiment and cyclical fears, but the true margin of safety is thin because of leverage, modest structural growth, and uncerta...
+HF filter: sentiment=not run source=0/100 hype=0.10 vetoes=0
+Self-learning: tier=execution-ready repeat48h=1 fresh=yes bucket=cyclical-consumer-auto
+Social buzz, low weight: None noted as a primary driver; recent attention appears to stem from earnings coverage and general auto/tire industry commentary rather than meme or hype dynamics.[17][19]
+Congress signal, low weight: none
+
+2. USAR (Materials / Strategic Metals & Rare Earths) | confidence 0.63 | allocation 0.0% | stop 7.0% | Chittick 35/100 | tier allocation-muted | bucket strategic-metals-rare-earths | HF source 0/100
+Recommendation: watch
+Catalyst: On June 22, 2026, China added USA Rare Earth to its export control list, restricting Chinese-origin dual-use technology and equipment, which both creates operational challenges and underscores the strategic importance of domestic rare-ea...
+Chittick Cash: Given limited current cash flows and high project and financing risk, there is little traditional margin of safety; equity value is largely an option on future successful build‑out under supportive policy regimes.[4][...
+HF filter: sentiment=not run source=0/100 hype=0.30 vetoes=0
+Self-learning: tier=allocation-muted repeat48h=1 fresh=yes bucket=strategic-metals-rare-earths
+Social buzz, low weight: Rare earths receive ongoing thematic attention as a strategic sector, but current catalysts are primarily policy and macro, not meme‑style social hype; available social content...
+Congress signal, low weight: none specific to USAR; congressional interest shows up at the theme level (critical minerals, broad equity ETFs) rather than ticker‑specific trading disclosures in the latest sc...
 

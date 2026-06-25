@@ -1631,4 +1631,9 @@ Premarket plan built from latest watchlist.
   rejects: repeat_decay; stale_catalyst; memory_similarity; HF memory filter flags similarity to prior rejected patterns.; Candidate is monitor-only and cannot be traded.; Target allocation must be between 1% and 15%.
 - PHX: score=66, base=90, chittick=35, approved=False, allocation=0.0%, stop=8.0%
   rejects: Low-weight social/congress signal needs at least two stronger sources.; source_thin; no_fundamental_catalyst; Candidate is monitor-only and cannot be traded.; Confidence below 0.60.; Target allocation must be between 1% and 15%.
+## Two-Hour Research Agent - 2026-06-25 10:53:33 Eastern Daylight Time
+
+Sector data and fresh policy/industry news point to selective opportunities in tires and rare earths, but balance-sheet and execution risks argue for modest, tightly risk‑managed swing positions and a preference for diversified, higher‑quality names over single high‑beta developers.
+
+Candidates found: 2
 
