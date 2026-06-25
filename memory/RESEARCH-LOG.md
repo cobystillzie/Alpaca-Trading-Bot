@@ -1621,4 +1621,14 @@ Candidates found: 3
 Broad US equities are in a cautious, slightly defensive phase with earnings-supported index levels but visible rotation toward lower-volatility sectors and away from more cyclical and commodity-linked exposures.
 
 Candidates found: 3
+## Premarket Plan - 2026-06-25 08:25:02 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- GT: score=77, base=95, chittick=63, approved=False, allocation=4.0%, stop=8.0%
+  rejects: prior-repeat-decay-GT
+- GOOGL: score=72, base=100, chittick=35, approved=False, allocation=0.0%, stop=8.0%
+  rejects: repeat_decay; stale_catalyst; memory_similarity; HF memory filter flags similarity to prior rejected patterns.; Candidate is monitor-only and cannot be traded.; Target allocation must be between 1% and 15%.
+- PHX: score=66, base=90, chittick=35, approved=False, allocation=0.0%, stop=8.0%
+  rejects: Low-weight social/congress signal needs at least two stronger sources.; source_thin; no_fundamental_catalyst; Candidate is monitor-only and cannot be traded.; Confidence below 0.60.; Target allocation must be between 1% and 15%.
 
