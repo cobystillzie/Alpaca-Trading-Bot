@@ -512,4 +512,23 @@ repeat_decay
 stale_catalyst
 Confidence below 0.60.
 Target allocation must be between 1% and 15%.
+## Rejected GT - 2026-06-25 09:55:03 Eastern Daylight Time
+
+prior-repeat-decay-GT
+## Rejected GOOGL - 2026-06-25 09:55:03 Eastern Daylight Time
+
+repeat_decay
+stale_catalyst
+memory_similarity
+HF memory filter flags similarity to prior rejected patterns.
+Candidate is monitor-only and cannot be traded.
+Target allocation must be between 1% and 15%.
+## Rejected PHX - 2026-06-25 09:55:03 Eastern Daylight Time
+
+Low-weight social/congress signal needs at least two stronger sources.
+source_thin
+no_fundamental_catalyst
+Candidate is monitor-only and cannot be traded.
+Confidence below 0.60.
+Target allocation must be between 1% and 15%.
 
