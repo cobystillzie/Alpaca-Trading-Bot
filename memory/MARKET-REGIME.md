@@ -10363,4 +10363,101 @@ The US equity market is grinding to record highs, but the underlying conditions 
     "https://www.rbccm.com/en/insights/outlook-2026"
   ]
 }
+## Market Regime Research - 2026-06-25 07:52:28 Eastern Daylight Time
+
+{
+  "summary": "US equities remain in a primary uptrend but are in a tactically choppy, mildly risk-off phase, with falling yields and oil providing some relief while a stronger dollar, hawkish Fed tone, and recent tech-led pullbacks keep conditions cautious for a paper-trading bot.",
+  "market_regime": {
+    "index_trend": {
+      "tone": "moderately bullish but choppy",
+      "details": "The S&P 500 and Nasdaq are still grinding higher, with the S&P up about 0.4% in the latest session after two days of tech-led declines, and all major US indices opening in the green.[1][2][9] This points to an ongoing uptrend supported by strong earnings expectations, but with short-term swings driven by sector-specific corrections, particularly in large-cap technology.[1][2][9][8]"
+    },
+    "rates_and_fed": {
+      "policy_rate": "3.50%–3.75%",
+      "tone": "hawkish hold",
+      "details": "The Fed left the funds rate unchanged at 3.50%–3.75% at the June meeting but removed its prior easing bias and signaled that at least one further hike remains on the table.[3][5] Commentary emphasizes inflation over labor-market weakness and suggests reduced forward guidance and a more flexible, less transparent communication stance, reinforcing a hawkish policy path even without immediate hikes.[5] Mortgage rates remain elevated (30‑year conforming ~6.5%), confirming that broader financing conditions stay restrictive.[3]"
+    },
+    "volatility_and_liquidity": {
+      "volatility_tone": "contained but with risk-off pockets",
+      "details": "Traditional havens like US Treasuries, Gilts, and Bunds have seen renewed demand, with fixed-income benchmarks firmer as recent equity pressure (especially APAC-driven) encouraged defensive positioning.[2] The US dollar index is grinding higher toward May 2025 highs, with DXY near 101.6 and still bid on haven demand.[2][7] This mix—stronger dollar, firmer sovereigns, and only modest equity drawdowns—suggests volatility is not spiking aggressively but risk sentiment is cautious rather than exuberant.[2][7]"
+    },
+    "earnings_tone": {
+      "growth_expectations": "supportive",
+      "details": "US EPS growth expectations around 20% overall, and nearly 70% for semiconductors, are providing fundamental support to the equity uptrend.[8] Market commentary around recent sessions shows continued focus on key tech/semiconductor names (e.g., Micron) and an environment where earnings are broadly perceived as constructive despite episodic profit‑taking in mega‑cap tech.[2][9][8]"
+    },
+    "risk_on_off": {
+      "regime": "balanced-to-mild-risk-off",
+      "drivers": [
+        "Risk-off: stronger US dollar, haven flows into Treasuries and European sovereigns, ongoing geopolitical tension around Iran/Hormuz, and recent tech-sector drawdowns.[2][4][7][10][1]",
+        "Risk-on: indices still near highs with US cash equities opening broadly green, supportive earnings expectations, and falling oil and yields easing macro pressure.[1][2][6][8]"
+      ],
+      "net_assessment": "The overall tone is mixed: structurally constructive given earnings and the ongoing index uptrend, but tactically cautious with defensive flows and a stronger dollar indicating investors are selectively de-risking rather than fully embracing a risk-on stance.[1][2][7][8]"
+    }
+  },
+  "sector_rotation": {
+    "equity_sectors": {
+      "technology_and_semiconductors": {
+        "tone": "leadership with recent corrective pressure",
+        "details": "Recent declines have been led by major technology firms, weighing on the S&P and Nasdaq over the prior two sessions.[1][9] However, semiconductors retain very strong EPS growth expectations (~70%), which continues to underpin medium‑term leadership despite near-term profit-taking.[8][2]"
+      },
+      "energy": {
+        "tone": "underperforming",
+        "details": "Crude benchmarks have been retreating, with Brent falling about 3.9% and slipping below $74–75, the lowest levels since the Iran conflict spike.[1][2][6] This has driven a notable sell-off in oil and gas equities, with many large-cap names down 10%–20% over the past month, and energy sectors underperforming broader indices.[2][6]"
+      },
+      "defensive_sectors": {
+        "tone": "relative bid",
+        "details": "In Europe, defensives such as Real Estate, Consumer Products & Services, and Food, Beverages & Tobacco have topped sector performance tables while energy lagged.[2] This defensive tilt, alongside demand for sovereign bonds, signals a preference for lower-beta exposure within equities that likely rhymes with US investor behavior in the current cross-asset environment.[2]"
+      },
+      "materials_and_precious_metals": {
+        "tone": "correcting",
+        "details": "Gold has fallen about 2.7% to just above $4,000, briefly breaching that level for the first time since November 2025 as the US dollar strengthens.[4][7] Silver has dropped more sharply, and Chinese banks have tightened retail gold trading amid heightened price volatility.[4][7] This indicates some unwinding in the prior strong precious-metals trend and a tilt toward cash/USD rather than metals as the haven of choice.[4][7]"
+      }
+    },
+    "style_and_factor_rotation": {
+      "growth_vs_value": {
+        "tone": "growth still favored but consolidating",
+        "details": "Mega-cap growth and tech remain central to earnings enthusiasm, especially semiconductors, but recent pullbacks in technology and a firmer dollar suggest some rotation away from crowded growth trades toward defensives and income-seeking assets.[1][2][8][9]"
+      },
+      "cyclicals_vs_defensives": {
+        "tone": "defensive tilt",
+        "details": "Underperformance in energy and parts of cyclicals, combined with outperformance in defensives like real estate and consumer staples, points to a modest rotation into lower-volatility segments as investors balance risk-on earnings support with macro and geopolitical uncertainty.[2][6][10]"
+      }
+    }
+  },
+  "risk_flags": {
+    "macro_policy": [
+      "Hawkish Fed hold: rates steady at 3.50%–3.75% but with dot-plot and statement signaling possible further hikes and a clear inflation-first stance, maintaining restrictive conditions.[3][5]",
+      "Less forward guidance: Fed communication is intentionally shorter and less explicit, increasing policy uncertainty and potential event risk around future meetings.[5]"
+    ],
+    "rates_and_currency": [
+      "Elevated borrowing costs: mortgage and related rates remain high (30‑year conforming ~6.5%), constraining housing and interest-sensitive sectors.[3]",
+      "Strong US dollar: DXY is rising toward recent highs, supported by haven demand, which can pressure commodities, EM assets, and multinational earnings translations.[2][7]"
+    ],
+    "market_dynamics": [
+      "Tech concentration risk: recent declines have been led by major technology stocks, highlighting vulnerability to any negative surprises in mega-cap growth names that dominate index behavior.[1][9]",
+      "Defensive flows: firmer Treasuries, Gilts, and Bunds alongside a stronger dollar and defensive sector strength indicate cautious sentiment that could quickly flip to broader risk-off if macro data or geopolitics deteriorate.[2][7]",
+      "Commodity volatility: sharp pullbacks in oil and precious metals, combined with policy and geopolitical headlines around Iran and Hormuz, increase cross‑asset volatility and macro headline risk.[1][2][4][6][10]"
+    ],
+    "geopolitical_and_event": [
+      "Iran/Hormuz risk: a fragile deal and conflicting statements around shipping costs in the Strait of Hormuz are reshaping energy markets, leaving room for renewed price and volatility shocks.[1][2][10]",
+      "Regional instability: escalating violence and political fractures in North Africa add to the global risk backdrop, potentially impacting energy, defense, and trade-related exposures.[10]"
+    ],
+    "paper_trading_constraints_contextual": [
+      "Strategy-level caution: recent execution logs show repeated candidate rejections for reasons such as stale catalysts, monitor-only instruments, banned leverage, max open-position limits, and low confidence thresholds, indicating that the current environment has produced many marginal or conflicted signals rather than high-conviction setups.",
+      "Allocation discipline: the need to maintain target allocations between 1% and 15%, avoid banned instruments and leverage, and respect max position counts aligns well with the current regime of choppy risk sentiment and suggests continuing to favor tightly risk‑managed, incremental adjustments in any simulated workflow."
+    ]
+  },
+  "source_urls": [
+    "https://www.bnnbloomberg.ca/markets/2026/06/24/us-stocks-edge-higher-in-early-trading-as-falling-oil-prices-help-take-pressure-off-the-market/",
+    "https://www.newsquawk.com/headlines/newsquawk-european-market-wrap---24th-june-2026",
+    "https://fortune.com/article/current-mortgage-rates-06-25-2026/",
+    "https://texmetals.com/all-news/precious-metals-market-update-6-24-2026",
+    "https://www.sageadvisory.com/article/no-rate-change-but-a-meaningful-shift-in-policy-tone",
+    "https://www.cnbc.com/2026/06/24/why-energy-could-be-a-great-place-to-invest-even-with-oil-prices-retreating-5-stocks-to-buy.html",
+    "https://www.share-talk.com/sp-angel-todays-market-view-thursday-25th-june-2026",
+    "https://www.rbcbluebay.com/en/institutional/what-we-think/insights/global-equity-investor-insight-june-2026",
+    "https://www.instagram.com/p/DZ-dR1JBg86/",
+    "https://www.stimson.org/2026/north-africa-weekly-june-24-2026/"
+  ]
+}
 

@@ -33223,4 +33223,37 @@ Not run for this candidate.
 Social buzz, max 10%: Moderate but fundamentally anchored attention, with discussions often focusing on reserves, free cash flow, and capital returns rather than pure price‑target hype; this is treated as a secondary confirmation of invest...
 Congress signal, max 5%: none
 Sources: https://finance.yahoo.com/quote/EOG/
+## Research Update - 2026-06-25 07:52:29 Eastern Daylight Time
+
+Research Update
+
+Market tone: Broad US equities are in a cautious, slightly defensive phase with earnings-supported index levels but visible rotation toward lower-volatility sectors and away from more cyclical and commodity-linked exposures.
+Candidates: 3
+
+1. GT (consumer-discretionary-auto-parts) | confidence 0.64 | allocation 4.0% | stop 8.0% | Chittick 63/100 | tier execution-ready | bucket cyclical-industrials-auto | HF source 1/100 | HF veto
+Recommendation: execute-if-guards-pass
+Catalyst: Named upgrade to "outperform" from "sector perform" on expectations of profit margin expansion, with the stock reportedly rising about 4% on the news, providing a fresh, dated catalyst and potential follow-through window.[1][3]
+Chittick Cash: Given GT’s leverage and cyclicality, the margin of safety is modest; any upside relies on successful execution of margin-expansion plans and supportive auto demand, so from a Chittick perspective this is a monitored s...
+HF filter: sentiment=neutral-slightly-positive source=1/100 hype=0.18 vetoes=1
+Self-learning: tier=execution-ready repeat48h=1 fresh=yes bucket=cyclical-industrials-auto
+Social buzz, low weight: No meaningful, independent social-buzz evidence beyond routine mentions in market recaps; no sign of meme-style participation or extreme retail crowding in the available snippet...
+Congress signal, low weight: none; there are no relevant congressional trading disclosures for GT in the recent dataset.
+
+2. GOOGL (communication-services-internet) | confidence 0.78 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier monitor-only | bucket mega-cap-internet-cloud | HF source 1/100 | HF veto
+Recommendation: watch
+Catalyst: Recent context includes an updated full-year forecast and ongoing product/AI initiatives mentioned in market commentary, but there is no clearly time-stamped, fresh earnings or major regulatory event in the provided snippets that would r...
+Chittick Cash: Valuation is no longer distressed but remains reasonable relative to growth, moats, and balance sheet; the margin of safety is acceptable for a high-quality franchise but thinner than in past drawdowns, reinforcing th...
+HF filter: sentiment=neutral source=1/100 hype=0.22 vetoes=3
+Self-learning: tier=monitor-only repeat48h=2 fresh=yes bucket=mega-cap-internet-cloud
+Social buzz, low weight: Routine, baseline attention as a mega-cap tech bellwether; no unusual social spike is evident in the provided material.
+Congress signal, low weight: A recent congressional disclosure reported a sale of Alphabet shares as part of a broader big-tech basket trim, which is a weak, low-weight cautionary signal but not thesis-defi...
+
+3. PHX (energy-minerals-royalties) | confidence 0.46 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier monitor-only | bucket energy-smallcap-royalties | HF source 0/100 | HF veto
+Recommendation: watch
+Catalyst: The snippets reference updated commentary on PHX and its position within mineral and royalty strategies, but no single, strong, dated corporate catalyst (like earnings or a major acquisition) is visible; thus PHX is best treated as a low...
+Chittick Cash: Impossible to assess rigorously from the snippets alone; any margin-of-safety call would require reserve, leverage, and valuation work in the primary filings.
+HF filter: sentiment=unknown source=0/100 hype=0.10 vetoes=2
+Self-learning: tier=monitor-only repeat48h=0 fresh=yes bucket=energy-smallcap-royalties
+Social buzz, low weight: None; PHX does not feature in the social-buzz anomalies and appears off the main radar.
+Congress signal, low weight: none; no relevant disclosures.
 
