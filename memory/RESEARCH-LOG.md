@@ -1636,4 +1636,16 @@ Premarket plan built from latest watchlist.
 Sector data and fresh policy/industry news point to selective opportunities in tires and rare earths, but balance-sheet and execution risks argue for modest, tightly risk‑managed swing positions and a preference for diversified, higher‑quality names over single high‑beta developers.
 
 Candidates found: 2
+## Premarket Plan - 2026-06-26 15:31:35 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- GT: score=74, base=95, chittick=35, approved=True, allocation=4.0%, stop=7.0%
+- USAR: score=74, base=95, chittick=35, approved=False, allocation=0.0%, stop=7.0%
+  rejects: Candidate references banned v1 instruments or leverage.; Candidate is allocation-muted and cannot be traded.; Target allocation must be between 1% and 15%.
+## Two-Hour Research Agent - 2026-06-26 15:39:38 Eastern Daylight Time
+
+U.S. equities are in a cautious, choppy regime with concentrated pressure in mega-cap tech and AI-related names, while selected quality cyclicals and platform businesses with fresh company-specific catalysts are seeing supportive flows.
+
+Candidates found: 3
 
