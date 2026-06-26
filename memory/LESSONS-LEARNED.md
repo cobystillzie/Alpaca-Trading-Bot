@@ -1522,4 +1522,121 @@
     ]
   }
 }
+## Weekly Review - 2026-06-26 17:25:32 Eastern Daylight Time
+
+{
+  "lessons": {
+    "allocation_and_risk_guards": [
+      "Single‑name caps and monitor/allocation‑muted flags are working; high‑concentration risks in mega‑caps (GOOGL, NVDA, MSFT, INTC) are repeatedly blocked before execution.",
+      "Max open‑position count and 1–15% allocation/3–12% stop bands reliably prevent overextension and mis‑sized trades.",
+      "Banned‑instrument and leverage screens are consistently enforced (PLTR, COIN, GLD, various ETFs/funds), preserving the v1 safety envelope."
+    ],
+    "stale_and_repeat_catalysts": [
+      "Repeat‑decay and stale‑catalyst labels correctly identify over‑reused narratives in mega‑cap tech (GOOGL, MSFT, INTC) and GT, but the pipeline still surfaces these tickers frequently, indicating upstream memory/selection logic is not sufficiently penalizing repeats.",
+      "HF memory similarity flags are effective at catching pattern replays, yet they operate mainly at the rejection stage, not at candidate generation, leading to redundant daily research output."
+    ],
+    "sector_and_ticker_usage": [
+      "Semiconductors and internet/cloud platforms (INTC, TER, GOOGL, SHOP) are heavily represented among recent candidates, while defensives, healthcare, and true non‑US diversification are underrepresented.",
+      "Energy and materials show up in narrow forms (XOM, EOG, EQNR, PHX, USAR) with a mix of good fundamental catalysts (EOG, EQNR) and noise‑heavy, thin‑source names (PHX, USAR on some dates).",
+      "Some high‑quality industrials/business services (PAYX, OC, APH, GLW) do make it through, but they are not used to systematically counterbalance sector concentration elsewhere."
+    ],
+    "research_quality_vs_noise": [
+      "Fundamental catalysts (earnings beats, price‑target changes, index inclusion, major corporate investments, dated regulatory filings) appear to correlate with higher confidence and execution‑ready tiers (TER, GLW, INTC, GT, PAYX, SHOP, EQNR).",
+      "Low‑weight social/congress signals repeatedly trigger rejections (PLTR, DVN, SGN, EWY, EWT, AMC, CORT, NUVL, PHX) and frequently coincide with source‑thin or micro‑cap speculation, indicating these signals add more noise than value at current thresholds and routing.",
+      "HF source/hype filters correctly reject source‑thin or hype‑driven ideas (ADI, GSK, SGN, PHX, USAR on some dates), improving research quality but also highlighting that upstream candidate sourcing still drags in hype before filters cut it."
+    ]
+  },
+  "rejected_patterns": {
+    "allocation_block_and_position_limits": [
+      "Repeated attempts to add names when single‑stock allocation would exceed 15% (GOOGL, NVDA, SPMO, etc.) show a pattern of selection that does not sufficiently consider existing exposure until the guardrail fires.",
+      "Multiple rejections due to max open‑position count underscore that the system is often generating new ideas without first cycling or trimming existing holdings, leading to unnecessary blocked trades."
+    ],
+    "repeat_decay_and stale_catalysts": [
+      "Mega‑cap tech (GOOGL, MSFT, INTC, AAPL) and some cyclicals (GT) repeatedly appear with repeat_decay/stale_catalyst flags; this indicates that previous catalysts are being re‑used or re‑framed without genuinely fresh, dated events.",
+      "Stale_catalyst plus confidence below 0.60 shows a pattern where narrative‑only or undated commentary is being treated as soft catalysts instead of being filtered out earlier."
+    ],
+    "social_buzz_and congress_signals": [
+      "Low‑weight social/congress signals repeatedly fail gate checks and co‑occur with micro‑cap speculation, potentially delisted tickers, or no fundamental catalyst (SGN, DVN, CORT, NUVL, EWY, EWT, AMC, PHX).",
+      "These patterns suggest that when social/congress features dominate, the candidate is more likely to be speculative, poorly sourced, or incompatible with the risk framework."
+    ],
+    "monitor_only_and allocation_muted conflicts": [
+      "Frequent rejections citing \"candidate is monitor‑only\" or \"allocation‑muted\" show a mismatch between research selection and tradable universe; the bot repeatedly chooses tickers that are structurally non‑executable.",
+      "This creates repetitive research output around names that cannot progress beyond watch/monitor tiers, wasting attention and increasing memory clutter."
+    ]
+  },
+  "strategy_proposals": {
+    "ticker_and_sector_routing": [
+      "Introduce a **repeat‑aware universe filter**: before generating fresh candidates each session, exclude any ticker that has: (a) repeat_decay or stale_catalyst logged in the past N days, and (b) is monitor‑only or allocation‑muted, unless a high‑confidence, time‑stamped new catalyst is detected.",
+      "Implement **sector‑balance targets** for the candidate list: e.g., ensure each day’s execution‑ready pool includes at least one non‑tech/non‑internet name if any tech/cloud/semiconductor symbols are present. Use soft quotas (e.g., cap any single sector at 40% of daily execution‑ready slots).",
+      "Add a **mega‑cap throttle**: limit daily candidate generation for mega‑cap tech/internet (AAPL, MSFT, GOOGL, AMZN, etc.) to at most one ticker and require a top‑quartile confidence plus a clearly dated catalyst (earnings, guidance, regulatory decision, index change)."
+    ],
+    "catalyst and confidence handling": [
+      "Upgrade the **freshness gate**: only allow a symbol into execution‑ready tier when the primary catalyst has: (a) a specific date within the last X days, and (b) a clearly fundamental nature (earnings, guidance, index inclusion, rating/target change, major contract/deal, regulatory action) rather than generic news flow.",
+      "Use a **two‑layer confidence model**: one score for catalyst quality (dated, fundamental, multi‑source) and one for technical/price‑action confirmation. Require both to exceed a minimal threshold before suggesting execution‑ready.",
+      "Tie **position limits to pre‑filtering**: whichever symbol already approaches 10–15% of hypothetical portfolio weight should be automatically removed from candidate consideration until weight decays below a threshold, reducing late‑stage allocation rejections."
+    ],
+    "universe hygiene and diversity": [
+      "Explicitly **downgrade or tag noise‑heavy domains** (meme entertainment, micro‑cap, potentially delisted, source‑thin overseas single names) to a separate experimental bucket that is visible but not eligible for execution‑ready recommendations.",
+      "Encourage **defensive and non‑correlated sectors** (staples, healthcare, utilities, business services, high‑quality industrials) by adding a small positive bias to their selection score when recent candidates have been dominated by cyclicals, energy, or tech.",
+      "Apply a **geo‑diversity check**: when US mega‑cap exposure is high, prefer candidates that improve regional diversification only if they pass the same strict fundamental‑catalyst and source‑quality gates."
+    ]
+  },
+  "self_learning_directives": {
+    "memory_and pattern learning": [
+      "Maintain a **ticker‑level profile** with rolling statistics: repeat count over the last 30/60/90 days, number of rejections by reason (repeat_decay, stale_catalyst, monitor‑only, allocation‑muted, social‑noise), and realized performance of executed paper trades. Use this profile to adapt future scoring.",
+      "Automatically **down‑weight tickers with high rejection density** (e.g., more than K rejections in a month) unless both catalyst freshness and confidence materially exceed prior attempts.",
+      "Create a **pattern library** of rejected causes (e.g., \"micro_cap_speculation + no_fundamental_catalyst\", \"low_weight_social_congress + source_thin\") and apply these as negative priors during candidate generation so similar combinations are less likely to surface."
+    ],
+    "signal source evaluation": [
+      "Periodically evaluate whether candidate sets selected using **Chittick Cash** scores, HF filters, social buzz, or congressional signals would have improved risk‑adjusted paper performance relative to a pure fundamental baseline, then update weights for each signal family accordingly.",
+      "Log, for each candidate, which signal families contributed most to its selection and compare against later rejection reasons and hypothetical price paths to refine **signal trust scores** over time."
+    ],
+    "research output de‑duplication": [
+      "Implement a **daily novelty check**: before finalizing outputs, compute similarity versus the prior 30 days’ catalysts and narratives for the same ticker. If similarity exceeds a threshold and no new dated event is present, route the candidate to a \"skip or brief‑update\" lane instead of full write‑up.",
+      "Limit the number of **near‑duplicate narratives per day** (same sector, same style of thesis, similar catalysts) to reduce cognitive fatigue and encourage more varied research."
+    ]
+  },
+  "signal_assessment": {
+    "chittick_cash": {
+      "observed_effects": [
+        "Higher Chittick scores often correlate with stronger fundamental catalysts and higher confidence (e.g., GLW with warrants tied to NVIDIA, PAYX earnings and guidance, INTC target raise and AI outlook).",
+        "Names like speculative micro‑caps or purely social‑driven tickers rarely show high Chittick scores in the logs, suggesting this metric is more aligned with quality than hype."
+      ],
+      "assessment": "Chittick Cash appears to improve research quality when treated as one input among several, particularly alongside fundamental events. It does not fully prevent repeats or sector imbalance, but it tends to support better names rather than noise."
+    },
+    "hugging_face_filters": {
+      "observed_effects": [
+        "HF memory and source/hype filters correctly flag repeat_staleness, memory_similarity, and source‑thin hype (ADI, GSK, SGN, PHX, USAR), causing many low‑quality candidates to be rejected before execution.",
+        "These filters are largely reactive at the candidate vetting stage; despite that, repeat tickers and stale narratives still enter the daily candidate lists, indicating that filter logic could be moved earlier into generation."
+      ],
+      "assessment": "Hugging Face–style filters are net positive for research quality, primarily by removing hype and stale repeats. The main issue is placement: they clean up outputs late instead of shaping the input universe earlier, leading to redundant work."
+    },
+    "social_buzz_and_congressional_signals": {
+      "observed_effects": [
+        "Rejection logs show that low‑weight social/congress signals often trigger additional concerns: micro_cap_speculation, potentially_delisted, no_fundamental_catalyst, or source_thin.",
+        "Very few execution‑ready candidates rely on these signals; instead, they cluster around rejected names or watch‑only ideas such as SGN, DVN, EWY, EWT, AMC, PHX, and multiple PLTR attempts."
+      ],
+      "assessment": "At current configuration, social buzz and congressional signals mostly add noise. They frequently coexist with low‑quality, speculative, or structurally untradeable names and are better treated as optional context rather than primary selection drivers."
+    }
+  },
+  "recommended_changes": {
+    "code_and_prompt_logic": [
+      "Add a **pre‑generation guard** that filters tickers based on: (a) recent repeat_decay/stale_catalyst flags, (b) monitor‑only or allocation‑muted status, and (c) exceeding single‑name allocation thresholds. Only candidates that pass these checks should enter the daily selection pipeline.",
+      "Modify the **candidate scoring function** to incorporate: (a) a strong penalty for undated or vague catalysts, (b) a penalty for single‑source or social‑dominant signals, and (c) a bonus for multi‑source, clearly fundamental, and dated events.",
+      "Implement a **sector‑balancing routine** that, after scoring candidates, adjusts scores to reduce over‑representation of any single sector and prioritize under‑represented sectors with valid catalysts.",
+      "Integrate HF memory similarity directly into the **candidate retrieval step** so that highly similar narratives to previous rejections are filtered out before confidence scoring.",
+      "Add a **trade‑eligibility flag** in the memory (tradable vs monitor‑only vs allocation‑muted) and use it upstream to prevent generation of execution‑ready recommendations for non‑tradable symbols."
+    ],
+    "research_routine_adjustments": [
+      "Restructure daily outputs into: (a) 1–3 high‑conviction, execution‑ready ideas with fresh, dated catalysts and diversified sectors, and (b) a brief watchlist update section summarizing changes for monitor‑only names without proposing trades.",
+      "Limit re‑coverage of the same ticker to **no more than once per week** unless a new, clearly dated catalyst has occurred; otherwise, log only a one‑line status update.",
+      "Introduce a **\"noise bucket\" label** for candidates dominated by social/congress signals or hype; keep them visible for learning, but never escalate them to execution‑ready in v1."
+    ],
+    "safety_and_gatekeeping": [
+      "Keep all current safety constraints intact (no options, margin, shorting, crypto, live trading, secrets, or credential changes) and extend them with explicit checks that prevent any code path from proposing trades in banned instrument classes.",
+      "Add a **simulation‑only tag** to all strategies and recommendations, and ensure prompts emphasize that outputs are for paper‑trading research and scenario analysis only.",
+      "Enforce a **hard ceiling on daily candidate count** to reduce clutter and force higher selection quality; for example, cap at 5–7 tickers per day, with at most 3 in execution‑ready tier."
+    ]
+  }
+}
 
