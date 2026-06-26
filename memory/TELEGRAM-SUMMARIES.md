@@ -33526,4 +33526,202 @@ HF filter: sentiment=not run source=0/100 hype=0.10 vetoes=0
 Self-learning: tier=monitor-only repeat48h=0 fresh=yes bucket=energy-structural-gas
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Performance Ledger - 2026-06-26 16:30:04 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-06-26 16:30:03 Eastern Daylight Time
+- Portfolio value: $100,144.06
+- P/L vs $100k baseline: $144.06
+- Full paper-account return: 0.144%
+- Managed-capital return: 1.44%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 2.57%
+- Latest position value: $5,744.06
+- Full-account cash reserve: 94.3%
+- Managed-capital cash reserve: 42.6%
+- Max snapshot drawdown: $328.28 from 2026-05-08 16:30:03 Eastern Daylight Time to 2026-06-09 12:40:01 Eastern Daylight Time
+
+Open Position Review
+- DT: winner, value $879.94, unrealized P/L $79.94, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 49 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: loser, value $469.15, unrealized P/L $-30.85, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 50 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: loser, value $726.23, unrealized P/L $-73.77, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 57 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- IBRX: winner, value $607.79, unrealized P/L $7.79, entry 2026-05-11 09:48:18 Eastern Daylight Time, thesis age 46 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: winner, value $535.75, unrealized P/L $35.75, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 45 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: loser, value $769.72, unrealized P/L $-30.28, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 56 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $810.09, unrealized P/L $10.09, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 51 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $945.39, unrealized P/L $145.39, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 59 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- INTC: appeared 40 times; market outcome unavailable until benchmark/candidate price history is captured.
+- GOOGL: appeared 38 times; open position P/L $-73.77.
+- SCHD: appeared 34 times; open position P/L $10.09.
+- SPMO: appeared 32 times; open position P/L $145.39.
+- NVDA: appeared 29 times; open position P/L $-30.28.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MSFT: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- UNP: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VALN: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Candidate references banned v1 instruments or leverage.: 19
+  - Max open-position count would be exceeded.: 16
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 11
+  - Single-stock allocation would exceed 15%.: 7
+  - Low-weight social/congress signal needs at least two stronger sources.: 6
+  - A market-open order is already logged for today. No backup order was placed.: 5
+  - Candidate is monitor-only and cannot be traded. Confidence below 0.60. Target allocation must be between 1% and 15%. Stop loss must be between 3% and 12%.: 5
+  - Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 5
+- By symbol:
+  - GOOGL: 9
+  - INTC: 5
+  - INTU: 5
+  - AGI: 3
+  - BAH: 3
+  - KO: 3
+  - PLTR: 3
+  - TMXX.F: 3
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 0
+- congressional: 1
+- unknown: 6
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold met: 8 trades over 59 days.
+- Strategy tuning may be reviewed, but safety guardrails still apply.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## End Of Day Memo - 2026-06-26 16:30:04 Eastern Daylight Time
+
+End Of Day Analyst Memo
+
+Recommendation: Carry forward only evidence-backed candidates; review stops before the next market-open run.
+
+Market Regime
+End-of-day review of paper portfolio, trade quality, risk notes, and next-day watchlist.
+
+Portfolio
+Portfolio value: 100144.06 Cash: 94400 Buying power: 393683.36 Positions: - DT: qty=20.289119959, market_value=879.939133, unrealized_pl=79.939133 - GLRE: qty=28.042624789, market_value=469.153113, unrealized_pl=-30.846887 - GOOGL: qty=2.151289429, market_value=726.232285, unrealized_pl=-73.767715 - IBRX: qty=70.838252656, market_value=607.792208, unrealized_pl=7.792208 - LNC: qty=14.590020426, market_value=535.74555, unrealized_pl=35.74555 - NVDA: qty=4.00060009, market_value=769.715457, unrealized_pl=-30.284543 - SCHD: qty=25.2286345, market_value=810.091454, unrealized_pl=10.091454 - SPMO: qty=6.119014838, market_value=945.387792, unrealized_pl=145.387792 Performance: value $100,144.06, P/L vs $100k $144.06, managed return 1.44%, deployed return 2.57%, managed cash reserve 42.6%.
+
+Top Candidates
+
+1. INTC (semiconductors) | confidence 0.71 | allocation 0.0% | stop 8.0% | Chittick 68/100 | tier allocation-muted | bucket mega-cap-semiconductor-turnaround | HF source 0/100
+Thesis: Intel combines a clear near-term earnings beat catalyst, renewed analyst coverage, and strong recent price momentum with an improving fundamental story, but it is a high-beta, sentiment-sensitive semi where discipline on sizing and stops is critical.
+Catalyst: Recent quarterly earnings beat expectations on both EPS and revenue, and Goldman Sachs just initiated coverage with a Neutral recommendation and detailed growth projections, keeping investor focus on execution of Intel’s turnaround.[2][5][11][20]
+Entry: For paper trading, consider a staged entry near the lower half of the recent volatility band (around prior support in the low-$120s) if price pulls back toward support with volume stabilizing and no fresh negative news.[5] Alternatively, a breakout add-on c...
+Exit: Take profits on a move into the upper part of the band (high-$130s to low-$140s) or if price approaches resistance and shows intraday exhaustion signs.[5] Invalidation for this swing case is a decisive close below recent support (~$122) or a meaningful nega...
+Risk/reward: Risk/reward is moderately favorable if entries are closer to support: downside toward the low-$120s is contained by the stop, while upside toward the upper band and potential extension offers ~1.5–2x reward relative to risk; however, the very strong prior r...
+Bear/adversary: A disciplined critic would argue that after such a large 12‑month move, Intel is more a momentum story than a classic Buffett/Munger ‘margin of safety’ idea, with execution and cycle risks that could easily erase short-term gains; they would favor waiting for a deeper pullback or clearer evidence...
+Source quality: Evidence quality is strong: recent earnings beat and price/volume data come from market data platforms and company/market statistics, and the Goldman Sachs coverage note adds a reputable analyst lens on growth and valuation.[2][5][11][17][20] Social buzz is...
+Chittick Cash Filter
+Score: 68/100
+Margin of safety: From a strict Chittick/Buffett lens, margin of safety is only moderate: Intel’s strategic relevance and cash-generation support a quality floor, but the post-rally valuation and cyclicality leave limited downside protection if the macro...
+Valuation: Analyst consensus paints Intel as a Hold with significant projected revenue and EPS growth, implying the current price bakes in a meaningful portion of the turnaround.[2][11][17] Valuation is not obviously cheap in classic value terms gi...
+Growth runway: Over 30–180 days and longer, growth drivers include PC refresh cycles, data-center and AI accelerator demand, and ramp-up of foundry and advanced node offerings.[17][19][20] If execution is solid, these could support further revenue and...
+Balance-sheet risk: Intel carries substantial capital expenditure requirements but has a large revenue base and EBITDA that support ongoing investment.[20] There is no evidence of near-term balance-sheet distress; risk comes more from fu...
+Capital allocation: Management is allocating significant capital toward strategic manufacturing and technology initiatives, which can create long-term advantage but also adds execution and return-on-investment risk.[17][20] Shareholder-r...
+Concentration case: This idea is a single-name semi exposure rather than a broad ETF; it deserves attention because the fresh earnings surprise and coverage initiation provide specific, dated catalysts that differ from generic AI/tech narratives.[2][5][11]...
+Owner thesis, 30-180 days: An owner-style 30–180 day thesis would hinge on evidence that Intel’s margin trajectory and foundry strategy are delivering as projected, with at least one or two additional quarters of solid results and positive guidance.[17][20] In that scenario, a concen...
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: earnings
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: mega-cap-semiconductor-turnaround
+Research tier: allocation-muted
+Allocation learning: Given prior repeat-decay flags and high volatility, a mid-single-digit allocation is safer than maxing allowed size; use this as a learning case for disciplined sizing in strongly trending semis. Recent allocation or max-position rejecti...
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.20
+Evidence rank: 0/100
+Memory similarity: 0.60
+Vetoes: none
+Model notes: Prior passes flagged INTC for stale catalysts and repeat decay; this instance explicitly ties the thesis to the latest earnings beat and fresh coverage note, differentiating it from earlier, more generic AI/semis narratives.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://marketchameleon.com/Overview/INTC, https://finance.yahoo.com/quote/INTC/key-statistics/, https://finance.yahoo.com/quote/INTC/analysis/, https://www.marketbeat.com/instant-alerts/filing-intel-corporation-intc-stock-holdings-lifted-by-fifth-third-wealth-advisors-llc-2026-06-26/
+
+2. SHOP (internet-commerce-platforms) | confidence 0.69 | allocation 7.0% | stop 8.0% | Chittick 70/100 | tier execution-ready | bucket non-mega-cap-internet-commerce | HF source 0/100
+Thesis: Shopify offers a quality, asset-light commerce platform business with a fresh product and capital-return catalyst and supportive price action, suitable for a short swing while being a candidate for an owner-style watchlist.
+Catalyst: Shares rose about 4.9% today, driven by investor optimism around Shopify’s recent Spring ’26 product rollout featuring more than 150 platform updates and an expanded share repurchase authorization, signaling management confidence and capital-return support.[14]
+Entry: For paper trading, consider entering on a modest intraday pullback from the 4.9% spike into an area of recent consolidation, seeking confirmation that volume remains healthy and the move is not immediately faded.[14] Avoid chasing if the price extends sharp...
+Exit: Aim to take profits on a further 5–10% extension above the post-catalyst level or if price stalls and intraday ranges compress, suggesting the initial reaction is spent.[14] Invalidation would be a decisive close back below the pre-spike base, especially if...
+Risk/reward: Risk/reward is balanced: upside comes from follow-through on a legitimate product and capital-return catalyst, but downside is meaningful if growth sentiment weakens; a well-placed stop below the pre-move base can offer roughly 1.5x upside versus downside o...
+Bear/adversary: A cautious analyst would argue that without fresh earnings or hard financial data in this specific window, trading mainly off a product-launch narrative and buyback announcement leans toward sentiment rather than hard fundamentals; they would prefer to wait for confirmation in the next earnings r...
+Source quality: Evidence is solid but somewhat concentrated: the primary catalyst description and price move are sourced from a reputable news and analytics outlet summarizing investor reaction; we lack full earnings filings in this pass, so long-term valuation details are...
+Chittick Cash Filter
+Score: 70/100
+Margin of safety: From a Chittick/Buffett angle, margin of safety here is more business-quality than price-discount driven: Shopify’s platform and network effects are attractive, but valuation on growth names can be demanding, leaving less downside protec...
+Valuation: We do not have full multiple data in this snippet, but context suggests Shopify continues to trade as a growth platform with investors willing to pay for innovation and scale.[14] Today’s move reflects increased confidence rather than a...
+Growth runway: Over 30–180 days and beyond, growth drivers include adoption of Spring ’26 product enhancements, expansion into new sales channels, AI-assisted commerce tools boosting merchant conversion, and international merchant growth.[14] If these...
+Balance-sheet risk: The decision to enlarge the share repurchase authorization indicates management sees sufficient balance-sheet strength and cash-generation to support capital returns.[14] Key risks would be any unexpected cash burn or...
+Capital allocation: Management appears disciplined, using repurchases to signal confidence while continuing to invest heavily in product innovation and platform expansion.[14] This aligns with an owner-style approach where capital is all...
+Concentration case: Shopify provides focused exposure to global e-commerce infrastructure and merchant tools, distinct from generic internet or mega-cap holdings; it can be a targeted complement to broader indices or mega-cap tech.[14] For a concentrated ow...
+Owner thesis, 30-180 days: An owner might consider a 30–180 day (and longer) thesis around sustained merchant adoption of the Spring ’26 product suite, evidence that AI-commerce features improve retention and ARPU, and consistent capital returns via buybacks, reviewed each earnings c...
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: news
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: non-mega-cap-internet-commerce
+Research tier: execution-ready
+Allocation learning: Use a moderate allocation to test how the bot handles platform-growth stories driven by product and capital-allocation catalysts without over-relying on hype or generic AI narratives.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.25
+Evidence rank: 0/100
+Memory similarity: 0.00
+Vetoes: none
+Model notes: Social buzz and congressional signals are explicitly ignored as primary drivers; thesis is grounded in product and capital-return catalysts from a reputable outlet.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.quiverquant.com/news/Shopify+shares+rise+as+investors+appear+to+lean+into+recent+product+launches+and+capital+return+support
+
+3. EQNR (integrated-energy) | confidence 0.63 | allocation 0.0% | stop 8.0% | Chittick 73/100 | tier monitor-only | bucket energy-structural-gas | HF source 0/100
+Thesis: Equinor offers diversified, quality energy exposure with a fresh, company-announced investment catalyst in gas development, suitable as a lower-correlation complement to tech-heavy positions, though more appropriate for monitor-only under the current short-horizon rules.
+Catalyst: Equinor and partners Petoro, Shell, TotalEnergies, and ConocoPhillips announced a new subsea gas development investment of just over NOK 4 billion to increase gas exports, reinforcing its role in European energy supply.[18]
+Entry: Monitor-only: no execution-ready entry plan, as we lack short-term price, support/resistance, and volume context necessary for a disciplined 1–10 day swing.
+Exit: Monitor-only: no profit-taking or stop plan; any future trade consideration would require updated market data, volatility bands, and confirmation that the project news has translated into tradable price levels.
+Risk/reward: From an owner’s lens, the risk/reward could be attractive if the project adds to stable gas cash flows and if transition strategy is well executed; however, for a 5‑day swing, the connection between the structural catalyst and price is too weak to justify a...
+Bear/adversary: A critic would point out that using a long-dated project announcement for a short-term swing violates the evidence-based iteration principle: without price and volatility confirmation, this is better treated as fundamental research and diversification context rather than a trade.
+Source quality: Source quality is very strong for the catalyst: the information comes directly from Equinor’s official communications about the project.[18] However, absence of near-term price/volume data limits its usefulness for short-horizon trading decisions.
+Chittick Cash Filter
+Score: 73/100
+Margin of safety: Equinor’s integrated operations and strategic role in European gas provide some margin of safety from a business-quality standpoint, but commodity exposure and policy risks reduce downside protection.[18] Margin of safety here is long-te...
+Valuation: We lack explicit valuation metrics in this pass; thus, any view on attractiveness would be speculative. From a Chittick lens, valuation would need to be cross-checked against cash flows from existing and new projects before any sizeable...
+Growth runway: 30–180 day and longer-term growth drivers include increased gas production and exports from new subsea developments, ongoing optimization of existing fields, and potential advancement in lower-carbon energy initiatives.[18] These drivers...
+Balance-sheet risk: Large capital projects create balance-sheet and execution risk, but partnering with multiple major firms can spread financial and technical exposure.[18] No acute distress is indicated; risk is about project returns a...
+Capital allocation: The NOK 4B investment reflects management’s commitment to long-term gas infrastructure and European supply reliability.[18] Capital allocation appears focused on maintaining and enhancing core energy assets, with tran...
+Concentration case: As a single-name energy exposure, Equinor offers a different risk factor than tech or commerce platforms and could be used to diversify a concentrated portfolio.[18] However, without near-term trading signals, concentration should not be...
+Owner thesis, 30-180 days: An owner-style 30–180 day thesis could center on monitoring progress of the subsea project, gas price trends, and any updates on transition strategy, using each quarterly report to reassess risk and returns.[18] For now, it belongs in a fundamental watchlis...
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: structural
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: energy-structural-gas
+Research tier: monitor-only
+Allocation learning: Use Equinor as a case study for distinguishing structural, fundamental catalysts from truly tradable short-horizon signals, keeping allocation at zero until price data and technical context are integrated.
+Hugging Face Filter
+Sentiment: none (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.10
+Evidence rank: 0/100
+Memory similarity: 0.00
+Vetoes: none
+Model notes: Included as a diversification and structural-catalyst name with strong official-source evidence but intentionally kept monitor-only because price/technical inputs are missing.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.equinor.com
 
