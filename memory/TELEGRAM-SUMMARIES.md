@@ -33845,4 +33845,46 @@ Model notes: Included as a diversification and structural-catalyst name with str
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: https://www.equinor.com
+## Research Update - 2026-06-29 07:51:56 Eastern Daylight Time
+
+Research Update
+
+Market tone: The tape is still selective: AI earnings strength supports pockets of risk-on, but rate uncertainty and recent mega-cap tech fatigue keep short-term swing setups more tactical than broad-based. The best paper-trade candidates here are those with a fresh, dated catalyst and enough quality to survive a choppy regime.
+Candidates: 4
+
+1. GOOGL (mega-cap internet / cloud / AI) | confidence 0.59 | allocation 0.0% | stop 8.0% | Chittick 67/100 | tier watch | bucket mega-cap-internet-cloud | HF source 1/100 | HF veto
+Recommendation: watch
+Catalyst: Alphabet is estimated to report earnings on July 22, and recent coverage notes the stock is down about 11.2% in June despite continued analyst support, creating a dated earnings-driven setup[3][4].
+Chittick Cash: The pullback from prior highs improves entry economics versus chasing the stock near peak sentiment, though the valuation is still premium enough to require execution discipline[2][4].
+HF filter: sentiment=moderately positive source=1/100 hype=0.31 vetoes=2
+Self-learning: tier=watch repeat48h=1 fresh=yes bucket=mega-cap-internet-cloud
+Social buzz, low weight: low-weight social attention is present, but it is not the main driver
+Congress signal, low weight: none
+
+2. CRDO (semiconductors / AI infrastructure) | confidence 0.66 | allocation 5.0% | stop 7.0% | Chittick 61/100 | tier execution-ready | bucket semiconductors-ai-infrastructure | HF source 1/100
+Recommendation: execute-if-guards-pass
+Catalyst: Bank of America raised its price target on CRDO to $340 from $252 while reiterating a buy rating, which is a concrete new catalyst rather than generic AI enthusiasm[11].
+Chittick Cash: Margin of safety is limited because this is a growth-multiple name; the edge comes from catalyst momentum, not deep value.
+HF filter: sentiment=positive source=1/100 hype=0.36 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=semiconductors-ai-infrastructure
+Social buzz, low weight: low-weight attention from AI-stock commentary only
+Congress signal, low weight: none
+
+3. JBHT (industrials / transportation) | confidence 0.63 | allocation 4.0% | stop 6.0% | Chittick 64/100 | tier watch | bucket industrials-transportation | HF source 1/100
+Recommendation: watch
+Catalyst: Coverage around the upcoming Q2 2026 earnings report shows analysts expecting EPS growth and a defined reporting window, which creates a dated tradeable event[9].
+Chittick Cash: A transport name near earnings can offer better downside anchoring than a premium-growth stock if expectations are set reasonably.
+HF filter: sentiment=neutral source=1/100 hype=0.18 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=industrials-transportation
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+4. VST (utilities / independent power) | confidence 0.55 | allocation 0.0% | stop 6.0% | Chittick 58/100 | tier monitor-only | bucket utilities-power | HF source 1/100 | HF veto
+Recommendation: monitor-only
+Catalyst: Congressional disclosure data shows two recent purchases in VST over the last six months, which is only weak supporting context but does align with the AI power-demand narrative[congressional_disclosures].
+Chittick Cash: Power-demand exposure can provide real earnings support, but the margin of safety depends on whether the market is already pricing in an aggressive AI data-center buildout.
+HF filter: sentiment=neutral source=1/100 hype=0.21 vetoes=1
+Self-learning: tier=monitor-only repeat48h=0 fresh=no bucket=utilities-power
+Social buzz, low weight: none
+Congress signal, low weight: weak net-buy context only
 

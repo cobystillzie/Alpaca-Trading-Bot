@@ -1648,4 +1648,9 @@ Premarket plan built from latest watchlist.
 U.S. equities are in a cautious, choppy regime with concentrated pressure in mega-cap tech and AI-related names, while selected quality cyclicals and platform businesses with fresh company-specific catalysts are seeing supportive flows.
 
 Candidates found: 3
+## Two-Hour Research Agent - 2026-06-29 07:51:56 Eastern Daylight Time
+
+The tape is still selective: AI earnings strength supports pockets of risk-on, but rate uncertainty and recent mega-cap tech fatigue keep short-term swing setups more tactical than broad-based. The best paper-trade candidates here are those with a fresh, dated catalyst and enough quality to survive a choppy regime.
+
+Candidates found: 4
 

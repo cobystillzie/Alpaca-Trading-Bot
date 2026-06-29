@@ -10543,4 +10543,116 @@ The US equity market is grinding to record highs, but the underlying conditions 
     "https://www.cmegroup.com/markets/interest-rates/stirs/30-day-federal-fund.html"
   ]
 }
+## Market Regime Research - 2026-06-29 07:51:56 Eastern Daylight Time
+
+{
+  "summary": "US equities are in a **cautiously bullish, late‑cycle, rotation-driven regime**: the headline indices have cooled after a solid first half, big tech leadership is fading, small caps and cyclicals are stronger, the Fed is in a hawkish hold with higher‑for‑longer rates, volatility is moderate but off the lows, and risk appetite is still present but more selective and risk-aware.[1][5][6][11][20][23][26]",
+  "market_regime": {
+    "index_trend": {
+      "tone": "uptrend with loss of momentum and ongoing correction risk",
+      "details": [
+        "The S&P 500 is up **more than 7% year-to-date** heading into the end of H1 2026, indicating a solid but not euphoric advance.[5][7]",
+        "Recent performance has **diverged**: over the latest week the **Dow gained ~0.6%**, while the **S&P 500 fell ~1.95% and Nasdaq 100 dropped ~4.24%**, reflecting profit-taking and weakness concentrated in mega-cap tech.[1][5]",
+        "Commentary notes that while the headline indices look like the rally is losing momentum, **around 63% of S&P 500 stocks and ~70% of S&P 600 stocks remain above their 200-day moving averages**, signaling underlying breadth is still broadly constructive despite index pullbacks.[4]",
+        "Technical analysis on major indices highlights **loss of momentum, bearish RSI divergence, and active corrective waves**, suggesting vulnerability to further pullbacks even within a broader bullish structure.[1][4][6]"
+      ]
+    },
+    "rates_and_fed": {
+      "tone": "hawkish hold, higher-for-longer rates with rising hike odds",
+      "details": [
+        "The **Federal Open Market Committee kept the federal funds rate at 3.50%–3.75%** at its June meeting, continuing a pause while stressing a cautious, hawkish stance as inflation remains above target.[2][26]",
+        "Fed Chair Warsh’s debut communication has been described as a **\"hawkish tune\" with rates held steady**, reinforcing expectations of restrictive policy rather than imminent cuts.[2][26]",
+        "Fed funds futures now show **better-than-even odds of a rate hike by September**, reversing the earlier consensus for multiple rate cuts by year-end, and advisors describe the backdrop as a **\"hawkish hold\" through the rest of 2026.[5][20]",
+        "The **10-year U.S. Treasury yield is around 4.38%**, and the **5-year yield has risen ~50 bps year-to-date**, underscoring a move higher in the rate complex and supporting the higher‑for‑longer narrative.[11][13]",
+        "Persistent inflation (headline PCE at **4.1% YoY**, core PCE at **3.4%**) and resilient growth (Q1 GDP revised up to 2.1%, strong income and spending) are keeping pressure on the Fed to maintain or possibly increase rates.[2][11]"
+      ]
+    },
+    "volatility": {
+      "tone": "moderate, elevated from lows but not in stress territory",
+      "details": [
+        "The **VIX is trading in the high teens (around 18–19)** in recent sessions, up from mid-teens levels earlier in the month, indicating a rise in implied volatility but still within a historically typical range rather than crisis conditions.[23]",
+        "Market outlooks characterize the environment as **\"cautiously bullish\" with improving internals but enough volatility and growth-leadership fragility to warrant some prudence.[6]",
+        "Tech-led swings, especially in semiconductor and AI-related names, are contributing to **tactical volatility** even as broader index breadth and small-cap participation remain supportive.[1][4][5][11]"
+      ]
+    },
+    "earnings_tone": {
+      "tone": "constructive but scrutinizing AI and growth assumptions; quality-focused",
+      "details": [
+        "Semiconductor and AI-linked stocks have experienced **sharp moves** as investors recalibrate optimism around AI-driven profits, reflecting a more demanding market for evidence of earnings follow-through.[1][5]",
+        "Commentary notes **unease over enormous AI-related capital expenditure** and uncertainty about when these investments will clearly translate into earnings that justify premium valuations, contributing to the rotation out of mega-cap tech.[1]",
+        "Mid-year institutional outlooks indicate that while the cycle continues, the **bar for earnings quality and durability has risen**, with a preference for companies with **strong cash flows and disciplined capital allocation** rather than purely narrative-driven growth.[8]",
+        "Breadth metrics (majority of stocks above 200-day MAs) and small-cap performance suggest **earnings and growth expectations are broadly resilient across the market**, even as leadership narrows and re-prices.[4][11]"
+      ]
+    },
+    "risk_on_off_conditions": {
+      "tone": "modest risk-on with selective, late-cycle caution",
+      "details": [
+        "Market sentiment references a **cautiously bullish environment** with improving internals, easing rate pressures vs earlier in the year, and healthy participation beneath the surface despite headline weakness in SPY and QQQ.[6]",
+        "Some cross-market commentary explicitly notes **risk-on conditions** as markets respond positively to softer inflation prints and expectations of interest rate stability, though this is tempered by ongoing uncertainty about future hikes.[9][11][20]",
+        "Sector and factor data show **small caps, value, and cyclicals outperforming**, a pattern consistent with **risk-on and domestic growth confidence**, rather than a flight to safety.[4][6][11][21]",
+        "Simultaneously, advisors stress the need for **more disciplined risk-taking**, emphasizing selectivity and quality in equities amid higher deficits, stickier inflation, and more frequent macro/geopolitical shocks—hallmarks of a more complex, late-cycle risk-on regime rather than an early-cycle melt-up.[8][20]"
+      ]
+    }
+  },
+  "sector_rotation": {
+    "current_leadership": {
+      "tone": "rotation away from mega-cap tech toward small caps, financials, industrials, and defensives",
+      "details": [
+        "There is a well-documented **rotation out of big tech and \"Magnificent Seven\" names**, which have weighed on the S&P 500 and Nasdaq, as traders reassess the AI trade and take profits.[1][4][5][21]",
+        "The **Russell 2000 and broader small-cap cohort are materially outperforming**: small caps have returned around **21% year-to-date vs ~10% for the S&P 500**, and are even beating the Nasdaq 100 on a YTD basis, indicating a structural shift in leadership.[1][11]",
+        "Sector reviews highlight **large U.S. banks and regional lenders continuing to outperform**, hitting fresh highs despite curve concerns, alongside strength in **industrial companies tied to manufacturing, infrastructure, and capex**, and improving performance in **healthcare** after a lagging period.[4]",
+        "Housing-related exposures (homebuilders, banks, REITs) are strengthening concurrently, a configuration that typically reflects **confidence in domestic economic conditions rather than recession fears.[4]",
+        "Separate market updates explicitly describe **sector rotation away from high-flying tech toward \"old economy\" sectors**, consistent with a move into cyclicals, value, and more reasonably valued cash-flow businesses.[1][4][21]"
+      ]
+    },
+    "risk_profile_of_rotation": {
+      "tone": "risk-off within growth/tech, but not wholesale de-risking; capital staying in equities",
+      "details": [
+        "Practitioner commentary notes that sectors are **rotating toward risk-off characteristics**—more defensives and value—**without money leaving the market outright**, suggesting rebalancing within equities rather than broad liquidation.[3][21]",
+        "Another lens describes **\"Risk-Off signals failing to materialize\"** at the aggregate level, as improving breadth and resilience offset localized weakness, implying that sector rotation is more about relative performance than a full risk-off regime.[6][12]",
+        "Institutional viewpoints stress **\"high grading\"** equity exposure and favoring assets linked to real-economy cash flows, which aligns with a rotation into quality, value, and cyclicals rather than speculative growth.[8]",
+        "Taken together, the rotation profile is best characterized as **risk-aware sector rotation**: de-emphasizing expensive, crowded growth (especially AI mega-caps) while reallocating toward **small caps, financials, industrials, healthcare, and other cash-flow sectors** in a still constructive equity environment.[1][4][6][11][21]"
+      ]
+    }
+  },
+  "risk_flags": {
+    "macro_policy": [
+      "The Fed is in a **hawkish hold** with **higher-for-longer policy rates** and rising odds of at least one additional hike by September, increasing discount rates and tightening financial conditions relative to early‑year expectations.[2][5][20][26]",
+      "Inflation (PCE and core PCE) remains above the Fed’s comfort zone, and strong labor/growth data reduce the probability of near-term easing, sustaining **policy uncertainty and rate-sensitive valuation risk**.[2][11]"
+    ],
+    "market_structure": [
+      "Recent **underperformance and fatigue in mega-cap tech and semiconductors** introduce concentration-risk unwind dynamics; these segments had outsized influence on index-level performance earlier in the cycle and are now sources of volatility.[1][4][5]",
+      "Technical indicators show **loss of momentum and bearish divergences** on major indices, with active corrective patterns and clearly identified downside levels—this points to **elevated pullback risk** even within a broader uptrend.[1][4][6]"
+    ],
+    "volatility_and_sentiment": [
+      "The **VIX in the high teens** suggests **more two-way risk** than during low-volatility phases; while not indicating stress, it does imply faster tape and a higher probability of short-term swings impacting paper-trading signals.[23]",
+      "Commentary stressing a **\"cautiously bullish\"** stance and advising to maintain rather than aggressively increase exposure reflects **tempered sentiment**: investors are constructive but quick to react to negative data surprises.[6][8]"
+    ],
+    "cycle_and earnings": [
+      "Mid-year institutional research highlights a **late-cycle environment with higher deficits, stickier inflation, and more frequent shocks**, raising the bar for earnings durability and increasing dispersion across sectors and styles.[8][20]",
+      "Markets are demanding clearer evidence that **AI and capex-heavy growth stories will translate into sustainable earnings**, increasing the risk of further de-rating for names that miss or guide cautiously.[1][5]"
+    ],
+    "implementation_for_paper_trading_bot": [
+      "Signal frameworks that rely heavily on **mega-cap tech momentum** may underperform or trigger repeated low-confidence setups in the current regime, given repeat-decay and stale-catalyst patterns already observable in recent rejections logged in the existing memory (e.g., GOOGL, INTC, MSFT).",
+      "A cautious bot should treat **rate decisions, inflation prints, and labor data releases** as regime-sensitive events that can temporarily change volatility and correlations, warranting tighter risk parameters or reduced position activation around key macro dates.[2][5][11][26]",
+      "Given the environment of **selective risk-on with sector rotation**, models that incorporate **breadth, factor rotation, and quality filters** are likely more aligned with current conditions than those optimized exclusively for trend-following in a single growth sector.[4][6][11][12]"
+  },
+  "source_urls": [
+    "https://www.ig.com/en-ch/news-and-trade-ideas/big-tech-fatigue-weighs-on-us-equities-ahead-of-non-farm-payroll-260629",
+    "https://www.icmarkets.com/blog/ic-markets-global-asia-fundamental-forecast-29-june-2026",
+    "https://x.com/TradeBrigadeCo/status/2071276477610385724",
+    "https://www.etoro.com/en-us/news-and-analysis/market-insights/the-rotation-trade/",
+    "https://www.thestar.com.my/business/business-news/2026/06/29/us-stocks-close-first-half-of-2026-with-solid-results",
+    "https://marketgauge.com/resources/market-outlook/smh-is-flashing-an-ominous-warning-sign-2/",
+    "https://www.facebook.com/khaleejtimes/posts/1556344866152333/",
+    "https://www.kkr.com/insights/in-brief-mid-year-update-2026",
+    "https://www.facebook.com/Trinitysecuritiesgroup/posts/1512196287613288/",
+    "https://tradingeconomics.com/united-states/news",
+    "https://www.ssga.com/it/en_gb/institutional/insights/mind-on-the-market-29-june-2026",
+    "https://marking.cxc.org:9000/first-dry/RiskOff-Signals-Fail-to-Materialize-as-Markets-Show-Unexpected-Resilience-42-2160",
+    "https://fred.stlouisfed.org/series/VIXCLS",
+    "https://finance.yahoo.com/economy/policy/articles/hawkish-hold-interest-rates-iran-120000100.html",
+    "https://www.schwab.com/learn/market-commentary"
+  ]
+}
 
