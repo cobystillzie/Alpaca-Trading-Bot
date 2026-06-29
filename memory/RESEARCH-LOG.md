@@ -1653,4 +1653,15 @@ Candidates found: 3
 The tape is still selective: AI earnings strength supports pockets of risk-on, but rate uncertainty and recent mega-cap tech fatigue keep short-term swing setups more tactical than broad-based. The best paper-trade candidates here are those with a fresh, dated catalyst and enough quality to survive a choppy regime.
 
 Candidates found: 4
+## Premarket Plan - 2026-06-29 08:25:02 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- GOOGL: score=75, base=90, chittick=67, approved=False, allocation=0.0%, stop=8.0%
+  rejects: repeat_decay; stale_catalyst; Confidence below 0.60.; Target allocation must be between 1% and 15%.
+- CRDO: score=79, base=95, chittick=61, approved=False, allocation=5.0%, stop=7.0%
+  rejects: Low-weight social/congress signal needs at least two stronger sources.
+- JBHT: score=78, base=95, chittick=64, approved=True, allocation=4.0%, stop=6.0%
+- VST: score=72, base=90, chittick=58, approved=False, allocation=0.0%, stop=6.0%
+  rejects: Low-weight social/congress signal needs at least two stronger sources.; allocation-muted; Candidate is monitor-only and cannot be traded.; Confidence below 0.60.; Target allocation must be between 1% and 15%.
 
