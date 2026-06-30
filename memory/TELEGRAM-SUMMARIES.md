@@ -34922,4 +34922,37 @@ Model notes: Kept as monitor-only because evidence is secondary and not strong e
 Social buzz, max 10%: none
 Congress signal, max 5%: weak net-buy context only
 Sources: https://www.quiverquant.com/news/Vistra+Stock+(VST)+Opinions+on+AI+Data+Center+Power+Demand
+## Research Update - 2026-06-30 14:52:04 Eastern Daylight Time
+
+Research Update
+
+Market tone: Risk appetite is mixed but constructive for event-driven growth and special situations. The cleanest fresh setup in the current tape is OKLO on a dated acquisition catalyst; AP has a smaller index-inclusion flow catalyst, but it is weaker and more flow-driven.
+Candidates: 3
+
+1. OKLO (Industrials / advanced nuclear technology) | confidence 0.72 | allocation 6.0% | stop 7.0% | Chittick 58/100 | tier execution-ready | bucket special-situations-industrials | HF source 1/100
+Recommendation: execute-if-guards-pass
+Catalyst: Oklo announced the acquisition of Creative Engineers, with multiple reports stating the deal adds liquid-metal systems, fabrication, manufacturing, and engineering capabilities to support Aurora reactor work.[1][4][7][10][13][16]
+Chittick Cash: Margin of safety is limited because the company remains early-stage, so the trade relies more on catalyst visibility than on classic value protection.
+HF filter: sentiment=moderately positive source=1/100 hype=0.34 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=special-situations-industrials
+Social buzz, low weight: Low-weight social attention is present, but it is not the main reason to trade.
+Congress signal, low weight: none
+
+2. AP (Industrials / small-cap cyclical) | confidence 0.61 | allocation 0.0% | stop 7.0% | Chittick 35/100 | tier watch | bucket small-cap-industrials | HF source 1/100
+Recommendation: watch
+Catalyst: Ampco-Pittsburgh announced inclusion in the Russell 2000 Index effective with the annual reconstitution, which can trigger index-related buying and visibility gains.[3][6][9][18][21][27]
+Chittick Cash: Low margin of safety because the catalyst is technical and the business does not offer the kind of durable downside protection the filter prefers.
+HF filter: sentiment=mildly positive source=1/100 hype=0.20 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=small-cap-industrials
+Social buzz, low weight: none
+Congress signal, low weight: none
+
+3. GOOGL (Communication services / mega-cap internet) | confidence 0.29 | allocation 0.0% | stop 7.0% | Chittick 33/100 | tier stale-watch | bucket mega-cap-internet-cloud | HF source 1/100 | HF veto
+Recommendation: avoid
+Catalyst: No new dated company catalyst was provided in the current search results; prior memory repeatedly flags stale catalyst and repeat decay for Alphabet exposure.
+Chittick Cash: The business is high quality, but the trade lacks a current valuation or catalyst edge, so margin of safety is not actionable here.
+HF filter: sentiment=neutral source=1/100 hype=0.05 vetoes=2
+Self-learning: tier=stale-watch repeat48h=6 fresh=yes bucket=mega-cap-internet-cloud
+Social buzz, low weight: none
+Congress signal, low weight: none
 

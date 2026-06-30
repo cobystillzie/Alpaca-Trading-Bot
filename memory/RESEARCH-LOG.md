@@ -1676,4 +1676,9 @@ Premarket plan built from latest watchlist.
   rejects: Candidate is allocation-muted and cannot be traded.; Target allocation must be between 1% and 15%.
 - VST: score=72, base=90, chittick=58, approved=False, allocation=0.0%, stop=6.0%
   rejects: Low-weight social/congress signal needs at least two stronger sources.; allocation-muted; Candidate is monitor-only and cannot be traded.; Confidence below 0.60.; Target allocation must be between 1% and 15%.
+## Two-Hour Research Agent - 2026-06-30 14:52:04 Eastern Daylight Time
+
+Risk appetite is mixed but constructive for event-driven growth and special situations. The cleanest fresh setup in the current tape is OKLO on a dated acquisition catalyst; AP has a smaller index-inclusion flow catalyst, but it is weaker and more flow-driven.
+
+Candidates found: 3
 
