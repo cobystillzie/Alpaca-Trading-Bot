@@ -550,4 +550,24 @@ allocation-muted
 Candidate is monitor-only and cannot be traded.
 Confidence below 0.60.
 Target allocation must be between 1% and 15%.
+## Rejected CRDO - 2026-06-30 09:55:02 Eastern Daylight Time
+
+Low-weight social/congress signal needs at least two stronger sources.
+## Rejected JBHT - 2026-06-30 09:55:02 Eastern Daylight Time
+
+Candidate is allocation-muted and cannot be traded.
+Target allocation must be between 1% and 15%.
+## Rejected GOOGL - 2026-06-30 09:55:02 Eastern Daylight Time
+
+repeat_decay
+stale_catalyst
+Confidence below 0.60.
+Target allocation must be between 1% and 15%.
+## Rejected VST - 2026-06-30 09:55:02 Eastern Daylight Time
+
+Low-weight social/congress signal needs at least two stronger sources.
+allocation-muted
+Candidate is monitor-only and cannot be traded.
+Confidence below 0.60.
+Target allocation must be between 1% and 15%.
 
