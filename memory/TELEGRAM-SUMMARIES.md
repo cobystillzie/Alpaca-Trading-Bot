@@ -34955,4 +34955,201 @@ HF filter: sentiment=neutral source=1/100 hype=0.05 vetoes=2
 Self-learning: tier=stale-watch repeat48h=6 fresh=yes bucket=mega-cap-internet-cloud
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Performance Ledger - 2026-06-30 16:46:47 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-06-30 16:46:47 Eastern Daylight Time
+- Portfolio value: $100,230.85
+- P/L vs $100k baseline: $230.85
+- Full paper-account return: 0.231%
+- Managed-capital return: 2.31%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 4.12%
+- Latest position value: $5,830.85
+- Full-account cash reserve: 94.2%
+- Managed-capital cash reserve: 41.7%
+- Max snapshot drawdown: $328.28 from 2026-05-08 16:30:03 Eastern Daylight Time to 2026-06-09 12:40:01 Eastern Daylight Time
+
+Open Position Review
+- DT: winner, value $890.90, unrealized P/L $90.90, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 53 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: loser, value $453.73, unrealized P/L $-46.27, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 54 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: loser, value $766.93, unrealized P/L $-33.07, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 61 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- IBRX: winner, value $617.72, unrealized P/L $17.72, entry 2026-05-11 09:48:18 Eastern Daylight Time, thesis age 50 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: winner, value $515.76, unrealized P/L $15.76, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 49 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: loser, value $798.25, unrealized P/L $-1.75, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 60 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $800.50, unrealized P/L $0.50, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 55 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $987.06, unrealized P/L $187.06, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 63 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- GOOGL: appeared 40 times; open position P/L $-33.07.
+- INTC: appeared 40 times; market outcome unavailable until benchmark/candidate price history is captured.
+- SCHD: appeared 34 times; open position P/L $0.50.
+- SPMO: appeared 32 times; open position P/L $187.06.
+- NVDA: appeared 29 times; open position P/L $-1.75.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MSFT: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- UNP: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VALN: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Candidate references banned v1 instruments or leverage.: 19
+  - Max open-position count would be exceeded.: 17
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 11
+  - Low-weight social/congress signal needs at least two stronger sources.: 8
+  - Single-stock allocation would exceed 15%.: 7
+  - A market-open order is already logged for today. No backup order was placed.: 5
+  - Candidate is monitor-only and cannot be traded. Confidence below 0.60. Target allocation must be between 1% and 15%. Stop loss must be between 3% and 12%.: 5
+  - Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 5
+- By symbol:
+  - GOOGL: 11
+  - INTC: 5
+  - INTU: 5
+  - AGI: 3
+  - BAH: 3
+  - KO: 3
+  - PLTR: 3
+  - TMXX.F: 3
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 2
+- unknown: 13
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold met: 8 trades over 63 days.
+- Strategy tuning may be reviewed, but safety guardrails still apply.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## End Of Day Memo - 2026-06-30 16:46:47 Eastern Daylight Time
+
+End Of Day Analyst Memo
+
+Recommendation: Carry forward only evidence-backed candidates; review stops before the next market-open run.
+
+Market Regime
+End-of-day review of paper portfolio, trade quality, risk notes, and next-day watchlist.
+
+Portfolio
+Portfolio value: 100230.85 Cash: 94400 Buying power: 393926.37 Positions: - DT: qty=20.289119959, market_value=890.895257, unrealized_pl=90.895257 - GLRE: qty=28.042624789, market_value=453.729669, unrealized_pl=-46.270331 - GOOGL: qty=2.151289429, market_value=766.934681, unrealized_pl=-33.065319 - IBRX: qty=70.838252656, market_value=617.716647, unrealized_pl=17.716647 - LNC: qty=14.590020426, market_value=515.757222, unrealized_pl=15.757222 - NVDA: qty=4.00060009, market_value=798.250138, unrealized_pl=-1.749862 - SCHD: qty=25.2286345, market_value=800.504573, unrealized_pl=0.504573 - SPMO: qty=6.119014838, market_value=987.058284, unrealized_pl=187.058284 Performance: value $100,230.85, P/L vs $100k $230.85, managed return 2.31%, deployed return 4.12%, managed cash reserve 41.7%.
+
+Top Candidates
+
+1. OKLO (Industrials / advanced nuclear technology) | confidence 0.72 | allocation 6.0% | stop 7.0% | Chittick 58/100 | tier execution-ready | bucket special-situations-industrials | HF source 1/100
+Thesis: Oklo has a fresh, concrete business catalyst: it acquired Creative Engineers to strengthen sodium and alkali-metal capabilities, which directly supports its Aurora reactor development path and may reduce an execution bottleneck.
+Catalyst: Oklo announced the acquisition of Creative Engineers, with multiple reports stating the deal adds liquid-metal systems, fabrication, manufacturing, and engineering capabilities to support Aurora reactor work.[1][4][7][10][13][16]
+Entry: Paper-trade only if price holds above the post-news intraday support and does not fade back through the first reaction low. Enter in a smaller tranche on confirmation rather than chasing the open gap.
+Exit: Take partial profits into strength if the gap extends; cut quickly if the stock loses the post-news pivot or if the initial catalyst fade is confirmed. Invalidate on a close back below the news-day support zone.
+Risk/reward: Good upside if the market rewards the acquisition as an execution step, but the downside can be sharp because the stock is still narrative-sensitive and fundamentals are not yet mature.
+Bear/adversary: The strongest objection is that this is just another operational update in a pre-commercial story, so any rally could be fleeting and unrelated to lasting intrinsic value.
+Source quality: Strong for the catalyst because the acquisition is confirmed by company and multiple financial-news sources. Weaker for valuation and medium-term business certainty because this is still an early-stage commercialization story.
+Chittick Cash Filter
+Score: 58/100
+Margin of safety: Margin of safety is limited because the company remains early-stage, so the trade relies more on catalyst visibility than on classic value protection.
+Valuation: Not obviously cheap on traditional fundamentals; the catalyst matters more than valuation here, which keeps this below a true Buffett/Munger-quality score.
+Growth runway: Over the next 30-180 days, the key driver is whether the acquisition translates into faster engineering execution and more credible Aurora development milestones. Longer term, success depends on nuclear commercialization and manufacturin...
+Balance-sheet risk: Meaningful capital-raising and dilution risk remains because the company is still in a pre-mature, high-burn phase.
+Capital allocation: The acquisition suggests management is investing in core capabilities rather than unrelated expansion, which is a positive sign for capital discipline if it accelerates the platform.
+Concentration case: It deserves attention over a broad ETF because the catalyst is specific, dated, and business-relevant; the edge is event-driven rather than market-beta exposure.
+Owner thesis, 30-180 days: Review or hold only if the acquisition is followed by tangible operating progress, improved engineering throughput, and no evidence that financing pressure is worsening.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: news
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: special-situations-industrials
+Research tier: execution-ready
+Allocation learning: Sized below max because this is a catalyst trade, not a conviction compounder.
+Hugging Face Filter
+Sentiment: moderately positive (0.62), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.34
+Evidence rank: 1/100
+Memory similarity: 0.18
+Vetoes: none
+Model notes: Fresh dated catalyst with multi-source confirmation; speculative profile kept in check by explicit risk framing.
+Social buzz, max 10%: Low-weight social attention is present, but it is not the main reason to trade.
+Congress signal, max 5%: none
+Sources: https://www.businesswire.com/news/home/20260630713654/en/Oklo-Acquires-Creative-Engineers-to-Strengthen-Sodium-Alkali-Metal-Capabilities, https://www.oklo.com/newsroom/news-details/2026/Oklo-Acquires-Creative-Engineers-to-Strengthen-Sodium-Alkali-Metal-Capabilities/default.aspx, https://www.investing.com/news/company-news/oklo-acquires-sodium-systems-engineer-creative-engineers-93CH-4767237, https://www.fidelity.c...
+
+2. AP (Industrials / small-cap cyclical) | confidence 0.61 | allocation 0.0% | stop 7.0% | Chittick 35/100 | tier watch | bucket small-cap-industrials | HF source 1/100
+Thesis: Ampco-Pittsburgh has a narrow, flow-driven setup from Russell 2000 inclusion, which can create short-term demand from index tracking even though the underlying business case is not as strong as a higher-quality compounder.
+Catalyst: Ampco-Pittsburgh announced inclusion in the Russell 2000 Index effective with the annual reconstitution, which can trigger index-related buying and visibility gains.[3][6][9][18][21][27]
+Entry: Only consider on a pullback or if the stock holds above the reconstitution-driven support area. Because the catalyst is mechanical, avoid chasing an extended move.
+Exit: Sell into the first strong post-inclusion push or if the stock loses the reconstitution support level. This is a short hold, not a thesis position.
+Risk/reward: Reasonable for a small tactical trade, but the upside is constrained and the downside is that the move may already be fully captured.
+Bear/adversary: The strongest objection is that index inclusion is a one-time flow event with little durability, so any move may be faded quickly by better-informed traders.
+Source quality: Moderate: the index inclusion is confirmed by multiple market-news sources, but the catalyst is mostly mechanical and the underlying business quality is weak.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Low margin of safety because the catalyst is technical and the business does not offer the kind of durable downside protection the filter prefers.
+Valuation: Valuation is not the main appeal here; the trade is about index flows, which makes it less attractive than a genuine quality-at-a-discount setup.
+Growth runway: Any 30-180 day benefit is mainly visibility and flow related, not fundamental acceleration. Longer-term growth evidence is not established in the current catalyst set.
+Balance-sheet risk: Cyclicality and balance-sheet sensitivity matter more than with the fresher catalyst names; there is not enough evidence here to treat the company as financially resilient.
+Capital allocation: No clear evidence in the provided sources that capital allocation is a differentiator; the investment case is dominated by index membership.
+Concentration case: It is weaker than the OKLO setup, but it offers a distinct small-cap flow catalyst and helps diversify away from overused mega-cap/tech names.
+Owner thesis, 30-180 days: Only revisit if there is a follow-on fundamental catalyst beyond the index event; otherwise this is not a candidate for 30-180 day ownership.
+Chittick reject reason: Not a strong enough quality or margin-of-safety case for concentrated ownership.
+Self-Learning Filter
+Catalyst type: momentum
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: small-cap-industrials
+Research tier: watch
+Allocation learning: Not execution-ready because the catalyst is flow-based and the business case is thin.
+Hugging Face Filter
+Sentiment: mildly positive (0.46), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.20
+Evidence rank: 1/100
+Memory similarity: 0.12
+Vetoes: none
+Model notes: Mechanical catalyst, not a deep thesis; kept as watch only due to weaker quality case.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.tipranks.com/news/the-fly/ampco-pittsburgh-joins-us-small-cap-russell-2000-index-thefly-news, https://za.investing.com/news/stock-market-news/ampcopittsburgh-added-to-russell-2000-index-93CH-4348487, https://www.gurufocus.com/news/8936890/ampcopittsburgh-ap-joins-russell-2000-index-enhancing-investor-profile, https://www.finnhub.io/api/press-releases?id=e531c3026818a01d3ea924e843e7d6c1d5e192b60028b94b0...
+
+3. GOOGL (Communication services / mega-cap internet) | confidence 0.29 | allocation 0.0% | stop 7.0% | Chittick 33/100 | tier stale-watch | bucket mega-cap-internet-cloud | HF source 1/100 | HF veto
+Thesis: Alphabet remains a high-quality business with durable cash generation and a strong ecosystem, but the current memory and catalyst context do not support a fresh execution-ready setup.
+Catalyst: No new dated company catalyst was provided in the current search results; prior memory repeatedly flags stale catalyst and repeat decay for Alphabet exposure.
+Entry: Do not execute without a new dated catalyst and a chart-based breakout confirmation.
+Exit: No trade unless a new catalyst arrives; if revisited later, use standard breakout invalidation.
+Risk/reward: Unfavorable right now because the expected return is not clearly better than the repeated-catalyst risk.
+Bear/adversary: The strongest objection is that this is a high-quality company, but quality alone is not a sufficient reason to recycle a stale trade.
+Source quality: Weak for trade timing because the current package contains no fresh catalyst and memory explicitly marks the name stale.
+Chittick Cash Filter
+Score: 33/100
+Margin of safety: The business is high quality, but the trade lacks a current valuation or catalyst edge, so margin of safety is not actionable here.
+Valuation: Even if valuation is reasonable, the absence of a fresh catalyst makes the setup inferior to current alternatives.
+Growth runway: Alphabet has long-term runway across search, cloud, and AI, but that is a strategic owner thesis rather than a 1-10 day swing setup.
+Balance-sheet risk: Balance-sheet risk is low, which supports long-term ownership but does not solve the stale catalyst problem.
+Capital allocation: Capital allocation is generally strong, but the process requires a new event to justify re-entry.
+Concentration case: This is a quality name, but it is being filtered out in favor of fresher and less recycled opportunities.
+Owner thesis, 30-180 days: Only reconsider if a new earnings release, filing, guidance update, or confirmed breakout appears.
+Chittick reject reason: repeat_decay and stale_catalyst; not execution-ready without new evidence.
+Self-Learning Filter
+Catalyst type: general
+Fresh catalyst: yes
+Repeat count, 48h: 6
+Diversity bucket: mega-cap-internet-cloud
+Research tier: stale-watch
+Allocation learning: Repeated mega-cap without a new catalyst should remain muted.
+Hugging Face Filter
+Sentiment: neutral (0.28), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.05
+Evidence rank: 0/100
+Memory similarity: 0.92
+Vetoes: repeat_decay; stale_catalyst
+Model notes: Included only as a rejected priority watch reference; not suitable for action.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.fidelity.com/news/article/technology/202606291630BIZWIRE_USPR_____20260629_BW388463, https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_024f042d-bf47-40d4-a6c4-0881afe20ed9/8c0ffe88-7b75-4cf0-a8c9-1d93feb08bda/Alphabet-Inc._10-K_2025-12-31_English.pdf, https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_024f042d-bf47-40d4-a6c4-0881afe20ed9/4498e8f2-d82e-46a9-abb...
 
