@@ -35509,4 +35509,203 @@ Model notes: Included as a quality-tech watch candidate primarily to broaden sec
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: https://www.marketbeat.com/stocks/NASDAQ/ARM/forecast/
+## Performance Ledger - 2026-07-01 16:30:05 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-07-01 16:30:04 Eastern Daylight Time
+- Portfolio value: $100,277.14
+- P/L vs $100k baseline: $277.14
+- Full paper-account return: 0.277%
+- Managed-capital return: 2.77%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 4.95%
+- Latest position value: $5,877.14
+- Full-account cash reserve: 94.1%
+- Managed-capital cash reserve: 41.2%
+- Max snapshot drawdown: $328.28 from 2026-05-08 16:30:03 Eastern Daylight Time to 2026-06-09 12:40:01 Eastern Daylight Time
+
+Open Position Review
+- DT: winner, value $920.72, unrealized P/L $120.72, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 54 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: loser, value $458.78, unrealized P/L $-41.22, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 55 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: loser, value $776.87, unrealized P/L $-23.13, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 62 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- IBRX: winner, value $650.30, unrealized P/L $50.30, entry 2026-05-11 09:48:18 Eastern Daylight Time, thesis age 51 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: winner, value $528.60, unrealized P/L $28.60, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 50 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: loser, value $788.60, unrealized P/L $-11.40, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 61 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $803.91, unrealized P/L $3.91, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 56 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $949.37, unrealized P/L $149.37, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 64 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- GOOGL: appeared 40 times; open position P/L $-23.13.
+- INTC: appeared 40 times; market outcome unavailable until benchmark/candidate price history is captured.
+- SCHD: appeared 34 times; open position P/L $3.91.
+- SPMO: appeared 32 times; open position P/L $149.37.
+- NVDA: appeared 29 times; open position P/L $-11.40.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MSFT: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- UNP: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VALN: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Candidate references banned v1 instruments or leverage.: 19
+  - Max open-position count would be exceeded.: 18
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 11
+  - Low-weight social/congress signal needs at least two stronger sources.: 8
+  - Single-stock allocation would exceed 15%.: 7
+  - Target allocation must be between 1% and 15%.: 6
+  - A market-open order is already logged for today. No backup order was placed.: 5
+  - Candidate is monitor-only and cannot be traded. Confidence below 0.60. Target allocation must be between 1% and 15%. Stop loss must be between 3% and 12%.: 5
+- By symbol:
+  - GOOGL: 12
+  - INTC: 5
+  - INTU: 5
+  - AGI: 3
+  - BAH: 3
+  - KO: 3
+  - PLTR: 3
+  - TMXX.F: 3
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 0
+- official_or_sponsor: 1
+- social: 1
+- unknown: 9
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold met: 8 trades over 64 days.
+- Strategy tuning may be reviewed, but safety guardrails still apply.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## End Of Day Memo - 2026-07-01 16:30:05 Eastern Daylight Time
+
+End Of Day Analyst Memo
+
+Recommendation: Carry forward only evidence-backed candidates; review stops before the next market-open run.
+
+Market Regime
+End-of-day review of paper portfolio, trade quality, risk notes, and next-day watchlist.
+
+Portfolio
+Portfolio value: 100277.14 Cash: 94400 Buying power: 394055.98 Positions: - DT: qty=20.289119959, market_value=920.720264, unrealized_pl=120.720264 - GLRE: qty=28.042624789, market_value=458.777342, unrealized_pl=-41.222658 - GOOGL: qty=2.151289429, market_value=776.873639, unrealized_pl=-23.126361 - IBRX: qty=70.838252656, market_value=650.295159, unrealized_pl=50.295159 - LNC: qty=14.590020426, market_value=528.59644, unrealized_pl=28.59644 - NVDA: qty=4.00060009, market_value=788.59829, unrealized_pl=-11.40171 - SCHD: qty=25.2286345, market_value=803.910438, unrealized_pl=3.910438 - SPMO: qty=6.119014838, market_value=949.365152, unrealized_pl=149.365152 Performance: value $100,277.14, P/L vs $100k $277.14, managed return 2.77%, deployed return 4.95%, managed cash reserve 41.2%.
+
+Top Candidates
+
+1. NNBR (industrials – precision components / AI data-center supply chain) | confidence 0.67 | allocation 5.0% | stop 8.0% | Chittick 48/100 | tier execution-ready | bucket small-cap-industrials-ai-supply-chain | HF source 1/100
+Thesis: NN, Inc. offers an event-driven 1–5 day swing setup off a fully pre-sold NVIDIA liquid cooling expansion and a concurrent $75M PIPE financing, creating a blend of near-term AI demand catalyst and volatility around dilution and repricing.[11][7][5]
+Catalyst: Announcement of fully pre-sold NVIDIA liquid cooling expansion plus $75M PIPE private placement at $3.06/share expected to close around July 2, 2026.[11][7][5]
+Entry: Paper-trade entry only after the PIPE pricing reaction stabilizes: consider a partial position (e.g., 5% allocation) on a pullback toward the PIPE reference zone around $3.06 with intraday confirmation that selling pressure is moderating (tight spreads, dec...
+Exit: For a 3–5 day horizon, target 12–18% upside from entry, taking profits into strength near prior spike highs while trimming if momentum stalls. Invalidation if price closes below roughly 8% under entry or if post-PIPE trading shows sustained heavy-volume sel...
+Risk/reward: Risk-reward is aggressive: there is meaningful upside if AI enthusiasm persists and the fully pre-sold program anchors expectations, but dilution, valuation, and historical quality weaknesses make this a fragile trade where losses can be swift if sentiment...
+Bear/adversary: A strict quality-focused adversary would argue that paying a high multiple for a historically low-ROIC, funding-dependent business after a hype-driven AI spike violates margin-of-safety discipline and that the PIPE could become a selling overhang, turning this into a poor risk-adjusted swing desp...
+Source quality: Catalysts and financing details come from company and major financial news sources (Yahoo Finance, Stock Titan) with concrete terms and dates, but longer-term business analysis is thinner and one key piece explicitly flags NNBR as failing quality standards....
+Chittick Cash Filter
+Score: 48/100
+Margin of safety: Margin of safety is thin: valuation around 29x forward earnings embeds substantial optimism and leaves limited buffer against execution or sentiment setbacks.[1] The fully pre-sold program improves revenue visibility but does not yet tra...
+Valuation: Recent rally pushed NNBR to ~29.1x forward P/E, which one quality-focused review flags as stretched relative to its low and declining ROIC.[1] Short-term traders may accept this for a catalyst-driven move, but Buffett-style discipline wo...
+Growth runway: Near-term (30–180 days), growth is driven by ramp of the NVIDIA liquid cooling expansion and any follow-on AI data-center component demand.[11] Longer term, sustainable growth depends on NN converting this pivot into durable contracts an...
+Balance-sheet risk: The $75M PIPE indicates a need for external equity capital; issuing ~24.5M new shares at $3.06 dilutes existing holders and underscores balance-sheet and funding stress.[5][7] Leverage and future dilution risk require...
+Capital allocation: Management is reallocating toward AI-linked liquid cooling and raising capital to fund expansion, which can be positive if returns improve but raises questions about past capital allocation given low ROIC and the nece...
+Concentration case: This is a high-beta, single-name industrial play tied to AI infrastructure; it deserves only a small, guarded allocation versus broad ETFs due to its lower quality, funding risk, and valuation, making it more suitable as a tactical test...
+Owner thesis, 30-180 days: From a 30–180 day owner lens, NNBR would only merit review if management demonstrates sustained margin improvement, strong cash generation from the AI cooling programs, and a clearer plan to strengthen the balance sheet and lower reliance on dilutive financ...
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: filing/news
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: small-cap-industrials-ai-supply-chain
+Research tier: execution-ready
+Allocation learning: Keep allocation at the low end of allowed range to prevent concentration of risk in a lower-quality, high-volatility small-cap; use this trade to study how the bot handles dilution events and AI narrative swings.
+Hugging Face Filter
+Sentiment: mixed-positive (0.52), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.58
+Evidence rank: 1/100
+Memory similarity: 0.12
+Vetoes: none
+Model notes: Catalyst is strong and well-documented, but valuation and structural quality concerns limit Chittick Cash alignment; treat this as a controlled experiment in event-driven AI-adjacent small-cap swings.
+Social buzz, max 10%: Moderate trader attention and coverage through outlets highlighting the large one-day move and leadership shift, but this appears news/catalyst-driven rather than pure meme-style buzz.[3][9][13]
+Congress signal, max 5%: none
+Sources: https://finance.yahoo.com/markets/stocks/articles/why-nn-nnbr-24-7-091613371.html, https://www.stocktitan.net/news/NNBR/nn-inc-announces-75-0-million-private-n4vnzo9hmbnf.html, https://finance.yahoo.com/markets/stocks/articles/nn-inc-announces-75-0-110000526.html, https://finance.yahoo.com/markets/stocks/articles/3-reasons-nnbr-risky-1-165101809.html
+
+2. VRT (industrials – data-center power and cooling / AI infrastructure) | confidence 0.73 | allocation 8.0% | stop 8.0% | Chittick 76/100 | tier execution-ready | bucket mid/large-cap-industrials-ai-infrastructure | HF source 1/100
+Thesis: Vertiv Holdings offers a higher-quality AI and data-center infrastructure exposure with fresh catalysts from a new Malaysia manufacturing facility and recent Outperform initiation and elevated price targets, aligning better with Chittick-style concentrated quality in an AI infrastructure bucket.[4][12][14][16]
+Catalyst: Opening of a new manufacturing facility in Johor, Malaysia to expand Asia production capacity for power and cooling infrastructure, plus Bernstein initiating coverage with an Outperform rating and a high price target (mid-$400s) and other analysts raising estimates for data-center demand.[4][12][...
+Entry: Given strong recent performance, favor a measured paper-trade entry on a modest pullback or consolidation rather than chasing new highs. Consider a 6–8% allocation with a limit entry near a short-term support zone visible in recent trading ranges, only afte...
+Exit: For a 5–10 day horizon, target ~10–15% upside, taking partial profits into strength near prior resistance or if price approaches stretched valuation bands highlighted by analyst commentary.[16][17] Invalidation if price closes more than ~8% below entry or i...
+Risk/reward: Risk-reward is more balanced than NNBR: upside is supported by structural AI/data-center demand and capacity expansion, but the stock is already a strong performer, so incremental gains may be more modest and sensitive to expectations; downside is mitigated...
+Bear/adversary: A cautious quality investor might argue that much of the AI-infrastructure upside is already priced in and that allocating more capital to a stock near 52-week highs after aggressive price-target headlines risks buying at an optimism peak; they would prefer waiting for a broader pullback or clear...
+Source quality: Evidence comes from a mix of company-level facility announcements, major financial news summaries, and multi-analyst coverage from firms like Bernstein, highlighting fundamental drivers and long-term earnings power.[4][12][14][16] This is a strong, multi-so...
+Chittick Cash Filter
+Score: 76/100
+Margin of safety: Margin of safety is moderate: while the stock trades at a premium typical of high-growth AI infrastructure names, expanding capacity and strong earnings trajectory provide some cushion if expectations stay intact.[4][16] However, the lac...
+Valuation: Analysts see robust earnings power through 2028 and have set elevated price targets, indicating the market is pricing in substantial growth.[12][14][16] Post-rally, valuation is not cheap, but relative to the structural AI/data-center de...
+Growth runway: Over 30–180 days and beyond, growth drivers include sustained AI and cloud data-center build-outs, increased need for efficient power and cooling, and new capacity from the Malaysia facility helping serve Asia demand.[4][8][16] Longer te...
+Balance-sheet risk: Available sources focus more on growth and earnings than on leverage specifics, but Vertiv operates as a scaled infrastructure provider with analyst confidence in its earnings power; there is no immediate red flag of...
+Capital allocation: Management is investing in expanded manufacturing capacity in Asia to capture demand growth, signaling proactive capital deployment toward high-return infrastructure projects.[4][8] Analyst commentary referencing earn...
+Concentration case: Vertiv can serve as a concentrated AI-infrastructure exposure versus broad tech ETFs, providing more targeted leverage to data-center power and cooling demand. It deserves attention over broad ETFs for the bot’s paper-tests because it ti...
+Owner thesis, 30-180 days: From an owner-style 30–180 day lens, Vertiv is a candidate for monitoring or holding if AI and data-center capex remain strong, facility ramp proceeds smoothly, and earnings continue to beat expectations. A longer hold case would focus on compound growth in...
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: news/structural
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: mid/large-cap-industrials-ai-infrastructure
+Research tier: execution-ready
+Allocation learning: Maintain allocation mid-range (around 8%) to avoid over-concentration in a single AI infrastructure name while still giving the strategy meaningful exposure to a quality-adjacent play.
+Hugging Face Filter
+Sentiment: constructive (0.69), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.35
+Evidence rank: 1/100
+Memory similarity: 0.10
+Vetoes: none
+Model notes: Fits Chittick Cash’s preference for quality with real runway better than small-cap speculative names; use as a reference case for AI-infrastructure-quality trades.
+Social buzz, max 10%: Attention is primarily via traditional financial and industry news (facility opening, analyst coverage) rather than retail hype; no strong meme-style social buzz identified.[4][6][8]
+Congress signal, max 5%: none
+Sources: https://ca.investing.com/news/stock-market-news/vertiv-opens-malaysia-facility-to-expand-asia-manufacturing-93CH-4716184, https://finance.yahoo.com/markets/stocks/articles/expect-vertiv-holdings-vrt-following-044146307.html, https://uk.finance.yahoo.com/quote/VRT/, https://www.insidermonkey.com/blog/5-stocks-that-were-added-to-the-sp-500-index-recently-and-how-they-performed-1791787/?singlepage=1
+
+3. ARM (technology – semiconductor IP and licensing) | confidence 0.64 | allocation 0.0% | stop 0.0% | Chittick 68/100 | tier watch | bucket mega-cap-tech-semiconductor-ip | HF source 1/100
+Thesis: Arm Holdings provides a diversified, high-quality semiconductor IP and licensing exposure with strong multi-analyst support and AI-driven demand, offering a complementary, less overused bucket to direct AI hardware trades while staying within quality and evidence-based constraints.[2]
+Catalyst: Recent and ongoing positive analyst coverage: 27 analysts over the last 12 months, with a consensus 'Moderate Buy' rating (19 Buy, 7 Hold, 1 Sell) and established price targets that reflect confidence in future earnings tied to AI and edge computing growth.[2]
+Entry: For a 5–10 day paper swing, favor entry on a technical consolidation or mild pullback within an established uptrend rather than chasing short-term spikes; position size around 7% to respect concentration limits while giving meaningful exposure. Use limit or...
+Exit: Target 8–12% upside over the holding window, trimming if price approaches the mid-range of consensus price targets or shows signs of momentum exhaustion. Invalidation if price breaks down ~8% below entry with rising volume or if new information emerges indi...
+Risk/reward: Risk-reward is moderate to attractive: quality and diversified exposure support the downside, while AI and edge compute growth provide upside. However, valuation and macro sensitivity must be acknowledged, making this a measured rather than aggressive swing.
+Bear/adversary: A strict margin-of-safety practitioner might argue that with only analyst-consensus data and no fresh, specific company news or filings in the snippet, there is insufficient catalyst detail to justify a short-term swing and that ARM is better treated as a watchlist quality name until a clearer da...
+Source quality: The primary evidence is quantitative analyst data from MarketBeat summarizing ratings and targets, which is solid but limited; broader fundamental context is inferred from Arm’s well-known business model rather than detailed filings in this snippet.[2] This...
+Chittick Cash Filter
+Score: 68/100
+Margin of safety: Without a clear valuation snapshot from the snippet, margin of safety must be treated as uncertain; analyst 'Moderate Buy' consensus indicates some perceived upside, but disciplined investors would seek more concrete valuation metrics be...
+Valuation: Analyst targets imply upside potential, but they also embed growth expectations and may not guarantee an attractive entry multiple; the presence of Hold and Sell ratings shows that consensus is not uniformly bullish.[2]
+Growth runway: Arm’s long-term runway includes expanded use of its IP in smartphones, data centers, AI accelerators, and edge/IoT devices, underpinned by trends toward energy-efficient computing and AI workload proliferation.[2]
+Balance-sheet risk: As an IP and licensing business, Arm generally carries less capital-intensive balance-sheet risk than hardware manufacturers, though this is inferred rather than directly evidenced in the snippet.[2]
+Capital allocation: Not detailed in the snippet; historically, Arm’s model focuses on R&D investment and ecosystem partnerships rather than heavy capex, aligning with capital-light reinvestment into IP.
+Concentration case: ARM offers a way to gain AI-related semiconductor exposure without concentrating solely in the most overused hardware names or broad ETFs, aiding bucket diversity for the bot’s discovery set.
+Owner thesis, 30-180 days: From an owner lens, ARM could be reviewed on 30–180 day intervals as a core quality tech holding if valuation becomes more clearly attractive and if additional catalysts (earnings beats, major design wins) are documented.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: general/structural
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: mega-cap-tech-semiconductor-ip
+Research tier: watch
+Allocation learning: No allocation; use ARM as a benchmark for how the bot distinguishes between structural quality names and those with explicit near-term catalysts.
+Hugging Face Filter
+Sentiment: constructive (0.61), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.30
+Evidence rank: 1/100
+Memory similarity: 0.05
+Vetoes: none
+Model notes: Included as a quality-tech watch candidate primarily to broaden sector exposure; lacks a sharp, dated catalyst in the provided materials, so it stays in watch tier rather than execution-ready.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.marketbeat.com/stocks/NASDAQ/ARM/forecast/
 
