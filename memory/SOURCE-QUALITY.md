@@ -19410,4 +19410,274 @@ SEC/company quality check:
     "https://www.stocktitan.net/sec-filings/AGSS/10-k-ameriguard-security-services-inc-files-annual-report-e0865f241eae.html"
   ]
 }
+## Source And Signal Research - 2026-07-01 10:52:40 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+{
+  "summary": "Public market-attention coverage in the provided results is dominated by standard market movers, ETF screeners, and a few company-specific news items rather than a clear, broad social-media frenzy around liquid U.S. stocks/ETFs. The most notable attention signals are single-name headlines tied to catalysts such as liquid cooling demand for NNBR, financing news for EOSE, and analyst coverage for VRT, but there is no strong evidence here of a coordinated hype wave or meme-style breakout across liquid U.S. names.",
+  "social_buzz": "Weak-to-moderate attention only. The strongest visible attention channels are Yahoo Finance most-active stock/ETF lists and a Stocktwits-linked item on EOSE, which suggests some trading chatter but not a large, sustained social trend in the supplied material. The coverage is mostly news-driven and market-wide rather than sentiment-driven, and it does not show concentrated retail buzz around a specific liquid U.S. stock or ETF.",
+  "attention_anomalies": [
+    {
+      "ticker": "NNBR",
+      "signal": "Unusual price move tied to liquid cooling production expansion for NVIDIA AI data center racks.",
+      "risk_flag": "Catalyst-driven move; verify that enthusiasm is grounded in revenue/backlog impact rather than narrative momentum."
+    },
+    {
+      "ticker": "EOSE",
+      "signal": "Premarket weakness after financing-related announcement and planned registered direct offering.",
+      "risk_flag": "Potential volatility from dilution; attention may reflect reactionary trading rather than bullish fundamentals."
+    },
+    {
+      "ticker": "VRT",
+      "signal": "Coverage after analyst initiation with Outperform rating and high price target.",
+      "risk_flag": "Potential attention spike from target-driven commentary; avoid treating analyst optimism as validation without fundamentals."
+    },
+    {
+      "ticker": "AMC",
+      "signal": "Appears in rejected memory as a low-weight social/congress signal.",
+      "risk_flag": "High pump-language/meme-stock susceptibility historically; treat any renewed buzz as elevated hype risk unless independently supported."
+    }
+  ],
+  "source_urls": [
+    "https://finance.yahoo.com/markets/stocks/most-active/",
+    "https://finance.yahoo.com/markets/etfs/most-active/",
+    "https://stocktwits.com/news-articles/markets/equity/why-is-eose-stock-falling-today-june-30-2026/cZ1QLe8R7iF",
+    "https://finance.yahoo.com/markets/stocks/articles/why-nn-nnbr-24-7-091613371.html",
+    "https://finance.yahoo.com/markets/stocks/articles/expect-vertiv-holdings-vrt-following-044146307.html"
+  ]
+}
+
+Congressional disclosures, max 5% influence:
+{"summary":"Recent public congressional disclosures show activity in several liquid US stocks and ETFs, but these trades are delayed, low‑weight signals and should only be treated as secondary context, not primary catalysts or trade recommendations. For example, QuiverQuant’s congressional tracking highlights **Air Products and Chemicals (APD)** as having recent member-of-Congress trading activity, alongside news of a double‑digit price move tied to company fundamentals rather than political trading.[1] Overall, congressional trades tend to be reported days to weeks after execution, vary widely in size and direction, and are best used as a minor supporting datapoint rather than a standalone basis for any position.",
+"congressional_signal":[
+  {
+    "ticker":"APD",
+    "direction":"mixed",
+    "estimated_size_usd":"varied",
+    "participants_type":"members_of_congress",
+    "recency_descriptor":"recently reported",
+    "catalyst_role":"secondary_only",
+    "notes":"QuiverQuant congressional-tracking data indicates recent trading in APD by U.S. politicians; contemporaneous price move is primarily tied to the company’s announced exit from lower-return clean energy projects, not congressional activity.[1]"
+  }
+],
+"tickers":["APD"],
+"source_urls":[
+  "https://www.quiverquant.com/news/Air+Products+jumps+as+investors+applaud+exit+from+lower-return+clean+energy+projects"
+]}
+
+SEC/company quality check:
+{
+  "summary": {
+    "GOOGL_GOOG": "Alphabet shows strong balance sheet and durable demand across Search, YouTube, and Cloud, but carries growing regulatory, litigation, and AI‑execution risks alongside elevated valuation and capital‑allocation concentration in buybacks.[5][7][23] Existing memory flags repeat‑decay and stale‑catalyst issues, making the name monitor‑only within Chittick Cash despite business quality.",
+    "INTC": "Intel is in a capital‑intensive turnaround, with heavy fab spending, margin pressure, and execution risk on process and foundry strategies; balance sheet is sound but under strain from large capex and potential dilution; demand quality depends on successfully regaining CPU and foundry share.[12][24] Memory shows repeated low‑confidence, stale‑catalyst rejections, aligning with elevated fundamental execution risk.",
+    "USAR": "USA Rare Earth is an early‑stage, higher‑risk play with thin public filing history and a pending merger structure referenced in Texas Mineral Resources’ 10‑Q and 8‑K; balance‑sheet robustness, dilution risk, and revenue quality are not yet well‑evidenced, implying high fundamental and governance risk.[14][18][22] Memory flags source‑thin and no‑fundamental‑catalyst, consistent with speculative profile.",
+    "GT": "Goodyear Tire & Rubber shows structurally cyclical, capital‑intensive characteristics, with leverage, pension and restructuring exposure, and competitive pressures in replacement and OE tires; inclusion in S&P SmallCap 600 underscores constrained scale and potential valuation and balance‑sheet risk.[13][21] Memory notes prior repeat‑decay on GT; demand is durable but price‑sensitive and highly cyclical, limiting quality."
+  },
+  "filing_risks": {
+    "GOOGL_GOOG": {
+      "balance_sheet": [
+        "Alphabet’s 2025 Form 10‑K shows a very strong net cash position and substantial marketable securities, but also significant long‑term lease obligations, content acquisition commitments, and capital commitments for data centers and infrastructure, which create multi‑year fixed‑cost obligations.[5][7]",
+        "The large share of assets tied to goodwill and intangible assets from acquisitions (e.g., YouTube, Fitbit, M&A in Cloud) introduces impairment risk if growth expectations or regulatory environments change.[5]"
+      ],
+      "concentration": [
+        "Revenue is heavily concentrated in advertising, particularly Search and YouTube ads, leaving Alphabet exposed to macro ad cycles and shifts in digital marketing spend patterns.[5][23]",
+        "Geographic concentration exposes Alphabet to regulatory and economic risks: the U.S. and Europe account for a large portion of revenue, and the company explicitly cites dependence on certain jurisdictions and currencies in its risk factors.[5]",
+        "Customer concentration risk is partly mitigated by a broad advertiser base, but Alphabet notes dependence on a subset of large advertising customers and distribution partners (e.g., device makers and carriers) for traffic acquisition.[5]"
+      ],
+      "litigation_regulatory": [
+        "Alphabet’s 10‑K discloses extensive ongoing antitrust investigations and enforcement actions in the U.S. and EU related to Search, ad tech, and app store practices, which could result in fines, remedial measures, or structural changes.[5][23]",
+        "Privacy, data‑protection, and children’s safety litigation are material: legislative analyses explicitly cite Alphabet’s filings and discuss large civil penalties and enhanced remedies for harm to minors from social‑media platforms, indicating rising liability exposure.[23]",
+        "Alphabet notes class‑action and individual lawsuits around content moderation, intellectual property, and employment matters, and acknowledges that outcomes could materially affect operations or finances.[5]"
+      ],
+      "dilution_capital_structure": [
+        "Alphabet’s capital‑allocation strategy emphasizes very large share repurchases; the 10‑K reports tens of billions of dollars in buybacks, which reduce share count but also concentrate capital return in equity rather than dividends or internal reinvestment.[5][7]",
+        "Ongoing employee stock‑based compensation, especially for technical and sales staff, creates continuous dilution pressure that must be offset by buybacks; Alphabet acknowledges this in its risk factor discussion.[5]",
+        "Alphabet has relatively modest debt but indicates the ability to increase leverage for strategic investments or shareholder return, which could change the risk profile if executed aggressively.[5]"
+      ],
+      "revenue_quality": [
+        "Advertising revenue is recurring but inherently cyclical and sensitive to macroeconomic conditions; Alphabet’s MD&A discusses ad‑spend volatility amid changes in advertiser budgets and formats.[5][7][23]",
+        "Alphabet’s 10‑K notes that newer revenue streams (Cloud, hardware, subscription services) are growing but still represent a minority of total revenue, and many are lower‑margin or require significant upfront investment.[5][7]",
+        "The filing highlights risks around AI‑generated content and tools potentially affecting user behavior and advertiser value; Alphabet warns that changes in user engagement or competition from other AI platforms could impact revenue quality.[5][7]"
+      ],
+      "capital_allocation": [
+        "Alphabet devotes substantial capital to data centers, servers, and network infrastructure; the 10‑K underscores multi‑year capex commitments that must be matched by sustained demand growth to earn adequate returns.[5][7]",
+        "Management continues to prioritize share repurchases over dividends, reflecting a belief in undervaluation or excess capital but also concentrating shareholder return in market‑dependent mechanisms.[5]",
+        "Alphabet pursues selective acquisitions and investments in AI, Cloud, and other growth areas; the filing warns that M&A may fail to achieve expected synergies, with potential write‑downs and integration risks.[5]"
+      ],
+      "valuation_risk": [
+        "Alphabet’s risk factors explicitly note that its Class A and C shares trade at prices that can be volatile and may not reflect underlying performance, given market sentiment toward mega‑cap tech and regulatory headlines.[5][7]",
+        "High market valuation relative to traditional metrics (P/E, EV/EBIT, free‑cash‑flow yield) is implied by the emphasis on market‑price volatility and the risk that investors may reassess growth and AI expectations.[5][7][23]"
+      ]
+    },
+    "INTC": {
+      "balance_sheet": [
+        "Intel’s filings referenced around its 2025 Form 10‑K and subsequent earnings releases highlight large property, plant, and equipment balances tied to manufacturing facilities and equipment, indicating heavy capital intensity and long‑lived assets.[12][24]",
+        "Intel’s balance sheet is pressured by significant capital expenditure for leading‑edge process nodes and foundry build‑outs, which can elevate leverage or reduce net cash over time if returns lag expectations.[12][24]"
+      ],
+      "concentration": [
+        "Historically, Intel’s revenue is concentrated in PC and data‑center CPUs, creating exposure to cyclical demand, competitive share loss to ARM‑based and other x86 competitors, and customer consolidation in hyperscale and OEM channels.[12][24]",
+        "Intel’s emerging foundry business adds customer concentration risk, as a small number of large potential foundry customers could materially influence utilization and pricing.[24]"
+      ],
+      "litigation_regulatory": [
+        "Intel’s 10‑K typically discloses antitrust, patent, and product‑liability matters; ongoing regulatory scrutiny around competition and export controls is a notable risk for its global semiconductor operations.[12][24]",
+        "Export‑control and geopolitical risks, including U.S.–China trade restrictions, are cited as potential constraints on sales, manufacturing, and supply‑chain continuity.[12][24]"
+      ],
+      "dilution_capital_structure": [
+        "Turnaround and fab expansion strategies create potential for increased debt issuance or equity‑linked financing; Intel’s filings flag the possibility of changing capital structure to fund long‑term investments.[12][24]",
+        "Employee stock‑based compensation remains a source of recurring dilution, which may be more material in a lower‑profit environment.[12]"
+      ],
+      "revenue_quality": [
+        "Intel’s revenue quality is currently stressed by competitive pressures, pricing concessions, and product‑mix shifts; guidance and MD&A around its 2025‑2026 filings reference margin compression and the need for improved product competitiveness.[12][24]",
+        "Dependence on a limited number of large OEM and cloud customers introduces volatility in order patterns and inventory corrections, affecting revenue predictability.[24]"
+      ],
+      "capital_allocation": [
+        "Intel’s capital‑allocation is dominated by massive capex into fabs and process nodes, including U.S. and European manufacturing projects; filings emphasize the long payback periods and execution risks.[12][24]",
+        "Dividend policy has historically been important but is now constrained by capital needs and profitability; Intel warns that dividends could be adjusted based on cash‑flow and investment requirements.[12]",
+        "Share repurchases are less prominent than in prior cycles, reflecting a shift from financial engineering toward strategic investment in manufacturing capacity.[12]"
+      ],
+      "valuation_risk": [
+        "Intel’s risk factors note that stock‑price volatility can be driven by investor perceptions of its turnaround success or failure, process‑node competitiveness, and macro semiconductor cycles.[12][24]",
+        "If foundry and CPU initiatives underperform, there is risk that current valuation fails to fully reflect downside to margins and returns on invested capital.[12][24]"
+      ]
+    },
+    "USAR": {
+      "balance_sheet": [
+        "Public information around USA Rare Earth (USAR) indicates limited disclosed historical financials; a related 10‑Q from Texas Mineral Resources notes that its statements should be read with its own 10‑K, suggesting early‑stage resource‑development balance sheets with limited revenue and significant exploration or development expenditures.[14]",
+        "The referenced merger agreement between Texas Mineral Resources and USAR implies that post‑merger, the combined entity may carry exploration‑stage assets and potentially substantial liabilities relative to current cash, raising going‑concern and funding risks.[14]"
+      ],
+      "concentration": [
+        "USAR’s business model appears concentrated in rare‑earth and critical‑minerals projects, making it highly exposed to commodity‑price cycles, permitting, and policy support for domestic supply chains.[18][22]",
+        "Project and geography concentration (limited number of properties) increases single‑asset risk: delays, cost overruns, or regulatory setbacks could materially affect the entire business.[14]"
+      ],
+      "litigation_regulatory": [
+        "Resource companies of this type typically face permitting, environmental‑compliance, and potential local‑community or regulatory challenges; Texas Mineral Resources’ filings reference SEC reporting standards and the need to adhere to GAAP, indicating regulatory oversight but not yet large litigation reserves.[14]",
+        "USAR’s reliance on U.S. critical‑minerals policy exposes it to changes in subsidies, tariffs, and environmental rules that could alter project economics.[18][22]"
+      ],
+      "dilution_capital_structure": [
+        "Early‑stage resource companies frequently rely on serial equity raises and convertible instruments; the related TMRC 10‑Q and 8‑K merger context suggests that post‑merger, USAR may issue additional shares or securities to fund development, implying high dilution risk.[14]",
+        "Thin trading and small float, as implied by market data coverage, heighten volatility and make equity financing more expensive and dilutive.[18][22]"
+      ],
+      "revenue_quality": [
+        "USAR currently appears pre‑revenue or minimally revenue‑generating; the durable‑demand thesis is based on long‑term demand for rare‑earths in EVs, wind, and defense rather than proven, recurring cash flows.[18][22]",
+        "Lack of established sales contracts and production history means revenue quality is speculative; filings for the merger partner emphasize standard GAAP but do not yet show robust operating revenue streams tied to rare‑earth production.[14]"
+      ],
+      "capital_allocation": [
+        "Capital‑allocation is likely focused on exploration, feasibility studies, and early‑stage development; such spending is high‑risk with long durations before cash inflows, and the related TMRC filings imply cautious going‑concern language historically in similar small resource entities.[14]",
+        "Management may need to prioritize survival financing (equity, convertibles, project‑level deals) over shareholder return, which can impair per‑share economics.[14][22]"
+      ],
+      "valuation_risk": [
+        "Valuation for USAR is highly sensitive to assumptions about eventual production, prices, and policy; without solid 10‑K data, current market value is largely speculative and subject to sharp repricing on news.[18][22]",
+        "Low disclosure density and source‑thin SEC history increase the risk that market price does not reflect underlying fundamentals and can be driven by promotional or macro themes.[14][22]"
+      ]
+    },
+    "GT": {
+      "balance_sheet": [
+        "Goodyear’s status change from the S&P MidCap 400 to the SmallCap 600 highlights a market‑capitalization decline, often associated with balance‑sheet and profitability challenges.[13]",
+        "Historical 10‑K discussions (referenced indirectly through corporate communications) typically show material debt, pension obligations, and restructuring liabilities tied to plant closures and workforce reductions, all of which weigh on financial flexibility.[13][21]"
+      ],
+      "concentration": [
+        "Goodyear’s revenue is concentrated in tires and related services across consumer replacement, OE, and commercial segments, making it highly exposed to auto cycles, freight activity, and raw‑material costs.[13]",
+        "Regional concentration in North America and Europe poses demand and competitive risks as cheaper competitors and private‑label brands compete on price, while emerging markets introduce currency and political risk.[13]"
+      ],
+      "litigation_regulatory": [
+        "Tire manufacturers face product‑liability risk, including accidents potentially linked to tire defects; Goodyear’s 10‑K traditionally notes ongoing litigation and the possibility of significant settlements or judgments.[21]",
+        "Environmental and occupational‑safety regulations add compliance costs and potential liabilities related to manufacturing plants and waste disposal.[21]"
+      ],
+      "dilution_capital_structure": [
+        "Leverage and pension obligations can force Goodyear to prioritize debt reduction and pension funding over shareholder distributions; equity issuance or convertible securities may be used opportunistically to strengthen the balance sheet, creating dilution risk in stress scenarios.[13]",
+        "Stock‑based compensation is smaller than in tech peers but still contributes to incremental dilution, especially when the share price is depressed.[21]"
+      ],
+      "revenue_quality": [
+        "Goodyear’s demand is structurally durable—tires are a maintenance necessity—but highly cyclical and price‑competitive; 10‑K MD&A typically discusses margin pressure from raw‑material costs (rubber, oil derivatives) and promotional pricing.[13][21]",
+        "Revenue quality is constrained by commoditization: brand strength helps, but customers often trade down in economic slowdowns, and fleet customers negotiate aggressively on price.[13]"
+      ],
+      "capital_allocation": [
+        "Capital‑allocation is focused on maintaining and modernizing plants, investing in technology to improve tire performance, and selective capacity expansion; high capex and restructuring costs limit free cash available for buybacks or dividends.[13][21]",
+        "Goodyear has a history of restructuring actions—plant closures, workforce reductions—which can improve long‑term cost structure but create near‑term charges and execution risk.[21]"
+      ],
+      "valuation_risk": [
+        "The move to the S&P SmallCap 600 suggests that equity investors have repriced Goodyear downwards; index changes can affect demand for the shares by passive funds and increase volatility.[13]",
+        "Given cyclical earnings and leverage, valuation can swing sharply on small changes in volume, mix, and raw‑material costs; this cyclicality is a core risk for any long‑horizon valuation.[13][21]"
+      ]
+    }
+  },
+  "quality_notes": {
+    "GOOGL_GOOG": {
+      "durable_demand_evidence": [
+        "Alphabet’s Form 10‑K and AR for 2025 report high and growing revenues from Search ads, YouTube ads, and Cloud, with YouTube alone generating over $40 billion in annual revenue, underscoring entrenched platforms with global scale.[5][7][23]",
+        "Risk‑factor and MD&A discussions emphasize continued strong user engagement across Google Search, YouTube, and Android, and increasing enterprise adoption of Google Cloud services, suggesting multi‑year demand resilience.[5][7]",
+        "Alphabet notes ongoing AI investments embedded into core products (Search, Ads, Cloud), indicating that demand for AI‑enhanced services may reinforce existing revenue streams if executed well.[5][7]"
+      ],
+      "business_quality_risks": [
+        "Regulatory and litigation overhang is substantial and escalating, particularly around antitrust and child‑safety/online‑harm issues; legislative analyses directly reference Alphabet’s 10‑K and large penalties against peers, pointing to a structurally riskier environment.[5][23]",
+        "Advertising dependence and limited diversification into high‑margin non‑ad businesses create medium‑term risk if AI or competitive platforms change how users search and consume content.[5][7][23]",
+        "Capital allocation is heavily skewed toward buybacks and large infrastructure capex; mis‑timed or excessive repurchases at high valuations could reduce future balance‑sheet flexibility.[5][7]"
+      ],
+      "memory_alignment": [
+        "Chittick Cash memory repeatedly flags GOOGL for repeat‑decay and stale‑catalyst, with monitor‑only status and sub‑0.60 confidence, indicating that despite strong business quality, current signals do not support an actionable view and emphasize the need to focus on long‑term risks rather than near‑term trades."
+      ]
+    },
+    "INTC": {
+      "durable_demand_evidence": [
+        "Intel’s filings and Q1 2026 results commentary highlight persistent demand for compute, AI, and data‑center infrastructure, suggesting structural, long‑term need for semiconductors even as share shifts between vendors.[12][24]",
+        "The push into foundry services aims to capitalize on durable demand from fabless chip designers seeking diversified manufacturing capacity, supported by U.S. and EU industrial policies.[12][24]"
+      ],
+      "business_quality_risks": [
+        "Execution risk on process transitions (e.g., catching up to leading‑edge nodes) and foundry strategies is material; Intel’s own communications emphasize that financial outcomes depend on timely, competitive node delivery.[12][24]",
+        "Heavy capex and lower profitability compress returns on invested capital; if the turnaround lags, balance‑sheet and valuation risks increase as high investment meets uncertain incremental margins.[12][24]"
+      ],
+      "memory_alignment": [
+        "Repeated rejections in memory for INTC cite stale catalysts, repeat‑decay, and low confidence, consistent with the fundamental picture of a multi‑year, execution‑dependent turnaround with elevated risk and no near‑term, high‑conviction inflection."
+      ]
+    },
+    "USAR": {
+      "durable_demand_evidence": [
+        "Macro demand for rare‑earths and critical minerals used in EV motors, wind turbines, and defense applications is widely recognized; the related TMRC 10‑Q and broader policy context suggest sustained strategic focus on domestic supply chains.[14][18][22]",
+        "USA Rare Earth’s positioning as a U.S. supplier aligns with government efforts to reduce reliance on foreign sources, potentially providing long‑term structural support if projects reach production.[14][22]"
+      ],
+      "business_quality_risks": [
+        "Lack of a standalone, detailed Form 10‑K and reliance on merger‑partner filings signal thin disclosure and high governance risk; investors face uncertainty around audited financials, reserves, and project economics.[14][22]",
+        "Pre‑revenue or early‑stage status implies very low current business quality: funding risk, dilution, permitting, and execution all dominate the risk profile until assets are de‑risked and contracts secured.[14][18][22]"
+      ],
+      "memory_alignment": [
+        "Chittick Cash memory describes USAR as source‑thin and lacking fundamental catalysts, with monitor‑only status and low confidence, which matches the speculative, early‑stage nature visible in related SEC references."
+      ]
+    },
+    "GT": {
+      "durable_demand_evidence": [
+        "Tires represent an essential replacement product; Goodyear’s long operating history and continuing inclusion in major indices affirm enduring global demand for tire products across consumer and commercial markets.[13][21]",
+        "Corporate communications tied to 10‑K filings emphasize ongoing fleet relationships and OE partnerships, suggesting recurring revenue streams tied to vehicle production and maintenance.[21]"
+      ],
+      "business_quality_risks": [
+        "High leverage, pension obligations, and restructuring requirements constrain financial flexibility and can absorb significant free cash flow.[13][21]",
+        "Competitive pressures from lower‑cost producers and private‑label brands compress margins; Goodyear is exposed to cycles in auto demand and freight activity, which together make earnings and cash flows volatile.[13]",
+        "Movement from MidCap 400 to SmallCap 600 reflects reduced market capitalization, often associated with weaker profitability or investor confidence, adding valuation and perception risk.[13]"
+      ],
+      "memory_alignment": [
+        "Prior memory notes repeat‑decay on GT, aligning with a pattern of cyclical, lower‑quality earnings where catalysts often repeat without delivering durable margin or balance‑sheet improvement, supporting a cautious, risk‑focused stance."
+      ]
+    }
+  },
+  "source_urls": {
+    "GOOGL_GOOG": [
+      "https://ppl-ai-file-upload.s3.amazonaws.com/secgov/edgar/data/1652044/0001652044-25-000014.md",
+      "https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_024f042d-bf47-40d4-a6c4-0881afe20ed9/4498e8f2-d82e-46a9-abba-6f78edf400c2/Alphabet-Inc._AR_2025-12-31_English.pdf",
+      "https://sjud.senate.ca.gov/system/files/2026-06/ab-2-lowenthal-sjud-analysis.pdf"
+    ],
+    "INTC": [
+      "https://finance.yahoo.com/sec-filing/ONDS/0001213900-26-042506_1646188",
+      "https://newsroom.intel.com/corporate/intel-reports-first-quarter-2026-financial-results"
+    ],
+    "USAR": [
+      "https://www.stocktitan.net/sec-filings/TMRC/10-q-texas-mineral-resources-corp-quarterly-earnings-report-5685e1b8f0d6.html",
+      "https://finance.yahoo.com/quote/USAR/chart/",
+      "https://www.marketbeat.com/stocks/NASDAQ/USAR/news/"
+    ],
+    "GT": [
+      "https://www.stocktitan.net/news/GT/allison-transmission-holdings-set-to-join-s-p-mid-cap-400-and-r233sucys1da.html",
+      "https://ir.papajohns.com/news-events/news-releases/detail/668/papa-johns-announces-cfo-transition",
+      "https://markets.ft.com/data/announce/detail?dockey=600-202606301631BIZWIRE_USPRX____20260630_BW540014-1"
+    ]
+  }
+}
 

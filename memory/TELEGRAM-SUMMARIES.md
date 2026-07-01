@@ -35277,4 +35277,37 @@ Sources: https://www.fidelity.com/news/article/technology/202606291630BIZWIRE_US
 Rejected / Watchouts
 - AP: Target allocation must be between 1% and 15%.
 - GOOGL: repeat_decay; stale_catalyst; HF memory filter flags similarity to prior rejected patterns.; Confidence below 0.60.; Target allocation must be between 1% and 15%.
+## Research Update - 2026-07-01 10:52:40 Eastern Daylight Time
+
+Research Update
+
+Market tone: Risk-on bias persists with strong flows into AI-adjacent infrastructure and smaller names; volatility is event-sensitive around financing deals and disruptive tech headlines, favoring tightly risk-managed 1–10 day swings with clear catalysts.
+Candidates: 3
+
+1. NNBR (industrials – precision components / AI data-center supply chain) | confidence 0.67 | allocation 5.0% | stop 8.0% | Chittick 48/100 | tier execution-ready | bucket small-cap-industrials-ai-supply-chain | HF source 1/100
+Recommendation: execute-if-guards-pass
+Catalyst: Announcement of fully pre-sold NVIDIA liquid cooling expansion plus $75M PIPE private placement at $3.06/share expected to close around July 2, 2026.[11][7][5]
+Chittick Cash: Margin of safety is thin: valuation around 29x forward earnings embeds substantial optimism and leaves limited buffer against execution or sentiment setbacks.[1] The fully pre-sold program improves revenue visibility...
+HF filter: sentiment=mixed-positive source=1/100 hype=0.58 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=small-cap-industrials-ai-supply-chain
+Social buzz, low weight: Moderate trader attention and coverage through outlets highlighting the large one-day move and leadership shift, but this appears news/catalyst-driven rather than pure meme-styl...
+Congress signal, low weight: none
+
+2. VRT (industrials – data-center power and cooling / AI infrastructure) | confidence 0.73 | allocation 8.0% | stop 8.0% | Chittick 76/100 | tier execution-ready | bucket mid/large-cap-industrials-ai-infrastructure | HF source 1/100
+Recommendation: execute-if-guards-pass
+Catalyst: Opening of a new manufacturing facility in Johor, Malaysia to expand Asia production capacity for power and cooling infrastructure, plus Bernstein initiating coverage with an Outperform rating and a high price target (mid-$400s) and othe...
+Chittick Cash: Margin of safety is moderate: while the stock trades at a premium typical of high-growth AI infrastructure names, expanding capacity and strong earnings trajectory provide some cushion if expectations stay intact.[4][...
+HF filter: sentiment=constructive source=1/100 hype=0.35 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=mid/large-cap-industrials-ai-infrastructure
+Social buzz, low weight: Attention is primarily via traditional financial and industry news (facility opening, analyst coverage) rather than retail hype; no strong meme-style social buzz identified.[4][...
+Congress signal, low weight: none
+
+3. ARM (technology – semiconductor IP and licensing) | confidence 0.64 | allocation 0.0% | stop 0.0% | Chittick 68/100 | tier watch | bucket mega-cap-tech-semiconductor-ip | HF source 1/100
+Recommendation: watch
+Catalyst: Recent and ongoing positive analyst coverage: 27 analysts over the last 12 months, with a consensus 'Moderate Buy' rating (19 Buy, 7 Hold, 1 Sell) and established price targets that reflect confidence in future earnings tied to AI and ed...
+Chittick Cash: Without a clear valuation snapshot from the snippet, margin of safety must be treated as uncertain; analyst 'Moderate Buy' consensus indicates some perceived upside, but disciplined investors would seek more concrete...
+HF filter: sentiment=constructive source=1/100 hype=0.30 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=mega-cap-tech-semiconductor-ip
+Social buzz, low weight: none
+Congress signal, low weight: none
 
