@@ -1681,4 +1681,13 @@ Premarket plan built from latest watchlist.
 Risk appetite is mixed but constructive for event-driven growth and special situations. The cleanest fresh setup in the current tape is OKLO on a dated acquisition catalyst; AP has a smaller index-inclusion flow catalyst, but it is weaker and more flow-driven.
 
 Candidates found: 3
+## Premarket Plan - 2026-07-01 08:25:01 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- OKLO: score=76, base=95, chittick=58, approved=True, allocation=6.0%, stop=7.0%
+- AP: score=69, base=95, chittick=35, approved=False, allocation=0.0%, stop=7.0%
+  rejects: Target allocation must be between 1% and 15%.
+- GOOGL: score=64, base=90, chittick=33, approved=False, allocation=0.0%, stop=7.0%
+  rejects: repeat_decay; stale_catalyst; HF memory filter flags similarity to prior rejected patterns.; Confidence below 0.60.; Target allocation must be between 1% and 15%.
 
