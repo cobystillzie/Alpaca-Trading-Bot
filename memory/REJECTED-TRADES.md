@@ -570,4 +570,17 @@ allocation-muted
 Candidate is monitor-only and cannot be traded.
 Confidence below 0.60.
 Target allocation must be between 1% and 15%.
+## Rejected OKLO - 2026-07-01 09:55:19 Eastern Daylight Time
+
+Max open-position count would be exceeded.
+## Rejected AP - 2026-07-01 09:55:19 Eastern Daylight Time
+
+Target allocation must be between 1% and 15%.
+## Rejected GOOGL - 2026-07-01 09:55:20 Eastern Daylight Time
+
+repeat_decay
+stale_catalyst
+HF memory filter flags similarity to prior rejected patterns.
+Confidence below 0.60.
+Target allocation must be between 1% and 15%.
 
