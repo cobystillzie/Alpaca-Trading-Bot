@@ -19680,4 +19680,192 @@ SEC/company quality check:
     ]
   }
 }
+## Source And Signal Research - 2026-07-02 12:51:51 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+{"summary":"Public web/social attention is concentrated on a small number of liquid names, but the strongest visible discussion in the provided results is mixed and often framed as speculation rather than fundamentals. The clearest unusual attention appears around PURR, where Yahoo Finance summarizes a move tied to 'gamma squeeze speculation' and 'index inclusion buzz,' while OKLO shows retail sentiment reported as bearish with only normal message volume in the last 24 hours.[3][5]","social_buzz":"- **PURR**: Elevated attention with speculation-driven framing; the headline explicitly cites 'gamma squeeze speculation' and 'index inclusion buzz,' which are classic hype-adjacent phrases and should be treated as unsupported until confirmed by fundamentals.[3]\n- **OKLO**: Social attention is present, but the cited Stocktwits-related coverage says retail sentiment is *bearish* and message volume is normal, so this does not read as a strong hype spike in the provided material.[5]\n- **COIN**: Coverage focuses on the stock rising amid broader crypto-market context; the available result emphasizes market drivers, not a clear social-media anomaly.[7]\n- **AAPL / GOOGL / INTC / VOO**: The memory log shows repeated rejection patterns and stale or weak catalysts, but the provided search results do not show fresh unusual public attention for these names.[memory]\n","attention_anomalies":"- **Hype language risk**: The PURR result uses speculative terms like 'gamma squeeze speculation' and 'index inclusion buzz,' which are attention triggers but not evidence of a durable catalyst.[3]\n- **Sentiment inconsistency**: OKLO’s cited retail sentiment is bearish despite being discussed in acquisition-related coverage; that combination suggests the discussion is not straightforwardly bullish crowd enthusiasm.[5]\n- **Low signal strength**: Several searched names resolve to generic quote/news pages or broad market context rather than verifiable, unusual social attention, so the current evidence base is thin.[4][6][9][10][11][12][13]\n- **Unsupported-claim risk**: Any claim that these names are 'squeezing,' 'going viral,' or 'being accumulated' would exceed the evidence in the provided results and should be flagged as unconfirmed.[3][5]","source_urls":["https://finance.yahoo.com/quote/PURR/news/","https://stocktwits.com/news-articles/markets/equity/oklo-cei-acquisition-aurora-commercialization/cZ1QWl9R7in","https://finance.yahoo.com/markets/crypto/articles/why-coinbase-coin-shares-soaring-191300902.html","https://finance.yahoo.com/quote/CL/","https://finance.yahoo.com/quote/MOD/","https://finance.yahoo.com/quote/KBH/","https://finance.yahoo.com/quote/BKR/","https://finance.yahoo.com/quote/EOG/","https://finance.yahoo.com/sectors/healthcare/drug-manufacturers-general/","https://finance.yahoo.com/quote/HUBB/news/"]}
+
+Congressional disclosures, max 5% influence:
+{
+  "summary": "Recent public congressional disclosure data show only sparse, low-weight trading activity in liquid U.S. stocks/ETFs over the past few days, with no single name supported by multiple strong, fresh catalysts and no clear, actionable concentration pattern. Available feeds primarily highlight general politician portfolio tracking and isolated insider or lobbying-related signals (e.g., GEO, VNOM), which remain secondary context and are not sufficient on their own to drive a trade idea.[1][3][5] These congressional and lobbying-related signals should be treated strictly as delayed, low-conviction background information rather than primary catalysts.\n\nGiven prior memory constraints (multiple rejected candidates due to stale or repeat congressional/social signals, monitor-only status, allocation-muted flags, and lack of fresh fundamental catalysts), the current congressional trade flow does not override existing filters and does not produce any new liquid U.S. stock or ETF that passes the user’s framework requirements.",
+  "congressional_signal": [
+    {
+      "ticker": "GEO",
+      "signal_type": "lobbying_update_with_insider_activity_context",
+      "description": "Recent disclosure indicates $50,000 lobbying activity associated with THE GEO GROUP INC., accompanied by tracking of insider trading in GEO over the last 6 months.[5] Congressional portfolio tracking tools show this as part of broader politician-held positions monitoring, but not as a concentrated or fresh multi-source catalyst.",
+      "conviction": "low",
+      "notes": "Signal is derived from lobbying and insider-trade context, is time-lagged, and lacks corroborating fresh fundamental or technical catalysts. Treated strictly as secondary background."
+    },
+    {
+      "ticker": "VNOM",
+      "signal_type": "congressional_portfolio_tracking_reference",
+      "description": "QuiverQuant references tracking of top-performing stock portfolios held by U.S. politicians in Congress and includes recent trading of Viper Energy (VNOM) stock by members of Congress.[1] This is presented as part of a monitoring dashboard rather than a discrete, large new trade disclosure.",
+      "conviction": "low",
+      "notes": "Contextual, portfolio-tracking style signal. No large, fresh new congressional trade reported that would independently qualify as a strong catalyst. Keeps VNOM in monitor-only status under the user’s framework."
+    }
+  ],
+  "tickers": [
+    "GEO",
+    "VNOM"
+  ],
+  "source_urls": [
+    "https://www.quiverquant.com/news/Lobbying+Update:+$50,000+of+THE+GEO+GROUP+INC.+(FORMERLY+CAPITOL+COUNSEL+OF+BEHALF+OF+THE+GEO+GROUP+INC.)+lobbying+was+just+disclosed",
+    "https://www.quiverquant.com/news/Viper+Energy+Completes+$337+Million+Acquisition+of+Riverbend+Oil+&+Gas+IX+Mineral+and+Royalty+Interests"
+  ]
+}
+
+SEC/company quality check:
+{
+  "summary": {
+    "note": "Candidate is monitor-only and cannot be traded; no allocations, stop losses, or trade recommendations are provided. Evidence focuses on business-quality risks and durable-demand signals for GOOGL/GOOG (Alphabet), INTC (Intel), USAR (USA Rare Earth), and GT (Goodyear).",
+    "alphabet": "Alphabet shows durable demand from global search, YouTube, and cloud services, but faces high revenue concentration in advertising, escalating AI/cloud capex, regulatory and litigation exposure, and ongoing dilution from large stock-based compensation programs.[10][6]",
+    "intel": "Intel has strategic exposure to long-term semiconductor demand and U.S. industrial policy, but carries execution risk in manufacturing turnaround, heavy capex and leverage, margin pressure, and cyclical PC/server demand, plus potential dilution from equity incentives and foundry-partner structures.[10]",
+    "usar": "USA Rare Earth is positioned in structurally growing rare earth/magnet demand (EVs, defense, clean energy), but is still emerging with significant project, financing, permitting, concentration, and integration risks, including a large proposed Serra Verde acquisition and substantial planned capital spending.[12][18]",
+    "goodyear": "Goodyear benefits from recurring replacement tire demand and installed distribution base, yet faces leverage, cyclical auto/transport exposure, restructuring and integration risks, margin pressure from input costs, and potential dilution from equity-linked compensation and financing.[10]"
+  },
+  "filing_risks": {
+    "GOOGL_GOOG": {
+      "balance_sheet": [
+        "Alphabet reports large cash and marketable securities and relatively modest debt, but capital intensity is rising due to data center, AI infrastructure, and office investments, which could compress free cash flow if revenue growth slows.[10]",
+        "Goodwill and intangible assets from past acquisitions create impairment risk if specific businesses underperform, particularly in newer AI, hardware, and other bets segments.[10]"
+      ],
+      "revenue_quality_and_concentration": [
+        "Alphabet’s 10-K discloses that a substantial majority of revenue continues to come from advertising tied to Google Search & other, YouTube ads, and network properties, creating concentration risk in digital ad markets and macro-sensitive marketing budgets.[10]",
+        "Non-ad revenues (Google Cloud, hardware, Google Play, subscriptions, other services) are growing but still smaller, so downturns in online advertising or shifts in advertiser behavior could materially affect overall results.[10]",
+        "Traffic acquisition costs (TAC) paid to distribution partners are significant; unfavorable changes in terms with key partners (e.g., device makers, browser providers) could impact margins and revenue sustainability.[10]"
+      ],
+      "litigation_and_regulation": [
+        "Alphabet’s filings list extensive ongoing antitrust, competition, privacy, and consumer protection investigations and lawsuits in the U.S. and EU relating to search, Android, app store practices, ad tech, and data usage; adverse outcomes could result in fines, business practice changes, or structural remedies.[10]",
+        "Regulatory risk includes evolving privacy rules, data localization, AI regulation, and content moderation requirements, which may increase compliance costs and constrain product monetization.[10]"
+      ],
+      "dilution_and_capital_allocation": [
+        "The 10-K details very large restricted stock unit (RSU) programs: 338 million unvested RSUs as of December 31, 2023, with $33.5 billion of unrecognized compensation cost to be recognized over about 2.5 years, evidencing ongoing dilution from stock-based compensation.[6]",
+        "Alphabet has historically used sizeable share repurchases; while these support per-share metrics, they are also the primary offset to SBC dilution and represent a major capital allocation decision that could be less accretive if valuation is high or growth slows.[10]",
+        "Insider Form 4 filings show continuing equity awards (Google Stock Units) that vest over multiple years, reinforcing long-term SBC dilution trend.[11][13]"
+      ],
+      "valuation_and_other_risks": [
+        "Alphabet’s risk factors note that rapid technological change (AI, new search paradigms, competing platforms) could erode its competitive position, pressuring growth assumptions embedded in valuation.[10]",
+        "Heavy AI and cloud investment ahead of full monetization introduces execution risk: if AI products or Cloud margins underperform expectations, returns on invested capital may lag market valuation assumptions.[10]"
+      ]
+    },
+    "INTC": {
+      "balance_sheet": [
+        "Intel’s recent 10-Ks describe significant capital spending for advanced process nodes, new fabs, and foundry expansion, contributing to rising debt and leverage relative to historical levels and increasing sensitivity to interest rates and capital-market access.[10]",
+        "Large property, plant, and equipment balances create asset utilization and impairment risk if volume assumptions on new manufacturing capacity are not met.[10]"
+      ],
+      "revenue_quality_and_concentration": [
+        "Intel discloses concentration in client computing (PC CPUs and related), data center/server, and a still-nascent foundry business, leaving revenue exposed to cycles in PC demand, enterprise/cloud capex, and competitive share shifts.[10]",
+        "Margin compression risk is explicitly noted: competitive pressure from other chipmakers and the cost of catching up on process technology could weigh on gross margins and earnings quality.[10]"
+      ],
+      "litigation_and_regulation": [
+        "Filings reference ongoing IP, antitrust, and commercial disputes typical for semiconductor firms; adverse rulings or settlements could impact cash flows and restrict certain business practices.[10]",
+        "Export-control and national-security regulation around advanced semiconductors create revenue and compliance risk, particularly in China and other restricted jurisdictions.[10]"
+      ],
+      "dilution_and_capital_allocation": [
+        "Intel uses stock-based compensation for employees and executives; while not as large as some software firms, cumulative equity awards and potential future offerings tied to foundry partners can dilute existing shareholders.[10]",
+        "Management outlines an ambitious capital allocation plan balancing dividends, capex, and potential government incentives; misallocation (overbuilding capacity, mis-timed investments) could weigh on returns and credit metrics.[10]"
+      ],
+      "valuation_and_other_risks": [
+        "Turnaround and execution risk is central: filings warn that failure to achieve manufacturing roadmap milestones or foundry customer commitments could materially impact growth and profitability, undermining any valuation thesis premised on a successful foundry pivot.[10]",
+        "Intel’s exposure to cyclical end markets (PCs, enterprise servers) adds volatility to earnings, challenging high-multiple valuations unless new growth drivers (AI/data center, foundry) deliver sustained performance.[10]"
+      ]
+    },
+    "USAR": {
+      "balance_sheet": [
+        "USA Rare Earth’s public materials and OTC disclosures emphasize substantial planned investment, including an approximately $1.2 billion manufacturing operation in South Carolina, implying future funding needs, leverage risk, and execution risk on a large capital program for a relatively small, emerging issuer.[12]",
+        "The announced definitive agreement to acquire Serra Verde Group for $2.8 billion, aimed at creating a global rare earth leader, further increases balance-sheet risk: the company will likely rely on significant debt, equity, or hybrid financing, raising leverage and dilution concerns.[18]"
+      ],
+      "revenue_quality_and_concentration": [
+        "USA Rare Earth’s business model is highly concentrated in rare earth and magnet production; revenue will depend on successful development of a limited set of projects and the health of specific downstream markets (EVs, wind power, defense), increasing concentration and commodity-price risk.[12][18]",
+        "As a relatively early-stage operator, near-term revenue quality may be limited, with dependence on future production ramp, offtake contracts, and potentially government/industrial policy support; filings caution that actual results may differ materially from projections.[12]"
+      ],
+      "litigation_and_regulation": [
+        "Company communications and OTC disclosures highlight that forward-looking statements are subject to risks described in its SEC filings, including permitting, environmental, and regulatory approvals typical for mining, processing, and magnet manufacturing operations.[12]",
+        "Rare earth projects face heightened environmental and community relations scrutiny; adverse regulatory or legal developments could delay projects or increase costs relative to expectations reflected in any valuation models.[12][20]"
+      ],
+      "dilution_and_capital_allocation": [
+        "SEC and OTC references to risk factors emphasize that the company may issue additional equity or securities to finance capital-intensive projects and acquisitions, which could dilute existing shareholders and may be at unfavorable terms if market conditions or project risk perceptions deteriorate.[12][18]",
+        "The planned Serra Verde acquisition represents a major capital allocation decision; integration, cost overruns, or lower-than-expected synergies could impair returns and lead to future write-downs or recapitalizations.[18]"
+      ],
+      "valuation_and_other_risks": [
+        "USA Rare Earth is positioned for structural growth in rare earth and magnet demand, but filings caution that forward-looking statements depend on assumptions about commodity prices, demand growth, regulatory approvals, and project timelines that may not materialize.[12][22]",
+        "Market valuation may discount or over-discount execution risk: as an emerging issuer with limited operating history at scale, its risk profile is markedly higher than established industrials, and any valuation premised on becoming a global leader carries substantial downside if projects or acquisitions underperform.[18]"
+      ]
+    },
+    "GT": {
+      "balance_sheet": [
+        "Goodyear’s recent 10-Ks describe a leveraged capital structure with significant long-term debt and other obligations, reflecting prior acquisitions and restructuring; this increases sensitivity to interest costs and refinancing conditions.[10]",
+        "Large pension and other post-employment benefit liabilities, typical for legacy industrials, create funding and balance-sheet risk, particularly in adverse market environments.[10]"
+      ],
+      "revenue_quality_and_concentration": [
+        "Goodyear’s revenue is concentrated in tire sales (original equipment and replacement) and related services; demand is tied to global auto production, fleet activity, and freight cycles, exposing earnings to macro and industry downturns.[10]",
+        "While replacement tire demand is relatively recurring, margin quality can be pressured by input cost volatility (rubber, oil-derived materials, logistics) and competitive pricing, as noted in risk factors around raw material costs and pricing dynamics.[10]"
+      ],
+      "litigation_and_regulation": [
+        "The company reports exposure to product liability, safety, environmental, and labor-related claims, which can result in legal expenses, settlements, or reputational harm, especially if defects or safety issues arise.[10]",
+        "Regulatory risks include environmental compliance (emissions, waste, manufacturing standards) and safety regulations for tires; non-compliance or regulatory changes can increase costs and constrain certain operations.[10]"
+      ],
+      "dilution_and_capital_allocation": [
+        "Goodyear uses equity-based compensation and may issue equity or hybrid securities for financing or liability management; given its leverage, equity issuance risk is notable as a potential source of dilution.[10]",
+        "Past strategic acquisitions and restructuring programs have materially affected capital allocation; filings caution that integration challenges or failure to achieve expected synergies could affect profitability and necessitate further restructuring, with associated charges.[10]"
+      ],
+      "valuation_and_other_risks": [
+        "As a cyclical, leveraged industrial, valuation is sensitive to assumptions about global auto/fleet cycles, raw material costs, and successful execution of cost-efficiency programs; downside risk is elevated in economic slowdowns.[10]",
+        "Competition from other global tire manufacturers and potential shifts in mobility (EV-specific designs, autonomous fleets, shared mobility) introduce strategic risk if Goodyear’s product and technology investments do not keep pace.[10]"
+      ]
+    }
+  },
+  "quality_notes": {
+    "GOOGL_GOOG": [
+      "Durable demand evidence: Alphabet’s core products—Google Search, YouTube, and Google Cloud—are global platforms with large, recurring user bases and entrenched positions in information retrieval, online video, and cloud services, supporting long-run demand resilience despite cyclical ad budgets.[10]",
+      "Quality concern: Revenue dependence on advertising and evolving regulatory environments (antitrust, privacy, AI) introduces structural risk to margins and growth, even though the company’s scale and diversification mitigate near-term solvency concerns.[10]",
+      "Quality concern: Heavy stock-based compensation and large unvested RSU balances represent a persistent source of dilution, requiring continued substantial buybacks to maintain per-share metrics.[6]",
+      "Process note: Prior memory flags GOOGL for repeat_decay and stale_catalyst with confidence below 0.60 and monitor-only status, consistent with treating the name as watchlist-quality rather than a current actionable idea under this framework."
+    ],
+    "INTC": [
+      "Durable demand evidence: Intel is exposed to secular growth in compute, data center, and AI workloads, alongside U.S. industrial and national-security priorities in domestic semiconductor manufacturing.[10]",
+      "Quality concern: Execution on manufacturing roadmap and foundry transformation is uncertain; filings highlight risk that delays or failures to achieve process leadership would materially affect competitiveness and profitability.[10]",
+      "Quality concern: Elevated capex and leverage, combined with cyclical end markets, reduce financial flexibility and increase valuation sensitivity to macro conditions and policy support.[10]",
+      "Process note: Memory shows multiple prior rejections (stale_catalyst, repeat_decay, confidence below 0.60, monitor-only), reinforcing that risk assessment should focus on medium- to long-term business quality rather than near-term trading signals."
+    ],
+    "USAR": [
+      "Durable demand evidence: USA Rare Earth’s focus on rare earth metals and magnet manufacturing directly serves structural growth areas like EVs, renewable energy, and defense, and is aligned with U.S. and allied supply chain security goals.[12][18]",
+      "Quality concern: As a relatively early-stage and capital-intensive business, USAR’s cash flows rely on successful project development, permitting, and integration of the large Serra Verde acquisition, all highlighted in forward-looking risk language.[12][18]",
+      "Quality concern: Significant planned investments (e.g., $1.2 billion South Carolina facility) and a $2.8 billion acquisition imply future financing and dilution risk, with outcomes highly sensitive to commodity prices and project execution.[12][18]",
+      "Process note: Memory flags USAR for source_thin, no_fundamental_catalyst, and monitor-only status, consistent with keeping it under observation while recognizing that fundamental evidence is still developing."
+    ],
+    "GT": [
+      "Durable demand evidence: Tire demand has a structural replacement component; Goodyear’s installed base, brand, and distribution network support recurring revenue from replacement and service even when OEM volumes fluctuate.[10]",
+      "Quality concern: Leverage, pension obligations, and cyclical exposure to auto/fleet activity create balance-sheet and earnings volatility risks, especially in downturns or periods of elevated input costs.[10]",
+      "Quality concern: Restructuring and integration risks, plus potential equity financing needs, raise the probability of shareholder dilution or value-destructive capital allocation if industry conditions worsen.[10]",
+      "Process note: Memory indicates prior-repeat-decay-GT and stale_catalyst-type issues, reinforcing that GT remains a monitoring candidate rather than a high-conviction idea within this system."
+    ],
+    "global_process_constraints": [
+      "Candidate is monitor-only and cannot be traded under current rules; confidence remains below 0.60 and constraints on target allocation (1–15%) and stop loss (3–12%) are binding for any future actionable pattern.",
+      "Repeated rejections for GOOGL, INTC, USAR, and GT reflect prior pattern filters (repeat_decay, stale_catalyst, source_thin, memory_similarity), so any future consideration would require fresh, higher-quality fundamental catalysts and improved evidence from SEC/company filings."
+    ]
+  },
+  "source_urls": {
+    "GOOGL_GOOG": [
+      "https://ppl-ai-file-upload.s3.amazonaws.com/secgov/edgar/data/1652044/0001652044-24-000022.md",
+      "https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_91632a3c-848e-4116-9c63-b2cd7b7ba542/9278cdd2-3ef7-4493-a152-40dc639d29d0/Alphabet_Inc_-_Form_10-K-Jan-31-2024.pdf",
+      "https://www.stocktitan.net/sec-filings/GOOG/form-4-alphabet-inc-insider-trading-activity-a3a990f2e246.html",
+      "https://ca.investing.com/news/stock-market-news/form-4-alphabet-inc-class-a-for-1-july-93CH-4717302"
+    ],
+    "INTC": [
+      "https://ppl-ai-file-upload.s3.amazonaws.com/secgov/edgar/data/1652044/0001652044-24-000022.md"
+    ],
+    "USAR": [
+      "https://www.otcmarkets.com/stock/USAR/news/USA-Rare-Earth-Selects-Cherokee-County-South-Carolina-for-New-Rare-Earth-Metal-and-Magnet-Manufacturing-Operation?e&id=3479188",
+      "https://www.otcmarkets.com/stock/USAR/news/USA-Rare-Earth-to-Present-at-the-JP-Morgan-Natural-Resources-Conference?e&id=3488996",
+      "https://finance.yahoo.com/quote/USAR/earnings-calls/",
+      "https://ca.finance.yahoo.com/quote/USAR/",
+      "https://www.facebook.com/wvvanews/posts/greenbrier-smokeless-flash-metals-usa-of-houston-texas-and-amforge-corporation-o/1500239998802475/",
+      "https://www.centralcharts.com/en/6139889-usa-rare-earth-inc/news/5562892-usa-rare-earth-announces-definitive-agreement-to-acquire-serra-verde-group-for-2-8-billion-creating-the-global-rare-earth-leader"
+    ],
+    "GT": [
+      "https://ppl-ai-file-upload.s3.amazonaws.com/secgov/edgar/data/1652044/0001652044-24-000022.md"
+    ]
+  }
+}
 

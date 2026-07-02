@@ -36031,4 +36031,37 @@ Model notes: Included as a quality-tech watch candidate primarily to broaden sec
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: https://www.marketbeat.com/stocks/NASDAQ/ARM/forecast/
+## Research Update - 2026-07-02 12:51:52 Eastern Daylight Time
+
+Research Update
+
+Market tone: Selective risk-on: indexes are near highs with AI and cloud still key drivers, but recent sessions show mixed tape and rotation, so short-horizon trades should focus on names with fresh, dated catalysts and clear risk parameters.
+Candidates: 3
+
+1. GOOGL (Communication Services / mega-cap-internet-cloud) | confidence 0.72 | allocation 8.0% | stop 8.0% | Chittick 78/100 | tier execution-ready | bucket mega-cap-internet-cloud | HF source 1/100
+Recommendation: execute-if-guards-pass
+Catalyst: Recent quarter: Google Cloud revenue surged ~63% year-over-year, surpassing $20B for the first time, with backlog nearly doubling to ~$462B, and investor optimism has been further fueled by the Gemini 3 AI model release and reported sate...
+Chittick Cash: Given Alphabet’s high profitability, strong cash position, and diversified revenue base, fundamental downside is cushioned, but the recent AI surge and Cloud surprise likely lifted valuation, modestly reducing near-te...
+HF filter: sentiment=constructive source=1/100 hype=0.32 vetoes=0
+Self-learning: tier=execution-ready repeat48h=1 fresh=yes bucket=mega-cap-internet-cloud
+Social buzz, low weight: General social/press commentary notes that Alphabet’s AI spending was rewarded while peers’ spending drew criticism, highlighting narrative strength but not an extreme meme-styl...
+Congress signal, low weight: none
+
+2. USAR (Materials / rare earths and strategic metals) | confidence 0.64 | allocation 3.0% | stop 10.0% | Chittick 71/100 | tier watch | bucket strategic-materials | HF source 1/100 | HF veto
+Recommendation: execute-if-guards-pass
+Catalyst: Recent events include Commerce issuing a non-binding LOI for up to $1.6B in funding to USAR under a federal initiative, an 8-K-style analysis noting the company unlocked $1.6B in Commerce funding by issuing the U.S. government shares and...
+Chittick Cash: Margin of safety is modest: while federal support and strategic importance reduce tail risk of abandonment, the company’s early-stage status, project concentration, and dilution risk mean fundamental downside is real...
+HF filter: sentiment=cautiously-positive source=1/100 hype=0.27 vetoes=2
+Self-learning: tier=watch repeat48h=1 fresh=yes bucket=strategic-materials
+Social buzz, low weight: No strong social-media hype spike is evident in the provided results; discussion is mainly through financial and policy channels rather than meme-style chatter.[5][12]
+Congress signal, low weight: none
+
+3. EMAT (Materials / strategic-metals-small-cap) | confidence 0.57 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier watch | bucket small-cap-strategic-metals | HF source 0/100
+Recommendation: watch
+Catalyst: On June 30, 2026, Litchfield Hills Research initiated coverage of EMAT with a Buy rating and a $12 price target, more than 70% above its ~$6.70 closing price on June 29, signaling fresh analyst attention and a valuation-based catalyst.[7]
+Chittick Cash: Margin of safety is low: valuation appeal is purely target-based from one analyst and not grounded in a broad, verified fundamental dataset in these results; only very small, experimental sizing would fit a margin-of-...
+HF filter: sentiment=neutral-positive source=0/100 hype=0.20 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=small-cap-strategic-metals
+Social buzz, low weight: none
+Congress signal, low weight: none
 

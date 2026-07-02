@@ -1703,4 +1703,9 @@ Premarket plan built from latest watchlist.
 - VRT: score=81, base=95, chittick=76, approved=True, allocation=8.0%, stop=8.0%
 - ARM: score=79, base=95, chittick=68, approved=False, allocation=0.0%, stop=0.0%
   rejects: Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
+## Two-Hour Research Agent - 2026-07-02 12:51:51 Eastern Daylight Time
+
+Selective risk-on: indexes are near highs with AI and cloud still key drivers, but recent sessions show mixed tape and rotation, so short-horizon trades should focus on names with fresh, dated catalysts and clear risk parameters.
+
+Candidates found: 3
 
