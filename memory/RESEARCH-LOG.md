@@ -1695,4 +1695,12 @@ Premarket plan built from latest watchlist.
 Risk-on bias persists with strong flows into AI-adjacent infrastructure and smaller names; volatility is event-sensitive around financing deals and disruptive tech headlines, favoring tightly risk-managed 1–10 day swings with clear catalysts.
 
 Candidates found: 3
+## Premarket Plan - 2026-07-02 08:25:02 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- NNBR: score=73, base=95, chittick=48, approved=True, allocation=5.0%, stop=8.0%
+- VRT: score=81, base=95, chittick=76, approved=True, allocation=8.0%, stop=8.0%
+- ARM: score=79, base=95, chittick=68, approved=False, allocation=0.0%, stop=0.0%
+  rejects: Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
 
