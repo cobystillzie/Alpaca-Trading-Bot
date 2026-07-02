@@ -36064,4 +36064,37 @@ HF filter: sentiment=neutral-positive source=0/100 hype=0.20 vetoes=0
 Self-learning: tier=watch repeat48h=0 fresh=yes bucket=small-cap-strategic-metals
 Social buzz, low weight: none
 Congress signal, low weight: none
+## Research Update - 2026-07-02 14:52:56 Eastern Daylight Time
+
+Research Update
+
+Market tone: AI and large-cap tech leadership is still driving index behavior, but recent volatility, narrow breadth, and rotation into non-tech catalysts (healthcare policy, defense/AI contracts) point to a cautious, event-driven tape. Short-horizon paper trades need tight risk controls around discrete news and earnings events.
+Candidates: 3
+
+1. PLTR (Software & IT Services / AI-defense) | confidence 0.71 | allocation 8.0% | stop 8.0% | Chittick 68/100 | tier execution-ready | bucket mid/large-cap-AI-defense | HF source 1/100
+Recommendation: execute-if-guards-pass
+Catalyst: Cluster of fresh, dated catalysts: (1) renewed focus on Palantir’s AI architecture partnership with Nvidia for secure, sovereign AI deployment,[2][12] (2) recent US military contract win reported around $178 million,[12] (3) DA Davidson...
+Chittick Cash: Business quality is high and contract visibility is improving,[2][12] but the stock trades at a demanding valuation with limited downside cushion if growth expectations are cut.[2] For a 1–7 day swing, the margin of s...
+HF filter: sentiment=constructive-but-valuation-sensitive source=1/100 hype=0.38 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=mid/large-cap-AI-defense
+Social buzz, low weight: PLTR is a heavily discussed AI name; recent social content emphasizes the Nvidia deal, US Army contract, and status as a top AI/defense stock.[11][13] This attention supports vo...
+Congress signal, low weight: Members of Congress have traded PLTR 10 times over the past 6 months (4 buys, 6 sells), with mixed sentiment and modest size.[8] This is treated only as a weak, delayed context...
+
+2. GNFT (Biopharmaceuticals / Healthcare diagnostics) | confidence 0.72 | allocation 7.0% | stop 8.0% | Chittick 74/100 | tier execution-ready | bucket healthcare-biopharma-policy | HF source 1/100
+Recommendation: execute-if-guards-pass
+Catalyst: Official company announcement on July 2, 2026 that U.S. Medicare will cover and reimburse NASHnext under the Clinical Laboratory Fee Schedule at approximately $252 per test, with reimbursement effective August 10, 2026 for eligible patie...
+Chittick Cash: From a Chittick lens, the margin of safety comes from policy-backed reimbursement and partnership with a major lab provider,[3][5] which increase revenue visibility. However, as a smaller biopharma, GNFT does not offe...
+HF filter: sentiment=positive-policy-catalyst source=1/100 hype=0.22 vetoes=0
+Self-learning: tier=execution-ready repeat48h=0 fresh=yes bucket=healthcare-biopharma-policy
+Social buzz, low weight: No notable hype-style social buzz is identified in the scanned results; attention is primarily driven by official company news rather than retail promotion.[3][5]
+Congress signal, low weight: None identified for GNFT in the scanned congressional-trade data.
+
+3. SMCI (Technology hardware / AI infrastructure) | confidence 0.63 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier monitor-only | bucket technology-hardware-monitor | HF source 1/100 | HF veto
+Recommendation: watch
+Catalyst: Recent negative momentum and news flow: coverage highlights a steep share-price decline (~41% over the last month) tied to concerns about financial quality, and separate reporting points to legal detentions in Taiwan linked to land procu...
+Chittick Cash: Given recent declines and questioned financial quality, margin of safety is currently poor; the stock may still be overvalued relative to normalized fundamentals if prior exuberance was excessive.
+HF filter: sentiment=cautious/negative source=1/100 hype=0.30 vetoes=2
+Self-learning: tier=monitor-only repeat48h=0 fresh=yes bucket=technology-hardware-monitor
+Social buzz, low weight: Attention has spiked around legal headlines and price drops, but this is treated purely as an event-volatility context, not a positive signal.[1]
+Congress signal, low weight: None highlighted for SMCI in the scanned congressional-trade data.
 
