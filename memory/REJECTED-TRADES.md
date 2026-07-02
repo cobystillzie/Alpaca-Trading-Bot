@@ -583,4 +583,14 @@ stale_catalyst
 HF memory filter flags similarity to prior rejected patterns.
 Confidence below 0.60.
 Target allocation must be between 1% and 15%.
+## Rejected VRT - 2026-07-02 09:55:02 Eastern Daylight Time
+
+Max open-position count would be exceeded.
+## Rejected ARM - 2026-07-02 09:55:02 Eastern Daylight Time
+
+Target allocation must be between 1% and 15%.
+Stop loss must be between 3% and 12%.
+## Rejected NNBR - 2026-07-02 09:55:02 Eastern Daylight Time
+
+Max open-position count would be exceeded.
 
