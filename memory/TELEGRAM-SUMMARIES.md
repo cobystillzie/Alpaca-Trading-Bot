@@ -36097,4 +36097,202 @@ HF filter: sentiment=cautious/negative source=1/100 hype=0.30 vetoes=2
 Self-learning: tier=monitor-only repeat48h=0 fresh=yes bucket=technology-hardware-monitor
 Social buzz, low weight: Attention has spiked around legal headlines and price drops, but this is treated purely as an event-volatility context, not a positive signal.[1]
 Congress signal, low weight: None highlighted for SMCI in the scanned congressional-trade data.
+## Performance Ledger - 2026-07-02 16:30:02 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-07-02 16:30:02 Eastern Daylight Time
+- Portfolio value: $100,266.26
+- P/L vs $100k baseline: $266.26
+- Full paper-account return: 0.266%
+- Managed-capital return: 2.66%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 4.75%
+- Latest position value: $5,866.26
+- Full-account cash reserve: 94.1%
+- Managed-capital cash reserve: 41.3%
+- Max snapshot drawdown: $328.28 from 2026-05-08 16:30:03 Eastern Daylight Time to 2026-06-09 12:40:01 Eastern Daylight Time
+
+Open Position Review
+- DT: winner, value $908.34, unrealized P/L $108.34, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 55 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: loser, value $459.06, unrealized P/L $-40.94, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 56 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: loser, value $772.10, unrealized P/L $-27.90, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 63 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- IBRX: winner, value $668.00, unrealized P/L $68.00, entry 2026-05-11 09:48:18 Eastern Daylight Time, thesis age 52 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: winner, value $539.83, unrealized P/L $39.83, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 51 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: loser, value $778.80, unrealized P/L $-21.20, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 62 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $816.65, unrealized P/L $16.65, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 57 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $923.48, unrealized P/L $123.48, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 65 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- GOOGL: appeared 41 times; open position P/L $-27.90.
+- INTC: appeared 40 times; market outcome unavailable until benchmark/candidate price history is captured.
+- SCHD: appeared 34 times; open position P/L $16.65.
+- SPMO: appeared 32 times; open position P/L $123.48.
+- NVDA: appeared 29 times; open position P/L $-21.20.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MSFT: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 11 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- UNP: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VALN: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Max open-position count would be exceeded.: 20
+  - Candidate references banned v1 instruments or leverage.: 19
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 11
+  - Low-weight social/congress signal needs at least two stronger sources.: 8
+  - Single-stock allocation would exceed 15%.: 7
+  - Target allocation must be between 1% and 15%.: 6
+  - A market-open order is already logged for today. No backup order was placed.: 5
+  - Candidate is monitor-only and cannot be traded. Confidence below 0.60. Target allocation must be between 1% and 15%. Stop loss must be between 3% and 12%.: 5
+- By symbol:
+  - GOOGL: 12
+  - INTC: 5
+  - INTU: 5
+  - AGI: 3
+  - BAH: 3
+  - KO: 3
+  - PLTR: 3
+  - TMXX.F: 3
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 2
+- congressional: 1
+- unknown: 9
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold met: 8 trades over 65 days.
+- Strategy tuning may be reviewed, but safety guardrails still apply.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## End Of Day Memo - 2026-07-02 16:30:02 Eastern Daylight Time
+
+End Of Day Analyst Memo
+
+Recommendation: Carry forward only evidence-backed candidates; review stops before the next market-open run.
+
+Market Regime
+End-of-day review of paper portfolio, trade quality, risk notes, and next-day watchlist.
+
+Portfolio
+Portfolio value: 100266.26 Cash: 94400 Buying power: 394025.54 Positions: - DT: qty=20.289119959, market_value=908.343901, unrealized_pl=108.343901 - GLRE: qty=28.042624789, market_value=459.057768, unrealized_pl=-40.942232 - GOOGL: qty=2.151289429, market_value=772.097776, unrealized_pl=-27.902224 - IBRX: qty=70.838252656, market_value=668.004723, unrealized_pl=68.004723 - LNC: qty=14.590020426, market_value=539.830756, unrealized_pl=39.830756 - NVDA: qty=4.00060009, market_value=778.79682, unrealized_pl=-21.20318 - SCHD: qty=25.2286345, market_value=816.650899, unrealized_pl=16.650899 - SPMO: qty=6.119014838, market_value=923.481719, unrealized_pl=123.481719 Performance: value $100,266.26, P/L vs $100k $266.26, managed return 2.66%, deployed return 4.75%, managed cash reserve 41.3%.
+
+Top Candidates
+
+1. PLTR (Software & IT Services / AI-defense) | confidence 0.71 | allocation 8.0% | stop 8.0% | Chittick 68/100 | tier execution-ready | bucket mid/large-cap-AI-defense | HF source 1/100
+Thesis: Palantir is an AI-focused software and data analytics platform with growing government and commercial demand; shares have recently rebounded sharply on a high-profile Nvidia AI partnership, fresh government contract news, and multiple analyst upgrades, creating a 1–7 day window where fundamental catalysts and momentum align for a controlled paper swing.
+Catalyst: Cluster of fresh, dated catalysts: (1) renewed focus on Palantir’s AI architecture partnership with Nvidia for secure, sovereign AI deployment,[2][12] (2) recent US military contract win reported around $178 million,[12] (3) DA Davidson upgrade to Buy with a higher price target and commentary on...
+Entry: Paper plan: consider a staged entry near recent consolidation levels after the latest upgrade-driven spike, ideally on a modest intraday pullback (e.g., 2–4% below the immediate post-news high) to reduce chasing risk. Avoid entering immediately ahead of ear...
+Exit: Target a 10–18% upside over 3–7 trading days, taking partial profits (~50%) if the position reaches ~10–12% gain and trailing the remainder with a tight stop under the most recent higher low. Invalidation if price closes below the defined stop (see stop_los...
+Risk/reward: Upside is driven by strong, clustered AI/defense catalysts and recent analyst upgrades, while downside stems from valuation compression and headline volatility. With an ~8% stop and a 12–16% profit objective, the paper setup approximates a 1.5–2:1 reward-to...
+Bear/adversary: A disciplined adversary would argue that PLTR’s valuation leaves little margin of safety,[2] that recent moves are partially driven by hype and crowded AI enthusiasm (including social buzz and congressional discourse),[11][13] and that upgrades can be lagging indicators after big runs. They would...
+Source quality: Evidence is primarily from reputable financial news and data outlets (Finance Yahoo, TradingKey, MarketBeat, analyst commentary) and direct media coverage of the Nvidia partnership and military contracts.[2][4][10][12] Congressional trading and social buzz...
+Chittick Cash Filter
+Score: 68/100
+Margin of safety: Business quality is high and contract visibility is improving,[2][12] but the stock trades at a demanding valuation with limited downside cushion if growth expectations are cut.[2] For a 1–7 day swing, the margin of safety lens focuses m...
+Valuation: Recent commentary frames PLTR as a "high-quality growth company trading at a demanding valuation,"[2] with large upside implied by analyst targets but also substantial expectations. Upgrades and target hikes suggest analysts see current...
+Growth runway: 30–180 day and longer-term drivers include: expanded AI deployments with Nvidia in sovereign and secure environments,[2][12] continued government and defense contracts (e.g., US Army deal),[12] broadening commercial adoption of data plat...
+Balance-sheet risk: No red-flag leverage structures are highlighted in the scanned sources; PLTR is not presented as heavily indebted or structurally fragile. Key risks are more about valuation, contract concentration, and geopolitical e...
+Capital allocation: Management has been aggressive in pursuing AI and defense growth via partnerships (e.g., Nvidia) and government contracts,[2][12] which supports the growth narrative. However, prior insider selling and mixed market re...
+Concentration case: PLTR is a single-name, high-beta AI-defense play that offers more focused exposure than broad tech ETFs; it may deserve a mid-single-digit allocation for short-horizon experimentation when guarded by strict risk rules. Given demanding va...
+Owner thesis, 30-180 days: An owner-style 30–180 day thesis would require evidence that recent contracts and the Nvidia partnership are driving sustained revenue and margin expansion, plus clearer visibility into cash generation and capital discipline. Confirmation via upcoming earni...
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: news/earnings-adjacent/momentum
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: mid/large-cap-AI-defense
+Research tier: execution-ready
+Allocation learning: Keep allocation mid-range rather than max-size due to demanding valuation and hype risk; treat as a testbed for catalyst-swing behavior while preserving capital discipline.
+Hugging Face Filter
+Sentiment: constructive-but-valuation-sensitive (0.76), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.38
+Evidence rank: 1/100
+Memory similarity: 0.25
+Vetoes: none
+Model notes: Name selected despite social buzz and congressional chatter because of multiple fresh, fundamental catalysts (Nvidia partnership, government contract, analyst upgrades) and strong short-term momentum; treated strictly as a swing, not a core quality hold.
+Social buzz, max 10%: PLTR is a heavily discussed AI name; recent social content emphasizes the Nvidia deal, US Army contract, and status as a top AI/defense stock.[11][13] This attention supports volume and volatility but is explicitly ca...
+Congress signal, max 5%: Members of Congress have traded PLTR 10 times over the past 6 months (4 buys, 6 sells), with mixed sentiment and modest size.[8] This is treated only as a weak, delayed context signal, not a catalyst.
+Sources: https://finance.yahoo.com/quote/PLTR/news/, https://www.ebc.com/forex/palantir-stock-nvidia-ai-deal-selloff-over, https://www.tradingkey.com/news/market-movers/262007417-market-movers-pltr-20260702, https://www.marketbeat.com/instant-alerts/palantir-technologies-nasdaqpltr-trading-78-higher-whats-next-2026-07-01/
+
+2. GNFT (Biopharmaceuticals / Healthcare diagnostics) | confidence 0.72 | allocation 7.0% | stop 8.0% | Chittick 74/100 | tier execution-ready | bucket healthcare-biopharma-policy | HF source 1/100
+Thesis: GENFIT, a biopharmaceutical company focused on liver diseases, just secured U.S. Medicare coverage and future reimbursement for NASHnext, a non-invasive blood-based diagnostic test for at-risk MASH patients, creating a clear, policy-backed revenue catalyst that can drive a short-term repricing while also supporting a longer-run quality and growth narrative.
+Catalyst: Official company announcement on July 2, 2026 that U.S. Medicare will cover and reimburse NASHnext under the Clinical Laboratory Fee Schedule at approximately $252 per test, with reimbursement effective August 10, 2026 for eligible patients.[3][5] This policy milestone materially improves visibil...
+Entry: Aim to enter after observing the first 1–2 sessions of trading reaction to the Medicare news, avoiding the most extreme initial spike. Prefer entry on a controlled pullback that holds above the pre-announcement base, with confirmation that volume remains el...
+Exit: Seek a 12–20% upside over 4–8 trading days as the market prices in the new reimbursement visibility, trimming if the stock becomes extended (e.g., parabolic moves on very high volume) and exiting fully if price falls back through the pre-news base or shows...
+Risk/reward: Reward potential is significant if investors re-rate GNFT on large-scale U.S. adoption and follow-on private coverage;[3][5] downside risk is comparatively smaller if the move is primarily sentiment-driven rather than fundamental. With an ~8% stop and a 14–...
+Bear/adversary: A skeptical view would emphasize that diagnostics volumes and revenue timing remain uncertain; coverage does not guarantee immediate high uptake. Biopharma and diagnostics can be crowded trades after such announcements, and without detailed valuation work, it is unclear whether the stock already...
+Source quality: Catalyst information comes directly from GENFIT’s official press release and detailed news coverage, including reimbursement terms, effective dates, and clinical context,[3][5] which is high-quality, primary-source data for the event. Market reaction data a...
+Chittick Cash Filter
+Score: 74/100
+Margin of safety: From a Chittick lens, the margin of safety comes from policy-backed reimbursement and partnership with a major lab provider,[3][5] which increase revenue visibility. However, as a smaller biopharma, GNFT does not offer the same balance-s...
+Valuation: The release highlights revenue potential via $252 per test reimbursement and large eligible patient populations,[3][5] but does not provide explicit valuation metrics. The trade idea is based on relative mispricing around a new catalyst,...
+Growth runway: 30–180 day drivers include rollout of NASHnext across Medicare-covered populations and potential expansion to private insurers, plus broader adoption in obesity, diabetes, and dyslipidemia cohorts.[3][5] Longer term, GENFIT’s pipeline in...
+Balance-sheet risk: The press release does not highlight acute balance-sheet stress; as with many biopharma names, funding and dilution risk must be monitored via filings. Policy-backed revenue helps, but GNFT is not yet in the same bala...
+Capital allocation: Securing Medicare reimbursement and partnering with Labcorp indicate disciplined focus on monetizing proprietary diagnostics technology.[3][5] Nonetheless, biopharma capital allocation (R&D spend, potential future rai...
+Concentration case: GNFT offers exposure to a very different risk/return profile than AI or industrial names, making it a useful small-slice diversifier rather than a core holding. Concentrating too much in a single small biopharma would be imprudent; a mod...
+Owner thesis, 30-180 days: An owner-style 30–180 day thesis would hinge on evidence that NASHnext is gaining traction in actual test volumes, that private insurers follow Medicare’s lead, and that additional pipeline assets progress. Monitoring quarterly updates on diagnostics revenu...
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: filing/news/policy
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: healthcare-biopharma-policy
+Research tier: execution-ready
+Allocation learning: Size conservatively given biopharma volatility and incomplete valuation data; use the position to test how the workflow handles clear policy catalysts versus tech upgrades.
+Hugging Face Filter
+Sentiment: positive-policy-catalyst (0.73), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.22
+Evidence rank: 1/100
+Memory similarity: 0.10
+Vetoes: none
+Model notes: Selected for diversification and clear, dated policy catalyst; treated as a controlled-size healthcare swing rather than a core long-term hold.
+Social buzz, max 10%: No notable hype-style social buzz is identified in the scanned results; attention is primarily driven by official company news rather than retail promotion.[3][5]
+Congress signal, max 5%: None identified for GNFT in the scanned congressional-trade data.
+Sources: https://www.globenewswire.com/news-release/2026/07/02/3321475/0/en/genfit-announces-u-s-medicare-coverage-and-future-reimbursement-for-nashnext-a-non-invasive-diagnostic-technology-to-identify-patients-with-at-risk-mash.html, https://www.marketscreener.com/news/genfit-announces-coverage-and-future-reimbursement-for-a-product-in-the-united-states-ce7f5fd3da8cf221
+
+3. SMCI (Technology hardware / AI infrastructure) | confidence 0.63 | allocation 0.0% | stop 8.0% | Chittick 35/100 | tier monitor-only | bucket technology-hardware-monitor | HF source 1/100 | HF veto
+Thesis: Super Micro Computer is a key hardware supplier for AI and data center infrastructure, but its shares have dropped sharply (~41% over the past month) amid concerns about weak financials and legal headlines, making it unsuitable for immediate execution yet still worth monitoring as an AI-infrastructure bellwether and a potential future value/turnaround can...
+Catalyst: Recent negative momentum and news flow: coverage highlights a steep share-price decline (~41% over the last month) tied to concerns about financial quality, and separate reporting points to legal detentions in Taiwan linked to land procurement for a planned SMCI facility, contributing to intraday...
+Entry: No entry; monitor-only. Track for stabilization, fresh positive catalysts (earnings beats, cleared legal issues, new contracts), and improved financial disclosures before reconsidering.
+Exit: Not applicable for monitor-only; if previously held in paper, consider using any oversold bounce to reduce exposure pending clearer information.
+Risk/reward: At present, downside risk from ongoing negative catalysts outweighs uncertain rebound reward; risk/reward is unattractive without a new, high-quality positive catalyst.
+Bear/adversary: A more aggressive trader might argue that a 41% decline creates an oversold opportunity in a structurally important AI name, but without fresh supportive catalysts or clear chart confirmation, such a trade would clash with the current rules around evidence-based iteration and margin of safety.
+Source quality: Information is primarily from financial-news coverage summarizing price performance and concerns about financials and legal events.[1] Evidence is adequate for a risk flag but not for detailed fundamental underwriting.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Given recent declines and questioned financial quality, margin of safety is currently poor; the stock may still be overvalued relative to normalized fundamentals if prior exuberance was excessive.
+Valuation: The sharp drop suggests prior valuation was stretched; without updated, detailed valuation work and clearer financial trends, it is unclear whether current levels represent genuine value or just a partial de-rating.
+Growth runway: Structurally, AI server and data center build-outs offer long-term growth runway, but SMCI’s ability to capture that runway profitably is under scrutiny in the near term.
+Balance-sheet risk: Legal and operational risks related to facility development, combined with questions about financial quality,[1] raise concerns about downside scenarios; detailed balance-sheet analysis would require filings.
+Capital allocation: Facility expansion and aggressive growth plans suggest ambitious capital allocation, but legal complications hint at execution risk and potential missteps.
+Concentration case: Given current uncertainty, concentrating capital here would be inconsistent with the quality and margin-of-safety disciplines; monitoring is preferable to allocation.
+Owner thesis, 30-180 days: An owner-style thesis would require evidence that legal issues are resolved, financial quality improves, and AI server demand continues to translate into sustainable, high-ROIC growth.
+Chittick reject reason: Near-term fundamental and legal risks, combined with negative momentum and lack of fresh positive catalysts, make this unsuitable for execution under the current rules.
+Self-Learning Filter
+Catalyst type: general/news (negative)
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: technology-hardware-monitor
+Research tier: monitor-only
+Allocation learning: Helps the system learn to differentiate between AI winners and structurally risky names, reinforcing that not all AI exposure is suitable for short-horizon trades.
+Hugging Face Filter
+Sentiment: cautious/negative (0.38), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.30
+Evidence rank: 1/100
+Memory similarity: 0.05
+Vetoes: no_fresh_positive_catalyst; momentum_downside
+Model notes: Used as a monitor-only AI hardware name to diversify watchlist and highlight downside risks relative to AI software winners.
+Social buzz, max 10%: Attention has spiked around legal headlines and price drops, but this is treated purely as an event-volatility context, not a positive signal.[1]
+Congress signal, max 5%: None highlighted for SMCI in the scanned congressional-trade data.
+Sources: https://finance.yahoo.com/quote/SMCI/news/
 
