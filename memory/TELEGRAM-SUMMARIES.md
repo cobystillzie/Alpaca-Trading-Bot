@@ -36295,4 +36295,46 @@ Model notes: Used as a monitor-only AI hardware name to diversify watchlist and 
 Social buzz, max 10%: Attention has spiked around legal headlines and price drops, but this is treated purely as an event-volatility context, not a positive signal.[1]
 Congress signal, max 5%: None highlighted for SMCI in the scanned congressional-trade data.
 Sources: https://finance.yahoo.com/quote/SMCI/news/
+## Research Update - 2026-07-03 07:51:59 Eastern Daylight Time
+
+Research Update
+
+Market tone: Risk appetite appears mixed-to-risk-on, with strong interest in AI infrastructure and select momentum names, but the tape remains vulnerable to sharp reversals when stories are valuation-driven rather than catalyst-backed. The best setups should combine a dated catalyst, clean trend confirmation, and durable business quality rather than repeating stale mega-cap themes.
+Candidates: 4
+
+1. META (communication services / mega-cap platform) | confidence 0.76 | allocation 6.0% | stop 7.0% | Chittick 70/100 | tier execute-if-guards-pass | bucket mega-cap-platform-ai | HF source 1/100
+Recommendation: execute-if-guards-pass
+Catalyst: A July 1 Bloomberg-reported plan to develop a cloud infrastructure business for AI computing power and hosted AI models triggered an 8.81% single-day move on 159% of average volume, making this a fresh dated catalyst.[1]
+Chittick Cash: Not a classic margin-of-safety setup; the case depends on quality plus a fresh catalyst rather than a cheap absolute valuation.
+HF filter: sentiment=positive-catalyst-reprice source=1/100 hype=0.28 vetoes=0
+Self-learning: tier=execute-if-guards-pass repeat48h=0 fresh=yes bucket=mega-cap-platform-ai
+Social buzz, low weight: moderate attention around the AI/cloud story, but treated as secondary only.
+Congress signal, low weight: none
+
+2. SMCI (semiconductors / AI infrastructure hardware) | confidence 0.62 | allocation 0.0% | stop 0.0% | Chittick 44/100 | tier watch | bucket semiconductors-hardware | HF source 1/100
+Recommendation: watch
+Catalyst: Recent coverage highlights a sharp selloff and new negative headlines, including an 8% drop tied to Taiwan raid reports and additional articles framing the name as extremely weak, which can create a short-term contrarian setup if the sto...
+Chittick Cash: Margin of safety is poor until the stock proves it can absorb the negative headlines and hold support.
+HF filter: sentiment=high-volatility-negative source=1/100 hype=0.56 vetoes=0
+Self-learning: tier=watch repeat48h=1 fresh=yes bucket=semiconductors-hardware
+Social buzz, low weight: high attention, but mostly negative sentiment and volatility-driven discussion.
+Congress signal, low weight: none
+
+3. GE (industrials) | confidence 0.55 | allocation 0.0% | stop 0.0% | Chittick 54/100 | tier watch | bucket industrials | HF source 1/100
+Recommendation: watch
+Catalyst: Quiver Quant summary pages note recent congressional trading activity in GE, including 8 trades in the past 6 months with 5 purchases, which is a weak but fresh secondary attention signal.[6][12]
+Chittick Cash: Moderate quality can offer a better downside profile than hype names, but only if the entry is technically disciplined.
+HF filter: sentiment=neutral_quality_watch source=1/100 hype=0.12 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=industrials
+Social buzz, low weight: none
+Congress signal, low weight: weak congressional-trading attention only; not actionable by itself.
+
+4. C (financials) | confidence 0.53 | allocation 0.0% | stop 0.0% | Chittick 52/100 | tier watch | bucket financials | HF source 1/100
+Recommendation: watch
+Catalyst: Quiver Quant summary pages indicate recent congressional trading activity in C, with 9 trades and all purchases in the past 6 months, but this is only weak secondary context.[6][12]
+Chittick Cash: No clear margin-of-safety case is established from the available sources alone.
+HF filter: sentiment=neutral_watch source=1/100 hype=0.10 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=no bucket=financials
+Social buzz, low weight: none
+Congress signal, low weight: weak congressional-trading attention only; not actionable by itself.
 

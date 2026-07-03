@@ -20245,4 +20245,403 @@ SEC/company quality check:
     "https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_e2496b4f-11da-418e-83d8-ab65961798b9/45ab57fb-ef61-4b51-9dd3-017cec5d309b/Alphabet-2024-10-K.pdf"
   ]
 }
+## Source And Signal Research - 2026-07-03 07:51:59 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+{
+  "summary": [
+    {
+      "ticker": "PURR",
+      "instrument_type": "ETF",
+      "signal_strength": "moderate",
+      "reason": "Elevated attention due to gamma-squeeze speculation and index inclusion buzz; price down 14.6%, suggesting unwind or volatility rather than fundamental catalyst.[1]",
+      "risk_flags": [
+        "hype_language",
+        "options_gamma_squeeze_speculation",
+        "index_inclusion_buzz_without_clear fundamentals"
+      ]
+    },
+    {
+      "ticker": "PLUG",
+      "instrument_type": "stock",
+      "signal_strength": "moderate",
+      "reason": "Appears in 'most buzzing stocks to buy right now' lists; recent catalyst is federal investment tax credit monetization, but framing is promotional.[4]",
+      "risk_flags": [
+        "buzz_list_investing_article",
+        "promotional_tone",
+        "potential_overemphasis_on_single_catalyst"
+      ]
+    },
+    {
+      "ticker": "SMCI",
+      "instrument_type": "stock",
+      "signal_strength": "moderate",
+      "reason": "Featured as 'one of the most buzzing stocks to buy right now' with focus on AI servers; strong fundamental AI theme but attention clearly elevated.[10]",
+      "risk_flags": [
+        "buzz_list_investing_article",
+        "AI_hype_tone",
+        "possible_momentum_chasing"
+      ]
+    },
+    {
+      "ticker": "OLN",
+      "instrument_type": "stock",
+      "signal_strength": "low",
+      "reason": "Mentioned within 'Most Buzzing Stocks to Buy Right Now' context; description is fundamental, but inclusion in buzz list indicates mild attention anomaly.[7]",
+      "risk_flags": [
+        "buzz_list_investing_article"
+      ]
+    }
+  ],
+  "social_buzz": [
+    {
+      "ticker": "PURR",
+      "sources": [
+        "Yahoo Finance news headline and article text referencing gamma squeeze speculation and index inclusion buzz.[1]"
+      ],
+      "tone": "speculative and volatility-focused; language suggests trading-driven moves rather than long-term fundamentals.",
+      "example_phrasing": [
+        "“Gamma Squeeze Speculation”[1]",
+        "“Index Inclusion Buzz”[1]"
+      ],
+      "buzz_category": "options/flow-driven ETF attention",
+      "supporting_data": {
+        "recent_move": "Down approximately 14.6% in the referenced period.[1]",
+        "driver": "Speculation about options-related gamma dynamics and potential index inclusion; not framed as earnings or cash-flow driven.[1]"
+      }
+    },
+    {
+      "ticker": "PLUG",
+      "sources": [
+        "Yahoo Finance article describing Plug Power as “one of the most buzzing stocks to buy right now.”[4]"
+      ],
+      "tone": "promotional and momentum-oriented; emphasizes 'buzz' and 'stocks to buy' framing.",
+      "example_phrasing": [
+        "“10 Most Buzzing Stocks to Buy Right Now”[4]",
+        "“Plug Power Inc. … is one of the most buzzing stocks to buy right now.”[4]"
+      ],
+      "buzz_category": "retail/investing-media buzz around clean energy and tax-credit news",
+      "supporting_data": {
+        "recent_catalyst": "Sale/monetization of federal investment tax credits announced June 2.[4]",
+        "context": "Article positions PLUG within a curated list of 'buzzing' names, which often correlates with elevated social/investing attention.[4]"
+      }
+    },
+    {
+      "ticker": "SMCI",
+      "sources": [
+        "Yahoo Finance technology/investing article highlighting Super Micro Computer as “one of the most buzzing stocks to buy right now” and focusing on AI server exposure.[10]"
+      ],
+      "tone": "strong AI-themes, growth-oriented, and momentum supportive.",
+      "example_phrasing": [
+        "“Super Micro Computer Inc. … is one of the most buzzing stocks to buy right now.”[10]",
+        "References to “liquid- and air-cooled AI servers; SuperStorage” as an AI hardware play.[10]"
+      ],
+      "buzz_category": "AI/infrastructure momentum stock with heavy media/investor attention",
+      "supporting_data": {
+        "theme": "Positioned as a key supplier of AI server and storage infrastructure.[10]",
+        "attention_driver": "AI build-out narrative, frequent mention in 'buzzing stocks' content and technology coverage.[10]"
+      }
+    },
+    {
+      "ticker": "OLN",
+      "sources": [
+        "Yahoo Finance profile and mention within 'Most Buzzing Stocks to Buy Right Now' context.[7]"
+      ],
+      "tone": "mixed; fundamental description of chemical and epoxy resin business with mild buzz framing from list inclusion.",
+      "example_phrasing": [
+        "“Most Buzzing Stocks to Buy Right Now.”[7]"
+      ],
+      "buzz_category": "secondary inclusion in buzz-oriented stock list",
+      "supporting_data": {
+        "business": "Manufactures and distributes chemical products, including liquid and solid epoxy resins.[7]",
+        "attention_driver": "Inclusion within a 'buzzing stocks' article despite relatively traditional industrial profile.[7]"
+      }
+    }
+  ],
+  "attention_anomalies": [
+    {
+      "ticker": "PURR",
+      "type": "options/speculation-driven anomaly",
+      "description": "Unusual focus on gamma squeeze mechanics and index inclusion chatter for an ETF, combined with a sharp negative price move.[1]",
+      "evidence": [
+        "Headline explicitly links recent 14.6% drop to “Gamma Squeeze Speculation and Index Inclusion Buzz.”[1]"
+      ],
+      "fundamental_anchor": "Not clearly discussed in the source; attention appears primarily flow/derivative-driven rather than earnings, assets, or long-term fundamentals.[1]",
+      "risk_assessment": {
+        "hype_pump_risk": "elevated",
+        "unsupported_claims_or_exaggeration": "speculative framing around gamma squeeze without detailed quantitative backing in the article.[1]"
+      }
+    },
+    {
+      "ticker": "PLUG",
+      "type": "media/list-driven buzz anomaly",
+      "description": "Placement in '10 Most Buzzing Stocks to Buy Right Now' suggests attention above typical levels, tied to a single tax-credit event.[4]",
+      "evidence": [
+        "Described as “one of the most buzzing stocks to buy right now.”[4]",
+        "Focus on federal investment tax credit monetization as key short-term catalyst.[4]"
+      ],
+      "fundamental_anchor": "Tax-credit sale is a real, fundamental cash-flow/capital-structure event, but article presentation leans heavily into buzz/momentum framing.[4]",
+      "risk_assessment": {
+        "hype_pump_risk": "moderate",
+        "unsupported_claims_or_exaggeration": "language such as 'most buzzing stocks to buy right now' is promotional and not equivalent to rigorous fundamental analysis.[4]"
+      }
+    },
+    {
+      "ticker": "SMCI",
+      "type": "AI-theme momentum anomaly",
+      "description": "Recurring characterization as a 'buzzing' AI server stock, likely attracting momentum and retail/institutional growth interest.[10]",
+      "evidence": [
+        "Called “one of the most buzzing stocks to buy right now” in context of AI infrastructure.[10]",
+        "Emphasis on liquid- and air-cooled AI servers and storage solutions as key AI hardware exposure.[10]"
+      ],
+      "fundamental_anchor": "Underlying business (AI servers/storage) has clear structural demand tailwind, but buzz framing increases risk of sentiment overshoot relative to fundamentals.[10]",
+      "risk_assessment": {
+        "hype_pump_risk": "moderate_to_high in short term",
+        "unsupported_claims_or_exaggeration": "Buzz framing may overstate 'must-buy' nature; specific valuation and risk factors are not fully detailed in snippet.[10]"
+      }
+    },
+    {
+      "ticker": "OLN",
+      "type": "list-inclusion anomaly",
+      "description": "Industrial/chemical stock pulled into a 'Most Buzzing Stocks' narrative despite business being relatively steady and asset-based.[7]",
+      "evidence": [
+        "Mentioned in context of 'Most Buzzing Stocks to Buy Right Now.'[7]"
+      ],
+      "fundamental_anchor": "Core business in chemicals and epoxy resins is grounded in industrial demand; anomaly is more about list-driven attention than classic social-media hype.[7]",
+      "risk_assessment": {
+        "hype_pump_risk": "low_to_moderate",
+        "unsupported_claims_or_exaggeration": "Buzz-list framing could attract short-term speculative interest without proportional change in fundamentals.[7]"
+      }
+    }
+  ],
+  "source_urls": [
+    {
+      "ticker": "PURR",
+      "urls": [
+        "https://finance.yahoo.com/quote/PURR/news/"
+      ],
+      "notes": "Primary description of gamma squeeze speculation and index inclusion buzz with associated price action.[1]"
+    },
+    {
+      "ticker": "PLUG",
+      "urls": [
+        "https://finance.yahoo.com/markets/stocks/articles/plug-power-plug-10-most-173338986.html"
+      ],
+      "notes": "Article listing Plug Power among '10 Most Buzzing Stocks to Buy Right Now' and referencing federal investment tax credit monetization.[4]"
+    },
+    {
+      "ticker": "SMCI",
+      "urls": [
+        "https://finance.yahoo.com/technology/articles/stormagic-supermicro-smci-partner-deliver-173304964.html"
+      ],
+      "notes": "Technology/investing article calling Super Micro Computer one of the most buzzing stocks to buy right now, focused on AI servers.[10]"
+    },
+    {
+      "ticker": "OLN",
+      "urls": [
+        "https://finance.yahoo.com/quote/OLN/"
+      ],
+      "notes": "Profile and contextual mention in 'Most Buzzing Stocks to Buy Right Now' coverage.[7]"
+    }
+  ]
+}
+
+Congressional disclosures, max 5% influence:
+{"summary":"Public congressional disclosure mentions in the provided results are mostly indirect and not enough, by themselves, to establish a strong short-term catalyst for liquid US stocks or ETFs. The clearest congressional-signal items in the scan are for GE and C, where Quiver Quant notes recent congressional trading activity, but the results do not provide a fresh, detailed filing list in this dataset.[6][12]","congressional_signal":"Low-weight, delayed, secondary context only. The scan surfaced congressional-trading mentions for GE (8 trades in the past 6 months, 5 purchases) and C (9 trades, all purchases), plus MTX (1 trade, a sale), but the available results are summary pages rather than primary filing detail, so they should be treated as weak monitoring signals rather than actionable catalysts.[6][12][2]","tickers":["GE","C","MTX"],"source_urls":["https://www.quiverquant.com/news/General+Electric+Stock+(GE)+Opinions+on+Analyst+Upgrades+and+Bullish+Charts","https://www.quiverquant.com/news/Citigroup+Stock+(C)+Opinions+on+Analyst+Downgrades+and+Performance","https://www.quiverquant.com/news/Minerals+Technologies+Inc.+to+Report+Second+Quarter+2026+Results+on+July+30,+2026"]}
+
+SEC/company quality check:
+{
+  "summary": {
+    "notes": [
+      "Watchlist only; prior filters flag repeat-decay, stale catalysts, low confidence (<0.60), monitor-only, and allocation/stop-loss constraints for GOOGL/GOOG, INTC, USAR, and GT.",
+      "Across the four names, balance-sheet strength and demand durability are generally highest for **Alphabet (GOOGL/GOOG)**, mixed and cyclical for **Intel (INTC)** and **Goodyear (GT)**, and thin/uncertain for **USAR** (USA Rare Earth or similar micro/specialty issuer).",
+      "Key risks to track: for Alphabet, regulatory/antitrust, AI capex intensity, and concentration in digital advertising; for Intel, capital intensity, process execution, and cyclical PC/server demand; for GT, leverage, cyclical auto/tire demand, and litigation/legacy liabilities; for USAR, financing/dilution, project execution, and concentration in unproven or early-stage assets."
+    ]
+  },
+  "filing_risks": {
+    "GOOGL_GOOG": {
+      "balance_sheet": [
+        "Alphabet’s 2025 Form 10‑K shows substantial cash, marketable securities, and minimal net debt, providing a strong liquidity buffer and flexibility to fund R&D, AI infrastructure, and shareholder returns.[5][8][9]",
+        "Management highlights exposure to market risk in its investment portfolio (interest rate and credit risk on fixed‑income securities), but these are managed within conservative guidelines.[5][8]"
+      ],
+      "concentration": [
+        "Alphabet discloses that a substantial majority of revenue is generated from Google services, especially **Google Search & other**, YouTube ads, and Google Network advertising.[5][8][9]",
+        "The company notes that dependence on digital advertising means macroeconomic slowdowns or shifts in advertiser behavior can materially affect results, especially in Search and YouTube.[5][8]",
+        "Traffic acquisition costs (TAC) paid to distribution partners (e.g., device makers, browser partners) represent a large cost linked to Search revenue concentration, creating counterparty and renegotiation risk.[5][8]"
+      ],
+      "litigation_regulatory": [
+        "The 10‑K includes extensive risk-factor disclosure around **antitrust, competition, and regulatory investigations** in the U.S. and EU, covering search, advertising, app stores, and digital content.[5][8][9]",
+        "Alphabet notes multiple ongoing regulatory actions and litigation related to privacy, data protection (including GDPR), and content moderation, any of which could result in fines, business practice changes, or structural remedies.[5][8]",
+        "The filing references Section 13(r) disclosures tied to Google LLC’s notifications to Russian authorities concerning encryption controls, illustrating geopolitical and sanctions-related compliance risk.[9]"
+      ],
+      "dilution_capital_structure": [
+        "Alphabet uses significant **stock-based compensation**, particularly for technical talent and executives, and explicitly discloses potential dilution from equity awards and employee stock plans in the 10‑K.[5][8]",
+        "The Board has authorized substantial share repurchase programs; while these offset dilution and return capital, they also influence capital allocation flexibility vis‑à‑vis large AI/data-center capex projects.[5][8][9]"
+      ],
+      "revenue_quality": [
+        "Google Services revenue (Search, YouTube, Network) is largely recurring and transaction‑driven, based on ongoing advertiser budgets rather than one‑off contracts, and has historically shown resilience across cycles, though with sensitivity to macro and ad spending cycles.[5][6][8][10]",
+        "Google Cloud revenue is derived from infrastructure (IaaS), platform (PaaS), and productivity/enterprise software, typically under multi‑year or recurring contracts, improving visibility and diversification away from pure advertising.[5][6][8][10]",
+        "Alphabet explicitly notes that shifts from manual to automated bidding, AI‑driven ad products, and privacy changes (including restrictions on third‑party cookies) could change monetization dynamics and measurement, affecting revenue quality and growth.[5][8]"
+      ],
+      "capital_allocation": [
+        "The 10‑K explains Alphabet’s capital allocation across **R&D**, particularly in AI, cloud, hardware, and other bets, alongside large capex for data centers, servers, and network infrastructure.[5][6][8][10]",
+        "Alphabet maintains a substantial share repurchase program while not paying a regular cash dividend, emphasizing buybacks and internal investment over income distribution.[5][8][9]",
+        "Management highlights ongoing review of the portfolio of Other Bets (Waymo, Verily, etc.), where capital allocation discipline is critical given limited near‑term profitability.[5][8]"
+      ],
+      "valuation_risks": [
+        "Risk factors caution that Alphabet’s stock price is volatile and may not reflect fundamentals due to market sentiment, regulatory headlines, and AI competitive narratives.[5][8]",
+        "The company notes that high expectations for growth in AI and cloud, coupled with substantial capex and R&D, increase the risk that returns on invested capital may fall short of market-implied valuations.[5][8]"
+      ],
+      "durable_demand_evidence": [
+        "Alphabet’s filings emphasize sustained global use of **Search**, YouTube, Android, Chrome, and Google Workspace, reflecting entrenched user habits and ecosystem lock‑in.[5][6][8][10]",
+        "The company highlights secular trends in digital advertising, cloud adoption, and AI tools across consumer and enterprise markets as long-term growth drivers.[5][6][8][10]",
+        "Recurring and usage-based cloud contracts, plus continued growth in YouTube subscriptions and Play ecosystem revenues, further support multi‑year demand durability beyond cyclical ad budgets.[5][6][8][10]"
+      ]
+    },
+    "INTC": {
+      "balance_sheet": [
+        "Intel’s recent Form 10‑K (2025) describes a capital-intensive business with significant property, plant, and equipment tied to fabs and manufacturing capacity, funded by a mix of operating cash flow, debt, and government incentives.[2]",
+        "The filing notes material long‑term debt and lease obligations, though offset by cash and short‑term investments; leverage is manageable but rising capital requirements for leading-edge process nodes elevate balance-sheet risk.[2]"
+      ],
+      "concentration": [
+        "Intel discloses high revenue concentration in **client computing (PC CPUs)** and data center/networking products, with significant exposure to large OEM and cloud customers.[2]",
+        "The company emphasizes competitive and technological dependence on successful execution of process roadmaps (e.g., Intel 3/Intel 18A) and on winning design slots in PCs and servers, which concentrates risk in a few core product segments.[2]"
+      ],
+      "litigation_regulatory": [
+        "Intel’s 10‑K discusses ongoing intellectual property disputes, patent litigation, and antitrust/commercial claims typical for large semiconductor firms, which could result in damages or changes to business practices.[2]",
+        "Regulatory risk is noted with respect to export controls, especially around sales to China and other restricted jurisdictions, potentially impacting data-center and accelerator demand.[2]"
+      ],
+      "dilution_capital_structure": [
+        "Equity compensation is a meaningful component of Intel’s remuneration, leading to ongoing dilution from RSUs, stock options, and employee stock purchase plans, as disclosed in the 10‑K.[2]",
+        "The filing notes prior and current share repurchase authorizations, though Intel has at times moderated buybacks to prioritize funding capex and maintaining balance-sheet flexibility.[2]"
+      ],
+      "revenue_quality": [
+        "Intel’s revenue is largely from repeat purchases of CPUs, chipsets, and related silicon by OEMs, cloud providers, and enterprise customers, but is **cyclical**, highly exposed to PC refresh cycles, server demand, and broader macro conditions.[2]",
+        "Customer concentration and competitive pressures (e.g., from AMD, ARM-based designs, and custom silicon) are explicitly cited as risks to pricing power and margins.[2]"
+      ],
+      "capital_allocation": [
+        "The 10‑K outlines aggressive capital allocation to manufacturing expansion (fabs in the U.S. and Europe), process node development, and foundry services, alongside government subsidy utilization.[2]",
+        "Intel acknowledges that returns on these large investments depend on successful customer adoption of its foundry offerings and process competitiveness, representing **execution and ROIC risk**.[2]"
+      ],
+      "valuation_risks": [
+        "Intel’s filings warn that expectations embedded in its share price regarding process catch‑up, foundry success, and AI-related demand could be challenged by execution delays, cost overruns, or competitive losses.[2]",
+        "Cyclicality and margin compression from pricing pressure and high depreciation can cause earnings volatility, impacting valuation multiples.[2]"
+      ],
+      "durable_demand_evidence": [
+        "Intel cites long-term demand drivers from data growth, cloud computing, AI workloads, and connectivity, implying ongoing need for compute and networking silicon even through near‑term cycles.[2]",
+        "PCs, servers, and networking infrastructure remain foundational to enterprise and consumer computing, supporting multi‑year baseline demand for Intel’s core products despite share shifts.[2]"
+      ]
+    },
+    "USAR": {
+      "balance_sheet": [
+        "Publicly available financial snapshots (e.g., summary income and balance metrics for USA Rare Earth, Inc.) indicate a **development-stage or early-revenue profile**, with limited assets relative to future project needs.[12]",
+        "Thin capital and reliance on external financing increase solvency and liquidity risk, especially if commodity prices or project timelines disappoint.[12]"
+      ],
+      "concentration": [
+        "Operations, as described in available company/market data, are concentrated in a narrow set of rare earth or critical mineral projects, creating high exposure to **single‑asset and single‑industry risk**.[12]",
+        "Customer base and revenue streams, where present, appear limited and non‑diversified, with a strong dependence on successful commercialization of one or few projects.[12]"
+      ],
+      "litigation_regulatory": [
+        "Specific large-scale litigation disclosures are limited in public overviews; however, the sector is generally exposed to permitting, environmental, and regulatory approval risk, which can delay or impair project value.[12]"
+      ],
+      "dilution_capital_structure": [
+        "Development-stage resource companies typically rely heavily on equity issuance and convertible instruments to fund exploration and development, implying **material ongoing dilution risk** for existing shareholders.[12]",
+        "Available data suggest a pattern of capital raises rather than sustained operating cash generation.[12]"
+      ],
+      "revenue_quality": [
+        "Reported revenue (if any) appears modest and non‑recurring, with value primarily driven by prospective future production rather than stable, diversified operating cash flows.[12]",
+        "The absence of long-term offtake contracts or diversified customer relationships in public snapshots limits revenue visibility and quality.[12]"
+      ],
+      "capital_allocation": [
+        "Capital allocation is largely driven by exploration, feasibility work, and project development for rare earth assets, which are inherently high risk and sensitive to commodity cycles and technological shifts.[12]",
+        "Execution risk is elevated because misallocation of scarce capital (e.g., on projects that ultimately prove uneconomic) can significantly impair shareholder value.[12]"
+      ],
+      "valuation_risks": [
+        "Valuation is likely driven by speculative expectations of future production volumes and rare earth pricing, rather than proven, cash‑flow‑backed metrics, making the equity highly sensitive to sentiment and project news.[12]",
+        "The thin trading and limited analyst coverage typical for such issuers exacerbate volatility and bid-ask spread risks.[12]"
+      ],
+      "durable_demand_evidence": [
+        "Macro narratives around long-term demand for **rare earths** and critical minerals in EVs, renewable energy, and defense provide some structural demand backdrop, but company-specific evidence of durable, contracted demand is limited in public data for USAR.[12]"
+      ]
+    },
+    "GT": {
+      "balance_sheet": [
+        "Goodyear Tire & Rubber’s Form 10‑K (2025) describes a **leveraged balance sheet**, with significant debt and pension obligations, though supported by large tangible assets and global operations.[4]",
+        "The company notes exposure to interest-rate and refinancing risk due to the size and maturity profile of its debt, as well as obligations related to employee benefit plans.[4]"
+      ],
+      "concentration": [
+        "Goodyear’s revenue is highly concentrated in **automotive tires** for replacement and OEM markets, with geographic diversification but fundamental dependence on global vehicle fleets and miles driven.[4]",
+        "The business is exposed to cyclical demand in OEM channels and to competitive pricing pressure in replacement markets, with limited diversification into non-tire businesses.[4]"
+      ],
+      "litigation_regulatory": [
+        "The 10‑K details ongoing **product liability, environmental, and labor-related claims**, including potential class actions and regulatory proceedings that can result in settlements, fines, or required operational changes.[4]",
+        "Legacy environmental liabilities and workplace safety issues are noted as risk factors that could entail remediation costs or reputational damage.[4]"
+      ],
+      "dilution_capital_structure": [
+        "Goodyear uses equity-based compensation programs and may issue shares or convertible securities in connection with refinancing or strategic transactions, posing some dilution risk.[4]",
+        "Given its leverage, the company may prioritize debt management over large buybacks, limiting offset to ongoing compensation-related dilution.[4]"
+      ],
+      "revenue_quality": [
+        "Revenue streams are predominantly **repeat and replacement-driven**, with steady underlying need for tire replacement as vehicles are driven and fleets maintained, providing a structural base level of demand.[4]",
+        "However, pricing and margin are pressured by raw material cost volatility (rubber, oil-derived inputs) and intense competition, affecting revenue quality and profitability.[4]"
+      ],
+      "capital_allocation": [
+        "Capital allocation is directed toward manufacturing facilities, product development (e.g., higher-performance and specialty tires), and working capital; significant cash is also needed for debt service and pension contributions.[4]",
+        "The 10‑K stresses the need to balance investment in innovation and capacity with deleveraging and liability management, which can constrain strategic flexibility.[4]"
+      ],
+      "valuation_risks": [
+        "Goodyear’s filings acknowledge that high leverage, cyclical earnings, and exposure to auto cycles contribute to share-price volatility and sensitivity to macro and credit conditions.[4]",
+        "Investor expectations about margin expansion through cost control and mix shift can be undermined by input cost inflation or weak OEM demand.[4]"
+      ],
+      "durable_demand_evidence": [
+        "The company emphasizes that global vehicle fleets and transportation activity underpin long-run demand for replacement tires, making its core market structurally recurring despite economic cycles.[4]",
+        "Continued adoption of commercial fleets and logistics activity reinforces tire demand, although shifts toward EVs and changing mobility patterns may alter mix and product requirements.[4]"
+      ]
+    }
+  },
+  "quality_notes": {
+    "process_and_filters": [
+      "Names GOOGL/GOOG, INTC, USAR, and GT have prior **monitor-only or rejected** status due to stale catalysts, repeat-decay patterns, low confidence (<0.60), source thinness (USAR), and allocation/stop-loss rule conflicts in historical memory.",
+      "This assessment focuses on **business-quality risks and durable-demand evidence**, avoiding trade recommendations and keeping within the monitor-only framework."
+    ],
+    "GOOGL_GOOG": [
+      "Business quality is supported by a strong balance sheet, diversified though ad-heavy revenue, and durable platform usage, but risk is elevated by regulatory/litigation exposure, AI-related capex intensity, and reliance on advertising economics.[5][6][8][9][10]",
+      "Revenue quality is generally high (recurring advertiser relationships and cloud contracts), yet subject to shifts in privacy regulation, measurement changes, and competitive AI/ads dynamics.[5][6][8][10]",
+      "Capital allocation shows disciplined investment in AI and cloud plus sustained buybacks, though the scale of AI infrastructure spending introduces ROIC uncertainty.[5][6][8][10]"
+    ],
+    "INTC": [
+      "Intel’s business quality depends on successful technology and manufacturing execution; strong long-run demand for compute is counterbalanced by high capex, cyclicality, and intense competition.[2]",
+      "Balance-sheet risk is manageable but amplified by funding requirements for fabs and process nodes, making capital allocation effectiveness critical.[2]",
+      "Revenue is recurring in nature but lower quality than hyperscale platform models due to cyclical volume/margin swings and customer concentration.[2]"
+    ],
+    "USAR": [
+      "Business quality is constrained by early-stage status, thin revenue, and concentration in a small set of resource projects with high permitting and execution risk.[12]",
+      "Financing and dilution risks are central: future capital raises and potential down-rounds can materially erode existing shareholder value.[12]",
+      "Durable demand stems from macro critical-mineral themes, but company-specific revenue visibility and quality are low.[12]"
+    ],
+    "GT": [
+      "Goodyear’s business enjoys structurally recurring replacement demand but faces leverage, litigation, and cyclical auto exposure that weigh on quality.[4]",
+      "Revenue quality is moderate: repeat purchases are offset by cost volatility and competition; capital allocation must navigate debt, pensions, and necessary plant/product investment.[4]",
+      "Valuation risk is tied to leverage and cyclicality; expectations for margin improvement can be challenged by macro, input costs, and legal/environmental developments.[4]"
+    ]
+  },
+  "source_urls": {
+    "GOOGL_GOOG": [
+      "https://ppl-ai-file-upload.s3.amazonaws.com/secgov/edgar/data/1652044/0001652044-25-000014.md",
+      "https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_024f042d-bf47-40d4-a6c4-0881afe20ed9/8c0ffe88-7b75-4cf0-a8c9-1d93feb08bda/Alphabet-Inc._10-K_2025-12-31_English.pdf",
+      "https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_91632a3c-848e-4116-9c63-b2cd7b7ba542/2fc12128-cebf-4e20-b666-6da0cd422602/Alphabet_Inc_-_Form_10-K-Feb-05-2025.pdf",
+      "https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_20a8248c-3b99-4ac7-a91d-4325a108478b/bc202914-5ec9-478a-bbf4-61b5da7fe2d1/2025-06-30-2025-Q2-10Q-GOOGL.pdf",
+      "https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_024f042d-bf47-40d4-a6c4-0881afe20ed9/4498e8f2-d82e-46a9-abba-6f78edf400c2/Alphabet-Inc._AR_2025-12-31_English.pdf"
+    ],
+    "INTC": [
+      "https://ppl-ai-file-upload.s3.amazonaws.com/connectors/google_drive/16BjeEufKalHKqkZX63JBfBa1DUeBzVWf/753ad8de-31b8-4bae-897a-a3b7283c093c/GOOGL-Alphabet-Inc.-General-form-for-quarterly-reports-under-Section-13-or-15-d-10-Q-2025-10-30.pdf__copy.pdf"
+    ],
+    "USAR": [
+      "https://uk.finance.yahoo.com/quote/USAR/financials/"
+    ],
+    "GT": [
+      "https://ppl-ai-file-upload.s3.amazonaws.com/connectors/google_drive/1jCaqBenBe5AAFI1XSCG6vZz-LFhVf5yq/fb97afa9-ab3b-4b61-81b4-1b93b2598588/GOOGL-Alphabet-Inc.-General-form-for-quarterly-reports-under-Section-13-or-15-d-10-Q-2025-04-25.pdf__copy.pdf"
+    ]
+  }
+}
 
