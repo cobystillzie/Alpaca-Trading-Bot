@@ -4,130 +4,187 @@
 {
   "candidates": [
     {
-      "adversary_case": "A disciplined skeptic would argue that Intel\u2019s massive rally already discounts much of the foundry optimism; with a negative P/E and consensus targets below the current price, the risk of a post-earnings air pocket or a multi-month mean reversion is high.[7][17][19] They would also stress that a single large customer order does not prove sustainable foundry economics or full competitiveness with TSMC, and that the recent sector-wide drawdown could be the start of a deeper AI de-rating rather than a buyable dip.[10][13]",
-      "allocation_learning_note": "A moderate allocation is recommended given prior memory of concentration and regime-rotation risks and the elevated volatility in semiconductors.",
-      "balance_sheet_risk": "Intel\u2019s balance sheet supports large capex, but the foundry strategy is capital-intensive and raises execution and utilization risk.[13] While it is not highly levered in a banking sense, misallocated capex or slower-than-expected customer uptake could pressure returns and free cash flow. No banned leverage (options, margin, inverse ETFs) is part of this equity case; balance-sheet risk is operational and investment-heavy rather than financial-engineering driven.",
-      "bear_case": "Valuation risk is elevated after a 200%+ run: MarketBeat data cites a negative P/E ratio (reflecting depressed or transitional earnings) and a consensus price target near $96, below recent prices and implying downside versus current levels.[7][19] The foundry pivot is capital-intensive; execution missteps, delays on key nodes, or underutilized capacity could compress margins and impair returns on invested capital.[13] AI demand could normalize from very high expectations, and the recent broad semiconductor selloff shows the market\u2019s willingness to re-rate crowded themes quickly.[10][13] Regulators, geopolitical risk, and domestic industrial policy shifts could also affect subsidy assumptions over the next few years.[13]",
-      "capital_allocation_case": "Management is committing heavily to manufacturing capacity and R&D, signaling a long-term reinvestment focus rather than short-term financial engineering.[13] Capital allocation discipline will be judged by realized returns on new fabs, customer diversification, and the balance between shareholder returns (dividends/buybacks) and growth investment; current evidence shows bold strategic spending but not yet fully proven economic payoff.",
-      "catalyst": "1) Confirmed report that Alphabet placed a firm order with Intel for more than 3 million tensor processing units (TPUs) for 2028 delivery, validating Intel\u2019s 18A process and advanced packaging for hyperscale customers.[4] 2) Recent profit-taking selloff of roughly 5\u20139% in Intel and the wider semiconductor group after a 270%+ YTD and ~523% 1-year surge, resetting near-term expectations.[7][10][13][15][17] 3) Upcoming Q2 2026 earnings on July 23 (after the close), with guidance and foundry updates expected to refocus the narrative on execution versus hype.[17]",
-      "catalyst_type": "news",
-      "chittick_cash_score": 74.0,
-      "chittick_reject_reason": "",
-      "concentration_case": "Intel deserves attention versus a broad semiconductor ETF because the Alphabet TPU order is a company-specific catalyst that may not be fully captured by diversified vehicles, and because its transformation story creates both idiosyncratic upside and execution risk.[4][13] For the paper bot, a mid-single-digit to high-single-digit allocation allows participation without over-concentrating in a single high-volatility name.",
-      "confidence": 0.72,
-      "congressional_signal": "None specific or actionable for Intel noted in the current snippets.",
-      "diversity_bucket": "semiconductors-pullback-quality",
-      "entry_plan": "Paper-trade plan: consider a staged entry if INTC stabilizes and holds above a nearby support area identified in recent commentary around the $119 zone, after the current pullback.[10] For this framework, assume a notional entry near recent post-pullback prices with confirmation of intraday higher lows and average-to-strong volume rather than catching a falling knife.[7][10][13] Do not execute if further sector-wide downside exceeds ~7\u201310% in SOXX-type indices without specific Intel news support.",
-      "exit_plan": "For a 5-day swing, target profit-taking on a rebound back toward recent resistance or pre-pullback levels, effectively aiming for a high single-digit upside move.[7][10] Invalidation if price closes below the defined stop-loss band (8%) from entry or if fresh news undermines the Alphabet foundry order or Q2 guidance expectations.[4][17][19] Reassess rather than average down if the broader semiconductor index continues to slide >10% from current levels without company-specific negatives.",
+      "adversary_case": "The strongest objection is repeat-decay: the name has been recycled many times without a sufficiently fresh catalyst to justify execution-ready status.",
+      "allocation_learning_note": "Keep at zero until a dated earnings, guidance, filing, or breakout catalyst appears; do not recycle on narrative alone.",
+      "balance_sheet_risk": "Low balance-sheet risk relative to most equities, with the main risks being regulatory, competition, and capital intensity rather than leverage.",
+      "bear_case": "This can fail if the market continues to penalize stale mega-cap tech names, or if the tape rotates away from long-duration growth without a company-specific surprise.",
+      "capital_allocation_case": "Management generally allocates capital from a position of strength, but large AI and infrastructure spending needs continued proof of returns.",
+      "catalyst": "Recent filing-related ownership changes and ongoing AI/cloud narrative, but no clearly dated company catalyst in the provided results.",
+      "catalyst_type": "filing",
+      "chittick_cash_score": 68.0,
+      "chittick_reject_reason": "repeat_decay; stale catalyst; not execution-ready on current evidence",
+      "concentration_case": "This deserves attention over a broad ETF only if a real catalyst emerges; otherwise index exposure or a different sector with fresh news is cleaner.",
+      "confidence": 0.54,
+      "congressional_signal": "none",
+      "diversity_bucket": "mega-cap-internet-cloud",
+      "entry_plan": "Monitor only; if a fresh earnings, filing, guidance, or confirmed breakout catalyst appears, consider a small tranche on breakout confirmation above prior resistance with volume expansion.",
+      "exit_plan": "Use a tight invalidation if the breakout fails quickly or if price loses the post-catalyst support level; otherwise trail gains only after confirmed trend extension.",
       "fresh_catalyst": true,
-      "growth_runway": "Near term (30\u2013180 days), the growth narrative hinges on Q2 and subsequent earnings detailing AI-related demand, data center momentum, and progress in foundry deals beyond Alphabet.[4][17] Over the longer term, Intel\u2019s growth runway includes AI accelerators, server CPUs, PC refresh cycles, and domestic manufacturing capacity that could attract multiple hyperscale and government customers if roadmaps are met.[13] Successful execution could materially expand revenue and diversify away from prior PC-centric cyclicality.",
-      "hf_evidence_rank": 0.81,
-      "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.32,
-      "hf_memory_similarity": 0.55,
-      "hf_model_notes": "Prior passes flagged Intel for stale catalysts and repeat decay when there was no new fundamental news; the current case is explicitly anchored to a fresh Alphabet foundry order and the latest sector-wide pullback plus a dated upcoming earnings event, differentiating it from earlier generic AI/semis enthusiasm.",
-      "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "mixed-positive",
-      "hf_sentiment_score": 0.58,
-      "hf_source_quality_score": 0.78,
-      "horizon_days": 5,
-      "margin_of_safety_case": "Margin of safety is modest to thin on pure valuation (negative P/E, consensus target below price) but partially offset by the structural significance of the Alphabet order, government-supported manufacturing build-out, and Intel\u2019s scale.[4][7][13][19] For a 1\u201310 day swing, the margin of safety comes more from technical dislocation (sharp pullback after an extreme run) than from classic deep-value metrics; longer-term investors would require lower prices or clearer earnings normalization.",
-      "market_regime": "In a neutral but rotation-heavy regime, crowded AI/semi names are vulnerable to sentiment swings and profit-taking, yet quality-backed winners with differentiated catalysts can still work as 1\u201310 day swings around support/resistance.[10][13] Intel\u2019s pullback within a still-strong broader uptrend fits this environment: it is exposed to sector-level volatility but benefits from structural themes (onshoring, AI compute demand) and a tangible new customer contract.[4][17]",
-      "momentum_case": "INTC has more than tripled YTD, with some sources citing ~278% YTD and over 500% gains over the past year, making it one of the strongest large-cap performers in the market.[7][15][19] The stock recently fell about 5\u20139% in a single session amid a 6\u20137% drop in semiconductor indices, indicating a high-momentum name in a volatile pullback rather than a broken trend.[7][10][13] HSBC and other analysts still highlight significant upside potential (HSBC mentioning up to ~60% upside from prior levels), suggesting momentum remains constructive if pullbacks find support.[10]",
-      "owner_hold_case": "An owner-style 30\u2013180 day thesis would focus on monitoring quarterly earnings for foundry margin disclosure, additional hyperscale wins, data center/AI product traction, and signs that government-backed manufacturing investments are translating into sustainable ROIC.[4][13][17] Holding beyond a short swing would only be justified if successive quarters show improving profitability, diversification of foundry customers, and reduced gap between current valuation and normalized earnings power.",
-      "quality_case": "Intel remains a leading global chip designer and manufacturer with strategic exposure to CPUs, data center, and a new foundry strategy aimed at competing with TSMC in advanced nodes.[13] The Alphabet TPU order is a high-quality proof point that its manufacturing technology is competitive enough to win hyperscale business, which could underpin durable multi-year revenue streams.[4] Despite cyclical and execution risks, Intel\u2019s scale, R&D budget, and government support for domestic manufacturing (noted in broader coverage) provide a structural quality backdrop, even if current margins and returns are still in transition.[13][19]",
-      "recommendation": "execute-if-guards-pass",
-      "repeat_count_48h": 1,
-      "research_tier": "execution-ready",
-      "risk_reward": "Risk/reward is skewed toward a tactical rebound: after a steep sector-wide flush, Intel\u2019s upside includes a potential re-test of recent highs supported by the Alphabet order and upcoming earnings commentary, while downside is managed with an 8% paper stop and awareness that consensus targets sit below current prices. Short-term traders are essentially paying for volatility in a high-quality but execution-risk transformation story.",
-      "sector": "semiconductors",
-      "signal_weights": {
-        "congressional_signal": 0.0,
-        "social_buzz": 0.06
-      },
-      "social_buzz": "Retail and social buzz is elevated in semiconductors broadly, but available snippets emphasize sector pullback and valuation questions rather than meme-style hype for Intel specifically.[10][13][19]",
-      "source_quality": "Evidence is relatively strong: the Alphabet foundry order is reported by a mainstream financial news outlet with concrete volume and timing details.[4] The magnitude of Intel\u2019s price move, recent pullback, and sector dynamics are corroborated by multiple independent financial news and data sources (MarketBeat, 24/7 Wall St, StockStory).[7][10][13][15][17][19] Valuation commentary and consensus targets come from aggregated analyst data.[7][19] Social or retail sentiment is not the primary driver.",
-      "source_urls": [
-        "https://ng.investing.com/news/stock-market-news/why-is-intel-stock-gaining-today-93CH-2549464",
-        "https://www.marketbeat.com/instant-alerts/intel-nasdaqintc-stock-price-down-53-time-to-sell-2026-07-02/",
-        "https://247wallst.com/investing/2026/07/02/intel-sinks-6-even-as-hsbc-sees-60-upside-amd-slides-5-as-chip-stocks-pull-back/",
-        "https://stockstory.org/us/stocks/nasdaq/intc/news/why-up-down/intel-marvell-technology-and-amd-stocks-trade-down-what-you-need-to-know",
-        "https://finance.yahoo.com/quote/INTC/press-releases/",
-        "https://www.aol.com/articles/intel-stock-fell-9-day-212600236.html",
-        "https://stocktwits.com/news-articles/markets/equity/intc-stock-has-more-than-tripled-this-year-but-goldman-sachs-names-3-better-chip-bets/cZ1cKfJR7gQ"
+      "growth_runway": "AI, cloud, and core advertising remain the long-run runway, but that is an owner-thesis argument rather than a new swing-trade catalyst.",
+      "hf_evidence_rank": 0.38,
+      "hf_filter_vetoes": [
+        "repeat_decay",
+        "stale_catalyst",
+        "memory_similarity"
       ],
-      "stop_loss_percent": 8.0,
-      "strategy_tags": [
-        "chittick_cash",
-        "quality-growth",
-        "event-driven",
-        "semis-rotation"
-      ],
-      "symbol": "INTC",
-      "target_allocation_percent": 8.0,
-      "thesis": "Intel offers a rare combination of a major new foundry customer win (Alphabet TPUs), visible earnings/event catalysts, and a sharp pullback after an extreme run, creating a defined-risk swing window within a broader multi-quarter transformation story.[4][10][13][15][17][19]",
-      "valuation_case": "Intel\u2019s valuation is in transition: a negative P/E and analyst consensus near $96 imply the stock is priced ahead of current earnings power and depends on future margin and foundry success.[7][19] HSBC\u2019s 60% upside framing underscores divergent views, suggesting high dispersion and uncertainty in fair value estimates.[10] This makes INTC more suitable for controlled swing trades with tight risk than for large long-only value allocations at current levels."
-    },
-    {
-      "adversary_case": "A critical view would argue that MP\u2019s strategic narrative is already reflected in its valuation during prior hype cycles, and that without a fresh contract or policy announcement, short-term upside is limited while commodity volatility remains high.[20] From a Buffett-style perspective, the cyclical, commodity-sensitive nature of cash flows makes it less attractive than strong consumer or software franchises.",
-      "allocation_learning_note": "Keep target allocation at zero for now; move to a small 3\u20135% tranche only after better-documented catalysts or valuation work.",
-      "balance_sheet_risk": "Mining and processing projects are capital-intensive; MP\u2019s balance sheet risk centers on funding expansion and weathering commodity downturns rather than banned leverage products.[20] Detailed leverage metrics require reviewing filings beyond this snippet.",
-      "bear_case": "Rare earth prices are volatile and highly sensitive to global industrial cycles; weaker EV or wind demand, or competition from other suppliers, could compress margins and cash flow.[20] MP has significant operational and project-execution risk as it expands processing capabilities, and its valuation can swing widely with sentiment about critical materials and policy support. As a cyclical resource play, it lacks the steady cash-flow profile of mature consumer or healthcare names.",
-      "capital_allocation_case": "Management\u2019s capital allocation is focused on building integrated mining and processing capabilities; success will be judged by cost discipline, avoidance of overexpansion, and shareholder returns once projects mature.[20]",
-      "catalyst": "Recent trading and news flow around MP focus on its role as a key U.S. supplier of rare earths, a theme supported by ongoing policy and industrial interest in domestic critical materials, though no single blockbuster new contract headline is present in the snippets.[20] The current interest is more structural than event-specific.",
-      "catalyst_type": "structural",
-      "chittick_cash_score": 63.0,
-      "chittick_reject_reason": "",
-      "concentration_case": "MP serves as a niche diversifier versus broad ETFs and mega-cap tech: a small position can provide exposure to critical materials and EV supply chains not captured by a pure software or consumer portfolio.[20]",
-      "confidence": 0.58,
-      "congressional_signal": "None noted.",
-      "diversity_bucket": "materials-critical-minerals",
-      "entry_plan": "Consider a small, diversified paper-trade tranche if MP shows a constructive short-term pattern (higher lows, stabilizing relative strength) with average or improving volume, avoiding entries on sharp gap-ups driven solely by headlines.[20] Aim for a technically reasonable entry level based on recent trading ranges rather than chasing intraday spikes.",
-      "exit_plan": "For a 5\u20137 day swing, target a modest upside move (for example, mid-single-digit gains) toward recent resistance levels or prior short-term highs, with invalidation if MP falls 8% from entry or if commodity and EV sentiment turn sharply negative (e.g., broad materials indices declining >5\u20137% in a short window).[20]",
-      "fresh_catalyst": true,
-      "growth_runway": "Growth drivers over 30\u2013180 days include EV and renewable energy demand sentiment, progress on domestic processing capacity, and any new offtake agreements or policy incentives for critical materials.[20] Longer-term runway is tied to structural electrification and defense uses of rare earths.",
-      "hf_evidence_rank": 0.52,
-      "hf_filter_vetoes": [],
-      "hf_hype_risk": 0.28,
-      "hf_memory_similarity": 0.1,
-      "hf_model_notes": "Included as a sector-diversifier candidate given overuse of tech/semi and repeated constraints on mega-cap names; current data is thinner, so execution is not recommended without further fundamental work.",
+      "hf_hype_risk": 0.44,
+      "hf_memory_similarity": 0.91,
+      "hf_model_notes": "High-quality business, but memory indicates repeated rejection without a dated catalyst delta.",
       "hf_sentiment_agreement": 0.0,
       "hf_sentiment_label": "neutral",
-      "hf_sentiment_score": 0.52,
-      "hf_source_quality_score": 0.55,
-      "horizon_days": 7,
-      "margin_of_safety_case": "Margin of safety is driven by asset quality and strategic relevance rather than near-term valuation alone; however, commodity price volatility reduces classical margin-of-safety comfort and suggests keeping position sizes conservative.[20]",
-      "market_regime": "In the current rotational regime, materials and energy-linked names can benefit from policy or thematic flows but are also exposed to rapid sentiment changes. MP offers diversification away from crowded tech/AI but will trade with broader cyclicals and EV sentiment rather than core defensives.",
-      "momentum_case": "Price and volume data show MP trading as a mid-cap materials name with episodes of cyclic momentum tied to EV, renewable energy, and defense demand narratives rather than persistent mega-cap style trends.[20] It has not been part of the recent extreme AI/semi melt-up, which reduces crowding risk but also means momentum is more moderate and cyclical.",
-      "owner_hold_case": "An owner-style 30\u2013180 day thesis would track commodity prices, EV sales trends, progress on processing facilities, and any new long-term supply contracts. Absent those, long-term holding would be more speculative and cyclical than a quality cash-flow compounder.[20]",
-      "quality_case": "MP operates the Mountain Pass rare earth mine, one of the few large-scale Western sources of neodymium and praseodymium used in permanent magnets for EVs and wind turbines.[20] Its business is strategically important for supply-chain security and has attracted government and corporate attention in prior years, supporting a quality narrative around asset uniqueness and geopolitical relevance.",
+      "hf_sentiment_score": 0.41,
+      "hf_source_quality_score": 0.42,
+      "horizon_days": 5,
+      "margin_of_safety_case": "Quality is real, but the current setup does not show a strong discount or a fresh catalyst that would improve downside protection over the next 1-10 days.",
+      "market_regime": "Works best in a stable or mildly risk-on regime; in a choppier market, it can underperform if investors favor defensives or non-tech rotation.",
+      "momentum_case": "There is some evidence of renewed institutional attention, but the signal is too thin to confirm a fresh breakout or strong 1-10 day momentum edge.",
+      "owner_hold_case": "A 30-180 day hold case would require evidence that AI/cloud monetization and margins are still compounding faster than the market expects.",
+      "quality_case": "Strong franchise quality, scale, and long-duration competitive positioning favor the business, but valuation still needs a fresh catalyst to create a better near-term margin of safety.",
+      "recommendation": "watch",
+      "repeat_count_48h": 4,
+      "research_tier": "monitor-only",
+      "risk_reward": "Good business quality, but the current near-term reward does not clearly outweigh the stale-catalyst risk.",
+      "sector": "mega-cap internet/cloud",
+      "signal_weights": {
+        "congressional_signal": 0.0,
+        "social_buzz": 0.05
+      },
+      "social_buzz": "Light attention from filing-related coverage, but not enough to matter on its own.",
+      "source_quality": "Weak-to-moderate; the results are mostly secondary reporting and filing summaries rather than a fresh company event.",
+      "source_urls": [
+        "https://www.marketbeat.com/instant-alerts/filing-stokes-capital-advisors-llc-buys-2377-shares-of-alphabet-inc-googl-2026-07-03/",
+        "https://www.marketbeat.com/instant-alerts/filing-alphabet-inc-googl-position-lowered-by-northeast-investment-management-2026-07-03/",
+        "https://www.ainvest.com/news/alphabet-tops-turnover-9-34-billion-djia-debut-ai-push-2607/",
+        "https://www.aol.com/articles/ai-genius-john-jumper-worth-184600000.html"
+      ],
+      "stop_loss_percent": 0.0,
+      "strategy_tags": [
+        "chittick_cash"
+      ],
+      "symbol": "GOOGL",
+      "target_allocation_percent": 0.0,
+      "thesis": "Alphabet remains a high-quality business with durable cash generation, but the current setup is better viewed as a quality watch than an execution-ready swing because the latest evidence is mostly ownership-flow and general AI/cloud narrative rather than a hard new catalyst.",
+      "valuation_case": "Attractive only if price offers a better entry after a catalyst; otherwise the stock is still a quality hold rather than a clear near-term mispricing."
+    },
+    {
+      "adversary_case": "The strongest objection is that the signal is too indirect and delayed, so the move may already be priced in before a paper-trade entry.",
+      "allocation_learning_note": "Use as a sector-diversification alternative rather than repeating overused mega-cap tech.",
+      "balance_sheet_risk": "Balance-sheet risk does not appear to be the main issue here; the bigger concern is catalyst quality and valuation sensitivity.",
+      "bear_case": "This can fail if the congressional signal fades, if there is no real company-specific catalyst, or if the market treats the name as attention-driven rather than fundamentals-driven.",
+      "capital_allocation_case": "No strong capital-allocation edge is established by the current evidence.",
+      "catalyst": "Recent congressional transaction disclosure provides secondary attention context, but it remains a delayed and low-weight signal rather than a primary catalyst.",
+      "catalyst_type": "filing",
+      "chittick_cash_score": 57.0,
+      "chittick_reject_reason": "low-weight secondary catalyst only; no strong fresh fundamental catalyst",
+      "concentration_case": "Better than a broad ETF only if the disclosure-linked attention becomes tradable; otherwise it stays a watchlist name.",
+      "confidence": 0.61,
+      "congressional_signal": "Recent House disclosure in SPOT is present, but it is delayed and should only be treated as secondary context.",
+      "diversity_bucket": "consumer-internet-streaming",
+      "entry_plan": "Watch only; if price confirms a post-disclosure trend with volume and a clean higher-high setup, then consider a small paper tranche with strict risk control.",
+      "exit_plan": "Exit on failed follow-through, loss of the breakout base, or if volume dries up after the attention spike.",
+      "fresh_catalyst": true,
+      "growth_runway": "Longer-term runway comes from monetization, subscriber growth, and product mix, but those are owner-hold arguments more than 1-10 day trade drivers.",
+      "hf_evidence_rank": 0.34,
+      "hf_filter_vetoes": [
+        "low_weight_secondary_catalyst"
+      ],
+      "hf_hype_risk": 0.41,
+      "hf_memory_similarity": 0.22,
+      "hf_model_notes": "Disclosure signal exists but is delayed and weak; usable only as attention context.",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "neutral",
+      "hf_sentiment_score": 0.39,
+      "hf_source_quality_score": 0.35,
+      "horizon_days": 5,
+      "margin_of_safety_case": "Margin of safety is limited without a company-specific catalyst or valuation reset.",
+      "market_regime": "A neutral-to-risk-on tape helps because consumer internet names can benefit from selective appetite, but a defensive rotation would reduce attractiveness.",
+      "momentum_case": "The disclosure can support attention and volume, but there is not enough market-data evidence here to confirm momentum confirmation or breakout strength.",
+      "owner_hold_case": "A 30-180 day case would rely on continued user growth, monetization improvement, and margin expansion rather than on the disclosure itself.",
+      "quality_case": "The business has recognizable subscription-style quality and operating leverage, but the current evidence is not strong enough to call it a deep-margin-of-safety setup.",
       "recommendation": "watch",
       "repeat_count_48h": 0,
       "research_tier": "watch",
-      "risk_reward": "Risk/reward is moderate: MP offers upside tied to a structurally important asset and policy theme, but earnings and sentiment are cyclical and commodity-linked. A small allocation and defined stop make it a diversification tool rather than a core holding.",
-      "sector": "materials",
+      "risk_reward": "Potentially better asymmetric setup than another stale mega-cap, but still not strong enough to call execution-ready on the current evidence.",
+      "sector": "consumer internet / streaming",
       "signal_weights": {
-        "congressional_signal": 0.0,
+        "congressional_signal": 0.04,
         "social_buzz": 0.0
       },
-      "social_buzz": "No notable social buzz or meme-style attention is highlighted in the current data for MP.[20]",
-      "source_quality": "Source quality is moderate: current snippets provide reliable quote, history, and basic company data rather than deep fundamental analysis.[20] Additional filings and industry reports would be needed for high-conviction, long-term allocation decisions.",
+      "social_buzz": "none",
+      "source_quality": "Moderate but delayed; congressional disclosures are weak secondary context and do not by themselves establish a tradeable edge.",
       "source_urls": [
-        "https://finance.yahoo.com/quote/MP/"
+        "https://www.quiverquant.com/congresstrading/trade/House-C001123-2595"
       ],
-      "stop_loss_percent": 8.0,
+      "stop_loss_percent": 0.0,
       "strategy_tags": [
-        "chittick_cash",
-        "materials-diversifier",
-        "structural-theme"
+        "chittick_cash"
       ],
-      "symbol": "MP",
+      "symbol": "SPOT",
       "target_allocation_percent": 0.0,
-      "thesis": "MP Materials provides quality exposure to rare earth mining and processing, a strategic input for EVs and defense, and is less overused than mega-cap tech or semis, offering diversification and potential upside if materials and EV-related sentiment improve.[20]",
-      "valuation_case": "Available data shows MP trading with typical mid-cap materials volatility; without explicit valuation metrics in the snippet, the case is neutral-to-cautious pending fuller analysis.[20] For the paper bot, this argues for watch status rather than immediate execution."
+      "thesis": "Spotify is a cleaner underrepresented-sector idea than another recycled megacap because it has a documented congressional disclosure signal and remains a focused consumer internet asset with more idiosyncratic upside if attention persists.",
+      "valuation_case": "Not obviously cheap enough to override the weak catalyst quality."
+    },
+    {
+      "adversary_case": "The strongest objection is that a congressional disclosure is not a trade catalyst and does not establish expected upside.",
+      "allocation_learning_note": "Use as a defensive alternative, but do not allocate without a real company event.",
+      "balance_sheet_risk": "No leverage-related issue is highlighted in the provided results, but that does not substitute for a trading catalyst.",
+      "bear_case": "It can lag if investors rotate back toward growth or if the disclosure fails to translate into any real demand for the shares.",
+      "capital_allocation_case": "No special capital-allocation edge is established.",
+      "catalyst": "Recent congressional disclosure provides secondary context only; there is no hard new company catalyst in the provided results.",
+      "catalyst_type": "filing",
+      "chittick_cash_score": 52.0,
+      "chittick_reject_reason": "monitor-only; no execution-ready catalyst",
+      "concentration_case": "This is only worth considering if the broader market turns more defensive and the name gets a company-specific catalyst.",
+      "confidence": 0.58,
+      "congressional_signal": "Recent House disclosure in CAG is present, but only as low-weight delayed context.",
+      "diversity_bucket": "consumer-staples",
+      "entry_plan": "Monitor only; if a fresh earnings or guidance update appears and price confirms stability, then reassess for a small tranche.",
+      "exit_plan": "Do not allocate without a dated catalyst; if entered later, exit on failure of defensive support or disappointing guidance.",
+      "fresh_catalyst": true,
+      "growth_runway": "Growth runway is modest and not the main attraction; stability matters more than expansion here.",
+      "hf_evidence_rank": 0.25,
+      "hf_filter_vetoes": [
+        "monitor_only",
+        "low_weight_secondary_catalyst"
+      ],
+      "hf_hype_risk": 0.22,
+      "hf_memory_similarity": 0.18,
+      "hf_model_notes": "Defensive but catalyst-poor; best kept on the bench.",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "neutral",
+      "hf_sentiment_score": 0.31,
+      "hf_source_quality_score": 0.3,
+      "horizon_days": 5,
+      "margin_of_safety_case": "Defensive profile helps, but there is no evidence of a strong valuation discount in the current results.",
+      "market_regime": "Defensive names tend to work better when the market is selective and choppy rather than strongly growth-led.",
+      "momentum_case": "Momentum evidence is absent in the provided results, so this is a defensive watch rather than a trend trade.",
+      "owner_hold_case": "A 30-180 day thesis would require evidence of stable volumes, pricing, and margin resilience, not the disclosure itself.",
+      "quality_case": "Staples businesses can be attractive when the tape is uneven because cash flows are steadier, but there is no evidence here of a special undervaluation or near-term rerating trigger.",
+      "recommendation": "monitor-only",
+      "repeat_count_48h": 0,
+      "research_tier": "monitor-only",
+      "risk_reward": "Reasonable defensive profile, but the current setup is too weak for execution.",
+      "sector": "consumer staples",
+      "signal_weights": {
+        "congressional_signal": 0.04,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "none",
+      "source_quality": "Moderate-to-weak because the signal is delayed and not company-operational.",
+      "source_urls": [
+        "https://www.quiverquant.com/congresstrading/trade/House-C001123-2568"
+      ],
+      "stop_loss_percent": 0.0,
+      "strategy_tags": [
+        "chittick_cash"
+      ],
+      "symbol": "CAG",
+      "target_allocation_percent": 0.0,
+      "thesis": "Conagra offers a defensive consumer-staples profile that fits the broader market\u2019s uneven tone better than another recycled growth name, but it remains a monitor-only idea because the disclosure signal is weak and delayed.",
+      "valuation_case": "Not clearly compelling enough to justify a paper trade without a fresh company catalyst."
     }
   ],
-  "summary": "Semiconductors are pulling back sharply after an extreme AI-driven run, while the broader market remains rotational with a tilt toward quality and risk-selective buying rather than broad risk-on euphoria."
+  "summary": "The tape remains **selective and mildly risk-on**, but the available evidence is still dominated by stale megacap/ETF ideas and weak, low-signal attention flow. A fresh, execution-ready edge is not strongly established in the provided results, so the best output is a tight watchlist with one conditional idea and several monitor-only names."
 }
 -->
 
@@ -1893,4 +1950,12 @@ No candidates.
 |---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
 | INTC | semiconductors | execution-ready | semiconductors-pullback-quality | 1 | yes | 0.72 | 74 | 1 | 0 | 8.0% | 8.0% | execute-if-guards-pass | 1) Confirmed report that Alphabet placed a firm order with Intel for more than 3 million tensor processing units (TPUs) for 2028 delivery, validating Intel’s 18 |
 | MP | materials | watch | materials-critical-minerals | 0 | yes | 0.58 | 63 | 1 | 0 | 0.0% | 8.0% | watch | Recent trading and news flow around MP focus on its role as a key U.S. supplier of rare earths, a theme supported by ongoing policy and industrial interest in d |
+
+## Latest Candidates - 2026-07-03 14:51:54 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| GOOGL | mega-cap internet/cloud | monitor-only | mega-cap-internet-cloud | 4 | yes | 0.54 | 68 | 0 | 3 | 0.0% | 0.0% | watch | Recent filing-related ownership changes and ongoing AI/cloud narrative, but no clearly dated company catalyst in the provided results. |
+| SPOT | consumer internet / streaming | watch | consumer-internet-streaming | 0 | yes | 0.61 | 57 | 0 | 1 | 0.0% | 0.0% | watch | Recent congressional transaction disclosure provides secondary attention context, but it remains a delayed and low-weight signal rather than a primary catalyst. |
+| CAG | consumer staples | monitor-only | consumer-staples | 0 | yes | 0.58 | 52 | 0 | 2 | 0.0% | 0.0% | monitor-only | Recent congressional disclosure provides secondary context only; there is no hard new company catalyst in the provided results. |
 
