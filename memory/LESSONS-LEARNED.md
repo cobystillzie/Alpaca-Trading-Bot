@@ -1639,4 +1639,267 @@
     ]
   }
 }
+## Weekly Review - 2026-07-03 17:25:45 Eastern Daylight Time
+
+{
+  "lessons": {
+    "stale_and_repeated_tickers": [
+      {
+        "issue": "Mega-cap, AI-adjacent names keep resurfacing with decaying catalysts",
+        "evidence": [
+          "GOOGL appears repeatedly with `repeat_decay`, `stale_catalyst`, and `memory_similarity` in rejections, and again as monitor-only with no fresh catalyst.",
+          "INTC shows multiple `repeat_decay` / `stale_catalyst` rejections, then reappears later as execution-ready once a clearly new TPU order catalyst is found.",
+          "USAR, GT, MSFT, ARM, META, SMCI also show multiple passes where catalysts degrade from fresh to stale or source-thin."
+        ],
+        "lesson": "The memory and candidate generation pipelines are too willing to re-surface names on weakly updated narratives. Catalysts must be treated as expiring objects with explicit freshness windows and decay profiles."
+      },
+      {
+        "issue": "Allocation-blocked tickers consume research bandwidth without incremental benefit",
+        "evidence": [
+          "Repeated GOOGL, NVDA, SPMO, XLK, MSFT rejections due to 15% single-stock cap, max open-position count, or allocation-muted flags.",
+          "Several days where the system tries to trade allocation-muted or monitor-only tickers (XLK, VST, JBHT, KO etc.) even after prior similar rejections."
+        ],
+        "lesson": "Guard-rail conditions (position limits, monitor-only, allocation-muted) are being checked too late in the pipeline. This leads to repeated work on candidates that cannot be acted on."
+      }
+    ],
+    "sector_concentration_and_diversity": [
+      {
+        "issue": "Overweight AI/tech/infrastructure narratives, underweight broader market",
+        "evidence": [
+          "Frequent candidates: NVDA, INTC, ARM, SMCI, VRT, PLTR, META, GOOGL, plus AI-infrastructure industrials.",
+          "Relatively scarce non-AI sectors: only occasional appearances from financials (C), staples (CAG), transports/industrials (GE, JBHT, UPS, WMT, NSC), healthcare (GNFT, GSK, HUMA) and energy/materials (MP, USAR, EMAT).",
+          "Morgan Stanley-type commentary stresses broadening earnings and leadership into Consumer Discretionary, Transports, and Regional Banks, but the bot’s candidates remain heavily clustered in a narrow AI/mega-cap theme.[12]"
+        ],
+        "lesson": "Theme concentration is high; the engine is not sufficiently enforcing portfolio and research diversification rules. It gravitates toward the same AI / mega-cap stacks even when the macro context favors broadening leadership."
+      },
+      {
+        "issue": "Diversity at the research-output level is weak",
+        "evidence": [
+          "Many daily outputs center on similar catalyst types: AI cloud narratives, analyst initiations, funding/PIPEs, and congressional/social noise.",
+          "There is minimal rotation into under-owned but strengthening groups highlighted by macro/breadth commentary (e.g., transports, regional banks, small caps).[12][24]"
+        ],
+        "lesson": "The research engine is not explicitly enforcing diversity across sectors, factor exposures, or catalyst types. This leads to repetitive daily research output uncorrelated with broader opportunity sets."
+      }
+    ],
+    "signal_quality_evaluation": [
+      {
+        "issue": "Low-weight social/congress signals mostly add noise unless strictly gated",
+        "evidence": [
+          "Dozens of rejections explicitly cite: `Low-weight social/congress signal needs at least two stronger sources.`",
+          "Names driven mainly by congress/social (EWY, EWT, DVN, AMC, PHX, VST, CAG, SPOT, C, GE, CORT, NUVL, OKLO, etc.) systematically fail due to `no_fundamental_catalyst`, `source_thin`, low confidence, or monitor-only status.",
+          "Where congressional activity is cited (GE, C, SPOT, CAG), it is already treated as low-weight, and the resulting candidates rarely survive guard-rails."
+        ],
+        "lesson": "The current treatment (congress/social as secondary-only signals) is directionally correct, but those signals still consume attention. They have not demonstrably lifted candidate quality; instead, they frequently correlate with later rejections as hype/noise."
+      },
+      {
+        "issue": "Chittick Cash and Hugging Face filters appear to help, but are too reactive and not fully integrated",
+        "evidence": [
+          "Candidates with low Chittick scores or HF flags (`source_thin`, `HF source/hype filter rejects source-thin hype`, `HF memory filter flags similarity to prior rejected patterns`) are consistently rejected before execution.",
+          "HF memory similarity and repeat-decay flags catch repeated GOOGL/INTC/MSFT/GT patterns before re-approval, but only at guard-rail time, after the candidate is fully assembled.",
+          "Hype filters successfully block micro-cap/speculative plays (SGN, PHX, VST, CRDO, MUX, AMC) that lack fundamental catalysts and exhibit social/congress-driven hype."
+        ],
+        "lesson": "These filters improve research quality by filtering out thin/hype-based candidates and stale repeats, but they are used as late-stage vetoes rather than early-stage pruning. They reduce bad trades but don’t yet redirect research toward better themes."
+      }
+    ]
+  },
+  "rejected_patterns": {
+    "behavioral_patterns_to_avoid": [
+      "Re-surfacing tickers whose last rejection was due to `repeat_decay`, `stale_catalyst`, or `memory_similarity` without an explicitly new, dated, and independently corroborated catalyst.",
+      "Building trade candidates primarily on low-weight social or congressional data and then back-filling fundamentals to justify them.",
+      "Consuming allocation and guard-rail checks only at the final step, causing repeated attempts to trade monitor-only, allocation-muted, or max-position-breaching tickers.",
+      "Returning multiple candidates from the same sector and AI narrative cluster on the same day when portfolio exposure is already high in that cluster.",
+      "Treating analyst initiations and upgrades as sufficient standalone catalysts, especially when price/volume confirmation is missing or when coverage is from a single small shop.",
+      "Allowing micro-cap/speculative tickers with limited liquidity and thin disclosure to pass early screens just because they mention AI, strategic materials, or congressional interest.",
+      "Revisiting mega-cap AI/tech names day after day on minor narrative updates (opinion pieces, social buzz, derivative commentary) instead of waiting for truly fresh corporate events."
+    ],
+    "structural_patterns_to_avoid": [
+      "Unbounded reuse of the same theme labels (`mega-cap-internet-cloud`, `AI infrastructure`, `semiconductors-pullback-quality`) without theme-level performance or saturation checks.",
+      "Research scheduling that focuses on what is most mentioned in news/social feeds rather than what is least represented in the current portfolio and watchlist.",
+      "Using a fixed 1–15% allocation band without dynamically scaling down target allocations when catalysts are weaker or more narrative-driven."
+    ]
+  },
+  "strategy_proposals": {
+    "diversification_and_theme_controls": [
+      {
+        "name": "Sector and theme quota system",
+        "description": "Introduce explicit daily and weekly caps for research slots per sector and per top-level theme (e.g., AI/semis/cloud, healthcare, industrials, financials, consumer, energy/materials, utilities/REITs).",
+        "mechanics": [
+          "Before daily candidate generation, compute current portfolio and active-watchlist exposures by sector and theme.",
+          "Rank sectors/themes by underweight vs. target mix (e.g., 20–25% tech/comm-services, 15–20% healthcare, 15–20% financials, etc., customizable for your risk profile).",
+          "Prioritize scanning and candidate generation for sectors/themes that are underweight or missing, so you systematically surface transports, regional banks, small caps, staples, etc., rather than another AI cloud name."
+        ]
+      },
+      {
+        "name": "Repeat-decay budget",
+        "description": "Impose a strict limit on how often a ticker can be re-entered into the candidate pipeline within a decay window unless a high-impact event is detected.",
+        "mechanics": [
+          "Maintain per-ticker state with `last_catalyst_hash`, `last_rejection_reason`, and `last_considered_at`.",
+          "If `last_rejection_reason` is any of `{repeat_decay, stale_catalyst, memory_similarity}`, require at least one of the following before reconsideration:",
+          "1) A new 8-K / earnings / guidance / M&A / capital raise / regulatory approval event with a fresh timestamp.",
+          "2) A 30%+ price move from last consideration driven by company-specific news, not macro.",
+          "3) A shift in allocation/portfolio state that makes the ticker uniquely helpful for diversification (e.g., tech now underweight by at least X%)."
+        ]
+      }
+    ],
+    "signal_weighting_and_guard_rails": [
+      {
+        "name": "Early guard-rail pre-filter",
+        "description": "Move allocation, monitor-only, and banned-instrument checks to the earliest stage of candidate generation.",
+        "mechanics": [
+          "When building the candidate pool, immediately discard tickers that are:",
+          "• Over the 15% single-name cap given current positions and the proposed allocation.",
+          "• In `monitor-only`, `allocation-muted`, or banned buckets for this strategy version.",
+          "• In violation of max open-position count.",
+          "Return them only as FYI in a separate diagnostic log, not as candidates, to avoid re-running the same rejections."
+        ]
+      },
+      {
+        "name": "Signal source scoring and routing",
+        "description": "Refine the source-score model so that fundamental/catalyst signals dominate candidate selection, while social/congress are only tie-breakers or augmenting features.",
+        "mechanics": [
+          "Assign base weights to signal classes, e.g.:",
+          "• Hard catalysts (earnings surprises, guidance changes, M&A, regulatory approvals, large capex, major design wins) = very high weight.",
+          "• Valuation/factor mispricing plus breadth/macrofactor alignment = high weight.",
+          "• Analyst consensus shifts with multiple reputable firms = medium weight.",
+          "• Congressional or social buzz, especially from small accounts or non-official sources = low weight.",
+          "Require that any candidate whose top-2 signals are both low-weight be automatically downgraded to `monitor-only` or dropped."
+        ]
+      }
+    ],
+    "research_process_improvements": [
+      {
+        "name": "Daily research diversity mandate",
+        "description": "Enforce that each daily output includes a minimum variety of sectors and catalyst types.",
+        "mechanics": [
+          "For each daily run, require at least: one non-tech cyclical (e.g., transport/industrial), one defensive (staples/healthcare/utilities), and one financial or real asset (financials, REITs, materials/energy).",
+          "Avoid surfacing more than two tickers from the same theme label (e.g., AI-infrastructure) per session unless portfolio exposure to that theme is currently low.",
+          "Rank same-theme candidates by incremental information and diversification value; only allow the top N into the final list."
+        ]
+      },
+      {
+        "name": "Catalyst lifecycle tracking",
+        "description": "Treat catalysts as first-class objects with timestamps, type, expected horizon, and decay curve.",
+        "mechanics": [
+          "For each ticker, store a list of active catalysts with fields: `type`, `strength`, `start_date`, `expected_half_life_days`, `source_count`, `last_update`.",
+          "Drop or sharply deweight catalysts whose half-life has expired without follow-through (e.g., more than one earnings cycle since the event and no confirmation).",
+          "Only mark a ticker as ‘fresh’ if at least one active catalyst has a current, non-decayed state and has been updated/confirmed in the last X days."
+        ]
+      }
+    ]
+  },
+  "self_learning_directives": {
+    "post_gate_analysis": [
+      {
+        "directive": "Log every rejection with a normalized tag set and feed it to a periodic pattern miner",
+        "details": [
+          "Normalize reasons into a compact taxonomy: `allocation_limit`, `position_count`, `stale_catalyst`, `repeat_decay`, `memory_similarity`, `source_thin`, `hype`, `monitor_only`, `allocation_muted`, `risk_band_violation`.",
+          "Weekly, cluster rejected candidates by ticker, sector, and tag combo to identify systematic failure modes (e.g., ‘mega-cap AI names rejected due to stale catalyst’).",
+          "Use those clusters to adjust upstream sampling probabilities and decay parameters."
+        ]
+      },
+      {
+        "directive": "Outcome-linked learning (paper-trading only)",
+        "details": [
+          "For executed trades, track ex-post performance vs. a simple benchmark (e.g., sector ETF or S&P) over standardized windows (1 week, 1 month, 3 months).",
+          "Associate that performance with the catalyst feature vector and signal source mix at entry time.",
+          "Periodically downweight signal combinations that systematically underperform (e.g., analyst-initiation-only trades; trades driven primarily by congress/social without strong fundamentals).",
+          "Upweight signal combinations that show good risk-adjusted relative performance."
+        ]
+      }
+    ],
+    "memory_and_filter_tuning": [
+      {
+        "directive": "Adaptive Hugging Face memory filter thresholds",
+        "details": [
+          "Track the frequency and quality (if executed) of candidates that survive vs. fail the HF memory/hype filters.",
+          "If many good trades are blocked, gradually relax similarity/hype thresholds; if many bad trades still slip through, tighten them.",
+          "Use ticker-level statistics: if a ticker has more than N rejections due to memory similarity or stale catalysts within a 60-day window, raise its minimum required catalyst strength for reconsideration."
+        ]
+      },
+      {
+        "directive": "Chittick Cash score calibration",
+        "details": [
+          "Correlate Chittick scores with realized paper-trade performance and with subsequent upgrade/downgrade rates.",
+          "If high-Chittick names are not outperforming but are overrepresented in the candidate list, reduce the direct weight of the Chittick feature and increase reliance on catalyst structure and diversification metrics.",
+          "Conversely, if low-Chittick, high-conviction fundamental ideas outperform, raise their priority even when Chittick is neutral."
+        ]
+      }
+    ]
+  },
+  "component_assessments": {
+    "chittick_cash": {
+      "role": "A numeric confidence/quality score used in candidate ranking.",
+      "observed_effect": "Most execution-ready names have Chittick scores in the 68–78 range; low-confidence or monitor-only names often have lower scores and are eventually rejected.",
+      "assessment": "Helpful as a coarse quality filter, but it is not preventing repetitive AI/mega-cap resurfacing and does not encode diversification or catalyst decay.",
+      "recommended_adjustments": [
+        "Incorporate diversification penalty into the score: subtract points when the ticker’s sector/theme is already overweight.",
+        "Incorporate catalyst freshness directly: decaying catalysts should automatically erode the score over time.",
+        "Include realized paper-trade performance in a gradual feedback loop to recalibrate what score thresholds deserve ‘execution-ready’ vs. ‘watch’ status."
+      ]
+    },
+    "hugging_face_filters": {
+      "role": "Source/hype/memory filters used to veto candidates that look like prior bad patterns or thin hype.",
+      "observed_effect": "They successfully tag repeat/stale/hype scenarios and block micro-cap speculation and thinly sourced AI/congress names (SGN, PHX, VST, USAR earlier, etc.).",
+      "assessment": "Net positive on research quality. They reduce noise trading risk and enforce basic data richness requirements.",
+      "recommended_adjustments": [
+        "Move HF checks earlier so that clearly hype-driven or memory-similar candidates are never promoted to ‘execution-ready’ in the first place.",
+        "Expose more granular reasons in internal logs (e.g., `hype_social`, `hype_low_liquidity`, `hype_option-flow`) to help self-learning differentiate which hype types are most problematic.",
+        "Tie HF similarity penalty to ticker-level cooldown windows so the system automatically lengthens the waiting period after multiple similarity-based rejections."
+      ]
+    },
+    "social_buzz_and_congressional_signals": {
+      "role": "Secondary attention signals, often via Quiver-like sources, about unusual trading by politicians or on social platforms.",
+      "observed_effect": "Cited frequently, but trades based primarily on these signals rarely pass guards; many are explicitly rejected for `low-weight social/congress signal` and `no_fundamental_catalyst`.",
+      "assessment": "Currently more noise than signal. The framework correctly downgrades them, but they still create repetitive, low-value candidate attempts.",
+      "recommended_adjustments": [
+        "Hard rule: social/congress can never be the primary driver of `execution-ready` status; at least one strong, timestamped corporate or fundamental catalyst is required.",
+        "Only elevate a social/congress signal if it aligns with:",
+        "• A new, confirmed company event within the last X days, and",
+        "• Unusual volume/price behavior consistent with informed participation.",
+        "Otherwise, keep such tickers in a separate ‘monitor only / narrative watchlist’ and exclude them entirely from trade candidates."
+      ]
+    }
+  },
+  "safe_code_and_prompt_changes": {
+    "pre_trade_pipeline_changes": [
+      {
+        "change_type": "logic",
+        "description": "Add an early-stage `hard_filter(candidate)` that checks position limits, allocation bands, monitor-only/alloc-muted flags, and banned instruments before anything is promoted to ‘execution-ready’ or even ‘watch’.",
+        "pseudo_code": "if violates_position_limits(candidate) or is_monitor_only(candidate) or is_allocation_muted(candidate) or is_banned_v1(candidate): discard_candidate(candidate);"
+      },
+      {
+        "change_type": "logic",
+        "description": "Implement per-ticker cooldown and catalyst-hash checks.",
+        "pseudo_code": "if recent_rejection_with_stale_or_repeat(candidate.symbol) and !has_new_catalyst_hash(candidate): discard_candidate(candidate);"
+      },
+      {
+        "change_type": "scoring",
+        "description": "Embed diversification penalties and catalyst-decay into the scoring function.",
+        "pseudo_code": "candidate.score = base_quality(candidate) - sector_overweight_penalty(candidate) - theme_repeat_penalty(candidate) - catalyst_decay_penalty(candidate);"
+      }
+    ],
+    "research_prompt_and_routine_changes": [
+      {
+        "change_type": "prompting",
+        "description": "Update the research agent instructions to emphasize fresh, multi-source, fundamentally-driven catalysts and diversification.",
+        "example_instruction_snippet": [
+          "• Prioritize company-specific events in the last 30 days: earnings/guidance, M&A, big capex, regulatory approvals, large contracts, or capital structure changes.",
+          "• Do not propose trade candidates based primarily on congressional or social media signals. These may only upgrade an idea that already has strong fundamental catalysts.",
+          "• If the ticker has been considered or rejected within the last 30 days due to stale catalysts or repeat-decay, require evidence of a new, independently verified catalyst before reconsidering.",
+          "• Aim for sector and factor diversity in daily outputs. If the current portfolio is heavily weighted to AI/mega-cap tech, prioritize new ideas from underrepresented sectors such as transports, regional banks, consumer, or healthcare.",
+          "• Explicitly state why the current catalyst is fresh and why it is not a rehash of prior narratives."
+        ]
+      },
+      {
+        "change_type": "routine",
+        "description": "Introduce a weekly ‘theme health check’ routine.",
+        "routine_steps": [
+          "1) Aggregate performance of paper-traded positions by theme and sector.",
+          "2) Identify overconcentrated themes (e.g., AI-infrastructure) with correlated outcomes.",
+          "3) Adjust next-week scanning weights to favor under-researched, under-owned, or outperforming-but-underweighted areas (e.g., transports, regional banks, small caps) consistent with external breadth signals."
+        ]
+      }
+    ]
+  }
+}
 
