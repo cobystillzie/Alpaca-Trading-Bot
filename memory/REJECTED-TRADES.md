@@ -593,4 +593,23 @@ Stop loss must be between 3% and 12%.
 ## Rejected NNBR - 2026-07-02 09:55:02 Eastern Daylight Time
 
 Max open-position count would be exceeded.
+## Rejected META - 2026-07-03 09:55:01 Eastern Daylight Time
+
+Candidate references banned v1 instruments or leverage.
+Low-weight social/congress signal needs at least two stronger sources.
+## Rejected SMCI - 2026-07-03 09:55:01 Eastern Daylight Time
+
+Candidate references banned v1 instruments or leverage.
+Target allocation must be between 1% and 15%.
+Stop loss must be between 3% and 12%.
+## Rejected GE - 2026-07-03 09:55:01 Eastern Daylight Time
+
+Confidence below 0.60.
+Target allocation must be between 1% and 15%.
+Stop loss must be between 3% and 12%.
+## Rejected C - 2026-07-03 09:55:01 Eastern Daylight Time
+
+Confidence below 0.60.
+Target allocation must be between 1% and 15%.
+Stop loss must be between 3% and 12%.
 
