@@ -36501,4 +36501,239 @@ Rejected / Watchouts
 - SMCI: Candidate references banned v1 instruments or leverage.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
 - GE: Confidence below 0.60.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
 - C: Confidence below 0.60.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
+## Performance Ledger - 2026-07-03 12:40:05 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-07-03 12:40:04 Eastern Daylight Time
+- Portfolio value: $100,269.74
+- P/L vs $100k baseline: $269.74
+- Full paper-account return: 0.270%
+- Managed-capital return: 2.70%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 4.82%
+- Latest position value: $5,869.74
+- Full-account cash reserve: 94.1%
+- Managed-capital cash reserve: 41.3%
+- Max snapshot drawdown: $328.28 from 2026-05-08 16:30:03 Eastern Daylight Time to 2026-06-09 12:40:01 Eastern Daylight Time
+
+Open Position Review
+- DT: winner, value $908.34, unrealized P/L $108.34, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 56 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: loser, value $459.06, unrealized P/L $-40.94, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 57 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: loser, value $774.27, unrealized P/L $-25.73, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 64 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- IBRX: winner, value $668.71, unrealized P/L $68.71, entry 2026-05-11 09:48:18 Eastern Daylight Time, thesis age 53 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: winner, value $539.83, unrealized P/L $39.83, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 52 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: loser, value $779.44, unrealized P/L $-20.56, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 63 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $817.16, unrealized P/L $17.16, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 58 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $922.93, unrealized P/L $122.93, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 66 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- GOOGL: appeared 41 times; open position P/L $-25.73.
+- INTC: appeared 40 times; market outcome unavailable until benchmark/candidate price history is captured.
+- SCHD: appeared 34 times; open position P/L $17.16.
+- SPMO: appeared 32 times; open position P/L $122.93.
+- NVDA: appeared 29 times; open position P/L $-20.56.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MSFT: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 11 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- UNP: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VALN: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Max open-position count would be exceeded.: 20
+  - Candidate references banned v1 instruments or leverage.: 19
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 11
+  - Low-weight social/congress signal needs at least two stronger sources.: 8
+  - Single-stock allocation would exceed 15%.: 7
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources.: 6
+  - Target allocation must be between 1% and 15%.: 6
+  - A market-open order is already logged for today. No backup order was placed.: 5
+- By symbol:
+  - GOOGL: 12
+  - INTC: 5
+  - INTU: 5
+  - AGI: 3
+  - BAH: 3
+  - KO: 3
+  - PLTR: 3
+  - TMXX.F: 3
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 0
+- congressional: 4
+- unknown: 4
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold met: 8 trades over 66 days.
+- Strategy tuning may be reviewed, but safety guardrails still apply.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## Midday Memo - 2026-07-03 12:40:05 Eastern Daylight Time
+
+Midday Risk Memo
+
+Recommendation: Hold only positions whose thesis still matches the research; do not add unless guardrails pass.
+
+Market Regime
+Review current paper positions, thesis drift, concentration, stop discipline, and cash reserve.
+
+Portfolio
+Portfolio value: 100269.74 Cash: 94400 Buying power: 394035.27 Positions: - DT: qty=20.289119959, market_value=908.343901, unrealized_pl=108.343901 - GLRE: qty=28.042624789, market_value=459.057768, unrealized_pl=-40.942232 - GOOGL: qty=2.151289429, market_value=774.270578, unrealized_pl=-25.729422 - IBRX: qty=70.838252656, market_value=668.713105, unrealized_pl=68.713105 - LNC: qty=14.590020426, market_value=539.830756, unrealized_pl=39.830756 - NVDA: qty=4.00060009, market_value=779.436916, unrealized_pl=-20.563084 - SCHD: qty=25.2286345, market_value=817.155471, unrealized_pl=17.155471 - SPMO: qty=6.119014838, market_value=922.931008, unrealized_pl=122.931008 Performance: value $100,269.74, P/L vs $100k $269.74, managed return 2.70%, deployed return 4.82%, managed cash reserve 41.3%.
+
+Top Candidates
+
+1. META (communication services / mega-cap platform) | confidence 0.76 | allocation 0.0% | stop 7.0% | Chittick 70/100 | tier monitor-only | bucket mega-cap-platform-ai | HF source 1/100
+Thesis: Meta combines elite platform quality with a new, specific AI-infrastructure narrative that can re-rate the stock if investors believe cloud-style monetization can offset rising AI capex.
+Catalyst: A July 1 Bloomberg-reported plan to develop a cloud infrastructure business for AI computing power and hosted AI models triggered an 8.81% single-day move on 159% of average volume, making this a fresh dated catalyst.[1]
+Entry: Enter only if the stock holds above the post-news breakout area on continued above-average volume; use a small starter tranche and add only on a clean intraday or daily hold above that level.
+Exit: Take partial profits into strength after a follow-through move; exit on a close back below the breakout level or if volume fades sharply after the catalyst window.
+Risk/reward: Good upside if the market treats the cloud narrative as real optionality, but downside is meaningful if the move was pure story-driven repricing.
+Bear/adversary: The strongest objection is that this is a high-quality company with an interesting but still unproven AI-cloud option, so the move may be more narrative than durable fundamental change.
+Source quality: High. The catalyst is dated, specific, and supported by a strong price-and-volume reaction from a reputable news report.[1]
+Chittick Cash Filter
+Score: 70/100
+Margin of safety: Not a classic margin-of-safety setup; the case depends on quality plus a fresh catalyst rather than a cheap absolute valuation.
+Valuation: Valuation is not obviously cheap, but the market may be paying for durable cash generation and a new AI monetization path if it proves real.
+Growth runway: 30-180 day upside comes from continued reassessment of AI capex efficiency and any concrete productization of cloud/AI infrastructure; longer term, the base ad franchise and AI tooling remain the runway.
+Balance-sheet risk: Balance-sheet risk is low relative to most growth peers, but capex intensity raises reinvestment risk rather than solvency risk.
+Capital allocation: Management is reinvesting heavily into AI infrastructure; the key question is whether that spending earns adequate incremental returns versus simply defending platform position.
+Concentration case: Deserves attention over a broad ETF because the catalyst is company-specific, dated, and can create idiosyncratic alpha if the market keeps repricing the AI option value.
+Owner thesis, 30-180 days: Review or hold over 30-180 days if the cloud narrative becomes supported by product announcements, monetization evidence, or continued capex-to-revenue signaling.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: news
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: mega-cap-platform-ai
+Research tier: monitor-only
+Allocation learning: Use a smaller starter size than a typical 8-10% concentration because the move is catalyst-driven and narrative-sensitive. Recent generic v1 ban rejection requires a fresh eligibility recheck; do not auto-suppress a plain long-only stock...
+Hugging Face Filter
+Sentiment: positive-catalyst-reprice (0.61), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.28
+Evidence rank: 1/100
+Memory similarity: 0.22
+Vetoes: none
+Model notes: Fresh dated catalyst; not a recycled stale repeat in this pass; suitable as a selective quality-growth swing if price confirmation persists.
+Social buzz, max 10%: moderate attention around the AI/cloud story, but treated as secondary only.
+Congress signal, max 5%: none
+Sources: https://www.indmoney.com/blog/us-stocks/meta-cloud-business-meta-stock-what-it-means
+
+2. SMCI (semiconductors / AI infrastructure hardware) | confidence 0.62 | allocation 0.0% | stop 0.0% | Chittick 44/100 | tier watch | bucket semiconductors-hardware | HF source 1/100
+Thesis: Super Micro offers leveraged exposure to AI server demand, and the recent negative news flow may have created a reboundable setup if price stabilizes and the market refocuses on AI infrastructure growth.
+Catalyst: Recent coverage highlights a sharp selloff and new negative headlines, including an 8% drop tied to Taiwan raid reports and additional articles framing the name as extremely weak, which can create a short-term contrarian setup if the stock stops making new lows.[3][5]
+Entry: Do not chase weakness; only consider if it forms a clear intraday reversal or multi-day base after the selloff, with volume expansion on an up day and a tight invalidation point below the recent low.
+Exit: Scale out into sharp rebounds; hard-stop on a decisive break of the recent low or failure to reclaim the reversal level within the swing window.
+Risk/reward: Potentially high reward if a reflexive bounce develops, but the probability of failure is also high because the negative catalyst cluster is fresh.
+Bear/adversary: The strongest objection is that this is a falling knife with governance and headline overhang, so a rebound trade may be premature without a confirmed base.
+Source quality: Moderate-to-high on the negative-news side, but lower for a bullish entry because the current evidence is mostly cautionary rather than confirming strength.[3][5]
+Chittick Cash Filter
+Score: 44/100
+Margin of safety: Margin of safety is poor until the stock proves it can absorb the negative headlines and hold support.
+Valuation: Cheapness alone is not enough here because a low multiple can be a value trap when trust and execution are impaired.
+Growth runway: AI server demand remains the long-run runway, but the 1-10 day setup depends more on technical stabilization than on the medium-term thesis.
+Balance-sheet risk: Balance-sheet risk is not the primary issue; execution, trust, and volatility are the main risks.
+Capital allocation: Capital allocation is less relevant than management credibility and operational consistency in this short window.
+Concentration case: Worth watching for a high-beta AI hardware bounce, but not superior to cleaner quality names unless reversal evidence emerges.
+Owner thesis, 30-180 days: Only worth re-evaluating over 30-180 days if the company shows sustained operational repair and the negative headline cycle abates.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: news
+Fresh catalyst: yes
+Repeat count, 48h: 2
+Diversity bucket: semiconductors-hardware
+Research tier: watch
+Allocation learning: If used at all, size should be small and contingent on a confirmed reversal, not on narrative alone. Recent generic v1 ban rejection requires a fresh eligibility recheck; do not auto-suppress a plain long-only stock or ETF without curren...
+Hugging Face Filter
+Sentiment: high-volatility-negative (0.38), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.56
+Evidence rank: 1/100
+Memory similarity: 0.19
+Vetoes: none
+Model notes: Contrarian watchlist only; negative tape dominates until a confirmed reversal forms.
+Social buzz, max 10%: high attention, but mostly negative sentiment and volatility-driven discussion.
+Congress signal, max 5%: none
+Sources: https://finance.yahoo.com/markets/stocks/articles/wouldn-t-touch-supermicro-stock-184401092.html, https://www.aol.com/articles/super-micro-plunges-8-taiwan-195509742.html, https://finance.yahoo.com/technology/ai/articles/forget-super-micro-computer-google-151402314.html
+
+3. GE (industrials) | confidence 0.55 | allocation 0.0% | stop 0.0% | Chittick 54/100 | tier watch | bucket industrials | HF source 1/100
+Thesis: GE fits the quality-plus-catalyst template better than a broad ETF because it has large-scale industrial exposure, a cleaner business profile than many cyclicals, and a congressional-trading mention that may add weak attention support.
+Catalyst: Quiver Quant summary pages note recent congressional trading activity in GE, including 8 trades in the past 6 months with 5 purchases, which is a weak but fresh secondary attention signal.[6][12]
+Entry: Only consider on a technical breakout or pullback-to-support entry with volume confirmation; otherwise keep as a monitor candidate.
+Exit: Use a modest profit target and exit if the thesis lacks near-term follow-through or if price loses support after entry.
+Risk/reward: Reasonable if a clean setup appears, but the current evidence base is too thin for full conviction.
+Bear/adversary: The strongest objection is that this is not a true fresh catalyst trade; it is a low-weight signal layered onto an otherwise incomplete setup.
+Source quality: Weak-to-moderate because the available evidence is mostly secondary congressional-interest context rather than a hard operating catalyst.[6][12]
+Chittick Cash Filter
+Score: 54/100
+Margin of safety: Moderate quality can offer a better downside profile than hype names, but only if the entry is technically disciplined.
+Valuation: No clear valuation edge is established from the provided evidence alone.
+Growth runway: Industrial demand and execution can support a longer runway, but no specific 30-180 day operating inflection is confirmed in the dataset.
+Balance-sheet risk: No specific balance-sheet warning is surfaced here, but industrial cyclicality remains a risk to earnings stability.
+Capital allocation: Not enough evidence in the scan to judge current capital allocation quality decisively.
+Concentration case: Could be preferable to a broad ETF if a technical setup emerges because it offers idiosyncratic industrial exposure with some quality characteristics.
+Owner thesis, 30-180 days: Would merit a 30-180 day review only if filings, earnings, or backlog data confirm a real operating improvement.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: general
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: industrials
+Research tier: watch
+Allocation learning: Keep as a watchlist item until a dated operating or price catalyst appears.
+Hugging Face Filter
+Sentiment: neutral_quality_watch (0.48), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.12
+Evidence rank: 0/100
+Memory similarity: 0.14
+Vetoes: none
+Model notes: Secondary-signal candidate only; not execution-ready from current evidence.
+Social buzz, max 10%: none
+Congress signal, max 5%: weak congressional-trading attention only; not actionable by itself.
+Sources: https://www.quiverquant.com/news/General+Electric+Stock+(GE)+Opinions+on+Analyst+Upgrades+and+Bullish+Charts, https://www.quiverquant.com/news/Citigroup+Stock+(C)+Opinions+on+Analyst+Downgrades+and+Performance
+
+4. C (financials) | confidence 0.53 | allocation 0.0% | stop 0.0% | Chittick 52/100 | tier watch | bucket financials | HF source 1/100
+Thesis: Citigroup is a quality-improvement financial candidate with weak congressional-attention support, but it needs a more concrete operating or technical catalyst before becoming execution-ready.
+Catalyst: Quiver Quant summary pages indicate recent congressional trading activity in C, with 9 trades and all purchases in the past 6 months, but this is only weak secondary context.[6][12]
+Entry: Only consider after a technical setup or an official company catalyst appears; otherwise keep on monitor.
+Exit: If entered later, use a tight invalidation tied to the breakout/pullback level and do not allow the position to become a slow thesis drift.
+Risk/reward: Potentially good if a better catalyst appears, but poor in the current evidence state because the setup is incomplete.
+Bear/adversary: The strongest objection is that congressional disclosure alone is not enough to create a tradable edge here.
+Source quality: Weak-to-moderate because the catalyst is indirect and not sufficient on its own.[6][12]
+Chittick Cash Filter
+Score: 52/100
+Margin of safety: No clear margin-of-safety case is established from the available sources alone.
+Valuation: Not enough source support to claim undervaluation or a near-term re-rating.
+Growth runway: Longer-term bank/financial execution can compound, but the 30-180 day thesis is not yet source-backed.
+Balance-sheet risk: Banks have inherent credit and funding exposure, though no specific red flags are identified in this dataset.
+Capital allocation: Insufficient evidence here to rate capital allocation strongly.
+Concentration case: Could deserve attention over an ETF only once a real catalyst appears; today it is more of a monitor than a trade.
+Owner thesis, 30-180 days: Would need earnings, guidance, or regulatory developments to justify a 30-180 day owner-style thesis.
+Chittick reject reason: none
+Self-Learning Filter
+Catalyst type: general
+Fresh catalyst: no
+Repeat count, 48h: 0
+Diversity bucket: financials
+Research tier: watch
+Allocation learning: Maintain as a watch candidate until a stronger dated catalyst appears.
+Hugging Face Filter
+Sentiment: neutral_watch (0.44), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.10
+Evidence rank: 0/100
+Memory similarity: 0.11
+Vetoes: none
+Model notes: Secondary-signal only; currently not execution-ready.
+Social buzz, max 10%: none
+Congress signal, max 5%: weak congressional-trading attention only; not actionable by itself.
+Sources: https://www.quiverquant.com/news/Citigroup+Stock+(C)+Opinions+on+Analyst+Downgrades+and+Performance, https://www.quiverquant.com/news/General+Electric+Stock+(GE)+Opinions+on+Analyst+Upgrades+and+Bullish+Charts
 
