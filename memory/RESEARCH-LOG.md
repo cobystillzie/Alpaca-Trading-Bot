@@ -1718,4 +1718,16 @@ Candidates found: 3
 Risk appetite appears mixed-to-risk-on, with strong interest in AI infrastructure and select momentum names, but the tape remains vulnerable to sharp reversals when stories are valuation-driven rather than catalyst-backed. The best setups should combine a dated catalyst, clean trend confirmation, and durable business quality rather than repeating stale mega-cap themes.
 
 Candidates found: 4
+## Premarket Plan - 2026-07-03 08:25:01 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- META: score=83, base=100, chittick=70, approved=False, allocation=6.0%, stop=7.0%
+  rejects: Candidate references banned v1 instruments or leverage.; Low-weight social/congress signal needs at least two stronger sources.
+- SMCI: score=72, base=95, chittick=44, approved=False, allocation=0.0%, stop=0.0%
+  rejects: Candidate references banned v1 instruments or leverage.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
+- GE: score=71, base=90, chittick=54, approved=False, allocation=0.0%, stop=0.0%
+  rejects: Confidence below 0.60.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
+- C: score=71, base=90, chittick=52, approved=False, allocation=0.0%, stop=0.0%
+  rejects: Confidence below 0.60.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
 
