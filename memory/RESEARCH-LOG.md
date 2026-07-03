@@ -1730,4 +1730,9 @@ Premarket plan built from latest watchlist.
   rejects: Confidence below 0.60.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
 - C: score=71, base=90, chittick=52, approved=False, allocation=0.0%, stop=0.0%
   rejects: Confidence below 0.60.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
+## Two-Hour Research Agent - 2026-07-03 12:52:27 Eastern Daylight Time
+
+Semiconductors are pulling back sharply after an extreme AI-driven run, while the broader market remains rotational with a tilt toward quality and risk-selective buying rather than broad risk-on euphoria.
+
+Candidates found: 2
 

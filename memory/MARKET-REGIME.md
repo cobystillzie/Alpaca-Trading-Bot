@@ -10911,4 +10911,120 @@ The US equity market is grinding to record highs, but the underlying conditions 
     "https://www.facebook.com/schwabnetwork/posts/some-of-charles-schwabs-top-market-experts-offer-their-key-takeaways-in-a-lightn/"
   ]
 }
+## Market Regime Research - 2026-07-03 12:52:27 Eastern Daylight Time
+
+{
+  "summary": "US equities are in a **cautiously risk‑on, rotation-heavy regime**: broad indexes remain near highs with moderate pullbacks from AI/semis, Fed hike odds have eased on softer jobs data, volatility is contained, earnings expectations are still positive, and leadership is rotating away from mega-cap tech toward financials, healthcare, and other quality/defensive sectors.[2][3][7][16][22][25]",
+  "market_regime": {
+    "index_trend": {
+      "tone": "moderately bullish, with consolidation after an AI/semiconductor-led pullback",
+      "details": [
+        "The S&P 500 is reported to be only about **1.7% below its all‑time high**, indicating an ongoing positive primary trend despite recent sector volatility.[3]",
+        "June saw a modest **S&P 500 decline (~‑1%)** and a larger Nasdaq drop (~‑2.8%), reflecting valuation pressure and intra‑month selloffs in AI and semiconductor names rather than broad risk-off behavior.[2]",
+        "Recent sessions show **Dow leadership** and gains in S&P 500 and Nasdaq, signaling resilience and a broadening advance beneath the surface.[5][7]"
+      ]
+    },
+    "rates_and_fed": {
+      "tone": "stable-to-dovish vs prior expectations, with reduced near-term hike odds but a priced-in later hike",
+      "details": [
+        "The Fed has recently **held the policy rate steady** (around the mid‑3% range in the latest meeting under Chair Warsh).[6]",
+        "A **soft June jobs report** lowered the probability of an imminent rate hike, with futures reducing odds of a July increase and markets expecting the Fed to stay on hold in the near term.[3][6][16]",
+        "Money markets still **fully price a 25 bp hike in December**, with some risk of an earlier move in October, implying a later‑in‑year tightening risk even as near‑term pressure eases.[6]"
+      ],
+      "implications_for_equities": [
+        "Softer labor data plus disinflation dynamics support the view that **policy is near peak restrictive**, which tends to be constructive for equities while keeping a macro risk overhang.[3][6][9]",
+        "Rate expectations are a key driver of the **rotation from high‑duration growth (AI/semis) into value, quality and defensive sectors**.[3][7][22][25]"
+      ]
+    },
+    "volatility": {
+      "tone": "low-to-moderate, consistent with a controlled, not panicked, risk environment",
+      "details": [
+        "The **VIX index** remains in a historically low-to-normal band (exact latest tick not in results, but context and market behavior point to contained implied volatility).[18]",
+        "Commentary characterizes the environment as **“cautiously risk‑on” with persistent but manageable volatility**, driven more by sector rotation than broad index drawdowns.[2][17][24]",
+        "Credit and leveraged finance commentary highlight a **tilt to quality amid persistent volatility**, suggesting cross‑asset caution but no systemic stress.[24]"
+      ]
+    },
+    "earnings_tone": {
+      "tone": "constructive, with strong year‑on‑year growth expectations",
+      "details": [
+        "Upcoming earnings season is expected to be **“every bit as strong as 1Q26,” with mid‑20% year‑over‑year earnings gains**, supporting the view that the positive trend in equities remains underpinned by fundamentals.[3]",
+        "AI and data‑center companies reportedly have **order backlogs approaching three years**, reinforcing a durable demand narrative despite near‑term stock price volatility.[3]",
+        "Recent market commentary does not highlight broad earnings disappointments; instead, it emphasizes **valuation normalization and rotation** as key drivers of price action.[2][3][7]"
+      ]
+    },
+    "risk_on_off": {
+      "tone": "cautiously risk-on with a quality/defensive bias and selective de-risking in crowded AI/semis",
+      "drivers": [
+        "Soft employment data and easing near‑term Fed hike odds have **supported equities and weakened the dollar**, typical of a mild risk‑on backdrop.[3][7][16][25]",
+        "Flows show **risk-taking in financials, consumer discretionary, and communication services**, while investors also favor healthcare and staples for stability—indicating a blend of offense and defense rather than outright risk‑off.[1][4][7][10][22][26]",
+        "Macro research describes a **flight to quality** amid elevated geopolitical and rate risks, consistent with investors staying in the market but upgrading balance sheets and sector quality.[24][28]"
+      ],
+      "overall_assessment_for_bot": "Environment favors **participation with strict risk controls**: trends are positive but increasingly differentiated by sector and factor; paper-trading logic should assume rotation, valuation sensitivity, and macro headline risk rather than a uniform bull or bear regime.[1][2][3][7][16][17][22][24][25]"
+    }
+  },
+  "sector_rotation": {
+    "tone": "rotation is active and no longer theoretical; leadership is broadening beyond mega-cap AI/semis into financials, healthcare, staples, and other quality sectors",
+    "patterns": [
+      "Multiple sources report that **semiconductors and other technology names are under pressure** while sectors like healthcare, financials, utilities, and consumer staples have **held up better and led gains**.[1][2][3][4][7][10][22][25][26]",
+      "Weak jobs data triggered a **“rotation trade” away from AI giants toward healthcare and consumer staples**, as highlighted by major financial media.[4][16][22]",
+      "Commentary notes that **US equities are broadening beyond the mega‑cap growth complex**, implying that sector selection is increasingly important versus simple index exposure.[1][2][7][13]",
+      "Financials have emerged as **key leaders**, with large banks and diversified financials benefiting from firm loan demand and high nominal rates.[7]",
+      "Healthcare has been a **standout performer**, aligning with a broader rotation toward **defensive quality and cash‑flow stability**.[1][7][10][26]",
+      "Consumer discretionary and communication services show **selective strength** (e.g., major retail and platform names), though stock‑specific news can create short‑term setbacks.[7]",
+      "Research and commentary frame this as an **early‑to‑mid stage equity rotation**, where extreme concentration in US growth/AI is easing but not fully reversed.[2][13][25]"
+    ],
+    "implications_for_paper_trading_logic": [
+      "Signals based purely on **index-level momentum** may underrepresent risk if they ignore **intra‑index rotation and dispersion**.[1][2][7][13]",
+      "A cautious workflow should treat **mega‑cap tech/AI as crowded and more sensitive to rate/valuation headlines**, and treat **financials, healthcare, and staples** as current relative strength but still subject to macro shocks.[3][4][7][10][22][25][26]",
+      "Regime labels should reflect **“rotation/breadth expansion”** rather than a simple growth or value regime, and position filters might emphasize **sector and factor diversification** for scenario testing."
+    ]
+  },
+  "risk_flags": {
+    "macro_policy": [
+      "Although near‑term hike odds have fallen, futures still price a **potential Fed rate increase later in the year**, preserving policy‑tightening risk.[6][3][16]",
+      "Disinflation is ongoing but incomplete; inflation remains above long‑run targets, keeping **policy and inflation surprises** as key risk drivers.[9][15]"
+    ],
+    "labor_and_growth": [
+      "The **soft jobs report** that eased hike expectations also signals a **cooling labor market**, which can later translate into growth and earnings risk if the slowdown deepens.[3][7][16][25]",
+      "Recent commentary highlights that the labor market is **“not completely breaking”** but is clearly cooling, suggesting a transition phase rather than stable expansion.[7]"
+    ],
+    "valuation_and_concentration": [
+      "AI and semiconductor names have faced **renewed valuation scrutiny** and multiple selloffs, underscoring **valuation and crowding risk in high‑multiple growth**.[2][3][20]",
+      "Several sources note that investors remain **heavily concentrated in US equities**, and earlier extreme concentration in a narrow set of leaders is only beginning to soften.[2][13]"
+    ],
+    "sector_and_factor_risks": [
+      "Active rotation means **leadership can change quickly**, raising regime‑shift risk for any strategy implicitly anchored to recent winners.[1][2][4][7][13][22][25]",
+      "Defensive sectors (healthcare, staples, utilities) currently show strength, but this is partly driven by **macro uncertainty and flight to quality**, which can reverse if growth or policy expectations change abruptly.[1][7][10][24][26]"
+    ],
+    "volatility_and_event_risk": [
+      "Implied equity volatility is not elevated, but research emphasizes **persistent volatility and geopolitical risk**, prompting a quality tilt across markets.[18][24]",
+      "Upcoming **Fed minutes and data releases** remain potential catalysts for fast repricing of rate expectations and sector leadership.[6][15][17]"
+    ],
+    "workflow_specific_cautions": [
+      "Given the bot’s existing constraints (allocation and stop‑loss bands, avoidance of leverage and certain instruments), the current regime suggests prioritizing **scenario testing of rotation, valuation shocks, and rate‑headline volatility**, rather than high‑beta trend-chasing.",
+      "The memory log showing **multiple recent candidate rejections for confidence, stale catalysts, and max position limits** is consistent with the market’s highly selective and rotational nature; paper‑trading logic should expect **more frequent “no‑trade” days** and higher signal decay in crowded themes."
+    ]
+  },
+  "source_urls": [
+    "https://team.monetagroup.com/monthly-recap-june-2026/",
+    "https://www.investing.com/analysis/soft-jobs-report-lowers-fed-rate-hike-odds-as-positive-market-trend-holds-200683240",
+    "https://www.wsj.com/finance/stocks/the-rotation-trade-is-back-on-wall-street-2f633f31",
+    "https://schwabnetwork.com/articles/dow-leads-as-rotation-broadens-beyond-semiconductors",
+    "https://www.moomoo.com/community/feed/investing-essentials-the-rotation-is-no-longer-a-theory-u-116853451456517",
+    "https://tradenation.com/en-gb/articles/markets-reprice-fed-expectations-as-tech-rotation-accelerates/",
+    "https://markets.jpmorgan.com/research-and-insights",
+    "https://finance.yahoo.com/markets/stocks/articles/barclays-sees-early-signs-equity-rotation-as-us-market-leadership-begins-to-soften",
+    "https://fred.stlouisfed.org/series/VIXCLS",
+    "https://www.wsj.com/economy/week-ahead-for-fx-bonds-fed-minutes-in-focus-e7f43f94",
+    "https://www.chase.com/personal/investments/learning-and-insights/article/disinflation-what-is-it-will-we-see-it-in-2026",
+    "https://www.etftrends.com/etf-strategist-content-hub/regime-change-at-the-federal-reserve-why-it-could-matter-to-investors",
+    "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-ai-tumbles-apple-robinhood-buy-signals-tesla-sandisk-dive/",
+    "https://www.moodys.com/web/en/us/insights/credit-risk/leveraged-finance-market.html",
+    "https://www.morningstar.com/news/dow-jones/202607028103/dow-jones-top-markets-headlines-at-9-pm-et-the-rotation-trade-is-back-on-wall-street-trump",
+    "https://www.portjervislibrary.org/first-dry/Dow-Surges-as-Healthcare-Rally-Offsets-Tech-Rout-SP-500-Holds-Flat-42-7781",
+    "https://www.wealthmagik.com/expert-time/Dow-Rides-Healthcare-Surge-While-Tech-Slide-Caps-SP-500-Gains-42-8698",
+    "https://tradenation.com/en-gb/articles/markets-reprice-fed-expectations-as-tech-rotation-accelerates/",
+    "https://tradenation.com/en-gb/articles/markets-reprice-fed-expectations-as-tech-rotation-accelerates/"
+  ]
+}
 

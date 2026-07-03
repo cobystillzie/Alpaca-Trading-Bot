@@ -36736,4 +36736,28 @@ Model notes: Secondary-signal only; currently not execution-ready.
 Social buzz, max 10%: none
 Congress signal, max 5%: weak congressional-trading attention only; not actionable by itself.
 Sources: https://www.quiverquant.com/news/Citigroup+Stock+(C)+Opinions+on+Analyst+Downgrades+and+Performance, https://www.quiverquant.com/news/General+Electric+Stock+(GE)+Opinions+on+Analyst+Upgrades+and+Bullish+Charts
+## Research Update - 2026-07-03 12:52:27 Eastern Daylight Time
+
+Research Update
+
+Market tone: Semiconductors are pulling back sharply after an extreme AI-driven run, while the broader market remains rotational with a tilt toward quality and risk-selective buying rather than broad risk-on euphoria.
+Candidates: 2
+
+1. INTC (semiconductors) | confidence 0.72 | allocation 8.0% | stop 8.0% | Chittick 74/100 | tier execution-ready | bucket semiconductors-pullback-quality | HF source 1/100
+Recommendation: execute-if-guards-pass
+Catalyst: 1) Confirmed report that Alphabet placed a firm order with Intel for more than 3 million tensor processing units (TPUs) for 2028 delivery, validating Intel’s 18A process and advanced packaging for hyperscale customers.[4] 2) Recent profi...
+Chittick Cash: Margin of safety is modest to thin on pure valuation (negative P/E, consensus target below price) but partially offset by the structural significance of the Alphabet order, government-supported manufacturing build-out...
+HF filter: sentiment=mixed-positive source=1/100 hype=0.32 vetoes=0
+Self-learning: tier=execution-ready repeat48h=1 fresh=yes bucket=semiconductors-pullback-quality
+Social buzz, low weight: Retail and social buzz is elevated in semiconductors broadly, but available snippets emphasize sector pullback and valuation questions rather than meme-style hype for Intel spec...
+Congress signal, low weight: None specific or actionable for Intel noted in the current snippets.
+
+2. MP (materials) | confidence 0.58 | allocation 0.0% | stop 8.0% | Chittick 63/100 | tier watch | bucket materials-critical-minerals | HF source 1/100
+Recommendation: watch
+Catalyst: Recent trading and news flow around MP focus on its role as a key U.S. supplier of rare earths, a theme supported by ongoing policy and industrial interest in domestic critical materials, though no single blockbuster new contract headlin...
+Chittick Cash: Margin of safety is driven by asset quality and strategic relevance rather than near-term valuation alone; however, commodity price volatility reduces classical margin-of-safety comfort and suggests keeping position s...
+HF filter: sentiment=neutral source=1/100 hype=0.28 vetoes=0
+Self-learning: tier=watch repeat48h=0 fresh=yes bucket=materials-critical-minerals
+Social buzz, low weight: No notable social buzz or meme-style attention is highlighted in the current data for MP.[20]
+Congress signal, low weight: None noted.
 
