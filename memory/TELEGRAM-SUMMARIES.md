@@ -36793,4 +36793,202 @@ HF filter: sentiment=neutral source=0/100 hype=0.22 vetoes=2
 Self-learning: tier=monitor-only repeat48h=0 fresh=yes bucket=consumer-staples
 Social buzz, low weight: none
 Congress signal, low weight: Recent House disclosure in CAG is present, but only as low-weight delayed context.
+## Performance Ledger - 2026-07-03 16:30:02 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-07-03 16:30:02 Eastern Daylight Time
+- Portfolio value: $100,269.74
+- P/L vs $100k baseline: $269.74
+- Full paper-account return: 0.270%
+- Managed-capital return: 2.70%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 4.82%
+- Latest position value: $5,869.74
+- Full-account cash reserve: 94.1%
+- Managed-capital cash reserve: 41.3%
+- Max snapshot drawdown: $328.28 from 2026-05-08 16:30:03 Eastern Daylight Time to 2026-06-09 12:40:01 Eastern Daylight Time
+
+Open Position Review
+- DT: winner, value $908.34, unrealized P/L $108.34, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 56 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GLRE: loser, value $459.06, unrealized P/L $-40.94, entry 2026-05-07 09:47:11 Eastern Daylight Time, thesis age 57 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: loser, value $774.27, unrealized P/L $-25.73, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 64 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- IBRX: winner, value $668.71, unrealized P/L $68.71, entry 2026-05-11 09:48:18 Eastern Daylight Time, thesis age 53 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: winner, value $539.83, unrealized P/L $39.83, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 52 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: loser, value $779.44, unrealized P/L $-20.56, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 63 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $817.16, unrealized P/L $17.16, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 58 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $922.93, unrealized P/L $122.93, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 66 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- GOOGL: appeared 42 times; open position P/L $-25.73.
+- INTC: appeared 41 times; market outcome unavailable until benchmark/candidate price history is captured.
+- SCHD: appeared 34 times; open position P/L $17.16.
+- SPMO: appeared 32 times; open position P/L $122.93.
+- NVDA: appeared 29 times; open position P/L $-20.56.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MSFT: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 11 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- UNP: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VALN: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Max open-position count would be exceeded.: 20
+  - Candidate references banned v1 instruments or leverage.: 19
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 11
+  - Low-weight social/congress signal needs at least two stronger sources.: 8
+  - Single-stock allocation would exceed 15%.: 7
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources.: 6
+  - Target allocation must be between 1% and 15%.: 6
+  - A market-open order is already logged for today. No backup order was placed.: 5
+- By symbol:
+  - GOOGL: 12
+  - INTC: 5
+  - INTU: 5
+  - AGI: 3
+  - BAH: 3
+  - KO: 3
+  - PLTR: 3
+  - TMXX.F: 3
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 6
+- congressional: 2
+- unknown: 4
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold met: 8 trades over 66 days.
+- Strategy tuning may be reviewed, but safety guardrails still apply.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## End Of Day Memo - 2026-07-03 16:30:02 Eastern Daylight Time
+
+End Of Day Analyst Memo
+
+Recommendation: Carry forward only evidence-backed candidates; review stops before the next market-open run.
+
+Market Regime
+End-of-day review of paper portfolio, trade quality, risk notes, and next-day watchlist.
+
+Portfolio
+Portfolio value: 100269.74 Cash: 94400 Buying power: 394035.27 Positions: - DT: qty=20.289119959, market_value=908.343901, unrealized_pl=108.343901 - GLRE: qty=28.042624789, market_value=459.057768, unrealized_pl=-40.942232 - GOOGL: qty=2.151289429, market_value=774.270578, unrealized_pl=-25.729422 - IBRX: qty=70.838252656, market_value=668.713105, unrealized_pl=68.713105 - LNC: qty=14.590020426, market_value=539.830756, unrealized_pl=39.830756 - NVDA: qty=4.00060009, market_value=779.436916, unrealized_pl=-20.563084 - SCHD: qty=25.2286345, market_value=817.155471, unrealized_pl=17.155471 - SPMO: qty=6.119014838, market_value=922.931008, unrealized_pl=122.931008 Performance: value $100,269.74, P/L vs $100k $269.74, managed return 2.70%, deployed return 4.82%, managed cash reserve 41.3%.
+
+Top Candidates
+
+1. GOOGL (mega-cap internet/cloud) | confidence 0.54 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket mega-cap-internet-cloud | HF source 0/100 | HF veto
+Thesis: Alphabet remains a high-quality business with durable cash generation, but the current setup is better viewed as a quality watch than an execution-ready swing because the latest evidence is mostly ownership-flow and general AI/cloud narrative rather than a hard new catalyst.
+Catalyst: Recent filing-related ownership changes and ongoing AI/cloud narrative, but no clearly dated company catalyst in the provided results.
+Entry: Monitor only; if a fresh earnings, filing, guidance, or confirmed breakout catalyst appears, consider a small tranche on breakout confirmation above prior resistance with volume expansion.
+Exit: Use a tight invalidation if the breakout fails quickly or if price loses the post-catalyst support level; otherwise trail gains only after confirmed trend extension.
+Risk/reward: Good business quality, but the current near-term reward does not clearly outweigh the stale-catalyst risk.
+Bear/adversary: The strongest objection is repeat-decay: the name has been recycled many times without a sufficiently fresh catalyst to justify execution-ready status.
+Source quality: Weak-to-moderate; the results are mostly secondary reporting and filing summaries rather than a fresh company event.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Quality is real, but the current setup does not show a strong discount or a fresh catalyst that would improve downside protection over the next 1-10 days.
+Valuation: Attractive only if price offers a better entry after a catalyst; otherwise the stock is still a quality hold rather than a clear near-term mispricing.
+Growth runway: AI, cloud, and core advertising remain the long-run runway, but that is an owner-thesis argument rather than a new swing-trade catalyst.
+Balance-sheet risk: Low balance-sheet risk relative to most equities, with the main risks being regulatory, competition, and capital intensity rather than leverage.
+Capital allocation: Management generally allocates capital from a position of strength, but large AI and infrastructure spending needs continued proof of returns.
+Concentration case: This deserves attention over a broad ETF only if a real catalyst emerges; otherwise index exposure or a different sector with fresh news is cleaner.
+Owner thesis, 30-180 days: A 30-180 day hold case would require evidence that AI/cloud monetization and margins are still compounding faster than the market expects.
+Chittick reject reason: repeat_decay; stale catalyst; not execution-ready on current evidence
+Self-Learning Filter
+Catalyst type: filing
+Fresh catalyst: yes
+Repeat count, 48h: 4
+Diversity bucket: mega-cap-internet-cloud
+Research tier: monitor-only
+Allocation learning: Keep at zero until a dated earnings, guidance, filing, or breakout catalyst appears; do not recycle on narrative alone.
+Hugging Face Filter
+Sentiment: neutral (0.41), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.44
+Evidence rank: 0/100
+Memory similarity: 0.91
+Vetoes: repeat_decay; stale_catalyst; memory_similarity
+Model notes: High-quality business, but memory indicates repeated rejection without a dated catalyst delta.
+Social buzz, max 10%: Light attention from filing-related coverage, but not enough to matter on its own.
+Congress signal, max 5%: none
+Sources: https://www.marketbeat.com/instant-alerts/filing-stokes-capital-advisors-llc-buys-2377-shares-of-alphabet-inc-googl-2026-07-03/, https://www.marketbeat.com/instant-alerts/filing-alphabet-inc-googl-position-lowered-by-northeast-investment-management-2026-07-03/, https://www.ainvest.com/news/alphabet-tops-turnover-9-34-billion-djia-debut-ai-push-2607/, https://www.aol.com/articles/ai-genius-john-jumper-worth-1846000...
+
+2. SPOT (consumer internet / streaming) | confidence 0.61 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier watch | bucket consumer-internet-streaming | HF source 0/100 | HF veto
+Thesis: Spotify is a cleaner underrepresented-sector idea than another recycled megacap because it has a documented congressional disclosure signal and remains a focused consumer internet asset with more idiosyncratic upside if attention persists.
+Catalyst: Recent congressional transaction disclosure provides secondary attention context, but it remains a delayed and low-weight signal rather than a primary catalyst.
+Entry: Watch only; if price confirms a post-disclosure trend with volume and a clean higher-high setup, then consider a small paper tranche with strict risk control.
+Exit: Exit on failed follow-through, loss of the breakout base, or if volume dries up after the attention spike.
+Risk/reward: Potentially better asymmetric setup than another stale mega-cap, but still not strong enough to call execution-ready on the current evidence.
+Bear/adversary: The strongest objection is that the signal is too indirect and delayed, so the move may already be priced in before a paper-trade entry.
+Source quality: Moderate but delayed; congressional disclosures are weak secondary context and do not by themselves establish a tradeable edge.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Margin of safety is limited without a company-specific catalyst or valuation reset.
+Valuation: Not obviously cheap enough to override the weak catalyst quality.
+Growth runway: Longer-term runway comes from monetization, subscriber growth, and product mix, but those are owner-hold arguments more than 1-10 day trade drivers.
+Balance-sheet risk: Balance-sheet risk does not appear to be the main issue here; the bigger concern is catalyst quality and valuation sensitivity.
+Capital allocation: No strong capital-allocation edge is established by the current evidence.
+Concentration case: Better than a broad ETF only if the disclosure-linked attention becomes tradable; otherwise it stays a watchlist name.
+Owner thesis, 30-180 days: A 30-180 day case would rely on continued user growth, monetization improvement, and margin expansion rather than on the disclosure itself.
+Chittick reject reason: low-weight secondary catalyst only; no strong fresh fundamental catalyst
+Self-Learning Filter
+Catalyst type: filing
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: consumer-internet-streaming
+Research tier: watch
+Allocation learning: Use as a sector-diversification alternative rather than repeating overused mega-cap tech.
+Hugging Face Filter
+Sentiment: neutral (0.39), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.41
+Evidence rank: 0/100
+Memory similarity: 0.22
+Vetoes: low_weight_secondary_catalyst
+Model notes: Disclosure signal exists but is delayed and weak; usable only as attention context.
+Social buzz, max 10%: none
+Congress signal, max 5%: Recent House disclosure in SPOT is present, but it is delayed and should only be treated as secondary context.
+Sources: https://www.quiverquant.com/congresstrading/trade/House-C001123-2595
+
+3. CAG (consumer staples) | confidence 0.58 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket consumer-staples | HF source 0/100 | HF veto
+Thesis: Conagra offers a defensive consumer-staples profile that fits the broader market’s uneven tone better than another recycled growth name, but it remains a monitor-only idea because the disclosure signal is weak and delayed.
+Catalyst: Recent congressional disclosure provides secondary context only; there is no hard new company catalyst in the provided results.
+Entry: Monitor only; if a fresh earnings or guidance update appears and price confirms stability, then reassess for a small tranche.
+Exit: Do not allocate without a dated catalyst; if entered later, exit on failure of defensive support or disappointing guidance.
+Risk/reward: Reasonable defensive profile, but the current setup is too weak for execution.
+Bear/adversary: The strongest objection is that a congressional disclosure is not a trade catalyst and does not establish expected upside.
+Source quality: Moderate-to-weak because the signal is delayed and not company-operational.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Defensive profile helps, but there is no evidence of a strong valuation discount in the current results.
+Valuation: Not clearly compelling enough to justify a paper trade without a fresh company catalyst.
+Growth runway: Growth runway is modest and not the main attraction; stability matters more than expansion here.
+Balance-sheet risk: No leverage-related issue is highlighted in the provided results, but that does not substitute for a trading catalyst.
+Capital allocation: No special capital-allocation edge is established.
+Concentration case: This is only worth considering if the broader market turns more defensive and the name gets a company-specific catalyst.
+Owner thesis, 30-180 days: A 30-180 day thesis would require evidence of stable volumes, pricing, and margin resilience, not the disclosure itself.
+Chittick reject reason: monitor-only; no execution-ready catalyst
+Self-Learning Filter
+Catalyst type: filing
+Fresh catalyst: yes
+Repeat count, 48h: 1
+Diversity bucket: consumer-staples
+Research tier: monitor-only
+Allocation learning: Use as a defensive alternative, but do not allocate without a real company event.
+Hugging Face Filter
+Sentiment: neutral (0.31), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.22
+Evidence rank: 0/100
+Memory similarity: 0.18
+Vetoes: monitor_only; low_weight_secondary_catalyst
+Model notes: Defensive but catalyst-poor; best kept on the bench.
+Social buzz, max 10%: none
+Congress signal, max 5%: Recent House disclosure in CAG is present, but only as low-weight delayed context.
+Sources: https://www.quiverquant.com/congresstrading/trade/House-C001123-2568
 
