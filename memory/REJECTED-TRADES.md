@@ -612,4 +612,28 @@ Stop loss must be between 3% and 12%.
 Confidence below 0.60.
 Target allocation must be between 1% and 15%.
 Stop loss must be between 3% and 12%.
+## Rejected SPOT - 2026-07-07 05:21:43 Eastern Daylight Time
+
+Low-weight social/congress signal needs at least two stronger sources.
+low_weight_secondary_catalyst
+Target allocation must be between 1% and 15%.
+Stop loss must be between 3% and 12%.
+## Rejected GOOGL - 2026-07-07 05:21:45 Eastern Daylight Time
+
+repeat_decay
+stale_catalyst
+memory_similarity
+HF memory filter flags similarity to prior rejected patterns.
+Candidate is monitor-only and cannot be traded.
+Confidence below 0.55.
+Target allocation must be between 1% and 15%.
+Stop loss must be between 3% and 12%.
+## Rejected CAG - 2026-07-07 05:21:46 Eastern Daylight Time
+
+Low-weight social/congress signal needs at least two stronger sources.
+monitor_only
+low_weight_secondary_catalyst
+Candidate is monitor-only and cannot be traded.
+Target allocation must be between 1% and 15%.
+Stop loss must be between 3% and 12%.
 

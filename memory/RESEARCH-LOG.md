@@ -1740,4 +1740,14 @@ Candidates found: 2
 The tape remains **selective and mildly risk-on**, but the available evidence is still dominated by stale megacap/ETF ideas and weak, low-signal attention flow. A fresh, execution-ready edge is not strongly established in the provided results, so the best output is a tight watchlist with one conditional idea and several monitor-only names.
 
 Candidates found: 3
+## Premarket Plan - 2026-07-07 05:21:41 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- GOOGL: score=66, base=90, chittick=35, approved=False, allocation=0.0%, stop=0.0%
+  rejects: repeat_decay; stale_catalyst; memory_similarity; HF memory filter flags similarity to prior rejected patterns.; Candidate is monitor-only and cannot be traded.; Confidence below 0.55.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
+- SPOT: score=69, base=95, chittick=35, approved=False, allocation=0.0%, stop=0.0%
+  rejects: Low-weight social/congress signal needs at least two stronger sources.; low_weight_secondary_catalyst; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
+- CAG: score=66, base=90, chittick=35, approved=False, allocation=0.0%, stop=0.0%
+  rejects: Low-weight social/congress signal needs at least two stronger sources.; monitor_only; low_weight_secondary_catalyst; Candidate is monitor-only and cannot be traded.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
 
