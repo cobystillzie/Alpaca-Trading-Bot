@@ -79,4 +79,15 @@ Catalyst: Q1 $326M earnings reality vs market-priced weakness per AInvest analys
 Bear case: Persistent sector weakness pricing or macro credit stress hitting insurers.
 Stop plan: 8.0% stop/trailing review.
 Warnings: none
+## ORDER: Paper Sell GLRE - 2026-07-07 05:22:01 Eastern Daylight Time
+
+Symbol: GLRE
+Qty: 28.042624789
+Entry basis: $17.83
+Last price: $16.32
+Market value: $457.66
+Unrealized P&L: $-42.34 (-8.5%)
+Order id: 74a13113-7f29-41f2-bad1-65186be662fd
+Reason: stop-loss: unrealized P&L -8.5% breached documented stop -8.0%
+Routine: End Of Day Summary
 
