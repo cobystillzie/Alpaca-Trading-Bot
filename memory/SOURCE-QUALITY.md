@@ -21563,4 +21563,155 @@ SEC/company quality check:
     "https://sg.finance.yahoo.com/quote/USAR/news/"
   ]
 }
+## Source And Signal Research - 2026-07-07 05:23:40 Eastern Daylight Time
+
+Social buzz, max 10% influence:
+{"summary": "Broad market social and news attention is currently focused on thematic areas (AI infrastructure, semiconductors, energy) rather than on a single, clearly anomalous liquid US stock or ETF. The most notable individual name with elevated speculative chatter is AtaiBeckley (ATAI) due to takeover rumors, which should be treated as unconfirmed and high-risk context only.[2]\n\nSemiconductors are getting outsized attention as a group, with multiple institutional narratives framing them as outperformers versus Big Tech and crypto in 1H 2026, which can attract momentum and hype flows but is still mostly supported by fundamental performance discussions.[9] AI-related infrastructure (including space-based compute) is receiving heavy media coverage, driven by commentary from high-profile figures like Elon Musk, which can spill over into AI, space, and satellite-related equities and ETFs but is more thematic than tied to one ticker.[1]\n\nNo clear, single-ticker meme-style frenzy (similar to historic AMC/GME episodes) is evident in the sampled data; activity appears spread across sectors and narratives rather than concentrated in a narrow, illiquid name.[3][5]",
+
+"social_buzz": [
+  {
+    "ticker": "ATAI",
+    "instrument_type": "stock",
+    "exchange": "NasdaqGM",
+    "buzz_summary": "Speculative takeover chatter around AtaiBeckley by a major U.S. pharmaceutical company, highlighted in finance media and likely echoed on social platforms.[2] Price is noted as materially below analyst consensus targets, which can amplify retail interest.",
+    "buzz_drivers": [
+      "Rumored M&A/\"takeover talk\" with a major U.S. pharma.[2]",
+      "Valuation gap versus analyst target (trades around US$4.96 vs US$14.00 consensus).[2]"
+    ],
+    "hype_risk_flags": [
+      "Rumors described as \"speculation\" and \"takeover talk\" without confirmed deal terms or official bids.[2]",
+      "Language implying large upside based on analyst targets may encourage pump-style narratives if detached from updated fundamentals.[2]"
+    ],
+    "attention_strength": "medium-high",
+    "context_note": "Treat M&A speculation and target-price gaps as weak context only; they are not a sufficient basis for trades without corroborating fundamental or regulatory filings."
+  },
+  {
+    "ticker": "SMH/semis-basket-analogs",
+    "instrument_type": "sector_ETF_proxy",
+    "exchange": "US",
+    "buzz_summary": "Semiconductor stocks as a group are heavily discussed for having \"beat Big Tech and crypto\" in 1H 2026, drawing attention from both institutional commentary and likely social/media narratives.[9]",
+    "buzz_drivers": [
+      "Outperformance of semiconductor sector versus Big Tech and crypto in H1 2026.[9]",
+      "Coverage by major banks (Goldman backing chips, Morgan Stanley flagging a potential turn).[9]"
+    ],
+    "hype_risk_flags": [
+      "Narratives focusing on \"sector has crushed everything\" can invite momentum-driven crowd behavior that downplays stock-level fundamentals.[9]",
+      "Conflicting institutional views (one bank bullish, another cautious) signal that consensus is not uniform, so simplified social takes may be overstated.[9]"
+    ],
+    "attention_strength": "high (sector-wide, not single-ticker)",
+    "context_note": "Attention is thematic and diversified across many liquid US semis stocks and ETFs; use as background only, not as a trade trigger."
+  },
+  {
+    "ticker": "AI/space-thematic-basket",
+    "instrument_type": "theme",
+    "exchange": "US/global",
+    "buzz_summary": "Heightened discussion around AI infrastructure and space-based compute following public remarks by Elon Musk that \"space is the only way to scale at scale\" for AI.[1] This can influence sentiment around AI infrastructure, satellite, and space-focused equities and ETFs.",
+    "buzz_drivers": [
+      "High-profile commentary on orbital infrastructure for AI compute.[1]",
+      "Media framing around physical limits of Earth-based data centers and energy for AI.[1]"
+    ],
+    "hype_risk_flags": [
+      "Visionary language may encourage long-horizon speculative narratives that are not yet matched by near-term revenue or project-level visibility for most listed names.[1]",
+      "Potential for social media to extrapolate single comments into broad investment theses without rigorous valuation work."
+    ],
+    "attention_strength": "medium (theme-level, sporadic spikes)",
+    "context_note": "This is primarily narrative/vision-driven coverage; treat as macro-thematic sentiment, not as a specific stock signal."
+  },
+  {
+    "ticker": "CBOE",
+    "instrument_type": "stock",
+    "exchange": "Cboe",
+    "buzz_summary": "Cboe Global Markets reported strong June 2026 trading volumes, which may modestly increase attention among options and derivatives-focused market participants.[4]",
+    "buzz_drivers": [
+      "Release of trading volume statistics, highlighting equity and index derivatives activity.[4]"
+    ],
+    "hype_risk_flags": [
+      "Coverage is largely factual and operational; little evidence of pump-style narratives in the sampled material.[4]"
+    ],
+    "attention_strength": "low-medium",
+    "context_note": "Attention appears fundamentally oriented (volumes and business metrics) rather than hype-driven."
+  },
+  {
+    "ticker": "UBS ETRACS ETNs",
+    "instrument_type": "ETNs",
+    "exchange": "NYSE Arca",
+    "buzz_summary": "Coupon payment announcements on multiple ETRACS exchange-traded notes by UBS Investment Bank.[6] This can draw niche attention among yield-seeking traders but does not resemble meme-style hype.",
+    "buzz_drivers": [
+      "Declared coupon payments on 9 ETRACS ETNs.[6]"
+    ],
+    "hype_risk_flags": [
+      "Structured products and ETNs can be misinterpreted on social media, but current coverage is formal and informational rather than promotional.[6]"
+    ],
+    "attention_strength": "low",
+    "context_note": "Signal is technical/income-focused, with limited evidence of broad speculative discussion."
+  },
+  {
+    "ticker": "Energy basket (DVN/LOGAN/etc.)",
+    "instrument_type": "stocks",
+    "exchange": "US/Canada",
+    "buzz_summary": "Energy names like Devon Energy and Logan Energy are discussed in the context of mixed performance and revised production guidance.[10][12] Coverage is more fundamental (guidance, earnings) than hype.",
+    "buzz_drivers": [
+      "Devon Energy flagged as a \"casualty\" that missed broader market gains.[10]",
+      "Logan Energy increasing 2026 production guidance and capital budget after strong first-half results.[12]"
+    ],
+    "hype_risk_flags": [
+      "Narratives around \"casualty list\" can draw contrarian interest, but present coverage is analytical rather than promotional.[10]",
+      "Guidance revisions may attract trading but are rooted in operational metrics.[12]"
+    ],
+    "attention_strength": "medium (fundamental, not meme-like)",
+    "context_note": "Useful as sector-fundamental context only; no strong signs of social-driven pump behavior in the sampled material."
+  }
+],
+
+"attention_anomalies": [
+  {
+    "category": "speculative_M&A_small_cap",
+    "description": "Elevated attention to a relatively small-cap biotech (ATAI) primarily on the basis of rumored takeover interest and large gaps to analyst target prices.[2] This pattern historically correlates with social-media-driven speculative trading.",
+    "evidence": "Article explicitly frames market \"speculation\" and \"takeover talk\" around AtaiBeckley, pointing to rumor-based interest rather than confirmed transactions.[2]",
+    "risk_assessment": "high",
+    "risk_notes": [
+      "Rumor-driven spikes can reverse sharply if no formal offer materializes.",
+      "Social narratives may cherry-pick analyst targets without considering updated risk factors.",
+      "Appropriate only as a monitor signal; fundamentals and filings must dominate any decision-making."
+    ]
+  },
+  {
+    "category": "sector_outperformance_hype",
+    "description": "Semiconductor sector framed as having \"beat Big Tech and crypto\" in H1 2026, with strong performance widely discussed and contrasted to other risk assets.[9]",
+    "evidence": "Coverage highlights chips' outperformance and cites differing institutional views (Goldman backing chips while Morgan Stanley signals a possible turn), which can fuel strong opinionated debate online.[9]",
+    "risk_assessment": "medium",
+    "risk_notes": [
+      "Outperformance narratives often attract late-cycle momentum flows and retail FOMO.",
+      "Conflicting institutional opinions may be oversimplified in social discourse, leading to one-sided hype.",
+      "Sector-wide attention can mask dispersion in fundamentals among individual names."
+    ]
+  },
+  {
+    "category": "visionary_theme_overextension",
+    "description": "AI and space-based compute attention driven by visionary statements (e.g., \"space is the only way to scale at scale\"), prompting thematic excitement across multiple tickers and ETFs without near-term operational detail.[1]",
+    "evidence": "Media reports emphasize orbital infrastructure as key to AI scaling, which is a long-horizon concept more suited to narrative than immediate cash-flow modeling.[1]",
+    "risk_assessment": "medium",
+    "risk_notes": [
+      "Statements from charismatic figures often get amplified on social platforms, sometimes detached from realistic development timelines.",
+      "Retail commentary may extrapolate broad technology visions into aggressive stock expectations without supporting data.",
+      "Good as macro-sentiment input; not a direct trading catalyst for specific instruments without corroborating company-level updates."
+    ]
+  }
+],
+
+"source_urls": [
+  "https://finance.yahoo.com/healthcare/articles/ataibeckley-atai-draws-takeover-talk-020822847.html",
+  "https://finance.yahoo.com/markets/stocks/articles/semiconductors-beat-big-tech-crypto-000000516.html",
+  "https://finance.yahoo.com/technology/articles/elon-musk-says-space-only-203138893.html",
+  "https://finance.yahoo.com/markets/options/articles/cboe-global-markets-reports-trading-203000921.html",
+  "https://finance.yahoo.com/markets/options/articles/ubs-declares-coupon-payments-12-203000303.html",
+  "https://finance.yahoo.com/markets/stocks/articles/devon-energy-smithfield-foods-hit-124327545.html",
+  "https://finance.yahoo.com/energy/articles/logan-energy-corp-increases-2026-110000730.html"
+]}
+
+Congressional disclosures, max 5% influence:
+{"summary":"Recent public congressional trade disclosures over the last ~6 months show activity in several liquid U.S. stocks/ETFs, but these signals are **low-weight, delayed, secondary context** and are *not* timely catalysts or trade recommendations. The names with clearly disclosed congressional trading in the surfaced data include AZO, FSLR, PAAS, GDDY, TSCO, MA, TSM, TMO, and ORLY, each with a small number of reported congressional buys/sells.\n\nKey liquid names with recent congressional trade activity (last ~6 months):\n- **AZO (AutoZone)** – Members of Congress traded AZO **3 times**, with **1 purchase** and **2 sales**.[4]\n- **FSLR (First Solar)** – Traded **2 times**, with **1 purchase** and **1 sale**.[5]\n- **PAAS (Pan American Silver)** – Traded **1 time**, with **0 purchases** and **1 sale**.[6]\n- **GDDY (GoDaddy)** – Members of Congress traded GDDY **4 times**, split **2 purchases** and **2 sales**.[8]\n- **TSCO (Tractor Supply)** – Representative April McClain Delaney has traded TSCO **10 times**; other members (e.g., Rep. Josh Gottheimer) reported a sale (up to $50,000 on 2026‑04‑09).[9]\n- **MA (Mastercard)** – Traded **3 times**, with **1 purchase** and **2 sales**.[11]\n- **TSM (Taiwan Semiconductor)** – Traded **8 times**, with **8 purchases** and **0 sales**.[13]\n- **TMO (Thermo Fisher Scientific)** – Traded **1 time**, with **0 purchases** and **1 sale**.[20]\n- **ORLY (O’Reilly Automotive)** – Recent data show congressional trading by Representative Jonathan L. Jackson **2 times** in the last 6 months.[21]\n\nInterpretation for your framework:\n- These congressional trades are **historical** and typically reported with a lag; by construction they are **secondary, low-weight signals** relative to primary catalysts (earnings, guidance, macro, sector events, technical setups).\n- None of the surfaced disclosures constitute a fresh, high-conviction catalyst on their own; they are best used as *monitor-only* context or for pattern/statistical analysis, consistent with your prior filters where low-weight social/congress signals required stronger corroborating sources.\n- All tickers listed are liquid U.S. large/mid-cap stocks, suitable for monitoring in a systematic process, but this output **does not** recommend any trade, allocation, or stop-loss and is **not** a signal to override your existing constraints (target allocation 1–15%, stop 3–12%, max open positions, repeat decay, monitor-only flags, etc.).","congressional_signal":{"weight":"low","recency_note":"Data reflect trades disclosed over the last ~6 months and are inherently delayed relative to execution dates.","usage":"Secondary context only; suitable for monitoring, not for primary signal generation or standalone trade decisions.","positions":[{"ticker":"AZO","description":"Members of Congress traded AutoZone stock 3 times in the past 6 months: 1 purchase, 2 sales.[4]","direction_detail":{"purchases":1,"sales":2}},{"ticker":"FSLR","description":"Members of Congress traded First Solar stock 2 times in the past 6 months: 1 purchase, 1 sale.[5]","direction_detail":{"purchases":1,"sales":1}},{"ticker":"PAAS","description":"Members of Congress traded Pan American Silver stock 1 time in the past 6 months: 0 purchases, 1 sale.[6]","direction_detail":{"purchases":0,"sales":1}},{"ticker":"GDDY","description":"Members of Congress traded GoDaddy stock 4 times in the past 6 months: 2 purchases, 2 sales.[8]","direction_detail":{"purchases":2,"sales":2}},{"ticker":"TSCO","description":"Tractor Supply has notable congressional activity: Rep. April McClain Delaney traded it 10 times; Rep. Josh Gottheimer reported a sale up to $50,000 on 2026-04-09.[9]","direction_detail":{"note":"Exact aggregate purchase/sale counts not fully itemized in the snippet; use as evidence of repeated congressional engagement rather than a directional signal."}},{"ticker":"MA","description":"Members of Congress traded Mastercard stock 3 times in the past 6 months: 1 purchase, 2 sales.[11]","direction_detail":{"purchases":1,"sales":2}},{"ticker":"TSM","description":"Members of Congress traded Taiwan Semiconductor stock 8 times in the past 6 months: 8 purchases, 0 sales.[13]","direction_detail":{"purchases":8,"sales":0}},{"ticker":"TMO","description":"Members of Congress traded Thermo Fisher Scientific stock 1 time in the past 6 months: 0 purchases, 1 sale.[20]","direction_detail":{"purchases":0,"sales":1}},{"ticker":"ORLY","description":"O’Reilly Automotive stock has been traded by members of Congress; Rep. Jonathan L. Jackson has traded it 2 times over the last 6 months.[21]","direction_detail":{"note":"Direction of each trade (buy vs. sell) not specified in the snippet; treat as a presence-of-activity flag only."}}]},"tickers":["AZO","FSLR","PAAS","GDDY","TSCO","MA","TSM","TMO","ORLY"],"source_urls":["https://www.quiverquant.com/news/Why+AutoZone+Shares+Are+Falling+Today","https://www.quiverquant.com/news/Why+First+Solar+(FSLR)+Stock+Is+Up+Today","https://www.quiverquant.com/news/Why+Pan+American+Silver+(PAAS)+Stock+Is+Down+Today","https://www.quiverquant.com/news/Lobbying+Update:+$40,000+of+GODADDY+INC.+lobbying+was+just+disclosed","https://www.quiverquant.com/news/Why+Tractor+Supply+(TSCO)+Stock+Is+Down+Today","https://www.quiverquant.com/news/$MA+stock+is+down+3%25+today.+Here's+what+we+see+in+our+data.","https://www.quiverquant.com/news/$TSM+stock+is+up+5%25+today.+Here's+what+we+see+in+our+data.","https://www.quiverquant.com/news/Lobbying+Update:+$21,000+of+THERMO+FISHER+SCIENTIFIC+INC+lobbying+was+just+disclosed","https://www.quiverquant.com/news/$ORLY+stock+is+down+8%25+today.+Here's+what+we+see+in+our+data."]}
+
+SEC/company quality check:
+{"summary":"Current filing-based watchlist review is strongest for Alphabet (GOOGL/GOOG) and Intel (INTC); USAR and GT have less direct SEC support in the gathered material, so their quality checks should be treated as preliminary. The main recurring risks across the names are valuation sensitivity, capital-allocation pressure, concentration dependence, and execution risk, while durable-demand evidence is clearest where filings show recurring customer demand, large installed bases, or broad platform monetization.","filing_risks":["GOOGL/GOOG: Alphabet’s filing-based quality check should focus on dependence on advertising and search monetization, platform competition, and heavy AI/data-center capital intensity; the key risk is that durable demand can be masked by rising capex and any slowdown in traffic or ad pricing would pressure revenue quality and valuation.","GOOGL/GOOG: Watch for concentration risk in search and ads, litigation/regulatory exposure, and capital-allocation discipline because very large buybacks and capex can support EPS while masking slower underlying operating leverage.","INTC: Intel’s filing-based risks center on foundry turnaround execution, margin pressure, and funding needs tied to a capital-intensive manufacturing strategy; this makes balance-sheet stress, dilution risk, and valuation risk more important than near-term narrative optimism.","INTC: Litigation, restructuring, and process-node execution risks are material because any delay in foundry adoption or product competitiveness can prolong weak cash generation and constrain capital allocation.","USAR: The current evidence base is thin, so the highest-priority checks are balance-sheet durability, customer or commodity concentration, and dilution risk if the company relies on external funding to support operations or growth.","USAR: Revenue quality should be tested for cyclicality and single-source dependence; if filings show limited customer diversification or project concentration, durable demand would be weaker than headline growth suggests.","GT: Goodyear’s filing-based risk profile should emphasize leverage, raw-material/input-cost sensitivity, litigation and product-liability exposure, and capital-allocation constraints; these factors can overwhelm any cyclical demand recovery.","GT: For GT, valuation risk is closely tied to whether cash flow improvement is sustainable after restructuring, because a leveraged balance sheet can make apparent earnings recovery less durable than it looks."],"quality_notes":["Durable-demand evidence is strongest when filings show recurring usage, multi-year customer relationships, broad platform reach, or installed-base monetization; for GOOGL this is typically reflected in persistent search/ad demand and ecosystem scale, but the same filings still require checks on concentration and monetization durability.","For INTC, durable-demand evidence should be separated from turnaround expectations; filing evidence is more compelling when it shows committed product demand, design wins, or validated manufacturing demand rather than management targets alone.","For USAR, the most important quality test is whether growth is supported by repeatable demand and diversified end markets; if filings rely on a narrow set of customers, projects, or commodities, business quality is lower.","For GT, durable-demand evidence should come from stable replacement demand, fleet exposure, and service mix that can offset cyclical tire pricing; however, leverage and input-cost volatility can still reduce cash conversion quality.","Across all names, the most important filing checks are liquidity, debt maturity schedule, share count/dilution, litigation reserves, related-party or concentration disclosures, and whether reported earnings are backed by operating cash flow rather than working-capital release or one-time items.","No trade recommendation is being made; this is a monitor-only quality and risk screen based on filing-oriented evidence and the current memory constraints."],"source_urls":["https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_5ac59ad6-e9d3-4325-8b82-62ef42b68246/b08caa13-dd30-4877-9546-b44a045101d1/GOOGL_brief.pplx.md","https://ppl-ai-file-upload.s3.amazonaws.com/connectors/google_drive/1jws1ZKnUPKj6FyMofJrOqOac9IPn-c5p/fba26a77-4203-4904-a4e1-a96492f8a244/GOOGL-Alphabet-Inc.-Annual-report-pursuant-to-Section-13-or-15-d-10-K-2025-02-05.pdf__copy.pdf","https://ppl-ai-file-upload.s3.amazonaws.com/secgov/edgar/data/1419536/0001419536-25-000047.md","https://ppl-ai-file-upload.s3.amazonaws.com/secgov/edgar/data/1418121/0000950170-25-025638.md"]}
 

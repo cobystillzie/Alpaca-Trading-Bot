@@ -37586,4 +37586,46 @@ Model notes: Defensive but catalyst-poor; best kept on the bench.
 Social buzz, max 10%: none
 Congress signal, max 5%: Recent House disclosure in CAG is present, but only as low-weight delayed context.
 Sources: https://www.quiverquant.com/congresstrading/trade/House-C001123-2568
+## Research Update - 2026-07-07 05:23:40 Eastern Daylight Time
+
+Research Update
+
+Market tone: No execution-ready candidate is justified on the current evidence. The market backdrop remains selective and cautious, with repeated mega-cap tech names still penalized by stale catalysts and repeat-decay, while the strongest fresh evidence in the provided memory is still too thin or allocation-blocked for paper execution.
+Candidates: 4
+
+1. TSM (semiconductors) | confidence 0.41 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket semiconductors | HF source 0/100 | HF veto
+Recommendation: monitor-only
+Catalyst: Low-weight congressional disclosure context shows 8 purchases and 0 sales over the past 6 months, but this is delayed and secondary rather than a primary trading catalyst.
+Chittick Cash: No clear valuation edge was established in the current inputs, so margin of safety is not yet proven.
+HF filter: sentiment=neutral source=0/100 hype=0.28 vetoes=2
+Self-learning: tier=monitor-only repeat48h=0 fresh=yes bucket=semiconductors
+Social buzz, low weight: none
+Congress signal, low weight: Members of Congress traded Taiwan Semiconductor 8 times in the past 6 months, all purchases, but this is only low-weight context.
+
+2. FSLR (clean energy / solar) | confidence 0.38 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket solar-renewables | HF source 0/100 | HF veto
+Recommendation: monitor-only
+Catalyst: Low-weight congressional disclosure context shows 1 purchase and 1 sale over the past 6 months, which is not strong enough to be the main reason for a trade.
+Chittick Cash: No valuation or downside-protection edge was established in the supplied material.
+HF filter: sentiment=neutral source=0/100 hype=0.31 vetoes=2
+Self-learning: tier=monitor-only repeat48h=0 fresh=yes bucket=solar-renewables
+Social buzz, low weight: none
+Congress signal, low weight: Members of Congress traded First Solar 2 times in the past 6 months, split between 1 purchase and 1 sale.
+
+3. GDDY (software / internet services) | confidence 0.40 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket software-internet-services | HF source 0/100 | HF veto
+Recommendation: monitor-only
+Catalyst: Low-weight congressional activity shows 2 purchases and 2 sales in the past 6 months, which is mixed and delayed rather than decisive.
+Chittick Cash: No valuation edge was demonstrated in the supplied packet, so downside protection is not established.
+HF filter: sentiment=neutral source=0/100 hype=0.22 vetoes=1
+Self-learning: tier=monitor-only repeat48h=0 fresh=yes bucket=software-internet-services
+Social buzz, low weight: none
+Congress signal, low weight: Members of Congress traded GoDaddy 4 times in the past 6 months, with 2 buys and 2 sells.
+
+4. GOOGL (mega-cap internet / cloud) | confidence 0.22 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier stale-watch | bucket mega-cap-internet-cloud | HF source 1/100 | HF veto
+Recommendation: avoid
+Catalyst: Current evidence is limited to general earnings-history context and broad tech optimism, which the workflow explicitly treats as background rather than a fresh catalyst.
+Chittick Cash: Despite business quality, the current entry lacks a clear margin-of-safety or timing edge.
+HF filter: sentiment=neutral source=1/100 hype=0.15 vetoes=3
+Self-learning: tier=stale-watch repeat48h=0 fresh=yes bucket=mega-cap-internet-cloud
+Social buzz, low weight: none
+Congress signal, low weight: none
 

@@ -4,58 +4,233 @@
 {
   "candidates": [
     {
-      "adversary_case": "The strongest objection is repeat-decay: the name has been recycled many times without a sufficiently fresh catalyst to justify execution-ready status.",
-      "allocation_learning_note": "Keep at zero until a dated earnings, guidance, filing, or breakout catalyst appears; do not recycle on narrative alone.",
-      "balance_sheet_risk": "Low balance-sheet risk relative to most equities, with the main risks being regulatory, competition, and capital intensity rather than leverage.",
-      "bear_case": "This can fail if the market continues to penalize stale mega-cap tech names, or if the tape rotates away from long-duration growth without a company-specific surprise.",
-      "capital_allocation_case": "Management generally allocates capital from a position of strength, but large AI and infrastructure spending needs continued proof of returns.",
-      "catalyst": "Recent filing-related ownership changes and ongoing AI/cloud narrative, but no clearly dated company catalyst in the provided results.",
-      "catalyst_type": "filing",
-      "chittick_cash_score": 68.0,
-      "chittick_reject_reason": "repeat_decay; stale catalyst; not execution-ready on current evidence",
-      "concentration_case": "This deserves attention over a broad ETF only if a real catalyst emerges; otherwise index exposure or a different sector with fresh news is cleaner.",
-      "confidence": 0.54,
+      "adversary_case": "The strongest objection is that this is just a strong business with no fresh tradable catalyst in the current packet.",
+      "allocation_learning_note": "Keep at 0% until a dated primary catalyst appears and repeat-decay is reset by new evidence.",
+      "balance_sheet_risk": "Balance-sheet risk is not the primary issue; the bigger issue is timing and catalyst quality.",
+      "bear_case": "The trade can fail if semiconductor leadership cools, if the setup is already crowded, or if the current move is mostly thematic rather than earnings-driven.",
+      "capital_allocation_case": "Not enough current evidence in the packet to assess incremental capital-allocation value creation for a swing trade.",
+      "catalyst": "Low-weight congressional disclosure context shows 8 purchases and 0 sales over the past 6 months, but this is delayed and secondary rather than a primary trading catalyst.",
+      "catalyst_type": "general",
+      "chittick_cash_score": 54.0,
+      "chittick_reject_reason": "monitor-only secondary signal; no fresh primary catalyst",
+      "concentration_case": "It is an underrepresented large-cap quality semiconductor idea, but the workflow currently needs fresher, harder evidence before it can outrank other opportunities.",
+      "confidence": 0.41,
+      "congressional_signal": "Members of Congress traded Taiwan Semiconductor 8 times in the past 6 months, all purchases, but this is only low-weight context.",
+      "diversity_bucket": "semiconductors",
+      "entry_plan": "Monitor only; do not execute unless a fresh earnings, guidance, filing, or confirmed breakout appears and the setup clears position and memory filters.",
+      "exit_plan": "If later activated, use a tight invalidation under the breakout level or post-catalyst low, and take profits into extension rather than assuming a multi-week trend will continue.",
+      "fresh_catalyst": true,
+      "growth_runway": "Longer-term runway is supported by AI and advanced-node demand, but that is strategic context rather than a near-term catalyst.",
+      "hf_evidence_rank": 0.35,
+      "hf_filter_vetoes": [
+        "secondary_catalyst_only",
+        "no_fresh_primary_event"
+      ],
+      "hf_hype_risk": 0.28,
+      "hf_memory_similarity": 0.22,
+      "hf_model_notes": "Included only as a research-priority monitor from the watchlist; not execution-ready under the current evidence stack.",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "neutral",
+      "hf_sentiment_score": 0.0,
+      "hf_source_quality_score": 0.42,
+      "horizon_days": 5,
+      "margin_of_safety_case": "No clear valuation edge was established in the current inputs, so margin of safety is not yet proven.",
+      "market_regime": "Risk-on helps semis, but this strategy should avoid treating sector leadership alone as a fresh catalyst.",
+      "momentum_case": "No specific current price/volume breakout evidence was supplied in the usable research context, so momentum cannot be confirmed from the provided materials.",
+      "owner_hold_case": "Would justify review if a fresh earnings beat, raised guidance, or a confirmed technical breakout aligns with improving demand commentary over the next 30-180 days.",
+      "quality_case": "The business quality is strong because TSM has scale, moat-like manufacturing capability, and exposure to long-duration semiconductor demand, but the current evidence provided here is not enough to establish a new margin-of-safety entry.",
+      "recommendation": "monitor-only",
+      "repeat_count_48h": 0,
+      "research_tier": "monitor-only",
+      "risk_reward": "At present the reward is not well defined because the catalyst is weak; the risk is paying up for an already-known leader.",
+      "sector": "semiconductors",
+      "signal_weights": {
+        "congressional_signal": 0.05,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "none",
+      "source_quality": "Weak-to-moderate because the only explicit catalyst in the provided inputs is delayed congressional activity, which is secondary and not execution-grade.",
+      "source_urls": [
+        "https://www.quiverquant.com/news/$TSM+stock+is+up+5%25+today.+Here's+what+we+see+in+our+data."
+      ],
+      "stop_loss_percent": 0.0,
+      "strategy_tags": [
+        "chittick_cash"
+      ],
+      "symbol": "TSM",
+      "target_allocation_percent": 0.0,
+      "thesis": "Taiwan Semiconductor remains a high-quality, cash-generative foundry leader, but in this workflow it is best treated as a *monitor-only* idea unless the current setup is backed by a fresh dated catalyst and chart confirmation. The congressional activity is positive context but too weak to drive execution by itself.",
+      "valuation_case": "The name may be high quality, but no current valuation input here makes it attractive enough for a fresh swing entry."
+    },
+    {
+      "adversary_case": "The best objection is that congressional activity is delayed and noisy, so it should not override a lack of primary corporate or technical confirmation.",
+      "allocation_learning_note": "Keep at 0% until a stronger primary catalyst and setup confirmation appear.",
+      "balance_sheet_risk": "Not enough current filing evidence was provided to elevate or dismiss balance-sheet risk.",
+      "bear_case": "The trade can fail if policy demand softens, solar sentiment weakens, or the move is already fully priced in.",
+      "capital_allocation_case": "Insufficient current evidence to judge capital discipline for this execution window.",
+      "catalyst": "Low-weight congressional disclosure context shows 1 purchase and 1 sale over the past 6 months, which is not strong enough to be the main reason for a trade.",
+      "catalyst_type": "general",
+      "chittick_cash_score": 46.0,
+      "chittick_reject_reason": "monitor-only secondary signal; no fresh primary catalyst",
+      "concentration_case": "Solar is underrepresented, but this still does not overcome the weak catalyst problem.",
+      "confidence": 0.38,
+      "congressional_signal": "Members of Congress traded First Solar 2 times in the past 6 months, split between 1 purchase and 1 sale.",
+      "diversity_bucket": "solar-renewables",
+      "entry_plan": "Monitor only until there is a dated earnings, guidance, or policy-linked catalyst with technical confirmation.",
+      "exit_plan": "If activated later, use a catalyst low as invalidation and avoid overholding after the first post-news expansion.",
+      "fresh_catalyst": true,
+      "growth_runway": "Longer-term growth is tied to U.S. solar deployment, but that is not a short-horizon catalyst in this packet.",
+      "hf_evidence_rank": 0.32,
+      "hf_filter_vetoes": [
+        "secondary_catalyst_only",
+        "no_chart_confirmation"
+      ],
+      "hf_hype_risk": 0.31,
+      "hf_memory_similarity": 0.19,
+      "hf_model_notes": "Secondary signal only; not execution-ready.",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "neutral",
+      "hf_sentiment_score": 0.0,
+      "hf_source_quality_score": 0.39,
+      "horizon_days": 5,
+      "margin_of_safety_case": "No valuation or downside-protection edge was established in the supplied material.",
+      "market_regime": "A selective market can reward policy-supported cyclicals, but only when the catalyst is hard and dated.",
+      "momentum_case": "No chart confirmation or breakout evidence was supplied in the current research packet.",
+      "owner_hold_case": "Would only justify a 30-180 day review if policy/earnings updates improve visibility and the stock starts showing sustained relative strength.",
+      "quality_case": "The business can be attractive when policy and domestic supply-chain demand support module demand, but the current packet does not provide enough fundamental update to justify execution.",
+      "recommendation": "monitor-only",
+      "repeat_count_48h": 0,
+      "research_tier": "monitor-only",
+      "risk_reward": "The setup is not defined well enough right now to claim a favorable risk/reward.",
+      "sector": "clean energy / solar",
+      "signal_weights": {
+        "congressional_signal": 0.04,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "none",
+      "source_quality": "Weak because the supplied catalyst is secondary disclosure flow rather than company-driven evidence.",
+      "source_urls": [
+        "https://www.quiverquant.com/news/Why+First+Solar+(FSLR)+Stock+Is+Up+Today"
+      ],
+      "stop_loss_percent": 0.0,
+      "strategy_tags": [
+        "chittick_cash"
+      ],
+      "symbol": "FSLR",
+      "target_allocation_percent": 0.0,
+      "thesis": "First Solar is a quality domestic solar manufacturer with policy sensitivity and operating leverage to U.S. utility-scale demand, but here it belongs in a muted lane because the evidence provided is secondary and not a clean fresh trade catalyst.",
+      "valuation_case": "Not enough evidence here to argue the current price is compelling versus business risk."
+    },
+    {
+      "adversary_case": "The strongest objection is that this is a good business but not a current trade.",
+      "allocation_learning_note": "Use only as a diversified monitor until a dated catalyst appears.",
+      "balance_sheet_risk": "No balance-sheet red flag was highlighted in the provided materials, but this was not the focus of the current evidence.",
+      "bear_case": "The trade can fail if the market is simply rotating elsewhere or if the mixed disclosure signal has no real predictive value.",
+      "capital_allocation_case": "Insufficient evidence in the packet to assess whether management is creating a near-term reinvestment edge.",
+      "catalyst": "Low-weight congressional activity shows 2 purchases and 2 sales in the past 6 months, which is mixed and delayed rather than decisive.",
+      "catalyst_type": "general",
+      "chittick_cash_score": 50.0,
+      "chittick_reject_reason": "monitor-only secondary signal; no fresh primary catalyst",
+      "concentration_case": "This is a useful diversification candidate outside the crowded mega-cap/semiconductor lanes, but it still lacks an execution-grade catalyst.",
+      "confidence": 0.4,
+      "congressional_signal": "Members of Congress traded GoDaddy 4 times in the past 6 months, with 2 buys and 2 sells.",
+      "diversity_bucket": "software-internet-services",
+      "entry_plan": "Monitor only; wait for a primary catalyst such as earnings, guidance, or a technical breakout with volume.",
+      "exit_plan": "If later activated, reduce on extension and invalidate on loss of the breakout zone or post-event support.",
+      "fresh_catalyst": true,
+      "growth_runway": "Longer-term growth can come from SMB digital tools and web-services monetization, but that is not a dated swing catalyst.",
+      "hf_evidence_rank": 0.34,
+      "hf_filter_vetoes": [
+        "secondary_catalyst_only"
+      ],
+      "hf_hype_risk": 0.22,
+      "hf_memory_similarity": 0.18,
+      "hf_model_notes": "Underweighted disclosure-only context; not enough to trade.",
+      "hf_sentiment_agreement": 0.0,
+      "hf_sentiment_label": "neutral",
+      "hf_sentiment_score": 0.0,
+      "hf_source_quality_score": 0.41,
+      "horizon_days": 5,
+      "margin_of_safety_case": "No valuation edge was demonstrated in the supplied packet, so downside protection is not established.",
+      "market_regime": "A neutral regime can support quality software names, but only if there is a fresh catalyst and not just background institutional attention.",
+      "momentum_case": "No specific breakout, earnings surprise, or volume confirmation was provided in the current inputs.",
+      "owner_hold_case": "Would merit a 30-180 day review if earnings or product monetization improves and relative strength persists.",
+      "quality_case": "The underlying business tends to have recurring customer relationships and cash flow durability, but that alone does not create a near-term swing catalyst.",
+      "recommendation": "monitor-only",
+      "repeat_count_48h": 0,
+      "research_tier": "monitor-only",
+      "risk_reward": "The risk/reward is not compelling yet because the evidence stack is too weak for a clean entry.",
+      "sector": "software / internet services",
+      "signal_weights": {
+        "congressional_signal": 0.04,
+        "social_buzz": 0.0
+      },
+      "social_buzz": "none",
+      "source_quality": "Weak-to-moderate because the current evidence is only secondary disclosure flow, not a company update.",
+      "source_urls": [
+        "https://www.quiverquant.com/news/Lobbying+Update:+$40,000+of+GODADDY+INC.+lobbying+was+just+disclosed"
+      ],
+      "stop_loss_percent": 0.0,
+      "strategy_tags": [
+        "chittick_cash"
+      ],
+      "symbol": "GDDY",
+      "target_allocation_percent": 0.0,
+      "thesis": "GoDaddy is a higher-quality software/hosting business with recurring revenue characteristics, but the current packet only supports it as a watchlist name because the evidence is secondary and not sufficiently fresh for execution.",
+      "valuation_case": "The business may be quality, but the current materials do not show it is cheap enough or fresh enough to buy now."
+    },
+    {
+      "adversary_case": "The strongest objection is that this is exactly the kind of repeated large-cap name the filter set is designed to suppress absent a hard fresh catalyst.",
+      "allocation_learning_note": "Do not recycle without a dated catalyst delta.",
+      "balance_sheet_risk": "Balance-sheet risk is low relative to peers, but capex intensity and concentration risk remain relevant.",
+      "bear_case": "The trade can fail if the market remains intolerant of repeated mega-cap tech exposure or if the current move is only sentiment-driven.",
+      "capital_allocation_case": "Capital allocation is generally strong, but buybacks and capex do not create a fresh short-horizon trade by themselves.",
+      "catalyst": "Current evidence is limited to general earnings-history context and broad tech optimism, which the workflow explicitly treats as background rather than a fresh catalyst.",
+      "catalyst_type": "general",
+      "chittick_cash_score": 43.0,
+      "chittick_reject_reason": "repeat_decay and stale_catalyst",
+      "concentration_case": "It is a high-quality name, yet repeated memory decay makes it inferior to fresher alternatives for execution.",
+      "confidence": 0.22,
       "congressional_signal": "none",
       "diversity_bucket": "mega-cap-internet-cloud",
-      "entry_plan": "Monitor only; if a fresh earnings, filing, guidance, or confirmed breakout catalyst appears, consider a small tranche on breakout confirmation above prior resistance with volume expansion.",
-      "exit_plan": "Use a tight invalidation if the breakout fails quickly or if price loses the post-catalyst support level; otherwise trail gains only after confirmed trend extension.",
+      "entry_plan": "Do not execute; keep as a stale monitor unless a new earnings release, filing, guidance change, or confirmed breakout creates a genuine delta.",
+      "exit_plan": "If revisited later, exit quickly on failure to hold the breakout or on any evidence that the post-event move is fading.",
       "fresh_catalyst": true,
-      "growth_runway": "AI, cloud, and core advertising remain the long-run runway, but that is an owner-thesis argument rather than a new swing-trade catalyst.",
-      "hf_evidence_rank": 0.38,
+      "growth_runway": "Alphabet still has long-run AI, ads, and cloud runway, but that is not a new 1-10 day catalyst.",
+      "hf_evidence_rank": 0.2,
       "hf_filter_vetoes": [
         "repeat_decay",
         "stale_catalyst",
         "memory_similarity"
       ],
-      "hf_hype_risk": 0.44,
-      "hf_memory_similarity": 0.91,
-      "hf_model_notes": "High-quality business, but memory indicates repeated rejection without a dated catalyst delta.",
+      "hf_hype_risk": 0.15,
+      "hf_memory_similarity": 0.92,
+      "hf_model_notes": "Explicitly suppressed by memory rules and stale-catalyst logic.",
       "hf_sentiment_agreement": 0.0,
       "hf_sentiment_label": "neutral",
-      "hf_sentiment_score": 0.41,
-      "hf_source_quality_score": 0.42,
+      "hf_sentiment_score": 0.0,
+      "hf_source_quality_score": 0.55,
       "horizon_days": 5,
-      "margin_of_safety_case": "Quality is real, but the current setup does not show a strong discount or a fresh catalyst that would improve downside protection over the next 1-10 days.",
-      "market_regime": "Works best in a stable or mildly risk-on regime; in a choppier market, it can underperform if investors favor defensives or non-tech rotation.",
-      "momentum_case": "There is some evidence of renewed institutional attention, but the signal is too thin to confirm a fresh breakout or strong 1-10 day momentum edge.",
-      "owner_hold_case": "A 30-180 day hold case would require evidence that AI/cloud monetization and margins are still compounding faster than the market expects.",
-      "quality_case": "Strong franchise quality, scale, and long-duration competitive positioning favor the business, but valuation still needs a fresh catalyst to create a better near-term margin of safety.",
-      "recommendation": "watch",
-      "repeat_count_48h": 4,
-      "research_tier": "monitor-only",
-      "risk_reward": "Good business quality, but the current near-term reward does not clearly outweigh the stale-catalyst risk.",
-      "sector": "mega-cap internet/cloud",
+      "margin_of_safety_case": "Despite business quality, the current entry lacks a clear margin-of-safety or timing edge.",
+      "market_regime": "Risk-on would normally help, but the workflow\u2019s repeat-decay and stale-catalyst rules dominate here.",
+      "momentum_case": "There is no new chart-confirmed breakout or dated event in the provided packet that would justify a fresh swing entry.",
+      "owner_hold_case": "Would only be revisited for a 30-180 day owner thesis after a new filing/earnings/guidance change resets the catalyst clock.",
+      "quality_case": "Alphabet has strong earnings power and scale, but the research context already flags concentration risk, regulation, and capex intensity as important checks.",
+      "recommendation": "avoid",
+      "repeat_count_48h": 0,
+      "research_tier": "stale-watch",
+      "risk_reward": "The risk/reward is poor right now because the name has been repeatedly surfaced without a new edge.",
+      "sector": "mega-cap internet / cloud",
       "signal_weights": {
         "congressional_signal": 0.0,
-        "social_buzz": 0.05
+        "social_buzz": 0.0
       },
-      "social_buzz": "Light attention from filing-related coverage, but not enough to matter on its own.",
-      "source_quality": "Weak-to-moderate; the results are mostly secondary reporting and filing summaries rather than a fresh company event.",
+      "social_buzz": "none",
+      "source_quality": "Moderate for quality, weak for timing, and insufficient for execution.",
       "source_urls": [
-        "https://www.marketbeat.com/instant-alerts/filing-stokes-capital-advisors-llc-buys-2377-shares-of-alphabet-inc-googl-2026-07-03/",
-        "https://www.marketbeat.com/instant-alerts/filing-alphabet-inc-googl-position-lowered-by-northeast-investment-management-2026-07-03/",
-        "https://www.ainvest.com/news/alphabet-tops-turnover-9-34-billion-djia-debut-ai-push-2607/",
-        "https://www.aol.com/articles/ai-genius-john-jumper-worth-184600000.html"
+        "https://www.zacks.com/stock/research/GOOGL/earnings-calendar",
+        "https://www.public.com/stocks/goog",
+        "https://finance.yahoo.com/quote/GOOGL/"
       ],
       "stop_loss_percent": 0.0,
       "strategy_tags": [
@@ -63,128 +238,11 @@
       ],
       "symbol": "GOOGL",
       "target_allocation_percent": 0.0,
-      "thesis": "Alphabet remains a high-quality business with durable cash generation, but the current setup is better viewed as a quality watch than an execution-ready swing because the latest evidence is mostly ownership-flow and general AI/cloud narrative rather than a hard new catalyst.",
-      "valuation_case": "Attractive only if price offers a better entry after a catalyst; otherwise the stock is still a quality hold rather than a clear near-term mispricing."
-    },
-    {
-      "adversary_case": "The strongest objection is that the signal is too indirect and delayed, so the move may already be priced in before a paper-trade entry.",
-      "allocation_learning_note": "Use as a sector-diversification alternative rather than repeating overused mega-cap tech.",
-      "balance_sheet_risk": "Balance-sheet risk does not appear to be the main issue here; the bigger concern is catalyst quality and valuation sensitivity.",
-      "bear_case": "This can fail if the congressional signal fades, if there is no real company-specific catalyst, or if the market treats the name as attention-driven rather than fundamentals-driven.",
-      "capital_allocation_case": "No strong capital-allocation edge is established by the current evidence.",
-      "catalyst": "Recent congressional transaction disclosure provides secondary attention context, but it remains a delayed and low-weight signal rather than a primary catalyst.",
-      "catalyst_type": "filing",
-      "chittick_cash_score": 57.0,
-      "chittick_reject_reason": "low-weight secondary catalyst only; no strong fresh fundamental catalyst",
-      "concentration_case": "Better than a broad ETF only if the disclosure-linked attention becomes tradable; otherwise it stays a watchlist name.",
-      "confidence": 0.61,
-      "congressional_signal": "Recent House disclosure in SPOT is present, but it is delayed and should only be treated as secondary context.",
-      "diversity_bucket": "consumer-internet-streaming",
-      "entry_plan": "Watch only; if price confirms a post-disclosure trend with volume and a clean higher-high setup, then consider a small paper tranche with strict risk control.",
-      "exit_plan": "Exit on failed follow-through, loss of the breakout base, or if volume dries up after the attention spike.",
-      "fresh_catalyst": true,
-      "growth_runway": "Longer-term runway comes from monetization, subscriber growth, and product mix, but those are owner-hold arguments more than 1-10 day trade drivers.",
-      "hf_evidence_rank": 0.34,
-      "hf_filter_vetoes": [
-        "low_weight_secondary_catalyst"
-      ],
-      "hf_hype_risk": 0.41,
-      "hf_memory_similarity": 0.22,
-      "hf_model_notes": "Disclosure signal exists but is delayed and weak; usable only as attention context.",
-      "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "neutral",
-      "hf_sentiment_score": 0.39,
-      "hf_source_quality_score": 0.35,
-      "horizon_days": 5,
-      "margin_of_safety_case": "Margin of safety is limited without a company-specific catalyst or valuation reset.",
-      "market_regime": "A neutral-to-risk-on tape helps because consumer internet names can benefit from selective appetite, but a defensive rotation would reduce attractiveness.",
-      "momentum_case": "The disclosure can support attention and volume, but there is not enough market-data evidence here to confirm momentum confirmation or breakout strength.",
-      "owner_hold_case": "A 30-180 day case would rely on continued user growth, monetization improvement, and margin expansion rather than on the disclosure itself.",
-      "quality_case": "The business has recognizable subscription-style quality and operating leverage, but the current evidence is not strong enough to call it a deep-margin-of-safety setup.",
-      "recommendation": "watch",
-      "repeat_count_48h": 0,
-      "research_tier": "watch",
-      "risk_reward": "Potentially better asymmetric setup than another stale mega-cap, but still not strong enough to call execution-ready on the current evidence.",
-      "sector": "consumer internet / streaming",
-      "signal_weights": {
-        "congressional_signal": 0.04,
-        "social_buzz": 0.0
-      },
-      "social_buzz": "none",
-      "source_quality": "Moderate but delayed; congressional disclosures are weak secondary context and do not by themselves establish a tradeable edge.",
-      "source_urls": [
-        "https://www.quiverquant.com/congresstrading/trade/House-C001123-2595"
-      ],
-      "stop_loss_percent": 0.0,
-      "strategy_tags": [
-        "chittick_cash"
-      ],
-      "symbol": "SPOT",
-      "target_allocation_percent": 0.0,
-      "thesis": "Spotify is a cleaner underrepresented-sector idea than another recycled megacap because it has a documented congressional disclosure signal and remains a focused consumer internet asset with more idiosyncratic upside if attention persists.",
-      "valuation_case": "Not obviously cheap enough to override the weak catalyst quality."
-    },
-    {
-      "adversary_case": "The strongest objection is that a congressional disclosure is not a trade catalyst and does not establish expected upside.",
-      "allocation_learning_note": "Use as a defensive alternative, but do not allocate without a real company event.",
-      "balance_sheet_risk": "No leverage-related issue is highlighted in the provided results, but that does not substitute for a trading catalyst.",
-      "bear_case": "It can lag if investors rotate back toward growth or if the disclosure fails to translate into any real demand for the shares.",
-      "capital_allocation_case": "No special capital-allocation edge is established.",
-      "catalyst": "Recent congressional disclosure provides secondary context only; there is no hard new company catalyst in the provided results.",
-      "catalyst_type": "filing",
-      "chittick_cash_score": 52.0,
-      "chittick_reject_reason": "monitor-only; no execution-ready catalyst",
-      "concentration_case": "This is only worth considering if the broader market turns more defensive and the name gets a company-specific catalyst.",
-      "confidence": 0.58,
-      "congressional_signal": "Recent House disclosure in CAG is present, but only as low-weight delayed context.",
-      "diversity_bucket": "consumer-staples",
-      "entry_plan": "Monitor only; if a fresh earnings or guidance update appears and price confirms stability, then reassess for a small tranche.",
-      "exit_plan": "Do not allocate without a dated catalyst; if entered later, exit on failure of defensive support or disappointing guidance.",
-      "fresh_catalyst": true,
-      "growth_runway": "Growth runway is modest and not the main attraction; stability matters more than expansion here.",
-      "hf_evidence_rank": 0.25,
-      "hf_filter_vetoes": [
-        "monitor_only",
-        "low_weight_secondary_catalyst"
-      ],
-      "hf_hype_risk": 0.22,
-      "hf_memory_similarity": 0.18,
-      "hf_model_notes": "Defensive but catalyst-poor; best kept on the bench.",
-      "hf_sentiment_agreement": 0.0,
-      "hf_sentiment_label": "neutral",
-      "hf_sentiment_score": 0.31,
-      "hf_source_quality_score": 0.3,
-      "horizon_days": 5,
-      "margin_of_safety_case": "Defensive profile helps, but there is no evidence of a strong valuation discount in the current results.",
-      "market_regime": "Defensive names tend to work better when the market is selective and choppy rather than strongly growth-led.",
-      "momentum_case": "Momentum evidence is absent in the provided results, so this is a defensive watch rather than a trend trade.",
-      "owner_hold_case": "A 30-180 day thesis would require evidence of stable volumes, pricing, and margin resilience, not the disclosure itself.",
-      "quality_case": "Staples businesses can be attractive when the tape is uneven because cash flows are steadier, but there is no evidence here of a special undervaluation or near-term rerating trigger.",
-      "recommendation": "monitor-only",
-      "repeat_count_48h": 0,
-      "research_tier": "monitor-only",
-      "risk_reward": "Reasonable defensive profile, but the current setup is too weak for execution.",
-      "sector": "consumer staples",
-      "signal_weights": {
-        "congressional_signal": 0.04,
-        "social_buzz": 0.0
-      },
-      "social_buzz": "none",
-      "source_quality": "Moderate-to-weak because the signal is delayed and not company-operational.",
-      "source_urls": [
-        "https://www.quiverquant.com/congresstrading/trade/House-C001123-2568"
-      ],
-      "stop_loss_percent": 0.0,
-      "strategy_tags": [
-        "chittick_cash"
-      ],
-      "symbol": "CAG",
-      "target_allocation_percent": 0.0,
-      "thesis": "Conagra offers a defensive consumer-staples profile that fits the broader market\u2019s uneven tone better than another recycled growth name, but it remains a monitor-only idea because the disclosure signal is weak and delayed.",
-      "valuation_case": "Not clearly compelling enough to justify a paper trade without a fresh company catalyst."
+      "thesis": "Alphabet remains a high-quality compounder, but this workflow should not recycle it into execution when the catalyst is stale and repeat-decay is active. The current inputs do not supply a fresh enough event to override the memory filters.",
+      "valuation_case": "Quality is not the issue; the issue is that the market has already had many chances to price it efficiently."
     }
   ],
-  "summary": "The tape remains **selective and mildly risk-on**, but the available evidence is still dominated by stale megacap/ETF ideas and weak, low-signal attention flow. A fresh, execution-ready edge is not strongly established in the provided results, so the best output is a tight watchlist with one conditional idea and several monitor-only names."
+  "summary": "No execution-ready candidate is justified on the current evidence. The market backdrop remains selective and cautious, with repeated mega-cap tech names still penalized by stale catalysts and repeat-decay, while the strongest fresh evidence in the provided memory is still too thin or allocation-blocked for paper execution."
 }
 -->
 
@@ -1958,4 +2016,13 @@ No candidates.
 | GOOGL | mega-cap internet/cloud | monitor-only | mega-cap-internet-cloud | 4 | yes | 0.54 | 68 | 0 | 3 | 0.0% | 0.0% | watch | Recent filing-related ownership changes and ongoing AI/cloud narrative, but no clearly dated company catalyst in the provided results. |
 | SPOT | consumer internet / streaming | watch | consumer-internet-streaming | 0 | yes | 0.61 | 57 | 0 | 1 | 0.0% | 0.0% | watch | Recent congressional transaction disclosure provides secondary attention context, but it remains a delayed and low-weight signal rather than a primary catalyst. |
 | CAG | consumer staples | monitor-only | consumer-staples | 0 | yes | 0.58 | 52 | 0 | 2 | 0.0% | 0.0% | monitor-only | Recent congressional disclosure provides secondary context only; there is no hard new company catalyst in the provided results. |
+
+## Latest Candidates - 2026-07-07 05:23:40 Eastern Daylight Time
+
+| Symbol | Sector | Tier | Bucket | Repeat | Fresh | Confidence | Chittick | HF Source | HF Vetoes | Allocation | Stop | Recommendation | Catalyst |
+|---|---|---|---|---:|---|---:|---:|---:|---:|---:|---:|---|---|
+| TSM | semiconductors | monitor-only | semiconductors | 0 | yes | 0.41 | 54 | 0 | 2 | 0.0% | 0.0% | monitor-only | Low-weight congressional disclosure context shows 8 purchases and 0 sales over the past 6 months, but this is delayed and secondary rather than a primary tradin |
+| FSLR | clean energy / solar | monitor-only | solar-renewables | 0 | yes | 0.38 | 46 | 0 | 2 | 0.0% | 0.0% | monitor-only | Low-weight congressional disclosure context shows 1 purchase and 1 sale over the past 6 months, which is not strong enough to be the main reason for a trade. |
+| GDDY | software / internet services | monitor-only | software-internet-services | 0 | yes | 0.40 | 50 | 0 | 1 | 0.0% | 0.0% | monitor-only | Low-weight congressional activity shows 2 purchases and 2 sales in the past 6 months, which is mixed and delayed rather than decisive. |
+| GOOGL | mega-cap internet / cloud | stale-watch | mega-cap-internet-cloud | 0 | yes | 0.22 | 43 | 1 | 3 | 0.0% | 0.0% | avoid | Current evidence is limited to general earnings-history context and broad tech optimism, which the workflow explicitly treats as background rather than a fresh  |
 
