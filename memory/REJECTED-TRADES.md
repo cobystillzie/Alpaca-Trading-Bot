@@ -636,4 +636,8 @@ low_weight_secondary_catalyst
 Candidate is monitor-only and cannot be traded.
 Target allocation must be between 1% and 15%.
 Stop loss must be between 3% and 12%.
+## Exit Failed GLRE - 2026-07-07 05:22:02 Eastern Daylight Time
+
+stop-loss: unrealized P&L -8.5% breached documented stop -8.0%
+Sell order failed: POST https://paper-api.alpaca.markets/v2/orders failed with 403: {"available":"0","code":40310000,"existing_qty":"28.042624789","held_for_orders":"28.042624789","message":"insufficient qty available for order (requested: 28.042624789, available: 0)","related_orders":["74a13113-7f29-41f2-bad1-65186be662fd"],"symbol":"GLRE"}
 
