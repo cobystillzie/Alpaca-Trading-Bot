@@ -1769,4 +1769,18 @@ Buying power: 377038.03
 
 Positions:
 - GLRE: qty=-28.042624789, market_value=-460.459899, unrealized_pl=-0.280426
+## Midday Risk Scan - 2026-07-08 12:40:02 Eastern Daylight Time
+
+Portfolio value: 100244.47
+Cash: 94860.16
+Buying power: 394516.71
+
+Positions:
+- DT: qty=20.289119959, market_value=892.416941, unrealized_pl=92.416941
+- GOOGL: qty=2.151289429, market_value=776.895151, unrealized_pl=-23.104849
+- IBRX: qty=70.838252656, market_value=620.543093, unrealized_pl=20.543093
+- LNC: qty=14.590020426, market_value=564.852641, unrealized_pl=64.852641
+- NVDA: qty=4.00060009, market_value=797.299595, unrealized_pl=-2.700405
+- SCHD: qty=25.2286345, market_value=817.405235, unrealized_pl=17.405235
+- SPMO: qty=6.119014838, market_value=914.792718, unrealized_pl=114.792718
 
