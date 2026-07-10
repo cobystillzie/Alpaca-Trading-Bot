@@ -15,58 +15,49 @@ This policy is updated by the weekly review and must be read by research, premar
 ## Current Weekly Findings
 
 - Repeated symbols in recent watchlist: none.
-- Current candidate diversity buckets: consumer-internet-streaming, consumer-staples, mega-cap-internet-cloud.
-- Overused recent diversity buckets: other x6, mega-cap-internet-cloud x3.
+- Current candidate diversity buckets: mega-cap-internet-cloud, semiconductors, software-internet-services, solar-renewables.
+- Overused recent diversity buckets: none.
 - Weekly review must disclose any code or prompt edits through Telegram before commit/push.
 
 ## Latest Review Input
 
 {
-  "lessons": {
-    "stale_and_repeated_tickers": [
-      {
-        "issue": "Mega-cap, AI-adjacent names keep resurfacing with decaying catalysts",
-        "evidence": [
-          "GOOGL appears repeatedly with `repeat_decay`, `stale_catalyst`, and `memory_similarity` in rejections, and again as monitor-only with no fresh catalyst.",
-          "INTC shows multiple `repeat_decay` / `stale_catalyst` rejections, then reappears later as execution-ready once a clearly new TPU order catalyst is found.",
-          "USAR, GT, MSFT, ARM, META, SMCI also show multiple passes where catalysts degrade from fresh to stale or source-thin."
-        ],
-        "lesson": "The memory and candidate generation pipelines are too willing to re-surface names on weakly updated narratives. Catalysts must be treated as expiring objects with explicit freshness windows and decay profiles."
-      },
-      {
-        "issue": "Allocation-blocked tickers consume research bandwidth without incremental benefit",
-        "evidence": [
-          "Repeated GOOGL, NVDA, SPMO, XLK, MSFT rejections due to 15% single-stock cap, max open-position count, or allocation-muted flags.",
-          "Several days where the system tries to trade allocation-muted or monitor-only tickers (XLK, VST, JBHT, KO etc.) even after prior similar rejections."
-        ],
-        "lesson": "Guard-rail conditions (position limits, monitor-only, allocation-muted) are being checked too late in the pipeline. This leads to repeated work on candidates that cannot be acted on."
-      }
-    ],
-    "sector_concentration_and_diversity": [
-      {
-        "issue": "Overweight AI/tech/infrastructure narratives, underweight broader market",
-        "evidence": [
-          "Frequent candidates: NVDA, INTC, ARM, SMCI, VRT, PLTR, META, GOOGL, plus AI-infrastructure industrials.",
-          "Relatively scarce non-AI sectors: only occasional appearances from financials (C), staples (CAG), transports/industrials (GE, JBHT, UPS, WMT, NSC), healthcare (GNFT, GSK, HUMA) and energy/materials (MP, USAR, EMAT).",
-          "Morgan Stanley-type commentary stresses broadening earnings and leadership into Consumer Discretionary, Transports, and Regional Banks, but the bot’s candidates remain heavily clustered in a narrow AI/mega-cap theme.[12]"
-        ],
-        "lesson": "Theme concentration is high; the engine is not sufficiently enforcing portfolio and research diversification rules. It gravitates toward the same AI / mega-cap stacks even when the macro context favors broadening leadership."
-      },
-      {
-        "issue": "Diversity at the research-output level is weak",
-        "evidence": [
-          "Many daily outputs center on similar catalyst types: AI cloud narratives, analyst initiations, funding/PIPEs, and congressional/social noise.",
-          "There is minimal rotation into under-owned but strengthening groups highlighted by macro/breadth commentary (e.g., transports, regional banks, small caps).[12][24]"
-        ],
-        "lesson": "The research engine is not explicitly enforcing diversity across sectors, factor exposures, or catalyst types. This leads to repetitive daily research output uncorrelated with broader opportunity sets."
-      }
-    ],
-    "signal_quality_evaluation": [
-      {
-        "issue": "Low-weight social/congress signals mostly add noise unless strictly gated",
-        "evidence": [
-          "Dozens of rejections explicitly cite: `Low-weight social/congress signal needs at least two stronger sources.`",
-          "Names driven mainly by congress/social (EWY, EWT, DVN, AMC, PHX, VST, CAG, SPOT, C, GE, CORT, NUVL, OKLO, etc.) systematically fail due to `no_fundamental_catalyst`, `source_thin`, low confidence, or monitor-only status.",
-          "Where congressional activity is cited (GE, C, SPOT, CAG), it is already treated as low-weight, and the resulting candidates rarely survive guard-rails."
-        ],
-        "lesson": "The current treatment (congress/social as secondary-
+  "status": "provider-blocked",
+  "blocked_reason": "Perplexity returned 401 insufficient_quota, so no live Sonar weekly analysis was run.",
+  "concise_lessons": [
+    "Weekly review should preserve the hard upstream stop instead of retrying or fabricating live research.",
+    "Use repo memory for this blocked review and label it clearly as provider-blocked.",
+    "Repeated symbols in the latest memory window: none.",
+    "Overused diversity buckets in the latest memory window: none.",
+    "Recent rejection history still needs to keep hard-ban, low-weight-only, allocation-blocked, and max-position-blocked ideas out of tradeable lanes."
+  ],
+  "rejected_patterns": [
+    "CAG: low_weight_signal",
+    "FSLR: low_weight_signal",
+    "GDDY: low_weight_signal",
+    "GOOGL: hype_or_repeat_filter",
+    "SPOT: low_weight_signal",
+    "TSM: low_weight_signal"
+  ],
+  "strategy_proposals": [
+    "Keep the weekly review script from crashing on provider quota errors by writing a blocked review artifact from local memory.",
+    "Keep social buzz capped at 10% and congressional disclosures capped at 5%; no blocked-provider review may upgrade a trade from those signals.",
+    "Continue routing monitor-only and allocation-muted candidates to zero allocation until their blockers clear."
+  ],
+  "self_learning_directives": [
+    "Treat Perplexity insufficient_quota as a hard stop for live research and disclose the provider block in Telegram/memory.",
+    "When live review is blocked, summarize only deterministic repo-memory signals: repeats, diversity buckets, and rejection labels.",
+    "Do not run market-open execution as part of the Friday weekly review lane."
+  ],
+  "safe_code_prompt_routine_changes": [
+    "Add weekly-review quota fallback that records a provider-blocked review instead of failing before memory and Telegram reporting.",
+    "Preserve paper-only, stocks/ETFs-only, no-live-trading, no-options, no-crypto, no-margin, no-short-selling, and no-secrets guardrails."
+  ],
+  "signal_component_assessment": {
+    "chittick_cash": "Not re-evaluated live because provider quota blocked Sonar; retain existing local-memory policy.",
+    "hugging_face_filters": "Not re-evaluated live because provider quota blocked Sonar; retain downgrade/veto-only role.",
+    "social_buzz": "No live update; remains low-weight context only, capped at 10%.",
+    "congressional_disclosures": "No live update; remains delayed low-weight context only, capped at 5%."
+  },
+  "error": "POST https://api.perplexity.ai/chat/completions failed with 401: {\"error\":{\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information, visit https://www.perplexity.ai/settings/api.\",\"type\":\"insufficient_quota\",\"code\":401}}\n"
+}
