@@ -90,4 +90,15 @@ Unrealized P&L: $-42.34 (-8.5%)
 Order id: 74a13113-7f29-41f2-bad1-65186be662fd
 Reason: stop-loss: unrealized P&L -8.5% breached documented stop -8.0%
 Routine: End Of Day Summary
+## ORDER: Paper Sell IBRX - 2026-07-15 18:10:21 Eastern Daylight Time
+
+Symbol: IBRX
+Qty: 70.838252656
+Entry basis: $8.47
+Last price: $7.71
+Market value: $546.16
+Unrealized P&L: $-53.84 (-9.0%)
+Order id: 7ea195b8-64b5-4ca6-92c9-c04593ced38d
+Reason: stop-loss: unrealized P&L -9.0% breached documented stop -8.0%
+Routine: Midday Risk Scan
 
