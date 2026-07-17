@@ -101,4 +101,15 @@ Unrealized P&L: $-53.84 (-9.0%)
 Order id: 7ea195b8-64b5-4ca6-92c9-c04593ced38d
 Reason: stop-loss: unrealized P&L -9.0% breached documented stop -8.0%
 Routine: Midday Risk Scan
+## ORDER: Paper Sell GOOGL - 2026-07-17 18:13:40 Eastern Daylight Time
+
+Symbol: GOOGL
+Qty: 2.151289429
+Entry basis: $371.87
+Last price: $346.80
+Market value: $746.07
+Unrealized P&L: $-53.93 (-6.7%)
+Order id: 96439847-722e-4da9-9f15-9197dbad6246
+Reason: stop-loss: unrealized P&L -6.7% breached documented stop -6.0%
+Routine: Midday Risk Scan
 

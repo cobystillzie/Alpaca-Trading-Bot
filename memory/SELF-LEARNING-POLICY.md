@@ -32,11 +32,9 @@ This policy is updated by the weekly review and must be read by research, premar
     "Recent rejection history still needs to keep hard-ban, low-weight-only, allocation-blocked, and max-position-blocked ideas out of tradeable lanes."
   ],
   "rejected_patterns": [
-    "CAG: low_weight_signal",
     "FSLR: low_weight_signal",
     "GDDY: low_weight_signal",
     "GOOGL: hype_or_repeat_filter",
-    "SPOT: low_weight_signal",
     "TSM: low_weight_signal"
   ],
   "strategy_proposals": [

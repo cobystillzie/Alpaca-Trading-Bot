@@ -1949,4 +1949,30 @@ Positions:
 - NVDA: qty=4.00060009, market_value=827.548932, unrealized_pl=27.548932
 - SCHD: qty=25.2286345, market_value=832.789656, unrealized_pl=32.789656
 - SPMO: qty=6.119014838, market_value=889.337617, unrealized_pl=89.337617
+## Midday Risk Scan - 2026-07-17 18:13:41 Eastern Daylight Time
+
+Portfolio value: 100180.67
+Cash: 95396.38
+Buying power: 394981.54
+
+Positions:
+- DT: qty=20.289119959, market_value=901.039817, unrealized_pl=101.039817
+- GOOGL: qty=2.151289429, market_value=746.067174, unrealized_pl=-53.932826
+- LNC: qty=14.590020426, market_value=616.282463, unrealized_pl=116.282463
+- NVDA: qty=4.00060009, market_value=810.761614, unrealized_pl=10.761614
+- SCHD: qty=25.2286345, market_value=830.778934, unrealized_pl=30.778934
+- SPMO: qty=6.119014838, market_value=879.363622, unrealized_pl=79.363622
+## End Of Day Summary - 2026-07-17 18:13:44 Eastern Daylight Time
+
+Portfolio value: 100180.67
+Cash: 95396.38
+Buying power: 394981.54
+
+Positions:
+- DT: qty=20.289119959, market_value=901.039817, unrealized_pl=101.039817
+- GOOGL: qty=2.151289429, market_value=746.067174, unrealized_pl=-53.932826
+- LNC: qty=14.590020426, market_value=616.282463, unrealized_pl=116.282463
+- NVDA: qty=4.00060009, market_value=810.761614, unrealized_pl=10.761614
+- SCHD: qty=25.2286345, market_value=830.778934, unrealized_pl=30.778934
+- SPMO: qty=6.119014838, market_value=879.363622, unrealized_pl=79.363622
 

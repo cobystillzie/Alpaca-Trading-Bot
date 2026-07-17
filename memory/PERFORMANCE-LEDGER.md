@@ -9808,4 +9808,220 @@ Patience Gate
 
 Benchmark Context
 - Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## Performance Review - 2026-07-17 18:13:41 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-07-16 16:30:04 Eastern Daylight Time
+- Portfolio value: $100,232.43
+- P/L vs $100k baseline: $232.43
+- Full paper-account return: 0.232%
+- Managed-capital return: 2.32%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 6.00%
+- Latest position value: $4,836.02
+- Full-account cash reserve: 95.2%
+- Managed-capital cash reserve: 51.6%
+- Max snapshot drawdown: $5,898.84 from 2026-07-01 12:40:03 Eastern Daylight Time to 2026-07-07 16:30:05 Eastern Daylight Time
+
+Open Position Review
+- DT: winner, value $909.56, unrealized P/L $109.56, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 69 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: loser, value $765.75, unrealized P/L $-34.25, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 77 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: winner, value $611.03, unrealized P/L $111.03, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 65 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: winner, value $827.55, unrealized P/L $27.55, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 76 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $832.79, unrealized P/L $32.79, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 71 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $889.34, unrealized P/L $89.34, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 79 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- GOOGL: appeared 43 times; open position P/L $-34.25.
+- INTC: appeared 41 times; market outcome unavailable until benchmark/candidate price history is captured.
+- SCHD: appeared 34 times; open position P/L $32.79.
+- SPMO: appeared 32 times; open position P/L $89.34.
+- NVDA: appeared 29 times; open position P/L $27.55.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MSFT: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 11 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- UNP: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VALN: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Max open-position count would be exceeded.: 20
+  - Candidate references banned v1 instruments or leverage.: 19
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 11
+  - Low-weight social/congress signal needs at least two stronger sources.: 8
+  - Single-stock allocation would exceed 15%.: 7
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources.: 6
+  - Low-weight social/congress signal needs at least two stronger sources. secondary_catalyst_only Candidate is monitor-only and cannot be traded. Confidence below 0.55. Target allocation must be between 1% and 15%. Stop loss must be between 3% and 12%.: 6
+  - Low-weight social/congress signal needs at least two stronger sources. secondary_catalyst_only no_chart_confirmation Candidate is monitor-only and cannot be traded. Confidence below 0.55. Target allocation must be between 1% and 15%. Stop loss must be between 3% and 12%.: 6
+- By symbol:
+  - GOOGL: 19
+  - FSLR: 6
+  - GDDY: 6
+  - TSM: 6
+  - INTC: 5
+  - INTU: 5
+  - AGI: 3
+  - BAH: 3
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 8
+- congressional: 3
+- unknown: 3
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold met: 8 trades over 79 days.
+- Strategy tuning may be reviewed, but safety guardrails still apply.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## Performance Review - 2026-07-17 18:13:42 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-07-17 18:13:41 Eastern Daylight Time
+- Portfolio value: $100,180.67
+- P/L vs $100k baseline: $180.67
+- Full paper-account return: 0.181%
+- Managed-capital return: 1.81%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 5.08%
+- Latest position value: $4,784.29
+- Full-account cash reserve: 95.2%
+- Managed-capital cash reserve: 52.2%
+- Max snapshot drawdown: $5,898.84 from 2026-07-01 12:40:03 Eastern Daylight Time to 2026-07-07 16:30:05 Eastern Daylight Time
+
+Open Position Review
+- DT: winner, value $901.04, unrealized P/L $101.04, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 70 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: loser, value $746.07, unrealized P/L $-53.93, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 78 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: winner, value $616.28, unrealized P/L $116.28, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 66 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: winner, value $810.76, unrealized P/L $10.76, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 77 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $830.78, unrealized P/L $30.78, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 72 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $879.36, unrealized P/L $79.36, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 80 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- GOOGL: appeared 43 times; open position P/L $-53.93.
+- INTC: appeared 41 times; market outcome unavailable until benchmark/candidate price history is captured.
+- SCHD: appeared 34 times; open position P/L $30.78.
+- SPMO: appeared 32 times; open position P/L $79.36.
+- NVDA: appeared 29 times; open position P/L $10.76.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MSFT: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 11 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- UNP: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VALN: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Max open-position count would be exceeded.: 20
+  - Candidate references banned v1 instruments or leverage.: 19
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 11
+  - Low-weight social/congress signal needs at least two stronger sources.: 8
+  - Single-stock allocation would exceed 15%.: 7
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources.: 6
+  - Low-weight social/congress signal needs at least two stronger sources. secondary_catalyst_only Candidate is monitor-only and cannot be traded. Confidence below 0.55. Target allocation must be between 1% and 15%. Stop loss must be between 3% and 12%.: 6
+  - Low-weight social/congress signal needs at least two stronger sources. secondary_catalyst_only no_chart_confirmation Candidate is monitor-only and cannot be traded. Confidence below 0.55. Target allocation must be between 1% and 15%. Stop loss must be between 3% and 12%.: 6
+- By symbol:
+  - GOOGL: 19
+  - FSLR: 6
+  - GDDY: 6
+  - TSM: 6
+  - INTC: 5
+  - INTU: 5
+  - AGI: 3
+  - BAH: 3
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 8
+- congressional: 3
+- unknown: 3
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold met: 8 trades over 80 days.
+- Strategy tuning may be reviewed, but safety guardrails still apply.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## Performance Review - 2026-07-17 18:13:45 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-07-17 18:13:44 Eastern Daylight Time
+- Portfolio value: $100,180.67
+- P/L vs $100k baseline: $180.67
+- Full paper-account return: 0.181%
+- Managed-capital return: 1.81%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 5.08%
+- Latest position value: $4,784.29
+- Full-account cash reserve: 95.2%
+- Managed-capital cash reserve: 52.2%
+- Max snapshot drawdown: $5,898.84 from 2026-07-01 12:40:03 Eastern Daylight Time to 2026-07-07 16:30:05 Eastern Daylight Time
+
+Open Position Review
+- DT: winner, value $901.04, unrealized P/L $101.04, entry 2026-05-08 09:47:11 Eastern Daylight Time, thesis age 70 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- GOOGL: loser, value $746.07, unrealized P/L $-53.93, entry 2026-04-30 09:49:21 Eastern Daylight Time, thesis age 78 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- LNC: winner, value $616.28, unrealized P/L $116.28, entry 2026-05-12 09:55:08 Eastern Daylight Time, thesis age 66 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- NVDA: winner, value $810.76, unrealized P/L $10.76, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 77 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $830.78, unrealized P/L $30.78, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 72 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $879.36, unrealized P/L $79.36, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 80 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- GOOGL: appeared 43 times; open position P/L $-53.93.
+- INTC: appeared 41 times; market outcome unavailable until benchmark/candidate price history is captured.
+- SCHD: appeared 34 times; open position P/L $30.78.
+- SPMO: appeared 32 times; open position P/L $79.36.
+- NVDA: appeared 29 times; open position P/L $10.76.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MSFT: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 11 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- UNP: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VALN: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Max open-position count would be exceeded.: 20
+  - Candidate references banned v1 instruments or leverage.: 19
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 11
+  - Low-weight social/congress signal needs at least two stronger sources.: 8
+  - Single-stock allocation would exceed 15%.: 7
+  - Candidate references banned v1 instruments or leverage. Low-weight social/congress signal needs at least two stronger sources.: 6
+  - Low-weight social/congress signal needs at least two stronger sources. secondary_catalyst_only Candidate is monitor-only and cannot be traded. Confidence below 0.55. Target allocation must be between 1% and 15%. Stop loss must be between 3% and 12%.: 6
+  - Low-weight social/congress signal needs at least two stronger sources. secondary_catalyst_only no_chart_confirmation Candidate is monitor-only and cannot be traded. Confidence below 0.55. Target allocation must be between 1% and 15%. Stop loss must be between 3% and 12%.: 6
+- By symbol:
+  - GOOGL: 19
+  - FSLR: 6
+  - GDDY: 6
+  - TSM: 6
+  - INTC: 5
+  - INTU: 5
+  - AGI: 3
+  - BAH: 3
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 8
+- congressional: 3
+- unknown: 3
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold met: 8 trades over 80 days.
+- Strategy tuning may be reviewed, but safety guardrails still apply.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
 
