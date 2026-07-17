@@ -819,4 +819,39 @@ HF memory filter flags similarity to prior rejected patterns.
 Confidence below 0.55.
 Target allocation must be between 1% and 15%.
 Stop loss must be between 3% and 12%.
+## Rejected TSM - 2026-07-17 10:04:23 Eastern Daylight Time
+
+Low-weight social/congress signal needs at least two stronger sources.
+secondary_catalyst_only
+no_fresh_primary_event
+Candidate is monitor-only and cannot be traded.
+Confidence below 0.55.
+Target allocation must be between 1% and 15%.
+Stop loss must be between 3% and 12%.
+## Rejected FSLR - 2026-07-17 10:04:23 Eastern Daylight Time
+
+Low-weight social/congress signal needs at least two stronger sources.
+secondary_catalyst_only
+no_chart_confirmation
+Candidate is monitor-only and cannot be traded.
+Confidence below 0.55.
+Target allocation must be between 1% and 15%.
+Stop loss must be between 3% and 12%.
+## Rejected GDDY - 2026-07-17 10:04:23 Eastern Daylight Time
+
+Low-weight social/congress signal needs at least two stronger sources.
+secondary_catalyst_only
+Candidate is monitor-only and cannot be traded.
+Confidence below 0.55.
+Target allocation must be between 1% and 15%.
+Stop loss must be between 3% and 12%.
+## Rejected GOOGL - 2026-07-17 10:04:23 Eastern Daylight Time
+
+repeat_decay
+stale_catalyst
+memory_similarity
+HF memory filter flags similarity to prior rejected patterns.
+Confidence below 0.55.
+Target allocation must be between 1% and 15%.
+Stop loss must be between 3% and 12%.
 
