@@ -858,4 +858,39 @@ Stop loss must be between 3% and 12%.
 
 stop-loss: unrealized P&L -6.7% breached documented stop -6.0%
 Sell order failed: POST https://paper-api.alpaca.markets/v2/orders failed with 403: {"available":"0","code":40310000,"existing_qty":"2.151289429","held_for_orders":"2.151289429","message":"insufficient qty available for order (requested: 2.151289429, available: 0)","related_orders":["96439847-722e-4da9-9f15-9197dbad6246"],"symbol":"GOOGL"}
+## Rejected TSM - 2026-07-20 09:55:07 Eastern Daylight Time
+
+Low-weight social/congress signal needs at least two stronger sources.
+secondary_catalyst_only
+no_fresh_primary_event
+Candidate is monitor-only and cannot be traded.
+Confidence below 0.55.
+Target allocation must be between 1% and 15%.
+Stop loss must be between 3% and 12%.
+## Rejected FSLR - 2026-07-20 09:55:07 Eastern Daylight Time
+
+Low-weight social/congress signal needs at least two stronger sources.
+secondary_catalyst_only
+no_chart_confirmation
+Candidate is monitor-only and cannot be traded.
+Confidence below 0.55.
+Target allocation must be between 1% and 15%.
+Stop loss must be between 3% and 12%.
+## Rejected GDDY - 2026-07-20 09:55:07 Eastern Daylight Time
+
+Low-weight social/congress signal needs at least two stronger sources.
+secondary_catalyst_only
+Candidate is monitor-only and cannot be traded.
+Confidence below 0.55.
+Target allocation must be between 1% and 15%.
+Stop loss must be between 3% and 12%.
+## Rejected GOOGL - 2026-07-20 09:55:07 Eastern Daylight Time
+
+repeat_decay
+stale_catalyst
+memory_similarity
+HF memory filter flags similarity to prior rejected patterns.
+Confidence below 0.55.
+Target allocation must be between 1% and 15%.
+Stop loss must be between 3% and 12%.
 
