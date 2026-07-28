@@ -1935,4 +1935,16 @@ Premarket plan built from latest watchlist.
   rejects: Low-weight social/congress signal needs at least two stronger sources.; secondary_catalyst_only; Candidate is monitor-only and cannot be traded.; Confidence below 0.55.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
 - GOOGL: score=66, base=90, chittick=35, approved=False, allocation=0.0%, stop=0.0%
   rejects: repeat_decay; stale_catalyst; memory_similarity; HF memory filter flags similarity to prior rejected patterns.; Confidence below 0.55.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
+## Premarket Plan - 2026-07-28 08:25:02 Eastern Daylight Time
+
+Premarket plan built from latest watchlist.
+
+- TSM: score=66, base=90, chittick=35, approved=False, allocation=0.0%, stop=0.0%
+  rejects: Low-weight social/congress signal needs at least two stronger sources.; secondary_catalyst_only; no_fresh_primary_event; Candidate is monitor-only and cannot be traded.; Confidence below 0.55.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
+- FSLR: score=66, base=90, chittick=35, approved=False, allocation=0.0%, stop=0.0%
+  rejects: Low-weight social/congress signal needs at least two stronger sources.; secondary_catalyst_only; no_chart_confirmation; Candidate is monitor-only and cannot be traded.; Confidence below 0.55.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
+- GDDY: score=66, base=90, chittick=35, approved=False, allocation=0.0%, stop=0.0%
+  rejects: Low-weight social/congress signal needs at least two stronger sources.; secondary_catalyst_only; Candidate is monitor-only and cannot be traded.; Confidence below 0.55.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
+- GOOGL: score=66, base=90, chittick=35, approved=False, allocation=0.0%, stop=0.0%
+  rejects: repeat_decay; stale_catalyst; memory_similarity; HF memory filter flags similarity to prior rejected patterns.; Confidence below 0.55.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
 
