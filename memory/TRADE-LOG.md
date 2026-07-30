@@ -112,4 +112,15 @@ Unrealized P&L: $-53.93 (-6.7%)
 Order id: 96439847-722e-4da9-9f15-9197dbad6246
 Reason: stop-loss: unrealized P&L -6.7% breached documented stop -6.0%
 Routine: Midday Risk Scan
+## ORDER: Paper Sell LNC - 2026-07-30 12:40:03 Eastern Daylight Time
+
+Symbol: LNC
+Qty: 14.590020426
+Entry basis: $34.27
+Last price: $45.79
+Market value: $668.08
+Unrealized P&L: $168.08 (+33.6%)
+Order id: 3ca4bb85-1dab-4c50-9468-1bb49ffb2d31
+Reason: take-profit: unrealized P&L +33.6% reached target +25.0%
+Routine: Midday Risk Scan
 
