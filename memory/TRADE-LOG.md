@@ -123,4 +123,15 @@ Unrealized P&L: $168.08 (+33.6%)
 Order id: 3ca4bb85-1dab-4c50-9468-1bb49ffb2d31
 Reason: take-profit: unrealized P&L +33.6% reached target +25.0%
 Routine: Midday Risk Scan
+## ORDER: Paper Sell DT - 2026-08-05 12:40:05 Eastern Daylight Time
+
+Symbol: DT
+Qty: 20.289119959
+Entry basis: $39.43
+Last price: $51.10
+Market value: $1036.77
+Unrealized P&L: $236.77 (+29.6%)
+Order id: ad98eed9-0c31-425b-99ca-8ccedeb93e1b
+Reason: take-profit: unrealized P&L +29.6% reached target +25.0%
+Routine: Midday Risk Scan
 
