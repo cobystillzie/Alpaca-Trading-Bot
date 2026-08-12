@@ -53125,4 +53125,168 @@ Model notes: Explicitly suppressed by memory rules and stale-catalyst logic.
 Social buzz, max 10%: none
 Congress signal, max 5%: none
 Sources: https://www.zacks.com/stock/research/GOOGL/earnings-calendar, https://www.public.com/stocks/goog, https://finance.yahoo.com/quote/GOOGL/
+## Premarket Memo - 2026-08-12 08:25:01 Eastern Daylight Time
+
+Premarket Analyst Memo
+
+Recommendation: Execute only if guardrails pass; otherwise hold cash and wait for cleaner evidence.
+
+Market Regime
+Risk-on helps semis, but this strategy should avoid treating sector leadership alone as a fresh catalyst.
+
+Top Candidates
+
+1. TSM (semiconductors) | confidence 0.41 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket semiconductors | HF source 0/100 | HF veto
+Thesis: Taiwan Semiconductor remains a high-quality, cash-generative foundry leader, but in this workflow it is best treated as a *monitor-only* idea unless the current setup is backed by a fresh dated catalyst and chart confirmation. The congressional activity is positive context but too weak to drive execution by itself.
+Catalyst: Low-weight congressional disclosure context shows 8 purchases and 0 sales over the past 6 months, but this is delayed and secondary rather than a primary trading catalyst.
+Entry: Monitor only; do not execute unless a fresh earnings, guidance, filing, or confirmed breakout appears and the setup clears position and memory filters.
+Exit: If later activated, use a tight invalidation under the breakout level or post-catalyst low, and take profits into extension rather than assuming a multi-week trend will continue.
+Risk/reward: At present the reward is not well defined because the catalyst is weak; the risk is paying up for an already-known leader.
+Bear/adversary: The strongest objection is that this is just a strong business with no fresh tradable catalyst in the current packet.
+Source quality: Weak-to-moderate because the only explicit catalyst in the provided inputs is delayed congressional activity, which is secondary and not execution-grade.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: No clear valuation edge was established in the current inputs, so margin of safety is not yet proven.
+Valuation: The name may be high quality, but no current valuation input here makes it attractive enough for a fresh swing entry.
+Growth runway: Longer-term runway is supported by AI and advanced-node demand, but that is strategic context rather than a near-term catalyst.
+Balance-sheet risk: Balance-sheet risk is not the primary issue; the bigger issue is timing and catalyst quality.
+Capital allocation: Not enough current evidence in the packet to assess incremental capital-allocation value creation for a swing trade.
+Concentration case: It is an underrepresented large-cap quality semiconductor idea, but the workflow currently needs fresher, harder evidence before it can outrank other opportunities.
+Owner thesis, 30-180 days: Would justify review if a fresh earnings beat, raised guidance, or a confirmed technical breakout aligns with improving demand commentary over the next 30-180 days.
+Chittick reject reason: monitor-only secondary signal; no fresh primary catalyst
+Self-Learning Filter
+Catalyst type: general
+Fresh catalyst: yes
+Repeat count, 48h: 0
+Diversity bucket: semiconductors
+Research tier: monitor-only
+Allocation learning: Keep at 0% until a dated primary catalyst appears and repeat-decay is reset by new evidence. Recent rejection depended on low-weight social/congress evidence; keep monitor-only until fundamental sources independently support it.
+Hugging Face Filter
+Sentiment: neutral (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.28
+Evidence rank: 0/100
+Memory similarity: 0.22
+Vetoes: secondary_catalyst_only; no_fresh_primary_event
+Model notes: Included only as a research-priority monitor from the watchlist; not execution-ready under the current evidence stack.
+Social buzz, max 10%: none
+Congress signal, max 5%: Members of Congress traded Taiwan Semiconductor 8 times in the past 6 months, all purchases, but this is only low-weight context.
+Sources: https://www.quiverquant.com/news/$TSM+stock+is+up+5%25+today.+Here's+what+we+see+in+our+data.
+
+2. FSLR (clean energy / solar) | confidence 0.38 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket solar-renewables | HF source 0/100 | HF veto
+Thesis: First Solar is a quality domestic solar manufacturer with policy sensitivity and operating leverage to U.S. utility-scale demand, but here it belongs in a muted lane because the evidence provided is secondary and not a clean fresh trade catalyst.
+Catalyst: Low-weight congressional disclosure context shows 1 purchase and 1 sale over the past 6 months, which is not strong enough to be the main reason for a trade.
+Entry: Monitor only until there is a dated earnings, guidance, or policy-linked catalyst with technical confirmation.
+Exit: If activated later, use a catalyst low as invalidation and avoid overholding after the first post-news expansion.
+Risk/reward: The setup is not defined well enough right now to claim a favorable risk/reward.
+Bear/adversary: The best objection is that congressional activity is delayed and noisy, so it should not override a lack of primary corporate or technical confirmation.
+Source quality: Weak because the supplied catalyst is secondary disclosure flow rather than company-driven evidence.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: No valuation or downside-protection edge was established in the supplied material.
+Valuation: Not enough evidence here to argue the current price is compelling versus business risk.
+Growth runway: Longer-term growth is tied to U.S. solar deployment, but that is not a short-horizon catalyst in this packet.
+Balance-sheet risk: Not enough current filing evidence was provided to elevate or dismiss balance-sheet risk.
+Capital allocation: Insufficient current evidence to judge capital discipline for this execution window.
+Concentration case: Solar is underrepresented, but this still does not overcome the weak catalyst problem.
+Owner thesis, 30-180 days: Would only justify a 30-180 day review if policy/earnings updates improve visibility and the stock starts showing sustained relative strength.
+Chittick reject reason: monitor-only secondary signal; no fresh primary catalyst
+Self-Learning Filter
+Catalyst type: general
+Fresh catalyst: yes
+Repeat count, 48h: 0
+Diversity bucket: solar-renewables
+Research tier: monitor-only
+Allocation learning: Keep at 0% until a stronger primary catalyst and setup confirmation appear. Recent rejection depended on low-weight social/congress evidence; keep monitor-only until fundamental sources independently support it.
+Hugging Face Filter
+Sentiment: neutral (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.31
+Evidence rank: 0/100
+Memory similarity: 0.19
+Vetoes: secondary_catalyst_only; no_chart_confirmation
+Model notes: Secondary signal only; not execution-ready.
+Social buzz, max 10%: none
+Congress signal, max 5%: Members of Congress traded First Solar 2 times in the past 6 months, split between 1 purchase and 1 sale.
+Sources: https://www.quiverquant.com/news/Why+First+Solar+(FSLR)+Stock+Is+Up+Today
+
+3. GDDY (software / internet services) | confidence 0.40 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier monitor-only | bucket software-internet-services | HF source 0/100 | HF veto
+Thesis: GoDaddy is a higher-quality software/hosting business with recurring revenue characteristics, but the current packet only supports it as a watchlist name because the evidence is secondary and not sufficiently fresh for execution.
+Catalyst: Low-weight congressional activity shows 2 purchases and 2 sales in the past 6 months, which is mixed and delayed rather than decisive.
+Entry: Monitor only; wait for a primary catalyst such as earnings, guidance, or a technical breakout with volume.
+Exit: If later activated, reduce on extension and invalidate on loss of the breakout zone or post-event support.
+Risk/reward: The risk/reward is not compelling yet because the evidence stack is too weak for a clean entry.
+Bear/adversary: The strongest objection is that this is a good business but not a current trade.
+Source quality: Weak-to-moderate because the current evidence is only secondary disclosure flow, not a company update.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: No valuation edge was demonstrated in the supplied packet, so downside protection is not established.
+Valuation: The business may be quality, but the current materials do not show it is cheap enough or fresh enough to buy now.
+Growth runway: Longer-term growth can come from SMB digital tools and web-services monetization, but that is not a dated swing catalyst.
+Balance-sheet risk: No balance-sheet red flag was highlighted in the provided materials, but this was not the focus of the current evidence.
+Capital allocation: Insufficient evidence in the packet to assess whether management is creating a near-term reinvestment edge.
+Concentration case: This is a useful diversification candidate outside the crowded mega-cap/semiconductor lanes, but it still lacks an execution-grade catalyst.
+Owner thesis, 30-180 days: Would merit a 30-180 day review if earnings or product monetization improves and relative strength persists.
+Chittick reject reason: monitor-only secondary signal; no fresh primary catalyst
+Self-Learning Filter
+Catalyst type: general
+Fresh catalyst: yes
+Repeat count, 48h: 0
+Diversity bucket: software-internet-services
+Research tier: monitor-only
+Allocation learning: Use only as a diversified monitor until a dated catalyst appears.
+Hugging Face Filter
+Sentiment: neutral (0.00), agreement 0.00
+Source quality: 0/100
+Hype risk: 0.22
+Evidence rank: 0/100
+Memory similarity: 0.18
+Vetoes: secondary_catalyst_only
+Model notes: Underweighted disclosure-only context; not enough to trade.
+Social buzz, max 10%: none
+Congress signal, max 5%: Members of Congress traded GoDaddy 4 times in the past 6 months, with 2 buys and 2 sells.
+Sources: https://www.quiverquant.com/news/Lobbying+Update:+$40,000+of+GODADDY+INC.+lobbying+was+just+disclosed
+
+4. GOOGL (mega-cap internet / cloud) | confidence 0.22 | allocation 0.0% | stop 0.0% | Chittick 35/100 | tier stale-watch | bucket mega-cap-internet-cloud | HF source 1/100 | HF veto
+Thesis: Alphabet remains a high-quality compounder, but this workflow should not recycle it into execution when the catalyst is stale and repeat-decay is active. The current inputs do not supply a fresh enough event to override the memory filters.
+Catalyst: Current evidence is limited to general earnings-history context and broad tech optimism, which the workflow explicitly treats as background rather than a fresh catalyst.
+Entry: Do not execute; keep as a stale monitor unless a new earnings release, filing, guidance change, or confirmed breakout creates a genuine delta.
+Exit: If revisited later, exit quickly on failure to hold the breakout or on any evidence that the post-event move is fading.
+Risk/reward: The risk/reward is poor right now because the name has been repeatedly surfaced without a new edge.
+Bear/adversary: The strongest objection is that this is exactly the kind of repeated large-cap name the filter set is designed to suppress absent a hard fresh catalyst.
+Source quality: Moderate for quality, weak for timing, and insufficient for execution.
+Chittick Cash Filter
+Score: 35/100
+Margin of safety: Despite business quality, the current entry lacks a clear margin-of-safety or timing edge.
+Valuation: Quality is not the issue; the issue is that the market has already had many chances to price it efficiently.
+Growth runway: Alphabet still has long-run AI, ads, and cloud runway, but that is not a new 1-10 day catalyst.
+Balance-sheet risk: Balance-sheet risk is low relative to peers, but capex intensity and concentration risk remain relevant.
+Capital allocation: Capital allocation is generally strong, but buybacks and capex do not create a fresh short-horizon trade by themselves.
+Concentration case: It is a high-quality name, yet repeated memory decay makes it inferior to fresher alternatives for execution.
+Owner thesis, 30-180 days: Would only be revisited for a 30-180 day owner thesis after a new filing/earnings/guidance change resets the catalyst clock.
+Chittick reject reason: repeat_decay and stale_catalyst
+Self-Learning Filter
+Catalyst type: general
+Fresh catalyst: yes
+Repeat count, 48h: 0
+Diversity bucket: mega-cap-internet-cloud
+Research tier: stale-watch
+Allocation learning: Do not recycle without a dated catalyst delta.
+Hugging Face Filter
+Sentiment: neutral (0.00), agreement 0.00
+Source quality: 1/100
+Hype risk: 0.15
+Evidence rank: 0/100
+Memory similarity: 0.92
+Vetoes: repeat_decay; stale_catalyst; memory_similarity
+Model notes: Explicitly suppressed by memory rules and stale-catalyst logic.
+Social buzz, max 10%: none
+Congress signal, max 5%: none
+Sources: https://www.zacks.com/stock/research/GOOGL/earnings-calendar, https://www.public.com/stocks/goog, https://finance.yahoo.com/quote/GOOGL/
+
+Rejected / Watchouts
+- TSM: Low-weight social/congress signal needs at least two stronger sources.; secondary_catalyst_only; no_fresh_primary_event; Candidate is monitor-only and cannot be traded.; Confidence below 0.55.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
+- FSLR: Low-weight social/congress signal needs at least two stronger sources.; secondary_catalyst_only; no_chart_confirmation; Candidate is monitor-only and cannot be traded.; Confidence below 0.55.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
+- GDDY: Low-weight social/congress signal needs at least two stronger sources.; secondary_catalyst_only; Candidate is monitor-only and cannot be traded.; Confidence below 0.55.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
+- GOOGL: repeat_decay; stale_catalyst; memory_similarity; HF memory filter flags similarity to prior rejected patterns.; Confidence below 0.55.; Target allocation must be between 1% and 15%.; Stop loss must be between 3% and 12%.
 
