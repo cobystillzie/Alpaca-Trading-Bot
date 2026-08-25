@@ -13443,4 +13443,73 @@ Patience Gate
 
 Benchmark Context
 - Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
+## Performance Review - 2026-08-25 12:40:03 Eastern Daylight Time
+
+Performance Ledger
+
+Account Summary
+- First snapshot: 2026-04-29 12:32:25 Eastern Daylight Time
+- Latest snapshot: 2026-08-25 12:40:02 Eastern Daylight Time
+- Portfolio value: $100,497.82
+- P/L vs $100k baseline: $497.82
+- Full paper-account return: 0.498%
+- Managed-capital return: 4.98%
+- Deployed basis: $5,600.00
+- Return on deployed basis: 4.22%
+- Latest position value: $2,636.21
+- Full-account cash reserve: 97.4%
+- Managed-capital cash reserve: 73.6%
+- Max snapshot drawdown: $5,898.84 from 2026-07-01 12:40:03 Eastern Daylight Time to 2026-07-07 16:30:05 Eastern Daylight Time
+
+Open Position Review
+- NVDA: winner, value $849.73, unrealized P/L $49.73, entry 2026-05-01 10:53:38 Eastern Daylight Time, thesis age 116 days, stop 7.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SCHD: winner, value $885.40, unrealized P/L $85.40, entry 2026-05-06 09:46:52 Eastern Daylight Time, thesis age 111 days, stop 8.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+- SPMO: winner, value $901.09, unrealized P/L $101.09, entry 2026-04-28 23:59:30 Eastern Daylight Time, thesis age 119 days, stop 6.0%, catalyst status open, thesis validity requires next close review, next review next reporting cycle.
+
+Candidate Outcome Tracker
+- GOOGL: appeared 43 times; market outcome unavailable until benchmark/candidate price history is captured.
+- INTC: appeared 41 times; market outcome unavailable until benchmark/candidate price history is captured.
+- SCHD: appeared 34 times; open position P/L $85.40.
+- SPMO: appeared 32 times; open position P/L $101.09.
+- NVDA: appeared 29 times; open position P/L $49.73.
+- PEG: appeared 16 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MSFT: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VYM: appeared 12 times; market outcome unavailable until benchmark/candidate price history is captured.
+- PLTR: appeared 11 times; market outcome unavailable until benchmark/candidate price history is captured.
+- MUX: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- UNP: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+- VALN: appeared 10 times; market outcome unavailable until benchmark/candidate price history is captured.
+
+Rejection Analytics
+- By reason:
+  - Low-weight social/congress signal needs at least two stronger sources. secondary_catalyst_only Candidate is monitor-only and cannot be traded. Confidence below 0.55. Target allocation must be between 1% and 15%. Stop loss must be between 3% and 12%.: 29
+  - Low-weight social/congress signal needs at least two stronger sources. secondary_catalyst_only no_chart_confirmation Candidate is monitor-only and cannot be traded. Confidence below 0.55. Target allocation must be between 1% and 15%. Stop loss must be between 3% and 12%.: 29
+  - Low-weight social/congress signal needs at least two stronger sources. secondary_catalyst_only no_fresh_primary_event Candidate is monitor-only and cannot be traded. Confidence below 0.55. Target allocation must be between 1% and 15%. Stop loss must be between 3% and 12%.: 29
+  - repeat_decay stale_catalyst memory_similarity HF memory filter flags similarity to prior rejected patterns. Confidence below 0.55. Target allocation must be between 1% and 15%. Stop loss must be between 3% and 12%.: 29
+  - Max open-position count would be exceeded.: 20
+  - Candidate references banned v1 instruments or leverage.: 19
+  - Candidate references banned v1 instruments or leverage. Candidate is monitor-only and cannot be traded. Target allocation must be between 1% and 15%.: 11
+  - Low-weight social/congress signal needs at least two stronger sources.: 8
+- By symbol:
+  - GOOGL: 42
+  - FSLR: 29
+  - GDDY: 29
+  - TSM: 29
+  - INTC: 5
+  - INTU: 5
+  - AGI: 3
+  - BAH: 3
+
+Source Quality Attribution
+- HF vetoes on latest candidates: 8
+- congressional: 3
+- unknown: 3
+- Attribution is observational only until candidate outcome history is captured.
+
+Patience Gate
+- Data threshold met: 8 trades over 119 days.
+- Strategy tuning may be reviewed, but safety guardrails still apply.
+
+Benchmark Context
+- Benchmark price series is not stored in repo memory yet; compare against SPY/SPMO after benchmark snapshots are added.
 
