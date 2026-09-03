@@ -2600,4 +2600,14 @@ Positions:
 - NVDA: qty=4.00060009, market_value=910.550583, unrealized_pl=110.550583
 - SCHD: qty=25.2286345, market_value=885.651214, unrealized_pl=85.651214
 - SPMO: qty=6.119014838, market_value=899.18923, unrealized_pl=99.18923
+## End Of Day Summary - 2026-09-03 16:30:03 Eastern Daylight Time
+
+Portfolio value: 100562.16
+Cash: 97861.61
+Buying power: 399007.98
+
+Positions:
+- NVDA: qty=4.00060009, market_value=913.937091, unrealized_pl=113.937091
+- SCHD: qty=25.2286345, market_value=884.364554, unrealized_pl=84.364554
+- SPMO: qty=6.119014838, market_value=902.248738, unrealized_pl=102.248738
 
