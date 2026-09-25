@@ -57,5 +57,5 @@ This policy is updated by the weekly review and must be read by research, premar
     "social_buzz": "No live update; remains low-weight context only, capped at 10%.",
     "congressional_disclosures": "No live update; remains delayed low-weight context only, capped at 5%."
   },
-  "error": "POST https://api.perplexity.ai/chat/completions failed with 401: {\"error\":{\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information, visit https://www.perplexity.ai/settings/api.\",\"type\":\"insufficient_quota\",\"code\":401}}\n"
+  "error": "POST https://api.perplexity.ai/chat/completions failed with 401: {\"error\":{\"message\":\"You exceeded your current quota, add credits at https://console.perplexity.ai/project/billing.\",\"type\":\"insufficient_quota\",\"code\":401}}\n"
 }
